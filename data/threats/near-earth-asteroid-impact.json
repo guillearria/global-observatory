@@ -1,0 +1,57 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "very-low",
+      "numeric_annual": null,
+      "window": "next-100-years"
+    },
+    "severity": "continental",
+    "summary": "A rare, high-consequence impact; no known large object currently threatens Earth, though the catalogue of hazardous-size objects is incomplete.",
+    "timeframe": "No known object of concern is on an impact trajectory this century."
+  },
+  "category": "cosmic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-06-29",
+      "source_name": "NASA",
+      "source_url": "https://www.nasa.gov/solar-system/near-earth-object-observations-program/",
+      "text": "NASA reports that no known asteroid larger than 140 meters has a significant chance of hitting Earth for the next 100 years.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-06-29",
+      "source_name": "NASA",
+      "source_url": "https://www.nasa.gov/solar-system/near-earth-object-observations-program/",
+      "text": "NASA reports that fewer than half of the estimated 25,000 near-Earth objects 140 meters and larger have been found to date.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A sufficiently large near-Earth object striking Earth would cause regional to continental devastation. NASA's Planetary Defense effort catalogues and tracks the larger near-Earth object population to assess impact hazards decades in advance.",
+  "id": "near-earth-asteroid-impact",
+  "last_updated": "2026-06-29T00:00:00Z",
+  "name": "Near-Earth Asteroid Impact",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-06-29T00:00:00Z",
+        "layer": "verify",
+        "run_id": "manual-2026-06-29"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "manual-2026-06-29"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 21.0,
+    "probability_rank": 1,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

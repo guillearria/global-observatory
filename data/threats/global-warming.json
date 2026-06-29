@@ -1,0 +1,49 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "very-high",
+      "numeric_annual": null,
+      "window": "ongoing"
+    },
+    "severity": "civilizational",
+    "summary": "An ongoing, human-caused warming of the climate system with civilizational-scale risks under continued high emissions.",
+    "timeframe": "Already underway; impacts intensify with cumulative emissions."
+  },
+  "category": "climate",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-06-29",
+      "source_name": "IPCC",
+      "source_url": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
+      "text": "The IPCC's Sixth Assessment Report attributes approximately 1.1 °C of global warming since 1850-1900 to human activities.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Sustained warming of Earth's climate system driven by human greenhouse-gas emissions, with widespread impacts on weather extremes, sea level, ecosystems, and human systems. Unlike discrete events, it is an ongoing, intensifying process.",
+  "id": "global-warming",
+  "last_updated": "2026-06-29T00:00:00Z",
+  "name": "Climate Change (Global Warming)",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-06-29T00:00:00Z",
+        "layer": "verify",
+        "run_id": "manual-2026-06-29"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "manual-2026-06-29"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 35.0,
+    "probability_rank": 5,
+    "severity_rank": 3
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

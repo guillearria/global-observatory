@@ -1,0 +1,57 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "high",
+      "numeric_annual": null,
+      "window": "next-100-years"
+    },
+    "severity": "continental",
+    "summary": "A recurrent biological threat whose severe-pandemic form could greatly exceed the already-large annual burden of seasonal influenza.",
+    "timeframe": "Pandemics recur on the order of every few decades; timing is not predictable."
+  },
+  "category": "biological",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-06-29",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+      "text": "The WHO estimates that seasonal influenza causes about 290,000 to 650,000 respiratory deaths worldwide each year.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-06-29",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+      "text": "The WHO estimates that annual seasonal influenza epidemics result in about 3 to 5 million cases of severe illness worldwide.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A novel influenza strain to which the population has little immunity could spread worldwide and cause mortality far exceeding ordinary seasonal influenza, as in 1918. Influenza pandemics have recurred several times per century.",
+  "id": "influenza-pandemic",
+  "last_updated": "2026-06-29T00:00:00Z",
+  "name": "Influenza Pandemic",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-06-29T00:00:00Z",
+        "layer": "verify",
+        "run_id": "manual-2026-06-29"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "manual-2026-06-29"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 24.0,
+    "probability_rank": 4,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

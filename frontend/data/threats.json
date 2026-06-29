@@ -1,6 +1,169 @@
 {
-  "last_updated": "2026-06-28T06:02:30Z",
+  "last_updated": "2026-06-29T00:00:00Z",
   "published": [
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "very-high",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "civilizational",
+        "summary": "An ongoing, human-caused warming of the climate system with civilizational-scale risks under continued high emissions.",
+        "timeframe": "Already underway; impacts intensify with cumulative emissions."
+      },
+      "category": "climate",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-06-29",
+          "source_name": "IPCC",
+          "source_url": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
+          "text": "The IPCC's Sixth Assessment Report attributes approximately 1.1 °C of global warming since 1850-1900 to human activities.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Sustained warming of Earth's climate system driven by human greenhouse-gas emissions, with widespread impacts on weather extremes, sea level, ecosystems, and human systems. Unlike discrete events, it is an ongoing, intensifying process.",
+      "id": "global-warming",
+      "last_updated": "2026-06-29T00:00:00Z",
+      "name": "Climate Change (Global Warming)",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-06-29T00:00:00Z",
+            "layer": "verify",
+            "run_id": "manual-2026-06-29"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "manual-2026-06-29"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 35.0,
+        "probability_rank": 5,
+        "severity_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "high",
+          "numeric_annual": null,
+          "window": "next-100-years"
+        },
+        "severity": "continental",
+        "summary": "A recurrent biological threat whose severe-pandemic form could greatly exceed the already-large annual burden of seasonal influenza.",
+        "timeframe": "Pandemics recur on the order of every few decades; timing is not predictable."
+      },
+      "category": "biological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-06-29",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "text": "The WHO estimates that seasonal influenza causes about 290,000 to 650,000 respiratory deaths worldwide each year.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-06-29",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "text": "The WHO estimates that annual seasonal influenza epidemics result in about 3 to 5 million cases of severe illness worldwide.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A novel influenza strain to which the population has little immunity could spread worldwide and cause mortality far exceeding ordinary seasonal influenza, as in 1918. Influenza pandemics have recurred several times per century.",
+      "id": "influenza-pandemic",
+      "last_updated": "2026-06-29T00:00:00Z",
+      "name": "Influenza Pandemic",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-06-29T00:00:00Z",
+            "layer": "verify",
+            "run_id": "manual-2026-06-29"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "manual-2026-06-29"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 24.0,
+        "probability_rank": 4,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "very-low",
+          "numeric_annual": null,
+          "window": "next-100-years"
+        },
+        "severity": "continental",
+        "summary": "A rare, high-consequence impact; no known large object currently threatens Earth, though the catalogue of hazardous-size objects is incomplete.",
+        "timeframe": "No known object of concern is on an impact trajectory this century."
+      },
+      "category": "cosmic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-06-29",
+          "source_name": "NASA",
+          "source_url": "https://www.nasa.gov/solar-system/near-earth-object-observations-program/",
+          "text": "NASA reports that no known asteroid larger than 140 meters has a significant chance of hitting Earth for the next 100 years.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-06-29",
+          "source_name": "NASA",
+          "source_url": "https://www.nasa.gov/solar-system/near-earth-object-observations-program/",
+          "text": "NASA reports that fewer than half of the estimated 25,000 near-Earth objects 140 meters and larger have been found to date.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A sufficiently large near-Earth object striking Earth would cause regional to continental devastation. NASA's Planetary Defense effort catalogues and tracks the larger near-Earth object population to assess impact hazards decades in advance.",
+      "id": "near-earth-asteroid-impact",
+      "last_updated": "2026-06-29T00:00:00Z",
+      "name": "Near-Earth Asteroid Impact",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-06-29T00:00:00Z",
+            "layer": "verify",
+            "run_id": "manual-2026-06-29"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "manual-2026-06-29"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 21.0,
+        "probability_rank": 1,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
     {
       "assessment": {
         "probability": {
