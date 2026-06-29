@@ -3,7 +3,7 @@ name = "end-times-tracker"
 version = "0.1.0"
 description = "A fully-automated, fact-based tracker of possible threats to humanity, where every published figure is grounded in an authoritative source."
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 license = { text = "MIT" }
 dependencies = [
     "anthropic>=0.40",
@@ -28,7 +28,7 @@ packages = ["pipeline", "pipeline.layers"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py312"
+target-version = "py311"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
