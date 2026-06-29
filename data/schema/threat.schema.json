@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://end-times-tracker/threat.schema.json",
+  "title": "Threat",
+  "description": "One tracked threat to humanity. Deliberately flat and free of pattern/min/max/length keywords so this exact schema can be reused as a Claude structured-output format; slug and range checks live in Python.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "category",
+    "description",
+    "assessment",
+    "claims",
+    "verification",
+    "provenance",
+    "last_updated",
+    "sort_keys"
+  ],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "id": {
+      "type": "string",
+      "description": "Stable slug, equals the filename without .json. Must match ^[a-z0-9-]+$ (enforced in Python)."
+    },
+    "name": { "type": "string" },
+    "category": {
+      "type": "string",
+      "enum": [
+        "cosmic",
+        "geological",
+        "nuclear",
+        "biological",
+        "climate",
+        "technological",
+        "resource",
+        "societal"
+      ]
+    },
+    "description": { "type": "string" },
+    "assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["probability", "severity", "timeframe", "summary"],
+      "properties": {
+        "probability": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["window", "estimate", "numeric_annual"],
+          "properties": {
+            "window": { "type": "string" },
+            "estimate": {
+              "type": "string",
+              "enum": ["very-low", "low", "medium", "high", "very-high"]
+            },
+            "numeric_annual": {
+              "type": ["number", "null"],
+              "description": "Optional published annual probability. Null unless an authoritative numeric figure exists."
+            }
+          }
+        },
+        "severity": {
+          "type": "string",
+          "enum": ["regional", "continental", "civilizational", "extinction"]
+        },
+        "timeframe": { "type": "string" },
+        "summary": { "type": "string" }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "text",
+          "source_name",
+          "source_url",
+          "retrieved_date",
+          "verification_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable per-threat id, e.g. claim-1. Lets re-verification diff in place."
+          },
+          "text": { "type": "string" },
+          "source_name": { "type": "string" },
+          "source_url": {
+            "type": "string",
+            "description": "Empty string until Verify grounds the claim. Only Verify may set this."
+          },
+          "retrieved_date": {
+            "type": "string",
+            "description": "ISO-8601 date the source was last retrieved, or empty string if never."
+          },
+          "verification_status": {
+            "type": "string",
+            "enum": ["verified", "unverified", "disputed"]
+          }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "confidence", "notes"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["verified", "partial", "quarantined", "unverified"]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["low", "medium", "high"]
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["last_layer", "last_run_id", "history"],
+      "properties": {
+        "last_layer": {
+          "type": "string",
+          "enum": ["generate", "verify", "cleanup", "optimize"]
+        },
+        "last_run_id": { "type": "string" },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["layer", "run_id", "at"],
+            "properties": {
+              "layer": {
+                "type": "string",
+                "enum": ["generate", "verify", "cleanup", "optimize"]
+              },
+              "run_id": { "type": "string" },
+              "at": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "last_updated": { "type": "string" },
+    "sort_keys": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["severity_rank", "probability_rank", "composite"],
+      "properties": {
+        "severity_rank": {
+          "type": "integer",
+          "description": "1-4; range enforced in Python."
+        },
+        "probability_rank": {
+          "type": "integer",
+          "description": "1-5; range enforced in Python."
+        },
+        "composite": { "type": "number" }
+      }
+    }
+  }
+}
