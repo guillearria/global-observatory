@@ -45,6 +45,8 @@ def _collect() -> list[dict]:
         elif line.strip() and cur is not None and "\t" in line:
             parts = line.split("\t")
             status, path = parts[0], parts[-1]
+            if not path.endswith(".json"):
+                continue
             slug = path.rsplit("/", 1)[-1].removesuffix(".json")
             if path.startswith("data/quarantine/") and status[0] in "AM":
                 cur["quarantined"].append(slug)

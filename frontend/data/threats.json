@@ -1,0 +1,78 @@
+{
+  "last_updated": "2026-06-28T06:02:30Z",
+  "published": [
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "very-low",
+          "numeric_annual": 7.3e-07,
+          "window": "next-100-years"
+        },
+        "severity": "continental",
+        "summary": "A continent-scale disaster with extremely low annual probability and no current signs of imminent eruption.",
+        "timeframe": "No reliable short-term forecast. The three largest past eruptions occurred ~2.1M, ~1.3M, and ~0.64M years ago."
+      },
+      "category": "geological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-06-28",
+          "source_name": "USGS Yellowstone Volcano Observatory",
+          "source_url": "https://www.usgs.gov/observatories/yvo/frequently-asked-questions",
+          "text": "The USGS estimates the annual probability of a Yellowstone supereruption at roughly 1 in 730,000.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-06-28",
+          "source_name": "USGS Yellowstone Volcano Observatory",
+          "source_url": "https://www.usgs.gov/volcanoes/yellowstone",
+          "text": "Yellowstone has produced three caldera-forming eruptions in the past ~2.1 million years.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A large caldera system beneath Yellowstone National Park capable of a 'supereruption' that would blanket much of North America in ash and inject climate-altering aerosols into the stratosphere. Such eruptions are extraordinarily rare and there is no evidence one is imminent.",
+      "id": "yellowstone-supervolcano",
+      "last_updated": "2026-06-28T06:02:30Z",
+      "name": "Yellowstone Supervolcano",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-06-28T06:00:14Z",
+            "layer": "generate",
+            "run_id": "2026-06-28T06-00-12Z-a1b2c3"
+          },
+          {
+            "at": "2026-06-28T06:01:48Z",
+            "layer": "verify",
+            "run_id": "2026-06-28T06-00-12Z-a1b2c3"
+          },
+          {
+            "at": "2026-06-28T06:02:05Z",
+            "layer": "cleanup",
+            "run_id": "2026-06-28T06-00-12Z-a1b2c3"
+          },
+          {
+            "at": "2026-06-28T06:02:30Z",
+            "layer": "optimize",
+            "run_id": "2026-06-28T06-00-12Z-a1b2c3"
+          }
+        ],
+        "last_layer": "optimize",
+        "last_run_id": "2026-06-28T06-00-12Z-a1b2c3"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 41.5,
+        "probability_rank": 1,
+        "severity_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "Both quantitative claims grounded in USGS primary sources.",
+        "status": "verified"
+      }
+    }
+  ],
+  "under_review": []
+}
