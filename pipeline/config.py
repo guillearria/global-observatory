@@ -66,22 +66,53 @@ SOURCE_ALLOWLIST: dict[str, str] = {
     "iaea.org": "IAEA",
     # resource (food / water / energy)
     "fao.org": "FAO",
+    "wfp.org": "UN World Food Programme",
     "unep.org": "UN Environment Programme",
     "iea.org": "IEA",
     # societal / cross-cutting
     "un.org": "United Nations",
     "worldbank.org": "World Bank",
     "oecd.org": "OECD",
+    "europa.eu": "European Union",  # EU institutions (only EU bodies use europa.eu)
+    "ohchr.org": "UN Human Rights (OHCHR)",  # human-rights / atrocity indicators
+    "unhcr.org": "UNHCR",  # forced displacement / refugee figures
+    "unesco.org": "UNESCO",  # education / cultural / scientific indicators
     # technological (AI risk) — official quantified sources are scarce here
-    # (ARCHITECTURE.md §11 #2). NIST's AI Risk Management Framework is the most
-    # defensible authoritative anchor; categories without coverage will tend to
-    # quarantine until more sources are added.
+    # (ARCHITECTURE.md §11 #2). NIST's AI Risk Management Framework was the only
+    # anchor; the additions below are official government / intergovernmental AI
+    # bodies so technological claims can verify instead of always quarantining.
     "nist.gov": "NIST",
+    "aisi.gov.uk": "UK AI Security Institute",  # UK govt AI risk research body
+    "oecd.ai": "OECD.AI",  # OECD AI Policy Observatory (intergovernmental)
+    "itu.int": "ITU",  # UN specialized agency for ICT / AI standards
 }
 
 # Severity / probability -> integer rank, used by the Optimize layer.
 SEVERITY_RANK = {"regional": 1, "continental": 2, "civilizational": 3, "extinction": 4}
 PROBABILITY_RANK = {"very-low": 1, "low": 2, "medium": 3, "high": 4, "very-high": 5}
+
+# --- Pricing (USD) ---------------------------------------------------------
+# Per-million-token list prices (input, output). Source: Anthropic pricing,
+# cached 2026-06-04 via the claude-api reference. Update when prices change.
+# Cache reads/writes are ignored here (this pipeline does no prompt caching).
+PRICING = {
+    "claude-opus-4-8": {"input": 5.00, "output": 25.00},
+    "claude-sonnet-4-6": {"input": 3.00, "output": 15.00},
+    "claude-haiku-4-5": {"input": 1.00, "output": 5.00},
+}
+# Web search server tool: USD per 1,000 searches (standard Anthropic rate).
+WEB_SEARCH_COST_PER_1K = 10.00
+
+
+def estimate_cost(model: str, input_tokens: int, output_tokens: int, web_searches: int = 0) -> float:
+    """Rough USD cost for one model call. Unknown models cost 0 (logged as such)."""
+    price = PRICING.get(model)
+    if not price:
+        return 0.0
+    cost = input_tokens / 1_000_000 * price["input"]
+    cost += output_tokens / 1_000_000 * price["output"]
+    cost += web_searches / 1_000 * WEB_SEARCH_COST_PER_1K
+    return cost
 
 
 def load_prompt(name: str) -> str:
