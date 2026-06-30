@@ -41,6 +41,7 @@ def _assert_generate_unsourced(proposals: list[dict]) -> None:
 
 def run(dry_run: bool = False, only_slug: str | None = None) -> dict:
     run_id = models.new_run_id()
+    client.reset_usage()
     client_obj = client.build_client(dry_run=dry_run)
     if not dry_run and client.is_dry_run(client_obj):
         print(
@@ -78,6 +79,7 @@ def run(dry_run: bool = False, only_slug: str | None = None) -> dict:
         "only_slug": only_slug,
         "published": sorted(r["id"] for r in optimized),
         "quarantined": sorted(r["id"] for r in quarantined),
+        "usage": client.usage_summary(),
     }
 
     if dry_run:
@@ -97,6 +99,15 @@ def _print_summary(summary: dict, *, wrote: bool) -> None:
     print(f"pipeline run {summary['run_id']} — {mode}")
     print(f"  published   ({len(summary['published'])}): {', '.join(summary['published']) or '-'}")
     print(f"  quarantined ({len(summary['quarantined'])}): {', '.join(summary['quarantined']) or '-'}")
+    usage = summary.get("usage", {})
+    if usage.get("by_model"):
+        print(f"  cost: ${usage['total_cost_usd']:.4f} across {sum(m['calls'] for m in usage['by_model'].values())} live calls")
+        for model, agg in sorted(usage["by_model"].items()):
+            print(
+                f"    {model}: {agg['calls']} calls, "
+                f"{agg['input_tokens']}+{agg['output_tokens']} tok, "
+                f"{agg['web_searches']} searches → ${agg['cost_usd']:.4f}"
+            )
 
 
 def main() -> None:

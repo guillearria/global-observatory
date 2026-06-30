@@ -1,5 +1,8 @@
 """The deterministic quarantine gate is the core trust defense — test it directly."""
 
+import pytest
+
+from pipeline.config import allowlisted
 from pipeline.layers.verify import apply_gate
 
 
@@ -59,3 +62,33 @@ def test_no_verified_claim_quarantines():
 def test_source_name_normalized_to_allowlist_label():
     r = apply_gate(_rec([_claim("verified", "https://cneos.jpl.nasa.gov/x")]))
     assert r["claims"][0]["source_name"] == "NASA CNEOS"
+
+
+@pytest.mark.parametrize(
+    "url, label",
+    [
+        ("https://www.aisi.gov.uk/work", "UK AI Security Institute"),
+        ("https://oecd.ai/en/dashboards", "OECD.AI"),
+        ("https://www.itu.int/en/ai", "ITU"),
+        ("https://www.ohchr.org/en/report", "UN Human Rights (OHCHR)"),
+        ("https://www.unhcr.org/refugee-statistics", "UNHCR"),
+        ("https://www.unesco.org/en/data", "UNESCO"),
+        ("https://www.wfp.org/hunger-map", "UN World Food Programme"),
+        ("https://digital-strategy.ec.europa.eu/en/ai-act", "European Union"),
+    ],
+)
+def test_new_authoritative_domains_are_allowlisted(url, label):
+    ok, got = allowlisted(url)
+    assert ok and got == label
+
+
+def test_specific_europa_subdomain_keeps_its_finer_label():
+    # europa.eu is now allowlisted, but the more-specific ecdc.europa.eu must still win.
+    ok, label = allowlisted("https://www.ecdc.europa.eu/en/flu")
+    assert ok and label == "ECDC"
+
+
+def test_new_domain_claim_publishes_through_gate():
+    r = apply_gate(_rec([_claim("verified", "https://www.aisi.gov.uk/research")]))
+    assert r["verification"]["status"] == "verified"
+    assert r["claims"][0]["source_name"] == "UK AI Security Institute"
