@@ -51,7 +51,6 @@
         "location",
         "status",
         "scale",
-        "magnitude",
         "impact",
         "live_source_url"
       ],
@@ -63,12 +62,10 @@
         "location": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["country", "region", "lat", "lon"],
+          "required": ["country", "region"],
           "properties": {
             "country": { "type": "string" },
-            "region": { "type": "string" },
-            "lat": { "type": ["number", "null"] },
-            "lon": { "type": ["number", "null"] }
+            "region": { "type": "string" }
           }
         },
         "status": {
@@ -78,10 +75,6 @@
         "scale": {
           "type": "string",
           "description": "Human-readable magnitude/scale, e.g. \"M6.3\", \"Category 4\", \"PHEIC\"."
-        },
-        "magnitude": {
-          "type": ["number", "null"],
-          "description": "Optional numeric magnitude (quake mag, storm category) when one exists."
         },
         "impact": {
           "type": "object",

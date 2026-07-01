@@ -12,10 +12,9 @@ from pipeline.schema import ValidationError
 def _draft(source_url, **event_overrides):
     event = {
         "occurrence_date": "2026-06-25",
-        "location": {"country": "Venezuela", "region": "Near Moron", "lat": 10.5, "lon": -68.2},
+        "location": {"country": "Venezuela", "region": "Near Moron"},
         "status": "ongoing",
         "scale": "M7.5",
-        "magnitude": 7.5,
         "impact": {"deaths": 12, "displaced": 5000, "summary": "Figures as of 2026-06-30."},
         "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/x",
     }
@@ -62,9 +61,11 @@ def test_event_rejects_bad_slug():
         finalize(bad, kind="event")
 
 
-def test_event_rejects_out_of_range_lat():
+def test_event_schema_has_no_lat_lon_or_magnitude():
+    # Phase 1 dropped lat/lon/magnitude: unused by any consumer, always null in real
+    # seed data. additionalProperties: false means the schema now rejects them outright.
     bad = _draft("https://earthquake.usgs.gov/x")
-    bad["event"]["location"]["lat"] = 200.0  # out of -90..90
+    bad["event"]["location"]["lat"] = 10.5
     with pytest.raises(ValidationError):
         finalize(bad, kind="event")
 

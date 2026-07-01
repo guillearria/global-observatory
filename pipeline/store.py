@@ -10,11 +10,19 @@ from pathlib import Path
 from . import config, models
 
 
+# Lambdas, not frozen paths: dirs are read from `config` at call time so tests can
+# `monkeypatch.setattr(config, "THREATS_DIR", ...)` for isolation (mirrors schema.py's
+# _SCHEMA_PATHS, which has the same requirement for the same reason).
+_KIND_DIRS: dict[str, tuple] = {
+    "threat": (lambda: config.THREATS_DIR, lambda: config.QUARANTINE_DIR),
+    "event": (lambda: config.EVENTS_DIR, lambda: config.QUARANTINE_EVENTS_DIR),
+}
+
+
 def dirs_for(kind: str = "threat") -> tuple[Path, Path]:
     """(published_dir, quarantine_dir) for a record kind. Threat is the default."""
-    if kind == "event":
-        return config.EVENTS_DIR, config.QUARANTINE_EVENTS_DIR
-    return config.THREATS_DIR, config.QUARANTINE_DIR
+    published, quarantine = _KIND_DIRS[kind]
+    return published(), quarantine()
 
 
 def path_for(slug: str, kind: str = "threat") -> Path:

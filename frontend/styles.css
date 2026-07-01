@@ -74,7 +74,7 @@ body {
 .badge-unverified { color: var(--text); background: var(--panel-2); border-color: var(--grey); }
 .badge-disputed { color: #0f1115; background: var(--red); border-color: var(--red); }
 .badge-review   { color: #0f1115; background: var(--amber); border-color: var(--amber); }
-.badge-sev, .badge-prob, .badge-scale { background: var(--panel-2); }
+.badge-sev, .badge-prob, .badge-scale, .badge-cat { background: var(--panel-2); }
 .badge-conf { background: transparent; }
 /* Event status badges. */
 .badge-ongoing   { color: #0f1115; background: var(--red); border-color: var(--red); }

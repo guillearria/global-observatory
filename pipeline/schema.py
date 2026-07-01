@@ -80,12 +80,6 @@ def _event_range_checks(record: dict) -> list[str]:
     ir = sk.get("impact_rank")
     if isinstance(ir, int) and not 1 <= ir <= 4:
         msgs.append(f"sort_keys.impact_rank: {ir} out of range 1-4")
-    loc = (record.get("event") or {}).get("location") or {}
-    lat, lon = loc.get("lat"), loc.get("lon")
-    if isinstance(lat, (int, float)) and not -90 <= lat <= 90:
-        msgs.append(f"event.location.lat: {lat} out of range -90..90")
-    if isinstance(lon, (int, float)) and not -180 <= lon <= 180:
-        msgs.append(f"event.location.lon: {lon} out of range -180..180")
     return msgs
 
 

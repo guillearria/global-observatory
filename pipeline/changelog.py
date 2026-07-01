@@ -1,7 +1,7 @@
 """Regenerate CHANGELOG.md from git history. The git log IS the changelog; this is a projection.
 
-Walks `git log --name-status` over data/threats/ and data/quarantine/ and renders dated
-sections per commit listing added / updated / quarantined slugs.
+Walks `git log --name-status` over every published/quarantine dir (threats and events) and
+renders dated sections per commit listing added / updated / quarantined slugs.
 """
 
 from __future__ import annotations
@@ -11,6 +11,8 @@ import subprocess
 from . import config
 
 _FMT = "%x00C%x00%h%x00%ad%x00%s"
+_PUBLISHED_DIRS = ("data/threats", "data/events")
+_QUARANTINE_DIRS = ("data/quarantine", "data/quarantine-events")
 
 
 def _git(*args: str) -> str:
@@ -30,8 +32,8 @@ def _collect() -> list[dict]:
         "--date=short",
         f"--pretty=format:{_FMT}",
         "--",
-        "data/threats",
-        "data/quarantine",
+        *_PUBLISHED_DIRS,
+        *_QUARANTINE_DIRS,
     )
     commits: list[dict] = []
     cur: dict | None = None
@@ -48,11 +50,11 @@ def _collect() -> list[dict]:
             if not path.endswith(".json"):
                 continue
             slug = path.rsplit("/", 1)[-1].removesuffix(".json")
-            if path.startswith("data/quarantine/") and status[0] in "AM":
+            if path.startswith(tuple(d + "/" for d in _QUARANTINE_DIRS)) and status[0] in "AM":
                 cur["quarantined"].append(slug)
-            elif path.startswith("data/threats/") and status[0] == "A":
+            elif path.startswith(tuple(d + "/" for d in _PUBLISHED_DIRS)) and status[0] == "A":
                 cur["added"].append(slug)
-            elif path.startswith("data/threats/") and status[0] == "M":
+            elif path.startswith(tuple(d + "/" for d in _PUBLISHED_DIRS)) and status[0] == "M":
                 cur["updated"].append(slug)
     if cur:
         commits.append(cur)
@@ -63,8 +65,8 @@ def render() -> str:
     lines = [
         "# Changelog",
         "",
-        "_Generated from git history over `data/threats/` and `data/quarantine/` by "
-        "`pipeline.changelog`. Do not edit by hand._",
+        "_Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, "
+        "and `data/quarantine-events/` by `pipeline.changelog`. Do not edit by hand._",
         "",
     ]
     for c in _collect():

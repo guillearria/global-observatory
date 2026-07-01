@@ -53,6 +53,14 @@ function compositeOf(rec) {
     ? rec.sort_keys.composite : 0;
 }
 
+// The freshness of an event's cached figures is the claims' retrieved_date, not the
+// record's last_updated (which is re-stamped on every pipeline run, even ones that
+// don't touch the figures) — see event.schema.json's documented invariant.
+function latestRetrievedDate(claims) {
+  const dates = (claims || []).map((c) => c.retrieved_date).filter(Boolean);
+  return dates.length ? dates.reduce((a, b) => (a > b ? a : b)) : "";
+}
+
 function claimNode(claim) {
   const src = el("div", { class: "claim-src" });
   const status = claim.verification_status || "unverified";
@@ -98,6 +106,7 @@ function eventParts(rec, review) {
   const badges = [
     review ? badge("under review", "badge-review")
            : badge(v.status || "unverified", `badge-${v.status || "unverified"}`),
+    badge(EVENT_TYPE_LABELS[rec.category] || rec.category || "Event", "badge-cat"),
     badge(status, `badge-${status}`),
     ev.scale ? badge(ev.scale, "badge-scale") : null,
   ];
@@ -107,8 +116,9 @@ function eventParts(rec, review) {
   const meta = [];
   if (locLine) meta.push(el("p", { class: "card-loc", text: locLine }));
   if (ev.live_source_url) {
+    const asOf = dateOnly(latestRetrievedDate(rec.claims)) || dateOnly(rec.last_updated);
     meta.push(el("p", { class: "card-live" }, [
-      el("span", { text: `Figures as of ${dateOnly(rec.last_updated)} — ` }),
+      el("span", { text: `Figures as of ${asOf} — ` }),
       linkOut(ev.live_source_url, "live at source ↗"),
     ]));
   }
