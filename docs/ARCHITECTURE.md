@@ -10,11 +10,32 @@
 > (`python -m pipeline.run`). **The trust model is unchanged** — the allowlist gate still has the
 > final say regardless of who proposes a claim.
 
+> **Status update 2: a second content type, World Pulse, was added on top of this design — see §12.**
+> The project now curates two kinds of record through the *same* trust spine: standing **threats**
+> (this document, unchanged) and dated **events** (`data/events/*.json`, confirmed major world
+> disasters/crises, refreshed daily). The generalization is a `kind: "threat"|"event"` parameter
+> threaded through the shared functions (`schema.validate`, `store.write_record`,
+> `optimize.compute_sort_keys`, `curate.finalize`/`write`) with `kind="threat"` as the default — the
+> allowlist gate (`verify.apply_gate`) itself needed **zero changes**, since it only ever inspects
+> `claims[]`. `/refresh-events` and `/refresh-threats` are both built and manually verified
+> end-to-end. **The one remaining piece is external**: a Claude Code on the web scheduled trigger,
+> configured by a human in the dashboard (this cannot be done from inside a coding session) — see the
+> top of `docs/BACKLOG.md` for the exact configuration. Until that's set up, both refresh commands
+> must be run manually; the frontend's staleness banner is the signal if a configured trigger later
+> stops firing.
+
 ## 1. What this project is
 
-A living, continuously-updating, **fact-based** tracker of possible threats to humanity —
-e.g. Yellowstone supervolcano, nuclear war, food/water shortages, biological weapons,
-runaway AI, asteroid impact, pandemics, climate tipping points.
+A living, continuously-updating, **fact-based** watch on the world, with two parts:
+
+- **Existential Threats** (this document's original subject) — standing risks to humanity, e.g.
+  Yellowstone supervolcano, nuclear war, food/water shortages, biological weapons, runaway AI,
+  asteroid impact, pandemics, climate tipping points. Assessment-based (probability × severity);
+  genuinely doesn't move day to day, so it refreshes weekly.
+- **World Pulse** (§12) — a daily pulse of *confirmed, currently major* world events: disasters,
+  outbreaks, humanitarian crises. Dated, discrete occurrences rather than standing risks, so they get
+  their own schema and refresh daily. Everything below through §11 describes the threats side; the
+  design generalizes to events with minimal duplication (§12).
 
 Core principles:
 
@@ -453,6 +474,57 @@ These are the points most worth a second LLM's scrutiny:
    "unverified — under review" banner so the tracker doesn't appear to omit known threats?
 6. **Cost ceiling.** With opus on two of four layers plus web search per record, what's the expected
    per-run cost at, say, 30 threats, and does the daily cadence need to drop to weekly?
+
+## 12. World Pulse (events) — the second content type
+
+Added after the original blueprint above; kept intentionally short because the design principle is
+**reuse, not fork**. Full rationale is in the status callout at the top of this document.
+
+**Why a second schema, not a repurposed threat record:** a threat is a standing, assessment-based
+risk (`probability × severity`); an event is a discrete, dated occurrence (an earthquake, an
+outbreak, a displacement crisis) with a location, a status, and impact figures. Forcing an event into
+`assessment.probability` would be dishonest — a past earthquake doesn't have an annual probability.
+
+**What's shared, unchanged:** `claims[]`, `verification`, `provenance`, `last_updated`,
+`schema_version` — byte-identical property definitions in `event.schema.json` and
+`threat.schema.json`. `verify.apply_gate` (the trust core) needed **zero code changes**: it only
+reads `record["claims"]`, so it is naturally kind-agnostic. `store.write_atomic`, `models.dumps`,
+`models.stamp_provenance`, and `config.allowlisted`/`SOURCE_ALLOWLIST` are reused verbatim too.
+
+**What's generalized with a `kind` parameter** (default `"threat"`, so the original path is
+untouched): `schema.validate`, `store.write_record`/`dirs_for`/`load_all`,
+`optimize.compute_sort_keys`, `curate.finalize`/`write`, `models.index_of`. Each dispatches on `kind`
+to the right schema file / directory pair / rank computation.
+
+**The `event` domain block** (replacing `assessment`): `occurrence_date`, `location {country, region}`,
+`status (ongoing|contained|resolved)`, `scale` (free text — one field handles "M6.3", "Category 4",
+and "PHEIC" alike), `impact {deaths, displaced, summary}`, `live_source_url` (the authoritative page
+that keeps updating; the frontend links it as "live at source", with the cached figures explicitly
+labeled "as of `<claims' retrieved_date>`" — never claimed as live itself). `location.lat`/`lon` and a
+separate numeric `magnitude` field were deliberately **cut** after a review found them required but
+always-null and read by nothing — premature groundwork for a map feature that doesn't exist; `scale`
+already carries the same information as free text.
+
+**Sort order inverts on purpose:** threats sort severity-dominant (a civilizational risk always
+outranks a regional one, probability breaks ties). Events sort **recency-dominant**
+(`recency_rank*10 + impact_rank` — today's earthquake outranks last month's flood, impact breaks
+same-day ties) — a pulse is about *now*, not about *worst*.
+
+**Allowlist additions for event sourcing:** `gdacs.org` (GDACS, the UN/EU disaster alert system),
+`reliefweb.int` (ReliefWeb, UN OCHA's humanitarian reporting service), `imf.org` (for the `economic`
+category). Same allowlist, same gate, same justification-comment convention as the original list.
+
+**The "no ordinary news" filter is structural, not a prompt instruction:** an event only publishes if
+a headline claim cites an allowlisted authoritative domain (USGS, WHO, GDACS, ReliefWeb, UN, …).
+Routine politics, markets, sport, and celebrity news have no such primary document to cite, so they
+fail the gate the same way an unsourced threat claim would — the "major event" bar in
+`refresh-events.md` narrows *what's worth researching*, but the gate is what actually enforces it.
+
+**Cadence and the trigger gap:** events refresh daily, threats weekly — both via a Claude Code on the
+web scheduled trigger the user configures outside any coding session (not yet done as of this
+writing; see `docs/BACKLOG.md`). Events auto-publish with no PR (an explicit decision: there's no
+human in a daily unattended loop); threats still open a PR. A frontend staleness banner
+(`frontend/app.js`) is the mechanism-agnostic safety net if a configured trigger silently stops.
 
 ---
 
