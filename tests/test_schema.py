@@ -1,5 +1,4 @@
 import copy
-import json
 
 import jsonschema
 import pytest
@@ -43,17 +42,3 @@ def test_rank_out_of_range_rejected_in_python():
     bad["sort_keys"]["severity_rank"] = 9
     with pytest.raises(schema.ValidationError):
         schema.validate(bad)
-
-
-def test_output_format_has_no_unsupported_keywords():
-    """The schema must stay usable as a Claude structured-output format."""
-    blob = json.dumps(schema.output_format())
-    for kw in ("minLength", "maxLength", "minimum", "maximum", "pattern"):
-        assert kw not in blob, f"structured-output schema must not contain {kw}"
-
-
-def test_array_output_format_wraps_records():
-    fmt = schema.array_output_format("threats")
-    props = fmt["schema"]["properties"]
-    assert "threats" in props
-    assert props["threats"]["type"] == "array"

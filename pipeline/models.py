@@ -1,8 +1,8 @@
-"""Record helpers: deterministic serialization, ids, provenance, and fingerprints.
+"""Record helpers: deterministic serialization, ids, and provenance.
 
 Records are plain dicts that mirror data/schema/threat.schema.json one-to-one. We keep
 them as dicts (not dataclasses) so arbitrary nested JSON round-trips losslessly; this module
-provides the invariants the layers rely on.
+provides the invariants the curation path relies on.
 """
 
 from __future__ import annotations
@@ -64,13 +64,6 @@ def index_of(records: list[dict], kind: str = "threat") -> list[dict]:
         for r in records
     ]
     return sorted(out, key=lambda r: r["id"])
-
-
-def claims_fingerprint(record: dict) -> str:
-    """Canonical fingerprint of claim text + source_url, for the Optimize guard."""
-    claims = record.get("claims", [])
-    canon = [(c.get("id"), c.get("text"), c.get("source_url")) for c in claims]
-    return json.dumps(canon, sort_keys=True, ensure_ascii=False)
 
 
 def stamp_provenance(record: dict, *, layer: str, run_id: str, at: str | None = None) -> dict:

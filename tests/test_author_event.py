@@ -4,8 +4,7 @@ import copy
 
 import pytest
 
-from pipeline.curate import finalize
-from pipeline.layers.optimize import _impact_rank, _recency_rank
+from pipeline.curate import _impact_rank, _recency_rank, finalize
 from pipeline.schema import ValidationError
 
 

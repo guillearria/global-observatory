@@ -50,6 +50,9 @@ events so cached figures don't go stale.)
 
 ## Steps
 
+0. **Setup** (matters in a fresh cloud sandbox): from the repo root run `pip install -e ".[dev]"`
+   if importing `pipeline` fails — the gate needs `jsonschema`.
+
 1. **List existing event slugs** to avoid duplicates and find refresh candidates:
    ```sh
    python -c "import json; from pipeline import store, models; print(json.dumps(models.index_of(list(store.load_all(kind='event').values()), kind='event'), indent=2))"

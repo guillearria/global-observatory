@@ -6,13 +6,12 @@ published figure is grounded in an official, authoritative source.
 
 It is explicitly **an aggregation of authoritative figures, not a forecast.**
 
-> **Status:** World Pulse (events) shipped alongside the original threats tracker. Both refresh
-> commands (`/refresh-events`, `/refresh-threats`) are built, tested, and manually verified
-> end-to-end. **The one remaining step is configuring the two external scheduled triggers** (daily →
-> `/refresh-events`, weekly → `/refresh-threats`) in the Claude Code on the web dashboard — see the
-> top of [`docs/BACKLOG.md`](docs/BACKLOG.md) for the exact prompts to point them at. Until that's
-> done, the dataset only refreshes when someone runs a command manually; the frontend's staleness
-> banner (see Trust model below) is the signal that this hasn't happened yet.
+> **Status:** World Pulse (events) shipped alongside the original threats tracker, and both refresh
+> commands are **scheduled as Claude Code cloud routines**: daily → `/refresh-events` (09:00 UTC,
+> auto-publishes through the gate), weekly → `/refresh-threats` (Mondays 10:00 UTC, opens a PR).
+> Routines are managed at claude.ai/code/routines. The frontend's staleness banner and the
+> scheduled `staleness` workflow (see Trust model below) are the signals if a routine silently
+> stops firing.
 
 ## How it works
 
@@ -23,26 +22,16 @@ publishes, never the model's say-so — but differ in cadence and publish model,
 
 - **World Pulse (events)** — `data/events/*.json`, validated against `data/schema/event.schema.json`.
   Cadence: **daily**. Curated via `/refresh-events` (`.claude/commands/refresh-events.md`) or
-  `scripts/author_event.py`. **Auto-published** straight through the gate with no PR — a daily
-  unattended refresh has no one to review one, so the gate alone decides verified vs. quarantined.
+  `scripts/author_event.py`. **Auto-published** through the gate with no PR — a daily unattended
+  refresh has no one to review one, so the gate alone decides verified vs. quarantined. (Cloud
+  sessions can only push to their own branch, so the `publish-events` workflow re-validates the
+  branch, checks it touches only events data, and merges it into `main`.)
 - **Existential Threats** — `data/threats/*.json`, validated against `data/schema/threat.schema.json`.
   Cadence: **weekly** (standing risks don't move day to day). Curated via `/refresh-threats` or
   `scripts/author_threat.py`. Updates land via a **human-reviewed PR** — see the `/refresh-threats`
   command.
 
 The site redeploys automatically whenever `frontend/data/*.json` changes on `main`.
-
-A four-stage pipeline of **independent** Claude *API* calls (Generate → Verify → Clean-up → Optimize)
-also exists as an **optional, manual path** (`python -m pipeline.run`) for threats only; it spends API
-credits and is no longer run on a schedule. Either way the same gate enforces the trust model. The
-four stages:
-
-1. **Generate** (Opus) proposes candidate threats and claims — everything it emits is `unverified`.
-2. **Verify** (Opus) grounds each claim against authoritative sources via web search, then a
-   deterministic **quarantine gate** (pure Python) checks every citation against a domain allowlist.
-   A record publishes only with ≥1 verified claim and no disputed claims; otherwise it is quarantined.
-3. **Clean-up** (Haiku) normalizes mechanically — no factual changes.
-4. **Optimize** (Sonnet) tightens presentation and computes ranking. A guard asserts it never alters claims.
 
 **Git is the database, the changelog, and the audit trail** — one JSON file per record (threat or
 event), so diffs are the record of what changed. The frontend is static vanilla HTML/CSS/JS with no
@@ -62,22 +51,20 @@ The full design is in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 - Known limit (MVP): verification confirms that an authoritative source was *cited*, not deep semantic
   entailment that the source supports the claim. The `disputed`/`partial` statuses give reviewers a hook.
 - **Staleness banner:** each pane's freshness line warns if the data hasn't refreshed recently
-  (events: >2 days; threats: >10 days) — the mechanism-agnostic signal that the scheduled trigger
-  (once configured) has stopped firing.
+  (events: >2 days; threats: >10 days) — the mechanism-agnostic signal that the refresh schedule
+  (once configured) has stopped firing. A scheduled GitHub Actions workflow
+  (`.github/workflows/staleness.yml`) runs the same check server-side daily and fails loudly, so
+  a dead schedule triggers a notification instead of waiting for someone to load the page.
 
 ## Run it locally
 
 ```sh
 pip install -e ".[dev]"
 
-python -m pipeline.run --dry-run        # full pipeline, deterministic fixtures, $0
 pytest                                  # unit tests
 python scripts/validate_data.py         # schema validation (the CI hard gate)
 python scripts/build_frontend.py        # build frontend/data/{threats,events}.json
 python scripts/serve_frontend.py        # preview at http://localhost:8000
-
-# One real threat against the live API (needs ANTHROPIC_API_KEY) — the cheap smoke test:
-python -m pipeline.run --only-slug yellowstone-supervolcano
 ```
 
 Curate without spending API credits — drive Claude Code on your Max plan:
@@ -93,10 +80,6 @@ Curate without spending API credits — drive Claude Code on your Max plan:
 python scripts/author_event.py draft.json     # -> data/events/ or data/quarantine-events/
 python scripts/author_threat.py draft.json    # -> data/threats/ or data/quarantine/
 ```
-
-The API pipeline (`.github/workflows/pipeline.yml`) is **manual-only** (`workflow_dispatch`) and
-needs `ANTHROPIC_API_KEY` in the repo's Actions secrets; it spends credits, so the daily cron was
-removed. Re-add a `schedule:` trigger there only if you fund the API.
 
 ## How to read a threat file
 

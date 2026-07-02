@@ -1,6 +1,6 @@
-"""end-times-tracker pipeline.
+"""end-times-tracker curation package.
 
-Four independent, context-free model layers (Generate -> Verify -> Clean-up -> Optimize)
-plus the Python guards and deterministic file store that make "git history is the changelog"
-hold. See docs/ARCHITECTURE.md.
+The deterministic trust gate, sort keys, schema validation, and file store behind the
+$0 Claude Code curation path (`/refresh-events`, `/refresh-threats`, `scripts/author_*.py`).
+Git is the database; one JSON file per record. See docs/ARCHITECTURE.md.
 """

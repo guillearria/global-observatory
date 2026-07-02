@@ -60,3 +60,23 @@ def test_finalize_is_self_contained_no_writes(tmp_path):
     before = copy.deepcopy(_draft("https://www.usgs.gov/x"))
     rec = finalize(before)
     assert rec is before  # mutates in place, returns same object
+
+
+def test_finalize_normalizes_whitespace():
+    draft = _draft("https://www.usgs.gov/x")
+    draft["name"] = "  Test Threat  "
+    draft["assessment"]["summary"] = " A one-sentence summary. "
+    draft["claims"][0]["text"] = "  A checkable assertion.  "
+    rec = finalize(draft)
+    assert rec["name"] == "Test Threat"
+    assert rec["assessment"]["summary"] == "A one-sentence summary."
+    assert rec["claims"][0]["text"] == "A checkable assertion."
+
+
+def test_finalize_dedups_case_insensitive_duplicate_claims():
+    draft = _draft("https://www.usgs.gov/x")
+    dupe = dict(draft["claims"][0], id="claim-2", text="A CHECKABLE ASSERTION.")
+    draft["claims"].append(dupe)
+    rec = finalize(draft)
+    assert len(rec["claims"]) == 1
+    assert rec["claims"][0]["id"] == "claim-1"  # stable sort keeps the first id

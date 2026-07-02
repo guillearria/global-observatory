@@ -67,11 +67,3 @@ def write_record(record: dict, *, quarantine: bool = False, kind: str = "threat"
     path = quarantine_path_for(slug, kind) if quarantine else path_for(slug, kind)
     write_atomic(path, models.dumps(record))
     return path
-
-
-def write_all(records: list[dict]) -> list[Path]:
-    return [write_record(r) for r in records]
-
-
-def write_quarantine(records: list[dict]) -> list[Path]:
-    return [write_record(r, quarantine=True) for r in records]

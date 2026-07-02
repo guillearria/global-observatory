@@ -1,4 +1,4 @@
-"""Static configuration: paths, model/effort tiers, web tools, and the source allowlist.
+"""Static configuration: paths, the source allowlist, and ranking tables.
 
 Kept side-effect free so every other module and the tests can import it cheaply.
 """
@@ -19,36 +19,9 @@ SCHEMA_PATH = DATA_DIR / "schema" / "threat.schema.json"
 EVENTS_DIR = DATA_DIR / "events"
 QUARANTINE_EVENTS_DIR = DATA_DIR / "quarantine-events"
 EVENT_SCHEMA_PATH = DATA_DIR / "schema" / "event.schema.json"
-PROMPTS_DIR = ROOT / "pipeline" / "prompts"
 FRONTEND_DATA = ROOT / "frontend" / "data" / "threats.json"
 FRONTEND_EVENTS_DATA = ROOT / "frontend" / "data" / "events.json"
 CHANGELOG_PATH = ROOT / "CHANGELOG.md"
-FIXTURES_DIR = ROOT / "tests" / "fixtures"
-
-# --- Models ----------------------------------------------------------------
-MODEL_GENERATE = "claude-opus-4-8"
-MODEL_VERIFY = "claude-opus-4-8"
-MODEL_CLEANUP = "claude-haiku-4-5"
-MODEL_OPTIMIZE = "claude-sonnet-4-6"
-
-# Effort tier per layer. None => omit the parameter entirely.
-# Haiku does not support `effort`, so Clean-up is None.
-EFFORT_GENERATE = "high"
-EFFORT_VERIFY = "high"
-EFFORT_CLEANUP = None
-EFFORT_OPTIMIZE = "medium"
-
-# Correction #1: adaptive thinking is a Claude 4.6+ feature. Haiku 4.5 is a
-# 4.5-generation model and may 400 on thinking={"type":"adaptive"} (it already
-# rejects `effort`). Until scripts/probe_haiku.py confirms otherwise we omit
-# thinking for these models. client.thinking_for() reads this set.
-NO_ADAPTIVE_THINKING = {"claude-haiku-4-5"}
-
-MAX_TOKENS = 16000
-
-# --- Server tools (current variants for Opus 4.8 / Sonnet 4.6) --------------
-WEB_SEARCH_TOOL = {"type": "web_search_20260209", "name": "web_search", "max_uses": 5}
-WEB_FETCH_TOOL = {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": 5}
 
 # --- Source allowlist ------------------------------------------------------
 # A claim is only considered `verified` when its citation host is, or is a
@@ -83,10 +56,10 @@ SOURCE_ALLOWLIST: dict[str, str] = {
     "ohchr.org": "UN Human Rights (OHCHR)",  # human-rights / atrocity indicators
     "unhcr.org": "UNHCR",  # forced displacement / refugee figures
     "unesco.org": "UNESCO",  # education / cultural / scientific indicators
-    # technological (AI risk) — official quantified sources are scarce here
-    # (ARCHITECTURE.md §11 #2). NIST's AI Risk Management Framework was the only
-    # anchor; the additions below are official government / intergovernmental AI
-    # bodies so technological claims can verify instead of always quarantining.
+    # technological (AI risk) — official quantified sources are scarce here.
+    # NIST's AI Risk Management Framework was the only anchor; the additions
+    # below are official government / intergovernmental AI bodies so
+    # technological claims can verify instead of always quarantining.
     "nist.gov": "NIST",
     "aisi.gov.uk": "UK AI Security Institute",  # UK govt AI risk research body
     "oecd.ai": "OECD.AI",  # OECD AI Policy Observatory (intergovernmental)
@@ -97,7 +70,7 @@ SOURCE_ALLOWLIST: dict[str, str] = {
     "imf.org": "IMF",  # for the "economic" event category, same tier as worldbank.org/oecd.org
 }
 
-# Severity / probability -> integer rank, used by the Optimize layer.
+# Severity / probability -> integer rank, used by curate.compute_sort_keys.
 SEVERITY_RANK = {"regional": 1, "continental": 2, "civilizational": 3, "extinction": 4}
 PROBABILITY_RANK = {"very-low": 1, "low": 2, "medium": 3, "high": 4, "very-high": 5}
 
@@ -106,34 +79,6 @@ PROBABILITY_RANK = {"very-low": 1, "low": 2, "medium": 3, "high": 4, "very-high"
 # high-to-low so the first matching threshold wins. Below the smallest -> rank 1.
 EVENT_IMPACT_DEATHS = [(1000, 4), (100, 3), (10, 2)]
 EVENT_IMPACT_DISPLACED = [(1_000_000, 4), (100_000, 3), (10_000, 2)]
-
-# --- Pricing (USD) ---------------------------------------------------------
-# Per-million-token list prices (input, output). Source: Anthropic pricing,
-# cached 2026-06-04 via the claude-api reference. Update when prices change.
-# Cache reads/writes are ignored here (this pipeline does no prompt caching).
-PRICING = {
-    "claude-opus-4-8": {"input": 5.00, "output": 25.00},
-    "claude-sonnet-4-6": {"input": 3.00, "output": 15.00},
-    "claude-haiku-4-5": {"input": 1.00, "output": 5.00},
-}
-# Web search server tool: USD per 1,000 searches (standard Anthropic rate).
-WEB_SEARCH_COST_PER_1K = 10.00
-
-
-def estimate_cost(model: str, input_tokens: int, output_tokens: int, web_searches: int = 0) -> float:
-    """Rough USD cost for one model call. Unknown models cost 0 (logged as such)."""
-    price = PRICING.get(model)
-    if not price:
-        return 0.0
-    cost = input_tokens / 1_000_000 * price["input"]
-    cost += output_tokens / 1_000_000 * price["output"]
-    cost += web_searches / 1_000 * WEB_SEARCH_COST_PER_1K
-    return cost
-
-
-def load_prompt(name: str) -> str:
-    """Read a system prompt by stem, e.g. load_prompt("generate")."""
-    return (PROMPTS_DIR / f"{name}.system.md").read_text(encoding="utf-8")
 
 
 def allowlisted(url: str) -> tuple[bool, str | None]:

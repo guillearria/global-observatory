@@ -3,7 +3,7 @@
 import pytest
 
 from pipeline.config import allowlisted
-from pipeline.layers.verify import apply_gate
+from pipeline.gate import apply_gate
 
 
 def _claim(status, url="", sid="claim-1"):

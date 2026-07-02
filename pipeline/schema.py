@@ -1,7 +1,7 @@
 """Schema loading + validation, including the Python-only checks the JSON Schema can't express.
 
-The schema file is deliberately free of pattern/min/max keywords so it can double as a Claude
-structured-output format. The slug pattern and numeric ranges are enforced here instead.
+The schema files carry no pattern/min/max keywords (a historical constraint kept for simplicity),
+so the slug pattern and numeric ranges are enforced here in Python instead.
 """
 
 from __future__ import annotations
@@ -31,32 +31,6 @@ def _validator(kind: str = "threat") -> jsonschema.Draft202012Validator:
     schema = load_schema(kind)
     jsonschema.Draft202012Validator.check_schema(schema)
     return jsonschema.Draft202012Validator(schema)
-
-
-def _bare_schema(kind: str = "threat") -> dict:
-    """The schema with metadata keys stripped, usable as a structured-output schema."""
-    s = dict(load_schema(kind))
-    for k in ("$schema", "$id", "title", "description"):
-        s.pop(k, None)
-    return s
-
-
-def output_format(kind: str = "threat") -> dict:
-    """A single-record `output_config.format` value."""
-    return {"type": "json_schema", "schema": _bare_schema(kind)}
-
-
-def array_output_format(key: str, kind: str = "threat") -> dict:
-    """An `output_config.format` wrapping a list of records under `key` (for Generate)."""
-    return {
-        "type": "json_schema",
-        "schema": {
-            "type": "object",
-            "additionalProperties": False,
-            "required": [key],
-            "properties": {key: {"type": "array", "items": _bare_schema(kind)}},
-        },
-    }
 
 
 def _threat_range_checks(record: dict) -> list[str]:

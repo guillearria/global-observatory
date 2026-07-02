@@ -17,15 +17,6 @@ def test_index_of_excludes_claims():
     assert set(idx[0].keys()) == {"id", "name", "category", "summary"}
 
 
-def test_claims_fingerprint_ignores_prose_but_tracks_claims():
-    fp = models.claims_fingerprint(SEED)
-    other = json.loads(json.dumps(SEED))
-    other["description"] = "totally rewritten prose"
-    assert models.claims_fingerprint(other) == fp
-    other["claims"][0]["text"] = "a different claim"
-    assert models.claims_fingerprint(other) != fp
-
-
 def test_provenance_history_is_capped_and_tracks_latest():
     rec: dict = {"provenance": {"history": []}}
     for i in range(25):
