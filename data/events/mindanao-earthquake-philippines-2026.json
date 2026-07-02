@@ -1,0 +1,62 @@
+{
+  "category": "earthquake",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-02",
+      "source_name": "GDACS",
+      "source_url": "https://gdacs.org/report.aspx?eventid=1544720&episodeid=6&eventtype=EQ",
+      "text": "A magnitude 7.8 earthquake struck at 5.5996, 125.0647 (offshore Sarangani, Philippines) on 7 June 2026 at 23:37 UTC, at 35 km depth, generating a maximum tsunami wave of 1.93 metres; GDACS issued an orange alert for medium humanitarian impact with about 2.9 million people exposed to Modified Mercalli Intensity VII or greater.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-02",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/06/1167672",
+      "text": "At least 19 people were killed, 12 remain missing and at least 134 were injured after the 7.8 magnitude earthquake struck Sarangani province on 8 June 2026, according to OCHA, with authorities noting the figures were provisional as assessments continued; more than 3.2 million learners were affected with classes suspended in over 6,200 schools.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. Authorities reported casualties and extensive damage to homes, schools and hospitals, with assessments continuing in the following weeks.",
+  "event": {
+    "impact": {
+      "deaths": 19,
+      "displaced": null,
+      "summary": "As of 8 June 2026, OCHA/UN reported at least 19 people killed, 12 missing and 134 injured, with figures described as provisional as damage assessments continued. GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres. More than 3.2 million students were affected, with classes suspended in over 6,200 schools pending safety inspections."
+    },
+    "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srb1/executive",
+    "location": {
+      "country": "Philippines",
+      "region": "Offshore Sarangani province, Mindanao (near General Santos)"
+    },
+    "occurrence_date": "2026-06-08",
+    "scale": "M7.8",
+    "status": "ongoing"
+  },
+  "id": "mindanao-earthquake-philippines-2026",
+  "last_updated": "2026-07-02T14:51:53Z",
+  "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-02T14:51:53Z",
+        "layer": "verify",
+        "run_id": "2026-07-02T14-51-53Z-5c5079"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-02T14-51-53Z-5c5079"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7397752.0,
+    "impact_rank": 2,
+    "recency_rank": 739775
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

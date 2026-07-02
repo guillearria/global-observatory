@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, and `data/quarantine-events/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-01 — Phase 2: refresh-events command, staleness banner, allowlist expansion (`a829e74`)
+
+- **Updated:** venezuela-earthquake-2026
+
 ## 2026-07-01 — Fix World Pulse review findings: freshness date, dead code, over-engineering (`fbdafb7`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, sudan-displacement-crisis, venezuela-earthquake-2026

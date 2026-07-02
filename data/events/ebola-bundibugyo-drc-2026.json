@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-01",
+      "retrieved_date": "2026-07-02",
       "source_name": "WHO",
       "source_url": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern",
       "text": "On 17 May 2026 the WHO Director-General determined that the epidemic of Ebola disease caused by Bundibugyo virus in the DRC and Uganda constitutes a Public Health Emergency of International Concern (PHEIC).",
@@ -11,19 +11,27 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-07-01",
+      "retrieved_date": "2026-07-02",
       "source_name": "WHO",
       "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608",
       "text": "As of 17 June 2026, the Democratic Republic of the Congo had reported 896 confirmed cases of Bundibugyo virus disease including 232 deaths.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-02",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "As of 29 June 2026, the Democratic Republic of Congo reported 1,333 confirmed cases and 399 deaths (up 26 cases and 22 deaths from the previous report); Uganda reported 20 confirmed cases and 2 deaths as of 30 June 2026, with 15 recoveries and no new cases since 21 June.",
+      "verification_status": "verified"
     }
   ],
-  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC).",
+  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases have continued to climb through late June.",
   "event": {
     "impact": {
-      "deaths": 234,
+      "deaths": 401,
       "displaced": null,
-      "summary": "As of 17 June 2026 the DRC had reported 896 confirmed cases including 232 deaths; Uganda reported 19 confirmed cases and two deaths (as of 18 June 2026), with no new cases there since 5 June 2026."
+      "summary": "As of 29 June 2026 the DRC had reported 1,333 confirmed cases including 399 deaths; Uganda reported 20 confirmed cases and two deaths as of 30 June 2026, with no new Ugandan cases since 21 June."
     },
     "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
     "location": {
@@ -35,18 +43,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-07-01T15:55:57Z",
+  "last_updated": "2026-07-02T14:51:53Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-01T15:55:57Z",
+        "at": "2026-07-02T14:51:53Z",
         "layer": "verify",
-        "run_id": "2026-07-01T15-55-57Z-c7dd3c"
+        "run_id": "2026-07-02T14-51-53Z-e9fb47"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-01T15-55-57Z-c7dd3c"
+    "last_run_id": "2026-07-02T14-51-53Z-e9fb47"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -56,7 +64,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

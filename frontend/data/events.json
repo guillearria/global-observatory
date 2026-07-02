@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-01T18:39:06Z",
+  "last_updated": "2026-07-02T14:51:53Z",
   "published": [
     {
       "category": "outbreak",
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-07-01",
+          "retrieved_date": "2026-07-02",
           "source_name": "WHO",
           "source_url": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern",
           "text": "On 17 May 2026 the WHO Director-General determined that the epidemic of Ebola disease caused by Bundibugyo virus in the DRC and Uganda constitutes a Public Health Emergency of International Concern (PHEIC).",
@@ -14,19 +14,27 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-07-01",
+          "retrieved_date": "2026-07-02",
           "source_name": "WHO",
           "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608",
           "text": "As of 17 June 2026, the Democratic Republic of the Congo had reported 896 confirmed cases of Bundibugyo virus disease including 232 deaths.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-02",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "As of 29 June 2026, the Democratic Republic of Congo reported 1,333 confirmed cases and 399 deaths (up 26 cases and 22 deaths from the previous report); Uganda reported 20 confirmed cases and 2 deaths as of 30 June 2026, with 15 recoveries and no new cases since 21 June.",
+          "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC).",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases have continued to climb through late June.",
       "event": {
         "impact": {
-          "deaths": 234,
+          "deaths": 401,
           "displaced": null,
-          "summary": "As of 17 June 2026 the DRC had reported 896 confirmed cases including 232 deaths; Uganda reported 19 confirmed cases and two deaths (as of 18 June 2026), with no new cases there since 5 June 2026."
+          "summary": "As of 29 June 2026 the DRC had reported 1,333 confirmed cases including 399 deaths; Uganda reported 20 confirmed cases and two deaths as of 30 June 2026, with no new Ugandan cases since 21 June."
         },
         "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
         "location": {
@@ -38,24 +46,86 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-01T15:55:57Z",
+      "last_updated": "2026-07-02T14:51:53Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-01T15:55:57Z",
+            "at": "2026-07-02T14:51:53Z",
             "layer": "verify",
-            "run_id": "2026-07-01T15-55-57Z-c7dd3c"
+            "run_id": "2026-07-02T14-51-53Z-e9fb47"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-01T15-55-57Z-c7dd3c"
+        "last_run_id": "2026-07-02T14-51-53Z-e9fb47"
       },
       "schema_version": "1.0",
       "sort_keys": {
         "composite": 7397513.0,
         "impact_rank": 3,
         "recency_rank": 739751
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "earthquake",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-02",
+          "source_name": "GDACS",
+          "source_url": "https://gdacs.org/report.aspx?eventid=1544720&episodeid=6&eventtype=EQ",
+          "text": "A magnitude 7.8 earthquake struck at 5.5996, 125.0647 (offshore Sarangani, Philippines) on 7 June 2026 at 23:37 UTC, at 35 km depth, generating a maximum tsunami wave of 1.93 metres; GDACS issued an orange alert for medium humanitarian impact with about 2.9 million people exposed to Modified Mercalli Intensity VII or greater.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-02",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/06/1167672",
+          "text": "At least 19 people were killed, 12 remain missing and at least 134 were injured after the 7.8 magnitude earthquake struck Sarangani province on 8 June 2026, according to OCHA, with authorities noting the figures were provisional as assessments continued; more than 3.2 million learners were affected with classes suspended in over 6,200 schools.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. Authorities reported casualties and extensive damage to homes, schools and hospitals, with assessments continuing in the following weeks.",
+      "event": {
+        "impact": {
+          "deaths": 19,
+          "displaced": null,
+          "summary": "As of 8 June 2026, OCHA/UN reported at least 19 people killed, 12 missing and 134 injured, with figures described as provisional as damage assessments continued. GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres. More than 3.2 million students were affected, with classes suspended in over 6,200 schools pending safety inspections."
+        },
+        "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srb1/executive",
+        "location": {
+          "country": "Philippines",
+          "region": "Offshore Sarangani province, Mindanao (near General Santos)"
+        },
+        "occurrence_date": "2026-06-08",
+        "scale": "M7.8",
+        "status": "ongoing"
+      },
+      "id": "mindanao-earthquake-philippines-2026",
+      "last_updated": "2026-07-02T14:51:53Z",
+      "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-02T14:51:53Z",
+            "layer": "verify",
+            "run_id": "2026-07-02T14-51-53Z-5c5079"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-02T14-51-53Z-5c5079"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7397752.0,
+        "impact_rank": 2,
+        "recency_rank": 739775
       },
       "verification": {
         "confidence": "high",
@@ -130,7 +200,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-07-01",
+          "retrieved_date": "2026-07-02",
           "source_name": "USGS",
           "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp/executive",
           "text": "On 25 June 2026 a magnitude 7.5 earthquake struck 16 km SW of Moron in northern Venezuela, west of Caracas.",
@@ -138,7 +208,7 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-07-01",
+          "retrieved_date": "2026-07-02",
           "source_name": "USGS",
           "source_url": "https://www.usgs.gov/programs/landslide-hazards/science/2026-venezuela-sequence-earthquake-triggered-landslide-hazards",
           "text": "The USGS is assessing earthquake-triggered landslide hazards generated by the 2026 Venezuela earthquake sequence.",
@@ -146,19 +216,19 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-07-01",
-          "source_name": "ReliefWeb",
-          "source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
-          "text": "ReliefWeb is publishing a running series of Venezuela earthquake response situation reports (through at least Situation Report #7, dated 30 June 2026), coordinated via its dedicated disaster tracking page for this event.",
+          "retrieved_date": "2026-07-02",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/07/1167850",
+          "text": "As of 1 July 2026, nearly 2,000 deaths have been confirmed and more than 6,400 people rescued; 1.8 million people are in need of humanitarian assistance including 680,000 children across six affected states, with around 1,000 buildings and over 400 schools damaged and more than 600 aftershocks recorded since the initial quakes.",
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable and is tracking aftershocks and earthquake-triggered landslide hazards. ReliefWeb is publishing an ongoing series of humanitarian situation reports on the response.",
+      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable. As the response enters its second week, the UN reports the death toll and humanitarian needs continuing to climb.",
       "event": {
         "impact": {
-          "deaths": null,
+          "deaths": 2000,
           "displaced": null,
-          "summary": "USGS assessed high casualties and widespread damage as probable. Confirmed casualty figures are still being established; ReliefWeb's running situation-report series and the USGS event page carry the current assessment."
+          "summary": "As of 1 July 2026, the UN reported nearly 2,000 confirmed deaths and more than 6,400 people rescued, with 1.8 million people in need of humanitarian assistance including 680,000 children across six affected states. Around 1,000 buildings and over 400 schools have been damaged, and more than 600 aftershocks recorded."
         },
         "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp/executive",
         "location": {
@@ -170,23 +240,23 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-07-01T18:39:06Z",
+      "last_updated": "2026-07-02T14:51:53Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-01T18:39:06Z",
+            "at": "2026-07-02T14:51:53Z",
             "layer": "verify",
-            "run_id": "2026-07-01T18-39-06Z-3d7feb"
+            "run_id": "2026-07-02T14-51-53Z-6848e5"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-01T18-39-06Z-3d7feb"
+        "last_run_id": "2026-07-02T14-51-53Z-6848e5"
       },
       "schema_version": "1.0",
       "sort_keys": {
-        "composite": 7397921.0,
-        "impact_rank": 1,
+        "composite": 7397924.0,
+        "impact_rank": 4,
         "recency_rank": 739792
       },
       "verification": {
