@@ -43,6 +43,11 @@ SOURCE_ALLOWLIST: dict[str, str] = {
     "ecdc.europa.eu": "ECDC",
     # nuclear
     "iaea.org": "IAEA",
+    # SIPRI — Stockholm International Peace Research Institute, an independent institute
+    # established by the Swedish Parliament; the canonical public reference for global
+    # nuclear-arsenal and military-expenditure figures (IAEA, the only other nuclear
+    # entry, does not publish arsenal counts).
+    "sipri.org": "SIPRI",
     # resource (food / water / energy)
     "fao.org": "FAO",
     "wfp.org": "UN World Food Programme",

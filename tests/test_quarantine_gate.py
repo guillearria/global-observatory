@@ -75,6 +75,7 @@ def test_source_name_normalized_to_allowlist_label():
         ("https://www.unesco.org/en/data", "UNESCO"),
         ("https://www.wfp.org/hunger-map", "UN World Food Programme"),
         ("https://digital-strategy.ec.europa.eu/en/ai-act", "European Union"),
+        ("https://www.sipri.org/yearbook/2026", "SIPRI"),
     ],
 )
 def test_new_authoritative_domains_are_allowlisted(url, label):
