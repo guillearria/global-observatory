@@ -3,20 +3,20 @@
 Known gaps and next iterations, roughly priority-ordered. Items marked *(Done)* are kept briefly
 for context and pruned once uninteresting.
 
-## Next up — the actual resumption point
+## Operations — the refresh schedule
 
-Everything code-side is built and tested. The remaining step is **scheduling the two refresh
-routines** as Claude Code scheduled cloud agents:
+Both refresh routines are configured as Claude Code scheduled cloud agents (managed at
+claude.ai/code/routines):
 
-1. **Daily** → run `/refresh-events` on this repo (auto-publishes through the gate, pushes to
-   `main`). Prompt should tell the agent to `pip install -e ".[dev]"` first and to stop — not
-   push — if validation or tests fail.
-2. **Weekly** → run `/refresh-threats` (opens a PR for human review). Same setup line, same
-   stop-on-failure rule.
+1. **World Pulse daily refresh** — daily 09:00 UTC → `/refresh-events` (auto-publishes through
+   the gate, pushes to `main`).
+2. **Existential threats weekly refresh** — Mondays 10:00 UTC → `/refresh-threats` (opens a PR
+   for human review).
 
-Until both are live, the dataset only refreshes when someone runs a command manually. The
-frontend's staleness banner (events >2 days / threats >10) and the scheduled
-`.github/workflows/staleness.yml` check are the signals if a routine is missing or silently stops.
+Both prompts tell the agent to `pip install -e ".[dev]"` first and to stop — not push / not open
+the PR — if validation or tests fail. If a routine silently stops, the frontend's staleness banner
+(events >2 days / threats >10) and the scheduled `.github/workflows/staleness.yml` check are the
+signals.
 
 ## Trust & verification
 

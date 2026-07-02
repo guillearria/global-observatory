@@ -6,13 +6,12 @@ published figure is grounded in an official, authoritative source.
 
 It is explicitly **an aggregation of authoritative figures, not a forecast.**
 
-> **Status:** World Pulse (events) shipped alongside the original threats tracker. Both refresh
-> commands (`/refresh-events`, `/refresh-threats`) are built, tested, and manually verified
-> end-to-end. **The one remaining step is scheduling them** as two Claude Code scheduled cloud
-> agents (daily → `/refresh-events`, weekly → `/refresh-threats`) — see the top of
-> [`docs/BACKLOG.md`](docs/BACKLOG.md). Until that's done, the dataset only refreshes when someone
-> runs a command manually; the frontend's staleness banner and the scheduled `staleness` workflow
-> (see Trust model below) are the signals that this hasn't happened yet.
+> **Status:** World Pulse (events) shipped alongside the original threats tracker, and both refresh
+> commands are **scheduled as Claude Code cloud routines**: daily → `/refresh-events` (09:00 UTC,
+> auto-publishes through the gate), weekly → `/refresh-threats` (Mondays 10:00 UTC, opens a PR).
+> Routines are managed at claude.ai/code/routines. The frontend's staleness banner and the
+> scheduled `staleness` workflow (see Trust model below) are the signals if a routine silently
+> stops firing.
 
 ## How it works
 
