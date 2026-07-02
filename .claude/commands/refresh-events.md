@@ -81,9 +81,11 @@ events so cached figures don't go stale.)
    python -c "from pipeline import changelog; changelog.regenerate()"
    ```
 
-6. **Commit and push directly — no PR.** This is the one deliberate divergence from
-   `/refresh-threats`: auto-publish with no human merge step was an explicit, already-made decision
-   for World Pulse, since a daily unattended refresh has no one to review a PR. Commit `data/events/`
+6. **Commit and push — no PR.** This is the one deliberate divergence from `/refresh-threats`:
+   auto-publish with no human merge step was an explicit, already-made decision for World Pulse,
+   since a daily unattended refresh has no one to review a PR. Commit `data/events/`
    (+ `data/quarantine-events/` if anything was quarantined), the regenerated
-   `frontend/data/events.json`, and `CHANGELOG.md`, then push straight to `main`. The `pages`
-   workflow redeploys the site automatically on push.
+   `frontend/data/events.json`, and `CHANGELOG.md`, then push. In a cloud session the push lands
+   on your session's own `claude/…` branch (the platform never allows pushing `main` directly) —
+   that is expected and sufficient: the `publish-events` workflow re-validates the branch, confirms
+   it touches only events data, merges it into `main`, and redeploys the site. Do not open a PR.

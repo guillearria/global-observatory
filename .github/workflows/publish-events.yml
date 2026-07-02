@@ -1,0 +1,63 @@
+# The auto-publish bridge for World Pulse. Cloud refresh sessions can only push
+# to their own claude/* branch — never main — so this workflow closes the gap:
+# it merges a claude/* branch into main ONLY when the branch (a) touches nothing
+# but events data + the aggregate + CHANGELOG, and (b) passes schema validation
+# with an aggregate that exactly matches the records. Anything else (e.g. the
+# weekly threats branch, which goes through a human-reviewed PR) is skipped and
+# left alone. This turns the refresh commands' "modify only data files" rule
+# from a prompt instruction into an enforced gate.
+name: publish-events
+on:
+  push:
+    branches: ["claude/**"]
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: publish-events
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Skip unless the branch is events-only
+        id: scope
+        run: |
+          files=$(git diff --name-only origin/main...HEAD)
+          echo "changed files:"; echo "$files"
+          out_of_scope=$(echo "$files" | grep -vE '^(data/events/|data/quarantine-events/|frontend/data/events\.json$|CHANGELOG\.md$)' || true)
+          touches_events=$(echo "$files" | grep -E '^(data/events/|frontend/data/events\.json$)' || true)
+          if [ -z "$files" ] || [ -n "$out_of_scope" ] || [ -z "$touches_events" ]; then
+            echo "Not an events-only branch — leaving it for human review."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.scope.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+      - name: Validate schema + aggregate integrity
+        if: steps.scope.outputs.skip != 'true'
+        run: |
+          pip install -e .
+          python scripts/validate_data.py
+          python scripts/build_frontend.py
+          git diff --exit-code  # committed aggregate must match the records exactly
+      - name: Merge into main and clean up the branch
+        if: steps.scope.outputs.skip != 'true'
+        run: |
+          git config user.name "world-watch-publisher"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          sha=$(git rev-parse HEAD)
+          git checkout -B publish origin/main
+          git merge --no-edit "$sha"   # a conflict fails the job loudly — that's intended
+          git push origin publish:main
+          git push origin --delete "$GITHUB_REF_NAME"
+      - name: Redeploy Pages (token pushes don't retrigger push workflows)
+        if: steps.scope.outputs.skip != 'true'
+        run: gh workflow run pages.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
