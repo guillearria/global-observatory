@@ -65,7 +65,9 @@ Target for this run: **$ARGUMENTS**
    python -c "from pipeline import changelog; changelog.regenerate()"
    ```
 
-6. **Open a PR for human review** — factual content is never pushed straight to `main`. Create a
-   branch, commit `data/` + `frontend/data/threats.json` + `CHANGELOG.md`, push, and open a PR
-   summarizing each threat and its sources. On merge, the `pages` workflow redeploys the site
-   automatically.
+6. **Open a PR for human review** — factual content is never pushed straight to `main`. Commit
+   `data/` + `frontend/data/threats.json` + `CHANGELOG.md` and push (in a cloud session the push
+   lands on your session's own `claude/…` branch — that's fine; the `publish-events` workflow
+   deliberately skips threats branches). Then open a PR from that branch summarizing each threat
+   and its sources; if you cannot open a PR from your environment, say so in your final report so
+   a human opens it. On merge, the `pages` workflow redeploys the site automatically.
