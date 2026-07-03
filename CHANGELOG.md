@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, and `data/quarantine-events/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-03 — Refresh World Pulse: Ebola DRC/Uganda case and death counts (`c54f81f`)
+
+- **Updated:** ebola-bundibugyo-drc-2026
+
 ## 2026-07-02 — Seed nuclear + technological threats: nuclear war, advanced AI risk (#7) (`e2dce55`)
 
 - **Added:** advanced-ai-risk, nuclear-war
