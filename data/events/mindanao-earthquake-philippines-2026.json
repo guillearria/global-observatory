@@ -16,16 +16,24 @@
       "source_url": "https://news.un.org/en/story/2026/06/1167672",
       "text": "At least 19 people were killed, 12 remain missing and at least 134 were injured after the 7.8 magnitude earthquake struck Sarangani province on 8 June 2026, according to OCHA, with authorities noting the figures were provisional as assessments continued; more than 3.2 million learners were affected with classes suspended in over 6,200 schools.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-04",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
+      "text": "By 23 June, government figures reported 77 deaths, with about 1.6 million people affected across Regions IX, XI, XII, and BARMM. PHIVOLCS recorded more than 9,400 aftershocks and further seismic activity expected. More than 80,000 houses have been damaged, including nearly 15,000 destroyed, with 884 damaged infrastructure losses and 130 affected roads and 47 bridges limiting access to isolated communities. Eighteen local government units (LGUs) have declared a state of calamity.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. Authorities reported casualties and extensive damage to homes, schools and hospitals, with assessments continuing in the following weeks.",
+  "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll and number of affected people climbed through late June as damage assessments continued, and eighteen local government units have declared a state of calamity.",
   "event": {
     "impact": {
-      "deaths": 19,
+      "deaths": 77,
       "displaced": null,
-      "summary": "As of 8 June 2026, OCHA/UN reported at least 19 people killed, 12 missing and 134 injured, with figures described as provisional as damage assessments continued. GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres. More than 3.2 million students were affected, with classes suspended in over 6,200 schools pending safety inspections."
+      "summary": "By 23 June 2026, Philippine government figures reported 77 deaths and about 1.6 million people affected across Regions IX, XI, XII and BARMM. More than 80,000 houses were damaged, including nearly 15,000 destroyed, and eighteen local government units have declared a state of calamity. GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres."
     },
-    "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srb1/executive",
+    "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
     "location": {
       "country": "Philippines",
       "region": "Offshore Sarangani province, Mindanao (near General Santos)"
@@ -35,18 +43,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-07-02T14:51:53Z",
+  "last_updated": "2026-07-04T09:12:46Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-02T14:51:53Z",
+        "at": "2026-07-04T09:12:46Z",
         "layer": "verify",
-        "run_id": "2026-07-02T14-51-53Z-5c5079"
+        "run_id": "2026-07-04T09-12-46Z-02c17d"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-02T14-51-53Z-5c5079"
+    "last_run_id": "2026-07-04T09-12-46Z-02c17d"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -56,7 +64,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
