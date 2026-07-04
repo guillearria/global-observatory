@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, and `data/quarantine-events/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-04 — Refresh World Pulse: Ebola, Mindanao quake, Venezuela quake updates (`16b109f`)
+
+- **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, venezuela-earthquake-2026
+
 ## 2026-07-03 — Refresh World Pulse: Ebola DRC/Uganda case and death counts (`c54f81f`)
 
 - **Updated:** ebola-bundibugyo-drc-2026
