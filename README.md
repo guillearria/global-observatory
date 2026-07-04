@@ -1,6 +1,6 @@
-# end-times-tracker — "World Watch"
+# Global Observatory
 
-A **fact-based** watch on the world: a live **pulse of confirmed major events** (disasters,
+A **fact-based** observatory of the world: a live **pulse of confirmed major events** (disasters,
 outbreaks, crises) alongside an ongoing tracker of **existential threats** to humanity — where every
 published figure is grounded in an official, authoritative source.
 

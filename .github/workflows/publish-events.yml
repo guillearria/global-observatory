@@ -48,7 +48,7 @@ jobs:
       - name: Merge into main and clean up the branch
         if: steps.scope.outputs.skip != 'true'
         run: |
-          git config user.name "world-watch-publisher"
+          git config user.name "global-observatory-publisher"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           sha=$(git rev-parse HEAD)
           git checkout -B publish origin/main

@@ -1,6 +1,6 @@
-# World Watch — Architecture
+# Global Observatory — Architecture
 
-A fact-based watch on the world: a daily **World Pulse** of confirmed major events plus a
+A fact-based observatory of the world: a daily **World Pulse** of confirmed major events plus a
 weekly-refreshed **Existential Threats** tracker, published as a static page. Every published figure
 is grounded in an official, authoritative source. It is explicitly **an aggregation of authoritative
 figures, not a forecast.**

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://end-times-tracker/event.schema.json",
+  "$id": "https://global-observatory/event.schema.json",
   "title": "Event",
   "description": "One confirmed, currently-relevant major world event (a disaster, outbreak, or crisis). Shares the claims/verification/provenance trust spine with the Threat schema; only the domain block and sort_keys differ. Deliberately flat and free of pattern/min/max keywords so this exact schema can double as a Claude structured-output format; slug and range checks live in Python.",
   "type": "object",

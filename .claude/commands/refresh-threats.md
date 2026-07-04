@@ -2,7 +2,7 @@
 description: Research and curate threat records on the Max plan ($0 API), then open a PR.
 ---
 
-You are curating the End Times Tracker dataset **on a Claude Max subscription using your own
+You are curating the Global Observatory dataset **on a Claude Max subscription using your own
 WebSearch/WebFetch tools — no Anthropic API credits are spent.** You research and draft; the
 deterministic Python trust gate has the final say on what publishes.
 

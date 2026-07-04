@@ -264,11 +264,11 @@ async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, stale
 function main() {
   loadPane({
     url: "./data/events.json", mountId: "pulse", freshnessId: "pulse-freshness",
-    kind: "event", cacheKey: "worldwatch.events", noun: "event", staleAfterDays: 2,
+    kind: "event", cacheKey: "globalobservatory.events", noun: "event", staleAfterDays: 2,
   });
   loadPane({
     url: "./data/threats.json", mountId: "threats", freshnessId: "threats-freshness",
-    kind: "threat", cacheKey: "worldwatch.threats", noun: "tracked threat", staleAfterDays: 10,
+    kind: "threat", cacheKey: "globalobservatory.threats", noun: "tracked threat", staleAfterDays: 10,
   });
 }
 

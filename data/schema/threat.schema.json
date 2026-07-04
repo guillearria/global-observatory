@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://end-times-tracker/threat.schema.json",
+  "$id": "https://global-observatory/threat.schema.json",
   "title": "Threat",
   "description": "One tracked threat to humanity. Deliberately flat and free of pattern/min/max/length keywords so this exact schema can be reused as a Claude structured-output format; slug and range checks live in Python.",
   "type": "object",

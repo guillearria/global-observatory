@@ -1,6 +1,6 @@
 # Contributing
 
-This project is a fact-based watch on the world: a daily **World Pulse** of confirmed major events
+This project is a fact-based observatory of the world: a daily **World Pulse** of confirmed major events
 plus a weekly-refreshed **Existential Threats** tracker. Read
 [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) first — it is the source of truth for the design.
 
