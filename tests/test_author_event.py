@@ -60,11 +60,32 @@ def test_event_rejects_bad_slug():
         finalize(bad, kind="event")
 
 
-def test_event_schema_has_no_lat_lon_or_magnitude():
-    # Phase 1 dropped lat/lon/magnitude: unused by any consumer, always null in real
-    # seed data. additionalProperties: false means the schema now rejects them outright.
+def test_event_location_accepts_optional_lat_lon():
+    # lat/lon were once cut as premature; the World Pulse map is their consumer now.
+    # They stay optional — an event with no coordinates simply doesn't appear on the map.
+    draft = _draft("https://earthquake.usgs.gov/x")
+    draft["event"]["location"]["lat"] = 10.4
+    draft["event"]["location"]["lon"] = -68.3
+    rec = finalize(draft, kind="event")
+    assert rec["event"]["location"]["lat"] == 10.4
+    assert rec["event"]["location"]["lon"] == -68.3
+
+
+def test_event_location_lat_lon_range_checked():
     bad = _draft("https://earthquake.usgs.gov/x")
-    bad["event"]["location"]["lat"] = 10.5
+    bad["event"]["location"]["lat"] = 123.0
+    with pytest.raises(ValidationError):
+        finalize(bad, kind="event")
+    bad = _draft("https://earthquake.usgs.gov/x")
+    bad["event"]["location"]["lon"] = -190.0
+    with pytest.raises(ValidationError):
+        finalize(bad, kind="event")
+
+
+def test_event_location_still_rejects_unknown_keys():
+    # additionalProperties: false stays load-bearing — only lat/lon were added.
+    bad = _draft("https://earthquake.usgs.gov/x")
+    bad["event"]["location"]["magnitude"] = 7.5
     with pytest.raises(ValidationError):
         finalize(bad, kind="event")
 

@@ -65,7 +65,15 @@
           "required": ["country", "region"],
           "properties": {
             "country": { "type": "string" },
-            "region": { "type": "string" }
+            "region": { "type": "string" },
+            "lat": {
+              "type": ["number", "null"],
+              "description": "Optional WGS84 latitude of the event locus (decimal degrees). Powers the World Pulse map; null/absent if genuinely unlocatable. Range checked in Python."
+            },
+            "lon": {
+              "type": ["number", "null"],
+              "description": "Optional WGS84 longitude of the event locus (decimal degrees). Range checked in Python."
+            }
           }
         },
         "status": {
