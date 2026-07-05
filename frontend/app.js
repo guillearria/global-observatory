@@ -1,5 +1,29 @@
 "use strict";
 
+// --- Tabs (hash-routed) ------------------------------------------------------
+// #pulse / #threats / #history are shareable URLs; back button walks tab history.
+const TABS = ["pulse", "threats", "history"];
+
+function currentTab() {
+  const name = location.hash.replace(/^#/, "");
+  return TABS.includes(name) ? name : "pulse"; // unknown hash -> default tab
+}
+
+function showTab(name) {
+  for (const tab of TABS) {
+    const pane = document.getElementById(`${tab}-pane`);
+    if (pane) pane.hidden = tab !== name;
+  }
+  for (const link of document.querySelectorAll(".tabs a")) {
+    const active = link.dataset.tab === name;
+    link.classList.toggle("active", active);
+    if (active) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  }
+  // A map laid out while its tab was hidden has zero size — re-measure on show.
+  if (name === "pulse" && window.GOMap) GOMap.invalidate();
+}
+
 // --- Threat categories (existential threats pane) --------------------------
 // Fixed display order; any unknown category is appended after these.
 const CATEGORY_ORDER = [
@@ -18,6 +42,20 @@ const EVENT_TYPE_LABELS = {
   earthquake: "Earthquake", storm: "Storm", flood: "Flood", wildfire: "Wildfire",
   volcanic: "Volcanic", drought: "Drought", outbreak: "Outbreak", conflict: "Conflict",
   humanitarian: "Humanitarian crisis", economic: "Economic crisis", industrial: "Industrial",
+  other: "Event",
+};
+
+// --- Historical eras and types (historical archive pane) --------------------
+const ERA_ORDER = ["ancient", "classical", "medieval", "early-modern", "modern", "contemporary"];
+
+const ERA_LABELS = {
+  ancient: "Ancient", classical: "Classical", medieval: "Medieval",
+  "early-modern": "Early Modern", modern: "Modern", contemporary: "Contemporary",
+};
+
+const HISTORICAL_TYPE_LABELS = {
+  pandemic: "Pandemic", war: "War", famine: "Famine", "natural-disaster": "Natural disaster",
+  "societal-collapse": "Societal collapse", genocide: "Genocide", economic: "Economic crisis",
   other: "Event",
 };
 
@@ -61,12 +99,38 @@ function compositeOf(rec) {
     ? rec.sort_keys.composite : 0;
 }
 
+function chronologyOf(rec) {
+  return (rec.sort_keys && typeof rec.sort_keys.chronology_rank === "number")
+    ? rec.sort_keys.chronology_rank : 0;
+}
+
+function impactOf(rec) {
+  return (rec.sort_keys && typeof rec.sort_keys.impact_rank === "number")
+    ? rec.sort_keys.impact_rank : 0;
+}
+
 // The freshness of an event's cached figures is the claims' retrieved_date, not the
 // record's last_updated (which is re-stamped on every pipeline run, even ones that
 // don't touch the figures) — see event.schema.json's documented invariant.
 function latestRetrievedDate(claims) {
   const dates = (claims || []).map((c) => c.retrieved_date).filter(Boolean);
   return dates.length ? dates.reduce((a, b) => (a > b ? a : b)) : "";
+}
+
+const compactNumber = new Intl.NumberFormat("en", {
+  notation: "compact", maximumFractionDigits: 1,
+});
+
+// "Estimated deaths: 75M–200M" from a deaths_low/deaths_high range; historical tolls
+// are ranges, not counts, so both bounds are shown when they differ.
+function formatDeathsRange(impact) {
+  const lo = impact.deaths_low, hi = impact.deaths_high;
+  const loNum = typeof lo === "number", hiNum = typeof hi === "number";
+  if (!loNum && !hiNum) return "";
+  if (loNum && hiNum && lo !== hi) {
+    return `Estimated deaths: ${compactNumber.format(lo)}–${compactNumber.format(hi)}`;
+  }
+  return `Estimated deaths: ~${compactNumber.format(loNum ? lo : hi)}`;
 }
 
 function claimNode(claim) {
@@ -133,8 +197,29 @@ function eventParts(rec, review) {
   return { badges, summary, meta };
 }
 
+function historicalParts(rec, review) {
+  const hist = rec.historical || {};
+  const v = rec.verification || {};
+  const loc = hist.location || {};
+  const where = [loc.region, loc.country].filter(Boolean).join(", ");
+  const badges = [
+    review ? badge("under review", "badge-review")
+           : badge(v.status || "unverified", `badge-${v.status || "unverified"}`),
+    badge(HISTORICAL_TYPE_LABELS[rec.category] || rec.category || "Event", "badge-cat"),
+    hist.date_display ? badge(hist.date_display, "badge-scale") : null,
+  ];
+  const summary = (hist.impact || {}).summary || rec.description || "";
+  const meta = [];
+  if (where) meta.push(el("p", { class: "card-loc", text: where }));
+  const deaths = formatDeathsRange(hist.impact || {});
+  if (deaths) meta.push(el("p", { class: "card-meta", text: deaths }));
+  return { badges, summary, meta };
+}
+
 function cardNode(rec, { review, kind }) {
-  const parts = kind === "event" ? eventParts(rec, review) : threatParts(rec, review);
+  const parts = kind === "event" ? eventParts(rec, review)
+    : kind === "historical" ? historicalParts(rec, review)
+    : threatParts(rec, review);
 
   const head = el("div", { class: "card-head" }, [
     el("h3", { text: rec.name || rec.id }),
@@ -147,7 +232,8 @@ function cardNode(rec, { review, kind }) {
     ...claims.map(claimNode),
   ]);
 
-  return el("article", { class: "card" }, [
+  // The id is the map's click-to-scroll target (see map.js).
+  return el("article", { class: "card", id: `card-${rec.id}` }, [
     head,
     el("p", { class: "card-summary", text: parts.summary }),
     ...parts.meta,
@@ -185,9 +271,34 @@ function renderEvents(records) {
   return recs.map((r) => cardNode(r, { review: false, kind: "event" }));
 }
 
+// --- History pane: grouped by era, chronological (oldest first) ------------
+function renderHistorical(records) {
+  const groups = new Map();
+  for (const rec of records) {
+    const era = (rec.historical || {}).era || "other";
+    if (!groups.has(era)) groups.set(era, []);
+    groups.get(era).push(rec);
+  }
+  const eras = [...groups.keys()].sort((x, y) => {
+    const ix = ERA_ORDER.indexOf(x), iy = ERA_ORDER.indexOf(y);
+    return (ix === -1 ? 99 : ix) - (iy === -1 ? 99 : iy);
+  });
+
+  const out = [];
+  for (const era of eras) {
+    const recs = groups.get(era).sort((x, y) =>
+      (chronologyOf(x) - chronologyOf(y)) || (impactOf(y) - impactOf(x)));
+    out.push(el("section", { class: "category" }, [
+      el("h3", { class: "category-title", text: ERA_LABELS[era] || era }),
+      ...recs.map((r) => cardNode(r, { review: false, kind: "historical" })),
+    ]));
+  }
+  return out;
+}
+
 function renderUnderReview(records, kind) {
   if (!records.length) return [];
-  const noun = kind === "event" ? "events" : "threats";
+  const noun = kind === "event" ? "events" : kind === "historical" ? "records" : "threats";
   return [el("section", { class: "review-section" }, [
     el("h3", { class: "category-title", text: "Under review" }),
     el("div", {
@@ -212,20 +323,23 @@ function writeCache(key, data) {
   try { localStorage.setItem(key, JSON.stringify(data)); } catch (_) { /* private mode */ }
 }
 
-async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, staleAfterDays }) {
+async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, staleAfterDays, onData }) {
   const mount = document.getElementById(mountId);
   const fresh = document.getElementById(freshnessId);
 
   const render = (data) => {
     const published = data.published || [];
     const underReview = data.under_review || [];
-    const body = kind === "event" ? renderEvents(published) : renderThreats(published);
+    const body = kind === "event" ? renderEvents(published)
+      : kind === "historical" ? renderHistorical(published)
+      : renderThreats(published);
     const nodes = [...body, ...renderUnderReview(underReview, kind)];
     if (!nodes.length) {
       mount.replaceChildren(el("p", { class: "loading", text: `No ${noun} tracked yet.` }));
     } else {
       mount.replaceChildren(...nodes);
     }
+    if (onData) onData(data);
     if (!data.last_updated) {
       fresh.replaceChildren();
       return;
@@ -234,7 +348,9 @@ async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, stale
       (underReview.length ? `, ${underReview.length} under review` : "") +
       ` · latest update ${dateOnly(data.last_updated)}`;
     const age = daysSince(data.last_updated);
-    const stale = Number.isFinite(age) && age > staleAfterDays;
+    // staleAfterDays: null means the pane is exempt (an archive cannot go stale) —
+    // without the isFinite guard, `age > null` would read as `age > 0`: always stale.
+    const stale = Number.isFinite(age) && Number.isFinite(staleAfterDays) && age > staleAfterDays;
     const freshNodes = [el("span", { text: summary })];
     if (stale) {
       freshNodes.push(el("span", {
@@ -262,13 +378,24 @@ async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, stale
 }
 
 function main() {
+  showTab(currentTab());
+  window.addEventListener("hashchange", () => showTab(currentTab()));
+
+  // All three panes load eagerly: payloads are small, staleness banners stay live,
+  // and switching tabs is instant with no fetch on first visit.
   loadPane({
     url: "./data/events.json", mountId: "pulse", freshnessId: "pulse-freshness",
     kind: "event", cacheKey: "globalobservatory.events", noun: "event", staleAfterDays: 2,
+    onData: (data) => { if (window.GOMap) GOMap.setEvents(data.published || []); },
   });
   loadPane({
     url: "./data/threats.json", mountId: "threats", freshnessId: "threats-freshness",
     kind: "threat", cacheKey: "globalobservatory.threats", noun: "tracked threat", staleAfterDays: 10,
+  });
+  loadPane({
+    url: "./data/historical.json", mountId: "history", freshnessId: "history-freshness",
+    kind: "historical", cacheKey: "globalobservatory.historical", noun: "historical record",
+    staleAfterDays: null,
   });
 }
 
