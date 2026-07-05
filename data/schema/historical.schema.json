@@ -1,0 +1,211 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://global-observatory/historical.schema.json",
+  "title": "Historical Event",
+  "description": "One major event from the historical record — a pandemic, war, famine, disaster, or collapse — from the dawn of civilization onward. Shares the claims/verification/provenance trust spine with the Threat and Event schemas; only the domain block and sort_keys differ. Chronology uses signed astronomical year numbering (0 = 1 BCE, -2999 = 3000 BCE) because ISO dates cannot represent BCE. This kind is deliberately exempt from staleness checks — an archive cannot go stale. Deliberately flat and free of pattern/min/max keywords so this exact schema can double as a Claude structured-output format; slug and range checks live in Python.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "category",
+    "description",
+    "historical",
+    "claims",
+    "verification",
+    "provenance",
+    "last_updated",
+    "sort_keys"
+  ],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "id": {
+      "type": "string",
+      "description": "Stable slug, equals the filename without .json. Must match ^[a-z0-9-]+$ (enforced in Python)."
+    },
+    "name": { "type": "string" },
+    "category": {
+      "type": "string",
+      "enum": [
+        "pandemic",
+        "war",
+        "famine",
+        "natural-disaster",
+        "societal-collapse",
+        "genocide",
+        "economic",
+        "other"
+      ]
+    },
+    "description": { "type": "string" },
+    "historical": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "year_start",
+        "year_end",
+        "date_display",
+        "era",
+        "location",
+        "impact"
+      ],
+      "properties": {
+        "year_start": {
+          "type": "integer",
+          "description": "Signed astronomical year the event began: 0 = 1 BCE, -2999 = 3000 BCE, 1918 = 1918 CE. Drives chronological ordering. Range checked in Python."
+        },
+        "year_end": {
+          "type": ["integer", "null"],
+          "description": "Signed astronomical year the event ended; null for a point event. Must be >= year_start (checked in Python)."
+        },
+        "date_display": {
+          "type": "string",
+          "description": "Human-readable chronology, e.g. \"c. 1177 BCE\", \"1347–1351\", \"79 CE\". The frontend shows this, never the raw years."
+        },
+        "era": {
+          "type": "string",
+          "enum": [
+            "ancient",
+            "classical",
+            "medieval",
+            "early-modern",
+            "modern",
+            "contemporary"
+          ],
+          "description": "Editorial era the frontend groups the timeline by. Guidance bands: ancient < 800 BCE; classical 800 BCE–499 CE; medieval 500–1449; early-modern 1450–1799; modern 1800–1944; contemporary 1945–."
+        },
+        "location": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["country", "region"],
+          "properties": {
+            "country": {
+              "type": "string",
+              "description": "Modern place name(s), e.g. \"modern-day Iraq\" — or a scope like \"Eurasia\" for continental events."
+            },
+            "region": { "type": "string" }
+          }
+        },
+        "impact": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["deaths_low", "deaths_high", "summary"],
+          "properties": {
+            "deaths_low": {
+              "type": ["number", "null"],
+              "description": "Lower bound of the estimated death toll as the cited source states it. Equal to deaths_high for a point estimate; null with deaths_high null when unquantified."
+            },
+            "deaths_high": {
+              "type": ["number", "null"],
+              "description": "Upper bound of the estimated death toll. Must be >= deaths_low when both are set (checked in Python)."
+            },
+            "summary": {
+              "type": "string",
+              "description": "States the estimate range and its uncertainty in prose, as the sources give it — never invented precision."
+            }
+          }
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "text",
+          "source_name",
+          "source_url",
+          "retrieved_date",
+          "verification_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable per-event id, e.g. claim-1. Lets re-verification diff in place."
+          },
+          "text": { "type": "string" },
+          "source_name": { "type": "string" },
+          "source_url": {
+            "type": "string",
+            "description": "Empty string until grounded. Only the gate normalizes source_name from this."
+          },
+          "retrieved_date": {
+            "type": "string",
+            "description": "ISO-8601 date the source was last retrieved, or empty string if never."
+          },
+          "verification_status": {
+            "type": "string",
+            "enum": ["verified", "unverified", "disputed"]
+          }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "confidence", "notes"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["verified", "partial", "quarantined", "unverified"]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["low", "medium", "high"]
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["last_layer", "last_run_id", "history"],
+      "properties": {
+        "last_layer": {
+          "type": "string",
+          "enum": ["generate", "verify", "cleanup", "optimize"]
+        },
+        "last_run_id": { "type": "string" },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["layer", "run_id", "at"],
+            "properties": {
+              "layer": {
+                "type": "string",
+                "enum": ["generate", "verify", "cleanup", "optimize"]
+              },
+              "run_id": { "type": "string" },
+              "at": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "last_updated": { "type": "string" },
+    "sort_keys": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chronology_rank", "impact_rank", "composite"],
+      "properties": {
+        "chronology_rank": {
+          "type": "integer",
+          "description": "year_start + 10000 (the offset keeps ranks positive back to 9999 BCE); larger = later. Range checked in Python."
+        },
+        "impact_rank": {
+          "type": "integer",
+          "description": "1-5 from the midpoint of the deaths_low/deaths_high range; range enforced in Python."
+        },
+        "composite": {
+          "type": "number",
+          "description": "chronology_rank*10 + impact_rank. Chronology dominates; impact breaks same-year ties."
+        }
+      }
+    }
+  }
+}

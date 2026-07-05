@@ -16,6 +16,7 @@ from . import config, models
 _KIND_DIRS: dict[str, tuple] = {
     "threat": (lambda: config.THREATS_DIR, lambda: config.QUARANTINE_DIR),
     "event": (lambda: config.EVENTS_DIR, lambda: config.QUARANTINE_EVENTS_DIR),
+    "historical": (lambda: config.HISTORICAL_DIR, lambda: config.QUARANTINE_HISTORICAL_DIR),
 }
 
 

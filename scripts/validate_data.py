@@ -35,6 +35,8 @@ def main() -> None:
         + _validate_dir(config.QUARANTINE_DIR, "threat")
         + _validate_dir(config.EVENTS_DIR, "event")
         + _validate_dir(config.QUARANTINE_EVENTS_DIR, "event")
+        + _validate_dir(config.HISTORICAL_DIR, "historical")
+        + _validate_dir(config.QUARANTINE_HISTORICAL_DIR, "historical")
     )
     for e in errs:
         print("FAIL", e)
@@ -43,7 +45,9 @@ def main() -> None:
     print(
         f"OK: validated {_count(config.THREATS_DIR)} threats "
         f"(+{_count(config.QUARANTINE_DIR)} quarantined), "
-        f"{_count(config.EVENTS_DIR)} events (+{_count(config.QUARANTINE_EVENTS_DIR)} quarantined)"
+        f"{_count(config.EVENTS_DIR)} events (+{_count(config.QUARANTINE_EVENTS_DIR)} quarantined), "
+        f"{_count(config.HISTORICAL_DIR)} historical "
+        f"(+{_count(config.QUARANTINE_HISTORICAL_DIR)} quarantined)"
     )
 
 

@@ -1,4 +1,4 @@
-"""Deterministic, no-API authoring of a single record (threat or event).
+"""Deterministic, no-API authoring of a single record (threat, event, or historical).
 
 The $0 path for adding or updating a record: Claude Code (on a Max subscription) or a human drafts
 the factual content, and `finalize` runs it through the deterministic trust machinery — the
@@ -6,8 +6,9 @@ allowlist quarantine gate decides verified-vs-quarantined, never the drafter's s
 
 A draft is a published record MINUS the fields computed here: `verification`, `sort_keys`,
 `provenance`, `last_updated`, and `schema_version` (defaulted). It must already contain `id`, `name`,
-`category`, `description`, `assessment` (threats) or `event` (events), and `claims` (each with a
-real `source_url` + `retrieved_date`).
+`category`, `description`, the kind's domain block (`assessment` for threats, `event` for events,
+`historical` for historical records), and `claims` (each with a real `source_url` +
+`retrieved_date`).
 """
 
 from __future__ import annotations
@@ -30,6 +31,12 @@ def _normalize(record: dict) -> dict:
     if isinstance(a.get("timeframe"), str):
         a["timeframe"] = a["timeframe"].strip()
 
+    h = record.get("historical", {})
+    if isinstance(h.get("date_display"), str):
+        h["date_display"] = h["date_display"].strip()
+    if isinstance((h.get("impact") or {}).get("summary"), str):
+        h["impact"]["summary"] = h["impact"]["summary"].strip()
+
     seen: set[str] = set()
     claims: list[dict] = []
     for c in sorted(record.get("claims", []), key=lambda c: c.get("id", "")):
@@ -49,6 +56,8 @@ def _normalize(record: dict) -> dict:
 def compute_sort_keys(record: dict, kind: str = "threat") -> dict:
     if kind == "event":
         return _event_sort_keys(record)
+    if kind == "historical":
+        return _historical_sort_keys(record)
     a = record.get("assessment", {})
     sr = config.SEVERITY_RANK.get(a.get("severity"), 1)
     pr = config.PROBABILITY_RANK.get(a.get("probability", {}).get("estimate"), 1)
@@ -89,6 +98,46 @@ def _event_sort_keys(record: dict) -> dict:
     impact = _impact_rank(ev.get("impact", {}))
     # Recency dominates (day-ordinal * 10 dwarfs the 1-4 impact); impact breaks same-day ties.
     return {"recency_rank": recency, "impact_rank": impact, "composite": float(recency * 10 + impact)}
+
+
+def _chronology_rank(year_start) -> int:
+    """Signed astronomical year + offset; BCE-capable where date.toordinal is not.
+
+    0 = 1 BCE, -2999 = 3000 BCE. A non-integer year yields 0, which the Python range
+    check rejects — same failure mode as an unparseable occurrence_date on events.
+    """
+    if isinstance(year_start, bool) or not isinstance(year_start, int):
+        return 0
+    return year_start + config.HISTORICAL_YEAR_OFFSET
+
+
+def _historical_impact_rank(impact: dict) -> int:
+    """1-5 from the midpoint of the deaths_low/deaths_high estimate range (see config).
+
+    Either bound alone counts when the other is null; null/null -> rank 1 (unquantified).
+    """
+    lo, hi = impact.get("deaths_low"), impact.get("deaths_high")
+    values = [v for v in (lo, hi) if isinstance(v, (int, float))]
+    if not values:
+        return 1
+    midpoint = sum(values) / len(values)
+    for threshold, r in config.HISTORICAL_IMPACT_DEATHS:
+        if midpoint >= threshold:
+            return r
+    return 1
+
+
+def _historical_sort_keys(record: dict) -> dict:
+    hist = record.get("historical", {})
+    chronology = _chronology_rank(hist.get("year_start"))
+    impact = _historical_impact_rank(hist.get("impact") or {})
+    # Composite kept for spine parity (chronology-dominant); the frontend timeline sorts
+    # on the individual keys (chronology ascending, impact breaking same-year ties).
+    return {
+        "chronology_rank": chronology,
+        "impact_rank": impact,
+        "composite": float(chronology * 10 + impact),
+    }
 
 
 # --- Finalize + write --------------------------------------------------------

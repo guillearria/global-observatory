@@ -1,6 +1,6 @@
 # Changelog
 
-_Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, and `data/quarantine-events/` by `pipeline.changelog`. Do not edit by hand._
+_Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
 ## 2026-07-04 — Refresh World Pulse: Ebola, Mindanao quake, Venezuela quake updates (`16b109f`)
 
