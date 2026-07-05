@@ -52,7 +52,7 @@ The full design is in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   entailment that the source supports the claim. The `disputed`/`partial` statuses give reviewers a hook.
 - **Staleness banner:** each pane's freshness line warns if the data hasn't refreshed recently
   (events: >2 days; threats: >10 days) — the mechanism-agnostic signal that the refresh schedule
-  (once configured) has stopped firing. A scheduled GitHub Actions workflow
+  has stopped firing. A scheduled GitHub Actions workflow
   (`.github/workflows/staleness.yml`) runs the same check server-side daily and fails loudly, so
   a dead schedule triggers a notification instead of waiting for someone to load the page.
 
@@ -91,7 +91,7 @@ Each `data/threats/<slug>.json` validates against `data/schema/threat.schema.jso
   per-claim `verification_status`.
 - `verification` — overall `status` (verified / partial / quarantined / unverified) + `confidence`.
 - `provenance` — append-only record of which layer last touched it, capped so files stay small.
-- `sort_keys` — numeric ordering computed by Optimize (`severity_rank`/`probability_rank`, severity-dominant).
+- `sort_keys` — numeric ordering computed by `curate.compute_sort_keys` (`severity_rank`/`probability_rank`, severity-dominant).
 
 ## How to read an event file
 

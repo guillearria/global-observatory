@@ -29,8 +29,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      # Rebuild the aggregate so a manual dispatch always ships current data;
-      # on a normal push the committed frontend/data/threats.json is already current.
+      # Rebuild the aggregates so a manual dispatch always ships current data;
+      # on a normal push the committed frontend/data/*.json aggregates are already current.
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

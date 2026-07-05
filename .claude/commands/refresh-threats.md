@@ -2,7 +2,7 @@
 description: Research and curate threat records on the Max plan ($0 API), then open a PR.
 ---
 
-You are curating the Global Observatory dataset **on a Claude Max subscription using your own
+You are curating the Existential Threats dataset **on a Claude Max subscription using your own
 WebSearch/WebFetch tools — no Anthropic API credits are spent.** You research and draft; the
 deterministic Python trust gate has the final say on what publishes.
 
@@ -66,7 +66,8 @@ Target for this run: **$ARGUMENTS**
    ```
 
 6. **Open a PR for human review** — factual content is never pushed straight to `main`. Commit
-   `data/` + `frontend/data/threats.json` + `CHANGELOG.md` and push (in a cloud session the push
+   `data/threats/` (+ `data/quarantine/` if anything was quarantined), the regenerated
+   `frontend/data/threats.json`, and `CHANGELOG.md`, then push (in a cloud session the push
    lands on your session's own `claude/…` branch — that's fine; the `publish-events` workflow
    deliberately skips threats branches). Then open a PR from that branch summarizing each threat
    and its sources; if you cannot open a PR from your environment, say so in your final report so

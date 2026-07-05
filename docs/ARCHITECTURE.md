@@ -127,5 +127,5 @@ The project began as a four-stage pipeline of independent Claude **API** calls (
 Clean-up → Optimize) orchestrated by a daily GitHub Actions cron. That path spent API credits a Max
 subscription can't cover, so curation moved to Claude Code and the pipeline was retired; the
 deterministic trust gate it pioneered is the part that survived (now `pipeline/gate.py`). The full
-blueprint and implementation live in git history — see `docs/ARCHITECTURE.md` and `pipeline/` before
-commit "Delete the legacy 4-layer API pipeline".
+blueprint and implementation live in git history — check out the tree just before commit "Delete the
+legacy 4-layer API pipeline".
