@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04T09:12:46Z",
+  "last_updated": "2026-07-05T21:42:14Z",
   "published": [
     {
       "category": "outbreak",
@@ -31,6 +31,8 @@
         "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
         "location": {
           "country": "Democratic Republic of the Congo",
+          "lat": 1.95,
+          "lon": 30.04,
           "region": "Ituri Province (Mongbwalu), DRC, with cases in Uganda and an imported case in France"
         },
         "occurrence_date": "2026-05-15",
@@ -38,7 +40,7 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-04T09:12:46Z",
+      "last_updated": "2026-07-05T21:42:14Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
@@ -46,10 +48,15 @@
             "at": "2026-07-04T09:12:46Z",
             "layer": "verify",
             "run_id": "2026-07-04T09-12-46Z-77dc35"
+          },
+          {
+            "at": "2026-07-05T21:42:14Z",
+            "layer": "verify",
+            "run_id": "2026-07-05T21-42-14Z-501cae"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-04T09-12-46Z-77dc35"
+        "last_run_id": "2026-07-05T21-42-14Z-501cae"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -101,6 +108,8 @@
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
         "location": {
           "country": "Philippines",
+          "lat": 5.5996,
+          "lon": 125.0647,
           "region": "Offshore Sarangani province, Mindanao (near General Santos)"
         },
         "occurrence_date": "2026-06-08",
@@ -108,7 +117,7 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-07-04T09:12:46Z",
+      "last_updated": "2026-07-05T21:42:14Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
@@ -116,10 +125,15 @@
             "at": "2026-07-04T09:12:46Z",
             "layer": "verify",
             "run_id": "2026-07-04T09-12-46Z-02c17d"
+          },
+          {
+            "at": "2026-07-05T21:42:14Z",
+            "layer": "verify",
+            "run_id": "2026-07-05T21-42-14Z-ea6122"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-04T09-12-46Z-02c17d"
+        "last_run_id": "2026-07-05T21-42-14Z-ea6122"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -163,6 +177,8 @@
         "live_source_url": "https://www.unhcr.org/us/emergencies/sudan-emergency",
         "location": {
           "country": "Sudan",
+          "lat": 15.5,
+          "lon": 32.55,
           "region": "Sudan nationwide and neighbouring countries"
         },
         "occurrence_date": "2023-04-15",
@@ -170,7 +186,7 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-07-01T15:55:57Z",
+      "last_updated": "2026-07-05T21:42:14Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
@@ -178,10 +194,15 @@
             "at": "2026-07-01T15:55:57Z",
             "layer": "verify",
             "run_id": "2026-07-01T15-55-57Z-d920d6"
+          },
+          {
+            "at": "2026-07-05T21:42:14Z",
+            "layer": "verify",
+            "run_id": "2026-07-05T21-42-14Z-72a687"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-01T15-55-57Z-d920d6"
+        "last_run_id": "2026-07-05T21-42-14Z-72a687"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -241,6 +262,8 @@
         "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp/executive",
         "location": {
           "country": "Venezuela",
+          "lat": 10.4,
+          "lon": -68.3,
           "region": "Near Morón / San Felipe, northern Venezuela (west of Caracas)"
         },
         "occurrence_date": "2026-06-25",
@@ -248,7 +271,7 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-07-04T09:12:46Z",
+      "last_updated": "2026-07-05T21:42:14Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
@@ -256,10 +279,15 @@
             "at": "2026-07-04T09:12:46Z",
             "layer": "verify",
             "run_id": "2026-07-04T09-12-46Z-c75290"
+          },
+          {
+            "at": "2026-07-05T21:42:14Z",
+            "layer": "verify",
+            "run_id": "2026-07-05T21-42-14Z-9afbf1"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-04T09-12-46Z-c75290"
+        "last_run_id": "2026-07-05T21-42-14Z-9afbf1"
       },
       "schema_version": "1.0",
       "sort_keys": {

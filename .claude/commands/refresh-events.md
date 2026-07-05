@@ -66,9 +66,12 @@ events so cached figures don't go stale.)
    - `id` (slug, `^[a-z0-9-]+$`, matches the eventual filename), `name`, `description`
    - `category` ∈ earthquake | storm | flood | wildfire | volcanic | drought | outbreak | conflict |
      humanitarian | economic | industrial | other
-   - `event`: `occurrence_date` (ISO date), `location` {`country`, `region`}, `status` ∈ ongoing |
-     contained | resolved, `scale` (free text, e.g. "M6.3", "Category 4", "PHEIC"), `impact`
-     {`deaths`, `displaced`, `summary`}, `live_source_url`
+   - `event`: `occurrence_date` (ISO date), `location` {`country`, `region`, `lat`, `lon`},
+     `status` ∈ ongoing | contained | resolved, `scale` (free text, e.g. "M6.3", "Category 4",
+     "PHEIC"), `impact` {`deaths`, `displaced`, `summary`}, `live_source_url`.
+     `lat`/`lon` are WGS84 decimal degrees of the event locus — they power the World Pulse map.
+     Take them from the authoritative source where it quotes them (a USGS/GDACS epicenter), else
+     use an approximate locus/centroid of the affected area; null only if genuinely unlocatable.
    - `claims[]`: each `{id:"claim-1"…, text, source_name, source_url, retrieved_date:"<today>", verification_status:"verified"}`
    Use the existing `data/events/*.json` as shape references.
 
