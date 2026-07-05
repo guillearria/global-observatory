@@ -58,9 +58,15 @@ signals.
 ## Data
 
 - **Fill the empty threat categories** *(Done 2026-07-02 — all 8 categories now have at least one
-  record; nuclear needed a SIPRI allowlist entry since IAEA publishes no arsenal counts. The
-  forced-displacement record is honestly `partial`: unhcr.org blocks automated fetchers, so its
-  headline total is marked unverified — flip it to verified by confirming the figure in a browser.)*
+  record; nuclear needed a SIPRI allowlist entry since IAEA publishes no arsenal counts.)*
+- **Flip the forced-displacement headline claim to verified**: the record is honestly `partial`
+  because claim-1's 117.8M end-2025 total can't be machine-confirmed — unhcr.org 403s automated
+  fetchers (curl and WebFetch alike), its Wayback playback is a JS shell with no figures, and the
+  allowlisted mirrors (UN News story, UNifeed briefing) carry only the 41.6M refugee component.
+  Search-result snippets do corroborate 117.8M from Global Trends (June 2026), but the trust rule
+  requires confirming the figure on the cited page. A human with a real browser: open
+  https://www.unhcr.org/global-trends, confirm the total, set claim-1 `verified` with today's
+  `retrieved_date`, and re-run it through `curate.write(kind="threat")`.
 - **Seed more real events**: more accrue naturally once the daily routine is running; no action
   needed beyond that.
 - **Seed the Historical Archive**: the kind, schema, gate wiring, and timeline UI shipped
