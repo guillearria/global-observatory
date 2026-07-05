@@ -35,18 +35,25 @@ signals.
   that it supports the claim. Add a skeptic pass to the refresh commands asked to *refute* each
   claim against its cited page; quarantine on refutation.
 - **Citation rot / archival**: no Wayback/archival snapshot. A dead link currently just downgrades
-  to unverified on the next refresh; consider archiving the retrieved page. Applies to both threats
-  and events.
+  to unverified on the next refresh; consider archiving the retrieved page. Applies to all three
+  kinds — historical claims especially, since scholarly pages move.
 
 ## Frontend & delivery
 
 - **Richer UI**: category/event-type filtering, search, surfacing each claim's quoted supporting
-  passage, a clearer verified/partial distinction, and a small legend for the trust badges.
-- **World Pulse map/lat-lon**: `location.lat`/`lon` were deliberately cut from the event schema as
-  premature (required-but-always-null, no consumer). Revisit only if a real map view is wanted —
-  re-add as optional fields and wire an actual consumer first.
+  passage, a clearer verified/partial distinction, and a small legend for the trust badges. For the
+  Historical Archive: century sub-grouping or filtering once the timeline grows past ~60 records.
+- **World Pulse map/lat-lon** *(Done 2026-07-05 — optional `lat`/`lon` landed in the event schema
+  with the map as their consumer: a self-contained NASA Blue Marble basemap in `frontend/map.js`
+  with pan/zoom and impact-scaled markers. All four events carry coordinates; `/refresh-events`
+  now asks for them.)*
+- **Map: Leaflet upgrade path**: the static basemap softens past ~6× zoom. If street-level detail
+  is ever wanted, swap `map.js` for vendored Leaflet + Esri World Imagery tiles behind the same
+  two-method `GOMap` API — decided against for now to keep the zero-external-requests property.
+  Marker clustering becomes worth it if the pulse ever tracks dozens of co-located events.
 - **Secondary staleness monitoring** *(Done — `.github/workflows/staleness.yml` fails loudly when
-  the committed aggregates go stale, complementing the client-side banner.)*
+  the committed aggregates go stale, complementing the client-side banner. The Historical Archive
+  is deliberately exempt.)*
 
 ## Data
 
@@ -56,6 +63,9 @@ signals.
   headline total is marked unverified — flip it to verified by confirming the figure in a browser.)*
 - **Seed more real events**: more accrue naturally once the daily routine is running; no action
   needed beyond that.
+- **Seed the Historical Archive**: the kind, schema, gate wiring, and timeline UI shipped
+  2026-07-05 with an empty dataset. Seed ~40 landmark records (pandemics, wars, famines, disasters,
+  collapses across all six eras) via `/refresh-history` — PR-reviewed like threats.
 
 ## Tooling
 
