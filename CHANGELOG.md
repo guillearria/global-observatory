@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-05 — Backfill lat/lon on all four World Pulse events (`a10649c`)
+
+- **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, sudan-displacement-crisis, venezuela-earthquake-2026
+
 ## 2026-07-04 — Refresh World Pulse: Ebola, Mindanao quake, Venezuela quake updates (`16b109f`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, venezuela-earthquake-2026
