@@ -26,6 +26,8 @@ jobs:
           python3 - <<'EOF'
           import json, sys
           from datetime import datetime, timezone
+          # frontend/data/historical.json is deliberately absent: the Historical
+          # Archive is refreshed ad hoc and an archive cannot go "stale".
           LIMITS = {"frontend/data/events.json": 2, "frontend/data/threats.json": 10}
           now, errs = datetime.now(timezone.utc), []
           for path, limit in LIMITS.items():

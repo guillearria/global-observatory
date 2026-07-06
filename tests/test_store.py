@@ -72,9 +72,39 @@ def test_quarantine_write_targets_quarantine_events_dir(tmp_path, monkeypatch):
 def test_writing_one_kind_does_not_touch_the_other(tmp_path, monkeypatch):
     monkeypatch.setattr(config, "THREATS_DIR", tmp_path / "threats")
     monkeypatch.setattr(config, "EVENTS_DIR", tmp_path / "events")
+    monkeypatch.setattr(config, "HISTORICAL_DIR", tmp_path / "historical")
     store.write_record({"id": "isolated-threat", "name": "T"}, kind="threat")
     store.write_record({"id": "isolated-event", "name": "E"}, kind="event")
+    store.write_record({"id": "isolated-historical", "name": "H"}, kind="historical")
     assert set(store.load_all(kind="threat")) == {"isolated-threat"}
     assert set(store.load_all(kind="event")) == {"isolated-event"}
+    assert set(store.load_all(kind="historical")) == {"isolated-historical"}
     assert not (tmp_path / "events" / "isolated-threat.json").exists()
     assert not (tmp_path / "threats" / "isolated-event.json").exists()
+    assert not (tmp_path / "historical" / "isolated-event.json").exists()
+
+
+# --- Historical-kind mirrors: same lambda-pattern guard as the event mirrors. ---
+
+def test_path_mapping_historical():
+    assert store.path_for("black-death", kind="historical").parent.name == "historical"
+    assert store.quarantine_path_for("x", kind="historical").parent.name == "quarantine-historical"
+
+
+def test_atomic_write_roundtrip_historical(tmp_path, monkeypatch):
+    monkeypatch.setattr(config, "HISTORICAL_DIR", tmp_path / "historical")
+    rec = {"id": "demo-historical", "name": "Demo"}
+
+    path = store.write_record(rec, kind="historical")
+    assert path.exists()
+    assert path.parent == tmp_path / "historical"
+    assert store.load(path) == rec
+
+
+def test_quarantine_write_targets_quarantine_historical_dir(tmp_path, monkeypatch):
+    monkeypatch.setattr(config, "QUARANTINE_HISTORICAL_DIR", tmp_path / "quarantine-historical")
+    path = store.write_record(
+        {"id": "bad-historical", "name": "Bad"}, quarantine=True, kind="historical"
+    )
+    assert path.parent == tmp_path / "quarantine-historical"
+    assert path.exists()

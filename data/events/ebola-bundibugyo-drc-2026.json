@@ -28,6 +28,8 @@
     "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
     "location": {
       "country": "Democratic Republic of the Congo",
+      "lat": 1.95,
+      "lon": 30.04,
       "region": "Ituri Province (Mongbwalu), DRC, with cases in Uganda and an imported case in France"
     },
     "occurrence_date": "2026-05-15",
@@ -35,7 +37,7 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-07-05T09:12:13Z",
+  "last_updated": "2026-07-06T02:27:30Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
@@ -43,10 +45,15 @@
         "at": "2026-07-05T09:12:13Z",
         "layer": "verify",
         "run_id": "2026-07-05T09-12-13Z-a4eb55"
+      },
+      {
+        "at": "2026-07-06T02:27:30Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T02-27-30Z-f1a393"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-05T09-12-13Z-a4eb55"
+    "last_run_id": "2026-07-06T02-27-30Z-f1a393"
   },
   "schema_version": "1.0",
   "sort_keys": {

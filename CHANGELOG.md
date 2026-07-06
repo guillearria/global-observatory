@@ -1,10 +1,10 @@
 # Changelog
 
-_Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, and `data/quarantine-events/` by `pipeline.changelog`. Do not edit by hand._
+_Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
-## 2026-07-06 — Refresh World Pulse: Typhoon Bavi intensity/exposure update (`722ba2f`)
+## 2026-07-05 — Backfill lat/lon on all four World Pulse events (`a10649c`)
 
-- **Updated:** typhoon-bavi-guam-mariana-2026
+- **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, sudan-displacement-crisis, venezuela-earthquake-2026
 
 ## 2026-07-05 — Refresh World Pulse: Ebola re-confirmation, add Typhoon Bavi (`5d79b92`)
 

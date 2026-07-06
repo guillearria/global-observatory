@@ -36,6 +36,8 @@
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
     "location": {
       "country": "Philippines",
+      "lat": 5.5996,
+      "lon": 125.0647,
       "region": "Offshore Sarangani province, Mindanao (near General Santos)"
     },
     "occurrence_date": "2026-06-08",
@@ -43,7 +45,7 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-07-04T09:12:46Z",
+  "last_updated": "2026-07-05T21:42:14Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
@@ -51,10 +53,15 @@
         "at": "2026-07-04T09:12:46Z",
         "layer": "verify",
         "run_id": "2026-07-04T09-12-46Z-02c17d"
+      },
+      {
+        "at": "2026-07-05T21:42:14Z",
+        "layer": "verify",
+        "run_id": "2026-07-05T21-42-14Z-ea6122"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-04T09-12-46Z-02c17d"
+    "last_run_id": "2026-07-05T21-42-14Z-ea6122"
   },
   "schema_version": "1.0",
   "sort_keys": {

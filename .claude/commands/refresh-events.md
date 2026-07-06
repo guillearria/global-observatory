@@ -34,9 +34,16 @@ events so cached figures don't go stale.)
   allowlisted domain, AND (b) it's actually significant — mass casualties or displacement, an
   official emergency declaration (WHO PHEIC, a national/UN state of emergency, GDACS red/orange), or
   sustained top-tier international coverage. This is explicitly **NOT** ordinary news: no routine
-  politics, elections, markets, sport, celebrity news, single-victim crime, or product launches —
-  those have no authoritative primary document to cite and will fail the gate anyway, but don't
-  waste a research pass on them.
+  politics, elections, day-to-day market moves, sport, celebrity news, single-victim crime, or
+  product launches — those have no authoritative primary document to cite and will fail the gate
+  anyway, but don't waste a research pass on them.
+- **A systemic economic shock DOES qualify** (category `economic`) — distinct from routine market
+  movement. A major market crash (a roughly ≥20% index collapse or a circuit-breaker halt), a
+  sovereign default, a banking crisis, a currency collapse, or an emergency IMF / World Bank /
+  central-bank intervention is a major event: cite the authoritative institution (imf.org,
+  worldbank.org, oecd.org, europa.eu, or the relevant national central bank if you add it via PR)
+  for the figures, and set `live_source_url` to its live page. Everyday index ups-and-downs are not
+  events; a systemic crisis is.
 - **The gate decides, not you.** Build every record through `scripts/author_event.py`; if it
   quarantines a record, fix the *citation* (use an allowlisted source) — never relax the rules to
   force a publish.
@@ -66,9 +73,12 @@ events so cached figures don't go stale.)
    - `id` (slug, `^[a-z0-9-]+$`, matches the eventual filename), `name`, `description`
    - `category` ∈ earthquake | storm | flood | wildfire | volcanic | drought | outbreak | conflict |
      humanitarian | economic | industrial | other
-   - `event`: `occurrence_date` (ISO date), `location` {`country`, `region`}, `status` ∈ ongoing |
-     contained | resolved, `scale` (free text, e.g. "M6.3", "Category 4", "PHEIC"), `impact`
-     {`deaths`, `displaced`, `summary`}, `live_source_url`
+   - `event`: `occurrence_date` (ISO date), `location` {`country`, `region`, `lat`, `lon`},
+     `status` ∈ ongoing | contained | resolved, `scale` (free text, e.g. "M6.3", "Category 4",
+     "PHEIC"), `impact` {`deaths`, `displaced`, `summary`}, `live_source_url`.
+     `lat`/`lon` are WGS84 decimal degrees of the event locus — they power the World Pulse map.
+     Take them from the authoritative source where it quotes them (a USGS/GDACS epicenter), else
+     use an approximate locus/centroid of the affected area; null only if genuinely unlocatable.
    - `claims[]`: each `{id:"claim-1"…, text, source_name, source_url, retrieved_date:"<today>", verification_status:"verified"}`
    Use the existing `data/events/*.json` as shape references.
 

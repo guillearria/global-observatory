@@ -18,7 +18,11 @@ class ValidationError(Exception):
     """Raised when a record fails schema validation or a Python-side invariant."""
 
 
-_SCHEMA_PATHS = {"threat": lambda: config.SCHEMA_PATH, "event": lambda: config.EVENT_SCHEMA_PATH}
+_SCHEMA_PATHS = {
+    "threat": lambda: config.SCHEMA_PATH,
+    "event": lambda: config.EVENT_SCHEMA_PATH,
+    "historical": lambda: config.HISTORICAL_SCHEMA_PATH,
+}
 
 
 @functools.lru_cache(maxsize=None)
@@ -54,7 +58,44 @@ def _event_range_checks(record: dict) -> list[str]:
     ir = sk.get("impact_rank")
     if isinstance(ir, int) and not 1 <= ir <= 4:
         msgs.append(f"sort_keys.impact_rank: {ir} out of range 1-4")
+    loc = (record.get("event") or {}).get("location") or {}
+    lat, lon = loc.get("lat"), loc.get("lon")
+    if isinstance(lat, (int, float)) and not -90 <= lat <= 90:
+        msgs.append(f"event.location.lat: {lat} out of range -90..90")
+    if isinstance(lon, (int, float)) and not -180 <= lon <= 180:
+        msgs.append(f"event.location.lon: {lon} out of range -180..180")
     return msgs
+
+
+def _historical_range_checks(record: dict) -> list[str]:
+    msgs = []
+    sk = record.get("sort_keys") or {}
+    cr = sk.get("chronology_rank")
+    cr_max = config.HISTORICAL_YEAR_MAX + config.HISTORICAL_YEAR_OFFSET
+    if isinstance(cr, int) and not 1 <= cr <= cr_max:
+        msgs.append(
+            f"sort_keys.chronology_rank: {cr} out of range 1-{cr_max} "
+            f"(years {config.HISTORICAL_YEAR_MIN}..{config.HISTORICAL_YEAR_MAX})"
+        )
+    ir = sk.get("impact_rank")
+    if isinstance(ir, int) and not 1 <= ir <= 5:
+        msgs.append(f"sort_keys.impact_rank: {ir} out of range 1-5")
+    hist = record.get("historical") or {}
+    ys, ye = hist.get("year_start"), hist.get("year_end")
+    if isinstance(ys, int) and isinstance(ye, int) and ye < ys:
+        msgs.append(f"historical.year_end: {ye} precedes year_start {ys}")
+    impact = hist.get("impact") or {}
+    lo, hi = impact.get("deaths_low"), impact.get("deaths_high")
+    if isinstance(lo, (int, float)) and isinstance(hi, (int, float)) and lo > hi:
+        msgs.append(f"historical.impact.deaths_low: {lo} exceeds deaths_high {hi}")
+    return msgs
+
+
+_RANGE_CHECKS = {
+    "threat": _threat_range_checks,
+    "event": _event_range_checks,
+    "historical": _historical_range_checks,
+}
 
 
 def validate(record: dict, kind: str = "threat") -> None:
@@ -68,7 +109,7 @@ def validate(record: dict, kind: str = "threat") -> None:
     if isinstance(slug, str) and not models.slug_ok(slug):
         msgs.append(f"id: {slug!r} does not match ^[a-z0-9-]+$")
 
-    msgs += _event_range_checks(record) if kind == "event" else _threat_range_checks(record)
+    msgs += _RANGE_CHECKS[kind](record)
 
     if msgs:
         raise ValidationError("; ".join(msgs))

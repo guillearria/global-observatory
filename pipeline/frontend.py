@@ -46,3 +46,10 @@ def build() -> dict:
 def build_events() -> dict:
     """Aggregate World Pulse events -> frontend/data/events.json."""
     return _aggregate(config.EVENTS_DIR, config.QUARANTINE_EVENTS_DIR, config.FRONTEND_EVENTS_DATA)
+
+
+def build_historical() -> dict:
+    """Aggregate Historical Archive records -> frontend/data/historical.json."""
+    return _aggregate(
+        config.HISTORICAL_DIR, config.QUARANTINE_HISTORICAL_DIR, config.FRONTEND_HISTORICAL_DATA
+    )

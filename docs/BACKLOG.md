@@ -35,27 +35,58 @@ signals.
   that it supports the claim. Add a skeptic pass to the refresh commands asked to *refute* each
   claim against its cited page; quarantine on refutation.
 - **Citation rot / archival**: no Wayback/archival snapshot. A dead link currently just downgrades
-  to unverified on the next refresh; consider archiving the retrieved page. Applies to both threats
-  and events.
+  to unverified on the next refresh; consider archiving the retrieved page. Applies to all three
+  kinds — historical claims especially, since scholarly pages move.
 
 ## Frontend & delivery
 
 - **Richer UI**: category/event-type filtering, search, surfacing each claim's quoted supporting
-  passage, a clearer verified/partial distinction, and a small legend for the trust badges.
-- **World Pulse map/lat-lon**: `location.lat`/`lon` were deliberately cut from the event schema as
-  premature (required-but-always-null, no consumer). Revisit only if a real map view is wanted —
-  re-add as optional fields and wire an actual consumer first.
+  passage, a clearer verified/partial distinction, and a small legend for the trust badges. For the
+  Historical Archive: century sub-grouping or filtering once the timeline grows past ~60 records.
+- **World Pulse map/lat-lon** *(Done 2026-07-05 — optional `lat`/`lon` landed in the event schema
+  with the map as their consumer: a self-contained NASA Blue Marble basemap in `frontend/map.js`
+  with pan/zoom and impact-scaled markers. All four events carry coordinates; `/refresh-events`
+  now asks for them.)*
+- **Map: Leaflet upgrade path**: the static basemap softens past ~6× zoom. If street-level detail
+  is ever wanted, swap `map.js` for vendored Leaflet + Esri World Imagery tiles behind the same
+  two-method `GOMap` API — decided against for now to keep the zero-external-requests property.
+  Marker clustering becomes worth it if the pulse ever tracks dozens of co-located events.
 - **Secondary staleness monitoring** *(Done — `.github/workflows/staleness.yml` fails loudly when
-  the committed aggregates go stale, complementing the client-side banner.)*
+  the committed aggregates go stale, complementing the client-side banner. The Historical Archive
+  is deliberately exempt.)*
 
 ## Data
 
 - **Fill the empty threat categories** *(Done 2026-07-02 — all 8 categories now have at least one
-  record; nuclear needed a SIPRI allowlist entry since IAEA publishes no arsenal counts. The
-  forced-displacement record is honestly `partial`: unhcr.org blocks automated fetchers, so its
-  headline total is marked unverified — flip it to verified by confirming the figure in a browser.)*
+  record; nuclear needed a SIPRI allowlist entry since IAEA publishes no arsenal counts.)*
+- **Flip the forced-displacement headline claim to verified**: the record is honestly `partial`
+  because claim-1's 117.8M end-2025 total can't be machine-confirmed — unhcr.org 403s automated
+  fetchers (curl and WebFetch alike), its Wayback playback is a JS shell with no figures, and the
+  allowlisted mirrors (UN News story, UNifeed briefing) carry only the 41.6M refugee component.
+  Search-result snippets do corroborate 117.8M from Global Trends (June 2026), but the trust rule
+  requires confirming the figure on the cited page. A human with a real browser: open
+  https://www.unhcr.org/global-trends, confirm the total, set claim-1 `verified` with today's
+  `retrieved_date`, and re-run it through `curate.write(kind="threat")`.
 - **Seed more real events**: more accrue naturally once the daily routine is running; no action
   needed beyond that.
+- **Seed the Historical Archive** *(Done 2026-07-06 — 43 landmark records across all six eras,
+  researched against allowlisted sources and gated; 41 verified, 2 honest-partial. Grow it further
+  via `/refresh-history`.)*
+- **Economic coverage — the one thin spot, across all three features.** Economic crises are
+  under-represented everywhere, and this is a single gap to close in three places:
+  - *Historical Archive*: the seed batch has no `economic` records. Add the landmark ones via
+    `/refresh-history` — e.g. the 1929 crash / Great Depression, the 1997 Asian financial crisis,
+    the 2008 global financial crisis, hyperinflations (Weimar 1923, Zimbabwe 2007-09). Sources are
+    already allowlisted (IMF, World Bank, OECD, europa.eu, un.org).
+  - *World Pulse*: the `economic` event category and the IMF/World Bank/OECD allowlist entries
+    already exist, so **the daily read can and should capture a major market crash or financial
+    crisis the day it happens** — a systemic shock (a >~20% index collapse, a sovereign default, a
+    banking crisis, an IMF/central-bank emergency intervention), not routine market movement.
+    `/refresh-events` was clarified (2026-07-06) to put this in scope; watch that the daily routine
+    actually surfaces one when it occurs.
+  - *Existential Threats*: consider whether a standing `societal`/`economic` systemic-financial-risk
+    record belongs alongside the others (global debt, a systemic banking collapse). Lower priority
+    than the above two.
 
 ## Tooling
 

@@ -11,8 +11,8 @@ import subprocess
 from . import config
 
 _FMT = "%x00C%x00%h%x00%ad%x00%s"
-_PUBLISHED_DIRS = ("data/threats", "data/events")
-_QUARANTINE_DIRS = ("data/quarantine", "data/quarantine-events")
+_PUBLISHED_DIRS = ("data/threats", "data/events", "data/historical")
+_QUARANTINE_DIRS = ("data/quarantine", "data/quarantine-events", "data/quarantine-historical")
 
 
 def _git(*args: str) -> str:
@@ -66,7 +66,8 @@ def render() -> str:
         "# Changelog",
         "",
         "_Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, "
-        "and `data/quarantine-events/` by `pipeline.changelog`. Do not edit by hand._",
+        "`data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by "
+        "`pipeline.changelog`. Do not edit by hand._",
         "",
     ]
     for c in _collect():

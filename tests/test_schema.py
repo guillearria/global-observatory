@@ -12,6 +12,10 @@ def test_schema_is_valid_draft_2020_12():
     jsonschema.Draft202012Validator.check_schema(schema.load_schema())
 
 
+def test_historical_schema_is_valid_draft_2020_12():
+    jsonschema.Draft202012Validator.check_schema(schema.load_schema("historical"))
+
+
 def test_seed_validates():
     schema.validate(copy.deepcopy(SEED))
 

@@ -45,6 +45,8 @@ def new_run_id() -> str:
 def _summary_of(r: dict, kind: str) -> str:
     if kind == "event":
         return r.get("event", {}).get("impact", {}).get("summary", "")
+    if kind == "historical":
+        return r.get("historical", {}).get("impact", {}).get("summary", "")
     return r.get("assessment", {}).get("summary", "")
 
 

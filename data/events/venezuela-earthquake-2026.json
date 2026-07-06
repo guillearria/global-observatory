@@ -44,6 +44,8 @@
     "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp/executive",
     "location": {
       "country": "Venezuela",
+      "lat": 10.4,
+      "lon": -68.3,
       "region": "Near Morón / San Felipe, northern Venezuela (west of Caracas)"
     },
     "occurrence_date": "2026-06-25",
@@ -51,7 +53,7 @@
     "status": "ongoing"
   },
   "id": "venezuela-earthquake-2026",
-  "last_updated": "2026-07-04T09:12:46Z",
+  "last_updated": "2026-07-05T21:42:14Z",
   "name": "Venezuela M7.5 Earthquake Doublet",
   "provenance": {
     "history": [
@@ -59,10 +61,15 @@
         "at": "2026-07-04T09:12:46Z",
         "layer": "verify",
         "run_id": "2026-07-04T09-12-46Z-c75290"
+      },
+      {
+        "at": "2026-07-05T21:42:14Z",
+        "layer": "verify",
+        "run_id": "2026-07-05T21-42-14Z-9afbf1"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-04T09-12-46Z-c75290"
+    "last_run_id": "2026-07-05T21-42-14Z-9afbf1"
   },
   "schema_version": "1.0",
   "sort_keys": {

@@ -76,11 +76,34 @@ def test_source_name_normalized_to_allowlist_label():
         ("https://www.wfp.org/hunger-map", "UN World Food Programme"),
         ("https://digital-strategy.ec.europa.eu/en/ai-act", "European Union"),
         ("https://www.sipri.org/yearbook/2026", "SIPRI"),
+        # Historical Archive scholarly tier
+        ("https://www.britannica.com/event/Black-Death", "Encyclopaedia Britannica"),
+        ("https://www.si.edu/spotlight/1918-flu", "Smithsonian Institution"),
+        ("https://www.loc.gov/collections/", "Library of Congress"),
+        ("https://www.archives.gov/research", "U.S. National Archives"),
+        ("https://www.nationalarchives.gov.uk/education/", "UK National Archives"),
+        ("https://www.britishmuseum.org/collection", "British Museum"),
+        ("https://www.metmuseum.org/toah/", "The Metropolitan Museum of Art"),
+        ("https://ourworldindata.org/famines", "Our World in Data"),
+        ("https://www.cambridge.org/core/journals/", "Cambridge University Press"),
+        ("https://academic.oup.com/book/123", "Oxford University Press"),
+        ("https://www.jstor.org/stable/123", "JSTOR"),
+        ("https://www.ushmm.org/learn/holocaust", "US Holocaust Memorial Museum"),
+        ("https://www.iwm.org.uk/history/first-world-war", "Imperial War Museums"),
+        ("https://history.state.gov/milestones/", "U.S. Office of the Historian"),
     ],
 )
 def test_new_authoritative_domains_are_allowlisted(url, label):
     ok, got = allowlisted(url)
     assert ok and got == label
+
+
+def test_specific_nlm_subdomain_keeps_its_finer_label():
+    # nih.gov is allowlisted, but the more-specific nlm.nih.gov must still win.
+    ok, label = allowlisted("https://www.nlm.nih.gov/exhibition/plague/")
+    assert ok and label == "U.S. National Library of Medicine"
+    ok, label = allowlisted("https://grants.nih.gov/policy")
+    assert ok and label == "NIH"
 
 
 def test_specific_europa_subdomain_keeps_its_finer_label():

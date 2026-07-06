@@ -19,8 +19,15 @@ SCHEMA_PATH = DATA_DIR / "schema" / "threat.schema.json"
 EVENTS_DIR = DATA_DIR / "events"
 QUARANTINE_EVENTS_DIR = DATA_DIR / "quarantine-events"
 EVENT_SCHEMA_PATH = DATA_DIR / "schema" / "event.schema.json"
+# Historical Archive records: major events from the dawn of civilization onward. Same
+# trust spine again; chronology replaces recency (signed astronomical years, because
+# date.toordinal cannot represent BCE dates). See historical.schema.json.
+HISTORICAL_DIR = DATA_DIR / "historical"
+QUARANTINE_HISTORICAL_DIR = DATA_DIR / "quarantine-historical"
+HISTORICAL_SCHEMA_PATH = DATA_DIR / "schema" / "historical.schema.json"
 FRONTEND_DATA = ROOT / "frontend" / "data" / "threats.json"
 FRONTEND_EVENTS_DATA = ROOT / "frontend" / "data" / "events.json"
+FRONTEND_HISTORICAL_DATA = ROOT / "frontend" / "data" / "historical.json"
 CHANGELOG_PATH = ROOT / "CHANGELOG.md"
 
 # --- Source allowlist ------------------------------------------------------
@@ -73,6 +80,26 @@ SOURCE_ALLOWLIST: dict[str, str] = {
     "gdacs.org": "GDACS",  # UN/EU-backed Global Disaster Alert and Coordination System
     "reliefweb.int": "ReliefWeb",  # UN OCHA's humanitarian crisis reporting service
     "imf.org": "IMF",  # for the "economic" event category, same tier as worldbank.org/oecd.org
+    # Historical Archive sourcing — scholarly/reference tier: encyclopedias, national
+    # museums/archives/libraries, university presses, and curated research datasets, for
+    # well-attested figures about the past. Deliberately NO Wikipedia (community-edited,
+    # no stable editorial authority to hold accountable).
+    "britannica.com": "Encyclopaedia Britannica",
+    "si.edu": "Smithsonian Institution",
+    "loc.gov": "Library of Congress",
+    "archives.gov": "U.S. National Archives",
+    "nationalarchives.gov.uk": "UK National Archives",
+    "britishmuseum.org": "British Museum",
+    "metmuseum.org": "The Metropolitan Museum of Art",
+    "ourworldindata.org": "Our World in Data",
+    "cambridge.org": "Cambridge University Press",
+    "oup.com": "Oxford University Press",  # academic.oup.com matches as a subdomain
+    "jstor.org": "JSTOR",
+    "nih.gov": "NIH",
+    "nlm.nih.gov": "U.S. National Library of Medicine",  # finer label wins by specificity
+    "ushmm.org": "US Holocaust Memorial Museum",
+    "iwm.org.uk": "Imperial War Museums",
+    "history.state.gov": "U.S. Office of the Historian",
 }
 
 # Severity / probability -> integer rank, used by curate.compute_sort_keys.
@@ -84,6 +111,18 @@ PROBABILITY_RANK = {"very-low": 1, "low": 2, "medium": 3, "high": 4, "very-high"
 # high-to-low so the first matching threshold wins. Below the smallest -> rank 1.
 EVENT_IMPACT_DEATHS = [(1000, 4), (100, 3), (10, 2)]
 EVENT_IMPACT_DISPLACED = [(1_000_000, 4), (100_000, 3), (10_000, 2)]
+
+# Historical impact -> rank (1-5), banded on the midpoint of the deaths_low/deaths_high
+# estimate range (historical tolls are ranges, not counts). Ordered high-to-low so the
+# first matching threshold wins. Below the smallest -> rank 1.
+HISTORICAL_IMPACT_DEATHS = [(10_000_000, 5), (1_000_000, 4), (100_000, 3), (10_000, 2)]
+
+# Historical chronology uses astronomical year numbering (0 = 1 BCE, -2999 = 3000 BCE),
+# which date.toordinal cannot represent. chronology_rank = year_start + offset keeps the
+# rank positive across the whole supported window (year -9999 -> rank 1).
+HISTORICAL_YEAR_OFFSET = 10_000
+HISTORICAL_YEAR_MIN = -9_999
+HISTORICAL_YEAR_MAX = 2_100
 
 
 def allowlisted(url: str) -> tuple[bool, str | None]:

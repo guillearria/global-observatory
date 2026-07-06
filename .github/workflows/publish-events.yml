@@ -28,6 +28,8 @@ jobs:
         run: |
           files=$(git diff --name-only origin/main...HEAD)
           echo "changed files:"; echo "$files"
+          # data/historical/ and data/threats/ are excluded by design: only the daily
+          # unattended events refresh auto-publishes; everything else needs a human PR.
           out_of_scope=$(echo "$files" | grep -vE '^(data/events/|data/quarantine-events/|frontend/data/events\.json$|CHANGELOG\.md$)' || true)
           touches_events=$(echo "$files" | grep -E '^(data/events/|frontend/data/events\.json$)' || true)
           if [ -z "$files" ] || [ -n "$out_of_scope" ] || [ -z "$touches_events" ]; then

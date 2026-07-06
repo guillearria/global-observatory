@@ -36,11 +36,63 @@ body {
 
 .loading { color: var(--muted); }
 
-/* Two co-equal panes: World Pulse (events) and Existential Threats. */
-.pane { margin-top: 36px; }
+/* Hash-routed tab bar: #pulse / #threats / #history. */
+.tabs {
+  max-width: 920px; margin: 20px auto 0; padding: 0 20px;
+  display: flex; flex-wrap: wrap; gap: 4px;
+  border-bottom: 2px solid var(--line);
+}
+.tabs a {
+  color: var(--muted); text-decoration: none; font-weight: 600; font-size: 0.95rem;
+  padding: 10px 14px; border-bottom: 2px solid transparent; margin-bottom: -2px;
+  white-space: nowrap;
+}
+.tabs a:hover { color: var(--text); }
+.tabs a.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* One pane per tab: World Pulse, Existential Threats, Historical Archive. */
+.pane { margin-top: 28px; }
+.pane[hidden] { display: none; }
 .pane-head { border-bottom: 2px solid var(--line); padding-bottom: 10px; margin-bottom: 18px; }
 .pane-title { font-size: 1.5rem; margin: 0; letter-spacing: -0.01em; }
 .pane-sub { color: var(--muted); margin: 4px 0 0; }
+
+/* World Pulse map (map.js): self-contained NASA Blue Marble basemap + impact markers. */
+.map-wrap { margin: 0 0 20px; }
+#map {
+  position: relative; overflow: hidden; height: 340px;
+  border: 1px solid var(--line); border-radius: 10px;
+  background: #06070a; touch-action: none; cursor: grab;
+}
+#map.dragging { cursor: grabbing; }
+.map-world { position: absolute; top: 0; left: 0; transform-origin: 0 0; will-change: transform; }
+.map-world img { display: block; width: 100%; height: 100%; user-select: none; -webkit-user-drag: none; }
+.map-marker {
+  position: absolute; padding: 0; border-radius: 50%;
+  border: 2px solid rgba(15, 17, 21, 0.85); cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+.map-marker:focus-visible { outline: 2px solid var(--text); outline-offset: 1px; }
+.map-marker.r1 { background: var(--grey); }
+.map-marker.r2 { background: var(--accent); }
+.map-marker.r3 { background: var(--amber); }
+.map-marker.r4 { background: var(--red); }
+.map-tip {
+  position: absolute; z-index: 2; max-width: 260px; pointer-events: none;
+  background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px;
+  padding: 8px 10px; font-size: 0.8rem; color: var(--text);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+}
+.map-tip strong { display: block; margin-bottom: 2px; }
+.map-tip span { color: var(--muted); }
+.map-attrib { color: var(--muted); font-size: 0.75rem; margin: 6px 2px 0; }
+
+/* Flash the card a map marker jumps to. */
+@keyframes card-flash-fade { from { outline-color: var(--accent); } to { outline-color: transparent; } }
+.card-flash { outline: 2px solid transparent; outline-offset: 2px; animation: card-flash-fade 2s ease-out; }
+@media (prefers-reduced-motion: reduce) {
+  .card-flash { animation: none; outline-color: var(--accent); }
+}
 
 .category { margin: 24px 0 8px; }
 .category-title {
