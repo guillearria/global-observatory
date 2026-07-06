@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06T09:25:15Z",
+  "last_updated": "2026-07-06T09:48:23Z",
   "published": [
     {
       "category": "natural-disaster",
@@ -539,7 +539,7 @@
           "retrieved_date": "2026-07-05",
           "source_name": "Our World in Data",
           "source_url": "https://ourworldindata.org/historical-pandemics",
-          "text": "The Black Death (1346–1353) killed around 50-60% of Europe's population — approximately 50 million people; scholarly estimates of the mortality rate range from about 39% (Christakos et al.) to upwards of 60% (Benedictow), with Aberth at 51-58%.",
+          "text": "The Black Death (1346–1353) killed around 50-60% of Europe's population — approximately 50 million people; scholarly estimates of the mortality rate range from about 39% (Jedwab, Johnson & Koyama) to upwards of 60% (Benedictow), with Aberth at 51-58%.",
           "verification_status": "verified"
         },
         {
@@ -576,7 +576,7 @@
         "year_start": 1347
       },
       "id": "black-death",
-      "last_updated": "2026-07-06T09:21:41Z",
+      "last_updated": "2026-07-06T09:48:23Z",
       "name": "Black Death",
       "provenance": {
         "history": [
@@ -584,10 +584,15 @@
             "at": "2026-07-06T09:21:41Z",
             "layer": "verify",
             "run_id": "2026-07-06T09-21-41Z-7253da"
+          },
+          {
+            "at": "2026-07-06T09:48:23Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-48-23Z-25813c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-06T09-21-41Z-7253da"
+        "last_run_id": "2026-07-06T09-48-23Z-25813c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -835,7 +840,7 @@
           "retrieved_date": "2026-07-06",
           "source_name": "WHO",
           "source_url": "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-covid-19-pandemic-in-2020-and-2021",
-          "text": "The WHO states that the 14.9 million excess deaths far exceed the deaths directly reported as due to COVID-19, capturing both direct deaths and indirect deaths from pandemic-related health-system disruption, with middle-income countries accounting for 81% of the total.",
+          "text": "The WHO states that the 14.9 million excess deaths capture both direct deaths due to COVID-19 and indirect deaths from the pandemic's impact on health systems and society, with middle-income countries accounting for 81% of the total.",
           "verification_status": "verified"
         }
       ],
@@ -856,7 +861,7 @@
         "year_start": 2020
       },
       "id": "covid-19-pandemic",
-      "last_updated": "2026-07-06T09:25:15Z",
+      "last_updated": "2026-07-06T09:48:23Z",
       "name": "COVID-19 pandemic",
       "provenance": {
         "history": [
@@ -864,10 +869,15 @@
             "at": "2026-07-06T09:25:15Z",
             "layer": "verify",
             "run_id": "2026-07-06T09-25-15Z-e8a0ae"
+          },
+          {
+            "at": "2026-07-06T09:48:23Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-48-23Z-7e851e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-06T09-25-15Z-e8a0ae"
+        "last_run_id": "2026-07-06T09-48-23Z-7e851e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1064,7 +1074,7 @@
         "impact": {
           "deaths_high": null,
           "deaths_low": null,
-          "summary": "No source quantifies a death toll: the human cost of the megadrought — famine, settlement abandonment (e.g., Tell Leilan), and mass southward migration of refugees in Mesopotamia — is attested archaeologically but unquantified. Paleoclimate proxies indicate precipitation reductions of up to 30% in the Levant between 4,200 and 4,000 years BP (Weiss argued 30–50% in northern Mesopotamia), yet the severity is disputed: a 2023 stable-isotope study of the Khabur Basin found 'no evidence for a megadrought' and no economic crisis despite a population decrease in northern Mesopotamia."
+          "summary": "No source quantifies a death toll: the human cost of the megadrought — famine, settlement abandonment (e.g., Tell Leilan), and mass southward migration of refugees in Mesopotamia — is attested archaeologically but unquantified. Paleoclimate proxies indicate precipitation reductions of up to 30% in the Levant between 4,200 and 4,000 years BP (Weiss argued 30–50% in northern Mesopotamia), yet the severity is disputed: a 2021 stable-isotope study of the Khabur Basin found 'no evidence for a megadrought' and no economic crisis despite a population decrease in northern Mesopotamia."
         },
         "location": {
           "country": "Transregional (modern Iraq, Syria, Turkey, Egypt, Israel, India, Pakistan)",
@@ -1074,7 +1084,7 @@
         "year_start": -2199
       },
       "id": "four-point-two-kiloyear-event",
-      "last_updated": "2026-07-06T09:21:42Z",
+      "last_updated": "2026-07-06T09:48:23Z",
       "name": "4.2-Kiloyear Aridification Event",
       "provenance": {
         "history": [
@@ -1082,10 +1092,15 @@
             "at": "2026-07-06T09:21:42Z",
             "layer": "verify",
             "run_id": "2026-07-06T09-21-42Z-1fba20"
+          },
+          {
+            "at": "2026-07-06T09:48:23Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-48-23Z-312710"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-06T09-21-42Z-1fba20"
+        "last_run_id": "2026-07-06T09-48-23Z-312710"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2089,7 +2104,7 @@
           "retrieved_date": "2026-07-05",
           "source_name": "U.S. National Library of Medicine",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7118959/",
-          "text": "Approximately one quarter of the Athenian army and roughly one quarter of the civilian population of southern Greece perished during the plague, which lasted about four years, and Pericles himself succumbed to it.",
+          "text": "Approximately one quarter of the Athenian army perished during the plague, and roughly one quarter of the civilian population of southern Greece was ravaged by it; the epidemic lasted about four years, and Pericles himself succumbed to it.",
           "verification_status": "verified"
         },
         {
@@ -2118,7 +2133,7 @@
         "year_start": -429
       },
       "id": "plague-of-athens",
-      "last_updated": "2026-07-06T09:21:43Z",
+      "last_updated": "2026-07-06T09:48:23Z",
       "name": "Plague of Athens",
       "provenance": {
         "history": [
@@ -2126,10 +2141,15 @@
             "at": "2026-07-06T09:21:43Z",
             "layer": "verify",
             "run_id": "2026-07-06T09-21-43Z-562fa5"
+          },
+          {
+            "at": "2026-07-06T09:48:23Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-48-23Z-7b297e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-06T09-21-43Z-562fa5"
+        "last_run_id": "2026-07-06T09-48-23Z-7b297e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2159,7 +2179,7 @@
           "retrieved_date": "2026-07-05",
           "source_name": "U.S. National Library of Medicine",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10265275/",
-          "text": "A study in the U.S. National Library of Medicine's PMC archive states that at its zenith the plague killed around 5,000 people a day in Rome, corroborating the daily peak-mortality figure from a second authoritative source.",
+          "text": "A study in the U.S. National Library of Medicine's PMC archive reports that at its zenith the plague was said to kill around 5,000 people a day in Rome — a peak figure that ultimately derives from the ancient Historia Augusta and is not independently attested.",
           "verification_status": "verified"
         },
         {
@@ -2181,7 +2201,7 @@
       ],
       "description": "The Plague of Cyprian was a pandemic that swept the Roman Empire during the Crisis of the Third Century, named for Cyprian, bishop of Carthage, who described its grim symptoms in his treatise De mortalitate. Beginning around 249 CE and persisting to roughly 262-270 CE, it inflicted mass mortality across the Mediterranean world; contemporary reports place its height at about 5,000 deaths a day in Rome. The causative pathogen remains unidentified, though the hemorrhagic character of the symptoms has led some scholars to propose a viral hemorrhagic fever.",
       "historical": {
-        "date_display": "c. 249–262 CE",
+        "date_display": "c. 249–270 CE",
         "era": "classical",
         "impact": {
           "deaths_high": null,
@@ -2192,11 +2212,11 @@
           "country": "Roman Empire (Mediterranean world)",
           "region": "Rome, Carthage, Alexandria, the Danube/Balkan frontier and the wider Mediterranean; reported as far as Roman Britain"
         },
-        "year_end": 262,
+        "year_end": 270,
         "year_start": 249
       },
       "id": "plague-of-cyprian",
-      "last_updated": "2026-07-06T09:21:43Z",
+      "last_updated": "2026-07-06T09:48:23Z",
       "name": "Plague of Cyprian",
       "provenance": {
         "history": [
@@ -2204,10 +2224,15 @@
             "at": "2026-07-06T09:21:43Z",
             "layer": "verify",
             "run_id": "2026-07-06T09-21-43Z-fe99b0"
+          },
+          {
+            "at": "2026-07-06T09:48:23Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-48-23Z-3d9755"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-06T09-21-43Z-fe99b0"
+        "last_run_id": "2026-07-06T09-48-23Z-3d9755"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2525,7 +2550,7 @@
           "retrieved_date": "2026-07-05",
           "source_name": "U.S. National Library of Medicine",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10437944/",
-          "text": "A peer-reviewed structural-demographic analysis of the Qing dynasty collapse (PNAS, in PubMed Central) describes the Taiping Rebellion (1851–64) as the bloodiest civil war in recorded human history, in which over 20 million people died.",
+          "text": "A peer-reviewed structural-demographic analysis of the Qing dynasty collapse (PLOS ONE, in PubMed Central) describes the Taiping Rebellion (1851–64) as the bloodiest civil war in recorded human history, in which over 20 million people died.",
           "verification_status": "verified"
         },
         {
@@ -2570,7 +2595,7 @@
         "year_start": 1850
       },
       "id": "taiping-rebellion",
-      "last_updated": "2026-07-06T09:21:43Z",
+      "last_updated": "2026-07-06T09:48:23Z",
       "name": "Taiping Rebellion",
       "provenance": {
         "history": [
@@ -2578,10 +2603,15 @@
             "at": "2026-07-06T09:21:43Z",
             "layer": "verify",
             "run_id": "2026-07-06T09-21-43Z-e66368"
+          },
+          {
+            "at": "2026-07-06T09:48:23Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-48-23Z-34b5e2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-06T09-21-43Z-e66368"
+        "last_run_id": "2026-07-06T09-48-23Z-34b5e2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2985,7 +3015,7 @@
           "retrieved_date": "2026-07-05",
           "source_name": "NOAA",
           "source_url": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/volcanoes/1348",
-          "text": "NOAA's NCEI Global Historical Hazard Database records the 79 CE Vesuvius eruption (volcano event 1348, 24–28 August 79) with a Volcanic Explosivity Index (VEI) of 5 and 2,100 deaths, noting that about 2,000 skeletons were found in partly-excavated Pompeii and hundreds more in partly-excavated Herculaneum, and that pyroclastic surges affected these and other towns and produced most of the fatalities with the total unknown; it cites Luongo et al. (2003) for about 1,150 identified victims in Pompeii (about 1,600 including estimates for unexcavated areas) and about 300 persons killed by pyroclastic surges in shoreline boathouses at Herculaneum.",
+          "text": "NOAA's NCEI Global Historical Hazard Database records the 79 CE Vesuvius eruption (volcano event 1348) with a Volcanic Explosivity Index (VEI) of 5 and 2,100 deaths, noting that about 2,000 skeletons were found in partly-excavated Pompeii and hundreds more in partly-excavated Herculaneum, and that pyroclastic surges affected these and other towns and produced most of the fatalities with the total unknown; it cites Luongo et al. (2003) for about 1,150 identified victims in Pompeii (about 1,600 including estimates for unexcavated areas) and about 300 persons killed by pyroclastic surges in shoreline boathouses at Herculaneum.",
           "verification_status": "verified"
         },
         {
@@ -3030,7 +3060,7 @@
         "year_start": 79
       },
       "id": "vesuvius-79",
-      "last_updated": "2026-07-06T09:21:44Z",
+      "last_updated": "2026-07-06T09:48:23Z",
       "name": "Eruption of Mount Vesuvius (79 CE)",
       "provenance": {
         "history": [
@@ -3038,10 +3068,15 @@
             "at": "2026-07-06T09:21:44Z",
             "layer": "verify",
             "run_id": "2026-07-06T09-21-44Z-bab95d"
+          },
+          {
+            "at": "2026-07-06T09:48:23Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-48-23Z-1fd27e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-06T09-21-44Z-bab95d"
+        "last_run_id": "2026-07-06T09-48-23Z-1fd27e"
       },
       "schema_version": "1.0",
       "sort_keys": {
