@@ -1,0 +1,78 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/volcanoes/1348",
+      "text": "NOAA's NCEI Global Historical Hazard Database records the 79 CE Vesuvius eruption (volcano event 1348, 24–28 August 79) with a Volcanic Explosivity Index (VEI) of 5 and 2,100 deaths, noting that about 2,000 skeletons were found in partly-excavated Pompeii and hundreds more in partly-excavated Herculaneum, and that pyroclastic surges affected these and other towns and produced most of the fatalities with the total unknown; it cites Luongo et al. (2003) for about 1,150 identified victims in Pompeii (about 1,600 including estimates for unexcavated areas) and about 300 persons killed by pyroclastic surges in shoreline boathouses at Herculaneum.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9135728/",
+      "text": "A peer-reviewed bioarchaeological and palaeogenomic study of two Pompeian victims, available through PubMed Central (NIH), states that more than 2,000 individuals died as a direct consequence of the 79 AD Vesuvius eruption, 'the deadliest ever in European history', and gives Pompeii a population ranging between 6,400 and 20,000 dwellers.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6157861/",
+      "text": "A peer-reviewed study of the 79 AD victims, available through PubMed Central (NIH), reports that at Herculaneum about 300 people who had taken refuge in waterfront chambers were suddenly engulfed by the collapse of the rapidly advancing first pyroclastic surge, that the populations at risk were about 4,000–5,000 at Herculaneum and about 20,000 at Pompeii, and that later pyroclastic surges and flows reached up to 30 kilometers from Vesuvius, with victims found even 20 kilometers away at Stabiae.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10079856/",
+      "text": "A peer-reviewed study of the deadly thermal impact of the 79 CE ash-cloud surges at Herculaneum, available through PubMed Central (NIH), reports that about 350 people were discovered in the fornici (beachfront chambers) with only a few dozen victims found in the town proper, and estimates temperatures of 555–495 °C for the first pyroclastic surge that reached the town.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "In 79 CE Mount Vesuvius erupted explosively (VEI 5) over the Bay of Naples, burying the Roman towns of Pompeii and Herculaneum — along with Stabiae, Oplontis, and other settlements — under plinian pumice fall and pyroclastic surges hot enough to kill instantly. The eruption is traditionally dated to 24 August, though the record also carries a late-October dating, and peer-reviewed studies describe it as the deadliest volcanic eruption in European history. The buried cities, rediscovered in the 18th century, preserve an unparalleled archaeological snapshot of Roman life.",
+  "historical": {
+    "date_display": "79 CE",
+    "era": "classical",
+    "impact": {
+      "deaths_high": 2100,
+      "deaths_low": 2100,
+      "summary": "NOAA's NCEI Global Historical Hazard Database records 2,100 deaths — about 2,000 skeletons found in partly-excavated Pompeii plus hundreds more at Herculaneum, including roughly 300 in shoreline boathouses — while explicitly noting that pyroclastic surges produced most of the fatalities and the total is unknown. Peer-reviewed studies likewise state that more than 2,000 individuals died as a direct consequence of the eruption. Because both cities are only partly excavated and an unknown number died outside them (victims were found as far as Stabiae, about 20 km away), the true toll is presumed higher; popular accounts cite estimates up to roughly 16,000, but that upper figure could not be verified against any allowlisted source and is not adopted here."
+    },
+    "location": {
+      "country": "Italy",
+      "region": "Bay of Naples, Campania — Pompeii, Herculaneum, Stabiae, Oplontis and surrounding settlements"
+    },
+    "year_end": null,
+    "year_start": 79
+  },
+  "id": "vesuvius-79",
+  "last_updated": "2026-07-06T09:21:44Z",
+  "name": "Eruption of Mount Vesuvius (79 CE)",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:44Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-44Z-bab95d"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-44Z-bab95d"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 10079,
+    "composite": 100791.0,
+    "impact_rank": 1
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

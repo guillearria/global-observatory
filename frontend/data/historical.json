@@ -1,5 +1,3208 @@
 {
-  "last_updated": "",
-  "published": [],
+  "last_updated": "2026-07-06T09:25:15Z",
+  "published": [
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000jllz&format=geojson",
+          "text": "The U.S. Geological Survey's tectonic summary for the February 6, 2023 M7.8 Pazarcik (Kahramanmaras) earthquake states that Aleppo was struck by an estimated magnitude 7.1 earthquake in 1138.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/earthquakes?minYear=1137&maxYear=1139",
+          "text": "NOAA NCEI's Global Significant Earthquake Database contains no entry for a 1138 Aleppo earthquake and instead records the 230,000 deaths under the 1139 earthquake at Ganja (listed as 'AZERBAIJAN: GYZNDZHA', intensity 11), consistent with scholarship that the 230,000 toll often quoted for Aleppo in 1138 conflates several distinct earthquakes of 1137-1139.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Encyclopaedia Britannica",
+          "source_url": "https://www.britannica.com/event/Aleppo-earthquake-of-1138",
+          "text": "Encyclopaedia Britannica dates the main shock to October 11, 1138, preceded by a smaller shock on October 10, states the traditional estimate that some 230,000 people were killed, and describes the collapse of Aleppo's citadel walls and the destruction of the Crusader citadel at Harim and the Muslim fort at al-Atarib.",
+          "verification_status": "unverified"
+        }
+      ],
+      "description": "A major earthquake, estimated by the USGS at about magnitude 7.1, struck Aleppo and its hinterland in northern Syria in October 1138, collapsing Aleppo's citadel and destroying the Crusader-held citadel at Harim and the Muslim fort at al-Atarib. It is routinely listed among the deadliest earthquakes in history with a toll of roughly 230,000, but that figure comes from the 15th-century compiler Ibn Taghribirdi and is widely regarded as conflating the Aleppo shock with the 1137 earthquake on the Jazira plain and the 1139 earthquake at Ganja in the Transcaucasus. The event occurred on the seismically active plate boundary between the Arabian and African plates associated with the Dead Sea Fault system.",
+      "historical": {
+        "date_display": "October 11, 1138",
+        "era": "medieval",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "The commonly cited toll of about 230,000 deaths derives from the 15th-century historian Ibn Taghribirdi, writing three centuries after the event, and is generally regarded by modern scholarship as a conflation of the 1138 Aleppo earthquake with the November 1137 earthquake on the Jazira plain and the September 1139 earthquake at Ganja (Transcaucasus). NOAA's Global Significant Earthquake Database records the 230,000 deaths under the 1139 Ganja, Azerbaijan event and carries no separate 1138 Aleppo entry at all. Contemporary chroniclers describe severe destruction and hundreds killed in the collapse of Aleppo's citadel and the leveling of nearby fortress towns, but no reliable event-specific total exists, so the toll is left unquantified here rather than repeating the conflated figure."
+        },
+        "location": {
+          "country": "Syria",
+          "region": "Aleppo and northwestern Syria, including Harim and al-Atarib, near the northern Dead Sea Fault system"
+        },
+        "year_end": null,
+        "year_start": 1138
+      },
+      "id": "aleppo-earthquake-1138",
+      "last_updated": "2026-07-06T09:21:40Z",
+      "name": "1138 Aleppo Earthquake",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:40Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-40Z-7c4161"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-40Z-7c4161"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11138,
+        "composite": 111381.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "medium",
+        "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
+        "status": "partial"
+      }
+    },
+    {
+      "category": "war",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://assets.cambridge.org/97810093/97254/excerpt/9781009397254_excerpt.pdf",
+          "text": "The An Lushan Rebellion lasted from 755 to 763 CE; An Lushan (703-757) served as Tang military commissioner for the Hebei frontier before launching his rebellion against the imperial court in 755, ending a fifty-year period of stability (Shao-yun Yang, Late Tang China and the World, 750-907 CE, Cambridge University Press).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/books/abs/economic-history-of-china/economic-transformation-in-the-tangsong-transition-755-to-1127/55D49F02EE80100AC5A4D9FA3CC04FA1",
+          "text": "By the time the rebellion was quelled in 763, the rich agricultural heartland of the Central Plain lay in ruins and hundreds of thousands had perished; the emperor was forced to flee the capital Chang'an, which was occupied and later devastated (Richard von Glahn, The Economic History of China, Cambridge University Press).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/reach-of-the-military-tang/ECFE9C64AE6E73EC4319B165A606F88C",
+          "text": "The late eighth-century Tang scholar-official Du You estimated the actual population before the An Lushan Rebellion at 13-14 million households, or about 70 million individuals, well above the officially registered population of 48.9 million in 742 (David A. Graff, 'The Reach of the Military: Tang', Journal of Chinese History, Cambridge University Press).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12701842/",
+          "text": "The Tang dynasty was plagued by internal conflict including the An Lushan Rebellion, culminating in the sacking of the capital Chang'an by the Tibetan Empire in 763 (peer-reviewed study on Tang-dynasty decline, PubMed Central, U.S. National Library of Medicine).",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A massive revolt against China's Tang dynasty launched in 755 CE by An Lushan (703-757), the military commissioner commanding the empire's Hebei frontier armies, who turned his troops on the imperial court and proclaimed his own dynasty. Rebel forces seized the Tang capitals Luoyang and Chang'an before the rising was finally quelled in 763, leaving the agricultural heartland of the Central Plain in ruins. The rebellion permanently weakened Tang central authority, ended a fifty-year period of imperial stability, and marked one of the great watersheds of Chinese history.",
+      "historical": {
+        "date_display": "755–763 CE",
+        "era": "medieval",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "Popular death tolls of 13 to 36 million rest on the collapse of Tang census registers after the war, but modern scholarship attributes most of that register collapse to the breakdown of Tang census-taking and taxation rather than to mortality, and the pre-war registers themselves undercounted: the eighth-century Tang statesman Du You put the true pre-rebellion population near 70 million against a registered 48.9 million in 742. Cambridge University Press's Economic History of China states that by the time the rebellion was quelled in 763 'hundreds of thousands had perished'; because no rigorous overall toll exists, the bounds are left unquantified here rather than repeating disputed census arithmetic."
+        },
+        "location": {
+          "country": "China",
+          "region": "Northern China: Hebei, Henan and the Tang capitals Luoyang and Chang'an (modern Xi'an)"
+        },
+        "year_end": 763,
+        "year_start": 755
+      },
+      "id": "an-lushan-rebellion",
+      "last_updated": "2026-07-06T09:21:41Z",
+      "name": "An Lushan Rebellion",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:41Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-41Z-35af3c"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-41Z-35af3c"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 10755,
+        "composite": 107551.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "pandemic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698106/",
+          "text": "The Antonine Plague (165-180 AD), also known as the Plague of Galen, is believed to have been a smallpox pandemic that caused about five million deaths across the Roman Empire.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698106/",
+          "text": "The pandemic began in Mesopotamia in late AD 165 or early AD 166 during Lucius Verus' Parthian campaign and is named for the Greek physician Galen, who was in Rome when it reached the city in AD 166 and observed troops at Aquileia in the winter of AD 168-169; his description of the skin eruptions indicates smallpox.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11824979/",
+          "text": "A 2025 SIR/SEIR modeling study of the Antonine Plague in Rome found that none of the pathogens analyzed (bubonic plague, smallpox, or measles) emerged as the likely causative agent, and concluded the overall mortality rate would have increased maximally by about 7%, which contradicts the higher mortality rates accepted by historians who argue for a severe demographic impact.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11824979/",
+          "text": "Scholarly estimates of the plague's mortality vary enormously, as reviewed in the 2025 modeling study: J. F. Gilliam put excess mortality at only 1-2% (about 500,000 to 1,000,000 individuals) and the Littmans at an average of 7-10% empire-wide (13-15% in cities), while Walter Scheidel estimated overall mortality on the order of 25% and Y. Zelener around 22-24%.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Antonine Plague was a pandemic that swept the Roman Empire from 165 to 180 CE, during the joint reign of emperors Marcus Aurelius and Lucius Verus. Also called the Plague of Galen after the physician who described its symptoms, it is generally identified as smallpox, though the pathogen has never been confirmed genetically. It is believed to have begun in the Near East and been carried westward by Roman legions returning from the Parthian campaign, spreading empire-wide.",
+      "historical": {
+        "date_display": "165–180 CE",
+        "era": "classical",
+        "impact": {
+          "deaths_high": 10000000,
+          "deaths_low": 5000000,
+          "summary": "The death toll is deeply uncertain and heavily disputed. A commonly cited estimate is roughly 5 million deaths across the empire (one allowlisted NIH review states it is 'believed to have caused five million deaths'), corresponding to about 7-10% of the imperial population per the classic estimate of the Littmans; a widely repeated upper band puts the toll near 10 million (~10% of the empire, following Kyle Harper's 8-10% figure). Scholarly estimates span an enormous range, however: minimalists such as J. F. Gilliam put excess mortality at only 1-2% (about 500,000-1,000,000 deaths), while maximalists such as Walter Scheidel and Y. Zelener argue overall mortality was on the order of 25%. A 2025 epidemiological modeling study cautions that the maximalist tolls are likely overstated and that no single candidate pathogen (bubonic plague, smallpox, or measles) could be confirmed as the causative agent. The 5-10 million range recorded here reflects the conventional central-to-upper estimate, not a settled figure."
+        },
+        "location": {
+          "country": "Roman Empire (Mediterranean, Europe, North Africa and the Near East)",
+          "region": "Began in Mesopotamia during Lucius Verus' Parthian campaign; spread empire-wide, including the city of Rome, the Danubian frontier, and Egypt"
+        },
+        "year_end": 180,
+        "year_start": 165
+      },
+      "id": "antonine-plague",
+      "last_updated": "2026-07-06T09:21:41Z",
+      "name": "Antonine Plague",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:41Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-41Z-a6cfc2"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-41Z-a6cfc2"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 10165,
+        "composite": 101654.0,
+        "impact_rank": 4
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "genocide",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "US Holocaust Memorial Museum",
+          "source_url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview",
+          "text": "At least 664,000 and possibly as many as 1.2 million Armenians died during the Armenian genocide, in massacres and individual killings or from systematic ill treatment, exposure, and starvation, according to the United States Holocaust Memorial Museum's Holocaust Encyclopedia.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "US Holocaust Memorial Museum",
+          "source_url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview",
+          "text": "The Armenian genocide took place between the spring of 1915 and the fall of 1916, when about 1.5 million Armenians lived in the Ottoman Empire, according to the United States Holocaust Memorial Museum.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "US Holocaust Memorial Museum",
+          "source_url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-in-depth",
+          "text": "On April 24, 1915, Ottoman authorities arrested 240 Armenian leaders in Constantinople and deported them east — a date commemorated by Armenians as the beginning of the genocide, according to the United States Holocaust Memorial Museum.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Between the spring of 1915 and the fall of 1916, the Ottoman government, controlled by the Committee of Union and Progress (Young Turks), carried out the mass deportation and killing of its Armenian Christian population. Armenians were massacred outright or died from systematic ill treatment, exposure, and starvation during forced marches toward the Syrian desert. It is often called the first genocide of the twentieth century.",
+      "historical": {
+        "date_display": "1915–1916",
+        "era": "modern",
+        "impact": {
+          "deaths_high": 1200000,
+          "deaths_low": 664000,
+          "summary": "The US Holocaust Memorial Museum states that at least 664,000 and possibly as many as 1.2 million Armenians died, out of approximately 1.5 million Armenians living in the Ottoman Empire in 1915. Estimates vary because of contested population baselines and incomplete records; some scholarly estimates run higher, up to about 1.5 million deaths."
+        },
+        "location": {
+          "country": "Turkey (Ottoman Empire); modern Armenia, Syria",
+          "region": "Central and eastern Anatolia, with deportation routes to the Syrian desert"
+        },
+        "year_end": 1916,
+        "year_start": 1915
+      },
+      "id": "armenian-genocide",
+      "last_updated": "2026-07-06T09:21:41Z",
+      "name": "Armenian Genocide",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:41Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-41Z-b8528e"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-41Z-b8528e"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11915,
+        "composite": 119153.0,
+        "impact_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "famine",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/european-journal-of-sociology-archives-europeennes-de-sociologie/article/empires-famine-and-the-significance-of-the-political-economy-of-colonialism-from-the-mughal-empire-to-british-colonial-rule-in-india/8412E24F05772E53C6149D92570B5A6F",
+          "text": "The famine of 1770–71 in Bengal, Bihar, and Orissa affected a population of 30 million and, according to Warren Hastings, the subsequent governor-general, killed a third of that population — 10 million people — making it one of the most devastating famines in recorded human history, within five years of the East India Company taking over responsibility for the region.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/books/abs/history-of-bangladesh/british-impact/C788250C5797D948CED731EB5CFC6BB4",
+          "text": "In the famine of 1769–70, remembered in Bengal as the Great Famine of 1176 (chhiyāttarer manbantar), it is thought that one third of Bengal's population — a staggering 10 million people — perished.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/books/abs/land-and-local-kingship-in-eighteenthcentury-bengal/famine-of-1770/932B785B5186FD79ADB4EC5FF5127F85",
+          "text": "The famine of 1770, one of the greatest calamities in Bengal's history and one of only three major famines there in three centuries (with 1866 and 1943–44), carried off between one sixth and one third of the population, hitting western districts such as Bankura, Birbhum, Burdwan, and Hughli hardest; the East India Company refused to reduce revenue demands on the survivors.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9735018/",
+          "text": "The famine of 1770 was the first and worst of the famines under British rule in India and is estimated to have taken the lives of 10 million people; from 1770 to 1900, 25 million Indians are estimated to have died in famines.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Great Bengal Famine struck Bengal, Bihar, and Orissa in 1769–1770, within five years of the East India Company taking over revenue administration of the region. After successive crop failures, contemporary accounts held that about one third of the population perished — traditionally put at 10 million people — while the Company refused to reduce its land-revenue demands on the survivors. Remembered in Bengal as the chhiyāttarer manbantar (Great Famine of 1176 in the Bengali calendar), it is counted among the deadliest famines in recorded history.",
+      "historical": {
+        "date_display": "1769–1770",
+        "era": "early-modern",
+        "impact": {
+          "deaths_high": 10000000,
+          "deaths_low": 10000000,
+          "summary": "The traditional estimate, deriving from Warren Hastings, is about 10 million dead — one third of an affected population of roughly 30 million in Bengal, Bihar, and Orissa — and Cambridge histories reckon the famine carried off between one sixth and one third of the population. That contemporary figure rests on no reliable demographic data, and modern revisionist historians (notably Rajat Datta) regard it as greatly inflated, arguing for a toll perhaps nearer 1–1.5 million; the point estimate recorded here preserves the traditional source figure, not a precise count."
+        },
+        "location": {
+          "country": "India and Bangladesh (historical Bengal Presidency)",
+          "region": "Bengal, Bihar, and Orissa — lower Ganges plain, worst in western Bengal districts (Bankura, Birbhum, Burdwan, Hughli)"
+        },
+        "year_end": 1770,
+        "year_start": 1769
+      },
+      "id": "bengal-famine-1770",
+      "last_updated": "2026-07-06T09:21:41Z",
+      "name": "Great Bengal Famine of 1770",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:41Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-41Z-980dba"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-41Z-980dba"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11769,
+        "composite": 117695.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "famine",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Our World in Data",
+          "source_url": "https://ourworldindata.org/the-our-world-in-data-dataset-of-famines",
+          "text": "Our World in Data's famines dataset lists the 1943 famine in India (Bengal) with an estimated 2,550,000 excess deaths, within a range of 2,100,000 to 3,000,000, crediting World Peace Foundation (2017) and Devereux (2000).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9735018/",
+          "text": "A peer-reviewed GeoJournal article (Mallik, 'Colonial Biopolitics and the Great Bengal Famine of 1943', available via PubMed Central) states that an estimated 3 million people died due to the Bengal famine of 1943, noting this is the cited maximum and that mortality estimates have been questioned.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9735018/",
+          "text": "According to the same GeoJournal article on PubMed Central, the harshest phase of the famine lasted eight months, from March to October 1943, and even at the end of January 1944 an average of roughly 2,300 people were dying each day from starvation and disease across Bengal.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Bengal famine of 1943 killed millions in the Bengal Province of British India (present-day West Bengal, India, and Bangladesh) during the Second World War. Its harshest phase lasted eight months, from March to October 1943, driven by the wartime loss of Burmese rice imports, an October 1942 cyclone, inflation, hoarding, and colonial policy failures rather than an outright collapse in food availability. Deaths from starvation and famine-associated disease continued into 1944.",
+      "historical": {
+        "date_display": "1943–1944",
+        "era": "modern",
+        "impact": {
+          "deaths_high": 3000000,
+          "deaths_low": 2100000,
+          "summary": "Excess-mortality estimates are contested because wartime baseline data are unreliable. Our World in Data's famines dataset gives a range of 2.1–3.0 million excess deaths (midpoint 2,550,000), crediting World Peace Foundation (2017) and Devereux (2000); 3 million is the commonly cited maximum in the scholarly literature, and some scholars argue for lower figures."
+        },
+        "location": {
+          "country": "India and Bangladesh (then Bengal Province, British India)",
+          "region": "Bengal — present-day West Bengal (India) and Bangladesh"
+        },
+        "year_end": 1944,
+        "year_start": 1943
+      },
+      "id": "bengal-famine-1943",
+      "last_updated": "2026-07-06T09:21:41Z",
+      "name": "Bengal Famine of 1943",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:41Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-41Z-86ad9b"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-41Z-86ad9b"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11943,
+        "composite": 119434.0,
+        "impact_rank": 4
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.aoml.noaa.gov/hurricane_blog/45th-anniversary-of-the-bhola-cyclone/",
+          "text": "On November 12, 1970, the Bhola cyclone hit northeastern India and what was then East Pakistan, and somewhere between 300,000 and 500,000 people perished, making it the deadliest tropical cyclone on record, according to NOAA's Atlantic Oceanographic and Meteorological Laboratory.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.aoml.noaa.gov/hurricane_blog/45th-anniversary-of-the-bhola-cyclone/",
+          "text": "NOAA AOML reports the cyclone swept a storm surge of 35 feet (10.5 meters) ahead of it as it made landfall, with maximum sustained winds estimated by the India Meteorological Department near 130 mph (205 km/h).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9657222/",
+          "text": "A peer-reviewed article in PMC states the Bhola cyclone of 1970 struck Bangladesh and India's West Bengal on 12 November 1970, remains the deadliest tropical cyclone ever recorded, killed over 1,000,000 people primarily via storm-surge flooding of the low-lying Ganges Delta islands, and led the Government of Bangladesh and the Bangladesh Red Crescent Society to establish the Cyclone Preparedness Programme in 1973.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Our World in Data",
+          "source_url": "https://ourworldindata.org/data-insights/bangladesh-has-become-much-more-resilient-to-cyclones-saving-many-lives",
+          "text": "Our World in Data states that in 1970 Cyclone Bhola hit Bangladesh, killing more than 300,000 people, and attributes the extreme toll to the absence of early warning systems and organized evacuations rather than exceptional storm intensity.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "On 12 November 1970 a tropical cyclone struck East Pakistan (present-day Bangladesh) and India's West Bengal, driving a storm surge of about 35 feet (10.5 meters) over the low-lying islands of the Ganges Delta. With maximum sustained winds estimated near 130 mph (205 km/h), it is regarded as the deadliest tropical cyclone on record. The catastrophe, and the response to it, aggravated tensions between East and West Pakistan in the run-up to Bangladesh's 1971 independence war, and later prompted the creation of Bangladesh's Cyclone Preparedness Programme.",
+      "historical": {
+        "date_display": "12 November 1970",
+        "era": "contemporary",
+        "impact": {
+          "deaths_high": 500000,
+          "deaths_low": 300000,
+          "summary": "NOAA states that somewhere between 300,000 and 500,000 people perished, noting the toll could only be estimated roughly because census records for the affected islands were poor or non-existent. Our World in Data cites more than 300,000 killed, while a peer-reviewed article in PMC (Cyclone Preparedness Programme at 50) puts the toll at over 1,000,000, primarily from storm-surge drowning. All sources agree it remains the deadliest tropical cyclone ever recorded."
+        },
+        "location": {
+          "country": "Bangladesh (then East Pakistan); India",
+          "region": "Ganges-Brahmaputra Delta and Bay of Bengal coast, including the low-lying islands around Bhola"
+        },
+        "year_end": null,
+        "year_start": 1970
+      },
+      "id": "bhola-cyclone",
+      "last_updated": "2026-07-06T09:21:41Z",
+      "name": "1970 Bhola Cyclone",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:41Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-41Z-4d14ab"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-41Z-4d14ab"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11970,
+        "composite": 119703.0,
+        "impact_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "pandemic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/plague",
+          "text": "The 14th-century plague pandemic known as the Black Death caused more than 50 million deaths in Europe; plague is caused by the bacterium Yersinia pestis.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Our World in Data",
+          "source_url": "https://ourworldindata.org/historical-pandemics",
+          "text": "The Black Death (1346–1353) killed around 50-60% of Europe's population — approximately 50 million people; scholarly estimates of the mortality rate range from about 39% (Christakos et al.) to upwards of 60% (Benedictow), with Aberth at 51-58%.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7513766/",
+          "text": "At least one third of the European population — more than 25 million people — died during the Black Death, which spread across Europe between 1347 and 1352.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Our World in Data",
+          "source_url": "https://ourworldindata.org/historical-pandemics",
+          "text": "Large Black Death outbreaks are recognizable in historical records from Western Asia, the Middle East, and North Africa, but comprehensive estimates of the pandemic's global death toll are not available.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Black Death was a bubonic plague pandemic, caused by the bacterium Yersinia pestis, that swept across Europe, the Middle East, and North Africa between roughly 1347 and 1351. It is the deadliest pandemic in recorded history: authoritative estimates put the European toll at around 50 million people, on the order of 30-60% of the continent's population. Deaths across the wider Eurasian and North African world are documented in historical records but are not reliably quantified.",
+      "historical": {
+        "date_display": "1347–1351",
+        "era": "medieval",
+        "impact": {
+          "deaths_high": 50000000,
+          "deaths_low": 25000000,
+          "summary": "Death-toll estimates for the Black Death vary by source and scope. The WHO states the 14th-century pandemic caused more than 50 million deaths in Europe, and Our World in Data puts the European toll at around 50 million (50-60% of the population), with scholarly estimates ranging from about 39% (Christakos et al.) to upwards of 60% (Benedictow). Older figures, such as those cited by the NIH, put the toll at more than 25 million dead — at least one third of Europe. The deaths_low/deaths_high range of 25-50 million spans these documented European estimates: the NIH figure anchors the low end and the WHO/Our World in Data figures anchor the high end (sources are not averaged). A broader Eurasia/North Africa toll is sometimes cited (commonly given as 75-200 million), but Our World in Data notes that comprehensive global estimates are not available, so no worldwide figure is asserted here."
+        },
+        "location": {
+          "country": "Eurasia and North Africa",
+          "region": "Europe (worst affected), the Middle East, and North Africa; spread westward from Central Asia via Crimea and Mediterranean trade routes"
+        },
+        "year_end": 1351,
+        "year_start": 1347
+      },
+      "id": "black-death",
+      "last_updated": "2026-07-06T09:21:41Z",
+      "name": "Black Death",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:41Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-41Z-7253da"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-41Z-7253da"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11347,
+        "composite": 113475.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-06",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4151941/",
+          "text": "A League of Nations Health Organisation report on the 1931 China floods stated the submerged area equalled England in size — at least twice the area affected by the 1927 Mississippi floods — with some 200,000 refugees in the Wuhan area and cholera outbreaks carrying case-fatality rates of 15–20%.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-06",
+          "source_name": "Encyclopaedia Britannica",
+          "source_url": "https://www.britannica.com/science/Yangtze-River-floods",
+          "text": "Encyclopaedia Britannica states the 1931 Yangtze River floods caused an estimated 3.7 million deaths and left 40 million people homeless.",
+          "verification_status": "unverified"
+        }
+      ],
+      "description": "A series of catastrophic floods along the Yangtze and Huai river basins in central and eastern China during the summer of 1931, following heavy monsoon rains and snowmelt. Widely regarded as among the deadliest natural disasters in recorded history when flooding, famine, and disease are combined.",
+      "historical": {
+        "date_display": "1931",
+        "era": "modern",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "Comprehensive mortality was never reliably recorded. A League of Nations Health Organisation report documented an inundated area the size of England with mass displacement and cholera outbreaks. Widely cited estimates of the combined toll from flooding, famine, and disease range from several hundred thousand to as many as ~3.7–4 million, but these could not be confirmed against a primary authoritative source."
+        },
+        "location": {
+          "country": "China",
+          "region": "Yangtze and Huai river basins, central and eastern China"
+        },
+        "year_end": null,
+        "year_start": 1931
+      },
+      "id": "china-floods-1931",
+      "last_updated": "2026-07-06T09:25:15Z",
+      "name": "1931 China floods",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:25:15Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-25-15Z-3aa483"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-25-15Z-3aa483"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11931,
+        "composite": 119311.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "medium",
+        "notes": "gate: 1 verified, 0 disputed, 1 unverified -> partial",
+        "status": "partial"
+      }
+    },
+    {
+      "category": "societal-collapse",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3435155/",
+          "text": "During the Terminal Classic Period (CE 800–1000), and especially its first 50 years, the Central Maya Lowlands experienced population declines approaching 90%, and the population never recovered — modern occupation density remains about one to two orders of magnitude below Late Classic levels (Turner and Sabloff, PNAS 2012).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3435155/",
+          "text": "Paleoclimate reconstructions cited by Turner and Sabloff document eight severe droughts during the Terminal Classic Period in which precipitation declined by 36–52% below long-term averages, coinciding with increased intercity conflict and elite institutions failing to deliver on their social promises.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4426404/",
+          "text": "Drying beginning around the start of the Terminal Classic period (~800 C.E.) produced the driest regional conditions of the preceding ~1,200 years at Lake Chichancanab and of the preceding ~2,500 years at Lake Salpeten, and centralized kingship — the main organizing institution of the southern lowlands throughout the first millennium C.E. — disappeared forever (Douglas et al., PNAS 2015).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/ancient-mesoamerica/article/drought-and-the-maya-collapse/B6B6AE2657A4635D65D520142D402DC1",
+          "text": "Gill et al. identify four phases of abandonment spaced about 50 years apart, around A.D. 760, 810, 860, and 910, each coinciding with a severe drought episode recorded in the Cariaco Basin, and argue that between A.D. 760 and 930 'millions of Maya disappeared from the Earth'; Lake Chichancanab data indicate the Terminal Classic drought was the most severe of the past 7,000 years (Ancient Mesoamerica).",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Between roughly 800 and 950 CE, the dynastic city-states of the southern Maya lowlands disintegrated: monument erection and Long Count inscriptions ceased, the institution of centralized divine kingship disappeared, and major centers such as Tikal and Calakmul were abandoned. Archaeological demography indicates population declines approaching 90% in the Central Maya Lowlands, a depopulation from which the region never recovered. Paleoclimate records tie the collapse to a series of severe Terminal Classic droughts acting on a society already stressed by landscape degradation, warfare, and shifting trade routes.",
+      "historical": {
+        "date_display": "c. 800–950 CE",
+        "era": "medieval",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "No reliable death toll exists for the Classic Maya collapse; the demographic evidence measures depopulation, not mortality. Turner and Sabloff (PNAS, via PubMed Central) report population declines approaching 90% in the Central Maya Lowlands during the Terminal Classic Period (CE 800–1000), and Gill et al. (Ancient Mesoamerica, Cambridge) argue that 'millions of Maya disappeared from the Earth' between A.D. 760 and 930 — but how much of the loss was death versus emigration and demographic decline over generations remains disputed, so no deaths range is quoted."
+        },
+        "location": {
+          "country": "Guatemala, Belize, Mexico, Honduras",
+          "region": "Southern and central Maya lowlands (Petén Basin and adjacent lowlands of the Yucatán Peninsula)"
+        },
+        "year_end": 950,
+        "year_start": 800
+      },
+      "id": "classic-maya-collapse",
+      "last_updated": "2026-07-06T09:21:41Z",
+      "name": "Classic Maya Collapse",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:41Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-41Z-352f2c"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-41Z-352f2c"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 10800,
+        "composite": 108001.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "pandemic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "CDC",
+          "source_url": "https://wwwnc.cdc.gov/eid/article/8/4/01-0175_article",
+          "text": "The cocoliztli epidemic of 1545 to 1548 killed an estimated 5 million to 15 million people, or up to 80% of the native population of Mexico.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2730237/",
+          "text": "The cocoliztli epidemic of 1576 to 1578 killed an additional 2 to 2.5 million people, or about 50% of the remaining native population of Mexico.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7110390/",
+          "text": "A study of 157 central Mexican communities recorded 1,077,902 deaths—a population loss of 51.36%, from 2,098,426 people in 1570 to 1,020,524 by 1580—during the 1576 hemorrhagic-fever (cocoliztli) epidemic.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2730237/",
+          "text": "Both the 1545 and 1576 cocoliztli epidemics coincided with the 16th-century megadrought—the most severe and sustained drought to strike north central Mexico in the past 600 years per tree-ring reconstruction—leading researchers to propose an indigenous rodent-borne hemorrhagic fever aggravated by the drought.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The cocoliztli epidemics were a series of catastrophic disease outbreaks that ravaged the indigenous population of colonial New Spain (Mexico) during the 16th century, with the two deadliest waves striking in 1545–1548 and 1576–1578. The 1545 outbreak alone is estimated to have killed 5 to 15 million people—up to 80% of Mexico's native population—ranking it among the worst demographic catastrophes in recorded history. The cause remains debated: researchers have proposed an indigenous rodent-borne hemorrhagic fever aggravated by extreme drought, while a 2018 ancient-DNA study linked victims of the 1576 outbreak to Salmonella enterica serovar Paratyphi C.",
+      "historical": {
+        "date_display": "1545–1576",
+        "era": "early-modern",
+        "impact": {
+          "deaths_high": 15000000,
+          "deaths_low": 5000000,
+          "summary": "The 1545–1548 outbreak—the deadliest single wave—is estimated at 5 to 15 million deaths, up to 80% of the native population of Mexico, per figures traced to Cook and Simpson (1948) and reported by Acuña-Soto and colleagues. The later 1576–1578 outbreak killed a further 2 to 2.5 million people, about 50% of the surviving native population, so the two great waves together are on the order of 7 to 17.5 million dead. These figures are highly uncertain: they rest on colonial-era tribute records and demographic reconstructions rather than direct counts, and estimates vary widely by source."
+        },
+        "location": {
+          "country": "Mexico",
+          "region": "Viceroyalty of New Spain, especially the central Mexican highlands and Oaxaca"
+        },
+        "year_end": 1576,
+        "year_start": 1545
+      },
+      "id": "cocoliztli-epidemics",
+      "last_updated": "2026-07-06T09:21:41Z",
+      "name": "Cocoliztli Epidemics of New Spain",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:41Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-41Z-d65e02"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-41Z-d65e02"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11545,
+        "composite": 115455.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "pandemic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-06",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-covid-19-pandemic-in-2020-and-2021",
+          "text": "The WHO estimates that excess mortality associated with the COVID-19 pandemic between 1 January 2020 and 31 December 2021 was approximately 14.9 million deaths, with a range of 13.3 million to 16.6 million.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-06",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-covid-19-pandemic-in-2020-and-2021",
+          "text": "The WHO states that the 14.9 million excess deaths far exceed the deaths directly reported as due to COVID-19, capturing both direct deaths and indirect deaths from pandemic-related health-system disruption, with middle-income countries accounting for 81% of the total.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A global pandemic caused by the SARS-CoV-2 coronavirus, first identified in Wuhan, China, in late 2019. The World Health Organization declared a Public Health Emergency of International Concern on 30 January 2020 and ended it on 5 May 2023. It caused mass mortality, overwhelmed health systems worldwide, and triggered unprecedented economic and social disruption.",
+      "historical": {
+        "date_display": "2020–2023",
+        "era": "contemporary",
+        "impact": {
+          "deaths_high": 16600000,
+          "deaths_low": 13300000,
+          "summary": "The WHO estimates approximately 14.9 million excess deaths (range 13.3–16.6 million) were associated with the pandemic in 2020–2021 alone — far above the confirmed COVID-19 deaths reported over the same period; the toll continued to rise through 2022–2023."
+        },
+        "location": {
+          "country": "Global",
+          "region": "Worldwide; first identified in Wuhan, China"
+        },
+        "year_end": 2023,
+        "year_start": 2020
+      },
+      "id": "covid-19-pandemic",
+      "last_updated": "2026-07-06T09:25:15Z",
+      "name": "COVID-19 pandemic",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:25:15Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-25-15Z-e8a0ae"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-25-15Z-e8a0ae"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 12020,
+        "composite": 120205.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "war",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/iraq/article/abs/where-did-they-bury-the-kings-of-the-iiird-dynasty-of-ur/6C086629142E490A43BEA08F8AEA752D",
+          "text": "The royal 'Mausolea' building complex at Ur excavated by Woolley is attributed to the Ur III kings, dated c. 2112-2004 BC, in P. R. S. Moorey's article 'Where did they Bury the Kings of the IIIrd Dynasty of Ur?' in the journal Iraq.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/iraq/article/abs/giparu-at-ur/9A82B8A406B8F2BEC32B02FBF2CC008B",
+          "text": "The journal Iraq article 'The Giparu at Ur' records (citing Jacobsen) that Ibbi-Sin, in his twenty-fourth regnal year, 'was defeated by Elam and Sua and carried off captive to Elam.'",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://assets.cambridge.org/97805218/28857/excerpt/9780521828857_excerpt.pdf",
+          "text": "A Cambridge University Press book excerpt (Daniel E. Fleming, 'Democracy's Ancient Ancestors: Mari and Early Collective Governance') states that at the end of the third millennium the kingdom centered at Ur 'gave up ground on all fronts before falling to Elam,' and that after the destruction of the city of Ur the power vacuum was filled by Ishbi-Erra, commander of Ur's northern troops, who established his royal seat at Isin; it names Ibbi-Sin as the last king of Ur.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Around 2004 BCE, forces from Elam and Shimashki (southwestern Iran) sacked the Sumerian capital of Ur, destroying the city and carrying its last king, Ibbi-Sin, captive to Elam. The attack ended the Third Dynasty of Ur (Ur III, c. 2112-2004 BCE), the last great centralized Sumerian state, whose final decades had been weakened by famine, Amorite incursions, and provincial defections. Power in southern Mesopotamia passed to Ishbi-Erra, a former Ur commander who founded a new dynasty at Isin, and the catastrophe was memorialized in Sumerian city laments.",
+      "historical": {
+        "date_display": "c. 2004 BCE",
+        "era": "ancient",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "The death toll of the Elamite sack of Ur is unquantified: no contemporary casualty records survive, and the destruction is known chiefly from administrative archives that cease abruptly and from later Sumerian literary laments describing corpses in the city's streets. Scholarly sources describe the city's destruction and the king's capture but offer no numerical estimates, so deaths are recorded as null rather than inventing a range."
+        },
+        "location": {
+          "country": "Iraq",
+          "region": "Ur (Tell el-Muqayyar), southern Mesopotamia, near modern Nasiriyah"
+        },
+        "year_end": null,
+        "year_start": -2003
+      },
+      "id": "fall-of-ur",
+      "last_updated": "2026-07-06T09:21:41Z",
+      "name": "Fall of Ur (Ur III Collapse)",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:41Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-41Z-04aee2"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-41Z-04aee2"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 7997,
+        "composite": 79971.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "societal-collapse",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/studies-in-church-history/article/abs/popes-as-rulers-of-rome-in-the-aftermath-of-empire-476769/5DFFE5309304CA14B9B876B12B4096E4",
+          "text": "The Western Roman Empire ended with the deposition of the last Roman emperor in the West in 476 CE, after which a succession of non-Roman rulers governed Italy.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10816712/",
+          "text": "A high-resolution climate reconstruction for Roman Italy spanning ~200 BCE to ~600 CE documents late-antique cooling, with reconstructed late-sixth-century temperatures about 3°C colder than the highest decadal averages of the Roman Climate Optimum, and the major plague pandemics of the period coinciding with these cooling phases.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6486712/",
+          "text": "A radiocarbon study of a late Roman town notes that most specialists now consider the later Roman Empire to have been 'a going concern into the 600s,' with organized urban services in the Roman East persisting until roughly 550 CE — underscoring that the 476 deposition marked a political milestone rather than a sudden civilizational collapse.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Western Roman Empire disintegrated over the course of the 5th century CE amid barbarian migrations, civil wars, fiscal breakdown, and loss of the western provinces, a process conventionally capped by the deposition of the last western emperor, the boy-ruler Romulus Augustulus, by the Germanic commander Odoacer in 476 CE. After 476 a succession of non-Roman kings ruled Italy while the Senate continued to sit, and the wealthier Eastern (Byzantine) empire endured. Rather than a single catastrophe, the fall was a gradual political and societal transformation with no reliably quantified death toll.",
+      "historical": {
+        "date_display": "c. 376–476 CE",
+        "era": "classical",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "The death toll of the western imperial collapse is genuinely unquantified. The fall was a decades-long political and societal transformation — barbarian invasions, civil wars, provincial secession, urban and fiscal decline — rather than a single mass-casualty event, and no source provides a defensible aggregate figure. Contemporaneous stressors such as late-antique climate cooling (late-6th-century temperatures roughly 3°C below the Roman Climate Optimum peak) and recurring plague pandemics compounded the demographic decline of late antiquity, but their combined mortality cannot be isolated as a toll for the fall itself. deaths_low and deaths_high are therefore null."
+        },
+        "location": {
+          "country": "Italy and the former Western Roman provinces (modern Italy, France, Spain, Britain, North Africa, the Balkans)",
+          "region": "Western Mediterranean and Western Europe"
+        },
+        "year_end": 476,
+        "year_start": 376
+      },
+      "id": "fall-of-western-rome",
+      "last_updated": "2026-07-06T09:21:41Z",
+      "name": "Fall of the Western Roman Empire",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:41Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-41Z-e2618d"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-41Z-e2618d"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 10376,
+        "composite": 103761.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "famine",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.ncei.noaa.gov/sites/default/files/2021-11/6%20Drought%20and%20the%20Akkadian%20Empire%20-Final-OCT%202021.pdf",
+          "text": "According to NOAA's National Centers for Environmental Information, the Akkadian Empire flourished for about 100 years until, at 4,170 ± 150 years BP, it suddenly collapsed (Weiss et al. 1993); the city of Tell Leilan in the northern region was abandoned and covered with one meter of windblown silt, refugees moved to the southern lowlands, and the north was resettled only about 300 years later.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.ncei.noaa.gov/sites/default/files/2021-11/6%20Drought%20and%20the%20Akkadian%20Empire%20-Final-OCT%202021.pdf",
+          "text": "NOAA NCEI reports that a deep-sea sediment core from the Gulf of Oman shows peaks of windblown calcite and dolomite dust beginning at 4,025 ± 125 BP and lasting about 300 years (Cullen et al. 2000), interpreted as abrupt drying of the Tigris and Euphrates floodplains, while cave deposits in present-day Israel indicate precipitation reductions of up to 30% between 4,200 and 4,000 years BP (Bar-Matthews et al. 2003).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7595433/",
+          "text": "A peer-reviewed study in PLOS ONE (via PubMed Central) states that a beginning for this period of climate change 'in the later 23rd century BCE and especially around 2200 BCE is largely agreed,' lasting broadly until around 1900 BCE, and that it correlates with the demise and abandonment of Tell Leilan just before 2200 BCE, the end of the Akkadian Empire, and the First Intermediate Period in Egypt.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/antiquity/article/much-ado-about-nothing-assessing-the-impact-of-the-42-kya-event-on-human-subsistence-patterns-in-northern-mesopotamia-using-stable-isotope-analysis/4F4BF5789FABE111AD46903F8D2E3FE7",
+          "text": "The megadrought's severity is disputed: a stable-isotope study in Antiquity (Cambridge University Press) found 'no dramatic shifts in subsistence occurred in the Khabur Basin during the 4.2 kya event' and 'no evidence for a megadrought,' noting that although northern Mesopotamia's population decreased, zooarchaeological and archaeobotanical evidence reveals no economic crisis — contra Weiss's argument that annual precipitation fell 30–50 per cent and forced regional abandonment.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "An abrupt aridification episode beginning around 2200 BCE and lasting broadly until about 1900 BCE, marked by severe multi-century drought across Mesopotamia, the eastern Mediterranean, Northeast Africa, and South Asia. It is widely linked to the sudden collapse of the Akkadian Empire — the world's first empire — and correlates with Egypt's First Intermediate Period, with settlements such as Tell Leilan in northern Syria abandoned and buried under windblown silt. The event's spatial coherence and causal role in these collapses remain actively debated, with some isotope studies finding no evidence of a subsistence crisis in northern Mesopotamia.",
+      "historical": {
+        "date_display": "c. 2200–1900 BCE",
+        "era": "ancient",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "No source quantifies a death toll: the human cost of the megadrought — famine, settlement abandonment (e.g., Tell Leilan), and mass southward migration of refugees in Mesopotamia — is attested archaeologically but unquantified. Paleoclimate proxies indicate precipitation reductions of up to 30% in the Levant between 4,200 and 4,000 years BP (Weiss argued 30–50% in northern Mesopotamia), yet the severity is disputed: a 2023 stable-isotope study of the Khabur Basin found 'no evidence for a megadrought' and no economic crisis despite a population decrease in northern Mesopotamia."
+        },
+        "location": {
+          "country": "Transregional (modern Iraq, Syria, Turkey, Egypt, Israel, India, Pakistan)",
+          "region": "Mesopotamia, the Nile Valley, the eastern Mediterranean, and the Indus region"
+        },
+        "year_end": -1899,
+        "year_start": -2199
+      },
+      "id": "four-point-two-kiloyear-event",
+      "last_updated": "2026-07-06T09:21:42Z",
+      "name": "4.2-Kiloyear Aridification Event",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:42Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-42Z-1fba20"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-42Z-1fba20"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 7801,
+        "composite": 78011.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "famine",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1127087/",
+          "text": "Between the spring of 1959 and the end of 1961 some 30 million Chinese starved to death and about the same number of births were lost or postponed, in what Vaclav Smil's BMJ review calls by far the largest famine in human history.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1127087/",
+          "text": "Demographic estimates of the famine's toll range from initial calculations by American demographers of 16.5-23 million deaths, to more detailed later studies of 23-30 million excess deaths, with unpublished Chinese materials hinting at totals closer to 40 million (Smil, BMJ 1999).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Our World in Data",
+          "source_url": "https://ourworldindata.org/famines",
+          "text": "The World Peace Foundation famine dataset used by Our World in Data estimates 36 million deaths for the famine during Mao Zedong's Great Leap Forward (1958-1962), far deadlier than all other famines in the dataset, while Frank Dikotter's 'Mao's Great Famine' suggests the death toll was 45 million.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Great Chinese Famine (1959-1961) was a catastrophic man-made famine in the People's Republic of China that arose during the Great Leap Forward, when forced collectivization, the diversion of peasant labor to industrial projects, and inflated grain procurement quotas collapsed food production. It is widely regarded as the largest famine in recorded history. Estimates of excess deaths span tens of millions, with the most-cited scholarly figures ranging from roughly 16.5 million to 45 million.",
+      "historical": {
+        "date_display": "1959–1961",
+        "era": "contemporary",
+        "impact": {
+          "deaths_high": 40000000,
+          "deaths_low": 16500000,
+          "summary": "Excess-mortality estimates vary widely because Chinese demographic data from the period are incomplete and were long suppressed. Vaclav Smil's review in the BMJ reports that some 30 million Chinese starved to death between spring 1959 and the end of 1961: initial calculations by American demographers put the toll at 16.5-23 million, more detailed later studies at 23-30 million, and unpublished Chinese materials hint at totals closer to 40 million. The 16.5-40 million range recorded here is the span stated within that single source. The World Peace Foundation dataset used by Our World in Data estimates 36 million deaths for 1958-1962, and Frank Dikotter's 'Mao's Great Famine' puts the toll at 45 million; some published estimates run lower or higher still, so the true figure remains disputed."
+        },
+        "location": {
+          "country": "China",
+          "region": "Nationwide across the People's Republic of China, with rural agricultural provinces hardest hit"
+        },
+        "year_end": 1961,
+        "year_start": 1959
+      },
+      "id": "great-chinese-famine",
+      "last_updated": "2026-07-06T09:21:42Z",
+      "name": "Great Chinese Famine",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:42Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-42Z-4832df"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-42Z-4832df"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11959,
+        "composite": 119595.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "famine",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NASA",
+          "source_url": "https://www.giss.nasa.gov/pubs/abs/ba07600p.html",
+          "text": "The European Great Famine of 1315–1317 triggered one of the worst population collapses in European history and ranks as the single worst European famine in mortality as a proportion of population (Baek et al. 2020, Communications Earth & Environment).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NASA",
+          "source_url": "https://www.giss.nasa.gov/pubs/abs/ba07600p.html",
+          "text": "Historical records point to torrential rainfall, land saturation, crop failure, and prolonged flooding as important causes of the famine; tree-ring reconstruction (Old World Drought Atlas) shows the average of the growing seasons preceding the Great Famine years (1314–1316) was the fifth wettest over Europe from 1300 to 2012 CE (Baek et al. 2020).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12297707/",
+          "text": "A peer-reviewed study of selective mortality in medieval London describes famine mortality levels that 'might have been as high as 10–15%' as being 'on par with the later Great Famine c. 1315–1317 CE', placing Great Famine mortality on the order of 10–15% of the population in England.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3925430/",
+          "text": "A peer-reviewed modeling study states that 'one of the worst population collapses of human societies occurred during the early fourteenth century in northern Europe', attributing the Great Famine to climate deterioration during the transition from the Medieval Warm Period to the Little Ice Age.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Great Famine of 1315–1317 struck northern Europe when torrential rainfall, land saturation, and prolonged flooding caused successive harvest failures beginning in 1315. It triggered one of the worst population collapses in European history and ranks as the single worst European famine in mortality as a proportion of population. Some scholars extend the agrarian crisis, which included a devastating livestock pestilence, to 1322.",
+      "historical": {
+        "date_display": "1315–1317",
+        "era": "medieval",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "Absolute death tolls are not reliably quantified — verified scholarly sources state mortality proportionally, not in absolute numbers. A peer-reviewed study of medieval London mortality puts Great Famine mortality on the order of 10–15% of the population, and Baek et al. (2020) rank it as the single worst European famine in mortality as a proportion of population. Converting these shares to absolute deaths would require medieval population baselines the verified sources do not state, so the bounds are left null."
+        },
+        "location": {
+          "country": "Northern Europe (modern UK, Ireland, France, Belgium, Netherlands, Germany, and neighbors)",
+          "region": "From the British Isles across the northern European plain; the crisis in England is the best documented"
+        },
+        "year_end": 1317,
+        "year_start": 1315
+      },
+      "id": "great-famine-1315",
+      "last_updated": "2026-07-06T09:21:42Z",
+      "name": "Great Famine of 1315–1317",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:42Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-42Z-6225e9"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-42Z-6225e9"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11315,
+        "composite": 113151.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "pandemic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "UK National Archives",
+          "source_url": "https://www.nationalarchives.gov.uk/education/resources/great-plague/",
+          "text": "According to The National Archives, 68,596 plague deaths were recorded in London during the Great Plague, but the true number was probably over 100,000.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "UK National Archives",
+          "source_url": "https://www.nationalarchives.gov.uk/education/resources/great-plague/",
+          "text": "The National Archives states that London lost roughly 15% of its population to the Great Plague of 1665-1666.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "UK National Archives",
+          "source_url": "https://www.nationalarchives.gov.uk/education/resources/great-plague/",
+          "text": "The death rate peaked in September 1665, when 7,165 Londoners died from plague in a single week, according to The National Archives.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2570469/",
+          "text": "A peer-reviewed historical review (Journal of the Royal Society of Medicine, via PubMed Central) states that the 1665 London plague epidemic may have taken 100,000 lives.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Great Plague of London was the last major epidemic of bubonic plague (Yersinia pestis) to strike England, ravaging the city in 1665-1666. Parish Bills of Mortality recorded 68,596 plague deaths, but under-reporting means the true toll was probably over 100,000, roughly 15 percent of London's population. Mortality peaked in September 1665 before waning over the following winter.",
+      "historical": {
+        "date_display": "1665–1666",
+        "era": "early-modern",
+        "impact": {
+          "deaths_high": 100000,
+          "deaths_low": 68596,
+          "summary": "London's parish Bills of Mortality officially recorded 68,596 plague deaths, but contemporaries and historians agree this figure substantially under-counts the dead; The National Archives states the true number was probably over 100,000, about 15 percent of the city's population, and a peer-reviewed historical account concurs that the epidemic may have taken 100,000 lives. The range 68,596 (recorded) to ~100,000 (estimated) reflects that uncertainty rather than a precise count."
+        },
+        "location": {
+          "country": "England",
+          "region": "London and surrounding parishes"
+        },
+        "year_end": 1666,
+        "year_start": 1665
+      },
+      "id": "great-plague-of-london",
+      "last_updated": "2026-07-06T09:21:42Z",
+      "name": "Great Plague of London",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:42Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-42Z-0d0ca3"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-42Z-0d0ca3"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11665,
+        "composite": 116652.0,
+        "impact_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "societal-collapse",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "undefined",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3387054/",
+          "text": "Urban decline (\"deurbanization\") of the Indus/Harappan civilization ensued after approximately 3,900 years ago (c. 1900 BCE); as the monsoon weakened, monsoonal rivers such as the Ghaggar-Hakra gradually dried or became seasonal, affecting habitability (Giosan et al., PNAS).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "undefined",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3866234/",
+          "text": "Climate, economic, and social changes contributed to the disintegration of the Indus civilization after 1900 BCE, ushering in the Late Harappan phase (1900–1300 BCE) marked by diminished population density; at Harappa, leprosy and tuberculosis affected 15.4% of individuals buried in the Late Harappan Cemetery H (Robbins Schug et al.).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "undefined",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4879637/",
+          "text": "Isotope-dated phasing places the Mature Harappan urban phase at roughly 4.6–3.9 ka BP (c. 2650–1950 BCE) and a late declining phase at 3.9–3.3 ka BP (c. 1950–1350 BCE), during which large-scale deurbanization, population decrease, and abandonment of many established settlements occurred.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "undefined",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3866234/",
+          "text": "At its height the Indus civilization's cultural sphere covered over 1,000,000 square kilometers of territory, making its subsequent urban collapse one of the largest-scale deurbanizations of the Bronze Age (Robbins Schug et al.).",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Bronze Age Indus (Harappan) Civilization, whose planned cities such as Harappa and Mohenjo-daro spanned the Indus and Ghaggar-Hakra basins, underwent a protracted deurbanization beginning around 1900 BCE. Its writing, long-distance trade, standardized weights, and urban planning faded during a Late Harappan phase of depopulation and settlement abandonment, with weakening monsoon rains, drying rivers, economic shifts, and rising disease all proposed as contributing causes. The collapse was gradual and regionally varied rather than a single catastrophic event.",
+      "historical": {
+        "date_display": "c. 1900–1300 BCE",
+        "era": "ancient",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "No death toll is quantified in the scholarly literature: the Harappan decline was a gradual, multi-century deurbanization and depopulation rather than a mass-casualty event, so total mortality is genuinely unestimated (null/null). Bioarchaeological work documents rising disease during the Late Harappan phase—leprosy and tuberculosis affected 15.4% of individuals buried in Cemetery H at Harappa—alongside evidence of interpersonal violence, but these are prevalence figures, not counts of deaths."
+        },
+        "location": {
+          "country": "Pakistan and northwest India",
+          "region": "Indus and Ghaggar-Hakra river basins; major cities Harappa and Mohenjo-daro"
+        },
+        "year_end": -1299,
+        "year_start": -1899
+      },
+      "id": "harappan-decline",
+      "last_updated": "2026-07-06T09:21:42Z",
+      "name": "Decline of the Indus Valley Civilization",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:42Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-42Z-37a0ba"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-42Z-37a0ba"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 8101,
+        "composite": 81011.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "pandemic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
+          "text": "The WHO estimates that HIV 'has claimed an estimated 44.1 million lives to date' since the epidemic began.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
+          "text": "The WHO reports an estimated 40.8 million people were living with HIV at the end of 2024, and in 2024 an estimated 630,000 people died from HIV-related causes while an estimated 1.3 million people acquired HIV.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "CDC",
+          "source_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5021a1.htm",
+          "text": "The first official report of what became AIDS appeared in the CDC's Morbidity and Mortality Weekly Report on June 5, 1981, describing five previously healthy young men in Los Angeles with Pneumocystis carinii pneumonia, two of whom had died.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "United Nations",
+          "source_url": "https://www.un.org/en/global-issues/aids",
+          "text": "The United Nations states that 'around 42 million people have died of AIDS-related illnesses' since the start of the epidemic, with an estimated 40.8 million people living with HIV worldwide in 2024.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The HIV/AIDS pandemic is an ongoing global epidemic caused by the human immunodeficiency virus (HIV), which attacks the immune system and, if untreated, progresses to acquired immunodeficiency syndrome (AIDS). It was first recognized in the United States in June 1981 and spread worldwide, with the heaviest burden in sub-Saharan Africa. By the end of 2024 an estimated 40.8 million people were living with HIV, and the WHO estimates the virus has claimed roughly 44.1 million lives to date; the wide rollout of antiretroviral therapy has since made HIV a manageable chronic condition.",
+      "historical": {
+        "date_display": "1981–present",
+        "era": "contemporary",
+        "impact": {
+          "deaths_high": 44100000,
+          "deaths_low": 44100000,
+          "summary": "The WHO HIV fact sheet estimates HIV has claimed an estimated 44.1 million lives to date (cumulative deaths through the end of 2024); deaths_low/deaths_high are set to this single WHO figure rather than combining sources. These are modeled estimates carrying substantial uncertainty: the United Nations' global-issues page states 'around 42 million people have died of AIDS-related illnesses' since the epidemic began, and the underlying UNAIDS estimates span a range in the tens of millions. Annual AIDS-related deaths peaked in the mid-2000s at nearly 2 million and had fallen to an estimated 630,000 in 2024 following the global scale-up of antiretroviral therapy."
+        },
+        "location": {
+          "country": "Global (worldwide)",
+          "region": "Pandemic on every continent; heaviest burden in sub-Saharan Africa (about 65% of people living with HIV are in the WHO African Region)"
+        },
+        "year_end": null,
+        "year_start": 1981
+      },
+      "id": "hiv-aids-pandemic",
+      "last_updated": "2026-07-06T09:21:42Z",
+      "name": "HIV/AIDS Pandemic",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:42Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-42Z-01d912"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-42Z-01d912"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11981,
+        "composite": 119815.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-06",
+          "source_name": "NOAA",
+          "source_url": "https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/tsunamis/recent-significant-events",
+          "text": "NOAA NCEI records that the tsunami following the magnitude 9.1 earthquake of 26 December 2004 killed more people than any other tsunami in recorded history, with 227,898 dead or missing.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-06",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/news/featured-story/indian-ocean-tsunami-remembered-scientists-reflect-2004-indian-ocean-killed",
+          "text": "The USGS reports the magnitude 9.1 Sumatra-Andaman earthquake struck on 26 December 2004 and the resulting tsunami caused more than 200,000 deaths around the Indian Ocean, with Indonesia the worst affected.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A magnitude 9.1 undersea megathrust earthquake off the west coast of northern Sumatra on 26 December 2004 generated a tsunami that devastated coastlines across the Indian Ocean, from Indonesia and Thailand to Sri Lanka, India, and as far as East Africa. It is the deadliest tsunami in recorded history.",
+      "historical": {
+        "date_display": "26 December 2004",
+        "era": "contemporary",
+        "impact": {
+          "deaths_high": 227898,
+          "deaths_low": 227898,
+          "summary": "NOAA NCEI records 227,898 people dead or missing, making it the deadliest tsunami in recorded history; the USGS reports more than 200,000 killed across the affected countries, with Indonesia the worst hit."
+        },
+        "location": {
+          "country": "14 countries around the Indian Ocean",
+          "region": "Off the west coast of northern Sumatra, Indonesia; deaths concentrated in Indonesia, Sri Lanka, India, and Thailand"
+        },
+        "year_end": null,
+        "year_start": 2004
+      },
+      "id": "indian-ocean-tsunami",
+      "last_updated": "2026-07-06T09:25:15Z",
+      "name": "2004 Indian Ocean earthquake and tsunami",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:25:15Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-25-15Z-755096"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-25-15Z-755096"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 12004,
+        "composite": 120043.0,
+        "impact_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "pandemic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "CDC",
+          "source_url": "https://archive.cdc.gov/www_cdc_gov/flu/pandemic-resources/1918-pandemic-h1n1.html",
+          "text": "The CDC estimates the 1918 H1N1 influenza pandemic caused at least 50 million deaths worldwide, including about 675,000 in the United States, and that about 500 million people (one-third of the world's population) became infected.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "CDC",
+          "source_url": "https://wwwnc.cdc.gov/eid/article/12/1/05-0979_article",
+          "text": "The CDC's Emerging Infectious Diseases article '1918 Influenza: the Mother of All Pandemics' (Taubenberger and Morens, 2006) puts total deaths at approximately 50 million, 'arguably as high as 100 million,' with an estimated one-third of the world's population (about 500 million persons) infected.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7314216/",
+          "text": "A 2018 reassessment (Spreeuwenberg et al., published in the American Journal of Epidemiology) estimated total pandemic mortality at about 17.4 million deaths worldwide (15 million in 1918 and 2.5 million in 1919), concluding the impact was 'not as severe as most frequently cited estimates' and that totals above 25 million are not realistic given underlying mortality data.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Our World in Data",
+          "source_url": "https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history",
+          "text": "Our World in Data reports the Spanish flu death-toll estimates span from 17.4 million (Spreeuwenberg et al. 2018, roughly 1% of the 1.8 billion world population in 1918) to at least 50 million and possibly as high as 100 million (Johnson and Mueller 2002), with the pandemic peaking in 1918 and not waning until late 1920.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The 1918 influenza pandemic, caused by an H1N1 virus of avian origin, was the deadliest pandemic of the 20th century. Its principal waves swept the globe in 1918 and 1919, infecting roughly one-third of the world's population, with a final wave persisting into 1920. It was distinguished by unusually high mortality among healthy young adults aged 20-40, in addition to the very young and the elderly.",
+      "historical": {
+        "date_display": "1918–1920",
+        "era": "modern",
+        "impact": {
+          "deaths_high": 100000000,
+          "deaths_low": 17400000,
+          "summary": "Estimates of the global death toll vary widely and remain contested. The CDC states 'at least 50 million' deaths worldwide, and the widely cited Johnson and Mueller (2002) / Taubenberger and Morens (2006) range gives roughly 50 million, 'arguably as high as' 100 million. A 2018 reassessment by Spreeuwenberg et al., controlling for wartime and background mortality, put the total substantially lower at about 17.4 million (15 million in 1918 plus 2.5 million in 1919). Our World in Data frames the plausible span as 17.4 million (about 1% of the 1.8 billion 1918 world population) up to 100 million (about 5.4%). The deaths_low/deaths_high range spans this full uncertainty rather than endorsing a single point estimate."
+        },
+        "location": {
+          "country": "Worldwide",
+          "region": "Global pandemic reaching all inhabited continents; geographic origin remains debated"
+        },
+        "year_end": 1920,
+        "year_start": 1918
+      },
+      "id": "influenza-pandemic-1918",
+      "last_updated": "2026-07-06T09:21:42Z",
+      "name": "1918 Influenza Pandemic (\"Spanish Flu\")",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:42Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-42Z-4f5311"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-42Z-4f5311"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11918,
+        "composite": 119185.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "famine",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7115739/",
+          "text": "Estimates of deaths due to the Great Irish Famine over the 1845–1852 period range from 800,000 to 1,500,000; the blight that decimated the Irish potato crop for three harvests over 1845–1848 caused the death of approximately 1 million Irish people from famine-related diseases and the exodus of a further 1 million inhabitants (Fernihough & Ó Gráda, 'Large-scale mortality shocks and the Great Irish Famine 1845–1852').",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6735970/",
+          "text": "Current thinking is that 1 to 1.5 million people died and 1 to 1.5 million people emigrated from Ireland between 1841 and 1851; the census showed a population of 8,175,124 in 1841 and 6,552,385 in 1851 ('How Infection Shaped History: Lessons from the Irish Famine', Transactions of the American Clinical and Climatological Association).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6735970/",
+          "text": "Fever and other infections are believed to have accounted for up to 50% of deaths during the Famine, whose proximate cause was the potato blight pathogen Phytophthora infestans, which spreads rapidly in the foliage of potatoes; it is estimated that at least 1.3 million people left Ireland between 1846 and 1852.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Great Irish Famine (1845–1852) began when potato blight (Phytophthora infestans) destroyed successive Irish potato harvests from 1845, striking a population of which roughly three million people were largely dependent on the potato for food. Approximately one million people died of starvation and famine-related disease — with fever and other infections believed to account for up to half of famine deaths — and roughly one million more emigrated. Ireland's population fell from 8,175,124 at the 1841 census to 6,552,385 at the 1851 census, and continued to decline for decades afterward.",
+      "historical": {
+        "date_display": "1845–1852",
+        "era": "modern",
+        "impact": {
+          "deaths_high": 1500000,
+          "deaths_low": 800000,
+          "summary": "A peer-reviewed study of the famine (Fernihough & Ó Gráda, via PubMed Central) states that estimates of deaths due to the Famine over the 1845–1852 period range from 800,000 to 1,500,000, with roughly one million famine-related deaths the most commonly cited figure; a second peer-reviewed source puts current thinking at 1 to 1.5 million dead between 1841 and 1851. The toll is an estimate range rather than a count, inferred largely from the fall in census population from 8,175,124 (1841) to 6,552,385 (1851) after separating deaths from mass emigration."
+        },
+        "location": {
+          "country": "Ireland (then part of the United Kingdom)",
+          "region": "Island of Ireland"
+        },
+        "year_end": 1852,
+        "year_start": 1845
+      },
+      "id": "irish-great-famine",
+      "last_updated": "2026-07-06T09:21:42Z",
+      "name": "Great Irish Famine",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:42Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-42Z-239cb1"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-42Z-239cb1"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11845,
+        "composite": 118454.0,
+        "impact_rank": 4
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.ncei.noaa.gov/news/day-historic-krakatau-eruption-1883",
+          "text": "NOAA's National Centers for Environmental Information states that the colossal eruption of Krakatau beginning August 26, 1883 killed approximately 36,000 people, with more than 34,000 of the deaths attributed to the tsunamis it generated.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.ncei.noaa.gov/news/day-historic-krakatau-eruption-1883",
+          "text": "NOAA NCEI reports that the largest tsunami wave, recorded in the Indonesian province of Banten, was estimated at 135 feet (41 meters) high, and that ash from the eruption lowered global temperatures by as much as 0.5 degrees C (0.9 degrees F) in the following year, with temperatures not returning to normal until 1888.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/publications/krakatau-1883",
+          "text": "The U.S. Geological Survey states that the 1883 Krakatau eruption killed more than 36,000 people and exploded more than 4 cubic miles of volcanic debris upward.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6697749/",
+          "text": "A peer-reviewed study in Scientific Reports (NIH/PMC) describes the 1883 eruption of Krakatau as having killed 36,000 people, and notes that the December 22, 2018 lateral-collapse tsunami of Anak Krakatau (at least 437 fatalities) was the most damaging volcanically-generated tsunami since the 1883 eruption.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "On 26-27 August 1883 the volcanic island of Krakatau (Krakatoa) in Indonesia's Sunda Strait was destroyed in one of the most violent eruptions in recorded history, ejecting more than 4 cubic miles of debris and sending ash roughly 50 miles into the atmosphere. The collapse of the island generated tsunamis, the largest estimated at 41 meters (135 feet) in Banten province, which swept coastal towns and villages on Java and Sumatra. Roughly 36,000 people were killed, more than 34,000 of them by the tsunamis, and injected aerosols lowered global temperatures by as much as 0.5 degrees C the following year.",
+      "historical": {
+        "date_display": "August 26–27, 1883",
+        "era": "modern",
+        "impact": {
+          "deaths_high": 36000,
+          "deaths_low": 36000,
+          "summary": "NOAA NCEI puts the toll at approximately 36,000 dead, with more than 34,000 of the deaths attributed to the tsunamis; USGS likewise states more than 36,000 killed. The precise official count compiled by the Dutch colonial authorities is commonly cited as 36,417, but that exact figure could not be read on an allowlisted source, and some scholars argue the true toll, including deaths from pyroclastic flows on southern Sumatra and from the aftermath, was somewhat higher."
+        },
+        "location": {
+          "country": "Indonesia",
+          "region": "Krakatau (Krakatoa), Sunda Strait, between Java and Sumatra"
+        },
+        "year_end": null,
+        "year_start": 1883
+      },
+      "id": "krakatoa-eruption",
+      "last_updated": "2026-07-06T09:21:42Z",
+      "name": "1883 Eruption of Krakatoa",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:42Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-42Z-e8c090"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-42Z-e8c090"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11883,
+        "composite": 118832.0,
+        "impact_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/faqs/which-volcanic-eruptions-were-deadliest",
+          "text": "The USGS lists the 1783 Lakagigar (Laki) eruption in Iceland among the deadliest volcanic eruptions in history, with a death toll of 9,000 (9,350 per a second cited reference) and starvation as the major cause of death.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6203706/",
+          "text": "A 2018 study hosted on PubMed Central states the Laki eruption lasted from June 1783 to February 1784, produced about 15 cubic kilometers of magma, and injected a total of 125 Tg of sulfur dioxide (63 Tg of sulfur) into the atmosphere.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6203706/",
+          "text": "The same PMC-hosted study states that an estimated 20% of the population of Iceland died within three years of the eruption's onset, and that 60% of Icelandic grazing livestock died by starvation or fluorine poisoning; it also reports Witham and Oppenheimer's estimate of about 20,000 extra deaths in England between August 1783 and May 1784.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/observatories/hvo/news/volcano-watch-icelandic-eruption-and-ash-fall-disaster-response-take-two",
+          "text": "USGS Volcano Watch states that ash and gas from the 1783 Icelandic eruptions caused widespread famine and the deaths of about 20 percent of Iceland's population, and that within a year 60 percent of Iceland's grazing livestock died from ash ingestion and associated fluorosis.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Lakagigar (Laki) fissure eruption in southern Iceland lasted from June 1783 to February 1784, erupting roughly 15 cubic kilometers of basaltic magma and injecting on the order of 125 million tonnes of sulfur dioxide into the atmosphere. Fluorine-laden ash and gas killed about 60 percent of Iceland's grazing livestock, triggering the 'haze famine' in which roughly a fifth of the Icelandic population died. The sulfurous haze spread across Europe, where it is linked to elevated mortality and anomalous weather in 1783-1784.",
+      "historical": {
+        "date_display": "1783–1784",
+        "era": "early-modern",
+        "impact": {
+          "deaths_high": 9350,
+          "deaths_low": 9000,
+          "summary": "The USGS lists the 1783 Laki eruption's death toll as 9,000-9,350, with starvation as the major cause; this corresponds to roughly 20% of Iceland's population dying in the ensuing haze famine. Additional excess mortality across Europe attributed to the sulfurous Laki haze is not included in this range and remains debated: one estimate reported in the peer-reviewed literature (Witham and Oppenheimer, as cited in a PMC-hosted 2018 study) puts extra deaths in England alone at about 20,000 between August 1783 and May 1784, so total attributable mortality could be several times the Icelandic figure."
+        },
+        "location": {
+          "country": "Iceland",
+          "region": "Lakagigar fissure, Grimsvotn volcanic system, southern Iceland; haze effects across Europe"
+        },
+        "year_end": 1784,
+        "year_start": 1783
+      },
+      "id": "laki-eruption",
+      "last_updated": "2026-07-06T09:21:42Z",
+      "name": "Laki Eruption",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:42Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-42Z-c1c0e5"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-42Z-c1c0e5"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11783,
+        "composite": 117831.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "societal-collapse",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/antiquity/article/getting-closer-to-the-late-bronze-age-collapse-in-the-aegean-and-eastern-mediterranean-c-1200-bc/482564326A668899FF183DD949FC520F",
+          "text": "The Late Bronze Age collapse c. 1200 BC saw the end of the Mycenaean kingdoms, the Hittite state and its empire, and the kingdom of Ugarit.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/antiquity/article/getting-closer-to-the-late-bronze-age-collapse-in-the-aegean-and-eastern-mediterranean-c-1200-bc/482564326A668899FF183DD949FC520F",
+          "text": "A 2023 reassessment reviewed in Antiquity found that of 153 destructions proposed for the collapse horizon (accepting a range of 1225–1175 BC), 94 (61%) are 'false' destructions — misdated, assumed rather than evidenced, or resting on faulty citations — indicating there was no single catastrophic destruction horizon across the eastern Mediterranean c. 1200 BC.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3743901/",
+          "text": "Kaniewski et al. (2013) document a ca. 300-year drought event beginning about 3,200 years ago in the eastern Mediterranean that caused crop failures, dearth and famine, and date Sea People raids to 1215–1190 cal BC (pooled mean radiocarbon age 2962±14 14C yr BP).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3110627/",
+          "text": "Radiocarbon, historical, archaeological and astronomical evidence converge on an absolute age range of 1192–1190 BC for the terminal destructions and cultural collapse in the northern Levant, including the Sea Peoples' destruction of the harbour city of Ugarit.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Between roughly 1200 and 1150 BCE, the interconnected palace civilizations of the eastern Mediterranean — the Mycenaean kingdoms, the Hittite state and its empire, and the kingdom of Ugarit — came to an end within a few decades. Cities were destroyed or abandoned, palace administrations and long-distance trade networks dissolved, and Egyptian records describe attacks by the 'Sea Peoples'. Current scholarship attributes the collapse to a convergence of prolonged drought, famine, migration, and warfare rather than a single catastrophic cause.",
+      "historical": {
+        "date_display": "c. 1200–1150 BCE",
+        "era": "ancient",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "No quantified death toll exists for the Late Bronze Age collapse. The sources consulted document widespread urban destruction, crop failures, famine, and forced migrations across the eastern Mediterranean, but none gives a numeric mortality estimate, so the toll is recorded as unquantified."
+        },
+        "location": {
+          "country": "Eastern Mediterranean (modern Greece, Turkey, Syria, Lebanon, Israel, Cyprus, Egypt)",
+          "region": "Aegean, Anatolia, the Levant, and the Nile Delta"
+        },
+        "year_end": -1149,
+        "year_start": -1199
+      },
+      "id": "late-bronze-age-collapse",
+      "last_updated": "2026-07-06T09:21:43Z",
+      "name": "Late Bronze Age Collapse",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:43Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-43Z-2fa477"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-43Z-2fa477"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 8801,
+        "composite": 88011.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://sos.noaa.gov/catalog/datasets/tsunami-historical-series-lisbon-1755/",
+          "text": "According to NOAA, the earthquake that shook Lisbon on the morning of November 1, 1755 — a magnitude 8.5 event on the Horseshoe Fault — probably killed about 30,000 people, though some estimates double that figure.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://sos.noaa.gov/catalog/datasets/tsunami-historical-series-lisbon-1755/",
+          "text": "NOAA reports that the first tsunami wave surged up the Tagus estuary about an hour after the earthquake, reached a maximum runup of 12 meters (40 feet) at Lisbon, and killed another 1,000 people; at Lagos on Portugal's coast the tsunami was perhaps 30 m (100 ft), and runups of about 1 m were recorded as far away as Barbados, Martinique, Guadeloupe, and Antigua.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/publications/far-field-tsunami-simulations-1755-lisbon-earthquake-implications-tsunami-hazard-us",
+          "text": "A USGS publication describes the great Lisbon earthquake of November 1st, 1755, with an estimated moment magnitude of 8.5-9.0, as the most destructive earthquake in European history, with tsunami run-up reported to have reached 5-15 m along the Portuguese and Moroccan coasts and trans-oceanic run-up reports documented in the Caribbean, Brazil, and Newfoundland.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "On the morning of November 1, 1755 — All Saints' Day — a great earthquake with an estimated moment magnitude of 8.5-9.0 struck offshore in the Atlantic and devastated Lisbon, Portugal, with severe effects across the Iberian Peninsula and Northwest Africa. The shaking was followed within about an hour by tsunami waves that surged up the Tagus estuary, and by fires that burned through the ruined city. USGS describes it as the most destructive earthquake in European history, and it profoundly influenced European philosophy, theology, and the birth of seismology.",
+      "historical": {
+        "date_display": "November 1, 1755",
+        "era": "early-modern",
+        "impact": {
+          "deaths_high": 60000,
+          "deaths_low": 30000,
+          "summary": "NOAA states the earthquake probably killed about 30,000 people, 'though some estimates double that figure' (implying up to roughly 60,000), with the tsunami killing at least another 1,000 in Lisbon alone. Contemporary records were destroyed in the disaster, so all tolls are reconstructions; estimates in the wider literature range from the low tens of thousands to figures well above this band, and no single authoritative count exists."
+        },
+        "location": {
+          "country": "Portugal (with major effects in Spain and Morocco)",
+          "region": "Lisbon and the Atlantic coasts of the Iberian Peninsula and Northwest Africa; epicenter offshore in the Atlantic southwest of Portugal"
+        },
+        "year_end": null,
+        "year_start": 1755
+      },
+      "id": "lisbon-earthquake-1755",
+      "last_updated": "2026-07-06T09:21:43Z",
+      "name": "1755 Lisbon Earthquake",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:43Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-43Z-fac108"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-43Z-fac108"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11755,
+        "composite": 117552.0,
+        "impact_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "war",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5023095/",
+          "text": "In 1206, Temujin unified many Mongol-Turkic nomadic tribes of Northeast Asia and was crowned 'Genghis Khan'; after founding the Mongol Empire he invaded outward from the Mongolian plateau, ultimately conquering most of Eurasia in what became the largest contiguous land empire in human history.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1180246/",
+          "text": "Genghis Khan (c. 1162-1227) established the largest land empire in history and often slaughtered the conquered populations, with the empire at his death extending from northeast China to Uzbekistan.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11949627/",
+          "text": "For the Mongol conquest of Baghdad in 1258, medieval accounts gave widely varying death tolls -- reported figures included 300,000, 800,000, 1,800,000 and 2,000,000 -- which were rendered in an exaggerated manner by later historians; the historian al-Dhahabi judged that 'the most truthful [report] is that they reached 300,000.'",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8663044/",
+          "text": "According to the contemporary chronicle al-Hawadith al-jami'a, more than 800,000 people died in Baghdad at its fall to the Mongols in 1258, not counting children thrown in the mud and those who perished in canals, wells, and cellars or from hunger and fear.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Beginning in 1206, when Temujin unified the nomadic tribes of the Mongolian plateau and was proclaimed Genghis Khan, the Mongols built the largest contiguous land empire in human history, campaigning outward across Eurasia over roughly a century and a half. The conquests destroyed cities such as Baghdad (1258), devastated regions from China and Central Asia to the Middle East and Eastern Europe, and are counted among the deadliest series of wars in recorded history. Mongol political dominance is conventionally dated from Genghis Khan's accession in 1206 to the fall of the Yuan dynasty in China in 1368.",
+      "historical": {
+        "date_display": "1206–1368",
+        "era": "medieval",
+        "impact": {
+          "deaths_high": 40000000,
+          "deaths_low": 30000000,
+          "summary": "Aggregate deaths from the Mongol conquests are commonly cited at roughly 30-40 million, with some estimates ranging as high as ~60 million. These aggregate figures are highly uncertain and disputed: they rest largely on estimates of medieval population decline (notably the McEvedy and Jones 'Atlas of World Population History') rather than any contemporary count, and they conflate deaths from massacre, famine, and subsequent disease. Individual episodes are better documented but still contested: for the sack of Baghdad in 1258, medieval chroniclers gave figures from 800,000 up to 2,000,000 dead, while the historian al-Dhahabi judged roughly 300,000 the most truthful. The aggregate 30-40 million range here reflects the commonly cited scholarly estimate and should be read as an order-of-magnitude figure, not a precise count."
+        },
+        "location": {
+          "country": "Eurasia",
+          "region": "From the Mongolian plateau outward across China, Korea, Central Asia, Persia and the Middle East, the Caucasus, and Eastern Europe"
+        },
+        "year_end": 1368,
+        "year_start": 1206
+      },
+      "id": "mongol-conquests",
+      "last_updated": "2026-07-06T09:21:43Z",
+      "name": "Mongol Conquests",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:43Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-43Z-79e701"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-43Z-79e701"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11206,
+        "composite": 112065.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "pandemic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/19787658/",
+          "text": "In the epidemic beginning 430 BC, over the first three years perhaps as many as 75,000 to 100,000 people — 25% of the city's population — died, per an epidemiological/paleopathological review in the U.S. National Library of Medicine (PubMed).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7118959/",
+          "text": "Approximately one quarter of the Athenian army and roughly one quarter of the civilian population of southern Greece perished during the plague, which lasted about four years, and Pericles himself succumbed to it.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/9539938/",
+          "text": "The Athenian epidemic of 430–426 BC, at the outbreak of the Peloponnesian War, caused the death of the statesman Pericles and 'decimated the population'; the cause remains undetermined, with typhus and smallpox judged the best fits.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "An epidemic of unknown cause that struck Athens beginning in 430 BCE during the second year of the Peloponnesian War, recurring in waves through 426 BCE. Chronicled firsthand by the historian Thucydides (who caught the disease and survived), it killed roughly a quarter of the city's population, including the statesman Pericles, and severely weakened Athens. Modern scholars still dispute the pathogen, with epidemic typhus and smallpox among the leading candidates.",
+      "historical": {
+        "date_display": "430–426 BCE",
+        "era": "classical",
+        "impact": {
+          "deaths_high": 100000,
+          "deaths_low": 75000,
+          "summary": "One epidemiological study estimates that in the first three years perhaps as many as 75,000 to 100,000 people — about 25% of the city's population — died. Other authoritative accounts likewise put mortality at roughly one quarter of the Athenian army and of the civilian population of southern Greece. The commonly cited 'a quarter to a third of Athens' reflects this uncertainty; absolute figures are estimates extrapolated from ancient population guesses, not counts, and the deaths_low/deaths_high range here is quoted from a single study rather than averaged across sources."
+        },
+        "location": {
+          "country": "Greece",
+          "region": "Athens (Attica), ancient Greece"
+        },
+        "year_end": -425,
+        "year_start": -429
+      },
+      "id": "plague-of-athens",
+      "last_updated": "2026-07-06T09:21:43Z",
+      "name": "Plague of Athens",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:43Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-43Z-562fa5"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-43Z-562fa5"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 9571,
+        "composite": 95712.0,
+        "impact_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "pandemic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/plague-of-cyprian-a-revised-view-of-the-origin-and-spread-of-a-3rdc-ce-pandemic/4DD870D473D3DDB1DF0328CE2C7E3280",
+          "text": "At the pandemic's height around 262 CE, about 5,000 people a day were dying in Rome and the cities of Greece, according to a peer-reviewed study of the Plague of Cyprian in the Journal of Roman Archaeology.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10265275/",
+          "text": "A study in the U.S. National Library of Medicine's PMC archive states that at its zenith the plague killed around 5,000 people a day in Rome, corroborating the daily peak-mortality figure from a second authoritative source.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698106/",
+          "text": "A historico-medical review in the NIH PMC archive dates the pandemic to around 250-266 CE and reports that after devastating Africa it reached Rome and spread as far as Roman Britain, touching Hadrian's Wall (the Vallum Hadriani).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/plague-of-cyprian-a-revised-view-of-the-origin-and-spread-of-a-3rdc-ce-pandemic/4DD870D473D3DDB1DF0328CE2C7E3280",
+          "text": "The Journal of Roman Archaeology study argues the disease entered the Roman Empire via Gothic invasions on the Danube rather than up the Nile from inner Africa, and that it spread over the entire Mediterranean world over roughly 20 years (251/2 to 270 CE); the pathogen remains unidentified.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Plague of Cyprian was a pandemic that swept the Roman Empire during the Crisis of the Third Century, named for Cyprian, bishop of Carthage, who described its grim symptoms in his treatise De mortalitate. Beginning around 249 CE and persisting to roughly 262-270 CE, it inflicted mass mortality across the Mediterranean world; contemporary reports place its height at about 5,000 deaths a day in Rome. The causative pathogen remains unidentified, though the hemorrhagic character of the symptoms has led some scholars to propose a viral hemorrhagic fever.",
+      "historical": {
+        "date_display": "c. 249–262 CE",
+        "era": "classical",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "No reliable total death toll survives for the Plague of Cyprian; the pandemic falls in one of the most poorly documented phases of Roman history. The best-attested figure is a peak, not a total: contemporary and modern scholarly sources report that at the pandemic's height (c. 262 CE) about 5,000 people a day were dying in Rome and the cities of Greece. Modern historians hold that mortality was severe enough to cause acute manpower shortages for agriculture and the army, but no aggregate estimate can be quoted from the sources consulted."
+        },
+        "location": {
+          "country": "Roman Empire (Mediterranean world)",
+          "region": "Rome, Carthage, Alexandria, the Danube/Balkan frontier and the wider Mediterranean; reported as far as Roman Britain"
+        },
+        "year_end": 262,
+        "year_start": 249
+      },
+      "id": "plague-of-cyprian",
+      "last_updated": "2026-07-06T09:21:43Z",
+      "name": "Plague of Cyprian",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:43Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-43Z-fe99b0"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-43Z-fe99b0"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 10249,
+        "composite": 102491.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "pandemic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6926030/",
+          "text": "Maximalist estimates put Justinianic Plague mortality in the tens of millions, with numbers ranging between 15 and 100 million, or alternatively 25 to 60 percent of the estimated population of the Late Roman Empire — figures the article's authors argue are overstated.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12385600/",
+          "text": "According to historical sources the First Pandemic began in 541 CE and lasted until c. 750 CE; it is the first pandemic attributed to Yersinia pestis, confirmed by ancient DNA recovered from a mass grave at Jerash, Jordan (c. 550–660 CE).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12385600/",
+          "text": "The disease first appeared in the historical record at Pelusium in Northern Egypt and, believed by contemporaries to have begun in East Africa or South Arabia, spread rapidly throughout the Mediterranean and Middle East.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6589673/",
+          "text": "The first historically reported pandemic attributed to Yersinia pestis started with the Justinianic Plague (541–544); ancient Y. pestis genomes have since been recovered from Britain, France, Germany, and Spain, demonstrating wide European distribution during the First Pandemic (541–750).",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Plague of Justinian was the first historically documented outbreak of bubonic plague, caused by the bacterium Yersinia pestis, which struck the Eastern Roman (Byzantine) Empire and the wider Mediterranean world beginning in 541 CE. Named for the reigning emperor Justinian I, it opened the so-called First Pandemic, which recurred across Europe, the Middle East, and North Africa until about 750 CE. Modern mortality estimates vary enormously and are sharply contested, ranging from figures in the tens of millions to scholarly arguments that its demographic impact was far smaller.",
+      "historical": {
+        "date_display": "541–549 CE (initial outbreak of the First Plague Pandemic, c. 541–750 CE)",
+        "era": "medieval",
+        "impact": {
+          "deaths_high": 100000000,
+          "deaths_low": 15000000,
+          "summary": "Mortality is highly uncertain and disputed, as no reliable contemporary census exists and all totals are modern reconstructions. Maximalist scholarship estimates the Justinianic Plague killed on the order of tens of millions, with figures ranging between 15 and 100 million, or alternatively 25 to 60 percent of the estimated population of the Late Roman Empire. However, the authors of the source reporting this range (Mordechai and Eisenberg, 2019) argue these maximalist numbers are exaggerated and that the pandemic's true demographic and social impact was substantially smaller."
+        },
+        "location": {
+          "country": "Eastern Roman (Byzantine) Empire; Mediterranean, Middle East, and Europe",
+          "region": "First recorded at Pelusium in Northern Egypt; spread through the Mediterranean and Middle East, striking Constantinople in 542; later reached Britain, France, Germany, and Spain"
+        },
+        "year_end": 549,
+        "year_start": 541
+      },
+      "id": "plague-of-justinian",
+      "last_updated": "2026-07-06T09:21:43Z",
+      "name": "Plague of Justinian",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:43Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-43Z-8fec3d"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-43Z-8fec3d"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 10541,
+        "composite": 105415.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "war",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/libyan-studies/article/generals-and-judges-command-constitution-and-the-fate-of-carthage/757F46BAE0CA1A08373A15D1E497198F",
+          "text": "The Punic Wars between Rome and Carthage spanned 264–146 BC, with the Second Punic War fought in 218–201 BC, according to the article 'Generals and judges: command, constitution and the fate of Carthage' in the journal Libyan Studies (Cambridge University Press).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/books/abs/cambridge-world-history-of-genocide/tale-of-three-cities/78BBE6EA64F9F4A8130FFF78B039E733",
+          "text": "In 146 BCE Rome destroyed the city of Carthage; after many inhabitants perished in the siege and sack, the surviving population was enslaved and the city was destroyed and not re-inhabited, according to The Cambridge World History of Genocide (chapter 'A Tale of Three Cities').",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/journals/diogenes/article/abs/first-genocide-carthage-146-bc/9F94EFA6A6F4B47B86890F2CE055503A",
+          "text": "The Roman destruction of Carthage occurred in 146 BC, as stated in the article 'The First Genocide: Carthage, 146 BC' in the journal Diogenes (Cambridge University Press).",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Punic Wars were three conflicts fought between the Roman Republic and Carthage from 264 to 146 BCE for dominance of the western Mediterranean. The Second Punic War (218-201 BCE) brought Hannibal's invasion of Italy, and the Third ended in 146 BCE when Rome besieged, sacked, and destroyed the city of Carthage, enslaving the surviving population. Victory left Rome the unrivaled power of the western Mediterranean and turned Carthaginian territory into the Roman province of Africa.",
+      "historical": {
+        "date_display": "264–146 BCE",
+        "era": "classical",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "Total deaths across the three wars are genuinely unquantifiable: ancient authors report enormous but mutually inconsistent battle tolls, and no reliable aggregate exists, so no numeric range is recorded. The wars' scale is nonetheless clear from their end — after the Roman siege and sack of Carthage in 146 BCE, in which many of the city's inhabitants perished, the survivors were enslaved and the city itself was destroyed and left uninhabited."
+        },
+        "location": {
+          "country": "Western Mediterranean (modern Tunisia, Italy, Spain)",
+          "region": "Carthage (near modern Tunis), Sicily, the Italian peninsula, Iberia, and North Africa"
+        },
+        "year_end": -145,
+        "year_start": -263
+      },
+      "id": "punic-wars",
+      "last_updated": "2026-07-06T09:21:43Z",
+      "name": "Punic Wars",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:43Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-43Z-72a210"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-43Z-72a210"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 9737,
+        "composite": 97371.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "genocide",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "US Holocaust Memorial Museum",
+          "source_url": "https://www.ushmm.org/genocide-prevention/countries/rwanda",
+          "text": "The US Holocaust Memorial Museum states that in 1994 between 500,000 and one million Rwandans were massacred in a genocide when the Hutu extremist-led government launched a plan to wipe out the country's entire Tutsi minority and any others who opposed its policies.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "United Nations",
+          "source_url": "https://www.un.org/en/preventgenocide/rwanda/",
+          "text": "The United Nations Outreach Programme on the 1994 Genocide against the Tutsi in Rwanda states that more than one million people — overwhelmingly Tutsi, but also Hutu and others who opposed the genocide — were systematically killed in less than three months.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "United Nations",
+          "source_url": "https://www.un.org/en/preventgenocide/rwanda/historical-background.shtml",
+          "text": "According to the UN's historical background on the genocide, the killing began after the plane carrying the Rwandan president was shot down on 6 April 1994 and continued until 4 July 1994, when the RPF took military control of the entire territory of Rwanda; an estimated 150,000 to 250,000 women were raped.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "US Holocaust Memorial Museum",
+          "source_url": "https://encyclopedia.ushmm.org/content/en/article/the-rwanda-genocide",
+          "text": "The USHMM Holocaust Encyclopedia states that as many as one million people, mostly Tutsi, were massacred over a period of 100 days from April to July 1994, and that hundreds of thousands of Rwandan Hutus participated in the genocide.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "In 1994, Rwanda's Hutu extremist-led government launched a systematic campaign to exterminate the country's Tutsi minority, along with moderate Hutu and others who opposed the genocide. The killing began after the plane carrying President Juvenal Habyarimana was shot down on 6 April 1994 and continued for roughly 100 days until the Rwandan Patriotic Front (RPF) took control of the country on 4 July 1994. Hutu militias and government soldiers carried out mass murder in roads, fields, churches, schools, and homes, and an estimated 150,000 to 250,000 women were raped.",
+      "historical": {
+        "date_display": "April–July 1994",
+        "era": "contemporary",
+        "impact": {
+          "deaths_high": 1000000,
+          "deaths_low": 500000,
+          "summary": "The US Holocaust Memorial Museum states that between 500,000 and one million Rwandans were massacred in 1994; the UN Outreach Programme on the genocide states that more than one million people — overwhelmingly Tutsi, but also Hutu and others who opposed the genocide — were systematically killed in less than three months. The exact toll is unknown and estimates in the literature range from roughly 500,000 to over one million, with ~800,000 long the most commonly cited figure."
+        },
+        "location": {
+          "country": "Rwanda",
+          "region": "Nationwide, including Kigali and all prefectures"
+        },
+        "year_end": null,
+        "year_start": 1994
+      },
+      "id": "rwandan-genocide",
+      "last_updated": "2026-07-06T09:21:43Z",
+      "name": "Rwandan Genocide",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:43Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-43Z-61f50e"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-43Z-61f50e"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11994,
+        "composite": 119943.0,
+        "impact_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/earthquakes?minYear=1556&maxYear=1556",
+          "text": "The NOAA NCEI Global Significant Earthquake Database records the 23 January 1556 earthquake in Shaanxi Province, China (epicenter 34.5°N 109.7°E) at magnitude 8.0 (Ms) with maximum intensity XI and 830,000 deaths.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://earthquake.usgs.gov/learn/today/index.php?month=1&day=23",
+          "text": "USGS lists the 23 January 1556 magnitude 8 earthquake in Shensi (Shaanxi), China as having the 'worst death toll in history: 830,000 deaths' and one of the world's most destructive earthquakes.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/programs/earthquake-hazards/cool-earthquake-facts",
+          "text": "USGS states the world's deadliest recorded earthquake occurred in 1556 in central China, where dwellings carved from soft rock collapsed, killing an estimated 830,000 people.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "On 23 January 1556, a magnitude 8.0 earthquake struck Shaanxi Province in northern China during the Ming dynasty, devastating the Wei River valley with shaking intensity reaching XI. It is regarded as the deadliest earthquake in recorded history, with roughly 830,000 deaths reported in imperial records. Casualties were catastrophic in part because much of the population lived in yaodong cave dwellings carved into soft loess, which collapsed en masse during the shaking.",
+      "historical": {
+        "date_display": "23 January 1556",
+        "era": "early-modern",
+        "impact": {
+          "deaths_high": 830000,
+          "deaths_low": 830000,
+          "summary": "USGS and the NOAA NCEI Global Significant Earthquake Database both give approximately 830,000 deaths, the worst earthquake death toll in history. The figure derives from Ming dynasty records of registered population loss across the affected prefectures; some modern researchers consider it to include deaths from the ensuing famine, disease, and displacement as well as direct shaking casualties, so the number killed outright by the earthquake itself is uncertain and may be substantially lower."
+        },
+        "location": {
+          "country": "China",
+          "region": "Shaanxi Province, Wei River valley (epicenter near Huaxian, 34.5°N 109.7°E)"
+        },
+        "year_end": null,
+        "year_start": 1556
+      },
+      "id": "shaanxi-earthquake-1556",
+      "last_updated": "2026-07-06T09:21:43Z",
+      "name": "1556 Shaanxi Earthquake",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:43Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-43Z-b5ec07"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-43Z-b5ec07"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11556,
+        "composite": 115563.0,
+        "impact_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "war",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10437944/",
+          "text": "A peer-reviewed structural-demographic analysis of the Qing dynasty collapse (PNAS, in PubMed Central) describes the Taiping Rebellion (1851–64) as the bloodiest civil war in recorded human history, in which over 20 million people died.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "JSTOR",
+          "source_url": "https://daily.jstor.org/taiping-chinas-nineteenth-century-civil-war/",
+          "text": "JSTOR Daily states that five to ten percent of the Chinese population died in the Taiping war, with twenty million dead the figure typically seen in the literature although higher figures have been proposed, while noting the absence of accurate demographic data makes a precise count impossible.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Cambridge University Press",
+          "source_url": "https://www.cambridge.org/core/books/abs/cambridge-world-history-of-genocide/killing-fields-of-jiangnan/AFA1CE152727D0400FC75E7BD7E8E0FF",
+          "text": "The Cambridge World History of Genocide (chapter 'The Killing Fields of Jiangnan') calls China's Taiping Rebellion (1851–64), led by Hong Xiuquan (1813–1864), 'perhaps history's bloodiest civil war' and argues it bears the hallmarks of current definitions of genocide.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10437944/",
+          "text": "According to the NIH-published structural-demographic analysis, the Qing state spent more than 290 million taels to suppress the Taiping Rebellion (1850–64), and its top leaders — including Hong Xiuquan, who failed the civil examinations four times — were drawn from frustrated aspirant elites.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A massive civil war in Qing-dynasty China (1850–1864) in which the Taiping Heavenly Kingdom, led by Hong Xiuquan — a failed civil-examination candidate who proclaimed himself the younger brother of Jesus Christ — rose against the Qing state, seizing Nanjing as its capital before being crushed in 1864. It is widely described as the bloodiest civil war in recorded history, with commonly cited death tolls of roughly twenty million people from combat, famine, and disease. The war drained Qing finances (over 290 million taels spent on suppression) and permanently weakened the dynasty.",
+      "historical": {
+        "date_display": "1850–1864",
+        "era": "modern",
+        "impact": {
+          "deaths_high": 20000000,
+          "deaths_low": 20000000,
+          "summary": "Roughly 20 million deaths is the figure typically seen in scholarly literature — an NIH-published analysis states 'over 20 million people died' and calls it the bloodiest civil war in recorded human history, while JSTOR Daily gives five to ten percent of China's population and notes higher figures have been proposed (a 20–30 million range and even ~70 million appear in the wider literature). The absence of accurate demographic data for Qing China makes precision impossible; deaths from famine and disease are inseparable from battle deaths."
+        },
+        "location": {
+          "country": "China",
+          "region": "Southern and central China, centered on the Yangtze valley; Taiping capital at Nanjing"
+        },
+        "year_end": 1864,
+        "year_start": 1850
+      },
+      "id": "taiping-rebellion",
+      "last_updated": "2026-07-06T09:21:43Z",
+      "name": "Taiping Rebellion",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:43Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-43Z-e66368"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-43Z-e66368"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11850,
+        "composite": 118505.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/faqs/which-volcanic-eruptions-were-deadliest",
+          "text": "The USGS ranks the 1815 Tambora, Indonesia eruption as the deadliest volcanic eruption since 1500 CE, with 92,000 deaths, the major cause being starvation.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.nesdis.noaa.gov/news/day-history-mount-tambora-explosively-erupts-1815",
+          "text": "NOAA reports that the 1815 Mount Tambora eruption - rated VEI 7, erupting from April 5 to its climax on April 10 - killed 11,000 people via pyroclastic flows and more than 100,000 through the resulting food shortages over the following decade, and that the year after the eruption was known as the Year Without a Summer.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/observatories/hvo/news/volcano-watch-infamous-mount-tambora-rumbling-again",
+          "text": "USGS Hawaiian Volcano Observatory states that Tambora's April 1815 explosions peaked on April 10-11, rated 7 on the Volcanic Explosivity Scale, left a caldera 6 km (3.7 miles) in diameter, and that more than 70,000 died in the surrounding areas - the greatest death toll known for a volcanic eruption.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9985606/",
+          "text": "A peer-reviewed study in PMC states the 1815 Tambora eruption, the largest historically observed eruption, cooled global land temperatures in 1816 by an estimated 1.9 degrees C (plus or minus 0.2 degrees C), and that the European summer of 1816 has been described as the 'year without a summer', followed by a 'year of famine' in 1817.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "In April 1815, Mount Tambora on Sumbawa Island in present-day Indonesia produced the largest volcanic eruption in recorded history, rated 7 on the Volcanic Explosivity Index, with explosions peaking on April 10-11 and leaving a caldera 6 km across. Pyroclastic flows killed thousands in the surrounding region, and the ash and sulfate aerosols injected into the stratosphere cooled global land temperatures by an estimated 1.9 degrees C in 1816 - the 'Year Without a Summer' - causing crop failures and famine across the Northern Hemisphere. Counting the resulting starvation and disease, it is the deadliest volcanic eruption in recorded history.",
+      "historical": {
+        "date_display": "April 1815 – 1816",
+        "era": "modern",
+        "impact": {
+          "deaths_high": 92000,
+          "deaths_low": 92000,
+          "summary": "The USGS lists 92,000 deaths for the 1815 Tambora eruption - the deadliest volcanic eruption since 1500 CE - with starvation as the major cause; that point figure is carried here. Other authoritative accountings differ because indirect famine and disease mortality is hard to bound: a separate USGS article states more than 70,000 died in the surrounding areas, while NOAA reports 11,000 killed by pyroclastic flows plus more than 100,000 from the resulting food shortages over the following decade, implying a total above 111,000."
+        },
+        "location": {
+          "country": "Indonesia",
+          "region": "Mount Tambora, Sumbawa Island, Lesser Sunda Islands; climate effects worldwide"
+        },
+        "year_end": 1816,
+        "year_start": 1815
+      },
+      "id": "tambora-eruption",
+      "last_updated": "2026-07-06T09:21:43Z",
+      "name": "Mount Tambora Eruption",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:43Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-43Z-e31bc7"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-43Z-e31bc7"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11815,
+        "composite": 118152.0,
+        "impact_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-facts-earthquake-fantasy",
+          "text": "USGS states the 1976 magnitude 7.8 earthquake which struck Tangshan, China killed somewhere between 250,000 and 800,000 people.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/publications/tangshan-six-years-later",
+          "text": "A USGS publication reports the Tangshan earthquake killed, by official count, 240,000 people, and that during the first 2 years after the earthquake estimates of casualties ranged from 650,000 to 800,000, adding that almost certainly the exact number will never be known.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/publications/1976-tangshan-earthquake",
+          "text": "USGS records the Tangshan earthquake as a magnitude 7.8 event that occurred on July 28, 1976 at 3:42 a.m. Beijing local time, with a focal depth of 15 kilometers, causing serious damage and loss of life in the densely populated industrial city.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6313607/",
+          "text": "A peer-reviewed study of historical earthquakes in China (1950-2017) published via NIH/PMC states the 1976 Ms 7.8 Tangshan earthquake caused 242,000 deaths, the deadliest earthquake in China in that 68-year period, accounting for 68.7% of all Chinese earthquake deaths studied.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "On July 28, 1976, at 3:42 a.m. local time, a magnitude 7.8 earthquake with a focal depth of about 15 kilometers struck the densely populated industrial city of Tangshan in Hebei Province, China. Striking without recognized warning while most residents slept, it flattened much of the city and ranks among the deadliest earthquakes in recorded history. China's official count put the dead at roughly 240,000, while early estimates ran as high as 800,000.",
+      "historical": {
+        "date_display": "July 28, 1976",
+        "era": "contemporary",
+        "impact": {
+          "deaths_high": 800000,
+          "deaths_low": 250000,
+          "summary": "USGS states the earthquake killed somewhere between 250,000 and 800,000 people. China's official count was about 240,000 dead (Chinese studies cite 242,000), but USGS notes that estimates of casualties during the first two years after the earthquake ranged from 650,000 to 800,000 and that the exact number will almost certainly never be known."
+        },
+        "location": {
+          "country": "China",
+          "region": "Tangshan, Hebei Province, North China"
+        },
+        "year_end": null,
+        "year_start": 1976
+      },
+      "id": "tangshan-earthquake",
+      "last_updated": "2026-07-06T09:21:44Z",
+      "name": "1976 Tangshan Earthquake",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:44Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-44Z-687c29"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-44Z-687c29"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11976,
+        "composite": 119763.0,
+        "impact_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "genocide",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "US Holocaust Memorial Museum",
+          "source_url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+          "text": "In total, six million Jewish men, women, and children were murdered by the Nazi German regime and its allies and collaborators, per the US Holocaust Memorial Museum.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "US Holocaust Memorial Museum",
+          "source_url": "https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust",
+          "text": "The US Holocaust Memorial Museum defines the Holocaust as the systematic, state-sponsored persecution and murder of six million European Jews by the Nazi German regime and its allies and collaborators, occurring between 1933 and 1945.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "US Holocaust Memorial Museum",
+          "source_url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+          "text": "Nazi Germany also murdered around 3.3 million Soviet prisoners of war and around 1.8 million non-Jewish Poles, per the US Holocaust Memorial Museum.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "US Holocaust Memorial Museum",
+          "source_url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+          "text": "At least 250,000, but possibly as many as 500,000, Roma were murdered under Nazi persecution, per the US Holocaust Memorial Museum.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Holocaust was the systematic, state-sponsored persecution and murder of six million European Jews by the Nazi German regime and its allies and collaborators between 1933 and 1945. Killing escalated to industrialized genocide after 1941 through mass shooting operations, killing centers such as Auschwitz-Birkenau, and lethal conditions in ghettos and camps. Millions of others — including Soviet prisoners of war, non-Jewish Poles, Roma, Serb civilians, and people with disabilities — were also murdered under Nazi persecution.",
+      "historical": {
+        "date_display": "1933–1945",
+        "era": "modern",
+        "impact": {
+          "deaths_high": 6000000,
+          "deaths_low": 6000000,
+          "summary": "The US Holocaust Memorial Museum states that six million Jewish men, women, and children were murdered by the Nazi German regime and its allies and collaborators; exact counts are unknowable and six million is the documented scholarly consensus figure rather than a precise tally. This figure covers Jewish victims only — the Holocaust as defined by USHMM. Nazi persecution and mass murder also killed millions of others, including around 3.3 million Soviet prisoners of war, around 1.8 million non-Jewish Poles, at least 250,000 (possibly as many as 500,000) Roma, more than 310,000 Serb civilians, and 250,000–300,000 people with disabilities."
+        },
+        "location": {
+          "country": "Germany and German-occupied Europe",
+          "region": "Europe, centered on Germany, occupied Poland, and the occupied Soviet Union"
+        },
+        "year_end": 1945,
+        "year_start": 1933
+      },
+      "id": "the-holocaust",
+      "last_updated": "2026-07-06T09:21:44Z",
+      "name": "The Holocaust",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:44Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-44Z-3e0729"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-44Z-3e0729"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11933,
+        "composite": 119334.0,
+        "impact_rank": 4
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Smithsonian Institution",
+          "source_url": "https://volcano.si.edu/volcano.cfm?vn=212040",
+          "text": "The Smithsonian Global Volcanism Program states that Santorini's youngest caldera formed about 3,600 years before present (around 1600 BCE) during the Late Bronze Age 'Minoan' eruption, which forced abandonment of the island.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Smithsonian Institution",
+          "source_url": "https://volcano.si.edu/volcano.cfm?vn=212040",
+          "text": "Per the Smithsonian Global Volcanism Program, excavations at Akrotiri show a Minoan city buried by the catastrophic Late Bronze Age eruption about 3,500 years ago: strong earthquakes prompted residents to evacuate between the first minor ash falls and the devastating eruption, after which the city was partially buried by heavy falls of ash and pumice and then overtopped by pyroclastic flows.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/volcanoes/1351",
+          "text": "NOAA's NCEI Global Historical Hazard Database records the Santorini eruption at 1610 BCE with a Volcanic Explosivity Index (VEI) of 7 and notes that deaths probably occurred on Thera and, as a result of tsunamis, in ports and seaside villages on Crete and elsewhere, but that 'no direct evidence of deaths has been found'; it lists literature dates for the eruption ranging from the late 17th century BCE to 1380 BCE.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.noaa.gov/jetstream/tsunamis/historical-context",
+          "text": "NOAA states that the explosive eruption of the volcanic island of Santorini (Thera) in the Aegean Sea around 1610 BCE generated a tsunami that swept the shores of nearby islands and contributed to the end of the Minoan culture on the nearby island of Crete.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Late Bronze Age 'Minoan' eruption of Thera (Santorini) in the Aegean Sea, around 1600 BCE, was one of the largest volcanic events of the past several millennia (VEI 7), collapsing the island's youngest caldera and forcing abandonment of the island. The eruption buried the Minoan town of Akrotiri under ash, pumice, and pyroclastic flows and generated a tsunami that swept the shores of nearby islands, contributing to the end of Minoan culture on Crete.",
+      "historical": {
+        "date_display": "c. 1600 BCE",
+        "era": "ancient",
+        "impact": {
+          "deaths_high": null,
+          "deaths_low": null,
+          "summary": "The death toll is unquantified. NOAA's NCEI Global Historical Hazard Database states that deaths probably occurred on Thera and, as a result of tsunamis, in ports and seaside villages on Crete and elsewhere, but that no direct evidence of deaths has been found; excavations at Akrotiri indicate residents evacuated the city between the first minor ash falls and the devastating eruption. The eruption's date is itself uncertain, with published estimates ranging from the late 17th century BCE (radiocarbon, e.g. 1627-1600 BCE) to c. 1380 BCE in older literature."
+        },
+        "location": {
+          "country": "Greece",
+          "region": "Santorini (Thera), Cyclades islands, Aegean Sea; tsunami effects on Crete and nearby Aegean shores"
+        },
+        "year_end": null,
+        "year_start": -1599
+      },
+      "id": "thera-eruption",
+      "last_updated": "2026-07-06T09:21:44Z",
+      "name": "Minoan Eruption of Thera (Santorini)",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:44Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-44Z-facc43"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-44Z-facc43"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 8401,
+        "composite": 84011.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "war",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5439951/",
+          "text": "The Battle of Luetzen (1632), a major engagement of the Thirty Years' War, killed between 6,000 and 9,000 soldiers, and the Swedish king Gustavus II Adolphus was mortally wounded on the battlefield; the war continued for another 16 years after this battle (ending in 1648).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8082092/",
+          "text": "Genomic evidence indicates that plague (Yersinia pestis) circulated from Germany to France and Italy following Thirty Years' War troop movements; one sequenced genome (BRA001) came from the remains of a Swedish soldier who occupied Brandenburg, Germany, in 1631 during the war.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Encyclopaedia Britannica",
+          "source_url": "https://www.britannica.com/event/Thirty-Years-War",
+          "text": "Total mortality from the Thirty Years' War is commonly estimated at roughly 4.5 to 8 million people, the majority from famine and epidemic disease rather than combat; Encyclopaedia Britannica frames the loss as an overall population decline of about 15-20% in the Holy Roman Empire (from about 20 million to 16-17 million).",
+          "verification_status": "unverified"
+        }
+      ],
+      "description": "The Thirty Years' War (1618-1648) was a series of interconnected conflicts fought mainly in the German lands of the Holy Roman Empire, beginning as a struggle between Catholic and Protestant states and drawing in most major European powers, including Spain, France, Sweden, Denmark, and the Dutch Republic. It was one of the most destructive conflicts in European history, with the great majority of deaths caused by famine and epidemic disease rather than combat. The war ended with the Peace of Westphalia in 1648.",
+      "historical": {
+        "date_display": "1618-1648",
+        "era": "early-modern",
+        "impact": {
+          "deaths_high": 8000000,
+          "deaths_low": 4500000,
+          "summary": "Widely cited estimates put total mortality from the Thirty Years' War at roughly 4.5 to 8 million soldiers and civilians, with the great majority of deaths caused by famine and epidemic disease (plague, typhus, dysentery) rather than by combat. The figure is inherently uncertain: it rests on fragmentary early-modern records and is often expressed instead as a population decline of about 15-20% across the Holy Roman Empire (from roughly 20 million to 16-17 million), with some hard-hit regions such as Wuerttemberg losing more than half their people. This overall range could not be confirmed on a readable allowlisted page during research (Encyclopaedia Britannica and JSTOR returned HTTP 403 to automated fetches, and the relevant NIH/PMC and Cambridge journal articles are scanned page images); it is therefore recorded here as an unverified estimate, while battle- and epidemic-level details below are verified from allowlisted sources actually read."
+        },
+        "location": {
+          "country": "Germany (Holy Roman Empire) and Central Europe",
+          "region": "Principally the German lands of the Holy Roman Empire, with fighting extending into Bohemia and adjoining regions; combatants included Spain, France, Sweden, Denmark, and the Dutch Republic."
+        },
+        "year_end": 1648,
+        "year_start": 1618
+      },
+      "id": "thirty-years-war",
+      "last_updated": "2026-07-06T09:21:44Z",
+      "name": "Thirty Years' War",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:44Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-44Z-2aa914"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-44Z-2aa914"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11618,
+        "composite": 116184.0,
+        "impact_rank": 4
+      },
+      "verification": {
+        "confidence": "medium",
+        "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
+        "status": "partial"
+      }
+    },
+    {
+      "category": "natural-disaster",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "NOAA",
+          "source_url": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/volcanoes/1348",
+          "text": "NOAA's NCEI Global Historical Hazard Database records the 79 CE Vesuvius eruption (volcano event 1348, 24–28 August 79) with a Volcanic Explosivity Index (VEI) of 5 and 2,100 deaths, noting that about 2,000 skeletons were found in partly-excavated Pompeii and hundreds more in partly-excavated Herculaneum, and that pyroclastic surges affected these and other towns and produced most of the fatalities with the total unknown; it cites Luongo et al. (2003) for about 1,150 identified victims in Pompeii (about 1,600 including estimates for unexcavated areas) and about 300 persons killed by pyroclastic surges in shoreline boathouses at Herculaneum.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9135728/",
+          "text": "A peer-reviewed bioarchaeological and palaeogenomic study of two Pompeian victims, available through PubMed Central (NIH), states that more than 2,000 individuals died as a direct consequence of the 79 AD Vesuvius eruption, 'the deadliest ever in European history', and gives Pompeii a population ranging between 6,400 and 20,000 dwellers.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6157861/",
+          "text": "A peer-reviewed study of the 79 AD victims, available through PubMed Central (NIH), reports that at Herculaneum about 300 people who had taken refuge in waterfront chambers were suddenly engulfed by the collapse of the rapidly advancing first pyroclastic surge, that the populations at risk were about 4,000–5,000 at Herculaneum and about 20,000 at Pompeii, and that later pyroclastic surges and flows reached up to 30 kilometers from Vesuvius, with victims found even 20 kilometers away at Stabiae.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10079856/",
+          "text": "A peer-reviewed study of the deadly thermal impact of the 79 CE ash-cloud surges at Herculaneum, available through PubMed Central (NIH), reports that about 350 people were discovered in the fornici (beachfront chambers) with only a few dozen victims found in the town proper, and estimates temperatures of 555–495 °C for the first pyroclastic surge that reached the town.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "In 79 CE Mount Vesuvius erupted explosively (VEI 5) over the Bay of Naples, burying the Roman towns of Pompeii and Herculaneum — along with Stabiae, Oplontis, and other settlements — under plinian pumice fall and pyroclastic surges hot enough to kill instantly. The eruption is traditionally dated to 24 August, though the record also carries a late-October dating, and peer-reviewed studies describe it as the deadliest volcanic eruption in European history. The buried cities, rediscovered in the 18th century, preserve an unparalleled archaeological snapshot of Roman life.",
+      "historical": {
+        "date_display": "79 CE",
+        "era": "classical",
+        "impact": {
+          "deaths_high": 2100,
+          "deaths_low": 2100,
+          "summary": "NOAA's NCEI Global Historical Hazard Database records 2,100 deaths — about 2,000 skeletons found in partly-excavated Pompeii plus hundreds more at Herculaneum, including roughly 300 in shoreline boathouses — while explicitly noting that pyroclastic surges produced most of the fatalities and the total is unknown. Peer-reviewed studies likewise state that more than 2,000 individuals died as a direct consequence of the eruption. Because both cities are only partly excavated and an unknown number died outside them (victims were found as far as Stabiae, about 20 km away), the true toll is presumed higher; popular accounts cite estimates up to roughly 16,000, but that upper figure could not be verified against any allowlisted source and is not adopted here."
+        },
+        "location": {
+          "country": "Italy",
+          "region": "Bay of Naples, Campania — Pompeii, Herculaneum, Stabiae, Oplontis and surrounding settlements"
+        },
+        "year_end": null,
+        "year_start": 79
+      },
+      "id": "vesuvius-79",
+      "last_updated": "2026-07-06T09:21:44Z",
+      "name": "Eruption of Mount Vesuvius (79 CE)",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:44Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-44Z-bab95d"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-44Z-bab95d"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 10079,
+        "composite": 100791.0,
+        "impact_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "war",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6200009/",
+          "text": "An estimated 9 million combatants and as many as 7 million civilians died in the First World War (1914-1918), according to a peer-reviewed article in Emerging Infectious Diseases hosted on NIH's PubMed Central.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Archives",
+          "source_url": "https://www.archives.gov/exhibits/influenza-epidemic/",
+          "text": "World War I claimed an estimated 16 million lives, according to the U.S. National Archives exhibit on the influenza epidemic of 1918.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Our World in Data",
+          "source_url": "https://ourworldindata.org/war-and-peace",
+          "text": "More than 7 million soldiers died in World War I, according to Our World in Data's 'War and Peace' entry.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "World War I (1914-1918), also called the First World War or the Great War, was a global conflict between the Allied Powers (led by France, the United Kingdom, Russia, and later the United States) and the Central Powers (led by Germany, Austria-Hungary, and the Ottoman Empire). Fought mainly on the Western and Eastern Fronts in Europe, with additional campaigns in the Middle East, Africa, and at sea, it introduced industrialized trench warfare, chemical weapons, tanks, and aerial combat. The war ended with the Armistice of 11 November 1918 and redrew the map of Europe and the Middle East, dissolving four empires.",
+      "historical": {
+        "date_display": "1914–1918",
+        "era": "modern",
+        "impact": {
+          "deaths_high": 16000000,
+          "deaths_low": 9000000,
+          "summary": "A peer-reviewed article hosted on NIH's PubMed Central states that an estimated 9 million combatants and as many as 7 million civilians died in the war, implying a total toll of roughly 9 to 16 million; the U.S. National Archives independently cites an estimated 16 million lives claimed. Military-death estimates in the scholarly literature cluster around 8.5-10 million, while civilian tolls are far more uncertain (some reference works put war-attributable civilian deaths well above 7 million, depending on whether famine, disease, massacres, and the overlapping 1918 influenza pandemic are counted)."
+        },
+        "location": {
+          "country": "Global (centered on Europe)",
+          "region": "Western and Eastern Fronts in Europe; additional theaters in the Middle East, Africa, the Balkans, and the Atlantic"
+        },
+        "year_end": 1918,
+        "year_start": 1914
+      },
+      "id": "world-war-i",
+      "last_updated": "2026-07-06T09:21:44Z",
+      "name": "World War I",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:44Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-44Z-efa3b6"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-44Z-efa3b6"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11914,
+        "composite": 119145.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "war",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-05",
+          "source_name": "U.S. National Library of Medicine",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4025972/",
+          "text": "A peer-reviewed study (Kesternich et al., 'The Effects of World War II on Economic and Health Outcomes across Europe') states that between 62 and 78 million people died due to WWII, out of a 1939 world population of approximately 2 billion, with 39 million deaths in Europe alone.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-05",
+          "source_name": "US Holocaust Memorial Museum",
+          "source_url": "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-depth",
+          "text": "The US Holocaust Memorial Museum's Holocaust Encyclopedia states that World War II resulted in an estimated 55 million deaths worldwide, beginning with Germany's invasion of Poland on September 1, 1939.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-05",
+          "source_name": "Our World in Data",
+          "source_url": "https://ourworldindata.org/war-and-peace",
+          "text": "Our World in Data states that in World War II alone, more than 21 million combatants died, making it far deadlier than most conflicts.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-05",
+          "source_name": "US Holocaust Memorial Museum",
+          "source_url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+          "text": "The US Holocaust Memorial Museum documents that six million Jewish men, women, and children were murdered by the Nazi German regime and its allies and collaborators during the Holocaust, alongside millions of non-Jewish victims including approximately 3.3 million Soviet prisoners of war and around 1.8 million ethnic Poles.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Second World War (1939-1945) was a global conflict between the Allied powers and the Axis powers (Germany, Italy, and Japan), fought across Europe, Asia, the Pacific, North Africa, and the Atlantic. It began with Germany's invasion of Poland on 1 September 1939 and ended with Germany's unconditional surrender in May 1945 and Japan's surrender in September 1945. It is the deadliest conflict in human history, encompassing the Holocaust, strategic bombing of cities, and the first use of nuclear weapons.",
+      "historical": {
+        "date_display": "1939–1945",
+        "era": "modern",
+        "impact": {
+          "deaths_high": 78000000,
+          "deaths_low": 62000000,
+          "summary": "Total deaths are estimated only as wide ranges because wartime record-keeping collapsed across both Allied and Axis states. A peer-reviewed study by Kesternich, Siflinger, Smith, and Winter states that between 62 and 78 million people died due to WWII (over 3% of the 1939 world population of roughly 2 billion), with 39 million deaths in Europe alone; the US Holocaust Memorial Museum gives a lower estimate of about 55 million deaths worldwide. The toll includes more than 21 million combatant deaths (Our World in Data) and the six million Jews murdered in the Holocaust; roughly half of European casualties were civilians."
+        },
+        "location": {
+          "country": "Global",
+          "region": "Europe, Soviet Union, East and Southeast Asia, Pacific, North Africa, and the Atlantic"
+        },
+        "year_end": 1945,
+        "year_start": 1939
+      },
+      "id": "world-war-ii",
+      "last_updated": "2026-07-06T09:21:44Z",
+      "name": "Second World War",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T09:21:44Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T09-21-44Z-1f526a"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T09-21-44Z-1f526a"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "chronology_rank": 11939,
+        "composite": 119395.0,
+        "impact_rank": 5
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    }
+  ],
   "under_review": []
 }

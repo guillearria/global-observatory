@@ -1,0 +1,78 @@
+{
+  "category": "societal-collapse",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Cambridge University Press",
+      "source_url": "https://www.cambridge.org/core/journals/antiquity/article/getting-closer-to-the-late-bronze-age-collapse-in-the-aegean-and-eastern-mediterranean-c-1200-bc/482564326A668899FF183DD949FC520F",
+      "text": "The Late Bronze Age collapse c. 1200 BC saw the end of the Mycenaean kingdoms, the Hittite state and its empire, and the kingdom of Ugarit.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Cambridge University Press",
+      "source_url": "https://www.cambridge.org/core/journals/antiquity/article/getting-closer-to-the-late-bronze-age-collapse-in-the-aegean-and-eastern-mediterranean-c-1200-bc/482564326A668899FF183DD949FC520F",
+      "text": "A 2023 reassessment reviewed in Antiquity found that of 153 destructions proposed for the collapse horizon (accepting a range of 1225–1175 BC), 94 (61%) are 'false' destructions — misdated, assumed rather than evidenced, or resting on faulty citations — indicating there was no single catastrophic destruction horizon across the eastern Mediterranean c. 1200 BC.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3743901/",
+      "text": "Kaniewski et al. (2013) document a ca. 300-year drought event beginning about 3,200 years ago in the eastern Mediterranean that caused crop failures, dearth and famine, and date Sea People raids to 1215–1190 cal BC (pooled mean radiocarbon age 2962±14 14C yr BP).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3110627/",
+      "text": "Radiocarbon, historical, archaeological and astronomical evidence converge on an absolute age range of 1192–1190 BC for the terminal destructions and cultural collapse in the northern Levant, including the Sea Peoples' destruction of the harbour city of Ugarit.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Between roughly 1200 and 1150 BCE, the interconnected palace civilizations of the eastern Mediterranean — the Mycenaean kingdoms, the Hittite state and its empire, and the kingdom of Ugarit — came to an end within a few decades. Cities were destroyed or abandoned, palace administrations and long-distance trade networks dissolved, and Egyptian records describe attacks by the 'Sea Peoples'. Current scholarship attributes the collapse to a convergence of prolonged drought, famine, migration, and warfare rather than a single catastrophic cause.",
+  "historical": {
+    "date_display": "c. 1200–1150 BCE",
+    "era": "ancient",
+    "impact": {
+      "deaths_high": null,
+      "deaths_low": null,
+      "summary": "No quantified death toll exists for the Late Bronze Age collapse. The sources consulted document widespread urban destruction, crop failures, famine, and forced migrations across the eastern Mediterranean, but none gives a numeric mortality estimate, so the toll is recorded as unquantified."
+    },
+    "location": {
+      "country": "Eastern Mediterranean (modern Greece, Turkey, Syria, Lebanon, Israel, Cyprus, Egypt)",
+      "region": "Aegean, Anatolia, the Levant, and the Nile Delta"
+    },
+    "year_end": -1149,
+    "year_start": -1199
+  },
+  "id": "late-bronze-age-collapse",
+  "last_updated": "2026-07-06T09:21:43Z",
+  "name": "Late Bronze Age Collapse",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-43Z-2fa477"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-43Z-2fa477"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 8801,
+    "composite": 88011.0,
+    "impact_rank": 1
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

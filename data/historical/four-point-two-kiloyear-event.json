@@ -1,0 +1,78 @@
+{
+  "category": "famine",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.ncei.noaa.gov/sites/default/files/2021-11/6%20Drought%20and%20the%20Akkadian%20Empire%20-Final-OCT%202021.pdf",
+      "text": "According to NOAA's National Centers for Environmental Information, the Akkadian Empire flourished for about 100 years until, at 4,170 ± 150 years BP, it suddenly collapsed (Weiss et al. 1993); the city of Tell Leilan in the northern region was abandoned and covered with one meter of windblown silt, refugees moved to the southern lowlands, and the north was resettled only about 300 years later.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.ncei.noaa.gov/sites/default/files/2021-11/6%20Drought%20and%20the%20Akkadian%20Empire%20-Final-OCT%202021.pdf",
+      "text": "NOAA NCEI reports that a deep-sea sediment core from the Gulf of Oman shows peaks of windblown calcite and dolomite dust beginning at 4,025 ± 125 BP and lasting about 300 years (Cullen et al. 2000), interpreted as abrupt drying of the Tigris and Euphrates floodplains, while cave deposits in present-day Israel indicate precipitation reductions of up to 30% between 4,200 and 4,000 years BP (Bar-Matthews et al. 2003).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7595433/",
+      "text": "A peer-reviewed study in PLOS ONE (via PubMed Central) states that a beginning for this period of climate change 'in the later 23rd century BCE and especially around 2200 BCE is largely agreed,' lasting broadly until around 1900 BCE, and that it correlates with the demise and abandonment of Tell Leilan just before 2200 BCE, the end of the Akkadian Empire, and the First Intermediate Period in Egypt.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Cambridge University Press",
+      "source_url": "https://www.cambridge.org/core/journals/antiquity/article/much-ado-about-nothing-assessing-the-impact-of-the-42-kya-event-on-human-subsistence-patterns-in-northern-mesopotamia-using-stable-isotope-analysis/4F4BF5789FABE111AD46903F8D2E3FE7",
+      "text": "The megadrought's severity is disputed: a stable-isotope study in Antiquity (Cambridge University Press) found 'no dramatic shifts in subsistence occurred in the Khabur Basin during the 4.2 kya event' and 'no evidence for a megadrought,' noting that although northern Mesopotamia's population decreased, zooarchaeological and archaeobotanical evidence reveals no economic crisis — contra Weiss's argument that annual precipitation fell 30–50 per cent and forced regional abandonment.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "An abrupt aridification episode beginning around 2200 BCE and lasting broadly until about 1900 BCE, marked by severe multi-century drought across Mesopotamia, the eastern Mediterranean, Northeast Africa, and South Asia. It is widely linked to the sudden collapse of the Akkadian Empire — the world's first empire — and correlates with Egypt's First Intermediate Period, with settlements such as Tell Leilan in northern Syria abandoned and buried under windblown silt. The event's spatial coherence and causal role in these collapses remain actively debated, with some isotope studies finding no evidence of a subsistence crisis in northern Mesopotamia.",
+  "historical": {
+    "date_display": "c. 2200–1900 BCE",
+    "era": "ancient",
+    "impact": {
+      "deaths_high": null,
+      "deaths_low": null,
+      "summary": "No source quantifies a death toll: the human cost of the megadrought — famine, settlement abandonment (e.g., Tell Leilan), and mass southward migration of refugees in Mesopotamia — is attested archaeologically but unquantified. Paleoclimate proxies indicate precipitation reductions of up to 30% in the Levant between 4,200 and 4,000 years BP (Weiss argued 30–50% in northern Mesopotamia), yet the severity is disputed: a 2023 stable-isotope study of the Khabur Basin found 'no evidence for a megadrought' and no economic crisis despite a population decrease in northern Mesopotamia."
+    },
+    "location": {
+      "country": "Transregional (modern Iraq, Syria, Turkey, Egypt, Israel, India, Pakistan)",
+      "region": "Mesopotamia, the Nile Valley, the eastern Mediterranean, and the Indus region"
+    },
+    "year_end": -1899,
+    "year_start": -2199
+  },
+  "id": "four-point-two-kiloyear-event",
+  "last_updated": "2026-07-06T09:21:42Z",
+  "name": "4.2-Kiloyear Aridification Event",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:42Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-42Z-1fba20"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-42Z-1fba20"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 7801,
+    "composite": 78011.0,
+    "impact_rank": 1
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

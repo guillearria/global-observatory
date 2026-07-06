@@ -1,0 +1,78 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.ncei.noaa.gov/news/day-historic-krakatau-eruption-1883",
+      "text": "NOAA's National Centers for Environmental Information states that the colossal eruption of Krakatau beginning August 26, 1883 killed approximately 36,000 people, with more than 34,000 of the deaths attributed to the tsunamis it generated.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.ncei.noaa.gov/news/day-historic-krakatau-eruption-1883",
+      "text": "NOAA NCEI reports that the largest tsunami wave, recorded in the Indonesian province of Banten, was estimated at 135 feet (41 meters) high, and that ash from the eruption lowered global temperatures by as much as 0.5 degrees C (0.9 degrees F) in the following year, with temperatures not returning to normal until 1888.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/publications/krakatau-1883",
+      "text": "The U.S. Geological Survey states that the 1883 Krakatau eruption killed more than 36,000 people and exploded more than 4 cubic miles of volcanic debris upward.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6697749/",
+      "text": "A peer-reviewed study in Scientific Reports (NIH/PMC) describes the 1883 eruption of Krakatau as having killed 36,000 people, and notes that the December 22, 2018 lateral-collapse tsunami of Anak Krakatau (at least 437 fatalities) was the most damaging volcanically-generated tsunami since the 1883 eruption.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "On 26-27 August 1883 the volcanic island of Krakatau (Krakatoa) in Indonesia's Sunda Strait was destroyed in one of the most violent eruptions in recorded history, ejecting more than 4 cubic miles of debris and sending ash roughly 50 miles into the atmosphere. The collapse of the island generated tsunamis, the largest estimated at 41 meters (135 feet) in Banten province, which swept coastal towns and villages on Java and Sumatra. Roughly 36,000 people were killed, more than 34,000 of them by the tsunamis, and injected aerosols lowered global temperatures by as much as 0.5 degrees C the following year.",
+  "historical": {
+    "date_display": "August 26–27, 1883",
+    "era": "modern",
+    "impact": {
+      "deaths_high": 36000,
+      "deaths_low": 36000,
+      "summary": "NOAA NCEI puts the toll at approximately 36,000 dead, with more than 34,000 of the deaths attributed to the tsunamis; USGS likewise states more than 36,000 killed. The precise official count compiled by the Dutch colonial authorities is commonly cited as 36,417, but that exact figure could not be read on an allowlisted source, and some scholars argue the true toll, including deaths from pyroclastic flows on southern Sumatra and from the aftermath, was somewhat higher."
+    },
+    "location": {
+      "country": "Indonesia",
+      "region": "Krakatau (Krakatoa), Sunda Strait, between Java and Sumatra"
+    },
+    "year_end": null,
+    "year_start": 1883
+  },
+  "id": "krakatoa-eruption",
+  "last_updated": "2026-07-06T09:21:42Z",
+  "name": "1883 Eruption of Krakatoa",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:42Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-42Z-e8c090"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-42Z-e8c090"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11883,
+    "composite": 118832.0,
+    "impact_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

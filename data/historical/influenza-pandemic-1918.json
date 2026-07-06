@@ -1,0 +1,78 @@
+{
+  "category": "pandemic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "CDC",
+      "source_url": "https://archive.cdc.gov/www_cdc_gov/flu/pandemic-resources/1918-pandemic-h1n1.html",
+      "text": "The CDC estimates the 1918 H1N1 influenza pandemic caused at least 50 million deaths worldwide, including about 675,000 in the United States, and that about 500 million people (one-third of the world's population) became infected.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "CDC",
+      "source_url": "https://wwwnc.cdc.gov/eid/article/12/1/05-0979_article",
+      "text": "The CDC's Emerging Infectious Diseases article '1918 Influenza: the Mother of All Pandemics' (Taubenberger and Morens, 2006) puts total deaths at approximately 50 million, 'arguably as high as 100 million,' with an estimated one-third of the world's population (about 500 million persons) infected.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7314216/",
+      "text": "A 2018 reassessment (Spreeuwenberg et al., published in the American Journal of Epidemiology) estimated total pandemic mortality at about 17.4 million deaths worldwide (15 million in 1918 and 2.5 million in 1919), concluding the impact was 'not as severe as most frequently cited estimates' and that totals above 25 million are not realistic given underlying mortality data.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Our World in Data",
+      "source_url": "https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history",
+      "text": "Our World in Data reports the Spanish flu death-toll estimates span from 17.4 million (Spreeuwenberg et al. 2018, roughly 1% of the 1.8 billion world population in 1918) to at least 50 million and possibly as high as 100 million (Johnson and Mueller 2002), with the pandemic peaking in 1918 and not waning until late 1920.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The 1918 influenza pandemic, caused by an H1N1 virus of avian origin, was the deadliest pandemic of the 20th century. Its principal waves swept the globe in 1918 and 1919, infecting roughly one-third of the world's population, with a final wave persisting into 1920. It was distinguished by unusually high mortality among healthy young adults aged 20-40, in addition to the very young and the elderly.",
+  "historical": {
+    "date_display": "1918–1920",
+    "era": "modern",
+    "impact": {
+      "deaths_high": 100000000,
+      "deaths_low": 17400000,
+      "summary": "Estimates of the global death toll vary widely and remain contested. The CDC states 'at least 50 million' deaths worldwide, and the widely cited Johnson and Mueller (2002) / Taubenberger and Morens (2006) range gives roughly 50 million, 'arguably as high as' 100 million. A 2018 reassessment by Spreeuwenberg et al., controlling for wartime and background mortality, put the total substantially lower at about 17.4 million (15 million in 1918 plus 2.5 million in 1919). Our World in Data frames the plausible span as 17.4 million (about 1% of the 1.8 billion 1918 world population) up to 100 million (about 5.4%). The deaths_low/deaths_high range spans this full uncertainty rather than endorsing a single point estimate."
+    },
+    "location": {
+      "country": "Worldwide",
+      "region": "Global pandemic reaching all inhabited continents; geographic origin remains debated"
+    },
+    "year_end": 1920,
+    "year_start": 1918
+  },
+  "id": "influenza-pandemic-1918",
+  "last_updated": "2026-07-06T09:21:42Z",
+  "name": "1918 Influenza Pandemic (\"Spanish Flu\")",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:42Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-42Z-4f5311"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-42Z-4f5311"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11918,
+    "composite": 119185.0,
+    "impact_rank": 5
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "category": "war",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10437944/",
+      "text": "A peer-reviewed structural-demographic analysis of the Qing dynasty collapse (PNAS, in PubMed Central) describes the Taiping Rebellion (1851–64) as the bloodiest civil war in recorded human history, in which over 20 million people died.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "JSTOR",
+      "source_url": "https://daily.jstor.org/taiping-chinas-nineteenth-century-civil-war/",
+      "text": "JSTOR Daily states that five to ten percent of the Chinese population died in the Taiping war, with twenty million dead the figure typically seen in the literature although higher figures have been proposed, while noting the absence of accurate demographic data makes a precise count impossible.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Cambridge University Press",
+      "source_url": "https://www.cambridge.org/core/books/abs/cambridge-world-history-of-genocide/killing-fields-of-jiangnan/AFA1CE152727D0400FC75E7BD7E8E0FF",
+      "text": "The Cambridge World History of Genocide (chapter 'The Killing Fields of Jiangnan') calls China's Taiping Rebellion (1851–64), led by Hong Xiuquan (1813–1864), 'perhaps history's bloodiest civil war' and argues it bears the hallmarks of current definitions of genocide.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10437944/",
+      "text": "According to the NIH-published structural-demographic analysis, the Qing state spent more than 290 million taels to suppress the Taiping Rebellion (1850–64), and its top leaders — including Hong Xiuquan, who failed the civil examinations four times — were drawn from frustrated aspirant elites.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A massive civil war in Qing-dynasty China (1850–1864) in which the Taiping Heavenly Kingdom, led by Hong Xiuquan — a failed civil-examination candidate who proclaimed himself the younger brother of Jesus Christ — rose against the Qing state, seizing Nanjing as its capital before being crushed in 1864. It is widely described as the bloodiest civil war in recorded history, with commonly cited death tolls of roughly twenty million people from combat, famine, and disease. The war drained Qing finances (over 290 million taels spent on suppression) and permanently weakened the dynasty.",
+  "historical": {
+    "date_display": "1850–1864",
+    "era": "modern",
+    "impact": {
+      "deaths_high": 20000000,
+      "deaths_low": 20000000,
+      "summary": "Roughly 20 million deaths is the figure typically seen in scholarly literature — an NIH-published analysis states 'over 20 million people died' and calls it the bloodiest civil war in recorded human history, while JSTOR Daily gives five to ten percent of China's population and notes higher figures have been proposed (a 20–30 million range and even ~70 million appear in the wider literature). The absence of accurate demographic data for Qing China makes precision impossible; deaths from famine and disease are inseparable from battle deaths."
+    },
+    "location": {
+      "country": "China",
+      "region": "Southern and central China, centered on the Yangtze valley; Taiping capital at Nanjing"
+    },
+    "year_end": 1864,
+    "year_start": 1850
+  },
+  "id": "taiping-rebellion",
+  "last_updated": "2026-07-06T09:21:43Z",
+  "name": "Taiping Rebellion",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-43Z-e66368"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-43Z-e66368"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11850,
+    "composite": 118505.0,
+    "impact_rank": 5
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

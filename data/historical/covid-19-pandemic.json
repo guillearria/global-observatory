@@ -1,0 +1,62 @@
+{
+  "category": "pandemic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-06",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-covid-19-pandemic-in-2020-and-2021",
+      "text": "The WHO estimates that excess mortality associated with the COVID-19 pandemic between 1 January 2020 and 31 December 2021 was approximately 14.9 million deaths, with a range of 13.3 million to 16.6 million.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-06",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-covid-19-pandemic-in-2020-and-2021",
+      "text": "The WHO states that the 14.9 million excess deaths far exceed the deaths directly reported as due to COVID-19, capturing both direct deaths and indirect deaths from pandemic-related health-system disruption, with middle-income countries accounting for 81% of the total.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A global pandemic caused by the SARS-CoV-2 coronavirus, first identified in Wuhan, China, in late 2019. The World Health Organization declared a Public Health Emergency of International Concern on 30 January 2020 and ended it on 5 May 2023. It caused mass mortality, overwhelmed health systems worldwide, and triggered unprecedented economic and social disruption.",
+  "historical": {
+    "date_display": "2020–2023",
+    "era": "contemporary",
+    "impact": {
+      "deaths_high": 16600000,
+      "deaths_low": 13300000,
+      "summary": "The WHO estimates approximately 14.9 million excess deaths (range 13.3–16.6 million) were associated with the pandemic in 2020–2021 alone — far above the confirmed COVID-19 deaths reported over the same period; the toll continued to rise through 2022–2023."
+    },
+    "location": {
+      "country": "Global",
+      "region": "Worldwide; first identified in Wuhan, China"
+    },
+    "year_end": 2023,
+    "year_start": 2020
+  },
+  "id": "covid-19-pandemic",
+  "last_updated": "2026-07-06T09:25:15Z",
+  "name": "COVID-19 pandemic",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:25:15Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-25-15Z-e8a0ae"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-25-15Z-e8a0ae"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 12020,
+    "composite": 120205.0,
+    "impact_rank": 5
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

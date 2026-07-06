@@ -1,0 +1,78 @@
+{
+  "category": "genocide",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "US Holocaust Memorial Museum",
+      "source_url": "https://www.ushmm.org/genocide-prevention/countries/rwanda",
+      "text": "The US Holocaust Memorial Museum states that in 1994 between 500,000 and one million Rwandans were massacred in a genocide when the Hutu extremist-led government launched a plan to wipe out the country's entire Tutsi minority and any others who opposed its policies.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "United Nations",
+      "source_url": "https://www.un.org/en/preventgenocide/rwanda/",
+      "text": "The United Nations Outreach Programme on the 1994 Genocide against the Tutsi in Rwanda states that more than one million people — overwhelmingly Tutsi, but also Hutu and others who opposed the genocide — were systematically killed in less than three months.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "United Nations",
+      "source_url": "https://www.un.org/en/preventgenocide/rwanda/historical-background.shtml",
+      "text": "According to the UN's historical background on the genocide, the killing began after the plane carrying the Rwandan president was shot down on 6 April 1994 and continued until 4 July 1994, when the RPF took military control of the entire territory of Rwanda; an estimated 150,000 to 250,000 women were raped.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "US Holocaust Memorial Museum",
+      "source_url": "https://encyclopedia.ushmm.org/content/en/article/the-rwanda-genocide",
+      "text": "The USHMM Holocaust Encyclopedia states that as many as one million people, mostly Tutsi, were massacred over a period of 100 days from April to July 1994, and that hundreds of thousands of Rwandan Hutus participated in the genocide.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "In 1994, Rwanda's Hutu extremist-led government launched a systematic campaign to exterminate the country's Tutsi minority, along with moderate Hutu and others who opposed the genocide. The killing began after the plane carrying President Juvenal Habyarimana was shot down on 6 April 1994 and continued for roughly 100 days until the Rwandan Patriotic Front (RPF) took control of the country on 4 July 1994. Hutu militias and government soldiers carried out mass murder in roads, fields, churches, schools, and homes, and an estimated 150,000 to 250,000 women were raped.",
+  "historical": {
+    "date_display": "April–July 1994",
+    "era": "contemporary",
+    "impact": {
+      "deaths_high": 1000000,
+      "deaths_low": 500000,
+      "summary": "The US Holocaust Memorial Museum states that between 500,000 and one million Rwandans were massacred in 1994; the UN Outreach Programme on the genocide states that more than one million people — overwhelmingly Tutsi, but also Hutu and others who opposed the genocide — were systematically killed in less than three months. The exact toll is unknown and estimates in the literature range from roughly 500,000 to over one million, with ~800,000 long the most commonly cited figure."
+    },
+    "location": {
+      "country": "Rwanda",
+      "region": "Nationwide, including Kigali and all prefectures"
+    },
+    "year_end": null,
+    "year_start": 1994
+  },
+  "id": "rwandan-genocide",
+  "last_updated": "2026-07-06T09:21:43Z",
+  "name": "Rwandan Genocide",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-43Z-61f50e"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-43Z-61f50e"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11994,
+    "composite": 119943.0,
+    "impact_rank": 3
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

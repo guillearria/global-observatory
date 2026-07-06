@@ -1,0 +1,70 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/earthquakes?minYear=1556&maxYear=1556",
+      "text": "The NOAA NCEI Global Significant Earthquake Database records the 23 January 1556 earthquake in Shaanxi Province, China (epicenter 34.5°N 109.7°E) at magnitude 8.0 (Ms) with maximum intensity XI and 830,000 deaths.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/learn/today/index.php?month=1&day=23",
+      "text": "USGS lists the 23 January 1556 magnitude 8 earthquake in Shensi (Shaanxi), China as having the 'worst death toll in history: 830,000 deaths' and one of the world's most destructive earthquakes.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/programs/earthquake-hazards/cool-earthquake-facts",
+      "text": "USGS states the world's deadliest recorded earthquake occurred in 1556 in central China, where dwellings carved from soft rock collapsed, killing an estimated 830,000 people.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "On 23 January 1556, a magnitude 8.0 earthquake struck Shaanxi Province in northern China during the Ming dynasty, devastating the Wei River valley with shaking intensity reaching XI. It is regarded as the deadliest earthquake in recorded history, with roughly 830,000 deaths reported in imperial records. Casualties were catastrophic in part because much of the population lived in yaodong cave dwellings carved into soft loess, which collapsed en masse during the shaking.",
+  "historical": {
+    "date_display": "23 January 1556",
+    "era": "early-modern",
+    "impact": {
+      "deaths_high": 830000,
+      "deaths_low": 830000,
+      "summary": "USGS and the NOAA NCEI Global Significant Earthquake Database both give approximately 830,000 deaths, the worst earthquake death toll in history. The figure derives from Ming dynasty records of registered population loss across the affected prefectures; some modern researchers consider it to include deaths from the ensuing famine, disease, and displacement as well as direct shaking casualties, so the number killed outright by the earthquake itself is uncertain and may be substantially lower."
+    },
+    "location": {
+      "country": "China",
+      "region": "Shaanxi Province, Wei River valley (epicenter near Huaxian, 34.5°N 109.7°E)"
+    },
+    "year_end": null,
+    "year_start": 1556
+  },
+  "id": "shaanxi-earthquake-1556",
+  "last_updated": "2026-07-06T09:21:43Z",
+  "name": "1556 Shaanxi Earthquake",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-43Z-b5ec07"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-43Z-b5ec07"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11556,
+    "composite": 115563.0,
+    "impact_rank": 3
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

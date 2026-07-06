@@ -1,0 +1,78 @@
+{
+  "category": "pandemic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "UK National Archives",
+      "source_url": "https://www.nationalarchives.gov.uk/education/resources/great-plague/",
+      "text": "According to The National Archives, 68,596 plague deaths were recorded in London during the Great Plague, but the true number was probably over 100,000.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "UK National Archives",
+      "source_url": "https://www.nationalarchives.gov.uk/education/resources/great-plague/",
+      "text": "The National Archives states that London lost roughly 15% of its population to the Great Plague of 1665-1666.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "UK National Archives",
+      "source_url": "https://www.nationalarchives.gov.uk/education/resources/great-plague/",
+      "text": "The death rate peaked in September 1665, when 7,165 Londoners died from plague in a single week, according to The National Archives.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2570469/",
+      "text": "A peer-reviewed historical review (Journal of the Royal Society of Medicine, via PubMed Central) states that the 1665 London plague epidemic may have taken 100,000 lives.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Great Plague of London was the last major epidemic of bubonic plague (Yersinia pestis) to strike England, ravaging the city in 1665-1666. Parish Bills of Mortality recorded 68,596 plague deaths, but under-reporting means the true toll was probably over 100,000, roughly 15 percent of London's population. Mortality peaked in September 1665 before waning over the following winter.",
+  "historical": {
+    "date_display": "1665–1666",
+    "era": "early-modern",
+    "impact": {
+      "deaths_high": 100000,
+      "deaths_low": 68596,
+      "summary": "London's parish Bills of Mortality officially recorded 68,596 plague deaths, but contemporaries and historians agree this figure substantially under-counts the dead; The National Archives states the true number was probably over 100,000, about 15 percent of the city's population, and a peer-reviewed historical account concurs that the epidemic may have taken 100,000 lives. The range 68,596 (recorded) to ~100,000 (estimated) reflects that uncertainty rather than a precise count."
+    },
+    "location": {
+      "country": "England",
+      "region": "London and surrounding parishes"
+    },
+    "year_end": 1666,
+    "year_start": 1665
+  },
+  "id": "great-plague-of-london",
+  "last_updated": "2026-07-06T09:21:42Z",
+  "name": "Great Plague of London",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:42Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-42Z-0d0ca3"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-42Z-0d0ca3"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11665,
+    "composite": 116652.0,
+    "impact_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

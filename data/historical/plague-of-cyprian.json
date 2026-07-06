@@ -1,0 +1,78 @@
+{
+  "category": "pandemic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Cambridge University Press",
+      "source_url": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/plague-of-cyprian-a-revised-view-of-the-origin-and-spread-of-a-3rdc-ce-pandemic/4DD870D473D3DDB1DF0328CE2C7E3280",
+      "text": "At the pandemic's height around 262 CE, about 5,000 people a day were dying in Rome and the cities of Greece, according to a peer-reviewed study of the Plague of Cyprian in the Journal of Roman Archaeology.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10265275/",
+      "text": "A study in the U.S. National Library of Medicine's PMC archive states that at its zenith the plague killed around 5,000 people a day in Rome, corroborating the daily peak-mortality figure from a second authoritative source.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698106/",
+      "text": "A historico-medical review in the NIH PMC archive dates the pandemic to around 250-266 CE and reports that after devastating Africa it reached Rome and spread as far as Roman Britain, touching Hadrian's Wall (the Vallum Hadriani).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Cambridge University Press",
+      "source_url": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/plague-of-cyprian-a-revised-view-of-the-origin-and-spread-of-a-3rdc-ce-pandemic/4DD870D473D3DDB1DF0328CE2C7E3280",
+      "text": "The Journal of Roman Archaeology study argues the disease entered the Roman Empire via Gothic invasions on the Danube rather than up the Nile from inner Africa, and that it spread over the entire Mediterranean world over roughly 20 years (251/2 to 270 CE); the pathogen remains unidentified.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Plague of Cyprian was a pandemic that swept the Roman Empire during the Crisis of the Third Century, named for Cyprian, bishop of Carthage, who described its grim symptoms in his treatise De mortalitate. Beginning around 249 CE and persisting to roughly 262-270 CE, it inflicted mass mortality across the Mediterranean world; contemporary reports place its height at about 5,000 deaths a day in Rome. The causative pathogen remains unidentified, though the hemorrhagic character of the symptoms has led some scholars to propose a viral hemorrhagic fever.",
+  "historical": {
+    "date_display": "c. 249–262 CE",
+    "era": "classical",
+    "impact": {
+      "deaths_high": null,
+      "deaths_low": null,
+      "summary": "No reliable total death toll survives for the Plague of Cyprian; the pandemic falls in one of the most poorly documented phases of Roman history. The best-attested figure is a peak, not a total: contemporary and modern scholarly sources report that at the pandemic's height (c. 262 CE) about 5,000 people a day were dying in Rome and the cities of Greece. Modern historians hold that mortality was severe enough to cause acute manpower shortages for agriculture and the army, but no aggregate estimate can be quoted from the sources consulted."
+    },
+    "location": {
+      "country": "Roman Empire (Mediterranean world)",
+      "region": "Rome, Carthage, Alexandria, the Danube/Balkan frontier and the wider Mediterranean; reported as far as Roman Britain"
+    },
+    "year_end": 262,
+    "year_start": 249
+  },
+  "id": "plague-of-cyprian",
+  "last_updated": "2026-07-06T09:21:43Z",
+  "name": "Plague of Cyprian",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-43Z-fe99b0"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-43Z-fe99b0"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 10249,
+    "composite": 102491.0,
+    "impact_rank": 1
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

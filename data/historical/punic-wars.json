@@ -1,0 +1,70 @@
+{
+  "category": "war",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Cambridge University Press",
+      "source_url": "https://www.cambridge.org/core/journals/libyan-studies/article/generals-and-judges-command-constitution-and-the-fate-of-carthage/757F46BAE0CA1A08373A15D1E497198F",
+      "text": "The Punic Wars between Rome and Carthage spanned 264–146 BC, with the Second Punic War fought in 218–201 BC, according to the article 'Generals and judges: command, constitution and the fate of Carthage' in the journal Libyan Studies (Cambridge University Press).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Cambridge University Press",
+      "source_url": "https://www.cambridge.org/core/books/abs/cambridge-world-history-of-genocide/tale-of-three-cities/78BBE6EA64F9F4A8130FFF78B039E733",
+      "text": "In 146 BCE Rome destroyed the city of Carthage; after many inhabitants perished in the siege and sack, the surviving population was enslaved and the city was destroyed and not re-inhabited, according to The Cambridge World History of Genocide (chapter 'A Tale of Three Cities').",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Cambridge University Press",
+      "source_url": "https://www.cambridge.org/core/journals/diogenes/article/abs/first-genocide-carthage-146-bc/9F94EFA6A6F4B47B86890F2CE055503A",
+      "text": "The Roman destruction of Carthage occurred in 146 BC, as stated in the article 'The First Genocide: Carthage, 146 BC' in the journal Diogenes (Cambridge University Press).",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Punic Wars were three conflicts fought between the Roman Republic and Carthage from 264 to 146 BCE for dominance of the western Mediterranean. The Second Punic War (218-201 BCE) brought Hannibal's invasion of Italy, and the Third ended in 146 BCE when Rome besieged, sacked, and destroyed the city of Carthage, enslaving the surviving population. Victory left Rome the unrivaled power of the western Mediterranean and turned Carthaginian territory into the Roman province of Africa.",
+  "historical": {
+    "date_display": "264–146 BCE",
+    "era": "classical",
+    "impact": {
+      "deaths_high": null,
+      "deaths_low": null,
+      "summary": "Total deaths across the three wars are genuinely unquantifiable: ancient authors report enormous but mutually inconsistent battle tolls, and no reliable aggregate exists, so no numeric range is recorded. The wars' scale is nonetheless clear from their end — after the Roman siege and sack of Carthage in 146 BCE, in which many of the city's inhabitants perished, the survivors were enslaved and the city itself was destroyed and left uninhabited."
+    },
+    "location": {
+      "country": "Western Mediterranean (modern Tunisia, Italy, Spain)",
+      "region": "Carthage (near modern Tunis), Sicily, the Italian peninsula, Iberia, and North Africa"
+    },
+    "year_end": -145,
+    "year_start": -263
+  },
+  "id": "punic-wars",
+  "last_updated": "2026-07-06T09:21:43Z",
+  "name": "Punic Wars",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-43Z-72a210"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-43Z-72a210"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 9737,
+    "composite": 97371.0,
+    "impact_rank": 1
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

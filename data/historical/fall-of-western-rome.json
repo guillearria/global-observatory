@@ -1,0 +1,70 @@
+{
+  "category": "societal-collapse",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Cambridge University Press",
+      "source_url": "https://www.cambridge.org/core/journals/studies-in-church-history/article/abs/popes-as-rulers-of-rome-in-the-aftermath-of-empire-476769/5DFFE5309304CA14B9B876B12B4096E4",
+      "text": "The Western Roman Empire ended with the deposition of the last Roman emperor in the West in 476 CE, after which a succession of non-Roman rulers governed Italy.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10816712/",
+      "text": "A high-resolution climate reconstruction for Roman Italy spanning ~200 BCE to ~600 CE documents late-antique cooling, with reconstructed late-sixth-century temperatures about 3°C colder than the highest decadal averages of the Roman Climate Optimum, and the major plague pandemics of the period coinciding with these cooling phases.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6486712/",
+      "text": "A radiocarbon study of a late Roman town notes that most specialists now consider the later Roman Empire to have been 'a going concern into the 600s,' with organized urban services in the Roman East persisting until roughly 550 CE — underscoring that the 476 deposition marked a political milestone rather than a sudden civilizational collapse.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Western Roman Empire disintegrated over the course of the 5th century CE amid barbarian migrations, civil wars, fiscal breakdown, and loss of the western provinces, a process conventionally capped by the deposition of the last western emperor, the boy-ruler Romulus Augustulus, by the Germanic commander Odoacer in 476 CE. After 476 a succession of non-Roman kings ruled Italy while the Senate continued to sit, and the wealthier Eastern (Byzantine) empire endured. Rather than a single catastrophe, the fall was a gradual political and societal transformation with no reliably quantified death toll.",
+  "historical": {
+    "date_display": "c. 376–476 CE",
+    "era": "classical",
+    "impact": {
+      "deaths_high": null,
+      "deaths_low": null,
+      "summary": "The death toll of the western imperial collapse is genuinely unquantified. The fall was a decades-long political and societal transformation — barbarian invasions, civil wars, provincial secession, urban and fiscal decline — rather than a single mass-casualty event, and no source provides a defensible aggregate figure. Contemporaneous stressors such as late-antique climate cooling (late-6th-century temperatures roughly 3°C below the Roman Climate Optimum peak) and recurring plague pandemics compounded the demographic decline of late antiquity, but their combined mortality cannot be isolated as a toll for the fall itself. deaths_low and deaths_high are therefore null."
+    },
+    "location": {
+      "country": "Italy and the former Western Roman provinces (modern Italy, France, Spain, Britain, North Africa, the Balkans)",
+      "region": "Western Mediterranean and Western Europe"
+    },
+    "year_end": 476,
+    "year_start": 376
+  },
+  "id": "fall-of-western-rome",
+  "last_updated": "2026-07-06T09:21:41Z",
+  "name": "Fall of the Western Roman Empire",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:41Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-41Z-e2618d"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-41Z-e2618d"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 10376,
+    "composite": 103761.0,
+    "impact_rank": 1
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "category": "societal-collapse",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3435155/",
+      "text": "During the Terminal Classic Period (CE 800–1000), and especially its first 50 years, the Central Maya Lowlands experienced population declines approaching 90%, and the population never recovered — modern occupation density remains about one to two orders of magnitude below Late Classic levels (Turner and Sabloff, PNAS 2012).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3435155/",
+      "text": "Paleoclimate reconstructions cited by Turner and Sabloff document eight severe droughts during the Terminal Classic Period in which precipitation declined by 36–52% below long-term averages, coinciding with increased intercity conflict and elite institutions failing to deliver on their social promises.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4426404/",
+      "text": "Drying beginning around the start of the Terminal Classic period (~800 C.E.) produced the driest regional conditions of the preceding ~1,200 years at Lake Chichancanab and of the preceding ~2,500 years at Lake Salpeten, and centralized kingship — the main organizing institution of the southern lowlands throughout the first millennium C.E. — disappeared forever (Douglas et al., PNAS 2015).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Cambridge University Press",
+      "source_url": "https://www.cambridge.org/core/journals/ancient-mesoamerica/article/drought-and-the-maya-collapse/B6B6AE2657A4635D65D520142D402DC1",
+      "text": "Gill et al. identify four phases of abandonment spaced about 50 years apart, around A.D. 760, 810, 860, and 910, each coinciding with a severe drought episode recorded in the Cariaco Basin, and argue that between A.D. 760 and 930 'millions of Maya disappeared from the Earth'; Lake Chichancanab data indicate the Terminal Classic drought was the most severe of the past 7,000 years (Ancient Mesoamerica).",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Between roughly 800 and 950 CE, the dynastic city-states of the southern Maya lowlands disintegrated: monument erection and Long Count inscriptions ceased, the institution of centralized divine kingship disappeared, and major centers such as Tikal and Calakmul were abandoned. Archaeological demography indicates population declines approaching 90% in the Central Maya Lowlands, a depopulation from which the region never recovered. Paleoclimate records tie the collapse to a series of severe Terminal Classic droughts acting on a society already stressed by landscape degradation, warfare, and shifting trade routes.",
+  "historical": {
+    "date_display": "c. 800–950 CE",
+    "era": "medieval",
+    "impact": {
+      "deaths_high": null,
+      "deaths_low": null,
+      "summary": "No reliable death toll exists for the Classic Maya collapse; the demographic evidence measures depopulation, not mortality. Turner and Sabloff (PNAS, via PubMed Central) report population declines approaching 90% in the Central Maya Lowlands during the Terminal Classic Period (CE 800–1000), and Gill et al. (Ancient Mesoamerica, Cambridge) argue that 'millions of Maya disappeared from the Earth' between A.D. 760 and 930 — but how much of the loss was death versus emigration and demographic decline over generations remains disputed, so no deaths range is quoted."
+    },
+    "location": {
+      "country": "Guatemala, Belize, Mexico, Honduras",
+      "region": "Southern and central Maya lowlands (Petén Basin and adjacent lowlands of the Yucatán Peninsula)"
+    },
+    "year_end": 950,
+    "year_start": 800
+  },
+  "id": "classic-maya-collapse",
+  "last_updated": "2026-07-06T09:21:41Z",
+  "name": "Classic Maya Collapse",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:41Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-41Z-352f2c"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-41Z-352f2c"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 10800,
+    "composite": 108001.0,
+    "impact_rank": 1
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
