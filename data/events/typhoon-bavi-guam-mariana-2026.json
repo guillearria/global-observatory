@@ -3,50 +3,58 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-05",
+      "retrieved_date": "2026-07-06",
       "source_name": "GDACS",
       "source_url": "http://www.gdacs.org/report.aspx?eventid=1001279&episodeid=18&eventtype=TC",
-      "text": "GDACS issued an overall Red alert for Tropical Cyclone BAVI-26, covering the period 1–5 July 2026, with maximum sustained winds of 278 km/h (Category 5) and an estimated 50,000 people exposed to Category 1 or higher winds in Guam and the Northern Mariana Islands.",
+      "text": "GDACS's report for Tropical Cyclone BAVI-26, covering 01 Jul 2026 00:00 UTC to 05 Jul 2026 06:00 UTC, assessed an overall Red alert with a maximum wind speed of 287 km/h (Category 5).",
       "verification_status": "verified"
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-07-05",
+      "retrieved_date": "2026-07-06",
+      "source_name": "GDACS",
+      "source_url": "http://www.gdacs.org/report.aspx?eventid=1001279&episodeid=18&eventtype=TC",
+      "text": "GDACS reported an exposed population of 1.1 million people in areas experiencing Category 1 or higher winds from Tropical Cyclone BAVI-26.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-06",
       "source_name": "GDACS",
       "source_url": "http://www.gdacs.org/report.aspx?eventid=1001279&episodeid=18&eventtype=TC",
       "text": "GDACS assigned Tropical Cyclone BAVI-26 a GDACS score of 2.5, citing potential for high humanitarian impact from wind, storm surge and rainfall given medium vulnerability in the Northern Mariana Islands.",
       "verification_status": "verified"
     }
   ],
-  "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 278 km/h, prompting GDACS to issue an overall Red alert as the storm tracks toward Guam and the Northern Mariana Islands, with typhoon warnings in effect ahead of an expected Monday landfall.",
+  "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 287 km/h, prompting GDACS to issue an overall Red alert as the storm tracked through Guam and the Northern Mariana Islands, with typhoon warnings in effect through its passage near Rota early in the week before it continued west toward the Philippines and East Asia.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "As of 5 July 2026, GDACS assessed an overall Red alert for Super Typhoon Bavi, with maximum sustained winds of 278 km/h (Category 5) and about 50,000 people exposed to Category 1 or higher winds across Guam and the Northern Mariana Islands. Typhoon warnings are in effect ahead of the storm's expected approach."
+      "summary": "As of 6 July 2026, GDACS continued to assess an overall Red alert for Super Typhoon Bavi covering the period 1-5 July 2026, with maximum sustained winds of 287 km/h (Category 5) and about 1.1 million people exposed to Category 1 or higher winds as the storm passed through the Guam and Northern Mariana Islands area."
     },
     "live_source_url": "http://www.gdacs.org/report.aspx?eventid=1001279&episodeid=18&eventtype=TC",
     "location": {
       "country": "Guam / Northern Mariana Islands (United States)",
-      "region": "Western North Pacific, tracking toward Guam and Rota"
+      "region": "Western North Pacific, passing near Rota between Guam and Saipan"
     },
     "occurrence_date": "2026-07-01",
     "scale": "Category 5 (GDACS Red alert)",
     "status": "ongoing"
   },
   "id": "typhoon-bavi-guam-mariana-2026",
-  "last_updated": "2026-07-05T09:11:36Z",
+  "last_updated": "2026-07-06T09:11:51Z",
   "name": "Super Typhoon Bavi — Guam & Northern Mariana Islands",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-05T09:11:36Z",
+        "at": "2026-07-06T09:11:51Z",
         "layer": "verify",
-        "run_id": "2026-07-05T09-11-36Z-aa613e"
+        "run_id": "2026-07-06T09-11-51Z-3117f7"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-05T09-11-36Z-aa613e"
+    "last_run_id": "2026-07-06T09-11-51Z-3117f7"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -56,7 +64,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
