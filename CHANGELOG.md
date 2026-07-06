@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-06 — Fact-check pass: correct 7 attribution/date/wording issues (`ce7a62e`)
+
+- **Updated:** black-death, covid-19-pandemic, four-point-two-kiloyear-event, plague-of-athens, plague-of-cyprian, taiping-rebellion, vesuvius-79
+
 ## 2026-07-06 — Seed the Historical Archive with 43 landmark records (`248f3cf`)
 
 - **Added:** aleppo-earthquake-1138, an-lushan-rebellion, antonine-plague, armenian-genocide, bengal-famine-1770, bengal-famine-1943, bhola-cyclone, black-death, china-floods-1931, classic-maya-collapse, cocoliztli-epidemics, covid-19-pandemic, fall-of-ur, fall-of-western-rome, four-point-two-kiloyear-event, great-chinese-famine, great-famine-1315, great-plague-of-london, harappan-decline, hiv-aids-pandemic, indian-ocean-tsunami, influenza-pandemic-1918, irish-great-famine, krakatoa-eruption, laki-eruption, late-bronze-age-collapse, lisbon-earthquake-1755, mongol-conquests, plague-of-athens, plague-of-cyprian, plague-of-justinian, punic-wars, rwandan-genocide, shaanxi-earthquake-1556, taiping-rebellion, tambora-eruption, tangshan-earthquake, the-holocaust, thera-eruption, thirty-years-war, vesuvius-79, world-war-i, world-war-ii

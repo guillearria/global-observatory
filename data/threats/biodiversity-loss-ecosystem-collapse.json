@@ -1,0 +1,65 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "high",
+      "numeric_annual": null,
+      "window": "ongoing"
+    },
+    "severity": "continental",
+    "summary": "A present, quantified global decline in species and ecosystems — up to a million species threatened with extinction and most of the land and ocean already altered — with cascading risk to the food, water, and climate systems it underpins.",
+    "timeframe": "Ongoing decline over recent decades, with many losses (species extinctions, ecosystem tipping points) becoming irreversible within decades absent action."
+  },
+  "category": "resource",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-06",
+      "source_name": "United Nations",
+      "source_url": "https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/",
+      "text": "Up to 1 million species are threatened with extinction, many within decades, more than ever before in human history (IPBES Global Assessment, 2019).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-06",
+      "source_name": "United Nations",
+      "source_url": "https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/",
+      "text": "75 percent of the terrestrial environment has been severely altered to date by human actions, and 66 percent of the marine environment (IPBES Global Assessment, 2019).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-06",
+      "source_name": "United Nations",
+      "source_url": "https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/",
+      "text": "The current rate of global species extinction is tens to hundreds of times higher than the average over the last 10 million years, and it is accelerating (IPBES Global Assessment, 2019).",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "An accelerating, human-driven decline in species and ecosystems that underpin food, water, and climate stability. Nature is being altered at a global scale and pace unprecedented in human history, with a growing share of the ecosystem services humanity depends on already in decline.",
+  "id": "biodiversity-loss-ecosystem-collapse",
+  "last_updated": "2026-07-06T10:07:10Z",
+  "name": "Biodiversity Loss and Ecosystem Collapse",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T10:07:10Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T10-07-10Z-8419b5"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T10-07-10Z-8419b5"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 24.0,
+    "probability_rank": 4,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T13:29:52Z",
+  "last_updated": "2026-07-06T10:07:17Z",
   "published": [
     {
       "assessment": {
@@ -59,6 +59,201 @@
         "composite": 32.0,
         "probability_rank": 2,
         "severity_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "high",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "continental",
+        "summary": "A present, quantified global decline in species and ecosystems — up to a million species threatened with extinction and most of the land and ocean already altered — with cascading risk to the food, water, and climate systems it underpins.",
+        "timeframe": "Ongoing decline over recent decades, with many losses (species extinctions, ecosystem tipping points) becoming irreversible within decades absent action."
+      },
+      "category": "resource",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-06",
+          "source_name": "United Nations",
+          "source_url": "https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/",
+          "text": "Up to 1 million species are threatened with extinction, many within decades, more than ever before in human history (IPBES Global Assessment, 2019).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-06",
+          "source_name": "United Nations",
+          "source_url": "https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/",
+          "text": "75 percent of the terrestrial environment has been severely altered to date by human actions, and 66 percent of the marine environment (IPBES Global Assessment, 2019).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-06",
+          "source_name": "United Nations",
+          "source_url": "https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/",
+          "text": "The current rate of global species extinction is tens to hundreds of times higher than the average over the last 10 million years, and it is accelerating (IPBES Global Assessment, 2019).",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "An accelerating, human-driven decline in species and ecosystems that underpin food, water, and climate stability. Nature is being altered at a global scale and pace unprecedented in human history, with a growing share of the ecosystem services humanity depends on already in decline.",
+      "id": "biodiversity-loss-ecosystem-collapse",
+      "last_updated": "2026-07-06T10:07:10Z",
+      "name": "Biodiversity Loss and Ecosystem Collapse",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T10:07:10Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T10-07-10Z-8419b5"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T10-07-10Z-8419b5"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 24.0,
+        "probability_rank": 4,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "medium",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "continental",
+        "summary": "National cybersecurity commitments are improving but remain incomplete worldwide, and documented attacks on critical sectors are already routine — the tail risk is a cyberattack severe enough to disable critical infrastructure across multiple countries at once.",
+        "timeframe": "Incident frequency and national preparedness are tracked annually; a severe multi-country outage could occur at any time given uneven critical-infrastructure protection."
+      },
+      "category": "technological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-06",
+          "source_name": "ITU",
+          "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2024-09-10-Global-Cybersecurity-Index.aspx",
+          "text": "The ITU Global Cybersecurity Index 2024 assessed 194 countries; 139 have an active Computer Incident Response Team, up from 109 in 2021, and 132 have a National Cybersecurity Strategy, up from 107 in 2021.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-06",
+          "source_name": "ITU",
+          "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2024-09-10-Global-Cybersecurity-Index.aspx",
+          "text": "In 2023, 25.7 percent of all cyberattacks targeted the manufacturing sector, and of those, 45 percent used malware and 17 percent used ransomware (ITU Global Cybersecurity Index 2024).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-06",
+          "source_name": "NIST",
+          "source_url": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+          "text": "NIST released version 2.0 of its Cybersecurity Framework on 26 February 2024; the framework was originally developed in 2014 to help protect critical infrastructure such as hospitals and power plants, and CSF 2.0 expands its scope to organizations in any sector.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A cyberattack severe enough to disable power grids, financial systems, water utilities, or other critical infrastructure across a wide area. National cybersecurity commitments are rising, but incident-response and critical-infrastructure-protection frameworks remain unevenly adopted worldwide, leaving gaps a sufficiently capable attacker could exploit.",
+      "id": "critical-infrastructure-cyberattack",
+      "last_updated": "2026-07-06T10:07:14Z",
+      "name": "Large-Scale Cyberattack on Critical Infrastructure",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T10:07:14Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T10-07-14Z-03f354"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T10-07-14Z-03f354"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 23.0,
+        "probability_rank": 3,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "high",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "continental",
+        "summary": "A present, quantified toll of hundreds of thousands of conflict-related deaths a year across dozens of countries, with fatalities and the count of major wars both trending upward — carrying a real risk of wider regional escalation.",
+        "timeframe": "Chronic and ongoing, with conflict-related fatalities at their highest annual level in years and the number of major conflicts rising."
+      },
+      "category": "societal",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-06",
+          "source_name": "SIPRI",
+          "source_url": "https://www.sipri.org/yearbook/2025/02",
+          "text": "The number of locations of armed conflict fell slightly, from 51 states in 2023 to 49 in 2024, while the estimated overall number of fatalities rose from 188,000 in 2023 to 239,000 in 2024 — the highest annual total in the period 2018-24 (SIPRI Yearbook 2025).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-06",
+          "source_name": "SIPRI",
+          "source_url": "https://www.sipri.org/yearbook/2025/02",
+          "text": "There were five major armed conflicts involving over 10,000 estimated conflict-related fatalities in 2024, one more than in 2023: the Israel-Hamas and Russia-Ukraine wars, the civil wars in Myanmar and Sudan, and the subnational conflict in Ethiopia (SIPRI Yearbook 2025).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-06",
+          "source_name": "SIPRI",
+          "source_url": "https://www.sipri.org/yearbook/2025/02",
+          "text": "The number of high-intensity conflicts, with 1,000-9,999 estimated conflict-related fatalities, fell from 20 in 2023 to 19 in 2024 (SIPRI Yearbook 2025).",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Ongoing state-based and civil wars that already kill hundreds of thousands annually and displace tens of millions more, with conflict-related fatalities and the number of major wars trending upward in recent years. Escalation, spillover between neighboring conflicts, and breakdown of humanitarian norms are the primary pathways to wider regional or global instability.",
+      "id": "global-armed-conflict",
+      "last_updated": "2026-07-06T10:07:17Z",
+      "name": "Global Armed Conflict",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-06T10:07:17Z",
+            "layer": "verify",
+            "run_id": "2026-07-06T10-07-17Z-26b528"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-06T10-07-17Z-26b528"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 24.0,
+        "probability_rank": 4,
+        "severity_rank": 2
       },
       "verification": {
         "confidence": "high",
