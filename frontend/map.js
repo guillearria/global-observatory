@@ -22,6 +22,7 @@
     pointers: new Map(),  // active pointers (drag + pinch)
     pinchDist: 0,
     dragMoved: 0,      // px moved since pointerdown — suppresses click-after-drag
+    centered: false,   // has the view been centered at a real (nonzero) container width yet
   };
 
   // Base world width: the smallest 2:1 world that covers the container at zoom 1.
@@ -77,6 +78,19 @@
     layout();
   }
 
+  // Whole-world, centered view. No-op while the container is hidden (clientWidth 0) —
+  // invalidate() retries once the pulse tab is shown and a real width exists.
+  function centerView() {
+    const cw = state.container.clientWidth;
+    const ch = state.container.clientHeight;
+    if (!cw) return false;
+    const { w, h } = worldSize();
+    state.panX = (cw - w) / 2;
+    state.panY = (ch - h) / 2;
+    state.centered = true;
+    return true;
+  }
+
   function hideTip() {
     if (state.tip) state.tip.hidden = true;
   }
@@ -127,7 +141,10 @@
     btn.addEventListener("focus", () => showTip(btn, rec));
     btn.addEventListener("blur", hideTip);
     btn.addEventListener("click", (e) => {
-      if (state.dragMoved > 6) return; // a drag that ended on the marker, not a click
+      // Suppress the click that ends a drag on this marker — but only for real pointer
+      // clicks. Keyboard activation (Enter/Space) synthesizes a click with detail 0 and
+      // must always work, even if the previous gesture was a drag.
+      if (e.detail !== 0 && state.dragMoved > 6) return;
       e.preventDefault();
       hideTip();
       jumpToCard(rec);
@@ -153,8 +170,9 @@
     const cur = { x: e.clientX, y: e.clientY };
     state.pointers.set(e.pointerId, cur);
 
-    if (state.pointers.size === 2) {
-      // Pinch: zoom about the midpoint by the distance ratio.
+    if (state.pointers.size >= 2) {
+      // Pinch: zoom about the midpoint of the first two pointers by the distance ratio.
+      // (>= 2, not == 2, so a stray third finger doesn't fall through to N-times panning.)
       const [a, b] = [...state.pointers.values()];
       const dist = Math.hypot(a.x - b.x, a.y - b.y);
       if (state.pinchDist > 0) {
@@ -209,6 +227,7 @@
     const img = document.createElement("img");
     img.src = BASE_IMAGE;
     img.alt = ""; // decorative; the marker buttons carry the semantics
+    img.draggable = false; // else Firefox starts a native image drag instead of panning
     state.world.appendChild(img);
     container.appendChild(state.world);
 
@@ -225,12 +244,10 @@
     container.addEventListener("dblclick", onDblClick);
     window.addEventListener("resize", invalidate);
 
-    // First view: whole world, centered.
-    const cw = container.clientWidth;
-    const ch = container.clientHeight;
-    const { w, h } = worldSize();
-    state.panX = (cw - w) / 2;
-    state.panY = (ch - h) / 2;
+    // First view: whole world, centered. If #map is still hidden (the user landed on
+    // another tab), the container has no width yet — centerView() no-ops and the first
+    // invalidate() after the pulse tab is shown centers it instead.
+    centerView();
     return true;
   }
 
@@ -265,6 +282,7 @@
   function invalidate() {
     if (!state.container || !state.records.length) return;
     if (!state.container.clientWidth) return; // still hidden; showTab will call again
+    if (!state.centered) centerView(); // first real width after being laid out while hidden
     hideTip();
     layout();
   }
