@@ -6,6 +6,11 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 - **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, sudan-displacement-crisis, venezuela-earthquake-2026
 
+## 2026-07-05 — Refresh World Pulse: Ebola re-confirmation, add Typhoon Bavi (`5d79b92`)
+
+- **Added:** typhoon-bavi-guam-mariana-2026
+- **Updated:** ebola-bundibugyo-drc-2026
+
 ## 2026-07-04 — Refresh World Pulse: Ebola, Mindanao quake, Venezuela quake updates (`16b109f`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, venezuela-earthquake-2026
