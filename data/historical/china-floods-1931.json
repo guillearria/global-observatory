@@ -1,0 +1,62 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-06",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4151941/",
+      "text": "A League of Nations Health Organisation report on the 1931 China floods stated the submerged area equalled England in size — at least twice the area affected by the 1927 Mississippi floods — with some 200,000 refugees in the Wuhan area and cholera outbreaks carrying case-fatality rates of 15–20%.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-06",
+      "source_name": "Encyclopaedia Britannica",
+      "source_url": "https://www.britannica.com/science/Yangtze-River-floods",
+      "text": "Encyclopaedia Britannica states the 1931 Yangtze River floods caused an estimated 3.7 million deaths and left 40 million people homeless.",
+      "verification_status": "unverified"
+    }
+  ],
+  "description": "A series of catastrophic floods along the Yangtze and Huai river basins in central and eastern China during the summer of 1931, following heavy monsoon rains and snowmelt. Widely regarded as among the deadliest natural disasters in recorded history when flooding, famine, and disease are combined.",
+  "historical": {
+    "date_display": "1931",
+    "era": "modern",
+    "impact": {
+      "deaths_high": null,
+      "deaths_low": null,
+      "summary": "Comprehensive mortality was never reliably recorded. A League of Nations Health Organisation report documented an inundated area the size of England with mass displacement and cholera outbreaks. Widely cited estimates of the combined toll from flooding, famine, and disease range from several hundred thousand to as many as ~3.7–4 million, but these could not be confirmed against a primary authoritative source."
+    },
+    "location": {
+      "country": "China",
+      "region": "Yangtze and Huai river basins, central and eastern China"
+    },
+    "year_end": null,
+    "year_start": 1931
+  },
+  "id": "china-floods-1931",
+  "last_updated": "2026-07-06T09:25:15Z",
+  "name": "1931 China floods",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:25:15Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-25-15Z-3aa483"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-25-15Z-3aa483"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11931,
+    "composite": 119311.0,
+    "impact_rank": 1
+  },
+  "verification": {
+    "confidence": "medium",
+    "notes": "gate: 1 verified, 0 disputed, 1 unverified -> partial",
+    "status": "partial"
+  }
+}

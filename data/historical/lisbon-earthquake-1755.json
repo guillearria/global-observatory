@@ -1,0 +1,70 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://sos.noaa.gov/catalog/datasets/tsunami-historical-series-lisbon-1755/",
+      "text": "According to NOAA, the earthquake that shook Lisbon on the morning of November 1, 1755 — a magnitude 8.5 event on the Horseshoe Fault — probably killed about 30,000 people, though some estimates double that figure.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://sos.noaa.gov/catalog/datasets/tsunami-historical-series-lisbon-1755/",
+      "text": "NOAA reports that the first tsunami wave surged up the Tagus estuary about an hour after the earthquake, reached a maximum runup of 12 meters (40 feet) at Lisbon, and killed another 1,000 people; at Lagos on Portugal's coast the tsunami was perhaps 30 m (100 ft), and runups of about 1 m were recorded as far away as Barbados, Martinique, Guadeloupe, and Antigua.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/publications/far-field-tsunami-simulations-1755-lisbon-earthquake-implications-tsunami-hazard-us",
+      "text": "A USGS publication describes the great Lisbon earthquake of November 1st, 1755, with an estimated moment magnitude of 8.5-9.0, as the most destructive earthquake in European history, with tsunami run-up reported to have reached 5-15 m along the Portuguese and Moroccan coasts and trans-oceanic run-up reports documented in the Caribbean, Brazil, and Newfoundland.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "On the morning of November 1, 1755 — All Saints' Day — a great earthquake with an estimated moment magnitude of 8.5-9.0 struck offshore in the Atlantic and devastated Lisbon, Portugal, with severe effects across the Iberian Peninsula and Northwest Africa. The shaking was followed within about an hour by tsunami waves that surged up the Tagus estuary, and by fires that burned through the ruined city. USGS describes it as the most destructive earthquake in European history, and it profoundly influenced European philosophy, theology, and the birth of seismology.",
+  "historical": {
+    "date_display": "November 1, 1755",
+    "era": "early-modern",
+    "impact": {
+      "deaths_high": 60000,
+      "deaths_low": 30000,
+      "summary": "NOAA states the earthquake probably killed about 30,000 people, 'though some estimates double that figure' (implying up to roughly 60,000), with the tsunami killing at least another 1,000 in Lisbon alone. Contemporary records were destroyed in the disaster, so all tolls are reconstructions; estimates in the wider literature range from the low tens of thousands to figures well above this band, and no single authoritative count exists."
+    },
+    "location": {
+      "country": "Portugal (with major effects in Spain and Morocco)",
+      "region": "Lisbon and the Atlantic coasts of the Iberian Peninsula and Northwest Africa; epicenter offshore in the Atlantic southwest of Portugal"
+    },
+    "year_end": null,
+    "year_start": 1755
+  },
+  "id": "lisbon-earthquake-1755",
+  "last_updated": "2026-07-06T09:21:43Z",
+  "name": "1755 Lisbon Earthquake",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-43Z-fac108"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-43Z-fac108"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11755,
+    "composite": 117552.0,
+    "impact_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

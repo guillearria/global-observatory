@@ -1,0 +1,83 @@
+{
+  "category": "pandemic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/plague",
+      "text": "The 14th-century plague pandemic known as the Black Death caused more than 50 million deaths in Europe; plague is caused by the bacterium Yersinia pestis.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Our World in Data",
+      "source_url": "https://ourworldindata.org/historical-pandemics",
+      "text": "The Black Death (1346–1353) killed around 50-60% of Europe's population — approximately 50 million people; scholarly estimates of the mortality rate range from about 39% (Jedwab, Johnson & Koyama) to upwards of 60% (Benedictow), with Aberth at 51-58%.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7513766/",
+      "text": "At least one third of the European population — more than 25 million people — died during the Black Death, which spread across Europe between 1347 and 1352.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Our World in Data",
+      "source_url": "https://ourworldindata.org/historical-pandemics",
+      "text": "Large Black Death outbreaks are recognizable in historical records from Western Asia, the Middle East, and North Africa, but comprehensive estimates of the pandemic's global death toll are not available.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Black Death was a bubonic plague pandemic, caused by the bacterium Yersinia pestis, that swept across Europe, the Middle East, and North Africa between roughly 1347 and 1351. It is the deadliest pandemic in recorded history: authoritative estimates put the European toll at around 50 million people, on the order of 30-60% of the continent's population. Deaths across the wider Eurasian and North African world are documented in historical records but are not reliably quantified.",
+  "historical": {
+    "date_display": "1347–1351",
+    "era": "medieval",
+    "impact": {
+      "deaths_high": 50000000,
+      "deaths_low": 25000000,
+      "summary": "Death-toll estimates for the Black Death vary by source and scope. The WHO states the 14th-century pandemic caused more than 50 million deaths in Europe, and Our World in Data puts the European toll at around 50 million (50-60% of the population), with scholarly estimates ranging from about 39% (Christakos et al.) to upwards of 60% (Benedictow). Older figures, such as those cited by the NIH, put the toll at more than 25 million dead — at least one third of Europe. The deaths_low/deaths_high range of 25-50 million spans these documented European estimates: the NIH figure anchors the low end and the WHO/Our World in Data figures anchor the high end (sources are not averaged). A broader Eurasia/North Africa toll is sometimes cited (commonly given as 75-200 million), but Our World in Data notes that comprehensive global estimates are not available, so no worldwide figure is asserted here."
+    },
+    "location": {
+      "country": "Eurasia and North Africa",
+      "region": "Europe (worst affected), the Middle East, and North Africa; spread westward from Central Asia via Crimea and Mediterranean trade routes"
+    },
+    "year_end": 1351,
+    "year_start": 1347
+  },
+  "id": "black-death",
+  "last_updated": "2026-07-06T09:48:23Z",
+  "name": "Black Death",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:41Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-41Z-7253da"
+      },
+      {
+        "at": "2026-07-06T09:48:23Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-48-23Z-25813c"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-48-23Z-25813c"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11347,
+    "composite": 113475.0,
+    "impact_rank": 5
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

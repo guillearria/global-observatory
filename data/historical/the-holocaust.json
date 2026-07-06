@@ -1,0 +1,78 @@
+{
+  "category": "genocide",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "US Holocaust Memorial Museum",
+      "source_url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+      "text": "In total, six million Jewish men, women, and children were murdered by the Nazi German regime and its allies and collaborators, per the US Holocaust Memorial Museum.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "US Holocaust Memorial Museum",
+      "source_url": "https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust",
+      "text": "The US Holocaust Memorial Museum defines the Holocaust as the systematic, state-sponsored persecution and murder of six million European Jews by the Nazi German regime and its allies and collaborators, occurring between 1933 and 1945.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "US Holocaust Memorial Museum",
+      "source_url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+      "text": "Nazi Germany also murdered around 3.3 million Soviet prisoners of war and around 1.8 million non-Jewish Poles, per the US Holocaust Memorial Museum.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "US Holocaust Memorial Museum",
+      "source_url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+      "text": "At least 250,000, but possibly as many as 500,000, Roma were murdered under Nazi persecution, per the US Holocaust Memorial Museum.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Holocaust was the systematic, state-sponsored persecution and murder of six million European Jews by the Nazi German regime and its allies and collaborators between 1933 and 1945. Killing escalated to industrialized genocide after 1941 through mass shooting operations, killing centers such as Auschwitz-Birkenau, and lethal conditions in ghettos and camps. Millions of others — including Soviet prisoners of war, non-Jewish Poles, Roma, Serb civilians, and people with disabilities — were also murdered under Nazi persecution.",
+  "historical": {
+    "date_display": "1933–1945",
+    "era": "modern",
+    "impact": {
+      "deaths_high": 6000000,
+      "deaths_low": 6000000,
+      "summary": "The US Holocaust Memorial Museum states that six million Jewish men, women, and children were murdered by the Nazi German regime and its allies and collaborators; exact counts are unknowable and six million is the documented scholarly consensus figure rather than a precise tally. This figure covers Jewish victims only — the Holocaust as defined by USHMM. Nazi persecution and mass murder also killed millions of others, including around 3.3 million Soviet prisoners of war, around 1.8 million non-Jewish Poles, at least 250,000 (possibly as many as 500,000) Roma, more than 310,000 Serb civilians, and 250,000–300,000 people with disabilities."
+    },
+    "location": {
+      "country": "Germany and German-occupied Europe",
+      "region": "Europe, centered on Germany, occupied Poland, and the occupied Soviet Union"
+    },
+    "year_end": 1945,
+    "year_start": 1933
+  },
+  "id": "the-holocaust",
+  "last_updated": "2026-07-06T09:21:44Z",
+  "name": "The Holocaust",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:44Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-44Z-3e0729"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-44Z-3e0729"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11933,
+    "composite": 119334.0,
+    "impact_rank": 4
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

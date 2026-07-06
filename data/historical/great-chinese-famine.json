@@ -1,0 +1,70 @@
+{
+  "category": "famine",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1127087/",
+      "text": "Between the spring of 1959 and the end of 1961 some 30 million Chinese starved to death and about the same number of births were lost or postponed, in what Vaclav Smil's BMJ review calls by far the largest famine in human history.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1127087/",
+      "text": "Demographic estimates of the famine's toll range from initial calculations by American demographers of 16.5-23 million deaths, to more detailed later studies of 23-30 million excess deaths, with unpublished Chinese materials hinting at totals closer to 40 million (Smil, BMJ 1999).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Our World in Data",
+      "source_url": "https://ourworldindata.org/famines",
+      "text": "The World Peace Foundation famine dataset used by Our World in Data estimates 36 million deaths for the famine during Mao Zedong's Great Leap Forward (1958-1962), far deadlier than all other famines in the dataset, while Frank Dikotter's 'Mao's Great Famine' suggests the death toll was 45 million.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Great Chinese Famine (1959-1961) was a catastrophic man-made famine in the People's Republic of China that arose during the Great Leap Forward, when forced collectivization, the diversion of peasant labor to industrial projects, and inflated grain procurement quotas collapsed food production. It is widely regarded as the largest famine in recorded history. Estimates of excess deaths span tens of millions, with the most-cited scholarly figures ranging from roughly 16.5 million to 45 million.",
+  "historical": {
+    "date_display": "1959–1961",
+    "era": "contemporary",
+    "impact": {
+      "deaths_high": 40000000,
+      "deaths_low": 16500000,
+      "summary": "Excess-mortality estimates vary widely because Chinese demographic data from the period are incomplete and were long suppressed. Vaclav Smil's review in the BMJ reports that some 30 million Chinese starved to death between spring 1959 and the end of 1961: initial calculations by American demographers put the toll at 16.5-23 million, more detailed later studies at 23-30 million, and unpublished Chinese materials hint at totals closer to 40 million. The 16.5-40 million range recorded here is the span stated within that single source. The World Peace Foundation dataset used by Our World in Data estimates 36 million deaths for 1958-1962, and Frank Dikotter's 'Mao's Great Famine' puts the toll at 45 million; some published estimates run lower or higher still, so the true figure remains disputed."
+    },
+    "location": {
+      "country": "China",
+      "region": "Nationwide across the People's Republic of China, with rural agricultural provinces hardest hit"
+    },
+    "year_end": 1961,
+    "year_start": 1959
+  },
+  "id": "great-chinese-famine",
+  "last_updated": "2026-07-06T09:21:42Z",
+  "name": "Great Chinese Famine",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:42Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-42Z-4832df"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-42Z-4832df"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11959,
+    "composite": 119595.0,
+    "impact_rank": 5
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

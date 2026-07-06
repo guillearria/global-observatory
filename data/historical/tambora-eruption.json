@@ -1,0 +1,78 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/faqs/which-volcanic-eruptions-were-deadliest",
+      "text": "The USGS ranks the 1815 Tambora, Indonesia eruption as the deadliest volcanic eruption since 1500 CE, with 92,000 deaths, the major cause being starvation.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.nesdis.noaa.gov/news/day-history-mount-tambora-explosively-erupts-1815",
+      "text": "NOAA reports that the 1815 Mount Tambora eruption - rated VEI 7, erupting from April 5 to its climax on April 10 - killed 11,000 people via pyroclastic flows and more than 100,000 through the resulting food shortages over the following decade, and that the year after the eruption was known as the Year Without a Summer.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/observatories/hvo/news/volcano-watch-infamous-mount-tambora-rumbling-again",
+      "text": "USGS Hawaiian Volcano Observatory states that Tambora's April 1815 explosions peaked on April 10-11, rated 7 on the Volcanic Explosivity Scale, left a caldera 6 km (3.7 miles) in diameter, and that more than 70,000 died in the surrounding areas - the greatest death toll known for a volcanic eruption.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9985606/",
+      "text": "A peer-reviewed study in PMC states the 1815 Tambora eruption, the largest historically observed eruption, cooled global land temperatures in 1816 by an estimated 1.9 degrees C (plus or minus 0.2 degrees C), and that the European summer of 1816 has been described as the 'year without a summer', followed by a 'year of famine' in 1817.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "In April 1815, Mount Tambora on Sumbawa Island in present-day Indonesia produced the largest volcanic eruption in recorded history, rated 7 on the Volcanic Explosivity Index, with explosions peaking on April 10-11 and leaving a caldera 6 km across. Pyroclastic flows killed thousands in the surrounding region, and the ash and sulfate aerosols injected into the stratosphere cooled global land temperatures by an estimated 1.9 degrees C in 1816 - the 'Year Without a Summer' - causing crop failures and famine across the Northern Hemisphere. Counting the resulting starvation and disease, it is the deadliest volcanic eruption in recorded history.",
+  "historical": {
+    "date_display": "April 1815 – 1816",
+    "era": "modern",
+    "impact": {
+      "deaths_high": 92000,
+      "deaths_low": 92000,
+      "summary": "The USGS lists 92,000 deaths for the 1815 Tambora eruption - the deadliest volcanic eruption since 1500 CE - with starvation as the major cause; that point figure is carried here. Other authoritative accountings differ because indirect famine and disease mortality is hard to bound: a separate USGS article states more than 70,000 died in the surrounding areas, while NOAA reports 11,000 killed by pyroclastic flows plus more than 100,000 from the resulting food shortages over the following decade, implying a total above 111,000."
+    },
+    "location": {
+      "country": "Indonesia",
+      "region": "Mount Tambora, Sumbawa Island, Lesser Sunda Islands; climate effects worldwide"
+    },
+    "year_end": 1816,
+    "year_start": 1815
+  },
+  "id": "tambora-eruption",
+  "last_updated": "2026-07-06T09:21:43Z",
+  "name": "Mount Tambora Eruption",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-43Z-e31bc7"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-43Z-e31bc7"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11815,
+    "composite": 118152.0,
+    "impact_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.aoml.noaa.gov/hurricane_blog/45th-anniversary-of-the-bhola-cyclone/",
+      "text": "On November 12, 1970, the Bhola cyclone hit northeastern India and what was then East Pakistan, and somewhere between 300,000 and 500,000 people perished, making it the deadliest tropical cyclone on record, according to NOAA's Atlantic Oceanographic and Meteorological Laboratory.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.aoml.noaa.gov/hurricane_blog/45th-anniversary-of-the-bhola-cyclone/",
+      "text": "NOAA AOML reports the cyclone swept a storm surge of 35 feet (10.5 meters) ahead of it as it made landfall, with maximum sustained winds estimated by the India Meteorological Department near 130 mph (205 km/h).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9657222/",
+      "text": "A peer-reviewed article in PMC states the Bhola cyclone of 1970 struck Bangladesh and India's West Bengal on 12 November 1970, remains the deadliest tropical cyclone ever recorded, killed over 1,000,000 people primarily via storm-surge flooding of the low-lying Ganges Delta islands, and led the Government of Bangladesh and the Bangladesh Red Crescent Society to establish the Cyclone Preparedness Programme in 1973.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Our World in Data",
+      "source_url": "https://ourworldindata.org/data-insights/bangladesh-has-become-much-more-resilient-to-cyclones-saving-many-lives",
+      "text": "Our World in Data states that in 1970 Cyclone Bhola hit Bangladesh, killing more than 300,000 people, and attributes the extreme toll to the absence of early warning systems and organized evacuations rather than exceptional storm intensity.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "On 12 November 1970 a tropical cyclone struck East Pakistan (present-day Bangladesh) and India's West Bengal, driving a storm surge of about 35 feet (10.5 meters) over the low-lying islands of the Ganges Delta. With maximum sustained winds estimated near 130 mph (205 km/h), it is regarded as the deadliest tropical cyclone on record. The catastrophe, and the response to it, aggravated tensions between East and West Pakistan in the run-up to Bangladesh's 1971 independence war, and later prompted the creation of Bangladesh's Cyclone Preparedness Programme.",
+  "historical": {
+    "date_display": "12 November 1970",
+    "era": "contemporary",
+    "impact": {
+      "deaths_high": 500000,
+      "deaths_low": 300000,
+      "summary": "NOAA states that somewhere between 300,000 and 500,000 people perished, noting the toll could only be estimated roughly because census records for the affected islands were poor or non-existent. Our World in Data cites more than 300,000 killed, while a peer-reviewed article in PMC (Cyclone Preparedness Programme at 50) puts the toll at over 1,000,000, primarily from storm-surge drowning. All sources agree it remains the deadliest tropical cyclone ever recorded."
+    },
+    "location": {
+      "country": "Bangladesh (then East Pakistan); India",
+      "region": "Ganges-Brahmaputra Delta and Bay of Bengal coast, including the low-lying islands around Bhola"
+    },
+    "year_end": null,
+    "year_start": 1970
+  },
+  "id": "bhola-cyclone",
+  "last_updated": "2026-07-06T09:21:41Z",
+  "name": "1970 Bhola Cyclone",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:41Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-41Z-4d14ab"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-41Z-4d14ab"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11970,
+    "composite": 119703.0,
+    "impact_rank": 3
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

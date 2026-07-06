@@ -1,0 +1,78 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Smithsonian Institution",
+      "source_url": "https://volcano.si.edu/volcano.cfm?vn=212040",
+      "text": "The Smithsonian Global Volcanism Program states that Santorini's youngest caldera formed about 3,600 years before present (around 1600 BCE) during the Late Bronze Age 'Minoan' eruption, which forced abandonment of the island.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Smithsonian Institution",
+      "source_url": "https://volcano.si.edu/volcano.cfm?vn=212040",
+      "text": "Per the Smithsonian Global Volcanism Program, excavations at Akrotiri show a Minoan city buried by the catastrophic Late Bronze Age eruption about 3,500 years ago: strong earthquakes prompted residents to evacuate between the first minor ash falls and the devastating eruption, after which the city was partially buried by heavy falls of ash and pumice and then overtopped by pyroclastic flows.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/volcanoes/1351",
+      "text": "NOAA's NCEI Global Historical Hazard Database records the Santorini eruption at 1610 BCE with a Volcanic Explosivity Index (VEI) of 7 and notes that deaths probably occurred on Thera and, as a result of tsunamis, in ports and seaside villages on Crete and elsewhere, but that 'no direct evidence of deaths has been found'; it lists literature dates for the eruption ranging from the late 17th century BCE to 1380 BCE.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.noaa.gov/jetstream/tsunamis/historical-context",
+      "text": "NOAA states that the explosive eruption of the volcanic island of Santorini (Thera) in the Aegean Sea around 1610 BCE generated a tsunami that swept the shores of nearby islands and contributed to the end of the Minoan culture on the nearby island of Crete.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Late Bronze Age 'Minoan' eruption of Thera (Santorini) in the Aegean Sea, around 1600 BCE, was one of the largest volcanic events of the past several millennia (VEI 7), collapsing the island's youngest caldera and forcing abandonment of the island. The eruption buried the Minoan town of Akrotiri under ash, pumice, and pyroclastic flows and generated a tsunami that swept the shores of nearby islands, contributing to the end of Minoan culture on Crete.",
+  "historical": {
+    "date_display": "c. 1600 BCE",
+    "era": "ancient",
+    "impact": {
+      "deaths_high": null,
+      "deaths_low": null,
+      "summary": "The death toll is unquantified. NOAA's NCEI Global Historical Hazard Database states that deaths probably occurred on Thera and, as a result of tsunamis, in ports and seaside villages on Crete and elsewhere, but that no direct evidence of deaths has been found; excavations at Akrotiri indicate residents evacuated the city between the first minor ash falls and the devastating eruption. The eruption's date is itself uncertain, with published estimates ranging from the late 17th century BCE (radiocarbon, e.g. 1627-1600 BCE) to c. 1380 BCE in older literature."
+    },
+    "location": {
+      "country": "Greece",
+      "region": "Santorini (Thera), Cyclades islands, Aegean Sea; tsunami effects on Crete and nearby Aegean shores"
+    },
+    "year_end": null,
+    "year_start": -1599
+  },
+  "id": "thera-eruption",
+  "last_updated": "2026-07-06T09:21:44Z",
+  "name": "Minoan Eruption of Thera (Santorini)",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:44Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-44Z-facc43"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-44Z-facc43"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 8401,
+    "composite": 84011.0,
+    "impact_rank": 1
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

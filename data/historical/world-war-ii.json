@@ -1,0 +1,78 @@
+{
+  "category": "war",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4025972/",
+      "text": "A peer-reviewed study (Kesternich et al., 'The Effects of World War II on Economic and Health Outcomes across Europe') states that between 62 and 78 million people died due to WWII, out of a 1939 world population of approximately 2 billion, with 39 million deaths in Europe alone.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "US Holocaust Memorial Museum",
+      "source_url": "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-depth",
+      "text": "The US Holocaust Memorial Museum's Holocaust Encyclopedia states that World War II resulted in an estimated 55 million deaths worldwide, beginning with Germany's invasion of Poland on September 1, 1939.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Our World in Data",
+      "source_url": "https://ourworldindata.org/war-and-peace",
+      "text": "Our World in Data states that in World War II alone, more than 21 million combatants died, making it far deadlier than most conflicts.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "US Holocaust Memorial Museum",
+      "source_url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+      "text": "The US Holocaust Memorial Museum documents that six million Jewish men, women, and children were murdered by the Nazi German regime and its allies and collaborators during the Holocaust, alongside millions of non-Jewish victims including approximately 3.3 million Soviet prisoners of war and around 1.8 million ethnic Poles.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Second World War (1939-1945) was a global conflict between the Allied powers and the Axis powers (Germany, Italy, and Japan), fought across Europe, Asia, the Pacific, North Africa, and the Atlantic. It began with Germany's invasion of Poland on 1 September 1939 and ended with Germany's unconditional surrender in May 1945 and Japan's surrender in September 1945. It is the deadliest conflict in human history, encompassing the Holocaust, strategic bombing of cities, and the first use of nuclear weapons.",
+  "historical": {
+    "date_display": "1939–1945",
+    "era": "modern",
+    "impact": {
+      "deaths_high": 78000000,
+      "deaths_low": 62000000,
+      "summary": "Total deaths are estimated only as wide ranges because wartime record-keeping collapsed across both Allied and Axis states. A peer-reviewed study by Kesternich, Siflinger, Smith, and Winter states that between 62 and 78 million people died due to WWII (over 3% of the 1939 world population of roughly 2 billion), with 39 million deaths in Europe alone; the US Holocaust Memorial Museum gives a lower estimate of about 55 million deaths worldwide. The toll includes more than 21 million combatant deaths (Our World in Data) and the six million Jews murdered in the Holocaust; roughly half of European casualties were civilians."
+    },
+    "location": {
+      "country": "Global",
+      "region": "Europe, Soviet Union, East and Southeast Asia, Pacific, North Africa, and the Atlantic"
+    },
+    "year_end": 1945,
+    "year_start": 1939
+  },
+  "id": "world-war-ii",
+  "last_updated": "2026-07-06T09:21:44Z",
+  "name": "Second World War",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:44Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-44Z-1f526a"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-44Z-1f526a"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11939,
+    "composite": 119395.0,
+    "impact_rank": 5
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-06",
+      "source_name": "NOAA",
+      "source_url": "https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/tsunamis/recent-significant-events",
+      "text": "NOAA NCEI records that the tsunami following the magnitude 9.1 earthquake of 26 December 2004 killed more people than any other tsunami in recorded history, with 227,898 dead or missing.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-06",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/news/featured-story/indian-ocean-tsunami-remembered-scientists-reflect-2004-indian-ocean-killed",
+      "text": "The USGS reports the magnitude 9.1 Sumatra-Andaman earthquake struck on 26 December 2004 and the resulting tsunami caused more than 200,000 deaths around the Indian Ocean, with Indonesia the worst affected.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A magnitude 9.1 undersea megathrust earthquake off the west coast of northern Sumatra on 26 December 2004 generated a tsunami that devastated coastlines across the Indian Ocean, from Indonesia and Thailand to Sri Lanka, India, and as far as East Africa. It is the deadliest tsunami in recorded history.",
+  "historical": {
+    "date_display": "26 December 2004",
+    "era": "contemporary",
+    "impact": {
+      "deaths_high": 227898,
+      "deaths_low": 227898,
+      "summary": "NOAA NCEI records 227,898 people dead or missing, making it the deadliest tsunami in recorded history; the USGS reports more than 200,000 killed across the affected countries, with Indonesia the worst hit."
+    },
+    "location": {
+      "country": "14 countries around the Indian Ocean",
+      "region": "Off the west coast of northern Sumatra, Indonesia; deaths concentrated in Indonesia, Sri Lanka, India, and Thailand"
+    },
+    "year_end": null,
+    "year_start": 2004
+  },
+  "id": "indian-ocean-tsunami",
+  "last_updated": "2026-07-06T09:25:15Z",
+  "name": "2004 Indian Ocean earthquake and tsunami",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:25:15Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-25-15Z-755096"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-25-15Z-755096"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 12004,
+    "composite": 120043.0,
+    "impact_rank": 3
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

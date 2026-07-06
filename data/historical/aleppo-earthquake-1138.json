@@ -1,0 +1,70 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000jllz&format=geojson",
+      "text": "The U.S. Geological Survey's tectonic summary for the February 6, 2023 M7.8 Pazarcik (Kahramanmaras) earthquake states that Aleppo was struck by an estimated magnitude 7.1 earthquake in 1138.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "NOAA",
+      "source_url": "https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/earthquakes?minYear=1137&maxYear=1139",
+      "text": "NOAA NCEI's Global Significant Earthquake Database contains no entry for a 1138 Aleppo earthquake and instead records the 230,000 deaths under the 1139 earthquake at Ganja (listed as 'AZERBAIJAN: GYZNDZHA', intensity 11), consistent with scholarship that the 230,000 toll often quoted for Aleppo in 1138 conflates several distinct earthquakes of 1137-1139.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Encyclopaedia Britannica",
+      "source_url": "https://www.britannica.com/event/Aleppo-earthquake-of-1138",
+      "text": "Encyclopaedia Britannica dates the main shock to October 11, 1138, preceded by a smaller shock on October 10, states the traditional estimate that some 230,000 people were killed, and describes the collapse of Aleppo's citadel walls and the destruction of the Crusader citadel at Harim and the Muslim fort at al-Atarib.",
+      "verification_status": "unverified"
+    }
+  ],
+  "description": "A major earthquake, estimated by the USGS at about magnitude 7.1, struck Aleppo and its hinterland in northern Syria in October 1138, collapsing Aleppo's citadel and destroying the Crusader-held citadel at Harim and the Muslim fort at al-Atarib. It is routinely listed among the deadliest earthquakes in history with a toll of roughly 230,000, but that figure comes from the 15th-century compiler Ibn Taghribirdi and is widely regarded as conflating the Aleppo shock with the 1137 earthquake on the Jazira plain and the 1139 earthquake at Ganja in the Transcaucasus. The event occurred on the seismically active plate boundary between the Arabian and African plates associated with the Dead Sea Fault system.",
+  "historical": {
+    "date_display": "October 11, 1138",
+    "era": "medieval",
+    "impact": {
+      "deaths_high": null,
+      "deaths_low": null,
+      "summary": "The commonly cited toll of about 230,000 deaths derives from the 15th-century historian Ibn Taghribirdi, writing three centuries after the event, and is generally regarded by modern scholarship as a conflation of the 1138 Aleppo earthquake with the November 1137 earthquake on the Jazira plain and the September 1139 earthquake at Ganja (Transcaucasus). NOAA's Global Significant Earthquake Database records the 230,000 deaths under the 1139 Ganja, Azerbaijan event and carries no separate 1138 Aleppo entry at all. Contemporary chroniclers describe severe destruction and hundreds killed in the collapse of Aleppo's citadel and the leveling of nearby fortress towns, but no reliable event-specific total exists, so the toll is left unquantified here rather than repeating the conflated figure."
+    },
+    "location": {
+      "country": "Syria",
+      "region": "Aleppo and northwestern Syria, including Harim and al-Atarib, near the northern Dead Sea Fault system"
+    },
+    "year_end": null,
+    "year_start": 1138
+  },
+  "id": "aleppo-earthquake-1138",
+  "last_updated": "2026-07-06T09:21:40Z",
+  "name": "1138 Aleppo Earthquake",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:40Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-40Z-7c4161"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-40Z-7c4161"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11138,
+    "composite": 111381.0,
+    "impact_rank": 1
+  },
+  "verification": {
+    "confidence": "medium",
+    "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
+    "status": "partial"
+  }
+}

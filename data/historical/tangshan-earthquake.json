@@ -1,0 +1,78 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-facts-earthquake-fantasy",
+      "text": "USGS states the 1976 magnitude 7.8 earthquake which struck Tangshan, China killed somewhere between 250,000 and 800,000 people.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/publications/tangshan-six-years-later",
+      "text": "A USGS publication reports the Tangshan earthquake killed, by official count, 240,000 people, and that during the first 2 years after the earthquake estimates of casualties ranged from 650,000 to 800,000, adding that almost certainly the exact number will never be known.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/publications/1976-tangshan-earthquake",
+      "text": "USGS records the Tangshan earthquake as a magnitude 7.8 event that occurred on July 28, 1976 at 3:42 a.m. Beijing local time, with a focal depth of 15 kilometers, causing serious damage and loss of life in the densely populated industrial city.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6313607/",
+      "text": "A peer-reviewed study of historical earthquakes in China (1950-2017) published via NIH/PMC states the 1976 Ms 7.8 Tangshan earthquake caused 242,000 deaths, the deadliest earthquake in China in that 68-year period, accounting for 68.7% of all Chinese earthquake deaths studied.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "On July 28, 1976, at 3:42 a.m. local time, a magnitude 7.8 earthquake with a focal depth of about 15 kilometers struck the densely populated industrial city of Tangshan in Hebei Province, China. Striking without recognized warning while most residents slept, it flattened much of the city and ranks among the deadliest earthquakes in recorded history. China's official count put the dead at roughly 240,000, while early estimates ran as high as 800,000.",
+  "historical": {
+    "date_display": "July 28, 1976",
+    "era": "contemporary",
+    "impact": {
+      "deaths_high": 800000,
+      "deaths_low": 250000,
+      "summary": "USGS states the earthquake killed somewhere between 250,000 and 800,000 people. China's official count was about 240,000 dead (Chinese studies cite 242,000), but USGS notes that estimates of casualties during the first two years after the earthquake ranged from 650,000 to 800,000 and that the exact number will almost certainly never be known."
+    },
+    "location": {
+      "country": "China",
+      "region": "Tangshan, Hebei Province, North China"
+    },
+    "year_end": null,
+    "year_start": 1976
+  },
+  "id": "tangshan-earthquake",
+  "last_updated": "2026-07-06T09:21:44Z",
+  "name": "1976 Tangshan Earthquake",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:44Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-44Z-687c29"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-44Z-687c29"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11976,
+    "composite": 119763.0,
+    "impact_rank": 3
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

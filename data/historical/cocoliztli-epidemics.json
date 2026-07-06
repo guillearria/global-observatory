@@ -1,0 +1,78 @@
+{
+  "category": "pandemic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "CDC",
+      "source_url": "https://wwwnc.cdc.gov/eid/article/8/4/01-0175_article",
+      "text": "The cocoliztli epidemic of 1545 to 1548 killed an estimated 5 million to 15 million people, or up to 80% of the native population of Mexico.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2730237/",
+      "text": "The cocoliztli epidemic of 1576 to 1578 killed an additional 2 to 2.5 million people, or about 50% of the remaining native population of Mexico.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7110390/",
+      "text": "A study of 157 central Mexican communities recorded 1,077,902 deaths—a population loss of 51.36%, from 2,098,426 people in 1570 to 1,020,524 by 1580—during the 1576 hemorrhagic-fever (cocoliztli) epidemic.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2730237/",
+      "text": "Both the 1545 and 1576 cocoliztli epidemics coincided with the 16th-century megadrought—the most severe and sustained drought to strike north central Mexico in the past 600 years per tree-ring reconstruction—leading researchers to propose an indigenous rodent-borne hemorrhagic fever aggravated by the drought.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The cocoliztli epidemics were a series of catastrophic disease outbreaks that ravaged the indigenous population of colonial New Spain (Mexico) during the 16th century, with the two deadliest waves striking in 1545–1548 and 1576–1578. The 1545 outbreak alone is estimated to have killed 5 to 15 million people—up to 80% of Mexico's native population—ranking it among the worst demographic catastrophes in recorded history. The cause remains debated: researchers have proposed an indigenous rodent-borne hemorrhagic fever aggravated by extreme drought, while a 2018 ancient-DNA study linked victims of the 1576 outbreak to Salmonella enterica serovar Paratyphi C.",
+  "historical": {
+    "date_display": "1545–1576",
+    "era": "early-modern",
+    "impact": {
+      "deaths_high": 15000000,
+      "deaths_low": 5000000,
+      "summary": "The 1545–1548 outbreak—the deadliest single wave—is estimated at 5 to 15 million deaths, up to 80% of the native population of Mexico, per figures traced to Cook and Simpson (1948) and reported by Acuña-Soto and colleagues. The later 1576–1578 outbreak killed a further 2 to 2.5 million people, about 50% of the surviving native population, so the two great waves together are on the order of 7 to 17.5 million dead. These figures are highly uncertain: they rest on colonial-era tribute records and demographic reconstructions rather than direct counts, and estimates vary widely by source."
+    },
+    "location": {
+      "country": "Mexico",
+      "region": "Viceroyalty of New Spain, especially the central Mexican highlands and Oaxaca"
+    },
+    "year_end": 1576,
+    "year_start": 1545
+  },
+  "id": "cocoliztli-epidemics",
+  "last_updated": "2026-07-06T09:21:41Z",
+  "name": "Cocoliztli Epidemics of New Spain",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:41Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-41Z-d65e02"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-41Z-d65e02"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11545,
+    "composite": 115455.0,
+    "impact_rank": 5
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "category": "natural-disaster",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/faqs/which-volcanic-eruptions-were-deadliest",
+      "text": "The USGS lists the 1783 Lakagigar (Laki) eruption in Iceland among the deadliest volcanic eruptions in history, with a death toll of 9,000 (9,350 per a second cited reference) and starvation as the major cause of death.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6203706/",
+      "text": "A 2018 study hosted on PubMed Central states the Laki eruption lasted from June 1783 to February 1784, produced about 15 cubic kilometers of magma, and injected a total of 125 Tg of sulfur dioxide (63 Tg of sulfur) into the atmosphere.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6203706/",
+      "text": "The same PMC-hosted study states that an estimated 20% of the population of Iceland died within three years of the eruption's onset, and that 60% of Icelandic grazing livestock died by starvation or fluorine poisoning; it also reports Witham and Oppenheimer's estimate of about 20,000 extra deaths in England between August 1783 and May 1784.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/observatories/hvo/news/volcano-watch-icelandic-eruption-and-ash-fall-disaster-response-take-two",
+      "text": "USGS Volcano Watch states that ash and gas from the 1783 Icelandic eruptions caused widespread famine and the deaths of about 20 percent of Iceland's population, and that within a year 60 percent of Iceland's grazing livestock died from ash ingestion and associated fluorosis.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Lakagigar (Laki) fissure eruption in southern Iceland lasted from June 1783 to February 1784, erupting roughly 15 cubic kilometers of basaltic magma and injecting on the order of 125 million tonnes of sulfur dioxide into the atmosphere. Fluorine-laden ash and gas killed about 60 percent of Iceland's grazing livestock, triggering the 'haze famine' in which roughly a fifth of the Icelandic population died. The sulfurous haze spread across Europe, where it is linked to elevated mortality and anomalous weather in 1783-1784.",
+  "historical": {
+    "date_display": "1783–1784",
+    "era": "early-modern",
+    "impact": {
+      "deaths_high": 9350,
+      "deaths_low": 9000,
+      "summary": "The USGS lists the 1783 Laki eruption's death toll as 9,000-9,350, with starvation as the major cause; this corresponds to roughly 20% of Iceland's population dying in the ensuing haze famine. Additional excess mortality across Europe attributed to the sulfurous Laki haze is not included in this range and remains debated: one estimate reported in the peer-reviewed literature (Witham and Oppenheimer, as cited in a PMC-hosted 2018 study) puts extra deaths in England alone at about 20,000 between August 1783 and May 1784, so total attributable mortality could be several times the Icelandic figure."
+    },
+    "location": {
+      "country": "Iceland",
+      "region": "Lakagigar fissure, Grimsvotn volcanic system, southern Iceland; haze effects across Europe"
+    },
+    "year_end": 1784,
+    "year_start": 1783
+  },
+  "id": "laki-eruption",
+  "last_updated": "2026-07-06T09:21:42Z",
+  "name": "Laki Eruption",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:42Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-42Z-c1c0e5"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-42Z-c1c0e5"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11783,
+    "composite": 117831.0,
+    "impact_rank": 1
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

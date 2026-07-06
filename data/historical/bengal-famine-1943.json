@@ -1,0 +1,70 @@
+{
+  "category": "famine",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Our World in Data",
+      "source_url": "https://ourworldindata.org/the-our-world-in-data-dataset-of-famines",
+      "text": "Our World in Data's famines dataset lists the 1943 famine in India (Bengal) with an estimated 2,550,000 excess deaths, within a range of 2,100,000 to 3,000,000, crediting World Peace Foundation (2017) and Devereux (2000).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9735018/",
+      "text": "A peer-reviewed GeoJournal article (Mallik, 'Colonial Biopolitics and the Great Bengal Famine of 1943', available via PubMed Central) states that an estimated 3 million people died due to the Bengal famine of 1943, noting this is the cited maximum and that mortality estimates have been questioned.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9735018/",
+      "text": "According to the same GeoJournal article on PubMed Central, the harshest phase of the famine lasted eight months, from March to October 1943, and even at the end of January 1944 an average of roughly 2,300 people were dying each day from starvation and disease across Bengal.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Bengal famine of 1943 killed millions in the Bengal Province of British India (present-day West Bengal, India, and Bangladesh) during the Second World War. Its harshest phase lasted eight months, from March to October 1943, driven by the wartime loss of Burmese rice imports, an October 1942 cyclone, inflation, hoarding, and colonial policy failures rather than an outright collapse in food availability. Deaths from starvation and famine-associated disease continued into 1944.",
+  "historical": {
+    "date_display": "1943–1944",
+    "era": "modern",
+    "impact": {
+      "deaths_high": 3000000,
+      "deaths_low": 2100000,
+      "summary": "Excess-mortality estimates are contested because wartime baseline data are unreliable. Our World in Data's famines dataset gives a range of 2.1–3.0 million excess deaths (midpoint 2,550,000), crediting World Peace Foundation (2017) and Devereux (2000); 3 million is the commonly cited maximum in the scholarly literature, and some scholars argue for lower figures."
+    },
+    "location": {
+      "country": "India and Bangladesh (then Bengal Province, British India)",
+      "region": "Bengal — present-day West Bengal (India) and Bangladesh"
+    },
+    "year_end": 1944,
+    "year_start": 1943
+  },
+  "id": "bengal-famine-1943",
+  "last_updated": "2026-07-06T09:21:41Z",
+  "name": "Bengal Famine of 1943",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:41Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-41Z-86ad9b"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-41Z-86ad9b"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11943,
+    "composite": 119434.0,
+    "impact_rank": 4
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

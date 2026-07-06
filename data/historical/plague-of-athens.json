@@ -1,0 +1,75 @@
+{
+  "category": "pandemic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19787658/",
+      "text": "In the epidemic beginning 430 BC, over the first three years perhaps as many as 75,000 to 100,000 people — 25% of the city's population — died, per an epidemiological/paleopathological review in the U.S. National Library of Medicine (PubMed).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7118959/",
+      "text": "Approximately one quarter of the Athenian army perished during the plague, and roughly one quarter of the civilian population of southern Greece was ravaged by it; the epidemic lasted about four years, and Pericles himself succumbed to it.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/9539938/",
+      "text": "The Athenian epidemic of 430–426 BC, at the outbreak of the Peloponnesian War, caused the death of the statesman Pericles and 'decimated the population'; the cause remains undetermined, with typhus and smallpox judged the best fits.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "An epidemic of unknown cause that struck Athens beginning in 430 BCE during the second year of the Peloponnesian War, recurring in waves through 426 BCE. Chronicled firsthand by the historian Thucydides (who caught the disease and survived), it killed roughly a quarter of the city's population, including the statesman Pericles, and severely weakened Athens. Modern scholars still dispute the pathogen, with epidemic typhus and smallpox among the leading candidates.",
+  "historical": {
+    "date_display": "430–426 BCE",
+    "era": "classical",
+    "impact": {
+      "deaths_high": 100000,
+      "deaths_low": 75000,
+      "summary": "One epidemiological study estimates that in the first three years perhaps as many as 75,000 to 100,000 people — about 25% of the city's population — died. Other authoritative accounts likewise put mortality at roughly one quarter of the Athenian army and of the civilian population of southern Greece. The commonly cited 'a quarter to a third of Athens' reflects this uncertainty; absolute figures are estimates extrapolated from ancient population guesses, not counts, and the deaths_low/deaths_high range here is quoted from a single study rather than averaged across sources."
+    },
+    "location": {
+      "country": "Greece",
+      "region": "Athens (Attica), ancient Greece"
+    },
+    "year_end": -425,
+    "year_start": -429
+  },
+  "id": "plague-of-athens",
+  "last_updated": "2026-07-06T09:48:23Z",
+  "name": "Plague of Athens",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-43Z-562fa5"
+      },
+      {
+        "at": "2026-07-06T09:48:23Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-48-23Z-7b297e"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-48-23Z-7b297e"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 9571,
+    "composite": 95712.0,
+    "impact_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

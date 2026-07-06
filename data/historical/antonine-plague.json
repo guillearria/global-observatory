@@ -1,0 +1,78 @@
+{
+  "category": "pandemic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698106/",
+      "text": "The Antonine Plague (165-180 AD), also known as the Plague of Galen, is believed to have been a smallpox pandemic that caused about five million deaths across the Roman Empire.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698106/",
+      "text": "The pandemic began in Mesopotamia in late AD 165 or early AD 166 during Lucius Verus' Parthian campaign and is named for the Greek physician Galen, who was in Rome when it reached the city in AD 166 and observed troops at Aquileia in the winter of AD 168-169; his description of the skin eruptions indicates smallpox.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11824979/",
+      "text": "A 2025 SIR/SEIR modeling study of the Antonine Plague in Rome found that none of the pathogens analyzed (bubonic plague, smallpox, or measles) emerged as the likely causative agent, and concluded the overall mortality rate would have increased maximally by about 7%, which contradicts the higher mortality rates accepted by historians who argue for a severe demographic impact.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11824979/",
+      "text": "Scholarly estimates of the plague's mortality vary enormously, as reviewed in the 2025 modeling study: J. F. Gilliam put excess mortality at only 1-2% (about 500,000 to 1,000,000 individuals) and the Littmans at an average of 7-10% empire-wide (13-15% in cities), while Walter Scheidel estimated overall mortality on the order of 25% and Y. Zelener around 22-24%.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Antonine Plague was a pandemic that swept the Roman Empire from 165 to 180 CE, during the joint reign of emperors Marcus Aurelius and Lucius Verus. Also called the Plague of Galen after the physician who described its symptoms, it is generally identified as smallpox, though the pathogen has never been confirmed genetically. It is believed to have begun in the Near East and been carried westward by Roman legions returning from the Parthian campaign, spreading empire-wide.",
+  "historical": {
+    "date_display": "165–180 CE",
+    "era": "classical",
+    "impact": {
+      "deaths_high": 10000000,
+      "deaths_low": 5000000,
+      "summary": "The death toll is deeply uncertain and heavily disputed. A commonly cited estimate is roughly 5 million deaths across the empire (one allowlisted NIH review states it is 'believed to have caused five million deaths'), corresponding to about 7-10% of the imperial population per the classic estimate of the Littmans; a widely repeated upper band puts the toll near 10 million (~10% of the empire, following Kyle Harper's 8-10% figure). Scholarly estimates span an enormous range, however: minimalists such as J. F. Gilliam put excess mortality at only 1-2% (about 500,000-1,000,000 deaths), while maximalists such as Walter Scheidel and Y. Zelener argue overall mortality was on the order of 25%. A 2025 epidemiological modeling study cautions that the maximalist tolls are likely overstated and that no single candidate pathogen (bubonic plague, smallpox, or measles) could be confirmed as the causative agent. The 5-10 million range recorded here reflects the conventional central-to-upper estimate, not a settled figure."
+    },
+    "location": {
+      "country": "Roman Empire (Mediterranean, Europe, North Africa and the Near East)",
+      "region": "Began in Mesopotamia during Lucius Verus' Parthian campaign; spread empire-wide, including the city of Rome, the Danubian frontier, and Egypt"
+    },
+    "year_end": 180,
+    "year_start": 165
+  },
+  "id": "antonine-plague",
+  "last_updated": "2026-07-06T09:21:41Z",
+  "name": "Antonine Plague",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:41Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-41Z-a6cfc2"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-41Z-a6cfc2"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 10165,
+    "composite": 101654.0,
+    "impact_rank": 4
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "category": "genocide",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "US Holocaust Memorial Museum",
+      "source_url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview",
+      "text": "At least 664,000 and possibly as many as 1.2 million Armenians died during the Armenian genocide, in massacres and individual killings or from systematic ill treatment, exposure, and starvation, according to the United States Holocaust Memorial Museum's Holocaust Encyclopedia.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "US Holocaust Memorial Museum",
+      "source_url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview",
+      "text": "The Armenian genocide took place between the spring of 1915 and the fall of 1916, when about 1.5 million Armenians lived in the Ottoman Empire, according to the United States Holocaust Memorial Museum.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "US Holocaust Memorial Museum",
+      "source_url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-in-depth",
+      "text": "On April 24, 1915, Ottoman authorities arrested 240 Armenian leaders in Constantinople and deported them east — a date commemorated by Armenians as the beginning of the genocide, according to the United States Holocaust Memorial Museum.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Between the spring of 1915 and the fall of 1916, the Ottoman government, controlled by the Committee of Union and Progress (Young Turks), carried out the mass deportation and killing of its Armenian Christian population. Armenians were massacred outright or died from systematic ill treatment, exposure, and starvation during forced marches toward the Syrian desert. It is often called the first genocide of the twentieth century.",
+  "historical": {
+    "date_display": "1915–1916",
+    "era": "modern",
+    "impact": {
+      "deaths_high": 1200000,
+      "deaths_low": 664000,
+      "summary": "The US Holocaust Memorial Museum states that at least 664,000 and possibly as many as 1.2 million Armenians died, out of approximately 1.5 million Armenians living in the Ottoman Empire in 1915. Estimates vary because of contested population baselines and incomplete records; some scholarly estimates run higher, up to about 1.5 million deaths."
+    },
+    "location": {
+      "country": "Turkey (Ottoman Empire); modern Armenia, Syria",
+      "region": "Central and eastern Anatolia, with deportation routes to the Syrian desert"
+    },
+    "year_end": 1916,
+    "year_start": 1915
+  },
+  "id": "armenian-genocide",
+  "last_updated": "2026-07-06T09:21:41Z",
+  "name": "Armenian Genocide",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:41Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-41Z-b8528e"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-41Z-b8528e"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11915,
+    "composite": 119153.0,
+    "impact_rank": 3
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

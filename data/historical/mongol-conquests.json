@@ -1,0 +1,78 @@
+{
+  "category": "war",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5023095/",
+      "text": "In 1206, Temujin unified many Mongol-Turkic nomadic tribes of Northeast Asia and was crowned 'Genghis Khan'; after founding the Mongol Empire he invaded outward from the Mongolian plateau, ultimately conquering most of Eurasia in what became the largest contiguous land empire in human history.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1180246/",
+      "text": "Genghis Khan (c. 1162-1227) established the largest land empire in history and often slaughtered the conquered populations, with the empire at his death extending from northeast China to Uzbekistan.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11949627/",
+      "text": "For the Mongol conquest of Baghdad in 1258, medieval accounts gave widely varying death tolls -- reported figures included 300,000, 800,000, 1,800,000 and 2,000,000 -- which were rendered in an exaggerated manner by later historians; the historian al-Dhahabi judged that 'the most truthful [report] is that they reached 300,000.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8663044/",
+      "text": "According to the contemporary chronicle al-Hawadith al-jami'a, more than 800,000 people died in Baghdad at its fall to the Mongols in 1258, not counting children thrown in the mud and those who perished in canals, wells, and cellars or from hunger and fear.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Beginning in 1206, when Temujin unified the nomadic tribes of the Mongolian plateau and was proclaimed Genghis Khan, the Mongols built the largest contiguous land empire in human history, campaigning outward across Eurasia over roughly a century and a half. The conquests destroyed cities such as Baghdad (1258), devastated regions from China and Central Asia to the Middle East and Eastern Europe, and are counted among the deadliest series of wars in recorded history. Mongol political dominance is conventionally dated from Genghis Khan's accession in 1206 to the fall of the Yuan dynasty in China in 1368.",
+  "historical": {
+    "date_display": "1206–1368",
+    "era": "medieval",
+    "impact": {
+      "deaths_high": 40000000,
+      "deaths_low": 30000000,
+      "summary": "Aggregate deaths from the Mongol conquests are commonly cited at roughly 30-40 million, with some estimates ranging as high as ~60 million. These aggregate figures are highly uncertain and disputed: they rest largely on estimates of medieval population decline (notably the McEvedy and Jones 'Atlas of World Population History') rather than any contemporary count, and they conflate deaths from massacre, famine, and subsequent disease. Individual episodes are better documented but still contested: for the sack of Baghdad in 1258, medieval chroniclers gave figures from 800,000 up to 2,000,000 dead, while the historian al-Dhahabi judged roughly 300,000 the most truthful. The aggregate 30-40 million range here reflects the commonly cited scholarly estimate and should be read as an order-of-magnitude figure, not a precise count."
+    },
+    "location": {
+      "country": "Eurasia",
+      "region": "From the Mongolian plateau outward across China, Korea, Central Asia, Persia and the Middle East, the Caucasus, and Eastern Europe"
+    },
+    "year_end": 1368,
+    "year_start": 1206
+  },
+  "id": "mongol-conquests",
+  "last_updated": "2026-07-06T09:21:43Z",
+  "name": "Mongol Conquests",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-43Z-79e701"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-43Z-79e701"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11206,
+    "composite": 112065.0,
+    "impact_rank": 5
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

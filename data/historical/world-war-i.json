@@ -1,0 +1,70 @@
+{
+  "category": "war",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6200009/",
+      "text": "An estimated 9 million combatants and as many as 7 million civilians died in the First World War (1914-1918), according to a peer-reviewed article in Emerging Infectious Diseases hosted on NIH's PubMed Central.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Archives",
+      "source_url": "https://www.archives.gov/exhibits/influenza-epidemic/",
+      "text": "World War I claimed an estimated 16 million lives, according to the U.S. National Archives exhibit on the influenza epidemic of 1918.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Our World in Data",
+      "source_url": "https://ourworldindata.org/war-and-peace",
+      "text": "More than 7 million soldiers died in World War I, according to Our World in Data's 'War and Peace' entry.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "World War I (1914-1918), also called the First World War or the Great War, was a global conflict between the Allied Powers (led by France, the United Kingdom, Russia, and later the United States) and the Central Powers (led by Germany, Austria-Hungary, and the Ottoman Empire). Fought mainly on the Western and Eastern Fronts in Europe, with additional campaigns in the Middle East, Africa, and at sea, it introduced industrialized trench warfare, chemical weapons, tanks, and aerial combat. The war ended with the Armistice of 11 November 1918 and redrew the map of Europe and the Middle East, dissolving four empires.",
+  "historical": {
+    "date_display": "1914–1918",
+    "era": "modern",
+    "impact": {
+      "deaths_high": 16000000,
+      "deaths_low": 9000000,
+      "summary": "A peer-reviewed article hosted on NIH's PubMed Central states that an estimated 9 million combatants and as many as 7 million civilians died in the war, implying a total toll of roughly 9 to 16 million; the U.S. National Archives independently cites an estimated 16 million lives claimed. Military-death estimates in the scholarly literature cluster around 8.5-10 million, while civilian tolls are far more uncertain (some reference works put war-attributable civilian deaths well above 7 million, depending on whether famine, disease, massacres, and the overlapping 1918 influenza pandemic are counted)."
+    },
+    "location": {
+      "country": "Global (centered on Europe)",
+      "region": "Western and Eastern Fronts in Europe; additional theaters in the Middle East, Africa, the Balkans, and the Atlantic"
+    },
+    "year_end": 1918,
+    "year_start": 1914
+  },
+  "id": "world-war-i",
+  "last_updated": "2026-07-06T09:21:44Z",
+  "name": "World War I",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:44Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-44Z-efa3b6"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-44Z-efa3b6"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11914,
+    "composite": 119145.0,
+    "impact_rank": 5
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

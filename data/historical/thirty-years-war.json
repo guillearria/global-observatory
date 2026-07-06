@@ -1,0 +1,70 @@
+{
+  "category": "war",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5439951/",
+      "text": "The Battle of Luetzen (1632), a major engagement of the Thirty Years' War, killed between 6,000 and 9,000 soldiers, and the Swedish king Gustavus II Adolphus was mortally wounded on the battlefield; the war continued for another 16 years after this battle (ending in 1648).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8082092/",
+      "text": "Genomic evidence indicates that plague (Yersinia pestis) circulated from Germany to France and Italy following Thirty Years' War troop movements; one sequenced genome (BRA001) came from the remains of a Swedish soldier who occupied Brandenburg, Germany, in 1631 during the war.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "Encyclopaedia Britannica",
+      "source_url": "https://www.britannica.com/event/Thirty-Years-War",
+      "text": "Total mortality from the Thirty Years' War is commonly estimated at roughly 4.5 to 8 million people, the majority from famine and epidemic disease rather than combat; Encyclopaedia Britannica frames the loss as an overall population decline of about 15-20% in the Holy Roman Empire (from about 20 million to 16-17 million).",
+      "verification_status": "unverified"
+    }
+  ],
+  "description": "The Thirty Years' War (1618-1648) was a series of interconnected conflicts fought mainly in the German lands of the Holy Roman Empire, beginning as a struggle between Catholic and Protestant states and drawing in most major European powers, including Spain, France, Sweden, Denmark, and the Dutch Republic. It was one of the most destructive conflicts in European history, with the great majority of deaths caused by famine and epidemic disease rather than combat. The war ended with the Peace of Westphalia in 1648.",
+  "historical": {
+    "date_display": "1618-1648",
+    "era": "early-modern",
+    "impact": {
+      "deaths_high": 8000000,
+      "deaths_low": 4500000,
+      "summary": "Widely cited estimates put total mortality from the Thirty Years' War at roughly 4.5 to 8 million soldiers and civilians, with the great majority of deaths caused by famine and epidemic disease (plague, typhus, dysentery) rather than by combat. The figure is inherently uncertain: it rests on fragmentary early-modern records and is often expressed instead as a population decline of about 15-20% across the Holy Roman Empire (from roughly 20 million to 16-17 million), with some hard-hit regions such as Wuerttemberg losing more than half their people. This overall range could not be confirmed on a readable allowlisted page during research (Encyclopaedia Britannica and JSTOR returned HTTP 403 to automated fetches, and the relevant NIH/PMC and Cambridge journal articles are scanned page images); it is therefore recorded here as an unverified estimate, while battle- and epidemic-level details below are verified from allowlisted sources actually read."
+    },
+    "location": {
+      "country": "Germany (Holy Roman Empire) and Central Europe",
+      "region": "Principally the German lands of the Holy Roman Empire, with fighting extending into Bohemia and adjoining regions; combatants included Spain, France, Sweden, Denmark, and the Dutch Republic."
+    },
+    "year_end": 1648,
+    "year_start": 1618
+  },
+  "id": "thirty-years-war",
+  "last_updated": "2026-07-06T09:21:44Z",
+  "name": "Thirty Years' War",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:44Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-44Z-2aa914"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-44Z-2aa914"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 11618,
+    "composite": 116184.0,
+    "impact_rank": 4
+  },
+  "verification": {
+    "confidence": "medium",
+    "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
+    "status": "partial"
+  }
+}

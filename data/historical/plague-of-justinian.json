@@ -1,0 +1,78 @@
+{
+  "category": "pandemic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6926030/",
+      "text": "Maximalist estimates put Justinianic Plague mortality in the tens of millions, with numbers ranging between 15 and 100 million, or alternatively 25 to 60 percent of the estimated population of the Late Roman Empire — figures the article's authors argue are overstated.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12385600/",
+      "text": "According to historical sources the First Pandemic began in 541 CE and lasted until c. 750 CE; it is the first pandemic attributed to Yersinia pestis, confirmed by ancient DNA recovered from a mass grave at Jerash, Jordan (c. 550–660 CE).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12385600/",
+      "text": "The disease first appeared in the historical record at Pelusium in Northern Egypt and, believed by contemporaries to have begun in East Africa or South Arabia, spread rapidly throughout the Mediterranean and Middle East.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-05",
+      "source_name": "U.S. National Library of Medicine",
+      "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6589673/",
+      "text": "The first historically reported pandemic attributed to Yersinia pestis started with the Justinianic Plague (541–544); ancient Y. pestis genomes have since been recovered from Britain, France, Germany, and Spain, demonstrating wide European distribution during the First Pandemic (541–750).",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Plague of Justinian was the first historically documented outbreak of bubonic plague, caused by the bacterium Yersinia pestis, which struck the Eastern Roman (Byzantine) Empire and the wider Mediterranean world beginning in 541 CE. Named for the reigning emperor Justinian I, it opened the so-called First Pandemic, which recurred across Europe, the Middle East, and North Africa until about 750 CE. Modern mortality estimates vary enormously and are sharply contested, ranging from figures in the tens of millions to scholarly arguments that its demographic impact was far smaller.",
+  "historical": {
+    "date_display": "541–549 CE (initial outbreak of the First Plague Pandemic, c. 541–750 CE)",
+    "era": "medieval",
+    "impact": {
+      "deaths_high": 100000000,
+      "deaths_low": 15000000,
+      "summary": "Mortality is highly uncertain and disputed, as no reliable contemporary census exists and all totals are modern reconstructions. Maximalist scholarship estimates the Justinianic Plague killed on the order of tens of millions, with figures ranging between 15 and 100 million, or alternatively 25 to 60 percent of the estimated population of the Late Roman Empire. However, the authors of the source reporting this range (Mordechai and Eisenberg, 2019) argue these maximalist numbers are exaggerated and that the pandemic's true demographic and social impact was substantially smaller."
+    },
+    "location": {
+      "country": "Eastern Roman (Byzantine) Empire; Mediterranean, Middle East, and Europe",
+      "region": "First recorded at Pelusium in Northern Egypt; spread through the Mediterranean and Middle East, striking Constantinople in 542; later reached Britain, France, Germany, and Spain"
+    },
+    "year_end": 549,
+    "year_start": 541
+  },
+  "id": "plague-of-justinian",
+  "last_updated": "2026-07-06T09:21:43Z",
+  "name": "Plague of Justinian",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T09-21-43Z-8fec3d"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-06T09-21-43Z-8fec3d"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "chronology_rank": 10541,
+    "composite": 105415.0,
+    "impact_rank": 5
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
