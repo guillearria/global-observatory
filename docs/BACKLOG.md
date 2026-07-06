@@ -69,9 +69,24 @@ signals.
   `retrieved_date`, and re-run it through `curate.write(kind="threat")`.
 - **Seed more real events**: more accrue naturally once the daily routine is running; no action
   needed beyond that.
-- **Seed the Historical Archive**: the kind, schema, gate wiring, and timeline UI shipped
-  2026-07-05 with an empty dataset. Seed ~40 landmark records (pandemics, wars, famines, disasters,
-  collapses across all six eras) via `/refresh-history` — PR-reviewed like threats.
+- **Seed the Historical Archive** *(Done 2026-07-06 — 43 landmark records across all six eras,
+  researched against allowlisted sources and gated; 41 verified, 2 honest-partial. Grow it further
+  via `/refresh-history`.)*
+- **Economic coverage — the one thin spot, across all three features.** Economic crises are
+  under-represented everywhere, and this is a single gap to close in three places:
+  - *Historical Archive*: the seed batch has no `economic` records. Add the landmark ones via
+    `/refresh-history` — e.g. the 1929 crash / Great Depression, the 1997 Asian financial crisis,
+    the 2008 global financial crisis, hyperinflations (Weimar 1923, Zimbabwe 2007-09). Sources are
+    already allowlisted (IMF, World Bank, OECD, europa.eu, un.org).
+  - *World Pulse*: the `economic` event category and the IMF/World Bank/OECD allowlist entries
+    already exist, so **the daily read can and should capture a major market crash or financial
+    crisis the day it happens** — a systemic shock (a >~20% index collapse, a sovereign default, a
+    banking crisis, an IMF/central-bank emergency intervention), not routine market movement.
+    `/refresh-events` was clarified (2026-07-06) to put this in scope; watch that the daily routine
+    actually surfaces one when it occurs.
+  - *Existential Threats*: consider whether a standing `societal`/`economic` systemic-financial-risk
+    record belongs alongside the others (global debt, a systemic banking collapse). Lower priority
+    than the above two.
 
 ## Tooling
 
