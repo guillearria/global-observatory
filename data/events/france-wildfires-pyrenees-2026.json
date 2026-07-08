@@ -1,0 +1,56 @@
+{
+  "category": "wildfire",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-08",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029331",
+      "text": "GDACS's forest fire event report for France (event 1029331, covering 04-07 July 2026) assessed an Orange alert, stating 'forest fire can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability,' with 6,561 hectares burned and 5,570 people exposed in the burned area.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A wildfire broke out in the Pyrénées-Orientales department of southern France in early July 2026, burning through mountainous terrain in the foothills of the Pyrenees near Perpignan. The EU's Copernicus Emergency Management Service activated rapid mapping for the area, and GDACS assessed an Orange alert for medium humanitarian impact as the fire spread.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "GDACS's continuously updated event report assessed an Orange alert (medium humanitarian impact) for a wildfire burning in the Pyrénées-Orientales department of France between 4 and 7 July 2026, citing about 6,561 hectares burned and roughly 5,570 people exposed within the fire-affected area."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029331",
+    "location": {
+      "country": "France",
+      "lat": 42.6724,
+      "lon": 2.5678,
+      "region": "Pyrénées-Orientales department, near Perpignan (Pyrenees foothills)"
+    },
+    "occurrence_date": "2026-07-04",
+    "scale": "GDACS Orange alert (6,561 ha burned)",
+    "status": "ongoing"
+  },
+  "id": "france-wildfires-pyrenees-2026",
+  "last_updated": "2026-07-08T09:13:34Z",
+  "name": "Wildfire — Pyrénées-Orientales, France",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-08T09:13:34Z",
+        "layer": "verify",
+        "run_id": "2026-07-08T09-13-34Z-f28ddc"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-08T09-13-34Z-f28ddc"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398011.0,
+    "impact_rank": 1,
+    "recency_rank": 739801
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

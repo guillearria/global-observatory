@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-07 — Daily World Pulse refresh: update 5 ongoing events (`fbbb189`)
+
+- **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, sudan-displacement-crisis, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026
+
 ## 2026-07-06 — Fact-check pass: correct 7 attribution/date/wording issues (`ce7a62e`)
 
 - **Updated:** black-death, covid-19-pandemic, four-point-two-kiloyear-event, plague-of-athens, plague-of-cyprian, taiping-rebellion, vesuvius-79

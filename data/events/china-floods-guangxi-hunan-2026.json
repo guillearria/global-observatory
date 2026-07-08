@@ -1,0 +1,56 @@
+{
+  "category": "flood",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-08",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103933",
+      "text": "GDACS's flood event report (GLIDE FL-2026-000105-CHN, covering 06 June 2026 to 07 July 2026) assessed an overall Orange alert, stating that 'flood can have a medium humanitarian impact based on the magnitude, exposed population and vulnerability,' and records official figures of 12 deaths and 85,197 people displaced across affected areas of China.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Torrential rain from the remnants of Typhoon Maysak triggered severe flooding across Guangxi, Hunan, Hubei and neighbouring provinces of southern and central China in early July 2026, pushing rivers and reservoirs past danger thresholds and submerging villages. GDACS assessed an overall Orange alert for medium humanitarian impact, citing 12 deaths and 85,197 people displaced.",
+  "event": {
+    "impact": {
+      "deaths": 12,
+      "displaced": 85197,
+      "summary": "GDACS's event report (covering 6 June to 7 July 2026) assessed an overall Orange alert for medium humanitarian impact from flooding across southern and central China, citing 12 deaths and 85,197 people displaced. The flooding intensified in early July as the remnants of Typhoon Maysak brought torrential rain to Guangxi, Hunan and Hubei."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103933",
+    "location": {
+      "country": "China",
+      "lat": 27.1176,
+      "lon": 111.0272,
+      "region": "Guangxi, Hunan and Hubei provinces, with further effects reported in Guizhou, Liaoning, Guangdong, Jiangxi and Taiwan"
+    },
+    "occurrence_date": "2026-07-03",
+    "scale": "GDACS Orange alert (medium humanitarian impact)",
+    "status": "ongoing"
+  },
+  "id": "china-floods-guangxi-hunan-2026",
+  "last_updated": "2026-07-08T09:13:34Z",
+  "name": "Southern China Floods (Guangxi, Hunan, Hubei)",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-08T09:13:34Z",
+        "layer": "verify",
+        "run_id": "2026-07-08T09-13-34Z-e33f01"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-08T09-13-34Z-e33f01"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398002.0,
+    "impact_rank": 2,
+    "recency_rank": 739800
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
