@@ -3,10 +3,10 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-07",
+      "retrieved_date": "2026-07-09",
       "source_name": "UNHCR",
       "source_url": "https://data.unhcr.org/en/situations/sudansituation",
-      "text": "UNHCR's Operational Data Portal for the Sudan situation records Total Forcibly Displaced at 11,426,676 (last updated 29 June 2026), comprising 6,597,438 IDPs inside Sudan (data recorded since the conflict began in April 2023, last updated 15 June 2026), 273,064 refugees already residing in Sudan who were displaced since the start of the crisis (last updated 15 June 2026), and 4,556,174 newly arrived refugees, asylum-seekers and returnees outside Sudan (last updated 29 June 2026).",
+      "text": "UNHCR's Operational Data Portal for the Sudan situation records Total Forcibly Displaced at 11,426,676 (last updated 29 June 2026), comprising 6,597,438 IDPs inside Sudan (data recorded since the conflict began in April 2023, last updated 15 June 2026), 273,064 refugees already residing in Sudan who were displaced since the start of the crisis (last updated 15 June 2026), and 4,556,174 newly arrived refugees, asylum-seekers and returnees outside Sudan (last updated 29 June 2026). Re-checked 9 July 2026: no newer weekly regional update has been published since 1 July, so this remains the latest available figure.",
       "verification_status": "verified"
     },
     {
@@ -23,7 +23,7 @@
     "impact": {
       "deaths": null,
       "displaced": 11426676,
-      "summary": "As of UNHCR's Operational Data Portal update on 29 June 2026, Total Forcibly Displaced in the Sudan situation stood at 11,426,676 — 6,597,438 IDPs inside Sudan, 273,064 self-relocated refugees within Sudan, and 4,556,174 newly arrived refugees, asylum-seekers and returnees outside the country. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis."
+      "summary": "As of UNHCR's Operational Data Portal update on 29 June 2026 (re-checked 9 July 2026, still the latest published figure), Total Forcibly Displaced in the Sudan situation stood at 11,426,676 — 6,597,438 IDPs inside Sudan, 273,064 self-relocated refugees within Sudan, and 4,556,174 newly arrived refugees, asylum-seekers and returnees outside the country. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis."
     },
     "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
     "location": {
@@ -37,18 +37,18 @@
     "status": "ongoing"
   },
   "id": "sudan-displacement-crisis",
-  "last_updated": "2026-07-07T09:22:37Z",
+  "last_updated": "2026-07-09T09:14:16Z",
   "name": "Sudan Displacement Crisis",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-07T09:22:37Z",
+        "at": "2026-07-09T09:14:16Z",
         "layer": "verify",
-        "run_id": "2026-07-07T09-22-37Z-a63c98"
+        "run_id": "2026-07-09T09-14-16Z-40b316"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-07T09-22-37Z-a63c98"
+    "last_run_id": "2026-07-09T09-14-16Z-40b316"
   },
   "schema_version": "1.0",
   "sort_keys": {

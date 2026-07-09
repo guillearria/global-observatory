@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08T09:13:34Z",
+  "last_updated": "2026-07-09T09:14:17Z",
   "published": [
     {
       "category": "flood",
@@ -11,14 +11,22 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103933",
           "text": "GDACS's flood event report (GLIDE FL-2026-000105-CHN, covering 06 June 2026 to 07 July 2026) assessed an overall Orange alert, stating that 'flood can have a medium humanitarian impact based on the magnitude, exposed population and vulnerability,' and records official figures of 12 deaths and 85,197 people displaced across affected areas of China.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-09",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103933",
+          "text": "Re-checked 9 July 2026: GDACS's event report for the flood still shows the reporting window closed, spanning 06 Jun 2026 01:00 UTC to 07 Jul 2026 01:00 UTC, with the same 12 deaths and 85,197 displaced figures unchanged since the window closed, confirming no further escalation has been recorded.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Torrential rain from the remnants of Typhoon Maysak triggered severe flooding across Guangxi, Hunan, Hubei and neighbouring provinces of southern and central China in early July 2026, pushing rivers and reservoirs past danger thresholds and submerging villages. GDACS assessed an overall Orange alert for medium humanitarian impact, citing 12 deaths and 85,197 people displaced.",
+      "description": "Torrential rain from the remnants of Typhoon Maysak triggered severe flooding across Guangxi, Hunan, Hubei and neighbouring provinces of southern and central China in early July 2026, pushing rivers and reservoirs past danger thresholds and submerging villages. GDACS assessed an overall Orange alert for medium humanitarian impact, citing 12 deaths and 85,197 people displaced. GDACS's reporting window for the event closed on 7 July with no further escalation observed.",
       "event": {
         "impact": {
           "deaths": 12,
           "displaced": 85197,
-          "summary": "GDACS's event report (covering 6 June to 7 July 2026) assessed an overall Orange alert for medium humanitarian impact from flooding across southern and central China, citing 12 deaths and 85,197 people displaced. The flooding intensified in early July as the remnants of Typhoon Maysak brought torrential rain to Guangxi, Hunan and Hubei."
+          "summary": "GDACS's event report (covering 6 June to 7 July 2026) assessed an overall Orange alert for medium humanitarian impact from flooding across southern and central China, citing 12 deaths and 85,197 people displaced. The flooding intensified in early July as the remnants of Typhoon Maysak brought torrential rain to Guangxi, Hunan and Hubei. As of 9 July 2026, GDACS's reporting window remains closed at 7 July with no updated death or displacement figures, indicating the event has concluded."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103933",
         "location": {
@@ -29,21 +37,21 @@
         },
         "occurrence_date": "2026-07-03",
         "scale": "GDACS Orange alert (medium humanitarian impact)",
-        "status": "ongoing"
+        "status": "resolved"
       },
       "id": "china-floods-guangxi-hunan-2026",
-      "last_updated": "2026-07-08T09:13:34Z",
+      "last_updated": "2026-07-09T09:14:16Z",
       "name": "Southern China Floods (Guangxi, Hunan, Hubei)",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-08T09:13:34Z",
+            "at": "2026-07-09T09:14:16Z",
             "layer": "verify",
-            "run_id": "2026-07-08T09-13-34Z-e33f01"
+            "run_id": "2026-07-09T09-14-16Z-5391a9"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-08T09-13-34Z-e33f01"
+        "last_run_id": "2026-07-09T09-14-16Z-5391a9"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -53,7 +61,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -70,10 +78,10 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-07-08",
+          "retrieved_date": "2026-07-09",
           "source_name": "WHO",
           "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612",
-          "text": "In total, 1481 confirmed cases; 1460 from the Democratic Republic of the Congo, 20 from Uganda and one from France (linked to DRC); and 454 deaths including two from Uganda, have been reported. As of 1 July 2026, the Democratic Republic of the Congo had reported 1,460 confirmed cases including 452 deaths (case fatality ratio 30.9%) and 213 recovered; as of 2 July 2026 Uganda had reported 20 confirmed cases including two deaths and one probable case (deceased), with 16 recovered. Re-confirmed 8 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July 2026, referencing prior DON 608 of 19 June) remains the latest published report, with the outbreak active in 21 health zones and Uganda reporting no new cases since 21 June.",
+          "text": "In total, 1481 confirmed cases; 1460 from the Democratic Republic of the Congo, 20 from Uganda and one from France (linked to DRC); and 454 deaths including two from Uganda, have been reported. As of 1 July 2026, the Democratic Republic of the Congo had reported 1,460 confirmed cases including 452 deaths (case fatality ratio 30.9%) and 213 recovered; as of 2 July 2026 Uganda had reported 20 confirmed cases including two deaths and one probable case (deceased), with 16 recovered. Re-confirmed 9 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July 2026, referencing prior DON 608 of 19 June) remains the latest published report — no newer DON has superseded it — with the outbreak active in 21 health zones and Uganda reporting no new cases since 21 June.",
           "verification_status": "verified"
         }
       ],
@@ -82,7 +90,7 @@
         "impact": {
           "deaths": 454,
           "displaced": null,
-          "summary": "As of 1 July 2026, WHO reported 1,481 confirmed cases (1,460 in DRC, 20 in Uganda, and 1 imported case in France) and 454 deaths (452 in DRC, 2 in Uganda), a case fatality ratio of 30.9% in DRC. Re-checked 8 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July) remains the latest published update, with the outbreak active in 21 health zones and no new cases in Uganda since 21 June."
+          "summary": "As of 1 July 2026, WHO reported 1,481 confirmed cases (1,460 in DRC, 20 in Uganda, and 1 imported case in France) and 454 deaths (452 in DRC, 2 in Uganda), a case fatality ratio of 30.9% in DRC. Re-checked 9 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July) remains the latest published update, with the outbreak active in 21 health zones and no new cases in Uganda since 21 June."
         },
         "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
         "location": {
@@ -96,18 +104,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-08T09:09:15Z",
+      "last_updated": "2026-07-09T09:14:16Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-08T09:09:15Z",
+            "at": "2026-07-09T09:14:16Z",
             "layer": "verify",
-            "run_id": "2026-07-08T09-09-15Z-634894"
+            "run_id": "2026-07-09T09-14-16Z-84beb8"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-08T09-09-15Z-634894"
+        "last_run_id": "2026-07-09T09-14-16Z-84beb8"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -131,14 +139,22 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029331",
           "text": "GDACS's forest fire event report for France (event 1029331, covering 04-07 July 2026) assessed an Orange alert, stating 'forest fire can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability,' with 6,561 hectares burned and 5,570 people exposed in the burned area.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-09",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029331",
+          "text": "Re-checked 9 July 2026: GDACS's event report now shows a start date to last-detection window of 04 Jul 2026 to 08 Jul 2026 (duration 4 days), with 6,576 hectares burned and 5,570 people affected in the burned area; no thermal anomaly has been detected since 08 Jul 2026, indicating the fire is no longer actively spreading.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A wildfire broke out in the Pyrénées-Orientales department of southern France in early July 2026, burning through mountainous terrain in the foothills of the Pyrenees near Perpignan. The EU's Copernicus Emergency Management Service activated rapid mapping for the area, and GDACS assessed an Orange alert for medium humanitarian impact as the fire spread.",
+      "description": "A wildfire broke out in the Pyrénées-Orientales department of southern France in early July 2026, burning through mountainous terrain in the foothills of the Pyrenees near Perpignan. The EU's Copernicus Emergency Management Service activated rapid mapping for the area, and GDACS assessed an Orange alert for medium humanitarian impact as the fire spread. No further thermal anomalies have been detected since 8 July, indicating the fire is now contained.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's continuously updated event report assessed an Orange alert (medium humanitarian impact) for a wildfire burning in the Pyrénées-Orientales department of France between 4 and 7 July 2026, citing about 6,561 hectares burned and roughly 5,570 people exposed within the fire-affected area."
+          "summary": "GDACS's event report assessed an Orange alert (medium humanitarian impact) for a wildfire burning in the Pyrénées-Orientales department of France between 4 and 8 July 2026, citing about 6,576 hectares burned and roughly 5,570 people exposed within the fire-affected area. As of 9 July 2026, GDACS records no thermal anomaly detections since 8 July, indicating the fire is now contained."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029331",
         "location": {
@@ -148,22 +164,22 @@
           "region": "Pyrénées-Orientales department, near Perpignan (Pyrenees foothills)"
         },
         "occurrence_date": "2026-07-04",
-        "scale": "GDACS Orange alert (6,561 ha burned)",
-        "status": "ongoing"
+        "scale": "GDACS Orange alert (6,576 ha burned)",
+        "status": "contained"
       },
       "id": "france-wildfires-pyrenees-2026",
-      "last_updated": "2026-07-08T09:13:34Z",
+      "last_updated": "2026-07-09T09:14:16Z",
       "name": "Wildfire — Pyrénées-Orientales, France",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-08T09:13:34Z",
+            "at": "2026-07-09T09:14:16Z",
             "layer": "verify",
-            "run_id": "2026-07-08T09-13-34Z-f28ddc"
+            "run_id": "2026-07-09T09-14-16Z-3d98e9"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-08T09-13-34Z-f28ddc"
+        "last_run_id": "2026-07-09T09-14-16Z-3d98e9"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -173,7 +189,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -206,10 +222,10 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-07-07",
+          "retrieved_date": "2026-07-09",
           "source_name": "ReliefWeb",
-          "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-54-effects-mw-78-earthquake-incident-maasim-sarangani-07-july-2026-6am",
-          "text": "DSWD DROMIC Report #54, as of 07 July 2026, 6AM, reports 391,871 families (1,655,313 persons) affected in 650 barangays across Regions IX, XI, XII and BARMM, with 24,148 families (92,628 persons) still displaced — 7,059 families (28,462 persons) inside 74 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 113,412 houses were damaged, of which 18,384 were totally destroyed and 95,028 partially damaged.",
+          "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-58-effects-mw-78-earthquake-incident-maasim-sarangani-09-july-2026-6am",
+          "text": "DSWD DROMIC Report #58, as of 09 July 2026, 6AM, reports 391,891 families (1,655,313 persons) affected in 650 barangays across Regions IX, XI, XII and BARMM, with 24,097 families (92,256 persons) still displaced — 7,008 families (28,090 persons) inside 74 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,426 houses were damaged, of which 19,305 were totally destroyed and 102,121 partially damaged.",
           "verification_status": "verified"
         }
       ],
@@ -217,8 +233,8 @@
       "event": {
         "impact": {
           "deaths": 77,
-          "displaced": 92628,
-          "summary": "As of 7 July 2026, DSWD DROMIC reported 1,655,313 people (391,871 families) affected across 650 barangays in Regions IX, XI, XII and BARMM, with 92,628 people still displaced. A total of 113,412 houses have been damaged, including 18,384 totally destroyed. Government figures last reported 77 deaths (as of 23 June). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
+          "displaced": 92256,
+          "summary": "As of 9 July 2026, DSWD DROMIC reported 1,655,313 people (391,891 families) affected across 650 barangays in Regions IX, XI, XII and BARMM, with 92,256 people still displaced. A total of 121,426 houses have been damaged, including 19,305 totally destroyed. Government figures last reported 77 deaths (as of 23 June). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
         "location": {
@@ -232,18 +248,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-07-07T09:22:37Z",
+      "last_updated": "2026-07-09T09:14:16Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-07T09:22:37Z",
+            "at": "2026-07-09T09:14:16Z",
             "layer": "verify",
-            "run_id": "2026-07-07T09-22-37Z-eee2d6"
+            "run_id": "2026-07-09T09-14-16Z-6ae965"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-07T09-22-37Z-eee2d6"
+        "last_run_id": "2026-07-09T09-14-16Z-6ae965"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -267,14 +283,22 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029260",
           "text": "GDACS's forest fire event report for Portugal (event 1029260, covering 02-08 July 2026) assessed an Orange alert, stating 'forest fire can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability,' with 19,670 hectares burned and 9,361 people exposed in the burned area.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-09",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029260",
+          "text": "Re-checked 9 July 2026: GDACS's event report still shows a start date to last-detection window of 02 Jul 2026 to 08 Jul 2026 (duration 6 days), with 19,670 hectares burned and 9,361 people affected in the burned area unchanged; no thermal anomaly has been detected since 08 Jul 2026, indicating the fires are no longer actively spreading.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Multiple wildfires broke out across inland northern and central Portugal in early July 2026 amid a severe heatwave, drought-dry vegetation and strong winds, with the most serious fronts concentrated around the Viseu district. GDACS assessed an Orange alert for medium humanitarian impact as the fires spread.",
+      "description": "Multiple wildfires broke out across inland northern and central Portugal in early July 2026 amid a severe heatwave, drought-dry vegetation and strong winds, with the most serious fronts concentrated around the Viseu district. GDACS assessed an Orange alert for medium humanitarian impact as the fires spread. No further thermal anomalies have been detected since 8 July, indicating the fires are now contained.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's continuously updated event report assessed an Orange alert (medium humanitarian impact) for wildfires burning across Portugal between 2 and 8 July 2026, citing about 19,670 hectares burned and roughly 9,361 people exposed within the fire-affected area."
+          "summary": "GDACS's event report assessed an Orange alert (medium humanitarian impact) for wildfires burning across Portugal between 2 and 8 July 2026, citing about 19,670 hectares burned and roughly 9,361 people exposed within the fire-affected area. As of 9 July 2026, GDACS records no thermal anomaly detections since 8 July, indicating the fires are now contained."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029260",
         "location": {
@@ -285,21 +309,21 @@
         },
         "occurrence_date": "2026-07-02",
         "scale": "GDACS Orange alert (19,670 ha burned)",
-        "status": "ongoing"
+        "status": "contained"
       },
       "id": "portugal-wildfires-2026",
-      "last_updated": "2026-07-08T09:13:34Z",
+      "last_updated": "2026-07-09T09:14:17Z",
       "name": "Wildfires — Portugal",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-08T09:13:34Z",
+            "at": "2026-07-09T09:14:17Z",
             "layer": "verify",
-            "run_id": "2026-07-08T09-13-34Z-a2aacf"
+            "run_id": "2026-07-09T09-14-17Z-7d66ce"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-08T09-13-34Z-a2aacf"
+        "last_run_id": "2026-07-09T09-14-17Z-7d66ce"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -309,7 +333,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -318,10 +342,10 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-07-07",
+          "retrieved_date": "2026-07-09",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/situations/sudansituation",
-          "text": "UNHCR's Operational Data Portal for the Sudan situation records Total Forcibly Displaced at 11,426,676 (last updated 29 June 2026), comprising 6,597,438 IDPs inside Sudan (data recorded since the conflict began in April 2023, last updated 15 June 2026), 273,064 refugees already residing in Sudan who were displaced since the start of the crisis (last updated 15 June 2026), and 4,556,174 newly arrived refugees, asylum-seekers and returnees outside Sudan (last updated 29 June 2026).",
+          "text": "UNHCR's Operational Data Portal for the Sudan situation records Total Forcibly Displaced at 11,426,676 (last updated 29 June 2026), comprising 6,597,438 IDPs inside Sudan (data recorded since the conflict began in April 2023, last updated 15 June 2026), 273,064 refugees already residing in Sudan who were displaced since the start of the crisis (last updated 15 June 2026), and 4,556,174 newly arrived refugees, asylum-seekers and returnees outside Sudan (last updated 29 June 2026). Re-checked 9 July 2026: no newer weekly regional update has been published since 1 July, so this remains the latest available figure.",
           "verification_status": "verified"
         },
         {
@@ -338,7 +362,7 @@
         "impact": {
           "deaths": null,
           "displaced": 11426676,
-          "summary": "As of UNHCR's Operational Data Portal update on 29 June 2026, Total Forcibly Displaced in the Sudan situation stood at 11,426,676 — 6,597,438 IDPs inside Sudan, 273,064 self-relocated refugees within Sudan, and 4,556,174 newly arrived refugees, asylum-seekers and returnees outside the country. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis."
+          "summary": "As of UNHCR's Operational Data Portal update on 29 June 2026 (re-checked 9 July 2026, still the latest published figure), Total Forcibly Displaced in the Sudan situation stood at 11,426,676 — 6,597,438 IDPs inside Sudan, 273,064 self-relocated refugees within Sudan, and 4,556,174 newly arrived refugees, asylum-seekers and returnees outside the country. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis."
         },
         "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
         "location": {
@@ -352,18 +376,18 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-07-07T09:22:37Z",
+      "last_updated": "2026-07-09T09:14:16Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-07T09:22:37Z",
+            "at": "2026-07-09T09:14:16Z",
             "layer": "verify",
-            "run_id": "2026-07-07T09-22-37Z-a63c98"
+            "run_id": "2026-07-09T09-14-16Z-40b316"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-07T09-22-37Z-a63c98"
+        "last_run_id": "2026-07-09T09-14-16Z-40b316"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -419,39 +443,47 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1001279&episodeid=30&eventtype=TC",
           "text": "GDACS's episode 30 report (issued 08 July 2026, 04:00 UTC) shows Tropical Cyclone BAVI-26's overall alert level remaining Red, with the current episode also assessed Red, as the storm tracks west-northwestward over the Philippine Sea toward the Philippine Area of Responsibility, Taiwan, Japan and China; cumulative population exposed to Category 1 (120 km/h) or higher winds across the event is now approximately 29.988 million (about 30 million), and maximum sustained winds over the event's history reached 287 km/h (Category 5).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-07-09",
+          "source_name": "GDACS",
+          "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
+          "text": "GDACS's event report (episode 34, current as of 9 July 2026) shows the event window now spanning 01 Jul 2026 00:00 UTC to 09 Jul 2026 06:00 UTC, with the overall alert level remaining Red, maximum sustained wind of 287 km/h (Category 5), and cumulative exposed population of 38.5 million in Category 1 or higher winds across Guam, the Northern Mariana Islands, Japan, Taiwan and China.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 287 km/h, prompting GDACS to issue an overall Red alert as the storm tracked through Guam and the Northern Mariana Islands. After passing near Rota, the storm continued west, entering the Philippine Area of Responsibility on 8 July (locally named Inday) and is forecast to track near Taiwan and Japan's Ryukyu Islands around 10-11 July before a possible landfall in southeastern China around 12 July. GDACS's overall alert has remained Red throughout as the storm approaches more densely populated areas.",
+      "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 287 km/h, prompting GDACS to issue an overall Red alert as the storm tracked through Guam and the Northern Mariana Islands. After passing near Rota, the storm continued west, entering the Philippine Area of Responsibility on 8 July (locally named Inday) and continues tracking toward Taiwan, Japan's Ryukyu Islands and China. GDACS's overall alert has remained Red throughout as the storm approaches more densely populated areas.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) remains at GDACS's highest overall Red alert. It peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July, then continued west. As of GDACS's episode 30 report (8 July 2026, 04:00 UTC), the current episode is also assessed Red, with cumulative population exposed to Category 1+ winds across the event's track now approximately 30 million as the storm approaches Taiwan, Japan's Ryukyu Islands and China. No fatalities have been confirmed to date."
+          "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) remains at GDACS's highest overall Red alert. It peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July, then continued west. As of GDACS's event report (9 July 2026), the event spans 01-09 July with cumulative population exposed to Category 1+ winds across the event's track now approximately 38.5 million as the storm tracks over the Philippine Sea toward Taiwan, Japan's Ryukyu Islands and China. No fatalities have been confirmed to date."
         },
         "live_source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
         "location": {
           "country": "Guam / Northern Mariana Islands (United States); tracking toward Philippines, Taiwan, Japan, China",
           "lat": 13.9,
           "lon": 145.0,
-          "region": "Western North Pacific, passing near Rota between Guam and Saipan, now approaching East Asia"
+          "region": "Western North Pacific, having passed near Rota between Guam and Saipan, now entering the Philippine Sea toward East Asia"
         },
         "occurrence_date": "2026-07-01",
         "scale": "Category 5 (GDACS Red alert)",
         "status": "ongoing"
       },
       "id": "typhoon-bavi-guam-mariana-2026",
-      "last_updated": "2026-07-08T09:08:30Z",
+      "last_updated": "2026-07-09T09:14:17Z",
       "name": "Super Typhoon Bavi — Guam & Northern Mariana Islands",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-08T09:08:30Z",
+            "at": "2026-07-09T09:14:17Z",
             "layer": "verify",
-            "run_id": "2026-07-08T09-08-30Z-bbb086"
+            "run_id": "2026-07-09T09-14-17Z-beab81"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-08T09-08-30Z-bbb086"
+        "last_run_id": "2026-07-09T09-14-17Z-beab81"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -461,7 +493,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -494,19 +526,19 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-07-07",
+          "retrieved_date": "2026-07-09",
           "source_name": "ReliefWeb",
-          "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-13-06-july-2026-time-0800-pm",
-          "text": "OCHA's Situation Report #13 (06 July 2026, 8:00 pm) states that more than a week after the earthquakes, authorities report a toll of 3,535 people dead, 16,740 injured, and 6,462 rescued since the onset of the emergency. Authorities also reported that approximately 17,854 people lost their homes. Authorities report more than 1,000 aftershocks, and at least seven (7) states have been impacted, with La Guaira remaining the most affected state.",
+          "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-14-07-july-2026-time-0900-pm",
+          "text": "OCHA's Situation Report #14 (07 July 2026, 9:00 pm) states that authorities report an official toll of 3,685 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes. Authorities also reported that approximately 17,907 people lost their homes and that more than 1,076 aftershocks have been recorded, with at least seven (7) states impacted and La Guaira remaining the most affected state.",
           "verification_status": "verified"
         }
       ],
       "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. More than a week on, the confirmed death toll and humanitarian needs have continued to climb.",
       "event": {
         "impact": {
-          "deaths": 3535,
-          "displaced": 17854,
-          "summary": "As of 6 July 2026, OCHA reported an official toll of 3,535 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes. Approximately 17,854 people lost their homes, and more than 1,000 aftershocks have been recorded. 1.8 million people are in need of humanitarian assistance including 680,000 children across the affected states."
+          "deaths": 3685,
+          "displaced": 17907,
+          "summary": "As of 7 July 2026, OCHA reported an official toll of 3,685 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes. Approximately 17,907 people lost their homes, and more than 1,076 aftershocks have been recorded. 1.8 million people are in need of humanitarian assistance including 680,000 children across the affected states."
         },
         "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp/executive",
         "location": {
@@ -520,18 +552,18 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-07-07T09:22:37Z",
+      "last_updated": "2026-07-09T09:14:16Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-07T09:22:37Z",
+            "at": "2026-07-09T09:14:16Z",
             "layer": "verify",
-            "run_id": "2026-07-07T09-22-37Z-854f32"
+            "run_id": "2026-07-09T09-14-16Z-e6be5a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-07T09-22-37Z-854f32"
+        "last_run_id": "2026-07-09T09-14-16Z-e6be5a"
       },
       "schema_version": "1.0",
       "sort_keys": {

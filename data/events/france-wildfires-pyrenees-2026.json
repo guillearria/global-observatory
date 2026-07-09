@@ -8,14 +8,22 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029331",
       "text": "GDACS's forest fire event report for France (event 1029331, covering 04-07 July 2026) assessed an Orange alert, stating 'forest fire can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability,' with 6,561 hectares burned and 5,570 people exposed in the burned area.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-09",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029331",
+      "text": "Re-checked 9 July 2026: GDACS's event report now shows a start date to last-detection window of 04 Jul 2026 to 08 Jul 2026 (duration 4 days), with 6,576 hectares burned and 5,570 people affected in the burned area; no thermal anomaly has been detected since 08 Jul 2026, indicating the fire is no longer actively spreading.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A wildfire broke out in the Pyrénées-Orientales department of southern France in early July 2026, burning through mountainous terrain in the foothills of the Pyrenees near Perpignan. The EU's Copernicus Emergency Management Service activated rapid mapping for the area, and GDACS assessed an Orange alert for medium humanitarian impact as the fire spread.",
+  "description": "A wildfire broke out in the Pyrénées-Orientales department of southern France in early July 2026, burning through mountainous terrain in the foothills of the Pyrenees near Perpignan. The EU's Copernicus Emergency Management Service activated rapid mapping for the area, and GDACS assessed an Orange alert for medium humanitarian impact as the fire spread. No further thermal anomalies have been detected since 8 July, indicating the fire is now contained.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's continuously updated event report assessed an Orange alert (medium humanitarian impact) for a wildfire burning in the Pyrénées-Orientales department of France between 4 and 7 July 2026, citing about 6,561 hectares burned and roughly 5,570 people exposed within the fire-affected area."
+      "summary": "GDACS's event report assessed an Orange alert (medium humanitarian impact) for a wildfire burning in the Pyrénées-Orientales department of France between 4 and 8 July 2026, citing about 6,576 hectares burned and roughly 5,570 people exposed within the fire-affected area. As of 9 July 2026, GDACS records no thermal anomaly detections since 8 July, indicating the fire is now contained."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029331",
     "location": {
@@ -25,22 +33,22 @@
       "region": "Pyrénées-Orientales department, near Perpignan (Pyrenees foothills)"
     },
     "occurrence_date": "2026-07-04",
-    "scale": "GDACS Orange alert (6,561 ha burned)",
-    "status": "ongoing"
+    "scale": "GDACS Orange alert (6,576 ha burned)",
+    "status": "contained"
   },
   "id": "france-wildfires-pyrenees-2026",
-  "last_updated": "2026-07-08T09:13:34Z",
+  "last_updated": "2026-07-09T09:14:16Z",
   "name": "Wildfire — Pyrénées-Orientales, France",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-08T09:13:34Z",
+        "at": "2026-07-09T09:14:16Z",
         "layer": "verify",
-        "run_id": "2026-07-08T09-13-34Z-f28ddc"
+        "run_id": "2026-07-09T09-14-16Z-3d98e9"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-08T09-13-34Z-f28ddc"
+    "last_run_id": "2026-07-09T09-14-16Z-3d98e9"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -50,7 +58,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
