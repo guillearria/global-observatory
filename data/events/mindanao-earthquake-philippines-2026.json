@@ -32,14 +32,22 @@
       "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-58-effects-mw-78-earthquake-incident-maasim-sarangani-09-july-2026-6am",
       "text": "DSWD DROMIC Report #58, as of 09 July 2026, 6AM, reports 391,891 families (1,655,313 persons) affected in 650 barangays across Regions IX, XI, XII and BARMM, with 24,097 families (92,256 persons) still displaced — 7,008 families (28,090 persons) inside 74 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,426 houses were damaged, of which 19,305 were totally destroyed and 102,121 partially damaged.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-07-10",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-60-effects-mw-78-earthquake-incident-maasim-sarangani-10-july-2026-6am",
+      "text": "DSWD DROMIC Report #60, as of 10 July 2026, 6AM, reports 391,871 families (1,655,313 persons) affected in 650 barangays across Regions IX, XI, XII and BARMM, with 24,919 families (95,129 persons) still displaced — 7,830 families (30,963 persons) inside 79 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,307 houses were damaged, of which 19,188 were totally destroyed and 102,119 partially damaged.",
+      "verification_status": "verified"
     }
   ],
   "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll and number of affected people climbed through late June as damage assessments continued, and eighteen local government units have declared a state of calamity.",
   "event": {
     "impact": {
       "deaths": 77,
-      "displaced": 92256,
-      "summary": "As of 9 July 2026, DSWD DROMIC reported 1,655,313 people (391,891 families) affected across 650 barangays in Regions IX, XI, XII and BARMM, with 92,256 people still displaced. A total of 121,426 houses have been damaged, including 19,305 totally destroyed. Government figures last reported 77 deaths (as of 23 June). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
+      "displaced": 95129,
+      "summary": "As of 10 July 2026, DSWD DROMIC reported 1,655,313 people (391,871 families) affected across 650 barangays in Regions IX, XI, XII and BARMM, with 95,129 people still displaced. A total of 121,307 houses have been damaged, including 19,188 totally destroyed. Government figures last reported 77 deaths (as of 23 June, per ReliefWeb's disaster overview, still the latest allowlisted-source figure). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
     "location": {
@@ -53,18 +61,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-07-09T09:14:16Z",
+  "last_updated": "2026-07-10T09:15:24Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-09T09:14:16Z",
+        "at": "2026-07-10T09:15:24Z",
         "layer": "verify",
-        "run_id": "2026-07-09T09-14-16Z-6ae965"
+        "run_id": "2026-07-10T09-15-24Z-0d3e4e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-09T09-14-16Z-6ae965"
+    "last_run_id": "2026-07-10T09-15-24Z-0d3e4e"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -74,7 +82,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

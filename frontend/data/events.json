@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09T09:14:17Z",
+  "last_updated": "2026-07-10T09:15:24Z",
   "published": [
     {
       "category": "flood",
@@ -78,10 +78,10 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-07-09",
+          "retrieved_date": "2026-07-10",
           "source_name": "WHO",
           "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612",
-          "text": "In total, 1481 confirmed cases; 1460 from the Democratic Republic of the Congo, 20 from Uganda and one from France (linked to DRC); and 454 deaths including two from Uganda, have been reported. As of 1 July 2026, the Democratic Republic of the Congo had reported 1,460 confirmed cases including 452 deaths (case fatality ratio 30.9%) and 213 recovered; as of 2 July 2026 Uganda had reported 20 confirmed cases including two deaths and one probable case (deceased), with 16 recovered. Re-confirmed 9 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July 2026, referencing prior DON 608 of 19 June) remains the latest published report — no newer DON has superseded it — with the outbreak active in 21 health zones and Uganda reporting no new cases since 21 June.",
+          "text": "In total, 1481 confirmed cases; 1460 from the Democratic Republic of the Congo, 20 from Uganda and one from France (linked to DRC); and 454 deaths including two from Uganda, have been reported. As of 1 July 2026, the Democratic Republic of the Congo had reported 1,460 confirmed cases including 452 deaths (case fatality ratio 30.9%) and 213 recovered; as of 2 July 2026 Uganda had reported 20 confirmed cases including two deaths and one probable case (deceased), with 16 recovered. Re-confirmed 10 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July 2026, referencing prior DON 608 of 19 June) remains the latest published report — no newer DON has superseded it — with the outbreak active in 21 health zones and Uganda reporting no new cases since 21 June.",
           "verification_status": "verified"
         }
       ],
@@ -90,7 +90,7 @@
         "impact": {
           "deaths": 454,
           "displaced": null,
-          "summary": "As of 1 July 2026, WHO reported 1,481 confirmed cases (1,460 in DRC, 20 in Uganda, and 1 imported case in France) and 454 deaths (452 in DRC, 2 in Uganda), a case fatality ratio of 30.9% in DRC. Re-checked 9 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July) remains the latest published update, with the outbreak active in 21 health zones and no new cases in Uganda since 21 June."
+          "summary": "As of 1 July 2026, WHO reported 1,481 confirmed cases (1,460 in DRC, 20 in Uganda, and 1 imported case in France) and 454 deaths (452 in DRC, 2 in Uganda), a case fatality ratio of 30.9% in DRC. Re-checked 10 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July) remains the latest published update, with the outbreak active in 21 health zones and no new cases in Uganda since 21 June."
         },
         "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
         "location": {
@@ -104,18 +104,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-09T09:14:16Z",
+      "last_updated": "2026-07-10T09:15:23Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-09T09:14:16Z",
+            "at": "2026-07-10T09:15:23Z",
             "layer": "verify",
-            "run_id": "2026-07-09T09-14-16Z-84beb8"
+            "run_id": "2026-07-10T09-15-23Z-ba9db4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-09T09-14-16Z-84beb8"
+        "last_run_id": "2026-07-10T09-15-23Z-ba9db4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -227,14 +227,22 @@
           "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-58-effects-mw-78-earthquake-incident-maasim-sarangani-09-july-2026-6am",
           "text": "DSWD DROMIC Report #58, as of 09 July 2026, 6AM, reports 391,891 families (1,655,313 persons) affected in 650 barangays across Regions IX, XI, XII and BARMM, with 24,097 families (92,256 persons) still displaced — 7,008 families (28,090 persons) inside 74 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,426 houses were damaged, of which 19,305 were totally destroyed and 102,121 partially damaged.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-07-10",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-60-effects-mw-78-earthquake-incident-maasim-sarangani-10-july-2026-6am",
+          "text": "DSWD DROMIC Report #60, as of 10 July 2026, 6AM, reports 391,871 families (1,655,313 persons) affected in 650 barangays across Regions IX, XI, XII and BARMM, with 24,919 families (95,129 persons) still displaced — 7,830 families (30,963 persons) inside 79 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,307 houses were damaged, of which 19,188 were totally destroyed and 102,119 partially damaged.",
+          "verification_status": "verified"
         }
       ],
       "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll and number of affected people climbed through late June as damage assessments continued, and eighteen local government units have declared a state of calamity.",
       "event": {
         "impact": {
           "deaths": 77,
-          "displaced": 92256,
-          "summary": "As of 9 July 2026, DSWD DROMIC reported 1,655,313 people (391,891 families) affected across 650 barangays in Regions IX, XI, XII and BARMM, with 92,256 people still displaced. A total of 121,426 houses have been damaged, including 19,305 totally destroyed. Government figures last reported 77 deaths (as of 23 June). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
+          "displaced": 95129,
+          "summary": "As of 10 July 2026, DSWD DROMIC reported 1,655,313 people (391,871 families) affected across 650 barangays in Regions IX, XI, XII and BARMM, with 95,129 people still displaced. A total of 121,307 houses have been damaged, including 19,188 totally destroyed. Government figures last reported 77 deaths (as of 23 June, per ReliefWeb's disaster overview, still the latest allowlisted-source figure). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
         "location": {
@@ -248,18 +256,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-07-09T09:14:16Z",
+      "last_updated": "2026-07-10T09:15:24Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-09T09:14:16Z",
+            "at": "2026-07-10T09:15:24Z",
             "layer": "verify",
-            "run_id": "2026-07-09T09-14-16Z-6ae965"
+            "run_id": "2026-07-10T09-15-24Z-0d3e4e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-09T09-14-16Z-6ae965"
+        "last_run_id": "2026-07-10T09-15-24Z-0d3e4e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -269,7 +277,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -342,10 +350,10 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-07-09",
+          "retrieved_date": "2026-07-10",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/situations/sudansituation",
-          "text": "UNHCR's Operational Data Portal for the Sudan situation records Total Forcibly Displaced at 11,426,676 (last updated 29 June 2026), comprising 6,597,438 IDPs inside Sudan (data recorded since the conflict began in April 2023, last updated 15 June 2026), 273,064 refugees already residing in Sudan who were displaced since the start of the crisis (last updated 15 June 2026), and 4,556,174 newly arrived refugees, asylum-seekers and returnees outside Sudan (last updated 29 June 2026). Re-checked 9 July 2026: no newer weekly regional update has been published since 1 July, so this remains the latest available figure.",
+          "text": "UNHCR's Operational Data Portal for the Sudan situation records Total Forcibly Displaced at 11,431,220 (last updated 06 July 2026), comprising 6,597,438 IDPs inside Sudan (last updated 15 June 2026), 273,081 self-relocated refugees in Sudan (last updated 06 July 2026), and 4,560,701 total newly arrived refugees, asylum-seekers and returnees outside Sudan (last updated 06 July 2026).",
           "verification_status": "verified"
         },
         {
@@ -361,8 +369,8 @@
       "event": {
         "impact": {
           "deaths": null,
-          "displaced": 11426676,
-          "summary": "As of UNHCR's Operational Data Portal update on 29 June 2026 (re-checked 9 July 2026, still the latest published figure), Total Forcibly Displaced in the Sudan situation stood at 11,426,676 — 6,597,438 IDPs inside Sudan, 273,064 self-relocated refugees within Sudan, and 4,556,174 newly arrived refugees, asylum-seekers and returnees outside the country. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis."
+          "displaced": 11431220,
+          "summary": "As of UNHCR's Operational Data Portal update on 06 July 2026, Total Forcibly Displaced in the Sudan situation stood at 11,431,220 — 6,597,438 IDPs inside Sudan, 273,081 self-relocated refugees within Sudan, and 4,560,701 newly arrived refugees, asylum-seekers and returnees outside the country. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis."
         },
         "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
         "location": {
@@ -376,18 +384,18 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-07-09T09:14:16Z",
+      "last_updated": "2026-07-10T09:15:24Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-09T09:14:16Z",
+            "at": "2026-07-10T09:15:24Z",
             "layer": "verify",
-            "run_id": "2026-07-09T09-14-16Z-40b316"
+            "run_id": "2026-07-10T09-15-24Z-2da464"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-09T09-14-16Z-40b316"
+        "last_run_id": "2026-07-10T09-15-24Z-2da464"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -451,6 +459,14 @@
           "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
           "text": "GDACS's event report (episode 34, current as of 9 July 2026) shows the event window now spanning 01 Jul 2026 00:00 UTC to 09 Jul 2026 06:00 UTC, with the overall alert level remaining Red, maximum sustained wind of 287 km/h (Category 5), and cumulative exposed population of 38.5 million in Category 1 or higher winds across Guam, the Northern Mariana Islands, Japan, Taiwan and China.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-07-10",
+          "source_name": "GDACS",
+          "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
+          "text": "GDACS's event report (current as of 10 July 2026) shows the event window now spanning 01 Jul 2026 00:00 UTC to 10 Jul 2026 00:00 UTC, with the overall alert level remaining Red, maximum sustained wind of 287 km/h (Category 5), and cumulative exposed population of approximately 52.978 million in Category 1 (120 km/h) or higher winds.",
+          "verification_status": "verified"
         }
       ],
       "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 287 km/h, prompting GDACS to issue an overall Red alert as the storm tracked through Guam and the Northern Mariana Islands. After passing near Rota, the storm continued west, entering the Philippine Area of Responsibility on 8 July (locally named Inday) and continues tracking toward Taiwan, Japan's Ryukyu Islands and China. GDACS's overall alert has remained Red throughout as the storm approaches more densely populated areas.",
@@ -458,7 +474,7 @@
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) remains at GDACS's highest overall Red alert. It peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July, then continued west. As of GDACS's event report (9 July 2026), the event spans 01-09 July with cumulative population exposed to Category 1+ winds across the event's track now approximately 38.5 million as the storm tracks over the Philippine Sea toward Taiwan, Japan's Ryukyu Islands and China. No fatalities have been confirmed to date."
+          "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) remains at GDACS's highest overall Red alert. It peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July, then continued west toward East Asia. As of GDACS's event report (10 July 2026), the event spans 01-10 July with cumulative population exposed to Category 1+ winds now approximately 52.978 million (about 53 million) as the storm tracks toward Taiwan, Japan's Ryukyu Islands and China. GDACS's report does not list a confirmed fatality count for the event."
         },
         "live_source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
         "location": {
@@ -472,18 +488,18 @@
         "status": "ongoing"
       },
       "id": "typhoon-bavi-guam-mariana-2026",
-      "last_updated": "2026-07-09T09:14:17Z",
+      "last_updated": "2026-07-10T09:15:24Z",
       "name": "Super Typhoon Bavi — Guam & Northern Mariana Islands",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-09T09:14:17Z",
+            "at": "2026-07-10T09:15:24Z",
             "layer": "verify",
-            "run_id": "2026-07-09T09-14-17Z-beab81"
+            "run_id": "2026-07-10T09-15-24Z-7978fa"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-09T09-14-17Z-beab81"
+        "last_run_id": "2026-07-10T09-15-24Z-7978fa"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -493,7 +509,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -531,14 +547,22 @@
           "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-14-07-july-2026-time-0900-pm",
           "text": "OCHA's Situation Report #14 (07 July 2026, 9:00 pm) states that authorities report an official toll of 3,685 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes. Authorities also reported that approximately 17,907 people lost their homes and that more than 1,076 aftershocks have been recorded, with at least seven (7) states impacted and La Guaira remaining the most affected state.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-07-10",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-15-08-july-2026-time-0900-pm",
+          "text": "OCHA's Situation Report #15 (08 July 2026, 9:00 pm) states that authorities report an official toll of 3,811 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes; approximately 17,907 people lost their homes and more than 1,100 aftershocks have been recorded. An additional appeal for US$296 million was launched to scale up the earthquake response for 1.3 million people over the next six months.",
+          "verification_status": "verified"
         }
       ],
       "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. More than a week on, the confirmed death toll and humanitarian needs have continued to climb.",
       "event": {
         "impact": {
-          "deaths": 3685,
+          "deaths": 3811,
           "displaced": 17907,
-          "summary": "As of 7 July 2026, OCHA reported an official toll of 3,685 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes. Approximately 17,907 people lost their homes, and more than 1,076 aftershocks have been recorded. 1.8 million people are in need of humanitarian assistance including 680,000 children across the affected states."
+          "summary": "As of 8 July 2026, OCHA reported an official toll of 3,811 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes. Approximately 17,907 people lost their homes, and more than 1,100 aftershocks have been recorded. 1.8 million people were in need of humanitarian assistance including 680,000 children across the affected states (per OCHA's 1 July update); a further US$296 million appeal was launched on 8 July to support 1.3 million people over the next six months."
         },
         "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp/executive",
         "location": {
@@ -552,18 +576,18 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-07-09T09:14:16Z",
+      "last_updated": "2026-07-10T09:15:24Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-09T09:14:16Z",
+            "at": "2026-07-10T09:15:24Z",
             "layer": "verify",
-            "run_id": "2026-07-09T09-14-16Z-e6be5a"
+            "run_id": "2026-07-10T09-15-24Z-5b6b6b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-09T09-14-16Z-e6be5a"
+        "last_run_id": "2026-07-10T09-15-24Z-5b6b6b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -573,7 +597,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }

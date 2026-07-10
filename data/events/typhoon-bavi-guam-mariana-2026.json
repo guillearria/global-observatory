@@ -48,6 +48,14 @@
       "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
       "text": "GDACS's event report (episode 34, current as of 9 July 2026) shows the event window now spanning 01 Jul 2026 00:00 UTC to 09 Jul 2026 06:00 UTC, with the overall alert level remaining Red, maximum sustained wind of 287 km/h (Category 5), and cumulative exposed population of 38.5 million in Category 1 or higher winds across Guam, the Northern Mariana Islands, Japan, Taiwan and China.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-7",
+      "retrieved_date": "2026-07-10",
+      "source_name": "GDACS",
+      "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
+      "text": "GDACS's event report (current as of 10 July 2026) shows the event window now spanning 01 Jul 2026 00:00 UTC to 10 Jul 2026 00:00 UTC, with the overall alert level remaining Red, maximum sustained wind of 287 km/h (Category 5), and cumulative exposed population of approximately 52.978 million in Category 1 (120 km/h) or higher winds.",
+      "verification_status": "verified"
     }
   ],
   "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 287 km/h, prompting GDACS to issue an overall Red alert as the storm tracked through Guam and the Northern Mariana Islands. After passing near Rota, the storm continued west, entering the Philippine Area of Responsibility on 8 July (locally named Inday) and continues tracking toward Taiwan, Japan's Ryukyu Islands and China. GDACS's overall alert has remained Red throughout as the storm approaches more densely populated areas.",
@@ -55,7 +63,7 @@
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) remains at GDACS's highest overall Red alert. It peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July, then continued west. As of GDACS's event report (9 July 2026), the event spans 01-09 July with cumulative population exposed to Category 1+ winds across the event's track now approximately 38.5 million as the storm tracks over the Philippine Sea toward Taiwan, Japan's Ryukyu Islands and China. No fatalities have been confirmed to date."
+      "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) remains at GDACS's highest overall Red alert. It peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July, then continued west toward East Asia. As of GDACS's event report (10 July 2026), the event spans 01-10 July with cumulative population exposed to Category 1+ winds now approximately 52.978 million (about 53 million) as the storm tracks toward Taiwan, Japan's Ryukyu Islands and China. GDACS's report does not list a confirmed fatality count for the event."
     },
     "live_source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
     "location": {
@@ -69,18 +77,18 @@
     "status": "ongoing"
   },
   "id": "typhoon-bavi-guam-mariana-2026",
-  "last_updated": "2026-07-09T09:14:17Z",
+  "last_updated": "2026-07-10T09:15:24Z",
   "name": "Super Typhoon Bavi — Guam & Northern Mariana Islands",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-09T09:14:17Z",
+        "at": "2026-07-10T09:15:24Z",
         "layer": "verify",
-        "run_id": "2026-07-09T09-14-17Z-beab81"
+        "run_id": "2026-07-10T09-15-24Z-7978fa"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-09T09-14-17Z-beab81"
+    "last_run_id": "2026-07-10T09-15-24Z-7978fa"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -90,7 +98,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
