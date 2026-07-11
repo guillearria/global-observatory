@@ -1,0 +1,70 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "medium",
+      "numeric_annual": null,
+      "window": "ongoing"
+    },
+    "severity": "continental",
+    "summary": "National cybersecurity commitments are improving but remain incomplete worldwide, and ransomware attacks on government services and breaches of core industries are already prominent documented threats — the tail risk is a cyberattack severe enough to disable critical infrastructure across multiple countries at once.",
+    "timeframe": "Incident frequency and national preparedness are tracked annually; a severe multi-country outage could occur at any time given uneven critical-infrastructure protection."
+  },
+  "category": "technological",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-11",
+      "source_name": "ITU",
+      "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2024-09-10-Global-Cybersecurity-Index.aspx",
+      "text": "139 countries have active Computer Incident Response Teams, with various levels of sophistication, up from 109 in the 2021 index, and 132 countries have a National Cybersecurity Strategy as of 2024, up from 107 in 2021 (ITU Global Cybersecurity Index 2024).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-11",
+      "source_name": "ITU",
+      "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2024-09-10-Global-Cybersecurity-Index.aspx",
+      "text": "Worrisome threats highlighted in the ITU Global Cybersecurity Index 2024 include ransomware attacks targeting government services and other sectors, cyber breaches affecting core industries, costly system outages, and breaches of privacy for individuals and organizations.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-06",
+      "source_name": "NIST",
+      "source_url": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+      "text": "NIST released version 2.0 of its Cybersecurity Framework on 26 February 2024; the framework was originally developed in 2014 to help protect critical infrastructure such as hospitals and power plants, and CSF 2.0 expands its scope to organizations in any sector.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A cyberattack severe enough to disable power grids, financial systems, water utilities, or other critical infrastructure across a wide area. National cybersecurity commitments are rising, but incident-response and critical-infrastructure-protection frameworks remain unevenly adopted worldwide, leaving gaps a sufficiently capable attacker could exploit.",
+  "id": "critical-infrastructure-cyberattack",
+  "last_updated": "2026-07-11T18:00:46Z",
+  "name": "Large-Scale Cyberattack on Critical Infrastructure",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-06T10:07:14Z",
+        "layer": "verify",
+        "run_id": "2026-07-06T10-07-14Z-03f354"
+      },
+      {
+        "at": "2026-07-11T18:00:46Z",
+        "layer": "verify",
+        "run_id": "2026-07-11T18-00-46Z-fe1b8b"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-11T18-00-46Z-fe1b8b"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 23.0,
+    "probability_rank": 3,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
