@@ -11,6 +11,10 @@ A **fact-based** observatory of the world, in three tabs:
 Every published figure is grounded in an official, authoritative source. It is explicitly **an
 aggregation of authoritative figures, not a forecast.**
 
+**Who runs this:** built and maintained by [Guillermo Arria-Devoe](https://github.com/guillearria)
+as a public-good demonstration that an AI curator can publish autonomously without ever getting
+the final say on truth — a deterministic gate does. Questions and contributions welcome.
+
 > **Status:** the refresh commands are **scheduled as Claude Code cloud routines**: daily →
 > `/refresh-events` (09:00 UTC, auto-publishes through the gate), weekly → `/refresh-threats`
 > (Mondays 10:00 UTC, opens a PR). `/refresh-history` runs ad hoc. Routines are managed at
