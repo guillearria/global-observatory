@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-11 — Daily World Pulse refresh: add Europe heatwave, update 3 ongoing events (`21089d1`)
+
+- **Added:** europe-heatwave-2026
+- **Updated:** ebola-bundibugyo-drc-2026, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026
+
 ## 2026-07-10 — Daily World Pulse refresh: update 5 ongoing events (`67d4f70`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, sudan-displacement-crisis, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026
