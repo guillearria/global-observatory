@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-11 — Add independent trust re-derivation to the CI hard gate (`1c73fca`)
+
+- **Updated:** yellowstone-supervolcano
+
 ## 2026-07-11 — Daily World Pulse refresh: add Europe heatwave, update 3 ongoing events (`21089d1`)
 
 - **Added:** europe-heatwave-2026
