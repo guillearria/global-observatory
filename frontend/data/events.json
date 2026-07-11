@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T09:15:24Z",
+  "last_updated": "2026-07-11T09:13:31Z",
   "published": [
     {
       "category": "flood",
@@ -81,16 +81,24 @@
           "retrieved_date": "2026-07-10",
           "source_name": "WHO",
           "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612",
-          "text": "In total, 1481 confirmed cases; 1460 from the Democratic Republic of the Congo, 20 from Uganda and one from France (linked to DRC); and 454 deaths including two from Uganda, have been reported. As of 1 July 2026, the Democratic Republic of the Congo had reported 1,460 confirmed cases including 452 deaths (case fatality ratio 30.9%) and 213 recovered; as of 2 July 2026 Uganda had reported 20 confirmed cases including two deaths and one probable case (deceased), with 16 recovered. Re-confirmed 10 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July 2026, referencing prior DON 608 of 19 June) remains the latest published report — no newer DON has superseded it — with the outbreak active in 21 health zones and Uganda reporting no new cases since 21 June.",
+          "text": "In total, 1481 confirmed cases; 1460 from the Democratic Republic of the Congo, 20 from Uganda and one from France (linked to DRC); and 454 deaths including two from Uganda, have been reported. As of 1 July 2026, the Democratic Republic of the Congo had reported 1,460 confirmed cases including 452 deaths (case fatality ratio 30.9%) and 213 recovered; as of 2 July 2026 Uganda had reported 20 confirmed cases including two deaths and one probable case (deceased), with 16 recovered.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-11",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/07/1167882",
+          "text": "As of 4 July, the country's [DRC] Government has recorded 1,561 confirmed cases, including 506 deaths and 254 people recovered. More than 10,000 contacts are being monitored.",
           "verification_status": "verified"
         }
       ],
       "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with a linked imported case confirmed in France.",
       "event": {
         "impact": {
-          "deaths": 454,
+          "deaths": 508,
           "displaced": null,
-          "summary": "As of 1 July 2026, WHO reported 1,481 confirmed cases (1,460 in DRC, 20 in Uganda, and 1 imported case in France) and 454 deaths (452 in DRC, 2 in Uganda), a case fatality ratio of 30.9% in DRC. Re-checked 10 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July) remains the latest published update, with the outbreak active in 21 health zones and no new cases in Uganda since 21 June."
+          "summary": "As of 4 July 2026, DRC's government had recorded 1,561 confirmed cases and 506 deaths (per UN News, citing WHO), up from 1,460 cases and 452 deaths on 1 July. WHO's most recent Disease Outbreak News (DON 612, published 3 July, data through 1-2 July) additionally lists 20 confirmed cases and 2 deaths in Uganda and 1 imported case in France; those country figures have not yet been superseded by a newer report. More than 10,000 contacts are being monitored in DRC."
         },
         "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
         "location": {
@@ -104,24 +112,88 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-10T09:15:23Z",
+      "last_updated": "2026-07-11T09:11:13Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-10T09:15:23Z",
+            "at": "2026-07-11T09:11:13Z",
             "layer": "verify",
-            "run_id": "2026-07-10T09-15-23Z-ba9db4"
+            "run_id": "2026-07-11T09-11-13Z-d59a83"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-10T09-15-23Z-ba9db4"
+        "last_run_id": "2026-07-11T09-11-13Z-d59a83"
       },
       "schema_version": "1.0",
       "sort_keys": {
         "composite": 7397513.0,
         "impact_rank": 3,
         "recency_rank": 739751
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "other",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-11",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/europe/news/item/30-06-2026-statement---get-prepared--current-european-region-heatwaves-are-a-dress-rehearsal",
+          "text": "WHO/Europe's statement of 30 June 2026 reports that Spain's mortality monitoring system has already estimated more than 300 heat-associated excess deaths in just a few days, that emergency medical calls in France have risen by up to 50% in some cities, that London's ambulance service recorded its highest-ever number of life-threatening emergency calls in a single day, and that Italy reported 5 deaths in 24 hours during the heatwave.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-11",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/europe/news/item/07-07-2026-statement---extreme-heat--more-deadly-weeks-may-still-lie-ahead-for-the-european-region",
+          "text": "WHO/Europe's statement of 7 July 2026, titled 'Extreme heat: more deadly weeks may still lie ahead for the European Region', warns that the current heatwave risk to health remains active and that heat-health action plans save lives.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A record-breaking heatwave has gripped Western and Southern Europe since around 21 June 2026, straining health systems and emergency services across France, Spain, Belgium, the Netherlands, Italy and the UK. WHO/Europe issued successive public statements describing rising heat-associated mortality and warning that further dangerous heat may still lie ahead.",
+      "event": {
+        "impact": {
+          "deaths": 300,
+          "displaced": null,
+          "summary": "WHO/Europe's 30 June 2026 statement reported more than 300 heat-associated excess deaths in Spain within a few days, alongside a 50% surge in emergency medical calls in some French cities, the highest single-day volume of life-threatening ambulance calls ever recorded in London, and 5 deaths in 24 hours reported in Italy. WHO/Europe's follow-up statement of 7 July 2026 warned that 'more deadly weeks may still lie ahead for the European Region' as the heat continues. Media reports citing WHO leadership have put the wider European toll since 21 June at over 1,300 excess deaths, though that aggregate figure has not yet appeared in a formal WHO/Europe publication."
+        },
+        "live_source_url": "https://www.who.int/europe/health-topics/heatwaves",
+        "location": {
+          "country": "France (heatwave affects multiple Western European countries)",
+          "lat": 46.6,
+          "lon": 2.2,
+          "region": "Western and Southern Europe: France, Spain, Belgium, Netherlands, Italy, United Kingdom"
+        },
+        "occurrence_date": "2026-06-21",
+        "scale": "Continental heatwave / WHO public health emergency statement",
+        "status": "ongoing"
+      },
+      "id": "europe-heatwave-2026",
+      "last_updated": "2026-07-11T09:13:31Z",
+      "name": "2026 European Heatwave — Public Health Emergency",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-11T09:13:31Z",
+            "layer": "verify",
+            "run_id": "2026-07-11T09-13-31Z-b073e4"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-11T09-13-31Z-b073e4"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7397883.0,
+        "impact_rank": 3,
+        "recency_rank": 739788
       },
       "verification": {
         "confidence": "high",
@@ -467,39 +539,47 @@
           "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
           "text": "GDACS's event report (current as of 10 July 2026) shows the event window now spanning 01 Jul 2026 00:00 UTC to 10 Jul 2026 00:00 UTC, with the overall alert level remaining Red, maximum sustained wind of 287 km/h (Category 5), and cumulative exposed population of approximately 52.978 million in Category 1 (120 km/h) or higher winds.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-07-11",
+          "source_name": "GDACS",
+          "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
+          "text": "GDACS's event report (current as of 11 July 2026) shows the event window now spanning 01 Jul 2026 00:00 UTC to 11 Jul 2026 06:00 UTC, with the overall alert level remaining Red and cumulative exposed population of approximately 63 million in Category 1 or higher winds across Guam, the Northern Mariana Islands, Japan, Taiwan and China.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 287 km/h, prompting GDACS to issue an overall Red alert as the storm tracked through Guam and the Northern Mariana Islands. After passing near Rota, the storm continued west, entering the Philippine Area of Responsibility on 8 July (locally named Inday) and continues tracking toward Taiwan, Japan's Ryukyu Islands and China. GDACS's overall alert has remained Red throughout as the storm approaches more densely populated areas.",
+      "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 287 km/h, prompting GDACS to issue an overall Red alert as the storm tracked through Guam and the Northern Mariana Islands. After passing near Rota, the storm continued west, entering the Philippine Area of Responsibility on 8 July (locally named Inday) and continued tracking toward Taiwan, Japan's Ryukyu Islands and China. GDACS's overall alert has remained Red throughout as the storm approached more densely populated areas.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) remains at GDACS's highest overall Red alert. It peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July, then continued west toward East Asia. As of GDACS's event report (10 July 2026), the event spans 01-10 July with cumulative population exposed to Category 1+ winds now approximately 52.978 million (about 53 million) as the storm tracks toward Taiwan, Japan's Ryukyu Islands and China. GDACS's report does not list a confirmed fatality count for the event."
+          "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) remains at GDACS's highest overall Red alert. It peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July, then continued west toward East Asia. As of GDACS's event report (11 July 2026), the event spans 01 Jul 2026 00:00 UTC to 11 Jul 2026 06:00 UTC with cumulative population exposed to Category 1+ winds now approximately 63 million as the storm has tracked across Taiwan and Japan's Ryukyu Islands toward the China coast. GDACS's report does not list a confirmed fatality count for the event."
         },
         "live_source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
         "location": {
           "country": "Guam / Northern Mariana Islands (United States); tracking toward Philippines, Taiwan, Japan, China",
           "lat": 13.9,
           "lon": 145.0,
-          "region": "Western North Pacific, having passed near Rota between Guam and Saipan, now entering the Philippine Sea toward East Asia"
+          "region": "Western North Pacific, having passed near Rota between Guam and Saipan, then tracked through the Philippine Sea toward East Asia"
         },
         "occurrence_date": "2026-07-01",
         "scale": "Category 5 (GDACS Red alert)",
         "status": "ongoing"
       },
       "id": "typhoon-bavi-guam-mariana-2026",
-      "last_updated": "2026-07-10T09:15:24Z",
+      "last_updated": "2026-07-11T09:11:13Z",
       "name": "Super Typhoon Bavi — Guam & Northern Mariana Islands",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-10T09:15:24Z",
+            "at": "2026-07-11T09:11:13Z",
             "layer": "verify",
-            "run_id": "2026-07-10T09-15-24Z-7978fa"
+            "run_id": "2026-07-11T09-11-13Z-1a0a3c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-10T09-15-24Z-7978fa"
+        "last_run_id": "2026-07-11T09-11-13Z-1a0a3c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -509,7 +589,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -555,14 +635,22 @@
           "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-15-08-july-2026-time-0900-pm",
           "text": "OCHA's Situation Report #15 (08 July 2026, 9:00 pm) states that authorities report an official toll of 3,811 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes; approximately 17,907 people lost their homes and more than 1,100 aftershocks have been recorded. An additional appeal for US$296 million was launched to scale up the earthquake response for 1.3 million people over the next six months.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-07-11",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/07/1167879",
+          "text": "A first assessment by the UN Office for Disaster Risk Reduction (UNDRR) estimates direct physical damage to housing and infrastructure at some $37 billion, comprising $24 billion in damage to buildings and another $13 billion in infrastructure; at least 79 transitional camps have opened in stadiums and sports centres, hosting displaced residents and providing aid.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. More than a week on, the confirmed death toll and humanitarian needs have continued to climb.",
+      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. More than two weeks on, the confirmed death toll and humanitarian needs have continued to climb, and the UN has assessed billions of dollars in physical damage.",
       "event": {
         "impact": {
           "deaths": 3811,
           "displaced": 17907,
-          "summary": "As of 8 July 2026, OCHA reported an official toll of 3,811 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes. Approximately 17,907 people lost their homes, and more than 1,100 aftershocks have been recorded. 1.8 million people were in need of humanitarian assistance including 680,000 children across the affected states (per OCHA's 1 July update); a further US$296 million appeal was launched on 8 July to support 1.3 million people over the next six months."
+          "summary": "As of 8 July 2026, OCHA reported an official toll of 3,811 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes. Approximately 17,907 people lost their homes, and more than 1,100 aftershocks have been recorded. A UNDRR first assessment (reported 6 July) estimated direct physical damage to housing and infrastructure at some $37 billion ($24 billion to buildings, $13 billion to infrastructure), with at least 79 transitional camps opened in stadiums and sports centres. 1.8 million people were in need of humanitarian assistance including 680,000 children across the affected states (per OCHA's 1 July update); a further US$296 million appeal was launched on 8 July to support 1.3 million people over the next six months."
         },
         "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp/executive",
         "location": {
@@ -576,18 +664,18 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-07-10T09:15:24Z",
+      "last_updated": "2026-07-11T09:11:14Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-10T09:15:24Z",
+            "at": "2026-07-11T09:11:14Z",
             "layer": "verify",
-            "run_id": "2026-07-10T09-15-24Z-5b6b6b"
+            "run_id": "2026-07-11T09-11-14Z-18ab76"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-10T09-15-24Z-5b6b6b"
+        "last_run_id": "2026-07-11T09-11-14Z-18ab76"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -597,7 +685,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }
