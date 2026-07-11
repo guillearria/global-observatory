@@ -6,25 +6,25 @@
       "window": "ongoing"
     },
     "severity": "continental",
-    "summary": "National cybersecurity commitments are improving but remain incomplete worldwide, and documented attacks on critical sectors are already routine — the tail risk is a cyberattack severe enough to disable critical infrastructure across multiple countries at once.",
+    "summary": "National cybersecurity commitments are improving but remain incomplete worldwide, and ransomware attacks on government services and breaches of core industries are already prominent documented threats — the tail risk is a cyberattack severe enough to disable critical infrastructure across multiple countries at once.",
     "timeframe": "Incident frequency and national preparedness are tracked annually; a severe multi-country outage could occur at any time given uneven critical-infrastructure protection."
   },
   "category": "technological",
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-06",
+      "retrieved_date": "2026-07-11",
       "source_name": "ITU",
       "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2024-09-10-Global-Cybersecurity-Index.aspx",
-      "text": "The ITU Global Cybersecurity Index 2024 assessed 194 countries; 139 have an active Computer Incident Response Team, up from 109 in 2021, and 132 have a National Cybersecurity Strategy, up from 107 in 2021.",
+      "text": "139 countries have active Computer Incident Response Teams, with various levels of sophistication, up from 109 in the 2021 index, and 132 countries have a National Cybersecurity Strategy as of 2024, up from 107 in 2021 (ITU Global Cybersecurity Index 2024).",
       "verification_status": "verified"
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-07-06",
+      "retrieved_date": "2026-07-11",
       "source_name": "ITU",
       "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2024-09-10-Global-Cybersecurity-Index.aspx",
-      "text": "In 2023, 25.7 percent of all cyberattacks targeted the manufacturing sector, and of those, 45 percent used malware and 17 percent used ransomware (ITU Global Cybersecurity Index 2024).",
+      "text": "Worrisome threats highlighted in the ITU Global Cybersecurity Index 2024 include ransomware attacks targeting government services and other sectors, cyber breaches affecting core industries, costly system outages, and breaches of privacy for individuals and organizations.",
       "verification_status": "verified"
     },
     {
@@ -38,7 +38,7 @@
   ],
   "description": "A cyberattack severe enough to disable power grids, financial systems, water utilities, or other critical infrastructure across a wide area. National cybersecurity commitments are rising, but incident-response and critical-infrastructure-protection frameworks remain unevenly adopted worldwide, leaving gaps a sufficiently capable attacker could exploit.",
   "id": "critical-infrastructure-cyberattack",
-  "last_updated": "2026-07-06T10:07:14Z",
+  "last_updated": "2026-07-11T18:00:46Z",
   "name": "Large-Scale Cyberattack on Critical Infrastructure",
   "provenance": {
     "history": [
@@ -46,10 +46,15 @@
         "at": "2026-07-06T10:07:14Z",
         "layer": "verify",
         "run_id": "2026-07-06T10-07-14Z-03f354"
+      },
+      {
+        "at": "2026-07-11T18:00:46Z",
+        "layer": "verify",
+        "run_id": "2026-07-11T18-00-46Z-fe1b8b"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-06T10-07-14Z-03f354"
+    "last_run_id": "2026-07-11T18-00-46Z-fe1b8b"
   },
   "schema_version": "1.0",
   "sort_keys": {
