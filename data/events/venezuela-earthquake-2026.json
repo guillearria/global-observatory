@@ -27,19 +27,35 @@
     },
     {
       "id": "claim-4",
-      "retrieved_date": "2026-07-04",
+      "retrieved_date": "2026-07-09",
       "source_name": "ReliefWeb",
-      "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-10-03-july-2026-time-0700-pm",
-      "text": "More than a week after the earthquakes, authorities report a toll of 2,645 people dead, 12,666 injured, and 6,462 rescued since the onset of the emergency. Authorities also reported that approximately 15,050 people lost their homes. Authorities report 890 aftershocks. At least seven (7) states have been impacted, with La Guaira remaining the most affected state.",
+      "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-14-07-july-2026-time-0900-pm",
+      "text": "OCHA's Situation Report #14 (07 July 2026, 9:00 pm) states that authorities report an official toll of 3,685 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes. Authorities also reported that approximately 17,907 people lost their homes and that more than 1,076 aftershocks have been recorded, with at least seven (7) states impacted and La Guaira remaining the most affected state.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-07-10",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-15-08-july-2026-time-0900-pm",
+      "text": "OCHA's Situation Report #15 (08 July 2026, 9:00 pm) states that authorities report an official toll of 3,811 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes; approximately 17,907 people lost their homes and more than 1,100 aftershocks have been recorded. An additional appeal for US$296 million was launched to scale up the earthquake response for 1.3 million people over the next six months.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-07-11",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/07/1167879",
+      "text": "A first assessment by the UN Office for Disaster Risk Reduction (UNDRR) estimates direct physical damage to housing and infrastructure at some $37 billion, comprising $24 billion in damage to buildings and another $13 billion in infrastructure; at least 79 transitional camps have opened in stadiums and sports centres, hosting displaced residents and providing aid.",
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. More than a week on, the confirmed death toll and humanitarian needs have continued to climb.",
+  "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. More than two weeks on, the confirmed death toll and humanitarian needs have continued to climb, and the UN has assessed billions of dollars in physical damage.",
   "event": {
     "impact": {
-      "deaths": 2645,
-      "displaced": 15050,
-      "summary": "As of 3 July 2026, OCHA reported an official toll of 2,645 people dead and 12,666 injured, with 6,462 people rescued since the 24 June earthquakes. Approximately 15,050 people lost their homes, and more than 890 aftershocks have been recorded. 1.8 million people are in need of humanitarian assistance including 680,000 children across the affected states."
+      "deaths": 3811,
+      "displaced": 17907,
+      "summary": "As of 8 July 2026, OCHA reported an official toll of 3,811 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes. Approximately 17,907 people lost their homes, and more than 1,100 aftershocks have been recorded. A UNDRR first assessment (reported 6 July) estimated direct physical damage to housing and infrastructure at some $37 billion ($24 billion to buildings, $13 billion to infrastructure), with at least 79 transitional camps opened in stadiums and sports centres. 1.8 million people were in need of humanitarian assistance including 680,000 children across the affected states (per OCHA's 1 July update); a further US$296 million appeal was launched on 8 July to support 1.3 million people over the next six months."
     },
     "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp/executive",
     "location": {
@@ -53,23 +69,18 @@
     "status": "ongoing"
   },
   "id": "venezuela-earthquake-2026",
-  "last_updated": "2026-07-05T21:42:14Z",
+  "last_updated": "2026-07-11T09:11:14Z",
   "name": "Venezuela M7.5 Earthquake Doublet",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-04T09:12:46Z",
+        "at": "2026-07-11T09:11:14Z",
         "layer": "verify",
-        "run_id": "2026-07-04T09-12-46Z-c75290"
-      },
-      {
-        "at": "2026-07-05T21:42:14Z",
-        "layer": "verify",
-        "run_id": "2026-07-05T21-42-14Z-9afbf1"
+        "run_id": "2026-07-11T09-11-14Z-18ab76"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-05T21-42-14Z-9afbf1"
+    "last_run_id": "2026-07-11T09-11-14Z-18ab76"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -79,7 +90,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

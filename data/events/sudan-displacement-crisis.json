@@ -3,10 +3,10 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-01",
+      "retrieved_date": "2026-07-10",
       "source_name": "UNHCR",
-      "source_url": "https://www.unhcr.org/us/emergencies/sudan-emergency",
-      "text": "As of December 2025, some 14 million people had been forced to flee their homes since the conflict erupted in Sudan in April 2023.",
+      "source_url": "https://data.unhcr.org/en/situations/sudansituation",
+      "text": "UNHCR's Operational Data Portal for the Sudan situation records Total Forcibly Displaced at 11,431,220 (last updated 06 July 2026), comprising 6,597,438 IDPs inside Sudan (last updated 15 June 2026), 273,081 self-relocated refugees in Sudan (last updated 06 July 2026), and 4,560,701 total newly arrived refugees, asylum-seekers and returnees outside Sudan (last updated 06 July 2026).",
       "verification_status": "verified"
     },
     {
@@ -22,10 +22,10 @@
   "event": {
     "impact": {
       "deaths": null,
-      "displaced": 14000000,
-      "summary": "As of December 2025, UNHCR reported that some 14 million people had been forced to flee their homes since the conflict began. UNHCR's 2026 planning covers 15.3 million forcibly displaced people and returnees."
+      "displaced": 11431220,
+      "summary": "As of UNHCR's Operational Data Portal update on 06 July 2026, Total Forcibly Displaced in the Sudan situation stood at 11,431,220 — 6,597,438 IDPs inside Sudan, 273,081 self-relocated refugees within Sudan, and 4,560,701 newly arrived refugees, asylum-seekers and returnees outside the country. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis."
     },
-    "live_source_url": "https://www.unhcr.org/us/emergencies/sudan-emergency",
+    "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
     "location": {
       "country": "Sudan",
       "lat": 15.5,
@@ -33,27 +33,22 @@
       "region": "Sudan nationwide and neighbouring countries"
     },
     "occurrence_date": "2023-04-15",
-    "scale": "~14M forced to flee",
+    "scale": "~11.4M forcibly displaced",
     "status": "ongoing"
   },
   "id": "sudan-displacement-crisis",
-  "last_updated": "2026-07-05T21:42:14Z",
+  "last_updated": "2026-07-10T09:15:24Z",
   "name": "Sudan Displacement Crisis",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-01T15:55:57Z",
+        "at": "2026-07-10T09:15:24Z",
         "layer": "verify",
-        "run_id": "2026-07-01T15-55-57Z-d920d6"
-      },
-      {
-        "at": "2026-07-05T21:42:14Z",
-        "layer": "verify",
-        "run_id": "2026-07-05T21-42-14Z-72a687"
+        "run_id": "2026-07-10T09-15-24Z-2da464"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-05T21-42-14Z-72a687"
+    "last_run_id": "2026-07-10T09-15-24Z-2da464"
   },
   "schema_version": "1.0",
   "sort_keys": {
