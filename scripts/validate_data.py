@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Schema-validate every published and quarantined record. Non-zero exit is the CI hard gate."""
+"""Schema-validate every published and quarantined record, then independently re-derive
+each record's trust fields (claim statuses, gate verdict, sort keys, placement) via
+`pipeline.audit`. Non-zero exit is the CI hard gate."""
 
 import sys
 
-from pipeline import config, schema, store
+from pipeline import audit, config, schema, store
 
 
-def _validate_dir(directory, kind: str = "threat") -> list[str]:
+def _validate_dir(directory, kind: str = "threat", *, quarantined: bool = False) -> list[str]:
     errs: list[str] = []
     if not directory.exists():
         return errs
@@ -22,6 +24,7 @@ def _validate_dir(directory, kind: str = "threat") -> list[str]:
             schema.validate(rec, kind)
         except schema.ValidationError as e:
             errs.append(f"{p.name}: {e}")
+        errs += [f"{p.name}: {m}" for m in audit.audit_record(rec, kind, quarantined=quarantined)]
     return errs
 
 
@@ -32,11 +35,11 @@ def _count(directory) -> int:
 def main() -> None:
     errs = (
         _validate_dir(config.THREATS_DIR, "threat")
-        + _validate_dir(config.QUARANTINE_DIR, "threat")
+        + _validate_dir(config.QUARANTINE_DIR, "threat", quarantined=True)
         + _validate_dir(config.EVENTS_DIR, "event")
-        + _validate_dir(config.QUARANTINE_EVENTS_DIR, "event")
+        + _validate_dir(config.QUARANTINE_EVENTS_DIR, "event", quarantined=True)
         + _validate_dir(config.HISTORICAL_DIR, "historical")
-        + _validate_dir(config.QUARANTINE_HISTORICAL_DIR, "historical")
+        + _validate_dir(config.QUARANTINE_HISTORICAL_DIR, "historical", quarantined=True)
     )
     for e in errs:
         print("FAIL", e)

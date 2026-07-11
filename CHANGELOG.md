@@ -2,9 +2,9 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
-## 2026-07-11 — Fix cyberattack claims to match the cited ITU press release (`6e7df59`)
+## 2026-07-11 — Add independent trust re-derivation to the CI hard gate (`1c73fca`)
 
-- **Updated:** critical-infrastructure-cyberattack
+- **Updated:** yellowstone-supervolcano
 
 ## 2026-07-11 — Daily World Pulse refresh: add Europe heatwave, update 3 ongoing events (`21089d1`)
 
@@ -27,10 +27,6 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 ## 2026-07-07 — Daily World Pulse refresh: update 5 ongoing events (`fbbb189`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, sudan-displacement-crisis, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026
-
-## 2026-07-06 — Seed 3 threats in thin-coverage categories: biodiversity, cyberattack, conflict (`0cf426f`)
-
-- **Added:** biodiversity-loss-ecosystem-collapse, critical-infrastructure-cyberattack, global-armed-conflict
 
 ## 2026-07-06 — Fact-check pass: correct 7 attribution/date/wording issues (`ce7a62e`)
 
