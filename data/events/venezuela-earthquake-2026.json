@@ -48,14 +48,22 @@
       "source_url": "https://news.un.org/en/story/2026/07/1167879",
       "text": "A first assessment by the UN Office for Disaster Risk Reduction (UNDRR) estimates direct physical damage to housing and infrastructure at some $37 billion, comprising $24 billion in damage to buildings and another $13 billion in infrastructure; at least 79 transitional camps have opened in stadiums and sports centres, hosting displaced residents and providing aid.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-7",
+      "retrieved_date": "2026-07-12",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-18-11-july-2026-time-0900-pm",
+      "text": "OCHA's Situation Report #18 (11 July 2026, 9:00 pm) states that seventeen days after the earthquakes, authorities report a toll of 4,333 people dead, 16,740 injured and 6,462 rescued since the onset of the emergency; 1,171 aftershocks have been recorded, 17,907 people remain without housing, and 315 of those who died have yet to be identified. UN humanitarian chief Tom Fletcher concluded his four-day visit to the country and called for sustained international support for the Humanitarian Response Plan; an additional appeal for US$298 million was launched to address the multisectoral needs of 1.3 million people over the next six months.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. More than two weeks on, the confirmed death toll and humanitarian needs have continued to climb, and the UN has assessed billions of dollars in physical damage.",
+  "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. More than two weeks on, the confirmed death toll has continued to climb, and the UN has assessed billions of dollars in physical damage.",
   "event": {
     "impact": {
-      "deaths": 3811,
+      "deaths": 4333,
       "displaced": 17907,
-      "summary": "As of 8 July 2026, OCHA reported an official toll of 3,811 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes. Approximately 17,907 people lost their homes, and more than 1,100 aftershocks have been recorded. A UNDRR first assessment (reported 6 July) estimated direct physical damage to housing and infrastructure at some $37 billion ($24 billion to buildings, $13 billion to infrastructure), with at least 79 transitional camps opened in stadiums and sports centres. 1.8 million people were in need of humanitarian assistance including 680,000 children across the affected states (per OCHA's 1 July update); a further US$296 million appeal was launched on 8 July to support 1.3 million people over the next six months."
+      "summary": "As of OCHA's Situation Report #18 (11 July 2026, 9:00 pm), authorities report an official toll of 4,333 people dead (315 not yet identified) and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes; 17,907 people remain without housing and more than 1,171 aftershocks have been recorded. UN humanitarian chief Tom Fletcher concluded a four-day visit and called for sustained international support; a further US$298 million appeal was launched to support 1.3 million people over the next six months. A UNDRR first assessment (reported 6 July) estimated direct physical damage to housing and infrastructure at some $37 billion ($24 billion to buildings, $13 billion to infrastructure)."
     },
     "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp/executive",
     "location": {
@@ -69,18 +77,18 @@
     "status": "ongoing"
   },
   "id": "venezuela-earthquake-2026",
-  "last_updated": "2026-07-11T09:11:14Z",
+  "last_updated": "2026-07-12T09:14:22Z",
   "name": "Venezuela M7.5 Earthquake Doublet",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-11T09:11:14Z",
+        "at": "2026-07-12T09:14:22Z",
         "layer": "verify",
-        "run_id": "2026-07-11T09-11-14Z-18ab76"
+        "run_id": "2026-07-12T09-14-22Z-e7e073"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-11T09-11-14Z-18ab76"
+    "last_run_id": "2026-07-12T09-14-22Z-e7e073"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -90,7 +98,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
