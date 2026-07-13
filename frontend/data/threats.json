@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11T18:11:52Z",
+  "last_updated": "2026-07-13T10:07:24Z",
   "published": [
     {
       "assessment": {
@@ -59,6 +59,71 @@
         "composite": 32.0,
         "probability_rank": 2,
         "severity_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "high",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "continental",
+        "summary": "A present, quantified global toll — over a million deaths a year directly attributable to resistant bacterial infections — with a thin pipeline of new antibiotics and rising resistance rates threatening to erode modern medicine's ability to treat common infections and perform routine procedures safely.",
+        "timeframe": "Already a present, quantified toll; WHO and partners project resistance to last-resort antibiotics could roughly double by 2035 versus 2005 levels absent stronger action."
+      },
+      "category": "biological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-13",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+          "text": "Bacterial AMR was directly responsible for 1.27 million global deaths in 2019 and contributed to 4.95 million deaths.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-13",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+          "text": "AMR could result in US$ 1 trillion additional healthcare costs by 2050, and US$ 1 trillion to US$ 3.4 trillion gross domestic product (GDP) losses per year by 2030.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-13",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+          "text": "There are only 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which only 6 were classified as innovative.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The evolution of bacteria, viruses, fungi, and parasites to resist the drugs designed to kill them, driven by overuse and misuse of antimicrobials in humans, animals, and agriculture. Already a leading cause of death worldwide, it threatens to undermine modern medicine — from routine infections to surgery, chemotherapy, and organ transplants — as fewer effective antibiotics remain in the pipeline.",
+      "id": "antimicrobial-resistance",
+      "last_updated": "2026-07-13T10:07:24Z",
+      "name": "Antimicrobial Resistance",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-13T10:07:24Z",
+            "layer": "verify",
+            "run_id": "2026-07-13T10-07-24Z-2069d9"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-13T10-07-24Z-2069d9"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 24.0,
+        "probability_rank": 4,
+        "severity_rank": 2
       },
       "verification": {
         "confidence": "high",
@@ -188,6 +253,71 @@
         ],
         "last_layer": "verify",
         "last_run_id": "2026-07-11T18-00-46Z-fe1b8b"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 23.0,
+        "probability_rank": 3,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "medium",
+          "numeric_annual": null,
+          "window": "next-100-years"
+        },
+        "severity": "continental",
+        "summary": "A rare but recurring natural hazard with a documented modern precedent (1989 Quebec blackout) and a credible worst case — a Carrington-level storm today could leave tens of millions without power for weeks to years and cost an estimated ~$2 trillion, per NOAA — against power grids that are not yet built to withstand it.",
+        "timeframe": "Carrington-level storms are characterized by USGS as \"100-year-type events\" — rare but not remote on an infrastructure-planning timescale, and effectively inevitable over a long enough horizon."
+      },
+      "category": "cosmic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-13",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/news/featured-story/what-a-solar-superstorm-could-mean-us",
+          "text": "These large [Carrington-level] storms are 100-year-type events, so although rare, they are still potentially consequential; in some areas, expected magnetic field strengths would be enough to stress or damage high-voltage transformers and potentially lead to massive power outages, with the Eastern and Midwestern U.S. most affected.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-13",
+          "source_name": "NOAA",
+          "source_url": "https://www.nesdis.noaa.gov/news/when-solar-storms-attack-space-weather-and-our-infrastructure",
+          "text": "A solar storm of Carrington magnitude today has the potential to cost nearly $2 trillion, disrupting telecommunications, banking systems, GPS, and the energy grid; the estimated total U.S. population at risk of an extended power outage from a Carrington-level storm is between 20-40 million, with durations of 16 days to 1-2 years.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-13",
+          "source_name": "NOAA",
+          "source_url": "https://www.nesdis.noaa.gov/news/when-solar-storms-attack-space-weather-and-our-infrastructure",
+          "text": "During the March 1989 geomagnetic storm, auroral currents shorted out the Quebec power grid and within 90 seconds, without warning, six million people were left without power for nine hours.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A severe solar-driven disturbance of Earth's magnetic field, triggered by a coronal mass ejection, capable of inducing damaging currents in long conductors such as power-grid transmission lines, pipelines, and undersea cables, and disrupting satellites, GPS, and radio communications. A Carrington-class (1859) event has not repeated in the modern electrified era, but near-misses (2012) and smaller storms (1989 Quebec blackout) show the underlying hazard is real and recurring.",
+      "id": "geomagnetic-storm",
+      "last_updated": "2026-07-13T10:07:24Z",
+      "name": "Extreme Geomagnetic Storm",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-13T10:07:24Z",
+            "layer": "verify",
+            "run_id": "2026-07-13T10-07-24Z-ad723e"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-13T10-07-24Z-ad723e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -523,6 +653,71 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "medium",
+          "numeric_annual": null,
+          "window": "next-50-years"
+        },
+        "severity": "regional",
+        "summary": "A geologically well-documented, quantified hazard for coastal subduction zones — USGS puts the chance of a full-margin ~M9 Cascadia earthquake at 10-15% in the next 50 years — capable of regional-scale destruction and a major tsunami with comparatively little warning time.",
+        "timeframe": "USGS puts the chance of a full-margin ~M9 Cascadia Subduction Zone earthquake at 10-15% in the next 50 years, with much higher odds (85%) for a smaller but still damaging M6.5+ deep earthquake in the Puget Sound region over the same window."
+      },
+      "category": "geological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-13",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/publications/earthquake-probabilities-and-hazards-us-pacific-northwest",
+          "text": "There is a 10-15-percent chance of an approximately magnitude 9 earthquake on the Cascadia Subduction Zone in the next 50 years.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-13",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/publications/earthquake-probabilities-and-hazards-us-pacific-northwest",
+          "text": "There is an 85-percent chance of a magnitude 6.5 or greater deep earthquake in the Puget Sound region, and a 17-percent chance of a magnitude 6.5 or greater crustal fault earthquake in the Puget Sound region, in the next 50 years.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-13",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/publications/earthquake-probabilities-and-hazards-us-pacific-northwest",
+          "text": "The Pacific Northwest earthquake hazard model identifies three types of earthquakes in the region: deep (intraslab) earthquakes, subduction zone (megathrust) earthquakes, and shallow crustal earthquakes.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A great (magnitude 8+) earthquake on a subduction-zone megathrust fault, where one tectonic plate slides beneath another, capable of rupturing hundreds of kilometers of coastline in a single event and generating a major ocean-crossing tsunami. Subduction zones such as Cascadia (US Pacific Northwest), the Nankai Trough (Japan), and Sumatra have produced the largest and most destructive earthquakes and tsunamis in recorded history.",
+      "id": "megathrust-earthquake",
+      "last_updated": "2026-07-13T10:07:24Z",
+      "name": "Megathrust Earthquake and Tsunami",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-13T10:07:24Z",
+            "layer": "verify",
+            "run_id": "2026-07-13T10-07-24Z-8d19de"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-13T10-07-24Z-8d19de"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 13.0,
+        "probability_rank": 3,
+        "severity_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

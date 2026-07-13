@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-13 — Add 3 threats in thin-coverage categories: AMR, geomagnetic storm, megathrust earthquake (`6c5ce73`)
+
+- **Added:** antimicrobial-resistance, geomagnetic-storm, megathrust-earthquake
+
 ## 2026-07-12 — Refresh World Pulse events: Ebola, Venezuela quake, typhoon Bavi (`f205a82`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026
