@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T09:15:24Z",
+  "last_updated": "2026-07-13T09:13:56Z",
   "published": [
     {
       "category": "flood",
@@ -81,16 +81,24 @@
           "retrieved_date": "2026-07-10",
           "source_name": "WHO",
           "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612",
-          "text": "In total, 1481 confirmed cases; 1460 from the Democratic Republic of the Congo, 20 from Uganda and one from France (linked to DRC); and 454 deaths including two from Uganda, have been reported. As of 1 July 2026, the Democratic Republic of the Congo had reported 1,460 confirmed cases including 452 deaths (case fatality ratio 30.9%) and 213 recovered; as of 2 July 2026 Uganda had reported 20 confirmed cases including two deaths and one probable case (deceased), with 16 recovered. Re-confirmed 10 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July 2026, referencing prior DON 608 of 19 June) remains the latest published report — no newer DON has superseded it — with the outbreak active in 21 health zones and Uganda reporting no new cases since 21 June.",
+          "text": "In total, 1481 confirmed cases; 1460 from the Democratic Republic of the Congo, 20 from Uganda and one from France (linked to DRC); and 454 deaths including two from Uganda, have been reported. As of 1 July 2026, the Democratic Republic of the Congo had reported 1,460 confirmed cases including 452 deaths (case fatality ratio 30.9%) and 213 recovered; as of 2 July 2026 Uganda had reported 20 confirmed cases including two deaths and one probable case (deceased), with 16 recovered. Re-confirmed 10 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July 2026, referencing prior DON 608 of 19 June) remains the latest published report — no newer DON has superseded it — with cases reported from 36 health zones (Ituri 24/36, North Kivu 11/35, South Kivu 1/34) and Uganda reporting no new cases since 21 June.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-13",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/07/1167882",
+          "text": "UN News reported on 7 July 2026 that as of 4 July, the DRC government has recorded 1,561 confirmed cases, including 506 deaths and 254 people recovered; WHO's Dr Anne Ancia said the outbreak's true scale has not yet been fully established and that health authorities could not yet say the outbreak is stabilising. Re-checked 13 July 2026: no newer WHO Disease Outbreak News update has been published since DON 612 (3 July).",
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with a linked imported case confirmed in France.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with a linked imported case confirmed in France; as of 4 July the DRC government reported over 1,500 cumulative cases and WHO cautioned the outbreak's true scale is not yet fully established.",
       "event": {
         "impact": {
-          "deaths": 454,
+          "deaths": 506,
           "displaced": null,
-          "summary": "As of 1 July 2026, WHO reported 1,481 confirmed cases (1,460 in DRC, 20 in Uganda, and 1 imported case in France) and 454 deaths (452 in DRC, 2 in Uganda), a case fatality ratio of 30.9% in DRC. Re-checked 10 July 2026: WHO's Disease Outbreak News page (DON 612, published 3 July) remains the latest published update, with the outbreak active in 21 health zones and no new cases in Uganda since 21 June."
+          "summary": "As of 4 July 2026, the DRC government reported 1,561 confirmed cases and 506 deaths (254 recovered), per UN News; WHO's most recent published Disease Outbreak News report (DON 612, 3 July) had put the DRC+Uganda total at 1,481 cases and 454 deaths across 36 health zones, with Uganda reporting no new cases since 21 June. WHO staff caution the outbreak's true scale has not yet been fully established."
         },
         "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
         "location": {
@@ -104,18 +112,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-10T09:15:23Z",
+      "last_updated": "2026-07-13T09:13:54Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-10T09:15:23Z",
+            "at": "2026-07-13T09:13:54Z",
             "layer": "verify",
-            "run_id": "2026-07-10T09-15-23Z-ba9db4"
+            "run_id": "2026-07-13T09-13-54Z-85b969"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-10T09-15-23Z-ba9db4"
+        "last_run_id": "2026-07-13T09-13-54Z-85b969"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -125,7 +133,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -467,39 +475,47 @@
           "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
           "text": "GDACS's event report (current as of 10 July 2026) shows the event window now spanning 01 Jul 2026 00:00 UTC to 10 Jul 2026 00:00 UTC, with the overall alert level remaining Red, maximum sustained wind of 287 km/h (Category 5), and cumulative exposed population of approximately 52.978 million in Category 1 (120 km/h) or higher winds.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-07-13",
+          "source_name": "GDACS",
+          "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
+          "text": "GDACS's event report (current as of 13 July 2026) shows the event window now spanning 01 Jul 2026 00:00 UTC to 11 Jul 2026 18:00 UTC, with the overall alert level remaining Red, maximum sustained wind of 287 km/h (Category 5), and cumulative exposed population of approximately 35.3 million in Category 1 (120 km/h) or higher winds; the report shows the storm made landfall on China's eastern coast in Zhejiang Province during the night of 11-12 July 2026 and weakened to tropical storm strength while continuing to move inland.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 287 km/h, prompting GDACS to issue an overall Red alert as the storm tracked through Guam and the Northern Mariana Islands. After passing near Rota, the storm continued west, entering the Philippine Area of Responsibility on 8 July (locally named Inday) and continues tracking toward Taiwan, Japan's Ryukyu Islands and China. GDACS's overall alert has remained Red throughout as the storm approaches more densely populated areas.",
+      "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 287 km/h, prompting GDACS to issue an overall Red alert as the storm tracked through Guam and the Northern Mariana Islands. After passing near Rota, the storm continued west, entering the Philippine Area of Responsibility on 8 July (locally named Inday) and tracked toward Taiwan, Japan's Ryukyu Islands and China. GDACS's overall alert remained Red throughout. The storm made landfall on China's eastern coast in Zhejiang Province on the night of 11-12 July and weakened to tropical storm strength while moving inland.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) remains at GDACS's highest overall Red alert. It peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July, then continued west toward East Asia. As of GDACS's event report (10 July 2026), the event spans 01-10 July with cumulative population exposed to Category 1+ winds now approximately 52.978 million (about 53 million) as the storm tracks toward Taiwan, Japan's Ryukyu Islands and China. GDACS's report does not list a confirmed fatality count for the event."
+          "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July under GDACS's highest overall Red alert, then tracked west toward East Asia. GDACS's event report (current as of 13 July 2026) spans 01-11 July with cumulative population exposed to Category 1+ winds of approximately 35.3 million. The storm made landfall in Zhejiang Province, China on the night of 11-12 July 2026 and weakened to tropical storm strength while moving inland; GDACS's report does not list a confirmed fatality count for the event."
         },
         "live_source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
         "location": {
-          "country": "Guam / Northern Mariana Islands (United States); tracking toward Philippines, Taiwan, Japan, China",
+          "country": "Guam / Northern Mariana Islands (United States); made landfall in Zhejiang Province, China",
           "lat": 13.9,
           "lon": 145.0,
-          "region": "Western North Pacific, having passed near Rota between Guam and Saipan, now entering the Philippine Sea toward East Asia"
+          "region": "Western North Pacific — peaked near Guam/Rota/Saipan, tracked west through the Philippine Sea, and made landfall near Zhejiang, eastern China on 11-12 July"
         },
         "occurrence_date": "2026-07-01",
         "scale": "Category 5 (GDACS Red alert)",
-        "status": "ongoing"
+        "status": "contained"
       },
       "id": "typhoon-bavi-guam-mariana-2026",
-      "last_updated": "2026-07-10T09:15:24Z",
+      "last_updated": "2026-07-13T09:13:56Z",
       "name": "Super Typhoon Bavi — Guam & Northern Mariana Islands",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-10T09:15:24Z",
+            "at": "2026-07-13T09:13:56Z",
             "layer": "verify",
-            "run_id": "2026-07-10T09-15-24Z-7978fa"
+            "run_id": "2026-07-13T09-13-56Z-ba21fd"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-10T09-15-24Z-7978fa"
+        "last_run_id": "2026-07-13T09-13-56Z-ba21fd"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -509,7 +525,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

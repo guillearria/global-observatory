@@ -56,39 +56,47 @@
       "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
       "text": "GDACS's event report (current as of 10 July 2026) shows the event window now spanning 01 Jul 2026 00:00 UTC to 10 Jul 2026 00:00 UTC, with the overall alert level remaining Red, maximum sustained wind of 287 km/h (Category 5), and cumulative exposed population of approximately 52.978 million in Category 1 (120 km/h) or higher winds.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-8",
+      "retrieved_date": "2026-07-13",
+      "source_name": "GDACS",
+      "source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
+      "text": "GDACS's event report (current as of 13 July 2026) shows the event window now spanning 01 Jul 2026 00:00 UTC to 11 Jul 2026 18:00 UTC, with the overall alert level remaining Red, maximum sustained wind of 287 km/h (Category 5), and cumulative exposed population of approximately 35.3 million in Category 1 (120 km/h) or higher winds; the report shows the storm made landfall on China's eastern coast in Zhejiang Province during the night of 11-12 July 2026 and weakened to tropical storm strength while continuing to move inland.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 287 km/h, prompting GDACS to issue an overall Red alert as the storm tracked through Guam and the Northern Mariana Islands. After passing near Rota, the storm continued west, entering the Philippine Area of Responsibility on 8 July (locally named Inday) and continues tracking toward Taiwan, Japan's Ryukyu Islands and China. GDACS's overall alert has remained Red throughout as the storm approaches more densely populated areas.",
+  "description": "A tropical disturbance east-southeast of the Marianas organized into Tropical Depression 09W on 1 July 2026 and was named Bavi as a tropical storm on 2 July. Bavi underwent rapid intensification and reached Category 5 super typhoon strength by 4 July with sustained winds near 287 km/h, prompting GDACS to issue an overall Red alert as the storm tracked through Guam and the Northern Mariana Islands. After passing near Rota, the storm continued west, entering the Philippine Area of Responsibility on 8 July (locally named Inday) and tracked toward Taiwan, Japan's Ryukyu Islands and China. GDACS's overall alert remained Red throughout. The storm made landfall on China's eastern coast in Zhejiang Province on the night of 11-12 July and weakened to tropical storm strength while moving inland.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) remains at GDACS's highest overall Red alert. It peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July, then continued west toward East Asia. As of GDACS's event report (10 July 2026), the event spans 01-10 July with cumulative population exposed to Category 1+ winds now approximately 52.978 million (about 53 million) as the storm tracks toward Taiwan, Japan's Ryukyu Islands and China. GDACS's report does not list a confirmed fatality count for the event."
+      "summary": "Super Typhoon Bavi (locally named Inday after entering the Philippine Area of Responsibility on 8 July) peaked at Category 5 strength (287 km/h sustained winds) near Guam and the Northern Mariana Islands on 4-6 July under GDACS's highest overall Red alert, then tracked west toward East Asia. GDACS's event report (current as of 13 July 2026) spans 01-11 July with cumulative population exposed to Category 1+ winds of approximately 35.3 million. The storm made landfall in Zhejiang Province, China on the night of 11-12 July 2026 and weakened to tropical storm strength while moving inland; GDACS's report does not list a confirmed fatality count for the event."
     },
     "live_source_url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001279",
     "location": {
-      "country": "Guam / Northern Mariana Islands (United States); tracking toward Philippines, Taiwan, Japan, China",
+      "country": "Guam / Northern Mariana Islands (United States); made landfall in Zhejiang Province, China",
       "lat": 13.9,
       "lon": 145.0,
-      "region": "Western North Pacific, having passed near Rota between Guam and Saipan, now entering the Philippine Sea toward East Asia"
+      "region": "Western North Pacific — peaked near Guam/Rota/Saipan, tracked west through the Philippine Sea, and made landfall near Zhejiang, eastern China on 11-12 July"
     },
     "occurrence_date": "2026-07-01",
     "scale": "Category 5 (GDACS Red alert)",
-    "status": "ongoing"
+    "status": "contained"
   },
   "id": "typhoon-bavi-guam-mariana-2026",
-  "last_updated": "2026-07-10T09:15:24Z",
+  "last_updated": "2026-07-13T09:13:56Z",
   "name": "Super Typhoon Bavi — Guam & Northern Mariana Islands",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-10T09:15:24Z",
+        "at": "2026-07-13T09:13:56Z",
         "layer": "verify",
-        "run_id": "2026-07-10T09-15-24Z-7978fa"
+        "run_id": "2026-07-13T09-13-56Z-ba21fd"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-10T09-15-24Z-7978fa"
+    "last_run_id": "2026-07-13T09-13-56Z-ba21fd"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -98,7 +106,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
