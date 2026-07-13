@@ -1,0 +1,65 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "medium",
+      "numeric_annual": null,
+      "window": "next-100-years"
+    },
+    "severity": "continental",
+    "summary": "A rare but recurring natural hazard with a documented modern precedent (1989 Quebec blackout) and a credible worst case — a Carrington-level storm today could leave tens of millions without power for weeks to years and cost an estimated ~$2 trillion, per NOAA — against power grids that are not yet built to withstand it.",
+    "timeframe": "Carrington-level storms are characterized by USGS as \"100-year-type events\" — rare but not remote on an infrastructure-planning timescale, and effectively inevitable over a long enough horizon."
+  },
+  "category": "cosmic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-13",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/news/featured-story/what-a-solar-superstorm-could-mean-us",
+      "text": "These large [Carrington-level] storms are 100-year-type events, so although rare, they are still potentially consequential; in some areas, expected magnetic field strengths would be enough to stress or damage high-voltage transformers and potentially lead to massive power outages, with the Eastern and Midwestern U.S. most affected.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-13",
+      "source_name": "NOAA",
+      "source_url": "https://www.nesdis.noaa.gov/news/when-solar-storms-attack-space-weather-and-our-infrastructure",
+      "text": "A solar storm of Carrington magnitude today has the potential to cost nearly $2 trillion, disrupting telecommunications, banking systems, GPS, and the energy grid; the estimated total U.S. population at risk of an extended power outage from a Carrington-level storm is between 20-40 million, with durations of 16 days to 1-2 years.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-13",
+      "source_name": "NOAA",
+      "source_url": "https://www.nesdis.noaa.gov/news/when-solar-storms-attack-space-weather-and-our-infrastructure",
+      "text": "During the March 1989 geomagnetic storm, auroral currents shorted out the Quebec power grid and within 90 seconds, without warning, six million people were left without power for nine hours.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A severe solar-driven disturbance of Earth's magnetic field, triggered by a coronal mass ejection, capable of inducing damaging currents in long conductors such as power-grid transmission lines, pipelines, and undersea cables, and disrupting satellites, GPS, and radio communications. A Carrington-class (1859) event has not repeated in the modern electrified era, but near-misses (2012) and smaller storms (1989 Quebec blackout) show the underlying hazard is real and recurring.",
+  "id": "geomagnetic-storm",
+  "last_updated": "2026-07-13T10:07:24Z",
+  "name": "Extreme Geomagnetic Storm",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-13T10:07:24Z",
+        "layer": "verify",
+        "run_id": "2026-07-13T10-07-24Z-ad723e"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-13T10-07-24Z-ad723e"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 23.0,
+    "probability_rank": 3,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

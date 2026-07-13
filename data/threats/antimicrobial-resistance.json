@@ -1,0 +1,65 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "high",
+      "numeric_annual": null,
+      "window": "ongoing"
+    },
+    "severity": "continental",
+    "summary": "A present, quantified global toll — over a million deaths a year directly attributable to resistant bacterial infections — with a thin pipeline of new antibiotics and rising resistance rates threatening to erode modern medicine's ability to treat common infections and perform routine procedures safely.",
+    "timeframe": "Already a present, quantified toll; WHO and partners project resistance to last-resort antibiotics could roughly double by 2035 versus 2005 levels absent stronger action."
+  },
+  "category": "biological",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-13",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "text": "Bacterial AMR was directly responsible for 1.27 million global deaths in 2019 and contributed to 4.95 million deaths.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-13",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "text": "AMR could result in US$ 1 trillion additional healthcare costs by 2050, and US$ 1 trillion to US$ 3.4 trillion gross domestic product (GDP) losses per year by 2030.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-13",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "text": "There are only 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which only 6 were classified as innovative.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The evolution of bacteria, viruses, fungi, and parasites to resist the drugs designed to kill them, driven by overuse and misuse of antimicrobials in humans, animals, and agriculture. Already a leading cause of death worldwide, it threatens to undermine modern medicine — from routine infections to surgery, chemotherapy, and organ transplants — as fewer effective antibiotics remain in the pipeline.",
+  "id": "antimicrobial-resistance",
+  "last_updated": "2026-07-13T10:07:24Z",
+  "name": "Antimicrobial Resistance",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-13T10:07:24Z",
+        "layer": "verify",
+        "run_id": "2026-07-13T10-07-24Z-2069d9"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-13T10-07-24Z-2069d9"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 24.0,
+    "probability_rank": 4,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

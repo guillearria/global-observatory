@@ -1,0 +1,65 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "medium",
+      "numeric_annual": null,
+      "window": "next-50-years"
+    },
+    "severity": "regional",
+    "summary": "A geologically well-documented, quantified hazard for coastal subduction zones — USGS puts the chance of a full-margin ~M9 Cascadia earthquake at 10-15% in the next 50 years — capable of regional-scale destruction and a major tsunami with comparatively little warning time.",
+    "timeframe": "USGS puts the chance of a full-margin ~M9 Cascadia Subduction Zone earthquake at 10-15% in the next 50 years, with much higher odds (85%) for a smaller but still damaging M6.5+ deep earthquake in the Puget Sound region over the same window."
+  },
+  "category": "geological",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-13",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/publications/earthquake-probabilities-and-hazards-us-pacific-northwest",
+      "text": "There is a 10-15-percent chance of an approximately magnitude 9 earthquake on the Cascadia Subduction Zone in the next 50 years.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-13",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/publications/earthquake-probabilities-and-hazards-us-pacific-northwest",
+      "text": "There is an 85-percent chance of a magnitude 6.5 or greater deep earthquake in the Puget Sound region, and a 17-percent chance of a magnitude 6.5 or greater crustal fault earthquake in the Puget Sound region, in the next 50 years.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-13",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/publications/earthquake-probabilities-and-hazards-us-pacific-northwest",
+      "text": "The Pacific Northwest earthquake hazard model identifies three types of earthquakes in the region: deep (intraslab) earthquakes, subduction zone (megathrust) earthquakes, and shallow crustal earthquakes.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A great (magnitude 8+) earthquake on a subduction-zone megathrust fault, where one tectonic plate slides beneath another, capable of rupturing hundreds of kilometers of coastline in a single event and generating a major ocean-crossing tsunami. Subduction zones such as Cascadia (US Pacific Northwest), the Nankai Trough (Japan), and Sumatra have produced the largest and most destructive earthquakes and tsunamis in recorded history.",
+  "id": "megathrust-earthquake",
+  "last_updated": "2026-07-13T10:07:24Z",
+  "name": "Megathrust Earthquake and Tsunami",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-13T10:07:24Z",
+        "layer": "verify",
+        "run_id": "2026-07-13T10-07-24Z-8d19de"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-13T10-07-24Z-8d19de"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 13.0,
+    "probability_rank": 3,
+    "severity_rank": 1
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
