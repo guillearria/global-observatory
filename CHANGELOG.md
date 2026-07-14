@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-14 — Daily World Pulse refresh: update 3 ongoing events (`8011938`)
+
+- **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, venezuela-earthquake-2026
+
 ## 2026-07-12 — Refresh World Pulse events: Ebola, Venezuela quake, typhoon Bavi (`f205a82`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026
