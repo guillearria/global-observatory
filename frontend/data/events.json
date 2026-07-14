@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12T09:14:23Z",
+  "last_updated": "2026-07-14T09:15:23Z",
   "published": [
     {
       "category": "flood",
@@ -99,39 +99,47 @@
           "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
           "text": "As of 9 July 2026, the Democratic Republic of the Congo reported a total of 1,792 confirmed cases, including 625 related deaths (from data up until 8 July), an increase of 33 new confirmed cases and 25 related deaths since the prior update, with cases concentrated in Ituri province (1,631 cases, 535 deaths) and North Kivu (158 cases, 89 deaths). Uganda has reported a total of 20 confirmed cases, including two deaths, with the last confirmed case reported on 21 June and no new cases since.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-07-14",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "On 12 July 2026, the Democratic Republic of the Congo (DRC) reported a total of 1,926 confirmed cases, including 702 related deaths (from data up until 11 July). A total of 753 patients are hospitalised in isolation. Ituri province remains the most affected, with 1,745 cases, including 601 deaths, reported from 26 of 36 health zones. In North Kivu, 73 cases, including 97 deaths, have been reported from 11 of 34 health zones. In South Kivu, three cases, including one death, have been reported from one of 34 health zones. In Haut-Uele, one case has been reported and in Tshopo four cases. As of 12 July 2026, in Uganda a total of 20 confirmed cases, including two deaths, have been reported by the Ministry of Health; the last confirmed case was reported on 21 June with no new cases since. On 10 July 2026, the US CDC reported that a US citizen working for a humanitarian organisation in DRC had tested positive for Bundibugyo virus; the patient was medically evacuated to Germany on 13 July 2026, in addition to an imported case reported in France on 24 June 2026.",
+          "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with a linked imported case confirmed in France.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with imported cases confirmed in France and, most recently, a US citizen medically evacuated to Germany.",
       "event": {
         "impact": {
-          "deaths": 627,
+          "deaths": 704,
           "displaced": null,
-          "summary": "As of 9 July 2026 (ECDC, citing data through 8 July), the Democratic Republic of the Congo had reported 1,792 confirmed cases including 625 deaths — an increase of 33 new confirmed cases and 25 related deaths since 1 July — concentrated in Ituri province (1,631 cases, 535 deaths) and North Kivu (158 cases, 89 deaths). Uganda's confirmed case count remains at 20, including two deaths, with no new cases since 21 June. WHO's most recent Disease Outbreak News (DON 612, published 3 July) additionally lists 1 imported case in France. More than 10,000 contacts have been monitored in DRC."
+          "summary": "As of 12 July 2026 (ECDC, citing DRC data through 11 July), the Democratic Republic of the Congo had reported 1,926 confirmed cases including 702 deaths and 753 patients hospitalised in isolation — concentrated in Ituri province (1,745 cases, 601 deaths) and North Kivu (73 cases, 97 deaths, as stated in ECDC's report), with further cases in South Kivu, Haut-Uele and Tshopo. Uganda's confirmed case count remains at 20, including two deaths, with no new cases since 21 June. A US citizen working for a humanitarian organisation in DRC tested positive for Bundibugyo virus and was medically evacuated to Germany on 13 July 2026, in addition to an earlier imported case in France."
         },
         "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
         "location": {
           "country": "Democratic Republic of the Congo",
           "lat": 1.95,
           "lon": 30.04,
-          "region": "Ituri Province (Mongbwalu), DRC, with cases in Uganda and an imported case in France"
+          "region": "Ituri Province (Mongbwalu), DRC, with cases in Uganda and imported cases in France and Germany"
         },
         "occurrence_date": "2026-05-15",
         "scale": "PHEIC",
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-12T09:14:22Z",
+      "last_updated": "2026-07-14T09:11:04Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-12T09:14:22Z",
+            "at": "2026-07-14T09:11:04Z",
             "layer": "verify",
-            "run_id": "2026-07-12T09-14-22Z-a71241"
+            "run_id": "2026-07-14T09-11-04Z-b44e4a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-12T09-14-22Z-a71241"
+        "last_run_id": "2026-07-14T09-11-04Z-b44e4a"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -141,7 +149,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -315,14 +323,22 @@
           "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-60-effects-mw-78-earthquake-incident-maasim-sarangani-10-july-2026-6am",
           "text": "DSWD DROMIC Report #60, as of 10 July 2026, 6AM, reports 391,871 families (1,655,313 persons) affected in 650 barangays across Regions IX, XI, XII and BARMM, with 24,919 families (95,129 persons) still displaced — 7,830 families (30,963 persons) inside 79 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,307 houses were damaged, of which 19,188 were totally destroyed and 102,119 partially damaged.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-07-14",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-64-effects-mw-78-earthquake-incident-maasim-sarangani-13-july-2026-6pm",
+          "text": "DSWD DROMIC Report #64, as of 13 July 2026, 6PM, reports a total of 391,891 families (1,655,313 persons) affected in 650 barangays in Regions IX, XI, XII and BARMM. There are 25,048 families (95,629 persons) still displaced in Regions XI, XII and BARMM — 7,959 families (31,463 persons) inside 80 evacuation centers in Regions XI and XII, and 17,089 families (64,166 persons) temporarily staying with relatives or friends. A total of 121,426 houses were damaged, of which 19,305 were totally damaged and 102,121 were partially damaged. A total of ₱1,156,615,547.45 worth of assistance has been provided to affected families, of which ₱1,156,595,547.45 came from DSWD and ₱20,000.00 from LGUs.",
+          "verification_status": "verified"
         }
       ],
       "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll and number of affected people climbed through late June as damage assessments continued, and eighteen local government units have declared a state of calamity.",
       "event": {
         "impact": {
           "deaths": 77,
-          "displaced": 95129,
-          "summary": "As of 10 July 2026, DSWD DROMIC reported 1,655,313 people (391,871 families) affected across 650 barangays in Regions IX, XI, XII and BARMM, with 95,129 people still displaced. A total of 121,307 houses have been damaged, including 19,188 totally destroyed. Government figures last reported 77 deaths (as of 23 June, per ReliefWeb's disaster overview, still the latest allowlisted-source figure). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
+          "displaced": 95629,
+          "summary": "As of DSWD DROMIC Report #64 (13 July 2026, 6PM), 391,891 families (1,655,313 persons) are affected across 650 barangays in Regions IX, XI, XII and BARMM, with 25,048 families (95,629 persons) still displaced — 7,959 families (31,463 persons) inside 80 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,426 houses have been damaged, including 19,305 totally destroyed and 102,121 partially damaged; DSWD has provided ₱1,156,615,547.45 worth of humanitarian assistance. Government figures last reported 77 deaths (as of 23 June, per ReliefWeb's disaster overview, still the latest allowlisted-source figure). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
         "location": {
@@ -336,18 +352,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-07-10T09:15:24Z",
+      "last_updated": "2026-07-14T09:14:20Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-10T09:15:24Z",
+            "at": "2026-07-14T09:14:20Z",
             "layer": "verify",
-            "run_id": "2026-07-10T09-15-24Z-0d3e4e"
+            "run_id": "2026-07-14T09-14-20Z-400909"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-10T09-15-24Z-0d3e4e"
+        "last_run_id": "2026-07-14T09-14-20Z-400909"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -357,7 +373,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -667,14 +683,22 @@
           "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-18-11-july-2026-time-0900-pm",
           "text": "OCHA's Situation Report #18 (11 July 2026, 9:00 pm) states that seventeen days after the earthquakes, authorities report a toll of 4,333 people dead, 16,740 injured and 6,462 rescued since the onset of the emergency; 1,171 aftershocks have been recorded, 17,907 people remain without housing, and 315 of those who died have yet to be identified. UN humanitarian chief Tom Fletcher concluded his four-day visit to the country and called for sustained international support for the Humanitarian Response Plan; an additional appeal for US$298 million was launched to address the multisectoral needs of 1.3 million people over the next six months.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-07-14",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-20-13-july-2026-time-0900-pm",
+          "text": "OCHA's Situation Report No. 20 (13 July 2026, 9:00 pm) states that, nineteen days since the earthquakes, authorities report a toll of 4,561 people dead, 16,740 injured and 6,462 rescued since the onset of the emergency, with more than 1,254 aftershocks recorded and 17,907 people remaining without housing. Authorities report at least 856 affected buildings, including 190 that have collapsed. The response continues with 107 transitional camps supporting affected populations, with a capacity of 25,064 people and a current occupancy of 20,231 people. A preliminary UNDP estimate indicates direct physical damage of US$6.7 billion, equivalent to 6 percent of GDP, alongside the earlier UNDRR estimate of approximately US$37 billion. The Government of Venezuela announced the creation of an initial reconstruction fund equivalent to US$200 million.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. More than two weeks on, the confirmed death toll has continued to climb, and the UN has assessed billions of dollars in physical damage.",
+      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Three weeks on, the confirmed death toll has continued to climb, and the UN has assessed billions of dollars in physical damage.",
       "event": {
         "impact": {
-          "deaths": 4333,
+          "deaths": 4561,
           "displaced": 17907,
-          "summary": "As of OCHA's Situation Report #18 (11 July 2026, 9:00 pm), authorities report an official toll of 4,333 people dead (315 not yet identified) and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes; 17,907 people remain without housing and more than 1,171 aftershocks have been recorded. UN humanitarian chief Tom Fletcher concluded a four-day visit and called for sustained international support; a further US$298 million appeal was launched to support 1.3 million people over the next six months. A UNDRR first assessment (reported 6 July) estimated direct physical damage to housing and infrastructure at some $37 billion ($24 billion to buildings, $13 billion to infrastructure)."
+          "summary": "As of OCHA's Situation Report #20 (13 July 2026, 9:00 pm), authorities report an official toll of 4,561 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes; 17,907 people remain without housing and more than 1,254 aftershocks have been recorded. Authorities report at least 856 affected buildings, including 190 that have collapsed. The response continues with 107 transitional camps (capacity 25,064, occupancy 20,231). A UNDRR first assessment estimated direct physical damage to housing and infrastructure at some $37 billion ($24 billion to buildings, $13 billion to infrastructure), while a separate UNDP preliminary estimate put direct physical damage at $6.7 billion (6% of GDP). An additional US$298 million appeal was launched to support 1.3 million people over the next six months, and the Government of Venezuela announced an initial reconstruction fund of US$200 million."
         },
         "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp/executive",
         "location": {
@@ -688,18 +712,18 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-07-12T09:14:22Z",
+      "last_updated": "2026-07-14T09:15:23Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-12T09:14:22Z",
+            "at": "2026-07-14T09:15:23Z",
             "layer": "verify",
-            "run_id": "2026-07-12T09-14-22Z-e7e073"
+            "run_id": "2026-07-14T09-15-23Z-9d6f9f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-12T09-14-22Z-e7e073"
+        "last_run_id": "2026-07-14T09-15-23Z-9d6f9f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -709,7 +733,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }
