@@ -1,0 +1,56 @@
+{
+  "category": "conflict",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-15",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/07/1167871",
+      "text": "In the space of just three weeks, the UN Human Rights Office documented 15 drone strikes on El Obeid, which killed at least 45 civilians. El Obeid has more than half a million residents, together with at least 100,000 internally displaced persons, and the number of newly displaced people across Kordofan has risen by nearly two-thirds in only three months.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Rapid Support Forces (RSF) paramilitary forces have besieged El Obeid, the capital of North Kordofan state, subjecting the city of more than half a million residents to relentless drone strikes and blockade conditions. The United Nations Human Rights Office documented 15 drone strikes on the city and surrounding areas in three weeks, and UN officials have warned of an imminent risk of mass atrocities similar to those already documented in El Fasher, Darfur.",
+  "event": {
+    "impact": {
+      "deaths": 45,
+      "displaced": 100000,
+      "summary": "The UN Human Rights Office documented 15 drone strikes on El Obeid and surrounding areas over three weeks that killed at least 45 civilians. El Obeid has more than half a million residents, together with at least 100,000 internally displaced persons sheltering in the city. UN News reported (3 July 2026) that the strikes are part of a sustained RSF siege campaign, and UN officials have warned of the risk of large-scale atrocities."
+    },
+    "live_source_url": "https://news.un.org/en/story/2026/07/1167871",
+    "location": {
+      "country": "Sudan",
+      "lat": 13.19,
+      "lon": 30.22,
+      "region": "El Obeid, North Kordofan state"
+    },
+    "occurrence_date": "2026-06-15",
+    "scale": "City under siege; UN human-rights atrocity-risk warning",
+    "status": "ongoing"
+  },
+  "id": "el-obeid-siege-sudan-2026",
+  "last_updated": "2026-07-15T09:13:17Z",
+  "name": "Siege of El Obeid — North Kordofan, Sudan",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-15T09:13:17Z",
+        "layer": "verify",
+        "run_id": "2026-07-15T09-13-17Z-c4dd82"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-15T09-13-17Z-c4dd82"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7397823.0,
+    "impact_rank": 3,
+    "recency_rank": 739782
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

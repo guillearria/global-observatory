@@ -40,14 +40,22 @@
       "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
       "text": "On 12 July 2026, the Democratic Republic of the Congo (DRC) reported a total of 1,926 confirmed cases, including 702 related deaths (from data up until 11 July). A total of 753 patients are hospitalised in isolation. Ituri province remains the most affected, with 1,745 cases, including 601 deaths, reported from 26 of 36 health zones. In North Kivu, 73 cases, including 97 deaths, have been reported from 11 of 34 health zones. In South Kivu, three cases, including one death, have been reported from one of 34 health zones. In Haut-Uele, one case has been reported and in Tshopo four cases. As of 12 July 2026, in Uganda a total of 20 confirmed cases, including two deaths, have been reported by the Ministry of Health; the last confirmed case was reported on 21 June with no new cases since. On 10 July 2026, the US CDC reported that a US citizen working for a humanitarian organisation in DRC had tested positive for Bundibugyo virus; the patient was medically evacuated to Germany on 13 July 2026, in addition to an imported case reported in France on 24 June 2026.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-07-15",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "On 13 July 2026, the Democratic Republic of the Congo (DRC) reported a total of 1,963 confirmed cases, including 719 related deaths (data up until 12 July), an increase of 31 new confirmed cases and 10 deaths since the previous update; 736 patients are hospitalised in isolation and 333 have recovered. Ituri province remains the most affected, with 1,772 cases including 608 deaths, reported from 26 of 36 health zones; North Kivu has reported 177 cases including 100 deaths; South Kivu 3 cases including 1 death; Haut-Uele 7 cases including 7 deaths; and Tshopo 4 cases including 3 deaths. Uganda has reported 20 confirmed cases including two deaths, with the last confirmed case on 21 June and no new cases since.",
+      "verification_status": "verified"
     }
   ],
   "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with imported cases confirmed in France and, most recently, a US citizen medically evacuated to Germany.",
   "event": {
     "impact": {
-      "deaths": 704,
+      "deaths": 721,
       "displaced": null,
-      "summary": "As of 12 July 2026 (ECDC, citing DRC data through 11 July), the Democratic Republic of the Congo had reported 1,926 confirmed cases including 702 deaths and 753 patients hospitalised in isolation — concentrated in Ituri province (1,745 cases, 601 deaths) and North Kivu (73 cases, 97 deaths, as stated in ECDC's report), with further cases in South Kivu, Haut-Uele and Tshopo. Uganda's confirmed case count remains at 20, including two deaths, with no new cases since 21 June. A US citizen working for a humanitarian organisation in DRC tested positive for Bundibugyo virus and was medically evacuated to Germany on 13 July 2026, in addition to an earlier imported case in France."
+      "summary": "As of 13 July 2026 (ECDC, citing DRC data through 12 July), the Democratic Republic of the Congo had reported 1,963 confirmed cases including 719 deaths and 736 patients hospitalised in isolation — concentrated in Ituri province (1,772 cases, 608 deaths) and North Kivu (177 cases, 100 deaths), with further cases in South Kivu, Haut-Uele and Tshopo. Uganda's confirmed case count remains at 20, including two deaths, with no new cases since 21 June. A US citizen working for a humanitarian organisation in DRC tested positive for Bundibugyo virus and was medically evacuated to Germany on 13 July 2026, in addition to an earlier imported case in France."
     },
     "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
     "location": {
@@ -61,18 +69,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-07-14T09:11:04Z",
+  "last_updated": "2026-07-15T09:09:14Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-14T09:11:04Z",
+        "at": "2026-07-15T09:09:14Z",
         "layer": "verify",
-        "run_id": "2026-07-14T09-11-04Z-b44e4a"
+        "run_id": "2026-07-15T09-09-14Z-9f55d9"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-14T09-11-04Z-b44e4a"
+    "last_run_id": "2026-07-15T09-09-14Z-9f55d9"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -82,7 +90,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
