@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-15 — Daily World Pulse refresh: add El Obeid siege & Sudan cholera, update Ebola (`7461692`)
+
+- **Added:** el-obeid-siege-sudan-2026, sudan-cholera-outbreak-2026
+- **Updated:** ebola-bundibugyo-drc-2026
+
 ## 2026-07-14 — Daily World Pulse refresh: update 3 ongoing events (`8011938`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, venezuela-earthquake-2026
