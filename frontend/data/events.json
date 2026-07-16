@@ -1,6 +1,78 @@
 {
-  "last_updated": "2026-07-15T09:14:26Z",
+  "last_updated": "2026-07-16T09:15:54Z",
   "published": [
+    {
+      "category": "flood",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-16",
+          "source_name": "United Nations",
+          "source_url": "https://bangladesh.un.org/en/319192-flash-update-1-chattogram-division-flash-flood-landslides-09-july-2026",
+          "text": "The Flash Update on flash floods and landslides in Chattogram Division has been prepared by the Needs Assessment and Information Management Working Group and published on 09 July 2026, reporting 7 districts affected, 536,000 people affected, 11 deaths, 17,000 people temporarily displaced and 1,700 shelters activated.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-16",
+          "source_name": "United Nations",
+          "source_url": "https://bangladesh.un.org/en/319196-flash-update-2-flash-flood-landslides-bangladesh-11-july-2026",
+          "text": "Flash Update #2 (dated 11 July 2026, published 13 July) reports that 10 districts have been affected, more than 1.07 million people have been impacted, over 36,000 people remain temporarily displaced, and 26 casualties have been reported.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-16",
+          "source_name": "United Nations",
+          "source_url": "https://bangladesh.un.org/en/319254-bangladesh-situation-report-1-flash-flood-and-landslides-13-july-2026",
+          "text": "Situation Report #1 (dated 13 July 2026, published 14 July) reports 51 reported fatalities and more than 1.11 million people affected across 10 districts (Chattogram, Cox's Bazar, Bandarban, Khagrachhari, Rangamati, Moulvibazar, Sunamganj, Habiganj, Sylhet and Cumilla), with more than 38,000 people staying in over 1,000 evacuation shelters as of 12 July, and significant damage to homes, water systems, roads, bridges and public infrastructure.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Days of torrential monsoon rain beginning around 4 July 2026 triggered flash floods and landslides across ten districts of southeastern Bangladesh, centred on Cox's Bazar and Chattogram. The disaster killed dozens of people, including Rohingya refugees in the Cox's Bazar camps, and stranded more than a million residents, prompting the UN Resident Coordinator's office and the government's Disaster Management and Relief Ministry to scale up an emergency response.",
+      "event": {
+        "impact": {
+          "deaths": 51,
+          "displaced": 38000,
+          "summary": "As of the UN Resident Coordinator's Situation Report #1 (13 July 2026, published 14 July), monsoon-triggered flash floods and landslides had affected more than 1.11 million people across 10 districts of southeastern Bangladesh, with 51 reported fatalities and more than 38,000 people staying in over 1,000 evacuation shelters. An earlier UN Flash Update (11 July) had put the toll at 26 deaths, 1.07 million people impacted and over 36,000 people temporarily displaced across 10 districts, up from 11 deaths, 536,000 people affected, 17,000 displaced and 1,700 shelters activated in Chattogram Division alone as of 9 July."
+        },
+        "live_source_url": "https://bangladesh.un.org/en/319254-bangladesh-situation-report-1-flash-flood-and-landslides-13-july-2026",
+        "location": {
+          "country": "Bangladesh",
+          "lat": 21.4272,
+          "lon": 92.0058,
+          "region": "Chattogram, Cox's Bazar, Bandarban, Rangamati, Khagrachhari, Moulvibazar, Sunamganj, Habiganj, Sylhet and Cumilla districts, southeastern Bangladesh"
+        },
+        "occurrence_date": "2026-07-04",
+        "scale": "10 districts affected",
+        "status": "ongoing"
+      },
+      "id": "bangladesh-floods-chattogram-2026",
+      "last_updated": "2026-07-16T09:15:54Z",
+      "name": "Monsoon Floods & Landslides — Chattogram Division, Bangladesh",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-16T09:15:54Z",
+            "layer": "verify",
+            "run_id": "2026-07-16T09-15-54Z-880eb5"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-16T09-15-54Z-880eb5"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398012.0,
+        "impact_rank": 2,
+        "recency_rank": 739801
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
     {
       "category": "flood",
       "claims": [
@@ -115,14 +187,22 @@
           "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
           "text": "On 13 July 2026, the Democratic Republic of the Congo (DRC) reported a total of 1,963 confirmed cases, including 719 related deaths (data up until 12 July), an increase of 31 new confirmed cases and 10 deaths since the previous update; 736 patients are hospitalised in isolation and 333 have recovered. Ituri province remains the most affected, with 1,772 cases including 608 deaths, reported from 26 of 36 health zones; North Kivu has reported 177 cases including 100 deaths; South Kivu 3 cases including 1 death; Haut-Uele 7 cases including 7 deaths; and Tshopo 4 cases including 3 deaths. Uganda has reported 20 confirmed cases including two deaths, with the last confirmed case on 21 June and no new cases since.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-07-16",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "On 14 July 2026, the Democratic Republic of the Congo (DRC) reported a total of 2,011 confirmed cases, including 754 related deaths (data up until 13 July), an increase of 54 new confirmed cases and 28 deaths since the previous update; 753 patients are hospitalised in isolation and 366 have recovered. Ituri province remains the most affected, with 1,808 cases including 631 deaths, reported from 26 of 36 health zones; North Kivu has reported 182 cases including 106 deaths; South Kivu 3 cases including 1 death; Haut-Uele 14 cases including 13 deaths; and Tshopo 4 cases including 3 deaths — 45 of 140 health zones affected in total. Uganda has reported 20 confirmed cases including two deaths, with the last confirmed case on 21 June and no new cases since; 67.4% of identified case contacts in affected provinces are under follow-up.",
+          "verification_status": "verified"
         }
       ],
       "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with imported cases confirmed in France and, most recently, a US citizen medically evacuated to Germany.",
       "event": {
         "impact": {
-          "deaths": 721,
+          "deaths": 756,
           "displaced": null,
-          "summary": "As of 13 July 2026 (ECDC, citing DRC data through 12 July), the Democratic Republic of the Congo had reported 1,963 confirmed cases including 719 deaths and 736 patients hospitalised in isolation — concentrated in Ituri province (1,772 cases, 608 deaths) and North Kivu (177 cases, 100 deaths), with further cases in South Kivu, Haut-Uele and Tshopo. Uganda's confirmed case count remains at 20, including two deaths, with no new cases since 21 June. A US citizen working for a humanitarian organisation in DRC tested positive for Bundibugyo virus and was medically evacuated to Germany on 13 July 2026, in addition to an earlier imported case in France."
+          "summary": "As of 14 July 2026 (ECDC, citing DRC data through 13 July), the Democratic Republic of the Congo had reported 2,011 confirmed cases including 754 deaths and 753 patients hospitalised in isolation — concentrated in Ituri province (1,808 cases, 631 deaths) and North Kivu (182 cases, 106 deaths), with further cases in South Kivu, Haut-Uele and Tshopo. Uganda's confirmed case count remains at 20, including two deaths, with no new cases since 21 June. A US citizen working for a humanitarian organisation in DRC tested positive for Bundibugyo virus and was medically evacuated to Germany on 13 July 2026, in addition to an earlier imported case in France."
         },
         "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
         "location": {
@@ -136,18 +216,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-15T09:09:14Z",
+      "last_updated": "2026-07-16T09:11:34Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-15T09:09:14Z",
+            "at": "2026-07-16T09:11:34Z",
             "layer": "verify",
-            "run_id": "2026-07-15T09-09-14Z-9f55d9"
+            "run_id": "2026-07-16T09-11-34Z-539ce2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-15T09-09-14Z-9f55d9"
+        "last_run_id": "2026-07-16T09-11-34Z-539ce2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -157,7 +237,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

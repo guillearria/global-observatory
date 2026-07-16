@@ -1,0 +1,72 @@
+{
+  "category": "flood",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-16",
+      "source_name": "United Nations",
+      "source_url": "https://bangladesh.un.org/en/319192-flash-update-1-chattogram-division-flash-flood-landslides-09-july-2026",
+      "text": "The Flash Update on flash floods and landslides in Chattogram Division has been prepared by the Needs Assessment and Information Management Working Group and published on 09 July 2026, reporting 7 districts affected, 536,000 people affected, 11 deaths, 17,000 people temporarily displaced and 1,700 shelters activated.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-16",
+      "source_name": "United Nations",
+      "source_url": "https://bangladesh.un.org/en/319196-flash-update-2-flash-flood-landslides-bangladesh-11-july-2026",
+      "text": "Flash Update #2 (dated 11 July 2026, published 13 July) reports that 10 districts have been affected, more than 1.07 million people have been impacted, over 36,000 people remain temporarily displaced, and 26 casualties have been reported.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-16",
+      "source_name": "United Nations",
+      "source_url": "https://bangladesh.un.org/en/319254-bangladesh-situation-report-1-flash-flood-and-landslides-13-july-2026",
+      "text": "Situation Report #1 (dated 13 July 2026, published 14 July) reports 51 reported fatalities and more than 1.11 million people affected across 10 districts (Chattogram, Cox's Bazar, Bandarban, Khagrachhari, Rangamati, Moulvibazar, Sunamganj, Habiganj, Sylhet and Cumilla), with more than 38,000 people staying in over 1,000 evacuation shelters as of 12 July, and significant damage to homes, water systems, roads, bridges and public infrastructure.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Days of torrential monsoon rain beginning around 4 July 2026 triggered flash floods and landslides across ten districts of southeastern Bangladesh, centred on Cox's Bazar and Chattogram. The disaster killed dozens of people, including Rohingya refugees in the Cox's Bazar camps, and stranded more than a million residents, prompting the UN Resident Coordinator's office and the government's Disaster Management and Relief Ministry to scale up an emergency response.",
+  "event": {
+    "impact": {
+      "deaths": 51,
+      "displaced": 38000,
+      "summary": "As of the UN Resident Coordinator's Situation Report #1 (13 July 2026, published 14 July), monsoon-triggered flash floods and landslides had affected more than 1.11 million people across 10 districts of southeastern Bangladesh, with 51 reported fatalities and more than 38,000 people staying in over 1,000 evacuation shelters. An earlier UN Flash Update (11 July) had put the toll at 26 deaths, 1.07 million people impacted and over 36,000 people temporarily displaced across 10 districts, up from 11 deaths, 536,000 people affected, 17,000 displaced and 1,700 shelters activated in Chattogram Division alone as of 9 July."
+    },
+    "live_source_url": "https://bangladesh.un.org/en/319254-bangladesh-situation-report-1-flash-flood-and-landslides-13-july-2026",
+    "location": {
+      "country": "Bangladesh",
+      "lat": 21.4272,
+      "lon": 92.0058,
+      "region": "Chattogram, Cox's Bazar, Bandarban, Rangamati, Khagrachhari, Moulvibazar, Sunamganj, Habiganj, Sylhet and Cumilla districts, southeastern Bangladesh"
+    },
+    "occurrence_date": "2026-07-04",
+    "scale": "10 districts affected",
+    "status": "ongoing"
+  },
+  "id": "bangladesh-floods-chattogram-2026",
+  "last_updated": "2026-07-16T09:15:54Z",
+  "name": "Monsoon Floods & Landslides — Chattogram Division, Bangladesh",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-16T09:15:54Z",
+        "layer": "verify",
+        "run_id": "2026-07-16T09-15-54Z-880eb5"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-16T09-15-54Z-880eb5"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398012.0,
+    "impact_rank": 2,
+    "recency_rank": 739801
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
