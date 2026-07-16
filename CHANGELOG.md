@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-16 — Daily World Pulse refresh: add Bangladesh floods, update Ebola (`413e645`)
+
+- **Added:** bangladesh-floods-chattogram-2026
+- **Updated:** ebola-bundibugyo-drc-2026
+
 ## 2026-07-15 — Daily World Pulse refresh: add El Obeid siege & Sudan cholera, update Ebola (`7461692`)
 
 - **Added:** el-obeid-siege-sudan-2026, sudan-cholera-outbreak-2026
