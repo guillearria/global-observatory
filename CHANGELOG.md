@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-17 — Daily World Pulse refresh: update 8 ongoing events (`50df4ca`)
+
+- **Updated:** bangladesh-floods-chattogram-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, mindanao-earthquake-philippines-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, venezuela-earthquake-2026
+
 ## 2026-07-16 — Daily World Pulse refresh: add Bangladesh floods, update Ebola (`413e645`)
 
 - **Added:** bangladesh-floods-chattogram-2026
@@ -112,6 +116,6 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 - **Added:** global-warming, influenza-pandemic, near-earth-asteroid-impact
 
-## 2026-06-29 — Add threat JSON schema, seed record, and quarantine dir (`3656057`)
+## 2026-06-29 — Add the four layers + system prompts (`849d98f`)
 
 - **Added:** yellowstone-supervolcano
