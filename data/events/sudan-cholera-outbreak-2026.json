@@ -8,16 +8,24 @@
       "source_url": "https://news.un.org/en/story/2026/07/1167913",
       "text": "WHO Representative to Sudan Dr. Shible Sahbani reported more than 1,330 confirmed cholera cases and 114 confirmed deaths, a case fatality rate of 13.7 percent, in an outbreak affecting several states, mainly in the western part of the country, the Darfurs and the Kordofans, briefing journalists in Geneva on 10 July 2026. Aid officials say the true number of fatalities is likely much higher, and the disease is expected to spread further as the rainy season sets in, particularly among people who have fled towns and rural areas in North Kordofan.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-17",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/07/1167939",
+      "text": "UN News report (14 July 2026), citing OCHA, reconfirms WHO's count of 1,330 confirmed cholera cases and 114 deaths as of 7 July 2026, and describes the outbreak's continued spread: new confirmed and suspected cases in Kalma/Kampala displacement camp (South Darfur) and Tawila (North Darfur); West Kordofan reporting the highest caseload with new suspected cases and deaths; and North Kordofan reporting 32 new suspected cases in Gharb Bara locality in a single day. WHO delivered 8.5 tonnes of medical supplies to Kadugli and Dilling, South Kordofan — its first shipment there since December 2024 — and UNICEF delivered health supplies to El Fula, West Kordofan, serving about 429,000 people.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Sudan's third cholera wave in as many years has spread across war-affected western and central states, principally Darfur and Kordofan, where conflict and constrained humanitarian access are hampering the response. WHO warns the outbreak could worsen further as the rainy season sets in and displacement continues around besieged cities such as El Obeid.",
+  "description": "Sudan's third cholera wave in as many years has spread across war-affected western and central states, principally Darfur and Kordofan, where conflict and constrained humanitarian access are hampering the response. WHO warns the outbreak could worsen further as the rainy season sets in and displacement continues around besieged cities such as El Obeid. Mid-July reporting shows continued geographic spread into new localities in North and West Kordofan and South Darfur.",
   "event": {
     "impact": {
       "deaths": 114,
       "displaced": null,
-      "summary": "WHO's Representative to Sudan reported (10 July 2026, Geneva briefing) more than 1,330 confirmed cholera cases and 114 confirmed deaths, a case fatality rate of 13.7%, in an outbreak affecting several western and central Sudanese states, mainly Darfur and Kordofan. Aid officials say the true toll is likely higher, and WHO warns the outbreak could worsen as the rainy season begins and conflict continues to constrain the humanitarian response, particularly around North Kordofan."
+      "summary": "WHO's Representative to Sudan reported (10 July 2026, Geneva briefing) more than 1,330 confirmed cholera cases and 114 confirmed deaths, a case fatality rate of 13.7%, in an outbreak affecting several western and central Sudanese states, mainly Darfur and Kordofan. That aggregate remained WHO's latest confirmed count as of 14 July 2026, but OCHA reporting from mid-July describes active geographic spread — new confirmed and suspected cases in Kalma/Kampala displacement camp (South Darfur), Tawila (North Darfur), West Kordofan and North Kordofan — as WHO and UNICEF scale up medical supply deliveries to Kadugli, Dilling and El Fula. Aid officials say the true toll is likely higher, and WHO warns the outbreak could worsen as the rainy season continues and conflict constrains the humanitarian response."
     },
-    "live_source_url": "https://www.who.int/emergencies/situations/cholera-upsurge",
+    "live_source_url": "https://www.emro.who.int/sdn/crisis/index.html",
     "location": {
       "country": "Sudan",
       "lat": 13.19,
@@ -29,18 +37,18 @@
     "status": "ongoing"
   },
   "id": "sudan-cholera-outbreak-2026",
-  "last_updated": "2026-07-15T09:14:26Z",
+  "last_updated": "2026-07-17T09:12:11Z",
   "name": "Cholera Outbreak — Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-15T09:14:26Z",
+        "at": "2026-07-17T09:12:11Z",
         "layer": "verify",
-        "run_id": "2026-07-15T09-14-26Z-88b2eb"
+        "run_id": "2026-07-17T09-12-11Z-2975d4"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-15T09-14-26Z-88b2eb"
+    "last_run_id": "2026-07-17T09-12-11Z-2975d4"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -50,7 +58,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

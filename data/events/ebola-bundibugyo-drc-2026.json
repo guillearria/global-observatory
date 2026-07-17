@@ -56,14 +56,30 @@
       "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
       "text": "On 14 July 2026, the Democratic Republic of the Congo (DRC) reported a total of 2,011 confirmed cases, including 754 related deaths (data up until 13 July), an increase of 54 new confirmed cases and 28 deaths since the previous update; 753 patients are hospitalised in isolation and 366 have recovered. Ituri province remains the most affected, with 1,808 cases including 631 deaths, reported from 26 of 36 health zones; North Kivu has reported 182 cases including 106 deaths; South Kivu 3 cases including 1 death; Haut-Uele 14 cases including 13 deaths; and Tshopo 4 cases including 3 deaths — 45 of 140 health zones affected in total. Uganda has reported 20 confirmed cases including two deaths, with the last confirmed case on 21 June and no new cases since; 67.4% of identified case contacts in affected provinces are under follow-up.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-8",
+      "retrieved_date": "2026-07-17",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing---16-july-2026",
+      "text": "WHO Director-General's opening remarks at the media briefing of 16 July 2026: \"So far, 2073 cases have been reported, with 796 deaths\" in the Democratic Republic of the Congo. \"In Uganda, the last confirmed case is being discharged from care today, starting the 42-day countdown\" toward declaring the country's outbreak over, with 20 cases and two deaths.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-9",
+      "retrieved_date": "2026-07-17",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "As of 14 July 2026 (data up until 14 July), the Democratic Republic of the Congo reported 2,073 confirmed cases including 796 related deaths. Ituri province remains the most affected with 1,863 cases including 668 deaths, reported from 26 of 36 health zones; North Kivu has reported 189 cases including 111 deaths; South Kivu 3 cases including 1 death; Haut-Uele 14 cases including 13 deaths; and Tshopo 4 cases including 3 deaths. Uganda has reported 20 confirmed cases including two deaths; its last confirmed case, reported on 21 June, was discharged from care on 16 July 2026 after two negative tests, starting the 42-day countdown toward declaring Uganda's outbreak over.",
+      "verification_status": "verified"
     }
   ],
-  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with imported cases confirmed in France and, most recently, a US citizen medically evacuated to Germany.",
+  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with imported cases confirmed in France and, most recently, a US citizen medically evacuated to Germany. Uganda's last confirmed patient was discharged on 16 July, starting the 42-day countdown toward declaring that country's outbreak over.",
   "event": {
     "impact": {
-      "deaths": 756,
+      "deaths": 798,
       "displaced": null,
-      "summary": "As of 14 July 2026 (ECDC, citing DRC data through 13 July), the Democratic Republic of the Congo had reported 2,011 confirmed cases including 754 deaths and 753 patients hospitalised in isolation — concentrated in Ituri province (1,808 cases, 631 deaths) and North Kivu (182 cases, 106 deaths), with further cases in South Kivu, Haut-Uele and Tshopo. Uganda's confirmed case count remains at 20, including two deaths, with no new cases since 21 June. A US citizen working for a humanitarian organisation in DRC tested positive for Bundibugyo virus and was medically evacuated to Germany on 13 July 2026, in addition to an earlier imported case in France."
+      "summary": "As of 14 July 2026 data reported by the WHO Director-General on 16 July 2026, the Democratic Republic of the Congo had reported 2,073 confirmed cases including 796 deaths, concentrated in Ituri province (1,863 cases, 668 deaths) and North Kivu (189 cases, 111 deaths), with further cases in South Kivu, Haut-Uele and Tshopo. Uganda's confirmed case count remains at 20, including two deaths; its last confirmed patient was discharged from care on 16 July 2026 after two negative tests, starting the 42-day countdown toward declaring that country's outbreak over. WHO says the outbreak continues to outpace the response, with more than 80% of new infections occurring outside known contact-tracing lists."
     },
     "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
     "location": {
@@ -77,18 +93,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-07-16T09:11:34Z",
+  "last_updated": "2026-07-17T09:13:11Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-16T09:11:34Z",
+        "at": "2026-07-17T09:13:11Z",
         "layer": "verify",
-        "run_id": "2026-07-16T09-11-34Z-539ce2"
+        "run_id": "2026-07-17T09-13-11Z-a81edc"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-16T09-11-34Z-539ce2"
+    "last_run_id": "2026-07-17T09-13-11Z-a81edc"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -98,7 +114,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

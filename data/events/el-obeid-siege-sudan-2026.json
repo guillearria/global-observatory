@@ -8,16 +8,32 @@
       "source_url": "https://news.un.org/en/story/2026/07/1167871",
       "text": "In the space of just three weeks, the UN Human Rights Office documented 15 drone strikes on El Obeid, which killed at least 45 civilians. El Obeid has more than half a million residents, together with at least 100,000 internally displaced persons, and the number of newly displaced people across Kordofan has risen by nearly two-thirds in only three months.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-17",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/sudan/joint-statement-g7-foreign-ministers-el-obeid-sudan-14-july-2026",
+      "text": "G7 Foreign Ministers' joint statement on El Obeid, Sudan (14 July 2026): condemns ongoing RSF drone strikes on El Obeid and obstruction of humanitarian access, references the precedent of atrocities in El Fasher, and calls for an immediate ceasefire and compliance with the Jeddah Declaration to protect civilians.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-17",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/sudan/sudan-el-obeid-families-dying-drone-strikes-hunger-spreads-ground-assault-feared",
+      "text": "NRC report (posted 7 July 2026) on El Obeid: families are dying from drone strikes and from hunger as the siege continues, with an aid convoy struck the preceding week; essential services and food access are collapsing further as the blockade persists.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Rapid Support Forces (RSF) paramilitary forces have besieged El Obeid, the capital of North Kordofan state, subjecting the city of more than half a million residents to relentless drone strikes and blockade conditions. The United Nations Human Rights Office documented 15 drone strikes on the city and surrounding areas in three weeks, and UN officials have warned of an imminent risk of mass atrocities similar to those already documented in El Fasher, Darfur.",
+  "description": "Rapid Support Forces (RSF) paramilitary forces have besieged El Obeid, the capital of North Kordofan state, subjecting the city of more than half a million residents to relentless drone strikes and blockade conditions. The United Nations Human Rights Office documented 15 drone strikes on the city and surrounding areas in three weeks, and UN officials have warned of an imminent risk of mass atrocities similar to those already documented in El Fasher, Darfur. G7 foreign ministers condemned the siege on 14 July 2026, and the UN Human Rights Council launched a Fact-Finding Mission inquiry into the situation.",
   "event": {
     "impact": {
       "deaths": 45,
       "displaced": 100000,
-      "summary": "The UN Human Rights Office documented 15 drone strikes on El Obeid and surrounding areas over three weeks that killed at least 45 civilians. El Obeid has more than half a million residents, together with at least 100,000 internally displaced persons sheltering in the city. UN News reported (3 July 2026) that the strikes are part of a sustained RSF siege campaign, and UN officials have warned of the risk of large-scale atrocities."
+      "summary": "The UN Human Rights Office documented 15 drone strikes on El Obeid and surrounding areas over three weeks that killed at least 45 civilians. El Obeid has more than half a million residents, together with at least 100,000 internally displaced persons sheltering in the city. As of the G7 foreign ministers' joint statement of 14 July 2026, the RSF siege and near-daily drone strikes were continuing, with routes into the city still blocked except toward the east; no allowlisted source has published an updated aggregate casualty count since the initial 3 July UN report. UN officials continue to warn of the risk of large-scale atrocities."
     },
-    "live_source_url": "https://news.un.org/en/story/2026/07/1167871",
+    "live_source_url": "https://reliefweb.int/country/sdn",
     "location": {
       "country": "Sudan",
       "lat": 13.19,
@@ -29,18 +45,18 @@
     "status": "ongoing"
   },
   "id": "el-obeid-siege-sudan-2026",
-  "last_updated": "2026-07-15T09:13:17Z",
+  "last_updated": "2026-07-17T09:13:11Z",
   "name": "Siege of El Obeid — North Kordofan, Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-15T09:13:17Z",
+        "at": "2026-07-17T09:13:11Z",
         "layer": "verify",
-        "run_id": "2026-07-15T09-13-17Z-c4dd82"
+        "run_id": "2026-07-17T09-13-11Z-431c85"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-15T09-13-17Z-c4dd82"
+    "last_run_id": "2026-07-17T09-13-11Z-431c85"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -50,7 +66,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

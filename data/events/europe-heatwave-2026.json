@@ -16,14 +16,22 @@
       "source_url": "https://www.who.int/europe/news/item/07-07-2026-statement---extreme-heat--more-deadly-weeks-may-still-lie-ahead-for-the-european-region",
       "text": "WHO/Europe's statement of 7 July 2026, titled 'Extreme heat: more deadly weeks may still lie ahead for the European Region', warns that the current heatwave risk to health remains active and that heat-health action plans save lives.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-17",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/europe/news/item/16-07-2026-planning-for-a-warmer-world",
+      "text": "WHO/Europe's statement of 16 July 2026, \"Planning for a warmer world\": \"This summer's toll is still being counted but, already, data from just 5 countries shows nearly 10,000 excess deaths due to heat.\" WHO Regional Director Dr Hans Henri P. Kluge: \"In the past 4 years alone, heat has claimed more than 200,000 lives, while heat-related mortality has risen by 30% over the past 20 years.\"",
+      "verification_status": "verified"
     }
   ],
-  "description": "A record-breaking heatwave has gripped Western and Southern Europe since around 21 June 2026, straining health systems and emergency services across France, Spain, Belgium, the Netherlands, Italy and the UK. WHO/Europe issued successive public statements describing rising heat-associated mortality and warning that further dangerous heat may still lie ahead.",
+  "description": "A record-breaking series of heatwaves has gripped Western and Southern Europe since around 21 June 2026, straining health systems and emergency services across France, Spain, Belgium, the Netherlands, Italy and the UK. WHO/Europe issued successive public statements describing rising heat-associated mortality; its 16 July 2026 statement reported that data from just five countries already showed nearly 10,000 excess deaths from heat this summer, describing the season as a preview of a warmer future.",
   "event": {
     "impact": {
-      "deaths": 300,
+      "deaths": 10000,
       "displaced": null,
-      "summary": "WHO/Europe's 30 June 2026 statement reported more than 300 heat-associated excess deaths in Spain within a few days, alongside a 50% surge in emergency medical calls in some French cities, the highest single-day volume of life-threatening ambulance calls ever recorded in London, and 5 deaths in 24 hours reported in Italy. WHO/Europe's follow-up statement of 7 July 2026 warned that 'more deadly weeks may still lie ahead for the European Region' as the heat continues. Media reports citing WHO leadership have put the wider European toll since 21 June at over 1,300 excess deaths, though that aggregate figure has not yet appeared in a formal WHO/Europe publication."
+      "summary": "WHO/Europe's 30 June 2026 statement reported more than 300 heat-associated excess deaths in Spain within a few days, alongside a 50% surge in emergency medical calls in some French cities, the highest single-day volume of life-threatening ambulance calls ever recorded in London, and 5 deaths in 24 hours reported in Italy. Its follow-up statement of 16 July 2026, \"Planning for a warmer world,\" reported that data from just five countries already showed nearly 10,000 excess deaths due to heat this summer, and that heat has claimed more than 200,000 lives across the WHO European Region in the past four years, with heat-related mortality up 30% over the past two decades. No source has declared the heatwave over."
     },
     "live_source_url": "https://www.who.int/europe/health-topics/heatwaves",
     "location": {
@@ -37,28 +45,28 @@
     "status": "ongoing"
   },
   "id": "europe-heatwave-2026",
-  "last_updated": "2026-07-11T09:13:31Z",
+  "last_updated": "2026-07-17T09:13:11Z",
   "name": "2026 European Heatwave — Public Health Emergency",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-11T09:13:31Z",
+        "at": "2026-07-17T09:13:11Z",
         "layer": "verify",
-        "run_id": "2026-07-11T09-13-31Z-b073e4"
+        "run_id": "2026-07-17T09-13-11Z-e3ea40"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-11T09-13-31Z-b073e4"
+    "last_run_id": "2026-07-17T09-13-11Z-e3ea40"
   },
   "schema_version": "1.0",
   "sort_keys": {
-    "composite": 7397883.0,
-    "impact_rank": 3,
+    "composite": 7397884.0,
+    "impact_rank": 4,
     "recency_rank": 739788
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -24,16 +24,32 @@
       "source_url": "https://bangladesh.un.org/en/319254-bangladesh-situation-report-1-flash-flood-and-landslides-13-july-2026",
       "text": "Situation Report #1 (dated 13 July 2026, published 14 July) reports 51 reported fatalities and more than 1.11 million people affected across 10 districts (Chattogram, Cox's Bazar, Bandarban, Khagrachhari, Rangamati, Moulvibazar, Sunamganj, Habiganj, Sylhet and Cumilla), with more than 38,000 people staying in over 1,000 evacuation shelters as of 12 July, and significant damage to homes, water systems, roads, bridges and public infrastructure.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-17",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/bangladesh/situation-report-bangladesh-flash-flood-july-2026",
+      "text": "Oxfam situation report on the Bangladesh flash floods (15 July 2026): 1.11 million people affected across 10 districts, 53 fatalities and 39 injuries reported as of 15 July; Chattogram district was hardest-hit, with Chattogram city recording 412.3mm of rain in 24 hours, the highest single-day July rainfall in 42 years.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-07-17",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/bangladesh/bgd-flood-07-2026-bangladesh-floods-2026-nationwide-2026-07-14",
+      "text": "BDRCS/IFRC nationwide situation report (14 July 2026): 1,074,534 people affected (NAWG figure) across 10 districts, about 38,500 people temporarily displaced (MoDMR figure) across 1,000+ shelters, 51 deaths, 267,918 households stranded, including 15 Rohingya refugee deaths reported by UNHCR among the Cox's Bazar camp toll.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Days of torrential monsoon rain beginning around 4 July 2026 triggered flash floods and landslides across ten districts of southeastern Bangladesh, centred on Cox's Bazar and Chattogram. The disaster killed dozens of people, including Rohingya refugees in the Cox's Bazar camps, and stranded more than a million residents, prompting the UN Resident Coordinator's office and the government's Disaster Management and Relief Ministry to scale up an emergency response.",
+  "description": "Days of torrential monsoon rain beginning around 4 July 2026 triggered flash floods and landslides across ten districts of southeastern Bangladesh, centred on Cox's Bazar and Chattogram. Chattogram city recorded its highest single-day July rainfall in 42 years. The disaster killed dozens of people, including Rohingya refugees in the Cox's Bazar camps, and stranded more than a million residents, prompting the UN Resident Coordinator's office and the government's Disaster Management and Relief Ministry to scale up an emergency response.",
   "event": {
     "impact": {
-      "deaths": 51,
-      "displaced": 38000,
-      "summary": "As of the UN Resident Coordinator's Situation Report #1 (13 July 2026, published 14 July), monsoon-triggered flash floods and landslides had affected more than 1.11 million people across 10 districts of southeastern Bangladesh, with 51 reported fatalities and more than 38,000 people staying in over 1,000 evacuation shelters. An earlier UN Flash Update (11 July) had put the toll at 26 deaths, 1.07 million people impacted and over 36,000 people temporarily displaced across 10 districts, up from 11 deaths, 536,000 people affected, 17,000 displaced and 1,700 shelters activated in Chattogram Division alone as of 9 July."
+      "deaths": 53,
+      "displaced": 38500,
+      "summary": "As of an Oxfam situation report (15 July 2026, via ReliefWeb), monsoon-triggered flash floods and landslides had affected 1.11 million people across 10 districts of southeastern Bangladesh, with 53 fatalities and 39 injuries reported; Chattogram district was hardest-hit, recording 412.3mm of rain in 24 hours, its highest single-day July rainfall in 42 years. A corroborating BDRCS/IFRC nationwide situation report (14 July 2026) put the toll at 51 deaths (including 15 Rohingya refugees in Cox's Bazar camps, per UNHCR), 1,074,534 people affected, about 38,500 people temporarily displaced across 1,000+ shelters, and 267,918 households stranded. Flood and landslide risk continues, with the threat shifting from southeastern districts toward the north and northeast (Sylhet, Sunamganj, Rangpur)."
     },
-    "live_source_url": "https://bangladesh.un.org/en/319254-bangladesh-situation-report-1-flash-flood-and-landslides-13-july-2026",
+    "live_source_url": "https://reliefweb.int/country/bgd",
     "location": {
       "country": "Bangladesh",
       "lat": 21.4272,
@@ -45,18 +61,18 @@
     "status": "ongoing"
   },
   "id": "bangladesh-floods-chattogram-2026",
-  "last_updated": "2026-07-16T09:15:54Z",
+  "last_updated": "2026-07-17T09:12:11Z",
   "name": "Monsoon Floods & Landslides — Chattogram Division, Bangladesh",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-16T09:15:54Z",
+        "at": "2026-07-17T09:12:11Z",
         "layer": "verify",
-        "run_id": "2026-07-16T09-15-54Z-880eb5"
+        "run_id": "2026-07-17T09-12-11Z-27e07a"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-16T09-15-54Z-880eb5"
+    "last_run_id": "2026-07-17T09-12-11Z-27e07a"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -66,7 +82,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
