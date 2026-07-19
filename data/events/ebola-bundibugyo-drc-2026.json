@@ -10,6 +10,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-10",
+      "retrieved_date": "2026-07-19",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
+      "text": "WHO Disease Outbreak News #613 (17 July 2026): as of 15 July 2026, the Democratic Republic of the Congo reported 2,124 confirmed cases including 828 deaths (case fatality ratio 39%), with Ituri province the most affected (27 of 36 health zones; 89.6% of cases, 83.6% of deaths), and further cases in North Kivu (11 of 34 health zones), South Kivu (1 of 34 health zones), Haut-Uele (4 of 13 health zones) and Tshopo (3 of 23 health zones). As of 17 July 2026, Uganda reported 20 confirmed cases including two deaths in imported cases plus one probable case resulting in death. WHO assessed the risk as very high nationally in DRC due to ongoing transmission and expansion into new health zones, high in Uganda due to confirmed cross-border spread, high for countries sharing land borders with the affected countries, and low for the rest of the African region and globally.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-10",
       "source_name": "WHO",
@@ -74,12 +82,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with imported cases confirmed in France and, most recently, a US citizen medically evacuated to Germany. Uganda's last confirmed patient was discharged on 16 July, starting the 42-day countdown toward declaring that country's outbreak over.",
+  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with imported cases confirmed in France and, most recently, a US citizen medically evacuated to Germany. Uganda's last confirmed patient was discharged on 16 July, starting the 42-day countdown toward declaring that country's outbreak over, while the outbreak in DRC has now spread into a fifth province.",
   "event": {
     "impact": {
-      "deaths": 798,
+      "deaths": 830,
       "displaced": null,
-      "summary": "As of 14 July 2026 data reported by the WHO Director-General on 16 July 2026, the Democratic Republic of the Congo had reported 2,073 confirmed cases including 796 deaths, concentrated in Ituri province (1,863 cases, 668 deaths) and North Kivu (189 cases, 111 deaths), with further cases in South Kivu, Haut-Uele and Tshopo. Uganda's confirmed case count remains at 20, including two deaths; its last confirmed patient was discharged from care on 16 July 2026 after two negative tests, starting the 42-day countdown toward declaring that country's outbreak over. WHO says the outbreak continues to outpace the response, with more than 80% of new infections occurring outside known contact-tracing lists."
+      "summary": "As of WHO Disease Outbreak News #613 (17 July 2026), the Democratic Republic of the Congo had reported 2,124 confirmed cases including 828 deaths (case fatality ratio 39%) as of 15 July 2026, with Ituri province still most affected (89.6% of cases, 83.6% of deaths) alongside North Kivu, South Kivu, Haut-Uele and Tshopo — an expansion to five affected provinces. Uganda's confirmed case count remains at 20, including two deaths in imported cases plus one probable case resulting in death, as of 17 July 2026; its last confirmed patient was discharged from care on 16 July 2026, starting the 42-day countdown toward declaring that country's outbreak over. WHO assesses the national risk in DRC as very high due to ongoing transmission and continued expansion into new health zones."
     },
     "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
     "location": {
@@ -93,18 +101,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-07-17T09:13:11Z",
+  "last_updated": "2026-07-19T18:20:57Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-17T09:13:11Z",
+        "at": "2026-07-19T18:20:57Z",
         "layer": "verify",
-        "run_id": "2026-07-17T09-13-11Z-a81edc"
+        "run_id": "2026-07-19T18-20-57Z-04affd"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-17T09-13-11Z-a81edc"
+    "last_run_id": "2026-07-19T18-20-57Z-04affd"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -114,7 +122,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

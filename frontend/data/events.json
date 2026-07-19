@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T09:13:11Z",
+  "last_updated": "2026-07-19T18:20:57Z",
   "published": [
     {
       "category": "flood",
@@ -165,6 +165,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-10",
+          "retrieved_date": "2026-07-19",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
+          "text": "WHO Disease Outbreak News #613 (17 July 2026): as of 15 July 2026, the Democratic Republic of the Congo reported 2,124 confirmed cases including 828 deaths (case fatality ratio 39%), with Ituri province the most affected (27 of 36 health zones; 89.6% of cases, 83.6% of deaths), and further cases in North Kivu (11 of 34 health zones), South Kivu (1 of 34 health zones), Haut-Uele (4 of 13 health zones) and Tshopo (3 of 23 health zones). As of 17 July 2026, Uganda reported 20 confirmed cases including two deaths in imported cases plus one probable case resulting in death. WHO assessed the risk as very high nationally in DRC due to ongoing transmission and expansion into new health zones, high in Uganda due to confirmed cross-border spread, high for countries sharing land borders with the affected countries, and low for the rest of the African region and globally.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-10",
           "source_name": "WHO",
@@ -229,12 +237,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with imported cases confirmed in France and, most recently, a US citizen medically evacuated to Germany. Uganda's last confirmed patient was discharged on 16 July, starting the 42-day countdown toward declaring that country's outbreak over.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with imported cases confirmed in France and, most recently, a US citizen medically evacuated to Germany. Uganda's last confirmed patient was discharged on 16 July, starting the 42-day countdown toward declaring that country's outbreak over, while the outbreak in DRC has now spread into a fifth province.",
       "event": {
         "impact": {
-          "deaths": 798,
+          "deaths": 830,
           "displaced": null,
-          "summary": "As of 14 July 2026 data reported by the WHO Director-General on 16 July 2026, the Democratic Republic of the Congo had reported 2,073 confirmed cases including 796 deaths, concentrated in Ituri province (1,863 cases, 668 deaths) and North Kivu (189 cases, 111 deaths), with further cases in South Kivu, Haut-Uele and Tshopo. Uganda's confirmed case count remains at 20, including two deaths; its last confirmed patient was discharged from care on 16 July 2026 after two negative tests, starting the 42-day countdown toward declaring that country's outbreak over. WHO says the outbreak continues to outpace the response, with more than 80% of new infections occurring outside known contact-tracing lists."
+          "summary": "As of WHO Disease Outbreak News #613 (17 July 2026), the Democratic Republic of the Congo had reported 2,124 confirmed cases including 828 deaths (case fatality ratio 39%) as of 15 July 2026, with Ituri province still most affected (89.6% of cases, 83.6% of deaths) alongside North Kivu, South Kivu, Haut-Uele and Tshopo — an expansion to five affected provinces. Uganda's confirmed case count remains at 20, including two deaths in imported cases plus one probable case resulting in death, as of 17 July 2026; its last confirmed patient was discharged from care on 16 July 2026, starting the 42-day countdown toward declaring that country's outbreak over. WHO assesses the national risk in DRC as very high due to ongoing transmission and continued expansion into new health zones."
         },
         "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
         "location": {
@@ -248,18 +256,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-17T09:13:11Z",
+      "last_updated": "2026-07-19T18:20:57Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-17T09:13:11Z",
+            "at": "2026-07-19T18:20:57Z",
             "layer": "verify",
-            "run_id": "2026-07-17T09-13-11Z-a81edc"
+            "run_id": "2026-07-19T18-20-57Z-04affd"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-17T09-13-11Z-a81edc"
+        "last_run_id": "2026-07-19T18-20-57Z-04affd"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -269,7 +277,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -474,6 +482,70 @@
         "composite": 7398011.0,
         "impact_rank": 1,
         "recency_rank": 739801
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "earthquake",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-19",
+          "source_name": "USGS",
+          "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu/executive",
+          "text": "A magnitude 7.3 earthquake occurred on 17 July 2026 at 14:48:39 UTC, 58 km WSW of Puerto Madero, Mexico (14.6043N, 92.9517W), at a depth of approximately 18.6 km, in the subduction zone where the Cocos plate converges with North America at the Middle America Trench at approximately 76 mm/yr; the event occurred as reverse (thrust) faulting on or near the plate interface. Two small foreshocks preceded it, including a M4.1 on 14 July and a M4.7 88 minutes prior to the mainshock.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-19",
+          "source_name": "USGS",
+          "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu/pager",
+          "text": "USGS's PAGER system assessed an alert level of Yellow for this earthquake, stating: \"The USGS assesses that some damage and fatalities are possible, and that the impact should be relatively localized. Approximately four million people experienced Moderate (MMI V) to Very Strong (MMI VII) shaking.\" PAGER's probabilistic fatality model places roughly 66% probability on the event causing between 1 and 100 fatalities, and about 27% probability of exceeding 100 fatalities.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A magnitude 7.3 earthquake struck offshore southern Mexico on 17 July 2026, in the subduction zone where the Cocos plate thrusts beneath Mexico and Central America at the Middle America Trench. USGS's automated PAGER system assessed a Yellow alert, estimating that roughly four million people experienced moderate to very strong shaking; the agency judged some damage and fatalities possible, though the impact should be relatively localized. No confirmed casualty toll has yet been published by an authoritative source.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "USGS recorded a magnitude 7.3 (Mww) earthquake on 17 July 2026 at 14:48:39 UTC, 58 km WSW of Puerto Madero, Mexico, at a depth of about 18.6 km. USGS's PAGER system assessed a Yellow alert level and estimated that approximately four million people experienced Moderate (MMI V) to Very Strong (MMI VII) shaking, judging that some damage and fatalities are possible with impact expected to be relatively localized. No authoritative confirmed casualty or damage figures have yet been published."
+        },
+        "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu/executive",
+        "location": {
+          "country": "Mexico",
+          "lat": 14.6043,
+          "lon": -92.9517,
+          "region": "58 km WSW of Puerto Madero, Chiapas (offshore, Middle America Trench)"
+        },
+        "occurrence_date": "2026-07-17",
+        "scale": "M7.3",
+        "status": "ongoing"
+      },
+      "id": "mexico-earthquake-chiapas-2026",
+      "last_updated": "2026-07-19T18:20:57Z",
+      "name": "M7.3 Earthquake — Offshore Chiapas, Mexico",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-19T18:20:57Z",
+            "layer": "verify",
+            "run_id": "2026-07-19T18-20-57Z-db7c5b"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-19T18-20-57Z-db7c5b"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398141.0,
+        "impact_rank": 1,
+        "recency_rank": 739814
       },
       "verification": {
         "confidence": "high",
@@ -933,6 +1005,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-12",
+          "retrieved_date": "2026-07-19",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-24-17-july-2026-time-0800-pm",
+          "text": "OCHA's Situation Report #24 (17 July 2026, 8:00 pm) states that, twenty-three days since the earthquakes, authorities report an official toll of 5,069 people dead and 16,740 injured, with 1,331 aftershocks recorded since the 24 June earthquakes (magnitude 7.2 and 7.5). An additional appeal for US$299 million remains in place to scale up the earthquake response for 1.3 million people over the next six months.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-02",
           "source_name": "USGS",
@@ -997,12 +1077,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. More than three weeks on, the confirmed death toll has continued to climb past 4,900, and the UN has assessed billions of dollars in physical damage.",
+      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Twenty-three days on, the confirmed death toll has continued to climb past 5,000, and the UN has assessed billions of dollars in physical damage.",
       "event": {
         "impact": {
-          "deaths": 4930,
+          "deaths": 5069,
           "displaced": 17907,
-          "summary": "As of OCHA's Situation Report #23 (16 July 2026, 9:00 pm, published 17 July), authorities report an official toll of 4,930 people dead and 16,740 injured, with 6,462 people rescued since the 24 June earthquakes; 17,907 people remain without housing and more than 1,308 aftershocks have been recorded. An additional appeal, now raised to US$299 million, targets 1.3 million people over six months, on top of the US$632 million 2026 Humanitarian Response Plan covering 5.5 million people. EU Crisis Management Commissioner Hadja Lahbib conducted a field visit to La Guaira with the UN Humanitarian Coordinator to review the response. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
+          "summary": "As of OCHA's Situation Report #24 (17 July 2026, 8:00 pm, published 18 July), authorities report an official toll of 5,069 people dead and 16,740 injured; 1,331 aftershocks have been recorded since the 24 June earthquakes. An additional appeal of US$299 million targets 1.3 million people over six months, on top of the US$632 million 2026 Humanitarian Response Plan covering 5.5 million people. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
         "location": {
@@ -1016,18 +1096,18 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-07-17T09:12:12Z",
+      "last_updated": "2026-07-19T18:20:57Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-17T09:12:12Z",
+            "at": "2026-07-19T18:20:57Z",
             "layer": "verify",
-            "run_id": "2026-07-17T09-12-12Z-d1fc1a"
+            "run_id": "2026-07-19T18-20-57Z-1fbd47"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-17T09-12-12Z-d1fc1a"
+        "last_run_id": "2026-07-19T18-20-57Z-1fbd47"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1037,7 +1117,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }
