@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11T18:11:52Z",
+  "last_updated": "2026-07-20T10:09:00Z",
   "published": [
     {
       "assessment": {
@@ -63,6 +63,63 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "very-high",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "civilizational",
+        "summary": "A present, quantified global toll — millions of deaths a year already associated with resistant bacterial infections — that is worsening across most tracked pathogens and carries mounting economic cost.",
+        "timeframe": "Already underway; resistance is rising across the majority of tracked pathogen-antibiotic combinations, with costs projected to climb steadily through 2035."
+      },
+      "category": "biological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-20",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+          "text": "Bacterial antimicrobial resistance (AMR) was estimated to be associated with more than 4.7 million deaths globally in 2021.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-20",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+          "text": "The total cost to treat resistant bacterial infections alone is predicted to reach US$ 412 billion annually up to 2035, with additional productivity losses of US$ 443 billion per year.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Bacteria, viruses, fungi, and parasites evolving resistance to the drugs used to treat them, driven by overuse and misuse of antimicrobials in humans, animals, and agriculture. Unlike a single pandemic pathogen, AMR is a gradual, ongoing erosion of the effectiveness of modern medicine — common infections, surgery, and cancer treatment all become more dangerous as resistance spreads.",
+      "id": "antimicrobial-resistance",
+      "last_updated": "2026-07-20T10:08:56Z",
+      "name": "Antimicrobial Resistance",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-20T10:08:56Z",
+            "layer": "verify",
+            "run_id": "2026-07-20T10-08-56Z-f5e3c8"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-20T10-08-56Z-f5e3c8"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 35.0,
+        "probability_rank": 5,
+        "severity_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -529,6 +586,63 @@
     {
       "assessment": {
         "probability": {
+          "estimate": "very-high",
+          "numeric_annual": null,
+          "window": "annual"
+        },
+        "severity": "continental",
+        "summary": "A recurrent, well-quantified hazard — about 15 magnitude-7 and one magnitude-8+ earthquake expected globally each year — whose worst instances have killed hundreds of thousands of people in a single event.",
+        "timeframe": "Large earthquakes recur every year worldwide; a single catastrophic event striking a major population center can occur at any time without reliable short-term prediction."
+      },
+      "category": "geological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-20",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/faqs/why-are-we-having-so-many-or-so-few-earthquakes-has-naturally-occurring-earthquake-activity",
+          "text": "According to long-term records since about 1900, USGS expects about 16 major earthquakes worldwide in any given year, including 15 earthquakes in the magnitude 7 range and one earthquake of magnitude 8.0 or greater.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-20",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/programs/earthquake-hazards/lists-maps-and-statistics",
+          "text": "USGS worldwide earthquake statistics record 298,101 deaths from earthquakes in 2004 (the Indian Ocean earthquake and tsunami) and 226,050 in 2010, among the deadliest years on record.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A large-magnitude earthquake striking a densely populated or poorly prepared region can kill tens to hundreds of thousands of people in seconds and collapse infrastructure across a wide area. Large earthquakes occur every year somewhere on Earth; the risk is concentrated along active plate boundaries such as the Pacific Ring of Fire.",
+      "id": "major-earthquake",
+      "last_updated": "2026-07-20T10:08:58Z",
+      "name": "Major Earthquake",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-20T10:08:58Z",
+            "layer": "verify",
+            "run_id": "2026-07-20T10-08-58Z-7fc9f9"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-20T10-08-58Z-7fc9f9"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 25.0,
+        "probability_rank": 5,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
           "estimate": "very-low",
           "numeric_annual": null,
           "window": "next-100-years"
@@ -645,6 +759,63 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "medium",
+          "numeric_annual": null,
+          "window": "next-100-years"
+        },
+        "severity": "continental",
+        "summary": "A recurring space-weather hazard with documented power-grid and GPS disruptions already costing hundreds of millions to tens of billions of dollars; an extreme, Carrington-scale storm could cause continental-scale infrastructure damage.",
+        "timeframe": "Moderate geomagnetic storms occur multiple times per solar cycle (roughly every 11 years); an extreme, Carrington-scale event is rare but recurs on a multi-decade to century timescale."
+      },
+      "category": "cosmic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-20",
+          "source_name": "NOAA",
+          "source_url": "https://www.nesdis.noaa.gov/news/safeguarding-satellites-how-noaa-monitors-space-weather-prevent-disruptions",
+          "text": "The Carrington Event of 1859 sent charged particles crashing through Earth's magnetic field, causing telegraph systems to spark and fail; NOAA notes that a storm of that magnitude hitting today could cripple communication networks, disrupt the power grid, and cost the global economy trillions of dollars.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-20",
+          "source_name": "NOAA",
+          "source_url": "https://www.nesdis.noaa.gov/news/safeguarding-satellites-how-noaa-monitors-space-weather-prevent-disruptions",
+          "text": "A 2020 study found that NOAA space weather forecasts help the electric power industry avoid losses ranging from $111 million for minor geomagnetic disturbances to as much as $27 billion for severe geomagnetic storms; the May 2024 G5 (Extreme) geomagnetic storm caused a GPS outage during a crucial planting period that cost American farmers over $500 million in potential profit.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A powerful coronal mass ejection from the Sun can trigger a severe geomagnetic storm that induces damaging currents in power grids, disrupts satellites and GPS, and degrades radio and aviation communications across large regions simultaneously. Moderate storms occur regularly; the largest storms on record, such as the 1859 Carrington Event, are rare but would affect infrastructure far more dependent on electronics and satellites today than in the past.",
+      "id": "severe-geomagnetic-storm",
+      "last_updated": "2026-07-20T10:09:00Z",
+      "name": "Severe Geomagnetic Storm (Solar Storm)",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-20T10:09:00Z",
+            "layer": "verify",
+            "run_id": "2026-07-20T10-09-00Z-b9bbe8"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-20T10-09-00Z-b9bbe8"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 23.0,
+        "probability_rank": 3,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

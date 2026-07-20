@@ -1,0 +1,57 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "medium",
+      "numeric_annual": null,
+      "window": "next-100-years"
+    },
+    "severity": "continental",
+    "summary": "A recurring space-weather hazard with documented power-grid and GPS disruptions already costing hundreds of millions to tens of billions of dollars; an extreme, Carrington-scale storm could cause continental-scale infrastructure damage.",
+    "timeframe": "Moderate geomagnetic storms occur multiple times per solar cycle (roughly every 11 years); an extreme, Carrington-scale event is rare but recurs on a multi-decade to century timescale."
+  },
+  "category": "cosmic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-20",
+      "source_name": "NOAA",
+      "source_url": "https://www.nesdis.noaa.gov/news/safeguarding-satellites-how-noaa-monitors-space-weather-prevent-disruptions",
+      "text": "The Carrington Event of 1859 sent charged particles crashing through Earth's magnetic field, causing telegraph systems to spark and fail; NOAA notes that a storm of that magnitude hitting today could cripple communication networks, disrupt the power grid, and cost the global economy trillions of dollars.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-20",
+      "source_name": "NOAA",
+      "source_url": "https://www.nesdis.noaa.gov/news/safeguarding-satellites-how-noaa-monitors-space-weather-prevent-disruptions",
+      "text": "A 2020 study found that NOAA space weather forecasts help the electric power industry avoid losses ranging from $111 million for minor geomagnetic disturbances to as much as $27 billion for severe geomagnetic storms; the May 2024 G5 (Extreme) geomagnetic storm caused a GPS outage during a crucial planting period that cost American farmers over $500 million in potential profit.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A powerful coronal mass ejection from the Sun can trigger a severe geomagnetic storm that induces damaging currents in power grids, disrupts satellites and GPS, and degrades radio and aviation communications across large regions simultaneously. Moderate storms occur regularly; the largest storms on record, such as the 1859 Carrington Event, are rare but would affect infrastructure far more dependent on electronics and satellites today than in the past.",
+  "id": "severe-geomagnetic-storm",
+  "last_updated": "2026-07-20T10:09:00Z",
+  "name": "Severe Geomagnetic Storm (Solar Storm)",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-20T10:09:00Z",
+        "layer": "verify",
+        "run_id": "2026-07-20T10-09-00Z-b9bbe8"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-20T10-09-00Z-b9bbe8"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 23.0,
+    "probability_rank": 3,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

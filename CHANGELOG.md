@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-20 — Daily World Pulse refresh: add Spain & France wildfires, update Venezuela/Mindanao/El Obeid (`249ef28`)
+
+- **Added:** france-wildfire-fontainebleau-2026, spain-wildfire-almeria-2026
+- **Updated:** el-obeid-siege-sudan-2026, mindanao-earthquake-philippines-2026, venezuela-earthquake-2026
+
 ## 2026-07-19 — Daily World Pulse refresh: add Mexico M7.3 quake, update Venezuela & Ebola (`38a9a05`)
 
 - **Added:** mexico-earthquake-chiapas-2026
@@ -119,8 +124,4 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 ## 2026-06-29 — Seed three researched threats with authoritative citations (#1) (`7ab2f70`)
 
-- **Added:** global-warming, influenza-pandemic, near-earth-asteroid-impact
-
-## 2026-06-29 — Add post-MVP backlog (iteration suggestions) (`92c881f`)
-
-- **Added:** yellowstone-supervolcano
+- **Added:** global-warming, influenza-pandemic, near-earth-asteroid-impact, yellowstone-supervolcano
