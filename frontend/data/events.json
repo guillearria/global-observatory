@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T18:20:57Z",
+  "last_updated": "2026-07-20T09:21:35Z",
   "published": [
     {
       "category": "flood",
@@ -307,14 +307,22 @@
           "source_url": "https://reliefweb.int/report/sudan/sudan-el-obeid-families-dying-drone-strikes-hunger-spreads-ground-assault-feared",
           "text": "NRC report (posted 7 July 2026) on El Obeid: families are dying from drone strikes and from hunger as the siege continues, with an aid convoy struck the preceding week; essential services and food access are collapsing further as the blockade persists.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-20",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/07/1167967",
+          "text": "UN News (17 July 2026): the UN human rights chief warned that civilians in El Obeid \"have been under siege for 18 months\" and face continuous drone strikes, with more than 100,000 displaced people sheltering in camps in the city. WFP is providing food assistance to over 100,000 people in those camps, including nutrition support for 17,000 children, but is distributing only a reduced ration that recipients are sharing with other families. Almost 20 million people in Sudan are now classified as acutely food insecure, and more than 14 million people have been uprooted nationwide since the conflict began.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Rapid Support Forces (RSF) paramilitary forces have besieged El Obeid, the capital of North Kordofan state, subjecting the city of more than half a million residents to relentless drone strikes and blockade conditions. The United Nations Human Rights Office documented 15 drone strikes on the city and surrounding areas in three weeks, and UN officials have warned of an imminent risk of mass atrocities similar to those already documented in El Fasher, Darfur. G7 foreign ministers condemned the siege on 14 July 2026, and the UN Human Rights Council launched a Fact-Finding Mission inquiry into the situation.",
+      "description": "Rapid Support Forces (RSF) paramilitary forces have besieged El Obeid, the capital of North Kordofan state, subjecting the city of more than half a million residents to relentless drone strikes and blockade conditions. The United Nations Human Rights Office documented 15 drone strikes on the city and surrounding areas in three weeks, and UN officials have warned of an imminent risk of mass atrocities similar to those already documented in El Fasher, Darfur. As of mid-July 2026, the UN human rights chief describes the siege as having lasted 18 months, with WFP forced to distribute reduced rations to over 100,000 people sheltering in city camps. G7 foreign ministers condemned the siege on 14 July 2026, and the UN Human Rights Council launched a Fact-Finding Mission inquiry into the situation.",
       "event": {
         "impact": {
           "deaths": 45,
           "displaced": 100000,
-          "summary": "The UN Human Rights Office documented 15 drone strikes on El Obeid and surrounding areas over three weeks that killed at least 45 civilians. El Obeid has more than half a million residents, together with at least 100,000 internally displaced persons sheltering in the city. As of the G7 foreign ministers' joint statement of 14 July 2026, the RSF siege and near-daily drone strikes were continuing, with routes into the city still blocked except toward the east; no allowlisted source has published an updated aggregate casualty count since the initial 3 July UN report. UN officials continue to warn of the risk of large-scale atrocities."
+          "summary": "The UN Human Rights Office documented 15 drone strikes on El Obeid and surrounding areas over three weeks that killed at least 45 civilians; no allowlisted source has published an updated aggregate casualty count since that initial 3 July UN report. As of a UN News report of 17 July 2026, the UN human rights chief describes civilians as having been \"under siege for 18 months\" amid continuous drone strikes, with more than 100,000 displaced people sheltering in city camps where WFP is distributing only reduced food rations. El Obeid has more than half a million residents. G7 foreign ministers (14 July 2026) have urged an immediate ceasefire; UN officials continue to warn of the risk of large-scale atrocities."
         },
         "live_source_url": "https://reliefweb.int/country/sdn",
         "location": {
@@ -328,18 +336,18 @@
         "status": "ongoing"
       },
       "id": "el-obeid-siege-sudan-2026",
-      "last_updated": "2026-07-17T09:13:11Z",
+      "last_updated": "2026-07-20T09:21:35Z",
       "name": "Siege of El Obeid — North Kordofan, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-17T09:13:11Z",
+            "at": "2026-07-20T09:21:35Z",
             "layer": "verify",
-            "run_id": "2026-07-17T09-13-11Z-431c85"
+            "run_id": "2026-07-20T09-21-35Z-8bb154"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-17T09-13-11Z-431c85"
+        "last_run_id": "2026-07-20T09-21-35Z-8bb154"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -349,7 +357,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -422,6 +430,70 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "wildfire",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-20",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1029489&episodeid=3&eventtype=WF",
+          "text": "GDACS assessed an Orange alert for a forest fire in Fontainebleau, France covering the period 12-14 July 2026, citing approximately 2,280 hectares burned and about 814 people exposed in the fire-affected area, noting the fire \"can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-20",
+          "source_name": "European Union",
+          "source_url": "https://eu-space.europa.eu/components/earth-observation-copernicus/image-of-the-day/wildfire-burns-fontainebleau-forest-france",
+          "text": "EU Copernicus Earth observation imagery confirmed a wildfire spreading through part of Fontainebleau Forest, Seine-et-Marne, France starting 12 July 2026, with more than 800 hectares burned as of 13 July 2026, prompting evacuations and disrupting transportation services in the region.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A wildfire broke out in Fontainebleau Forest, Seine-et-Marne, roughly 60km southeast of Paris, on 12 July 2026, spreading rapidly amid a European heatwave before being brought under control within about 48 hours. GDACS assessed an Orange alert for medium humanitarian impact, citing about 2,280 hectares burned and roughly 814 people exposed in the affected area; EU Copernicus imagery measured more than 800 hectares burned as of 13 July. The fire prompted evacuations and disrupted nearby road and rail links; no allowlisted authoritative source has reported any deaths.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "GDACS's event report assessed an Orange alert (medium humanitarian impact) for a wildfire burning in Fontainebleau Forest, Seine-et-Marne, France between 12 and 14 July 2026, citing about 2,280 hectares burned and roughly 814 people exposed within the fire-affected area; EU Copernicus imagery separately measured more than 800 hectares burned as of 13 July. The fire prompted evacuations and disrupted nearby road and rail services before being brought under control within about 48 hours. No allowlisted authoritative source has reported any deaths or a confirmed evacuation count."
+        },
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029489&episodeid=3&eventtype=WF",
+        "location": {
+          "country": "France",
+          "lat": 48.4042,
+          "lon": 2.7016,
+          "region": "Fontainebleau Forest, Seine-et-Marne (~60km SE of Paris)"
+        },
+        "occurrence_date": "2026-07-12",
+        "scale": "Orange alert; ~2,280 ha burned",
+        "status": "contained"
+      },
+      "id": "france-wildfire-fontainebleau-2026",
+      "last_updated": "2026-07-20T09:21:35Z",
+      "name": "Wildfire — Fontainebleau Forest, France",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-20T09:21:35Z",
+            "layer": "verify",
+            "run_id": "2026-07-20T09-21-35Z-95a24a"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-20T09-21-35Z-95a24a"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398091.0,
+        "impact_rank": 1,
+        "recency_rank": 739809
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -611,14 +683,22 @@
           "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-66-effects-mw-78-earthquake-incident-maasim-sarangani-16-july-2026-6pm",
           "text": "DSWD DROMIC Report #66, as of 16 July 2026, 6PM, reports a total of 391,975 families (1,655,686 persons) affected in 651 barangays across Regions IX, XI, XII and BARMM. There are 24,472 families (93,971 persons) still displaced — 7,383 families (29,805 persons) inside 78 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,362 houses were damaged, of which 19,193 were totally destroyed and 102,169 partially damaged.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-07-20",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-71-effects-mw-78-earthquake-incident-maasim-sarangani-20-july-2026-6am",
+          "text": "DSWD DROMIC Report #71, as of 20 July 2026, 6AM, reports a total of 391,975 families (1,655,686 persons) affected in 651 barangays across Regions IX, XI, XII and BARMM. There are 24,707 families (94,894 persons) still displaced — 7,618 families (30,728 persons) inside 78 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,362 houses were damaged, of which 19,193 were totally destroyed and 102,169 partially damaged. Total cost of assistance provided to date is ₱1,284,626,667.47.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll and number of affected people climbed through late June as damage assessments continued, and eighteen local government units have declared a state of calamity. Displacement and housing-damage figures have continued to be tracked into mid-July as recovery continues.",
+      "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll and number of affected people climbed through late June as damage assessments continued, and eighteen local government units have declared a state of calamity. Displacement and housing-damage figures have continued to be tracked into late July as recovery continues, with the still-displaced population edging up slightly to nearly 95,000 people even as new housing damage has largely leveled off.",
       "event": {
         "impact": {
           "deaths": 77,
-          "displaced": 93971,
-          "summary": "As of DSWD DROMIC Report #66 (16 July 2026, 6PM), 391,975 families (1,655,686 persons) are affected across 651 barangays in Regions IX, XI, XII and BARMM, with 24,472 families (93,971 persons) still displaced — 7,383 families (29,805 persons) inside 78 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,362 houses have been damaged, including 19,193 totally destroyed and 102,169 partially damaged. Government figures still report 77 deaths, 1,339 injured and 31 missing (OCHA, as of 23 June — the latest allowlisted-source casualty figure; no OCHA narrative update has superseded it despite newer DROMIC reports). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
+          "displaced": 94894,
+          "summary": "As of DSWD DROMIC Report #71 (20 July 2026, 6AM), 391,975 families (1,655,686 persons) are affected across 651 barangays in Regions IX, XI, XII and BARMM, with 24,707 families (94,894 persons) still displaced — 7,618 families (30,728 persons) inside 78 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,362 houses have been damaged, including 19,193 totally destroyed and 102,169 partially damaged. Government figures still report 77 deaths, 1,339 injured and 31 missing (OCHA, as of 23 June — the latest allowlisted-source casualty figure; no OCHA narrative update has superseded it despite newer DROMIC reports). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
         "location": {
@@ -632,18 +712,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-07-17T09:12:11Z",
+      "last_updated": "2026-07-20T09:21:35Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-17T09:12:11Z",
+            "at": "2026-07-20T09:21:35Z",
             "layer": "verify",
-            "run_id": "2026-07-17T09-12-11Z-3f52cc"
+            "run_id": "2026-07-20T09-21-35Z-b07b35"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-17T09-12-11Z-3f52cc"
+        "last_run_id": "2026-07-20T09-21-35Z-b07b35"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -653,7 +733,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -714,6 +794,70 @@
         "composite": 7397991.0,
         "impact_rank": 1,
         "recency_rank": 739799
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "wildfire",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-20",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1029448&episodeid=4&eventtype=WF",
+          "text": "GDACS assessed an Orange alert for a forest fire in Spain covering the period 09-11 July 2026, citing approximately 6,725 hectares burned and about 1,339 people exposed in the fire-affected area, noting the fire \"can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-20",
+          "source_name": "European Union",
+          "source_url": "https://eu-space.europa.eu/components/earth-observation-copernicus/image-of-the-day/wildfire-burns-7000-hectares-almeria-province-spain",
+          "text": "EU Copernicus Earth observation imagery confirmed a wildfire burning approximately 7,000 hectares in Almería province, Spain, affecting the municipalities of Los Gallardos and Lubrín, with the fire active from 9 to 12 July 2026.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A fast-moving wildfire broke out near Los Gallardos in Almería province, Andalusia, on 9 July 2026 amid a severe European heatwave, spreading through Los Gallardos, Bédar, Antas and Lubrín before being stabilized on 12 July. GDACS assessed an Orange alert for medium humanitarian impact, citing about 6,725 hectares burned and roughly 1,339 people exposed within the fire-affected area; EU Copernicus satellite imagery separately measured approximately 7,000 hectares burned. International media widely reported the fire as the deadliest wildfire in Andalusian history, with double-digit fatalities, missing persons and over 1,000 people evacuated, though no allowlisted authoritative source has yet published a confirmed casualty count.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "GDACS's event report assessed an Orange alert (medium humanitarian impact) for a wildfire burning near Los Gallardos, Almería province, Spain between 9 and 11 July 2026, citing about 6,725 hectares burned and roughly 1,339 people exposed within the fire-affected area; EU Copernicus Earth-observation imagery separately measured approximately 7,000 hectares burned across the affected municipalities. The fire was stabilized by 12 July 2026. No allowlisted authoritative source has yet published a confirmed death toll, though international media widely reported double-digit fatalities and described it as the deadliest wildfire in Andalusian history."
+        },
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029448&episodeid=4&eventtype=WF",
+        "location": {
+          "country": "Spain",
+          "lat": 37.2036,
+          "lon": -1.9363,
+          "region": "Los Gallardos / Bédar / Antas / Lubrín, Almería Province, Andalusia"
+        },
+        "occurrence_date": "2026-07-09",
+        "scale": "Orange alert; ~6,725-7,000 ha burned",
+        "status": "contained"
+      },
+      "id": "spain-wildfire-almeria-2026",
+      "last_updated": "2026-07-20T09:21:35Z",
+      "name": "Wildfire — Los Gallardos, Almería, Spain",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-20T09:21:35Z",
+            "layer": "verify",
+            "run_id": "2026-07-20T09-21-35Z-000e86"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-20T09-21-35Z-000e86"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398061.0,
+        "impact_rank": 1,
+        "recency_rank": 739806
       },
       "verification": {
         "confidence": "high",
@@ -1013,6 +1157,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-13",
+          "retrieved_date": "2026-07-20",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-26-19-july-2026-time-0900-pm",
+          "text": "OCHA's Situation Report #26 (19 July 2026, 9:00 pm) states that authorities report a toll of 5,208 people dead and 16,740 injured, with 1,388 aftershocks recorded since the 24 June earthquakes. An additional appeal for US$299 million remains in place to scale up the earthquake response for 1.3 million people over the next six months, on top of the US$632 million 2026 Humanitarian Response Plan.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-02",
           "source_name": "USGS",
@@ -1077,12 +1229,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Twenty-three days on, the confirmed death toll has continued to climb past 5,000, and the UN has assessed billions of dollars in physical damage.",
+      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Nearly four weeks on, the confirmed death toll has continued to climb past 5,200, and the UN has assessed billions of dollars in physical damage.",
       "event": {
         "impact": {
-          "deaths": 5069,
+          "deaths": 5208,
           "displaced": 17907,
-          "summary": "As of OCHA's Situation Report #24 (17 July 2026, 8:00 pm, published 18 July), authorities report an official toll of 5,069 people dead and 16,740 injured; 1,331 aftershocks have been recorded since the 24 June earthquakes. An additional appeal of US$299 million targets 1.3 million people over six months, on top of the US$632 million 2026 Humanitarian Response Plan covering 5.5 million people. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
+          "summary": "As of OCHA's Situation Report #26 (19 July 2026, 9:00 pm), authorities report an official toll of 5,208 people dead and 16,740 injured; 1,388 aftershocks have been recorded since the 24 June earthquakes. An additional appeal of US$299 million targets 1.3 million people over six months, on top of the US$632 million 2026 Humanitarian Response Plan covering 5.5 million people. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
         "location": {
@@ -1096,18 +1248,18 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-07-19T18:20:57Z",
+      "last_updated": "2026-07-20T09:21:35Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-19T18:20:57Z",
+            "at": "2026-07-20T09:21:35Z",
             "layer": "verify",
-            "run_id": "2026-07-19T18-20-57Z-1fbd47"
+            "run_id": "2026-07-20T09-21-35Z-ea004f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-19T18-20-57Z-1fbd47"
+        "last_run_id": "2026-07-20T09-21-35Z-ea004f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1117,7 +1269,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }

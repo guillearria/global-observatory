@@ -121,6 +121,6 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 - **Added:** global-warming, influenza-pandemic, near-earth-asteroid-impact
 
-## 2026-06-29 — Add vanilla frontend (index.html, styles.css, app.js) (`bfa37ec`)
+## 2026-06-29 — Add post-MVP backlog (iteration suggestions) (`92c881f`)
 
 - **Added:** yellowstone-supervolcano

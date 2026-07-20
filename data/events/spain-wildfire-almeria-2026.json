@@ -1,0 +1,64 @@
+{
+  "category": "wildfire",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-20",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1029448&episodeid=4&eventtype=WF",
+      "text": "GDACS assessed an Orange alert for a forest fire in Spain covering the period 09-11 July 2026, citing approximately 6,725 hectares burned and about 1,339 people exposed in the fire-affected area, noting the fire \"can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-20",
+      "source_name": "European Union",
+      "source_url": "https://eu-space.europa.eu/components/earth-observation-copernicus/image-of-the-day/wildfire-burns-7000-hectares-almeria-province-spain",
+      "text": "EU Copernicus Earth observation imagery confirmed a wildfire burning approximately 7,000 hectares in Almería province, Spain, affecting the municipalities of Los Gallardos and Lubrín, with the fire active from 9 to 12 July 2026.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A fast-moving wildfire broke out near Los Gallardos in Almería province, Andalusia, on 9 July 2026 amid a severe European heatwave, spreading through Los Gallardos, Bédar, Antas and Lubrín before being stabilized on 12 July. GDACS assessed an Orange alert for medium humanitarian impact, citing about 6,725 hectares burned and roughly 1,339 people exposed within the fire-affected area; EU Copernicus satellite imagery separately measured approximately 7,000 hectares burned. International media widely reported the fire as the deadliest wildfire in Andalusian history, with double-digit fatalities, missing persons and over 1,000 people evacuated, though no allowlisted authoritative source has yet published a confirmed casualty count.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "GDACS's event report assessed an Orange alert (medium humanitarian impact) for a wildfire burning near Los Gallardos, Almería province, Spain between 9 and 11 July 2026, citing about 6,725 hectares burned and roughly 1,339 people exposed within the fire-affected area; EU Copernicus Earth-observation imagery separately measured approximately 7,000 hectares burned across the affected municipalities. The fire was stabilized by 12 July 2026. No allowlisted authoritative source has yet published a confirmed death toll, though international media widely reported double-digit fatalities and described it as the deadliest wildfire in Andalusian history."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029448&episodeid=4&eventtype=WF",
+    "location": {
+      "country": "Spain",
+      "lat": 37.2036,
+      "lon": -1.9363,
+      "region": "Los Gallardos / Bédar / Antas / Lubrín, Almería Province, Andalusia"
+    },
+    "occurrence_date": "2026-07-09",
+    "scale": "Orange alert; ~6,725-7,000 ha burned",
+    "status": "contained"
+  },
+  "id": "spain-wildfire-almeria-2026",
+  "last_updated": "2026-07-20T09:21:35Z",
+  "name": "Wildfire — Los Gallardos, Almería, Spain",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-20T09:21:35Z",
+        "layer": "verify",
+        "run_id": "2026-07-20T09-21-35Z-000e86"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-20T09-21-35Z-000e86"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398061.0,
+    "impact_rank": 1,
+    "recency_rank": 739806
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
