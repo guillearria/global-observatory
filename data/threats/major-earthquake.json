@@ -1,0 +1,57 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "very-high",
+      "numeric_annual": null,
+      "window": "annual"
+    },
+    "severity": "continental",
+    "summary": "A recurrent, well-quantified hazard — about 15 magnitude-7 and one magnitude-8+ earthquake expected globally each year — whose worst instances have killed hundreds of thousands of people in a single event.",
+    "timeframe": "Large earthquakes recur every year worldwide; a single catastrophic event striking a major population center can occur at any time without reliable short-term prediction."
+  },
+  "category": "geological",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-20",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/faqs/why-are-we-having-so-many-or-so-few-earthquakes-has-naturally-occurring-earthquake-activity",
+      "text": "According to long-term records since about 1900, USGS expects about 16 major earthquakes worldwide in any given year, including 15 earthquakes in the magnitude 7 range and one earthquake of magnitude 8.0 or greater.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-20",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/programs/earthquake-hazards/lists-maps-and-statistics",
+      "text": "USGS worldwide earthquake statistics record 298,101 deaths from earthquakes in 2004 (the Indian Ocean earthquake and tsunami) and 226,050 in 2010, among the deadliest years on record.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A large-magnitude earthquake striking a densely populated or poorly prepared region can kill tens to hundreds of thousands of people in seconds and collapse infrastructure across a wide area. Large earthquakes occur every year somewhere on Earth; the risk is concentrated along active plate boundaries such as the Pacific Ring of Fire.",
+  "id": "major-earthquake",
+  "last_updated": "2026-07-20T10:08:58Z",
+  "name": "Major Earthquake",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-20T10:08:58Z",
+        "layer": "verify",
+        "run_id": "2026-07-20T10-08-58Z-7fc9f9"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-20T10-08-58Z-7fc9f9"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 25.0,
+    "probability_rank": 5,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
