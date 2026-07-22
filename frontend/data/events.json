@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-07-20T09:21:35Z",
+  "last_updated": "2026-07-22T09:22:18Z",
   "published": [
+    {
+      "category": "flood",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-22",
+          "source_name": "GDACS",
+          "source_url": "https://gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL",
+          "text": "Overall Green Flood in Afghanistan from 19 Jul 2026 01:00 UTC to 21 Jul 2026 01:00 UTC. Flood can have a low humanitarian impact based on the magnitude, exposed population and vulnerability. At least 20 people were killed, around 80 others injured, and more than 100 remain missing, in Nuristan Province following flash floods triggered by heavy rainfall.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Torrential monsoon rains triggered flash floods in Afghanistan's eastern Nuristan province beginning around 19 July 2026, striking the provincial capital Parun and surrounding villages. GDACS assessed the event as an overall Green alert for low humanitarian impact, but confirmed at least 20 people killed, around 80 injured, and more than 100 people still missing as search and rescue continued.",
+      "event": {
+        "impact": {
+          "deaths": 20,
+          "displaced": null,
+          "summary": "GDACS's event report for a Green-alert flood in Afghanistan (19-21 July 2026 window) confirms at least 20 people killed, around 80 others injured, and more than 100 people still missing in Nuristan Province following flash floods triggered by heavy monsoon rainfall. GDACS assessed the humanitarian impact as low based on magnitude, exposed population and vulnerability. No authoritative source has yet reported the search-and-rescue operation as concluded."
+        },
+        "live_source_url": "https://gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL",
+        "location": {
+          "country": "Afghanistan",
+          "lat": 35.2667,
+          "lon": 70.9,
+          "region": "Nuristan Province (Parun and surrounding villages)"
+        },
+        "occurrence_date": "2026-07-19",
+        "scale": "Flash flood; GDACS Green alert",
+        "status": "ongoing"
+      },
+      "id": "afghanistan-nuristan-floods-2026",
+      "last_updated": "2026-07-22T09:22:18Z",
+      "name": "Nuristan Flash Floods, Afghanistan",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-22T09:22:18Z",
+            "layer": "verify",
+            "run_id": "2026-07-22T09-22-18Z-26c046"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-22T09-22-18Z-26c046"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398162.0,
+        "impact_rank": 2,
+        "recency_rank": 739816
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
     {
       "category": "flood",
       "claims": [
@@ -43,14 +99,38 @@
           "source_url": "https://reliefweb.int/report/bangladesh/bgd-flood-07-2026-bangladesh-floods-2026-nationwide-2026-07-14",
           "text": "BDRCS/IFRC nationwide situation report (14 July 2026): 1,074,534 people affected (NAWG figure) across 10 districts, about 38,500 people temporarily displaced (MoDMR figure) across 1,000+ shelters, 51 deaths, 267,918 households stranded, including 15 Rohingya refugee deaths reported by UNHCR among the Cox's Bazar camp toll.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-07-22",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/bangladesh/bgd-flood-07-2026-bangladesh-floods-2026-nationwide-2026-07-19",
+          "text": "BDRCS/IFRC nationwide situation report (posted 20 Jul 2026, originally published 19 Jul 2026): NAWG estimates 1,116,174 people affected across 10 districts (up from 1,074,534). MoDMR reports ~38,500 people temporarily displaced across 1,000+ shelters and 267,918 households stranded/isolated across seven districts (unchanged). At least 59 people have died nationwide (up from 53/51). In Cox's Bazar's 33 Rohingya refugee camps, flooding/landslides affected 28,000+ people, damaged 3,100+ shelters, and displaced 4,700+ individuals; UNHCR has confirmed 15 deaths among Rohingya refugees. As of 16 July only the Kushiyara River remained above danger level (at Markuli, Sunamganj and Fenchuganj, Sylhet), and water levels in the Surma (Sylhet/Sunamganj) and the Teesta, Dharla and Dudhkumar rivers (Rangpur Division) were falling.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-07-22",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/bangladesh/bangladesh-red-crescent-society-situation-report-4-monsoon-flood-landslide-response-16-july-2026-1600-hrs",
+          "text": "Bangladesh Red Crescent Society Situation Report 4: Monsoon Flood & Landslide Response (posted 20 Jul 2026, originally published 17 Jul 2026), covering Chattogram, Cox's Bazar, Bandarban, Rangamati, Khagrachhari, Cumilla, Moulvibazar, Habiganj, Sunamganj and Sylhet. As of 16 July 9:00 AM, only the Kushiyara River remained above danger level (Markuli/Sunamganj and Fenchuganj/Sylhet stations); the Someshwari River at Kalmakanda had receded below danger level; Surma river conditions in Sylhet/Sunamganj were expected to improve within 24 hours; Teesta, Dharla and Dudhkumar river levels in Rangpur Division were falling and projected to fall further. BDRCS Emergency Operations Centre remains active.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-07-22",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/bangladesh/rapid-needs-assessment-rna-report-bangladesh-flash-flood-2026",
+          "text": "Oxfam/CODEC Rapid Needs Assessment (RNA) Report on the Bangladesh Flash Flood 2026 (posted 21 Jul 2026): deep-dive assessment of Satkania and Banshkhali upazilas (Chattogram Division) found 360,000+ people affected in Satkania and 110,000+ in Banshkhali; 90-95% of surveyed households reported partial/complete loss of belongings; 92% of drinking water sources damaged/contaminated (94% in Banshkhali lacking safe water); all assessed latrines submerged; 90% of households reported insufficient food access and 59% reported signs of malnutrition.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Days of torrential monsoon rain beginning around 4 July 2026 triggered flash floods and landslides across ten districts of southeastern Bangladesh, centred on Cox's Bazar and Chattogram. Chattogram city recorded its highest single-day July rainfall in 42 years. The disaster killed dozens of people, including Rohingya refugees in the Cox's Bazar camps, and stranded more than a million residents, prompting the UN Resident Coordinator's office and the government's Disaster Management and Relief Ministry to scale up an emergency response.",
+      "description": "Monsoon-triggered flash floods, riverine flooding and landslides across Chattogram Division and adjoining south-eastern/north-eastern Bangladesh districts (including Cox's Bazar, Bandarban, Rangamati, Khagrachhari, Cumilla, Moulvibazar, Habiganj, and, as the risk shifted north, Sylhet, Sunamganj and Rangpur), ongoing since early July 2026. As of 19-20 July 2026 (BDRCS/IFRC via ReliefWeb, and UNHCR), 1,116,174 people are affected across 10 districts, at least 59 people have died nationwide (including 15 Rohingya refugees per UNHCR), ~38,500 people remain temporarily displaced across 1,000+ shelters, and 267,918 households remain stranded. River levels in the previously at-risk northern districts (Sylhet, Sunamganj, Rangpur) were receding as of 16-19 July, with only the Kushiyara River still above danger level; response efforts are shifting toward early recovery even as emergency relief continues.",
       "event": {
         "impact": {
-          "deaths": 53,
+          "deaths": 59,
           "displaced": 38500,
-          "summary": "As of an Oxfam situation report (15 July 2026, via ReliefWeb), monsoon-triggered flash floods and landslides had affected 1.11 million people across 10 districts of southeastern Bangladesh, with 53 fatalities and 39 injuries reported; Chattogram district was hardest-hit, recording 412.3mm of rain in 24 hours, its highest single-day July rainfall in 42 years. A corroborating BDRCS/IFRC nationwide situation report (14 July 2026) put the toll at 51 deaths (including 15 Rohingya refugees in Cox's Bazar camps, per UNHCR), 1,074,534 people affected, about 38,500 people temporarily displaced across 1,000+ shelters, and 267,918 households stranded. Flood and landslide risk continues, with the threat shifting from southeastern districts toward the north and northeast (Sylhet, Sunamganj, Rangpur)."
+          "summary": "As of the 19-20 July 2026 BDRCS/IFRC situation report (the latest national-level figures found on ReliefWeb), the flooding/landslide event has affected 1,116,174 people across the same 10 districts (up from 1,074,534-1.11 million as of 14-15 July), with at least 59 deaths nationwide (up from 53), including 15 deaths among Rohingya refugees confirmed by UNHCR in Cox's Bazar camps. Temporary displacement (~38,500 people, 1,000+ shelters) and stranded households (267,918) are unchanged from the prior check. Hydrological conditions have begun improving: the flood risk that had been forecast to shift north into Sylhet, Sunamganj and Rangpur did materialize but rivers there (Surma, Teesta, Dharla, Dudhkumar) were receding by 16-19 July, with only the Kushiyara River still above danger level. Response is described as transitioning toward early recovery while relief operations continue; no authoritative source has declared the event resolved or contained."
         },
         "live_source_url": "https://reliefweb.int/country/bgd",
         "location": {
@@ -64,18 +144,18 @@
         "status": "ongoing"
       },
       "id": "bangladesh-floods-chattogram-2026",
-      "last_updated": "2026-07-17T09:12:11Z",
+      "last_updated": "2026-07-22T09:22:18Z",
       "name": "Monsoon Floods & Landslides — Chattogram Division, Bangladesh",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-17T09:12:11Z",
+            "at": "2026-07-22T09:22:18Z",
             "layer": "verify",
-            "run_id": "2026-07-17T09-12-11Z-27e07a"
+            "run_id": "2026-07-22T09-22-18Z-6b10c2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-17T09-12-11Z-27e07a"
+        "last_run_id": "2026-07-22T09-22-18Z-6b10c2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -85,7 +165,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -173,6 +253,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-11",
+          "retrieved_date": "2026-07-22",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "Page last updated 21 July 2026, 17:00. On 20 July 2026 (data up until 19 July), the Democratic Republic of the Congo reported a total of 2,423 confirmed cases including 967 related deaths, an increase of 79 new confirmed cases and 37 deaths since the previous update; 734 patients are hospitalised in isolation and 469 have recovered. Ituri province remains the most affected, with 2,160 cases including 811 deaths, reported from 28 of 36 health zones (up from 27/36); North Kivu has reported 239 cases including 141 deaths from 11 of 34 health zones; South Kivu 3 cases including 1 death from 1 of 34 health zones; Haut-Uele 16 cases including 10 deaths from 4 of 13 health zones; and Tshopo 5 cases including 4 deaths from 3 of 23 health zones — 47 of 140 health zones affected in total, still across the same five provinces (no new province reported). Uganda has reported 20 confirmed cases including two deaths, with the last confirmed case on 21 June and no new cases since; its last patient was discharged on 16 July, and the 42-day countdown toward declaring Uganda's outbreak over is ongoing.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-10",
           "source_name": "WHO",
@@ -237,12 +325,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb into July, with imported cases confirmed in France and, most recently, a US citizen medically evacuated to Germany. Uganda's last confirmed patient was discharged on 16 July, starting the 42-day countdown toward declaring that country's outbreak over, while the outbreak in DRC has now spread into a fifth province.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through late July (2,423 cases/967 deaths in DRC per ECDC as of 20 July), with the outbreak still confined to the same five DRC provinces and imported cases previously confirmed in France and Germany. Uganda's last confirmed patient was discharged on 16 July, and its 42-day countdown toward declaring that country's outbreak over remains in progress with no new Ugandan cases since 21 June.",
       "event": {
         "impact": {
-          "deaths": 830,
+          "deaths": 969,
           "displaced": null,
-          "summary": "As of WHO Disease Outbreak News #613 (17 July 2026), the Democratic Republic of the Congo had reported 2,124 confirmed cases including 828 deaths (case fatality ratio 39%) as of 15 July 2026, with Ituri province still most affected (89.6% of cases, 83.6% of deaths) alongside North Kivu, South Kivu, Haut-Uele and Tshopo — an expansion to five affected provinces. Uganda's confirmed case count remains at 20, including two deaths in imported cases plus one probable case resulting in death, as of 17 July 2026; its last confirmed patient was discharged from care on 16 July 2026, starting the 42-day countdown toward declaring that country's outbreak over. WHO assesses the national risk in DRC as very high due to ongoing transmission and continued expansion into new health zones."
+          "summary": "As of ECDC's 21 July 2026 update (DRC data to 19 July), the Democratic Republic of the Congo has reported 2,423 confirmed cases including 967 deaths, up from 2,124 cases/828 deaths in WHO's Disease Outbreak News #613 (data to 15 July) — a rise of 299 cases and 139 deaths in about four days. Ituri province remains overwhelmingly the most affected (2,160 cases/811 deaths, 28 of 36 health zones), with continued transmission also in North Kivu, South Kivu, Haut-Uele and Tshopo; no sixth province has been affected. Uganda remains unchanged at 20 confirmed cases and two deaths, with no new cases since 21 June and its 42-day countdown to declare the outbreak over continuing following discharge of the last patient on 16 July. No WHO Disease Outbreak News newer than DON613 has been published as of 22 July 2026, and no health authority has declared the outbreak over in either country."
         },
         "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
         "location": {
@@ -256,18 +344,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-19T18:20:57Z",
+      "last_updated": "2026-07-22T09:22:18Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-19T18:20:57Z",
+            "at": "2026-07-22T09:22:18Z",
             "layer": "verify",
-            "run_id": "2026-07-19T18-20-57Z-04affd"
+            "run_id": "2026-07-22T09-22-18Z-3341de"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-19T18-20-57Z-04affd"
+        "last_run_id": "2026-07-22T09-22-18Z-3341de"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -277,7 +365,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -315,14 +403,30 @@
           "source_url": "https://news.un.org/en/story/2026/07/1167967",
           "text": "UN News (17 July 2026): the UN human rights chief warned that civilians in El Obeid \"have been under siege for 18 months\" and face continuous drone strikes, with more than 100,000 displaced people sheltering in camps in the city. WFP is providing food assistance to over 100,000 people in those camps, including nutrition support for 17,000 children, but is distributing only a reduced ration that recipients are sharing with other families. Almost 20 million people in Sudan are now classified as acutely food insecure, and more than 14 million people have been uprooted nationwide since the conflict began.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-07-22",
+          "source_name": "UN World Food Programme",
+          "source_url": "https://www.wfp.org/news/wfp-geneva-palais-briefing-note-wfp-warns-el-obeid-becoming-new-epicentre-sudans-displacement",
+          "text": "WFP Geneva Palais briefing note (published 17 July 2026): El Obeid city (population approximately 500,000) is hosting displaced people, with more than 120,000 people in the 'Unified IDP Camp' alone. WFP is providing food/cash assistance to just over 100,000 people in camps inside the city, but severe funding shortfalls mean recipients are only receiving 50 percent of the ration they should. Fuel scarcity has crippled partner logistics, forcing WFP to deploy its own fleet vehicles to keep distributions running.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-07-22",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/sudan/unfpa-flash-update-2-situation-el-obeid-north-kordofan-sudan-3-19-july-2026",
+          "text": "UNFPA Flash Update #2 on the situation in El Obeid, North Kordofan, Sudan (published 20 July 2026, covering 1-19 July): 21 drone-related incidents were recorded in and around El Obeid between 1-19 July 2026, causing civilian casualties (no aggregate death toll given), damage to critical infrastructure, and further disruption to already-limited essential services, with severe constraints on sexual and reproductive health and gender-based-violence response services due to insecurity and resource shortages.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Rapid Support Forces (RSF) paramilitary forces have besieged El Obeid, the capital of North Kordofan state, subjecting the city of more than half a million residents to relentless drone strikes and blockade conditions. The United Nations Human Rights Office documented 15 drone strikes on the city and surrounding areas in three weeks, and UN officials have warned of an imminent risk of mass atrocities similar to those already documented in El Fasher, Darfur. As of mid-July 2026, the UN human rights chief describes the siege as having lasted 18 months, with WFP forced to distribute reduced rations to over 100,000 people sheltering in city camps. G7 foreign ministers condemned the siege on 14 July 2026, and the UN Human Rights Council launched a Fact-Finding Mission inquiry into the situation.",
+      "description": "Rapid Support Forces (RSF) paramilitary forces have besieged El Obeid, the capital of North Kordofan state, subjecting the city of more than half a million residents to relentless drone strikes and blockade conditions. As of 20 July 2026, the siege continues with no ceasefire and no ground assault yet confirmed by authoritative sources, but drone strikes have intensified (21 incidents recorded 1-19 July per a UNFPA Flash Update on ReliefWeb, up from 15 strikes over three weeks in the prior UN Human Rights Office count) and the humanitarian situation has worsened: WFP reports more than 120,000 people are now sheltering in the city's Unified IDP Camp alone, with food rations cut to 50 percent of full entitlement due to funding shortfalls. No new aggregate civilian death toll has been issued since the UN's 3 July report of at least 45 killed. G7 foreign ministers condemned the siege on 14 July 2026, and UN officials continue to warn of the risk of large-scale atrocities similar to those already documented in El Fasher, Darfur.",
       "event": {
         "impact": {
           "deaths": 45,
-          "displaced": 100000,
-          "summary": "The UN Human Rights Office documented 15 drone strikes on El Obeid and surrounding areas over three weeks that killed at least 45 civilians; no allowlisted source has published an updated aggregate casualty count since that initial 3 July UN report. As of a UN News report of 17 July 2026, the UN human rights chief describes civilians as having been \"under siege for 18 months\" amid continuous drone strikes, with more than 100,000 displaced people sheltering in city camps where WFP is distributing only reduced food rations. El Obeid has more than half a million residents. G7 foreign ministers (14 July 2026) have urged an immediate ceasefire; UN officials continue to warn of the risk of large-scale atrocities."
+          "displaced": 120000,
+          "summary": "No updated aggregate death toll has been published since the 3 July UN Human Rights Office figure (15 drone strikes over 3 weeks, at least 45 civilians killed); drone strikes have continued and even increased in frequency (21 drone-related incidents logged 1-19 July per a UNFPA Flash Update via ReliefWeb), but no authoritative source has issued a new cumulative casualty count as of 22 July 2026. On displacement, WFP (17 July briefing) confirms more than 120,000 people are now in the Unified IDP Camp alone in El Obeid, up from the previously reported '100,000+ displaced in city camps.' Rations for WFP-assisted families have been cut to 50 percent of the full entitlement due to funding shortfalls, a downgrade from the earlier 'reduced rations' description. No ceasefire, siege-lifting, or ground assault has been confirmed by an authoritative source."
         },
         "live_source_url": "https://reliefweb.int/country/sdn",
         "location": {
@@ -336,18 +440,18 @@
         "status": "ongoing"
       },
       "id": "el-obeid-siege-sudan-2026",
-      "last_updated": "2026-07-20T09:21:35Z",
+      "last_updated": "2026-07-22T09:22:18Z",
       "name": "Siege of El Obeid — North Kordofan, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-20T09:21:35Z",
+            "at": "2026-07-22T09:22:18Z",
             "layer": "verify",
-            "run_id": "2026-07-20T09-21-35Z-8bb154"
+            "run_id": "2026-07-22T09-22-18Z-b61f3e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-20T09-21-35Z-8bb154"
+        "last_run_id": "2026-07-22T09-22-18Z-b61f3e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -357,7 +461,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -681,7 +785,7 @@
           "retrieved_date": "2026-07-17",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-66-effects-mw-78-earthquake-incident-maasim-sarangani-16-july-2026-6pm",
-          "text": "DSWD DROMIC Report #66, as of 16 July 2026, 6PM, reports a total of 391,975 families (1,655,686 persons) affected in 651 barangays across Regions IX, XI, XII and BARMM. There are 24,472 families (93,971 persons) still displaced — 7,383 families (29,805 persons) inside 78 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,362 houses were damaged, of which 19,193 were totally destroyed and 102,169 partially damaged.",
+          "text": "DSWD DROMIC Report #66, as of 16 July 2026, 6PM, reports a total of 391,975 families (1,655,686 persons) affected across 651 barangays across Regions IX, XI, XII and BARMM. There are 24,472 families (93,971 persons) still displaced — 7,383 families (29,805 persons) inside 78 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,362 houses were damaged, of which 19,193 were totally destroyed and 102,169 partially damaged.",
           "verification_status": "verified"
         },
         {
@@ -689,16 +793,24 @@
           "retrieved_date": "2026-07-20",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-71-effects-mw-78-earthquake-incident-maasim-sarangani-20-july-2026-6am",
-          "text": "DSWD DROMIC Report #71, as of 20 July 2026, 6AM, reports a total of 391,975 families (1,655,686 persons) affected in 651 barangays across Regions IX, XI, XII and BARMM. There are 24,707 families (94,894 persons) still displaced — 7,618 families (30,728 persons) inside 78 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,362 houses were damaged, of which 19,193 were totally destroyed and 102,169 partially damaged. Total cost of assistance provided to date is ₱1,284,626,667.47.",
+          "text": "DSWD DROMIC Report #71, as of 20 July 2026, 6AM, reports a total of 391,975 families (1,655,686 persons) affected across 651 barangays across Regions IX, XI, XII and BARMM. There are 24,707 families (94,894 persons) still displaced — 7,618 families (30,728 persons) inside 78 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,362 houses were damaged, of which 19,193 were totally destroyed and 102,169 partially damaged. Total cost of assistance provided to date is ₱1,284,626,667.47.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-9",
+          "retrieved_date": "2026-07-22",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-72-effects-mw-78-earthquake-incident-maasim-sarangani-20-july-2026-6pm",
+          "text": "DSWD DROMIC Report #72, as of 20 July 2026, 6PM, reports 391,975 families (1,655,686 persons) affected across 651 barangays in Regions IX, XI, XII and BARMM (unchanged from Report #71). Total displaced: 24,640 families (94,559 persons) — 7,551 families (30,393 persons) inside 75 evacuation centers, 17,089 families (64,166 persons) outside with relatives/friends. Houses damaged: 121,362 total (19,193 totally damaged, 102,169 partially damaged) — same totals as Report #71. Cost of assistance provided to date: PHP 1,284,768,965.47.",
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll and number of affected people climbed through late June as damage assessments continued, and eighteen local government units have declared a state of calamity. Displacement and housing-damage figures have continued to be tracked into late July as recovery continues, with the still-displaced population edging up slightly to nearly 95,000 people even as new housing damage has largely leveled off.",
+      "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll and number of affected people climbed through late June as damage assessments continued, and eighteen local government units have declared a state of calamity. As of 20 July 2026, displacement has eased only slightly, with about 94,500 people still displaced across evacuation centers and host families, even as housing-damage totals have largely leveled off.",
       "event": {
         "impact": {
           "deaths": 77,
-          "displaced": 94894,
-          "summary": "As of DSWD DROMIC Report #71 (20 July 2026, 6AM), 391,975 families (1,655,686 persons) are affected across 651 barangays in Regions IX, XI, XII and BARMM, with 24,707 families (94,894 persons) still displaced — 7,618 families (30,728 persons) inside 78 evacuation centers and 17,089 families (64,166 persons) staying outside evacuation centers with relatives or friends. A total of 121,362 houses have been damaged, including 19,193 totally destroyed and 102,169 partially damaged. Government figures still report 77 deaths, 1,339 injured and 31 missing (OCHA, as of 23 June — the latest allowlisted-source casualty figure; no OCHA narrative update has superseded it despite newer DROMIC reports). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
+          "displaced": 94559,
+          "summary": "As of DSWD DROMIC Report #72 (20 July 2026, 6PM), 391,975 families (1,655,686 persons) remain recorded as affected across 651 barangays in Regions IX, XI, XII and BARMM — unchanged from Report #71. Displacement has eased only marginally to 24,640 families (94,559 persons), down from 24,707 families (94,894 persons) at Report #71: 7,551 families (30,393 persons) remain in 75 evacuation centers and 17,089 families (64,166 persons) are staying with relatives or friends. A total of 121,362 houses have been damaged, including 19,193 totally destroyed and 102,169 partially damaged, unchanged from Report #71. Government figures still report 77 deaths, 1,339 injured and 31 missing (OCHA, as of 23 June — the latest allowlisted-source casualty figure; no OCHA narrative update has superseded it despite newer DROMIC reports). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
         "location": {
@@ -712,18 +824,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-07-20T09:21:35Z",
+      "last_updated": "2026-07-22T09:22:18Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-20T09:21:35Z",
+            "at": "2026-07-22T09:22:18Z",
             "layer": "verify",
-            "run_id": "2026-07-20T09-21-35Z-b07b35"
+            "run_id": "2026-07-22T09-22-18Z-51fc13"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-20T09-21-35Z-b07b35"
+        "last_run_id": "2026-07-22T09-22-18Z-51fc13"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -733,7 +845,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1165,6 +1277,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-14",
+          "retrieved_date": "2026-07-22",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-28-21-july-2026-time-0900-pm",
+          "text": "Situation Report No. 28, Earthquakes in Venezuela, 21 July 2026, Time: 9:00 pm. Authorities report 1,405 aftershocks since the 7.2 and 7.5 magnitude earthquakes that struck on 24 June. Official toll: 5,346 people dead and 16,740 injured. Authorities also indicated that 17,907 people lost their homes. The US$299 million addendum to the Humanitarian Response Plan complements the 2026 Humanitarian Response Plan, increasing the target population from 5.5 million to 6.2 million people and raising total funding requirements from US$632 million to US$931 million.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-02",
           "source_name": "USGS",
@@ -1229,12 +1349,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Nearly four weeks on, the confirmed death toll has continued to climb past 5,200, and the UN has assessed billions of dollars in physical damage.",
+      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Nearly a month on, the confirmed death toll has continued to climb past 5,300, and the UN humanitarian response has scaled up further, with combined funding requirements now exceeding $900 million.",
       "event": {
         "impact": {
-          "deaths": 5208,
+          "deaths": 5346,
           "displaced": 17907,
-          "summary": "As of OCHA's Situation Report #26 (19 July 2026, 9:00 pm), authorities report an official toll of 5,208 people dead and 16,740 injured; 1,388 aftershocks have been recorded since the 24 June earthquakes. An additional appeal of US$299 million targets 1.3 million people over six months, on top of the US$632 million 2026 Humanitarian Response Plan covering 5.5 million people. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
+          "summary": "As of OCHA Situation Report #28 (21 July 2026, 9:00 pm), 24 days after the 24 June doublet quakes, the official toll stands at 5,346 dead and 16,740 injured (up from 5,208 dead in SitRep #26 two days earlier), with 1,405 aftershocks recorded (up from 1,388) and 17,907 people who lost their homes. The response continues to scale up rather than wind down: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum now totals US$931 million in funding requirements (up from US$632 million), targeting an increased 6.2 million people (up from 5.5 million), of whom 1.3 million are earthquake-affected. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
         "location": {
@@ -1248,18 +1368,18 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-07-20T09:21:35Z",
+      "last_updated": "2026-07-22T09:22:18Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-20T09:21:35Z",
+            "at": "2026-07-22T09:22:18Z",
             "layer": "verify",
-            "run_id": "2026-07-20T09-21-35Z-ea004f"
+            "run_id": "2026-07-22T09-22-18Z-40e6fe"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-20T09-21-35Z-ea004f"
+        "last_run_id": "2026-07-22T09-22-18Z-40e6fe"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1269,7 +1389,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }

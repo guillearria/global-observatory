@@ -42,6 +42,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-14",
+      "retrieved_date": "2026-07-22",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-28-21-july-2026-time-0900-pm",
+      "text": "Situation Report No. 28, Earthquakes in Venezuela, 21 July 2026, Time: 9:00 pm. Authorities report 1,405 aftershocks since the 7.2 and 7.5 magnitude earthquakes that struck on 24 June. Official toll: 5,346 people dead and 16,740 injured. Authorities also indicated that 17,907 people lost their homes. The US$299 million addendum to the Humanitarian Response Plan complements the 2026 Humanitarian Response Plan, increasing the target population from 5.5 million to 6.2 million people and raising total funding requirements from US$632 million to US$931 million.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-02",
       "source_name": "USGS",
@@ -106,12 +114,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Nearly four weeks on, the confirmed death toll has continued to climb past 5,200, and the UN has assessed billions of dollars in physical damage.",
+  "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Nearly a month on, the confirmed death toll has continued to climb past 5,300, and the UN humanitarian response has scaled up further, with combined funding requirements now exceeding $900 million.",
   "event": {
     "impact": {
-      "deaths": 5208,
+      "deaths": 5346,
       "displaced": 17907,
-      "summary": "As of OCHA's Situation Report #26 (19 July 2026, 9:00 pm), authorities report an official toll of 5,208 people dead and 16,740 injured; 1,388 aftershocks have been recorded since the 24 June earthquakes. An additional appeal of US$299 million targets 1.3 million people over six months, on top of the US$632 million 2026 Humanitarian Response Plan covering 5.5 million people. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
+      "summary": "As of OCHA Situation Report #28 (21 July 2026, 9:00 pm), 24 days after the 24 June doublet quakes, the official toll stands at 5,346 dead and 16,740 injured (up from 5,208 dead in SitRep #26 two days earlier), with 1,405 aftershocks recorded (up from 1,388) and 17,907 people who lost their homes. The response continues to scale up rather than wind down: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum now totals US$931 million in funding requirements (up from US$632 million), targeting an increased 6.2 million people (up from 5.5 million), of whom 1.3 million are earthquake-affected. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
     "location": {
@@ -125,18 +133,18 @@
     "status": "ongoing"
   },
   "id": "venezuela-earthquake-2026",
-  "last_updated": "2026-07-20T09:21:35Z",
+  "last_updated": "2026-07-22T09:22:18Z",
   "name": "Venezuela M7.5 Earthquake Doublet",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-20T09:21:35Z",
+        "at": "2026-07-22T09:22:18Z",
         "layer": "verify",
-        "run_id": "2026-07-20T09-21-35Z-ea004f"
+        "run_id": "2026-07-22T09-22-18Z-40e6fe"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-20T09-21-35Z-ea004f"
+    "last_run_id": "2026-07-22T09-22-18Z-40e6fe"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -146,7 +154,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

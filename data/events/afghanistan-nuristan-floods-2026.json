@@ -1,0 +1,56 @@
+{
+  "category": "flood",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-22",
+      "source_name": "GDACS",
+      "source_url": "https://gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL",
+      "text": "Overall Green Flood in Afghanistan from 19 Jul 2026 01:00 UTC to 21 Jul 2026 01:00 UTC. Flood can have a low humanitarian impact based on the magnitude, exposed population and vulnerability. At least 20 people were killed, around 80 others injured, and more than 100 remain missing, in Nuristan Province following flash floods triggered by heavy rainfall.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Torrential monsoon rains triggered flash floods in Afghanistan's eastern Nuristan province beginning around 19 July 2026, striking the provincial capital Parun and surrounding villages. GDACS assessed the event as an overall Green alert for low humanitarian impact, but confirmed at least 20 people killed, around 80 injured, and more than 100 people still missing as search and rescue continued.",
+  "event": {
+    "impact": {
+      "deaths": 20,
+      "displaced": null,
+      "summary": "GDACS's event report for a Green-alert flood in Afghanistan (19-21 July 2026 window) confirms at least 20 people killed, around 80 others injured, and more than 100 people still missing in Nuristan Province following flash floods triggered by heavy monsoon rainfall. GDACS assessed the humanitarian impact as low based on magnitude, exposed population and vulnerability. No authoritative source has yet reported the search-and-rescue operation as concluded."
+    },
+    "live_source_url": "https://gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL",
+    "location": {
+      "country": "Afghanistan",
+      "lat": 35.2667,
+      "lon": 70.9,
+      "region": "Nuristan Province (Parun and surrounding villages)"
+    },
+    "occurrence_date": "2026-07-19",
+    "scale": "Flash flood; GDACS Green alert",
+    "status": "ongoing"
+  },
+  "id": "afghanistan-nuristan-floods-2026",
+  "last_updated": "2026-07-22T09:22:18Z",
+  "name": "Nuristan Flash Floods, Afghanistan",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-22T09:22:18Z",
+        "layer": "verify",
+        "run_id": "2026-07-22T09-22-18Z-26c046"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-22T09-22-18Z-26c046"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398162.0,
+    "impact_rank": 2,
+    "recency_rank": 739816
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
