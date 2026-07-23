@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-23 — Daily World Pulse refresh: add Algeria wildfires, update Ebola/Afghanistan floods (`3154995`)
+
+- **Added:** algeria-wildfires-2026
+- **Updated:** afghanistan-nuristan-floods-2026, ebola-bundibugyo-drc-2026
+
 ## 2026-07-22 — Daily World Pulse refresh: add Afghanistan floods, update Bangladesh/Ebola/El Obeid/Mindanao/Venezuela (`43aa692`)
 
 - **Added:** afghanistan-nuristan-floods-2026
@@ -127,6 +132,6 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 - **Added:** ebola-bundibugyo-drc-2026, sudan-displacement-crisis, venezuela-earthquake-2026
 
-## 2026-06-29 — Seed three researched threats with authoritative citations (#1) (`7ab2f70`)
+## 2026-06-29 — Cost instrumentation + expanded source allowlist (#2) (`3aca830`)
 
 - **Added:** global-warming, influenza-pandemic, near-earth-asteroid-impact, yellowstone-supervolcano
