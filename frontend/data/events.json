@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T09:22:18Z",
+  "last_updated": "2026-07-23T09:13:56Z",
   "published": [
     {
       "category": "flood",
@@ -11,14 +11,22 @@
           "source_url": "https://gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL",
           "text": "Overall Green Flood in Afghanistan from 19 Jul 2026 01:00 UTC to 21 Jul 2026 01:00 UTC. Flood can have a low humanitarian impact based on the magnitude, exposed population and vulnerability. At least 20 people were killed, around 80 others injured, and more than 100 remain missing, in Nuristan Province following flash floods triggered by heavy rainfall.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-23",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/07/1167996",
+          "text": "UN News (22 July 2026): flash floods triggered by heavy rainfall on 20 July have killed at least 26 people across eastern Afghanistan, including 23 in Nuristan province, where homes, markets and roads were swept away, with the worst devastation in Parun City (7 houses completely destroyed, 23 partially damaged, 70 shops and 11 hotels damaged, 40 vehicles lost). The floods also killed three Afghan refugees at a returnee transit camp near the Torkham border crossing with Pakistan and injured nine others there. OCHA said the immediate priority is to save lives and reach people who may still be missing or injured, and warned that casualty figures could rise as more information becomes available; UNICEF and partners are setting up a field clinic in Parun for trauma care.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Torrential monsoon rains triggered flash floods in Afghanistan's eastern Nuristan province beginning around 19 July 2026, striking the provincial capital Parun and surrounding villages. GDACS assessed the event as an overall Green alert for low humanitarian impact, but confirmed at least 20 people killed, around 80 injured, and more than 100 people still missing as search and rescue continued.",
+      "description": "Torrential monsoon rains triggered flash floods in Afghanistan's eastern Nuristan province beginning around 19 July 2026, striking the provincial capital Parun and surrounding villages, and also killed Afghan refugees at a returnee transit camp near the Torkham border crossing. GDACS assessed the event as an overall Green alert for low humanitarian impact; UN News/OCHA reporting on 22 July puts the confirmed death toll at 26 as search and rescue continued for people still missing.",
       "event": {
         "impact": {
-          "deaths": 20,
+          "deaths": 26,
           "displaced": null,
-          "summary": "GDACS's event report for a Green-alert flood in Afghanistan (19-21 July 2026 window) confirms at least 20 people killed, around 80 others injured, and more than 100 people still missing in Nuristan Province following flash floods triggered by heavy monsoon rainfall. GDACS assessed the humanitarian impact as low based on magnitude, exposed population and vulnerability. No authoritative source has yet reported the search-and-rescue operation as concluded."
+          "summary": "UN News/OCHA reporting on 22 July 2026 puts the confirmed death toll at 26 across eastern Afghanistan — 23 in Nuristan province (worst-hit: Parun City) and 3 Afghan refugees killed at a returnee transit camp near the Torkham border crossing, where 9 others were injured — up from GDACS's initial count of at least 20 killed, ~80 injured and 100+ missing in Nuristan alone. OCHA said search-and-rescue continues for people still missing or injured and warned the toll could rise further; no authoritative source has reported the operation as concluded."
         },
         "live_source_url": "https://gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL",
         "location": {
@@ -32,18 +40,18 @@
         "status": "ongoing"
       },
       "id": "afghanistan-nuristan-floods-2026",
-      "last_updated": "2026-07-22T09:22:18Z",
+      "last_updated": "2026-07-23T09:09:55Z",
       "name": "Nuristan Flash Floods, Afghanistan",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-22T09:22:18Z",
+            "at": "2026-07-23T09:09:55Z",
             "layer": "verify",
-            "run_id": "2026-07-22T09-22-18Z-26c046"
+            "run_id": "2026-07-23T09-09-55Z-398b6a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-22T09-22-18Z-26c046"
+        "last_run_id": "2026-07-23T09-09-55Z-398b6a"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -53,7 +61,79 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "wildfire",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-23",
+          "source_name": "GDACS",
+          "source_url": "http://www.gdacs.org/report.aspx?eventid=1029601&episodeid=2&eventtype=WF",
+          "text": "GDACS's event report for a Green-alert forest fire in Algeria (18-22 July 2026 window, Seraidi/Constantine area) cites about 11,362 hectares burned and roughly 2,870 people exposed. Algeria's interior ministry reported six deaths from the wildfires, and authorities reported more than 100 people hospitalised in the town of Seraidi and about 150 homes damaged there.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-23",
+          "source_name": "GDACS",
+          "source_url": "http://www.gdacs.org/report.aspx?eventid=1029611&episodeid=3&eventtype=WF",
+          "text": "GDACS's event report for a second concurrent Green-alert forest fire in Algeria (18-23 July 2026 window) cites about 13,835 hectares burned and roughly 5,885 people exposed. Algeria's interior ministry registered six deaths in relation to the fires affecting multiple provinces during this period; four people were arrested on suspicion of deliberately starting fires.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-23",
+          "source_name": "GDACS",
+          "source_url": "http://www.gdacs.org/report.aspx?eventid=1029618&episodeid=2&eventtype=WF",
+          "text": "GDACS's event report for a third concurrent Green-alert forest fire in Algeria (21-23 July 2026 window) cites about 11,979 hectares burned and roughly 123 people exposed in the burned area, assessed as low humanitarian impact based on burned area and affected population.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A wave of wildfires swept northern Algeria's forested provinces (including Constantine) from mid-to-late July 2026 amid a severe regional heatwave, with GDACS tracking at least three concurrent Green-alert fire complexes burning a combined 37,000+ hectares. Algeria's interior ministry confirmed six deaths and authorities reported over 100 people hospitalised and about 150 homes damaged in the Seraidi area; four people were arrested on suspicion of deliberately starting fires. Civil Protection, the army and forestry authorities remained engaged in firefighting operations as of 23 July 2026.",
+      "event": {
+        "impact": {
+          "deaths": 6,
+          "displaced": null,
+          "summary": "GDACS tracked at least three concurrent wildfire complexes in Algeria between 18 and 23 July 2026, together burning roughly 37,000 hectares and exposing several thousand people. Algeria's interior ministry confirmed six deaths from the fires, and reports citing authorities put more than 100 people hospitalised and about 150 homes damaged in the Seraidi area near Annaba. GDACS assessed each episode as low humanitarian impact (Green) based on burned area and exposed population; no authoritative source has reported the fires as fully contained as of 23 July 2026."
+        },
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029618&episodeid=2&eventtype=WF",
+        "location": {
+          "country": "Algeria",
+          "lat": 36.365,
+          "lon": 6.615,
+          "region": "Northern Algeria, including Constantine and Seraidi (Annaba province)"
+        },
+        "occurrence_date": "2026-07-18",
+        "scale": "Multiple GDACS Green-alert wildfire complexes; ~37,000 ha burned nationwide",
+        "status": "ongoing"
+      },
+      "id": "algeria-wildfires-2026",
+      "last_updated": "2026-07-23T09:13:56Z",
+      "name": "Wildfires — Algeria",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-23T09:13:56Z",
+            "layer": "verify",
+            "run_id": "2026-07-23T09-13-56Z-5fa706"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-23T09-13-56Z-5fa706"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398151.0,
+        "impact_rank": 1,
+        "recency_rank": 739815
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -261,6 +341,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-12",
+          "retrieved_date": "2026-07-23",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "Page last updated 22 July 2026, 16:50. As of 21 July 2026 (data up until 20 July), the Democratic Republic of the Congo reported a total of 2,473 confirmed cases including 999 related deaths, an increase of 50 new confirmed cases and 32 deaths since the previous day; 737 patients are hospitalised in isolation and 482 have recovered. Ituri province remains the most affected, with 2,202 cases including 838 deaths, reported from 28 of 36 health zones; North Kivu has reported 247 cases including 146 deaths from 11 of 34 health zones; South Kivu 3 cases including 1 death from 1 of 34 health zones; Haut-Uele 16 cases including 10 deaths from 4 of 13 health zones; and Tshopo 5 cases including 4 deaths from 3 of 23 health zones — 47 of 140 health zones affected in total, still across the same five provinces. Uganda has reported 20 confirmed cases including two deaths, with the last confirmed case on 21 June and no new cases since, its 42-day countdown toward declaring Uganda's outbreak over continuing.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-10",
           "source_name": "WHO",
@@ -325,12 +413,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through late July (2,423 cases/967 deaths in DRC per ECDC as of 20 July), with the outbreak still confined to the same five DRC provinces and imported cases previously confirmed in France and Germany. Uganda's last confirmed patient was discharged on 16 July, and its 42-day countdown toward declaring that country's outbreak over remains in progress with no new Ugandan cases since 21 June.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through late July (2,473 cases/999 deaths in DRC per ECDC as of 20 July), with the outbreak still confined to the same five DRC provinces and imported cases previously confirmed in France and Germany. Uganda's last confirmed patient was discharged on 16 July, and its 42-day countdown toward declaring that country's outbreak over remains in progress with no new Ugandan cases since 21 June.",
       "event": {
         "impact": {
-          "deaths": 969,
+          "deaths": 999,
           "displaced": null,
-          "summary": "As of ECDC's 21 July 2026 update (DRC data to 19 July), the Democratic Republic of the Congo has reported 2,423 confirmed cases including 967 deaths, up from 2,124 cases/828 deaths in WHO's Disease Outbreak News #613 (data to 15 July) — a rise of 299 cases and 139 deaths in about four days. Ituri province remains overwhelmingly the most affected (2,160 cases/811 deaths, 28 of 36 health zones), with continued transmission also in North Kivu, South Kivu, Haut-Uele and Tshopo; no sixth province has been affected. Uganda remains unchanged at 20 confirmed cases and two deaths, with no new cases since 21 June and its 42-day countdown to declare the outbreak over continuing following discharge of the last patient on 16 July. No WHO Disease Outbreak News newer than DON613 has been published as of 22 July 2026, and no health authority has declared the outbreak over in either country."
+          "summary": "As of ECDC's 22 July 2026 update (DRC data to 20 July), the Democratic Republic of the Congo has reported 2,473 confirmed cases including 999 deaths, up from 2,423 cases/967 deaths as of 19 July — a rise of 50 cases and 32 deaths in a single day. Ituri province remains overwhelmingly the most affected (2,202 cases/838 deaths, 28 of 36 health zones), with continued transmission also in North Kivu, South Kivu, Haut-Uele and Tshopo; no sixth province has been affected. Uganda remains unchanged at 20 confirmed cases and two deaths, with no new cases since 21 June and its 42-day countdown to declare the outbreak over continuing following discharge of the last patient on 16 July. No WHO Disease Outbreak News newer than DON613 has been published as of 23 July 2026, and no health authority has declared the outbreak over in either country."
         },
         "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
         "location": {
@@ -344,18 +432,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-22T09:22:18Z",
+      "last_updated": "2026-07-23T09:09:54Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-22T09:22:18Z",
+            "at": "2026-07-23T09:09:54Z",
             "layer": "verify",
-            "run_id": "2026-07-22T09-22-18Z-3341de"
+            "run_id": "2026-07-23T09-09-54Z-443e39"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-22T09-22-18Z-3341de"
+        "last_run_id": "2026-07-23T09-09-54Z-443e39"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -365,7 +453,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

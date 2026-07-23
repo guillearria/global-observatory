@@ -8,14 +8,22 @@
       "source_url": "https://gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL",
       "text": "Overall Green Flood in Afghanistan from 19 Jul 2026 01:00 UTC to 21 Jul 2026 01:00 UTC. Flood can have a low humanitarian impact based on the magnitude, exposed population and vulnerability. At least 20 people were killed, around 80 others injured, and more than 100 remain missing, in Nuristan Province following flash floods triggered by heavy rainfall.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-23",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/07/1167996",
+      "text": "UN News (22 July 2026): flash floods triggered by heavy rainfall on 20 July have killed at least 26 people across eastern Afghanistan, including 23 in Nuristan province, where homes, markets and roads were swept away, with the worst devastation in Parun City (7 houses completely destroyed, 23 partially damaged, 70 shops and 11 hotels damaged, 40 vehicles lost). The floods also killed three Afghan refugees at a returnee transit camp near the Torkham border crossing with Pakistan and injured nine others there. OCHA said the immediate priority is to save lives and reach people who may still be missing or injured, and warned that casualty figures could rise as more information becomes available; UNICEF and partners are setting up a field clinic in Parun for trauma care.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Torrential monsoon rains triggered flash floods in Afghanistan's eastern Nuristan province beginning around 19 July 2026, striking the provincial capital Parun and surrounding villages. GDACS assessed the event as an overall Green alert for low humanitarian impact, but confirmed at least 20 people killed, around 80 injured, and more than 100 people still missing as search and rescue continued.",
+  "description": "Torrential monsoon rains triggered flash floods in Afghanistan's eastern Nuristan province beginning around 19 July 2026, striking the provincial capital Parun and surrounding villages, and also killed Afghan refugees at a returnee transit camp near the Torkham border crossing. GDACS assessed the event as an overall Green alert for low humanitarian impact; UN News/OCHA reporting on 22 July puts the confirmed death toll at 26 as search and rescue continued for people still missing.",
   "event": {
     "impact": {
-      "deaths": 20,
+      "deaths": 26,
       "displaced": null,
-      "summary": "GDACS's event report for a Green-alert flood in Afghanistan (19-21 July 2026 window) confirms at least 20 people killed, around 80 others injured, and more than 100 people still missing in Nuristan Province following flash floods triggered by heavy monsoon rainfall. GDACS assessed the humanitarian impact as low based on magnitude, exposed population and vulnerability. No authoritative source has yet reported the search-and-rescue operation as concluded."
+      "summary": "UN News/OCHA reporting on 22 July 2026 puts the confirmed death toll at 26 across eastern Afghanistan — 23 in Nuristan province (worst-hit: Parun City) and 3 Afghan refugees killed at a returnee transit camp near the Torkham border crossing, where 9 others were injured — up from GDACS's initial count of at least 20 killed, ~80 injured and 100+ missing in Nuristan alone. OCHA said search-and-rescue continues for people still missing or injured and warned the toll could rise further; no authoritative source has reported the operation as concluded."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL",
     "location": {
@@ -29,18 +37,18 @@
     "status": "ongoing"
   },
   "id": "afghanistan-nuristan-floods-2026",
-  "last_updated": "2026-07-22T09:22:18Z",
+  "last_updated": "2026-07-23T09:09:55Z",
   "name": "Nuristan Flash Floods, Afghanistan",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-22T09:22:18Z",
+        "at": "2026-07-23T09:09:55Z",
         "layer": "verify",
-        "run_id": "2026-07-22T09-22-18Z-26c046"
+        "run_id": "2026-07-23T09-09-55Z-398b6a"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-22T09-22-18Z-26c046"
+    "last_run_id": "2026-07-23T09-09-55Z-398b6a"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -50,7 +58,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -1,0 +1,72 @@
+{
+  "category": "wildfire",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-23",
+      "source_name": "GDACS",
+      "source_url": "http://www.gdacs.org/report.aspx?eventid=1029601&episodeid=2&eventtype=WF",
+      "text": "GDACS's event report for a Green-alert forest fire in Algeria (18-22 July 2026 window, Seraidi/Constantine area) cites about 11,362 hectares burned and roughly 2,870 people exposed. Algeria's interior ministry reported six deaths from the wildfires, and authorities reported more than 100 people hospitalised in the town of Seraidi and about 150 homes damaged there.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-23",
+      "source_name": "GDACS",
+      "source_url": "http://www.gdacs.org/report.aspx?eventid=1029611&episodeid=3&eventtype=WF",
+      "text": "GDACS's event report for a second concurrent Green-alert forest fire in Algeria (18-23 July 2026 window) cites about 13,835 hectares burned and roughly 5,885 people exposed. Algeria's interior ministry registered six deaths in relation to the fires affecting multiple provinces during this period; four people were arrested on suspicion of deliberately starting fires.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-23",
+      "source_name": "GDACS",
+      "source_url": "http://www.gdacs.org/report.aspx?eventid=1029618&episodeid=2&eventtype=WF",
+      "text": "GDACS's event report for a third concurrent Green-alert forest fire in Algeria (21-23 July 2026 window) cites about 11,979 hectares burned and roughly 123 people exposed in the burned area, assessed as low humanitarian impact based on burned area and affected population.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A wave of wildfires swept northern Algeria's forested provinces (including Constantine) from mid-to-late July 2026 amid a severe regional heatwave, with GDACS tracking at least three concurrent Green-alert fire complexes burning a combined 37,000+ hectares. Algeria's interior ministry confirmed six deaths and authorities reported over 100 people hospitalised and about 150 homes damaged in the Seraidi area; four people were arrested on suspicion of deliberately starting fires. Civil Protection, the army and forestry authorities remained engaged in firefighting operations as of 23 July 2026.",
+  "event": {
+    "impact": {
+      "deaths": 6,
+      "displaced": null,
+      "summary": "GDACS tracked at least three concurrent wildfire complexes in Algeria between 18 and 23 July 2026, together burning roughly 37,000 hectares and exposing several thousand people. Algeria's interior ministry confirmed six deaths from the fires, and reports citing authorities put more than 100 people hospitalised and about 150 homes damaged in the Seraidi area near Annaba. GDACS assessed each episode as low humanitarian impact (Green) based on burned area and exposed population; no authoritative source has reported the fires as fully contained as of 23 July 2026."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029618&episodeid=2&eventtype=WF",
+    "location": {
+      "country": "Algeria",
+      "lat": 36.365,
+      "lon": 6.615,
+      "region": "Northern Algeria, including Constantine and Seraidi (Annaba province)"
+    },
+    "occurrence_date": "2026-07-18",
+    "scale": "Multiple GDACS Green-alert wildfire complexes; ~37,000 ha burned nationwide",
+    "status": "ongoing"
+  },
+  "id": "algeria-wildfires-2026",
+  "last_updated": "2026-07-23T09:13:56Z",
+  "name": "Wildfires — Algeria",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-23T09:13:56Z",
+        "layer": "verify",
+        "run_id": "2026-07-23T09-13-56Z-5fa706"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-23T09-13-56Z-5fa706"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398151.0,
+    "impact_rank": 1,
+    "recency_rank": 739815
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
