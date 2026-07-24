@@ -130,8 +130,4 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 ## 2026-07-01 — Add World Pulse: a live feed of confirmed major world events (`560a22c`)
 
-- **Added:** ebola-bundibugyo-drc-2026, sudan-displacement-crisis, venezuela-earthquake-2026
-
-## 2026-06-29 — Cost instrumentation + expanded source allowlist (#2) (`3aca830`)
-
-- **Added:** global-warming, influenza-pandemic, near-earth-asteroid-impact, yellowstone-supervolcano
+- **Added:** ebola-bundibugyo-drc-2026, global-warming, influenza-pandemic, near-earth-asteroid-impact, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano

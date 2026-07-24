@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-23",
+      "retrieved_date": "2026-07-24",
       "source_name": "GDACS",
       "source_url": "http://www.gdacs.org/report.aspx?eventid=1029601&episodeid=2&eventtype=WF",
       "text": "GDACS's event report for a Green-alert forest fire in Algeria (18-22 July 2026 window, Seraidi/Constantine area) cites about 11,362 hectares burned and roughly 2,870 people exposed. Algeria's interior ministry reported six deaths from the wildfires, and authorities reported more than 100 people hospitalised in the town of Seraidi and about 150 homes damaged there.",
@@ -11,29 +11,37 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-07-23",
+      "retrieved_date": "2026-07-24",
       "source_name": "GDACS",
-      "source_url": "http://www.gdacs.org/report.aspx?eventid=1029611&episodeid=3&eventtype=WF",
-      "text": "GDACS's event report for a second concurrent Green-alert forest fire in Algeria (18-23 July 2026 window) cites about 13,835 hectares burned and roughly 5,885 people exposed. Algeria's interior ministry registered six deaths in relation to the fires affecting multiple provinces during this period; four people were arrested on suspicion of deliberately starting fires.",
+      "source_url": "http://www.gdacs.org/report.aspx?eventid=1029611&episodeid=6&eventtype=WF",
+      "text": "GDACS's event report for a second concurrent Green-alert forest fire in Algeria, now at episode 6 covering an 18-24 July 2026 window, cites about 14,082 hectares burned. Algeria's interior ministry registered six deaths in relation to the fires affecting multiple provinces during this period; four people were arrested on suspicion of deliberately starting fires.",
       "verification_status": "verified"
     },
     {
       "id": "claim-3",
-      "retrieved_date": "2026-07-23",
+      "retrieved_date": "2026-07-24",
       "source_name": "GDACS",
-      "source_url": "http://www.gdacs.org/report.aspx?eventid=1029618&episodeid=2&eventtype=WF",
-      "text": "GDACS's event report for a third concurrent Green-alert forest fire in Algeria (21-23 July 2026 window) cites about 11,979 hectares burned and roughly 123 people exposed in the burned area, assessed as low humanitarian impact based on burned area and affected population.",
+      "source_url": "http://www.gdacs.org/report.aspx?eventid=1029618&episodeid=5&eventtype=WF",
+      "text": "GDACS's event report for a third concurrent Green-alert forest fire in Algeria, now at episode 5 covering a 21-24 July 2026 window, cites about 13,388 hectares burned, assessed as low humanitarian impact based on burned area and affected population. Thermal-anomaly detections continue to be recorded as of 24 July 2026.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-24",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/algeria/dza-fire-07-2026-algeria-wildfires-july-2026-2026-07-22",
+      "text": "Over the last 24 hours, the Ministry of the Interior, Local Authorities and Transport confirmed six fatalities linked to the wildfires. In Seraïdi, Annaba, more than 100 patients were evacuated from a rehabilitation hospital, while approximately 150 homes were affected or threatened. Preventive evacuations were also carried out in several localities, including El Tarf, Béjaïa, Guelma and Bouira.",
       "verification_status": "verified"
     }
   ],
-  "description": "A wave of wildfires swept northern Algeria's forested provinces (including Constantine) from mid-to-late July 2026 amid a severe regional heatwave, with GDACS tracking at least three concurrent Green-alert fire complexes burning a combined 37,000+ hectares. Algeria's interior ministry confirmed six deaths and authorities reported over 100 people hospitalised and about 150 homes damaged in the Seraidi area; four people were arrested on suspicion of deliberately starting fires. Civil Protection, the army and forestry authorities remained engaged in firefighting operations as of 23 July 2026.",
+  "description": "A wave of wildfires swept northern Algeria's forested provinces (including Constantine) from mid-to-late July 2026 amid a severe regional heatwave, with GDACS tracking at least three concurrent Green-alert fire complexes burning a combined ~38,800 hectares. Algeria's interior ministry confirmed six deaths and authorities reported over 100 people hospitalised and about 150 homes damaged in the Seraidi area, with preventive evacuations also carried out in El Tarf, Béjaïa, Guelma and Bouira; four people were arrested on suspicion of deliberately starting fires. Civil Protection, the army and forestry authorities remained engaged in firefighting operations, with satellite thermal-anomaly detections still being recorded as of 24 July 2026.",
   "event": {
     "impact": {
       "deaths": 6,
       "displaced": null,
-      "summary": "GDACS tracked at least three concurrent wildfire complexes in Algeria between 18 and 23 July 2026, together burning roughly 37,000 hectares and exposing several thousand people. Algeria's interior ministry confirmed six deaths from the fires, and reports citing authorities put more than 100 people hospitalised and about 150 homes damaged in the Seraidi area near Annaba. GDACS assessed each episode as low humanitarian impact (Green) based on burned area and exposed population; no authoritative source has reported the fires as fully contained as of 23 July 2026."
+      "summary": "GDACS continues to track three concurrent wildfire complexes in Algeria, together burning roughly 38,800 hectares as of 24 July 2026 (up from ~37,000 ha on 23 July), with two of the three complexes still registering satellite thermal-anomaly detections through today. Algeria's interior ministry confirmed six deaths from the fires (unchanged), and a 22 July Algerian Red Crescent/IFRC report via ReliefWeb put more than 100 people hospitalised and about 150 homes affected or threatened in Seraïdi, Annaba, with preventive evacuations also carried out in El Tarf, Béjaïa, Guelma and Bouira. GDACS assessed each episode as low humanitarian impact (Green) based on burned area and exposed population; no authoritative source has reported the fires as fully contained as of 24 July 2026."
     },
-    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029618&episodeid=2&eventtype=WF",
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029618&episodeid=5&eventtype=WF",
     "location": {
       "country": "Algeria",
       "lat": 36.365,
@@ -41,22 +49,22 @@
       "region": "Northern Algeria, including Constantine and Seraidi (Annaba province)"
     },
     "occurrence_date": "2026-07-18",
-    "scale": "Multiple GDACS Green-alert wildfire complexes; ~37,000 ha burned nationwide",
+    "scale": "Multiple GDACS Green-alert wildfire complexes; ~38,800 ha burned nationwide",
     "status": "ongoing"
   },
   "id": "algeria-wildfires-2026",
-  "last_updated": "2026-07-23T09:13:56Z",
+  "last_updated": "2026-07-24T09:18:42Z",
   "name": "Wildfires — Algeria",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-23T09:13:56Z",
+        "at": "2026-07-24T09:18:42Z",
         "layer": "verify",
-        "run_id": "2026-07-23T09-13-56Z-5fa706"
+        "run_id": "2026-07-24T09-18-42Z-7715c8"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-23T09-13-56Z-5fa706"
+    "last_run_id": "2026-07-24T09-18-42Z-7715c8"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -66,7 +74,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

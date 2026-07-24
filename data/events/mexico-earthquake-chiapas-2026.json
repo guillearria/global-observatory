@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-19",
+      "retrieved_date": "2026-07-24",
       "source_name": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu/executive",
       "text": "A magnitude 7.3 earthquake occurred on 17 July 2026 at 14:48:39 UTC, 58 km WSW of Puerto Madero, Mexico (14.6043N, 92.9517W), at a depth of approximately 18.6 km, in the subduction zone where the Cocos plate converges with North America at the Middle America Trench at approximately 76 mm/yr; the event occurred as reverse (thrust) faulting on or near the plate interface. Two small foreshocks preceded it, including a M4.1 on 14 July and a M4.7 88 minutes prior to the mainshock.",
@@ -11,19 +11,19 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-07-19",
+      "retrieved_date": "2026-07-24",
       "source_name": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu/pager",
-      "text": "USGS's PAGER system assessed an alert level of Yellow for this earthquake, stating: \"The USGS assesses that some damage and fatalities are possible, and that the impact should be relatively localized. Approximately four million people experienced Moderate (MMI V) to Very Strong (MMI VII) shaking.\" PAGER's probabilistic fatality model places roughly 66% probability on the event causing between 1 and 100 fatalities, and about 27% probability of exceeding 100 fatalities.",
+      "text": "USGS's PAGER system assessed an alert level of Yellow for this earthquake, stating: \"The USGS assesses that some damage and fatalities are possible, and that the impact should be relatively localized. Approximately four million people experienced Moderate (MMI V) to Very Strong (MMI VII) shaking.\" PAGER's probabilistic fatality model places roughly 66% probability on the event causing between 1 and 100 fatalities, and about 27% probability of exceeding 100 fatalities. No revision to this page has occurred since 18 July 2026.",
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.3 earthquake struck offshore southern Mexico on 17 July 2026, in the subduction zone where the Cocos plate thrusts beneath Mexico and Central America at the Middle America Trench. USGS's automated PAGER system assessed a Yellow alert, estimating that roughly four million people experienced moderate to very strong shaking; the agency judged some damage and fatalities possible, though the impact should be relatively localized. No confirmed casualty toll has yet been published by an authoritative source.",
+  "description": "A magnitude 7.3 earthquake struck offshore southern Mexico on 17 July 2026, in the subduction zone where the Cocos plate thrusts beneath Mexico and Central America at the Middle America Trench. USGS's automated PAGER system assessed a Yellow alert, estimating that roughly four million people experienced moderate to very strong shaking; the agency judged some damage and fatalities possible, though the impact should be relatively localized. One week on, no confirmed casualty toll has been published by any authoritative source, USGS has not revised its event page since 18 July, and no GDACS or ReliefWeb disaster report was ever opened for the event, consistent with a low-severity, non-escalating aftershock sequence.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "USGS recorded a magnitude 7.3 (Mww) earthquake on 17 July 2026 at 14:48:39 UTC, 58 km WSW of Puerto Madero, Mexico, at a depth of about 18.6 km. USGS's PAGER system assessed a Yellow alert level and estimated that approximately four million people experienced Moderate (MMI V) to Very Strong (MMI VII) shaking, judging that some damage and fatalities are possible with impact expected to be relatively localized. No authoritative confirmed casualty or damage figures have yet been published."
+      "summary": "USGS recorded a magnitude 7.3 (Mww) earthquake on 17 July 2026 at 14:48:39 UTC, 58 km WSW of Puerto Madero, Mexico, at a depth of about 18.6 km. USGS's PAGER system assessed a Yellow alert level and estimated that approximately four million people experienced Moderate (MMI V) to Very Strong (MMI VII) shaking, judging that some damage and fatalities are possible with impact expected to be relatively localized. As of 24 July 2026 — one week after the mainshock — no authoritative confirmed casualty or damage figures have been published, USGS's event page has not been revised since 18 July 2026, and no GDACS or ReliefWeb disaster report was ever opened for this event, indicating the acute phase has concluded without a confirmed humanitarian impact."
     },
     "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu/executive",
     "location": {
@@ -34,21 +34,21 @@
     },
     "occurrence_date": "2026-07-17",
     "scale": "M7.3",
-    "status": "ongoing"
+    "status": "resolved"
   },
   "id": "mexico-earthquake-chiapas-2026",
-  "last_updated": "2026-07-19T18:20:57Z",
+  "last_updated": "2026-07-24T09:18:42Z",
   "name": "M7.3 Earthquake — Offshore Chiapas, Mexico",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-19T18:20:57Z",
+        "at": "2026-07-24T09:18:42Z",
         "layer": "verify",
-        "run_id": "2026-07-19T18-20-57Z-db7c5b"
+        "run_id": "2026-07-24T09-18-42Z-97a49e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-19T18-20-57Z-db7c5b"
+    "last_run_id": "2026-07-24T09-18-42Z-97a49e"
   },
   "schema_version": "1.0",
   "sort_keys": {

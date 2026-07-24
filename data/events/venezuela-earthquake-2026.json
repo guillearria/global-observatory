@@ -50,6 +50,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-15",
+      "retrieved_date": "2026-07-24",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-30-23-july-2026-time-0900-pm",
+      "text": "Situation Report No. 30, Earthquakes in Venezuela, 23 July 2026, Time: 09:00 pm. Authorities report 1,463 aftershocks since the 7.2 and 7.5 magnitude earthquakes that struck on 24 June. Official toll: 5,398 people dead and 16,740 injured. Twenty-four days since the earthquakes, authorities report a toll of 5,398 people dead and 16,740 injured since the onset of the emergency. Authorities also indicated that 17,907 people lost their homes. Starting with this edition, the report will be published on a weekly basis. The next edition will be released on 30 July.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-02",
       "source_name": "USGS",
@@ -114,12 +122,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Nearly a month on, the confirmed death toll has continued to climb past 5,300, and the UN humanitarian response has scaled up further, with combined funding requirements now exceeding $900 million.",
+  "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. A month on, the confirmed death toll has continued to climb past 5,390, and the UN humanitarian response has scaled up further, with combined funding requirements now exceeding $900 million.",
   "event": {
     "impact": {
-      "deaths": 5346,
+      "deaths": 5398,
       "displaced": 17907,
-      "summary": "As of OCHA Situation Report #28 (21 July 2026, 9:00 pm), 24 days after the 24 June doublet quakes, the official toll stands at 5,346 dead and 16,740 injured (up from 5,208 dead in SitRep #26 two days earlier), with 1,405 aftershocks recorded (up from 1,388) and 17,907 people who lost their homes. The response continues to scale up rather than wind down: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum now totals US$931 million in funding requirements (up from US$632 million), targeting an increased 6.2 million people (up from 5.5 million), of whom 1.3 million are earthquake-affected. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
+      "summary": "As of OCHA Situation Report #30 (23 July 2026, 9:00 pm), 29 days after the 24 June doublet quakes, the official toll stands at 5,398 dead and 16,740 injured (up from 5,346 dead in SitRep #28 two days earlier), with 1,463 aftershocks recorded (up from 1,405) and 17,907 people who lost their homes. Funding and targeting figures are unchanged: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum still totals US$931 million in requirements, targeting 6.2 million people, of whom 1.3 million are earthquake-affected. OCHA has shifted from near-daily to weekly situation reports starting with #30, with the next edition due 30 July 2026 — a de-escalation signal, though not a declaration that the response has concluded. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
     "location": {
@@ -133,18 +141,18 @@
     "status": "ongoing"
   },
   "id": "venezuela-earthquake-2026",
-  "last_updated": "2026-07-22T09:22:18Z",
+  "last_updated": "2026-07-24T09:18:42Z",
   "name": "Venezuela M7.5 Earthquake Doublet",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-22T09:22:18Z",
+        "at": "2026-07-24T09:18:42Z",
         "layer": "verify",
-        "run_id": "2026-07-22T09-22-18Z-40e6fe"
+        "run_id": "2026-07-24T09-18-42Z-0aa41a"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-22T09-22-18Z-40e6fe"
+    "last_run_id": "2026-07-24T09-18-42Z-0aa41a"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -154,7 +162,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

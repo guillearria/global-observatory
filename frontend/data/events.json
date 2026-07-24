@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T09:13:56Z",
+  "last_updated": "2026-07-24T09:18:42Z",
   "published": [
     {
       "category": "flood",
@@ -70,7 +70,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-07-23",
+          "retrieved_date": "2026-07-24",
           "source_name": "GDACS",
           "source_url": "http://www.gdacs.org/report.aspx?eventid=1029601&episodeid=2&eventtype=WF",
           "text": "GDACS's event report for a Green-alert forest fire in Algeria (18-22 July 2026 window, Seraidi/Constantine area) cites about 11,362 hectares burned and roughly 2,870 people exposed. Algeria's interior ministry reported six deaths from the wildfires, and authorities reported more than 100 people hospitalised in the town of Seraidi and about 150 homes damaged there.",
@@ -78,29 +78,37 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-07-23",
+          "retrieved_date": "2026-07-24",
           "source_name": "GDACS",
-          "source_url": "http://www.gdacs.org/report.aspx?eventid=1029611&episodeid=3&eventtype=WF",
-          "text": "GDACS's event report for a second concurrent Green-alert forest fire in Algeria (18-23 July 2026 window) cites about 13,835 hectares burned and roughly 5,885 people exposed. Algeria's interior ministry registered six deaths in relation to the fires affecting multiple provinces during this period; four people were arrested on suspicion of deliberately starting fires.",
+          "source_url": "http://www.gdacs.org/report.aspx?eventid=1029611&episodeid=6&eventtype=WF",
+          "text": "GDACS's event report for a second concurrent Green-alert forest fire in Algeria, now at episode 6 covering an 18-24 July 2026 window, cites about 14,082 hectares burned. Algeria's interior ministry registered six deaths in relation to the fires affecting multiple provinces during this period; four people were arrested on suspicion of deliberately starting fires.",
           "verification_status": "verified"
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-07-23",
+          "retrieved_date": "2026-07-24",
           "source_name": "GDACS",
-          "source_url": "http://www.gdacs.org/report.aspx?eventid=1029618&episodeid=2&eventtype=WF",
-          "text": "GDACS's event report for a third concurrent Green-alert forest fire in Algeria (21-23 July 2026 window) cites about 11,979 hectares burned and roughly 123 people exposed in the burned area, assessed as low humanitarian impact based on burned area and affected population.",
+          "source_url": "http://www.gdacs.org/report.aspx?eventid=1029618&episodeid=5&eventtype=WF",
+          "text": "GDACS's event report for a third concurrent Green-alert forest fire in Algeria, now at episode 5 covering a 21-24 July 2026 window, cites about 13,388 hectares burned, assessed as low humanitarian impact based on burned area and affected population. Thermal-anomaly detections continue to be recorded as of 24 July 2026.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-24",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/algeria/dza-fire-07-2026-algeria-wildfires-july-2026-2026-07-22",
+          "text": "Over the last 24 hours, the Ministry of the Interior, Local Authorities and Transport confirmed six fatalities linked to the wildfires. In Seraïdi, Annaba, more than 100 patients were evacuated from a rehabilitation hospital, while approximately 150 homes were affected or threatened. Preventive evacuations were also carried out in several localities, including El Tarf, Béjaïa, Guelma and Bouira.",
           "verification_status": "verified"
         }
       ],
-      "description": "A wave of wildfires swept northern Algeria's forested provinces (including Constantine) from mid-to-late July 2026 amid a severe regional heatwave, with GDACS tracking at least three concurrent Green-alert fire complexes burning a combined 37,000+ hectares. Algeria's interior ministry confirmed six deaths and authorities reported over 100 people hospitalised and about 150 homes damaged in the Seraidi area; four people were arrested on suspicion of deliberately starting fires. Civil Protection, the army and forestry authorities remained engaged in firefighting operations as of 23 July 2026.",
+      "description": "A wave of wildfires swept northern Algeria's forested provinces (including Constantine) from mid-to-late July 2026 amid a severe regional heatwave, with GDACS tracking at least three concurrent Green-alert fire complexes burning a combined ~38,800 hectares. Algeria's interior ministry confirmed six deaths and authorities reported over 100 people hospitalised and about 150 homes damaged in the Seraidi area, with preventive evacuations also carried out in El Tarf, Béjaïa, Guelma and Bouira; four people were arrested on suspicion of deliberately starting fires. Civil Protection, the army and forestry authorities remained engaged in firefighting operations, with satellite thermal-anomaly detections still being recorded as of 24 July 2026.",
       "event": {
         "impact": {
           "deaths": 6,
           "displaced": null,
-          "summary": "GDACS tracked at least three concurrent wildfire complexes in Algeria between 18 and 23 July 2026, together burning roughly 37,000 hectares and exposing several thousand people. Algeria's interior ministry confirmed six deaths from the fires, and reports citing authorities put more than 100 people hospitalised and about 150 homes damaged in the Seraidi area near Annaba. GDACS assessed each episode as low humanitarian impact (Green) based on burned area and exposed population; no authoritative source has reported the fires as fully contained as of 23 July 2026."
+          "summary": "GDACS continues to track three concurrent wildfire complexes in Algeria, together burning roughly 38,800 hectares as of 24 July 2026 (up from ~37,000 ha on 23 July), with two of the three complexes still registering satellite thermal-anomaly detections through today. Algeria's interior ministry confirmed six deaths from the fires (unchanged), and a 22 July Algerian Red Crescent/IFRC report via ReliefWeb put more than 100 people hospitalised and about 150 homes affected or threatened in Seraïdi, Annaba, with preventive evacuations also carried out in El Tarf, Béjaïa, Guelma and Bouira. GDACS assessed each episode as low humanitarian impact (Green) based on burned area and exposed population; no authoritative source has reported the fires as fully contained as of 24 July 2026."
         },
-        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029618&episodeid=2&eventtype=WF",
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029618&episodeid=5&eventtype=WF",
         "location": {
           "country": "Algeria",
           "lat": 36.365,
@@ -108,22 +116,22 @@
           "region": "Northern Algeria, including Constantine and Seraidi (Annaba province)"
         },
         "occurrence_date": "2026-07-18",
-        "scale": "Multiple GDACS Green-alert wildfire complexes; ~37,000 ha burned nationwide",
+        "scale": "Multiple GDACS Green-alert wildfire complexes; ~38,800 ha burned nationwide",
         "status": "ongoing"
       },
       "id": "algeria-wildfires-2026",
-      "last_updated": "2026-07-23T09:13:56Z",
+      "last_updated": "2026-07-24T09:18:42Z",
       "name": "Wildfires — Algeria",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-23T09:13:56Z",
+            "at": "2026-07-24T09:18:42Z",
             "layer": "verify",
-            "run_id": "2026-07-23T09-13-56Z-5fa706"
+            "run_id": "2026-07-24T09-18-42Z-7715c8"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-23T09-13-56Z-5fa706"
+        "last_run_id": "2026-07-24T09-18-42Z-7715c8"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -133,7 +141,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -349,6 +357,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-13",
+          "retrieved_date": "2026-07-24",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "Page last updated 23 July 2026, 13:36. As of 22 July 2026 (data up until 21 July), the Democratic Republic of the Congo reported a total of 2,536 confirmed cases, including 1,033 related deaths, an increase of 63 new confirmed cases and 34 deaths since the previous day. Ituri province remains the most affected with 2,248 cases, 864 deaths (28 of 36 health zones); North Kivu has reported 259 cases, 152 deaths (11 of 34 health zones); South Kivu 3 cases, 1 death (1 of 34 health zones); Haut-Uele 21 cases, 12 deaths (4 of 13 health zones); and Tshopo 5 cases, 4 deaths (3 of 23 health zones) — 47 of 140 health zones are currently affected across the five provinces. Uganda has reported 20 confirmed cases including two deaths; the last confirmed case was reported on 17 July as 20 cases with two deaths, the final patient was discharged on 16 July, and Uganda's 42-day countdown to declaring the end of the outbreak continues.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-10",
           "source_name": "WHO",
@@ -413,14 +429,14 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through late July (2,473 cases/999 deaths in DRC per ECDC as of 20 July), with the outbreak still confined to the same five DRC provinces and imported cases previously confirmed in France and Germany. Uganda's last confirmed patient was discharged on 16 July, and its 42-day countdown toward declaring that country's outbreak over remains in progress with no new Ugandan cases since 21 June.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through late July (2,536 cases/1,033 deaths in DRC per ECDC as of 21 July), with the outbreak still confined to the same five DRC provinces and imported cases previously confirmed in France and Germany. Uganda's last confirmed patient was discharged on 16 July, and its 42-day countdown toward declaring that country's outbreak over remains in progress with no new Ugandan cases since 21 June.",
       "event": {
         "impact": {
-          "deaths": 999,
+          "deaths": 1033,
           "displaced": null,
-          "summary": "As of ECDC's 22 July 2026 update (DRC data to 20 July), the Democratic Republic of the Congo has reported 2,473 confirmed cases including 999 deaths, up from 2,423 cases/967 deaths as of 19 July — a rise of 50 cases and 32 deaths in a single day. Ituri province remains overwhelmingly the most affected (2,202 cases/838 deaths, 28 of 36 health zones), with continued transmission also in North Kivu, South Kivu, Haut-Uele and Tshopo; no sixth province has been affected. Uganda remains unchanged at 20 confirmed cases and two deaths, with no new cases since 21 June and its 42-day countdown to declare the outbreak over continuing following discharge of the last patient on 16 July. No WHO Disease Outbreak News newer than DON613 has been published as of 23 July 2026, and no health authority has declared the outbreak over in either country."
+          "summary": "As of ECDC's 23 July 2026 update (DRC data to 21 July), the Democratic Republic of the Congo has reported 2,536 confirmed cases including 1,033 deaths, up from 2,473 cases/999 deaths as of 20 July — a rise of 63 cases and 34 deaths in a single day. Ituri province remains overwhelmingly the most affected (2,248 cases/864 deaths, 28 of 36 health zones), with continued transmission also in North Kivu, South Kivu, Haut-Uele and Tshopo (47 of 140 health zones affected in total); no sixth province has been affected. Uganda remains unchanged at 20 confirmed cases and two deaths, with no new cases since 21 June and its 42-day countdown to declare the outbreak over continuing following discharge of the last patient on 16 July (due to complete around 27 August 2026). No WHO Disease Outbreak News newer than DON613 has been published as of 24 July 2026, and no health authority has declared the outbreak over in either country."
         },
-        "live_source_url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
+        "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
           "country": "Democratic Republic of the Congo",
           "lat": 1.95,
@@ -432,28 +448,28 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-23T09:09:54Z",
+      "last_updated": "2026-07-24T09:18:42Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-23T09:09:54Z",
+            "at": "2026-07-24T09:18:42Z",
             "layer": "verify",
-            "run_id": "2026-07-23T09-09-54Z-443e39"
+            "run_id": "2026-07-24T09-18-42Z-7342e8"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-23T09-09-54Z-443e39"
+        "last_run_id": "2026-07-24T09-18-42Z-7342e8"
       },
       "schema_version": "1.0",
       "sort_keys": {
-        "composite": 7397513.0,
-        "impact_rank": 3,
+        "composite": 7397514.0,
+        "impact_rank": 4,
         "recency_rank": 739751
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -758,7 +774,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-07-19",
+          "retrieved_date": "2026-07-24",
           "source_name": "USGS",
           "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu/executive",
           "text": "A magnitude 7.3 earthquake occurred on 17 July 2026 at 14:48:39 UTC, 58 km WSW of Puerto Madero, Mexico (14.6043N, 92.9517W), at a depth of approximately 18.6 km, in the subduction zone where the Cocos plate converges with North America at the Middle America Trench at approximately 76 mm/yr; the event occurred as reverse (thrust) faulting on or near the plate interface. Two small foreshocks preceded it, including a M4.1 on 14 July and a M4.7 88 minutes prior to the mainshock.",
@@ -766,19 +782,19 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-07-19",
+          "retrieved_date": "2026-07-24",
           "source_name": "USGS",
           "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu/pager",
-          "text": "USGS's PAGER system assessed an alert level of Yellow for this earthquake, stating: \"The USGS assesses that some damage and fatalities are possible, and that the impact should be relatively localized. Approximately four million people experienced Moderate (MMI V) to Very Strong (MMI VII) shaking.\" PAGER's probabilistic fatality model places roughly 66% probability on the event causing between 1 and 100 fatalities, and about 27% probability of exceeding 100 fatalities.",
+          "text": "USGS's PAGER system assessed an alert level of Yellow for this earthquake, stating: \"The USGS assesses that some damage and fatalities are possible, and that the impact should be relatively localized. Approximately four million people experienced Moderate (MMI V) to Very Strong (MMI VII) shaking.\" PAGER's probabilistic fatality model places roughly 66% probability on the event causing between 1 and 100 fatalities, and about 27% probability of exceeding 100 fatalities. No revision to this page has occurred since 18 July 2026.",
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.3 earthquake struck offshore southern Mexico on 17 July 2026, in the subduction zone where the Cocos plate thrusts beneath Mexico and Central America at the Middle America Trench. USGS's automated PAGER system assessed a Yellow alert, estimating that roughly four million people experienced moderate to very strong shaking; the agency judged some damage and fatalities possible, though the impact should be relatively localized. No confirmed casualty toll has yet been published by an authoritative source.",
+      "description": "A magnitude 7.3 earthquake struck offshore southern Mexico on 17 July 2026, in the subduction zone where the Cocos plate thrusts beneath Mexico and Central America at the Middle America Trench. USGS's automated PAGER system assessed a Yellow alert, estimating that roughly four million people experienced moderate to very strong shaking; the agency judged some damage and fatalities possible, though the impact should be relatively localized. One week on, no confirmed casualty toll has been published by any authoritative source, USGS has not revised its event page since 18 July, and no GDACS or ReliefWeb disaster report was ever opened for the event, consistent with a low-severity, non-escalating aftershock sequence.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "USGS recorded a magnitude 7.3 (Mww) earthquake on 17 July 2026 at 14:48:39 UTC, 58 km WSW of Puerto Madero, Mexico, at a depth of about 18.6 km. USGS's PAGER system assessed a Yellow alert level and estimated that approximately four million people experienced Moderate (MMI V) to Very Strong (MMI VII) shaking, judging that some damage and fatalities are possible with impact expected to be relatively localized. No authoritative confirmed casualty or damage figures have yet been published."
+          "summary": "USGS recorded a magnitude 7.3 (Mww) earthquake on 17 July 2026 at 14:48:39 UTC, 58 km WSW of Puerto Madero, Mexico, at a depth of about 18.6 km. USGS's PAGER system assessed a Yellow alert level and estimated that approximately four million people experienced Moderate (MMI V) to Very Strong (MMI VII) shaking, judging that some damage and fatalities are possible with impact expected to be relatively localized. As of 24 July 2026 — one week after the mainshock — no authoritative confirmed casualty or damage figures have been published, USGS's event page has not been revised since 18 July 2026, and no GDACS or ReliefWeb disaster report was ever opened for this event, indicating the acute phase has concluded without a confirmed humanitarian impact."
         },
         "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu/executive",
         "location": {
@@ -789,21 +805,21 @@
         },
         "occurrence_date": "2026-07-17",
         "scale": "M7.3",
-        "status": "ongoing"
+        "status": "resolved"
       },
       "id": "mexico-earthquake-chiapas-2026",
-      "last_updated": "2026-07-19T18:20:57Z",
+      "last_updated": "2026-07-24T09:18:42Z",
       "name": "M7.3 Earthquake — Offshore Chiapas, Mexico",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-19T18:20:57Z",
+            "at": "2026-07-24T09:18:42Z",
             "layer": "verify",
-            "run_id": "2026-07-19T18-20-57Z-db7c5b"
+            "run_id": "2026-07-24T09-18-42Z-97a49e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-19T18-20-57Z-db7c5b"
+        "last_run_id": "2026-07-24T09-18-42Z-97a49e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1373,6 +1389,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-15",
+          "retrieved_date": "2026-07-24",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-30-23-july-2026-time-0900-pm",
+          "text": "Situation Report No. 30, Earthquakes in Venezuela, 23 July 2026, Time: 09:00 pm. Authorities report 1,463 aftershocks since the 7.2 and 7.5 magnitude earthquakes that struck on 24 June. Official toll: 5,398 people dead and 16,740 injured. Twenty-four days since the earthquakes, authorities report a toll of 5,398 people dead and 16,740 injured since the onset of the emergency. Authorities also indicated that 17,907 people lost their homes. Starting with this edition, the report will be published on a weekly basis. The next edition will be released on 30 July.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-02",
           "source_name": "USGS",
@@ -1437,12 +1461,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Nearly a month on, the confirmed death toll has continued to climb past 5,300, and the UN humanitarian response has scaled up further, with combined funding requirements now exceeding $900 million.",
+      "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. A month on, the confirmed death toll has continued to climb past 5,390, and the UN humanitarian response has scaled up further, with combined funding requirements now exceeding $900 million.",
       "event": {
         "impact": {
-          "deaths": 5346,
+          "deaths": 5398,
           "displaced": 17907,
-          "summary": "As of OCHA Situation Report #28 (21 July 2026, 9:00 pm), 24 days after the 24 June doublet quakes, the official toll stands at 5,346 dead and 16,740 injured (up from 5,208 dead in SitRep #26 two days earlier), with 1,405 aftershocks recorded (up from 1,388) and 17,907 people who lost their homes. The response continues to scale up rather than wind down: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum now totals US$931 million in funding requirements (up from US$632 million), targeting an increased 6.2 million people (up from 5.5 million), of whom 1.3 million are earthquake-affected. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
+          "summary": "As of OCHA Situation Report #30 (23 July 2026, 9:00 pm), 29 days after the 24 June doublet quakes, the official toll stands at 5,398 dead and 16,740 injured (up from 5,346 dead in SitRep #28 two days earlier), with 1,463 aftershocks recorded (up from 1,405) and 17,907 people who lost their homes. Funding and targeting figures are unchanged: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum still totals US$931 million in requirements, targeting 6.2 million people, of whom 1.3 million are earthquake-affected. OCHA has shifted from near-daily to weekly situation reports starting with #30, with the next edition due 30 July 2026 — a de-escalation signal, though not a declaration that the response has concluded. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP)."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
         "location": {
@@ -1456,18 +1480,18 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-07-22T09:22:18Z",
+      "last_updated": "2026-07-24T09:18:42Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-22T09:22:18Z",
+            "at": "2026-07-24T09:18:42Z",
             "layer": "verify",
-            "run_id": "2026-07-22T09-22-18Z-40e6fe"
+            "run_id": "2026-07-24T09-18-42Z-0aa41a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-22T09-22-18Z-40e6fe"
+        "last_run_id": "2026-07-24T09-18-42Z-0aa41a"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1477,7 +1501,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }
