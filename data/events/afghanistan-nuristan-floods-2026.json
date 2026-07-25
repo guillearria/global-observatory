@@ -16,14 +16,22 @@
       "source_url": "https://news.un.org/en/story/2026/07/1167996",
       "text": "UN News (22 July 2026): flash floods triggered by heavy rainfall on 20 July have killed at least 26 people across eastern Afghanistan, including 23 in Nuristan province, where homes, markets and roads were swept away, with the worst devastation in Parun City (7 houses completely destroyed, 23 partially damaged, 70 shops and 11 hotels damaged, 40 vehicles lost). The floods also killed three Afghan refugees at a returnee transit camp near the Torkham border crossing with Pakistan and injured nine others there. OCHA said the immediate priority is to save lives and reach people who may still be missing or injured, and warned that casualty figures could rise as more information becomes available; UNICEF and partners are setting up a field clinic in Parun for trauma care.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-25",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/afghanistan/afghanistan-flash-update-2-flooding-eastern-afghanistan-22-23-july-2026",
+      "text": "OCHA Flash Update #2: Flooding in Eastern Afghanistan (22-23 July 2026): in Parun City, Nuristan Province, local authorities report 23 killed, 5 missing (down from over 100) and 125 injured (38 severe, 87 minor). At the Torkham transit camp in Nangarhar, 3 Afghan refugees were killed and 9 injured (unchanged). One additional death is reported in Maidan Wardak province (Sayedabad District). The response has moved from immediate search and rescue and emergency life-saving assistance towards a broader, multi-sector response addressing shelter, health, food, WASH, protection, livelihoods and planning to address early recovery needs.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Torrential monsoon rains triggered flash floods in Afghanistan's eastern Nuristan province beginning around 19 July 2026, striking the provincial capital Parun and surrounding villages, and also killed Afghan refugees at a returnee transit camp near the Torkham border crossing. GDACS assessed the event as an overall Green alert for low humanitarian impact; UN News/OCHA reporting on 22 July puts the confirmed death toll at 26 as search and rescue continued for people still missing.",
+  "description": "Torrential monsoon rains triggered flash floods in Afghanistan's eastern Nuristan province beginning around 19 July 2026, striking the provincial capital Parun and surrounding villages, and also killed Afghan refugees at a returnee transit camp near the Torkham border crossing. GDACS assessed the event as an overall Green alert for low humanitarian impact. OCHA's Flash Update #2 (23 July 2026) reports the confirmed death toll has held near 27 across eastern Afghanistan while the number of people missing in Nuristan has fallen sharply from over 100 to 5, and the response has now shifted from active search-and-rescue toward a broader multi-sector recovery effort covering shelter, health, food, WASH and protection needs.",
   "event": {
     "impact": {
-      "deaths": 26,
+      "deaths": 27,
       "displaced": null,
-      "summary": "UN News/OCHA reporting on 22 July 2026 puts the confirmed death toll at 26 across eastern Afghanistan — 23 in Nuristan province (worst-hit: Parun City) and 3 Afghan refugees killed at a returnee transit camp near the Torkham border crossing, where 9 others were injured — up from GDACS's initial count of at least 20 killed, ~80 injured and 100+ missing in Nuristan alone. OCHA said search-and-rescue continues for people still missing or injured and warned the toll could rise further; no authoritative source has reported the operation as concluded."
+      "summary": "OCHA's Flash Update #2 (23 July 2026) reports 23 people killed and 5 still missing (down from 100+) in Nuristan Province, with 125 injured (38 severe, 87 minor) there; the 3 Afghan refugees killed and 9 injured at the Torkham border transit camp are unchanged, and one additional death is reported in Maidan Wardak province (Sayedabad District) — a combined toll of 27 confirmed deaths across eastern Afghanistan. OCHA states the response has moved from immediate search-and-rescue toward a broader multi-sector recovery effort (shelter, health, food, WASH, protection, livelihoods); no authoritative source has declared the event resolved."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL",
     "location": {
@@ -37,18 +45,18 @@
     "status": "ongoing"
   },
   "id": "afghanistan-nuristan-floods-2026",
-  "last_updated": "2026-07-23T09:09:55Z",
+  "last_updated": "2026-07-25T09:09:38Z",
   "name": "Nuristan Flash Floods, Afghanistan",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-23T09:09:55Z",
+        "at": "2026-07-25T09:09:38Z",
         "layer": "verify",
-        "run_id": "2026-07-23T09-09-55Z-398b6a"
+        "run_id": "2026-07-25T09-09-38Z-8bc069"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-23T09-09-55Z-398b6a"
+    "last_run_id": "2026-07-25T09-09-38Z-8bc069"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -58,7 +66,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

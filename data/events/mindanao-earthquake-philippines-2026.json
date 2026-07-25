@@ -10,6 +10,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-10",
+      "retrieved_date": "2026-07-25",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/philippines/philippines-78-sarangani-earthquake-response-snapshot-13-july-2026",
+      "text": "OCHA's 'Philippines: 7.8 Sarangani Earthquake Response Snapshot' (as of 13 July 2026) reports 94 deaths, 1,316 injured and 18 missing, alongside 391,891 families (1,655,313 persons) affected across 650 barangays and 25,048 families (95,629 persons) still displaced.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-02",
       "source_name": "United Nations",
@@ -74,12 +82,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll and number of affected people climbed through late June as damage assessments continued, and eighteen local government units have declared a state of calamity. As of 20 July 2026, displacement has eased only slightly, with about 94,500 people still displaced across evacuation centers and host families, even as housing-damage totals have largely leveled off.",
+  "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll has continued to climb through mid-July as damage assessments continued — an OCHA-produced response snapshot dated 13 July 2026 put the toll at 94 deaths, 1,316 injured and 18 missing — and eighteen local government units have declared a state of calamity. As of 20 July 2026, displacement has eased only slightly, with about 94,500 people still displaced across evacuation centers and host families, even as housing-damage totals have largely leveled off.",
   "event": {
     "impact": {
-      "deaths": 77,
+      "deaths": 94,
       "displaced": 94559,
-      "summary": "As of DSWD DROMIC Report #72 (20 July 2026, 6PM), 391,975 families (1,655,686 persons) remain recorded as affected across 651 barangays in Regions IX, XI, XII and BARMM — unchanged from Report #71. Displacement has eased only marginally to 24,640 families (94,559 persons), down from 24,707 families (94,894 persons) at Report #71: 7,551 families (30,393 persons) remain in 75 evacuation centers and 17,089 families (64,166 persons) are staying with relatives or friends. A total of 121,362 houses have been damaged, including 19,193 totally destroyed and 102,169 partially damaged, unchanged from Report #71. Government figures still report 77 deaths, 1,339 injured and 31 missing (OCHA, as of 23 June — the latest allowlisted-source casualty figure; no OCHA narrative update has superseded it despite newer DROMIC reports). GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity."
+      "summary": "An OCHA-produced 'Philippines: 7.8 Sarangani Earthquake Response Snapshot' dated 13 July 2026 reports 94 deaths, 1,316 injured and 18 missing — up from the 77 deaths/1,339 injured/31 missing OCHA figure as of 23 June — alongside 391,891 families (1,655,313 persons) affected across 650 barangays and 25,048 families (95,629 persons) still displaced, matching the same-date DSWD DROMIC Report #64 figures. As of DSWD DROMIC Report #72 (20 July 2026, 6PM, via ReliefWeb), 391,975 families (1,655,686 persons) remain recorded as affected across 651 barangays in Regions IX, XI, XII and BARMM, with displacement having eased only marginally to 24,640 families (94,559 persons). A total of 121,362 houses have been damaged, including 19,193 totally destroyed and 102,169 partially damaged. GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity. No allowlisted source has declared the response concluded or resolved."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
     "location": {
@@ -93,18 +101,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-07-22T09:22:18Z",
+  "last_updated": "2026-07-25T09:13:44Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-22T09:22:18Z",
+        "at": "2026-07-25T09:13:44Z",
         "layer": "verify",
-        "run_id": "2026-07-22T09-22-18Z-51fc13"
+        "run_id": "2026-07-25T09-13-44Z-c7f15d"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-22T09-22-18Z-51fc13"
+    "last_run_id": "2026-07-25T09-13-44Z-c7f15d"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -114,7 +122,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
