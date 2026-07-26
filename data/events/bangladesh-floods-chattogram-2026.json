@@ -64,14 +64,22 @@
       "source_url": "https://reliefweb.int/report/bangladesh/rapid-needs-assessment-rna-report-bangladesh-flash-flood-2026",
       "text": "Oxfam/CODEC Rapid Needs Assessment (RNA) Report on the Bangladesh Flash Flood 2026 (posted 21 Jul 2026): deep-dive assessment of Satkania and Banshkhali upazilas (Chattogram Division) found 360,000+ people affected in Satkania and 110,000+ in Banshkhali; 90-95% of surveyed households reported partial/complete loss of belongings; 92% of drinking water sources damaged/contaminated (94% in Banshkhali lacking safe water); all assessed latrines submerged; 90% of households reported insufficient food access and 59% reported signs of malnutrition.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-9",
+      "retrieved_date": "2026-07-26",
+      "source_name": "United Nations",
+      "source_url": "https://bangladesh.un.org/en/319868-bangladesh-situation-report-2-flash-flood-and-landslides-23-july-2026",
+      "text": "UN Resident Coordinator's Office Bangladesh Situation Report #2 (dated 23 July 2026, data as of 22 July) reports approximately 1.28 million people affected across seven of the hardest-hit districts, 59 deaths, 74,479 houses damaged or destroyed, and about 436,000 people assessed as requiring humanitarian assistance; food, cash, health, protection, shelter and WASH assistance activities remain active, with continued risk flagged from forecast heavy rainfall in affected districts.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Monsoon-triggered flash floods, riverine flooding and landslides across Chattogram Division and adjoining south-eastern/north-eastern Bangladesh districts (including Cox's Bazar, Bandarban, Rangamati, Khagrachhari, Cumilla, Moulvibazar, Habiganj, and, as the risk shifted north, Sylhet, Sunamganj and Rangpur), ongoing since early July 2026. As of 19-20 July 2026 (BDRCS/IFRC via ReliefWeb, and UNHCR), 1,116,174 people are affected across 10 districts, at least 59 people have died nationwide (including 15 Rohingya refugees per UNHCR), ~38,500 people remain temporarily displaced across 1,000+ shelters, and 267,918 households remain stranded. River levels in the previously at-risk northern districts (Sylhet, Sunamganj, Rangpur) were receding as of 16-19 July, with only the Kushiyara River still above danger level; response efforts are shifting toward early recovery even as emergency relief continues.",
+  "description": "Monsoon-triggered flash floods, riverine flooding and landslides across Chattogram Division and adjoining south-eastern/north-eastern Bangladesh districts (including Cox's Bazar, Bandarban, Rangamati, Khagrachhari, Cumilla, Moulvibazar, Habiganj, and, as the risk shifted north, Sylhet, Sunamganj and Rangpur), ongoing since early July 2026. As of the UN Resident Coordinator's Office Bangladesh Situation Report #2 (23 July 2026, data as of 22 July), roughly 1.28 million people are affected across the seven hardest-hit districts, 59 people have died nationwide (including 15 Rohingya refugees per UNHCR), and 74,479 houses have been damaged or destroyed, with about 436,000 people assessed as needing humanitarian assistance. Temporary displacement (~38,500 people, 1,000+ shelters) and stranded households (267,918) remain the last confirmed figures from the 19-20 July BDRCS/IFRC report. Response activities (food, cash, health, shelter, protection and WASH assistance) remain active, with continued risk flagged from forecast heavy rainfall; no authoritative source has declared the event resolved or contained.",
   "event": {
     "impact": {
       "deaths": 59,
       "displaced": 38500,
-      "summary": "As of the 19-20 July 2026 BDRCS/IFRC situation report (the latest national-level figures found on ReliefWeb), the flooding/landslide event has affected 1,116,174 people across the same 10 districts (up from 1,074,534-1.11 million as of 14-15 July), with at least 59 deaths nationwide (up from 53), including 15 deaths among Rohingya refugees confirmed by UNHCR in Cox's Bazar camps. Temporary displacement (~38,500 people, 1,000+ shelters) and stranded households (267,918) are unchanged from the prior check. Hydrological conditions have begun improving: the flood risk that had been forecast to shift north into Sylhet, Sunamganj and Rangpur did materialize but rivers there (Surma, Teesta, Dharla, Dudhkumar) were receding by 16-19 July, with only the Kushiyara River still above danger level. Response is described as transitioning toward early recovery while relief operations continue; no authoritative source has declared the event resolved or contained."
+      "summary": "As of the UN Resident Coordinator's Office Bangladesh Situation Report #2 (23 July 2026, data as of 22 July), roughly 1.28 million people are affected across the seven hardest-hit districts, with 59 confirmed deaths nationwide (including 15 Rohingya refugees per UNHCR) and 74,479 houses damaged or destroyed; about 436,000 people are assessed as needing humanitarian assistance. Temporary displacement (~38,500 people, 1,000+ shelters) and stranded households (267,918) are the last confirmed figures from the 19-20 July BDRCS/IFRC report and have not yet been revised in the newer sitrep. The response remains active — food, cash, health, shelter, protection and WASH assistance are ongoing — with continued risk flagged from forecast heavy rainfall in affected districts; no authoritative source has declared the event resolved or contained."
     },
     "live_source_url": "https://reliefweb.int/country/bgd",
     "location": {
@@ -85,18 +93,18 @@
     "status": "ongoing"
   },
   "id": "bangladesh-floods-chattogram-2026",
-  "last_updated": "2026-07-22T09:22:18Z",
+  "last_updated": "2026-07-26T09:17:46Z",
   "name": "Monsoon Floods & Landslides — Chattogram Division, Bangladesh",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-22T09:22:18Z",
+        "at": "2026-07-26T09:17:46Z",
         "layer": "verify",
-        "run_id": "2026-07-22T09-22-18Z-6b10c2"
+        "run_id": "2026-07-26T09-17-46Z-863dbd"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-22T09-22-18Z-6b10c2"
+    "last_run_id": "2026-07-26T09-17-46Z-863dbd"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -106,7 +114,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

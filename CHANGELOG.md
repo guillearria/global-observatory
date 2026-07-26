@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-25 — World Pulse: daily refresh + two new wildfire events (2026-07-25) (`03db029`)
+
+- **Added:** france-wildfire-gironde-2026, spain-wildfire-madrid-avila-2026
+- **Updated:** afghanistan-nuristan-floods-2026, algeria-wildfires-2026, ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, sudan-cholera-outbreak-2026
+
 ## 2026-07-24 — Refresh World Pulse events: Ebola, Venezuela quake, Algeria fires, Mexico quake resolved (`74c06da`)
 
 - **Updated:** algeria-wildfires-2026, ebola-bundibugyo-drc-2026, mexico-earthquake-chiapas-2026, venezuela-earthquake-2026
@@ -125,9 +130,5 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 - **Updated:** ebola-bundibugyo-drc-2026, venezuela-earthquake-2026
 
 ## 2026-07-01 — Phase 2: refresh-events command, staleness banner, allowlist expansion (`a829e74`)
-
-- **Updated:** venezuela-earthquake-2026
-
-## 2026-07-01 — Fix World Pulse review findings: freshness date, dead code, over-engineering (`fbdafb7`)
 
 - **Added:** ebola-bundibugyo-drc-2026, global-warming, influenza-pandemic, near-earth-asteroid-impact, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano

@@ -1,0 +1,64 @@
+{
+  "category": "storm",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-26",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001294",
+      "text": "GDACS assessed Tropical Cyclone NOUL-26 (Kiyapo) at an Orange alert level, indicating medium humanitarian impact, for an event affecting China and the Philippines between 23 and 26 July 2026, with about 11.9 million people exposed to Category 1 or higher wind speeds.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-26",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001294",
+      "text": "GDACS recorded maximum sustained winds of 157 km/h (Category 2 equivalent, per JTWC data) for Tropical Cyclone NOUL-26, with a maximum storm surge of 1.6 metres occurring on 25 July 2026 at 21:00 UTC; as of 25 July the storm centre was located about 135 km east of Catanduanes, Philippines.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Tropical Cyclone NOUL-26 (named Kiyapo in the Philippines, Hongxia in China) tracked across the northern Philippines and the South China Sea in late July 2026 before making a second landfall in Guangdong province, southern China, around 26 July 2026. GDACS assessed an Orange alert for medium humanitarian impact, with about 11.9 million people exposed to Category 1 or higher wind speeds across the Philippines and China, maximum sustained winds of 157 km/h (Category 2 equivalent, per JTWC data), and a maximum storm surge of 1.6 metres recorded on 25 July 2026. No allowlisted authoritative source has yet published a confirmed death toll, injury count, or evacuation figure for this storm.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "GDACS assessed Tropical Cyclone NOUL-26 (Kiyapo) at an Orange alert level for medium humanitarian impact, with about 11.9 million people exposed to Category 1 or higher wind speeds across the Philippines and China between 23 and 26 July 2026. Maximum sustained winds reached 157 km/h (Category 2 equivalent per JTWC data), with a maximum storm surge of 1.6 metres recorded on 25 July 2026. No allowlisted authoritative source has yet published a confirmed death toll, injury count, or evacuation figure for this storm."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001294",
+    "location": {
+      "country": "Philippines; second landfall in Guangdong, China",
+      "lat": 19.83,
+      "lon": 121.86,
+      "region": "Northern Philippines (Camiguin Island, Calayan, Cagayan) tracking across the Luzon Strait and South China Sea to Guangdong province, southern China"
+    },
+    "occurrence_date": "2026-07-23",
+    "scale": "Category 2 equivalent (GDACS Orange alert)",
+    "status": "ongoing"
+  },
+  "id": "typhoon-noul-kiyapo-2026",
+  "last_updated": "2026-07-26T09:17:47Z",
+  "name": "Typhoon Noul (Kiyapo) — Philippines & China",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-26T09:17:47Z",
+        "layer": "verify",
+        "run_id": "2026-07-26T09-17-47Z-6bc36e"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-26T09-17-47Z-6bc36e"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398201.0,
+    "impact_rank": 1,
+    "recency_rank": 739820
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

@@ -18,6 +18,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-11",
+      "retrieved_date": "2026-07-26",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-75-effects-mw-78-earthquake-incident-maasim-sarangani-23-july-2026-6pm",
+      "text": "DSWD DROMIC Report #75, as of 23 July 2026, 6PM, reports 392,157 families (1,656,596 persons) affected across 661 barangays in Regions IX, XI, XII and BARMM (Tulunan, North Cotabato added: 10 barangays, 182 families). Total displaced: 27,118 families (107,475 persons) — 7,592 families (30,889 persons) inside 75 evacuation centers, 19,526 families (76,586 persons) outside with relatives/friends. Houses damaged: 115,205 total (18,644 totally destroyed, 96,561 partially damaged) — revised down from prior reports after data validation and deduplication conducted 21 July 2026. Cost of assistance provided to date: PHP 1,288,971,829.87.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-02",
       "source_name": "United Nations",
@@ -82,12 +90,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll has continued to climb through mid-July as damage assessments continued — an OCHA-produced response snapshot dated 13 July 2026 put the toll at 94 deaths, 1,316 injured and 18 missing — and eighteen local government units have declared a state of calamity. As of 20 July 2026, displacement has eased only slightly, with about 94,500 people still displaced across evacuation centers and host families, even as housing-damage totals have largely leveled off.",
+  "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7:37am local time / 7 June 23:37 UTC), triggering a tsunami of nearly 2 metres and widespread damage across Mindanao. GDACS issued an orange alert for medium humanitarian impact. The confirmed death toll has not been revised since an OCHA-produced response snapshot dated 13 July 2026 put it at 94 deaths, 1,316 injured and 18 missing — DSWD's DROMIC reporting series no longer carries a casualty section — and eighteen local government units have declared a state of calamity. As of DSWD DROMIC Report #75 (23 July 2026, 6PM), 392,157 families (1,656,596 persons) are recorded as affected across 661 barangays, with displacement having risen to 27,118 families (107,475 persons); the houses-damaged total was revised down to 115,205 following a data validation and deduplication exercise on 21 July 2026.",
   "event": {
     "impact": {
       "deaths": 94,
-      "displaced": 94559,
-      "summary": "An OCHA-produced 'Philippines: 7.8 Sarangani Earthquake Response Snapshot' dated 13 July 2026 reports 94 deaths, 1,316 injured and 18 missing — up from the 77 deaths/1,339 injured/31 missing OCHA figure as of 23 June — alongside 391,891 families (1,655,313 persons) affected across 650 barangays and 25,048 families (95,629 persons) still displaced, matching the same-date DSWD DROMIC Report #64 figures. As of DSWD DROMIC Report #72 (20 July 2026, 6PM, via ReliefWeb), 391,975 families (1,655,686 persons) remain recorded as affected across 651 barangays in Regions IX, XI, XII and BARMM, with displacement having eased only marginally to 24,640 families (94,559 persons). A total of 121,362 houses have been damaged, including 19,193 totally destroyed and 102,169 partially damaged. GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity. No allowlisted source has declared the response concluded or resolved."
+      "displaced": 107475,
+      "summary": "DSWD DROMIC Report #75 (23 July 2026, 6PM, via ReliefWeb) reports 392,157 families (1,656,596 persons) affected across 661 barangays in Regions IX, XI, XII and BARMM (Tulunan, North Cotabato was newly added: 10 barangays, 182 families), with displacement having risen to 27,118 families (107,475 persons) — up from 24,640 families (94,559 persons) as of Report #72 (20 July). Houses damaged now stand at 115,205 total (18,644 totally destroyed, 96,561 partially damaged), a downward revision from the previously reported 121,362 following a data validation and deduplication exercise conducted 21 July 2026. Assistance provided to date totals PHP 1,288,971,829.87. DSWD's DROMIC report template no longer includes a casualty section, so the most recent citable death/injury/missing figures remain OCHA's 13 July snapshot (94 deaths, 1,316 injured, 18 missing); GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity. No allowlisted source has declared the response concluded or resolved."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
     "location": {
@@ -101,28 +109,28 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-07-25T09:13:44Z",
+  "last_updated": "2026-07-26T09:17:47Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-25T09:13:44Z",
+        "at": "2026-07-26T09:17:47Z",
         "layer": "verify",
-        "run_id": "2026-07-25T09-13-44Z-c7f15d"
+        "run_id": "2026-07-26T09-17-47Z-ffc541"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-25T09-13-44Z-c7f15d"
+    "last_run_id": "2026-07-26T09-17-47Z-ffc541"
   },
   "schema_version": "1.0",
   "sort_keys": {
-    "composite": 7397752.0,
-    "impact_rank": 2,
+    "composite": 7397753.0,
+    "impact_rank": 3,
     "recency_rank": 739775
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
