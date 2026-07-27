@@ -1,0 +1,65 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "low",
+      "numeric_annual": null,
+      "window": "next-100-years"
+    },
+    "severity": "continental",
+    "summary": "Extreme (Carrington-class) storms are rare but historically documented; modern grid, satellite, and GPS dependence makes a repeat event far more disruptive than in 1859 or 1989, with credible multi-trillion-dollar damage estimates from U.S. federal sources.",
+    "timeframe": "NOAA's Space Weather Prediction Center already issues routine G1-G4 storm watches and warnings; historical severe (G5-class) events cluster roughly once every few decades to a century, with no reliable short-term prediction of the next one."
+  },
+  "category": "technological",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-27",
+      "source_name": "NOAA",
+      "source_url": "https://www.nesdis.noaa.gov/news/when-solar-storms-attack-space-weather-and-our-infrastructure",
+      "text": "The 1859 Carrington Event, the largest geomagnetic storm in recorded history, crippled a large portion of the telegraph system across North America and Europe, with operators reporting fires from sparking equipment; on 13 March 1989, a severe geomagnetic storm took the Hydro-Québec electricity transmission system offline, leaving six million people without power for nine hours, many for days.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-27",
+      "source_name": "NOAA",
+      "source_url": "https://www.nesdis.noaa.gov/news/when-solar-storms-attack-space-weather-and-our-infrastructure",
+      "text": "Citing the National Academies of Sciences, NOAA states that a Carrington-magnitude solar storm today has the potential to cost nearly $2 trillion, disrupting telecommunications, banking systems, GPS, and the energy grid, with an estimated 20-40 million people in the United States at risk of extended power outages lasting from 16 days to 1-2 years.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-27",
+      "source_name": "NOAA",
+      "source_url": "https://sciencecouncil.noaa.gov/noaa-by-the-numbers/space-weather/",
+      "text": "NOAA estimates the economic value of impacts to the U.S. electric power industry from a single geomagnetic storm event could range from $100 million for a small event up to $27 billion (2019 dollars) for a very large but unlikely event, and that a Carrington-level event could cause direct domestic economic damage of approximately $1.2 trillion over five months, with global impacts of $2.4 to $3.4 trillion over one year.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A severe solar eruption can drive strong electrical currents through Earth's surface, threatening power grids, satellites, GPS, radio, and aviation communications over a wide area. The 1859 Carrington Event, the largest geomagnetic storm on record, crippled telegraph systems across North America and Europe, and a March 1989 storm knocked out Hydro-Québec's grid, leaving six million people without power for nine hours. Modern societies are far more dependent on the electronics and satellite systems such storms disrupt: NOAA cites a National Academies of Sciences estimate that a Carrington-level storm today could put 20-40 million people in the United States at risk of extended power outages lasting from 16 days to 1-2 years, with total economic damage estimated at nearly $2 trillion.",
+  "id": "extreme-geomagnetic-storm",
+  "last_updated": "2026-07-27T10:09:26Z",
+  "name": "Extreme Geomagnetic Storm (Solar Superstorm)",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-27T10:09:26Z",
+        "layer": "verify",
+        "run_id": "2026-07-27T10-09-26Z-ac69a1"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-27T10-09-26Z-ac69a1"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 22.0,
+    "probability_rank": 2,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
