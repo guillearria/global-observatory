@@ -2,6 +2,16 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-27 — Refresh threats: asteroid/climate updates, add extreme geomagnetic storm (`10f773d`)
+
+- **Added:** extreme-geomagnetic-storm
+- **Updated:** global-warming, near-earth-asteroid-impact
+
+## 2026-07-27 — Daily World Pulse refresh: add West Bank settler-violence surge, update El Obeid/Mindanao/Gironde/Madrid-Ávila wildfires (`30a152b`)
+
+- **Added:** west-bank-settler-violence-surge-2026
+- **Updated:** el-obeid-siege-sudan-2026, france-wildfire-gironde-2026, mindanao-earthquake-philippines-2026, spain-wildfire-madrid-avila-2026
+
 ## 2026-07-26 — Daily World Pulse refresh: add Typhoon Noul (Kiyapo), update Bangladesh/Mindanao/France & Spain wildfires (`9e40ce3`)
 
 - **Added:** typhoon-noul-kiyapo-2026
@@ -134,6 +144,6 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 - **Added:** mindanao-earthquake-philippines-2026
 - **Updated:** ebola-bundibugyo-drc-2026, venezuela-earthquake-2026
 
-## 2026-07-01 — Bring project docs up to date with World Pulse and the trigger handoff (`d3c6393`)
+## 2026-07-02 — Add a scheduled staleness alarm workflow (`1f5550d`)
 
 - **Added:** ebola-bundibugyo-drc-2026, global-warming, influenza-pandemic, near-earth-asteroid-impact, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
