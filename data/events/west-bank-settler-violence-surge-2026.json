@@ -1,0 +1,72 @@
+{
+  "category": "conflict",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-27",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/node/4223093",
+      "text": "OCHA's oPt Humanitarian Situation Report (23 July 2026) states: 'Fatalities linked to settler attacks in 2026 have already surpassed the total recorded during all of 2025, with 18 Palestinians killed as of 20 July compared with 17 throughout 2025,' and 'about 90 Palestinians were displaced by demolitions and settler attacks during the reporting period, most following a large-scale demolition carried out by Israeli authorities in a Bedouin community in Qalqiliya governorate.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-27",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/node/4223095",
+      "text": "Human Rights Watch (hosted on ReliefWeb): 'Two Israeli settler attacks on Tal village near Nablus in the West Bank on July 24, 2026, resulted in the killing of four Palestinians and two Israelis... The July 24 killings in Tal bring the Palestinian death toll in the occupied West Bank since July 19 to 10.' The incident triggered a wave of settler reprisal attacks on nearby Palestinian villages and the Israeli government's announcement of a 'major counterterrorism operation.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-27",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/node/4223095",
+      "text": "Per the same ReliefWeb-hosted Human Rights Watch report: 'As of July 19, the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) reported 68 Palestinians killed in the West Bank in 2026, at least 13 by settlers. OCHA reported that as of July 15, 20 Israelis had been injured in 2026 in the West Bank.'",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A sharp escalation of Israeli settler violence in the occupied West Bank culminated on 24 July 2026 when Israeli settlers carried out two attacks on Tal village near Nablus, leaving four Palestinians (two brothers and two cousins from the Ramadan family) and two Israelis dead, and triggering a wave of settler reprisal attacks on nearby Palestinian villages, mosque burnings, and an Israeli government-announced 'major counterterrorism operation.' The attack capped a week of escalating violence: OCHA reported 68 Palestinians killed in the West Bank in 2026 as of 19 July (at least 13 by settlers), rising to about 10 Palestinian deaths in the week since 19 July alone, while fatalities linked specifically to settler attacks in 2026 (18 as of 20 July) had already surpassed the full-year 2025 total of 17. Demolitions and settler attacks during the 14-20 July reporting period also displaced roughly 90 Palestinians, mostly following a large-scale demolition in a Bedouin community in Qalqiliya governorate. The violence is occurring amid a fragile Gaza ceasefire and continued deterioration of humanitarian conditions across the Occupied Palestinian Territory.",
+  "event": {
+    "impact": {
+      "deaths": 12,
+      "displaced": 90,
+      "summary": "The 24 July settler attacks on Tal village near Nablus killed 4 Palestinians and 2 Israelis and brought the West Bank Palestinian death toll since 19 July to 10 (per Human Rights Watch, hosted on ReliefWeb). OCHA reported 68 Palestinians killed in the West Bank in 2026 as of 19 July (at least 13 by settlers) and 20 Israelis injured in 2026 as of 15 July. Separately, OCHA's 23 July oPt Humanitarian Situation Report found fatalities linked specifically to settler attacks in 2026 (18 as of 20 July) had already exceeded the full-year 2025 total (17), with about 90 Palestinians displaced by demolitions and settler attacks in the 14-20 July reporting period alone."
+    },
+    "live_source_url": "https://reliefweb.int/country/pse",
+    "location": {
+      "country": "Palestine",
+      "lat": 32.2211,
+      "lon": 35.2544,
+      "region": "Tal village, near Nablus, West Bank (Occupied Palestinian Territory)"
+    },
+    "occurrence_date": "2026-07-24",
+    "scale": "Mass-casualty settler attack; Israeli 'major counterterrorism operation' declared",
+    "status": "ongoing"
+  },
+  "id": "west-bank-settler-violence-surge-2026",
+  "last_updated": "2026-07-27T09:33:32Z",
+  "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-27T09:33:32Z",
+        "layer": "verify",
+        "run_id": "2026-07-27T09-33-32Z-e5f99c"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-27T09-33-32Z-e5f99c"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398212.0,
+    "impact_rank": 2,
+    "recency_rank": 739821
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

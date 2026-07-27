@@ -24,16 +24,24 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=11&eventtype=WF",
       "text": "GDACS event report (eventid 1029643, episode 11): forest fire in Spain, citing about 30,440 hectares burned and roughly 4,330 people in the fire-affected area; still assessed as low (Green) humanitarian impact.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-27",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=16&eventtype=WF",
+      "text": "GDACS event report (eventid 1029643, episode 16): forest fire in Spain covering a 22-27 July 2026 window, citing about 63,065 hectares burned and roughly 17,959 people in the fire-affected area, with the most recent thermal-anomaly detection on 27 July 2026; still assessed as low (Green) humanitarian impact.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS's event report puts the burned area at about 30,440 hectares as of 26 July 2026, with roughly 4,330 people in the fire-affected area. Spain's Interior Ministry declared a national emergency for the fires on 23-24 July 2026 — widely reported as the first such declaration linked to a wildfire — and evacuation figures above 10,000 people have been widely reported; neither the national-emergency declaration nor the evacuation count has yet been confirmed by an allowlisted authoritative source.",
+  "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS's event report puts the burned area at about 63,065 hectares as of 27 July 2026, with roughly 17,959 people in the fire-affected area. Spain's Interior Ministry declared a national emergency for the fires on 23-24 July 2026 — widely reported as the first such declaration linked to a wildfire — and evacuation figures well above 10,000 people have been widely reported; neither the national-emergency declaration nor the evacuation count has yet been confirmed by an allowlisted authoritative source.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report (eventid 1029643, episode 11) assessed a Green alert for low humanitarian impact for a forest fire in Spain, citing about 30,440 hectares burned and roughly 4,330 people in the fire-affected area — up from 21,999 hectares/3,667 people affected as of episode 6 (25 July), with the most recent thermal-anomaly detection still dated 25 July 2026. No allowlisted authoritative source has yet published a confirmed death toll or official evacuation count for this fire; Spain's widely reported national emergency declaration (23-24 July) and evacuation figures above 10,000 people come from non-allowlisted media and have not been independently confirmed here."
+      "summary": "GDACS's event report (eventid 1029643, episode 16) assessed a Green alert for low humanitarian impact for a forest fire in Spain, citing about 63,065 hectares burned and roughly 17,959 people in the fire-affected area, with the most recent thermal-anomaly detection on 27 July 2026 — up from 30,440 hectares/4,330 people affected as of episode 11 (26 July). No allowlisted authoritative source has yet published a confirmed death toll or official evacuation count for this fire; Spain's widely reported national emergency declaration (23-24 July) and evacuation figures above 10,000 people come from non-allowlisted media and have not been independently confirmed here."
     },
-    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=11&eventtype=WF",
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=16&eventtype=WF",
     "location": {
       "country": "Spain",
       "lat": 40.33,
@@ -41,22 +49,22 @@
       "region": "Southwestern Madrid region and Ávila province (Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa, Aldea del Fresno)"
     },
     "occurrence_date": "2026-07-22",
-    "scale": "GDACS Green alert; ~30,000 ha burned",
+    "scale": "GDACS Green alert; ~63,000 ha burned",
     "status": "ongoing"
   },
   "id": "spain-wildfire-madrid-avila-2026",
-  "last_updated": "2026-07-26T09:17:46Z",
+  "last_updated": "2026-07-27T09:33:32Z",
   "name": "Wildfires — Madrid & Ávila, Spain",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-26T09:17:46Z",
+        "at": "2026-07-27T09:33:32Z",
         "layer": "verify",
-        "run_id": "2026-07-26T09-17-46Z-fadb1f"
+        "run_id": "2026-07-27T09-33-32Z-575327"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-26T09-17-46Z-fadb1f"
+    "last_run_id": "2026-07-27T09-33-32Z-575327"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -66,7 +74,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
