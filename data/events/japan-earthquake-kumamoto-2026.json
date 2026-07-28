@@ -1,0 +1,72 @@
+{
+  "category": "earthquake",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-28",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9/executive",
+      "text": "USGS recorded a magnitude 6.8 earthquake on 28 July 2026 at 07:27:15 UTC, 5 km E of Uto, Japan (32.6817N, 130.7217E), at a depth of approximately 10 km.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-28",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9/executive",
+      "text": "USGS's PAGER system assessed an overall Red alert level for this earthquake (economic-loss alert Red, fatality alert Yellow), with a maximum estimated shaking intensity of MMI VIII (Severe).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-28",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9/executive",
+      "text": "USGS's PAGER population-exposure estimate for this earthquake found about 1,422,182 people exposed to MMI VII (Very Strong) shaking or greater and about 8,057,091 additional people exposed to MMI V (Moderate) shaking, almost entirely within Japan (a small population of about 65 people in South Korea was exposed to MMI III, weak, shaking).",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A magnitude 6.8 earthquake struck southern Kumamoto Prefecture, Kyushu, Japan, on 28 July 2026 at 07:27 UTC (16:27 local time), 5 km east of Uto City, at a depth of about 10 km. USGS's PAGER system assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe), estimating roughly 1.42 million people exposed to MMI VII (Very Strong) or greater shaking and about 8.06 million more exposed to MMI V (Moderate) shaking, almost entirely within Japan. As of retrieval on 28 July 2026, no authoritative confirmed casualty or damage figures had yet been published.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "USGS recorded a magnitude 6.8 earthquake on 28 July 2026 at 07:27:15 UTC, 5 km east of Uto, Kumamoto Prefecture, Japan, at a depth of about 10 km. USGS's PAGER system assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe); PAGER's population-exposure estimate found about 1.42 million people exposed to MMI VII (Very Strong) or greater shaking and roughly 8.06 million more exposed to MMI V (Moderate) shaking, almost entirely within Japan (a small population in South Korea was exposed to weak shaking). As of 28 July 2026, no authoritative confirmed casualty or damage figures have been published."
+    },
+    "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9/executive",
+    "location": {
+      "country": "Japan",
+      "lat": 32.6817,
+      "lon": 130.7217,
+      "region": "5 km E of Uto City, Kumamoto Prefecture, Kyushu"
+    },
+    "occurrence_date": "2026-07-28",
+    "scale": "M6.8",
+    "status": "ongoing"
+  },
+  "id": "japan-earthquake-kumamoto-2026",
+  "last_updated": "2026-07-28T09:22:55Z",
+  "name": "M6.8 Earthquake — Kumamoto, Japan",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-28T09:22:55Z",
+        "layer": "verify",
+        "run_id": "2026-07-28T09-22-55Z-eff276"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-28T09-22-55Z-eff276"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398251.0,
+    "impact_rank": 1,
+    "recency_rank": 739825
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
