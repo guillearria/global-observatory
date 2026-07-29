@@ -40,16 +40,24 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=19&eventtype=WF",
       "text": "GDACS event report (eventid 1029628, episode 19): Overall Red alert for a forest fire in France covering a 22-27 July 2026 window, citing 45,805 hectares burned and 11,643 people in the fire-affected area, with the most recent thermal-anomaly detection on 27 July 2026 — up from Green alert / 45,290 hectares / 11,606 people as of episode 16 (27 July).",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-07-29",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=22&eventtype=WF",
+      "text": "GDACS event report (eventid 1029628, episode 22): Overall Red alert for a forest fire in France covering a 22-29 July 2026 window, citing 47,593 hectares burned and 11,669 people in the fire-affected area, with the most recent thermal-anomaly detection on 29 July 2026 — up from 45,805 hectares/11,643 people as of episode 19 (27 July).",
+      "verification_status": "verified"
     }
   ],
-  "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026), with the burned area at about 45,805 hectares and roughly 11,643 people in the fire-affected area; the fire remained active with a thermal-anomaly detection recorded that same day. Widely reported figures — evacuations variously put at around 110,000 to 320,000+ people, French military mobilisation ordered by President Macron, and activation of the EU Civil Protection Mechanism — have not yet been confirmed by an allowlisted authoritative source.",
+  "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026); as of episode 22 (29 July 2026) the burned area stood at about 47,593 hectares with roughly 11,669 people in the fire-affected area and the alert remaining Red, with a thermal-anomaly detection recorded that same day, indicating the fire remains active. Widely reported figures — evacuations variously put at around 110,000 to 320,000+ people, French military mobilisation ordered by President Macron, and activation of the EU Civil Protection Mechanism — have not yet been confirmed by an allowlisted authoritative source.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report (eventid 1029628, episode 19) escalated this fire from a Green to a Red alert for a forest fire in France covering 22-27 July 2026, citing 45,805 hectares burned and 11,643 people in the fire-affected area, with the most recent thermal-anomaly detection on 27 July 2026 — up from 45,290 hectares/11,606 people affected as of episode 16. No allowlisted authoritative source has yet published a confirmed death toll or evacuation count for this fire; widely reported figures of 110,000-320,000+ people evacuated, French military mobilisation, and EU Civil Protection Mechanism activation come from non-allowlisted media and have not been independently confirmed here."
+      "summary": "GDACS's event report (eventid 1029628, episode 22) keeps this forest fire in France at an Overall Red alert, citing 47,593 hectares burned and 11,669 people in the fire-affected area, with the most recent thermal-anomaly detection on 29 July 2026 — up from 45,805 hectares/11,643 people affected as of episode 19 (27 July). No allowlisted authoritative source has yet published a confirmed death toll or evacuation count for this fire; widely reported figures of 110,000-320,000+ people evacuated, French military mobilisation, and EU Civil Protection Mechanism activation come from non-allowlisted media and have not been independently confirmed here."
     },
-    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=19&eventtype=WF",
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=22&eventtype=WF",
     "location": {
       "country": "France",
       "lat": 44.7,
@@ -57,22 +65,22 @@
       "region": "Gironde department (near Bordeaux and the Landes border)"
     },
     "occurrence_date": "2026-07-22",
-    "scale": "GDACS Red alert; ~45,800 ha burned",
+    "scale": "GDACS Red alert; ~47,600 ha burned",
     "status": "ongoing"
   },
   "id": "france-wildfire-gironde-2026",
-  "last_updated": "2026-07-28T09:22:55Z",
+  "last_updated": "2026-07-29T09:14:16Z",
   "name": "Wildfire — Gironde (Bordeaux), France",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-28T09:22:55Z",
+        "at": "2026-07-29T09:14:16Z",
         "layer": "verify",
-        "run_id": "2026-07-28T09-22-55Z-b0f8b3"
+        "run_id": "2026-07-29T09-14-16Z-d2df17"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-28T09-22-55Z-b0f8b3"
+    "last_run_id": "2026-07-29T09-14-16Z-d2df17"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -82,7 +90,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -144,6 +144,6 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 - **Added:** mindanao-earthquake-philippines-2026
 - **Updated:** ebola-bundibugyo-drc-2026, venezuela-earthquake-2026
 
-## 2026-07-02 — Add a scheduled staleness alarm workflow (`1f5550d`)
+## 2026-07-02 — Add a prompt-injection containment rule to both refresh commands (`a87b338`)
 
 - **Added:** ebola-bundibugyo-drc-2026, global-warming, influenza-pandemic, near-earth-asteroid-impact, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano

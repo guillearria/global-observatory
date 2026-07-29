@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T09:22:55Z",
+  "last_updated": "2026-07-29T09:14:16Z",
   "published": [
     {
       "category": "flood",
@@ -421,6 +421,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-16",
+          "retrieved_date": "2026-07-29",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "Page last updated 28 July 2026. As of 26 July 2026 (data up until 26 July), the Democratic Republic of the Congo reported a total of 3,262 confirmed cases, including 1,437 related deaths. Uganda remains unchanged at 20 confirmed cases including two deaths, with no new cases since 21 June and its 42-day countdown toward declaring Uganda's outbreak over continuing.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-10",
           "source_name": "WHO",
@@ -485,12 +493,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through late July (3,200 cases/1,405 deaths in DRC per ECDC as of 25 July), with the outbreak still confined to the same five DRC provinces and imported cases previously confirmed in France and Germany. Uganda's last confirmed patient was discharged on 16 July, and its 42-day countdown toward declaring that country's outbreak over remains in progress with no new Ugandan cases since 21 June.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through late July (3,262 cases/1,437 deaths in DRC per ECDC as of 26 July), with the outbreak still confined to the same five DRC provinces and imported cases previously confirmed in France and Germany. Uganda's last confirmed patient was discharged on 16 July, and its 42-day countdown toward declaring that country's outbreak over remains in progress with no new Ugandan cases since 21 June.",
       "event": {
         "impact": {
-          "deaths": 1405,
+          "deaths": 1437,
           "displaced": null,
-          "summary": "As of ECDC's 27 July 2026 update (DRC data to 25 July), the Democratic Republic of the Congo has reported 3,200 confirmed cases including 1,405 deaths, up from 2,905 cases/1,269 deaths as of 22 July. Uganda remains unchanged at 20 confirmed cases and two deaths, with no new cases since 21 June and its 42-day countdown to declare the outbreak over continuing following discharge of the last patient on 16 July (due to complete around 27 August 2026). No WHO Disease Outbreak News newer than DON613 has been published as of 28 July 2026, and no health authority has declared the outbreak over in either country."
+          "summary": "As of ECDC's 28 July 2026 update (DRC data to 26 July), the Democratic Republic of the Congo has reported 3,262 confirmed cases including 1,437 deaths, up from 3,200 cases/1,405 deaths as of 25 July. Uganda remains unchanged at 20 confirmed cases and two deaths, with no new cases since 21 June and its 42-day countdown to declare the outbreak over continuing following discharge of the last patient on 16 July (due to complete around 27 August 2026). No WHO Disease Outbreak News newer than DON613 has been published as of 29 July 2026, and no health authority has declared the outbreak over in either country."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -504,18 +512,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-28T09:22:54Z",
+      "last_updated": "2026-07-29T09:14:16Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-28T09:22:54Z",
+            "at": "2026-07-29T09:14:16Z",
             "layer": "verify",
-            "run_id": "2026-07-28T09-22-54Z-51e607"
+            "run_id": "2026-07-29T09-14-16Z-86fcb4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-28T09-22-54Z-51e607"
+        "last_run_id": "2026-07-29T09-14-16Z-86fcb4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -525,7 +533,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -811,16 +819,24 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=19&eventtype=WF",
           "text": "GDACS event report (eventid 1029628, episode 19): Overall Red alert for a forest fire in France covering a 22-27 July 2026 window, citing 45,805 hectares burned and 11,643 people in the fire-affected area, with the most recent thermal-anomaly detection on 27 July 2026 — up from Green alert / 45,290 hectares / 11,606 people as of episode 16 (27 July).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-07-29",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=22&eventtype=WF",
+          "text": "GDACS event report (eventid 1029628, episode 22): Overall Red alert for a forest fire in France covering a 22-29 July 2026 window, citing 47,593 hectares burned and 11,669 people in the fire-affected area, with the most recent thermal-anomaly detection on 29 July 2026 — up from 45,805 hectares/11,643 people as of episode 19 (27 July).",
+          "verification_status": "verified"
         }
       ],
-      "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026), with the burned area at about 45,805 hectares and roughly 11,643 people in the fire-affected area; the fire remained active with a thermal-anomaly detection recorded that same day. Widely reported figures — evacuations variously put at around 110,000 to 320,000+ people, French military mobilisation ordered by President Macron, and activation of the EU Civil Protection Mechanism — have not yet been confirmed by an allowlisted authoritative source.",
+      "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026); as of episode 22 (29 July 2026) the burned area stood at about 47,593 hectares with roughly 11,669 people in the fire-affected area and the alert remaining Red, with a thermal-anomaly detection recorded that same day, indicating the fire remains active. Widely reported figures — evacuations variously put at around 110,000 to 320,000+ people, French military mobilisation ordered by President Macron, and activation of the EU Civil Protection Mechanism — have not yet been confirmed by an allowlisted authoritative source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's event report (eventid 1029628, episode 19) escalated this fire from a Green to a Red alert for a forest fire in France covering 22-27 July 2026, citing 45,805 hectares burned and 11,643 people in the fire-affected area, with the most recent thermal-anomaly detection on 27 July 2026 — up from 45,290 hectares/11,606 people affected as of episode 16. No allowlisted authoritative source has yet published a confirmed death toll or evacuation count for this fire; widely reported figures of 110,000-320,000+ people evacuated, French military mobilisation, and EU Civil Protection Mechanism activation come from non-allowlisted media and have not been independently confirmed here."
+          "summary": "GDACS's event report (eventid 1029628, episode 22) keeps this forest fire in France at an Overall Red alert, citing 47,593 hectares burned and 11,669 people in the fire-affected area, with the most recent thermal-anomaly detection on 29 July 2026 — up from 45,805 hectares/11,643 people affected as of episode 19 (27 July). No allowlisted authoritative source has yet published a confirmed death toll or evacuation count for this fire; widely reported figures of 110,000-320,000+ people evacuated, French military mobilisation, and EU Civil Protection Mechanism activation come from non-allowlisted media and have not been independently confirmed here."
         },
-        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=19&eventtype=WF",
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=22&eventtype=WF",
         "location": {
           "country": "France",
           "lat": 44.7,
@@ -828,22 +844,22 @@
           "region": "Gironde department (near Bordeaux and the Landes border)"
         },
         "occurrence_date": "2026-07-22",
-        "scale": "GDACS Red alert; ~45,800 ha burned",
+        "scale": "GDACS Red alert; ~47,600 ha burned",
         "status": "ongoing"
       },
       "id": "france-wildfire-gironde-2026",
-      "last_updated": "2026-07-28T09:22:55Z",
+      "last_updated": "2026-07-29T09:14:16Z",
       "name": "Wildfire — Gironde (Bordeaux), France",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-28T09:22:55Z",
+            "at": "2026-07-29T09:14:16Z",
             "layer": "verify",
-            "run_id": "2026-07-28T09-22-55Z-b0f8b3"
+            "run_id": "2026-07-29T09-14-16Z-d2df17"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-28T09-22-55Z-b0f8b3"
+        "last_run_id": "2026-07-29T09-14-16Z-d2df17"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -853,7 +869,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -947,14 +963,22 @@
           "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9/executive",
           "text": "USGS's PAGER population-exposure estimate for this earthquake found about 1,422,182 people exposed to MMI VII (Very Strong) shaking or greater and about 8,057,091 additional people exposed to MMI V (Moderate) shaking, almost entirely within Japan (a small population of about 65 people in South Korea was exposed to MMI III, weak, shaking).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-29",
+          "source_name": "USGS",
+          "source_url": "https://earthquake.usgs.gov/product/losspager/us6000tgb9/us/1785310513813/json/alerts.json",
+          "text": "USGS PAGER's loss-model data, updated 29 July 2026, records a maximum shaking intensity of MMI IX, a fatality alert level of Orange (gvalue 1.77, up from Yellow) and an economic alert level of Red (gvalue 2.28). Aggregated population exposure at MMI VII or greater is about 1,236,912 (374,783 at MMI VII + 635,782 at MMI VIII + 226,347 at MMI IX). PAGER's empirical loss model estimates 724 total fatalities (0 in South Korea) and $12,724,898,845 in economic losses; PAGER's semi-empirical structural model separately estimates 234 fatalities. These are automated probabilistic model outputs, not confirmed casualty or damage figures.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 6.8 earthquake struck southern Kumamoto Prefecture, Kyushu, Japan, on 28 July 2026 at 07:27 UTC (16:27 local time), 5 km east of Uto City, at a depth of about 10 km. USGS's PAGER system assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe), estimating roughly 1.42 million people exposed to MMI VII (Very Strong) or greater shaking and about 8.06 million more exposed to MMI V (Moderate) shaking, almost entirely within Japan. As of retrieval on 28 July 2026, no authoritative confirmed casualty or damage figures had yet been published.",
+      "description": "A magnitude 6.8 earthquake struck southern Kumamoto Prefecture, Kyushu, Japan, on 28 July 2026 at 07:27 UTC (16:27 local time), 5 km east of Uto City, at a depth of about 10 km. USGS's PAGER system initially assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe); a PAGER loss-model update as of 29 July 2026 raised the maximum estimated shaking to MMI IX (Violent) and upgraded the fatality alert from Yellow to Orange, with the economic alert remaining Red — PAGER's probabilistic loss models now estimate roughly 724 fatalities (empirical model) or 234 fatalities (semi-empirical structural model) and about $12.7 billion in economic losses. About 1.24 million people were exposed to MMI VII (Very Strong) shaking or greater, almost entirely within Japan. As of 29 July 2026, these remain PAGER's automated probabilistic estimates — no authoritative confirmed casualty or damage figures have yet been published.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "USGS recorded a magnitude 6.8 earthquake on 28 July 2026 at 07:27:15 UTC, 5 km east of Uto, Kumamoto Prefecture, Japan, at a depth of about 10 km. USGS's PAGER system assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe); PAGER's population-exposure estimate found about 1.42 million people exposed to MMI VII (Very Strong) or greater shaking and roughly 8.06 million more exposed to MMI V (Moderate) shaking, almost entirely within Japan (a small population in South Korea was exposed to weak shaking). As of 28 July 2026, no authoritative confirmed casualty or damage figures have been published."
+          "summary": "USGS recorded a magnitude 6.8 earthquake on 28 July 2026 at 07:27:15 UTC, 5 km east of Uto, Kumamoto Prefecture, Japan, at a depth of about 10 km. USGS's PAGER system initially assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe); a PAGER loss-model update as of 29 July 2026 raised the maximum estimated shaking to MMI IX (Violent) and upgraded the fatality alert from Yellow to Orange, with roughly 1.24 million people exposed to MMI VII (Very Strong) shaking or greater. PAGER's probabilistic loss models now estimate about 724 fatalities (empirical) or 234 fatalities (semi-empirical) and about $12.7 billion in economic losses — these are automated model estimates, not confirmed figures. As of 29 July 2026, no authoritative confirmed casualty or damage figures have been published."
         },
         "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9/executive",
         "location": {
@@ -968,18 +992,18 @@
         "status": "ongoing"
       },
       "id": "japan-earthquake-kumamoto-2026",
-      "last_updated": "2026-07-28T09:22:55Z",
+      "last_updated": "2026-07-29T09:14:16Z",
       "name": "M6.8 Earthquake — Kumamoto, Japan",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-28T09:22:55Z",
+            "at": "2026-07-29T09:14:16Z",
             "layer": "verify",
-            "run_id": "2026-07-28T09-22-55Z-eff276"
+            "run_id": "2026-07-29T09-14-16Z-560fb5"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-28T09-22-55Z-eff276"
+        "last_run_id": "2026-07-29T09-14-16Z-560fb5"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -989,7 +1013,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1371,16 +1395,24 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=19&eventtype=WF",
           "text": "GDACS event report (eventid 1029643, episode 19): Overall Orange alert for a forest fire in Spain, citing 65,422 hectares burned and 20,161 people in the fire-affected area, with the most recent thermal-anomaly detection on 27 July 2026 — up from Green alert / 63,065 hectares / 17,959 people as of episode 16 (27 July).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-07-29",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=20&eventtype=WF",
+          "text": "GDACS event report (eventid 1029643, episode 20): Overall Orange alert for a forest fire in Spain covering a 22-28 July 2026 window, citing 66,083 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 28 July 2026 — up from 65,422 hectares/20,161 people as of episode 19 (27 July).",
+          "verification_status": "verified"
         }
       ],
-      "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS escalated its alert from Green to Orange as of episode 19 (27 July 2026), with the burned area at about 65,422 hectares and roughly 20,161 people in the fire-affected area. Spain's Interior Ministry declared a national emergency for the fires on 23-24 July 2026 — widely reported as the first such declaration linked to a wildfire — and evacuation figures well above 10,000 people have been widely reported; neither the national-emergency declaration nor the evacuation count has yet been confirmed by an allowlisted authoritative source.",
+      "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS escalated its alert from Green to Orange as of episode 19 (27 July 2026); as of episode 20 (28 July 2026) the burned area stood at about 66,083 hectares with roughly 20,200 people in the fire-affected area and the alert remaining Orange. Spain's Interior Ministry declared a national emergency for the fires on 23-24 July 2026 — widely reported as the first such declaration linked to a wildfire — and evacuation figures well above 10,000 people have been widely reported; neither the national-emergency declaration nor the evacuation count has yet been confirmed by an allowlisted authoritative source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's event report (eventid 1029643, episode 19) escalated this fire from a Green to an Orange alert for medium humanitarian impact for a forest fire in Spain, citing 65,422 hectares burned and 20,161 people in the fire-affected area, with the most recent thermal-anomaly detection on 27 July 2026 — up from 63,065 hectares/17,959 people affected as of episode 16. No allowlisted authoritative source has yet published a confirmed death toll or official evacuation count for this fire; Spain's widely reported national emergency declaration (23-24 July) and evacuation figures above 10,000 people come from non-allowlisted media and have not been independently confirmed here."
+          "summary": "GDACS's event report (eventid 1029643, episode 20) keeps this forest fire in Spain at an Overall Orange alert for medium humanitarian impact, citing 66,083 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 28 July 2026 — up from 65,422 hectares/20,161 people affected as of episode 19 (27 July). No allowlisted authoritative source has yet published a confirmed death toll or official evacuation count for this fire; Spain's widely reported national emergency declaration (23-24 July) and evacuation figures above 10,000 people come from non-allowlisted media and have not been independently confirmed here."
         },
-        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=19&eventtype=WF",
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=20&eventtype=WF",
         "location": {
           "country": "Spain",
           "lat": 40.33,
@@ -1388,22 +1420,22 @@
           "region": "Southwestern Madrid region and Ávila province (Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa, Aldea del Fresno)"
         },
         "occurrence_date": "2026-07-22",
-        "scale": "GDACS Orange alert; ~65,400 ha burned",
+        "scale": "GDACS Orange alert; ~66,100 ha burned",
         "status": "ongoing"
       },
       "id": "spain-wildfire-madrid-avila-2026",
-      "last_updated": "2026-07-28T09:22:55Z",
+      "last_updated": "2026-07-29T09:14:16Z",
       "name": "Wildfires — Madrid & Ávila, Spain",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-28T09:22:55Z",
+            "at": "2026-07-29T09:14:16Z",
             "layer": "verify",
-            "run_id": "2026-07-28T09-22-55Z-408f89"
+            "run_id": "2026-07-29T09-14-16Z-67f75d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-28T09-22-55Z-408f89"
+        "last_run_id": "2026-07-29T09-14-16Z-67f75d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1413,7 +1445,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
