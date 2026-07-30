@@ -1,0 +1,64 @@
+{
+  "category": "flood",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-07-30",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/pakistan/islamic-relief-pakistan-humanitarian-situation-report-period-26-june-28-july-2026",
+      "text": "As of 28 July 2026, a total of 109 deaths and 360 injuries have been reported nationwide. The majority of casualties resulted from house collapses and flash floods triggered by heavy rainfall. Additionally, 796 houses have been damaged, either fully or partially, while 379 livestock have perished.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-30",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/pakistan/islamic-relief-pakistan-humanitarian-situation-report-period-26-june-28-july-2026",
+      "text": "NDMA and PDMA Punjab have moved from advisory to an active flood alert for the Chenab, Jhelum and Ravi rivers from 29 July-05 August, with evacuations already being directed in low-lying and riverbank areas.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Heavy monsoon rains beginning around 26 June 2026 have triggered flash floods, riverine flooding and house collapses across Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh. Islamic Relief Pakistan's humanitarian situation report, covering 26 June-28 July 2026 and posted to ReliefWeb on 29 July 2026, records 109 deaths and 360 injuries nationwide as of 28 July, mainly from house collapses and flash floods triggered by heavy rainfall, along with 796 houses damaged or destroyed and 379 livestock lost. Pakistan's National Disaster Management Authority (NDMA) and Punjab's Provincial Disaster Management Authority (PDMA) have moved from an advisory to an active flood alert for the Chenab, Jhelum and Ravi rivers running 29 July-5 August 2026, with evacuations already being directed in low-lying and riverbank areas as monsoon rains continue.",
+  "event": {
+    "impact": {
+      "deaths": 109,
+      "displaced": null,
+      "summary": "Islamic Relief Pakistan's humanitarian situation report (period 26 June-28 July 2026, posted to ReliefWeb 29 July 2026) records 109 deaths and 360 injuries nationwide as of 28 July, mainly from house collapses and flash floods triggered by heavy rainfall, with 796 houses damaged or destroyed and 379 livestock lost. Pakistan's NDMA and Punjab's PDMA have moved from an advisory to an active flood alert for the Chenab, Jhelum and Ravi rivers running 29 July-5 August 2026, directing evacuations in low-lying and riverbank areas as monsoon rains continue. No authoritative source has declared the event resolved."
+    },
+    "live_source_url": "https://reliefweb.int/country/pak",
+    "location": {
+      "country": "Pakistan",
+      "lat": 30.3753,
+      "lon": 69.3451,
+      "region": "Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh"
+    },
+    "occurrence_date": "2026-06-26",
+    "scale": "Nationwide monsoon flooding; active flood alert (Chenab, Jhelum & Ravi rivers)",
+    "status": "ongoing"
+  },
+  "id": "pakistan-floods-2026",
+  "last_updated": "2026-07-30T09:22:06Z",
+  "name": "Monsoon Floods — Pakistan",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-07-30T09:22:06Z",
+        "layer": "verify",
+        "run_id": "2026-07-30T09-22-06Z-5a3334"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-07-30T09-22-06Z-5a3334"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7397933.0,
+    "impact_rank": 3,
+    "recency_rank": 739793
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

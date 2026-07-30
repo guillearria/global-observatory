@@ -48,16 +48,24 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=20&eventtype=WF",
       "text": "GDACS event report (eventid 1029643, episode 20): Overall Orange alert for a forest fire in Spain covering a 22-28 July 2026 window, citing 66,083 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 28 July 2026 — up from 65,422 hectares/20,161 people as of episode 19 (27 July).",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-7",
+      "retrieved_date": "2026-07-30",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=22&eventtype=WF",
+      "text": "GDACS event report (eventid 1029643, episode 22), report date 30 Jul 2026 00:00 UTC: Overall Orange alert for a forest fire in Spain, citing 66,098 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS escalated its alert from Green to Orange as of episode 19 (27 July 2026); as of episode 20 (28 July 2026) the burned area stood at about 66,083 hectares with roughly 20,200 people in the fire-affected area and the alert remaining Orange. Spain's Interior Ministry declared a national emergency for the fires on 23-24 July 2026 — widely reported as the first such declaration linked to a wildfire — and evacuation figures well above 10,000 people have been widely reported; neither the national-emergency declaration nor the evacuation count has yet been confirmed by an allowlisted authoritative source.",
+  "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS escalated its alert from Green to Orange as of episode 19 (27 July 2026); as of episode 22 (30 July 2026) the burned area stood at about 66,098 hectares with roughly 20,200 people in the fire-affected area and the alert remaining Orange, with a thermal-anomaly detection recorded that same day. Spain's Interior Ministry declared a national emergency for the fires on 23-24 July 2026 — widely reported as the first such declaration linked to a wildfire — and evacuation figures well above 10,000 people have been widely reported; neither the national-emergency declaration nor the evacuation count has yet been confirmed by an allowlisted authoritative source.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report (eventid 1029643, episode 20) keeps this forest fire in Spain at an Overall Orange alert for medium humanitarian impact, citing 66,083 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 28 July 2026 — up from 65,422 hectares/20,161 people affected as of episode 19 (27 July). No allowlisted authoritative source has yet published a confirmed death toll or official evacuation count for this fire; Spain's widely reported national emergency declaration (23-24 July) and evacuation figures above 10,000 people come from non-allowlisted media and have not been independently confirmed here."
+      "summary": "GDACS's event report (eventid 1029643, episode 22) keeps this forest fire in Spain at an Overall Orange alert for medium humanitarian impact, citing 66,098 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026 — up marginally from 66,083 hectares/20,200 people affected as of episode 20 (28 July). No allowlisted authoritative source has yet published a confirmed death toll or official evacuation count for this fire; Spain's widely reported national emergency declaration (23-24 July) and evacuation figures above 10,000 people come from non-allowlisted media and have not been independently confirmed here."
     },
-    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=20&eventtype=WF",
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=22&eventtype=WF",
     "location": {
       "country": "Spain",
       "lat": 40.33,
@@ -69,18 +77,18 @@
     "status": "ongoing"
   },
   "id": "spain-wildfire-madrid-avila-2026",
-  "last_updated": "2026-07-29T09:14:16Z",
+  "last_updated": "2026-07-30T09:22:06Z",
   "name": "Wildfires — Madrid & Ávila, Spain",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-29T09:14:16Z",
+        "at": "2026-07-30T09:22:06Z",
         "layer": "verify",
-        "run_id": "2026-07-29T09-14-16Z-67f75d"
+        "run_id": "2026-07-30T09-22-06Z-e2695f"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-29T09-14-16Z-67f75d"
+    "last_run_id": "2026-07-30T09-22-06Z-e2695f"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -90,7 +98,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

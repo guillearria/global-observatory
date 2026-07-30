@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T09:14:16Z",
+  "last_updated": "2026-07-30T09:22:06Z",
   "published": [
     {
       "category": "flood",
@@ -27,39 +27,47 @@
           "source_url": "https://reliefweb.int/report/afghanistan/afghanistan-flash-update-2-flooding-eastern-afghanistan-22-23-july-2026",
           "text": "OCHA Flash Update #2: Flooding in Eastern Afghanistan (22-23 July 2026): in Parun City, Nuristan Province, local authorities report 23 killed, 5 missing (down from over 100) and 125 injured (38 severe, 87 minor). At the Torkham transit camp in Nangarhar, 3 Afghan refugees were killed and 9 injured (unchanged). One additional death is reported in Maidan Wardak province (Sayedabad District). The response has moved from immediate search and rescue and emergency life-saving assistance towards a broader, multi-sector response addressing shelter, health, food, WASH, protection, livelihoods and planning to address early recovery needs.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-30",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/afghanistan/afghanistan-flash-update-3-flooding-eastern-afghanistan-28-july-2026",
+          "text": "OCHA Flash Update #3: Flooding in Central, Eastern and Southeastern Afghanistan (as of 28 July 2026): in Laghman Province, three people were killed and four others injured, with 187 families affected and 183 houses damaged or destroyed; approximately 800 acres of seasonal crops and around 310 livestock were also reportedly lost or damaged. Nuristan Province remains the most severely affected area; the completed inter-agency needs assessment in Parun district identified 120 families eligible for humanitarian assistance, of which the first 92 have already received assistance. The Shelter/NFI cluster reports 1,168 families have been affected across 14 provinces, including 234 houses completely destroyed and 930 houses damaged. Needs assessments in Maidan Wardak and Panjshir are expected to commence shortly.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Torrential monsoon rains triggered flash floods in Afghanistan's eastern Nuristan province beginning around 19 July 2026, striking the provincial capital Parun and surrounding villages, and also killed Afghan refugees at a returnee transit camp near the Torkham border crossing. GDACS assessed the event as an overall Green alert for low humanitarian impact. OCHA's Flash Update #2 (23 July 2026) reports the confirmed death toll has held near 27 across eastern Afghanistan while the number of people missing in Nuristan has fallen sharply from over 100 to 5, and the response has now shifted from active search-and-rescue toward a broader multi-sector recovery effort covering shelter, health, food, WASH and protection needs.",
+      "description": "Torrential monsoon rains triggered flash floods in Afghanistan's eastern Nuristan province beginning around 19 July 2026, striking the provincial capital Parun and surrounding villages, and also killed Afghan refugees at a returnee transit camp near the Torkham border crossing. GDACS assessed the event as an overall Green alert for low humanitarian impact. OCHA's Flash Update #2 (23 July 2026) reported the confirmed death toll had held near 27 across eastern Afghanistan while the number of people missing in Nuristan had fallen sharply from over 100 to 5. OCHA's Flash Update #3 (as of 28 July 2026) shows the response has now broadened geographically to Central, Eastern and Southeastern Afghanistan, with new flood-related casualties confirmed in Laghman Province (3 killed, 4 injured, 187 families affected) in addition to the original Nuristan/Torkham/Maidan Wardak toll. Nuristan remains the most severely affected area, where a completed inter-agency needs assessment in Parun district identified 120 families eligible for assistance; across the now-widened 14-province response, the Shelter/NFI cluster reports 1,168 families affected, including 234 houses destroyed and 930 damaged. No authoritative source has declared the event resolved.",
       "event": {
         "impact": {
-          "deaths": 27,
+          "deaths": 30,
           "displaced": null,
-          "summary": "OCHA's Flash Update #2 (23 July 2026) reports 23 people killed and 5 still missing (down from 100+) in Nuristan Province, with 125 injured (38 severe, 87 minor) there; the 3 Afghan refugees killed and 9 injured at the Torkham border transit camp are unchanged, and one additional death is reported in Maidan Wardak province (Sayedabad District) — a combined toll of 27 confirmed deaths across eastern Afghanistan. OCHA states the response has moved from immediate search-and-rescue toward a broader multi-sector recovery effort (shelter, health, food, WASH, protection, livelihoods); no authoritative source has declared the event resolved."
+          "summary": "OCHA's Flash Update #2 (23 July 2026) reported 23 people killed and 5 still missing (down from 100+) in Nuristan Province, with 125 injured (38 severe, 87 minor) there; the 3 Afghan refugees killed and 9 injured at the Torkham border transit camp and 1 additional death in Maidan Wardak province were unchanged — a combined toll of 27 confirmed deaths across eastern Afghanistan. OCHA's Flash Update #3 (as of 28 July 2026) broadens the response to Central, Eastern and Southeastern Afghanistan and reports 3 further deaths and 4 injuries in Laghman Province (187 families affected, 183 houses damaged/destroyed), bringing the combined confirmed death toll to at least 30. Nuristan remains the most severely affected area, with a completed inter-agency needs assessment in Parun district identifying 120 families eligible for assistance (92 already assisted); the Shelter/NFI cluster now reports 1,168 families affected across 14 provinces (234 houses destroyed, 930 damaged). No authoritative source has declared the event resolved."
         },
-        "live_source_url": "https://gdacs.org/report.aspx?eventid=1104033&episodeid=1&eventtype=FL",
+        "live_source_url": "https://reliefweb.int/disaster/ff-2026-000120-afg",
         "location": {
           "country": "Afghanistan",
           "lat": 35.2667,
           "lon": 70.9,
-          "region": "Nuristan Province (Parun and surrounding villages)"
+          "region": "Nuristan Province (Parun and surrounding villages), with additional flood impacts confirmed in Laghman, Ghazni, Kapisa, Logar, Nangarhar, Paktia, Paktika and Parwan provinces"
         },
         "occurrence_date": "2026-07-19",
         "scale": "Flash flood; GDACS Green alert",
         "status": "ongoing"
       },
       "id": "afghanistan-nuristan-floods-2026",
-      "last_updated": "2026-07-25T09:09:38Z",
+      "last_updated": "2026-07-30T09:22:06Z",
       "name": "Nuristan Flash Floods, Afghanistan",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-25T09:09:38Z",
+            "at": "2026-07-30T09:22:06Z",
             "layer": "verify",
-            "run_id": "2026-07-25T09-09-38Z-8bc069"
+            "run_id": "2026-07-30T09-22-06Z-136a93"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-25T09-09-38Z-8bc069"
+        "last_run_id": "2026-07-30T09-22-06Z-136a93"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -69,7 +77,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -429,6 +437,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-17",
+          "retrieved_date": "2026-07-30",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "Page last updated 29 July 2026, 16:30. On 28 July 2026, the Democratic Republic of the Congo (DRC) reported a total of 3,360 confirmed cases, including 1,487 related deaths (from data up until 27 July). On 16 July, Uganda discharged the last Ebola patient who had been receiving treatment at the Mulago National Referral Isolation Centre; on 28 July 2026, twelve days since the last case was discharged, Uganda's Ministry of Health declared the end of the Ebola disease outbreak. Uganda's cumulative total remains 20 confirmed cases and two deaths.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-10",
           "source_name": "WHO",
@@ -493,12 +509,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through late July (3,262 cases/1,437 deaths in DRC per ECDC as of 26 July), with the outbreak still confined to the same five DRC provinces and imported cases previously confirmed in France and Germany. Uganda's last confirmed patient was discharged on 16 July, and its 42-day countdown toward declaring that country's outbreak over remains in progress with no new Ugandan cases since 21 June.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through late July (3,360 cases/1,487 deaths in DRC per ECDC as of 27 July), with the outbreak still confined to the same five DRC provinces and imported cases previously confirmed in France and Germany. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient on 16 July, with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June.",
       "event": {
         "impact": {
-          "deaths": 1437,
+          "deaths": 1487,
           "displaced": null,
-          "summary": "As of ECDC's 28 July 2026 update (DRC data to 26 July), the Democratic Republic of the Congo has reported 3,262 confirmed cases including 1,437 deaths, up from 3,200 cases/1,405 deaths as of 25 July. Uganda remains unchanged at 20 confirmed cases and two deaths, with no new cases since 21 June and its 42-day countdown to declare the outbreak over continuing following discharge of the last patient on 16 July (due to complete around 27 August 2026). No WHO Disease Outbreak News newer than DON613 has been published as of 29 July 2026, and no health authority has declared the outbreak over in either country."
+          "summary": "As of ECDC's 29 July 2026 update (DRC data to 27 July), the Democratic Republic of the Congo has reported 3,360 confirmed cases including 1,487 deaths, up from 3,262 cases/1,437 deaths as of 26 July. Uganda's Ministry of Health declared the end of its Ebola outbreak on 28 July 2026, twelve days after discharging its last confirmed patient on 16 July; Uganda's cumulative total remains 20 confirmed cases and two deaths, with no new cases since 21 June. No WHO Disease Outbreak News newer than DON613 has been published as of 30 July 2026, and the DRC portion of the outbreak remains active with no declaration of resolution there."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -512,18 +528,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-07-29T09:14:16Z",
+      "last_updated": "2026-07-30T09:22:06Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-29T09:14:16Z",
+            "at": "2026-07-30T09:22:06Z",
             "layer": "verify",
-            "run_id": "2026-07-29T09-14-16Z-86fcb4"
+            "run_id": "2026-07-30T09-22-06Z-28e024"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-29T09-14-16Z-86fcb4"
+        "last_run_id": "2026-07-30T09-22-06Z-28e024"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -533,7 +549,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -827,16 +843,24 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=22&eventtype=WF",
           "text": "GDACS event report (eventid 1029628, episode 22): Overall Red alert for a forest fire in France covering a 22-29 July 2026 window, citing 47,593 hectares burned and 11,669 people in the fire-affected area, with the most recent thermal-anomaly detection on 29 July 2026 — up from 45,805 hectares/11,643 people as of episode 19 (27 July).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-07-30",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=26&eventtype=WF",
+          "text": "GDACS event report (eventid 1029628, episode 26), generated 30 Jul 2026 00:00 UTC: Overall Red alert for a forest fire in France, citing 47,871 hectares burned and 11,670 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026 — up from 47,593 hectares/11,669 people as of episode 22 (29 July).",
+          "verification_status": "verified"
         }
       ],
-      "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026); as of episode 22 (29 July 2026) the burned area stood at about 47,593 hectares with roughly 11,669 people in the fire-affected area and the alert remaining Red, with a thermal-anomaly detection recorded that same day, indicating the fire remains active. Widely reported figures — evacuations variously put at around 110,000 to 320,000+ people, French military mobilisation ordered by President Macron, and activation of the EU Civil Protection Mechanism — have not yet been confirmed by an allowlisted authoritative source.",
+      "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026); as of episode 26 (30 July 2026) the burned area stood at about 47,871 hectares with roughly 11,670 people in the fire-affected area and the alert remaining Red, with a thermal-anomaly detection recorded that same day, indicating the fire remains active despite reports of evacuees being allowed to return home. Widely reported figures — evacuations variously put at around 110,000 to 320,000+ people, French military mobilisation ordered by President Macron, and activation of the EU Civil Protection Mechanism — have not yet been confirmed by an allowlisted authoritative source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's event report (eventid 1029628, episode 22) keeps this forest fire in France at an Overall Red alert, citing 47,593 hectares burned and 11,669 people in the fire-affected area, with the most recent thermal-anomaly detection on 29 July 2026 — up from 45,805 hectares/11,643 people affected as of episode 19 (27 July). No allowlisted authoritative source has yet published a confirmed death toll or evacuation count for this fire; widely reported figures of 110,000-320,000+ people evacuated, French military mobilisation, and EU Civil Protection Mechanism activation come from non-allowlisted media and have not been independently confirmed here."
+          "summary": "GDACS's event report (eventid 1029628, episode 26) keeps this forest fire in France at an Overall Red alert, citing 47,871 hectares burned and 11,670 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026 — up slightly from 47,593 hectares/11,669 people as of episode 22 (29 July). No allowlisted authoritative source has yet published a confirmed death toll or evacuation count for this fire; widely reported figures of 110,000-320,000+ people evacuated, French military mobilisation, and EU Civil Protection Mechanism activation come from non-allowlisted media and have not been independently confirmed here."
         },
-        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=22&eventtype=WF",
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=26&eventtype=WF",
         "location": {
           "country": "France",
           "lat": 44.7,
@@ -844,22 +868,22 @@
           "region": "Gironde department (near Bordeaux and the Landes border)"
         },
         "occurrence_date": "2026-07-22",
-        "scale": "GDACS Red alert; ~47,600 ha burned",
+        "scale": "GDACS Red alert; ~47,900 ha burned",
         "status": "ongoing"
       },
       "id": "france-wildfire-gironde-2026",
-      "last_updated": "2026-07-29T09:14:16Z",
+      "last_updated": "2026-07-30T09:22:06Z",
       "name": "Wildfire — Gironde (Bordeaux), France",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-29T09:14:16Z",
+            "at": "2026-07-30T09:22:06Z",
             "layer": "verify",
-            "run_id": "2026-07-29T09-14-16Z-d2df17"
+            "run_id": "2026-07-30T09-22-06Z-50e53a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-29T09-14-16Z-d2df17"
+        "last_run_id": "2026-07-30T09-22-06Z-50e53a"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -869,7 +893,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1226,6 +1250,70 @@
       }
     },
     {
+      "category": "flood",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-07-30",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/pakistan/islamic-relief-pakistan-humanitarian-situation-report-period-26-june-28-july-2026",
+          "text": "As of 28 July 2026, a total of 109 deaths and 360 injuries have been reported nationwide. The majority of casualties resulted from house collapses and flash floods triggered by heavy rainfall. Additionally, 796 houses have been damaged, either fully or partially, while 379 livestock have perished.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-07-30",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/pakistan/islamic-relief-pakistan-humanitarian-situation-report-period-26-june-28-july-2026",
+          "text": "NDMA and PDMA Punjab have moved from advisory to an active flood alert for the Chenab, Jhelum and Ravi rivers from 29 July-05 August, with evacuations already being directed in low-lying and riverbank areas.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Heavy monsoon rains beginning around 26 June 2026 have triggered flash floods, riverine flooding and house collapses across Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh. Islamic Relief Pakistan's humanitarian situation report, covering 26 June-28 July 2026 and posted to ReliefWeb on 29 July 2026, records 109 deaths and 360 injuries nationwide as of 28 July, mainly from house collapses and flash floods triggered by heavy rainfall, along with 796 houses damaged or destroyed and 379 livestock lost. Pakistan's National Disaster Management Authority (NDMA) and Punjab's Provincial Disaster Management Authority (PDMA) have moved from an advisory to an active flood alert for the Chenab, Jhelum and Ravi rivers running 29 July-5 August 2026, with evacuations already being directed in low-lying and riverbank areas as monsoon rains continue.",
+      "event": {
+        "impact": {
+          "deaths": 109,
+          "displaced": null,
+          "summary": "Islamic Relief Pakistan's humanitarian situation report (period 26 June-28 July 2026, posted to ReliefWeb 29 July 2026) records 109 deaths and 360 injuries nationwide as of 28 July, mainly from house collapses and flash floods triggered by heavy rainfall, with 796 houses damaged or destroyed and 379 livestock lost. Pakistan's NDMA and Punjab's PDMA have moved from an advisory to an active flood alert for the Chenab, Jhelum and Ravi rivers running 29 July-5 August 2026, directing evacuations in low-lying and riverbank areas as monsoon rains continue. No authoritative source has declared the event resolved."
+        },
+        "live_source_url": "https://reliefweb.int/country/pak",
+        "location": {
+          "country": "Pakistan",
+          "lat": 30.3753,
+          "lon": 69.3451,
+          "region": "Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh"
+        },
+        "occurrence_date": "2026-06-26",
+        "scale": "Nationwide monsoon flooding; active flood alert (Chenab, Jhelum & Ravi rivers)",
+        "status": "ongoing"
+      },
+      "id": "pakistan-floods-2026",
+      "last_updated": "2026-07-30T09:22:06Z",
+      "name": "Monsoon Floods — Pakistan",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-07-30T09:22:06Z",
+            "layer": "verify",
+            "run_id": "2026-07-30T09-22-06Z-5a3334"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-07-30T09-22-06Z-5a3334"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7397933.0,
+        "impact_rank": 3,
+        "recency_rank": 739793
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
       "category": "wildfire",
       "claims": [
         {
@@ -1403,16 +1491,24 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=20&eventtype=WF",
           "text": "GDACS event report (eventid 1029643, episode 20): Overall Orange alert for a forest fire in Spain covering a 22-28 July 2026 window, citing 66,083 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 28 July 2026 — up from 65,422 hectares/20,161 people as of episode 19 (27 July).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-07-30",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=22&eventtype=WF",
+          "text": "GDACS event report (eventid 1029643, episode 22), report date 30 Jul 2026 00:00 UTC: Overall Orange alert for a forest fire in Spain, citing 66,098 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS escalated its alert from Green to Orange as of episode 19 (27 July 2026); as of episode 20 (28 July 2026) the burned area stood at about 66,083 hectares with roughly 20,200 people in the fire-affected area and the alert remaining Orange. Spain's Interior Ministry declared a national emergency for the fires on 23-24 July 2026 — widely reported as the first such declaration linked to a wildfire — and evacuation figures well above 10,000 people have been widely reported; neither the national-emergency declaration nor the evacuation count has yet been confirmed by an allowlisted authoritative source.",
+      "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS escalated its alert from Green to Orange as of episode 19 (27 July 2026); as of episode 22 (30 July 2026) the burned area stood at about 66,098 hectares with roughly 20,200 people in the fire-affected area and the alert remaining Orange, with a thermal-anomaly detection recorded that same day. Spain's Interior Ministry declared a national emergency for the fires on 23-24 July 2026 — widely reported as the first such declaration linked to a wildfire — and evacuation figures well above 10,000 people have been widely reported; neither the national-emergency declaration nor the evacuation count has yet been confirmed by an allowlisted authoritative source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's event report (eventid 1029643, episode 20) keeps this forest fire in Spain at an Overall Orange alert for medium humanitarian impact, citing 66,083 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 28 July 2026 — up from 65,422 hectares/20,161 people affected as of episode 19 (27 July). No allowlisted authoritative source has yet published a confirmed death toll or official evacuation count for this fire; Spain's widely reported national emergency declaration (23-24 July) and evacuation figures above 10,000 people come from non-allowlisted media and have not been independently confirmed here."
+          "summary": "GDACS's event report (eventid 1029643, episode 22) keeps this forest fire in Spain at an Overall Orange alert for medium humanitarian impact, citing 66,098 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026 — up marginally from 66,083 hectares/20,200 people affected as of episode 20 (28 July). No allowlisted authoritative source has yet published a confirmed death toll or official evacuation count for this fire; Spain's widely reported national emergency declaration (23-24 July) and evacuation figures above 10,000 people come from non-allowlisted media and have not been independently confirmed here."
         },
-        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=20&eventtype=WF",
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=22&eventtype=WF",
         "location": {
           "country": "Spain",
           "lat": 40.33,
@@ -1424,18 +1520,18 @@
         "status": "ongoing"
       },
       "id": "spain-wildfire-madrid-avila-2026",
-      "last_updated": "2026-07-29T09:14:16Z",
+      "last_updated": "2026-07-30T09:22:06Z",
       "name": "Wildfires — Madrid & Ávila, Spain",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-29T09:14:16Z",
+            "at": "2026-07-30T09:22:06Z",
             "layer": "verify",
-            "run_id": "2026-07-29T09-14-16Z-67f75d"
+            "run_id": "2026-07-30T09-22-06Z-e2695f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-29T09-14-16Z-67f75d"
+        "last_run_id": "2026-07-30T09-22-06Z-e2695f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1445,7 +1541,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1987,14 +2083,22 @@
           "source_url": "https://reliefweb.int/node/4223095",
           "text": "Per the same ReliefWeb-hosted Human Rights Watch report: 'As of July 19, the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) reported 68 Palestinians killed in the West Bank in 2026, at least 13 by settlers. OCHA reported that as of July 15, 20 Israelis had been injured in 2026 in the West Bank.'",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-07-30",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/07/1168045",
+          "text": "UN News, citing OHCHR and OCHA (29 July 2026): 'As of 24 July, the agency reports that 76 Palestinians and one Israeli have died this year in settler attacks... Since Friday, eight Palestinians, including a boy, and two members of the Israeli military have also been killed in the region.' 'The number of settler attacks has increased each year since 2023... rising to 1,835 last year.' 'There were about 190 attacks per month in the first four months of 2026, putting the West Bank on a trajectory to reach more than 2,000 attacks by the end of the year.' 'Nearly 700 Palestinians in nine communities in the West Bank were displaced as a result of settler attacks in the first four months of 2026.'",
+          "verification_status": "verified"
         }
       ],
-      "description": "A sharp escalation of Israeli settler violence in the occupied West Bank culminated on 24 July 2026 when Israeli settlers carried out two attacks on Tal village near Nablus, leaving four Palestinians (two brothers and two cousins from the Ramadan family) and two Israelis dead, and triggering a wave of settler reprisal attacks on nearby Palestinian villages, mosque burnings, and an Israeli government-announced 'major counterterrorism operation.' The attack capped a week of escalating violence: OCHA reported 68 Palestinians killed in the West Bank in 2026 as of 19 July (at least 13 by settlers), rising to about 10 Palestinian deaths in the week since 19 July alone, while fatalities linked specifically to settler attacks in 2026 (18 as of 20 July) had already surpassed the full-year 2025 total of 17. Demolitions and settler attacks during the 14-20 July reporting period also displaced roughly 90 Palestinians, mostly following a large-scale demolition in a Bedouin community in Qalqiliya governorate. The violence is occurring amid a fragile Gaza ceasefire and continued deterioration of humanitarian conditions across the Occupied Palestinian Territory.",
+      "description": "A sharp escalation of Israeli settler violence in the occupied West Bank culminated on 24 July 2026 when Israeli settlers carried out two attacks on Tal village near Nablus, leaving four Palestinians (two brothers and two cousins from the Ramadan family) and two Israelis dead, and triggering a wave of settler reprisal attacks on nearby Palestinian villages, mosque burnings, and an Israeli government-announced 'major counterterrorism operation.' The attack capped a week of escalating violence: OCHA reported 68 Palestinians killed in the West Bank in 2026 as of 19 July (at least 13 by settlers), rising to about 10 Palestinian deaths in the week since 19 July alone, while fatalities linked specifically to settler attacks in 2026 (18 as of 20 July) had already surpassed the full-year 2025 total of 17. Demolitions and settler attacks during the 14-20 July reporting period also displaced roughly 90 Palestinians, mostly following a large-scale demolition in a Bedouin community in Qalqiliya governorate. A newer OHCHR figure reported via UN News on 29 July 2026 puts settler-attack fatalities substantially higher — 76 Palestinians and 1 Israeli killed in settler attacks so far in 2026 as of 24 July, on a trajectory to exceed 2,000 settler attacks for the year (up from 1,835 in 2025), with nearly 700 Palestinians displaced across nine West Bank communities in the first four months of 2026 alone. This OHCHR count and OCHA's 18-killed figure appear to use different methodologies or scopes and have not been reconciled by an authoritative source. The violence is occurring amid a fragile Gaza ceasefire and continued deterioration of humanitarian conditions across the Occupied Palestinian Territory.",
       "event": {
         "impact": {
           "deaths": 12,
           "displaced": 90,
-          "summary": "The 24 July settler attacks on Tal village near Nablus killed 4 Palestinians and 2 Israelis and brought the West Bank Palestinian death toll since 19 July to 10 (per Human Rights Watch, hosted on ReliefWeb). OCHA reported 68 Palestinians killed in the West Bank in 2026 as of 19 July (at least 13 by settlers) and 20 Israelis injured in 2026 as of 15 July. Separately, OCHA's 23 July oPt Humanitarian Situation Report found fatalities linked specifically to settler attacks in 2026 (18 as of 20 July) had already exceeded the full-year 2025 total (17), with about 90 Palestinians displaced by demolitions and settler attacks in the 14-20 July reporting period alone."
+          "summary": "The 24 July settler attacks on Tal village near Nablus killed 4 Palestinians and 2 Israelis and brought the West Bank Palestinian death toll since 19 July to 10 (per Human Rights Watch, hosted on ReliefWeb). OCHA reported 68 Palestinians killed in the West Bank in 2026 as of 19 July (at least 13 by settlers) and 20 Israelis injured in 2026 as of 15 July. OCHA's 23 July oPt Humanitarian Situation Report found fatalities linked specifically to settler attacks in 2026 (18 as of 20 July) had already exceeded the full-year 2025 total (17), with about 90 Palestinians displaced by demolitions and settler attacks in the 14-20 July reporting period alone. A newer OHCHR figure reported via UN News (29 July 2026) puts 2026 settler-attack fatalities as of 24 July at 76 Palestinians and 1 Israeli — substantially higher than OCHA's 18-killed count for a similar period — alongside about 190 settler attacks per month in the first four months of 2026 (on pace to exceed 2,000 for the year, up from 1,835 in 2025) and nearly 700 Palestinians displaced across nine communities in that same four-month window. The OHCHR and OCHA settler-attack death tolls have not been reconciled by an authoritative source."
         },
         "live_source_url": "https://reliefweb.int/country/pse",
         "location": {
@@ -2008,18 +2112,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-07-27T09:33:32Z",
+      "last_updated": "2026-07-30T09:22:06Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-27T09:33:32Z",
+            "at": "2026-07-30T09:22:06Z",
             "layer": "verify",
-            "run_id": "2026-07-27T09-33-32Z-e5f99c"
+            "run_id": "2026-07-30T09-22-06Z-eeecf3"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-27T09-33-32Z-e5f99c"
+        "last_run_id": "2026-07-30T09-22-06Z-eeecf3"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2029,7 +2133,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }
