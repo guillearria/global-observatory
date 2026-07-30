@@ -2,6 +2,15 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-30 — Daily World Pulse refresh: add Pakistan monsoon floods, update Ebola/West Bank/Afghanistan floods/Gironde & Madrid-Ávila wildfires (`f388741`)
+
+- **Added:** pakistan-floods-2026
+- **Updated:** afghanistan-nuristan-floods-2026, ebola-bundibugyo-drc-2026, france-wildfire-gironde-2026, spain-wildfire-madrid-avila-2026, west-bank-settler-violence-surge-2026
+
+## 2026-07-29 — Daily World Pulse refresh: update Kumamoto quake PAGER data, Gironde/Madrid-Ávila wildfires, Ebola case counts (`36a23a6`)
+
+- **Updated:** ebola-bundibugyo-drc-2026, france-wildfire-gironde-2026, japan-earthquake-kumamoto-2026, spain-wildfire-madrid-avila-2026
+
 ## 2026-07-28 — Daily World Pulse refresh: add Kumamoto M6.8 earthquake, update Ebola/Sudan displacement/Gironde & Madrid-Ávila wildfires (`2ce5372`)
 
 - **Added:** japan-earthquake-kumamoto-2026
@@ -141,9 +150,4 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 ## 2026-07-02 — Refresh World Pulse events: Ebola/Venezuela updates, add Mindanao quake (`7c0bfe0`)
 
-- **Added:** mindanao-earthquake-philippines-2026
-- **Updated:** ebola-bundibugyo-drc-2026, venezuela-earthquake-2026
-
-## 2026-07-02 — Add a prompt-injection containment rule to both refresh commands (`a87b338`)
-
-- **Added:** ebola-bundibugyo-drc-2026, global-warming, influenza-pandemic, near-earth-asteroid-impact, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
+- **Added:** ebola-bundibugyo-drc-2026, global-warming, influenza-pandemic, mindanao-earthquake-philippines-2026, near-earth-asteroid-impact, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
