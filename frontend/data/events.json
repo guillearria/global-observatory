@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T09:22:06Z",
+  "last_updated": "2026-07-31T09:13:49Z",
   "published": [
     {
       "category": "flood",
@@ -851,16 +851,24 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=26&eventtype=WF",
           "text": "GDACS event report (eventid 1029628, episode 26), generated 30 Jul 2026 00:00 UTC: Overall Red alert for a forest fire in France, citing 47,871 hectares burned and 11,670 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026 — up from 47,593 hectares/11,669 people as of episode 22 (29 July).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-07-31",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=28&eventtype=WF",
+          "text": "GDACS event report (eventid 1029628, episode 28), generated 30 Jul 2026 00:00 UTC: Overall Red alert for a forest fire in France, citing 47,895 hectares burned and 11,670 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026 — up slightly from 47,871 hectares/11,670 people as of episode 26 (30 July).",
+          "verification_status": "verified"
         }
       ],
-      "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026); as of episode 26 (30 July 2026) the burned area stood at about 47,871 hectares with roughly 11,670 people in the fire-affected area and the alert remaining Red, with a thermal-anomaly detection recorded that same day, indicating the fire remains active despite reports of evacuees being allowed to return home. Widely reported figures — evacuations variously put at around 110,000 to 320,000+ people, French military mobilisation ordered by President Macron, and activation of the EU Civil Protection Mechanism — have not yet been confirmed by an allowlisted authoritative source.",
+      "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026); as of episode 28 (30 July 2026) the burned area stood at about 47,895 hectares with roughly 11,670 people in the fire-affected area and the alert remaining Red, with a thermal-anomaly detection recorded that same day, indicating the fire remains active despite reports of evacuees being allowed to return home. Widely reported figures — evacuations variously put at around 110,000 to 320,000+ people, French military mobilisation ordered by President Macron, and activation of the EU Civil Protection Mechanism — have not yet been confirmed by an allowlisted authoritative source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's event report (eventid 1029628, episode 26) keeps this forest fire in France at an Overall Red alert, citing 47,871 hectares burned and 11,670 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026 — up slightly from 47,593 hectares/11,669 people as of episode 22 (29 July). No allowlisted authoritative source has yet published a confirmed death toll or evacuation count for this fire; widely reported figures of 110,000-320,000+ people evacuated, French military mobilisation, and EU Civil Protection Mechanism activation come from non-allowlisted media and have not been independently confirmed here."
+          "summary": "GDACS's event report (eventid 1029628, episode 28) keeps this forest fire in France at an Overall Red alert, citing 47,895 hectares burned and 11,670 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026 — up slightly from 47,871 hectares/11,670 people as of episode 26 (30 July). No allowlisted authoritative source has yet published a confirmed death toll or evacuation count for this fire; widely reported figures of 110,000-320,000+ people evacuated, French military mobilisation, and EU Civil Protection Mechanism activation come from non-allowlisted media and have not been independently confirmed here."
         },
-        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=26&eventtype=WF",
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=28&eventtype=WF",
         "location": {
           "country": "France",
           "lat": 44.7,
@@ -872,18 +880,18 @@
         "status": "ongoing"
       },
       "id": "france-wildfire-gironde-2026",
-      "last_updated": "2026-07-30T09:22:06Z",
+      "last_updated": "2026-07-31T09:13:48Z",
       "name": "Wildfire — Gironde (Bordeaux), France",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-30T09:22:06Z",
+            "at": "2026-07-31T09:13:48Z",
             "layer": "verify",
-            "run_id": "2026-07-30T09-22-06Z-50e53a"
+            "run_id": "2026-07-31T09-13-48Z-7d9b46"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-30T09-22-06Z-50e53a"
+        "last_run_id": "2026-07-31T09-13-48Z-7d9b46"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -893,7 +901,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1843,14 +1851,22 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001294",
           "text": "GDACS recorded maximum sustained winds of 157 km/h (Category 2 equivalent, per JTWC data) for Tropical Cyclone NOUL-26, with a maximum storm surge of 1.6 metres occurring on 25 July 2026 at 21:00 UTC; as of 25 July the storm centre was located about 135 km east of Catanduanes, Philippines.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-07-31",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001294",
+          "text": "GDACS's event report for Tropical Cyclone NOUL-26 (eventid 1001294) shows the event time window closed at 23 Jul 2026 06:00 UTC to 26 Jul 2026 00:00 UTC, with the alert urgency status now \"Past\" and no episode updates since — the maximum sustained wind (157 km/h), 11.9 million population exposure, and 1.6 m storm surge figures are unchanged from the 26 July assessment.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Tropical Cyclone NOUL-26 (named Kiyapo in the Philippines, Hongxia in China) tracked across the northern Philippines and the South China Sea in late July 2026 before making a second landfall in Guangdong province, southern China, around 26 July 2026. GDACS assessed an Orange alert for medium humanitarian impact, with about 11.9 million people exposed to Category 1 or higher wind speeds across the Philippines and China, maximum sustained winds of 157 km/h (Category 2 equivalent, per JTWC data), and a maximum storm surge of 1.6 metres recorded on 25 July 2026. No allowlisted authoritative source has yet published a confirmed death toll, injury count, or evacuation figure for this storm.",
+      "description": "Tropical Cyclone NOUL-26 (named Kiyapo in the Philippines, Hongxia in China) tracked across the northern Philippines and the South China Sea in late July 2026 before making a second landfall in Guangdong province, southern China, around 26 July 2026. GDACS assessed an Orange alert for medium humanitarian impact, with about 11.9 million people exposed to Category 1 or higher wind speeds across the Philippines and China, maximum sustained winds of 157 km/h (Category 2 equivalent, per JTWC data), and a maximum storm surge of 1.6 metres recorded on 25 July 2026. GDACS's event window closed at 26 July 2026 00:00 UTC with the alert's urgency status marked \"Past\" and no episode updates since; no allowlisted authoritative source has published a confirmed death toll, injury count, or evacuation figure for this storm, and with the cyclone dissipated and no further GDACS activity for five days, the event is assessed as resolved.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS assessed Tropical Cyclone NOUL-26 (Kiyapo) at an Orange alert level for medium humanitarian impact, with about 11.9 million people exposed to Category 1 or higher wind speeds across the Philippines and China between 23 and 26 July 2026. Maximum sustained winds reached 157 km/h (Category 2 equivalent per JTWC data), with a maximum storm surge of 1.6 metres recorded on 25 July 2026. No allowlisted authoritative source has yet published a confirmed death toll, injury count, or evacuation figure for this storm."
+          "summary": "GDACS assessed Tropical Cyclone NOUL-26 (Kiyapo) at an Orange alert level for medium humanitarian impact, with about 11.9 million people exposed to Category 1 or higher wind speeds across the Philippines and China between 23 and 26 July 2026. Maximum sustained winds reached 157 km/h (Category 2 equivalent per JTWC data), with a maximum storm surge of 1.6 metres recorded on 25 July 2026. As of 31 July 2026 GDACS's event window remains closed at 26 July with urgency status \"Past\" and no new episodes, and no allowlisted authoritative source has published a confirmed death toll, injury count, or evacuation figure for this storm."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001294",
         "location": {
@@ -1861,21 +1877,21 @@
         },
         "occurrence_date": "2026-07-23",
         "scale": "Category 2 equivalent (GDACS Orange alert)",
-        "status": "ongoing"
+        "status": "resolved"
       },
       "id": "typhoon-noul-kiyapo-2026",
-      "last_updated": "2026-07-26T09:17:47Z",
+      "last_updated": "2026-07-31T09:13:49Z",
       "name": "Typhoon Noul (Kiyapo) — Philippines & China",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-26T09:17:47Z",
+            "at": "2026-07-31T09:13:49Z",
             "layer": "verify",
-            "run_id": "2026-07-26T09-17-47Z-6bc36e"
+            "run_id": "2026-07-31T09-13-49Z-574b41"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-26T09-17-47Z-6bc36e"
+        "last_run_id": "2026-07-31T09-13-49Z-574b41"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1885,7 +1901,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
