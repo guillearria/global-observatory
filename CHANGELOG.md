@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-07-31 — Daily World Pulse refresh: update Gironde wildfire, resolve Typhoon Noul (`aecca61`)
+
+- **Updated:** france-wildfire-gironde-2026, typhoon-noul-kiyapo-2026
+
 ## 2026-07-30 — Daily World Pulse refresh: add Pakistan monsoon floods, update Ebola/West Bank/Afghanistan floods/Gironde & Madrid-Ávila wildfires (`f388741`)
 
 - **Added:** pakistan-floods-2026
@@ -148,6 +152,6 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 - **Added:** global-food-water-insecurity, global-forced-displacement
 
-## 2026-07-02 — Refresh World Pulse events: Ebola/Venezuela updates, add Mindanao quake (`7c0bfe0`)
+## 2026-07-02 — Merge pull request #4 from guillearria/retire-legacy-pipeline (`6fa0b5e`)
 
 - **Added:** ebola-bundibugyo-drc-2026, global-warming, influenza-pandemic, mindanao-earthquake-philippines-2026, near-earth-asteroid-impact, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
