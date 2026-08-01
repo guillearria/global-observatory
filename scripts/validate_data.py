@@ -3,9 +3,19 @@
 each record's trust fields (claim statuses, gate verdict, sort keys, placement) via
 `pipeline.audit`. Non-zero exit is the CI hard gate."""
 
+import json
 import sys
 
 from pipeline import audit, config, schema, store
+
+
+def _validate_source_allowlist() -> list[str]:
+    """Gate the trust root itself. Refresh runs can extend it, so it is validated like a record."""
+    try:
+        doc = json.loads(config.SOURCE_ALLOWLIST_PATH.read_text(encoding="utf-8"))
+    except Exception as e:  # noqa: BLE001 — report any unreadable file
+        return [f"source-allowlist.json: could not parse ({e})"]
+    return [f"source-allowlist.json: {m}" for m in schema.validate_source_allowlist(doc)]
 
 
 def _validate_dir(directory, kind: str = "threat", *, quarantined: bool = False) -> list[str]:
@@ -34,7 +44,8 @@ def _count(directory) -> int:
 
 def main() -> None:
     errs = (
-        _validate_dir(config.THREATS_DIR, "threat")
+        _validate_source_allowlist()
+        + _validate_dir(config.THREATS_DIR, "threat")
         + _validate_dir(config.QUARANTINE_DIR, "threat", quarantined=True)
         + _validate_dir(config.EVENTS_DIR, "event")
         + _validate_dir(config.QUARANTINE_EVENTS_DIR, "event", quarantined=True)
@@ -46,7 +57,8 @@ def main() -> None:
     if errs:
         sys.exit(1)
     print(
-        f"OK: validated {_count(config.THREATS_DIR)} threats "
+        f"OK: validated {len(config.SOURCE_ALLOWLIST)} allowlisted domains, "
+        f"{_count(config.THREATS_DIR)} threats "
         f"(+{_count(config.QUARANTINE_DIR)} quarantined), "
         f"{_count(config.EVENTS_DIR)} events (+{_count(config.QUARANTINE_EVENTS_DIR)} quarantined), "
         f"{_count(config.HISTORICAL_DIR)} historical "

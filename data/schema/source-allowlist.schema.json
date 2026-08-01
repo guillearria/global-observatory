@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://global-observatory/source-allowlist.schema.json",
+  "title": "Source allowlist",
+  "description": "The trust root: a claim is only `verified` when its citation host is, or is a subdomain of, a domain listed here. Refresh runs may add entries, so every entry must carry a written justification for why the institution is authoritative — that justification is the only record of why a domain was trusted.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "sources"],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["domain", "label", "category", "justification"],
+        "properties": {
+          "domain": {
+            "type": "string",
+            "description": "Registrable hostname, no scheme, no path, no leading dot. Subdomains match automatically, so list the broadest domain that is authoritative and add finer entries only for a better label.",
+            "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$"
+          },
+          "label": {
+            "type": "string",
+            "description": "Canonical source name written onto every claim citing this domain.",
+            "minLength": 2
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "cosmic",
+              "geological",
+              "nuclear",
+              "biological",
+              "climate",
+              "technological",
+              "resource",
+              "societal",
+              "event",
+              "historical"
+            ]
+          },
+          "justification": {
+            "type": "string",
+            "description": "Why this institution is authoritative for its category. Must be a real sentence, not a restatement of the label.",
+            "minLength": 40
+          }
+        }
+      }
+    }
+  }
+}

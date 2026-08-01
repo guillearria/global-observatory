@@ -1,0 +1,281 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "category": "geological",
+      "domain": "usgs.gov",
+      "justification": "The US Geological Survey is the authoritative publisher of earthquake magnitude, PAGER impact, and volcanic hazard data.",
+      "label": "USGS"
+    },
+    {
+      "category": "climate",
+      "domain": "noaa.gov",
+      "justification": "The US National Oceanic and Atmospheric Administration is the authoritative publisher of climate, atmospheric CO2, and space-weather measurements.",
+      "label": "NOAA"
+    },
+    {
+      "category": "cosmic",
+      "domain": "nasa.gov",
+      "justification": "NASA is the authoritative publisher of near-Earth object survey and planetary defense figures.",
+      "label": "NASA"
+    },
+    {
+      "category": "cosmic",
+      "domain": "cneos.jpl.nasa.gov",
+      "justification": "NASA's Center for Near-Earth Object Studies is the canonical source for impact-probability figures; a finer label than nasa.gov, which it also matches as a subdomain.",
+      "label": "NASA CNEOS"
+    },
+    {
+      "category": "cosmic",
+      "domain": "jpl.nasa.gov",
+      "justification": "NASA's Jet Propulsion Laboratory publishes the orbital determination data behind CNEOS; a finer label than nasa.gov.",
+      "label": "NASA JPL"
+    },
+    {
+      "category": "climate",
+      "domain": "ipcc.ch",
+      "justification": "The Intergovernmental Panel on Climate Change is the UN body whose assessment reports are the reference for attributed warming figures.",
+      "label": "IPCC"
+    },
+    {
+      "category": "climate",
+      "domain": "ipbes.net",
+      "justification": "The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services is the IPCC's counterpart for biodiversity assessment.",
+      "label": "IPBES"
+    },
+    {
+      "category": "biological",
+      "domain": "who.int",
+      "justification": "The World Health Organization is the UN specialized agency for outbreak case counts and public-health emergency declarations.",
+      "label": "WHO"
+    },
+    {
+      "category": "biological",
+      "domain": "cdc.gov",
+      "justification": "The US Centers for Disease Control and Prevention publishes authoritative epidemiological surveillance data.",
+      "label": "CDC"
+    },
+    {
+      "category": "biological",
+      "domain": "ecdc.europa.eu",
+      "justification": "The European Centre for Disease Prevention and Control is the EU counterpart to the CDC; a finer label than europa.eu, which it also matches as a subdomain.",
+      "label": "ECDC"
+    },
+    {
+      "category": "nuclear",
+      "domain": "iaea.org",
+      "justification": "The International Atomic Energy Agency is the UN body for nuclear safety and safeguards reporting.",
+      "label": "IAEA"
+    },
+    {
+      "category": "nuclear",
+      "domain": "sipri.org",
+      "justification": "The Stockholm International Peace Research Institute is an independent institute established by the Swedish Parliament and the canonical public reference for global nuclear-arsenal and military-expenditure figures. IAEA, the only other nuclear entry, does not publish arsenal counts.",
+      "label": "SIPRI"
+    },
+    {
+      "category": "resource",
+      "domain": "fao.org",
+      "justification": "The UN Food and Agriculture Organization is the authoritative source for food security and agricultural production figures.",
+      "label": "FAO"
+    },
+    {
+      "category": "resource",
+      "domain": "wfp.org",
+      "justification": "The UN World Food Programme publishes operational hunger and food-crisis figures.",
+      "label": "UN World Food Programme"
+    },
+    {
+      "category": "resource",
+      "domain": "unep.org",
+      "justification": "The UN Environment Programme is the UN authority on environmental and resource assessment.",
+      "label": "UN Environment Programme"
+    },
+    {
+      "category": "resource",
+      "domain": "iea.org",
+      "justification": "The International Energy Agency is the intergovernmental authority on energy supply and demand statistics.",
+      "label": "IEA"
+    },
+    {
+      "category": "societal",
+      "domain": "un.org",
+      "justification": "The United Nations is the primary intergovernmental source for cross-cutting global indicators.",
+      "label": "United Nations"
+    },
+    {
+      "category": "societal",
+      "domain": "worldbank.org",
+      "justification": "The World Bank is the reference publisher for global development and economic indicators.",
+      "label": "World Bank"
+    },
+    {
+      "category": "societal",
+      "domain": "oecd.org",
+      "justification": "The OECD publishes authoritative comparative economic and social statistics.",
+      "label": "OECD"
+    },
+    {
+      "category": "societal",
+      "domain": "europa.eu",
+      "justification": "Only EU institutions use europa.eu, so the domain itself establishes institutional authority.",
+      "label": "European Union"
+    },
+    {
+      "category": "societal",
+      "domain": "ohchr.org",
+      "justification": "The UN Office of the High Commissioner for Human Rights is the authority for human-rights and atrocity indicators.",
+      "label": "UN Human Rights (OHCHR)"
+    },
+    {
+      "category": "societal",
+      "domain": "unhcr.org",
+      "justification": "The UN Refugee Agency is the authority for forced-displacement and refugee figures.",
+      "label": "UNHCR"
+    },
+    {
+      "category": "societal",
+      "domain": "unesco.org",
+      "justification": "UNESCO is the UN specialized agency for education, cultural, and scientific indicators.",
+      "label": "UNESCO"
+    },
+    {
+      "category": "technological",
+      "domain": "nist.gov",
+      "justification": "The US National Institute of Standards and Technology authored the AI Risk Management Framework, the original anchor for technological claims.",
+      "label": "NIST"
+    },
+    {
+      "category": "technological",
+      "domain": "aisi.gov.uk",
+      "justification": "The UK AI Security Institute is a government AI risk research body; official quantified sources are scarce in this category, and without it technological claims always quarantine.",
+      "label": "UK AI Security Institute"
+    },
+    {
+      "category": "technological",
+      "domain": "oecd.ai",
+      "justification": "The OECD AI Policy Observatory is the intergovernmental reference for AI policy indicators.",
+      "label": "OECD.AI"
+    },
+    {
+      "category": "technological",
+      "domain": "itu.int",
+      "justification": "The International Telecommunication Union is the UN specialized agency for ICT and AI standards, and publishes the Global Cybersecurity Index.",
+      "label": "ITU"
+    },
+    {
+      "category": "event",
+      "domain": "gdacs.org",
+      "justification": "The Global Disaster Alert and Coordination System is UN/EU-backed and the primary real-time disaster alerting feed for World Pulse events.",
+      "label": "GDACS"
+    },
+    {
+      "category": "event",
+      "domain": "reliefweb.int",
+      "justification": "ReliefWeb is UN OCHA's humanitarian crisis reporting service and the reference feed for displacement and response figures.",
+      "label": "ReliefWeb"
+    },
+    {
+      "category": "event",
+      "domain": "imf.org",
+      "justification": "The International Monetary Fund is the authority for the economic event category, the same institutional tier as worldbank.org and oecd.org.",
+      "label": "IMF"
+    },
+    {
+      "category": "historical",
+      "domain": "britannica.com",
+      "justification": "Encyclopaedia Britannica has a stable named editorial board accountable for its entries, unlike community-edited references.",
+      "label": "Encyclopaedia Britannica"
+    },
+    {
+      "category": "historical",
+      "domain": "si.edu",
+      "justification": "The Smithsonian Institution is a US national museum and research complex with curatorial accountability for its published figures.",
+      "label": "Smithsonian Institution"
+    },
+    {
+      "category": "historical",
+      "domain": "loc.gov",
+      "justification": "The Library of Congress is the US national library and a primary-source custodian.",
+      "label": "Library of Congress"
+    },
+    {
+      "category": "historical",
+      "domain": "archives.gov",
+      "justification": "The US National Archives is the custodian of US federal primary records.",
+      "label": "U.S. National Archives"
+    },
+    {
+      "category": "historical",
+      "domain": "nationalarchives.gov.uk",
+      "justification": "The UK National Archives is the custodian of UK government primary records.",
+      "label": "UK National Archives"
+    },
+    {
+      "category": "historical",
+      "domain": "britishmuseum.org",
+      "justification": "The British Museum publishes curatorial scholarship on antiquity with named institutional accountability.",
+      "label": "British Museum"
+    },
+    {
+      "category": "historical",
+      "domain": "metmuseum.org",
+      "justification": "The Metropolitan Museum of Art publishes peer-reviewed curatorial scholarship, including its Heilbrunn Timeline of Art History.",
+      "label": "The Metropolitan Museum of Art"
+    },
+    {
+      "category": "historical",
+      "domain": "ourworldindata.org",
+      "justification": "Our World in Data is a curated research dataset publisher at the University of Oxford with documented sourcing for every series.",
+      "label": "Our World in Data"
+    },
+    {
+      "category": "historical",
+      "domain": "cambridge.org",
+      "justification": "Cambridge University Press is a peer-reviewed academic publisher.",
+      "label": "Cambridge University Press"
+    },
+    {
+      "category": "historical",
+      "domain": "oup.com",
+      "justification": "Oxford University Press is a peer-reviewed academic publisher; academic.oup.com matches as a subdomain.",
+      "label": "Oxford University Press"
+    },
+    {
+      "category": "historical",
+      "domain": "jstor.org",
+      "justification": "JSTOR hosts peer-reviewed scholarly literature with stable citations.",
+      "label": "JSTOR"
+    },
+    {
+      "category": "historical",
+      "domain": "nih.gov",
+      "justification": "The US National Institutes of Health publishes biomedical research and historical epidemiology.",
+      "label": "NIH"
+    },
+    {
+      "category": "historical",
+      "domain": "nlm.nih.gov",
+      "justification": "The US National Library of Medicine holds the medical-history collections; a finer label than nih.gov, which it also matches as a subdomain.",
+      "label": "U.S. National Library of Medicine"
+    },
+    {
+      "category": "historical",
+      "domain": "ushmm.org",
+      "justification": "The US Holocaust Memorial Museum is the reference institution for Holocaust documentation and death-toll scholarship.",
+      "label": "US Holocaust Memorial Museum"
+    },
+    {
+      "category": "historical",
+      "domain": "iwm.org.uk",
+      "justification": "Imperial War Museums is the UK national institution for twentieth-century conflict records.",
+      "label": "Imperial War Museums"
+    },
+    {
+      "category": "historical",
+      "domain": "history.state.gov",
+      "justification": "The US Office of the Historian publishes the official Foreign Relations of the United States documentary record.",
+      "label": "U.S. Office of the Historian"
+    }
+  ]
+}

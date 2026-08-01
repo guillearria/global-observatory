@@ -33,7 +33,7 @@ kind tests.
 ## 2. Trust model
 
 - **The gate decides, never the drafter.** `pipeline/gate.py:apply_gate` re-checks every claim's
-  `source_url` against `SOURCE_ALLOWLIST` (`pipeline/config.py`) — a deterministic Python domain
+  `source_url` against `data/source-allowlist.json` — a deterministic Python domain
   match. A claim marked verified but citing a non-allowlisted domain is downgraded to unverified.
 - The allowlist has informal tiers: official/intergovernmental agencies (USGS, WHO, UN, …),
   event-feed services (GDACS, ReliefWeb), and a scholarly/reference tier for the Historical Archive

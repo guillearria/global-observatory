@@ -36,12 +36,18 @@ jobs:
           files=$(git diff --name-only origin/main...HEAD)
           echo "changed files:"; echo "$files"
           # data/schema/ is excluded on purpose — it defines the gate, so it is code, not data.
+          # data/source-allowlist.json IS in scope: a refresh run may add a domain when a needed
+          # figure has no allowlisted source. validate_data.py schema-checks that file and
+          # requires a written justification per entry, and pipeline/changelog.py records every
+          # addition — those checks are what stand in for a reviewer here.
           data_dirs='data/(events|threats|historical|quarantine|quarantine-events|quarantine-historical)/'
           aggregates='frontend/data/(events|threats|historical)\.json$'
-          out_of_scope=$(echo "$files" | grep -vE "^(${data_dirs}|${aggregates}|CHANGELOG\.md$)" || true)
-          touches_data=$(echo "$files" | grep -E "^(${data_dirs}|${aggregates})" || true)
+          allowlist='data/source-allowlist\.json$'
+          in_scope="${data_dirs}|${aggregates}|${allowlist}"
+          out_of_scope=$(echo "$files" | grep -vE "^(${in_scope}|CHANGELOG\.md$)" || true)
+          touches_data=$(echo "$files" | grep -E "^(${in_scope})" || true)
           if [ -z "$files" ] || [ -n "$out_of_scope" ] || [ -z "$touches_data" ]; then
-            echo "Not a data-only branch — leaving it for human review."
+            echo "Not a data-only branch — leaving it for a human to merge."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
       - uses: actions/setup-python@v5

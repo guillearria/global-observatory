@@ -53,7 +53,7 @@ Draft the record minus the computed fields (`verification`, `sort_keys`, `proven
 allowlist decides verified vs quarantined, not you:
 
 1. Write the draft (slug matches `^[a-z0-9-]+$` and the filename), with each claim citing a real
-   `source_url` on an allowlisted domain (see `SOURCE_ALLOWLIST` in `pipeline/config.py`).
+   `source_url` on an allowlisted domain (see `data/source-allowlist.json`).
 2. Run `python scripts/author_threat.py draft.json` (writes to `data/threats/` or `data/quarantine/`),
    `python scripts/author_event.py draft.json` (writes to `data/events/` or
    `data/quarantine-events/`), or `python scripts/author_historical.py draft.json` (writes to

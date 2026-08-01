@@ -62,7 +62,7 @@ The full design is in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   allowlisted authoritative domain — USGS, WHO, IPCC, NASA/CNEOS, IAEA, CDC, NOAA, UN, NIST, GDACS,
   ReliefWeb, UNHCR, IMF, … plus a scholarly/reference tier for historical sourcing (Britannica,
   Smithsonian, Library of Congress, national archives and museums, Our World in Data, university
-  presses; deliberately no Wikipedia) — see `SOURCE_ALLOWLIST` in `pipeline/config.py`. The check is
+  presses; deliberately no Wikipedia) — see `data/source-allowlist.json`. The check is
   a deterministic Python domain match, never the model's say-so.
 - Records that fail verification are **not hidden**: they appear in an "Under review" section, clearly
   flagged as unverified, and are never presented as confirmed.

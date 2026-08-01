@@ -6,6 +6,7 @@ renders dated sections per commit listing added / updated / quarantined slugs.
 
 from __future__ import annotations
 
+import json
 import subprocess
 
 from . import config
@@ -13,6 +14,7 @@ from . import config
 _FMT = "%x00C%x00%h%x00%ad%x00%s"
 _PUBLISHED_DIRS = ("data/threats", "data/events", "data/historical")
 _QUARANTINE_DIRS = ("data/quarantine", "data/quarantine-events", "data/quarantine-historical")
+_ALLOWLIST_PATH = "data/source-allowlist.json"
 
 
 def _git(*args: str) -> str:
@@ -25,6 +27,27 @@ def _git(*args: str) -> str:
     ).stdout
 
 
+def _allowlist_domains_at(ref: str) -> set[str]:
+    """The set of allowlisted domains as of `ref`. Empty if the file did not exist yet."""
+    try:
+        raw = _git("show", f"{ref}:{_ALLOWLIST_PATH}")
+    except subprocess.CalledProcessError:
+        return set()  # before the file existed, or `ref` has no parent (root commit)
+    try:
+        return {entry["domain"] for entry in json.loads(raw)["sources"]}
+    except (ValueError, KeyError, TypeError):
+        return set()  # unparseable at that revision — nothing useful to report
+
+
+def _allowlist_added(commit: str) -> list[str]:
+    """Domains this commit added to the trust root, by diffing the file against its parent.
+
+    Surfaced in the changelog because nothing else surfaces it: a refresh run can extend the
+    allowlist and auto-publish, so this is the record of when a domain became trusted.
+    """
+    return sorted(_allowlist_domains_at(commit) - _allowlist_domains_at(f"{commit}^"))
+
+
 def _collect() -> list[dict]:
     out = _git(
         "log",
@@ -34,6 +57,7 @@ def _collect() -> list[dict]:
         "--",
         *_PUBLISHED_DIRS,
         *_QUARANTINE_DIRS,
+        _ALLOWLIST_PATH,
     )
     commits: list[dict] = []
     cur: dict | None = None
@@ -43,11 +67,15 @@ def _collect() -> list[dict]:
                 commits.append(cur)
             _, _tag, h, date, subject = line.split("\x00")
             cur = {"hash": h, "date": date, "subject": subject,
-                   "added": [], "updated": [], "quarantined": []}
+                   "added": [], "updated": [], "quarantined": [], "allowlisted": []}
         elif line.strip() and cur is not None and "\t" in line:
             parts = line.split("\t")
             status, path = parts[0], parts[-1]
             if not path.endswith(".json"):
+                continue
+            if path == _ALLOWLIST_PATH:
+                if status[0] in "AM":
+                    cur["allowlisted"] = _allowlist_added(cur["hash"])
                 continue
             slug = path.rsplit("/", 1)[-1].removesuffix(".json")
             if path.startswith(tuple(d + "/" for d in _QUARANTINE_DIRS)) and status[0] in "AM":
@@ -67,17 +95,24 @@ def render() -> str:
         "",
         (
             "_Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, "
-            "`data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by "
-            "`pipeline.changelog`. Do not edit by hand._"
+            "`data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and "
+            "`data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._"
         ),
         "",
     ]
     for c in _collect():
-        if not (c["added"] or c["updated"] or c["quarantined"]):
+        if not (c["added"] or c["updated"] or c["quarantined"] or c["allowlisted"]):
             continue
         lines.append(f"## {c['date']} — {c['subject']} (`{c['hash']}`)")
         lines.append("")
-        for label, key in (("Added", "added"), ("Updated", "updated"), ("Quarantined", "quarantined")):
+        for label, key in (
+            ("Added", "added"),
+            ("Updated", "updated"),
+            ("Quarantined", "quarantined"),
+            # Its own line, not folded into "Added": a new trusted domain is a change to what
+            # the gate will accept, not a change to what has been published.
+            ("Newly allowlisted domains", "allowlisted"),
+        ):
             slugs = sorted(set(c[key]))
             if slugs:
                 lines.append(f"- **{label}:** {', '.join(slugs)}")

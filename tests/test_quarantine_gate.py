@@ -1,7 +1,10 @@
 """The deterministic quarantine gate is the core trust defense — test it directly."""
 
+import json
+
 import pytest
 
+from pipeline import config, schema
 from pipeline.config import allowlisted
 from pipeline.gate import apply_gate
 
@@ -116,3 +119,41 @@ def test_new_domain_claim_publishes_through_gate():
     r = apply_gate(_rec([_claim("verified", "https://www.aisi.gov.uk/research")]))
     assert r["verification"]["status"] == "verified"
     assert r["claims"][0]["source_name"] == "UK AI Security Institute"
+
+
+# --- The allowlist data file is the trust root, and refresh runs can extend it with no
+# reviewer in the loop. These guard the file itself rather than the matching logic above.
+
+
+def test_every_allowlist_entry_carries_a_real_justification():
+    doc = json.loads(config.SOURCE_ALLOWLIST_PATH.read_text(encoding="utf-8"))
+    for entry in doc["sources"]:
+        justification = entry["justification"]
+        assert len(justification) >= 40, f"{entry['domain']}: justification too thin"
+        # A justification that just restates the label explains nothing about authority.
+        assert justification.strip() != entry["label"], f"{entry['domain']}: restates the label"
+
+
+def test_allowlist_file_passes_its_own_schema():
+    doc = json.loads(config.SOURCE_ALLOWLIST_PATH.read_text(encoding="utf-8"))
+    assert schema.validate_source_allowlist(doc) == []
+
+
+def test_allowlist_rejects_a_duplicate_domain():
+    doc = json.loads(config.SOURCE_ALLOWLIST_PATH.read_text(encoding="utf-8"))
+    first = doc["sources"][0]
+    doc["sources"].append({**first, "label": "Impostor"})
+    assert any("more than once" in m for m in schema.validate_source_allowlist(doc))
+
+
+def test_allowlist_rejects_a_domain_that_is_not_a_bare_hostname():
+    doc = json.loads(config.SOURCE_ALLOWLIST_PATH.read_text(encoding="utf-8"))
+    doc["sources"].append(
+        {
+            "domain": "https://evil.example.com/path",
+            "label": "Evil",
+            "category": "societal",
+            "justification": "A URL rather than a bare hostname, which would never match a host.",
+        }
+    )
+    assert any("domain" in m for m in schema.validate_source_allowlist(doc))

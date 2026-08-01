@@ -22,6 +22,10 @@ _SCHEMA_PATHS = {
     "threat": lambda: config.SCHEMA_PATH,
     "event": lambda: config.EVENT_SCHEMA_PATH,
     "historical": lambda: config.HISTORICAL_SCHEMA_PATH,
+    # Not a record kind — the allowlist is a single document, validated by
+    # validate_source_allowlist() rather than by validate(), which assumes a record
+    # (slug + range checks). It shares the loader so schemas load one way.
+    "source-allowlist": lambda: config.SOURCE_ALLOWLIST_SCHEMA_PATH,
 }
 
 
@@ -96,6 +100,32 @@ _RANGE_CHECKS = {
     "event": _event_range_checks,
     "historical": _historical_range_checks,
 }
+
+
+def validate_source_allowlist(doc: dict) -> list[str]:
+    """Validate the source allowlist document. Returns a list of problems (empty = valid).
+
+    Refresh runs can extend this file and it auto-publishes with no reviewer, so the checks
+    here are the only thing standing between a careless addition and a domain being treated
+    as authoritative. Duplicate domains are rejected in Python because the shape is a list
+    (chosen so entries can carry a justification), and JSON Schema cannot express uniqueness
+    on one property.
+    """
+    msgs = [
+        f"{list(e.absolute_path)}: {e.message}"
+        for e in sorted(
+            _validator("source-allowlist").iter_errors(doc), key=lambda e: list(e.absolute_path)
+        )
+    ]
+    seen: set[str] = set()
+    for entry in doc.get("sources", []):
+        domain = entry.get("domain") if isinstance(entry, dict) else None
+        if not isinstance(domain, str):
+            continue
+        if domain in seen:
+            msgs.append(f"domain {domain!r} is listed more than once")
+        seen.add(domain)
+    return msgs
 
 
 def validate(record: dict, kind: str = "threat") -> None:

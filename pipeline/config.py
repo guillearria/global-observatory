@@ -1,10 +1,14 @@
 """Static configuration: paths, the source allowlist, and ranking tables.
 
-Kept side-effect free so every other module and the tests can import it cheaply.
+Kept side-effect free so every other module and the tests can import it cheaply. The one
+exception is the source allowlist, which is read from `data/source-allowlist.json` at import
+(see below) — it is curated data, not code, so that refresh runs can extend it through the
+same auto-publish path as records.
 """
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -31,76 +35,27 @@ FRONTEND_HISTORICAL_DATA = ROOT / "frontend" / "data" / "historical.json"
 CHANGELOG_PATH = ROOT / "CHANGELOG.md"
 
 # --- Source allowlist ------------------------------------------------------
-# A claim is only considered `verified` when its citation host is, or is a
-# subdomain of, a domain on this list. Map domain -> canonical source label.
-# Subdomains match automatically (e.g. cneos.jpl.nasa.gov matches nasa.gov),
-# so the finer-grained entries below exist only to provide a better label.
-SOURCE_ALLOWLIST: dict[str, str] = {
-    # geological / climate / cosmic
-    "usgs.gov": "USGS",
-    "noaa.gov": "NOAA",
-    "nasa.gov": "NASA",
-    "cneos.jpl.nasa.gov": "NASA CNEOS",
-    "jpl.nasa.gov": "NASA JPL",
-    "ipcc.ch": "IPCC",
-    "ipbes.net": "IPBES",
-    # biological / health
-    "who.int": "WHO",
-    "cdc.gov": "CDC",
-    "ecdc.europa.eu": "ECDC",
-    # nuclear
-    "iaea.org": "IAEA",
-    # SIPRI — Stockholm International Peace Research Institute, an independent institute
-    # established by the Swedish Parliament; the canonical public reference for global
-    # nuclear-arsenal and military-expenditure figures (IAEA, the only other nuclear
-    # entry, does not publish arsenal counts).
-    "sipri.org": "SIPRI",
-    # resource (food / water / energy)
-    "fao.org": "FAO",
-    "wfp.org": "UN World Food Programme",
-    "unep.org": "UN Environment Programme",
-    "iea.org": "IEA",
-    # societal / cross-cutting
-    "un.org": "United Nations",
-    "worldbank.org": "World Bank",
-    "oecd.org": "OECD",
-    "europa.eu": "European Union",  # EU institutions (only EU bodies use europa.eu)
-    "ohchr.org": "UN Human Rights (OHCHR)",  # human-rights / atrocity indicators
-    "unhcr.org": "UNHCR",  # forced displacement / refugee figures
-    "unesco.org": "UNESCO",  # education / cultural / scientific indicators
-    # technological (AI risk) — official quantified sources are scarce here.
-    # NIST's AI Risk Management Framework was the only anchor; the additions
-    # below are official government / intergovernmental AI bodies so
-    # technological claims can verify instead of always quarantining.
-    "nist.gov": "NIST",
-    "aisi.gov.uk": "UK AI Security Institute",  # UK govt AI risk research body
-    "oecd.ai": "OECD.AI",  # OECD AI Policy Observatory (intergovernmental)
-    "itu.int": "ITU",  # UN specialized agency for ICT / AI standards
-    # World Pulse (event) sourcing — disaster/crisis-specific authoritative feeds
-    "gdacs.org": "GDACS",  # UN/EU-backed Global Disaster Alert and Coordination System
-    "reliefweb.int": "ReliefWeb",  # UN OCHA's humanitarian crisis reporting service
-    "imf.org": "IMF",  # for the "economic" event category, same tier as worldbank.org/oecd.org
-    # Historical Archive sourcing — scholarly/reference tier: encyclopedias, national
-    # museums/archives/libraries, university presses, and curated research datasets, for
-    # well-attested figures about the past. Deliberately NO Wikipedia (community-edited,
-    # no stable editorial authority to hold accountable).
-    "britannica.com": "Encyclopaedia Britannica",
-    "si.edu": "Smithsonian Institution",
-    "loc.gov": "Library of Congress",
-    "archives.gov": "U.S. National Archives",
-    "nationalarchives.gov.uk": "UK National Archives",
-    "britishmuseum.org": "British Museum",
-    "metmuseum.org": "The Metropolitan Museum of Art",
-    "ourworldindata.org": "Our World in Data",
-    "cambridge.org": "Cambridge University Press",
-    "oup.com": "Oxford University Press",  # academic.oup.com matches as a subdomain
-    "jstor.org": "JSTOR",
-    "nih.gov": "NIH",
-    "nlm.nih.gov": "U.S. National Library of Medicine",  # finer label wins by specificity
-    "ushmm.org": "US Holocaust Memorial Museum",
-    "iwm.org.uk": "Imperial War Museums",
-    "history.state.gov": "U.S. Office of the Historian",
-}
+# The trust root. A claim is only considered `verified` when its citation host is,
+# or is a subdomain of, a domain on this list. Subdomains match automatically (e.g.
+# cneos.jpl.nasa.gov matches nasa.gov), so the finer-grained entries exist only to
+# provide a better label.
+#
+# This lives in data/, not here, because refresh runs may extend it: a domain the
+# curation path can add is data by definition. Each entry carries a written
+# justification (enforced by data/schema/source-allowlist.schema.json and checked by
+# scripts/validate_data.py) — with no review step, that justification and the
+# CHANGELOG entry are the only record of why a domain came to be trusted.
+SOURCE_ALLOWLIST_PATH = DATA_DIR / "source-allowlist.json"
+SOURCE_ALLOWLIST_SCHEMA_PATH = DATA_DIR / "schema" / "source-allowlist.schema.json"
+
+
+def _load_source_allowlist() -> dict[str, str]:
+    """Read the allowlist data file into the domain -> label map `allowlisted` uses."""
+    raw = json.loads(SOURCE_ALLOWLIST_PATH.read_text(encoding="utf-8"))
+    return {entry["domain"]: entry["label"] for entry in raw["sources"]}
+
+
+SOURCE_ALLOWLIST: dict[str, str] = _load_source_allowlist()
 
 # Severity / probability -> integer rank, used by curate.compute_sort_keys.
 SEVERITY_RANK = {"regional": 1, "continental": 2, "civilizational": 3, "extinction": 4}
