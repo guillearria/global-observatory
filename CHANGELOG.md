@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-01 — Refresh threats: asteroid/climate updates, add extreme geomagnetic storm (`0a3be82`)
+
+- **Added:** extreme-geomagnetic-storm
+- **Updated:** global-warming, near-earth-asteroid-impact
+
 ## 2026-08-01 — Daily World Pulse refresh: add Jilin floods/Tunisia & Castellón wildfires, correct China floods displacement, update Venezuela/Ebola/West Bank/Gironde/Algeria (`ca906ca`)
 
 - **Added:** china-floods-jilin-2026, spain-wildfire-castellon-2026, tunisia-wildfires-2026
@@ -136,7 +141,7 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 - **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, sudan-displacement-crisis, venezuela-earthquake-2026
 
-## 2026-07-05 — Fix stale docs, comments, and command scoping leftovers (`955d591`)
+## 2026-07-05 — Allow optional lat/lon coordinates on event locations (`bbe4744`)
 
 - **Added:** advanced-ai-risk, ebola-bundibugyo-drc-2026, global-food-water-insecurity, global-forced-displacement, global-warming, influenza-pandemic, mindanao-earthquake-philippines-2026, near-earth-asteroid-impact, nuclear-war, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
 
@@ -153,10 +158,6 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 - **Updated:** ebola-bundibugyo-drc-2026
 
-## 2026-07-02 — Seed nuclear + technological threats: nuclear war, advanced AI risk (#7) (`e2dce55`)
+## 2026-07-02 — Consistency pass after the merges; backlog the untested threats path (`60c47c4`)
 
-- **Added:** advanced-ai-risk, nuclear-war
-
-## 2026-07-02 — Seed resource and societal threats: food/water insecurity, forced displacement (#6) (`2213464`)
-
-- **Added:** ebola-bundibugyo-drc-2026, global-food-water-insecurity, global-forced-displacement, global-warming, influenza-pandemic, mindanao-earthquake-philippines-2026, near-earth-asteroid-impact, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
+- **Added:** advanced-ai-risk, ebola-bundibugyo-drc-2026, global-food-water-insecurity, global-forced-displacement, global-warming, influenza-pandemic, mindanao-earthquake-philippines-2026, near-earth-asteroid-impact, nuclear-war, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
