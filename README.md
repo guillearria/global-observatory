@@ -67,7 +67,8 @@ The full design is in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 - Records that fail verification are **not hidden**: they appear in an "Under review" section, clearly
   flagged as unverified, and are never presented as confirmed.
 - Known limit (MVP): verification confirms that an authoritative source was *cited*, not deep semantic
-  entailment that the source supports the claim. The `disputed`/`partial` statuses give reviewers a hook.
+  entailment that the source supports the claim. The `disputed`/`partial` statuses give a later audit
+  pass a hook.
 - **Staleness banner:** the events and threats tabs warn if the data hasn't refreshed recently
   (events: >2 days; threats: >10 days) — the mechanism-agnostic signal that the refresh schedule
   has stopped firing. A scheduled GitHub Actions workflow

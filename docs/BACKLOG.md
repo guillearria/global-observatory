@@ -3,6 +3,56 @@
 Known gaps and next iterations, roughly priority-ordered. Items marked *(Done)* are kept briefly
 for context and pruned once uninteresting.
 
+## State as of 2026-08-01
+
+Everything below landed on `main` that day and is verified green: `validate` (first green run on
+`main` since 2026-07-11) and `staleness` (green after 32 consecutive failures).
+
+The day's work started from two red workflows and ended with the PR step removed everywhere:
+
+1. **`validate` was red because of dependency drift, not any change.** `pyproject.toml` declared
+   `ruff>=0.6` unbounded with no explicit rule selection, so CI floated to ruff 0.16.0, whose
+   widened defaults produced 16 errors on a data-only PR. `main` was lint-broken too, unnoticed for
+   five days. Fixed by pinning `ruff>=0.16,<0.17` **and** declaring `[tool.ruff.lint] select` — the
+   pin alone would not have been enough, since the drift was in what the defaults *meant*.
+2. **`staleness` was red because it was correct.** Threat data was 21 days old because the weekly
+   refresh opened PRs nobody merged. The alarm was working; the review queue was not.
+3. **The PR step is gone for all curated data**, including the source allowlist (see below).
+
+### Trust-model change — the allowlist became agent-editable (2026-08-01)
+
+`SOURCE_ALLOWLIST` moved from `pipeline/config.py` to `data/source-allowlist.json`, and refresh runs
+may now extend it. **This is a real reduction in the trust guarantee and should be re-examined, not
+inherited unquestioned.** Previously an agent could only cite domains a human had vetted; now it can
+add a domain and then cite it, so "every published figure is grounded in an authoritative source" is
+a claim the system makes about itself.
+
+The mitigations actually in place, so a future session can judge whether they held rather than
+rediscovering the decision:
+
+- Only the allowlist **data** auto-publishes. `data/schema/` and `pipeline/` remain out of the
+  `publish` scope, so a run can add a domain but never loosen the rules that check it.
+- `data/schema/source-allowlist.schema.json` requires a bare hostname, a category from a fixed enum,
+  and a `justification` past a length floor. `scripts/validate_data.py` gates the file and rejects
+  duplicate domains.
+- `pipeline/changelog.py` lists every newly allowlisted domain in `CHANGELOG.md`.
+- The refresh commands require the **institution's own domain** — never an aggregator or news
+  outlet — and require the addition to be called out in the run's final summary.
+
+**Know exactly what the mitigations do and do not catch.** Verified by trying it: a malformed entry
+fails the gate — a thin justification, a duplicate domain, a URL where a hostname belongs, a
+category outside the enum. But a *well-formed* entry for a domain that is not an institution
+(`newsaggregator.example`, with a plausible justification) passes every mechanical check. The
+"institution's own domain, never an aggregator" rule lives only in the refresh command prompts, so
+it constrains a cooperative agent and nothing else. That gap is the real residual risk, not
+malformed JSON.
+
+**What to check later:** whether any domain has actually been added, and whether its justification
+holds up. `git log -p -- data/source-allowlist.json` is the whole history, and `CHANGELOG.md` lists
+additions per commit. If additions turn out to be sloppy, the cheapest correction is not restoring
+PRs but tightening the schema — an institutional-TLD constraint, or a cap on additions per commit,
+either of which would move the aggregator rule from prompt to enforcement.
+
 ## Next up — verify threats auto-publish end-to-end
 
 **The weekly threats routine now auto-publishes; its first run under the new `publish` workflow is
@@ -45,6 +95,29 @@ check — but a single lost day passes unnoticed. Worth fixing: the `frontend/da
 are spurious (the aggregates are derived and could simply be rebuilt post-merge), which would leave
 only genuine record-level conflicts to fail on. Have the refresh commands `git pull --rebase` onto
 current `main` before pushing, too.
+
+## Housekeeping — small, known, not yet done
+
+- **Five orphaned remote branches.** `claude/trusting-archimedes-{t109kw,h17mg9,vhto1g}` (the closed
+  threat PRs #12/#13/#14) and `claude/trusting-wright-{cyb9hp,ls09pf}` (leftover events runs, one of
+  them the conflicted 2026-07-13 publish above). Deleting them failed from the cloud session — the
+  git proxy rejects delete refspecs with `send-pack: unexpected disconnect` — so they need removing
+  from a local clone or the GitHub UI. Worth doing rather than ignoring: the refresh commands now
+  tell each run to inspect leftover `claude/*` branches before drafting, so stale ones actively
+  mislead.
+- **The ruff pin needs a human bump eventually.** `ruff>=0.16,<0.17` stops the drift that broke CI,
+  but nothing adopts 0.17 on its own. When bumping, expect new findings and treat them as the pin
+  having done its job — not as a regression.
+- **`changelog.regenerate()` is not deterministic across clones.** Regenerating on a clean `main`
+  already produces a diff against the committed `CHANGELOG.md`: older entries get re-attributed to
+  different commits depending on the clone's graph. Pre-existing, cosmetic, and unchecked by CI, but
+  it means "regenerate and commit" always churns beyond the new entry.
+- **The 2026-07-27 threat claims were verified by reading, not refetching.** The cloud session that
+  landed them had an egress policy blocking `noaa.gov`, `nasa.gov` and `ipcc.ch` (403 at the CONNECT
+  tunnel), so the cited pages could not be re-opened. They were accepted because every claim is
+  anchored to a closed period — a June 2026 monthly mean, the 2025 annual ranking, an 1859 event, a
+  February 2025 probability peak — none of which five days of age can falsify. A refresh routine
+  running in its own cloud session has different egress and re-verifies them normally.
 
 ## Trust & verification
 

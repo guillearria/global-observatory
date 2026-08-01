@@ -3,8 +3,8 @@
 The write-time pipeline (`curate.finalize`) computes claim statuses, the verification
 verdict, and sort keys exactly once, at authoring time. This module re-derives all of
 them from nothing but the record's own claims and the domain allowlist, so a second,
-independent layer (`scripts/validate_data.py`, run by CI on every PR and push to main)
-can confirm the stored verdicts. A record whose trust fields were edited after the gate
+independent layer (`scripts/validate_data.py`, run by CI on every push to main and by the
+`publish` workflow before it auto-merges) can confirm the stored verdicts. A record whose trust fields were edited after the gate
 ran — a swapped source URL, an upgraded verification status, inflated sort keys, or a
 quarantined record dropped into a published directory — fails loudly instead of shipping.
 

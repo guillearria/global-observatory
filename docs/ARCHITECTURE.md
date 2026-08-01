@@ -13,6 +13,7 @@ authoritative figures, not a forecast.**
 | What | Standing risks (supervolcano, pandemic, nuclear war, …) | Dated occurrences (earthquake, outbreak, displacement crisis) | Major past events (Black Death, Tambora, 1918 flu, …) |
 | Records | `data/threats/*.json` | `data/events/*.json` | `data/historical/*.json` |
 | Schema | `data/schema/threat.schema.json` | `data/schema/event.schema.json` | `data/schema/historical.schema.json` |
+| Sources | `data/source-allowlist.json` — one shared allowlist, one gate | ← same | ← same |
 | Domain block | `assessment` (probability × severity) | `event` (date, location, status, scale, impact) | `historical` (BCE-capable chronology, era, estimate-range impact) |
 | Sort | severity-dominant | recency-dominant (today outranks last month) | chronological (oldest first, grouped by era) |
 | Cadence | weekly, via `/refresh-threats` | daily, via `/refresh-events` | ad hoc, via `/refresh-history` |
@@ -39,6 +40,14 @@ kind tests.
   event-feed services (GDACS, ReliefWeb), and a scholarly/reference tier for the Historical Archive
   (Britannica, Smithsonian, national archives/museums, Our World in Data, university presses —
   deliberately no Wikipedia). One list, one gate: every kind passes the same check.
+- **The allowlist is data, and refresh runs may extend it** (`data/source-allowlist.json`, validated
+  by `data/schema/source-allowlist.schema.json`). This is the trust model's weakest joint and worth
+  stating outright: an agent that can allowlist a domain can then cite it, so the guarantee is no
+  longer "a human vetted every source" but "every source is a named institution with a written,
+  published reason for being trusted". What holds it together is that additions cannot be silent —
+  the schema demands a real justification, `validate_data.py` gates the file and rejects duplicates,
+  the `publish` scope guard still refuses any change to `data/schema/`, and `pipeline/changelog.py`
+  lists every newly allowlisted domain in `CHANGELOG.md`.
 - A record publishes only with **≥1 verified claim and 0 disputed claims**; otherwise it is written
   to the kind's quarantine dir (`data/quarantine/`, `data/quarantine-events/`,
   `data/quarantine-historical/`) and rendered by the frontend under "Under review", clearly
@@ -46,10 +55,11 @@ kind tests.
 - Categorical fields (a threat's severity/probability estimate, an event's status/scale) are
   editorial judgment; the **numeric claims** are what must cite an allowlisted source.
 - **Known limit:** the gate verifies that an authoritative source was *cited*, not deep semantic
-  entailment that the source supports the claim. The `disputed`/`partial` statuses give reviewers a
-  hook; the README states the limit plainly.
-- To propose a new authoritative domain, PR an addition to `SOURCE_ALLOWLIST` with a one-line
-  justification (see CONTRIBUTING.md).
+  entailment that the source supports the claim. The `disputed`/`partial` statuses give a later
+  audit pass a hook; the README states the limit plainly.
+- To add an authoritative domain, append an entry to `data/source-allowlist.json` with a written
+  `justification`. It is data, so it auto-publishes like a record — the schema, the hard gate, and
+  a CHANGELOG line per addition are what stand in for review (see CONTRIBUTING.md).
 
 ## 3. Data model — git is the database
 
@@ -103,7 +113,8 @@ publishes without passing `finalize`.
 
 ```
 pipeline/
-  config.py     paths, SOURCE_ALLOWLIST + allowlisted(), rank tables
+  config.py     paths, rank tables, allowlisted() + the allowlist loaded from
+                data/source-allowlist.json (curated data, not code — refresh runs extend it)
   gate.py       apply_gate — the deterministic quarantine gate (imports only config)
   curate.py     finalize/write + _normalize + compute_sort_keys — the whole authoring path
   models.py     deterministic dumps, slugs, run ids, provenance stamp, index_of
@@ -142,8 +153,9 @@ null, and the banner guard requires a finite threshold).
 
 ## 7. Operations
 
-- **`validate.yml`** — on every PR/push: ruff, pytest, `validate_data.py` (the hard schema gate),
-  frontend build. Also `workflow_dispatch`-able, and dispatched by `publish` after each auto-merge:
+- **`validate.yml`** — on every push to `main` (and on a PR, if anyone opens one): ruff, pytest,
+  `validate_data.py` (the hard schema gate), frontend build. Also `workflow_dispatch`-able, and
+  dispatched by `publish` after each auto-merge:
   `publish` pushes to `main` with `GITHUB_TOKEN`, and token pushes do not retrigger `push`
   workflows, so without that dispatch `validate` would silently stop running on `main`.
   Ruff is pinned to a minor range in `pyproject.toml` with an explicit `[tool.ruff.lint] select` —
@@ -152,10 +164,12 @@ null, and the banner guard requires a finite threshold).
   `frontend/` to GitHub Pages.
 - **`publish.yml`** — the auto-publish bridge for all three datasets: when a cloud session pushes a
   `claude/*` branch, it merges to `main` only if the branch touches nothing but curated data
-  (`data/{events,threats,historical,quarantine*}/`) + the aggregates + CHANGELOG, and passes schema
-  validation with byte-exact aggregates. `data/schema/` is excluded — it defines the gate, so it is
-  code. Anything else is left for a human merge. This enforces the refresh commands' write-scope
-  rule mechanically, and is the reason no dataset needs a review queue.
+  (`data/{events,threats,historical,quarantine*}/`, `data/source-allowlist.json`) + the aggregates
+  + CHANGELOG, and passes schema validation with byte-exact aggregates. `data/schema/` is excluded —
+  it defines the gate, so it is code, and that asymmetry is the point: a refresh run can add a
+  domain to the allowlist but never loosen the rules that check it. Anything else is left for a
+  human merge. This enforces the refresh commands' write-scope rule mechanically, and is the reason
+  no dataset needs a review queue.
 - **`staleness.yml`** — daily scheduled check that fails loudly (GitHub notification) if the
   committed `frontend/data/*.json` goes stale (>2 days events / >10 days threats;
   `historical.json` deliberately exempt) — the server-side complement to the frontend banner,

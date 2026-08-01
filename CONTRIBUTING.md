@@ -70,8 +70,17 @@ Claims are only considered `verified` when their citation resolves to a domain o
 `pipeline/config.py` — USGS, WHO, IPCC, NASA/CNEOS, IAEA, CDC, NOAA, UN, GDACS, ReliefWeb, IMF, …,
 plus a scholarly/reference tier for the Historical Archive (Britannica, Smithsonian, Library of
 Congress, national archives and museums, Our World in Data, university presses; deliberately no
-Wikipedia). To propose a new authoritative source, open a PR that adds the domain to
-`SOURCE_ALLOWLIST` with a one-line justification for why it is authoritative for its category.
+Wikipedia). To add a new authoritative source, append an entry to `data/source-allowlist.json`
+with a `justification` explaining why the institution is authoritative for its category. The file
+is data, so it auto-publishes like a record — there is no PR step. What constrains it instead:
+`data/schema/source-allowlist.schema.json` requires a bare hostname, a category from the fixed
+enum, and a justification long enough to be a real sentence; `scripts/validate_data.py` gates the
+file in CI and rejects duplicate domains; and `pipeline/changelog.py` records every added domain in
+`CHANGELOG.md`.
+
+The rule the refresh commands follow, and you should too: allowlist the **institution's own
+domain**, never an aggregator, news outlet, or press-release wire reporting on it. If a figure only
+exists via a third party, the claim stays `unverified` — that is the system working.
 
 ## Local development
 
