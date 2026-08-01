@@ -1,0 +1,75 @@
+# The auto-publish bridge for every curated dataset. Cloud refresh sessions can only push
+# to their own claude/* branch — never main — so this workflow closes the gap: it merges a
+# claude/* branch into main ONLY when the branch (a) touches nothing but curated data + the
+# aggregates + CHANGELOG, and (b) passes schema validation with aggregates that exactly match
+# the records. Anything else is skipped and left alone for a human.
+#
+# There is deliberately no human review step for data. The verification layer is the
+# deterministic trust gate — allowlisted sources, schema validation, and aggregates that must
+# reproduce byte-for-byte from the records — not a reviewer. Threats and historical records used
+# to go through a PR; in practice the queue went undrained for three weeks, the published data
+# went stale, and each weekly run re-proposed the same records under new slugs. An enforced gate
+# that always runs beats a review that sometimes does.
+#
+# Code changes (pipeline/, scripts/, .github/, frontend/ app code, pyproject.toml, data/schema/)
+# are out of scope by design and still reach main by human merge.
+name: publish
+on:
+  push:
+    branches: ["claude/**"]
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: publish # one at a time: a threats run and an events run must not race onto main
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Skip unless the branch is data-only
+        id: scope
+        run: |
+          files=$(git diff --name-only origin/main...HEAD)
+          echo "changed files:"; echo "$files"
+          # data/schema/ is excluded on purpose — it defines the gate, so it is code, not data.
+          data_dirs='data/(events|threats|historical|quarantine|quarantine-events|quarantine-historical)/'
+          aggregates='frontend/data/(events|threats|historical)\.json$'
+          out_of_scope=$(echo "$files" | grep -vE "^(${data_dirs}|${aggregates}|CHANGELOG\.md$)" || true)
+          touches_data=$(echo "$files" | grep -E "^(${data_dirs}|${aggregates})" || true)
+          if [ -z "$files" ] || [ -n "$out_of_scope" ] || [ -z "$touches_data" ]; then
+            echo "Not a data-only branch — leaving it for human review."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.scope.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+      - name: Validate schema + aggregate integrity
+        if: steps.scope.outputs.skip != 'true'
+        run: |
+          pip install -e .
+          python scripts/validate_data.py
+          python scripts/build_frontend.py
+          git diff --exit-code  # committed aggregates must match the records exactly
+      - name: Merge into main and clean up the branch
+        if: steps.scope.outputs.skip != 'true'
+        run: |
+          git config user.name "global-observatory-publisher"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          sha=$(git rev-parse HEAD)
+          git checkout -B publish origin/main
+          git merge --no-edit "$sha"   # a conflict fails the job loudly — that's intended
+          git push origin publish:main
+          git push origin --delete "$GITHUB_REF_NAME"
+      - name: Redeploy Pages and re-run validate (token pushes don't retrigger push workflows)
+        if: steps.scope.outputs.skip != 'true'
+        run: |
+          gh workflow run pages.yml --ref main
+          gh workflow run validate.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}

@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from pathlib import Path
 
 from pipeline import curate
 
@@ -26,7 +27,7 @@ def main() -> None:
     ap.add_argument("draft", help="Path to a draft JSON file, or '-' to read from stdin.")
     args = ap.parse_args()
 
-    raw = sys.stdin.read() if args.draft == "-" else open(args.draft, encoding="utf-8").read()
+    raw = sys.stdin.read() if args.draft == "-" else Path(args.draft).read_text(encoding="utf-8")
     record = json.loads(raw)
 
     rec, path, quarantined = curate.write(record, kind="event")

@@ -4,6 +4,10 @@ on:
   pull_request:
   push:
     branches: [main]
+  # `publish` merges to main with GITHUB_TOKEN, and token pushes don't retrigger `push`
+  # workflows — so without this, validate would silently stop running on main. The publish
+  # workflow dispatches it explicitly after every auto-merge.
+  workflow_dispatch: {}
 
 jobs:
   validate:

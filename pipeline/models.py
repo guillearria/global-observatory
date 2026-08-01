@@ -10,7 +10,7 @@ from __future__ import annotations
 import json
 import re
 import secrets
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 SCHEMA_VERSION = "1.0"
 _SLUG_RE = re.compile(r"^[a-z0-9-]+$")
@@ -27,11 +27,11 @@ def slug_ok(slug: str) -> bool:
 
 
 def utc_now_iso() -> str:
-    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def utc_now_compact() -> str:
-    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%SZ")
+    return datetime.now(UTC).strftime("%Y-%m-%dT%H-%M-%SZ")
 
 
 def short_random() -> str:

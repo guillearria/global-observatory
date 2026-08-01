@@ -3,26 +3,30 @@
 Known gaps and next iterations, roughly priority-ordered. Items marked *(Done)* are kept briefly
 for context and pruned once uninteresting.
 
-## Next up — the one untested path
+## Next up — verify threats auto-publish end-to-end
 
-**The weekly threats routine's first scheduled run (Monday 10:00 UTC → `/refresh-threats`) has
-never executed in the cloud.** The daily events path was verified end-to-end on 2026-07-02
-(research → gate → session branch → `publish-events` merge → deploy), but the threats path differs
-in its last step: the cloud session pushes its `claude/*` branch (correctly skipped by
-`publish-events`, since it touches threat data) and must then open a PR. Whether the sandbox can
-open the PR itself is unverified — watch Monday's run; if the branch appears without a PR, open it
-by hand and adjust the command/routine accordingly.
+**The weekly threats routine now auto-publishes; its first run under the new `publish` workflow is
+unverified.** The PR-review step was removed on 2026-08-01 after it failed in exactly the way a
+review queue fails: the routine opened PRs #12, #13 and #14 on three consecutive Mondays, nobody
+merged them, `frontend/data/threats.json` went 21 days stale, and — because each run listed
+existing slugs from `main` only — the same records were re-proposed three times under different
+slugs (`geomagnetic-storm` → `severe-` → `extreme-`). All three datasets now flow through
+`.github/workflows/publish.yml`. Watch the next Monday run: the `claude/*` branch should be
+auto-merged and deleted, with `pages` and `validate` dispatched afterward.
 
 ## Operations — the refresh schedule
 
 Both refresh routines are configured as Claude Code scheduled cloud agents (managed at
 claude.ai/code/routines):
 
-1. **World Pulse daily refresh** — daily 09:00 UTC → `/refresh-events`. Auto-publish: the session
-   pushes its own `claude/*` branch and `.github/workflows/publish-events.yml` merges it to `main`
-   after re-validating schema + an events-only diff. *(Verified end-to-end 2026-07-02.)*
-2. **Existential threats weekly refresh** — Mondays 10:00 UTC → `/refresh-threats` (opens a PR
-   for human review; see "Next up" above).
+Both auto-publish the same way: the session pushes its own `claude/*` branch and
+`.github/workflows/publish.yml` merges it to `main` after re-validating schema + a data-only diff +
+byte-exact aggregates.
+
+1. **World Pulse daily refresh** — daily 09:00 UTC → `/refresh-events`. *(Verified end-to-end
+   2026-07-02.)*
+2. **Existential threats weekly refresh** — Mondays 10:00 UTC → `/refresh-threats`. *(Auto-publish
+   path not yet verified — see "Next up" above.)*
 
 Both prompts tell the agent to `pip install -e ".[dev]"` first and to stop — not publish — if
 validation or tests fail. If a routine silently stops, the frontend's staleness banner

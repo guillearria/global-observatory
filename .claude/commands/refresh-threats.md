@@ -1,5 +1,5 @@
 ---
-description: Research and curate threat records on the Max plan ($0 API), then open a PR.
+description: Research and curate threat records on the Max plan ($0 API), auto-published via the trust gate — no PR.
 ---
 
 You are curating the Existential Threats dataset **on a Claude Max subscription using your own
@@ -43,6 +43,17 @@ Target for this run: **$ARGUMENTS**
    python -c "import json; from pipeline import store, models; print(json.dumps(models.index_of(list(store.load_all().values())), indent=2))"
    ```
 
+   **Also check for unpublished work before proposing anything new:**
+   ```sh
+   git fetch origin && git branch -r --list 'origin/claude/*'
+   ```
+   A `claude/*` branch that still exists is one the `publish` workflow has not merged — it either
+   just ran or it was rejected. Diff it (`git diff origin/main...origin/<branch> --name-only`)
+   before drafting: if it already adds a record for the concept you were about to cover, extend
+   that branch instead of opening a new one. Skipping this check is what once produced
+   `geomagnetic-storm`, `severe-geomagnetic-storm`, and `extreme-geomagnetic-storm` as three
+   separate records across three runs.
+
 2. **Research** each target threat with WebSearch, then WebFetch the authoritative page(s) to confirm
    exact figures and capture the real `source_url`.
 
@@ -65,10 +76,10 @@ Target for this run: **$ARGUMENTS**
    python -c "from pipeline import changelog; changelog.regenerate()"
    ```
 
-6. **Open a PR for human review** — factual content is never pushed straight to `main`. Commit
-   `data/threats/` (+ `data/quarantine/` if anything was quarantined), the regenerated
-   `frontend/data/threats.json`, and `CHANGELOG.md`, then push (in a cloud session the push
-   lands on your session's own `claude/…` branch — that's fine; the `publish-events` workflow
-   deliberately skips threats branches). Then open a PR from that branch summarizing each threat
-   and its sources; if you cannot open a PR from your environment, say so in your final report so
-   a human opens it. On merge, the `pages` workflow redeploys the site automatically.
+6. **Commit and push — no PR.** Every dataset auto-publishes; the deterministic gate is the
+   verification layer, not a reviewer. Commit `data/threats/` (+ `data/quarantine/` if anything
+   was quarantined), the regenerated `frontend/data/threats.json`, and `CHANGELOG.md`, then push.
+   In a cloud session the push lands on your session's own `claude/…` branch (the platform never
+   allows pushing `main` directly) — that is expected and sufficient: the `publish` workflow
+   re-validates the branch, confirms it touches only curated data, merges it into `main`, and
+   redeploys the site. Do not open a PR.

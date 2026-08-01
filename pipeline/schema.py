@@ -25,12 +25,12 @@ _SCHEMA_PATHS = {
 }
 
 
-@functools.lru_cache(maxsize=None)
+@functools.cache
 def load_schema(kind: str = "threat") -> dict:
     return json.loads(_SCHEMA_PATHS[kind]().read_text(encoding="utf-8"))
 
 
-@functools.lru_cache(maxsize=None)
+@functools.cache
 def _validator(kind: str = "threat") -> jsonschema.Draft202012Validator:
     schema = load_schema(kind)
     jsonschema.Draft202012Validator.check_schema(schema)

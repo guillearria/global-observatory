@@ -16,7 +16,7 @@ authoritative figures, not a forecast.**
 | Domain block | `assessment` (probability × severity) | `event` (date, location, status, scale, impact) | `historical` (BCE-capable chronology, era, estimate-range impact) |
 | Sort | severity-dominant | recency-dominant (today outranks last month) | chronological (oldest first, grouped by era) |
 | Cadence | weekly, via `/refresh-threats` | daily, via `/refresh-events` | ad hoc, via `/refresh-history` |
-| Publish | human-reviewed **PR** | **auto-publish** straight to `main` (no reviewer in a daily unattended loop) | human-reviewed **PR** |
+| Publish | **auto-publish** via the `publish` workflow — no PR for any dataset; the gate is the reviewer | ← same | ← same |
 | Staleness | banner + workflow, >10 days | banner + workflow, >2 days | **exempt** — an archive cannot go stale |
 
 All three schemas share `claims[]`, `verification`, `provenance`, `last_updated`, `schema_version`
@@ -92,9 +92,8 @@ research (WebSearch/WebFetch against allowlisted sources)
        = writes to the published or quarantine dir by gate result
   -> scripts/validate_data.py && scripts/build_frontend.py && pytest
   -> pipeline/changelog.regenerate()
-  -> events: commit + push (a cloud session's push lands on its claude/* branch; the
-     publish-events workflow re-validates scope + schema, then merges to main)
-     | threats & historical: open a PR
+  -> commit + push, no PR (a cloud session's push lands on its claude/* branch; the
+     publish workflow re-validates scope + schema + aggregate integrity, then merges to main)
 ```
 
 Hand-authoring follows the same path (see CONTRIBUTING.md). There is no other write path — nothing
@@ -144,14 +143,19 @@ null, and the banner guard requires a finite threshold).
 ## 7. Operations
 
 - **`validate.yml`** — on every PR/push: ruff, pytest, `validate_data.py` (the hard schema gate),
-  frontend build.
+  frontend build. Also `workflow_dispatch`-able, and dispatched by `publish` after each auto-merge:
+  `publish` pushes to `main` with `GITHUB_TOKEN`, and token pushes do not retrigger `push`
+  workflows, so without that dispatch `validate` would silently stop running on `main`.
+  Ruff is pinned to a minor range in `pyproject.toml` with an explicit `[tool.ruff.lint] select` —
+  a floating version once turned CI red on a data-only change when ruff widened its defaults.
 - **`pages.yml`** — on push to `main` touching `frontend/**`: rebuilds the aggregates and deploys
   `frontend/` to GitHub Pages.
-- **`publish-events.yml`** — the auto-publish bridge: when a cloud session pushes a `claude/*`
-  branch, it merges to `main` only if the branch touches nothing but events data + the aggregate +
-  CHANGELOG and passes schema validation with a byte-exact aggregate. Threats and historical
-  branches are skipped (they go through PR review). This enforces the refresh commands'
-  write-scope rule mechanically.
+- **`publish.yml`** — the auto-publish bridge for all three datasets: when a cloud session pushes a
+  `claude/*` branch, it merges to `main` only if the branch touches nothing but curated data
+  (`data/{events,threats,historical,quarantine*}/`) + the aggregates + CHANGELOG, and passes schema
+  validation with byte-exact aggregates. `data/schema/` is excluded — it defines the gate, so it is
+  code. Anything else is left for a human merge. This enforces the refresh commands' write-scope
+  rule mechanically, and is the reason no dataset needs a review queue.
 - **`staleness.yml`** — daily scheduled check that fails loudly (GitHub notification) if the
   committed `frontend/data/*.json` goes stale (>2 days events / >10 days threats;
   `historical.json` deliberately exempt) — the server-side complement to the frontend banner,

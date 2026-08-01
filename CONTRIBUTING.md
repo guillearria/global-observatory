@@ -26,21 +26,21 @@ The primary way to refresh the dataset is **Claude Code on a Claude Max subscrip
 no Anthropic API credits. In a Claude Code session run:
 
 ```
-/refresh-events                            # World Pulse — daily cadence, auto-published, no PR
-/refresh-threats <optional list of threats>  # Existential Threats — weekly cadence, opens a PR
-/refresh-history <optional list of events>   # Historical Archive — ad hoc, opens a PR
+/refresh-events                            # World Pulse — daily cadence
+/refresh-threats <optional list of threats>  # Existential Threats — weekly cadence
+/refresh-history <optional list of events>   # Historical Archive — ad hoc
 ```
 
-`/refresh-events` researches confirmed major world events with web search, drafts cited claims, runs
-them through the deterministic gate, rebuilds the frontend, and **auto-publishes with no PR** (in a
-cloud session the push lands on a `claude/*` branch and the `publish-events` workflow re-validates
-and merges it into `main`) — there's
-no human in a daily unattended loop, so auto-publish via the trust gate is the explicit design (see
-[`.claude/commands/refresh-events.md`](.claude/commands/refresh-events.md)). `/refresh-threats` does
-the same for standing threats but opens a PR instead, since it's weekly and human-reviewed (see
-[`.claude/commands/refresh-threats.md`](.claude/commands/refresh-threats.md)). `/refresh-history`
-follows the threats model — PR-reviewed, never auto-published — on an ad-hoc cadence (see
-[`.claude/commands/refresh-history.md`](.claude/commands/refresh-history.md)).
+Each command researches its subject with web search, drafts cited claims, runs them through the
+deterministic gate, rebuilds the frontend, and **auto-publishes with no PR**. In a cloud session the
+push lands on a `claude/*` branch and the `publish` workflow re-validates it — schema, trust gate,
+and aggregates that must reproduce byte-for-byte from the records — before merging into `main`.
+
+There is no review queue by design. The gate is the verification layer: a reviewer who has to
+approve every factual update is a reviewer who eventually stops, and the data goes stale behind
+them. See [`.claude/commands/refresh-events.md`](.claude/commands/refresh-events.md),
+[`.claude/commands/refresh-threats.md`](.claude/commands/refresh-threats.md), and
+[`.claude/commands/refresh-history.md`](.claude/commands/refresh-history.md).
 
 **The actual schedule** is two Claude Code scheduled cloud agents (daily → `/refresh-events`,
 weekly → `/refresh-threats`) — see the top of [`docs/BACKLOG.md`](docs/BACKLOG.md) for the exact
@@ -60,8 +60,9 @@ allowlist decides verified vs quarantined, not you:
    `data/historical/` or `data/quarantine-historical/`) — it applies the gate, computes `sort_keys`,
    stamps provenance, validates, and writes.
 3. Run `python scripts/validate_data.py` (must exit 0) and `python scripts/build_frontend.py`.
-4. For a threat or historical record, open a PR — CI re-runs schema validation + tests + the
-   frontend build. For an event, commit and push directly (see above for why).
+4. Commit and push. On a `claude/*` branch the `publish` workflow re-validates and merges it; from
+   a local clone you can push to `main` directly — `validate` re-runs schema validation + tests +
+   the frontend build either way.
 
 ## The source allowlist
 

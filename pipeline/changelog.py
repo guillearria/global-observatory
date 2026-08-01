@@ -65,9 +65,11 @@ def render() -> str:
     lines = [
         "# Changelog",
         "",
-        "_Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, "
-        "`data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by "
-        "`pipeline.changelog`. Do not edit by hand._",
+        (
+            "_Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, "
+            "`data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by "
+            "`pipeline.changelog`. Do not edit by hand._"
+        ),
         "",
     ]
     for c in _collect():

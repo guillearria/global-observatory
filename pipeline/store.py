@@ -9,7 +9,6 @@ from pathlib import Path
 
 from . import config, models
 
-
 # Lambdas, not frozen paths: dirs are read from `config` at call time so tests can
 # `monkeypatch.setattr(config, "THREATS_DIR", ...)` for isolation (mirrors schema.py's
 # _SCHEMA_PATHS, which has the same requirement for the same reason).

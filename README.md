@@ -16,8 +16,8 @@ as a public-good demonstration that an AI curator can publish autonomously witho
 the final say on truth — a deterministic gate does. Questions and contributions welcome.
 
 > **Status:** the refresh commands are **scheduled as Claude Code cloud routines**: daily →
-> `/refresh-events` (09:00 UTC, auto-publishes through the gate), weekly → `/refresh-threats`
-> (Mondays 10:00 UTC, opens a PR). `/refresh-history` runs ad hoc. Routines are managed at
+> `/refresh-events` (09:00 UTC), weekly → `/refresh-threats` (Mondays 10:00 UTC). `/refresh-history`
+> runs ad hoc. All three auto-publish through the gate. Routines are managed at
 > claude.ai/code/routines. The frontend's staleness banner and the scheduled `staleness` workflow
 > (see Trust model below) are the signals if a routine silently stops firing.
 
@@ -31,18 +31,20 @@ archive entry are genuinely different things:
 
 - **World Pulse (events)** — `data/events/*.json`, validated against `data/schema/event.schema.json`.
   Cadence: **daily**. Curated via `/refresh-events` (`.claude/commands/refresh-events.md`) or
-  `scripts/author_event.py`. **Auto-published** through the gate with no PR — a daily unattended
-  refresh has no one to review one, so the gate alone decides verified vs. quarantined. (Cloud
-  sessions can only push to their own branch, so the `publish-events` workflow re-validates the
-  branch, checks it touches only events data, and merges it into `main`.)
+  `scripts/author_event.py`. Cadence: **daily**.
 - **Existential Threats** — `data/threats/*.json`, validated against `data/schema/threat.schema.json`.
-  Cadence: **weekly** (standing risks don't move day to day). Curated via `/refresh-threats` or
-  `scripts/author_threat.py`. Updates land via a **human-reviewed PR** — see the `/refresh-threats`
-  command.
+  Curated via `/refresh-threats` or `scripts/author_threat.py`. Cadence: **weekly** (standing risks
+  don't move day to day).
 - **Historical Archive** — `data/historical/*.json`, validated against
-  `data/schema/historical.schema.json`. Cadence: **ad hoc** (an archive grows when there is
-  something worth adding, and cannot go stale). Curated via `/refresh-history` or
-  `scripts/author_historical.py`. Updates land via a **human-reviewed PR**, like threats.
+  `data/schema/historical.schema.json`. Curated via `/refresh-history` or
+  `scripts/author_historical.py`. Cadence: **ad hoc** (an archive grows when there is something
+  worth adding, and cannot go stale).
+
+All three are **auto-published with no PR**: the gate alone decides verified vs. quarantined, so
+there is no review queue to go undrained. Cloud sessions can only push to their own branch, so the
+`publish` workflow re-validates each branch, checks it touches only curated data and that the
+aggregates reproduce exactly from the records, then merges it into `main`. Code changes still
+reach `main` by human merge.
 
 The site redeploys automatically whenever `frontend/data/*.json` changes on `main`.
 
@@ -99,10 +101,10 @@ Curate without spending API credits — drive Claude Code on your Max plan:
 # In a Claude Code session: research + verify current major world events, auto-published ($0 API)
 /refresh-events
 
-# ... or standing threats, which open a PR for human review instead ($0 API)
+# ... or standing threats, on a weekly cadence ($0 API)
 /refresh-threats nuclear winter, antibiotic resistance
 
-# ... or landmark historical events, also via PR ($0 API)
+# ... or landmark historical events, ad hoc ($0 API)
 /refresh-history the Bronze Age collapse, the Antonine Plague
 
 # Or finalize a hand-drafted record through the same deterministic gate:

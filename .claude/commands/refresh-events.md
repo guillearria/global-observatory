@@ -65,6 +65,15 @@ events so cached figures don't go stale.)
    python -c "import json; from pipeline import store, models; print(json.dumps(models.index_of(list(store.load_all(kind='event').values()), kind='event'), indent=2))"
    ```
 
+   **Also check for unpublished work before proposing anything new:**
+   ```sh
+   git fetch origin && git branch -r --list 'origin/claude/*'
+   ```
+   A `claude/*` branch that still exists is one the `publish` workflow has not merged — it either
+   just ran or it was rejected. Diff it (`git diff origin/main...origin/<branch> --name-only`)
+   before drafting: if it already covers the event you were about to add, extend that branch
+   instead of opening a new one.
+
 2. **Research** each target event with WebSearch, then WebFetch the authoritative page(s) to confirm
    exact figures (deaths, displaced, magnitude, declaration dates) and capture the real `source_url`
    and `live_source_url`.
@@ -94,11 +103,10 @@ events so cached figures don't go stale.)
    python -c "from pipeline import changelog; changelog.regenerate()"
    ```
 
-6. **Commit and push — no PR.** This is the one deliberate divergence from `/refresh-threats`:
-   auto-publish with no human merge step was an explicit, already-made decision for World Pulse,
-   since a daily unattended refresh has no one to review a PR. Commit `data/events/`
-   (+ `data/quarantine-events/` if anything was quarantined), the regenerated
-   `frontend/data/events.json`, and `CHANGELOG.md`, then push. In a cloud session the push lands
-   on your session's own `claude/…` branch (the platform never allows pushing `main` directly) —
-   that is expected and sufficient: the `publish-events` workflow re-validates the branch, confirms
-   it touches only events data, merges it into `main`, and redeploys the site. Do not open a PR.
+6. **Commit and push — no PR.** Every dataset auto-publishes; the deterministic gate is the
+   verification layer, not a reviewer. Commit `data/events/` (+ `data/quarantine-events/` if
+   anything was quarantined), the regenerated `frontend/data/events.json`, and `CHANGELOG.md`,
+   then push. In a cloud session the push lands on your session's own `claude/…` branch (the
+   platform never allows pushing `main` directly) — that is expected and sufficient: the `publish`
+   workflow re-validates the branch, confirms it touches only curated data, merges it into `main`,
+   and redeploys the site. Do not open a PR.
