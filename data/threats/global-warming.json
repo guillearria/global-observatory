@@ -18,22 +18,38 @@
       "source_url": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
       "text": "The IPCC's Sixth Assessment Report attributes approximately 1.1 °C of global warming since 1850-1900 to human activities.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-07-27",
+      "source_name": "NOAA",
+      "source_url": "https://www.ncei.noaa.gov/news/global-climate-202513",
+      "text": "NOAA's National Centers for Environmental Information ranked 2025 as the third-warmest year in the global temperature record dating back to 1850: the annual global surface temperature was 2.11°F (1.17°C) above the 20th-century average and 2.41°F (1.34°C) above the 1850-1900 pre-industrial average, behind only 2024 and 2023. The ten warmest years in the 176-year record have all occurred since 2015, and upper-ocean heat content was record high in 2025.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-27",
+      "source_name": "NOAA",
+      "source_url": "https://gml.noaa.gov/ccgg/trends/",
+      "text": "NOAA's Global Monitoring Laboratory measured a monthly mean atmospheric CO2 concentration of 431.44 ppm at Mauna Loa Observatory, Hawaii in June 2026, up from 429.61 ppm in June 2025.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Sustained warming of Earth's climate system driven by human greenhouse-gas emissions, with widespread impacts on weather extremes, sea level, ecosystems, and human systems. Unlike discrete events, it is an ongoing, intensifying process.",
+  "description": "Sustained warming of Earth's climate system driven by human greenhouse-gas emissions, with widespread impacts on weather extremes, sea level, ecosystems, and human systems. Unlike discrete events, it is an ongoing, intensifying process: 2025 was the third-warmest year on NOAA's global record (behind 2024 and 2023), the ten warmest years on record have all occurred since 2015, and atmospheric CO2 at NOAA's Mauna Loa Observatory reached 431.44 ppm in June 2026, the highest level in over two million years.",
   "id": "global-warming",
-  "last_updated": "2026-06-29T00:00:00Z",
+  "last_updated": "2026-07-27T10:08:48Z",
   "name": "Climate Change (Global Warming)",
   "provenance": {
     "history": [
       {
-        "at": "2026-06-29T00:00:00Z",
+        "at": "2026-07-27T10:08:48Z",
         "layer": "verify",
-        "run_id": "manual-2026-06-29"
+        "run_id": "2026-07-27T10-08-48Z-f13264"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "manual-2026-06-29"
+    "last_run_id": "2026-07-27T10-08-48Z-f13264"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -43,7 +59,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

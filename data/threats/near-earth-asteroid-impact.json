@@ -26,22 +26,38 @@
       "source_url": "https://www.nasa.gov/solar-system/near-earth-object-observations-program/",
       "text": "NASA reports that fewer than half of the estimated 25,000 near-Earth objects 140 meters and larger have been found to date.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-07-27",
+      "source_name": "NASA CNEOS",
+      "source_url": "https://cneos.jpl.nasa.gov/faq/new.html",
+      "text": "With over 90% of the near-Earth objects larger than one kilometer already discovered, NASA's NEO Observations Program is now focusing on finding 90% of the NEO population larger than 140 meters.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-07-27",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/solar-system/asteroids/2024-yr4/",
+      "text": "Asteroid 2024 YR4 reached a peak Earth-impact probability of 4.3% in February 2025, the highest ever recorded for an asteroid of its size, before NASA concluded (using James Webb Space Telescope data from February 2026) that the object poses no significant impact risk to Earth in 2032 and beyond, and ruled out any chance of it impacting the Moon on 22 December 2032.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A sufficiently large near-Earth object striking Earth would cause regional to continental devastation. NASA's Planetary Defense effort catalogues and tracks the larger near-Earth object population to assess impact hazards decades in advance.",
+  "description": "A sufficiently large near-Earth object striking Earth would cause regional to continental devastation. NASA's Planetary Defense effort catalogues and tracks the larger near-Earth object population to assess impact hazards decades in advance. The system was tested in 2024-2026 by asteroid 2024 YR4, which briefly reached the highest Earth-impact probability ever recorded for an object of its size before follow-up observations, including from the James Webb Space Telescope, ruled out any impact risk.",
   "id": "near-earth-asteroid-impact",
-  "last_updated": "2026-06-29T00:00:00Z",
+  "last_updated": "2026-07-27T10:08:09Z",
   "name": "Near-Earth Asteroid Impact",
   "provenance": {
     "history": [
       {
-        "at": "2026-06-29T00:00:00Z",
+        "at": "2026-07-27T10:08:09Z",
         "layer": "verify",
-        "run_id": "manual-2026-06-29"
+        "run_id": "2026-07-27T10-08-09Z-fb57eb"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "manual-2026-06-29"
+    "last_run_id": "2026-07-27T10-08-09Z-fb57eb"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -51,7 +67,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
