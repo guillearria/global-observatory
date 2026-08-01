@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-01 — Daily World Pulse refresh: add Jilin floods/Tunisia & Castellón wildfires, correct China floods displacement, update Venezuela/Ebola/West Bank/Gironde/Algeria (`ca906ca`)
+
+- **Added:** china-floods-jilin-2026, spain-wildfire-castellon-2026, tunisia-wildfires-2026
+- **Updated:** afghanistan-nuristan-floods-2026, algeria-wildfires-2026, bangladesh-floods-chattogram-2026, china-floods-guangxi-hunan-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, france-wildfire-gironde-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, spain-wildfire-madrid-avila-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
+
 ## 2026-07-31 — Daily World Pulse refresh: update Gironde wildfire, resolve Typhoon Noul (`aecca61`)
 
 - **Updated:** france-wildfire-gironde-2026, typhoon-noul-kiyapo-2026
@@ -131,6 +136,10 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 - **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, sudan-displacement-crisis, venezuela-earthquake-2026
 
+## 2026-07-05 — Fix stale docs, comments, and command scoping leftovers (`955d591`)
+
+- **Added:** advanced-ai-risk, ebola-bundibugyo-drc-2026, global-food-water-insecurity, global-forced-displacement, global-warming, influenza-pandemic, mindanao-earthquake-philippines-2026, near-earth-asteroid-impact, nuclear-war, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
+
 ## 2026-07-05 — Refresh World Pulse: Ebola re-confirmation, add Typhoon Bavi (`5d79b92`)
 
 - **Added:** typhoon-bavi-guam-mariana-2026
@@ -150,8 +159,4 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 ## 2026-07-02 — Seed resource and societal threats: food/water insecurity, forced displacement (#6) (`2213464`)
 
-- **Added:** global-food-water-insecurity, global-forced-displacement
-
-## 2026-07-02 — Merge pull request #4 from guillearria/retire-legacy-pipeline (`6fa0b5e`)
-
-- **Added:** ebola-bundibugyo-drc-2026, global-warming, influenza-pandemic, mindanao-earthquake-philippines-2026, near-earth-asteroid-impact, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
+- **Added:** ebola-bundibugyo-drc-2026, global-food-water-insecurity, global-forced-displacement, global-warming, influenza-pandemic, mindanao-earthquake-philippines-2026, near-earth-asteroid-impact, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
