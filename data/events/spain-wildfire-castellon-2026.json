@@ -1,0 +1,64 @@
+{
+  "category": "wildfire",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-01",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029794",
+      "text": "GDACS's event report (eventid 1029794, episode 15, GLIDE WF-2026-000131-ESP) assessed an Orange alert for medium humanitarian impact for a wildfire in the Plana Baixa comarca, Castellón province, Spain, covering a 25-30 July 2026 window, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-01",
+      "source_name": "European Union",
+      "source_url": "https://eu-space.europa.eu/components/earth-observation-copernicus/image-of-the-day/multiple-wildfires-prompt-national-emergency-spain",
+      "text": "The European Union's Copernicus Earth-observation programme states that Spain's government declared a national emergency on 23 July 2026 in response to multiple simultaneous large wildfires, and that more than 100,000 people have been evacuated or instructed to remain indoors across the affected Spanish regions combined.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A wildfire broke out in the Plana Baixa comarca of Castellón province, Spain, around 25 July 2026, roughly 50 km north of Valencia — a separate outbreak from the concurrent, larger fire complex burning southwest of Madrid and in Ávila province. GDACS assessed the event at an Orange alert for medium humanitarian impact, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area. The European Union's Copernicus Earth-observation programme confirmed that Spain's government declared a national emergency on 23 July 2026 in response to the country's simultaneous large wildfires, with more than 100,000 people evacuated or instructed to remain indoors across the affected Spanish regions combined.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "GDACS's event report (eventid 1029794, episode 15, GLIDE WF-2026-000131-ESP) assessed an Orange alert for medium humanitarian impact for a wildfire in the Plana Baixa comarca of Castellón province, Spain, covering a 25-30 July 2026 window, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area. The EU's Copernicus programme (eu-space.europa.eu) confirmed Spain's government declared a national emergency on 23 July 2026 in response to the country's simultaneous large wildfires (including this one and the concurrent Madrid/Ávila complex), with more than 100,000 people evacuated or instructed to remain indoors across the affected regions combined — a combined, not Castellón-specific, figure. No allowlisted source has published a confirmed death toll for this fire specifically, and no source has declared it contained."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029794",
+    "location": {
+      "country": "Spain",
+      "lat": 39.85,
+      "lon": -0.15,
+      "region": "Plana Baixa comarca, Castellón province (~50 km north of Valencia)"
+    },
+    "occurrence_date": "2026-07-25",
+    "scale": "GDACS Orange alert; ~13,370 ha burned; national emergency declared",
+    "status": "ongoing"
+  },
+  "id": "spain-wildfire-castellon-2026",
+  "last_updated": "2026-08-01T09:21:22Z",
+  "name": "Wildfire — Plana Baixa (Castellón), Spain",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-01T09:21:22Z",
+        "layer": "verify",
+        "run_id": "2026-08-01T09-21-22Z-6bb950"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-01T09-21-22Z-6bb950"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398221.0,
+    "impact_rank": 1,
+    "recency_rank": 739822
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

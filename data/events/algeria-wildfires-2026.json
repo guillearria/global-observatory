@@ -56,6 +56,14 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029618",
       "text": "GDACS event report (eventid 1029618, episode 8): Algeria wildfire complex covering a 21-24 July 2026 window, citing about 13,459 hectares burned, with the most recent satellite thermal-anomaly detection recorded on 24 July 2026 and no further detections since.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-8",
+      "retrieved_date": "2026-08-01",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029625",
+      "text": "Re-checked 1 August 2026: GDACS's event report for the Seraïdi/Constantine complex (eventid 1029625) has advanced to episode 10, citing about 11,942 hectares burned and roughly 1,210 people in the affected area, with the last thermal-anomaly detection still 25 July 2026 and the alert level downgraded to Green. The other two complexes (eventid 1029611: 14,082 ha/5,885 people, last detection 24 July; eventid 1029618: 13,459 ha/147 people, last detection 24 July) are unchanged from the prior check, confirming no further escalation.",
+      "verification_status": "verified"
     }
   ],
   "description": "A wave of wildfires swept northern Algeria's forested provinces (including Constantine and Seraïdi) from mid-to-late July 2026 amid a severe regional heatwave, with GDACS tracking three concurrent Green-alert fire complexes that together burned roughly 39,400 hectares. Algeria's interior ministry confirmed six deaths and authorities reported over 100 people hospitalised and about 150 homes damaged in the Seraïdi area, with preventive evacuations also carried out in El Tarf, Béjaïa, Guelma and Bouira; four people were arrested on suspicion of deliberately starting fires. As of 24-25 July 2026, GDACS records no further satellite thermal-anomaly detections for any of the three complexes, and Algerian civil protection authorities describe the blazes as under control.",
@@ -63,7 +71,7 @@
     "impact": {
       "deaths": 6,
       "displaced": null,
-      "summary": "GDACS's three concurrent Algeria wildfire complexes closed out at a combined ~39,400 hectares burned: the Seraïdi/Constantine complex (GDACS event 1029625, episode 8) at 11,864 ha with its final thermal-anomaly detection on 25 July; a second complex (event 1029611, episode 6) at 14,082 ha, last detection 24 July; and a third (event 1029618, episode 8) at 13,459 ha, last detection 24 July. Algeria's interior ministry confirmed six deaths from the fires (unchanged since 22 July), and a 22 July Algerian Red Crescent/IFRC report via ReliefWeb put more than 100 people hospitalised and about 150 homes affected or threatened in Seraïdi, Annaba, with preventive evacuations also carried out in El Tarf, Béjaïa, Guelma and Bouira. With no new thermal detections since 24-25 July and civil protection authorities reporting the blazes under control, the event is assessed as contained."
+      "summary": "GDACS's three concurrent Algeria wildfire complexes closed out at a combined ~39,483 hectares burned: the Seraïdi/Constantine complex (GDACS event 1029625, now episode 10) at 11,942 ha with about 1,210 people in the affected area and its final thermal-anomaly detection on 25 July, and the alert level for this complex has since downgraded to Green; a second complex (event 1029611, episode 6) at 14,082 ha with about 5,885 people affected, last detection 24 July; and a third (event 1029618, episode 8) at 13,459 ha with about 147 people affected, last detection 24 July. Algeria's interior ministry confirmed six deaths from the fires (unchanged since 22 July), and a 22 July Algerian Red Crescent/IFRC report via ReliefWeb put more than 100 people hospitalised and about 150 homes affected or threatened in Seraïdi, Annaba, with preventive evacuations also carried out in El Tarf, Béjaïa, Guelma and Bouira. Re-checked 1 August 2026: no new thermal detections have been recorded for any of the three complexes since 24-25 July, and Algerian civil protection authorities continue to describe the blazes as under control, confirming the event remains contained."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029625",
     "location": {
@@ -77,18 +85,18 @@
     "status": "contained"
   },
   "id": "algeria-wildfires-2026",
-  "last_updated": "2026-07-25T09:10:59Z",
+  "last_updated": "2026-08-01T09:21:20Z",
   "name": "Wildfires — Algeria",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-25T09:10:59Z",
+        "at": "2026-08-01T09:21:20Z",
         "layer": "verify",
-        "run_id": "2026-07-25T09-10-59Z-ad4678"
+        "run_id": "2026-08-01T09-21-20Z-543a5f"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-25T09-10-59Z-ad4678"
+    "last_run_id": "2026-08-01T09-21-20Z-543a5f"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -98,7 +106,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

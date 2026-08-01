@@ -1,0 +1,56 @@
+{
+  "category": "flood",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-01",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104051",
+      "text": "GDACS's flood event report (GLIDE FL-2026-000136-CHN, eventid 1104051) assessed an overall Red alert for flooding in Jilin Province, China, covering a 25-31 July 2026 window, citing official figures of 10 deaths and 809,145 people displaced across affected areas.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Heavy rainfall in late July 2026 triggered severe flooding across Jilin Province in northeastern China, prompting large-scale evacuations. GDACS assessed the event as an overall Red alert, its highest severity tier, citing 10 deaths and about 809,145 people displaced across the affected area as of the close of its reporting window on 31 July 2026.",
+  "event": {
+    "impact": {
+      "deaths": 10,
+      "displaced": 809145,
+      "summary": "GDACS's flood event report (GDACS ID FL 1104051, GLIDE FL-2026-000136-CHN) assessed an overall Red alert for flooding in Jilin Province, China, covering a 25-31 July 2026 window, citing 10 deaths and about 809,145 people displaced. Local media cited on the GDACS report describe evacuations following heavy rain and flooding in the province. No newer GDACS episode has been recorded since the window closed on 31 July, and no allowlisted source has declared the event resolved."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104051",
+    "location": {
+      "country": "China",
+      "lat": 43.83,
+      "lon": 126.55,
+      "region": "Jilin Province, northeastern China"
+    },
+    "occurrence_date": "2026-07-25",
+    "scale": "GDACS Red alert",
+    "status": "ongoing"
+  },
+  "id": "china-floods-jilin-2026",
+  "last_updated": "2026-08-01T09:21:20Z",
+  "name": "Floods — Jilin Province, China",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-01T09:21:20Z",
+        "layer": "verify",
+        "run_id": "2026-08-01T09-21-20Z-250bd3"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-01T09-21-20Z-250bd3"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398223.0,
+    "impact_rank": 3,
+    "recency_rank": 739822
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

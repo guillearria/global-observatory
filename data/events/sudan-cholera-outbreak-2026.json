@@ -32,6 +32,14 @@
       "source_url": "https://reliefweb.int/report/sudan/un-women-statement-drone-attacks-day-and-sexual-violence-night-leave-no-safe-window-women-and-girls-collect-water-amidst-rainy-season-sudans-el-obeid",
       "text": "UN Women statement (24 July 2026): 'Cholera is already spreading in Sudan, with 1,330 cases reported by WHO in early July,' confirming no revised national cumulative total has superseded the 7 July WHO count as of this date.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-08-01",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/07/1167913",
+      "text": "Re-checked 1 August 2026: no newer WHO or ReliefWeb figure supersedes the 10 July 2026 Geneva briefing count of 1,330+ confirmed cholera cases and 114 deaths (CFR 13.7%) in Sudan reported by WHO's Representative to Sudan; WHO's global multi-country cholera epidemiological update series has not published a newer Sudan-specific count as of this check.",
+      "verification_status": "verified"
     }
   ],
   "description": "Sudan's third cholera wave in as many years has spread across war-affected western and central states, principally Darfur and Kordofan, where conflict and constrained humanitarian access are hampering the response. WHO warns the outbreak could worsen further as the rainy season sets in and displacement continues around besieged cities such as El Obeid, where WFP reported more than 30 additional cases in mid-July. The national confirmed case/death count (1,330 cases, 114 deaths as of 7 July) remains WHO's latest published aggregate as of 24 July 2026, with continued geographic spread into new localities in North and West Kordofan and South Darfur.",
@@ -39,7 +47,7 @@
     "impact": {
       "deaths": 114,
       "displaced": null,
-      "summary": "WHO's Representative to Sudan reported (10 July 2026, Geneva briefing) more than 1,330 confirmed cholera cases and 114 confirmed deaths, a case fatality rate of 13.7%, in an outbreak affecting several western and central Sudanese states, mainly Darfur and Kordofan. That national aggregate remains WHO's latest published count as of 24 July 2026 — reconfirmed unchanged by a UN Women statement dated 24 July — but WFP reported in mid-July that more than 30 additional cholera cases had been recorded specifically in El Obeid, North Kordofan, as power outages disrupt water supplies there. OCHA reporting describes active geographic spread into Kalma/Kampala displacement camp (South Darfur), Tawila (North Darfur), West Kordofan and North Kordofan, as WHO and UNICEF scale up medical supply deliveries to Kadugli, Dilling and El Fula. Aid officials say the true toll is likely higher, and WHO warns the outbreak could worsen as the rainy season continues and conflict constrains the humanitarian response. No allowlisted source has declared the outbreak contained."
+      "summary": "WHO's Representative to Sudan reported (10 July 2026, Geneva briefing) more than 1,330 confirmed cholera cases and 114 confirmed deaths, a case fatality rate of 13.7%, in an outbreak affecting several western and central Sudanese states, mainly Darfur and Kordofan. That national aggregate remains WHO's latest published count as of 24 July 2026 — reconfirmed unchanged by a UN Women statement dated 24 July — but WFP reported in mid-July that more than 30 additional cholera cases had been recorded specifically in El Obeid, North Kordofan, as power outages disrupt water supplies there. OCHA reporting describes active geographic spread into Kalma/Kampala displacement camp (South Darfur), Tawila (North Darfur), West Kordofan and North Kordofan, as WHO and UNICEF scale up medical supply deliveries to Kadugli, Dilling and El Fula. Aid officials say the true toll is likely higher, and WHO warns the outbreak could worsen as the rainy season continues and conflict constrains the humanitarian response. No allowlisted source has declared the outbreak contained. Re-checked 1 August 2026: WHO's national aggregate (1,330+ cases, 114 deaths, 7 July) remains the latest published figure, with no newer WHO epidemiological update for Sudan found; outbreak not declared contained."
     },
     "live_source_url": "https://www.emro.who.int/sdn/crisis/index.html",
     "location": {
@@ -53,18 +61,18 @@
     "status": "ongoing"
   },
   "id": "sudan-cholera-outbreak-2026",
-  "last_updated": "2026-07-25T09:12:40Z",
+  "last_updated": "2026-08-01T09:21:20Z",
   "name": "Cholera Outbreak — Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-25T09:12:40Z",
+        "at": "2026-08-01T09:21:20Z",
         "layer": "verify",
-        "run_id": "2026-07-25T09-12-40Z-2f29f8"
+        "run_id": "2026-08-01T09-21-20Z-680b9d"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-25T09-12-40Z-2f29f8"
+    "last_run_id": "2026-08-01T09-21-20Z-680b9d"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -74,7 +82,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

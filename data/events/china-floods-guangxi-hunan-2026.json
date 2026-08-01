@@ -16,14 +16,22 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103933",
       "text": "Re-checked 9 July 2026: GDACS's event report for the flood still shows the reporting window closed, spanning 06 Jun 2026 01:00 UTC to 07 Jul 2026 01:00 UTC, with the same 12 deaths and 85,197 displaced figures unchanged since the window closed, confirming no further escalation has been recorded.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-01",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103933",
+      "text": "Re-checked 1 August 2026: GDACS's flood event report (GLIDE FL-2026-000105-CHN, eventid 1103933) shows the reporting window extending to 14 Jul 2026 01:00 UTC (not 7 July as previously recorded), with cumulative official figures of 12 deaths and 782,166 people displaced across affected areas of China. Episode ids 3, 4 and 5 all render the same cumulative overall totals; no episode newer than 14 July exists, confirming the event has concluded.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Torrential rain from the remnants of Typhoon Maysak triggered severe flooding across Guangxi, Hunan, Hubei and neighbouring provinces of southern and central China in early July 2026, pushing rivers and reservoirs past danger thresholds and submerging villages. GDACS assessed an overall Orange alert for medium humanitarian impact, citing 12 deaths and 85,197 people displaced. GDACS's reporting window for the event closed on 7 July with no further escalation observed.",
+  "description": "Torrential rain from the remnants of Typhoon Maysak triggered severe flooding across Guangxi, Hunan, Hubei and neighbouring provinces of southern and central China in early-to-mid July 2026, pushing rivers and reservoirs past danger thresholds and submerging villages. GDACS assessed an overall Orange alert for medium humanitarian impact. A re-check of GDACS's event report on 1 August 2026 found the event record (GDACS ID FL 1103933) had continued to accrue episodes past the previously-recorded 7 July closure, with the reporting window now extending to 14 July 2026 and cumulative displacement revised sharply upward to 782,166 people (from an earlier 85,197); the confirmed death toll remains 12. No episode newer than 14 July exists, and with no activity for more than two weeks the event is assessed as concluded.",
   "event": {
     "impact": {
       "deaths": 12,
-      "displaced": 85197,
-      "summary": "GDACS's event report (covering 6 June to 7 July 2026) assessed an overall Orange alert for medium humanitarian impact from flooding across southern and central China, citing 12 deaths and 85,197 people displaced. The flooding intensified in early July as the remnants of Typhoon Maysak brought torrential rain to Guangxi, Hunan and Hubei. As of 9 July 2026, GDACS's reporting window remains closed at 7 July with no updated death or displacement figures, indicating the event has concluded."
+      "displaced": 782166,
+      "summary": "A re-check of GDACS's flood event report (GDACS ID FL 1103933, GLIDE FL-2026-000105-CHN) on 1 August 2026 found the reporting window extends to 14 July 2026 (not 7 July as previously recorded), with cumulative figures revised to 12 deaths (unchanged) and 782,166 people displaced (up from an earlier reading of 85,197) across affected areas of China. No episode newer than 14 July exists on GDACS as of 1 August 2026, consistent with the event having concluded roughly two and a half weeks ago."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103933",
     "location": {
@@ -37,28 +45,28 @@
     "status": "resolved"
   },
   "id": "china-floods-guangxi-hunan-2026",
-  "last_updated": "2026-07-09T09:14:16Z",
+  "last_updated": "2026-08-01T09:21:20Z",
   "name": "Southern China Floods (Guangxi, Hunan, Hubei)",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-09T09:14:16Z",
+        "at": "2026-08-01T09:21:20Z",
         "layer": "verify",
-        "run_id": "2026-07-09T09-14-16Z-5391a9"
+        "run_id": "2026-08-01T09-21-20Z-167de5"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-09T09-14-16Z-5391a9"
+    "last_run_id": "2026-08-01T09-21-20Z-167de5"
   },
   "schema_version": "1.0",
   "sort_keys": {
-    "composite": 7398002.0,
-    "impact_rank": 2,
+    "composite": 7398003.0,
+    "impact_rank": 3,
     "recency_rank": 739800
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

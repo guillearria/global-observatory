@@ -32,6 +32,14 @@
       "source_url": "https://earthquake.usgs.gov/product/losspager/us6000tgb9/us/1785310513813/json/alerts.json",
       "text": "USGS PAGER's loss-model data, updated 29 July 2026, records a maximum shaking intensity of MMI IX, a fatality alert level of Orange (gvalue 1.77, up from Yellow) and an economic alert level of Red (gvalue 2.28). Aggregated population exposure at MMI VII or greater is about 1,236,912 (374,783 at MMI VII + 635,782 at MMI VIII + 226,347 at MMI IX). PAGER's empirical loss model estimates 724 total fatalities (0 in South Korea) and $12,724,898,845 in economic losses; PAGER's semi-empirical structural model separately estimates 234 fatalities. These are automated probabilistic model outputs, not confirmed casualty or damage figures.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-08-01",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9/executive",
+      "text": "Re-checked 1 August 2026: USGS's event page (id us6000tgb9) shows no PAGER product update since 29 July 2026 and no dedicated OCHA/ReliefWeb situation report exists for this earthquake; the Red/Orange PAGER alert levels and probabilistic loss estimates are unchanged, and no confirmed casualty or damage figures have been published.",
+      "verification_status": "verified"
     }
   ],
   "description": "A magnitude 6.8 earthquake struck southern Kumamoto Prefecture, Kyushu, Japan, on 28 July 2026 at 07:27 UTC (16:27 local time), 5 km east of Uto City, at a depth of about 10 km. USGS's PAGER system initially assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe); a PAGER loss-model update as of 29 July 2026 raised the maximum estimated shaking to MMI IX (Violent) and upgraded the fatality alert from Yellow to Orange, with the economic alert remaining Red — PAGER's probabilistic loss models now estimate roughly 724 fatalities (empirical model) or 234 fatalities (semi-empirical structural model) and about $12.7 billion in economic losses. About 1.24 million people were exposed to MMI VII (Very Strong) shaking or greater, almost entirely within Japan. As of 29 July 2026, these remain PAGER's automated probabilistic estimates — no authoritative confirmed casualty or damage figures have yet been published.",
@@ -39,7 +47,7 @@
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "USGS recorded a magnitude 6.8 earthquake on 28 July 2026 at 07:27:15 UTC, 5 km east of Uto, Kumamoto Prefecture, Japan, at a depth of about 10 km. USGS's PAGER system initially assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe); a PAGER loss-model update as of 29 July 2026 raised the maximum estimated shaking to MMI IX (Violent) and upgraded the fatality alert from Yellow to Orange, with roughly 1.24 million people exposed to MMI VII (Very Strong) shaking or greater. PAGER's probabilistic loss models now estimate about 724 fatalities (empirical) or 234 fatalities (semi-empirical) and about $12.7 billion in economic losses — these are automated model estimates, not confirmed figures. As of 29 July 2026, no authoritative confirmed casualty or damage figures have been published."
+      "summary": "USGS recorded a magnitude 6.8 earthquake on 28 July 2026 at 07:27:15 UTC, 5 km east of Uto, Kumamoto Prefecture, Japan, at a depth of about 10 km. USGS's PAGER system initially assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe); a PAGER loss-model update as of 29 July 2026 raised the maximum estimated shaking to MMI IX (Violent) and upgraded the fatality alert from Yellow to Orange, with roughly 1.24 million people exposed to MMI VII (Very Strong) shaking or greater. PAGER's probabilistic loss models now estimate about 724 fatalities (empirical) or 234 fatalities (semi-empirical) and about $12.7 billion in economic losses — these are automated model estimates, not confirmed figures. As of 29 July 2026, no authoritative confirmed casualty or damage figures have been published. Re-checked 1 August 2026: USGS's PAGER loss-model product for this event has not been updated since 29 July 2026; no confirmed casualty or damage figures have been published."
     },
     "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9/executive",
     "location": {
@@ -53,18 +61,18 @@
     "status": "ongoing"
   },
   "id": "japan-earthquake-kumamoto-2026",
-  "last_updated": "2026-07-29T09:14:16Z",
+  "last_updated": "2026-08-01T09:21:21Z",
   "name": "M6.8 Earthquake — Kumamoto, Japan",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-29T09:14:16Z",
+        "at": "2026-08-01T09:21:21Z",
         "layer": "verify",
-        "run_id": "2026-07-29T09-14-16Z-560fb5"
+        "run_id": "2026-08-01T09-21-21Z-0acf35"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-29T09-14-16Z-560fb5"
+    "last_run_id": "2026-08-01T09-21-21Z-0acf35"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -74,7 +82,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
