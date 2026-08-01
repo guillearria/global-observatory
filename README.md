@@ -12,8 +12,11 @@ Every published figure is grounded in an official, authoritative source. It is e
 aggregation of authoritative figures, not a forecast.**
 
 **Who runs this:** built and maintained by [Guillermo Arria-Devoe](https://github.com/guillearria)
-as a public-good demonstration that an AI curator can publish autonomously without ever getting
-the final say on truth — a deterministic gate does. Questions and contributions welcome.
+as a public-good demonstration that an AI curator can publish autonomously without getting the
+final say on whether a claim is verified — a deterministic gate does. The curator may extend the
+source allowlist, so it does have a say in what counts as authoritative; every such addition
+carries a written justification and is recorded in the changelog. Questions and contributions
+welcome.
 
 > **Status:** the refresh commands are **scheduled as Claude Code cloud routines**: daily →
 > `/refresh-events` (09:00 UTC), weekly → `/refresh-threats` (Mondays 10:00 UTC). `/refresh-history`
@@ -64,6 +67,11 @@ The full design is in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   Smithsonian, Library of Congress, national archives and museums, Our World in Data, university
   presses; deliberately no Wikipedia) — see `data/source-allowlist.json`. The check is
   a deterministic Python domain match, never the model's say-so.
+- The allowlist itself is **extensible by the refresh runs**, so that a figure with no allowlisted
+  source can be published rather than dropped. Each entry must name an institution and carry a
+  written justification (enforced by `data/schema/source-allowlist.schema.json` and the CI gate),
+  and every addition is listed in [`CHANGELOG.md`](CHANGELOG.md). The rules that do the checking
+  are not extensible — a refresh run cannot touch `data/schema/` or the pipeline.
 - Records that fail verification are **not hidden**: they appear in an "Under review" section, clearly
   flagged as unverified, and are never presented as confirmed.
 - Known limit (MVP): verification confirms that an authoritative source was *cited*, not deep semantic
