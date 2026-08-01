@@ -33,6 +33,19 @@ validation or tests fail. If a routine silently stops, the frontend's staleness 
 (events >2 days / threats >10) and the scheduled `.github/workflows/staleness.yml` check are the
 signals.
 
+**Known gap — a conflicted publish loses that day's refresh silently.** `publish` merges the
+session branch into `main` and lets a conflict fail the job loudly, which is the right default: two
+sessions editing the same record is not something to auto-resolve. But "loudly" only means a red
+run nobody is watching. This has happened once in 30 daily runs (2026-07-13, branch
+`claude/trusting-wright-ls09pf` — conflicts in `ebola-bundibugyo-drc-2026`,
+`typhoon-bavi-guam-mariana-2026`, `events.json` and `CHANGELOG.md`, because the sandbox had cloned
+`main` before an earlier run landed); that day's updates were never published and the branch is
+still sitting unmerged. Staleness bounds the damage — a sustained outage still trips the >2-day
+check — but a single lost day passes unnoticed. Worth fixing: the `frontend/data/*.json` conflicts
+are spurious (the aggregates are derived and could simply be rebuilt post-merge), which would leave
+only genuine record-level conflicts to fail on. Have the refresh commands `git pull --rebase` onto
+current `main` before pushing, too.
+
 ## Trust & verification
 
 - **Semantic entailment check**: today the gate confirms an authoritative source was *cited*, not
