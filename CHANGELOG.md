@@ -1,6 +1,10 @@
 # Changelog
 
-_Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, and `data/quarantine-historical/` by `pipeline.changelog`. Do not edit by hand._
+_Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
+
+## 2026-08-01 — Move the source allowlist into data/ so refresh runs can extend it (`bf30cfc`)
+
+- **Newly allowlisted domains:** aisi.gov.uk, archives.gov, britannica.com, britishmuseum.org, cambridge.org, cdc.gov, cneos.jpl.nasa.gov, ecdc.europa.eu, europa.eu, fao.org, gdacs.org, history.state.gov, iaea.org, iea.org, imf.org, ipbes.net, ipcc.ch, itu.int, iwm.org.uk, jpl.nasa.gov, jstor.org, loc.gov, metmuseum.org, nasa.gov, nationalarchives.gov.uk, nih.gov, nist.gov, nlm.nih.gov, noaa.gov, oecd.ai, oecd.org, ohchr.org, oup.com, ourworldindata.org, reliefweb.int, si.edu, sipri.org, un.org, unep.org, unesco.org, unhcr.org, usgs.gov, ushmm.org, wfp.org, who.int, worldbank.org
 
 ## 2026-08-01 — Refresh threats: asteroid/climate updates, add extreme geomagnetic storm (`0a3be82`)
 

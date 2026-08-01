@@ -96,6 +96,20 @@ are spurious (the aggregates are derived and could simply be rebuilt post-merge)
 only genuine record-level conflicts to fail on. Have the refresh commands `git pull --rebase` onto
 current `main` before pushing, too.
 
+### Deliberate choices — do not "finish the job" by reverting these
+
+Three things look like leftovers from the PR era but are intentional:
+
+- **`validate.yml` keeps its `pull_request:` trigger.** No dataset uses PRs any more, but the
+  trigger costs nothing and is the only CI an outside contributor's PR would ever get. Removing it
+  would silently make drive-by contributions unvalidated.
+- **`data/schema/` stays out of the `publish` scope**, even though `data/source-allowlist.json`
+  next to it auto-publishes. That asymmetry is the whole safety property: a refresh run can add a
+  trusted domain but can never edit the rules that check one.
+- **`validate.yml` also needs its `workflow_dispatch:` trigger**, because `publish.yml`'s last step
+  dispatches it explicitly after each auto-merge. Deleting the trigger would break that step and
+  return `validate` to never running on `main`.
+
 ## Housekeeping — small, known, not yet done
 
 - **Five orphaned remote branches.** `claude/trusting-archimedes-{t109kw,h17mg9,vhto1g}` (the closed

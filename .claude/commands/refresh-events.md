@@ -41,7 +41,8 @@ events so cached figures don't go stale.)
   movement. A major market crash (a roughly ≥20% index collapse or a circuit-breaker halt), a
   sovereign default, a banking crisis, a currency collapse, or an emergency IMF / World Bank /
   central-bank intervention is a major event: cite the authoritative institution (imf.org,
-  worldbank.org, oecd.org, europa.eu, or the relevant national central bank if you add it via PR)
+  worldbank.org, oecd.org, europa.eu, or the relevant national central bank, which you may add to
+  `data/source-allowlist.json` under the allowlist rule above)
   for the figures, and set `live_source_url` to its live page. Everyday index ups-and-downs are not
   events; a systemic crisis is.
 - **The gate decides, not you.** Build every record through `scripts/author_event.py`; if it
