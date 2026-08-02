@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-02 — Daily World Pulse refresh: add Haiti displacement crisis, update Ebola/Gironde, re-verify 15 ongoing events (`83e0218`)
+
+- **Added:** haiti-gang-violence-displacement-2026
+- **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, china-floods-jilin-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, france-wildfire-gironde-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, spain-wildfire-castellon-2026, spain-wildfire-madrid-avila-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, tunisia-wildfires-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
+
 ## 2026-08-01 — Move the source allowlist into data/ so refresh runs can extend it (`bf30cfc`)
 
 - **Newly allowlisted domains:** aisi.gov.uk, archives.gov, britannica.com, britishmuseum.org, cambridge.org, cdc.gov, cneos.jpl.nasa.gov, ecdc.europa.eu, europa.eu, fao.org, gdacs.org, history.state.gov, iaea.org, iea.org, imf.org, ipbes.net, ipcc.ch, itu.int, iwm.org.uk, jpl.nasa.gov, jstor.org, loc.gov, metmuseum.org, nasa.gov, nationalarchives.gov.uk, nih.gov, nist.gov, nlm.nih.gov, noaa.gov, oecd.ai, oecd.org, ohchr.org, oup.com, ourworldindata.org, reliefweb.int, si.edu, sipri.org, un.org, unep.org, unesco.org, unhcr.org, usgs.gov, ushmm.org, wfp.org, who.int, worldbank.org
@@ -133,35 +138,6 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 - **Updated:** black-death, covid-19-pandemic, four-point-two-kiloyear-event, plague-of-athens, plague-of-cyprian, taiping-rebellion, vesuvius-79
 
-## 2026-07-06 — Seed the Historical Archive with 43 landmark records (`248f3cf`)
+## 2026-07-06 — Rebuild aggregates after merging feature (Typhoon update) (`634d4de`)
 
-- **Added:** aleppo-earthquake-1138, an-lushan-rebellion, antonine-plague, armenian-genocide, bengal-famine-1770, bengal-famine-1943, bhola-cyclone, black-death, china-floods-1931, classic-maya-collapse, cocoliztli-epidemics, covid-19-pandemic, fall-of-ur, fall-of-western-rome, four-point-two-kiloyear-event, great-chinese-famine, great-famine-1315, great-plague-of-london, harappan-decline, hiv-aids-pandemic, indian-ocean-tsunami, influenza-pandemic-1918, irish-great-famine, krakatoa-eruption, laki-eruption, late-bronze-age-collapse, lisbon-earthquake-1755, mongol-conquests, plague-of-athens, plague-of-cyprian, plague-of-justinian, punic-wars, rwandan-genocide, shaanxi-earthquake-1556, taiping-rebellion, tambora-eruption, tangshan-earthquake, the-holocaust, thera-eruption, thirty-years-war, vesuvius-79, world-war-i, world-war-ii
-
-## 2026-07-06 — Refresh World Pulse: Typhoon Bavi intensity/exposure update (`722ba2f`)
-
-- **Updated:** typhoon-bavi-guam-mariana-2026
-
-## 2026-07-05 — Backfill lat/lon on all four World Pulse events (`a10649c`)
-
-- **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, sudan-displacement-crisis, venezuela-earthquake-2026
-
-## 2026-07-05 — Allow optional lat/lon coordinates on event locations (`bbe4744`)
-
-- **Added:** advanced-ai-risk, ebola-bundibugyo-drc-2026, global-food-water-insecurity, global-forced-displacement, global-warming, influenza-pandemic, mindanao-earthquake-philippines-2026, near-earth-asteroid-impact, nuclear-war, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
-
-## 2026-07-05 — Refresh World Pulse: Ebola re-confirmation, add Typhoon Bavi (`5d79b92`)
-
-- **Added:** typhoon-bavi-guam-mariana-2026
-- **Updated:** ebola-bundibugyo-drc-2026
-
-## 2026-07-04 — Refresh World Pulse: Ebola, Mindanao quake, Venezuela quake updates (`16b109f`)
-
-- **Updated:** ebola-bundibugyo-drc-2026, mindanao-earthquake-philippines-2026, venezuela-earthquake-2026
-
-## 2026-07-03 — Refresh World Pulse: Ebola DRC/Uganda case and death counts (`c54f81f`)
-
-- **Updated:** ebola-bundibugyo-drc-2026
-
-## 2026-07-02 — Consistency pass after the merges; backlog the untested threats path (`60c47c4`)
-
-- **Added:** advanced-ai-risk, ebola-bundibugyo-drc-2026, global-food-water-insecurity, global-forced-displacement, global-warming, influenza-pandemic, mindanao-earthquake-philippines-2026, near-earth-asteroid-impact, nuclear-war, sudan-displacement-crisis, venezuela-earthquake-2026, yellowstone-supervolcano
+- **Added:** advanced-ai-risk, aleppo-earthquake-1138, an-lushan-rebellion, antonine-plague, armenian-genocide, bengal-famine-1770, bengal-famine-1943, bhola-cyclone, black-death, china-floods-1931, classic-maya-collapse, cocoliztli-epidemics, covid-19-pandemic, ebola-bundibugyo-drc-2026, fall-of-ur, fall-of-western-rome, four-point-two-kiloyear-event, global-food-water-insecurity, global-forced-displacement, global-warming, great-chinese-famine, great-famine-1315, great-plague-of-london, harappan-decline, hiv-aids-pandemic, indian-ocean-tsunami, influenza-pandemic, influenza-pandemic-1918, irish-great-famine, krakatoa-eruption, laki-eruption, late-bronze-age-collapse, lisbon-earthquake-1755, mindanao-earthquake-philippines-2026, mongol-conquests, near-earth-asteroid-impact, nuclear-war, plague-of-athens, plague-of-cyprian, plague-of-justinian, punic-wars, rwandan-genocide, shaanxi-earthquake-1556, sudan-displacement-crisis, taiping-rebellion, tambora-eruption, tangshan-earthquake, the-holocaust, thera-eruption, thirty-years-war, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026, vesuvius-79, world-war-i, world-war-ii, yellowstone-supervolcano
