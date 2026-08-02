@@ -82,6 +82,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-19",
+      "retrieved_date": "2026-08-02",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614",
+      "text": "WHO Disease Outbreak News #614 (published 1 August 2026): \"As of 30 July 2026, a total of 3605 confirmed cases, including 1587 deaths, have been reported, corresponding to a crude case fatality ratio (CFR) of 44%.\" Cases span 49 health zones across five provinces: Ituri (28/36), North Kivu (11/34), South Kivu (1/34), Haut-Uele (5/13) and Tshopo (4/23). The outbreak is now the largest recorded Ebola virus disease outbreak in the country, surpassing the 2018-2020 outbreak (3,317 confirmed cases). On 28 July, Uganda's Ministry of Health declared the end of the Bundibugyo virus disease outbreak in the country, following 42 days without a new confirmed locally transmitted case after the last confirmed case was discharged from care on 16 June 2026.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-10",
       "source_name": "WHO",
@@ -146,12 +154,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through early August (3,442 cases/1,521 deaths in DRC per ECDC as of 28 July), with the outbreak still confined to the same five DRC provinces and imported cases previously confirmed in France and Germany. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient on 16 July, with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June.",
+  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through early August (3,605 cases/1,587 deaths in DRC per WHO Disease Outbreak News #614, published 1 August 2026, data to 30 July), with the outbreak now the largest recorded Ebola virus disease outbreak in DRC history, still confined to the same five DRC provinces, and imported cases previously confirmed in France and Germany. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient, with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June.",
   "event": {
     "impact": {
-      "deaths": 1521,
+      "deaths": 1587,
       "displaced": null,
-      "summary": "As of ECDC's 31 July 2026 update (DRC data to 28 July), the Democratic Republic of the Congo has reported 3,442 confirmed cases including 1,521 deaths, up from 3,360 cases/1,487 deaths as of 27 July (an increase of 82 cases and 34 deaths); 797 patients are currently hospitalised and 49 of 140 health zones are affected. Uganda's Ministry of Health declared the end of its Ebola outbreak on 28 July 2026, twelve days after discharging its last confirmed patient on 16 July; Uganda's cumulative total remains 20 confirmed cases and two deaths, with no new cases since 21 June. No WHO Disease Outbreak News newer than DON613 has been published as of 1 August 2026, and the DRC portion of the outbreak remains active with no declaration of resolution there."
+      "summary": "As of WHO Disease Outbreak News #614 (published 1 August 2026, data to 30 July), the Democratic Republic of the Congo has reported 3,605 confirmed cases including 1,587 deaths (crude case fatality ratio 44%), up from 3,442 cases/1,521 deaths as of 28 July per ECDC — an increase of 163 cases and 66 deaths. The outbreak, spanning 49 of 140 health zones across five provinces, is now the largest recorded Ebola virus disease outbreak in DRC history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient on 16 June [WHO DON614 gives this date; earlier ECDC updates cited 16 July for the discharge], with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June. The DRC portion of the outbreak remains active with no declaration of resolution there."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
     "location": {
@@ -165,18 +173,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-08-01T09:21:21Z",
+  "last_updated": "2026-08-02T09:19:04Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-01T09:21:21Z",
+        "at": "2026-08-02T09:19:04Z",
         "layer": "verify",
-        "run_id": "2026-08-01T09-21-21Z-078aca"
+        "run_id": "2026-08-02T09-19-04Z-c0af73"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-01T09-21-21Z-078aca"
+    "last_run_id": "2026-08-02T09-19-04Z-c0af73"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -186,7 +194,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -1,0 +1,64 @@
+{
+  "category": "humanitarian",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-02",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/06/1167661",
+      "text": "UN News (5 June 2026), citing IOM: \"nearly 1.5 million people without a stable place to live\"; \"more than 18,000 people\" displaced in May 2026 alone from Cité Soleil attacks; the number of internally displaced people in Port-au-Prince rose \"above 300,000\" for the first time on record; \"more than 110,000 Haitians\" have been forcibly returned to the country since the beginning of 2026. IOM Chief of Mission Gregoire Goodstein: \"Haiti's displacement crisis is entering an even more alarming phase.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-02",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/07/1167963",
+      "text": "UN News (19 July 2026): \"1.47 million people have fled their homes largely due to violence.\" During a Cité Soleil violence outbreak, \"at least 542 people were killed and 355 injured,\" and \"at least 176 women and girls were raped.\" Separately, at least 87 deaths have been reported from vigilante killings of suspected gang collaborators. \"Around 6.4 million people need humanitarian assistance\" and \"more than 5.8 million people are expected to go hungry this year.\"",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Escalating gang violence across Haiti, concentrated in and around Port-au-Prince, has driven internal displacement to record levels through mid-2026. IOM figures cited by UN News put the total at nearly 1.5 million people without a stable place to live as of 5 June 2026, after a surge of more than 18,000 people displaced from Cité Soleil in May 2026 alone pushed the number of internally displaced people in Port-au-Prince above 300,000 for the first time on record; more than 110,000 Haitians have also been forcibly returned to the country since the start of 2026, compounding the crisis. A subsequent UN News report (19 July 2026) put total displacement at 1.47 million and detailed a Cité Soleil violence outbreak earlier in 2026 in which at least 542 people were killed, 355 injured, and at least 176 women and girls raped, with residents fleeing to neighbouring Drouillard; the same report cites roughly 6.4 million people in need of humanitarian assistance and more than 5.8 million expected to face hunger this year. No authoritative source has declared the crisis contained or resolved.",
+  "event": {
+    "impact": {
+      "deaths": 542,
+      "displaced": 1470000,
+      "summary": "UN News (19 July 2026) reports 1.47 million people have fled their homes nationwide, largely due to gang violence, and details a Cité Soleil violence outbreak earlier in 2026 in which at least 542 people were killed and 355 injured, with at least 176 women and girls raped; roughly 6.4 million people are in need of humanitarian assistance and more than 5.8 million are expected to face hunger this year. An earlier UN News report (5 June 2026), citing IOM, put displacement at nearly 1.5 million, including a surge of over 18,000 people displaced from Cité Soleil in May 2026 alone that pushed Port-au-Prince's IDP population above 300,000 for the first time on record, plus over 110,000 Haitians forcibly returned to the country since the start of 2026. No authoritative source has declared the crisis contained or resolved."
+    },
+    "live_source_url": "https://reliefweb.int/country/hti",
+    "location": {
+      "country": "Haiti",
+      "lat": 18.5944,
+      "lon": -72.3074,
+      "region": "Nationwide, concentrated in Port-au-Prince metropolitan area (incl. Cité Soleil, Drouillard)"
+    },
+    "occurrence_date": "2026-07-19",
+    "scale": "~1.47M internally displaced nationwide",
+    "status": "ongoing"
+  },
+  "id": "haiti-gang-violence-displacement-2026",
+  "last_updated": "2026-08-02T09:22:05Z",
+  "name": "Gang Violence Displacement Crisis — Haiti",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-02T09:22:05Z",
+        "layer": "verify",
+        "run_id": "2026-08-02T09-22-05Z-ba25e5"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-02T09-22-05Z-ba25e5"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398164.0,
+    "impact_rank": 4,
+    "recency_rank": 739816
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

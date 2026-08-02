@@ -16,6 +16,14 @@
       "source_url": "https://reliefweb.int/report/tunisia/tun-fire-07-2026-tunisia-wildfires-2026-2026-07-30",
       "text": "A ReliefWeb-hosted disaster/situation record titled 'TUN: Fire - 07-2026 - Tunisia Wildfires 2026' (dated 30 July 2026) exists for this event, confirming allowlisted humanitarian coverage of the Tunisia wildfires.",
       "verification_status": "unverified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-02",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/tunisia/tun-fire-07-2026-tunisia-wildfires-2026-2026-07-30",
+      "text": "Re-checked 2 August 2026: GDACS's event report (eventid 1029649) still shows the 21-29 July 2026 window as the latest, with no newer episode published; figures (about 11,824 hectares burned, roughly 1,224 people affected) are unchanged, and no allowlisted source has published a confirmed death toll or declared the fire contained.",
+      "verification_status": "verified"
     }
   ],
   "description": "Wildfires broke out across Le Kef and Béja governorates in northwestern Tunisia in late July 2026. GDACS assessed the event at an Orange alert for medium humanitarian impact, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area as of its most recent episode (21-29 July 2026 window). A ReliefWeb record for Tunisia's 2026 wildfires corroborates that an allowlisted disaster report exists for this event, though its detailed figures could not be independently retrieved.",
@@ -23,7 +31,7 @@
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report (eventid 1029649, episode 11) assessed an Orange alert for medium humanitarian impact for a wildfire burning across Le Kef and Béja governorates, Tunisia, covering a 21-29 July 2026 window, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area. A ReliefWeb report titled 'Tunisia Wildfires 2026' (dated 30 July 2026) exists for this event, confirming allowlisted coverage, though its page could not be fetched to extract further figures. No allowlisted source has published a confirmed death toll or evacuation count, and no source has declared the fire contained."
+      "summary": "GDACS's event report (eventid 1029649, episode 11) assessed an Orange alert for medium humanitarian impact for a wildfire burning across Le Kef and Béja governorates, Tunisia, covering a 21-29 July 2026 window, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area. A ReliefWeb report titled 'Tunisia Wildfires 2026' (dated 30 July 2026) exists for this event, confirming allowlisted coverage, though its page could not be fetched to extract further figures. No allowlisted source has published a confirmed death toll or evacuation count, and no source has declared the fire contained. Re-checked 2 August 2026: GDACS's event report (eventid 1029649) still shows the 21-29 July 2026 window as the latest, with no newer episode published; figures (about 11,824 hectares burned, roughly 1,224 people affected) are unchanged, and no allowlisted source has published a confirmed death toll or declared the fire contained."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029649",
     "location": {
@@ -37,18 +45,18 @@
     "status": "ongoing"
   },
   "id": "tunisia-wildfires-2026",
-  "last_updated": "2026-08-01T09:21:22Z",
+  "last_updated": "2026-08-02T09:18:22Z",
   "name": "Wildfires — Le Kef & Béja, Tunisia",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-01T09:21:22Z",
+        "at": "2026-08-02T09:18:22Z",
         "layer": "verify",
-        "run_id": "2026-08-01T09-21-22Z-7177d8"
+        "run_id": "2026-08-02T09-18-22Z-9df4fa"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-01T09-21-22Z-7177d8"
+    "last_run_id": "2026-08-02T09-18-22Z-9df4fa"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -58,7 +66,7 @@
   },
   "verification": {
     "confidence": "medium",
-    "notes": "gate: 1 verified, 0 disputed, 1 unverified -> partial",
+    "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
     "status": "partial"
   }
 }

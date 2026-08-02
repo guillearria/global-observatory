@@ -42,6 +42,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-14",
+      "retrieved_date": "2026-08-02",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
+      "text": "Re-checked 2 August 2026: DSWD DROMIC Report #76 (24 July 2026) remains the latest in its series, with no Report #77 yet published; the OCHA 13 July casualty snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable figure.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-02",
       "source_name": "United Nations",
@@ -111,7 +119,7 @@
     "impact": {
       "deaths": 94,
       "displaced": 109445,
-      "summary": "DSWD DROMIC Report #76 (24 July 2026, 6PM, via ReliefWeb) reports 392,389 families (1,657,524 persons) affected across 661 barangays in Regions IX, XI, XII and BARMM, up slightly from 392,157 families (1,656,596 persons) in Report #75 (23 July). Total displacement rose to 27,508 families (109,445 persons) — 7,982 families (32,890 persons) inside 85 evacuation centers and 19,526 families (76,555 persons) staying outside with relatives or friends — up from 27,118 families (107,475 persons) as of Report #75. Houses damaged remain unchanged at 115,205 total (18,644 totally destroyed, 96,561 partially damaged). Assistance provided to date totals PHP 1,306,112,420.37 (PHP 1,306,092,420.37 from DSWD and PHP 20,000.00 from LGUs), up from PHP 1,288,971,829.87 as of Report #75. DSWD's DROMIC report template still carries no casualty section, so the most recent citable death/injury/missing figures remain OCHA's 13 July snapshot (94 deaths, 1,316 injured, 18 missing); GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity. No allowlisted source has declared the response concluded or resolved. Re-checked 1 August 2026: DSWD DROMIC Report #76 (24 July 2026) remains the latest in its series, with no Report #77 yet published; the OCHA 13 July casualty snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable figure."
+      "summary": "DSWD DROMIC Report #76 (24 July 2026, 6PM, via ReliefWeb) reports 392,389 families (1,657,524 persons) affected across 661 barangays in Regions IX, XI, XII and BARMM, up slightly from 392,157 families (1,656,596 persons) in Report #75 (23 July). Total displacement rose to 27,508 families (109,445 persons) — 7,982 families (32,890 persons) inside 85 evacuation centers and 19,526 families (76,555 persons) staying outside with relatives or friends — up from 27,118 families (107,475 persons) as of Report #75. Houses damaged remain unchanged at 115,205 total (18,644 totally destroyed, 96,561 partially damaged). Assistance provided to date totals PHP 1,306,112,420.37 (PHP 1,306,092,420.37 from DSWD and PHP 20,000.00 from LGUs), up from PHP 1,288,971,829.87 as of Report #75. DSWD's DROMIC report template still carries no casualty section, so the most recent citable death/injury/missing figures remain OCHA's 13 July snapshot (94 deaths, 1,316 injured, 18 missing); GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity. No allowlisted source has declared the response concluded or resolved. Re-checked 2 August 2026: DSWD DROMIC Report #76 (24 July 2026) remains the latest in its series, with no Report #77 yet published; the OCHA 13 July casualty snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable figure."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
     "location": {
@@ -125,18 +133,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-08-01T09:21:21Z",
+  "last_updated": "2026-08-02T09:18:21Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-01T09:21:21Z",
+        "at": "2026-08-02T09:18:21Z",
         "layer": "verify",
-        "run_id": "2026-08-01T09-21-21Z-ebee7c"
+        "run_id": "2026-08-02T09-18-21Z-cb128a"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-01T09-21-21Z-ebee7c"
+    "last_run_id": "2026-08-02T09-18-21Z-cb128a"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -146,7 +154,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
