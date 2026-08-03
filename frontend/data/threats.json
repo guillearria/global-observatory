@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27T10:09:26Z",
+  "last_updated": "2026-08-03T10:08:41Z",
   "published": [
     {
       "assessment": {
@@ -565,35 +565,35 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-06-29",
+          "retrieved_date": "2026-08-03",
           "source_name": "WHO",
           "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
-          "text": "The WHO estimates that seasonal influenza causes about 290,000 to 650,000 respiratory deaths worldwide each year.",
+          "text": "The WHO states seasonal influenza causes 290,000 to 650,000 respiratory deaths annually.",
           "verification_status": "verified"
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-06-29",
+          "retrieved_date": "2026-08-03",
           "source_name": "WHO",
           "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
-          "text": "The WHO estimates that annual seasonal influenza epidemics result in about 3 to 5 million cases of severe illness worldwide.",
+          "text": "The WHO states there are around a billion cases of seasonal influenza annually worldwide, including 3-5 million cases of severe illness.",
           "verification_status": "verified"
         }
       ],
       "description": "A novel influenza strain to which the population has little immunity could spread worldwide and cause mortality far exceeding ordinary seasonal influenza, as in 1918. Influenza pandemics have recurred several times per century.",
       "id": "influenza-pandemic",
-      "last_updated": "2026-06-29T00:00:00Z",
+      "last_updated": "2026-08-03T10:07:23Z",
       "name": "Influenza Pandemic",
       "provenance": {
         "history": [
           {
-            "at": "2026-06-29T00:00:00Z",
+            "at": "2026-08-03T10:07:23Z",
             "layer": "verify",
-            "run_id": "manual-2026-06-29"
+            "run_id": "2026-08-03T10-07-23Z-309989"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "manual-2026-06-29"
+        "last_run_id": "2026-08-03T10-07-23Z-309989"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -748,6 +748,71 @@
     {
       "assessment": {
         "probability": {
+          "estimate": "medium",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "continental",
+        "summary": "A steadily growing, already-tracked debris population in Earth orbit carries a real and rising risk of a self-sustaining collision cascade severe enough to disable critical satellite infrastructure.",
+        "timeframe": "Debris accumulation is continuous and tracked in real time; a runaway cascade has no predicted date but becomes more likely as orbital object density rises."
+      },
+      "category": "technological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-08-03",
+          "source_name": "NASA",
+          "source_url": "https://orbitaldebris.jsc.nasa.gov/faq/",
+          "text": "NASA's Orbital Debris Program Office states more than 25,000 tracked objects larger than 10 cm orbit Earth, with an estimated 500,000 objects between 1 and 10 cm, and more than 100 million objects larger than 1 mm; as of January 2022 the total mass of orbiting material exceeded 9,000 metric tons.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-08-03",
+          "source_name": "NASA",
+          "source_url": "https://orbitaldebris.jsc.nasa.gov/faq/",
+          "text": "NASA states the International Space Station maneuvers to avoid a tracked object when the estimated collision probability exceeds 1 in 10,000, which occurs about once a year on average.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-08-03",
+          "source_name": "NASA",
+          "source_url": "https://www.earthdata.nasa.gov/news/feature-articles/rubble-trouble",
+          "text": "NASA describes the Kessler syndrome as a domino effect that can result when objects in intersecting orbits collide at thousands of miles per hour, generating debris that raises the odds of further collisions.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Decades of launches, spent rocket stages, defunct satellites, and past collisions have left a large and growing population of debris in Earth orbit. As the density of objects in low Earth orbit rises, so does the risk of a cascading chain reaction of collisions — the 'Kessler syndrome' — that could render whole orbital bands too hazardous for satellites and crewed spacecraft for generations, threatening the GPS, communications, weather, and scientific infrastructure the world now depends on. NASA already tracks tens of thousands of objects and regularly maneuvers spacecraft, including the International Space Station, to avoid collisions.",
+      "id": "space-debris-kessler-syndrome",
+      "last_updated": "2026-08-03T10:08:41Z",
+      "name": "Space Debris and Kessler Syndrome",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-08-03T10:08:41Z",
+            "layer": "verify",
+            "run_id": "2026-08-03T10-08-41Z-7174a1"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-08-03T10-08-41Z-7174a1"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 23.0,
+        "probability_rank": 3,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
           "estimate": "very-low",
           "numeric_annual": 7.3e-07,
           "window": "next-100-years"
@@ -760,55 +825,35 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-06-28",
+          "retrieved_date": "2026-08-03",
           "source_name": "USGS",
-          "source_url": "https://www.usgs.gov/observatories/yvo/frequently-asked-questions",
-          "text": "The USGS estimates the annual probability of a Yellowstone supereruption at roughly 1 in 730,000.",
+          "source_url": "https://www.usgs.gov/volcanoes/yellowstone/questions-about-supervolcanoes",
+          "text": "The USGS estimates the yearly probability of another Yellowstone caldera-forming eruption at roughly 1 in 730,000 (0.00014%), based on averaging the intervals between the three past major eruptions.",
           "verification_status": "verified"
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-06-28",
+          "retrieved_date": "2026-08-03",
           "source_name": "USGS",
           "source_url": "https://www.usgs.gov/volcanoes/yellowstone",
-          "text": "Yellowstone has produced three caldera-forming eruptions in the past ~2.1 million years.",
+          "text": "USGS states Yellowstone's three caldera-forming eruptions were the Huckleberry Ridge Tuff (~2.1 million years ago), the Mesa Falls Tuff (~1.3 million years ago), and the Lava Creek Tuff (~640,000 years ago).",
           "verification_status": "verified"
         }
       ],
       "description": "A large caldera system beneath Yellowstone National Park capable of a 'supereruption' that would blanket much of North America in ash and inject climate-altering aerosols into the stratosphere. Such eruptions are extraordinarily rare and there is no evidence one is imminent.",
       "id": "yellowstone-supervolcano",
-      "last_updated": "2026-07-11T18:11:52Z",
+      "last_updated": "2026-08-03T10:07:13Z",
       "name": "Yellowstone Supervolcano",
       "provenance": {
         "history": [
           {
-            "at": "2026-06-28T06:00:14Z",
-            "layer": "generate",
-            "run_id": "2026-06-28T06-00-12Z-a1b2c3"
-          },
-          {
-            "at": "2026-06-28T06:01:48Z",
+            "at": "2026-08-03T10:07:13Z",
             "layer": "verify",
-            "run_id": "2026-06-28T06-00-12Z-a1b2c3"
-          },
-          {
-            "at": "2026-06-28T06:02:05Z",
-            "layer": "cleanup",
-            "run_id": "2026-06-28T06-00-12Z-a1b2c3"
-          },
-          {
-            "at": "2026-06-28T06:02:30Z",
-            "layer": "optimize",
-            "run_id": "2026-06-28T06-00-12Z-a1b2c3"
-          },
-          {
-            "at": "2026-07-11T18:11:52Z",
-            "layer": "verify",
-            "run_id": "2026-07-11T18-11-52Z-6132c1"
+            "run_id": "2026-08-03T10-07-13Z-21ecf5"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-11T18-11-52Z-6132c1"
+        "last_run_id": "2026-08-03T10-07-13Z-21ecf5"
       },
       "schema_version": "1.0",
       "sort_keys": {

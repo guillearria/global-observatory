@@ -1,0 +1,65 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "medium",
+      "numeric_annual": null,
+      "window": "ongoing"
+    },
+    "severity": "continental",
+    "summary": "A steadily growing, already-tracked debris population in Earth orbit carries a real and rising risk of a self-sustaining collision cascade severe enough to disable critical satellite infrastructure.",
+    "timeframe": "Debris accumulation is continuous and tracked in real time; a runaway cascade has no predicted date but becomes more likely as orbital object density rises."
+  },
+  "category": "technological",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-03",
+      "source_name": "NASA",
+      "source_url": "https://orbitaldebris.jsc.nasa.gov/faq/",
+      "text": "NASA's Orbital Debris Program Office states more than 25,000 tracked objects larger than 10 cm orbit Earth, with an estimated 500,000 objects between 1 and 10 cm, and more than 100 million objects larger than 1 mm; as of January 2022 the total mass of orbiting material exceeded 9,000 metric tons.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-03",
+      "source_name": "NASA",
+      "source_url": "https://orbitaldebris.jsc.nasa.gov/faq/",
+      "text": "NASA states the International Space Station maneuvers to avoid a tracked object when the estimated collision probability exceeds 1 in 10,000, which occurs about once a year on average.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-03",
+      "source_name": "NASA",
+      "source_url": "https://www.earthdata.nasa.gov/news/feature-articles/rubble-trouble",
+      "text": "NASA describes the Kessler syndrome as a domino effect that can result when objects in intersecting orbits collide at thousands of miles per hour, generating debris that raises the odds of further collisions.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Decades of launches, spent rocket stages, defunct satellites, and past collisions have left a large and growing population of debris in Earth orbit. As the density of objects in low Earth orbit rises, so does the risk of a cascading chain reaction of collisions — the 'Kessler syndrome' — that could render whole orbital bands too hazardous for satellites and crewed spacecraft for generations, threatening the GPS, communications, weather, and scientific infrastructure the world now depends on. NASA already tracks tens of thousands of objects and regularly maneuvers spacecraft, including the International Space Station, to avoid collisions.",
+  "id": "space-debris-kessler-syndrome",
+  "last_updated": "2026-08-03T10:08:41Z",
+  "name": "Space Debris and Kessler Syndrome",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-03T10:08:41Z",
+        "layer": "verify",
+        "run_id": "2026-08-03T10-08-41Z-7174a1"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-03T10-08-41Z-7174a1"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 23.0,
+    "probability_rank": 3,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
