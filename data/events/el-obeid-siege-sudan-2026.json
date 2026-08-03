@@ -10,6 +10,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-10",
+      "retrieved_date": "2026-08-03",
+      "source_name": "UN World Food Programme",
+      "source_url": "https://www.wfp.org/news/wfp-geneva-palais-briefing-note-wfp-warns-el-obeid-becoming-new-epicentre-sudans-displacement",
+      "text": "Re-checked 3 August 2026: a search of reliefweb.int and news.un.org found no new aggregate death toll or IDP figure specific to El Obeid beyond those already cited; siege and drone-strike conditions continue with no ceasefire or ground assault reported.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-17",
       "source_name": "ReliefWeb",
@@ -79,7 +87,7 @@
     "impact": {
       "deaths": 45,
       "displaced": 120000,
-      "summary": "No updated aggregate death toll specific to El Obeid has been published since the 3 July UN Human Rights Office figure (15 drone strikes over 3 weeks, at least 45 civilians killed); drone strikes have continued and even increased in frequency (21 drone-related incidents logged 1-19 July per a UNFPA Flash Update via ReliefWeb), but no authoritative source has issued a new cumulative city-specific casualty count as of 24 July 2026. A UN News article citing UN Women (24 July 2026) reports a nationwide figure that drone strikes killed at least 880 civilians across Sudan in the first four months of 2026 alone (over 80% of all civilian deaths the UN human rights office recorded in that period) — this is a national, not El-Obeid-specific, statistic and is presented as additional context rather than a revision of the city death toll. On displacement, WFP (17 July briefing) confirms more than 120,000 people are in the Unified IDP Camp alone in El Obeid, the most specific and best-corroborated camp-population figure to date; a separate 24 July UN News/UN Women report cites a lower total of 83,000 IDPs in El Obeid (out of a city population of over half a million), which is noted here as a divergent source figure rather than adopted as the headline number. Rations for WFP-assisted families remain cut to 50 percent of the full entitlement due to funding shortfalls. The 24 July report also documents that women and girls face drone strikes if they collect water by day and sexual violence if they wait until after dark, with no safe window to access water. No ceasefire, siege-lifting, or ground assault has been confirmed by an authoritative source. Re-checked 2 August 2026: UNHCR's Sudan Situation Monthly External Update #120 (June 2026, posted 31 July 2026) notes continued drone attacks on El Obeid damaging civilian areas, fuel infrastructure, health facilities and transport routes, but reports no new aggregate casualty or IDP figure specific to El Obeid beyond the sources already cited; siege conditions continue with no ceasefire or ground assault confirmed."
+      "summary": "No updated aggregate death toll specific to El Obeid has been published since the 3 July UN Human Rights Office figure (15 drone strikes over 3 weeks, at least 45 civilians killed); drone strikes have continued and even increased in frequency (21 drone-related incidents logged 1-19 July per a UNFPA Flash Update via ReliefWeb), but no authoritative source has issued a new cumulative city-specific casualty count as of 24 July 2026. A UN News article citing UN Women (24 July 2026) reports a nationwide figure that drone strikes killed at least 880 civilians across Sudan in the first four months of 2026 alone (over 80% of all civilian deaths the UN human rights office recorded in that period) — this is a national, not El-Obeid-specific, statistic and is presented as additional context rather than a revision of the city death toll. On displacement, WFP (17 July briefing) confirms more than 120,000 people are in the Unified IDP Camp alone in El Obeid, the most specific and best-corroborated camp-population figure to date; a separate 24 July UN News/UN Women report cites a lower total of 83,000 IDPs in El Obeid (out of a city population of over half a million), which is noted here as a divergent source figure rather than adopted as the headline number. Rations for WFP-assisted families remain cut to 50 percent of the full entitlement due to funding shortfalls. The 24 July report also documents that women and girls face drone strikes if they collect water by day and sexual violence if they wait until after dark, with no safe window to access water. No ceasefire, siege-lifting, or ground assault has been confirmed by an authoritative source. Re-checked 3 August 2026: no allowlisted source has published a new aggregate death toll or IDP figure specific to El Obeid beyond those already cited (the 3 July UN Human Rights Office count of 45+ killed and the 17 July WFP camp-population figure of 120,000+); siege and drone-strike conditions continue with no ceasefire or ground assault reported."
     },
     "live_source_url": "https://reliefweb.int/country/sdn",
     "location": {
@@ -93,18 +101,18 @@
     "status": "ongoing"
   },
   "id": "el-obeid-siege-sudan-2026",
-  "last_updated": "2026-08-02T09:18:21Z",
+  "last_updated": "2026-08-03T09:19:18Z",
   "name": "Siege of El Obeid — North Kordofan, Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-02T09:18:21Z",
+        "at": "2026-08-03T09:19:18Z",
         "layer": "verify",
-        "run_id": "2026-08-02T09-18-21Z-02eb0e"
+        "run_id": "2026-08-03T09-19-18Z-32c6a6"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-02T09-18-21Z-02eb0e"
+    "last_run_id": "2026-08-03T09-19-18Z-32c6a6"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -114,7 +122,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

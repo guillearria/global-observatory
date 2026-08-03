@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02T09:22:05Z",
+  "last_updated": "2026-08-03T09:19:18Z",
   "published": [
     {
       "category": "flood",
@@ -693,6 +693,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-10",
+          "retrieved_date": "2026-08-03",
+          "source_name": "UN World Food Programme",
+          "source_url": "https://www.wfp.org/news/wfp-geneva-palais-briefing-note-wfp-warns-el-obeid-becoming-new-epicentre-sudans-displacement",
+          "text": "Re-checked 3 August 2026: a search of reliefweb.int and news.un.org found no new aggregate death toll or IDP figure specific to El Obeid beyond those already cited; siege and drone-strike conditions continue with no ceasefire or ground assault reported.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-17",
           "source_name": "ReliefWeb",
@@ -762,7 +770,7 @@
         "impact": {
           "deaths": 45,
           "displaced": 120000,
-          "summary": "No updated aggregate death toll specific to El Obeid has been published since the 3 July UN Human Rights Office figure (15 drone strikes over 3 weeks, at least 45 civilians killed); drone strikes have continued and even increased in frequency (21 drone-related incidents logged 1-19 July per a UNFPA Flash Update via ReliefWeb), but no authoritative source has issued a new cumulative city-specific casualty count as of 24 July 2026. A UN News article citing UN Women (24 July 2026) reports a nationwide figure that drone strikes killed at least 880 civilians across Sudan in the first four months of 2026 alone (over 80% of all civilian deaths the UN human rights office recorded in that period) — this is a national, not El-Obeid-specific, statistic and is presented as additional context rather than a revision of the city death toll. On displacement, WFP (17 July briefing) confirms more than 120,000 people are in the Unified IDP Camp alone in El Obeid, the most specific and best-corroborated camp-population figure to date; a separate 24 July UN News/UN Women report cites a lower total of 83,000 IDPs in El Obeid (out of a city population of over half a million), which is noted here as a divergent source figure rather than adopted as the headline number. Rations for WFP-assisted families remain cut to 50 percent of the full entitlement due to funding shortfalls. The 24 July report also documents that women and girls face drone strikes if they collect water by day and sexual violence if they wait until after dark, with no safe window to access water. No ceasefire, siege-lifting, or ground assault has been confirmed by an authoritative source. Re-checked 2 August 2026: UNHCR's Sudan Situation Monthly External Update #120 (June 2026, posted 31 July 2026) notes continued drone attacks on El Obeid damaging civilian areas, fuel infrastructure, health facilities and transport routes, but reports no new aggregate casualty or IDP figure specific to El Obeid beyond the sources already cited; siege conditions continue with no ceasefire or ground assault confirmed."
+          "summary": "No updated aggregate death toll specific to El Obeid has been published since the 3 July UN Human Rights Office figure (15 drone strikes over 3 weeks, at least 45 civilians killed); drone strikes have continued and even increased in frequency (21 drone-related incidents logged 1-19 July per a UNFPA Flash Update via ReliefWeb), but no authoritative source has issued a new cumulative city-specific casualty count as of 24 July 2026. A UN News article citing UN Women (24 July 2026) reports a nationwide figure that drone strikes killed at least 880 civilians across Sudan in the first four months of 2026 alone (over 80% of all civilian deaths the UN human rights office recorded in that period) — this is a national, not El-Obeid-specific, statistic and is presented as additional context rather than a revision of the city death toll. On displacement, WFP (17 July briefing) confirms more than 120,000 people are in the Unified IDP Camp alone in El Obeid, the most specific and best-corroborated camp-population figure to date; a separate 24 July UN News/UN Women report cites a lower total of 83,000 IDPs in El Obeid (out of a city population of over half a million), which is noted here as a divergent source figure rather than adopted as the headline number. Rations for WFP-assisted families remain cut to 50 percent of the full entitlement due to funding shortfalls. The 24 July report also documents that women and girls face drone strikes if they collect water by day and sexual violence if they wait until after dark, with no safe window to access water. No ceasefire, siege-lifting, or ground assault has been confirmed by an authoritative source. Re-checked 3 August 2026: no allowlisted source has published a new aggregate death toll or IDP figure specific to El Obeid beyond those already cited (the 3 July UN Human Rights Office count of 45+ killed and the 17 July WFP camp-population figure of 120,000+); siege and drone-strike conditions continue with no ceasefire or ground assault reported."
         },
         "live_source_url": "https://reliefweb.int/country/sdn",
         "location": {
@@ -776,18 +784,18 @@
         "status": "ongoing"
       },
       "id": "el-obeid-siege-sudan-2026",
-      "last_updated": "2026-08-02T09:18:21Z",
+      "last_updated": "2026-08-03T09:19:18Z",
       "name": "Siege of El Obeid — North Kordofan, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:18:21Z",
+            "at": "2026-08-03T09:19:18Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-18-21Z-02eb0e"
+            "run_id": "2026-08-03T09-19-18Z-32c6a6"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-18-21Z-02eb0e"
+        "last_run_id": "2026-08-03T09-19-18Z-32c6a6"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -797,7 +805,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1259,14 +1267,22 @@
           "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9/executive",
           "text": "Re-checked 2 August 2026: USGS's PAGER loss-model product (version 7, processed 29 July 2026) remains the latest; no confirmed casualty or damage figures have been published by an allowlisted source as of 2 August 2026.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-08-03",
+          "source_name": "USGS",
+          "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000tgb9.geojson",
+          "text": "Re-checked 3 August 2026: USGS's feed for event us6000tgb9 (last updated 29 July 2026) still shows the Red/Orange PAGER alert and the same loss-model estimates as the prior check; no GDACS report and no allowlisted confirmed casualty or damage figure exists for this earthquake as of 3 August 2026.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 6.8 earthquake struck southern Kumamoto Prefecture, Kyushu, Japan, on 28 July 2026 at 07:27 UTC (16:27 local time), 5 km east of Uto City, at a depth of about 10 km. USGS's PAGER system initially assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe); a PAGER loss-model update as of 29 July 2026 raised the maximum estimated shaking to MMI IX (Violent) and upgraded the fatality alert from Yellow to Orange, with the economic alert remaining Red — PAGER's probabilistic loss models now estimate roughly 724 fatalities (empirical model) or 234 fatalities (semi-empirical structural model) and about $12.7 billion in economic losses. About 1.24 million people were exposed to MMI VII (Very Strong) shaking or greater, almost entirely within Japan. As of 29 July 2026, these remain PAGER's automated probabilistic estimates — no authoritative confirmed casualty or damage figures have yet been published.",
+      "description": "A magnitude 6.8 earthquake struck southern Kumamoto Prefecture, Kyushu, Japan, on 28 July 2026 at 07:27 UTC (16:27 local time), 5 km east of Uto City, at a depth of about 10 km. USGS's PAGER system initially assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe); a PAGER loss-model update as of 29 July 2026 raised the maximum estimated shaking to MMI IX (Violent) and upgraded the fatality alert from Yellow to Orange, with the economic alert remaining Red — PAGER's probabilistic loss models now estimate roughly 724 fatalities (empirical model) or 234 fatalities (semi-empirical structural model) and about $12.7 billion in economic losses. About 1.24 million people were exposed to MMI VII (Very Strong) shaking or greater, almost entirely within Japan. As of 3 August 2026, these remain PAGER's automated probabilistic estimates — no allowlisted authoritative source has yet published confirmed casualty or damage figures, though non-allowlisted international media report a Japanese-government-confirmed death toll that had risen into the mid-30s by 1 August.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "USGS recorded a magnitude 6.8 earthquake on 28 July 2026 at 07:27:15 UTC, 5 km east of Uto, Kumamoto Prefecture, Japan, at a depth of about 10 km. USGS's PAGER system initially assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe); a PAGER loss-model update as of 29 July 2026 raised the maximum estimated shaking to MMI IX (Violent) and upgraded the fatality alert from Yellow to Orange, with roughly 1.24 million people exposed to MMI VII (Very Strong) shaking or greater. PAGER's probabilistic loss models now estimate about 724 fatalities (empirical) or 234 fatalities (semi-empirical) and about $12.7 billion in economic losses — these are automated model estimates, not confirmed figures. As of 29 July 2026, no authoritative confirmed casualty or damage figures have been published. Re-checked 2 August 2026: USGS's PAGER loss-model product (version 7, processed 29 July 2026) remains the latest; no confirmed casualty or damage figures have been published by an allowlisted source as of 2 August 2026."
+          "summary": "USGS recorded a magnitude 6.8 earthquake on 28 July 2026 at 07:27:15 UTC, 5 km east of Uto, Kumamoto Prefecture, Japan, at a depth of about 10 km. USGS's PAGER system initially assessed an overall Red alert level (economic-loss alert Red, fatality alert Yellow) with a maximum estimated shaking intensity of MMI VIII (Severe); a PAGER loss-model update as of 29 July 2026 raised the maximum estimated shaking to MMI IX (Violent) and upgraded the fatality alert from Yellow to Orange, with roughly 1.24 million people exposed to MMI VII (Very Strong) shaking or greater. PAGER's probabilistic loss models now estimate about 724 fatalities (empirical) or 234 fatalities (semi-empirical) and about $12.7 billion in economic losses — these are automated model estimates, not confirmed figures. No allowlisted source has yet published confirmed casualty or damage figures. Re-checked 3 August 2026: USGS's event page (id us6000tgb9) still shows no PAGER product update since the 29 July 2026 loss-model revision; no GDACS or ReliefWeb report exists for this earthquake, and no allowlisted source has published a confirmed casualty or damage figure as of 3 August 2026. Non-allowlisted international outlets (e.g. Japan Times, NPR) report Japanese-government-confirmed deaths had reached the mid-30s by 1 August, but this remains unconfirmed by any allowlisted source and is not reflected in the figures above."
         },
         "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9/executive",
         "location": {
@@ -1280,18 +1296,18 @@
         "status": "ongoing"
       },
       "id": "japan-earthquake-kumamoto-2026",
-      "last_updated": "2026-08-02T09:18:21Z",
+      "last_updated": "2026-08-03T09:19:18Z",
       "name": "M6.8 Earthquake — Kumamoto, Japan",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:18:21Z",
+            "at": "2026-08-03T09:19:18Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-18-21Z-bb3d7c"
+            "run_id": "2026-08-03T09-19-18Z-0e37c5"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-18-21Z-bb3d7c"
+        "last_run_id": "2026-08-03T09-19-18Z-0e37c5"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1301,7 +1317,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1421,6 +1437,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-15",
+          "retrieved_date": "2026-08-03",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
+          "text": "Re-checked 3 August 2026: DSWD DROMIC Report #76 (24 July 2026) remains the latest in its series, with no Report #77 yet published; the OCHA 13 July casualty snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable figure.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-02",
           "source_name": "United Nations",
@@ -1490,7 +1514,7 @@
         "impact": {
           "deaths": 94,
           "displaced": 109445,
-          "summary": "DSWD DROMIC Report #76 (24 July 2026, 6PM, via ReliefWeb) reports 392,389 families (1,657,524 persons) affected across 661 barangays in Regions IX, XI, XII and BARMM, up slightly from 392,157 families (1,656,596 persons) in Report #75 (23 July). Total displacement rose to 27,508 families (109,445 persons) — 7,982 families (32,890 persons) inside 85 evacuation centers and 19,526 families (76,555 persons) staying outside with relatives or friends — up from 27,118 families (107,475 persons) as of Report #75. Houses damaged remain unchanged at 115,205 total (18,644 totally destroyed, 96,561 partially damaged). Assistance provided to date totals PHP 1,306,112,420.37 (PHP 1,306,092,420.37 from DSWD and PHP 20,000.00 from LGUs), up from PHP 1,288,971,829.87 as of Report #75. DSWD's DROMIC report template still carries no casualty section, so the most recent citable death/injury/missing figures remain OCHA's 13 July snapshot (94 deaths, 1,316 injured, 18 missing); GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity. No allowlisted source has declared the response concluded or resolved. Re-checked 2 August 2026: DSWD DROMIC Report #76 (24 July 2026) remains the latest in its series, with no Report #77 yet published; the OCHA 13 July casualty snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable figure."
+          "summary": "DSWD DROMIC Report #76 (24 July 2026, 6PM, via ReliefWeb) reports 392,389 families (1,657,524 persons) affected across 661 barangays in Regions IX, XI, XII and BARMM, up slightly from 392,157 families (1,656,596 persons) in Report #75 (23 July). Total displacement rose to 27,508 families (109,445 persons) — 7,982 families (32,890 persons) inside 85 evacuation centers and 19,526 families (76,555 persons) staying outside with relatives or friends — up from 27,118 families (107,475 persons) as of Report #75. Houses damaged remain unchanged at 115,205 total (18,644 totally destroyed, 96,561 partially damaged). Assistance provided to date totals PHP 1,306,112,420.37 (PHP 1,306,092,420.37 from DSWD and PHP 20,000.00 from LGUs), up from PHP 1,288,971,829.87 as of Report #75. DSWD's DROMIC report template still carries no casualty section, so the most recent citable death/injury/missing figures remain OCHA's 13 July snapshot (94 deaths, 1,316 injured, 18 missing); GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity. No allowlisted source has declared the response concluded or resolved. Re-checked 3 August 2026: DSWD DROMIC Report #76 (24 July 2026) remains the latest in its series, with no Report #77 yet published; the OCHA 13 July casualty snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable figure."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
         "location": {
@@ -1504,18 +1528,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-08-02T09:18:21Z",
+      "last_updated": "2026-08-03T09:19:18Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:18:21Z",
+            "at": "2026-08-03T09:19:18Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-18-21Z-cb128a"
+            "run_id": "2026-08-03T09-19-18Z-776424"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-18-21Z-cb128a"
+        "last_run_id": "2026-08-03T09-19-18Z-776424"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1525,7 +1549,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -2461,6 +2485,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-18",
+          "retrieved_date": "2026-08-03",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-31-31-july-2026-time-0500-pm",
+          "text": "Re-checked 3 August 2026: OCHA Situation Report #31 (31 July 2026) remains the latest in its series; no Situation Report #32 has been published as of 3 August 2026, and figures are unchanged.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-02",
           "source_name": "USGS",
@@ -2530,7 +2562,7 @@
         "impact": {
           "deaths": 5546,
           "displaced": 17907,
-          "summary": "As of OCHA Situation Report #31 (31 July 2026, 5:00 pm), 37 days after the 24 June doublet quakes, the official toll stands at 5,546 dead and 16,740 injured (up from 5,398 dead in SitRep #30 eight days earlier), with 1,500 aftershocks recorded (up from 1,463) and 17,907 people who lost their homes. As of 30 July, 207,700 people (54% women/girls) had accessed essential services or humanitarian assistance. Funding and targeting figures are unchanged: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum still totals US$931 million in requirements, targeting 6.2 million people, of whom 1.3 million are earthquake-affected. OCHA continues weekly situation reports, consistent with a response shifting toward recovery rather than acute emergency. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP). Re-checked 2 August 2026: OCHA Situation Report #31 (31 July 2026) remains the latest in its series; no Situation Report #32 has been published as of 2 August 2026, and figures are unchanged."
+          "summary": "As of OCHA Situation Report #31 (31 July 2026, 5:00 pm), 37 days after the 24 June doublet quakes, the official toll stands at 5,546 dead and 16,740 injured (up from 5,398 dead in SitRep #30 eight days earlier), with 1,500 aftershocks recorded (up from 1,463) and 17,907 people who lost their homes. As of 30 July, 207,700 people (54% women/girls) had accessed essential services or humanitarian assistance. Funding and targeting figures are unchanged: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum still totals US$931 million in requirements, targeting 6.2 million people, of whom 1.3 million are earthquake-affected. OCHA continues weekly situation reports, consistent with a response shifting toward recovery rather than acute emergency. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP). Re-checked 3 August 2026: OCHA Situation Report #31 (31 July 2026) remains the latest in its series; no Situation Report #32 has been published as of 3 August 2026, and figures are unchanged."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
         "location": {
@@ -2544,18 +2576,18 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-08-02T09:18:22Z",
+      "last_updated": "2026-08-03T09:19:18Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:18:22Z",
+            "at": "2026-08-03T09:19:18Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-18-22Z-de36eb"
+            "run_id": "2026-08-03T09-19-18Z-5b3b15"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-18-22Z-de36eb"
+        "last_run_id": "2026-08-03T09-19-18Z-5b3b15"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2565,7 +2597,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -2619,6 +2651,14 @@
           "source_url": "https://news.un.org/en/story/2026/07/1168045",
           "text": "Re-checked 2 August 2026: no OCHA or OHCHR statement newer than the 29 July 2026 UN News report has been found on reliefweb.int or news.un.org; figures are unchanged.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-08-03",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/07/1168045",
+          "text": "Re-checked 3 August 2026: no OCHA or OHCHR statement newer than the 29 July 2026 UN News report has been found on reliefweb.int or news.un.org; figures are unchanged.",
+          "verification_status": "verified"
         }
       ],
       "description": "A sharp escalation of Israeli settler violence in the occupied West Bank culminated on 24 July 2026 when Israeli settlers carried out two attacks on Tal village near Nablus, leaving four Palestinians (two brothers and two cousins from the Ramadan family) and two Israelis dead, and triggering a wave of settler reprisal attacks on nearby Palestinian villages, mosque burnings, and an Israeli government-announced 'major counterterrorism operation.' The attack capped a week of escalating violence: OCHA reported 68 Palestinians killed in the West Bank in 2026 as of 19 July (at least 13 by settlers), rising to about 10 Palestinian deaths in the week since 19 July alone, while fatalities linked specifically to settler attacks in 2026 (18 as of 20 July) had already surpassed the full-year 2025 total of 17. A newer OHCHR figure reported via UN News on 29 July 2026 puts settler-attack fatalities substantially higher — 76 Palestinians and 1 Israeli killed in settler attacks so far in 2026 as of 24 July, on a trajectory to exceed 2,000 settler attacks for the year (up from 1,835 in 2025), with nearly 700 Palestinians displaced across nine West Bank communities in the first four months of 2026 alone. The same UN News report states that, since 24 July, a further eight Palestinians (including a child) and two Israeli military members have been killed, describing West Bank settler violence as having hit an 'all-time high.' This OHCHR count and OCHA's 18-killed figure appear to use different methodologies or scopes and have not been reconciled by an authoritative source. The violence is occurring amid a fragile Gaza ceasefire and continued deterioration of humanitarian conditions across the Occupied Palestinian Territory.",
@@ -2626,7 +2666,7 @@
         "impact": {
           "deaths": 12,
           "displaced": 90,
-          "summary": "The 24 July settler attacks on Tal village near Nablus killed 4 Palestinians and 2 Israelis and brought the West Bank Palestinian death toll since 19 July to 10 (per Human Rights Watch, hosted on ReliefWeb). OCHA reported 68 Palestinians killed in the West Bank in 2026 as of 19 July (at least 13 by settlers) and 20 Israelis injured in 2026 as of 15 July. A newer OHCHR figure reported via UN News (29 July 2026) puts 2026 settler-attack fatalities as of 24 July at 76 Palestinians and 1 Israeli, alongside about 190 settler attacks per month in the first four months of 2026 (on pace to exceed 2,000 for the year, up from 1,835 in 2025) and nearly 700 Palestinians displaced across nine communities in that four-month window. The same UN News report (29 July 2026) states that, since 24 July, a further eight Palestinians (including a child) and two Israeli military members have been killed, and describes West Bank settler violence as having reached an 'all-time high.' The OHCHR and OCHA settler-attack death tolls have not been reconciled by an authoritative source. Re-checked 2 August 2026: no OCHA or OHCHR statement newer than the 29 July 2026 UN News report has been found on reliefweb.int or news.un.org; figures are unchanged."
+          "summary": "The 24 July settler attacks on Tal village near Nablus killed 4 Palestinians and 2 Israelis and brought the West Bank Palestinian death toll since 19 July to 10 (per Human Rights Watch, hosted on ReliefWeb). OCHA reported 68 Palestinians killed in the West Bank in 2026 as of 19 July (at least 13 by settlers) and 20 Israelis injured in 2026 as of 15 July. A newer OHCHR figure reported via UN News (29 July 2026) puts 2026 settler-attack fatalities as of 24 July at 76 Palestinians and 1 Israeli, alongside about 190 settler attacks per month in the first four months of 2026 (on pace to exceed 2,000 for the year, up from 1,835 in 2025) and nearly 700 Palestinians displaced across nine communities in that four-month window. The same UN News report (29 July 2026) states that, since 24 July, a further eight Palestinians (including a child) and two Israeli military members have been killed, and describes West Bank settler violence as having reached an 'all-time high.' The OHCHR and OCHA settler-attack death tolls have not been reconciled by an authoritative source. Re-checked 3 August 2026: no OCHA or OHCHR statement newer than the 29 July 2026 UN News report has been found on reliefweb.int or news.un.org; figures are unchanged."
         },
         "live_source_url": "https://reliefweb.int/country/pse",
         "location": {
@@ -2640,18 +2680,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-08-02T09:18:22Z",
+      "last_updated": "2026-08-03T09:19:18Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:18:22Z",
+            "at": "2026-08-03T09:19:18Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-18-22Z-5cf9f5"
+            "run_id": "2026-08-03T09-19-18Z-4494bd"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-18-22Z-5cf9f5"
+        "last_run_id": "2026-08-03T09-19-18Z-4494bd"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2661,7 +2701,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }

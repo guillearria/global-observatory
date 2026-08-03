@@ -74,6 +74,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-18",
+      "retrieved_date": "2026-08-03",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-31-31-july-2026-time-0500-pm",
+      "text": "Re-checked 3 August 2026: OCHA Situation Report #31 (31 July 2026) remains the latest in its series; no Situation Report #32 has been published as of 3 August 2026, and figures are unchanged.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-02",
       "source_name": "USGS",
@@ -143,7 +151,7 @@
     "impact": {
       "deaths": 5546,
       "displaced": 17907,
-      "summary": "As of OCHA Situation Report #31 (31 July 2026, 5:00 pm), 37 days after the 24 June doublet quakes, the official toll stands at 5,546 dead and 16,740 injured (up from 5,398 dead in SitRep #30 eight days earlier), with 1,500 aftershocks recorded (up from 1,463) and 17,907 people who lost their homes. As of 30 July, 207,700 people (54% women/girls) had accessed essential services or humanitarian assistance. Funding and targeting figures are unchanged: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum still totals US$931 million in requirements, targeting 6.2 million people, of whom 1.3 million are earthquake-affected. OCHA continues weekly situation reports, consistent with a response shifting toward recovery rather than acute emergency. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP). Re-checked 2 August 2026: OCHA Situation Report #31 (31 July 2026) remains the latest in its series; no Situation Report #32 has been published as of 2 August 2026, and figures are unchanged."
+      "summary": "As of OCHA Situation Report #31 (31 July 2026, 5:00 pm), 37 days after the 24 June doublet quakes, the official toll stands at 5,546 dead and 16,740 injured (up from 5,398 dead in SitRep #30 eight days earlier), with 1,500 aftershocks recorded (up from 1,463) and 17,907 people who lost their homes. As of 30 July, 207,700 people (54% women/girls) had accessed essential services or humanitarian assistance. Funding and targeting figures are unchanged: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum still totals US$931 million in requirements, targeting 6.2 million people, of whom 1.3 million are earthquake-affected. OCHA continues weekly situation reports, consistent with a response shifting toward recovery rather than acute emergency. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP). Re-checked 3 August 2026: OCHA Situation Report #31 (31 July 2026) remains the latest in its series; no Situation Report #32 has been published as of 3 August 2026, and figures are unchanged."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
     "location": {
@@ -157,18 +165,18 @@
     "status": "ongoing"
   },
   "id": "venezuela-earthquake-2026",
-  "last_updated": "2026-08-02T09:18:22Z",
+  "last_updated": "2026-08-03T09:19:18Z",
   "name": "Venezuela M7.5 Earthquake Doublet",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-02T09:18:22Z",
+        "at": "2026-08-03T09:19:18Z",
         "layer": "verify",
-        "run_id": "2026-08-02T09-18-22Z-de36eb"
+        "run_id": "2026-08-03T09-19-18Z-5b3b15"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-02T09-18-22Z-de36eb"
+    "last_run_id": "2026-08-03T09-19-18Z-5b3b15"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -178,7 +186,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
