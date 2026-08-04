@@ -2,6 +2,17 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-04 — Daily World Pulse refresh: add Greece wildfire & South Korea market crisis, contain 4 wildfires (`3b4ec3a`)
+
+- **Added:** greece-wildfire-attica-2026, south-korea-stock-market-crisis-2026
+- **Updated:** france-wildfire-gironde-2026, spain-wildfire-castellon-2026, spain-wildfire-madrid-avila-2026, tunisia-wildfires-2026
+- **Newly allowlisted domains:** bok.or.kr, mofe.go.kr
+
+## 2026-08-03 — Refresh threats: re-verify Yellowstone/influenza, add space debris/Kessler syndrome (`9335d52`)
+
+- **Added:** space-debris-kessler-syndrome
+- **Updated:** influenza-pandemic, yellowstone-supervolcano
+
 ## 2026-08-03 — Daily World Pulse refresh: re-verify Kumamoto/Venezuela/Mindanao/West Bank/El Obeid (`89ecafc`)
 
 - **Updated:** el-obeid-siege-sudan-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
@@ -112,15 +123,15 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 - **Updated:** critical-infrastructure-cyberattack
 
+## 2026-07-11 — Merge origin/main: resolve CHANGELOG conflict with World Pulse refreshes (`fd7ee08`)
+
+- **Added:** advanced-ai-risk, aleppo-earthquake-1138, an-lushan-rebellion, antonine-plague, armenian-genocide, bengal-famine-1770, bengal-famine-1943, bhola-cyclone, biodiversity-loss-ecosystem-collapse, black-death, china-floods-1931, china-floods-guangxi-hunan-2026, classic-maya-collapse, cocoliztli-epidemics, covid-19-pandemic, critical-infrastructure-cyberattack, ebola-bundibugyo-drc-2026, europe-heatwave-2026, fall-of-ur, fall-of-western-rome, four-point-two-kiloyear-event, france-wildfires-pyrenees-2026, global-armed-conflict, global-food-water-insecurity, global-forced-displacement, global-warming, great-chinese-famine, great-famine-1315, great-plague-of-london, harappan-decline, hiv-aids-pandemic, indian-ocean-tsunami, influenza-pandemic, influenza-pandemic-1918, irish-great-famine, krakatoa-eruption, laki-eruption, late-bronze-age-collapse, lisbon-earthquake-1755, mindanao-earthquake-philippines-2026, mongol-conquests, near-earth-asteroid-impact, nuclear-war, plague-of-athens, plague-of-cyprian, plague-of-justinian, portugal-wildfires-2026, punic-wars, rwandan-genocide, shaanxi-earthquake-1556, sudan-displacement-crisis, taiping-rebellion, tambora-eruption, tangshan-earthquake, the-holocaust, thera-eruption, thirty-years-war, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026, vesuvius-79, world-war-i, world-war-ii, yellowstone-supervolcano
+
 ## 2026-07-11 — Daily World Pulse refresh: add Europe heatwave, update 3 ongoing events (`21089d1`)
 
 - **Added:** europe-heatwave-2026
 - **Updated:** ebola-bundibugyo-drc-2026, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026
 
-## 2026-07-10 — Daily World Pulse refresh: update 5 ongoing events (`67d4f70`)
+## 2026-07-10 — Regenerate CHANGELOG.md for the World Pulse refresh commit (`0c76939`)
 
 - **Added:** advanced-ai-risk, aleppo-earthquake-1138, an-lushan-rebellion, antonine-plague, armenian-genocide, bengal-famine-1770, bengal-famine-1943, bhola-cyclone, black-death, china-floods-1931, china-floods-guangxi-hunan-2026, classic-maya-collapse, cocoliztli-epidemics, covid-19-pandemic, ebola-bundibugyo-drc-2026, fall-of-ur, fall-of-western-rome, four-point-two-kiloyear-event, france-wildfires-pyrenees-2026, global-food-water-insecurity, global-forced-displacement, global-warming, great-chinese-famine, great-famine-1315, great-plague-of-london, harappan-decline, hiv-aids-pandemic, indian-ocean-tsunami, influenza-pandemic, influenza-pandemic-1918, irish-great-famine, krakatoa-eruption, laki-eruption, late-bronze-age-collapse, lisbon-earthquake-1755, mindanao-earthquake-philippines-2026, mongol-conquests, near-earth-asteroid-impact, nuclear-war, plague-of-athens, plague-of-cyprian, plague-of-justinian, portugal-wildfires-2026, punic-wars, rwandan-genocide, shaanxi-earthquake-1556, sudan-displacement-crisis, taiping-rebellion, tambora-eruption, tangshan-earthquake, the-holocaust, thera-eruption, thirty-years-war, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026, vesuvius-79, world-war-i, world-war-ii, yellowstone-supervolcano
-
-## 2026-07-06 — Seed 3 threats in thin-coverage categories: biodiversity, cyberattack, conflict (`0cf426f`)
-
-- **Added:** advanced-ai-risk, aleppo-earthquake-1138, an-lushan-rebellion, antonine-plague, armenian-genocide, bengal-famine-1770, bengal-famine-1943, bhola-cyclone, biodiversity-loss-ecosystem-collapse, black-death, china-floods-1931, classic-maya-collapse, cocoliztli-epidemics, covid-19-pandemic, critical-infrastructure-cyberattack, ebola-bundibugyo-drc-2026, fall-of-ur, fall-of-western-rome, four-point-two-kiloyear-event, global-armed-conflict, global-food-water-insecurity, global-forced-displacement, global-warming, great-chinese-famine, great-famine-1315, great-plague-of-london, harappan-decline, hiv-aids-pandemic, indian-ocean-tsunami, influenza-pandemic, influenza-pandemic-1918, irish-great-famine, krakatoa-eruption, laki-eruption, late-bronze-age-collapse, lisbon-earthquake-1755, mindanao-earthquake-philippines-2026, mongol-conquests, near-earth-asteroid-impact, nuclear-war, plague-of-athens, plague-of-cyprian, plague-of-justinian, punic-wars, rwandan-genocide, shaanxi-earthquake-1556, sudan-displacement-crisis, taiping-rebellion, tambora-eruption, tangshan-earthquake, the-holocaust, thera-eruption, thirty-years-war, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026, vesuvius-79, world-war-i, world-war-ii, yellowstone-supervolcano
