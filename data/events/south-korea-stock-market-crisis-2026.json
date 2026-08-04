@@ -1,0 +1,64 @@
+{
+  "category": "economic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-04",
+      "source_name": "Bank of Korea",
+      "source_url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11062944&searchCnd=1&searchKwd=&depth2=400417&depth3=400423&depth=400423&pageUnit=10&pageIndex=1&programType=newsDataEng&menuNo=400423&oldMenuNo=400423",
+      "text": "The Bank of Korea's Monetary Policy Decision & Opening Remarks to the Press Conference (16 July 2026) states: \"Stock prices underwent a sizable correction amid heightened volatility due to growing concerns over AI investment and large-scale net sales of domestic stocks by foreign investors,\" and that \"financial stability risks also persist,\" including elevated exchange-rate volatility.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-04",
+      "source_name": "Ministry of Economy and Finance (Korea)",
+      "source_url": "https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=6451",
+      "text": "South Korea's Ministry of Economy and Finance's press release \"Authorities Step Up Swift Coordination and Response Amid Heightened Stock Market Volatility\" (29 July 2026) states the Deputy Prime Minister and Minister of Finance and Economy convened an Emergency Market Situation Review Meeting attended by the Bank of Korea Governor and the Chairmen of the Financial Services Commission and Financial Supervisory Service, after \"the recent sharp decline in the stock market, led by semiconductor shares, was driven by intensifying competition in the memory chip industry stemming from China and growing concerns over funding needs among major U.S. technology companies\"; the authorities announced investor-specific investment limits on single-stock leveraged products, higher transaction costs, mandatory simulated trading, and a commitment to establish a legal basis for emergency market-stabilization measures.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "South Korea's KOSPI index, which had surged to an all-time high in June 2026, underwent a sharp and volatile correction through July driven by intensifying Chinese competition in the memory-chip industry and concerns over major US tech firms' AI-related funding needs; the market triggered repeated trading-halt circuit breakers, including on back-to-back sessions in late July. The Bank of Korea's 16 July 2026 policy statement acknowledged stock prices had \"underwent a sizable correction amid heightened volatility,\" and on 29 July the government convened an Emergency Market Situation Review Meeting of the Deputy Prime Minister/Finance Minister, the Bank of Korea Governor, and financial regulators, which announced new curbs on single-stock leveraged products, a 24-hour market monitoring system, and a commitment to establish a legal basis for emergency market-stabilization measures. No allowlisted source has declared the correction over.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "The Bank of Korea's 16 July 2026 monetary policy statement said stock prices \"underwent a sizable correction amid heightened volatility due to growing concerns over AI investment and large-scale net sales of domestic stocks by foreign investors,\" citing persistent financial stability risks. On 29 July 2026, South Korea's Ministry of Economy and Finance convened an Emergency Market Situation Review Meeting — chaired by the Deputy Prime Minister/Finance Minister and attended by the Bank of Korea Governor and the heads of the Financial Services Commission and Financial Supervisory Service — after the stock market's decline, led by semiconductor shares, triggered market-wide circuit breakers on consecutive trading sessions. The meeting's official readout announced new curbs on single-stock leveraged products (investment limits, higher transaction costs, mandatory simulated trading), a 24-hour market monitoring system, and a commitment to establish a legal basis for emergency market-stabilization measures; participants judged Korea's underlying economic fundamentals (exports, corporate earnings, current account surplus) remained solid. No allowlisted source has published a specific index-decline percentage or confirmed the correction has ended."
+    },
+    "live_source_url": "https://www.bok.or.kr/eng/bbs/E0000634/list.do?menuNo=400423",
+    "location": {
+      "country": "South Korea",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "region": "Seoul / nationwide (KOSPI, KOSDAQ)"
+    },
+    "occurrence_date": "2026-07-29",
+    "scale": "National stock market correction; repeated market-wide circuit breakers; emergency government intervention",
+    "status": "ongoing"
+  },
+  "id": "south-korea-stock-market-crisis-2026",
+  "last_updated": "2026-08-04T09:16:48Z",
+  "name": "Stock Market Crisis — South Korea",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-04T09:16:48Z",
+        "layer": "verify",
+        "run_id": "2026-08-04T09-16-48Z-44f4e8"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-04T09-16-48Z-44f4e8"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398261.0,
+    "impact_rank": 1,
+    "recency_rank": 739826
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

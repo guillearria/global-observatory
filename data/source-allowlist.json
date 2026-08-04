@@ -182,6 +182,18 @@
       "label": "IMF"
     },
     {
+      "category": "event",
+      "domain": "bok.or.kr",
+      "justification": "The Bank of Korea is South Korea's central bank and the national monetary authority; its own statements on market volatility and rate decisions are the authoritative primary source for the economic event category, the same institutional tier as a national central bank cited under the economic-event allowlist rule.",
+      "label": "Bank of Korea"
+    },
+    {
+      "category": "event",
+      "domain": "mofe.go.kr",
+      "justification": "South Korea's Ministry of Economy and Finance is the national government agency that convenes and publishes official readouts of emergency market-stabilization meetings, making it the authoritative primary source for government intervention in the economic event category.",
+      "label": "Ministry of Economy and Finance (Korea)"
+    },
+    {
       "category": "historical",
       "domain": "britannica.com",
       "justification": "Encyclopaedia Britannica has a stable named editorial board accountable for its entries, unlike community-edited references.",

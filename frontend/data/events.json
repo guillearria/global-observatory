@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T09:19:18Z",
+  "last_updated": "2026-08-04T09:21:33Z",
   "published": [
     {
       "category": "flood",
@@ -981,6 +981,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-11",
+          "retrieved_date": "2026-08-04",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=30&eventtype=WF",
+          "text": "GDACS event report (eventid 1029628, episode 30), re-checked 4 August 2026: still shows the 22 Jul-1 Aug 2026 window as the latest, with no newer episode published and the most recent thermal-anomaly detection unchanged at 1 August 2026 — three days with no new hotspot activity. Burned area and affected population remain 47,913 hectares and 11,670 people.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-07-25",
           "source_name": "GDACS",
@@ -1045,12 +1053,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026); as of 1 August 2026 the burned area stood at about 47,910 hectares with roughly 11,670 people in the fire-affected area and the alert remaining Red, with a thermal-anomaly detection recorded that same day, indicating the fire remains active despite reports of evacuees being allowed to return home. Widely reported figures — evacuations variously put at around 110,000 to 320,000+ people, French military mobilisation ordered by President Macron, and activation of the EU Civil Protection Mechanism — have not yet been confirmed by an allowlisted authoritative source.",
+      "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026) and the burned area reached about 47,910-47,913 hectares with roughly 11,670 people in the fire-affected area by 1 August 2026. No newer GDACS episode has been published and no thermal-anomaly detection has been recorded since 1 August 2026, indicating the fire is now contained. Widely reported figures — evacuations variously put at around 110,000 to 320,000+ people, French military mobilisation ordered by President Macron, and activation of the EU Civil Protection Mechanism — have not been confirmed by an allowlisted authoritative source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's event report (eventid 1029628) keeps this forest fire in France at an Overall Red alert, with the reporting window now extending to 1 August 2026 and about 47,910 hectares burned and 11,670 people in the fire-affected area — essentially unchanged from 47,913 hectares/11,670 people as of episode 30 (31 July). No allowlisted authoritative source has yet published a confirmed death toll or evacuation count for this fire; widely reported figures of 110,000-320,000+ people evacuated, French military mobilisation, and EU Civil Protection Mechanism activation come from non-allowlisted media and have not been independently confirmed here."
+          "summary": "GDACS's event report (eventid 1029628, episode 30) keeps this forest fire in France at an Overall Red alert, with the reporting window ending 1 August 2026 and about 47,913 hectares burned and 11,670 people in the fire-affected area. Re-checked 4 August 2026: no episode newer than 30 has been published and no thermal-anomaly detection has been recorded since 1 August 2026 — three days with no new hotspot activity — indicating the fire is now contained. No allowlisted authoritative source has published a confirmed death toll or evacuation count for this fire; widely reported figures of 110,000-320,000+ people evacuated, French military mobilisation, and EU Civil Protection Mechanism activation come from non-allowlisted media and have not been independently confirmed here."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=30&eventtype=WF",
         "location": {
@@ -1061,21 +1069,21 @@
         },
         "occurrence_date": "2026-07-22",
         "scale": "GDACS Red alert; ~47,900 ha burned",
-        "status": "ongoing"
+        "status": "contained"
       },
       "id": "france-wildfire-gironde-2026",
-      "last_updated": "2026-08-02T09:19:17Z",
+      "last_updated": "2026-08-04T09:20:04Z",
       "name": "Wildfire — Gironde (Bordeaux), France",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:19:17Z",
+            "at": "2026-08-04T09:20:04Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-19-17Z-0c04e0"
+            "run_id": "2026-08-04T09-20-04Z-b5fa8c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-19-17Z-0c04e0"
+        "last_run_id": "2026-08-04T09-20-04Z-b5fa8c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1085,7 +1093,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1150,6 +1158,62 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "wildfire",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-08-04",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029987",
+          "text": "GDACS assessed an Orange alert for a forest fire in Greece covering the period 31 July-4 August 2026, citing approximately 18,299 hectares burned and about 1,648 people in the fire-affected area, noting the fire \"can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability.\"",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A wildfire broke out on 31 July 2026 near Psatha and Porto Germeno in western Attica, west of Athens, amid a European heatwave, spreading rapidly under strong winds and prompting evacuations and sea rescues along the coast. GDACS assessed an Orange alert for medium humanitarian impact, citing about 18,299 hectares burned and roughly 1,648 people in the fire-affected area as of 4 August 2026. No allowlisted authoritative source has published a confirmed death toll for this fire; international media reported firefighters and helicopter crew killed during the response, but this remains unconfirmed by an allowlisted source.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "GDACS's event report (eventid 1029987, GLIDE WF-2026-000142-GRC, episode 15) assessed an Orange alert for medium humanitarian impact for a forest fire burning in western Attica, Greece, covering a 31 July-4 August 2026 window, citing about 18,299 hectares burned and roughly 1,648 people in the fire-affected area. No allowlisted authoritative source has published a confirmed death toll or evacuation count, and no source has declared the fire contained."
+        },
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029987",
+        "location": {
+          "country": "Greece",
+          "lat": 38.15,
+          "lon": 23.2,
+          "region": "Western Attica (Psatha, Porto Germeno), west of Athens"
+        },
+        "occurrence_date": "2026-07-31",
+        "scale": "Orange alert; ~18,299 ha burned",
+        "status": "ongoing"
+      },
+      "id": "greece-wildfire-attica-2026",
+      "last_updated": "2026-08-04T09:10:50Z",
+      "name": "Wildfire — Western Attica, Greece",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-08-04T09:10:50Z",
+            "layer": "verify",
+            "run_id": "2026-08-04T09-10-50Z-899311"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-08-04T09-10-50Z-899311"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398281.0,
+        "impact_rank": 1,
+        "recency_rank": 739828
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1698,6 +1762,70 @@
       }
     },
     {
+      "category": "economic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-08-04",
+          "source_name": "Bank of Korea",
+          "source_url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11062944&searchCnd=1&searchKwd=&depth2=400417&depth3=400423&depth=400423&pageUnit=10&pageIndex=1&programType=newsDataEng&menuNo=400423&oldMenuNo=400423",
+          "text": "The Bank of Korea's Monetary Policy Decision & Opening Remarks to the Press Conference (16 July 2026) states: \"Stock prices underwent a sizable correction amid heightened volatility due to growing concerns over AI investment and large-scale net sales of domestic stocks by foreign investors,\" and that \"financial stability risks also persist,\" including elevated exchange-rate volatility.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-08-04",
+          "source_name": "Ministry of Economy and Finance (Korea)",
+          "source_url": "https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=6451",
+          "text": "South Korea's Ministry of Economy and Finance's press release \"Authorities Step Up Swift Coordination and Response Amid Heightened Stock Market Volatility\" (29 July 2026) states the Deputy Prime Minister and Minister of Finance and Economy convened an Emergency Market Situation Review Meeting attended by the Bank of Korea Governor and the Chairmen of the Financial Services Commission and Financial Supervisory Service, after \"the recent sharp decline in the stock market, led by semiconductor shares, was driven by intensifying competition in the memory chip industry stemming from China and growing concerns over funding needs among major U.S. technology companies\"; the authorities announced investor-specific investment limits on single-stock leveraged products, higher transaction costs, mandatory simulated trading, and a commitment to establish a legal basis for emergency market-stabilization measures.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "South Korea's KOSPI index, which had surged to an all-time high in June 2026, underwent a sharp and volatile correction through July driven by intensifying Chinese competition in the memory-chip industry and concerns over major US tech firms' AI-related funding needs; the market triggered repeated trading-halt circuit breakers, including on back-to-back sessions in late July. The Bank of Korea's 16 July 2026 policy statement acknowledged stock prices had \"underwent a sizable correction amid heightened volatility,\" and on 29 July the government convened an Emergency Market Situation Review Meeting of the Deputy Prime Minister/Finance Minister, the Bank of Korea Governor, and financial regulators, which announced new curbs on single-stock leveraged products, a 24-hour market monitoring system, and a commitment to establish a legal basis for emergency market-stabilization measures. No allowlisted source has declared the correction over.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "The Bank of Korea's 16 July 2026 monetary policy statement said stock prices \"underwent a sizable correction amid heightened volatility due to growing concerns over AI investment and large-scale net sales of domestic stocks by foreign investors,\" citing persistent financial stability risks. On 29 July 2026, South Korea's Ministry of Economy and Finance convened an Emergency Market Situation Review Meeting — chaired by the Deputy Prime Minister/Finance Minister and attended by the Bank of Korea Governor and the heads of the Financial Services Commission and Financial Supervisory Service — after the stock market's decline, led by semiconductor shares, triggered market-wide circuit breakers on consecutive trading sessions. The meeting's official readout announced new curbs on single-stock leveraged products (investment limits, higher transaction costs, mandatory simulated trading), a 24-hour market monitoring system, and a commitment to establish a legal basis for emergency market-stabilization measures; participants judged Korea's underlying economic fundamentals (exports, corporate earnings, current account surplus) remained solid. No allowlisted source has published a specific index-decline percentage or confirmed the correction has ended."
+        },
+        "live_source_url": "https://www.bok.or.kr/eng/bbs/E0000634/list.do?menuNo=400423",
+        "location": {
+          "country": "South Korea",
+          "lat": 37.5665,
+          "lon": 126.978,
+          "region": "Seoul / nationwide (KOSPI, KOSDAQ)"
+        },
+        "occurrence_date": "2026-07-29",
+        "scale": "National stock market correction; repeated market-wide circuit breakers; emergency government intervention",
+        "status": "ongoing"
+      },
+      "id": "south-korea-stock-market-crisis-2026",
+      "last_updated": "2026-08-04T09:16:48Z",
+      "name": "Stock Market Crisis — South Korea",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-08-04T09:16:48Z",
+            "layer": "verify",
+            "run_id": "2026-08-04T09-16-48Z-44f4e8"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-08-04T09-16-48Z-44f4e8"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398261.0,
+        "impact_rank": 1,
+        "recency_rank": 739826
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
       "category": "wildfire",
       "claims": [
         {
@@ -1787,14 +1915,22 @@
           "source_url": "https://eu-space.europa.eu/components/earth-observation-copernicus/image-of-the-day/multiple-wildfires-prompt-national-emergency-spain",
           "text": "Re-checked 2 August 2026: GDACS's event report for this fire (eventid 1029794) still shows the 25-30 July 2026 window as the latest, with no newer episode published; figures (about 13,370 hectares burned, roughly 19,334 people affected) are unchanged, and no allowlisted source has declared the fire contained.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-08-04",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029794",
+          "text": "Re-checked 4 August 2026: GDACS's event report (eventid 1029794) still shows episode 15 (25-30 July 2026 window) as the latest, with no newer episode published and the most recent thermal-anomaly detection unchanged at 30 July 2026 — five days with no new hotspot activity. Burned area and affected population remain about 13,370 hectares and 19,334 people.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A wildfire broke out in the Plana Baixa comarca of Castellón province, Spain, around 25 July 2026, roughly 50 km north of Valencia — a separate outbreak from the concurrent, larger fire complex burning southwest of Madrid and in Ávila province. GDACS assessed the event at an Orange alert for medium humanitarian impact, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area. The European Union's Copernicus Earth-observation programme confirmed that Spain's government declared a national emergency on 23 July 2026 in response to the country's simultaneous large wildfires, with more than 100,000 people evacuated or instructed to remain indoors across the affected Spanish regions combined.",
+      "description": "A wildfire broke out in the Plana Baixa comarca of Castellón province, Spain, around 25 July 2026, roughly 50 km north of Valencia — a separate outbreak from the concurrent, larger fire complex burning southwest of Madrid and in Ávila province. GDACS assessed the event at an Orange alert for medium humanitarian impact, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area. No newer GDACS episode has been published and no thermal-anomaly detection has been recorded since 30 July 2026, indicating the fire is now contained. The European Union's Copernicus Earth-observation programme confirmed that Spain's government declared a national emergency on 23 July 2026 in response to the country's simultaneous large wildfires, with more than 100,000 people evacuated or instructed to remain indoors across the affected Spanish regions combined.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's event report (eventid 1029794, episode 15, GLIDE WF-2026-000131-ESP) assessed an Orange alert for medium humanitarian impact for a wildfire in the Plana Baixa comarca of Castellón province, Spain, covering a 25-30 July 2026 window, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area. The EU's Copernicus programme (eu-space.europa.eu) confirmed Spain's government declared a national emergency on 23 July 2026 in response to the country's simultaneous large wildfires (including this one and the concurrent Madrid/Ávila complex), with more than 100,000 people evacuated or instructed to remain indoors across the affected regions combined — a combined, not Castellón-specific, figure. No allowlisted source has published a confirmed death toll for this fire specifically, and no source has declared it contained. Re-checked 2 August 2026: GDACS's event report for this fire (eventid 1029794) still shows the 25-30 July 2026 window as the latest, with no newer episode published; figures (about 13,370 hectares burned, roughly 19,334 people affected) are unchanged, and no allowlisted source has declared the fire contained."
+          "summary": "GDACS's event report (eventid 1029794, episode 15, GLIDE WF-2026-000131-ESP) assessed an Orange alert for medium humanitarian impact for a wildfire in the Plana Baixa comarca of Castellón province, Spain, covering a 25-30 July 2026 window, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area. The EU's Copernicus programme (eu-space.europa.eu) confirmed Spain's government declared a national emergency on 23 July 2026 in response to the country's simultaneous large wildfires (including this one and the concurrent Madrid/Ávila complex), with more than 100,000 people evacuated or instructed to remain indoors across the affected regions combined — a combined, not Castellón-specific, figure. Re-checked 4 August 2026: GDACS still shows episode 15 (25-30 July window) as the latest, with no newer episode published and no thermal-anomaly detection since 30 July — five days with no new hotspot activity — indicating the fire is now contained. No allowlisted source has published a confirmed death toll for this fire specifically."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029794",
         "location": {
@@ -1805,21 +1941,21 @@
         },
         "occurrence_date": "2026-07-25",
         "scale": "GDACS Orange alert; ~13,370 ha burned; national emergency declared",
-        "status": "ongoing"
+        "status": "contained"
       },
       "id": "spain-wildfire-castellon-2026",
-      "last_updated": "2026-08-02T09:18:21Z",
+      "last_updated": "2026-08-04T09:21:33Z",
       "name": "Wildfire — Plana Baixa (Castellón), Spain",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:18:21Z",
+            "at": "2026-08-04T09:21:33Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-18-21Z-dcaa84"
+            "run_id": "2026-08-04T09-21-33Z-3718b7"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-18-21Z-dcaa84"
+        "last_run_id": "2026-08-04T09-21-33Z-3718b7"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1829,7 +1965,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1842,6 +1978,14 @@
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=1&eventtype=WF",
           "text": "Overall Green Forest fire in Spain from 22 Jul 2026 00:00 UTC to 23 Jul 2026 00:00 UTC. Forest fire can have a low humanitarian impact based on the burned area and the affected population and their vulnerability. About 8,125 hectares burned and roughly 63 people in the affected area.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-10",
+          "retrieved_date": "2026-08-04",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=22&eventtype=WF",
+          "text": "Re-checked 4 August 2026: GDACS's event report (eventid 1029643) still shows episode 22 (22 Jul-30 Jul 2026 window) as the latest, with no newer episode published and the most recent thermal-anomaly detection unchanged at 30 July 2026 — five days with no new hotspot activity. Burned area and affected population remain 66,098 hectares and 20,200 people.",
           "verification_status": "verified"
         },
         {
@@ -1909,12 +2053,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS escalated its alert from Green to Orange as of episode 19 (27 July 2026); as of episode 22 (30 July 2026) the burned area stood at about 66,098 hectares with roughly 20,200 people in the fire-affected area and the alert remaining Orange, with a thermal-anomaly detection recorded that same day. Spain's Interior Ministry declared a national emergency for the fires on 23-24 July 2026 — widely reported as the first such declaration linked to a wildfire — and evacuation figures well above 10,000 people have been widely reported; neither the national-emergency declaration nor the evacuation count has yet been confirmed by an allowlisted authoritative source.",
+      "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS escalated its alert from Green to Orange as of episode 19 (27 July 2026); as of episode 22 (30 July 2026) the burned area stood at about 66,098 hectares with roughly 20,200 people in the fire-affected area. No newer GDACS episode has been published and no thermal-anomaly detection has been recorded since 30 July 2026, indicating the fire is now contained. Spain's Interior Ministry declared a national emergency for the fires on 23-24 July 2026 — widely reported as the first such declaration linked to a wildfire — and evacuation figures well above 10,000 people have been widely reported; neither the national-emergency declaration nor the evacuation count has been confirmed by an allowlisted authoritative source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's event report (eventid 1029643, episode 22) keeps this forest fire in Spain at an Overall Orange alert for medium humanitarian impact, citing 66,098 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026 — up marginally from 66,083 hectares/20,200 people affected as of episode 20 (28 July). No allowlisted authoritative source has yet published a confirmed death toll or official evacuation count for this fire; Spain's widely reported national emergency declaration (23-24 July) and evacuation figures above 10,000 people come from non-allowlisted media and have not been independently confirmed here. Re-checked 2 August 2026: GDACS still shows the 22 Jul-30 Jul 2026 window as the latest for this event (eventid 1029643); no newer episode has been published, and figures are unchanged."
+          "summary": "GDACS's event report (eventid 1029643, episode 22) keeps this forest fire in Spain at an Overall Orange alert for medium humanitarian impact, citing 66,098 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026. Re-checked 4 August 2026: GDACS still shows episode 22 as the current/latest episode, with figures unchanged and no thermal-anomaly detection since 30 July — five days with no new hotspot activity — indicating the fire is now contained. No allowlisted authoritative source has yet published a confirmed death toll or official evacuation count for this fire; Spain's widely reported national emergency declaration (23-24 July) and evacuation figures above 10,000 people come from non-allowlisted media and have not been independently confirmed here."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=22&eventtype=WF",
         "location": {
@@ -1925,21 +2069,21 @@
         },
         "occurrence_date": "2026-07-22",
         "scale": "GDACS Orange alert; ~66,100 ha burned",
-        "status": "ongoing"
+        "status": "contained"
       },
       "id": "spain-wildfire-madrid-avila-2026",
-      "last_updated": "2026-08-02T09:18:21Z",
+      "last_updated": "2026-08-04T09:21:33Z",
       "name": "Wildfires — Madrid & Ávila, Spain",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:18:21Z",
+            "at": "2026-08-04T09:21:33Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-18-21Z-3fda49"
+            "run_id": "2026-08-04T09-21-33Z-08283b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-18-21Z-3fda49"
+        "last_run_id": "2026-08-04T09-21-33Z-08283b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1949,7 +2093,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -2171,14 +2315,22 @@
           "source_url": "https://reliefweb.int/report/tunisia/tun-fire-07-2026-tunisia-wildfires-2026-2026-07-30",
           "text": "Re-checked 2 August 2026: GDACS's event report (eventid 1029649) still shows the 21-29 July 2026 window as the latest, with no newer episode published; figures (about 11,824 hectares burned, roughly 1,224 people affected) are unchanged, and no allowlisted source has published a confirmed death toll or declared the fire contained.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-08-04",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029649",
+          "text": "Re-checked 4 August 2026: GDACS's event report (eventid 1029649) still shows episode 11 (21-29 July 2026 window) as the latest, with no newer episode published and the most recent thermal-anomaly detection unchanged at 29 July 2026 — six days with no new hotspot activity. Burned area and affected population remain about 11,824 hectares and 1,224 people.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Wildfires broke out across Le Kef and Béja governorates in northwestern Tunisia in late July 2026. GDACS assessed the event at an Orange alert for medium humanitarian impact, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area as of its most recent episode (21-29 July 2026 window). A ReliefWeb record for Tunisia's 2026 wildfires corroborates that an allowlisted disaster report exists for this event, though its detailed figures could not be independently retrieved.",
+      "description": "Wildfires broke out across Le Kef and Béja governorates in northwestern Tunisia in late July 2026. GDACS assessed the event at an Orange alert for medium humanitarian impact, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area as of its most recent episode (21-29 July 2026 window). No newer GDACS episode has been published and no thermal-anomaly detection has been recorded since 29 July 2026, indicating the fire is now contained. A ReliefWeb record for Tunisia's 2026 wildfires corroborates that an allowlisted disaster report exists for this event, though its detailed figures could not be independently retrieved.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's event report (eventid 1029649, episode 11) assessed an Orange alert for medium humanitarian impact for a wildfire burning across Le Kef and Béja governorates, Tunisia, covering a 21-29 July 2026 window, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area. A ReliefWeb report titled 'Tunisia Wildfires 2026' (dated 30 July 2026) exists for this event, confirming allowlisted coverage, though its page could not be fetched to extract further figures. No allowlisted source has published a confirmed death toll or evacuation count, and no source has declared the fire contained. Re-checked 2 August 2026: GDACS's event report (eventid 1029649) still shows the 21-29 July 2026 window as the latest, with no newer episode published; figures (about 11,824 hectares burned, roughly 1,224 people affected) are unchanged, and no allowlisted source has published a confirmed death toll or declared the fire contained."
+          "summary": "GDACS's event report (eventid 1029649, episode 11) assessed an Orange alert for medium humanitarian impact for a wildfire burning across Le Kef and Béja governorates, Tunisia, covering a 21-29 July 2026 window, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area. A ReliefWeb report titled 'Tunisia Wildfires 2026' (dated 30 July 2026) exists for this event, confirming allowlisted coverage, though its page could not be fetched to extract further figures. Re-checked 4 August 2026: GDACS's event report (eventid 1029649) still shows episode 11 (21-29 July 2026 window) as the latest, with no newer episode published and no thermal-anomaly detection since 29 July — six days with no new hotspot activity — indicating the fire is now contained. No allowlisted source has published a confirmed death toll for this fire."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029649",
         "location": {
@@ -2189,21 +2341,21 @@
         },
         "occurrence_date": "2026-07-21",
         "scale": "GDACS Orange alert; ~11,800 ha burned",
-        "status": "ongoing"
+        "status": "contained"
       },
       "id": "tunisia-wildfires-2026",
-      "last_updated": "2026-08-02T09:18:22Z",
+      "last_updated": "2026-08-04T09:21:33Z",
       "name": "Wildfires — Le Kef & Béja, Tunisia",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:18:22Z",
+            "at": "2026-08-04T09:21:33Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-18-22Z-9df4fa"
+            "run_id": "2026-08-04T09-21-33Z-cd642e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-18-22Z-9df4fa"
+        "last_run_id": "2026-08-04T09-21-33Z-cd642e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2213,7 +2365,7 @@
       },
       "verification": {
         "confidence": "medium",
-        "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
+        "notes": "gate: 3 verified, 0 disputed, 1 unverified -> partial",
         "status": "partial"
       }
     },
