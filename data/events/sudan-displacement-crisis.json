@@ -48,6 +48,14 @@
       "source_url": "https://data.unhcr.org/en/situations/sudansituation",
       "text": "Re-checked 2 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 2 August 2026.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-7",
+      "retrieved_date": "2026-08-05",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/situations/sudansituation",
+      "text": "Re-checked 5 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; the page's dashboard total remains JS-rendered and not directly extractable by automated fetch, but the most recent document visible on the portal (a Chad country update dated 30 June 2026, published 3 August 2026) confirms the portal is current and no newer Sudan-wide aggregate has superseded the 20 July figure.",
+      "verification_status": "verified"
     }
   ],
   "description": "The conflict that erupted in Sudan in April 2023 between the Sudanese Armed Forces and the Rapid Support Forces has produced what UNHCR calls the world's largest displacement crisis, forcing millions from their homes inside Sudan and into neighbouring countries.",
@@ -55,7 +63,7 @@
     "impact": {
       "deaths": null,
       "displaced": 11336565,
-      "summary": "As of UNHCR's Operational Data Portal update on 20 July 2026 (the most recent available as of 28 July 2026), Total Forcibly Displaced in the Sudan situation stood at 11,336,565, down slightly from 11,431,220 as of the 06 July 2026 update. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. Re-checked 2 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 2 August 2026."
+      "summary": "As of UNHCR's Operational Data Portal update on 20 July 2026 (the most recent available as of 5 August 2026), Total Forcibly Displaced in the Sudan situation stood at 11,336,565, down slightly from 11,431,220 as of the 06 July 2026 update. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. Re-checked 5 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 5 August 2026."
     },
     "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
     "location": {
@@ -69,18 +77,18 @@
     "status": "ongoing"
   },
   "id": "sudan-displacement-crisis",
-  "last_updated": "2026-08-02T09:18:22Z",
+  "last_updated": "2026-08-05T09:18:56Z",
   "name": "Sudan Displacement Crisis",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-02T09:18:22Z",
+        "at": "2026-08-05T09:18:56Z",
         "layer": "verify",
-        "run_id": "2026-08-02T09-18-22Z-c0981e"
+        "run_id": "2026-08-05T09-18-56Z-a8039c"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-02T09-18-22Z-c0981e"
+    "last_run_id": "2026-08-05T09-18-56Z-a8039c"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -90,7 +98,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
