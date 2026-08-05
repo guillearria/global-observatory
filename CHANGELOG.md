@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-05 — Daily World Pulse refresh: Pakistan floods & West Bank toll updates, re-verify Greece/South Korea (`86ad92f`)
+
+- **Updated:** greece-wildfire-attica-2026, pakistan-floods-2026, south-korea-stock-market-crisis-2026, west-bank-settler-violence-surge-2026
+
 ## 2026-08-05 — Daily World Pulse refresh: add Guatemala Fuego eruption, update 4 ongoing events (`387ff6b`)
 
 - **Added:** guatemala-fuego-volcano-eruption-2026

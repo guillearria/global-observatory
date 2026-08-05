@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T09:18:15Z",
+  "last_updated": "2026-08-05T09:19:00Z",
   "published": [
     {
       "category": "flood",
@@ -605,6 +605,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-20",
+          "retrieved_date": "2026-08-05",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "Page last updated 4 August 2026, 14:30. As of 3 August 2026 (data up until 2 August), the Democratic Republic of the Congo reported a total of 3,802 confirmed cases, including 1,707 related deaths, with 707 patients hospitalised in isolation. Provincial breakdown: Ituri 3,317 cases/1,382 deaths (28 of 36 health zones); North Kivu 414 cases/285 deaths (12 of 34 health zones); South Kivu 3 cases/1 death (1 of 34 health zones); Haut-Uele 61 cases/34 deaths (5 of 13 health zones); Tshopo 7 cases/5 deaths (5 of 23 health zones) — 51 of 140 health zones affected across the five provinces. Uganda's outbreak remains ended (declared 28 July 2026) with its cumulative total unchanged at 20 confirmed cases and two deaths.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-07-11",
           "source_name": "United Nations",
@@ -661,12 +669,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through early August (3,605 cases/1,587 deaths in DRC per WHO Disease Outbreak News #614, published 1 August 2026, data to 30 July), with the outbreak now the largest recorded Ebola virus disease outbreak in DRC history, still confined to the same five DRC provinces, and imported cases previously confirmed in France and Germany. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient, with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through early August (3,802 cases/1,707 deaths in DRC per ECDC, page updated 4 August 2026, data to 2-3 August), with the outbreak now the largest recorded Ebola virus disease outbreak in DRC history, still confined to the same five DRC provinces, and imported cases previously confirmed in France and Germany. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient, with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June.",
       "event": {
         "impact": {
-          "deaths": 1587,
+          "deaths": 1707,
           "displaced": null,
-          "summary": "As of WHO Disease Outbreak News #614 (published 1 August 2026, data to 30 July), the Democratic Republic of the Congo has reported 3,605 confirmed cases including 1,587 deaths (crude case fatality ratio 44%), up from 3,442 cases/1,521 deaths as of 28 July per ECDC — an increase of 163 cases and 66 deaths. The outbreak, spanning 49 of 140 health zones across five provinces, is now the largest recorded Ebola virus disease outbreak in DRC history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient on 16 June [WHO DON614 gives this date; earlier ECDC updates cited 16 July for the discharge], with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June. The DRC portion of the outbreak remains active with no declaration of resolution there."
+          "summary": "As of the ECDC country overview (page updated 4 August 2026, data as of 2-3 August 2026), the Democratic Republic of the Congo has reported a total of 3,802 confirmed cases including 1,707 related deaths, with 707 patients hospitalised in isolation, up from 3,605 cases/1,587 deaths as of WHO Disease Outbreak News #614 (30 July data). The outbreak, spanning 51 of 140 health zones across five provinces (Ituri 3,317 cases/1,382 deaths in 28/36 zones; North Kivu 414/285 in 12/34; South Kivu 3/1 in 1/34; Haut-Uele 61/34 in 5/13; Tshopo 7/5 in 5/23), remains the largest recorded Ebola virus disease outbreak in DRC history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient, with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June. The DRC portion of the outbreak remains active with no declaration of resolution there."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -680,18 +688,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-08-02T09:19:04Z",
+      "last_updated": "2026-08-05T09:18:47Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:19:04Z",
+            "at": "2026-08-05T09:18:47Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-19-04Z-c0af73"
+            "run_id": "2026-08-05T09-18-47Z-5442f0"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-19-04Z-c0af73"
+        "last_run_id": "2026-08-05T09-18-47Z-5442f0"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -701,7 +709,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1355,14 +1363,22 @@
           "source_url": "https://news.un.org/en/story/2026/07/1167963",
           "text": "UN News (19 July 2026): \"1.47 million people have fled their homes largely due to violence.\" During a Cité Soleil violence outbreak, \"at least 542 people were killed and 355 injured,\" and \"at least 176 women and girls were raped.\" Separately, at least 87 deaths have been reported from vigilante killings of suspected gang collaborators. \"Around 6.4 million people need humanitarian assistance\" and \"more than 5.8 million people are expected to go hungry this year.\"",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-08-05",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/07/1167972",
+          "text": "UN News (20 July 2026), 'LIVE: Haiti endures violence and hunger, but hopes grow for a more secure future': reconfirms IOM's nearly-1.5-million displacement figure (originally reported 5 June 2026) as still current, reports on a UN Security Council discussion of the Gang Suppression Force, and notes that Haitian security forces have begun recording limited successes against armed gangs, pushing some criminal groups out of strategic locations in Port-au-Prince and reopening some major roads; the article provides no updated death-toll or displacement aggregate beyond the figures already reported. Re-checked 5 August 2026: no newer UN News, ReliefWeb, or OCHA report supersedes the 19-20 July 2026 figures (1.47M displaced, 542 killed in the Cité Soleil outbreak, 6.4M in humanitarian need, 5.8M facing hunger).",
+          "verification_status": "verified"
         }
       ],
-      "description": "Escalating gang violence across Haiti, concentrated in and around Port-au-Prince, has driven internal displacement to record levels through mid-2026. IOM figures cited by UN News put the total at nearly 1.5 million people without a stable place to live as of 5 June 2026, after a surge of more than 18,000 people displaced from Cité Soleil in May 2026 alone pushed the number of internally displaced people in Port-au-Prince above 300,000 for the first time on record; more than 110,000 Haitians have also been forcibly returned to the country since the start of 2026, compounding the crisis. A subsequent UN News report (19 July 2026) put total displacement at 1.47 million and detailed a Cité Soleil violence outbreak earlier in 2026 in which at least 542 people were killed, 355 injured, and at least 176 women and girls raped, with residents fleeing to neighbouring Drouillard; the same report cites roughly 6.4 million people in need of humanitarian assistance and more than 5.8 million expected to face hunger this year. No authoritative source has declared the crisis contained or resolved.",
+      "description": "Escalating gang violence across Haiti, concentrated in and around Port-au-Prince, has driven internal displacement to record levels through mid-2026. IOM figures cited by UN News put the total at nearly 1.5 million people without a stable place to live as of 5 June 2026, after a surge of more than 18,000 people displaced from Cité Soleil in May 2026 alone pushed the number of internally displaced people in Port-au-Prince above 300,000 for the first time on record; more than 110,000 Haitians have also been forcibly returned to the country since the start of 2026, compounding the crisis. A subsequent UN News report (19 July 2026) put total displacement at 1.47 million and detailed a Cité Soleil violence outbreak earlier in 2026 in which at least 542 people were killed, 355 injured, and at least 176 women and girls raped, with residents fleeing to neighbouring Drouillard; the same report cites roughly 6.4 million people in need of humanitarian assistance and more than 5.8 million expected to face hunger this year. A further UN News report (20 July 2026) reconfirms the nearly-1.5-million displacement figure amid a Security Council discussion of the UN-backed Gang Suppression Force, with some initial, limited security gains reported in parts of Port-au-Prince. No authoritative source has declared the crisis contained or resolved, and no newer displacement or death-toll aggregate has been published as of 5 August 2026.",
       "event": {
         "impact": {
           "deaths": 542,
           "displaced": 1470000,
-          "summary": "UN News (19 July 2026) reports 1.47 million people have fled their homes nationwide, largely due to gang violence, and details a Cité Soleil violence outbreak earlier in 2026 in which at least 542 people were killed and 355 injured, with at least 176 women and girls raped; roughly 6.4 million people are in need of humanitarian assistance and more than 5.8 million are expected to face hunger this year. An earlier UN News report (5 June 2026), citing IOM, put displacement at nearly 1.5 million, including a surge of over 18,000 people displaced from Cité Soleil in May 2026 alone that pushed Port-au-Prince's IDP population above 300,000 for the first time on record, plus over 110,000 Haitians forcibly returned to the country since the start of 2026. No authoritative source has declared the crisis contained or resolved."
+          "summary": "UN News (19 July 2026) reports 1.47 million people have fled their homes nationwide, largely due to gang violence, and details a Cité Soleil violence outbreak earlier in 2026 in which at least 542 people were killed and 355 injured, with at least 176 women and girls raped; roughly 6.4 million people are in need of humanitarian assistance and more than 5.8 million are expected to face hunger this year. An earlier UN News report (5 June 2026), citing IOM, put displacement at nearly 1.5 million, including a surge of over 18,000 people displaced from Cité Soleil in May 2026 alone that pushed Port-au-Prince's IDP population above 300,000 for the first time on record, plus over 110,000 Haitians forcibly returned to the country since the start of 2026. A follow-up UN News report (20 July 2026) reconfirms the nearly-1.5-million displacement figure amid a Security Council discussion of the Gang Suppression Force's deployment, without providing an updated death toll. No authoritative source has declared the crisis contained or resolved. Re-checked 5 August 2026: no newer displacement or casualty aggregate has been published beyond the 19-20 July 2026 figures."
         },
         "live_source_url": "https://reliefweb.int/country/hti",
         "location": {
@@ -1376,18 +1392,18 @@
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-08-02T09:22:05Z",
+      "last_updated": "2026-08-05T09:19:00Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:22:05Z",
+            "at": "2026-08-05T09:19:00Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-22-05Z-ba25e5"
+            "run_id": "2026-08-05T09-19-00Z-665a6b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-22-05Z-ba25e5"
+        "last_run_id": "2026-08-05T09-19-00Z-665a6b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1397,7 +1413,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -2299,14 +2315,22 @@
           "source_url": "https://news.un.org/en/story/2026/07/1167913",
           "text": "Re-checked 2 August 2026: WHO's national aggregate (1,330+ cases, 114 deaths, reported 10 July) remains the latest published figure; no newer WHO epidemiological update for Sudan cholera has been found, and the outbreak has not been declared contained.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-08-05",
+          "source_name": "WHO",
+          "source_url": "https://cdn.who.int/media/docs/default-source/documents/emergencies/situation-reports/20260630_multi-country_outbreak-of-cholera_epidemiological_update_38.pdf?sfvrsn=82e79253_3&download=true",
+          "text": "WHO Multi-country outbreak of cholera, Epidemiological Update no. 38 (published 30 June 2026, data as of 31 May 2026): 'Sudan' is listed under the Eastern Mediterranean Region reporting 527 cumulative cholera cases and 61 deaths (CFR 11.6%) for 1 January to 31 May 2026, with 518 cases and 61 deaths (CFR 11.8%) in the preceding 28 days. This multi-country surveillance figure is dated to 31 May 2026 and is superseded chronologically by the 1,330-case/114-death figure WHO's Representative to Sudan reported on 10 July 2026 for the same national outbreak; re-checked 5 August 2026, no WHO or ReliefWeb Sudan-specific update newer than the 10 July figure has been published, and no allowlisted source has declared the outbreak contained.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Sudan's third cholera wave in as many years has spread across war-affected western and central states, principally Darfur and Kordofan, where conflict and constrained humanitarian access are hampering the response. WHO warns the outbreak could worsen further as the rainy season sets in and displacement continues around besieged cities such as El Obeid, where WFP reported more than 30 additional cases in mid-July. The national confirmed case/death count (1,330 cases, 114 deaths as of 7 July) remains WHO's latest published aggregate as of 24 July 2026, with continued geographic spread into new localities in North and West Kordofan and South Darfur.",
+      "description": "Sudan's third cholera wave in as many years has spread across war-affected western and central states, principally Darfur and Kordofan, where conflict and constrained humanitarian access are hampering the response. WHO warns the outbreak could worsen further as the rainy season sets in and displacement continues around besieged cities such as El Obeid, where WFP reported more than 30 additional cases in mid-July. The national confirmed case/death count (1,330 cases, 114 deaths as of 7 July) remains WHO's latest published aggregate as of 5 August 2026, with continued geographic spread into new localities in North and West Kordofan and South Darfur. A separate WHO multi-country cholera epidemiological update (data as of 31 May 2026, published 30 June) recorded a lower cumulative Sudan figure of 527 cases and 61 deaths for 1 January-31 May 2026 under its own multi-country surveillance stream; that update predates and does not supersede the more recent 10 July country-specific briefing figure.",
       "event": {
         "impact": {
           "deaths": 114,
           "displaced": null,
-          "summary": "WHO's Representative to Sudan reported (10 July 2026, Geneva briefing) more than 1,330 confirmed cholera cases and 114 confirmed deaths, a case fatality rate of 13.7%, in an outbreak affecting several western and central Sudanese states, mainly Darfur and Kordofan. That national aggregate remains WHO's latest published count as of 24 July 2026 — reconfirmed unchanged by a UN Women statement dated 24 July — but WFP reported in mid-July that more than 30 additional cholera cases had been recorded specifically in El Obeid, North Kordofan, as power outages disrupt water supplies there. OCHA reporting describes active geographic spread into Kalma/Kampala displacement camp (South Darfur), Tawila (North Darfur), West Kordofan and North Kordofan, as WHO and UNICEF scale up medical supply deliveries to Kadugli, Dilling and El Fula. Aid officials say the true toll is likely higher, and WHO warns the outbreak could worsen as the rainy season continues and conflict constrains the humanitarian response. No allowlisted source has declared the outbreak contained. Re-checked 2 August 2026: WHO's national aggregate (1,330+ cases, 114 deaths, reported 10 July) remains the latest published figure; no newer WHO epidemiological update for Sudan cholera has been found, and the outbreak has not been declared contained."
+          "summary": "WHO's Representative to Sudan reported (10 July 2026, Geneva briefing) more than 1,330 confirmed cholera cases and 114 confirmed deaths, a case fatality rate of 13.7%, in an outbreak affecting several western and central Sudanese states, mainly Darfur and Kordofan. That national aggregate remains WHO's latest published count as of 5 August 2026 — reconfirmed unchanged by a UN Women statement dated 24 July and by repeated re-checks through early August. WFP reported in mid-July that more than 30 additional cholera cases had been recorded specifically in El Obeid, North Kordofan, as power outages disrupt water supplies there. OCHA reporting describes active geographic spread into Kalma/Kampala displacement camp (South Darfur), Tawila (North Darfur), West Kordofan and North Kordofan, as WHO and UNICEF scale up medical supply deliveries to Kadugli, Dilling and El Fula. Aid officials say the true toll is likely higher, and WHO warns the outbreak could worsen as the rainy season continues and conflict constrains the humanitarian response. WHO's separate multi-country cholera epidemiological update #38 (published 30 June 2026, data as of 31 May 2026) recorded 527 Sudan cases and 61 deaths (CFR 11.6%) for 1 January-31 May 2026 through its own multi-country surveillance stream — an earlier data cut that predates and does not supersede the 10 July country-specific figure. No allowlisted source has declared the outbreak contained. Re-checked 5 August 2026: no newer WHO or ReliefWeb Sudan-specific cholera figure has been published."
         },
         "live_source_url": "https://www.emro.who.int/sdn/crisis/index.html",
         "location": {
@@ -2320,18 +2344,18 @@
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-08-02T09:18:22Z",
+      "last_updated": "2026-08-05T09:18:51Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:18:22Z",
+            "at": "2026-08-05T09:18:51Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-18-22Z-e25292"
+            "run_id": "2026-08-05T09-18-51Z-edffce"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-18-22Z-e25292"
+        "last_run_id": "2026-08-05T09-18-51Z-edffce"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2341,7 +2365,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -2395,6 +2419,14 @@
           "source_url": "https://data.unhcr.org/en/situations/sudansituation",
           "text": "Re-checked 2 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 2 August 2026.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-08-05",
+          "source_name": "UNHCR",
+          "source_url": "https://data.unhcr.org/en/situations/sudansituation",
+          "text": "Re-checked 5 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; the page's dashboard total remains JS-rendered and not directly extractable by automated fetch, but the most recent document visible on the portal (a Chad country update dated 30 June 2026, published 3 August 2026) confirms the portal is current and no newer Sudan-wide aggregate has superseded the 20 July figure.",
+          "verification_status": "verified"
         }
       ],
       "description": "The conflict that erupted in Sudan in April 2023 between the Sudanese Armed Forces and the Rapid Support Forces has produced what UNHCR calls the world's largest displacement crisis, forcing millions from their homes inside Sudan and into neighbouring countries.",
@@ -2402,7 +2434,7 @@
         "impact": {
           "deaths": null,
           "displaced": 11336565,
-          "summary": "As of UNHCR's Operational Data Portal update on 20 July 2026 (the most recent available as of 28 July 2026), Total Forcibly Displaced in the Sudan situation stood at 11,336,565, down slightly from 11,431,220 as of the 06 July 2026 update. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. Re-checked 2 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 2 August 2026."
+          "summary": "As of UNHCR's Operational Data Portal update on 20 July 2026 (the most recent available as of 5 August 2026), Total Forcibly Displaced in the Sudan situation stood at 11,336,565, down slightly from 11,431,220 as of the 06 July 2026 update. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. Re-checked 5 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 5 August 2026."
         },
         "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
         "location": {
@@ -2416,18 +2448,18 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-08-02T09:18:22Z",
+      "last_updated": "2026-08-05T09:18:56Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-02T09:18:22Z",
+            "at": "2026-08-05T09:18:56Z",
             "layer": "verify",
-            "run_id": "2026-08-02T09-18-22Z-c0981e"
+            "run_id": "2026-08-05T09-18-56Z-a8039c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-02T09-18-22Z-c0981e"
+        "last_run_id": "2026-08-05T09-18-56Z-a8039c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2437,7 +2469,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

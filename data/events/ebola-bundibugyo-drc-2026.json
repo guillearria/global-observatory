@@ -98,6 +98,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-20",
+      "retrieved_date": "2026-08-05",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "Page last updated 4 August 2026, 14:30. As of 3 August 2026 (data up until 2 August), the Democratic Republic of the Congo reported a total of 3,802 confirmed cases, including 1,707 related deaths, with 707 patients hospitalised in isolation. Provincial breakdown: Ituri 3,317 cases/1,382 deaths (28 of 36 health zones); North Kivu 414 cases/285 deaths (12 of 34 health zones); South Kivu 3 cases/1 death (1 of 34 health zones); Haut-Uele 61 cases/34 deaths (5 of 13 health zones); Tshopo 7 cases/5 deaths (5 of 23 health zones) — 51 of 140 health zones affected across the five provinces. Uganda's outbreak remains ended (declared 28 July 2026) with its cumulative total unchanged at 20 confirmed cases and two deaths.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-07-11",
       "source_name": "United Nations",
@@ -154,12 +162,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through early August (3,605 cases/1,587 deaths in DRC per WHO Disease Outbreak News #614, published 1 August 2026, data to 30 July), with the outbreak now the largest recorded Ebola virus disease outbreak in DRC history, still confined to the same five DRC provinces, and imported cases previously confirmed in France and Germany. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient, with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June.",
+  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak — caused by Bundibugyo virus — on 15 May 2026, centred in Ituri Province. On 17 May 2026 the WHO Director-General declared the DRC and Uganda epidemic a Public Health Emergency of International Concern (PHEIC). Confirmed cases and deaths have continued to climb through early August (3,802 cases/1,707 deaths in DRC per ECDC, page updated 4 August 2026, data to 2-3 August), with the outbreak now the largest recorded Ebola virus disease outbreak in DRC history, still confined to the same five DRC provinces, and imported cases previously confirmed in France and Germany. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient, with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June.",
   "event": {
     "impact": {
-      "deaths": 1587,
+      "deaths": 1707,
       "displaced": null,
-      "summary": "As of WHO Disease Outbreak News #614 (published 1 August 2026, data to 30 July), the Democratic Republic of the Congo has reported 3,605 confirmed cases including 1,587 deaths (crude case fatality ratio 44%), up from 3,442 cases/1,521 deaths as of 28 July per ECDC — an increase of 163 cases and 66 deaths. The outbreak, spanning 49 of 140 health zones across five provinces, is now the largest recorded Ebola virus disease outbreak in DRC history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient on 16 June [WHO DON614 gives this date; earlier ECDC updates cited 16 July for the discharge], with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June. The DRC portion of the outbreak remains active with no declaration of resolution there."
+      "summary": "As of the ECDC country overview (page updated 4 August 2026, data as of 2-3 August 2026), the Democratic Republic of the Congo has reported a total of 3,802 confirmed cases including 1,707 related deaths, with 707 patients hospitalised in isolation, up from 3,605 cases/1,587 deaths as of WHO Disease Outbreak News #614 (30 July data). The outbreak, spanning 51 of 140 health zones across five provinces (Ituri 3,317 cases/1,382 deaths in 28/36 zones; North Kivu 414/285 in 12/34; South Kivu 3/1 in 1/34; Haut-Uele 61/34 in 5/13; Tshopo 7/5 in 5/23), remains the largest recorded Ebola virus disease outbreak in DRC history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases. Uganda's Ministry of Health declared the end of its outbreak on 28 July 2026, twelve days after discharging its last confirmed patient, with a final Ugandan toll of 20 confirmed cases and two deaths and no new cases since 21 June. The DRC portion of the outbreak remains active with no declaration of resolution there."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
     "location": {
@@ -173,18 +181,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-08-02T09:19:04Z",
+  "last_updated": "2026-08-05T09:18:47Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-02T09:19:04Z",
+        "at": "2026-08-05T09:18:47Z",
         "layer": "verify",
-        "run_id": "2026-08-02T09-19-04Z-c0af73"
+        "run_id": "2026-08-05T09-18-47Z-5442f0"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-02T09-19-04Z-c0af73"
+    "last_run_id": "2026-08-05T09-18-47Z-5442f0"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -194,7 +202,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
