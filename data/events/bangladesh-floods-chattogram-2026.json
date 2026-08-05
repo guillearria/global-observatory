@@ -26,6 +26,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-12",
+      "retrieved_date": "2026-08-05",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/bangladesh/bangladesh-situation-report-2-flash-flood-and-landslides-23-july-2026",
+      "text": "Re-checked 5 August 2026: the UN RCO Bangladesh Situation Report #2 (23 July 2026) remains the latest edition; a targeted search for a Situation Report #3 found none published, and no newer BDRCS/IFRC report superseding the 19-20 July nationwide figures was found. Figures (59 deaths, ~1.28 million affected, 74,479 houses damaged/destroyed) are unchanged as of 5 August 2026.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-16",
       "source_name": "United Nations",
@@ -90,12 +98,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Monsoon-triggered flash floods, riverine flooding and landslides across Chattogram Division and adjoining south-eastern/north-eastern Bangladesh districts (including Cox's Bazar, Bandarban, Rangamati, Khagrachhari, Cumilla, Moulvibazar, Habiganj, and, as the risk shifted north, Sylhet, Sunamganj and Rangpur), ongoing since early July 2026. As of the UN Resident Coordinator's Office Bangladesh Situation Report #2 (23 July 2026, data as of 22 July), roughly 1.28 million people are affected across the seven hardest-hit districts, 59 people have died nationwide (including 15 Rohingya refugees per UNHCR), and 74,479 houses have been damaged or destroyed, with about 436,000 people assessed as needing humanitarian assistance. Temporary displacement (~38,500 people, 1,000+ shelters) and stranded households (267,918) remain the last confirmed figures from the 19-20 July BDRCS/IFRC report. Response activities (food, cash, health, shelter, protection and WASH assistance) remain active, with continued risk flagged from forecast heavy rainfall; no authoritative source has declared the event resolved or contained.",
+  "description": "Monsoon-triggered flash floods, riverine flooding and landslides across Chattogram Division and adjoining south-eastern/north-eastern Bangladesh districts (including Cox's Bazar, Bandarban, Rangamati, Khagrachari, Cumilla, Moulvibazar, Habiganj, and, as the risk shifted north, Sylhet, Sunamganj and Rangpur), ongoing since early July 2026. As of the UN Resident Coordinator's Office Bangladesh Situation Report #2 (23 July 2026, data as of 22 July), roughly 1.28 million people are affected across the seven hardest-hit districts, 59 people have died nationwide (including 15 Rohingya refugees per UNHCR), and 74,479 houses have been damaged or destroyed, with about 436,000 people assessed as needing humanitarian assistance. Temporary displacement (~38,500 people, 1,000+ shelters) and stranded households (267,918) remain the last confirmed figures from the 19-20 July BDRCS/IFRC report. No newer UN RCO Situation Report has been published as of 5 August 2026, and no authoritative source has declared the event resolved or contained.",
   "event": {
     "impact": {
       "deaths": 59,
       "displaced": 38500,
-      "summary": "As of the UN Resident Coordinator's Office Bangladesh Situation Report #2 (23 July 2026, data as of 22 July), roughly 1.28 million people are affected across the seven hardest-hit districts, with 59 confirmed deaths nationwide (including 15 Rohingya refugees per UNHCR) and 74,479 houses damaged or destroyed; about 436,000 people are assessed as needing humanitarian assistance. Temporary displacement (~38,500 people, 1,000+ shelters) and stranded households (267,918) are the last confirmed figures from the 19-20 July BDRCS/IFRC report and have not yet been revised in the newer sitrep. The response remains active — food, cash, health, shelter, protection and WASH assistance are ongoing — with continued risk flagged from forecast heavy rainfall in affected districts; no authoritative source has declared the event resolved or contained. Re-checked 2 August 2026: the UN RCO Bangladesh Situation Report #2 (23 July 2026) remains the latest in its series; no Situation Report #3 has been found published as of 2 August 2026, and figures are unchanged."
+      "summary": "As of the UN Resident Coordinator's Office Bangladesh Situation Report #2 (23 July 2026, data as of 22 July), roughly 1.28 million people are affected across the seven hardest-hit districts, with 59 confirmed deaths nationwide (including 15 Rohingya refugees per UNHCR) and 74,479 houses damaged or destroyed; about 436,000 people are assessed as needing humanitarian assistance. Temporary displacement (~38,500 people, 1,000+ shelters) and stranded households (267,918) are the last confirmed figures from the 19-20 July BDRCS/IFRC report and have not yet been revised in the newer sitrep. The response remains active — food, cash, health, shelter, protection and WASH assistance are ongoing — with continued risk flagged from forecast heavy rainfall in affected districts; no authoritative source has declared the event resolved or contained. Re-checked 5 August 2026: the UN RCO Bangladesh Situation Report #2 (23 July 2026) remains the latest edition of that series; no Situation Report #3 has been found published, and figures are unchanged."
     },
     "live_source_url": "https://reliefweb.int/country/bgd",
     "location": {
@@ -109,18 +117,18 @@
     "status": "ongoing"
   },
   "id": "bangladesh-floods-chattogram-2026",
-  "last_updated": "2026-08-02T09:18:20Z",
+  "last_updated": "2026-08-05T09:15:24Z",
   "name": "Monsoon Floods & Landslides — Chattogram Division, Bangladesh",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-02T09:18:20Z",
+        "at": "2026-08-05T09:15:24Z",
         "layer": "verify",
-        "run_id": "2026-08-02T09-18-20Z-10fa41"
+        "run_id": "2026-08-05T09-15-24Z-78b805"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-02T09-18-20Z-10fa41"
+    "last_run_id": "2026-08-05T09-15-24Z-78b805"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -130,7 +138,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
