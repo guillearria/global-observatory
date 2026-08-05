@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-05 — Daily World Pulse refresh: add Guatemala Fuego eruption, update 4 ongoing events (`387ff6b`)
+
+- **Added:** guatemala-fuego-volcano-eruption-2026
+- **Updated:** el-obeid-siege-sudan-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, venezuela-earthquake-2026
+
 ## 2026-08-05 — Daily World Pulse refresh: China Jilin floods displacement update, re-verify 3 events (`61c85f9`)
 
 - **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, china-floods-jilin-2026, europe-heatwave-2026

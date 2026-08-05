@@ -8,14 +8,22 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029987",
       "text": "GDACS assessed an Orange alert for a forest fire in Greece covering the period 31 July-4 August 2026, citing approximately 18,299 hectares burned and about 1,648 people in the fire-affected area, noting the fire \"can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability.\"",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-05",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029987",
+      "text": "GDACS's event report (GDACS ID WF 1029987, Glide number WF-2026-000142-GRC) as of 5 August 2026 states: 'Forest Fire (18419 ha) in Greece 31 Jul 2026 ... Start Date - Last detection*: 31 Jul 2026 - 05 Aug 2026. Duration (days): 5. People affected: 1648 in the burned area. Burned area: 18419 ha.' The alert level remains Orange ('Forest fire can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability'); no containment or resolution has been declared.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A wildfire broke out on 31 July 2026 near Psatha and Porto Germeno in western Attica, west of Athens, amid a European heatwave, spreading rapidly under strong winds and prompting evacuations and sea rescues along the coast. GDACS assessed an Orange alert for medium humanitarian impact, citing about 18,299 hectares burned and roughly 1,648 people in the fire-affected area as of 4 August 2026. No allowlisted authoritative source has published a confirmed death toll for this fire; international media reported firefighters and helicopter crew killed during the response, but this remains unconfirmed by an allowlisted source.",
+  "description": "A wildfire broke out on 31 July 2026 near Psatha and Porto Germeno in western Attica, west of Athens, amid a European heatwave, spreading rapidly under strong winds and prompting evacuations and sea rescues along the coast. GDACS assessed an Orange alert for medium humanitarian impact, and as of its latest update (episode 18, covering 31 July-5 August 2026) the burned area has grown to about 18,419 hectares with roughly 1,648 people in the fire-affected area; the last detection of the fire's thermal anomaly was 5 August 2026, indicating the fire remains active. No allowlisted authoritative source has published a confirmed death toll for this fire; international media reported firefighters and helicopter crew killed during the response, but this remains unconfirmed by an allowlisted source.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report (eventid 1029987, GLIDE WF-2026-000142-GRC, episode 15) assessed an Orange alert for medium humanitarian impact for a forest fire burning in western Attica, Greece, covering a 31 July-4 August 2026 window, citing about 18,299 hectares burned and roughly 1,648 people in the fire-affected area. No allowlisted authoritative source has published a confirmed death toll or evacuation count, and no source has declared the fire contained."
+      "summary": "GDACS's event report (eventid 1029987, GLIDE WF-2026-000142-GRC) assessed an Orange alert for medium humanitarian impact for a forest fire burning in western Attica, Greece. As of the latest update (episode 18, covering 31 July 2026 00:00 UTC to 5 August 2026 00:00 UTC), the burned area is about 18,419 hectares (up from 18,299 ha as of 4 August) with roughly 1,648 people in the fire-affected area; the last detection of the fire's thermal anomaly was 5 August 2026, indicating ongoing activity. No allowlisted authoritative source has published a confirmed death toll or evacuation count, and no source has declared the fire contained."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029987",
     "location": {
@@ -25,22 +33,22 @@
       "region": "Western Attica (Psatha, Porto Germeno), west of Athens"
     },
     "occurrence_date": "2026-07-31",
-    "scale": "Orange alert; ~18,299 ha burned",
+    "scale": "Orange alert; ~18,419 ha burned",
     "status": "ongoing"
   },
   "id": "greece-wildfire-attica-2026",
-  "last_updated": "2026-08-04T09:10:50Z",
+  "last_updated": "2026-08-05T09:18:15Z",
   "name": "Wildfire — Western Attica, Greece",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-04T09:10:50Z",
+        "at": "2026-08-05T09:18:15Z",
         "layer": "verify",
-        "run_id": "2026-08-04T09-10-50Z-899311"
+        "run_id": "2026-08-05T09-18-15Z-cfb5cb"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-04T09-10-50Z-899311"
+    "last_run_id": "2026-08-05T09-18-15Z-cfb5cb"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -50,7 +58,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
