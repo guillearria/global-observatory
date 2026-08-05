@@ -82,6 +82,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-19",
+      "retrieved_date": "2026-08-05",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-bolivarian-republic-earthquake-response-situation-report-19-31-july-3-august-2026",
+      "text": "Re-checked 5 August 2026: IOM's Earthquake Response Situation Report #19 (covering 31 July - 3 August 2026, published 4 August 2026) reports ongoing shelter and relief operations -- including 796 people from 221 households sheltering at the Jose Maria Vargas Sports Complex and cumulative distributions of 4,987 kitchen sets, 4,580 tarpaulins, 3,441 solar lamps, 3,313 water containers and 2,527 hygiene kits -- but does not include a death toll or injury figure. OCHA's 'Earthquakes in Venezuela: Situation Report' series remains at #31 (31 July 2026), with no #32 yet published; the official toll therefore remains unchanged at 5,546 dead and 16,740 injured.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-02",
       "source_name": "USGS",
@@ -146,12 +154,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Five weeks on, the confirmed death toll has continued to climb past 5,540, and the UN humanitarian response has shifted toward a longer-term, multi-month recovery phase, with combined funding requirements exceeding $900 million.",
+  "description": "A magnitude 7.5 earthquake struck northern Venezuela west of Caracas on 25 June 2026, 39 seconds after a magnitude 7.2 foreshock in the same sequence. The USGS assessed that high casualties and widespread damage are probable, and the national government of Venezuela declared a state of emergency. Five weeks on, the confirmed death toll has continued to climb past 5,540, and the UN humanitarian response has shifted toward a longer-term, multi-month recovery phase, with combined funding requirements exceeding $900 million. Re-checked 5 August 2026: OCHA's weekly Situation Report series remains at #31 (31 July 2026); a newer IOM Earthquake Response Situation Report #19 (31 July-3 August 2026, published 4 August) documents continued shelter and relief-distribution operations but carries no updated death toll, which remains 5,546.",
   "event": {
     "impact": {
       "deaths": 5546,
       "displaced": 17907,
-      "summary": "As of OCHA Situation Report #31 (31 July 2026, 5:00 pm), 37 days after the 24 June doublet quakes, the official toll stands at 5,546 dead and 16,740 injured (up from 5,398 dead in SitRep #30 eight days earlier), with 1,500 aftershocks recorded (up from 1,463) and 17,907 people who lost their homes. As of 30 July, 207,700 people (54% women/girls) had accessed essential services or humanitarian assistance. Funding and targeting figures are unchanged: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum still totals US$931 million in requirements, targeting 6.2 million people, of whom 1.3 million are earthquake-affected. OCHA continues weekly situation reports, consistent with a response shifting toward recovery rather than acute emergency. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP). Re-checked 3 August 2026: OCHA Situation Report #31 (31 July 2026) remains the latest in its series; no Situation Report #32 has been published as of 3 August 2026, and figures are unchanged."
+      "summary": "As of OCHA Situation Report #31 (31 July 2026, 5:00 pm), 37 days after the 24 June doublet quakes, the official toll stands at 5,546 dead and 16,740 injured (up from 5,398 dead in SitRep #30 eight days earlier), with 1,500 aftershocks recorded (up from 1,463) and 17,907 people who lost their homes. As of 30 July, 207,700 people (54% women/girls) had accessed essential services or humanitarian assistance. Funding and targeting figures are unchanged: the combined 2026 Humanitarian Response Plan plus the US$299 million addendum still totals US$931 million in requirements, targeting 6.2 million people, of whom 1.3 million are earthquake-affected. OCHA continues weekly situation reports, consistent with a response shifting toward recovery rather than acute emergency. Earlier assessments put direct physical damage at $37 billion (UNDRR) and $6.7 billion / 6% of GDP (UNDP). Re-checked 3 August 2026: OCHA Situation Report #31 (31 July 2026) remains the latest in its series; no Situation Report #32 has been published as of 3 August 2026, and figures are unchanged. Re-checked 5 August 2026: no new OCHA Situation Report (#32) has been published as of 5 August 2026 -- the official toll remains 5,546 dead and 16,740 injured per SitRep #31 (31 July). IOM's Earthquake Response Situation Report #19 (31 July-3 August 2026, published 4 August) documents continued shelter and relief operations (e.g. 796 people from 221 households at the Jose Maria Vargas Sports Complex; cumulative distributions of 4,987 kitchen sets and 4,580 tarpaulins) but does not update the casualty figures."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
     "location": {
@@ -165,18 +173,18 @@
     "status": "ongoing"
   },
   "id": "venezuela-earthquake-2026",
-  "last_updated": "2026-08-03T09:19:18Z",
+  "last_updated": "2026-08-05T09:16:54Z",
   "name": "Venezuela M7.5 Earthquake Doublet",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-03T09:19:18Z",
+        "at": "2026-08-05T09:16:54Z",
         "layer": "verify",
-        "run_id": "2026-08-03T09-19-18Z-5b3b15"
+        "run_id": "2026-08-05T09-16-54Z-bd0af0"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-03T09-19-18Z-5b3b15"
+    "last_run_id": "2026-08-05T09-16-54Z-bd0af0"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -186,7 +194,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

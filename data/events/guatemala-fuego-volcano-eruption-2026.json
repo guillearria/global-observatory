@@ -1,0 +1,72 @@
+{
+  "category": "volcanic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-05",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000145",
+      "text": "GDACS's Volcanic Eruption report for Fuego (Guatemala), updated 05 Aug 2026 08:09 UTC, gives the volcano's coordinates as 14.47°N, -90.88°W, rates the event overall alert level Green, and estimates approximately 1,480,000 people exposed within 30 km and 9,930,000 within 100 km, assessing that the eruption 'is unlikely to require external humanitarian assistance based on the exposed population and coping capacity.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-05",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/guatemala/gtm-erupcion-volcanica-08-2026-actividad-volcan-fuego-guatemala-2026-08-04",
+      "text": "A Guatemalan Red Cross (Cruz Roja Guatemalteca) / IFRC situation report on ReliefWeb, published 4 August 2026, states that the Fuego eruption began at 08:30 local time on 3 August, that ash-and-gas columns reached 5,000-6,000 m above sea level dispersing more than 40 km to the west, that 9 seismic events generated pyroclastic density currents travelling 5-7 km down the Barranca Seca on the volcano's western flank (posing the greatest threat to communities in San Pedro Yepocapa, Chimaltenango), and that the Guatemalan government established a nationwide orange alert ('alerta anaranjada') to ready shelters and supplies, with CONRED issuing bulletins to authorities and the public.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-05",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/guatemala/gtm-erupcion-volcanica-08-2026-actividad-volcan-fuego-guatemala-2026-08-05",
+      "text": "A follow-up Guatemalan Red Cross / IFRC situation report on ReliefWeb, published 5 August 2026, states the eruption had continued atypically for more than 24 hours since its 3 August 08:30 start, with gas, lava and ash columns of 5,000-7,000 m and pyroclastic density currents of 5-7 km recurring in seven ravines (Seca, Taniluyá, Ceniza, Las Lajas, Honda, Trinidad and El Jute); per CONRED, at least 894 people were sheltered in 3 facilities in Sacatepéquez and Escuintla departments (most from Escuintla), more than 29,000 people were affected, and 'por el momento no se registran daños a personas y viviendas' (no injuries to people or damage to homes had been recorded at that time).",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A major paroxysmal eruption began at Volcán de Fuego, Guatemala's most active volcano, on 3 August 2026, sending gas-and-ash columns to 5,000-7,000 m above sea level and generating pyroclastic density currents that travelled 5-7 km down multiple ravines on the volcano's flanks. Guatemala's disaster coordination agency CONRED declared a nationwide orange alert and evacuated communities in Escuintla and Sacatepéquez departments as the eruption continued for more than 24 hours with no signs of abating.",
+  "event": {
+    "impact": {
+      "deaths": 0,
+      "displaced": 894,
+      "summary": "As of ReliefWeb's 5 August 2026 Guatemalan Red Cross/IFRC situation report, 894 people were sheltered across 3 shelters in Sacatepéquez and Escuintla departments and more than 29,000 people were affected (chiefly by ashfall); no deaths or housing damage had been recorded. GDACS assessed the event as Green, unlikely to require external humanitarian assistance, with about 1.48 million people exposed within 30 km of the volcano and 9.93 million within 100 km."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000145",
+    "location": {
+      "country": "Guatemala",
+      "lat": 14.47,
+      "lon": -90.88,
+      "region": "Escuintla and Sacatepéquez departments (near Antigua Guatemala)"
+    },
+    "occurrence_date": "2026-08-03",
+    "scale": "Paroxysmal eruption; CONRED nationwide Orange alert; GDACS Green (low external-assistance impact)",
+    "status": "ongoing"
+  },
+  "id": "guatemala-fuego-volcano-eruption-2026",
+  "last_updated": "2026-08-05T09:16:58Z",
+  "name": "Fuego Volcano Eruption, Guatemala",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-05T09:16:58Z",
+        "layer": "verify",
+        "run_id": "2026-08-05T09-16-58Z-4c1f39"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-05T09-16-58Z-4c1f39"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398311.0,
+    "impact_rank": 1,
+    "recency_rank": 739831
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
