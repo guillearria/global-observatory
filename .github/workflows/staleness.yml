@@ -1,7 +1,12 @@
-# Fails loudly (GitHub notification to the last committer) when the committed
-# aggregates go stale — the server-side complement to the frontend banner, so a
-# silently-dead refresh schedule triggers an email instead of waiting for
-# someone to load the page. Thresholds mirror frontend/app.js.
+# Fails when the committed aggregates go stale — the server-side complement to
+# the frontend banner, so a silently-dead refresh schedule is caught without
+# waiting for someone to load the page. Thresholds mirror frontend/app.js.
+#
+# This failing is NOT self-announcing. It once ran red for 11 consecutive days
+# (2026-07-22 → 08-01) while the weekly threats routine was broken, and nobody
+# noticed: GitHub notifies "the last committer", which under auto-publish is the
+# publisher bot. `notify.yml` is what carries this off GitHub — if that is ever
+# removed or its secrets go unset, this check is decorative again.
 #
 # Accepted limits:
 # - GitHub auto-disables schedules after ~60 days of repo inactivity; the daily

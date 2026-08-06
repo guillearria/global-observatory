@@ -1,0 +1,56 @@
+# The one alarm that leaves GitHub.
+#
+# Every other check here signals by turning a CI run red, which only works if a human is
+# subscribed to that run. In July 2026 `staleness` failed on 11 consecutive days while the weekly
+# threats routine sat broken and two verified records were lost — the check fired exactly as
+# designed, into nobody's inbox. Auto-publish is what broke the default: GitHub notifies "the last
+# committer", and that is now the publisher bot. The louder the automation got, the quieter the
+# alarm became.
+#
+# One listener for every automated workflow, rather than a notify step inside each: a new failure
+# mode in an existing workflow is covered without anyone remembering to wire it up. Adding a new
+# workflow does require adding its name below — that is the one gap, and it is visible here.
+#
+# Fail-soft on purpose. If the secrets are unset this exits 0 with a notice instead of turning
+# every failure into a second red run; and a failed send is never retried (see scripts/notify.py —
+# an ambiguous timeout retried is a double-post).
+name: notify
+on:
+  workflow_run:
+    workflows: [staleness, publish, validate, pages]
+    types: [completed]
+permissions:
+  contents: read
+jobs:
+  telegram:
+    # `publish` fails transiently when a refresh session commits records and aggregates in
+    # separate pushes — the aggregate-integrity check correctly rejects the intermediate push and
+    # the next one repairs it. That costs roughly one message on such a day. Left in deliberately:
+    # a publish failure that does NOT self-heal is precisely the silent-loss mode this exists for,
+    # and the two are indistinguishable at this point in time.
+    if: github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Push the failure to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          WF: ${{ github.event.workflow_run.name }}
+          BRANCH: ${{ github.event.workflow_run.head_branch }}
+          URL: ${{ github.event.workflow_run.html_url }}
+          TITLE: ${{ github.event.workflow_run.display_title }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "::notice::Telegram secrets unset — set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID to arm this alarm."
+            exit 0
+          fi
+          # Env, not inline ${{ }}, so a branch or commit subject can never break out of the shell.
+          python3 scripts/notify.py - <<EOF
+          🚨 global-observatory: ${WF} failed
+
+          branch: ${BRANCH}
+          commit: ${TITLE}
+
+          ${URL}
+          EOF

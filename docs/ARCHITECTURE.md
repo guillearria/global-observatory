@@ -170,10 +170,20 @@ null, and the banner guard requires a finite threshold).
   domain to the allowlist but never loosen the rules that check it. Anything else is left for a
   human merge. This enforces the refresh commands' write-scope rule mechanically, and is the reason
   no dataset needs a review queue.
-- **`staleness.yml`** — daily scheduled check that fails loudly (GitHub notification) if the
-  committed `frontend/data/*.json` goes stale (>2 days events / >10 days threats;
-  `historical.json` deliberately exempt) — the server-side complement to the frontend banner,
-  catching a silently-dead refresh schedule.
+- **`staleness.yml`** — daily scheduled check that fails if the committed `frontend/data/*.json`
+  goes stale (>2 days events / >10 days threats; `historical.json` deliberately exempt) — the
+  server-side complement to the frontend banner, catching a silently-dead refresh schedule.
+- **`notify.yml`** — the only alarm that leaves GitHub. A single `workflow_run` listener on
+  `staleness`, `publish`, `validate` and `pages` that pushes any failure to Telegram via
+  `scripts/notify.py`. It exists because a red CI run is not a signal unless somebody is
+  subscribed to it: `staleness` ran red for 11 straight days in July 2026 while two verified
+  threat records were being lost, because auto-publish made the "last committer" GitHub notifies a
+  bot. One listener rather than a step per workflow, so new failure modes in existing workflows
+  are covered by default; the cost is that a *new* workflow must be added to its `workflows:` list.
+  Needs the `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` repository secrets — without them it exits
+  0 with a notice rather than turning every failure into a second red run, so **an unarmed
+  notifier is silent by design**. `scripts/notify.py` never retries: a timed-out send is
+  ambiguous, and retrying an ambiguous send double-posts.
 - **Refresh schedule** — two Claude Code scheduled cloud agents: daily → `/refresh-events`, weekly →
   `/refresh-threats`. `/refresh-history` runs ad hoc, unscheduled.
 

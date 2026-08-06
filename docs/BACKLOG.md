@@ -115,15 +115,34 @@ queue still sat undrained until the auto-publish rewrite happened to fix it. Thi
 finding of the audit, and it is not a missing check:
 
 - Every alarm this repo has is a **red CI run**, and a red CI run is only a signal if a human is
-  subscribed to it. `staleness.yml`'s own header says it notifies "the last committer" — but under
+  subscribed to it. `staleness.yml`'s own header said it notifies "the last committer" — but under
   auto-publish the last committer is `global-observatory-publisher`, a bot. The louder the
   automation got, the quieter the alarm became.
-- So the gap to close is **notification, not detection**. Something has to leave GitHub — the HQ
-  Telegram path already used for publish approvals is the obvious carrier.
-- Worth adding regardless, because it is the one unambiguous failure signature and it is cheaper
-  than inferring failure from data freshness: **alarm on any `claude/*` branch older than ~24h.**
-  `publish` deletes the branch on success, so a lingering branch always means a run did not land.
-  It would have caught all five of these on the day they happened.
+- So the gap to close is **notification, not detection**. Something has to leave GitHub.
+
+**Fixed 2026-08-05 — `notify.yml` + `scripts/notify.py`.** One `workflow_run` listener on
+`staleness`, `publish`, `validate` and `pages` pushes any failure to Telegram. See ARCHITECTURE §7
+for the design and its one gap (a newly added workflow must be listed in its `workflows:` array).
+
+> **Arming it is a manual step and it is silent until done.** The alarm needs two repository
+> secrets, and until they are set it exits 0 with a notice — deliberately, so an unarmed notifier
+> does not turn every failure into a second unwatched red run. Reuse the same bot as the other
+> portfolio routines:
+>
+>     gh secret set TELEGRAM_BOT_TOKEN --repo guillearria/global-observatory
+>     gh secret set TELEGRAM_CHAT_ID  --repo guillearria/global-observatory
+>
+> Verify with a deliberate failure: `gh workflow run staleness.yml` against stale data, or push a
+> commit that fails `validate`. **Do not assume it works because CI is green** — a notifier that
+> was never armed looks exactly like one with nothing to report. That confusion is the whole
+> reason this section exists.
+
+**Still open — alarm on orphaned `claude/*` branches.** The one unambiguous failure signature, and
+cheaper than inferring failure from data freshness: `publish` deletes the branch on success, so a
+lingering branch always means a run did not land. It would have caught all five July casualties on
+the day they happened, including the two that `staleness` could not see because other records kept
+the aggregate fresh. Now that `notify.yml` exists, this is just a scheduled check that fails when
+`git ls-remote --heads origin 'claude/*'` returns anything older than ~24h.
 
 **Related, same root cause — the changelog was silently corrupted.** `pipeline.changelog` is a
 projection of `git log --name-status` over the data dirs, so it is only as correct as the history
