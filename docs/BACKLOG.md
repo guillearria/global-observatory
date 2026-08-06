@@ -92,17 +92,38 @@ are spurious (the aggregates are derived and could simply be rebuilt post-merge)
 only genuine record-level conflicts to fail on. Have the refresh commands `git pull --rebase` onto
 current `main` before pushing, too.
 
-**Audited 2026-08-05 — it had happened five times, not once.** This entry previously recorded a
-single incident (2026-07-13). A sweep of `origin/claude/*` found five abandoned branches: 07-13
-(`trusting-wright-ls09pf`, `trusting-archimedes-t109kw`), 07-20 (`trusting-archimedes-h17mg9`),
-07-21 (`trusting-wright-cyb9hp`) and 07-27 (`trusting-archimedes-vhto1g`). Most of their content
-was superseded by later runs, but two threat records were drafted twice and never published at all:
-`antimicrobial-resistance` and the major-earthquake record (salvaged and re-verified in `1896754`;
-the dead branches were deleted afterwards). The weekly threats routine was the main victim — it
-lost three of its July runs, which is why "auto-publish path not yet verified" above stayed
-unverified for a month. **The lesson is not the conflict, it is that nothing reports one.** A red
-run is only a signal if something is watching, and the staleness check watches record freshness,
-not merge outcomes.
+**Audited 2026-08-05 — five abandoned branches, but two different failure modes.** A sweep of
+`origin/claude/*` found five branches the routines left behind, and it is worth keeping them
+straight because only one class is still possible today:
+
+- **Three were the PR queue, not a conflict.** `trusting-archimedes-t109kw` (07-13),
+  `-h17mg9` (07-20) and `-vhto1g` (07-27) are exactly PRs #12, #13 and #14 — opened by the weekly
+  threats routine, never merged, closed when auto-publish replaced the queue on 08-01. This is the
+  failure already described under "Done — threats auto-publish" above, and `publish` fixed it.
+- **Two were the events routine's push.** `trusting-wright-ls09pf` (07-13) is the conflicted
+  publish described above; `trusting-wright-cyb9hp` (07-21) carried no record changes at all. So
+  the conflict mode has cost one run in ~30, as originally recorded — that count was right.
+
+What the audit did change: **two threat records were drafted twice and never published at all** —
+`antimicrobial-resistance` and the major-earthquake record, lost with PRs #12 and #13, salvaged and
+re-verified against live sources in `1896754`. No threat record reached `main` between 07-11 and
+08-01.
+
+**The detector worked; nobody was listening.** `staleness` failed on 11 consecutive days, 07-22
+through 08-01 — exactly on schedule, 10 days after the last threats landing on 07-11 — and the
+queue still sat undrained until the auto-publish rewrite happened to fix it. This is the real
+finding of the audit, and it is not a missing check:
+
+- Every alarm this repo has is a **red CI run**, and a red CI run is only a signal if a human is
+  subscribed to it. `staleness.yml`'s own header says it notifies "the last committer" — but under
+  auto-publish the last committer is `global-observatory-publisher`, a bot. The louder the
+  automation got, the quieter the alarm became.
+- So the gap to close is **notification, not detection**. Something has to leave GitHub — the HQ
+  Telegram path already used for publish approvals is the obvious carrier.
+- Worth adding regardless, because it is the one unambiguous failure signature and it is cheaper
+  than inferring failure from data freshness: **alarm on any `claude/*` branch older than ~24h.**
+  `publish` deletes the branch on success, so a lingering branch always means a run did not land.
+  It would have caught all five of these on the day they happened.
 
 **Related, same root cause — the changelog was silently corrupted.** `pipeline.changelog` is a
 projection of `git log --name-status` over the data dirs, so it is only as correct as the history
