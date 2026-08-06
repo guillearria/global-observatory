@@ -14,11 +14,18 @@
 # Fail-soft on purpose. If the secrets are unset this exits 0 with a notice instead of turning
 # every failure into a second red run; and a failed send is never retried (see scripts/notify.py —
 # an ambiguous timeout retried is a double-post).
+#
+# `workflow_dispatch` is the self-test: `gh workflow run notify.yml` sends a test message, and
+# unlike the real path it FAILS when the secrets are unset. A silent skip is right when there is a
+# genuine failure to report (better one lost alarm than a second unwatched red run) and useless
+# when a human is explicitly asking "is this armed?" — that question must never answer green
+# without a message having been sent.
 name: notify
 on:
   workflow_run:
     workflows: [staleness, publish, validate, pages]
     types: [completed]
+  workflow_dispatch: {}
 permissions:
   contents: read
 jobs:
@@ -28,7 +35,9 @@ jobs:
     # the next one repairs it. That costs roughly one message on such a day. Left in deliberately:
     # a publish failure that does NOT self-heal is precisely the silent-loss mode this exists for,
     # and the two are indistinguishable at this point in time.
-    if: github.event.workflow_run.conclusion == 'failure'
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'failure'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -36,12 +45,18 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SELFTEST: ${{ github.event_name == 'workflow_dispatch' }}
           WF: ${{ github.event.workflow_run.name }}
           BRANCH: ${{ github.event.workflow_run.head_branch }}
           URL: ${{ github.event.workflow_run.html_url }}
           TITLE: ${{ github.event.workflow_run.display_title }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            if [ "$SELFTEST" = "true" ]; then
+              echo "::error::Not armed — set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID. Nothing was sent."
+              exit 1
+            fi
             echo "::notice::Telegram secrets unset — set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID to arm this alarm."
             exit 0
           fi
@@ -49,7 +64,16 @@ jobs:
           # commit subject cannot break out of the shell. (Do not write an expression delimiter in
           # this file even inside a comment — it is evaluated before the shell sees it, and an
           # empty one is a startup failure. That is what broke this workflow's first run.)
-          python3 scripts/notify.py - <<EOF
+          if [ "$SELFTEST" = "true" ]; then
+            python3 scripts/notify.py - <<EOF
+          ✅ global-observatory: notify self-test
+
+          If you are reading this, the alarm is armed and failures will reach you.
+
+          ${RUN_URL}
+          EOF
+          else
+            python3 scripts/notify.py - <<EOF
           🚨 global-observatory: ${WF} failed
 
           branch: ${BRANCH}
@@ -57,3 +81,4 @@ jobs:
 
           ${URL}
           EOF
+          fi

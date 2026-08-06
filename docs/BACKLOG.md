@@ -132,10 +132,15 @@ for the design and its one gap (a newly added workflow must be listed in its `wo
 >     gh secret set TELEGRAM_BOT_TOKEN --repo guillearria/global-observatory
 >     gh secret set TELEGRAM_CHAT_ID  --repo guillearria/global-observatory
 >
-> Verify with a deliberate failure: `gh workflow run staleness.yml` against stale data, or push a
-> commit that fails `validate`. **Do not assume it works because CI is green** — a notifier that
-> was never armed looks exactly like one with nothing to report. That confusion is the whole
-> reason this section exists.
+> Then verify — **do not assume it works because CI is green**, since a notifier that was never
+> armed looks exactly like one with nothing to report:
+>
+>     gh workflow run notify.yml --repo guillearria/global-observatory
+>
+> The self-test sends a message and, uniquely, **fails when the secrets are unset**. A silent skip
+> is right when there is a real failure to report and wrong when a human is asking "is this armed?"
+> — that question must never answer green without a message having gone out. A green self-test run
+> plus a Telegram message is the only proof.
 
 **Still open — alarm on orphaned `claude/*` branches.** The one unambiguous failure signature, and
 cheaper than inferring failure from data freshness: `publish` deletes the branch on success, so a

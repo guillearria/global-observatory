@@ -182,7 +182,9 @@ null, and the banner guard requires a finite threshold).
   are covered by default; the cost is that a *new* workflow must be added to its `workflows:` list.
   Needs the `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` repository secrets — without them it exits
   0 with a notice rather than turning every failure into a second red run, so **an unarmed
-  notifier is silent by design**. `scripts/notify.py` never retries: a timed-out send is
+  notifier is silent by design**. Because that silence is indistinguishable from having nothing to
+  report, `workflow_dispatch` is a self-test (`gh workflow run notify.yml`) that sends a message
+  and *fails* when the secrets are unset. `scripts/notify.py` never retries: a timed-out send is
   ambiguous, and retrying an ambiguous send double-posts.
 - **Refresh schedule** — two Claude Code scheduled cloud agents: daily → `/refresh-events`, weekly →
   `/refresh-threats`. `/refresh-history` runs ad hoc, unscheduled.
