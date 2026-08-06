@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-06 — Daily World Pulse refresh: add Typhoon Dolphin & India monsoon floods, Ebola/cholera updates (`71630a9`)
+
+- **Added:** india-monsoon-floods-2026, typhoon-dolphin-japan-2026
+- **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, china-floods-jilin-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, greece-wildfire-attica-2026, guatemala-fuego-volcano-eruption-2026, haiti-gang-violence-displacement-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, south-korea-stock-market-crisis-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
+
 ## 2026-08-05 — Salvage AMR and major-earthquake threats lost to unmerged July branches (`1896754`)
 
 - **Added:** antimicrobial-resistance, major-earthquake
