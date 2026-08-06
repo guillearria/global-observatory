@@ -24,6 +24,14 @@
       "source_url": "https://reliefweb.int/report/guatemala/gtm-erupcion-volcanica-08-2026-actividad-volcan-fuego-guatemala-2026-08-05",
       "text": "A follow-up Guatemalan Red Cross / IFRC situation report on ReliefWeb, published 5 August 2026, states the eruption had continued atypically for more than 24 hours since its 3 August 08:30 start, with gas, lava and ash columns of 5,000-7,000 m and pyroclastic density currents of 5-7 km recurring in seven ravines (Seca, Taniluyá, Ceniza, Las Lajas, Honda, Trinidad and El Jute); per CONRED, at least 894 people were sheltered in 3 facilities in Sacatepéquez and Escuintla departments (most from Escuintla), more than 29,000 people were affected, and 'por el momento no se registran daños a personas y viviendas' (no injuries to people or damage to homes had been recorded at that time).",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-06",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/guatemala/gtm-erupcion-volcanica-08-2026-actividad-volcan-fuego-guatemala-2026-08-05",
+      "text": "Re-confirmed by direct fetch on 6 August 2026: the Guatemalan Red Cross/IFRC situation report of 5 August 2026 remains the latest, confirming '894 personas se encuentran albergadas en 3 instalaciones... más de 29,000 personas se encuentran afectadas. Por el momento no se registran daños a personas y viviendas' (894 sheltered in 3 facilities; 29,000+ affected; no deaths or housing damage). GDACS's event record (id 1000145) shows Alert Level Green, VEI 4, with no fatality/impact data recorded.",
+      "verification_status": "verified"
     }
   ],
   "description": "A major paroxysmal eruption began at Volcán de Fuego, Guatemala's most active volcano, on 3 August 2026, sending gas-and-ash columns to 5,000-7,000 m above sea level and generating pyroclastic density currents that travelled 5-7 km down multiple ravines on the volcano's flanks. Guatemala's disaster coordination agency CONRED declared a nationwide orange alert and evacuated communities in Escuintla and Sacatepéquez departments as the eruption continued for more than 24 hours with no signs of abating.",
@@ -31,7 +39,7 @@
     "impact": {
       "deaths": 0,
       "displaced": 894,
-      "summary": "As of ReliefWeb's 5 August 2026 Guatemalan Red Cross/IFRC situation report, 894 people were sheltered across 3 shelters in Sacatepéquez and Escuintla departments and more than 29,000 people were affected (chiefly by ashfall); no deaths or housing damage had been recorded. GDACS assessed the event as Green, unlikely to require external humanitarian assistance, with about 1.48 million people exposed within 30 km of the volcano and 9.93 million within 100 km."
+      "summary": "As of ReliefWeb's 5 August 2026 Guatemalan Red Cross/IFRC situation report, 894 people were sheltered across 3 shelters in Sacatepéquez and Escuintla departments and more than 29,000 people were affected (chiefly by ashfall); no deaths or housing damage had been recorded. GDACS assessed the event as Green, unlikely to require external humanitarian assistance, with about 1.48 million people exposed within 30 km of the volcano and 9.93 million within 100 km. Re-checked 6 August 2026: no report newer than the 5 August 2026 Guatemalan Red Cross/IFRC situation report has been published; figures remain 894 sheltered and 29,000+ affected, with no deaths recorded."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000145",
     "location": {
@@ -45,18 +53,18 @@
     "status": "ongoing"
   },
   "id": "guatemala-fuego-volcano-eruption-2026",
-  "last_updated": "2026-08-05T09:16:58Z",
+  "last_updated": "2026-08-06T09:27:40Z",
   "name": "Fuego Volcano Eruption, Guatemala",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-05T09:16:58Z",
+        "at": "2026-08-06T09:27:40Z",
         "layer": "verify",
-        "run_id": "2026-08-05T09-16-58Z-4c1f39"
+        "run_id": "2026-08-06T09-27-40Z-f4303e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-05T09-16-58Z-4c1f39"
+    "last_run_id": "2026-08-06T09-27-40Z-f4303e"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -66,7 +74,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

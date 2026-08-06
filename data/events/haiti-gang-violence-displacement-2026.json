@@ -24,6 +24,14 @@
       "source_url": "https://news.un.org/en/story/2026/07/1167972",
       "text": "UN News (20 July 2026), 'LIVE: Haiti endures violence and hunger, but hopes grow for a more secure future': reconfirms IOM's nearly-1.5-million displacement figure (originally reported 5 June 2026) as still current, reports on a UN Security Council discussion of the Gang Suppression Force, and notes that Haitian security forces have begun recording limited successes against armed gangs, pushing some criminal groups out of strategic locations in Port-au-Prince and reopening some major roads; the article provides no updated death-toll or displacement aggregate beyond the figures already reported. Re-checked 5 August 2026: no newer UN News, ReliefWeb, or OCHA report supersedes the 19-20 July 2026 figures (1.47M displaced, 542 killed in the Cité Soleil outbreak, 6.4M in humanitarian need, 5.8M facing hunger).",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-06",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/haiti/iom-haiti-situation-report-may-2026",
+      "text": "Re-confirmed by direct fetch on 6 August 2026: IOM's Haiti Situation Report (May 2026 DTM round, published 22 June 2026) remains the source of the national 1.47 million displacement figure; a newer IOM Emergency Tracking Tool update (ETT 103, posted 5 August 2026) covers only one municipality (Saint-Michel de l'Attalaye, Artibonite) and does not supersede the national aggregate.",
+      "verification_status": "verified"
     }
   ],
   "description": "Escalating gang violence across Haiti, concentrated in and around Port-au-Prince, has driven internal displacement to record levels through mid-2026. IOM figures cited by UN News put the total at nearly 1.5 million people without a stable place to live as of 5 June 2026, after a surge of more than 18,000 people displaced from Cité Soleil in May 2026 alone pushed the number of internally displaced people in Port-au-Prince above 300,000 for the first time on record; more than 110,000 Haitians have also been forcibly returned to the country since the start of 2026, compounding the crisis. A subsequent UN News report (19 July 2026) put total displacement at 1.47 million and detailed a Cité Soleil violence outbreak earlier in 2026 in which at least 542 people were killed, 355 injured, and at least 176 women and girls raped, with residents fleeing to neighbouring Drouillard; the same report cites roughly 6.4 million people in need of humanitarian assistance and more than 5.8 million expected to face hunger this year. A further UN News report (20 July 2026) reconfirms the nearly-1.5-million displacement figure amid a Security Council discussion of the UN-backed Gang Suppression Force, with some initial, limited security gains reported in parts of Port-au-Prince. No authoritative source has declared the crisis contained or resolved, and no newer displacement or death-toll aggregate has been published as of 5 August 2026.",
@@ -31,7 +39,7 @@
     "impact": {
       "deaths": 542,
       "displaced": 1470000,
-      "summary": "UN News (19 July 2026) reports 1.47 million people have fled their homes nationwide, largely due to gang violence, and details a Cité Soleil violence outbreak earlier in 2026 in which at least 542 people were killed and 355 injured, with at least 176 women and girls raped; roughly 6.4 million people are in need of humanitarian assistance and more than 5.8 million are expected to face hunger this year. An earlier UN News report (5 June 2026), citing IOM, put displacement at nearly 1.5 million, including a surge of over 18,000 people displaced from Cité Soleil in May 2026 alone that pushed Port-au-Prince's IDP population above 300,000 for the first time on record, plus over 110,000 Haitians forcibly returned to the country since the start of 2026. A follow-up UN News report (20 July 2026) reconfirms the nearly-1.5-million displacement figure amid a Security Council discussion of the Gang Suppression Force's deployment, without providing an updated death toll. No authoritative source has declared the crisis contained or resolved. Re-checked 5 August 2026: no newer displacement or casualty aggregate has been published beyond the 19-20 July 2026 figures."
+      "summary": "UN News (19 July 2026) reports 1.47 million people have fled their homes nationwide, largely due to gang violence, and details a Cité Soleil violence outbreak earlier in 2026 in which at least 542 people were killed and 355 injured, with at least 176 women and girls raped; roughly 6.4 million people are in need of humanitarian assistance and more than 5.8 million are expected to face hunger this year. An earlier UN News report (5 June 2026), citing IOM, put displacement at nearly 1.5 million, including a surge of over 18,000 people displaced from Cité Soleil in May 2026 alone that pushed Port-au-Prince's IDP population above 300,000 for the first time on record, plus over 110,000 Haitians forcibly returned to the country since the start of 2026. A follow-up UN News report (20 July 2026) reconfirms the nearly-1.5-million displacement figure amid a Security Council discussion of the Gang Suppression Force's deployment, without providing an updated death toll. No authoritative source has declared the crisis contained or resolved. Re-checked 5 August 2026: no newer displacement or casualty aggregate has been published beyond the 19-20 July 2026 figures. Re-checked 6 August 2026: no newer national displacement or casualty aggregate has been published beyond the 19-20 July 2026 figures (1.47 million displaced nationwide, per IOM's May 2026 DTM round)."
     },
     "live_source_url": "https://reliefweb.int/country/hti",
     "location": {
@@ -45,18 +53,18 @@
     "status": "ongoing"
   },
   "id": "haiti-gang-violence-displacement-2026",
-  "last_updated": "2026-08-05T09:19:00Z",
+  "last_updated": "2026-08-06T09:27:39Z",
   "name": "Gang Violence Displacement Crisis — Haiti",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-05T09:19:00Z",
+        "at": "2026-08-06T09:27:39Z",
         "layer": "verify",
-        "run_id": "2026-08-05T09-19-00Z-665a6b"
+        "run_id": "2026-08-06T09-27-39Z-c2e38e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-05T09-19-00Z-665a6b"
+    "last_run_id": "2026-08-06T09-27-39Z-c2e38e"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -66,7 +74,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

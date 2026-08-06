@@ -24,6 +24,14 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104051&episodeid=5",
       "text": "Re-checked 5 August 2026: GDACS's report for this same event (FL 1104051, GLIDE FL-2026-000136-CHN) now shows a newer episode 5, \"Overall Red Flood in China from 25 Jul 2026 01:00 UTC to 02 Aug 2026 01:00 UTC,\" citing local media reports of flooding in Shaanxi Province. The officially cited figures are 10 deaths and 830,303 displaced (up from 809,145 in the prior 25-31 July window), and no allowlisted source has declared the event resolved.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-06",
+      "source_name": "GDACS",
+      "source_url": "https://gdacs.org/report.aspx?eventtype=FL&eventid=1104051&episodeid=5",
+      "text": "Re-confirmed by direct fetch on 6 August 2026: GDACS's event report (FL 1104051, GLIDE FL-2026-000136-CHN) still shows episode 5 (window 25 Jul-2 Aug 2026) as the latest, with 'Death: 10' and 'Displaced: 830303' unchanged; no episode 6 or newer date window has been published.",
+      "verification_status": "verified"
     }
   ],
   "description": "Heavy rainfall in late July 2026 triggered severe flooding across Jilin Province in northeastern China, prompting large-scale evacuations. GDACS assessed the event as an overall Red alert, its highest severity tier, citing 10 deaths and about 809,145 people displaced as of the close of its initial reporting window on 31 July 2026. GDACS's report for this event (GDACS ID FL 1104051, GLIDE FL-2026-000136-CHN) has since been updated as the underlying rain system affected further Chinese provinces in sequence (Gansu, Sichuan and, most recently, Shaanxi, alongside continued flood response in Jilin and Heilongjiang) — the reporting window now runs through 2 August 2026, with the official displaced figure revised up to about 830,303 while the death toll remains 10. No allowlisted source has declared the event resolved.",
@@ -31,7 +39,7 @@
     "impact": {
       "deaths": 10,
       "displaced": 830303,
-      "summary": "GDACS's flood event report (GDACS ID FL 1104051, GLIDE FL-2026-000136-CHN) assessed an overall Red alert for flooding in China beginning in Jilin Province, citing 10 deaths and about 809,145 people displaced as of the close of its initial reporting window on 31 July. Re-checked 5 August 2026: the same GDACS event report has been updated with a later episode (window now 25 Jul-02 Aug 2026) reflecting the rain system's continued impact across Gansu, Sichuan and, most recently, Shaanxi provinces, alongside ongoing flood response in Jilin and Heilongjiang; the officially cited displaced figure has risen to about 830,303 while the death toll remains 10. No allowlisted source has declared the event resolved."
+      "summary": "GDACS's flood event report (GDACS ID FL 1104051, GLIDE FL-2026-000136-CHN) assessed an overall Red alert for flooding in China beginning in Jilin Province, citing 10 deaths and about 809,145 people displaced as of the close of its initial reporting window on 31 July. Re-checked 5 August 2026: the same GDACS event report has been updated with a later episode (window now 25 Jul-02 Aug 2026) reflecting the rain system's continued impact across Gansu, Sichuan and, most recently, Shaanxi provinces, alongside ongoing flood response in Jilin and Heilongjiang; the officially cited displaced figure has risen to about 830,303 while the death toll remains 10. No allowlisted source has declared the event resolved. Re-checked 6 August 2026: GDACS's event report (eventid 1104051) still shows episode 5 (25 Jul-2 Aug 2026 window) as the latest, with figures unchanged (10 deaths, ~830,303 displaced); no newer episode has been published."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104051",
     "location": {
@@ -45,18 +53,18 @@
     "status": "ongoing"
   },
   "id": "china-floods-jilin-2026",
-  "last_updated": "2026-08-05T09:15:25Z",
+  "last_updated": "2026-08-06T09:27:40Z",
   "name": "Floods — Jilin Province, China",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-05T09:15:25Z",
+        "at": "2026-08-06T09:27:40Z",
         "layer": "verify",
-        "run_id": "2026-08-05T09-15-25Z-febc03"
+        "run_id": "2026-08-06T09-27-40Z-71cf66"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-05T09-15-25Z-febc03"
+    "last_run_id": "2026-08-06T09-27-40Z-71cf66"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -66,7 +74,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

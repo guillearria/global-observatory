@@ -1,0 +1,64 @@
+{
+  "category": "storm",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-06",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1001297&eventtype=TC",
+      "text": "GDACS's event report for Tropical Cyclone DOLPHIN-26 assesses an Orange alert level (medium humanitarian impact), episode 42, with a maximum wind speed of 269 km/h (Category 5), an event window of 27 July-6 August 2026, roughly 16.9 million people exposed to Category 1 or higher wind speeds, affected countries listed as the Marshall Islands, Japan and China, and high vulnerability flagged specifically for the Marshall Islands.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-06",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1001297&episodeid=20&eventtype=TC",
+      "text": "GDACS's episode report for the same storm confirms an Orange alert level, a maximum wind speed of 269 km/h (Category 5), and an event timeline of 27 July-6 August 2026, with the GDACS score of 1.5 reflecting the cyclone's significant potential impact based on wind speed, storm surge and rainfall projections from multiple meteorological models (JTWC, HWRF, GFS, ECMWF).",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Tropical Cyclone DOLPHIN-26 intensified to Category 5 strength (269 km/h sustained winds) in the western Pacific before tracking across the Marshall Islands and toward Japan's Ryukyu Islands (Okinawa Prefecture and the Daito Islands) and China. GDACS has assessed the storm at Orange alert level (medium humanitarian impact) throughout its event window of 27 July-6 August 2026, with roughly 16.9 million people exposed to Category 1 or higher wind speeds and the Marshall Islands flagged as an area of high vulnerability.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "GDACS's event report for Tropical Cyclone DOLPHIN-26 (event id 1001297, episode 42) assesses an Orange alert for medium humanitarian impact across an event window of 27 July-6 August 2026, citing a peak intensity of 269 km/h (Category 5) and about 16.9 million people exposed to Category 1 or higher wind speeds across the Marshall Islands, Japan and China, with the Marshall Islands flagged as an area of high vulnerability. No allowlisted authoritative source has yet published a confirmed death toll, injury count, or evacuation figure for this storm."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1001297&eventtype=TC",
+    "location": {
+      "country": "Marshall Islands; Japan (Okinawa Prefecture); China",
+      "lat": 26.5,
+      "lon": 128.0,
+      "region": "Western Pacific track across the Marshall Islands to the Ryukyu Islands (Okinawa, Daito Islands), Japan, and onward toward China"
+    },
+    "occurrence_date": "2026-07-27",
+    "scale": "Category 5 (269 km/h) — GDACS Orange alert",
+    "status": "ongoing"
+  },
+  "id": "typhoon-dolphin-japan-2026",
+  "last_updated": "2026-08-06T09:25:50Z",
+  "name": "Super Typhoon Dolphin — Marshall Islands, Japan & China",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-06T09:25:50Z",
+        "layer": "verify",
+        "run_id": "2026-08-06T09-25-50Z-0df8ee"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-06T09-25-50Z-0df8ee"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398241.0,
+    "impact_rank": 1,
+    "recency_rank": 739824
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

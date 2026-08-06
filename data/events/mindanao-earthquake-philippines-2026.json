@@ -66,6 +66,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-17",
+      "retrieved_date": "2026-08-06",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-77-effects-mw-78-earthquake-incident-maasim-sarangani-31-july-2026-6pm",
+      "text": "Re-confirmed by direct fetch on 6 August 2026: DSWD DROMIC Report #77 (31 July 2026, 6PM; posted to ReliefWeb 3 August 2026) remains the latest in its series; no Report #78 has been published. DSWD's DROMIC template still carries no casualty section, so OCHA's 13 July snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable casualty figure.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-02",
       "source_name": "United Nations",
@@ -135,7 +143,7 @@
     "impact": {
       "deaths": 94,
       "displaced": 108472,
-      "summary": "DSWD DROMIC Report #77 (31 July 2026, 6PM, published on ReliefWeb 3 August 2026) reports 392,389 families (1,657,524 persons) affected across 661 barangays in Regions IX, XI, XII and BARMM, unchanged from Report #76. Total displacement eased slightly to 27,289 families (108,472 persons) -- 7,763 families (31,917 persons) inside 86 evacuation centers (up from 85) and 19,526 families (76,555 persons) staying outside with relatives or friends -- down from 27,508 families (109,445 persons) as of Report #76. Houses damaged remain unchanged at 115,205 total (18,644 totally destroyed, 96,561 partially damaged). Assistance provided to date totals PHP 1,383,697,520.37 (PHP 1,383,677,520.37 from DSWD and PHP 20,000.00 from LGUs), up from PHP 1,306,112,420.37 as of Report #76. DSWD's DROMIC report template still carries no casualty section, so the most recent citable death/injury/missing figures remain OCHA's 13 July snapshot (94 deaths, 1,316 injured, 18 missing); GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity. No allowlisted source has declared the response concluded or resolved. Re-checked 5 August 2026: DSWD DROMIC Report #77 (31 July 2026) is the latest in its series as of this check; the OCHA 13 July casualty snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable figure."
+      "summary": "DSWD DROMIC Report #77 (31 July 2026, 6PM, published on ReliefWeb 3 August 2026) reports 392,389 families (1,657,524 persons) affected across 661 barangays in Regions IX, XI, XII and BARMM, unchanged from Report #76. Total displacement eased slightly to 27,289 families (108,472 persons) -- 7,763 families (31,917 persons) inside 86 evacuation centers (up from 85) and 19,526 families (76,555 persons) staying outside with relatives or friends -- down from 27,508 families (109,445 persons) as of Report #76. Houses damaged remain unchanged at 115,205 total (18,644 totally destroyed, 96,561 partially damaged). Assistance provided to date totals PHP 1,383,697,520.37 (PHP 1,383,677,520.37 from DSWD and PHP 20,000.00 from LGUs), up from PHP 1,306,112,420.37 as of Report #76. DSWD's DROMIC report template still carries no casualty section, so the most recent citable death/injury/missing figures remain OCHA's 13 July snapshot (94 deaths, 1,316 injured, 18 missing); GDACS assessed an orange alert (medium humanitarian impact) with about 2.9 million people exposed to severe shaking and a tsunami of up to 1.93 metres; eighteen local government units have declared a state of calamity. No allowlisted source has declared the response concluded or resolved. Re-checked 5 August 2026: DSWD DROMIC Report #77 (31 July 2026) is the latest in its series as of this check; the OCHA 13 July casualty snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable figure. Re-checked 6 August 2026: DSWD DROMIC Report #77 (31 July 2026) remains the latest in its series as of this check; the OCHA 13 July casualty snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable figure."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
     "location": {
@@ -149,18 +157,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-08-05T09:16:52Z",
+  "last_updated": "2026-08-06T09:27:40Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-05T09:16:52Z",
+        "at": "2026-08-06T09:27:40Z",
         "layer": "verify",
-        "run_id": "2026-08-05T09-16-52Z-906cb4"
+        "run_id": "2026-08-06T09-27-40Z-5d3045"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-05T09-16-52Z-906cb4"
+    "last_run_id": "2026-08-06T09-27-40Z-5d3045"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -170,7 +178,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
