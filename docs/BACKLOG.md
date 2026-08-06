@@ -53,16 +53,16 @@ additions per commit. If additions turn out to be sloppy, the cheapest correctio
 PRs but tightening the schema — an institutional-TLD constraint, or a cap on additions per commit,
 either of which would move the aggregator rule from prompt to enforcement.
 
-## Next up — verify threats auto-publish end-to-end
+## Done — threats auto-publish is verified end-to-end
 
-**The weekly threats routine now auto-publishes; its first run under the new `publish` workflow is
-unverified.** The PR-review step was removed on 2026-08-01 after it failed in exactly the way a
-review queue fails: the routine opened PRs #12, #13 and #14 on three consecutive Mondays, nobody
-merged them, `frontend/data/threats.json` went 21 days stale, and — because each run listed
-existing slugs from `main` only — the same records were re-proposed three times under different
-slugs (`geomagnetic-storm` → `severe-` → `extreme-`). All three datasets now flow through
-`.github/workflows/publish.yml`. Watch the next Monday run: the `claude/*` branch should be
-auto-merged and deleted, with `pages` and `validate` dispatched afterward.
+**Verified 2026-08-03**: the weekly threats routine ran on branch
+`claude/trusting-archimedes-rv3fpc`, `publish` merged it to `main` and the record landed
+(`9335d52`, adding `space-debris-kessler-syndrome`). The PR-review step it replaced was removed on
+2026-08-01 after failing in exactly the way a review queue fails: the routine opened PRs #12, #13
+and #14 on three consecutive Mondays, nobody merged them, `frontend/data/threats.json` went 21 days
+stale, and — because each run listed existing slugs from `main` only — the same record was
+re-proposed three times under different slugs (`geomagnetic-storm` → `severe-` → `extreme-`).
+All three datasets now flow through `.github/workflows/publish.yml`.
 
 ## Operations — the refresh schedule
 
@@ -75,8 +75,8 @@ byte-exact aggregates.
 
 1. **World Pulse daily refresh** — daily 09:00 UTC → `/refresh-events`. *(Verified end-to-end
    2026-07-02.)*
-2. **Existential threats weekly refresh** — Mondays 10:00 UTC → `/refresh-threats`. *(Auto-publish
-   path not yet verified — see "Next up" above.)*
+2. **Existential threats weekly refresh** — Mondays 10:00 UTC → `/refresh-threats`. *(Verified
+   end-to-end 2026-08-03.)*
 
 Both prompts tell the agent to `pip install -e ".[dev]"` first and to stop — not publish — if
 validation or tests fail. If a routine silently stops, the frontend's staleness banner
@@ -86,15 +86,31 @@ signals.
 **Known gap — a conflicted publish loses that day's refresh silently.** `publish` merges the
 session branch into `main` and lets a conflict fail the job loudly, which is the right default: two
 sessions editing the same record is not something to auto-resolve. But "loudly" only means a red
-run nobody is watching. This has happened once in 30 daily runs (2026-07-13, branch
-`claude/trusting-wright-ls09pf` — conflicts in `ebola-bundibugyo-drc-2026`,
-`typhoon-bavi-guam-mariana-2026`, `events.json` and `CHANGELOG.md`, because the sandbox had cloned
-`main` before an earlier run landed); that day's updates were never published and the branch is
-still sitting unmerged. Staleness bounds the damage — a sustained outage still trips the >2-day
-check — but a single lost day passes unnoticed. Worth fixing: the `frontend/data/*.json` conflicts
+run nobody is watching. Staleness bounds the damage — a sustained outage still trips the >2-day
+check — but a single lost run passes unnoticed. Worth fixing: the `frontend/data/*.json` conflicts
 are spurious (the aggregates are derived and could simply be rebuilt post-merge), which would leave
 only genuine record-level conflicts to fail on. Have the refresh commands `git pull --rebase` onto
 current `main` before pushing, too.
+
+**Audited 2026-08-05 — it had happened five times, not once.** This entry previously recorded a
+single incident (2026-07-13). A sweep of `origin/claude/*` found five abandoned branches: 07-13
+(`trusting-wright-ls09pf`, `trusting-archimedes-t109kw`), 07-20 (`trusting-archimedes-h17mg9`),
+07-21 (`trusting-wright-cyb9hp`) and 07-27 (`trusting-archimedes-vhto1g`). Most of their content
+was superseded by later runs, but two threat records were drafted twice and never published at all:
+`antimicrobial-resistance` and the major-earthquake record (salvaged and re-verified in `1896754`;
+the dead branches were deleted afterwards). The weekly threats routine was the main victim — it
+lost three of its July runs, which is why "auto-publish path not yet verified" above stayed
+unverified for a month. **The lesson is not the conflict, it is that nothing reports one.** A red
+run is only a signal if something is watching, and the staleness check watches record freshness,
+not merge outcomes.
+
+**Related, same root cause — the changelog was silently corrupted.** `pipeline.changelog` is a
+projection of `git log --name-status` over the data dirs, so it is only as correct as the history
+it can see. Regenerated inside a shallow sandbox clone, the graft boundary looks like the commit
+that created every file: the committed `CHANGELOG.md` credited `c78618a` (a CHANGELOG-only commit)
+with adding all 62 records, and had lost the 21 real entries for the commits that actually made
+those changes. Repaired in `d511af8` by regenerating from full history. Regenerating a
+history-derived artifact anywhere but on complete history should be treated as unsafe.
 
 ### Deliberate choices — do not "finish the job" by reverting these
 
