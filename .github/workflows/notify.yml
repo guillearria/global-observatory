@@ -45,7 +45,10 @@ jobs:
             echo "::notice::Telegram secrets unset — set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID to arm this alarm."
             exit 0
           fi
-          # Env, not inline ${{ }}, so a branch or commit subject can never break out of the shell.
+          # Values arrive via env above, never interpolated into this script, so a branch name or
+          # commit subject cannot break out of the shell. (Do not write an expression delimiter in
+          # this file even inside a comment — it is evaluated before the shell sees it, and an
+          # empty one is a startup failure. That is what broke this workflow's first run.)
           python3 scripts/notify.py - <<EOF
           🚨 global-observatory: ${WF} failed
 
