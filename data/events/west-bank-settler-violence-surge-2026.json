@@ -10,6 +10,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-10",
+      "retrieved_date": "2026-08-07",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/occupied-palestinian-territory/opt-humanitarian-situation-report-31-july-2026",
+      "text": "Re-checked 7 August 2026 (cross-checked against ochaopt.org/publications/situation-reports, which lists the same 31 July 2026 report as its most recent entry): the OCHA oPt Humanitarian Situation Report covering 21-27 July 2026 (published 31 July 2026, posted to ReliefWeb 3 August 2026) remains the latest in the series; no report dated August 2026 has been published, and the figures on file (76 Palestinians and 3 Israelis killed since the start of 2026; 2,300+ Palestinians displaced due to settler attacks) are unchanged.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-27",
       "source_name": "ReliefWeb",
@@ -79,7 +87,7 @@
     "impact": {
       "deaths": 79,
       "displaced": 2300,
-      "summary": "OCHA's oPt Humanitarian Situation Report covering 21-27 July 2026 (published 31 July 2026, posted to ReliefWeb 3 August 2026) states that since the beginning of 2026, 76 Palestinians have been killed by Israeli forces or settlers or died of wounds sustained earlier, and three Israelis (including two members of Israeli forces killed at Tal village on 24 July) have been killed by Palestinians in the West Bank; more than 1,600 Palestinians have been injured (46% by Israeli settlers) and 24 Israelis (20 settlers, 2 soldiers) injured. More than 1,380 settler-related incidents have been documented since the start of 2026, affecting over 250 Palestinian communities (about 6.6/day); about 900 Palestinians have been injured in settler attacks specifically, and more than 2,300 Palestinians have been displaced due to settler attacks and related access restrictions. July was, jointly with March 2026, the deadliest month for Palestinians in settler-related incidents since October 2023: four deadly incidents in the 21-27 July reporting week alone killed eight Palestinians and two members of Israeli forces in Nablus, Jenin and East Jerusalem, following the 24 July Tal-village attacks that killed four Palestinians and two Israelis. Demolitions, settler violence and access restrictions have displaced an average of 17 people (8 children) per day in 2026, double the average of the preceding three years. An earlier, narrower OHCHR figure (76 Palestinians and 1 Israeli killed as of 24 July, ~700 displaced across nine communities in the first four months of 2026) has now been superseded by OCHA's fuller 21-27 July reporting-period figures above. No allowlisted source has declared the surge over. Re-checked 6 August 2026: OCHA's oPt Humanitarian Situation Report (21-27 July 2026, published 31 July 2026) remains the latest in its series, with the 76-Palestinians/3-Israelis-killed figure unchanged."
+      "summary": "OCHA's oPt Humanitarian Situation Report covering 21-27 July 2026 (published 31 July 2026, posted to ReliefWeb 3 August 2026) states that since the beginning of 2026, 76 Palestinians have been killed by Israeli forces or settlers or died of wounds sustained earlier, and three Israelis (including two members of Israeli forces killed at Tal village on 24 July) have been killed by Palestinians in the West Bank; more than 1,600 Palestinians have been injured (46% by Israeli settlers) and 24 Israelis (20 settlers, 2 soldiers) injured. More than 1,380 settler-related incidents have been documented since the start of 2026, affecting over 250 Palestinian communities (about 6.6/day); about 900 Palestinians have been injured in settler attacks specifically, and more than 2,300 Palestinians have been displaced due to settler attacks and related access restrictions. July was, jointly with March 2026, the deadliest month for Palestinians in settler-related incidents since October 2023: four deadly incidents in the 21-27 July reporting week alone killed eight Palestinians and two members of Israeli forces in Nablus, Jenin and East Jerusalem, following the 24 July Tal-village attacks that killed four Palestinians and two Israelis. Demolitions, settler violence and access restrictions have displaced an average of 17 people (8 children) per day in 2026, double the average of the preceding three years. An earlier, narrower OHCHR figure (76 Palestinians and 1 Israeli killed as of 24 July, ~700 displaced across nine communities in the first four months of 2026) has now been superseded by OCHA's fuller 21-27 July reporting-period figures above. No allowlisted source has declared the surge over. Re-checked 6 August 2026: OCHA's oPt Humanitarian Situation Report (21-27 July 2026, published 31 July 2026) remains the latest in its series, with the 76-Palestinians/3-Israelis-killed figure unchanged. Re-checked 7 August 2026: OCHA's oPt Humanitarian Situation Report (21-27 July 2026, published 31 July 2026) remains the latest in its series, with the 76-Palestinians/3-Israelis-killed figure unchanged."
     },
     "live_source_url": "https://reliefweb.int/country/pse",
     "location": {
@@ -93,18 +101,18 @@
     "status": "ongoing"
   },
   "id": "west-bank-settler-violence-surge-2026",
-  "last_updated": "2026-08-06T09:27:39Z",
+  "last_updated": "2026-08-07T09:27:54Z",
   "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-06T09:27:39Z",
+        "at": "2026-08-07T09:27:54Z",
         "layer": "verify",
-        "run_id": "2026-08-06T09-27-39Z-b4ca97"
+        "run_id": "2026-08-07T09-27-54Z-ae63dc"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-06T09-27-39Z-b4ca97"
+    "last_run_id": "2026-08-07T09-27-54Z-ae63dc"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -114,7 +122,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

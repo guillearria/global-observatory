@@ -64,6 +64,14 @@
       "source_url": "https://data.unhcr.org/en/situations/sudansituation",
       "text": "Re-checked 6 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 6 August 2026.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-9",
+      "retrieved_date": "2026-08-07",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/situations/sudansituation",
+      "text": "Re-checked 7 August 2026 via direct fetch: UNHCR's Operational Data Portal for the Sudan situation still shows 'Total Forcibly Displaced: 11,336,565', labeled 'Last updated 20 Jul 2026' -- unchanged from the figure on file.",
+      "verification_status": "verified"
     }
   ],
   "description": "The conflict that erupted in Sudan in April 2023 between the Sudanese Armed Forces and the Rapid Support Forces has produced what UNHCR calls the world's largest displacement crisis, forcing millions from their homes inside Sudan and into neighbouring countries.",
@@ -71,7 +79,7 @@
     "impact": {
       "deaths": null,
       "displaced": 11336565,
-      "summary": "As of UNHCR's Operational Data Portal update on 20 July 2026 (the most recent available as of 5 August 2026), Total Forcibly Displaced in the Sudan situation stood at 11,336,565, down slightly from 11,431,220 as of the 06 July 2026 update. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. Re-checked 5 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 5 August 2026. Re-checked 6 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 6 August 2026."
+      "summary": "As of UNHCR's Operational Data Portal update on 20 July 2026 (the most recent available as of 5 August 2026), Total Forcibly Displaced in the Sudan situation stood at 11,336,565, down slightly from 11,431,220 as of the 06 July 2026 update. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. Re-checked 5 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 5 August 2026. Re-checked 6 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 6 August 2026. Re-checked 7 August 2026: UNHCR's Operational Data Portal for the Sudan situation still shows Total Forcibly Displaced at 11,336,565, last updated 20 July 2026; no newer portal update has been published as of 7 August 2026."
     },
     "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
     "location": {
@@ -85,18 +93,18 @@
     "status": "ongoing"
   },
   "id": "sudan-displacement-crisis",
-  "last_updated": "2026-08-06T09:27:39Z",
+  "last_updated": "2026-08-07T09:27:27Z",
   "name": "Sudan Displacement Crisis",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-06T09:27:39Z",
+        "at": "2026-08-07T09:27:27Z",
         "layer": "verify",
-        "run_id": "2026-08-06T09-27-39Z-0f26e2"
+        "run_id": "2026-08-07T09-27-27Z-ac05a2"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-06T09-27-39Z-0f26e2"
+    "last_run_id": "2026-08-07T09-27-27Z-ac05a2"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -106,7 +114,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

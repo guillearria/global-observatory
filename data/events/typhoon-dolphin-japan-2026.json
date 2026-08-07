@@ -16,6 +16,14 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1001297&episodeid=20&eventtype=TC",
       "text": "GDACS's episode report for the same storm confirms an Orange alert level, a maximum wind speed of 269 km/h (Category 5), and an event timeline of 27 July-6 August 2026, with the GDACS score of 1.5 reflecting the cyclone's significant potential impact based on wind speed, storm surge and rainfall projections from multiple meteorological models (JTWC, HWRF, GFS, ECMWF).",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-07",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1001297&eventtype=TC",
+      "text": "GDACS's event report for Tropical Cyclone DOLPHIN-26 (event id 1001297) now shows episode 45 (window 27 Jul-7 Aug 2026, report timestamped 7 August 2026 08:50 UTC), still an Orange alert with a peak intensity of 269 km/h (Category 5), with population exposed to Category 1+ winds now assessed at approximately 21.2 million across the Marshall Islands, Japan and China, up from about 16.9 million as of episode 42. No allowlisted source (GDACS, ReliefWeb, WHO) has yet published a confirmed death, injury or evacuation figure.",
+      "verification_status": "verified"
     }
   ],
   "description": "Tropical Cyclone DOLPHIN-26 intensified to Category 5 strength (269 km/h sustained winds) in the western Pacific before tracking across the Marshall Islands and toward Japan's Ryukyu Islands (Okinawa Prefecture and the Daito Islands) and China. GDACS has assessed the storm at Orange alert level (medium humanitarian impact) throughout its event window of 27 July-6 August 2026, with roughly 16.9 million people exposed to Category 1 or higher wind speeds and the Marshall Islands flagged as an area of high vulnerability.",
@@ -23,7 +31,7 @@
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report for Tropical Cyclone DOLPHIN-26 (event id 1001297, episode 42) assesses an Orange alert for medium humanitarian impact across an event window of 27 July-6 August 2026, citing a peak intensity of 269 km/h (Category 5) and about 16.9 million people exposed to Category 1 or higher wind speeds across the Marshall Islands, Japan and China, with the Marshall Islands flagged as an area of high vulnerability. No allowlisted authoritative source has yet published a confirmed death toll, injury count, or evacuation figure for this storm."
+      "summary": "GDACS's event report for Tropical Cyclone DOLPHIN-26 (event id 1001297, episode 42) assesses an Orange alert for medium humanitarian impact across an event window of 27 July-6 August 2026, citing a peak intensity of 269 km/h (Category 5) and about 16.9 million people exposed to Category 1 or higher wind speeds across the Marshall Islands, Japan and China, with the Marshall Islands flagged as an area of high vulnerability. No allowlisted authoritative source has yet published a confirmed death toll, injury count, or evacuation figure for this storm. Re-checked 7 August 2026: GDACS now shows episode 45 (27 Jul-7 Aug 2026 window), still active and Orange-alert, with peak intensity unchanged at Category 5 (269 km/h) but population exposed to Category 1+ winds revised up to approximately 21.2 million people, from about 16.9 million as of episode 42. No confirmed casualty or evacuation figures from an allowlisted source have been published yet."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1001297&eventtype=TC",
     "location": {
@@ -37,18 +45,18 @@
     "status": "ongoing"
   },
   "id": "typhoon-dolphin-japan-2026",
-  "last_updated": "2026-08-06T09:25:50Z",
+  "last_updated": "2026-08-07T09:27:27Z",
   "name": "Super Typhoon Dolphin — Marshall Islands, Japan & China",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-06T09:25:50Z",
+        "at": "2026-08-07T09:27:27Z",
         "layer": "verify",
-        "run_id": "2026-08-06T09-25-50Z-0df8ee"
+        "run_id": "2026-08-07T09-27-27Z-73c193"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-06T09-25-50Z-0df8ee"
+    "last_run_id": "2026-08-07T09-27-27Z-73c193"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -58,7 +66,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
