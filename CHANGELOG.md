@@ -2,6 +2,17 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-08 — Daily World Pulse refresh: add Washington wildfire emergency, correct China Jilin floods, update India/Ebola/Sudan/Haiti/Venezuela/Dolphin, re-verify 12 ongoing events (`4f8bfd7`)
+
+- **Added:** usa-washington-wildfires-2026
+- **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, china-floods-jilin-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, greece-wildfire-attica-2026, guatemala-fuego-volcano-eruption-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, south-korea-stock-market-crisis-2026, sri-lanka-floods-landslides-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, typhoon-dolphin-japan-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
+- **Newly allowlisted domains:** governor.wa.gov
+
+## 2026-08-07 — Daily World Pulse refresh: add Sri Lanka floods, update Ebola/Venezuela/Mindanao/Dolphin, re-verify 15 ongoing events (`c7a02d7`)
+
+- **Added:** sri-lanka-floods-landslides-2026
+- **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, china-floods-jilin-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, greece-wildfire-attica-2026, guatemala-fuego-volcano-eruption-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, south-korea-stock-market-crisis-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, typhoon-dolphin-japan-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
+
 ## 2026-08-06 — Daily World Pulse refresh: add Typhoon Dolphin & India monsoon floods, Ebola/cholera updates (`71630a9`)
 
 - **Added:** india-monsoon-floods-2026, typhoon-dolphin-japan-2026
@@ -120,9 +131,4 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 ## 2026-07-19 — Daily World Pulse refresh: add Mexico M7.3 quake, update Venezuela & Ebola (`38a9a05`)
 
-- **Added:** mexico-earthquake-chiapas-2026
-- **Updated:** ebola-bundibugyo-drc-2026, venezuela-earthquake-2026
-
-## 2026-07-17 — Regenerate CHANGELOG.md for the World Pulse refresh commit (`7580265`)
-
-- **Added:** advanced-ai-risk, aleppo-earthquake-1138, an-lushan-rebellion, antonine-plague, armenian-genocide, bangladesh-floods-chattogram-2026, bengal-famine-1770, bengal-famine-1943, bhola-cyclone, biodiversity-loss-ecosystem-collapse, black-death, china-floods-1931, china-floods-guangxi-hunan-2026, classic-maya-collapse, cocoliztli-epidemics, covid-19-pandemic, critical-infrastructure-cyberattack, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, fall-of-ur, fall-of-western-rome, four-point-two-kiloyear-event, france-wildfires-pyrenees-2026, global-armed-conflict, global-food-water-insecurity, global-forced-displacement, global-warming, great-chinese-famine, great-famine-1315, great-plague-of-london, harappan-decline, hiv-aids-pandemic, indian-ocean-tsunami, influenza-pandemic, influenza-pandemic-1918, irish-great-famine, krakatoa-eruption, laki-eruption, late-bronze-age-collapse, lisbon-earthquake-1755, mindanao-earthquake-philippines-2026, mongol-conquests, near-earth-asteroid-impact, nuclear-war, plague-of-athens, plague-of-cyprian, plague-of-justinian, portugal-wildfires-2026, punic-wars, rwandan-genocide, shaanxi-earthquake-1556, sudan-cholera-outbreak-2026, sudan-displacement-crisis, taiping-rebellion, tambora-eruption, tangshan-earthquake, the-holocaust, thera-eruption, thirty-years-war, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026, vesuvius-79, world-war-i, world-war-ii, yellowstone-supervolcano
+- **Added:** advanced-ai-risk, aleppo-earthquake-1138, an-lushan-rebellion, antonine-plague, armenian-genocide, bangladesh-floods-chattogram-2026, bengal-famine-1770, bengal-famine-1943, bhola-cyclone, biodiversity-loss-ecosystem-collapse, black-death, china-floods-1931, china-floods-guangxi-hunan-2026, classic-maya-collapse, cocoliztli-epidemics, covid-19-pandemic, critical-infrastructure-cyberattack, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, fall-of-ur, fall-of-western-rome, four-point-two-kiloyear-event, france-wildfires-pyrenees-2026, global-armed-conflict, global-food-water-insecurity, global-forced-displacement, global-warming, great-chinese-famine, great-famine-1315, great-plague-of-london, harappan-decline, hiv-aids-pandemic, indian-ocean-tsunami, influenza-pandemic, influenza-pandemic-1918, irish-great-famine, krakatoa-eruption, laki-eruption, late-bronze-age-collapse, lisbon-earthquake-1755, mexico-earthquake-chiapas-2026, mindanao-earthquake-philippines-2026, mongol-conquests, near-earth-asteroid-impact, nuclear-war, plague-of-athens, plague-of-cyprian, plague-of-justinian, portugal-wildfires-2026, punic-wars, rwandan-genocide, shaanxi-earthquake-1556, sudan-cholera-outbreak-2026, sudan-displacement-crisis, taiping-rebellion, tambora-eruption, tangshan-earthquake, the-holocaust, thera-eruption, thirty-years-war, typhoon-bavi-guam-mariana-2026, venezuela-earthquake-2026, vesuvius-79, world-war-i, world-war-ii, yellowstone-supervolcano
