@@ -1,0 +1,64 @@
+{
+  "category": "wildfire",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-08",
+      "source_name": "NOAA",
+      "source_url": "https://www.nesdis.noaa.gov/news/noaas-goes-west-satellite-monitors-smoke-pacific-northwest-fires",
+      "text": "NOAA (4 August 2026), on its GOES-West satellite smoke-monitoring coverage of the Pacific Northwest fires: \"Hundreds of thousands of acres of land have been scorched so far by dozens of wildfires across the Pacific Northwest region, and many remain minimally contained. The fires have degraded air quality and caused evacuations of tens of thousands of people across Washington and Idaho.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-08",
+      "source_name": "Office of the Governor of Washington State",
+      "source_url": "https://governor.wa.gov/news/2026/governor-ferguson-announces-federal-emergency-declaration-devastating-wildfires",
+      "text": "Office of the Governor of Washington State (4 August 2026): announces that President Trump approved a federal emergency declaration for Washington's wildfires, covering Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties and the Confederated Tribes and Bands of the Yakama Nation, the Confederated Tribes of the Colville Reservation, and the Spokane Tribe of Indians; Governor Ferguson: \"The declaration allows our federal partners to mobilize their resources and personnel to support our response, and unlocks resources for state, local and tribal governments,\" including support for \"evacuating and providing emergency shelters for people who are displaced by the wildfires,\" \"emergency food and water, search and rescue operations and more.\" This followed Governor Ferguson's own statewide wildfire emergency proclamation of 1 August 2026. No casualty, structure-loss, or acreage figures are given in this release.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, scorching hundreds of thousands of acres and forcing large-scale evacuations across eastern Washington State and into Idaho. On 1 August 2026 Washington Governor Bob Ferguson proclaimed a statewide wildfire emergency, and on 4 August 2026 President Trump approved a federal emergency declaration authorizing FEMA to coordinate federal disaster relief for Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties and the Confederated Tribes and Bands of the Yakama Nation, the Confederated Tribes of the Colville Reservation, and the Spokane Tribe of Indians. NOAA's GOES-West satellite has been used to monitor the resulting smoke plumes across the region. No allowlisted source has yet published a confirmed death toll, structure-loss count, or precise evacuation figure; the fires remained only minimally contained as of the federal declaration.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "NOAA reports (4 August 2026, via its GOES-West satellite smoke-monitoring coverage): \"Hundreds of thousands of acres of land have been scorched so far by dozens of wildfires across the Pacific Northwest region, and many remain minimally contained. The fires have degraded air quality and caused evacuations of tens of thousands of people across Washington and Idaho.\" No allowlisted source has published a precise evacuation count, confirmed death toll, or structure-loss figure. On 4 August 2026 the Office of the Governor of Washington State announced that President Trump had approved a federal emergency declaration for the wildfires, covering Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties and the Confederated Tribes and Bands of the Yakama Nation, the Confederated Tribes of the Colville Reservation, and the Spokane Tribe of Indians, authorizing FEMA to coordinate federal disaster relief efforts including evacuation support, emergency shelter, food and water, and search and rescue. This followed Governor Ferguson's own statewide wildfire emergency proclamation on 1 August 2026. No allowlisted source has declared the fires contained or resolved."
+    },
+    "live_source_url": "https://governor.wa.gov/news/2026/governor-ferguson-announces-federal-emergency-declaration-devastating-wildfires",
+    "location": {
+      "country": "United States",
+      "lat": 47.6588,
+      "lon": -117.426,
+      "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties), with fires also affecting Idaho"
+    },
+    "occurrence_date": "2026-08-01",
+    "scale": "Federal emergency declaration; hundreds of thousands of acres burned",
+    "status": "ongoing"
+  },
+  "id": "usa-washington-wildfires-2026",
+  "last_updated": "2026-08-08T09:19:41Z",
+  "name": "Wildfire Emergency — Eastern Washington, USA",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-08T09:19:41Z",
+        "layer": "verify",
+        "run_id": "2026-08-08T09-19-41Z-6367c0"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-08T09-19-41Z-6367c0"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398291.0,
+    "impact_rank": 1,
+    "recency_rank": 739829
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

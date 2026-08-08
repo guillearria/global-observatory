@@ -64,14 +64,22 @@
       "source_url": "https://www.who.int/europe/health-topics/heatwaves",
       "text": "Re-checked 7 August 2026 via direct fetch of who.int/europe: WHO/Europe's 16 July 2026 statement 'Planning for a warmer world' remains the latest, still citing nearly 10,000 excess heat deaths across 5 countries this summer and more than 200,000 heat-related deaths across the WHO European Region over the past 4 years; no newer WHO/Europe statement on the 2026 heatwave has been published.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-9",
+      "retrieved_date": "2026-08-08",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/europe/news/item/16-07-2026-planning-for-a-warmer-world",
+      "text": "Re-checked 8 August 2026: WHO/Europe's news archive and heatwaves health-topic page show no item newer than the 16 July 2026 'Planning for a warmer world' piece already cited (nearly 10,000 excess heat deaths across 5 countries); no newer WHO/Europe heat-mortality figure has been published.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A record-breaking series of heatwaves has gripped Western and Southern Europe since around 21 June 2026, straining health systems and emergency services across France, Spain, Belgium, the Netherlands, Italy and the UK. WHO/Europe issued successive public statements describing rising heat-associated mortality; its 16 July 2026 statement reported that data from just five countries already showed nearly 10,000 excess deaths from heat this summer, describing the season as a preview of a warmer future. As of 5 August 2026, no newer WHO/Europe statement has been published and no source has declared the heatwave over.",
+  "description": "A record-breaking series of heatwaves has gripped Western and Southern Europe since around 21 June 2026, straining health systems and emergency services across France, Spain, Belgium, the Netherlands, Italy and the UK. WHO/Europe issued successive public statements describing rising heat-associated mortality; its 16 July 2026 statement reported that data from just five countries already showed nearly 10,000 excess deaths from heat this summer, describing the season as a preview of a warmer future. As of 5 August 2026, no newer WHO/Europe statement has been published and no source has declared the heatwave over. Re-checked 8 August 2026: WHO/Europe's news archive and heatwaves health-topic page show no item newer than the 16 July 2026 'Planning for a warmer world' piece already cited (nearly 10,000 excess heat deaths across 5 countries); no newer WHO/Europe heat-mortality figure has been published.",
   "event": {
     "impact": {
       "deaths": 10000,
       "displaced": null,
-      "summary": "WHO/Europe's 30 June 2026 statement reported more than 300 heat-associated excess deaths in Spain within a few days, alongside a 50% surge in emergency medical calls in some French cities, the highest single-day volume of life-threatening ambulance calls ever recorded in London, and 5 deaths in 24 hours reported in Italy. Its follow-up statement of 16 July 2026, \"Planning for a warmer world,\" reported that data from just five countries already showed nearly 10,000 excess deaths due to heat this summer, and that heat has claimed more than 200,000 lives across the WHO European Region in the past four years, with heat-related mortality up 30% over the past two decades. No source has declared the heatwave over. Re-checked 5 August 2026: WHO/Europe's 16 July 2026 statement, \"Planning for a warmer world,\" remains the latest; a targeted search for a newer WHO/Europe statement or news item on the 2026 heatwave found none published, and figures are unchanged. Re-checked 6 August 2026: WHO/Europe's 16 July 2026 statement, 'Planning for a warmer world,' remains the latest; no newer WHO/Europe statement on the 2026 heatwave has been found, and figures are unchanged. Re-checked 7 August 2026: WHO/Europe's 16 July 2026 statement, 'Planning for a warmer world,' remains the latest; no newer WHO/Europe statement on the 2026 heatwave has been found, and figures are unchanged."
+      "summary": "WHO/Europe's 30 June 2026 statement reported more than 300 heat-associated excess deaths in Spain within a few days, alongside a 50% surge in emergency medical calls in some French cities, the highest single-day volume of life-threatening ambulance calls ever recorded in London, and 5 deaths in 24 hours reported in Italy. Its follow-up statement of 16 July 2026, \"Planning for a warmer world,\" reported that data from just five countries already showed nearly 10,000 excess deaths due to heat this summer, and that heat has claimed more than 200,000 lives across the WHO European Region in the past four years, with heat-related mortality up 30% over the past two decades. No source has declared the heatwave over. Re-checked 5 August 2026: WHO/Europe's 16 July 2026 statement, \"Planning for a warmer world,\" remains the latest; a targeted search for a newer WHO/Europe statement or news item on the 2026 heatwave found none published, and figures are unchanged. Re-checked 6 August 2026: WHO/Europe's 16 July 2026 statement, 'Planning for a warmer world,' remains the latest; no newer WHO/Europe statement on the 2026 heatwave has been found, and figures are unchanged. Re-checked 7 August 2026: WHO/Europe's 16 July 2026 statement, 'Planning for a warmer world,' remains the latest; no newer WHO/Europe statement on the 2026 heatwave has been found, and figures are unchanged. Re-checked 8 August 2026: WHO/Europe's news archive and heatwaves health-topic page show no item newer than the 16 July 2026 'Planning for a warmer world' piece already cited (nearly 10,000 excess heat deaths across 5 countries); no newer WHO/Europe heat-mortality figure has been published."
     },
     "live_source_url": "https://www.who.int/europe/health-topics/heatwaves",
     "location": {
@@ -85,18 +93,18 @@
     "status": "ongoing"
   },
   "id": "europe-heatwave-2026",
-  "last_updated": "2026-08-07T09:27:25Z",
+  "last_updated": "2026-08-08T09:17:42Z",
   "name": "2026 European Heatwave — Public Health Emergency",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-07T09:27:25Z",
+        "at": "2026-08-08T09:17:42Z",
         "layer": "verify",
-        "run_id": "2026-08-07T09-27-25Z-78beb7"
+        "run_id": "2026-08-08T09-17-42Z-dc0e29"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-07T09-27-25Z-78beb7"
+    "last_run_id": "2026-08-08T09-17-42Z-dc0e29"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -106,7 +114,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

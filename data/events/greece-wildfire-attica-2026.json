@@ -32,14 +32,22 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029987",
       "text": "Re-checked 7 August 2026 via direct fetch: GDACS's event report (eventid 1029987) still shows episode 18 (31 Jul-5 Aug 2026 window) as the latest, with burned area unchanged at about 18,419 ha, roughly 1,648 people in the fire-affected area, and last thermal detection still 5 August 2026; no newer episode has been published and no allowlisted source has issued a confirmed death toll or containment declaration.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-08-08",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029987",
+      "text": "Re-checked 8 August 2026: GDACS's wildfire event report (WF 1029987, episode 18) is unchanged — 18,419 ha burned area and 1,648 people affected, with no episode 19 or containment/resolution statement published.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A wildfire broke out on 31 July 2026 near Psatha and Porto Germeno in western Attica, west of Athens, amid a European heatwave, spreading rapidly under strong winds and prompting evacuations and sea rescues along the coast. GDACS assessed an Orange alert for medium humanitarian impact, and as of its latest update (episode 18, covering 31 July-5 August 2026) the burned area has grown to about 18,419 hectares with roughly 1,648 people in the fire-affected area; the last detection of the fire's thermal anomaly was 5 August 2026, indicating the fire remains active. No allowlisted authoritative source has published a confirmed death toll for this fire; international media reported firefighters and helicopter crew killed during the response, but this remains unconfirmed by an allowlisted source.",
+  "description": "A wildfire broke out on 31 July 2026 near Psatha and Porto Germeno in western Attica, west of Athens, amid a European heatwave, spreading rapidly under strong winds and prompting evacuations and sea rescues along the coast. GDACS assessed an Orange alert for medium humanitarian impact, and as of its latest update (episode 18, covering 31 July-5 August 2026) the burned area has grown to about 18,419 hectares with roughly 1,648 people in the fire-affected area; the last detection of the fire's thermal anomaly was 5 August 2026, indicating the fire remains active. No allowlisted authoritative source has published a confirmed death toll for this fire; international media reported firefighters and helicopter crew killed during the response, but this remains unconfirmed by an allowlisted source. Re-checked 8 August 2026: GDACS's wildfire event report (WF 1029987, episode 18) is unchanged — 18,419 ha burned area and 1,648 people affected, with no episode 19 or containment/resolution statement published.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report (eventid 1029987, GLIDE WF-2026-000142-GRC) assessed an Orange alert for medium humanitarian impact for a forest fire burning in western Attica, Greece. As of the latest update (episode 18, covering 31 July 2026 00:00 UTC to 5 August 2026 00:00 UTC), the burned area is about 18,419 hectares (up from 18,299 ha as of 4 August) with roughly 1,648 people in the fire-affected area; the last detection of the fire's thermal anomaly was 5 August 2026, indicating ongoing activity. No allowlisted authoritative source has published a confirmed death toll or evacuation count, and no source has declared the fire contained. Re-checked 6 August 2026: GDACS's event report still shows episode 18 (31 Jul-5 Aug 2026 window) as the latest, with the burned area unchanged at about 18,419 hectares and a thermal detection as recently as 5 August 2026, indicating continued activity; no newer episode has been published. Re-checked 7 August 2026: GDACS's event report still shows episode 18 (31 Jul-5 Aug 2026 window) as the latest, with the burned area unchanged at about 18,419 hectares and no thermal detection after 5 August 2026, consistent with reduced activity; no newer episode or containment declaration has been published."
+      "summary": "GDACS's event report (eventid 1029987, GLIDE WF-2026-000142-GRC) assessed an Orange alert for medium humanitarian impact for a forest fire burning in western Attica, Greece. As of the latest update (episode 18, covering 31 July 2026 00:00 UTC to 5 August 2026 00:00 UTC), the burned area is about 18,419 hectares (up from 18,299 ha as of 4 August) with roughly 1,648 people in the fire-affected area; the last detection of the fire's thermal anomaly was 5 August 2026, indicating ongoing activity. No allowlisted authoritative source has published a confirmed death toll or evacuation count, and no source has declared the fire contained. Re-checked 6 August 2026: GDACS's event report still shows episode 18 (31 Jul-5 Aug 2026 window) as the latest, with the burned area unchanged at about 18,419 hectares and a thermal detection as recently as 5 August 2026, indicating continued activity; no newer episode has been published. Re-checked 7 August 2026: GDACS's event report still shows episode 18 (31 Jul-5 Aug 2026 window) as the latest, with the burned area unchanged at about 18,419 hectares and no thermal detection after 5 August 2026, consistent with reduced activity; no newer episode or containment declaration has been published. Re-checked 8 August 2026: GDACS's wildfire event report (WF 1029987, episode 18) is unchanged — 18,419 ha burned area and 1,648 people affected, with no episode 19 or containment/resolution statement published."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029987",
     "location": {
@@ -53,18 +61,18 @@
     "status": "ongoing"
   },
   "id": "greece-wildfire-attica-2026",
-  "last_updated": "2026-08-07T09:27:25Z",
+  "last_updated": "2026-08-08T09:17:42Z",
   "name": "Wildfire — Western Attica, Greece",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-07T09:27:25Z",
+        "at": "2026-08-08T09:17:42Z",
         "layer": "verify",
-        "run_id": "2026-08-07T09-27-25Z-a88de3"
+        "run_id": "2026-08-08T09-17-42Z-191df7"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-07T09-27-25Z-a88de3"
+    "last_run_id": "2026-08-08T09-17-42Z-191df7"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -74,7 +82,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -40,14 +40,22 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104051",
       "text": "Re-checked 7 August 2026: GDACS's event report (FL 1104051) now shows its reporting window extended to 25 Jul-7 Aug 2026, with the cited figures unchanged at 10 deaths and about 830,303 displaced; no new episode or revised casualty/displacement total has been published.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-08-08",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104051",
+      "text": "Correction on re-check 8 August 2026: direct fetch of GDACS's live event report and API (FL 1104051) today shows only episodes 1-4 -- not the episode 5 previously cited -- with \"iscurrent\":\"false\", episode alert level Green, and the reporting window reverted to 25-31 Jul 2026 (not the 25 Jul-7 Aug window recorded in prior checks). The API's own figures for this state are 10 deaths and 809,145 displaced (not the 830,303 figure from the now-absent episode 5); a separate Sendai indicator shows 88,203 people affected in Sichuan as of 3 August. GDACS does not publish narrative resolution language, but the iscurrent:false flag and the reversion to the shorter window indicate GDACS itself no longer treats this event as an active/current episode, consistent with flood waters having receded; the displaced figure is corrected down to the live 809,145 accordingly, and status is set to contained pending any newer GDACS episode.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Heavy rainfall in late July 2026 triggered severe flooding across Jilin Province in northeastern China, prompting large-scale evacuations. GDACS assessed the event as an overall Red alert, its highest severity tier, citing 10 deaths and about 809,145 people displaced as of the close of its initial reporting window on 31 July 2026. GDACS's report for this event (GDACS ID FL 1104051, GLIDE FL-2026-000136-CHN) has since been updated as the underlying rain system affected further Chinese provinces in sequence (Gansu, Sichuan and, most recently, Shaanxi, alongside continued flood response in Jilin and Heilongjiang) — the reporting window now runs through 2 August 2026, with the official displaced figure revised up to about 830,303 while the death toll remains 10. No allowlisted source has declared the event resolved.",
+  "description": "Heavy rainfall in late July 2026 triggered severe flooding across Jilin Province in northeastern China, prompting large-scale evacuations. GDACS assessed the event as an overall Red alert, its highest severity tier, citing 10 deaths and about 809,145 people displaced as of the close of its initial reporting window on 31 July 2026. GDACS's report for this event (GDACS ID FL 1104051, GLIDE FL-2026-000136-CHN) has since been updated as the underlying rain system affected further Chinese provinces in sequence (Gansu, Sichuan and, most recently, Shaanxi, alongside continued flood response in Jilin and Heilongjiang) — the reporting window now runs through 2 August 2026, with the official displaced figure revised up to about 830,303 while the death toll remains 10. No allowlisted source has declared the event resolved. Correction on re-check 8 August 2026: direct fetch of GDACS's live event report and API (FL 1104051) today shows only episodes 1-4 -- not the episode 5 previously cited -- with \"iscurrent\":\"false\", episode alert level Green, and the reporting window reverted to 25-31 Jul 2026 (not the 25 Jul-7 Aug window recorded in prior checks). The API's own figures for this state are 10 deaths and 809,145 displaced (not the 830,303 figure from the now-absent episode 5); a separate Sendai indicator shows 88,203 people affected in Sichuan as of 3 August. GDACS does not publish narrative resolution language, but the iscurrent:false flag and the reversion to the shorter window indicate GDACS itself no longer treats this event as an active/current episode, consistent with flood waters having receded; the displaced figure is corrected down to the live 809,145 accordingly, and status is set to contained pending any newer GDACS episode.",
   "event": {
     "impact": {
       "deaths": 10,
-      "displaced": 830303,
-      "summary": "GDACS's flood event report (GDACS ID FL 1104051, GLIDE FL-2026-000136-CHN) assessed an overall Red alert for flooding in China beginning in Jilin Province, citing 10 deaths and about 809,145 people displaced as of the close of its initial reporting window on 31 July. Re-checked 5 August 2026: the same GDACS event report has been updated with a later episode (window now 25 Jul-02 Aug 2026) reflecting the rain system's continued impact across Gansu, Sichuan and, most recently, Shaanxi provinces, alongside ongoing flood response in Jilin and Heilongjiang; the officially cited displaced figure has risen to about 830,303 while the death toll remains 10. No allowlisted source has declared the event resolved. Re-checked 6 August 2026: GDACS's event report (eventid 1104051) still shows episode 5 (25 Jul-2 Aug 2026 window) as the latest, with figures unchanged (10 deaths, ~830,303 displaced); no newer episode has been published. Re-checked 7 August 2026: GDACS's event report (eventid 1104051) shows its window extended to 25 Jul-7 Aug 2026, with figures unchanged (10 deaths, ~830,303 displaced)."
+      "displaced": 809145,
+      "summary": "GDACS's flood event report (GDACS ID FL 1104051, GLIDE FL-2026-000136-CHN) assessed an overall Red alert for flooding in China beginning in Jilin Province, citing 10 deaths and about 809,145 people displaced as of the close of its initial reporting window on 31 July. Re-checked 5 August 2026: the same GDACS event report has been updated with a later episode (window now 25 Jul-02 Aug 2026) reflecting the rain system's continued impact across Gansu, Sichuan and, most recently, Shaanxi provinces, alongside ongoing flood response in Jilin and Heilongjiang; the officially cited displaced figure has risen to about 830,303 while the death toll remains 10. No allowlisted source has declared the event resolved. Re-checked 6 August 2026: GDACS's event report (eventid 1104051) still shows episode 5 (25 Jul-2 Aug 2026 window) as the latest, with figures unchanged (10 deaths, ~830,303 displaced); no newer episode has been published. Re-checked 7 August 2026: GDACS's event report (eventid 1104051) shows its window extended to 25 Jul-7 Aug 2026, with figures unchanged (10 deaths, ~830,303 displaced). Correction on re-check 8 August 2026: direct fetch of GDACS's live event report and API (FL 1104051) today shows only episodes 1-4 -- not the episode 5 previously cited -- with \"iscurrent\":\"false\", episode alert level Green, and the reporting window reverted to 25-31 Jul 2026 (not the 25 Jul-7 Aug window recorded in prior checks). The API's own figures for this state are 10 deaths and 809,145 displaced (not the 830,303 figure from the now-absent episode 5); a separate Sendai indicator shows 88,203 people affected in Sichuan as of 3 August. GDACS does not publish narrative resolution language, but the iscurrent:false flag and the reversion to the shorter window indicate GDACS itself no longer treats this event as an active/current episode, consistent with flood waters having receded; the displaced figure is corrected down to the live 809,145 accordingly, and status is set to contained pending any newer GDACS episode."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104051",
     "location": {
@@ -58,21 +66,21 @@
     },
     "occurrence_date": "2026-07-25",
     "scale": "GDACS Red alert",
-    "status": "ongoing"
+    "status": "contained"
   },
   "id": "china-floods-jilin-2026",
-  "last_updated": "2026-08-07T09:27:25Z",
+  "last_updated": "2026-08-08T09:19:00Z",
   "name": "Floods — Jilin Province, China",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-07T09:27:25Z",
+        "at": "2026-08-08T09:19:00Z",
         "layer": "verify",
-        "run_id": "2026-08-07T09-27-25Z-8a8962"
+        "run_id": "2026-08-08T09-19-00Z-6a28a1"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-07T09-27-25Z-8a8962"
+    "last_run_id": "2026-08-08T09-19-00Z-6a28a1"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -82,7 +90,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
