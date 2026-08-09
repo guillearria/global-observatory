@@ -2,7 +2,7 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
-## 2026-08-09 — Daily World Pulse refresh: add Peru M5.5 earthquake, update 20 ongoing events (`00ad9e9`)
+## 2026-08-09 — Daily World Pulse refresh: add Peru M5.5 earthquake, update 20 ongoing events (`682d314`)
 
 - **Added:** peru-earthquake-huancayo-2026
 - **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, greece-wildfire-attica-2026, guatemala-fuego-volcano-eruption-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, south-korea-stock-market-crisis-2026, sri-lanka-floods-landslides-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, typhoon-dolphin-japan-2026, usa-washington-wildfires-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
