@@ -1,0 +1,56 @@
+{
+  "category": "earthquake",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-09",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1q7.geojson",
+      "text": "USGS recorded a magnitude 5.5 earthquake on 19 July 2026 at 02:24:35 UTC, 4 km SSW of Chupaca, Peru, at a depth of about 10 km, with a PAGER alert level of Yellow (\"some casualties and damage are possible and the impact should be relatively localized\").",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "USGS recorded a magnitude 5.5 earthquake on 19 July 2026 at 02:24:35 UTC, 4 km SSW of Chupaca in Peru's Andean Junín Region, at a shallow depth of about 10 km. USGS's PAGER system assessed a Yellow alert level, indicating that some casualties and localized damage were possible given the shallow depth and the region's vulnerable construction. The quake drew sustained top-tier international coverage (Al Jazeera, Bloomberg, Euronews) reporting several deaths, dozens of injuries, and damage to homes and hospital buildings in and around the regional capital Huancayo, but no allowlisted authoritative source (USGS, ReliefWeb, GDACS) has published a confirmed casualty, injury, or damage figure; no GDACS or ReliefWeb disaster report was opened for this event. As of 9 August 2026 — three weeks after the mainshock — USGS's event page has not been revised with any new PAGER product, and no follow-on activity has been reported, indicating the acute phase has concluded.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "USGS recorded a magnitude 5.5 earthquake on 19 July 2026 at 02:24:35 UTC, 4 km SSW of Chupaca, Peru, at a depth of about 10 km, assessing a PAGER Yellow alert level (some casualties and localized damage possible). No allowlisted authoritative source has published a confirmed death, injury, or damage figure; non-allowlisted international press (Al Jazeera, Bloomberg, Euronews) reported several deaths, dozens of injured, and damage to homes and hospital buildings around Huancayo, but these figures remain unconfirmed by USGS, GDACS, or ReliefWeb. No GDACS or ReliefWeb disaster report exists for this event, and USGS's event page has not been revised since the initial PAGER assessment, consistent with the acute phase having concluded."
+    },
+    "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q7/executive",
+    "location": {
+      "country": "Peru",
+      "lat": -12.093,
+      "lon": -75.293,
+      "region": "Junín Region (Chupaca and Huancayo provinces)"
+    },
+    "occurrence_date": "2026-07-19",
+    "scale": "M5.5, PAGER Yellow alert",
+    "status": "resolved"
+  },
+  "id": "peru-earthquake-huancayo-2026",
+  "last_updated": "2026-08-09T09:23:42Z",
+  "name": "M5.5 Earthquake — Chupaca, Junín Region, Peru",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-09T09:23:42Z",
+        "layer": "verify",
+        "run_id": "2026-08-09T09-23-42Z-7aaf4c"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-09T09-23-42Z-7aaf4c"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398161.0,
+    "impact_rank": 1,
+    "recency_rank": 739816
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
