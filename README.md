@@ -146,7 +146,9 @@ a dated occurrence needs a different shape than a standing risk:
   `impact` (`deaths`, `displaced`, `summary`) / `live_source_url` — the authoritative page that
   keeps updating; the frontend links it as "live at source".
 - `sort_keys` — `recency_rank`/`impact_rank`, **recency-dominant** (today's event outranks last
-  month's), the inverse of how threats sort.
+  month's), the inverse of how threats sort. The World Pulse feed additionally blends severity in
+  at render time — each impact tier buys extra staying power, and contained/resolved events decay
+  ahead of ongoing ones — without touching the stored keys.
 
 ## How to read a historical file
 

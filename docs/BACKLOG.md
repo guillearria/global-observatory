@@ -205,9 +205,19 @@ Three things look like leftovers from the PR era but are intentional:
 
 ## Frontend & delivery
 
+- **Weekly email newsletter**: share each week's results by email — a digest of World Pulse
+  changes (new events, major figure updates, resolved/contained transitions) plus any threat or
+  archive additions. The diff source already exists: `CHANGELOG.md` is a projection of git history
+  over the data dirs, so a "past 7 days" digest is derivable with no new bookkeeping. To evaluate:
+  a scheduled GitHub Action that renders the digest and hands it to an email service, vs. a hosted
+  newsletter tool (e.g. RSS-to-email) fed by a small generated feed. Open questions: subscriber
+  storage and privacy (the repo must not hold addresses), and note the zero-external-requests
+  property applies to the *site* — delivery infrastructure is a separate decision.
 - **Richer UI**: category/event-type filtering, search, surfacing each claim's quoted supporting
   passage, a clearer verified/partial distinction, and a small legend for the trust badges. For the
   Historical Archive: century sub-grouping or filtering once the timeline grows past ~60 records.
+  *(Partly done 2026-08-10 — the threats pane filters by category/severity and the archive sorts
+  by date and filters by type; search and the trust-badge legend remain.)*
 - **World Pulse map/lat-lon** *(Done 2026-07-05 — optional `lat`/`lon` landed in the event schema
   with the map as their consumer: a self-contained NASA Blue Marble basemap in `frontend/map.js`
   with pan/zoom and impact-scaled markers. All four events carry coordinates; `/refresh-events`

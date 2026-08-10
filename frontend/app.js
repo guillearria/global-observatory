@@ -22,6 +22,8 @@ function showTab(name) {
   }
   // A map laid out while its tab was hidden has zero size — re-measure on show.
   if (name === "pulse" && window.GOMap) GOMap.invalidate();
+  // Summaries clamped while this pane was hidden could never be measured — sweep now.
+  pruneNoopClamps(document.getElementById(name));
 }
 
 // --- Threat categories (existential threats pane) --------------------------
@@ -59,6 +61,20 @@ const HISTORICAL_TYPE_LABELS = {
   other: "Event",
 };
 
+// Canonical severity order (threat.schema.json enum) for the threats filter.
+const SEVERITY_ORDER = ["regional", "continental", "civilizational", "extinction"];
+
+// --- Sort/filter toolbars (threats + history panes) -------------------------
+// In-memory view state; resets on reload by design. World Pulse has no controls.
+const viewState = {
+  history: { sort: "oldest", category: "all" },
+  threats: { category: "all", severity: "all" },
+};
+
+// Latest per-pane re-render callback, registered by loadPane, so a toolbar
+// change re-renders from the already-loaded data without refetching.
+const paneRerender = {};
+
 function el(tag, attrs, children) {
   const node = document.createElement(tag);
   if (attrs) {
@@ -77,6 +93,11 @@ function el(tag, attrs, children) {
 function badge(text, cls) {
   return el("span", { class: `badge ${cls}`, text });
 }
+
+// Free-text fields (event.scale, historical.date_display) are uncapped and are
+// sometimes whole sentences; past this length they render as a wrapping kicker
+// line under the title instead of a pill chip, which cannot wrap gracefully.
+const CHIP_MAX_CHARS = 40;
 
 function dateOnly(iso) {
   return (iso || "").slice(0, 10);
@@ -175,13 +196,15 @@ function eventParts(rec, review) {
   const status = ev.status || "ongoing";
   const loc = ev.location || {};
   const where = [loc.region, loc.country].filter(Boolean).join(", ");
+  const scale = ev.scale || "";
   const badges = [
     review ? badge("under review", "badge-review")
            : badge(v.status || "unverified", `badge-${v.status || "unverified"}`),
     badge(EVENT_TYPE_LABELS[rec.category] || rec.category || "Event", "badge-cat"),
     badge(status, `badge-${status}`),
-    ev.scale ? badge(ev.scale, "badge-scale") : null,
+    scale && scale.length <= CHIP_MAX_CHARS ? badge(scale, "badge-scale") : null,
   ];
+  const kicker = scale.length > CHIP_MAX_CHARS ? scale : "";
   const summary = (ev.impact || {}).summary || rec.description || "";
 
   const locLine = [where, dateOnly(ev.occurrence_date)].filter(Boolean).join(" · ");
@@ -194,7 +217,7 @@ function eventParts(rec, review) {
       linkOut(ev.live_source_url, "live at source ↗"),
     ]));
   }
-  return { badges, summary, meta };
+  return { badges, kicker, summary, meta };
 }
 
 function historicalParts(rec, review) {
@@ -202,18 +225,60 @@ function historicalParts(rec, review) {
   const v = rec.verification || {};
   const loc = hist.location || {};
   const where = [loc.region, loc.country].filter(Boolean).join(", ");
+  const dateDisplay = hist.date_display || "";
   const badges = [
     review ? badge("under review", "badge-review")
            : badge(v.status || "unverified", `badge-${v.status || "unverified"}`),
     badge(HISTORICAL_TYPE_LABELS[rec.category] || rec.category || "Event", "badge-cat"),
-    hist.date_display ? badge(hist.date_display, "badge-scale") : null,
+    dateDisplay && dateDisplay.length <= CHIP_MAX_CHARS ? badge(dateDisplay, "badge-scale") : null,
   ];
+  const kicker = dateDisplay.length > CHIP_MAX_CHARS ? dateDisplay : "";
   const summary = (hist.impact || {}).summary || rec.description || "";
   const meta = [];
   if (where) meta.push(el("p", { class: "card-loc", text: where }));
   const deaths = formatDeathsRange(hist.impact || {});
   if (deaths) meta.push(el("p", { class: "card-meta", text: deaths }));
-  return { badges, summary, meta };
+  return { badges, kicker, summary, meta };
+}
+
+// Summaries longer than this are collapsed to a few lines behind a "Show more"
+// toggle. The threshold is character-based (not measured) so it also works for
+// panes that are hidden at render time; pruneNoopClamps() later removes the
+// toggle from any summary that turns out to fit unclamped.
+const CLAMP_MIN_CHARS = 320;
+
+function summaryNodes(text) {
+  const p = el("p", { class: "card-summary", text });
+  if ((text || "").length <= CLAMP_MIN_CHARS) return [p];
+  p.classList.add("clampable");
+  const toggle = el("button", {
+    class: "summary-toggle", type: "button", "aria-expanded": "false", text: "Show more",
+  });
+  toggle.addEventListener("click", () => {
+    const expanded = p.classList.toggle("expanded");
+    toggle.setAttribute("aria-expanded", String(expanded));
+    toggle.textContent = expanded ? "Show less" : "Show more";
+  });
+  return [p, toggle];
+}
+
+// Remove the clamp (and its toggle) from summaries that already fit — a summary
+// just over the character threshold can still fit within the clamped line count
+// on a wide viewport, and a no-op "Show more" would be confusing. Only the
+// visible pane can be measured (hidden panes have zero heights); showTab sweeps
+// each pane again when it is shown.
+function pruneNoopClamps(root) {
+  if (!root) return;
+  requestAnimationFrame(() => {
+    if (!root.clientWidth) return; // hidden pane — swept on showTab instead
+    for (const p of root.querySelectorAll(".card-summary.clampable:not(.expanded)")) {
+      if (p.scrollHeight <= p.clientHeight + 1) {
+        p.classList.remove("clampable");
+        const next = p.nextElementSibling;
+        if (next && next.classList.contains("summary-toggle")) next.remove();
+      }
+    }
+  });
 }
 
 function cardNode(rec, { review, kind }) {
@@ -235,16 +300,29 @@ function cardNode(rec, { review, kind }) {
   // The id is the map's click-to-scroll target (see map.js).
   return el("article", { class: "card", id: `card-${rec.id}` }, [
     head,
-    el("p", { class: "card-summary", text: parts.summary }),
+    parts.kicker ? el("p", { class: "card-kicker", text: parts.kicker }) : null,
+    ...summaryNodes(parts.summary),
     ...parts.meta,
     details,
   ]);
 }
 
+// Empty state for an active filter that matches nothing — distinct from the
+// "nothing tracked yet" message loadPane shows for a genuinely empty dataset.
+function noMatchNote() {
+  return el("p", { class: "loading", text: "No records match the current filters." });
+}
+
 // --- Threats pane: grouped by category, severity-dominant ------------------
 function renderThreats(records) {
+  const st = viewState.threats;
+  const filtered = records.filter((rec) =>
+    (st.category === "all" || (rec.category || "other") === st.category) &&
+    (st.severity === "all" || ((rec.assessment || {}).severity || "unknown") === st.severity));
+  if (records.length && !filtered.length) return [noMatchNote()];
+
   const groups = new Map();
-  for (const rec of records) {
+  for (const rec of filtered) {
     const cat = rec.category || "other";
     if (!groups.has(cat)) groups.set(cat, []);
     groups.get(cat).push(rec);
@@ -265,16 +343,43 @@ function renderThreats(records) {
   return out;
 }
 
-// --- Pulse pane: flat feed, recency-dominant -------------------------------
+// --- Pulse pane: recency-first with severity staying power ------------------
+// Render-time ordering only: the stored sort_keys stay exactly as the pipeline
+// computed them (pipeline/audit.py re-derives and enforces those), so the feed
+// can weigh severity without touching any data file. Each impact tier above
+// baseline buys two weeks of staying power; contained/resolved events decay
+// ahead of ongoing ones. Known limit: a worsening long-running event keeps its
+// original occurrence_date (the schema has no "latest development" date), so it
+// rises only through its impact tier.
+const SEVERITY_STAY_DAYS = 14;
+const STATUS_DECAY_DAYS = { ongoing: 0, contained: 7, resolved: 14 };
+
+function pulseOrderKey(rec) {
+  const ev = rec.event || {};
+  const t = Date.parse((ev.occurrence_date || "").slice(0, 10)); // date-only -> UTC midnight
+  const days = Number.isFinite(t) ? t / 86400000 : 0;
+  const impact = impactOf(rec) || 1;
+  return days + SEVERITY_STAY_DAYS * (impact - 1) - (STATUS_DECAY_DAYS[ev.status] || 0);
+}
+
 function renderEvents(records) {
-  const recs = records.slice().sort((x, y) => compositeOf(y) - compositeOf(x));
+  const recs = records.slice().sort((x, y) =>
+    (pulseOrderKey(y) - pulseOrderKey(x)) ||
+    (impactOf(y) - impactOf(x)) ||
+    (compositeOf(y) - compositeOf(x)));
   return recs.map((r) => cardNode(r, { review: false, kind: "event" }));
 }
 
-// --- History pane: grouped by era, chronological (oldest first) ------------
+// --- History pane: grouped by era, chronological (oldest first by default) --
 function renderHistorical(records) {
+  const st = viewState.history;
+  const newest = st.sort === "newest";
+  const filtered = records.filter((rec) =>
+    st.category === "all" || (rec.category || "other") === st.category);
+  if (records.length && !filtered.length) return [noMatchNote()];
+
   const groups = new Map();
-  for (const rec of records) {
+  for (const rec of filtered) {
     const era = (rec.historical || {}).era || "other";
     if (!groups.has(era)) groups.set(era, []);
     groups.get(era).push(rec);
@@ -283,11 +388,13 @@ function renderHistorical(records) {
     const ix = ERA_ORDER.indexOf(x), iy = ERA_ORDER.indexOf(y);
     return (ix === -1 ? 99 : ix) - (iy === -1 ? 99 : iy);
   });
+  if (newest) eras.reverse();
 
   const out = [];
   for (const era of eras) {
     const recs = groups.get(era).sort((x, y) =>
-      (chronologyOf(x) - chronologyOf(y)) || (impactOf(y) - impactOf(x)));
+      (newest ? chronologyOf(y) - chronologyOf(x) : chronologyOf(x) - chronologyOf(y)) ||
+      (impactOf(y) - impactOf(x)));
     out.push(el("section", { class: "category" }, [
       el("h3", { class: "category-title", text: ERA_LABELS[era] || era }),
       ...recs.map((r) => cardNode(r, { review: false, kind: "historical" })),
@@ -326,8 +433,10 @@ function writeCache(key, data) {
 async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, staleAfterDays, onData }) {
   const mount = document.getElementById(mountId);
   const fresh = document.getElementById(freshnessId);
+  let lastData = null;
 
   const render = (data) => {
+    lastData = data;
     const published = data.published || [];
     const underReview = data.under_review || [];
     const body = kind === "event" ? renderEvents(published)
@@ -339,6 +448,7 @@ async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, stale
     } else {
       mount.replaceChildren(...nodes);
     }
+    pruneNoopClamps(mount);
     if (onData) onData(data);
     if (!data.last_updated) {
       fresh.replaceChildren();
@@ -361,6 +471,9 @@ async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, stale
     fresh.replaceChildren(...freshNodes);
   };
 
+  // Toolbar changes re-render this pane from the latest data, no refetch.
+  paneRerender[mountId] = () => { if (lastData) render(lastData); };
+
   const cached = readCache(cacheKey);
   if (cached) render(cached);
 
@@ -377,9 +490,53 @@ async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, stale
   }
 }
 
+// The values present in the data, in canonical order, unknowns appended — so the
+// selects never offer a filter that matches nothing and need no schema knowledge.
+function orderedUnique(values, canonical) {
+  const present = new Set(values);
+  const out = canonical.filter((v) => present.has(v));
+  for (const v of present) if (!out.includes(v)) out.push(v);
+  return out;
+}
+
+function fillSelect(id, values, labels) {
+  const sel = document.getElementById(id);
+  if (!sel) return;
+  for (const v of values) {
+    sel.appendChild(el("option", { value: v, text: (labels || {})[v] || v }));
+  }
+}
+
+// Populate a pane's toolbar from its first data paint, then reveal it. Populating
+// once keeps the user's selection stable across the cached->fresh double paint;
+// a failed fetch simply leaves the toolbar hidden rather than showing dead UI.
+function populateToolbar(barId, data, fill) {
+  const bar = document.getElementById(barId);
+  if (!bar || bar.dataset.ready) return;
+  fill(data.published || []);
+  bar.dataset.ready = "true";
+  bar.hidden = false;
+}
+
+function setupToolbars() {
+  const bind = (id, tab, key) => {
+    const sel = document.getElementById(id);
+    if (!sel) return;
+    sel.addEventListener("change", () => {
+      viewState[tab][key] = sel.value;
+      if (paneRerender[tab]) paneRerender[tab]();
+    });
+  };
+  bind("history-sort", "history", "sort");
+  bind("history-category", "history", "category");
+  bind("threats-category", "threats", "category");
+  bind("threats-severity", "threats", "severity");
+}
+
 function main() {
   showTab(currentTab());
   window.addEventListener("hashchange", () => showTab(currentTab()));
+  setupToolbars();
 
   // All three panes load eagerly: payloads are small, staleness banners stay live,
   // and switching tabs is instant with no fetch on first visit.
@@ -391,11 +548,21 @@ function main() {
   loadPane({
     url: "./data/threats.json", mountId: "threats", freshnessId: "threats-freshness",
     kind: "threat", cacheKey: "globalobservatory.threats", noun: "tracked threat", staleAfterDays: 10,
+    onData: (data) => populateToolbar("threats-toolbar", data, (recs) => {
+      fillSelect("threats-category", orderedUnique(recs.map((r) => r.category || "other"), CATEGORY_ORDER), CATEGORY_LABELS);
+      fillSelect("threats-severity",
+        orderedUnique(recs.map((r) => (r.assessment || {}).severity || "unknown"), SEVERITY_ORDER));
+    }),
   });
   loadPane({
     url: "./data/historical.json", mountId: "history", freshnessId: "history-freshness",
     kind: "historical", cacheKey: "globalobservatory.historical", noun: "historical record",
     staleAfterDays: null,
+    onData: (data) => populateToolbar("history-toolbar", data, (recs) => {
+      fillSelect("history-category",
+        orderedUnique(recs.map((r) => r.category || "other"), Object.keys(HISTORICAL_TYPE_LABELS)),
+        HISTORICAL_TYPE_LABELS);
+    }),
   });
 }
 
