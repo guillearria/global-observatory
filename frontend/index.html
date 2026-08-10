@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Stop iOS Safari auto-linking number-like text (report IDs, tolls) in UA blue. -->
+  <meta name="format-detection" content="telephone=no" />
   <title>Global Observatory — live world events, existential threats &amp; historical archive</title>
   <meta name="description" content="A fact-based observatory of the world: a live pulse of confirmed major events on a world map, an ongoing tracker of existential threats, and a historical archive reaching back to the dawn of civilization. Every published figure is grounded in an authoritative source — an aggregation, not a forecast." />
   <link rel="canonical" href="https://guillearria.github.io/global-observatory/" />
@@ -16,7 +18,7 @@
 </head>
 <body>
   <header class="site-header">
-    <h1>Global&nbsp;Observatory</h1>
+    <h1>Global Observatory</h1>
     <p class="tagline">A fact-based observatory of the world — a live <strong>pulse of confirmed major events</strong>, an ongoing tracker of <strong>existential threats</strong>, and a <strong>historical archive</strong> reaching back to the dawn of civilization. Every published figure is grounded in an authoritative source. <strong>This is an aggregation of published figures, not a forecast.</strong></p>
   </header>
 
@@ -30,12 +32,12 @@
     <section class="pane" id="pulse-pane">
       <div class="pane-head">
         <h2 class="pane-title">World Pulse</h2>
-        <p class="pane-sub">Confirmed major events happening now — disasters, outbreaks, and crises, newest first.</p>
+        <p class="pane-sub">Confirmed major events happening now — disasters, outbreaks, and crises; recent and severe first.</p>
         <p class="freshness" id="pulse-freshness"></p>
       </div>
       <div class="map-wrap" id="map-section" hidden>
         <div id="map" role="application" aria-label="World map of tracked events"></div>
-        <p class="map-attrib">Basemap: NASA Blue Marble · drag to pan, scroll or pinch to zoom · markers scale with impact; click one to jump to its card</p>
+        <p class="map-attrib">Basemap: NASA Blue Marble · drag to pan, scroll or pinch to zoom — on touch, one finger scrolls the page, two fingers move the map · markers scale with impact; click one to jump to its card</p>
       </div>
       <div id="pulse"><p class="loading">Loading events…</p></div>
     </section>
@@ -45,6 +47,14 @@
         <h2 class="pane-title">Existential Threats</h2>
         <p class="pane-sub">Standing risks to humanity, tracked by category.</p>
         <p class="freshness" id="threats-freshness"></p>
+        <div class="toolbar" id="threats-toolbar" hidden>
+          <label class="toolbar-field">Category
+            <select id="threats-category"><option value="all" selected>All categories</option></select>
+          </label>
+          <label class="toolbar-field">Severity
+            <select id="threats-severity"><option value="all" selected>All severities</option></select>
+          </label>
+        </div>
       </div>
       <div id="threats"><p class="loading">Loading threats…</p></div>
     </section>
@@ -54,6 +64,17 @@
         <h2 class="pane-title">Historical Archive</h2>
         <p class="pane-sub">Major events from the dawn of civilization to the recent past — pandemics, wars, famines, disasters, and collapses on one timeline.</p>
         <p class="freshness" id="history-freshness"></p>
+        <div class="toolbar" id="history-toolbar" hidden>
+          <label class="toolbar-field">Sort
+            <select id="history-sort">
+              <option value="oldest" selected>Oldest first</option>
+              <option value="newest">Newest first</option>
+            </select>
+          </label>
+          <label class="toolbar-field">Type
+            <select id="history-category"><option value="all" selected>All types</option></select>
+          </label>
+        </div>
       </div>
       <div id="history"><p class="loading">Loading historical records…</p></div>
     </section>

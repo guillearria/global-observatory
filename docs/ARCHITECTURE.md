@@ -15,7 +15,7 @@ authoritative figures, not a forecast.**
 | Schema | `data/schema/threat.schema.json` | `data/schema/event.schema.json` | `data/schema/historical.schema.json` |
 | Sources | `data/source-allowlist.json` — one shared allowlist, one gate | ← same | ← same |
 | Domain block | `assessment` (probability × severity) | `event` (date, location, status, scale, impact) | `historical` (BCE-capable chronology, era, estimate-range impact) |
-| Sort | severity-dominant | recency-dominant (today outranks last month) | chronological (oldest first, grouped by era) |
+| Sort | severity-dominant | recency-first, severity-blended at render time (each impact tier buys staying power) | chronological (oldest first, grouped by era) |
 | Cadence | weekly, via `/refresh-threats` | daily, via `/refresh-events` | ad hoc, via `/refresh-history` |
 | Publish | **auto-publish** via the `publish` workflow — no PR for any dataset; the gate is the reviewer | ← same | ← same |
 | Staleness | banner + workflow, >10 days | banner + workflow, >2 days | **exempt** — an archive cannot go stale |
@@ -135,10 +135,13 @@ Vanilla HTML/CSS/JS, no build step, **no external requests** — every byte the 
 from the repo. `app.js` fetches `frontend/data/{events,threats,historical}.json` (cache-busted,
 with a localStorage last-known-good fallback) and renders three hash-routed tabs (`#pulse` /
 `#threats` / `#history` — shareable URLs, back-button history, unknown hashes fall back to
-`#pulse`): World Pulse (flat, recency-sorted), Existential Threats (grouped by category,
-severity-sorted), and the Historical Archive (grouped by era, chronological, with date badges and
-estimated-deaths ranges). Each card shows verification badges and an expandable, source-linked
-claims list. Quarantined records render under an "Under review" warning banner.
+`#pulse`): World Pulse (flat; recency-first with severity-weighted staying power, blended at
+render time from `occurrence_date`, `impact_rank`, and `status` — stored `sort_keys` are
+untouched), Existential Threats (grouped by category, severity-sorted, filterable by category
+and severity), and the Historical Archive (grouped by era, chronological with a newest-first
+toggle, filterable by type, with date badges and estimated-deaths ranges). Each card shows
+verification badges, a collapsed-by-default summary for long texts, and an expandable,
+source-linked claims list. Quarantined records render under an "Under review" warning banner.
 
 The **World Pulse map** (`map.js`, pulse tab only) is fully self-contained: a committed NASA Blue
 Marble equirectangular basemap with drag-pan and wheel/pinch zoom, markers sized and colored by
