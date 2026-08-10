@@ -34,22 +34,30 @@
       "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
       "text": "NIST released the AI Risk Management Framework (AI RMF 1.0) on 26 January 2023 to help manage risks to individuals, organizations, and society associated with artificial intelligence, and released a Generative AI Profile (NIST-AI-600-1) on 26 July 2024.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-10",
+      "source_name": "OECD.AI",
+      "source_url": "https://oecd.ai/en/incidents",
+      "text": "The OECD AI Incidents Monitor (AIM) documents approximately 16,894 AI incidents and hazards in total; the platform notes that incidents have gotten more media attention lately, but have actually gone down as a share of all AI news.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Risks from increasingly capable and widely deployed AI systems: documented present-day harms (synthetic media, fraud, cyberattacks, child-safety incidents), plus contested longer-term scenarios of large-scale misuse or loss of control. Governments and standards bodies now track incidents and publish risk-management frameworks, but quantified estimates of the severe tail remain scarce by nature.",
+  "description": "Risks from increasingly capable and widely deployed AI systems: documented present-day harms (synthetic media, fraud, cyberattacks, child-safety incidents), plus contested longer-term scenarios of large-scale misuse or loss of control. Governments and standards bodies now track incidents and publish risk-management frameworks, but quantified estimates of the severe tail remain scarce by nature. The OECD's AI Incidents and Hazards Monitor has logged nearly 17,000 documented incidents and hazards to date.",
   "id": "advanced-ai-risk",
-  "last_updated": "2026-07-02T13:29:52Z",
+  "last_updated": "2026-08-10T10:13:07Z",
   "name": "Advanced AI Risk",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-02T13:29:52Z",
+        "at": "2026-08-10T10:13:07Z",
         "layer": "verify",
-        "run_id": "2026-07-02T13-29-52Z-feeb1d"
+        "run_id": "2026-08-10T10-13-07Z-ac254f"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-02T13-29-52Z-feeb1d"
+    "last_run_id": "2026-08-10T10-13-07Z-ac254f"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -59,7 +67,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

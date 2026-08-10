@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T23:58:40Z",
+  "last_updated": "2026-08-10T10:13:07Z",
   "published": [
     {
       "assessment": {
@@ -37,22 +37,30 @@
           "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
           "text": "NIST released the AI Risk Management Framework (AI RMF 1.0) on 26 January 2023 to help manage risks to individuals, organizations, and society associated with artificial intelligence, and released a Generative AI Profile (NIST-AI-600-1) on 26 July 2024.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-08-10",
+          "source_name": "OECD.AI",
+          "source_url": "https://oecd.ai/en/incidents",
+          "text": "The OECD AI Incidents Monitor (AIM) documents approximately 16,894 AI incidents and hazards in total; the platform notes that incidents have gotten more media attention lately, but have actually gone down as a share of all AI news.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Risks from increasingly capable and widely deployed AI systems: documented present-day harms (synthetic media, fraud, cyberattacks, child-safety incidents), plus contested longer-term scenarios of large-scale misuse or loss of control. Governments and standards bodies now track incidents and publish risk-management frameworks, but quantified estimates of the severe tail remain scarce by nature.",
+      "description": "Risks from increasingly capable and widely deployed AI systems: documented present-day harms (synthetic media, fraud, cyberattacks, child-safety incidents), plus contested longer-term scenarios of large-scale misuse or loss of control. Governments and standards bodies now track incidents and publish risk-management frameworks, but quantified estimates of the severe tail remain scarce by nature. The OECD's AI Incidents and Hazards Monitor has logged nearly 17,000 documented incidents and hazards to date.",
       "id": "advanced-ai-risk",
-      "last_updated": "2026-07-02T13:29:52Z",
+      "last_updated": "2026-08-10T10:13:07Z",
       "name": "Advanced AI Risk",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-02T13:29:52Z",
+            "at": "2026-08-10T10:13:07Z",
             "layer": "verify",
-            "run_id": "2026-07-02T13-29-52Z-feeb1d"
+            "run_id": "2026-08-10T10-13-07Z-ac254f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-02T13-29-52Z-feeb1d"
+        "last_run_id": "2026-08-10T10-13-07Z-ac254f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -62,7 +70,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -440,22 +448,30 @@
           "source_url": "https://www.unesco.org/reports/wwdr/en/2024/s",
           "text": "As of 2022, 2.2 billion people were without access to safely managed drinking water (UN World Water Development Report 2024).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-08-10",
+          "source_name": "FAO",
+          "source_url": "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en",
+          "text": "The FAO Food Price Index averaged 131.1 points in July 2026, up 0.6 percent from its June level and 1.0 percent higher than its year-earlier level, with the Vegetable Oil Price Index reaching its highest level since June 2022.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A chronic global shortfall in access to adequate food and safe freshwater, driven by conflict, economic shocks, and climate extremes. Hundreds of millions face hunger and billions face water scarcity today; the tail risk is cascading food-system and water-supply failures that destabilize whole regions.",
+      "description": "A chronic global shortfall in access to adequate food and safe freshwater, driven by conflict, economic shocks, and climate extremes. Hundreds of millions face hunger and billions face water scarcity today; food prices have climbed to a three-year high amid weather and geopolitical disruptions, and the tail risk is cascading food-system and water-supply failures that destabilize whole regions.",
       "id": "global-food-water-insecurity",
-      "last_updated": "2026-07-02T13:24:24Z",
+      "last_updated": "2026-08-10T10:13:07Z",
       "name": "Global Food and Water Insecurity",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-02T13:24:24Z",
+            "at": "2026-08-10T10:13:07Z",
             "layer": "verify",
-            "run_id": "2026-07-02T13-24-24Z-ef6b13"
+            "run_id": "2026-08-10T10-13-07Z-731132"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-02T13-24-24Z-ef6b13"
+        "last_run_id": "2026-08-10T10-13-07Z-731132"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -465,7 +481,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -830,22 +846,30 @@
           "source_url": "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now",
           "text": "Nine states possess nuclear weapons: the United States, Russia, the United Kingdom, France, China, India, Pakistan, North Korea and Israel.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-08-10",
+          "source_name": "SIPRI",
+          "source_url": "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now",
+          "text": "Russia and the USA together possess around 83 per cent of all stockpiled nuclear warheads.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A deliberate or inadvertent nuclear exchange between states. Global arsenals remain in the thousands of warheads, all nine nuclear-armed states are modernizing their forces, and hundreds of weapons are kept on high operational alert — keeping a civilization-scale exchange a persistent possibility even at low annual probability.",
+      "description": "A deliberate or inadvertent nuclear exchange between states. Global arsenals remain in the thousands of warheads, all nine nuclear-armed states are modernizing their forces, and hundreds of weapons are kept on high operational alert — keeping a civilization-scale exchange a persistent possibility even at low annual probability. Russia and the United States alone hold roughly 83 percent of all stockpiled warheads.",
       "id": "nuclear-war",
-      "last_updated": "2026-07-02T13:29:52Z",
+      "last_updated": "2026-08-10T10:13:07Z",
       "name": "Nuclear War",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-02T13:29:52Z",
+            "at": "2026-08-10T10:13:07Z",
             "layer": "verify",
-            "run_id": "2026-07-02T13-29-52Z-e804f8"
+            "run_id": "2026-08-10T10-13-07Z-2165d0"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-02T13-29-52Z-e804f8"
+        "last_run_id": "2026-08-10T10-13-07Z-2165d0"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -855,7 +879,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

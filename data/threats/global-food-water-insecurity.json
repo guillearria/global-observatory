@@ -50,22 +50,30 @@
       "source_url": "https://www.unesco.org/reports/wwdr/en/2024/s",
       "text": "As of 2022, 2.2 billion people were without access to safely managed drinking water (UN World Water Development Report 2024).",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-08-10",
+      "source_name": "FAO",
+      "source_url": "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en",
+      "text": "The FAO Food Price Index averaged 131.1 points in July 2026, up 0.6 percent from its June level and 1.0 percent higher than its year-earlier level, with the Vegetable Oil Price Index reaching its highest level since June 2022.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A chronic global shortfall in access to adequate food and safe freshwater, driven by conflict, economic shocks, and climate extremes. Hundreds of millions face hunger and billions face water scarcity today; the tail risk is cascading food-system and water-supply failures that destabilize whole regions.",
+  "description": "A chronic global shortfall in access to adequate food and safe freshwater, driven by conflict, economic shocks, and climate extremes. Hundreds of millions face hunger and billions face water scarcity today; food prices have climbed to a three-year high amid weather and geopolitical disruptions, and the tail risk is cascading food-system and water-supply failures that destabilize whole regions.",
   "id": "global-food-water-insecurity",
-  "last_updated": "2026-07-02T13:24:24Z",
+  "last_updated": "2026-08-10T10:13:07Z",
   "name": "Global Food and Water Insecurity",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-02T13:24:24Z",
+        "at": "2026-08-10T10:13:07Z",
         "layer": "verify",
-        "run_id": "2026-07-02T13-24-24Z-ef6b13"
+        "run_id": "2026-08-10T10-13-07Z-731132"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-02T13-24-24Z-ef6b13"
+    "last_run_id": "2026-08-10T10-13-07Z-731132"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -75,7 +83,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
