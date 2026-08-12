@@ -11,19 +11,35 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-08-11",
+      "retrieved_date": "2026-08-12",
       "source_name": "GDACS",
       "source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
-      "text": "GDACS's earthquake report for this event (event id 1557236, episode 1724218) assesses an Overall Orange alert for medium humanitarian impact, with a GDACS score of 1.7 and about 1.5 million people within zones of MMI VII or greater shaking. Citing media reports, the page states at least 132 deaths and more than 570 injuries had been recorded as of 11 August 2026, with the toll expected to rise; UNITAR-UNOSAT had activated satellite-based damage assessment for the affected area.",
+      "text": "Re-checked 12 August 2026: GDACS's earthquake report for this event (event id 1557236, episode 1724218) has escalated to an Overall Red alert for high humanitarian impact, with a GDACS score of 2.2 (up from 1.7) and about 5.2 million people now within zones of MMI VII or greater shaking (up from about 1.5 million). The page's casualty line, citing media reports and not independently verified by GDACS, now reads 'at least 240 deaths' -- higher than, and not adopted in place of, the government-sourced UN News figure below.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-12",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/08/1168112",
+      "text": "UN News (11 August 2026), 'Colombia earthquake: UN joins national response': citing Colombia's president, 'more than 180 have died' and 'hundreds have been injured'; 'nearly 5,000 homes have been damaged and 387 have been destroyed'; '61 buildings have collapsed'; 'more than 550 educational institutions, 24 health facilities and more than 350 community centres have [been] affected'; the government has activated emergency coordination centres in Bogotá, Quibdó, Armenia and Cali and has requested UN support.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-12",
+      "source_name": "Servicio Geológico Colombiano",
+      "source_url": "https://www2.sgc.gov.co/Noticias/Paginas/SGC-actualiza-la-informacion-sobre-el-sismo-ocurrido-en-San-Jose-del-Palmar-Choco.aspx",
+      "text": "Servicio Geológico Colombiano (10 August 2026): confirms the magnitude 7.4 event centered near San José del Palmar at a depth of about 103 km, recorded 18 aftershocks (magnitude 1.4-4.8) as of midday 10 August, describes it as 'the seismic event of greatest magnitude recorded in Colombia in the 21st century,' and notes more than 12,000 people from 900 populated centres reported feeling the earthquake. The bulletin gives no casualty figures.",
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.4 intermediate-depth earthquake struck western Colombia on 10 August 2026 at 12:34:28 UTC, centered 5 km S of San José del Palmar in Chocó Department, about 240 km west of Bogotá, at a depth of roughly 110 km. USGS's PAGER system assessed an Orange alert level, with an estimated 10.5 million people exposed to strong-to-very-strong shaking (MMI VI+). GDACS separately assessed the event as an Orange alert for medium humanitarian impact, with about 1.5 million people in zones of MMI VII or greater shaking, and its report page cites media accounts of at least 132 deaths and more than 570 injuries as of 11 August 2026, with the toll expected to rise as search-and-rescue efforts continue in the rural, largely road-inaccessible Chocó region. Colombian news media reported that President Abelardo De la Espriella declared a state of national disaster to mobilize additional resources to the worst-affected departments (Chocó, Valle del Cauca, Caldas and Antioquia); this declaration has not yet been confirmed by an allowlisted authoritative source.",
+  "description": "A magnitude 7.4 intermediate-depth earthquake struck western Colombia on 10 August 2026 at 12:34:28 UTC, centered 5 km S of San José del Palmar in Chocó Department, about 240 km west of Bogotá, at a depth of roughly 110 km. USGS's PAGER system assessed an Orange alert level, with an estimated 10.5 million people exposed to strong-to-very-strong shaking (MMI VI+). GDACS initially assessed the event as an Orange alert for medium humanitarian impact; re-checked 12 August 2026, GDACS has escalated the event to a Red alert for high humanitarian impact, with its score rising from 1.7 to 2.2 and its population-exposure estimate for MMI VII+ shaking rising from about 1.5 million to about 5.2 million. UN News (11 August 2026) reports that Colombia's government has confirmed 'more than 180' deaths, hundreds injured, nearly 5,000 homes damaged (387 destroyed), 61 buildings collapsed, and more than 550 educational institutions, 24 health facilities and 350 community centres affected; the government has activated emergency coordination centres in Bogotá, Quibdó, Armenia and Cali and requested UN support. Colombia's national geological survey (SGC) recorded 18 aftershocks (M1.4-4.8) as of midday 10 August and described the mainshock as the strongest recorded in Colombia in the 21st century. Bogotá's own emergency-management office (IDIGER) inspected nearly 4,800 homes/offices in the capital and found no moderate or severe structural damage there, indicating the worst damage is concentrated in Chocó, Valle del Cauca, Caldas and Risaralda rather than the capital. Colombian news media have reported that President Abelardo De la Espriella signed a national-disaster decree; this decree itself remains unconfirmed by a directly-fetched allowlisted source, though UN News does confirm the government has activated emergency coordination centres.",
   "event": {
     "impact": {
-      "deaths": 132,
+      "deaths": 180,
       "displaced": null,
-      "summary": "GDACS's report page for this event cites media accounts of at least 132 deaths and more than 570 injuries as of 11 August 2026, one day after the earthquake struck. USGS's PAGER system assessed an Orange alert (high likelihood of significant casualties/damage) with about 10.5 million people exposed to strong-to-very-strong shaking; GDACS's own Orange-alert assessment found about 1.5 million people within zones of MMI VII+ shaking. No confirmed displacement figure has yet been published on an allowlisted source. No allowlisted source has yet confirmed the reported national-disaster declaration."
+      "summary": "UN News (11 August 2026), citing Colombia's government, reports 'more than 180 have died,' hundreds injured, nearly 5,000 homes damaged (387 destroyed), 61 buildings collapsed, and more than 550 schools, 24 health facilities and 350 community centres affected. GDACS has escalated its assessment from Orange to a Red alert for high humanitarian impact (score 2.2, up from 1.7), with about 5.2 million people now estimated within zones of MMI VII+ shaking (up from about 1.5 million); GDACS's own casualty line, citing media and not independently verified, separately states 'at least 240' deaths. USGS's PAGER system last confirmed an Orange alert with about 10.5 million people exposed to MMI VI+ shaking (USGS's PAGER page has returned repeated server errors since 11 August and could not be re-confirmed today). No confirmed aggregate displacement figure has yet been published on an allowlisted source. No allowlisted source has yet confirmed the reported national-disaster decree, though UN News confirms the government has activated emergency coordination centres in Bogotá, Quibdó, Armenia and Cali."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
     "location": {
@@ -37,18 +53,18 @@
     "status": "ongoing"
   },
   "id": "colombia-earthquake-choco-2026",
-  "last_updated": "2026-08-11T09:18:16Z",
+  "last_updated": "2026-08-12T09:24:11Z",
   "name": "M7.4 Earthquake, Chocó, Colombia",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-11T09:18:16Z",
+        "at": "2026-08-12T09:24:11Z",
         "layer": "verify",
-        "run_id": "2026-08-11T09-18-16Z-9f8621"
+        "run_id": "2026-08-12T09-24-11Z-feb271"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-11T09-18-16Z-9f8621"
+    "last_run_id": "2026-08-12T09-24-11Z-feb271"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -58,7 +74,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

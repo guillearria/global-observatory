@@ -8,6 +8,12 @@
       "label": "USGS"
     },
     {
+      "category": "geological",
+      "domain": "sgc.gov.co",
+      "justification": "The Servicio Geológico Colombiano (Colombian Geological Survey) is Colombia's national government geological-hazard authority, the same institutional tier as USGS for earthquake magnitude/depth/aftershock data within its own territory.",
+      "label": "Servicio Geológico Colombiano"
+    },
+    {
       "category": "climate",
       "domain": "noaa.gov",
       "justification": "The US National Oceanic and Atmospheric Administration is the authoritative publisher of climate, atmospheric CO2, and space-weather measurements.",
@@ -201,9 +207,45 @@
     },
     {
       "category": "event",
+      "domain": "wildfire.gov",
+      "justification": "InciWeb, hosted at inciweb.wildfire.gov, is the incident-information system jointly run by the US federal wildland fire agencies (via the National Wildfire Coordinating Group); it is the official primary source for individual wildfire acreage and containment percentages, the same institutional tier as a state government's own emergency-management reporting.",
+      "label": "InciWeb (US wildland fire agencies)"
+    },
+    {
+      "category": "event",
       "domain": "ochaopt.org",
       "justification": "ochaopt.org is the UN Office for the Coordination of Humanitarian Affairs' own dedicated portal for the Occupied Palestinian Territory, publishing OCHA's weekly oPt Humanitarian Situation Reports directly (the same institutional publisher as reliefweb.int and un.org, which already carry OCHA content); it is the institution's own domain, not an aggregator or third-party outlet, making it the same institutional tier as the existing UN-body entries.",
       "label": "OCHA oPt"
+    },
+    {
+      "category": "event",
+      "domain": "ndma.gov.pk",
+      "justification": "Pakistan's National Disaster Management Authority is the national government agency that issues the country's official daily disaster situation reports (casualties, damage, response); the primary source underlying OCHA's own ReliefWeb infographics for this event, the same institutional tier as a national civil-protection agency.",
+      "label": "National Disaster Management Authority (Pakistan)"
+    },
+    {
+      "category": "event",
+      "domain": "gov.bc.ca",
+      "justification": "The Government of British Columbia (Canada) is the provincial government's own domain (covering news.gov.bc.ca official releases and the emergencyinfobc.gov.bc.ca provincial emergency-information portal); it is the authoritative primary source for a provincial state-of-emergency declaration and evacuation response, the same institutional tier as governor.wa.gov, already allowlisted for a US state government's emergency declarations.",
+      "label": "Government of British Columbia"
+    },
+    {
+      "category": "event",
+      "domain": "rcmp.ca",
+      "justification": "The Royal Canadian Mounted Police is Canada's federal police service; its own statements confirming a wildfire-related fatality (with the BC Coroners Service investigation referenced) are the authoritative primary source for that casualty figure, not a news outlet reporting on it.",
+      "label": "Royal Canadian Mounted Police (RCMP)"
+    },
+    {
+      "category": "event",
+      "domain": "fdma.go.jp",
+      "justification": "Japan's Fire and Disaster Management Agency (part of the Ministry of Internal Affairs and Communications) publishes the government's own numbered situation reports on earthquake casualties and housing damage; it is the national authority for disaster-response casualty figures, the same institutional tier as a national government's official emergency-management agency.",
+      "label": "Japan Fire and Disaster Management Agency (FDMA)"
+    },
+    {
+      "category": "event",
+      "domain": "mlit.go.jp",
+      "justification": "Japan's Ministry of Land, Infrastructure, Transport and Tourism publishes the government's own official reports on disaster infrastructure status and evacuation-instruction figures; a national government ministry, the same institutional tier as FDMA.",
+      "label": "Japan Ministry of Land, Infrastructure, Transport and Tourism (MLIT)"
     },
     {
       "category": "historical",
