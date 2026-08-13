@@ -2,6 +2,12 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-13 — Daily World Pulse refresh: add China Yangtze floods, Colombia/Ebola/Kumamoto/Pakistan/Sri Lanka/West Bank updates, re-verify 10 ongoing events (2026-08-13) (`dfb7274`)
+
+- **Added:** china-floods-yangtze-typhoon-dolphin-2026
+- **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, canada-british-columbia-wildfires-2026, colombia-earthquake-choco-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, south-korea-stock-market-crisis-2026, sri-lanka-floods-landslides-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, usa-washington-wildfires-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
+- **Newly allowlisted domains:** dmc.gov.lk
+
 ## 2026-08-12 — Daily World Pulse refresh: add BC wildfires, Colombia quake escalation, Kumamoto/Pakistan/India/Ebola updates, re-verify 12 ongoing events (2026-08-12) (`27f9e93`)
 
 - **Added:** canada-british-columbia-wildfires-2026
@@ -123,9 +129,5 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 - **Updated:** afghanistan-nuristan-floods-2026, ebola-bundibugyo-drc-2026, france-wildfire-gironde-2026, spain-wildfire-madrid-avila-2026, west-bank-settler-violence-surge-2026
 
 ## 2026-07-29 — Daily World Pulse refresh: update Kumamoto quake PAGER data, Gironde/Madrid-Ávila wildfires, Ebola case counts (`36a23a6`)
-
-- **Updated:** ebola-bundibugyo-drc-2026, france-wildfire-gironde-2026, japan-earthquake-kumamoto-2026, spain-wildfire-madrid-avila-2026
-
-## 2026-07-28 — Daily World Pulse refresh: add Kumamoto M6.8 earthquake, update Ebola/Sudan displacement/Gironde & Madrid-Ávila wildfires (`2ce5372`)
 
 - **Added:** advanced-ai-risk, afghanistan-nuristan-floods-2026, aleppo-earthquake-1138, algeria-wildfires-2026, an-lushan-rebellion, antonine-plague, armenian-genocide, bangladesh-floods-chattogram-2026, bengal-famine-1770, bengal-famine-1943, bhola-cyclone, biodiversity-loss-ecosystem-collapse, black-death, china-floods-1931, china-floods-guangxi-hunan-2026, classic-maya-collapse, cocoliztli-epidemics, covid-19-pandemic, critical-infrastructure-cyberattack, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, fall-of-ur, fall-of-western-rome, four-point-two-kiloyear-event, france-wildfire-fontainebleau-2026, france-wildfire-gironde-2026, france-wildfires-pyrenees-2026, global-armed-conflict, global-food-water-insecurity, global-forced-displacement, global-warming, great-chinese-famine, great-famine-1315, great-plague-of-london, harappan-decline, hiv-aids-pandemic, indian-ocean-tsunami, influenza-pandemic, influenza-pandemic-1918, irish-great-famine, japan-earthquake-kumamoto-2026, krakatoa-eruption, laki-eruption, late-bronze-age-collapse, lisbon-earthquake-1755, mexico-earthquake-chiapas-2026, mindanao-earthquake-philippines-2026, mongol-conquests, near-earth-asteroid-impact, nuclear-war, plague-of-athens, plague-of-cyprian, plague-of-justinian, portugal-wildfires-2026, punic-wars, rwandan-genocide, shaanxi-earthquake-1556, spain-wildfire-almeria-2026, spain-wildfire-madrid-avila-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, taiping-rebellion, tambora-eruption, tangshan-earthquake, the-holocaust, thera-eruption, thirty-years-war, typhoon-bavi-guam-mariana-2026, typhoon-noul-kiyapo-2026, venezuela-earthquake-2026, vesuvius-79, west-bank-settler-violence-surge-2026, world-war-i, world-war-ii, yellowstone-supervolcano
