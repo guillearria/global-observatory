@@ -16,14 +16,22 @@
       "source_url": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104081",
       "text": "GDACS event API data for FL 1104081: displaced total 237338, with 215,600 people evacuated in Shanghai, China (8-10 August 2026) as the single largest component, and further evacuations totaling over 238,000 across Shaanxi, Hubei, Zhejiang and Jiangsu combined. Event location centroid: latitude 32.2656, longitude 111.6474. Date range 2026-07-31T01:00:00 to 2026-08-13T01:00:00.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-14",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
+      "text": "Re-checked 14 August 2026: GDACS's event data for FL 1104081 confirms episode 7 (31 July - 13 August 2026 reporting window) remains the latest episode, with the combined 237,338-person evacuation total unchanged. No allowlisted source has published a confirmed death toll or declared the flooding contained.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Heavy rain associated with Typhoon Dolphin triggered severe flooding across multiple central and eastern Chinese provinces beginning 31 July 2026, with the heaviest impacts from around 11 August 2026 as the storm's remnant moisture swelled rivers and triggered a levee breach in Hubei Province. GDACS tracks the event (GLIDE FL-2026-000148-CHN, event id 1104081) as a distinct flood event from the already-resolved Guangxi/Hunan flooding in July and the separately-tracked Jilin flooding, assessing it as an overall Orange alert. As of GDACS's episode 7 update (reporting window 31 July - 13 August 2026), a combined 237,338 people have been evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu, with the single largest evacuation -- 215,600 people -- in Shanghai between 8-10 August 2026. No allowlisted source has published a confirmed death toll or declared the flooding contained.",
+  "description": "Heavy rain associated with Typhoon Dolphin triggered severe flooding across multiple central and eastern Chinese provinces beginning 31 July 2026, with the heaviest impacts from around 11 August 2026 as the storm's remnant moisture swelled rivers and triggered a levee breach in Hubei Province. GDACS tracks the event (GLIDE FL-2026-000148-CHN, event id 1104081) as a distinct flood event from the already-resolved Guangxi/Hunan flooding in July and the separately-tracked Jilin flooding, assessing it as an overall Orange alert. As of GDACS's episode 7 update (reporting window 31 July - 13 August 2026), a combined 237,338 people have been evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu, with the single largest evacuation -- 215,600 people -- in Shanghai between 8-10 August 2026. No allowlisted source has published a confirmed death toll or declared the flooding contained. Re-checked 14 August 2026: GDACS's episode 7 report remains the latest, with the combined 237,338-person evacuation total unchanged; no allowlisted source has published a confirmed death toll or declared the flooding contained.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": 237338,
-      "summary": "GDACS's episode 7 report for this flood event (31 July - 13 August 2026 reporting window) records a combined 237,338 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu, with the single largest evacuation -- 215,600 people -- in Shanghai between 8-10 August 2026. GDACS assesses the event as an overall Orange alert. No allowlisted source has published a confirmed death toll or declared the flooding contained; the event remains current as of 13 August 2026."
+      "summary": "GDACS's episode 7 report for this flood event (31 July - 13 August 2026 reporting window) records a combined 237,338 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu, with the single largest evacuation -- 215,600 people -- in Shanghai between 8-10 August 2026. GDACS assesses the event as an overall Orange alert. No allowlisted source has published a confirmed death toll or declared the flooding contained; the event remains current as of 13 August 2026. Re-checked 14 August 2026: GDACS's episode 7 report remains the latest, with the combined 237,338-person evacuation total unchanged; no allowlisted source has published a confirmed death toll or declared the flooding contained."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
     "location": {
@@ -37,18 +45,18 @@
     "status": "ongoing"
   },
   "id": "china-floods-yangtze-typhoon-dolphin-2026",
-  "last_updated": "2026-08-13T09:21:01Z",
+  "last_updated": "2026-08-14T09:25:56Z",
   "name": "Typhoon Dolphin Flooding, Central China",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-13T09:21:01Z",
+        "at": "2026-08-14T09:25:56Z",
         "layer": "verify",
-        "run_id": "2026-08-13T09-21-01Z-692228"
+        "run_id": "2026-08-14T09-25-56Z-5a0c1d"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-13T09-21-01Z-692228"
+    "last_run_id": "2026-08-14T09-25-56Z-5a0c1d"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -58,7 +66,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
