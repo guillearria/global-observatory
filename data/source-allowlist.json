@@ -213,6 +213,12 @@
     },
     {
       "category": "event",
+      "domain": "gov.nv.gov",
+      "justification": "The Office of the Governor of Nevada is the US state executive agency that issues official state-of-emergency declarations and evacuation/acreage figures for disasters within the state; the same institutional tier as governor.wa.gov, already allowlisted for a US state government's own emergency declarations.",
+      "label": "Office of the Governor of Nevada"
+    },
+    {
+      "category": "event",
       "domain": "wildfire.gov",
       "justification": "InciWeb, hosted at inciweb.wildfire.gov, is the incident-information system jointly run by the US federal wildland fire agencies (via the National Wildfire Coordinating Group); it is the official primary source for individual wildfire acreage and containment percentages, the same institutional tier as a state government's own emergency-management reporting.",
       "label": "InciWeb (US wildland fire agencies)"
