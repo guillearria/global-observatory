@@ -2,6 +2,12 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-15 — Daily World Pulse refresh: add Nevada Bug/Stallion wildfires, Colombia/Ebola/Japan/Mindanao/China-floods/BC-wildfire escalations, re-verify 20 ongoing events (2026-08-15) (`cfaf2a0`)
+
+- **Added:** usa-nevada-bug-stallion-fires-2026
+- **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, canada-british-columbia-wildfires-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, south-korea-stock-market-crisis-2026, sri-lanka-floods-landslides-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, usa-washington-wildfires-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
+- **Newly allowlisted domains:** gov.nv.gov
+
 ## 2026-08-14 — Daily World Pulse refresh: Colombia/Ebola/El Obeid escalations, Kumamoto/Sri Lanka/BC wildfire/Washington wildfire updates, re-verify 20 ongoing events (2026-08-14) (`10f5556`)
 
 - **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, canada-british-columbia-wildfires-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, south-korea-stock-market-crisis-2026, sri-lanka-floods-landslides-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, usa-washington-wildfires-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
