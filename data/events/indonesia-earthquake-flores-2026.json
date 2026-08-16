@@ -1,0 +1,64 @@
+{
+  "category": "earthquake",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-16",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+      "text": "USGS recorded a magnitude 7.7 earthquake on 14 August 2026 at 21:58:21 UTC, located 68 km NNW of Ende, Indonesia, at a depth of 10 km, resulting from reverse faulting where the Australia and Sunda plates converge. USGS's own monitoring detected no tsunami, assessed a Yellow PAGER alert level, and estimated approximately 2 million people exposed to strong-to-violent shaking (maximum MMI 8.38); 42 felt reports had been received as of retrieval.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-16",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558059",
+      "text": "GDACS's earthquake report (event id 1558059, episode 1725109) rates the event a Red alert for high humanitarian impact, with about 1.2 million people within zones of MMI VII or greater shaking, magnitude 7.7 at a depth of 10 km, and a recorded tsunami with a maximum wave height of 1.7 m. GDACS reports at least 51 deaths and approximately 5,000 people displaced, noting rescue teams are working to clear streets blocked by landslides and reach survivors trapped under rubble.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A magnitude 7.7 shallow earthquake struck off Flores Island in East Nusa Tenggara, Indonesia, on 14 August 2026 at 21:58:21 UTC (05:58 local time, 15 August), centered about 68 km NNW of Ende at a depth of 10 km, in a seismically active zone where the Australia and Sunda plates converge via reverse faulting. USGS assessed a Yellow PAGER alert level, with an estimated 2 million people exposed to strong-to-violent shaking (maximum MMI 8.38) and no tsunami detected by USGS's own monitoring. GDACS separately rated the event a Red alert for high humanitarian impact, with about 1.2 million people within zones of MMI VII or greater shaking, and recorded a tsunami with a maximum wave height of 1.7 m. GDACS reports at least 51 deaths and approximately 5,000 people displaced, noting rescue teams working to clear streets blocked by landslides and reach survivors trapped under rubble.",
+  "event": {
+    "impact": {
+      "deaths": 51,
+      "displaced": 5000,
+      "summary": "GDACS (Red alert) reports at least 51 deaths and approximately 5,000 people displaced, with about 1.2 million people exposed to MMI VII+ shaking and a tsunami of up to 1.7 m recorded; rescue teams are working to clear landslide-blocked streets and reach survivors trapped under rubble. USGS separately assessed a Yellow PAGER alert with about 2 million people exposed to strong-to-violent shaking (MMI 8.38 maximum) and did not detect a tsunami on its own monitoring network."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558059",
+    "location": {
+      "country": "Indonesia",
+      "lat": -8.3101,
+      "lon": 121.3517,
+      "region": "East Nusa Tenggara, Flores Island, near Ende"
+    },
+    "occurrence_date": "2026-08-14",
+    "scale": "M7.7",
+    "status": "ongoing"
+  },
+  "id": "indonesia-earthquake-flores-2026",
+  "last_updated": "2026-08-16T09:27:36Z",
+  "name": "M7.7 Earthquake, Flores, Indonesia",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-16T09:27:36Z",
+        "layer": "verify",
+        "run_id": "2026-08-16T09-27-36Z-91898c"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-16T09-27-36Z-91898c"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398422.0,
+    "impact_rank": 2,
+    "recency_rank": 739842
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

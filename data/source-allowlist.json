@@ -260,6 +260,18 @@
       "label": "Japan Ministry of Land, Infrastructure, Transport and Tourism (MLIT)"
     },
     {
+      "category": "event",
+      "domain": "governor.hawaii.gov",
+      "justification": "The Office of the Governor of Hawaiʻi is the US state executive agency that issues official emergency proclamations and coordinated state-response updates for disasters within the state; the same institutional tier as governor.wa.gov and gov.nv.gov, already allowlisted for other US state governments' own emergency declarations.",
+      "label": "Office of the Governor of Hawaiʻi"
+    },
+    {
+      "category": "event",
+      "domain": "hawaiicounty.gov",
+      "justification": "The County of Hawaiʻi (Hawaiʻi Island's county government) is the local government agency that issues its own emergency proclamations under Hawaii Revised Statutes Chapter 127A for disasters within the county; the same institutional tier as gov.bc.ca, already allowlisted for a sub-national government's own emergency declarations.",
+      "label": "County of Hawaiʻi"
+    },
+    {
       "category": "historical",
       "domain": "britannica.com",
       "justification": "Encyclopaedia Britannica has a stable named editorial board accountable for its entries, unlike community-edited references.",

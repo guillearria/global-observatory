@@ -1,0 +1,80 @@
+{
+  "category": "storm",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-16",
+      "source_name": "NOAA",
+      "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/150554.shtml",
+      "text": "NOAA's Central Pacific Hurricane Center advisory (11 PM HST, 15 August 2026): Hurricane Lala had maximum sustained winds of 75 mph (120 km/h) and a minimum central pressure of 988 mb, located near latitude 19.6N, longitude 157.0W, about 65 miles west of Kailua-Kona and 130 miles south-southeast of Honolulu, moving northwest at 15 mph with gradual weakening expected Sunday. Forecast rainfall totals were 4-8 inches for the Big Island and windward Maui with a storm-total maximum of 30-35 inches over windward Hawaii Island, and 4-6 inches (maximum 8 inches) for the remaining islands, with 1-3 feet of storm surge; the advisory warned these amounts 'will produce life-threatening flooding and mudslides, especially in areas of steep terrain.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-16",
+      "source_name": "County of Hawaiʻi",
+      "source_url": "https://www.hawaiicounty.gov/Home/Components/News/News/4619/720",
+      "text": "Emergency Proclamation Relating to Tropical Storm Lala, signed 14 August 2026 by C. Kimo Alameda, Ph.D., Mayor of the County of Hawaiʻi, under Hawaii Revised Statutes Chapter 127A, declaring a local state of emergency for Hawaiʻi County citing NWS forecasts of winds of 74-110 mph, rainfall of 8-12 inches (10-15 inches over windward areas), storm surge of 1-3 feet, and surf heights of 15-20 feet, with potential for 'considerable damage, downed trees and power lines, and power and communications disruptions.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-16",
+      "source_name": "Office of the Governor of Hawaiʻi",
+      "source_url": "https://governor.hawaii.gov/newsroom/news-release-state-of-hawai%ca%bbi-update-on-hurricane-lala/",
+      "text": "Governor Josh Green signed a statewide emergency proclamation on 13 August 2026 ahead of Tropical Storm Lala, mobilizing state agency personnel, equipment and resources; the Hawaiʻi National Guard was prepared to support response efforts. A follow-up state update (16 August) reports approximately 180 Hawaiʻi National Guard personnel positioned statewide, including a 41-member Task Force Hawaiʻi and a 19-member Task Force Maui, and confirms the Hawaiʻi Department of Transportation closed Hilo International Airport (ITO) and Ellison Onizuka Kona International Airport (KOA) at 2 p.m., with Hawaiʻi Island and Maui County commercial ports also closed to all terminal, facility and vessel operations absent US Coast Guard approval.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-16",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001303",
+      "text": "GDACS tracked the storm as Central Pacific tropical cyclone ONE-C-26, active 12-16 August 2026, rating it a Green alert (low humanitarian impact) with maximum sustained winds of 130 km/h (Category 1), an estimated 10,000 people affected by Category 1 or higher wind speeds, a maximum storm surge of 0.2 m, and 'low' vulnerability assessed for the United States.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Hurricane Lala strengthened to a Category 1 hurricane as it passed close to Hawaii Island on 15-16 August 2026, prompting a Hawaii County emergency proclamation (14 August, Mayor C. Kimo Alameda) and a statewide emergency proclamation (13 August, Governor Josh Green) ahead of the storm's approach. NOAA's Central Pacific Hurricane Center's 11 PM HST advisory on 15 August put Lala's maximum sustained winds at 75 mph with a central pressure of 988 mb, located about 65 miles west of Kailua-Kona and moving northwest at 15 mph, with forecast rainfall of up to 30-35 inches over windward Hawaii Island and warnings of life-threatening flash flooding and mudslides. A Hurricane Warning was in effect for Hawaii County and a Tropical Storm Warning for Maui, Oahu and Kauai counties. The State of Hawaiʻi activated approximately 180 National Guard personnel statewide, closed Hilo International Airport and Kona International Airport, and closed Hawaiʻi Island and Maui County commercial ports, while GDACS separately tracked the storm (as Central Pacific system ONE-C-26) as a Green/low-impact Category 1 system affecting an estimated 10,000 people. No death toll, injury count, or displacement figure has been confirmed via an allowlisted government or NOAA source as of this record.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "As of NOAA's 11 PM HST 15 August advisory, Lala was a Category 1 hurricane with 75 mph sustained winds and a 988 mb central pressure, about 65 miles west of Kailua-Kona and forecast to bring up to 30-35 inches of rain to windward Hawaii Island with life-threatening flash flooding and mudslide risk; a Hurricane Warning covered Hawaii County and a Tropical Storm Warning covered Maui, Oahu and Kauai counties. Hawaii County and the State of Hawaiʻi both issued emergency proclamations (14 and 13 August respectively) ahead of the storm's approach, and the state activated about 180 National Guard personnel, closed Hilo and Kona airports, and closed Hawaiʻi Island/Maui County commercial ports. No death toll, injury count, power-outage figure, or displacement total has been confirmed via an allowlisted government or NOAA source."
+    },
+    "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/150554.shtml",
+    "location": {
+      "country": "United States",
+      "lat": 19.6,
+      "lon": -157.0,
+      "region": "Hawaii Island (Big Island), spreading impacts to Maui, Oahu and Kauai"
+    },
+    "occurrence_date": "2026-08-15",
+    "scale": "Category 1 hurricane (75 mph sustained winds)",
+    "status": "ongoing"
+  },
+  "id": "usa-hawaii-hurricane-lala-2026",
+  "last_updated": "2026-08-16T09:27:36Z",
+  "name": "Hurricane Lala, Hawaii",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-16T09:27:36Z",
+        "layer": "verify",
+        "run_id": "2026-08-16T09-27-36Z-98c288"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-16T09-27-36Z-98c288"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398431.0,
+    "impact_rank": 1,
+    "recency_rank": 739843
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

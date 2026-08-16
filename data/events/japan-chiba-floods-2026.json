@@ -1,0 +1,64 @@
+{
+  "category": "flood",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-16",
+      "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
+      "source_url": "https://www.fdma.go.jp/disaster/info/items/20260813ooame10.pdf",
+      "text": "FDMA situation report No. 10 (16 August 2026, 10:00 JST, on the Chiba heavy rain disaster): Level 5 Heavy Rain Emergency Warnings were issued in stages for Chiba City and numerous surrounding municipalities between 19:30 on 13 August and 00:30 on 14 August, alongside Level 5 Landslide-Disaster Emergency Warnings for Chiba City, Ichihara, Mobara and Oamishirasato, Togane and Yachimata; by 05:15 on 14 August all Level 5 special warnings had been switched to Level 4 warnings. Chiba Prefecture's disaster response headquarters was established at 19:30 on 13 August, and FDMA established its own second-tier emergency disaster response headquarters the same evening.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-16",
+      "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
+      "source_url": "https://www.fdma.go.jp/disaster/info/items/20260813ooame10.pdf",
+      "text": "FDMA situation report No. 10 (16 August 2026, 10:00 JST) reports Chiba Prefecture's cumulative human and housing damage as: 8 deaths (of which 1 disaster-related), 3 missing, 35 injured in total; and 1,160 damaged housing units, comprising 1 total collapse, 23 half collapse, 597 flooded above floor level, 490 flooded below floor level and 49 partially damaged. The deaths are broken down as 3 in Chiba City, 1 in Ichikawa, 2 in Sakura, 1 in Yachiyo and 1 in Isumi. The report also states that all evacuation instructions that had been issued have been lifted ('発令されていた避難指示は全て解除').",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Record-breaking heavy rain struck Chiba Prefecture, Japan, from 13 August 2026, prompting Japan's highest-level Level 5 heavy rain and landslide-disaster special warnings, issued in stages across Chiba City and surrounding municipalities between 19:30 on 13 August and 00:30 on 14 August. Chiba Prefecture's disaster response headquarters was established at 19:30 on 13 August, and Japan's Fire and Disaster Management Agency (FDMA) set up its own disaster response headquarters (second-tier emergency posture) the same evening. By 05:15 on 14 August, all Level 5 special warnings had been downgraded to Level 4 warnings, and by the time of FDMA's tenth situation report (16 August, 10:00 JST), all evacuation instructions that had been issued had been fully lifted. FDMA's cumulative figures for Chiba Prefecture show 8 deaths (of which 1 is classified as a disaster-related death), 3 people missing, and a reported injured subtotal of 35 (quoted as printed in the source table, alongside severe/minor sub-figures of 23 and 26 that do not arithmetically sum to that subtotal), alongside 1,160 damaged housing units (1 total collapse, 23 half collapse, 597 flooded above floor level, 490 flooded below floor level, 49 partially damaged).",
+  "event": {
+    "impact": {
+      "deaths": 8,
+      "displaced": null,
+      "summary": "FDMA's Report No. 10 (16 August 2026, 10:00 JST) records, for Chiba Prefecture: 8 deaths (1 disaster-related), 3 missing, and 35 injured in total (a subtotal reported alongside severe/minor breakdowns of 23 and 26 respectively), plus 1,160 damaged housing units (1 total collapse, 23 half collapse, 597 flooded above floor level, 490 flooded below floor level, 49 partially damaged). Death locations within Chiba: 3 in Chiba City, 1 in Ichikawa, 2 in Sakura, 1 in Yachiyo, 1 in Isumi. All Level 5 special warnings issued on 13-14 August were downgraded to Level 4 by 05:15 on 14 August, and as of the 16 August report all evacuation instructions that had been issued have been fully lifted, indicating the acute hazard phase has passed. No allowlisted source has published a confirmed peak evacuation/displacement figure for this event."
+    },
+    "live_source_url": "https://www.fdma.go.jp/disaster/info/",
+    "location": {
+      "country": "Japan",
+      "lat": 35.6,
+      "lon": 140.1,
+      "region": "Chiba Prefecture (with lesser impacts in neighbouring Ibaraki Prefecture)"
+    },
+    "occurrence_date": "2026-08-13",
+    "scale": "Level 5 (highest) heavy rain and landslide-disaster special warning",
+    "status": "contained"
+  },
+  "id": "japan-chiba-floods-2026",
+  "last_updated": "2026-08-16T09:27:36Z",
+  "name": "Chiba Prefecture Record Heavy Rain, Japan",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-16T09:27:36Z",
+        "layer": "verify",
+        "run_id": "2026-08-16T09-27-36Z-4a5bfb"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-16T09-27-36Z-4a5bfb"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398411.0,
+    "impact_rank": 1,
+    "recency_rank": 739841
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
