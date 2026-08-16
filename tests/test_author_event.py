@@ -8,7 +8,7 @@ from pipeline.curate import _impact_rank, _recency_rank, finalize
 from pipeline.schema import ValidationError
 
 
-def _draft(source_url, **event_overrides):
+def _draft(source_url, updates=None, **event_overrides):
     event = {
         "occurrence_date": "2026-06-25",
         "location": {"country": "Venezuela", "region": "Near Moron"},
@@ -18,7 +18,7 @@ def _draft(source_url, **event_overrides):
         "live_source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/x",
     }
     event.update(event_overrides)
-    return {
+    draft = {
         "id": "test-event",
         "name": "Test Event",
         "category": "earthquake",
@@ -33,6 +33,9 @@ def _draft(source_url, **event_overrides):
             "verification_status": "verified",
         }],
     }
+    if updates is not None:
+        draft["updates"] = updates
+    return draft
 
 
 def test_allowlisted_event_finalizes_to_verified():
@@ -107,3 +110,121 @@ def test_finalize_mutates_in_place_no_writes():
     before = copy.deepcopy(_draft("https://earthquake.usgs.gov/x"))
     rec = finalize(before, kind="event")
     assert rec is before
+
+
+# --- updates[] development log ----------------------------------------------
+
+def test_updates_round_trip_through_finalize():
+    # Unordered, whitespace-padded, and duplicated entries in; normalized out.
+    rec = finalize(_draft("https://earthquake.usgs.gov/x", updates=[
+        {"date": "2026-06-26", "text": "  Toll revised to 12. "},
+        {"date": "2026-06-28", "text": "Displacement figure doubled."},
+        {"date": "2026-06-26", "text": "Toll revised to 12."},
+    ]), kind="event")
+    assert rec["updates"] == [
+        {"date": "2026-06-28", "text": "Displacement figure doubled."},
+        {"date": "2026-06-26", "text": "Toll revised to 12."},
+    ]
+
+
+def test_updates_rejects_bad_date():
+    with pytest.raises(ValidationError):
+        finalize(_draft("https://earthquake.usgs.gov/x",
+                        updates=[{"date": "06/26/2026", "text": "Toll revised."}]),
+                 kind="event")
+
+
+def test_updates_entry_cap():
+    entries = [{"date": f"2026-06-{d:02d}", "text": f"Development {d}."} for d in range(1, 31)]
+    rec = finalize(_draft("https://earthquake.usgs.gov/x", updates=list(entries)), kind="event")
+    assert len(rec["updates"]) == 30  # exactly at the cap passes
+    entries.append({"date": "2026-07-01", "text": "One too many."})
+    with pytest.raises(ValidationError):
+        finalize(_draft("https://earthquake.usgs.gov/x", updates=entries), kind="event")
+
+
+def test_updates_text_cap():
+    rec = finalize(_draft("https://earthquake.usgs.gov/x",
+                          updates=[{"date": "2026-06-26", "text": "x" * 400}]), kind="event")
+    assert len(rec["updates"][0]["text"]) == 400  # exactly at the cap passes
+    with pytest.raises(ValidationError):
+        finalize(_draft("https://earthquake.usgs.gov/x",
+                        updates=[{"date": "2026-06-26", "text": "x" * 401}]), kind="event")
+
+
+def test_updates_text_subject_to_prose_checks():
+    with pytest.raises(ValidationError):
+        finalize(_draft("https://earthquake.usgs.gov/x",
+                        updates=[{"date": "2026-06-26",
+                                  "text": "Re-checked 26 June: no change."}]),
+                 kind="event")
+
+
+def test_updates_rejects_unknown_keys():
+    with pytest.raises(ValidationError):
+        finalize(_draft("https://earthquake.usgs.gov/x",
+                        updates=[{"date": "2026-06-26", "text": "ok", "author": "x"}]),
+                 kind="event")
+
+
+# --- prose discipline --------------------------------------------------------
+
+def test_normalize_strips_event_fields():
+    rec = finalize(_draft("https://earthquake.usgs.gov/x",
+                          scale="  M7.5 ",
+                          impact={"deaths": 12, "displaced": 5000,
+                                  "summary": "  Figures as of 2026-06-30.  "},
+                          location={"country": "Venezuela", "region": "  Near Moron  "}),
+                   kind="event")
+    assert rec["event"]["scale"] == "M7.5"
+    assert rec["event"]["impact"]["summary"] == "Figures as of 2026-06-30."
+    assert rec["event"]["location"]["region"] == "Near Moron"
+
+
+def test_event_prose_rejects_process_narration():
+    bad = _draft("https://earthquake.usgs.gov/x")
+    bad["description"] = "Re-checked 8 August 2026: figures unchanged."
+    with pytest.raises(ValidationError):
+        finalize(bad, kind="event")
+    bad = _draft("https://earthquake.usgs.gov/x")
+    bad["event"]["impact"]["summary"] = "GDACS shows no newer episode for this event."
+    with pytest.raises(ValidationError):
+        finalize(bad, kind="event")
+
+
+def test_event_prose_rejects_allowlisted_mention():
+    bad = _draft("https://earthquake.usgs.gov/x")
+    bad["event"]["impact"]["summary"] = "No allowlisted source has declared the event resolved."
+    with pytest.raises(ValidationError):
+        finalize(bad, kind="event")
+
+
+def test_event_region_capped_and_phrase_checked():
+    bad = _draft("https://earthquake.usgs.gov/x",
+                 location={"country": "Venezuela", "region": "x" * 201})
+    with pytest.raises(ValidationError):
+        finalize(bad, kind="event")
+    bad = _draft("https://earthquake.usgs.gov/x",
+                 location={"country": "Venezuela",
+                           "region": "Near Moron (pending any newer GDACS episode)"})
+    with pytest.raises(ValidationError):
+        finalize(bad, kind="event")
+
+
+def test_event_prose_length_caps():
+    ok = _draft("https://earthquake.usgs.gov/x")
+    ok["description"] = "y" * 1200
+    assert finalize(ok, kind="event")["verification"]["status"] == "verified"
+    bad = _draft("https://earthquake.usgs.gov/x")
+    bad["description"] = "y" * 1201
+    with pytest.raises(ValidationError):
+        finalize(bad, kind="event")
+
+
+def test_claims_text_exempt_from_prose_checks():
+    # Legacy claims kept verbatim through the cleanup carry process prefixes; claim
+    # text is never restyled, so the prose checks must not reach it.
+    draft = _draft("https://earthquake.usgs.gov/x")
+    draft["claims"][0]["text"] = "Re-confirmed by direct fetch on 30 June 2026: 12 deaths."
+    rec = finalize(draft, kind="event")
+    assert rec["verification"]["status"] == "verified"

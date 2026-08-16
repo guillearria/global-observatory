@@ -42,7 +42,10 @@
         "other"
       ]
     },
-    "description": { "type": "string" },
+    "description": {
+      "type": "string",
+      "description": "Current-state editorial prose (2-4 sentences): what happened, where, and where it stands now. Rewritten in place on refresh, never appended to. Process narration is refused by the Python prose checks; dated developments belong in updates[]."
+    },
     "event": {
       "type": "object",
       "additionalProperties": false,
@@ -93,13 +96,13 @@
             "displaced": { "type": ["number", "null"] },
             "summary": {
               "type": "string",
-              "description": "Cached snapshot of impact. Figures are as of the claims' retrieved_date; the live source keeps the authoritative running total."
+              "description": "Cached snapshot of impact: 1-3 sentences of current figures, rewritten in place on refresh. Invariant: the frontend's 'Figures as of' derives from max(claims[].retrieved_date) — never from last_updated, which every pipeline run re-stamps even when figures are untouched. The live source keeps the authoritative running total."
             }
           }
         },
         "live_source_url": {
           "type": "string",
-          "description": "Authoritative live page that keeps updating (may be empty). Allowlist-checked for the 'live source' badge."
+          "description": "Authoritative live page that keeps updating (may be empty). Allowlist-checked; the frontend pairs it with the 'Figures as of' line as the 'live at source' link."
         }
       }
     },
@@ -135,6 +138,22 @@
             "type": "string",
             "enum": ["verified", "unverified", "disputed"]
           }
+        }
+      }
+    },
+    "updates": {
+      "type": "array",
+      "description": "Optional dated development log, newest first. One entry per MATERIAL development or correction (a figure revision, a status change, a source correcting itself) — a re-verify that finds nothing changed bumps the confirming claim's retrieved_date in place and adds no entry. Python-enforced caps: 30 entries, 400 chars each, prose checks apply. Mirrors provenance's capped-append precedent; feeds no derived field, so it is deliberately unaudited.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["date", "text"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "description": "ISO-8601 date (YYYY-MM-DD) of the development."
+          },
+          "text": { "type": "string" }
         }
       }
     },

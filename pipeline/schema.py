@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import functools
 import json
+from datetime import date
 
 import jsonschema
 
@@ -102,6 +103,96 @@ _RANGE_CHECKS = {
 }
 
 
+# --- Prose discipline --------------------------------------------------------
+# description and the kind summary are current-state editorial prose, rewritten in
+# place on refresh. These checks refuse the two ways past refreshes degraded them:
+# process narration ("Re-checked 8 August …") and unbounded append growth. Scope is
+# prose fields only — claims[].text is exempt (legacy claims kept verbatim carry
+# process prefixes, and old claim text is never restyled).
+
+def _prose_fields(record: dict, kind: str) -> list[tuple[str, str, int]]:
+    """(path, text, max_chars) triples of the prose fields this kind must keep clean."""
+    fields = [("description", record.get("description"), config.DESCRIPTION_MAX_CHARS)]
+    if kind == "threat":
+        summary = (record.get("assessment") or {}).get("summary")
+        fields.append(("assessment.summary", summary, config.SUMMARY_MAX_CHARS))
+    elif kind == "historical":
+        summary = ((record.get("historical") or {}).get("impact") or {}).get("summary")
+        fields.append(("historical.impact.summary", summary, config.SUMMARY_MAX_CHARS))
+    else:
+        ev = record.get("event") or {}
+        fields.append(
+            ("event.impact.summary", (ev.get("impact") or {}).get("summary"),
+             config.SUMMARY_MAX_CHARS))
+        fields.append(
+            ("event.location.region", (ev.get("location") or {}).get("region"),
+             config.EVENT_REGION_MAX_CHARS))
+        for i, entry in enumerate(record.get("updates") or []):
+            if isinstance(entry, dict):
+                fields.append(
+                    (f"updates[{i}].text", entry.get("text"),
+                     config.EVENT_UPDATE_TEXT_MAX_CHARS))
+    # Non-string values are the JSON Schema's problem, not ours.
+    return [(path, text, cap) for path, text, cap in fields if isinstance(text, str)]
+
+
+def _updates_checks(record: dict) -> list[str]:
+    """Shape checks for the event `updates[]` development log (events only)."""
+    msgs = []
+    updates = record.get("updates")
+    if updates is None:
+        return msgs
+    if not isinstance(updates, list):
+        return msgs  # the JSON Schema reports the type mismatch
+    if len(updates) > config.EVENT_UPDATES_MAX_ENTRIES:
+        msgs.append(
+            f"updates: {len(updates)} entries exceeds the cap of "
+            f"{config.EVENT_UPDATES_MAX_ENTRIES} — condense older entries"
+        )
+    dates = []
+    for i, entry in enumerate(updates):
+        if not isinstance(entry, dict):
+            continue  # schema reports it
+        raw = entry.get("date")
+        if not isinstance(raw, str):
+            continue  # schema reports it
+        try:
+            dates.append(date.fromisoformat(raw))
+        except ValueError:
+            msgs.append(f"updates[{i}].date: {raw!r} is not an ISO date (YYYY-MM-DD)")
+            dates.append(None)
+    known = [d for d in dates if d is not None]
+    if known != sorted(known, reverse=True):
+        msgs.append("updates: entries must be sorted newest-first by date")
+    return msgs
+
+
+def _prose_checks(record: dict, kind: str) -> list[str]:
+    """Length caps + forbidden process-language substrings on prose fields."""
+    forbidden = (
+        config.EVENT_PROSE_FORBIDDEN_PHRASES if kind == "event"
+        else config.PROSE_FORBIDDEN_PHRASES
+    )
+    msgs = []
+    for path, text, cap in _prose_fields(record, kind):
+        if len(text) > cap:
+            msgs.append(
+                f"{path}: {len(text)} chars exceeds the {cap}-char cap — keep it "
+                "current-state prose; dated developments belong in updates[]"
+            )
+        lowered = text.lower()
+        for phrase in forbidden:
+            if phrase in lowered:
+                msgs.append(
+                    f"{path}: contains process language ({phrase!r}) — rewrite as "
+                    "current-state prose; re-verification notes belong in updates[] "
+                    "or in claims' retrieved_date, never in prose"
+                )
+    if kind == "event":
+        msgs += _updates_checks(record)
+    return msgs
+
+
 def validate_source_allowlist(doc: dict) -> list[str]:
     """Validate the source allowlist document. Returns a list of problems (empty = valid).
 
@@ -140,6 +231,7 @@ def validate(record: dict, kind: str = "threat") -> None:
         msgs.append(f"id: {slug!r} does not match ^[a-z0-9-]+$")
 
     msgs += _RANGE_CHECKS[kind](record)
+    msgs += _prose_checks(record, kind)
 
     if msgs:
         raise ValidationError("; ".join(msgs))

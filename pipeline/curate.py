@@ -37,6 +37,34 @@ def _normalize(record: dict) -> dict:
     if isinstance((h.get("impact") or {}).get("summary"), str):
         h["impact"]["summary"] = h["impact"]["summary"].strip()
 
+    ev = record.get("event", {})
+    if isinstance(ev.get("scale"), str):
+        ev["scale"] = ev["scale"].strip()
+    if isinstance((ev.get("impact") or {}).get("summary"), str):
+        ev["impact"]["summary"] = ev["impact"]["summary"].strip()
+    if isinstance((ev.get("location") or {}).get("region"), str):
+        ev["location"]["region"] = ev["location"]["region"].strip()
+
+    # The event development log: strip, dedupe exact repeats, newest-first. Shape
+    # problems (non-dict entries, bad dates) are left for schema.validate to report;
+    # over-cap length is a validation error too — nothing is silently truncated.
+    updates = record.get("updates")
+    if isinstance(updates, list) and all(isinstance(u, dict) for u in updates):
+        seen_updates: set[tuple[str, str]] = set()
+        deduped: list[dict] = []
+        for u in updates:
+            if isinstance(u.get("date"), str):
+                u["date"] = u["date"].strip()
+            if isinstance(u.get("text"), str):
+                u["text"] = u["text"].strip()
+            key = (str(u.get("date", "")), str(u.get("text", "")).lower())
+            if key in seen_updates:
+                continue
+            seen_updates.add(key)
+            deduped.append(u)
+        deduped.sort(key=lambda u: str(u.get("date", "")), reverse=True)  # stable
+        record["updates"] = deduped
+
     seen: set[str] = set()
     claims: list[dict] = []
     for c in sorted(record.get("claims", []), key=lambda c: c.get("id", "")):

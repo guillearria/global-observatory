@@ -89,8 +89,10 @@ sessions editing the same record is not something to auto-resolve. But "loudly" 
 run nobody is watching. Staleness bounds the damage — a sustained outage still trips the >2-day
 check — but a single lost run passes unnoticed. Worth fixing: the `frontend/data/*.json` conflicts
 are spurious (the aggregates are derived and could simply be rebuilt post-merge), which would leave
-only genuine record-level conflicts to fail on. Have the refresh commands `git pull --rebase` onto
-current `main` before pushing, too.
+only genuine record-level conflicts to fail on. *(Narrowed 2026-08-16 — all three refresh commands
+now rebase onto current `main` immediately before pushing, rebuilding the derived aggregates on a
+spurious conflict and stopping loudly on a real `data/**` one. The publish-side rebuild remains
+open.)*
 
 **Audited 2026-08-05 — five abandoned branches, but two different failure modes.** A sweep of
 `origin/claude/*` found five branches the routines left behind, and it is worth keeping them
@@ -173,13 +175,14 @@ Three things look like leftovers from the PR era but are intentional:
 
 ## Housekeeping — small, known, not yet done
 
-- **Five orphaned remote branches.** `claude/trusting-archimedes-{t109kw,h17mg9,vhto1g}` (the closed
-  threat PRs #12/#13/#14) and `claude/trusting-wright-{cyb9hp,ls09pf}` (leftover events runs, one of
-  them the conflicted 2026-07-13 publish above). Deleting them failed from the cloud session — the
-  git proxy rejects delete refspecs with `send-pack: unexpected disconnect` — so they need removing
-  from a local clone or the GitHub UI. Worth doing rather than ignoring: the refresh commands now
-  tell each run to inspect leftover `claude/*` branches before drafting, so stale ones actively
-  mislead.
+- **Orphaned remote branches.** A 2026-08-05 sweep found five (`claude/trusting-archimedes-*`,
+  `claude/trusting-wright-*`); deleting them failed from the cloud session — the git proxy rejects
+  delete refspecs with `send-pack: unexpected disconnect` — so they need removing from a local
+  clone or the GitHub UI. Worth doing rather than ignoring: the refresh commands tell each run to
+  inspect leftover `claude/*` branches before drafting, so stale ones actively mislead. A branch
+  merged to `main` by hand also orphans its pointer (`publish` only deletes branches it merged
+  itself) — `claude/world-pulse-ux-fixes-f8t81v` sat that way after b231d04 until the 2026-08-16
+  cleanup.
 - **The ruff pin needs a human bump eventually.** `ruff>=0.16,<0.17` stops the drift that broke CI,
   but nothing adopts 0.17 on its own. When bumping, expect new findings and treat them as the pin
   having done its job — not as a regression.
@@ -217,7 +220,9 @@ Three things look like leftovers from the PR era but are intentional:
   passage, a clearer verified/partial distinction, and a small legend for the trust badges. For the
   Historical Archive: century sub-grouping or filtering once the timeline grows past ~60 records.
   *(Partly done 2026-08-10 — the threats pane filters by category/severity and the archive sorts
-  by date and filters by type; search and the trust-badge legend remain.)*
+  by date and filters by type. Partly done 2026-08-16 — compact three-badge cards with per-record
+  detail views: full prose, key figures, the `updates[]` timeline, and always-expanded citations
+  on `#pulse/<id>`-style routes. Search and the trust-badge legend remain.)*
 - **World Pulse map/lat-lon** *(Done 2026-07-05 — optional `lat`/`lon` landed in the event schema
   with the map as their consumer: a self-contained NASA Blue Marble basemap in `frontend/map.js`
   with pan/zoom and impact-scaled markers. All four events carry coordinates; `/refresh-events`
