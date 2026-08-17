@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T10:13:07Z",
+  "last_updated": "2026-08-17T10:11:17Z",
   "published": [
     {
       "assessment": {
@@ -269,6 +269,71 @@
     {
       "assessment": {
         "probability": {
+          "estimate": "high",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "continental",
+        "summary": "A present, quantified concentration risk — a single country supplies the U.S. with a major share of over a third of the minerals it most depends on importing — that has already produced real 2025 supply shocks and price spikes, with escalation to a broader multi-country industrial disruption a live risk.",
+        "timeframe": "Ongoing and worsening; the U.S. critical minerals list and import-reliance figures are reassessed annually, and 2025 already saw China's export controls disrupt automaker production and double the value of U.S. processed-mineral imports."
+      },
+      "category": "resource",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-08-17",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/news/national-news-release/value-us-mineral-production-rose-last-year-driven-precious-metals-prices",
+          "text": "The U.S. remained reliant on imports from China as a major source for 14 of the 33 critical minerals for which the United States most depends on imports (USGS Mineral Commodity Summaries 2026).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-08-17",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/news/national-news-release/value-us-mineral-production-rose-last-year-driven-precious-metals-prices",
+          "text": "Net imports of processed metals and materials more than doubled by value, from $77 billion in 2024 to $185 billion in 2025, and the Mineral Commodity Summaries 2026 covers 14 minerals, from antimony to tungsten, that China restricts exporting to the United States (USGS Mineral Commodity Summaries 2026).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-08-17",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/news/science-snippet/interior-department-releases-final-2025-list-critical-minerals",
+          "text": "The Department of the Interior's final 2025 List of Critical Minerals, published November 6, 2025 by USGS, identifies 60 minerals vital to the U.S. economy and national security whose supply chains face potential disruption risk, adding 10 new minerals — including copper, silver, and uranium — to the list.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The energy, defense, and technology sectors depend on a small set of minerals — rare earths, lithium, cobalt, antimony, and dozens of others — whose mining and, especially, refining are geographically concentrated in a handful of countries. Export restrictions, geopolitical tension, or a shock to a single dominant supplier can disrupt processed-material flows worldwide with little substitution available in the short term, as China's 2025 export controls on rare earths and antimony already demonstrated by forcing automakers to cut production and sending prices sharply higher.",
+      "id": "critical-mineral-supply-chain-disruption",
+      "last_updated": "2026-08-17T10:11:17Z",
+      "name": "Critical Mineral Supply Chain Disruption",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-08-17T10:11:17Z",
+            "layer": "verify",
+            "run_id": "2026-08-17T10-11-17Z-3efddc"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-08-17T10-11-17Z-3efddc"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 24.0,
+        "probability_rank": 4,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
           "estimate": "low",
           "numeric_annual": null,
           "window": "next-100-years"
@@ -339,50 +404,50 @@
           "window": "ongoing"
         },
         "severity": "continental",
-        "summary": "A present, quantified toll of hundreds of thousands of conflict-related deaths a year across dozens of countries, with fatalities and the count of major wars both trending upward — carrying a real risk of wider regional escalation.",
-        "timeframe": "Chronic and ongoing, with conflict-related fatalities at their highest annual level in years and the number of major conflicts rising."
+        "summary": "A present, quantified toll of hundreds of thousands of conflict-related deaths a year across dozens of countries; overall fatalities eased slightly in 2025 but stayed higher than any other year since 2018, while the number of interstate conflicts doubled.",
+        "timeframe": "Chronic and ongoing, with conflict-related fatalities near a multi-year high and interstate armed conflict rising sharply in 2025."
       },
       "category": "societal",
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-07-06",
+          "retrieved_date": "2026-08-17",
           "source_name": "SIPRI",
-          "source_url": "https://www.sipri.org/yearbook/2025/02",
-          "text": "The number of locations of armed conflict fell slightly, from 51 states in 2023 to 49 in 2024, while the estimated overall number of fatalities rose from 188,000 in 2023 to 239,000 in 2024 — the highest annual total in the period 2018-24 (SIPRI Yearbook 2025).",
+          "source_url": "https://www.sipri.org/yearbook/2026/02",
+          "text": "The overall estimated number of conflict-related fatalities reduced slightly, by 4.2 per cent, from 249,000 in 2024 to 238,000 in 2025 — still higher than any other year in the period 2018-25 (SIPRI Yearbook 2026).",
           "verification_status": "verified"
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-07-06",
+          "retrieved_date": "2026-08-17",
           "source_name": "SIPRI",
-          "source_url": "https://www.sipri.org/yearbook/2025/02",
-          "text": "There were five major armed conflicts involving over 10,000 estimated conflict-related fatalities in 2024, one more than in 2023: the Israel-Hamas and Russia-Ukraine wars, the civil wars in Myanmar and Sudan, and the subnational conflict in Ethiopia (SIPRI Yearbook 2025).",
+          "source_url": "https://www.sipri.org/yearbook/2026/02",
+          "text": "There were five major armed conflicts in 2025 (involving over 10,000 conflict-related fatalities each), one more than in 2024, while the number of high-intensity conflicts (1,000-9,999 fatalities) fell from 23 in 2024 to 20 in 2025 (SIPRI Yearbook 2026).",
           "verification_status": "verified"
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-07-06",
+          "retrieved_date": "2026-08-17",
           "source_name": "SIPRI",
-          "source_url": "https://www.sipri.org/yearbook/2025/02",
-          "text": "The number of high-intensity conflicts, with 1,000-9,999 estimated conflict-related fatalities, fell from 20 in 2023 to 19 in 2024 (SIPRI Yearbook 2025).",
+          "source_url": "https://www.sipri.org/yearbook/2026/02",
+          "text": "The number of interstate armed conflicts doubled from three in 2024 to six in 2025, involving at least 13 states, while the number of states with armed conflict on their territory fell slightly from 50 in 2024 to 49 in 2025 (SIPRI Yearbook 2026).",
           "verification_status": "verified"
         }
       ],
-      "description": "Ongoing state-based and civil wars that already kill hundreds of thousands annually and displace tens of millions more, with conflict-related fatalities and the number of major wars trending upward in recent years. Escalation, spillover between neighboring conflicts, and breakdown of humanitarian norms are the primary pathways to wider regional or global instability.",
+      "description": "Ongoing state-based and civil wars that already kill hundreds of thousands annually and displace tens of millions more, with conflict-related fatalities holding near their highest annual level in years and interstate conflict doubling in 2025. Escalation, spillover between neighboring conflicts, and breakdown of humanitarian norms are the primary pathways to wider regional or global instability.",
       "id": "global-armed-conflict",
-      "last_updated": "2026-07-06T10:07:17Z",
+      "last_updated": "2026-08-17T10:09:17Z",
       "name": "Global Armed Conflict",
       "provenance": {
         "history": [
           {
-            "at": "2026-07-06T10:07:17Z",
+            "at": "2026-08-17T10:09:17Z",
             "layer": "verify",
-            "run_id": "2026-07-06T10-07-17Z-26b528"
+            "run_id": "2026-08-17T10-09-17Z-1a2c3a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-06T10-07-17Z-26b528"
+        "last_run_id": "2026-08-17T10-09-17Z-1a2c3a"
       },
       "schema_version": "1.0",
       "sort_keys": {
