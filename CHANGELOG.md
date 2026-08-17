@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-17 — Daily World Pulse refresh: re-verify 6 ongoing events (Ebola DRC, Sudan cholera, El Obeid siege, Sudan displacement, Haiti gang violence, West Bank settler violence) (2026-08-17) (`606cc26`)
+
+- **Updated:** ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, west-bank-settler-violence-surge-2026
+
 ## 2026-08-16 — Daily World Pulse refresh: add Indonesia Flores M7.7 quake, Hurricane Lala Hawaii, Chiba Japan floods; Colombia/Kumamoto/Venezuela/Mindanao/Pakistan escalations; re-verify 21 ongoing events (2026-08-16) (`3b86215`)
 
 - **Added:** indonesia-earthquake-flores-2026, japan-chiba-floods-2026, usa-hawaii-hurricane-lala-2026

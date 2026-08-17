@@ -16,14 +16,30 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558059",
       "text": "GDACS's earthquake report (event id 1558059, episode 1725109) rates the event a Red alert for high humanitarian impact, with about 1.2 million people within zones of MMI VII or greater shaking, magnitude 7.7 at a depth of 10 km, and a recorded tsunami with a maximum wave height of 1.7 m. GDACS reports at least 51 deaths and approximately 5,000 people displaced, noting rescue teams are working to clear streets blocked by landslides and reach survivors trapped under rubble.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-17",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558059",
+      "text": "Re-checked 17 August 2026: GDACS's event report (event id 1558059, episode 1725109, Red alert, score 2.4) now carries media citations (Punch NG: \"The 7.7-magnitude quake early on Saturday killed 54 people and injured more than 100\" and \"Earthquake kills 54, displaces 12,800 in Indonesia\"; Asahi: \"a powerful earthquake killed at least 54 people, injured dozens and damaged hundreds of homes\") putting the toll at 54 deaths, more than 100 injured and about 12,800 people displaced -- up from the 51 deaths/~5,000 displaced recorded on 16 August. These figures are attributed to media sources referenced on the GDACS page rather than to a dedicated GDACS/Sendai casualty assessment. The recorded tsunami remains at a maximum wave height of about 1.68 m.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-17",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=text&starttime=2026-08-14&endtime=2026-08-18&minmagnitude=5.5&minlatitude=-10&maxlatitude=-6&minlongitude=119&maxlongitude=123&orderby=magnitude",
+      "text": "USGS's earthquake catalog for the area around Flores/Ende, Indonesia (14-18 August 2026, M5.5+) lists a sustained aftershock sequence following the M7.7 mainshock (14 August 21:58:21 UTC): a M6.1 aftershock 58 km N of Ende (14 August 22:28:37 UTC), M5.9 36 km NE of Labuan Bajo (22:13:50 UTC), M5.6 61 km NNW of Ende (22:18:06 UTC), M5.5 61 km ENE of Ruteng (22:17:00 UTC) and M5.5 49 km NE of Labuan Bajo (22:37:17 UTC) on 14 August, a further M5.5 76 km N of Ruteng on 16 August (06:51:47 UTC), and continuing seismicity through at least 17 August with a M5.7 event 65 km NNW of Ende at 00:46:45 UTC.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.7 shallow earthquake struck off Flores Island in East Nusa Tenggara, Indonesia, on 14 August 2026 at 21:58:21 UTC (05:58 local time, 15 August), centered about 68 km NNW of Ende at a depth of 10 km, in a seismically active zone where the Australia and Sunda plates converge via reverse faulting. USGS assessed a Yellow PAGER alert level, with an estimated 2 million people exposed to strong-to-violent shaking (maximum MMI 8.38) and no tsunami detected by USGS's own monitoring. GDACS separately rated the event a Red alert for high humanitarian impact, with about 1.2 million people within zones of MMI VII or greater shaking, and recorded a tsunami with a maximum wave height of 1.7 m. GDACS reports at least 51 deaths and approximately 5,000 people displaced, noting rescue teams working to clear streets blocked by landslides and reach survivors trapped under rubble.",
+  "description": "A magnitude 7.7 shallow earthquake struck off Flores Island in East Nusa Tenggara, Indonesia, on 14 August 2026 at 21:58:21 UTC (05:58 local time, 15 August), centered about 68 km NNW of Ende at a depth of 10 km, in a seismically active zone where the Australia and Sunda plates converge via reverse faulting. USGS assessed a Yellow PAGER alert level, with an estimated 2 million people exposed to strong-to-violent shaking (maximum MMI 8.38) and no tsunami detected by USGS's own monitoring. GDACS separately rated the event a Red alert for high humanitarian impact, with about 1.2 million people within zones of MMI VII or greater shaking, and recorded a tsunami with a maximum wave height of 1.7 m. GDACS reports at least 51 deaths and approximately 5,000 people displaced, noting rescue teams working to clear streets blocked by landslides and reach survivors trapped under rubble. Re-checked 17 August 2026: GDACS's event report (episode 1725109, still Red alert, score 2.4) now cites media reports (Punch NG, Asahi) putting the toll at 54 deaths, more than 100 injured and about 12,800 people displaced, up from 51 deaths/~5,000 displaced on 16 August, with hundreds of homes and other buildings reported damaged; these figures are media citations on the GDACS page rather than a dedicated GDACS casualty assessment. USGS's earthquake catalog confirms a sustained aftershock sequence, the largest a M6.1 event 58 km N of Ende (14 August 22:28 UTC), with continuing seismicity (M5.7) as recently as 00:46 UTC on 17 August; USGS's own PAGER alert remains Yellow.",
   "event": {
     "impact": {
-      "deaths": 51,
-      "displaced": 5000,
-      "summary": "GDACS (Red alert) reports at least 51 deaths and approximately 5,000 people displaced, with about 1.2 million people exposed to MMI VII+ shaking and a tsunami of up to 1.7 m recorded; rescue teams are working to clear landslide-blocked streets and reach survivors trapped under rubble. USGS separately assessed a Yellow PAGER alert with about 2 million people exposed to strong-to-violent shaking (MMI 8.38 maximum) and did not detect a tsunami on its own monitoring network."
+      "deaths": 54,
+      "displaced": 12800,
+      "summary": "GDACS (Red alert) reports at least 51 deaths and approximately 5,000 people displaced, with about 1.2 million people exposed to MMI VII+ shaking and a tsunami of up to 1.7 m recorded; rescue teams are working to clear landslide-blocked streets and reach survivors trapped under rubble. USGS separately assessed a Yellow PAGER alert with about 2 million people exposed to strong-to-violent shaking (MMI 8.38 maximum) and did not detect a tsunami on its own monitoring network. Re-checked 17 August 2026: GDACS's event report (episode 1725109, still Red alert, score 2.4) now cites media reports (Punch NG, Asahi) putting the toll at 54 deaths, more than 100 injured and about 12,800 people displaced, up from 51 deaths/~5,000 displaced on 16 August, with hundreds of homes and other buildings reported damaged; these figures are media citations on the GDACS page rather than a dedicated GDACS casualty assessment. USGS's earthquake catalog confirms a sustained aftershock sequence, the largest a M6.1 event 58 km N of Ende (14 August 22:28 UTC), with continuing seismicity (M5.7) as recently as 00:46 UTC on 17 August; USGS's own PAGER alert remains Yellow."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558059",
     "location": {
@@ -33,22 +49,22 @@
       "region": "East Nusa Tenggara, Flores Island, near Ende"
     },
     "occurrence_date": "2026-08-14",
-    "scale": "M7.7",
+    "scale": "M7.7; GDACS Red alert (score 2.4); at least 54 deaths, ~12,800 displaced (17 Aug); sustained aftershock sequence, largest M6.1",
     "status": "ongoing"
   },
   "id": "indonesia-earthquake-flores-2026",
-  "last_updated": "2026-08-16T09:27:36Z",
+  "last_updated": "2026-08-17T09:17:51Z",
   "name": "M7.7 Earthquake, Flores, Indonesia",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-16T09:27:36Z",
+        "at": "2026-08-17T09:17:51Z",
         "layer": "verify",
-        "run_id": "2026-08-16T09-27-36Z-91898c"
+        "run_id": "2026-08-17T09-17-51Z-3ea996"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-16T09-27-36Z-91898c"
+    "last_run_id": "2026-08-17T09-17-51Z-3ea996"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -58,7 +74,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
