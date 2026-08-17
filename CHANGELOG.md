@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-17 — Daily World Pulse refresh: Sri Lanka floods and Indonesia Flores quake escalations, re-verify Pakistan floods/Colombia quake unchanged (2026-08-17) (`8961856`)
+
+- **Updated:** colombia-earthquake-choco-2026, indonesia-earthquake-flores-2026, pakistan-floods-2026, sri-lanka-floods-landslides-2026
+
 ## 2026-08-17 — Daily World Pulse refresh: re-verify 6 ongoing events (Ebola DRC, Sudan cholera, El Obeid siege, Sudan displacement, Haiti gang violence, West Bank settler violence) (2026-08-17) (`606cc26`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, west-bank-settler-violence-surge-2026
