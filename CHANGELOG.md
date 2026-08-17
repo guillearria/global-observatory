@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-17 — Daily World Pulse refresh: add Philippines Southwest Monsoon / Tropical Cyclones Luis-Maymay floods (2026-08-17) (`3be8477`)
+
+- **Added:** philippines-floods-luis-maymay-2026
+
 ## 2026-08-17 — Daily World Pulse refresh: BC wildfires/Washington wildfires/Hurricane Lala updates (2026-08-17) (`deeb6d8`)
 
 - **Updated:** canada-british-columbia-wildfires-2026, usa-hawaii-hurricane-lala-2026, usa-washington-wildfires-2026
