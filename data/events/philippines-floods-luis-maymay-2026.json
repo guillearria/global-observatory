@@ -1,0 +1,72 @@
+{
+  "category": "flood",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-17",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/indonesia/asean-weekly-disaster-update-week-32-3-9-august-2026",
+      "text": "ASEAN Weekly Disaster Update Week 32 | 3-9 August 2026 (AHA Centre, posted on ReliefWeb 11 August 2026): 'In the Philippines, the combined effects of the enhanced Southwest Monsoon, Tropical Depression LUIS, and Tropical Cyclone KUJIRA triggered widespread flooding, landslides, and strong winds across Regions I, II, III, IVA, IVB, V, VI, IX, and CAR. According to the NDRRMC, as of 10 August 2026 at 0700H UTC+7, these disasters have affected approximately 586K people (171K families), with about 32.8K people currently displaced, of whom 21.7K are being served in 293 evacuation centres. The events resulted in 8 fatalities, 9 injuries, and 1 missing person... In response, the NDRRMOC alert status was raised to RED, while the NDRRMC activated the Inter-Agency Coordinating Cell and NDRRMC Response Clusters to coordinate ongoing response efforts.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-17",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/philippines/flash-update-no-1-tropical-cyclone-kujira-5-august-2026",
+      "text": "Flash Update No. 1 - Tropical Cyclone KUJIRA - 5 August 2026 (AHA Centre, ReliefWeb): 'NDRRMC, together with its regional offices and relevant authorities, is currently responding to the Combined Effects of Tropical Cyclone \"Luis\" and the Enhanced Southwest Monsoon which have affected Regions I, II, III, V, IX, and CAR since 30 July 2026. According to NDRRMC Situation Report No. 2, a total of 41,957 individuals (12,410 families) have been affected, of which 5,818 people (1,821 families) were served in side 14 evacuation centres... The NDRRMOC Alert Status is on BLUE.' The bulletin also records Tropical Storm KUJIRA (local name Maymay) at 65 km/h sustained winds, forecast to make landfall over Ilocos Sur or La Union, with PAGASA Tropical Cyclone Wind Signals No. 1 and No. 2 raised over Northern Luzon.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-17",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/philippines/phl-cyclone-08-2026-philippines-southwest-monsoon-enhanced-tropical-cyclones-maymay-and-dolphin-2026-08-13",
+      "text": "PHL: Cyclone - 08-2026 - Philippines Southwest Monsoon enhanced by Tropical Cyclones Maymay and Dolphin (IFRC / Philippine Red Cross, posted on ReliefWeb 13 August 2026): confirms Tropical Depression MAYMAY intensified into Tropical Storm MAYMAY (international name Kujira) by 5 August 2026 and made landfall over the Ilocos Sur-La Union area on 6 August 2026, continuing to weaken while crossing Northern Luzon before its remnant merged with Tropical Cyclone DOLPHIN's larger circulation; the Philippine Red Cross supported local authorities with damage/needs assessment, search and rescue, evacuations, and relief distribution, and reports that 'almost 500 million PHP worth of assistance has been provided' by government agencies and partners, with 'hundreds of evacuation centers... operational.'",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Beginning around 30 July 2026, an enhanced Southwest Monsoon (Habagat) combined with Tropical Depression LUIS and Tropical Storm MAYMAY (international name KUJIRA, which made landfall over the Ilocos Sur-La Union area on 6 August 2026) triggered widespread flooding, landslides and strong winds across Regions I, II, III, IVA, IVB, V, VI, IX and CAR of the Philippines. The Philippines' National Disaster Risk Reduction and Management Council (NDRRMC) raised its Operations Center alert status to RED and activated its Inter-Agency Coordinating Cell and Response Clusters. The ASEAN Coordinating Centre for Humanitarian Assistance (AHA Centre), reporting via ReliefWeb, recorded that as of 10 August 2026 the disasters had affected approximately 586,000 people (171,000 families), displaced about 32,800 people (21,700 of them in 293 evacuation centres), and caused 8 deaths, 9 injuries and 1 missing person, alongside damage to 306 houses, 437 road sections and 27 bridges. A further system, Typhoon DOLPHIN, continued to enhance the monsoon rains in the following days. Subsequent Philippine government reporting (not yet independently confirmed on an allowlisted source) indicated the toll continued to climb through mid-August as rains persisted.",
+  "event": {
+    "impact": {
+      "deaths": 8,
+      "displaced": 32800,
+      "summary": "Per the AHA Centre's ASEAN Weekly Disaster Update (Week 32, posted on ReliefWeb 11 August 2026), the combined effects of the enhanced Southwest Monsoon, Tropical Depression LUIS and Tropical Cyclone KUJIRA/MAYMAY had, as of 10 August 2026, affected approximately 586,000 people (171,000 families) with about 32,800 people displaced (21,700 in 293 evacuation centres), 8 deaths, 9 injuries and 1 person missing, plus damage to 306 houses, 437 road sections and 27 bridges. The NDRRMOC alert status was raised to RED and the Inter-Agency Coordinating Cell activated. An earlier AHA Centre Flash Update (No. 1, 5 August 2026, ReliefWeb) recorded NDRRMC Situation Report No. 2 figures of 41,957 individuals affected as the systems first developed. Rain continued into the following weeks as Typhoon DOLPHIN further enhanced the monsoon; non-allowlisted Philippine media reported the toll rising further by mid-August, but that has not yet been confirmed on an allowlisted source and is not adopted here."
+    },
+    "live_source_url": "https://reliefweb.int/country/phl",
+    "location": {
+      "country": "Philippines",
+      "lat": 16.05,
+      "lon": 120.6,
+      "region": "Regions I (Ilocos), II (Cagayan Valley), III (Central Luzon), IVA/IVB (Calabarzon/Mimaropa), V (Bicol), VI (Western Visayas), IX (Zamboanga Peninsula) and CAR (Cordillera)"
+    },
+    "occurrence_date": "2026-08-01",
+    "scale": "NDRRMOC alert status RED; ~586,000 people affected as of 10 August 2026",
+    "status": "ongoing"
+  },
+  "id": "philippines-floods-luis-maymay-2026",
+  "last_updated": "2026-08-17T09:19:09Z",
+  "name": "Southwest Monsoon & Tropical Cyclones Luis/Maymay Floods, Philippines",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-17T09:19:09Z",
+        "layer": "verify",
+        "run_id": "2026-08-17T09-19-09Z-5d3afb"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-17T09-19-09Z-5d3afb"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398292.0,
+    "impact_rank": 2,
+    "recency_rank": 739829
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-17 — Daily World Pulse refresh: BC wildfires/Washington wildfires/Hurricane Lala updates (2026-08-17) (`deeb6d8`)
+
+- **Updated:** canada-british-columbia-wildfires-2026, usa-hawaii-hurricane-lala-2026, usa-washington-wildfires-2026
+
 ## 2026-08-17 — Daily World Pulse refresh: China Yangtze/Dolphin floods add first fatality, re-verify Afghanistan/Bangladesh/India floods unchanged (2026-08-17) (`df6aa1d`)
 
 - **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, china-floods-yangtze-typhoon-dolphin-2026, india-monsoon-floods-2026
