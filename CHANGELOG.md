@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-18 — Daily World Pulse refresh: re-verify Venezuela earthquake & West Bank settler violence (2026-08-18) (`2c8886c`)
+
+- **Updated:** venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
+
 ## 2026-08-17 — Weekly threat refresh: SIPRI 2026 conflict data, new critical minerals threat (`4902e78`)
 
 - **Added:** critical-mineral-supply-chain-disruption
