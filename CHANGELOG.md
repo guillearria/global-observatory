@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-18 — Daily World Pulse refresh: re-verify Colombia, Ebola DRC, El Obeid, Europe heatwave, Haiti, India, Indonesia, Japan Kumamoto (2026-08-18) (`608b581`)
+
+- **Updated:** colombia-earthquake-choco-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, indonesia-earthquake-flores-2026, japan-earthquake-kumamoto-2026
+
 ## 2026-08-18 — Daily World Pulse refresh: re-verify Venezuela earthquake & West Bank settler violence (2026-08-18) (`2c8886c`)
 
 - **Updated:** venezuela-earthquake-2026, west-bank-settler-violence-surge-2026
