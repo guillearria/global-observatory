@@ -1,0 +1,72 @@
+{
+  "category": "wildfire",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-18",
+      "source_name": "Ministry of Defence (Spain) / Unidad Militar de Emergencias",
+      "source_url": "https://www.defensa.gob.es/ume/Noticias/2026/08/Noticas/fallecimiento_cabo_sancho.html",
+      "text": "Spain's Ministry of Defence (UME) official statement: Corporal Javier García Sancho, of the Fourth Emergency Intervention Battalion (BIEM IV), died around 6 p.m. on 16 August 2026 during firefighting operations for the wildfire declared on 10 August 2026 in Peñas de Riglos, Huesca; his fire truck was travelling on an operations-area road near Peña Oroel when it lost traction ('escasa adherencia') and rolled over. Two other military personnel in the vehicle were injured and taken to hospital (one transferred to the Military Hospital of Zaragoza).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-18",
+      "source_name": "European Union",
+      "source_url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/eu-mobilises-support-wildfires-spread-across-europe-2026-08-17_en",
+      "text": "The European Commission's Civil Protection and Humanitarian Aid Operations service (17 August 2026, 'EU mobilises support as wildfires spread across Europe'): '104 ground firefighters with 36 vehicles from France have come to the aid of Spanish firefighters in the Aragón region,' where 'close to 16,000 hectares have already burnt.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-18",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1030237&episodeid=34&eventtype=WF",
+      "text": "GDACS's forest-fire report for Spain (event 1030237, episode 34, covering 7 Aug 2026 00:00 UTC to 15 Aug 2026 00:00 UTC via thermal-anomaly detection) records 48,139 hectares burned nationwide and 873 people exposed within burned areas, with an overall alert level assessed as low humanitarian impact based on burned area and affected population.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A major wildfire declared on 10 August 2026 near Las Peñas de Riglos in Huesca province, Aragón, northeastern Spain, grew rapidly under hot, dry and windy conditions, burning roughly 16,000-17,500 hectares by mid-August and threatening the historic San Juan de la Peña monastery complex. Spain's Unidad Militar de Emergencias (UME, Military Emergency Unit) was deployed alongside regional firefighting services from Aragón, Navarra, Catalonia, the Valencian Community and Castilla y León. On 16 August 2026 a UME corporal, Javier García Sancho of the Fourth Emergency Intervention Battalion (BIEM IV), died when the fire truck he was travelling in lost traction and rolled over on an operations-area road near Peña Oroel; two fellow soldiers were injured and hospitalised. Nineteen villages were evacuated at the fire's peak, with roughly 1,000-1,046 residents displaced. The EU's civil protection service reports France sent 104 ground firefighters with 36 vehicles to reinforce the Spanish response in the Aragón region, and GDACS's aggregate Spain wildfire episode for 7-15 August 2026 recorded 48,139 hectares burned nationwide (across multiple concurrent fires) with an overall low-impact assessment by its burned-area/population formula.",
+  "event": {
+    "impact": {
+      "deaths": 1,
+      "displaced": 1046,
+      "summary": "Spain's Ministry of Defence (UME) confirmed that Corporal Javier García Sancho of the Fourth Emergency Intervention Battalion (BIEM IV) died on 16 August 2026 when his fire truck lost traction and rolled over while responding to the Peñas de Riglos fire near Peña Oroel; two other soldiers in the vehicle were injured. The European Commission's civil protection service confirms France deployed 104 ground firefighters with 36 vehicles to reinforce the response in the Aragón region, where 'close to 16,000 hectares have already burnt.' GDACS's Spain forest-fire episode covering 7-15 August 2026 recorded 48,139 hectares burned nationwide (an aggregate figure spanning multiple concurrent Spanish fires, of which this is one) and 873 people exposed within burned areas, with an overall low-impact rating by its burned-area/population formula. Regional reporting (not independently confirmed by an allowlisted source) has put evacuations at roughly 1,000-1,046 people across up to 19 villages in Huesca province."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1030237&episodeid=34&eventtype=WF",
+    "location": {
+      "country": "Spain",
+      "lat": 42.478,
+      "lon": -0.714,
+      "region": "Las Peñas de Riglos, Huesca province, Aragón"
+    },
+    "occurrence_date": "2026-08-10",
+    "scale": "~16,600-17,500 ha burned; 1 fatality",
+    "status": "ongoing"
+  },
+  "id": "spain-wildfire-huesca-aragon-2026",
+  "last_updated": "2026-08-18T09:15:51Z",
+  "name": "Peñas de Riglos Wildfire, Huesca, Aragón, Spain",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-18T09:15:51Z",
+        "layer": "verify",
+        "run_id": "2026-08-18T09-15-51Z-16c73e"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-18T09-15-51Z-16c73e"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398381.0,
+    "impact_rank": 1,
+    "recency_rank": 739838
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

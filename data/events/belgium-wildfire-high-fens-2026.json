@@ -1,0 +1,64 @@
+{
+  "category": "wildfire",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-18",
+      "source_name": "GDACS",
+      "source_url": "https://gdacs.org/report.aspx?eventtype=WF&eventid=1030534",
+      "text": "GDACS's forest-fire report for event 1030534 (Belgium) covers 14 Aug 2026 00:00 UTC to 17 Aug 2026 00:00 UTC, recording 6,356 hectares burned and 119 people within the affected/exposed population, with an overall alert level of 1.5 ('no humanitarian impact based on the burned area and the affected population and their vulnerability').",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-18",
+      "source_name": "European Union",
+      "source_url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/eu-mobilises-support-wildfires-spread-across-europe-2026-08-17_en",
+      "text": "The European Commission's Civil Protection and Humanitarian Aid Operations service (17 August 2026, 'EU mobilises support as wildfires spread across Europe'): Belgium activated the EU Civil Protection Mechanism; '2 planes' from the EU's rescEU firefighting fleet were dispatched from Sweden to Belgium, 'alongside 2 helicopters from the Netherlands, 2 from Norway and 2 from Germany,' supporting local firefighters battling the blaze in the Hautes Fagnes, where 'more than 3,000 hectares have burnt to date'; the Copernicus Emergency Management Service is active for wildfires in Belgium and several other European countries, providing rapid maps to help authorities organise their response.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Belgium's largest wildfire on record broke out on 14 August 2026 in the Hautes Fagnes (High Fens) nature reserve in eastern Belgium's Liege province, near the German border, during a prolonged drought and heat spell. GDACS recorded the fire (event 1030534) burning 6,356 hectares over three days (14-17 August 2026) with 119 people exposed within the burned area, assessing an overall alert level of 1.5 -- 'no humanitarian impact' by its burned-area/population formula, reflecting the reserve's sparse population rather than the fire's true scale, which international media and Belgian officials described as the country's largest wildfire on record / worst in a century. Belgium activated the EU Civil Protection Mechanism (UCPM); the European Commission's civil protection service reports that 2 rescEU firefighting planes were dispatched from Sweden and firefighting helicopters were sent from the Netherlands, Norway and Germany to support local crews battling the blaze, with the EU's Copernicus Emergency Management Service activated to provide rapid mapping. The fire prompted evacuation orders in the towns of Waimes and Butgenbach and threatened to cross into Germany near Monschau before rain and firefighting efforts halted its advance.",
+  "event": {
+    "impact": {
+      "deaths": 0,
+      "displaced": null,
+      "summary": "GDACS's report for this event (WF 1030534, 14-17 August 2026) records 6,356 hectares burned and 119 people exposed within the burned area, assessing an overall alert level of 1.5 ('no humanitarian impact' by its burned-area/population formula). The European Commission's civil protection service confirms Belgium activated the EU Civil Protection Mechanism and that rescEU firefighting planes (from Sweden) and helicopters (from the Netherlands, Norway and Germany) were deployed to support the response, with the Copernicus Emergency Management Service activated for rapid mapping; no deaths have been confirmed by an allowlisted source, and no allowlisted source has yet published a specific evacuation headcount, though evacuation orders were issued for nearby towns per the EU statement's account of the response effort."
+    },
+    "live_source_url": "https://gdacs.org/report.aspx?eventtype=WF&eventid=1030534",
+    "location": {
+      "country": "Belgium",
+      "lat": 50.5,
+      "lon": 6.08,
+      "region": "Hautes Fagnes (High Fens) nature reserve, Liege province, near the German border"
+    },
+    "occurrence_date": "2026-08-14",
+    "scale": "Largest wildfire on record in Belgium; ~6,356 ha burned (GDACS)",
+    "status": "contained"
+  },
+  "id": "belgium-wildfire-high-fens-2026",
+  "last_updated": "2026-08-18T09:15:51Z",
+  "name": "Belgium Wildfire, High Fens (Hautes Fagnes)",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-18T09:15:51Z",
+        "layer": "verify",
+        "run_id": "2026-08-18T09-15-51Z-2d7edf"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-18T09-15-51Z-2d7edf"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398421.0,
+    "impact_rank": 1,
+    "recency_rank": 739842
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

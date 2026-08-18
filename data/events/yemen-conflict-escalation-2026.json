@@ -1,0 +1,64 @@
+{
+  "category": "conflict",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-18",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/08/1168151",
+      "text": "UN News (citing OHCHR/UN High Commissioner Volker Turk), reporting on Yemen: 'at least 17 civilians were killed in Houthi attacks on government-controlled areas since August 6, 2026.' Specific incidents cited: a missile strike on the Jaw al-Naseem displacement camp in Ma'rib (7 August) injuring six civilians including a child; missile and drone attacks on Al-Mokha port in Ta'izz Governorate (9 August) killing three port workers and injuring four others; and an attack on a cargo ship in the Bab el-Mandeb Strait (11 August) killing four crew members (three Pakistani nationals, one Indonesian) with additional injuries. Turk said: 'I call on all parties to de-escalate tensions and spare the Yemeni people from further misery' and 'These attacks must end immediately.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-18",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/08/1168131",
+      "text": "UN News, Security Council coverage (13 August 2026): UN Special Envoy for Yemen Hans Grundberg briefed the Security Council warning Yemen 'faces a more serious risk of return to large-scale conflict than at any point since' the 2022 UN-mediated truce, citing intensifying military activity along the frontline and pressure on regional trade and energy flows. UN Under-Secretary-General for Humanitarian Affairs Tom Fletcher told the Council more than half of Yemen's population faces acute food insecurity, and with the humanitarian appeal only 20 percent funded, 'rations are cut, clinics close and protection services disappear'; both officials called for the immediate release of 73 UN colleagues still arbitrarily detained by the Houthis.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Yemen's conflict sharply escalated from early August 2026, with Houthi (Ansar Allah) missile and drone attacks on government-held areas and shipping intensifying to a level the UN says puts the country at its highest risk of returning to large-scale war since the April 2022 truce. UN High Commissioner for Human Rights Volker Turk said at least 17 civilians were killed in Houthi attacks on government-controlled areas since 6 August 2026, citing a series of incidents: a missile strike on the Jaw al-Naseem displacement camp in Marib on 7 August that injured six civilians including a child; missile and drone attacks on Al-Mokha port in Ta'izz Governorate on 9 August that killed three port workers and injured four others; and an attack on a cargo ship in the Bab el-Mandeb Strait on 11 August that killed four crew members (three Pakistani nationals and one Indonesian) and injured others. Turk called on all parties to de-escalate and warned 'these attacks must end immediately.' Briefing the UN Security Council on 13 August 2026, UN Special Envoy for Yemen Hans Grundberg warned Yemen faces a more serious risk of returning to large-scale conflict than at any point since the 2022 truce, citing intensifying military activity along the frontline and pressure on regional trade and energy flows; UN Under-Secretary-General for Humanitarian Affairs Tom Fletcher told the Council more than half of Yemen's population faces acute food insecurity, with the humanitarian appeal only 20 percent funded. Strikes on Marib and Mokha continued through mid-August, further straining a country where, per the UN, roughly 20 million people already require humanitarian assistance.",
+  "event": {
+    "impact": {
+      "deaths": 17,
+      "displaced": null,
+      "summary": "UN High Commissioner for Human Rights Volker Turk said at least 17 civilians were killed in Houthi (Ansar Allah) attacks on government-controlled areas of Yemen since 6 August 2026, detailing a missile strike on Marib's Jaw al-Naseem displacement camp (7 August, six civilians injured including a child), missile/drone attacks on Al-Mokha port (9 August, three port workers killed, four injured), and an attack on a cargo ship in the Bab el-Mandeb Strait (11 August, four crew killed). UN Special Envoy Hans Grundberg told the Security Council on 13 August 2026 that Yemen faces its highest risk of returning to large-scale conflict since the 2022 truce; UN humanitarian chief Tom Fletcher said more than half the population faces acute food insecurity amid a humanitarian appeal only 20% funded. No allowlisted source has yet published an aggregate new-displacement figure specific to this escalation."
+    },
+    "live_source_url": "https://www.ohchr.org/en/press-releases/2026/08/yemen-turk-alarmed-civilian-casualties-hostilities-escalate-urges-restraint",
+    "location": {
+      "country": "Yemen",
+      "lat": 15.4695,
+      "lon": 45.3222,
+      "region": "Ma'rib and Al-Mokha (Ta'izz Governorate); attacks also in the Bab el-Mandeb Strait"
+    },
+    "occurrence_date": "2026-08-07",
+    "scale": "At least 17 civilians killed since 6 Aug 2026; UN warns of highest risk of full-scale war since 2022 truce",
+    "status": "ongoing"
+  },
+  "id": "yemen-conflict-escalation-2026",
+  "last_updated": "2026-08-18T09:15:51Z",
+  "name": "Yemen Conflict Escalation",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-18T09:15:51Z",
+        "layer": "verify",
+        "run_id": "2026-08-18T09-15-51Z-e498ea"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-18T09-15-51Z-e498ea"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398352.0,
+    "impact_rank": 2,
+    "recency_rank": 739835
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
