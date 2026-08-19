@@ -78,6 +78,12 @@
       </div>
       <div id="history"><p class="loading">Loading historical records…</p></div>
     </section>
+
+    <!-- Detail view for #<tab>/<record-id> routes; list panes stay mounted
+         (hidden) behind it so toolbar state and map card targets survive. -->
+    <section class="pane" id="detail-pane" hidden>
+      <div id="detail"></div>
+    </section>
   </main>
 
   <footer class="site-footer">
