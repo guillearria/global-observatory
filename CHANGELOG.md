@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-19 — Daily World Pulse refresh: re-verify Ebola DRC, El Obeid siege, Europe heatwave, Haiti, India monsoon floods (2026-08-19) (`181c9ca`)
+
+- **Updated:** ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026
+
 ## 2026-08-18 — Daily World Pulse refresh: add 4 new major events (2026-08-18) (`b4c20e6`)
 
 - **Added:** belgium-wildfire-high-fens-2026, nepal-rolpa-landslides-2026, spain-wildfire-huesca-aragon-2026, yemen-conflict-escalation-2026
