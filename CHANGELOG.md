@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-19 — Daily World Pulse refresh: re-verify Indonesia Flores, Japan Kumamoto, Mindanao, Nepal Rolpa, Pakistan floods (2026-08-19) (`ae9aad4`)
+
+- **Updated:** indonesia-earthquake-flores-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, nepal-rolpa-landslides-2026, pakistan-floods-2026
+
 ## 2026-08-19 — Daily World Pulse refresh: re-verify Hurricane Lala, Washington wildfires, Venezuela quake, West Bank, Yemen (2026-08-19) (`1df344e`)
 
 - **Updated:** usa-hawaii-hurricane-lala-2026, usa-washington-wildfires-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
