@@ -181,15 +181,20 @@ Three things look like leftovers from the PR era but are intentional:
   clone or the GitHub UI. Worth doing rather than ignoring: the refresh commands tell each run to
   inspect leftover `claude/*` branches before drafting, so stale ones actively mislead. A branch
   merged to `main` by hand also orphans its pointer (`publish` only deletes branches it merged
-  itself) — `claude/world-pulse-ux-fixes-f8t81v` sat that way after b231d04 until the 2026-08-16
-  cleanup.
+  itself) — `claude/world-pulse-ux-fixes-f8t81v` sat that way after b231d04; deleted from a local
+  clone 2026-08-19, leaving no orphans outstanding.
 - **The ruff pin needs a human bump eventually.** `ruff>=0.16,<0.17` stops the drift that broke CI,
   but nothing adopts 0.17 on its own. When bumping, expect new findings and treat them as the pin
   having done its job — not as a regression.
-- **`changelog.regenerate()` is not deterministic across clones.** Regenerating on a clean `main`
-  already produces a diff against the committed `CHANGELOG.md`: older entries get re-attributed to
-  different commits depending on the clone's graph. Pre-existing, cosmetic, and unchecked by CI, but
-  it means "regenerate and commit" always churns beyond the new entry.
+- **~~`changelog.regenerate()` is not deterministic across clones.~~ Resolved 2026-08-19 — the churn
+  was corruption, not non-determinism.** The committed file had been regenerated from a *shallow*
+  clone, where the graft-boundary commit looks like the one that added every tracked file; that
+  flattened weeks of history into a single "Added" list and left 35 sections where the full graph
+  yields 86. Every later regeneration from a complete clone therefore "churned" — it was repairing
+  the damage. Repaired in `f14b999`; regenerating on a clean `main` from a full clone is now a
+  no-op. **This has now happened twice** (see also `d511af8`, 2026-08-05), so treat future churn on
+  a clean `main` as the signal that a shallow-clone regeneration got committed again — not as
+  cosmetic noise. `git rev-parse --is-shallow-repository` must print `false` before regenerating.
 - **The 2026-07-27 threat claims were verified by reading, not refetching.** The cloud session that
   landed them had an egress policy blocking `noaa.gov`, `nasa.gov` and `ipcc.ch` (403 at the CONNECT
   tunnel), so the cited pages could not be re-opened. They were accepted because every claim is
