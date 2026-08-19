@@ -18,12 +18,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Repeated rounds of severe thunderstorms and a derecho struck Indiana from 11 August 2026 through 17 August 2026, with rainfall exceeding a foot (over 12 inches recorded east of Indianapolis, per NWS Indianapolis) triggering historic flooding on the White River. NWS Indianapolis's dedicated event page records the White River cresting at Anderson at 24.93 feet on 14 August 2026, surpassing the prior all-time record of 23.60 feet set in the Great Flood of 1913; the river also broke its 1913 record at Noblesville (24.60 feet on 15 August, versus 23.80 feet in 1913) and reached its highest level since 1913 at Nora (21.18 feet on 15 August). The same NWS page confirms one fatality: a 58-year-old woman and her dog died on 14 August after driving into floodwaters near Yorktown. Flooding affected numerous central and eastern Indiana counties including Henry, Rush, Shelby, Decatur, Delaware and Randolph, with cities including New Castle, Muncie, Anderson, Noblesville, Fishers and Indianapolis impacted. Indiana Governor Mike Braun declared a Statewide Disaster Emergency (Executive Order 26-21) on 13 August 2026, per the State of Indiana's own event announcement, covering coordinated response across Franklin, Henry, Lake, LaPorte, Madison, Newton, Porter and Pulaski counties and authorizing National Guard mobilization to Gary, Munster and Hobart for life-saving, cleanup and support activities. Broader (non-allowlisted) media reporting puts the statewide death toll from the combined storms, tornadoes, derecho and flooding at up to 6-7 people across multiple counties, and states the Governor requested a Presidential Emergency Declaration that the White House subsequently approved; neither the higher statewide toll nor the federal declaration could be independently confirmed via a directly-fetched allowlisted source as of 19 August 2026, so only the NWS-confirmed single fatality is carried in the impact figure below.",
+  "description": "Repeated rounds of severe thunderstorms and a derecho crossed Indiana between 11 and 17 August 2026, dropping over a foot of rain in places -- the heaviest totals, over 12 inches, east of Indianapolis -- and driving the White River to record levels. NWS Indianapolis recorded the river cresting at Anderson at 24.93 feet on 14 August, surpassing the all-time record of 23.60 feet set in 1913, and at Noblesville at 24.60 feet on 15 August, past that gauge's 1913 record of 23.80 feet; at Nora it reached 21.18 feet, its highest level since 1913. One death is confirmed: a 58-year-old woman and her dog died on 14 August after driving into floodwaters near Yorktown, though wider media reporting has described a higher statewide toll from the same storm system that no authoritative source has corroborated. Governor Mike Braun declared a Statewide Disaster Emergency on 13 August under Executive Order 26-21, covering eight counties from Franklin and Henry to Porter and Pulaski, and ordered Indiana National Guard troops to Gary, Munster and Hobart for life-saving work as well as cleanup and support; the storm sequence ended on 17 August and the response has moved to cleanup.",
   "event": {
     "impact": {
       "deaths": 1,
       "displaced": null,
-      "summary": "NWS Indianapolis's dedicated event page confirms one fatality (a 58-year-old woman and her dog, near Yorktown, 14 August 2026) and record-breaking White River crests at Anderson (24.93 ft, breaking the 1913 record of 23.60 ft) and Noblesville (24.60 ft, breaking the 1913 record of 23.80 ft), with over 12 inches of rain recorded east of Indianapolis. Indiana's Governor declared a Statewide Disaster Emergency on 13 August 2026 (Executive Order 26-21) and mobilized the National Guard. Broader media reporting (not independently confirmed via an allowlisted source) puts the combined statewide toll from the week's tornadoes, derecho and flooding at up to 6-7 deaths and states a federal emergency declaration was requested and approved; those figures are not adopted here pending direct confirmation."
+      "summary": "NWS Indianapolis's event page confirms one death -- a 58-year-old woman and her dog, who drove into floodwaters near Yorktown on 14 August 2026 -- after rainfall of over 12 inches east of Indianapolis drove the White River to record crests at Anderson (24.93 feet, past the 23.60-foot record set in 1913) and Noblesville (24.60 feet, past 23.80 feet in 1913). Governor Mike Braun declared a Statewide Disaster Emergency on 13 August 2026 under Executive Order 26-21 for eight counties and deployed the Indiana National Guard to Gary, Munster and Hobart."
     },
     "live_source_url": "https://www.weather.gov/ind/august2026flooding",
     "location": {
@@ -37,7 +37,7 @@
     "status": "contained"
   },
   "id": "usa-indiana-floods-2026",
-  "last_updated": "2026-08-19T09:18:02Z",
+  "last_updated": "2026-08-19T13:19:15Z",
   "name": "Record Flooding, Indiana, USA",
   "provenance": {
     "history": [
@@ -45,10 +45,15 @@
         "at": "2026-08-19T09:18:02Z",
         "layer": "verify",
         "run_id": "2026-08-19T09-18-02Z-0a712d"
+      },
+      {
+        "at": "2026-08-19T13:19:15Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-19-15Z-36b17f"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-19T09-18-02Z-0a712d"
+    "last_run_id": "2026-08-19T13-19-15Z-36b17f"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -56,6 +61,20 @@
     "impact_rank": 1,
     "recency_rank": 739839
   },
+  "updates": [
+    {
+      "date": "2026-08-15",
+      "text": "The White River crested at Noblesville at 24.60 feet, breaking that gauge's 1913 record of 23.80 feet, and reached 21.18 feet at Nora, its highest level since the 1913 flood."
+    },
+    {
+      "date": "2026-08-14",
+      "text": "The White River crested at Anderson at 24.93 feet, surpassing the all-time record of 23.60 feet set in 1913. A 58-year-old woman and her dog died the same day after driving into floodwaters near Yorktown -- the flooding's only confirmed fatality."
+    },
+    {
+      "date": "2026-08-13",
+      "text": "Governor Mike Braun declared a Statewide Disaster Emergency (Executive Order 26-21) covering Franklin, Henry, Lake, LaPorte, Madison, Newton, Porter and Pulaski counties, and authorised Indiana National Guard deployments to Gary, Munster and Hobart."
+    }
+  ],
   "verification": {
     "confidence": "high",
     "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",

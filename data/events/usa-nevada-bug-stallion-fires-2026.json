@@ -26,12 +26,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "The Bug Fire ignited on 8 August 2026 near Hallelujah Junction on the California-Nevada border and, driven by strong winds and dry vegetation, grew rapidly into Washoe County, Nevada, threatening communities including Cold Springs and the Reno-Sparks Indian Colony; the neighboring Stallion Fire ignited nearby on 10 August 2026. On 10 August 2026, Nevada Governor Joe Lombardo declared a state of emergency for areas of Washoe County and the Reno-Sparks Indian Colony impacted by the Bug and (adjoining) Fred Mountain Fires, citing more than 16,000 acres burned at that time and more than 6,000 people evacuated, directing all state agencies to work through the Nevada Emergency Operations Center to supplement local efforts; the declaration remains in effect through 17 August 2026 unless terminated sooner. InciWeb's joint Bug & Stallion Fire incident page reports that, as of 14 August 2026, the Bug Fire had grown to 88,422 acres (31% contained) and the Stallion Fire to 40,698 acres (44% contained) — a combined 93,367 acres and 717 personnel assigned — with both fires attributed to human causes and burning in grass, brush and pinyon-juniper fuels; an update that day noted wetting rains aiding containment gains with cooler, more humid conditions. No allowlisted source has yet published a confirmed statewide death toll, injury count, or structure-loss figure for the combined incident, and no source has declared the fires contained. Re-checked 16 August 2026: containment has continued to advance -- Bug Fire remains 93,381 acres at 58% contained while Stallion Fire has grown very slightly to 40,691 acres but reached 81% contained; the combined incident is now 94,105 acres and 84% of the perimeter contained. Status upgraded to contained given the high combined containment level, though Bug Fire's 58% still represents a substantial uncontained perimeter warranting continued monitoring.",
+  "description": "The Bug Fire ignited on 8 August 2026 near Hallelujah Junction on the California-Nevada border and, driven by strong winds and dry vegetation, grew rapidly into Washoe County, Nevada, threatening communities including Cold Springs and the Reno-Sparks Indian Colony; the neighboring Stallion Fire ignited nearby on 10 August. Nevada Governor Joe Lombardo declared a state of emergency on 10 August, with more than 16,000 acres burned and more than 6,000 people evacuated at that time, and FEMA authorized federal funds to assist Nevada in combating the Bug Fire. Both fires are attributed to human causes, burning in tall grass, brush and pinyon-juniper fuels. Aided by wetting rains, containment advanced quickly: as of 15 August 2026 the combined incident stood at 94,105 acres with 84% of the perimeter contained (Bug Fire 93,381 acres at 58% contained; Stallion Fire 40,691 acres at 81%), with 849 personnel assigned. No deaths, injuries or destroyed structures have been reported.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": 6000,
-      "summary": "Nevada Governor Joe Lombardo's 10 August 2026 state-of-emergency declaration reported more than 16,000 acres burned and more than 6,000 people evacuated from areas of Washoe County and the Reno-Sparks Indian Colony at that time, with thousands more residents in warning zones. InciWeb's incident page for the merged Bug & Stallion Fire complex shows the fires had grown substantially since then, to a combined 93,367 acres (88,422 ac Bug Fire at 31% containment; 40,698 ac Stallion Fire at 44% containment) as of 14 August 2026, with 717 personnel assigned; no allowlisted source has yet published an updated statewide evacuation count, confirmed death toll, or structure-loss figure beyond the governor's initial declaration. No source has declared the fires contained. Re-checked 16 August 2026: combined incident now 94,105 acres, 84% contained (Bug 58%, Stallion 81%); status upgraded to contained."
+      "summary": "Nevada Governor Joe Lombardo's 10 August 2026 state-of-emergency declaration reported more than 16,000 acres burned and more than 6,000 people evacuated from areas of Washoe County and the Reno-Sparks Indian Colony, with thousands more residents in warning zones. As of 15 August 2026 the combined Bug and Stallion incident stood at 94,105 acres with 84% of the perimeter contained (Bug Fire 58%, Stallion Fire 81%) and 849 personnel assigned; no deaths, injuries or structure losses have been reported."
     },
     "live_source_url": "https://inciweb.wildfire.gov/incident-information/nvccd-bug-stallion-fire",
     "location": {
@@ -45,7 +45,7 @@
     "status": "contained"
   },
   "id": "usa-nevada-bug-stallion-fires-2026",
-  "last_updated": "2026-08-16T09:25:28Z",
+  "last_updated": "2026-08-19T13:04:10Z",
   "name": "Bug & Stallion Fires — Washoe County, Nevada & Northern California",
   "provenance": {
     "history": [
@@ -58,10 +58,15 @@
         "at": "2026-08-16T09:25:28Z",
         "layer": "verify",
         "run_id": "2026-08-16T09-25-28Z-97c47c"
+      },
+      {
+        "at": "2026-08-19T13:04:10Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-04-10Z-0a2bbd"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-16T09-25-28Z-97c47c"
+    "last_run_id": "2026-08-19T13-04-10Z-0a2bbd"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -69,6 +74,20 @@
     "impact_rank": 1,
     "recency_rank": 739836
   },
+  "updates": [
+    {
+      "date": "2026-08-16",
+      "text": "Containment advanced sharply: the Bug Fire reached 93,381 acres at 58% contained and the Stallion Fire 40,691 acres at 81% contained — a combined 94,105 acres with 84% of the perimeter contained and 849 personnel assigned, per InciWeb's update of 15 August — and the event status was updated to contained."
+    },
+    {
+      "date": "2026-08-14",
+      "text": "InciWeb reported the Bug Fire at 88,422 acres and 31% contained and the Stallion Fire at 40,698 acres and 44% contained, a combined 93,367 acres with 717 personnel assigned, with wetting rains from thunderstorms bringing cooler temperatures and higher humidity that aided containment."
+    },
+    {
+      "date": "2026-08-10",
+      "text": "Governor Lombardo declared a state of emergency for areas of Washoe County and the Reno-Sparks Indian Colony, effective through 17 August 2026 unless terminated sooner, citing more than 16,000 acres burned and more than 6,000 people evacuated, with thousands more residents in warning zones; FEMA separately authorized federal funds to assist Nevada in combating the Bug Fire."
+    }
+  ],
   "verification": {
     "confidence": "high",
     "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",

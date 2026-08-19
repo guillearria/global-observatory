@@ -54,8 +54,10 @@ The site redeploys automatically whenever `frontend/data/*.json` changes on `mai
 **Git is the database, the changelog, and the audit trail** — one JSON file per record, so diffs
 are the record of what changed. The frontend is static vanilla HTML/CSS/JS with no build step and
 **no external requests** (even the map's NASA Blue Marble basemap is committed to the repo). It
-renders three hash-routed tabs — `#pulse`, `#threats`, `#history` — from three aggregate files,
-`frontend/data/events.json`, `frontend/data/threats.json`, and `frontend/data/historical.json`.
+renders three hash-routed tabs — `#pulse`, `#threats`, `#history` — plus a per-record detail view
+(`#pulse/<id>`, `#threats/<id>`, `#history/<id>`: full prose, key figures, the dated updates
+timeline, and every citation) from three aggregate files, `frontend/data/events.json`,
+`frontend/data/threats.json`, and `frontend/data/historical.json`.
 
 The full design is in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 
@@ -129,7 +131,8 @@ Each `data/threats/<slug>.json` validates against `data/schema/threat.schema.jso
 - `assessment` — categorical `probability.estimate` (+ optional published `numeric_annual`), `severity`,
   `timeframe`, one-line `summary`.
 - `claims[]` — each a checkable assertion with `source_name`, `source_url`, `retrieved_date`, and a
-  per-claim `verification_status`.
+  per-claim `verification_status`. A re-verify that finds the same facts bumps `retrieved_date` in
+  place; a new claim is added only for a genuinely new assertion.
 - `verification` — overall `status` (verified / partial / quarantined / unverified) + `confidence`.
 - `provenance` — append-only record of which layer last touched it, capped so files stay small.
 - `sort_keys` — numeric ordering computed by `curate.compute_sort_keys` (`severity_rank`/`probability_rank`, severity-dominant).
@@ -144,7 +147,13 @@ a dated occurrence needs a different shape than a standing risk:
 - `event.occurrence_date` / `location` (`country`, `region`, optional `lat`/`lon` for the map) /
   `status` (ongoing / contained / resolved) / `scale` (free text, e.g. `"M6.3"`, `"PHEIC"`) /
   `impact` (`deaths`, `displaced`, `summary`) / `live_source_url` — the authoritative page that
-  keeps updating; the frontend links it as "live at source".
+  keeps updating; the frontend links it as "live at source". `description` and `impact.summary`
+  are short current-state prose, rewritten in place on refresh (Python prose checks enforce
+  length caps and refuse process narration); the "Figures as of" date shown on the site derives
+  from the claims' `retrieved_date`, never from `last_updated`.
+- `updates[]` (optional) — the dated development log, newest first: one `{date, text}` entry per
+  material development or correction, capped at 30 entries × 400 chars. The detail view renders
+  it as the event's timeline.
 - `sort_keys` — `recency_rank`/`impact_rank`, **recency-dominant** (today's event outranks last
   month's), the inverse of how threats sort. The World Pulse feed additionally blends severity in
   at render time — each impact tier buys extra staying power, and contained/resolved events decay

@@ -59,35 +59,19 @@
     },
     {
       "id": "claim-7",
-      "retrieved_date": "2026-07-30",
+      "retrieved_date": "2026-08-02",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=22&eventtype=WF",
       "text": "GDACS event report (eventid 1029643, episode 22), report date 30 Jul 2026 00:00 UTC: Overall Orange alert for a forest fire in Spain, citing 66,098 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026.",
       "verification_status": "verified"
-    },
-    {
-      "id": "claim-8",
-      "retrieved_date": "2026-08-01",
-      "source_name": "GDACS",
-      "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=22&eventtype=WF",
-      "text": "Re-checked 1 August 2026: GDACS's event report (eventid 1029643) still shows episode 22 as the current/latest episode, with figures unchanged at 66,098 hectares burned and 20,200 people in the fire-affected area, last thermal-anomaly detection 30 July 2026; no episode 23 or later has been published.",
-      "verification_status": "verified"
-    },
-    {
-      "id": "claim-9",
-      "retrieved_date": "2026-08-02",
-      "source_name": "GDACS",
-      "source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=22&eventtype=WF",
-      "text": "Re-checked 2 August 2026: GDACS still shows the 22 Jul-30 Jul 2026 window as the latest for this event (eventid 1029643); no newer episode has been published, and figures are unchanged.",
-      "verification_status": "verified"
     }
   ],
-  "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS escalated its alert from Green to Orange as of episode 19 (27 July 2026); as of episode 22 (30 July 2026) the burned area stood at about 66,098 hectares with roughly 20,200 people in the fire-affected area. No newer GDACS episode has been published and no thermal-anomaly detection has been recorded since 30 July 2026, indicating the fire is now contained. Spain's Interior Ministry declared a national emergency for the fires on 23-24 July 2026 — widely reported as the first such declaration linked to a wildfire — and evacuation figures well above 10,000 people have been widely reported; neither the national-emergency declaration nor the evacuation count has been confirmed by an allowlisted authoritative source.",
+  "description": "Multiple simultaneous wildfires broke out southwest of Madrid and in neighbouring Ávila province, Spain, on 22 July 2026 amid extreme heat and strong winds, prompting evacuations in towns including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno. GDACS escalated its alert from Green to Orange as the fires grew, and its latest report records about 66,098 hectares burned with roughly 20,200 people in the fire-affected area. No thermal-anomaly detection has been recorded since 30 July 2026, and the fire is assessed as contained. Spain's Interior Ministry was widely reported to have declared a national emergency over the fires in late July — described as the first such declaration linked to a wildfire — with evacuation figures well above ten thousand people, though neither the declaration nor an official evacuation count has been confirmed by the authoritative sources cited in this record.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report (eventid 1029643, episode 22) keeps this forest fire in Spain at an Overall Orange alert for medium humanitarian impact, citing 66,098 hectares burned and 20,200 people in the fire-affected area, with the most recent thermal-anomaly detection on 30 July 2026. Re-checked 4 August 2026: GDACS still shows episode 22 as the current/latest episode, with figures unchanged and no thermal-anomaly detection since 30 July — five days with no new hotspot activity — indicating the fire is now contained. No allowlisted authoritative source has yet published a confirmed death toll or official evacuation count for this fire; Spain's widely reported national emergency declaration (23-24 July) and evacuation figures above 10,000 people come from non-allowlisted media and have not been independently confirmed here."
+      "summary": "GDACS keeps this forest fire at an overall Orange alert, citing 66,098 hectares burned and 20,200 people in the fire-affected area, with its most recent thermal-anomaly detection on 30 July 2026 and no new hotspot activity in the five days that followed. No confirmed death toll or official evacuation count has been published by the authoritative sources cited here; widely reported figures — a national emergency declaration and evacuations above ten thousand — remain unconfirmed by those sources."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029643&episodeid=22&eventtype=WF",
     "location": {
@@ -101,7 +85,7 @@
     "status": "contained"
   },
   "id": "spain-wildfire-madrid-avila-2026",
-  "last_updated": "2026-08-04T09:21:33Z",
+  "last_updated": "2026-08-19T13:04:09Z",
   "name": "Wildfires — Madrid & Ávila, Spain",
   "provenance": {
     "history": [
@@ -109,10 +93,15 @@
         "at": "2026-08-04T09:21:33Z",
         "layer": "verify",
         "run_id": "2026-08-04T09-21-33Z-08283b"
+      },
+      {
+        "at": "2026-08-19T13:04:09Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-04-09Z-083746"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-04T09-21-33Z-08283b"
+    "last_run_id": "2026-08-19T13-04-09Z-083746"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -120,9 +109,23 @@
     "impact_rank": 1,
     "recency_rank": 739819
   },
+  "updates": [
+    {
+      "date": "2026-08-04",
+      "text": "GDACS recorded no thermal-anomaly detection after 30 July 2026 — five days without new hotspot activity — with the burned area steady at 66,098 hectares and 20,200 people in the fire-affected area; the fire is assessed as contained."
+    },
+    {
+      "date": "2026-07-30",
+      "text": "GDACS's episode 22 report put the burned area at 66,098 hectares with 20,200 people in the fire-affected area and a most recent thermal-anomaly detection of 30 July 2026."
+    },
+    {
+      "date": "2026-07-28",
+      "text": "GDACS raised the event from Green to an overall Orange alert (episode 19), citing 65,422 hectares burned and 20,161 people in the fire-affected area, up from 63,065 hectares and 17,959 people a day earlier."
+    }
+  ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

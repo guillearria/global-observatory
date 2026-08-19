@@ -34,12 +34,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Severe storms brought torrential rainfall (some locations recording up to 4.5 inches in 37 minutes, per the governor's office) to north-central West Virginia beginning 20-21 July 2026, causing flash flooding, landslides and road closures. Governor Patrick Morrisey declared a State of Preparedness and then a State of Emergency for all 55 counties on 21 July 2026, per the governor's office's own announcement, with the most severe impacts concentrated in Upshur, Lewis, Barbour and Pleasants counties. The governor's office's own flood-response updates report approximately 85 water rescues carried out in a 20-hour span (22 July), roughly 151 homes damaged in Upshur County alone, and a National Guard deployment that grew to 352 personnel and 84 vehicles (24 July), alongside more than 2,600 Division of Highways employees and 1,700 registered volunteers. On 14 August 2026 the governor extended the State of Emergency for 12 of the hardest-hit counties (Barbour, Doddridge, Harrison, Lewis, Pendleton, Pleasants, Randolph, Ritchie, Tucker, Tyler, Upshur and Wetzel) through 19 September 2026 to allow recovery operations and damage assessments to continue, while the emergency for the state's other 43 counties expired 20 August 2026. Widely-reported (non-allowlisted) news coverage attributes two deaths in Upshur County to the flooding and states President Trump approved an expedited federal Major Disaster Declaration for West Virginia on 3 August 2026 (later amended 7 August to add Pleasants and Ritchie counties); neither the death toll nor the federal declaration's specific terms could be independently confirmed via a directly-fetched allowlisted source as of 19 August 2026, so the death/displacement figures below are left unconfirmed rather than adopted from secondary reporting.",
+  "description": "Severe storms brought torrential rainfall to north-central West Virginia on 20-21 July 2026, triggering flash flooding, landslides, mudslides, damaging winds and road closures. Governor Patrick Morrisey declared a State of Emergency for all 55 West Virginia counties on 21 July 2026, with the most severe impacts concentrated in Lewis, Pleasants and Upshur counties. The governor's office reported approximately 85 rescues over a 20-hour span on 22 July, more than 3,100 Division of Highways employees and over 300 pieces of heavy equipment deployed, roughly 12,366 customers without power and three shelters open at Buckhannon, Weston and Philippi; by 24 July it recorded about 151 homes damaged in Upshur County and a National Guard deployment of 352 personnel and 84 vehicles, alongside over 1,700 registered volunteers. On 14 August 2026 the state extended the emergency through 19 September 2026 for twelve hard-hit counties -- Barbour, Doddridge, Harrison, Lewis, Pendleton, Pleasants, Randolph, Ritchie, Tucker, Tyler, Upshur and Wetzel -- so recovery operations and damage assessments can continue, while the declaration for the remaining 43 counties expires 20 August 2026.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "The West Virginia governor's office's own updates report approximately 85 water rescues in a 20-hour span (22 July 2026), about 151 homes damaged in Upshur County, and a National Guard deployment that grew to 352 personnel and 84 vehicles by 24 July 2026, plus more than 2,600 Division of Highways employees and over 1,700 registered volunteers responding statewide. A statewide State of Emergency (all 55 counties) was declared 21 July 2026 and later extended for 12 of the hardest-hit counties through 19 September 2026 to allow continued recovery and damage assessment. Widely-reported (non-allowlisted) media coverage attributes two deaths in Upshur County to the flooding and states a federal Major Disaster Declaration was approved 3 August 2026 (amended 7 August); neither figure is independently confirmed on an allowlisted source as of 19 August 2026 and is not adopted here."
+      "summary": "The West Virginia governor's office reported approximately 85 water rescues over a 20-hour span on 22 July 2026, about 151 homes damaged in Upshur County, and a National Guard deployment that had grown to 352 personnel and 84 vehicles by 24 July, alongside more than 2,600 Division of Highways employees and over 1,700 registered volunteers. A State of Emergency covering all 55 counties was declared 21 July 2026 and later extended through 19 September 2026 for twelve of the hardest-hit counties, while the declaration for the remaining 43 counties expires 20 August 2026. No death or displacement figure has been confirmed by an authoritative source, though media reporting attributes two deaths in Upshur County to the flooding."
     },
     "live_source_url": "https://governor.wv.gov/allnews/all",
     "location": {
@@ -53,7 +53,7 @@
     "status": "contained"
   },
   "id": "usa-west-virginia-floods-2026",
-  "last_updated": "2026-08-19T09:18:02Z",
+  "last_updated": "2026-08-19T13:19:15Z",
   "name": "North-Central West Virginia Floods, USA",
   "provenance": {
     "history": [
@@ -61,10 +61,15 @@
         "at": "2026-08-19T09:18:02Z",
         "layer": "verify",
         "run_id": "2026-08-19T09-18-02Z-75cae9"
+      },
+      {
+        "at": "2026-08-19T13:19:15Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-19-15Z-cf7216"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-19T09-18-02Z-75cae9"
+    "last_run_id": "2026-08-19T13-19-15Z-cf7216"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -72,6 +77,24 @@
     "impact_rank": 1,
     "recency_rank": 739818
   },
+  "updates": [
+    {
+      "date": "2026-08-14",
+      "text": "The State of Emergency was extended through 19 September 2026 for twelve counties -- Barbour, Doddridge, Harrison, Lewis, Pendleton, Pleasants, Randolph, Ritchie, Tucker, Tyler, Upshur and Wetzel -- to let recovery operations and damage assessments continue; it expires 20 August 2026 in the remaining 43 counties."
+    },
+    {
+      "date": "2026-07-24",
+      "text": "The governor's office's recovery update recorded about 151 homes damaged in Upshur County, a National Guard deployment of 352 personnel and 84 vehicles, debris removal of 84 tons in Upshur and 192 tons in Lewis County in a 24-hour period, more than 2,600 Division of Highways employees and over 1,700 registered volunteers."
+    },
+    {
+      "date": "2026-07-22",
+      "text": "Approximately 85 rescues were carried out over 20 hours, with more than 3,100 Division of Highways employees and over 300 pieces of heavy equipment deployed, roughly 12,366 customers without power statewide and three emergency shelters open at Buckhannon, Weston and Philippi."
+    },
+    {
+      "date": "2026-07-21",
+      "text": "Governor Patrick Morrisey declared a State of Emergency for all 55 West Virginia counties, effective for 30 days unless terminated earlier, after storms brought flash flooding, landslides, mudslides and damaging winds; impacts were most severe in Lewis, Pleasants and Upshur counties."
+    }
+  ],
   "verification": {
     "confidence": "high",
     "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",

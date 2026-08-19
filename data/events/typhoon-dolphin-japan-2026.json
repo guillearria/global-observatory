@@ -50,12 +50,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Tropical Cyclone DOLPHIN-26 intensified to Category 5 strength (269 km/h sustained winds) in the western Pacific before tracking across the Marshall Islands and toward Japan's Ryukyu Islands (Okinawa Prefecture and the Daito Islands) and China. GDACS has assessed the storm at Orange alert level (medium humanitarian impact) throughout its event window of 27 July-6 August 2026, with roughly 16.9 million people exposed to Category 1 or higher wind speeds and the Marshall Islands flagged as an area of high vulnerability. Re-checked 8 August 2026: GDACS's event report for DOLPHIN-26 now reads \"Overall Orange Tropical Cyclone for DOLPHIN-26 in Marshall Islands, Japan, China from 27 Jul 2026 00:00 UTC to 08 Aug 2026 06:00 UTC\" -- the event window now closes today. Population exposed to Category 1 or higher winds has fallen sharply to about 4 million, down from approximately 21.2 million as of the 7 August check, consistent with the storm moving past the most populous areas as it tracks toward a China landfall; peak intensity is still listed at 269 km/h (Category 5) as the storm's historical maximum. No allowlisted source (GDACS, ReliefWeb, WHO) has yet published a confirmed death, injury or evacuation figure, and no dissipation/closure statement has been published. Re-checked 9 August 2026: GDACS's event report for DOLPHIN-26 now shows a window extending to 09 August 2026 06:00 UTC, still Overall Orange, with peak intensity unchanged at 269 km/h (Category 5) and population exposed to Category 1+ winds at about 11.2 million as the storm tracks toward the China coast. No allowlisted source has yet published a confirmed death, injury or evacuation figure. Re-checked 10 August 2026: GDACS's event window (episode 55) has stopped extending day-over-day, remaining fixed at 09 Aug 2026 12:00 UTC rather than advancing to 10 August as on every prior check -- the clearest signal yet that the storm has moved past the tracked region. Alert level remains Orange with population exposure at about 14.1 million. Status is updated to contained on this basis; no death, injury or evacuation figure has been published by any allowlisted source for this storm's entire lifecycle.",
+  "description": "Tropical Cyclone DOLPHIN-26 intensified to Category 5 strength (269 km/h sustained winds) in the western Pacific in late July 2026, tracking across the Marshall Islands and toward Japan's Ryukyu Islands (Okinawa Prefecture and the Daito Islands) and China. GDACS assessed the storm at an Orange alert level (medium humanitarian impact) throughout, with population exposure to Category 1 or higher winds peaking at approximately 21.2 million people and the Marshall Islands flagged for high vulnerability. By 10 August 2026 GDACS's event window had stopped advancing, remaining fixed at 9 August, indicating the storm had moved past the tracked region; the event is assessed as contained on that basis. No confirmed death, injury or evacuation figure was published by an authoritative source at any point in the storm's lifecycle.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report for Tropical Cyclone DOLPHIN-26 (event id 1001297, episode 42) assesses an Orange alert for medium humanitarian impact across an event window of 27 July-6 August 2026, citing a peak intensity of 269 km/h (Category 5) and about 16.9 million people exposed to Category 1 or higher wind speeds across the Marshall Islands, Japan and China, with the Marshall Islands flagged as an area of high vulnerability. No allowlisted authoritative source has yet published a confirmed death toll, injury count, or evacuation figure for this storm. Re-checked 7 August 2026: GDACS now shows episode 45 (27 Jul-7 Aug 2026 window), still active and Orange-alert, with peak intensity unchanged at Category 5 (269 km/h) but population exposed to Category 1+ winds revised up to approximately 21.2 million people, from about 16.9 million as of episode 42. No confirmed casualty or evacuation figures from an allowlisted source have been published yet. Re-checked 8 August 2026: GDACS's event report for DOLPHIN-26 now reads \"Overall Orange Tropical Cyclone for DOLPHIN-26 in Marshall Islands, Japan, China from 27 Jul 2026 00:00 UTC to 08 Aug 2026 06:00 UTC\" -- the event window now closes today. Population exposed to Category 1 or higher winds has fallen sharply to about 4 million, down from approximately 21.2 million as of the 7 August check, consistent with the storm moving past the most populous areas as it tracks toward a China landfall; peak intensity is still listed at 269 km/h (Category 5) as the storm's historical maximum. No allowlisted source (GDACS, ReliefWeb, WHO) has yet published a confirmed death, injury or evacuation figure, and no dissipation/closure statement has been published. Re-checked 9 August 2026: GDACS's event report for DOLPHIN-26 now shows a window extending to 09 August 2026 06:00 UTC, still Overall Orange, with peak intensity unchanged at 269 km/h (Category 5) and population exposed to Category 1+ winds at about 11.2 million as the storm tracks toward the China coast. No allowlisted source has yet published a confirmed death, injury or evacuation figure. Re-checked 10 August 2026: the GDACS event window (episode 55) is no longer advancing day-over-day (fixed at 09 Aug 2026 12:00 UTC), indicating the storm has passed the tracked region; alert level remains Orange, population exposure about 14.1 million. Status updated to contained on this basis."
+      "summary": "GDACS assessed Tropical Cyclone DOLPHIN-26 at an Orange alert (medium humanitarian impact) with a peak intensity of 269 km/h (Category 5) across the Marshall Islands, Japan and China. Population exposed to Category 1 or higher winds peaked at approximately 21.2 million during the storm's active phase and stood at about 14.1 million in the final assessment, with the event window closed as of 9 August 2026 and the storm assessed as contained. No confirmed death, injury or evacuation figure was published by an authoritative source for this storm."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1001297&eventtype=TC",
     "location": {
@@ -69,7 +69,7 @@
     "status": "contained"
   },
   "id": "typhoon-dolphin-japan-2026",
-  "last_updated": "2026-08-10T09:29:16Z",
+  "last_updated": "2026-08-19T13:04:10Z",
   "name": "Super Typhoon Dolphin — Marshall Islands, Japan & China",
   "provenance": {
     "history": [
@@ -77,10 +77,15 @@
         "at": "2026-08-10T09:29:16Z",
         "layer": "verify",
         "run_id": "2026-08-10T09-29-16Z-aa3154"
+      },
+      {
+        "at": "2026-08-19T13:04:10Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-04-10Z-f306fb"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-10T09-29-16Z-aa3154"
+    "last_run_id": "2026-08-19T13-04-10Z-f306fb"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -88,6 +93,24 @@
     "impact_rank": 1,
     "recency_rank": 739824
   },
+  "updates": [
+    {
+      "date": "2026-08-10",
+      "text": "GDACS's event window stopped advancing day-over-day, remaining fixed at 12:00 UTC on 9 August 2026 — the signal that the storm had moved past the tracked region. The alert level remained Orange with population exposure listed at about 14.1 million, and the event status was updated to contained."
+    },
+    {
+      "date": "2026-08-09",
+      "text": "GDACS extended the event window to 9 August 2026, still at Orange alert, with peak intensity unchanged at 269 km/h and about 11.2 million people exposed to Category 1 or higher winds as the storm tracked toward the China coast."
+    },
+    {
+      "date": "2026-08-08",
+      "text": "Population exposed to Category 1 or higher winds fell sharply to about 4 million, from approximately 21.2 million the previous day, consistent with the storm moving past the most populous areas as it tracked toward a China landfall."
+    },
+    {
+      "date": "2026-08-07",
+      "text": "GDACS's episode 45 assessment raised population exposed to Category 1 or higher winds to approximately 21.2 million across the Marshall Islands, Japan and China, up from about 16.9 million, with peak intensity still 269 km/h (Category 5)."
+    }
+  ],
   "verification": {
     "confidence": "high",
     "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",

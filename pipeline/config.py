@@ -79,6 +79,37 @@ HISTORICAL_YEAR_OFFSET = 10_000
 HISTORICAL_YEAR_MIN = -9_999
 HISTORICAL_YEAR_MAX = 2_100
 
+# --- Prose discipline (schema._prose_checks) --------------------------------
+# description and the kind summary are current-state editorial prose, rewritten in
+# place on refresh — never an append log. Re-verification narration belongs in an
+# event's dated `updates[]` entries (or nowhere, when nothing changed); these
+# substrings catch it leaking back into prose. Case-insensitive. Bare "correction"
+# is deliberately NOT listed: it is legitimate event prose (a market correction).
+# claims[].text is exempt everywhere — pre-cleanup claims kept verbatim carry
+# "Re-checked …" prefixes, and old claim text is never restyled.
+PROSE_FORBIDDEN_PHRASES = (
+    "re-checked",
+    "re-confirmed",
+    "re-verified",
+    "direct fetch",
+    "iscurrent",
+    "no newer episode",
+    "pending any newer",
+)
+# "allowlisted" is pipeline jargon, not event prose — but four historical records
+# use it legitimately in sourcing caveats, so the ban is events-only.
+EVENT_PROSE_FORBIDDEN_PHRASES = (*PROSE_FORBIDDEN_PHRASES, "allowlisted")
+
+# Length caps (characters, after whitespace strip). Clean pre-cleanup records peak
+# around 950/1150, so 1200 is headroom for legitimate prose while still refusing
+# an append log. Enforced in Python, not JSON Schema, to keep the schemas usable
+# as structured-output formats.
+DESCRIPTION_MAX_CHARS = 1_200
+SUMMARY_MAX_CHARS = 1_200
+EVENT_REGION_MAX_CHARS = 200
+EVENT_UPDATE_TEXT_MAX_CHARS = 400
+EVENT_UPDATES_MAX_ENTRIES = 30
+
 
 def allowlisted(url: str) -> tuple[bool, str | None]:
     """Return (is_allowlisted, canonical_label) for a citation URL.

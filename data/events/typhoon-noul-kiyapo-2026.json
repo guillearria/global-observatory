@@ -26,12 +26,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Tropical Cyclone NOUL-26 (named Kiyapo in the Philippines, Hongxia in China) tracked across the northern Philippines and the South China Sea in late July 2026 before making a second landfall in Guangdong province, southern China, around 26 July 2026. GDACS assessed an Orange alert for medium humanitarian impact, with about 11.9 million people exposed to Category 1 or higher wind speeds across the Philippines and China, maximum sustained winds of 157 km/h (Category 2 equivalent, per JTWC data), and a maximum storm surge of 1.6 metres recorded on 25 July 2026. GDACS's event window closed at 26 July 2026 00:00 UTC with the alert's urgency status marked \"Past\" and no episode updates since; no allowlisted authoritative source has published a confirmed death toll, injury count, or evacuation figure for this storm, and with the cyclone dissipated and no further GDACS activity for five days, the event is assessed as resolved.",
+  "description": "Tropical Cyclone NOUL-26 (named Kiyapo in the Philippines, Hongxia in China) tracked across the northern Philippines and the South China Sea in late July 2026 before making a second landfall in Guangdong province, southern China, around 26 July 2026. GDACS assessed an Orange alert for medium humanitarian impact, with about 11.9 million people exposed to Category 1 or higher wind speeds across the Philippines and China, maximum sustained winds of 157 km/h (Category 2 equivalent, per JTWC data), and a maximum storm surge of 1.6 metres recorded on 25 July 2026. GDACS's event window closed at 00:00 UTC on 26 July 2026 with the alert's urgency status marked \"Past\" and no episode updates since; no authoritative source published a confirmed death toll, injury count, or evacuation figure for this storm, and with the cyclone dissipated and no further GDACS activity for five days, the event is assessed as resolved.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS assessed Tropical Cyclone NOUL-26 (Kiyapo) at an Orange alert level for medium humanitarian impact, with about 11.9 million people exposed to Category 1 or higher wind speeds across the Philippines and China between 23 and 26 July 2026. Maximum sustained winds reached 157 km/h (Category 2 equivalent per JTWC data), with a maximum storm surge of 1.6 metres recorded on 25 July 2026. As of 31 July 2026 GDACS's event window remains closed at 26 July with urgency status \"Past\" and no new episodes, and no allowlisted authoritative source has published a confirmed death toll, injury count, or evacuation figure for this storm."
+      "summary": "GDACS assessed Tropical Cyclone NOUL-26 (Kiyapo) at an Orange alert level for medium humanitarian impact, with about 11.9 million people exposed to Category 1 or higher wind speeds across the Philippines and China between 23 and 26 July 2026. Maximum sustained winds reached 157 km/h (Category 2 equivalent per JTWC data), with a maximum storm surge of 1.6 metres recorded on 25 July 2026. GDACS's event window closed on 26 July with urgency status \"Past\" and no further episodes, and no authoritative source published a confirmed death toll, injury count, or evacuation figure for this storm."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001294",
     "location": {
@@ -45,7 +45,7 @@
     "status": "resolved"
   },
   "id": "typhoon-noul-kiyapo-2026",
-  "last_updated": "2026-07-31T09:13:49Z",
+  "last_updated": "2026-08-19T13:04:10Z",
   "name": "Typhoon Noul (Kiyapo) — Philippines & China",
   "provenance": {
     "history": [
@@ -53,10 +53,15 @@
         "at": "2026-07-31T09:13:49Z",
         "layer": "verify",
         "run_id": "2026-07-31T09-13-49Z-574b41"
+      },
+      {
+        "at": "2026-08-19T13:04:10Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-04-10Z-18fadd"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-31T09-13-49Z-574b41"
+    "last_run_id": "2026-08-19T13-04-10Z-18fadd"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -64,6 +69,12 @@
     "impact_rank": 1,
     "recency_rank": 739820
   },
+  "updates": [
+    {
+      "date": "2026-07-31",
+      "text": "GDACS's event report showed the window closed (23-26 July 2026) with the alert's urgency status marked \"Past\" and no episode updates since; with the cyclone dissipated and no further GDACS activity for five days, the event was assessed as resolved."
+    }
+  ],
   "verification": {
     "confidence": "high",
     "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",

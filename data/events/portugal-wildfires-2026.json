@@ -3,18 +3,10 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-08",
-      "source_name": "GDACS",
-      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029260",
-      "text": "GDACS's forest fire event report for Portugal (event 1029260, covering 02-08 July 2026) assessed an Orange alert, stating 'forest fire can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability,' with 19,670 hectares burned and 9,361 people exposed in the burned area.",
-      "verification_status": "verified"
-    },
-    {
-      "id": "claim-2",
       "retrieved_date": "2026-07-09",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029260",
-      "text": "Re-checked 9 July 2026: GDACS's event report still shows a start date to last-detection window of 02 Jul 2026 to 08 Jul 2026 (duration 6 days), with 19,670 hectares burned and 9,361 people affected in the burned area unchanged; no thermal anomaly has been detected since 08 Jul 2026, indicating the fires are no longer actively spreading.",
+      "text": "GDACS's forest fire event report for Portugal (event 1029260, covering 02-08 July 2026) assessed an Orange alert, stating 'forest fire can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability,' with 19,670 hectares burned and 9,361 people exposed in the burned area.",
       "verification_status": "verified"
     }
   ],
@@ -37,7 +29,7 @@
     "status": "contained"
   },
   "id": "portugal-wildfires-2026",
-  "last_updated": "2026-07-09T09:14:17Z",
+  "last_updated": "2026-08-19T13:04:09Z",
   "name": "Wildfires — Portugal",
   "provenance": {
     "history": [
@@ -45,10 +37,15 @@
         "at": "2026-07-09T09:14:17Z",
         "layer": "verify",
         "run_id": "2026-07-09T09-14-17Z-7d66ce"
+      },
+      {
+        "at": "2026-08-19T13:04:09Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-04-09Z-635c21"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-09T09-14-17Z-7d66ce"
+    "last_run_id": "2026-08-19T13-04-09Z-635c21"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -58,7 +55,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

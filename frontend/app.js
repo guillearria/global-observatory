@@ -1,29 +1,54 @@
 "use strict";
 
-// --- Tabs (hash-routed) ------------------------------------------------------
-// #pulse / #threats / #history are shareable URLs; back button walks tab history.
+// --- Router (hash-routed tabs + record detail views) -------------------------
+// #pulse / #threats / #history are the list tabs; #<tab>/<record-id> is that
+// record's detail view. All shareable URLs; back button walks the history.
 const TABS = ["pulse", "threats", "history"];
 
-function currentTab() {
-  const name = location.hash.replace(/^#/, "");
-  return TABS.includes(name) ? name : "pulse"; // unknown hash -> default tab
+const TAB_KINDS = { pulse: "event", threats: "threat", history: "historical" };
+const KIND_TABS = { event: "pulse", threat: "threats", historical: "history" };
+
+const PANE_TITLES = {
+  pulse: "World Pulse", threats: "Existential Threats", history: "Historical Archive",
+};
+
+const SITE_TITLE = document.title;
+
+function parseRoute() {
+  const [tab, id] = location.hash.replace(/^#/, "").split("/");
+  // Unknown tab -> default list; extra segments beyond the id are ignored.
+  return { tab: TABS.includes(tab) ? tab : "pulse", id: id || null };
 }
 
-function showTab(name) {
+function detailHref(tab, id) {
+  return `#${tab}/${id}`;
+}
+
+function showView(route) {
+  const detailPane = document.getElementById("detail-pane");
+  // List panes stay mounted even behind a detail view: the map's click-to-card
+  // targets and the toolbars' filter state live in them.
   for (const tab of TABS) {
     const pane = document.getElementById(`${tab}-pane`);
-    if (pane) pane.hidden = tab !== name;
+    if (pane) pane.hidden = route.id !== null || tab !== route.tab;
   }
+  if (detailPane) detailPane.hidden = route.id === null;
   for (const link of document.querySelectorAll(".tabs a")) {
-    const active = link.dataset.tab === name;
+    const active = link.dataset.tab === route.tab;
     link.classList.toggle("active", active);
     if (active) link.setAttribute("aria-current", "page");
     else link.removeAttribute("aria-current");
   }
-  // A map laid out while its tab was hidden has zero size — re-measure on show.
-  if (name === "pulse" && window.GOMap) GOMap.invalidate();
-  // Summaries clamped while this pane was hidden could never be measured — sweep now.
-  pruneNoopClamps(document.getElementById(name));
+  if (route.id !== null) {
+    renderDetail(route);
+    window.scrollTo(0, 0);
+    return;
+  }
+  document.title = SITE_TITLE;
+  // A map laid out while its pane was hidden has zero size — re-measure on show.
+  // Runs on every return from a detail view too; invalidate is cheap and bails
+  // itself at zero width.
+  if (route.tab === "pulse" && window.GOMap) GOMap.invalidate();
 }
 
 // --- Threat categories (existential threats pane) --------------------------
@@ -75,6 +100,10 @@ const viewState = {
 // change re-renders from the already-loaded data without refetching.
 const paneRerender = {};
 
+// Latest data per pane (same mount ids as the route tab names), so detail
+// routes render from the already-loaded aggregate without their own fetch.
+const paneData = {};
+
 function el(tag, attrs, children) {
   const node = document.createElement(tag);
   if (attrs) {
@@ -94,9 +123,10 @@ function badge(text, cls) {
   return el("span", { class: `badge ${cls}`, text });
 }
 
-// Free-text fields (event.scale, historical.date_display) are uncapped and are
-// sometimes whole sentences; past this length they render as a wrapping kicker
-// line under the title instead of a pill chip, which cannot wrap gracefully.
+// historical.date_display is free text and sometimes a whole sentence; past this
+// length it renders as a wrapping kicker line under the title instead of a pill
+// chip, which cannot wrap gracefully. (Historical cards only — event scale text
+// lives on the meta line.)
 const CHIP_MAX_CHARS = 40;
 
 function dateOnly(iso) {
@@ -178,12 +208,14 @@ function threatParts(rec, review) {
   const v = rec.verification || {};
   const prob = (a.probability || {}).estimate || "unknown";
   const sev = a.severity || "unknown";
+  // Exactly three badges: the category is already the section grouping, and
+  // confidence duplicates the verification chip (partial <=> medium) — both
+  // still appear on the detail view.
   const badges = [
     review ? badge("under review", "badge-review")
            : badge(v.status || "unverified", `badge-${v.status || "unverified"}`),
     badge(`severity: ${sev}`, "badge-sev"),
     badge(`probability: ${prob}`, "badge-prob"),
-    v.confidence ? badge(`confidence: ${v.confidence}`, "badge-conf") : null,
   ];
   const summary = a.summary || rec.description || "";
   const meta = [el("p", { class: "card-meta", text: `Last updated ${dateOnly(rec.last_updated)}` })];
@@ -196,18 +228,16 @@ function eventParts(rec, review) {
   const status = ev.status || "ongoing";
   const loc = ev.location || {};
   const where = [loc.region, loc.country].filter(Boolean).join(", ");
-  const scale = ev.scale || "";
+  // Exactly three badges; free-text scale belongs on the meta line, not in a chip.
   const badges = [
     review ? badge("under review", "badge-review")
            : badge(v.status || "unverified", `badge-${v.status || "unverified"}`),
     badge(EVENT_TYPE_LABELS[rec.category] || rec.category || "Event", "badge-cat"),
     badge(status, `badge-${status}`),
-    scale && scale.length <= CHIP_MAX_CHARS ? badge(scale, "badge-scale") : null,
   ];
-  const kicker = scale.length > CHIP_MAX_CHARS ? scale : "";
   const summary = (ev.impact || {}).summary || rec.description || "";
 
-  const locLine = [where, dateOnly(ev.occurrence_date)].filter(Boolean).join(" · ");
+  const locLine = [where, dateOnly(ev.occurrence_date), ev.scale].filter(Boolean).join(" · ");
   const meta = [];
   if (locLine) meta.push(el("p", { class: "card-loc", text: locLine }));
   if (ev.live_source_url) {
@@ -217,7 +247,7 @@ function eventParts(rec, review) {
       linkOut(ev.live_source_url, "live at source ↗"),
     ]));
   }
-  return { badges, kicker, summary, meta };
+  return { badges, summary, meta };
 }
 
 function historicalParts(rec, review) {
@@ -241,70 +271,198 @@ function historicalParts(rec, review) {
   return { badges, kicker, summary, meta };
 }
 
-// Summaries longer than this are collapsed to a few lines behind a "Show more"
-// toggle. The threshold is character-based (not measured) so it also works for
-// panes that are hidden at render time; pruneNoopClamps() later removes the
-// toggle from any summary that turns out to fit unclamped.
-const CLAMP_MIN_CHARS = 320;
-
-function summaryNodes(text) {
-  const p = el("p", { class: "card-summary", text });
-  if ((text || "").length <= CLAMP_MIN_CHARS) return [p];
-  p.classList.add("clampable");
-  const toggle = el("button", {
-    class: "summary-toggle", type: "button", "aria-expanded": "false", text: "Show more",
-  });
-  toggle.addEventListener("click", () => {
-    const expanded = p.classList.toggle("expanded");
-    toggle.setAttribute("aria-expanded", String(expanded));
-    toggle.textContent = expanded ? "Show less" : "Show more";
-  });
-  return [p, toggle];
-}
-
-// Remove the clamp (and its toggle) from summaries that already fit — a summary
-// just over the character threshold can still fit within the clamped line count
-// on a wide viewport, and a no-op "Show more" would be confusing. Only the
-// visible pane can be measured (hidden panes have zero heights); showTab sweeps
-// each pane again when it is shown.
-function pruneNoopClamps(root) {
-  if (!root) return;
-  requestAnimationFrame(() => {
-    if (!root.clientWidth) return; // hidden pane — swept on showTab instead
-    for (const p of root.querySelectorAll(".card-summary.clampable:not(.expanded)")) {
-      if (p.scrollHeight <= p.clientHeight + 1) {
-        p.classList.remove("clampable");
-        const next = p.nextElementSibling;
-        if (next && next.classList.contains("summary-toggle")) next.remove();
-      }
-    }
-  });
-}
-
 function cardNode(rec, { review, kind }) {
   const parts = kind === "event" ? eventParts(rec, review)
     : kind === "historical" ? historicalParts(rec, review)
     : threatParts(rec, review);
+  const href = detailHref(KIND_TABS[kind], rec.id);
 
   const head = el("div", { class: "card-head" }, [
-    el("h3", { text: rec.name || rec.id }),
+    el("h3", {}, [el("a", { href, class: "card-title-link", text: rec.name || rec.id })]),
     el("div", { class: "badges" }, parts.badges),
   ]);
 
-  const claims = rec.claims || [];
-  const details = el("details", { class: "claims" }, [
-    el("summary", { text: `${claims.length} cited claim${claims.length === 1 ? "" : "s"}` }),
-    ...claims.map(claimNode),
+  const n = (rec.claims || []).length;
+  const foot = el("p", { class: "card-foot" }, [
+    el("span", { text: `${n} cited claim${n === 1 ? "" : "s"} · ` }),
+    el("a", { href, text: "View details →" }),
   ]);
 
   // The id is the map's click-to-scroll target (see map.js).
   return el("article", { class: "card", id: `card-${rec.id}` }, [
     head,
     parts.kicker ? el("p", { class: "card-kicker", text: parts.kicker }) : null,
-    ...summaryNodes(parts.summary),
+    el("p", { class: "card-summary", text: parts.summary }),
     ...parts.meta,
-    details,
+    foot,
   ]);
+}
+
+// --- Detail view (#<tab>/<record-id>): one record as a full page ------------
+function findRecord(data, id) {
+  for (const rec of data.published || []) if (rec.id === id) return { rec, review: false };
+  for (const rec of data.under_review || []) if (rec.id === id) return { rec, review: true };
+  return null;
+}
+
+function renderDetail(route) {
+  const mount = document.getElementById("detail");
+  if (!mount) return;
+  const data = paneData[route.tab];
+  if (!data) {
+    // Cold deep link: the pane's aggregate hasn't arrived yet — loadPane's
+    // render re-invokes renderDetail once it has data (cached or fetched).
+    mount.replaceChildren(el("p", { class: "loading", text: "Loading…" }));
+    return;
+  }
+  const found = findRecord(data, route.id);
+  if (!found) {
+    document.title = SITE_TITLE;
+    mount.replaceChildren(
+      el("p", { class: "error", text: "No record with this id — it may have been renamed or removed." }),
+      el("p", { class: "detail-back" }, [
+        el("a", { href: `#${route.tab}`, text: `← Back to ${PANE_TITLES[route.tab]}` }),
+      ]),
+    );
+    return;
+  }
+  document.title = `${found.rec.name || route.id} — ${SITE_TITLE}`;
+  mount.replaceChildren(detailNode(found.rec, { kind: TAB_KINDS[route.tab], review: found.review }));
+}
+
+// Meta lines for the detail head; unlike the card adapters this includes the
+// verification verdict (the gate's notes string) and, for events, the
+// last-updated stamp next to it.
+function detailMeta(rec, kind) {
+  const v = rec.verification || {};
+  const verLine = [
+    v.notes || (v.status ? `verification: ${v.status}` : ""),
+    v.confidence ? `(confidence: ${v.confidence})` : "",
+  ].filter(Boolean).join(" ");
+  const out = [];
+  if (kind === "event") {
+    const ev = rec.event || {};
+    const loc = ev.location || {};
+    const where = [loc.region, loc.country].filter(Boolean).join(", ");
+    const locLine = [where, dateOnly(ev.occurrence_date), ev.scale].filter(Boolean).join(" · ");
+    if (locLine) out.push(el("p", { class: "card-loc", text: locLine }));
+    if (ev.live_source_url) {
+      const asOf = dateOnly(latestRetrievedDate(rec.claims)) || dateOnly(rec.last_updated);
+      out.push(el("p", { class: "card-live" }, [
+        el("span", { text: `Figures as of ${asOf} — ` }),
+        linkOut(ev.live_source_url, "live at source ↗"),
+      ]));
+    }
+    out.push(el("p", {
+      class: "card-meta",
+      text: `Last updated ${dateOnly(rec.last_updated)}${verLine ? ` · ${verLine}` : ""}`,
+    }));
+  } else if (kind === "threat") {
+    out.push(el("p", { class: "card-meta", text: `Last updated ${dateOnly(rec.last_updated)}` }));
+    if (verLine) out.push(el("p", { class: "card-meta", text: verLine }));
+  } else {
+    const hist = rec.historical || {};
+    const loc = hist.location || {};
+    const where = [loc.region, loc.country].filter(Boolean).join(", ");
+    if (where) out.push(el("p", { class: "card-loc", text: where }));
+    out.push(el("p", {
+      class: "card-meta",
+      text: `Last updated ${dateOnly(rec.last_updated)}${verLine ? ` · ${verLine}` : ""}`,
+    }));
+  }
+  return out;
+}
+
+function figureLine(label, value) {
+  return el("p", { class: "figure", text: `${label}: ${value}` });
+}
+
+// Key-figure lines per kind; skipped entirely when a record has none.
+function detailFigures(rec, kind) {
+  const out = [];
+  if (kind === "event") {
+    const impact = (rec.event || {}).impact || {};
+    if (typeof impact.deaths === "number") out.push(figureLine("Deaths", compactNumber.format(impact.deaths)));
+    if (typeof impact.displaced === "number") out.push(figureLine("Displaced", compactNumber.format(impact.displaced)));
+  } else if (kind === "threat") {
+    const a = rec.assessment || {};
+    const p = a.probability || {};
+    if (a.severity) out.push(figureLine("Severity", a.severity));
+    if (p.estimate) {
+      let text = p.estimate;
+      if (p.window) text += ` (window: ${p.window})`;
+      if (typeof p.numeric_annual === "number") text += ` · annual ≈ ${p.numeric_annual}`;
+      out.push(figureLine("Probability", text));
+    }
+    if (a.timeframe) out.push(figureLine("Timeframe", a.timeframe));
+    if ((rec.verification || {}).confidence) out.push(figureLine("Confidence", rec.verification.confidence));
+  } else {
+    const hist = rec.historical || {};
+    const deaths = formatDeathsRange(hist.impact || {});
+    if (deaths) out.push(el("p", { class: "figure", text: deaths }));
+    if (hist.date_display) out.push(figureLine("Date", hist.date_display));
+  }
+  return out;
+}
+
+function detailSection(title, children) {
+  return el("section", { class: "detail-section" }, [
+    el("h3", { text: title }),
+    ...children,
+  ]);
+}
+
+function detailNode(rec, { kind, review }) {
+  const tab = KIND_TABS[kind];
+  const parts = kind === "event" ? eventParts(rec, review)
+    : kind === "historical" ? historicalParts(rec, review)
+    : threatParts(rec, review);
+
+  const children = [
+    el("p", { class: "detail-back" }, [
+      el("a", { href: `#${tab}`, text: `← Back to ${PANE_TITLES[tab]}` }),
+    ]),
+  ];
+  if (review) {
+    children.push(el("div", {
+      class: "review-banner",
+      text: "This record failed automated verification — no authoritative source has been " +
+            "confirmed for its headline claims. It is shown for transparency and must not " +
+            "be read as established fact.",
+    }));
+  }
+  children.push(el("div", { class: "card-head" }, [
+    el("h2", { text: rec.name || rec.id }),
+    el("div", { class: "badges" }, parts.badges),
+  ]));
+  if (parts.kicker) children.push(el("p", { class: "card-kicker", text: parts.kicker }));
+  children.push(el("div", { class: "detail-meta" }, detailMeta(rec, kind)));
+
+  const figures = detailFigures(rec, kind);
+  if (figures.length) children.push(detailSection("Key figures", figures));
+
+  // The kind summary first, then the description — they are separate editorial
+  // texts (snapshot vs. narrative); the second is skipped when identical.
+  const summary = parts.summary || "";
+  const description = rec.description || "";
+  const prose = [];
+  if (summary) prose.push(el("p", { class: "detail-prose", text: summary }));
+  if (description && description !== summary) {
+    prose.push(el("p", { class: "detail-prose", text: description }));
+  }
+  if (prose.length) children.push(detailSection("Overview", prose));
+
+  if (kind === "event" && Array.isArray(rec.updates) && rec.updates.length) {
+    children.push(detailSection("Updates", rec.updates.map((u) => el("div", { class: "update" }, [
+      el("span", { class: "update-date", text: u.date || "" }),
+      el("span", { class: "update-text", text: u.text || "" }),
+    ]))));
+  }
+
+  const claims = rec.claims || [];
+  children.push(detailSection(`Citations (${claims.length})`, claims.map(claimNode)));
+
+  return el("article", { class: review ? "detail under-review" : "detail" }, children);
 }
 
 // Empty state for an active filter that matches nothing — distinct from the
@@ -437,6 +595,7 @@ async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, stale
 
   const render = (data) => {
     lastData = data;
+    paneData[mountId] = data;
     const published = data.published || [];
     const underReview = data.under_review || [];
     const body = kind === "event" ? renderEvents(published)
@@ -448,8 +607,11 @@ async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, stale
     } else {
       mount.replaceChildren(...nodes);
     }
-    pruneNoopClamps(mount);
     if (onData) onData(data);
+    // An open detail route over this pane repaints from the fresh data — this
+    // is also how a cold deep link's "Loading…" placeholder resolves.
+    const route = parseRoute();
+    if (route.id && route.tab === mountId) renderDetail(route);
     if (!data.last_updated) {
       fresh.replaceChildren();
       return;
@@ -534,8 +696,8 @@ function setupToolbars() {
 }
 
 function main() {
-  showTab(currentTab());
-  window.addEventListener("hashchange", () => showTab(currentTab()));
+  showView(parseRoute());
+  window.addEventListener("hashchange", () => showView(parseRoute()));
   setupToolbars();
 
   // All three panes load eagerly: payloads are small, staleness banners stay live,

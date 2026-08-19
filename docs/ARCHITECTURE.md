@@ -65,8 +65,12 @@ kind tests.
 
 One JSON file per record, serialized deterministically (`json.dumps(..., indent=2, sort_keys=True,
 ensure_ascii=False)`) so git diffs are meaningful: a re-verify that confirms the same facts diffs
-only `retrieved_date` + `provenance`; a changed fact produces a clear, reviewable diff. Stable
-`claims[].id` values keep re-verification diffs in place. `CHANGELOG.md` is **generated** by
+only `retrieved_date` + `provenance`; a changed fact produces a clear, reviewable diff — and on
+events it also appends one dated `updates[]` entry. Stable `claims[].id` values keep
+re-verification diffs in place. Prose fields (`description`, the kind summary) are current-state
+text rewritten in place, enforced by Python prose checks (length caps + forbidden
+process-language phrases, `pipeline/config.py`) that run inside `curate.finalize` and
+`validate_data.py`; claim text is exempt. `CHANGELOG.md` is **generated** by
 `pipeline/changelog.py` from `git log` over `data/**` — git history is canonical; the changelog is a
 human-readable projection.
 
@@ -79,6 +83,10 @@ Key record fields (see the schema files for the full contract):
   probability_rank`; events `recency_rank*10 + impact_rank` (day-ordinal recency, so the rank is
   stable and rebuild-independent); historical `chronology_rank*10 + impact_rank`.
 - `provenance` — append-only `{layer, run_id, at}` history, capped at 20.
+- Event `updates[]` — optional dated development log (`{date, text}`, newest first, capped at 30
+  entries × 400 chars, Python-enforced), mirroring provenance's capped-append precedent. One
+  entry per material development or correction; a no-change re-verify only bumps the confirming
+  claim's `retrieved_date`. Feeds no derived field, so it is deliberately unaudited.
 - Threat `assessment.probability` carries a categorical `estimate` plus optional published
   `numeric_annual` — no invented precision.
 - Event `event.location` carries optional `lat`/`lon` (WGS84 decimal degrees) — the World Pulse
@@ -124,7 +132,7 @@ pipeline/
   changelog.py  regenerate CHANGELOG.md from git history
 scripts/        author_threat.py, author_event.py, author_historical.py, validate_data.py,
                 build_frontend.py, serve_frontend.py
-frontend/       index.html (tab shell), app.js (router + panes), map.js (World Pulse map),
+frontend/       index.html (tab shell), app.js (router: tabs + detail views, panes), map.js (World Pulse map),
                 styles.css, assets/blue-marble-4096.jpg (NASA, public domain)
 tests/          gate, curate (all three kinds), schema, store, models round-trip
 ```
@@ -133,15 +141,18 @@ tests/          gate, curate (all three kinds), schema, store, models round-trip
 
 Vanilla HTML/CSS/JS, no build step, **no external requests** — every byte the page loads is served
 from the repo. `app.js` fetches `frontend/data/{events,threats,historical}.json` (cache-busted,
-with a localStorage last-known-good fallback) and renders three hash-routed tabs (`#pulse` /
-`#threats` / `#history` — shareable URLs, back-button history, unknown hashes fall back to
-`#pulse`): World Pulse (flat; recency-first with severity-weighted staying power, blended at
-render time from `occurrence_date`, `impact_rank`, and `status` — stored `sort_keys` are
-untouched), Existential Threats (grouped by category, severity-sorted, filterable by category
-and severity), and the Historical Archive (grouped by era, chronological with a newest-first
-toggle, filterable by type, with date badges and estimated-deaths ranges). Each card shows
-verification badges, a collapsed-by-default summary for long texts, and an expandable,
-source-linked claims list. Quarantined records render under an "Under review" warning banner.
+with a localStorage last-known-good fallback) and hash-routes three list tabs plus a per-record
+detail view (`#pulse` / `#threats` / `#history` and `#pulse/<id>` / `#threats/<id>` /
+`#history/<id>` — shareable URLs, back-button history, unknown hashes fall back to `#pulse`, an
+unknown id to a not-found note): World Pulse (flat; recency-first with severity-weighted staying
+power, blended at render time from `occurrence_date`, `impact_rank`, and `status` — stored
+`sort_keys` are untouched), Existential Threats (grouped by category, severity-sorted, filterable
+by category and severity), and the Historical Archive (grouped by era, chronological with a
+newest-first toggle, filterable by type). Cards are compact: exactly three badges, a
+three-line-clamped summary, key meta, and a claim count — the title links to the detail view,
+which renders the full prose, key figures, the dated `updates[]` timeline (events), and the
+complete source-linked citations list, always expanded. Quarantined records render under an
+"Under review" warning banner on the list and resolve on detail routes with the same banner.
 
 The **World Pulse map** (`map.js`, pulse tab only) is fully self-contained: a committed NASA Blue
 Marble equirectangular basemap with drag-pan and wheel/pinch zoom, markers sized and colored by
@@ -149,10 +160,11 @@ Marble equirectangular basemap with drag-pan and wheel/pinch zoom, markers sized
 from every `events.json` paint, so the daily refresh updates the map automatically; `app.js` only
 touches the two-method `GOMap` API, keeping a richer map library a drop-in swap.
 
-Freshness honesty: cached figures are labeled "as of <claims' retrieved_date>" with a "live at
-source" link (`event.live_source_url`); a **staleness banner** appears when `last_updated` exceeds
-2 days (events) or 10 days (threats) — the Historical Archive is exempt (its `staleAfterDays` is
-null, and the banner guard requires a finite threshold).
+Freshness honesty: cached figures are labeled "as of <claims' retrieved_date>" — on cards and on
+the detail view — with a "live at source" link (`event.live_source_url`); a **staleness banner**
+appears on the list panes when `last_updated` exceeds 2 days (events) or 10 days (threats) — the
+Historical Archive is exempt (its `staleAfterDays` is null, and the banner guard requires a
+finite threshold).
 
 ## 7. Operations
 

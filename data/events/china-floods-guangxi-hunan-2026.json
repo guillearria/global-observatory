@@ -3,18 +3,10 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-08",
-      "source_name": "GDACS",
-      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103933",
-      "text": "GDACS's flood event report (GLIDE FL-2026-000105-CHN, covering 06 June 2026 to 07 July 2026) assessed an overall Orange alert, stating that 'flood can have a medium humanitarian impact based on the magnitude, exposed population and vulnerability,' and records official figures of 12 deaths and 85,197 people displaced across affected areas of China.",
-      "verification_status": "verified"
-    },
-    {
-      "id": "claim-2",
       "retrieved_date": "2026-07-09",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103933",
-      "text": "Re-checked 9 July 2026: GDACS's event report for the flood still shows the reporting window closed, spanning 06 Jun 2026 01:00 UTC to 07 Jul 2026 01:00 UTC, with the same 12 deaths and 85,197 displaced figures unchanged since the window closed, confirming no further escalation has been recorded.",
+      "text": "GDACS's flood event report (GLIDE FL-2026-000105-CHN, covering 06 June 2026 to 07 July 2026) assessed an overall Orange alert, stating that 'flood can have a medium humanitarian impact based on the magnitude, exposed population and vulnerability,' and records official figures of 12 deaths and 85,197 people displaced across affected areas of China.",
       "verification_status": "verified"
     },
     {
@@ -45,7 +37,7 @@
     "status": "resolved"
   },
   "id": "china-floods-guangxi-hunan-2026",
-  "last_updated": "2026-08-01T09:21:20Z",
+  "last_updated": "2026-08-19T13:04:06Z",
   "name": "Southern China Floods (Guangxi, Hunan, Hubei)",
   "provenance": {
     "history": [
@@ -53,10 +45,15 @@
         "at": "2026-08-01T09:21:20Z",
         "layer": "verify",
         "run_id": "2026-08-01T09-21-20Z-167de5"
+      },
+      {
+        "at": "2026-08-19T13:04:06Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-04-06Z-edacf3"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-01T09-21-20Z-167de5"
+    "last_run_id": "2026-08-19T13-04-06Z-edacf3"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -66,7 +63,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
