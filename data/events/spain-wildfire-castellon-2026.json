@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-08-02",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029794",
       "text": "GDACS's event report (eventid 1029794, episode 15, GLIDE WF-2026-000131-ESP) assessed an Orange alert for medium humanitarian impact for a wildfire in the Plana Baixa comarca, Castellón province, Spain, covering a 25-30 July 2026 window, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area.",
@@ -18,14 +18,6 @@
       "verification_status": "verified"
     },
     {
-      "id": "claim-3",
-      "retrieved_date": "2026-08-02",
-      "source_name": "European Union",
-      "source_url": "https://eu-space.europa.eu/components/earth-observation-copernicus/image-of-the-day/multiple-wildfires-prompt-national-emergency-spain",
-      "text": "Re-checked 2 August 2026: GDACS's event report for this fire (eventid 1029794) still shows the 25-30 July 2026 window as the latest, with no newer episode published; figures (about 13,370 hectares burned, roughly 19,334 people affected) are unchanged, and no allowlisted source has declared the fire contained.",
-      "verification_status": "verified"
-    },
-    {
       "id": "claim-4",
       "retrieved_date": "2026-08-04",
       "source_name": "GDACS",
@@ -34,26 +26,26 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A wildfire broke out in the Plana Baixa comarca of Castellón province, Spain, around 25 July 2026, roughly 50 km north of Valencia — a separate outbreak from the concurrent, larger fire complex burning southwest of Madrid and in Ávila province. GDACS assessed the event at an Orange alert for medium humanitarian impact, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area. No newer GDACS episode has been published and no thermal-anomaly detection has been recorded since 30 July 2026, indicating the fire is now contained. The European Union's Copernicus Earth-observation programme confirmed that Spain's government declared a national emergency on 23 July 2026 in response to the country's simultaneous large wildfires, with more than 100,000 people evacuated or instructed to remain indoors across the affected Spanish regions combined.",
+  "description": "A wildfire broke out in the Plana Baixa comarca of Castellón province, Spain, around 25 July 2026, north of Valencia — a separate outbreak from the concurrent, larger fire complex burning southwest of Madrid and in Ávila province. GDACS assessed the event at an Orange alert for medium humanitarian impact, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area over a 25-30 July 2026 window. Spain's government had declared a national emergency on 23 July 2026 in response to the country's simultaneous large wildfires, with more than 100,000 people evacuated or instructed to remain indoors across the affected regions combined. The fire produced no new detectable hotspot activity after 30 July 2026 and is considered contained.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report (eventid 1029794, episode 15, GLIDE WF-2026-000131-ESP) assessed an Orange alert for medium humanitarian impact for a wildfire in the Plana Baixa comarca of Castellón province, Spain, covering a 25-30 July 2026 window, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area. The EU's Copernicus programme (eu-space.europa.eu) confirmed Spain's government declared a national emergency on 23 July 2026 in response to the country's simultaneous large wildfires (including this one and the concurrent Madrid/Ávila complex), with more than 100,000 people evacuated or instructed to remain indoors across the affected regions combined — a combined, not Castellón-specific, figure. Re-checked 4 August 2026: GDACS still shows episode 15 (25-30 July window) as the latest, with no newer episode published and no thermal-anomaly detection since 30 July — five days with no new hotspot activity — indicating the fire is now contained. No allowlisted source has published a confirmed death toll for this fire specifically."
+      "summary": "GDACS's event report (episode 15) assessed an Orange alert for medium humanitarian impact, citing about 13,370 hectares burned and roughly 19,334 people in the fire-affected area over a 25-30 July 2026 window; no thermal anomaly has been detected since 30 July, and the fire is considered contained. Spain's national emergency, declared 23 July 2026 amid simultaneous large wildfires, saw more than 100,000 people evacuated or instructed to remain indoors across the affected Spanish regions combined — a combined, not Castellón-specific, figure. No confirmed death toll has been published for this fire specifically."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029794",
     "location": {
       "country": "Spain",
       "lat": 39.85,
       "lon": -0.15,
-      "region": "Plana Baixa comarca, Castellón province (~50 km north of Valencia)"
+      "region": "Plana Baixa comarca, Castellón province (north of Valencia)"
     },
     "occurrence_date": "2026-07-25",
     "scale": "GDACS Orange alert; ~13,370 ha burned; national emergency declared",
     "status": "contained"
   },
   "id": "spain-wildfire-castellon-2026",
-  "last_updated": "2026-08-04T09:21:33Z",
+  "last_updated": "2026-08-19T13:04:09Z",
   "name": "Wildfire — Plana Baixa (Castellón), Spain",
   "provenance": {
     "history": [
@@ -61,10 +53,15 @@
         "at": "2026-08-04T09:21:33Z",
         "layer": "verify",
         "run_id": "2026-08-04T09-21-33Z-3718b7"
+      },
+      {
+        "at": "2026-08-19T13:04:09Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-04-09Z-5f353c"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-04T09-21-33Z-3718b7"
+    "last_run_id": "2026-08-19T13-04-09Z-5f353c"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -72,9 +69,15 @@
     "impact_rank": 1,
     "recency_rank": 739822
   },
+  "updates": [
+    {
+      "date": "2026-08-04",
+      "text": "GDACS recorded no new thermal-anomaly detection after 30 July 2026; by 4 August the burned area was steady at about 13,370 hectares after five days without new hotspot activity, and the fire is considered contained."
+    }
+  ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

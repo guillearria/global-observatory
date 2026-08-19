@@ -90,12 +90,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026) and the burned area reached about 47,910-47,913 hectares with roughly 11,670 people in the fire-affected area by 1 August 2026. No newer GDACS episode has been published and no thermal-anomaly detection has been recorded since 1 August 2026, indicating the fire is now contained. Widely reported figures — evacuations variously put at around 110,000 to 320,000+ people, French military mobilisation ordered by President Macron, and activation of the EU Civil Protection Mechanism — have not been confirmed by an allowlisted authoritative source.",
+  "description": "A fast-moving wildfire broke out in the Gironde department of southwestern France on 22 July 2026 and spread rapidly toward Bordeaux amid extreme heat and strong winds, prompting evacuation orders for suburbs on the city's western edge, including areas near its airport. GDACS escalated its alert from Green to Red as of episode 19 (27 July 2026), and by 1 August the burned area had reached about 47,913 hectares with roughly 11,670 people in the fire-affected area. No thermal anomaly has been detected since 1 August 2026, and the fire is considered contained.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report (eventid 1029628, episode 30) keeps this forest fire in France at an Overall Red alert, with the reporting window ending 1 August 2026 and about 47,913 hectares burned and 11,670 people in the fire-affected area. Re-checked 4 August 2026: no episode newer than 30 has been published and no thermal-anomaly detection has been recorded since 1 August 2026 — three days with no new hotspot activity — indicating the fire is now contained. No allowlisted authoritative source has published a confirmed death toll or evacuation count for this fire; widely reported figures of 110,000-320,000+ people evacuated, French military mobilisation, and EU Civil Protection Mechanism activation come from non-allowlisted media and have not been independently confirmed here."
+      "summary": "GDACS's final report for the fire (episode 30, window ending 1 August 2026) records about 47,913 hectares burned and 11,670 people in the fire-affected area under an Overall Red alert. No thermal-anomaly detection has been recorded after 1 August, three days without new hotspot activity, and the fire is considered contained."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=30&eventtype=WF",
     "location": {
@@ -109,7 +109,7 @@
     "status": "contained"
   },
   "id": "france-wildfire-gironde-2026",
-  "last_updated": "2026-08-04T09:20:04Z",
+  "last_updated": "2026-08-19T13:04:07Z",
   "name": "Wildfire — Gironde (Bordeaux), France",
   "provenance": {
     "history": [
@@ -117,10 +117,15 @@
         "at": "2026-08-04T09:20:04Z",
         "layer": "verify",
         "run_id": "2026-08-04T09-20-04Z-b5fa8c"
+      },
+      {
+        "at": "2026-08-19T13:04:07Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-04-07Z-e942cf"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-04T09-20-04Z-b5fa8c"
+    "last_run_id": "2026-08-19T13-04-07Z-e942cf"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -128,6 +133,20 @@
     "impact_rank": 1,
     "recency_rank": 739819
   },
+  "updates": [
+    {
+      "date": "2026-08-04",
+      "text": "With no thermal-anomaly detection since 1 August — three days without new hotspot activity — the fire was assessed as contained."
+    },
+    {
+      "date": "2026-08-02",
+      "text": "GDACS's reporting window extended through 1 August with the burned area effectively final at about 47,910 hectares and 11,670 people in the fire-affected area; the most recent thermal-anomaly detection was 1 August 2026."
+    },
+    {
+      "date": "2026-07-28",
+      "text": "GDACS escalated the fire from Green to Red at episode 19, citing 45,805 hectares burned and 11,643 people in the fire-affected area, up from 45,290 hectares and 11,606 people at episode 16 a day earlier."
+    }
+  ],
   "verification": {
     "confidence": "high",
     "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",

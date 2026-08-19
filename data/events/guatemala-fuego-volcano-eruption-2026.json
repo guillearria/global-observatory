@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-08-08",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000145",
       "text": "GDACS's Volcanic Eruption report for Fuego (Guatemala), updated 05 Aug 2026 08:09 UTC, gives the volcano's coordinates as 14.47°N, -90.88°W, rates the event overall alert level Green, and estimates approximately 1,480,000 people exposed within 30 km and 9,930,000 within 100 km, assessing that the eruption 'is unlikely to require external humanitarian assistance based on the exposed population and coping capacity.'",
@@ -19,18 +19,10 @@
     },
     {
       "id": "claim-3",
-      "retrieved_date": "2026-08-05",
-      "source_name": "ReliefWeb",
-      "source_url": "https://reliefweb.int/report/guatemala/gtm-erupcion-volcanica-08-2026-actividad-volcan-fuego-guatemala-2026-08-05",
-      "text": "A follow-up Guatemalan Red Cross / IFRC situation report on ReliefWeb, published 5 August 2026, states the eruption had continued atypically for more than 24 hours since its 3 August 08:30 start, with gas, lava and ash columns of 5,000-7,000 m and pyroclastic density currents of 5-7 km recurring in seven ravines (Seca, Taniluyá, Ceniza, Las Lajas, Honda, Trinidad and El Jute); per CONRED, at least 894 people were sheltered in 3 facilities in Sacatepéquez and Escuintla departments (most from Escuintla), more than 29,000 people were affected, and 'por el momento no se registran daños a personas y viviendas' (no injuries to people or damage to homes had been recorded at that time).",
-      "verification_status": "verified"
-    },
-    {
-      "id": "claim-4",
       "retrieved_date": "2026-08-06",
       "source_name": "ReliefWeb",
       "source_url": "https://reliefweb.int/report/guatemala/gtm-erupcion-volcanica-08-2026-actividad-volcan-fuego-guatemala-2026-08-05",
-      "text": "Re-confirmed by direct fetch on 6 August 2026: the Guatemalan Red Cross/IFRC situation report of 5 August 2026 remains the latest, confirming '894 personas se encuentran albergadas en 3 instalaciones... más de 29,000 personas se encuentran afectadas. Por el momento no se registran daños a personas y viviendas' (894 sheltered in 3 facilities; 29,000+ affected; no deaths or housing damage). GDACS's event record (id 1000145) shows Alert Level Green, VEI 4, with no fatality/impact data recorded.",
+      "text": "A follow-up Guatemalan Red Cross / IFRC situation report on ReliefWeb, published 5 August 2026, states the eruption had continued atypically for more than 24 hours since its 3 August 08:30 start, with gas, lava and ash columns of 5,000-7,000 m and pyroclastic density currents of 5-7 km recurring in seven ravines (Seca, Taniluyá, Ceniza, Las Lajas, Honda, Trinidad and El Jute); per CONRED, at least 894 people were sheltered in 3 facilities in Sacatepéquez and Escuintla departments (most from Escuintla), more than 29,000 people were affected, and 'por el momento no se registran daños a personas y viviendas' (no injuries to people or damage to homes had been recorded at that time).",
       "verification_status": "verified"
     },
     {
@@ -42,14 +34,6 @@
       "verification_status": "verified"
     },
     {
-      "id": "claim-6",
-      "retrieved_date": "2026-08-08",
-      "source_name": "GDACS",
-      "source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000145",
-      "text": "Re-checked 8 August 2026: GDACS's volcanic event report (VO 1000145) is byte-identical to the prior check — report timestamp still 5 August 2026 08:09 UTC, Green alert, ~1.48 million people within 30km and ~9.93 million within 100km, VEI 4; no newer GDACS or allowlisted humanitarian report has been published.",
-      "verification_status": "verified"
-    },
-    {
       "id": "claim-7",
       "retrieved_date": "2026-08-09",
       "source_name": "ReliefWeb",
@@ -58,12 +42,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A major paroxysmal eruption began at Volcán de Fuego, Guatemala's most active volcano, on 3 August 2026, sending gas-and-ash columns to 5,000-7,000 m above sea level and generating pyroclastic density currents that travelled 5-7 km down multiple ravines on the volcano's flanks. Guatemala's disaster coordination agency CONRED declared a nationwide orange alert and evacuated communities in Escuintla and Sacatepéquez departments as the eruption continued for more than 24 hours with no signs of abating. Re-checked 8 August 2026: GDACS's volcanic event report (VO 1000145) is byte-identical to the prior check — report timestamp still 5 August 2026 08:09 UTC, Green alert, ~1.48 million people within 30km and ~9.93 million within 100km, VEI 4; no newer GDACS or allowlisted humanitarian report has been published. Re-checked 9 August 2026: OCHA's Latin America & the Caribbean Weekly Situation Update (7 August 2026) reports 1,421 people evacuated to five shelters (up from 894 sheltered as of 5 August) and states that as of 6 August volcanic activity has begun to decrease from its peak intensity; no deaths have been recorded.",
+  "description": "A major paroxysmal eruption began at Volcán de Fuego, Guatemala's most active volcano, at 08:30 local time on 3 August 2026, sending gas-and-ash columns to 5,000-7,000 m above sea level and generating pyroclastic density currents that travelled 5-7 km down multiple ravines on the volcano's flanks. Guatemala's disaster coordination agency CONRED declared a nationwide orange alert and evacuated communities in Escuintla and Sacatepéquez departments as the eruption continued atypically for more than 24 hours. CONRED reported on 5 August 2026 that the volcano had returned to normal parameters after 50 hours of activity, and OCHA reported that volcanic activity had begun to decrease from its peak as of 6 August, with 1,421 people evacuated to five shelters and more than 29,000 people affected across 18 communities; no deaths have been recorded.",
   "event": {
     "impact": {
       "deaths": 0,
       "displaced": 1421,
-      "summary": "As of ReliefWeb's 5 August 2026 Guatemalan Red Cross/IFRC situation report, 894 people were sheltered across 3 shelters in Sacatepéquez and Escuintla departments and more than 29,000 people were affected (chiefly by ashfall); no deaths or housing damage had been recorded. GDACS assessed the event as Green, unlikely to require external humanitarian assistance, with about 1.48 million people exposed within 30 km of the volcano and 9.93 million within 100 km. Re-checked 6 August 2026: no report newer than the 5 August 2026 Guatemalan Red Cross/IFRC situation report has been published; figures remain 894 sheltered and 29,000+ affected, with no deaths recorded. Re-checked 7 August 2026: no sitrep newer than the 5 August 2026 Guatemalan Red Cross/IFRC report has been published; figures remain 894 sheltered and 29,000+ affected, with no deaths recorded. CONRED's 5 August 2026 bulletin reports the volcano has returned to normal parameters after 50 hours of paroxysmal activity, consistent with media reports of shelters beginning to close, though no consolidated closure sitrep with updated figures has been published yet. Re-checked 8 August 2026: GDACS's volcanic event report (VO 1000145) is byte-identical to the prior check — report timestamp still 5 August 2026 08:09 UTC, Green alert, ~1.48 million people within 30km and ~9.93 million within 100km, VEI 4; no newer GDACS or allowlisted humanitarian report has been published. Re-checked 9 August 2026: OCHA's Latin America & the Caribbean Weekly Situation Update (7 August 2026) reports 1,421 people evacuated to five shelters (up from 894 sheltered as of 5 August) and states that as of 6 August volcanic activity has begun to decrease from its peak intensity; no deaths have been recorded."
+      "summary": "OCHA's Latin America & the Caribbean weekly situation update of 7 August 2026 reports 1,421 people evacuated to five shelters and more than 29,000 people affected across 18 communities, chiefly by ashfall, with no deaths recorded; volcanic activity began decreasing from its peak as of 6 August. CONRED reported the volcano returned to normal parameters after 50 hours of paroxysmal activity, and GDACS assessed the eruption as Green — unlikely to require external humanitarian assistance — with about 1,480,000 people living within 30 km."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000145",
     "location": {
@@ -77,7 +61,7 @@
     "status": "contained"
   },
   "id": "guatemala-fuego-volcano-eruption-2026",
-  "last_updated": "2026-08-09T09:23:40Z",
+  "last_updated": "2026-08-19T13:04:08Z",
   "name": "Fuego Volcano Eruption, Guatemala",
   "provenance": {
     "history": [
@@ -85,10 +69,15 @@
         "at": "2026-08-09T09:23:40Z",
         "layer": "verify",
         "run_id": "2026-08-09T09-23-40Z-221b1b"
+      },
+      {
+        "at": "2026-08-19T13:04:08Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-04-08Z-3fecce"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-09T09-23-40Z-221b1b"
+    "last_run_id": "2026-08-19T13-04-08Z-3fecce"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -96,9 +85,23 @@
     "impact_rank": 1,
     "recency_rank": 739831
   },
+  "updates": [
+    {
+      "date": "2026-08-09",
+      "text": "OCHA's weekly situation update (7 August) put evacuations at 1,421 people in five shelters, up from the 894 people in 3 facilities reported on 5 August, and said volcanic activity had begun to decrease from its peak as of 6 August; no deaths recorded."
+    },
+    {
+      "date": "2026-08-05",
+      "text": "CONRED's bulletin reported that after 50 hours of activity the Volcán de Fuego returned to normal parameters, marking the end of the paroxysmal phase."
+    },
+    {
+      "date": "2026-08-05",
+      "text": "A Guatemalan Red Cross/IFRC report said the eruption had continued atypically for more than 24 hours, with 894 people sheltered in 3 facilities in Sacatepéquez and Escuintla departments and more than 29,000 people affected; no injuries to people or damage to homes had been recorded at that time."
+    }
+  ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

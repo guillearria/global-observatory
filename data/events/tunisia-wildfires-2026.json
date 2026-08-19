@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-08-02",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029649",
       "text": "GDACS's event report (eventid 1029649, episode 11) assessed an Orange alert for medium humanitarian impact for a wildfire in Le Kef and Béja governorates, Tunisia, covering a 21-29 July 2026 window, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area.",
@@ -18,14 +18,6 @@
       "verification_status": "unverified"
     },
     {
-      "id": "claim-3",
-      "retrieved_date": "2026-08-02",
-      "source_name": "ReliefWeb",
-      "source_url": "https://reliefweb.int/report/tunisia/tun-fire-07-2026-tunisia-wildfires-2026-2026-07-30",
-      "text": "Re-checked 2 August 2026: GDACS's event report (eventid 1029649) still shows the 21-29 July 2026 window as the latest, with no newer episode published; figures (about 11,824 hectares burned, roughly 1,224 people affected) are unchanged, and no allowlisted source has published a confirmed death toll or declared the fire contained.",
-      "verification_status": "verified"
-    },
-    {
       "id": "claim-4",
       "retrieved_date": "2026-08-04",
       "source_name": "GDACS",
@@ -34,12 +26,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Wildfires broke out across Le Kef and Béja governorates in northwestern Tunisia in late July 2026. GDACS assessed the event at an Orange alert for medium humanitarian impact, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area as of its most recent episode (21-29 July 2026 window). No newer GDACS episode has been published and no thermal-anomaly detection has been recorded since 29 July 2026, indicating the fire is now contained. A ReliefWeb record for Tunisia's 2026 wildfires corroborates that an allowlisted disaster report exists for this event, though its detailed figures could not be independently retrieved.",
+  "description": "Wildfires broke out across Le Kef and Béja governorates in northwestern Tunisia on 21 July 2026. GDACS assessed the event at an Orange alert for medium humanitarian impact, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area over its 21-29 July reporting window. GDACS's most recent thermal-anomaly detection remained 29 July, and after six days without new hotspot activity the fire is considered contained; no confirmed death toll has been published. A ReliefWeb disaster record, 'TUN: Fire - 07-2026 - Tunisia Wildfires 2026' (dated 30 July 2026), provides corroborating humanitarian coverage of the event.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's event report (eventid 1029649, episode 11) assessed an Orange alert for medium humanitarian impact for a wildfire burning across Le Kef and Béja governorates, Tunisia, covering a 21-29 July 2026 window, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area. A ReliefWeb report titled 'Tunisia Wildfires 2026' (dated 30 July 2026) exists for this event, confirming allowlisted coverage, though its page could not be fetched to extract further figures. Re-checked 4 August 2026: GDACS's event report (eventid 1029649) still shows episode 11 (21-29 July 2026 window) as the latest, with no newer episode published and no thermal-anomaly detection since 29 July — six days with no new hotspot activity — indicating the fire is now contained. No allowlisted source has published a confirmed death toll for this fire."
+      "summary": "GDACS assessed an Orange alert (medium humanitarian impact) for wildfires across Le Kef and Béja governorates, Tunisia, citing about 11,824 hectares burned and roughly 1,224 people in the fire-affected area over the 21-29 July 2026 window. With GDACS's most recent thermal-anomaly detection unchanged at 29 July -- six days without new hotspot activity as of 4 August -- the fire is considered contained; no confirmed death toll has been published for this fire."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1029649",
     "location": {
@@ -53,7 +45,7 @@
     "status": "contained"
   },
   "id": "tunisia-wildfires-2026",
-  "last_updated": "2026-08-04T09:21:33Z",
+  "last_updated": "2026-08-19T13:04:10Z",
   "name": "Wildfires — Le Kef & Béja, Tunisia",
   "provenance": {
     "history": [
@@ -61,10 +53,15 @@
         "at": "2026-08-04T09:21:33Z",
         "layer": "verify",
         "run_id": "2026-08-04T09-21-33Z-cd642e"
+      },
+      {
+        "at": "2026-08-19T13:04:10Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-04-10Z-50a0e6"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-04T09-21-33Z-cd642e"
+    "last_run_id": "2026-08-19T13-04-10Z-50a0e6"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -72,9 +69,15 @@
     "impact_rank": 1,
     "recency_rank": 739818
   },
+  "updates": [
+    {
+      "date": "2026-08-04",
+      "text": "GDACS's most recent thermal-anomaly detection for the fire remained 29 July 2026 -- six days without new hotspot activity -- with burned area holding at about 11,824 hectares and roughly 1,224 people affected; the fire is considered contained."
+    }
+  ],
   "verification": {
     "confidence": "medium",
-    "notes": "gate: 3 verified, 0 disputed, 1 unverified -> partial",
+    "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
     "status": "partial"
   }
 }

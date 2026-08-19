@@ -3,27 +3,19 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-08-18",
+      "retrieved_date": "2026-08-19",
       "source_name": "GDACS",
       "source_url": "https://gdacs.org/report.aspx?eventid=1104091&episodeid=1&eventtype=FL",
       "text": "GDACS's flood report for Nepal (event FL 1104091, covering 12 Aug 2026 01:00 UTC to 14 Aug 2026 01:00 UTC) records 11 deaths and 37 displaced people, with an overall Green alert level for low humanitarian impact. The report notes nine road sections across Nepal are impassable due to landslides, road subsidence, and river erosion caused by ongoing heavy monsoon rainfall, with the monsoon bringing widespread cloud cover and moderate rainfall to the Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces.",
       "verification_status": "verified"
-    },
-    {
-      "id": "claim-2",
-      "retrieved_date": "2026-08-19",
-      "source_name": "GDACS",
-      "source_url": "https://gdacs.org/report.aspx?eventid=1104091&episodeid=1&eventtype=FL",
-      "text": "Re-checked 19 August 2026: GDACS's flood report for Nepal (event 1104091, covering 12-14 August 2026) is unchanged, still recording 11 deaths and 37 displaced people nationwide at an overall Green (low humanitarian impact) alert level.",
-      "verification_status": "verified"
     }
   ],
-  "description": "Days of heavy monsoon rainfall triggered a series of deadly landslides and flooding across Nepal from around 12 August 2026, concentrated in Rolpa district (Thabang and Sunchhahari rural municipalities) and adjoining Pyuthan district, along with flooding and landslide-related road damage in Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces. GDACS's flood report for Nepal (event 1104091, covering 12-14 August 2026) recorded 11 deaths and 37 displaced people, assessed at an overall Green (low humanitarian impact) alert level, and noted nine road sections across the country were impassable due to landslides, road subsidence and river erosion caused by the ongoing monsoon. The largest single incident buried houses at Kotalbara settlement in Thabang Rural Municipality-5, Rolpa, on the night of 12-13 August; Nepali authorities and media reported the confirmed toll from that and a second landslide at Phalbang, Sunchhahari Rural Municipality-2, continuing to rise over subsequent days as search teams recovered bodies in neighbouring Pyuthan district, with local reporting (not yet corroborated by an allowlisted source) putting the combined toll as high as the mid-teens and several people still missing. Re-checked 19 August 2026: GDACS's flood report for Nepal (event 1104091, 12-14 August 2026) remains unchanged, still recording 11 deaths and 37 displaced people nationwide at an overall Green (low humanitarian impact) alert level.",
+  "description": "Days of heavy monsoon rainfall triggered deadly landslides and flooding across Nepal from around 12 August 2026, concentrated in Rolpa district (Thabang and Sunchhahari rural municipalities) and adjoining Pyuthan district, with flood and landslide damage also across Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces. GDACS's flood report for Nepal records 11 deaths and 37 people displaced at an overall Green (low humanitarian impact) alert level, with nine road sections impassable nationwide due to landslides, road subsidence and river erosion. The largest single incident buried houses at Kotalbara settlement in Thabang Rural Municipality on the night of 12 August, and a second landslide struck Phalbang in Sunchhahari Rural Municipality; Nepali authorities and media reported the combined toll continuing to rise as search teams recovered bodies in neighbouring Pyuthan district, with local reporting — not yet corroborated by an authoritative source — putting it as high as the mid-teens, with several people still missing.",
   "event": {
     "impact": {
       "deaths": 11,
       "displaced": 37,
-      "summary": "GDACS's flood report for Nepal (event 1104091, 12-14 August 2026) records 11 deaths and 37 displaced people nationwide, with an overall Green (low humanitarian impact) alert level, and notes nine road sections were impassable due to monsoon-triggered landslides, road subsidence and river erosion across Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces. Local Nepali reporting (not yet corroborated by an allowlisted source) describes a landslide burying houses at Kotalbara, Thabang Rural Municipality-5 in Rolpa district on the night of 12-13 August with a rising death toll and several people still missing, and a second fatal landslide at Phalbang, Sunchhahari Rural Municipality-2, also in Rolpa. Re-checked 19 August 2026: GDACS's flood report for Nepal (event 1104091, 12-14 August 2026) remains unchanged, still recording 11 deaths and 37 displaced people nationwide at an overall Green (low humanitarian impact) alert level."
+      "summary": "GDACS's flood report for Nepal (event FL 1104091, covering 12-14 August 2026) records 11 deaths and 37 displaced people nationwide, with an overall Green (low humanitarian impact) alert level, and notes nine road sections impassable due to monsoon-triggered landslides, road subsidence and river erosion across Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces. Local reporting, not yet corroborated by an authoritative source, describes a rising toll from landslides at Kotalbara (Thabang) and Phalbang (Sunchhahari) in Rolpa district, with several people still missing."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1104091&episodeid=1&eventtype=FL",
     "location": {
@@ -37,7 +29,7 @@
     "status": "ongoing"
   },
   "id": "nepal-rolpa-landslides-2026",
-  "last_updated": "2026-08-19T09:13:03Z",
+  "last_updated": "2026-08-19T13:19:14Z",
   "name": "Nepal Monsoon Floods and Landslides, Rolpa",
   "provenance": {
     "history": [
@@ -45,10 +37,15 @@
         "at": "2026-08-19T09:13:03Z",
         "layer": "verify",
         "run_id": "2026-08-19T09-13-03Z-cf9ce9"
+      },
+      {
+        "at": "2026-08-19T13:19:14Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-19-14Z-2a74e9"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-19T09-13-03Z-cf9ce9"
+    "last_run_id": "2026-08-19T13-19-14Z-2a74e9"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -58,7 +55,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

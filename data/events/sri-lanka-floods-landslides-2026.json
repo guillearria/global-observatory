@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-08-07",
+      "retrieved_date": "2026-08-18",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1104075&episodeid=1&eventtype=FL",
       "text": "GDACS's event report for 'Flood in Sri Lanka' (event id 1104075, source GLOFAS, overall Green alert, reporting window 02 Aug 2026 01:00 UTC to 04 Aug 2026 01:00 UTC) records via its Sendai indicator feed: 8 fatalities in Sri Lanka and 4 fatalities specifically in Hatton (12 total); 3,316 people evacuated plus 3,566 more evacuated (6,882 total); 15,412 people / 1,512 households affected; 537 and 129 buildings damaged (666 total); and 21 people rescued in Gampola.",
@@ -11,18 +11,10 @@
     },
     {
       "id": "claim-10",
-      "retrieved_date": "2026-08-17",
+      "retrieved_date": "2026-08-18",
       "source_name": "Disaster Management Centre (Sri Lanka)",
       "source_url": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1786947948.pdf",
       "text": "DMC Situation Report — Sri Lanka, 17 August 2026 at 1000hrs: GRAND TOTAL — 4,214 Families / 16,555 People Affected; Deaths 9; Injured 9; Missing 0; Houses Damaged: 2 Fully, 718 Partially (720 total); Safe Locations: 2 locations, 16 families, 47 persons — down sharply from 9 locations / 52 families / 188 persons on 14 August, indicating displaced people returning home. Nuwara Eliya district remains worst-hit (2,021 families / 7,736 people affected, 6 deaths), followed by Kandy district (1,183 families / 4,925 people affected, 2 deaths).",
-      "verification_status": "verified"
-    },
-    {
-      "id": "claim-11",
-      "retrieved_date": "2026-08-18",
-      "source_name": "Disaster Management Centre (Sri Lanka)",
-      "source_url": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&report_type_id=1&Itemid=273&lang=en",
-      "text": "Re-checked 18 August 2026: the DMC's situation-reports listing page shows no report newer than 17 August 2026 (1000hrs) already on file; a direct re-fetch of that report's PDF reconfirms the same grand totals (9 deaths, 9 injured, 4,214 families/16,555 people affected, 720 houses damaged, 47 persons/16 families in 2 safe locations). GDACS's event report (FL 1104075, episode 1) remains unchanged and static since 6 August, still showing 12 deaths and 6,882 evacuated via its Sendai indicator feed.",
       "verification_status": "verified"
     },
     {
@@ -31,46 +23,6 @@
       "source_name": "Disaster Management Centre (Sri Lanka)",
       "source_url": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1787114595.pdf",
       "text": "DMC Situation Report -- Sri Lanka, 19 August 2026 at 1000hrs: GRAND TOTAL -- 4,222 Families / 16,583 People Affected; Deaths 9; Injured 9; Missing 0; Houses Damaged: 2 Fully, 723 Partially (725 total); Safe Locations: 2 locations, 16 families, 47 persons -- unchanged from the 17 August 2026 sheltered-population figure, with affected families/houses-damaged ticking up only slightly (4,214->4,222 families; 720->725 houses damaged). Nuwara Eliya district remains worst-hit (2,021 families / 7,736 people affected, 6 deaths), followed by Kandy district (1,183 families / 4,925 people affected, 2 deaths). GDACS's event report (FL 1104075, episode 1) remains unchanged and static since 6 August.",
-      "verification_status": "verified"
-    },
-    {
-      "id": "claim-2",
-      "retrieved_date": "2026-08-08",
-      "source_name": "GDACS",
-      "source_url": "https://www.gdacs.org/report.aspx?eventid=1104075&episodeid=1&eventtype=FL",
-      "text": "Re-checked 8 August 2026: GDACS's event report (FL 1104075, episode 1) is unchanged — the same 2-4 August 2026 reporting window, 12 confirmed deaths and 6,882 evacuated via the Sendai indicator feed; no episode 2 or newer figures have been published.",
-      "verification_status": "verified"
-    },
-    {
-      "id": "claim-3",
-      "retrieved_date": "2026-08-09",
-      "source_name": "GDACS",
-      "source_url": "https://www.gdacs.org/report.aspx?eventid=1104075&episodeid=1&eventtype=FL",
-      "text": "Re-checked 9 August 2026: GDACS's Sendai indicator feed for event FL 1104075 was refreshed at 08:00:35 UTC today; the summed figures are unchanged at 12 fatalities (8 general + 4 in Hatton) and 6,882 evacuated (3,316 + 3,566), with 15,412 people/1,512 households affected and 666 buildings damaged. No episode 2 has been published.",
-      "verification_status": "verified"
-    },
-    {
-      "id": "claim-4",
-      "retrieved_date": "2026-08-10",
-      "source_name": "GDACS",
-      "source_url": "https://www.gdacs.org/report.aspx?eventid=1104075&episodeid=1&eventtype=FL",
-      "text": "Re-checked 10 August 2026: GDACS's event report for this flood event (eventid 1104075, episode 1) remains last updated 6 August 2026, with no Episode 2 issued. Death toll (12) and displaced figure (6,882) are unchanged.",
-      "verification_status": "verified"
-    },
-    {
-      "id": "claim-5",
-      "retrieved_date": "2026-08-11",
-      "source_name": "GDACS",
-      "source_url": "https://www.gdacs.org/report.aspx?eventid=1104075&episodeid=1&eventtype=FL",
-      "text": "Re-checked 11 August 2026 via direct fetch: the report remains at reporting window 02 Aug 2026 01:00 UTC to 04 Aug 2026 01:00 UTC, Episode 1, overall Green Flood alert (GDACS ID FL 1104075); the Sendai indicator feed figures are unchanged at 12 deaths and 6,882 displaced. No Episode 2 has been published.",
-      "verification_status": "verified"
-    },
-    {
-      "id": "claim-6",
-      "retrieved_date": "2026-08-12",
-      "source_name": "GDACS",
-      "source_url": "https://www.gdacs.org/report.aspx?eventid=1104075&episodeid=1&eventtype=FL",
-      "text": "Re-checked 12 August 2026: GDACS's event report for FL 1104075 (event id 1104075) remains at episode 1, reporting window 2-4 August 2026, overall Green alert; a careful re-fetch found no episode 2 link, and a targeted search found no evidence of one. Sendai indicator figures are unchanged: 12 deaths, 6,882 evacuated. GDACS has now held this event at Green/episode 1 with static figures for 6 consecutive days (6-12 August).",
       "verification_status": "verified"
     },
     {
@@ -98,12 +50,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Heavy monsoon rainfall triggered flooding and landslides across Sri Lanka's central highlands beginning around 2 August 2026, affecting Kandy, Nuwara Eliya, Kegalle and Ratnapura districts, with the town of Hatton (Nuwara Eliya District) singled out for a fatal landslide. GDACS assessed the event as an overall Green alert (low humanitarian impact) for a reporting window of 2-4 August 2026, but its Sendai indicator feed records 12 confirmed deaths and about 6,882 people evacuated, alongside 15,412 people (1,512 households) affected and 666 buildings damaged. The disaster drew sustained international coverage given the region's continuing recovery from Cyclone Ditwah (November 2025), with authorities ordering school closures and military-assisted evacuations in affected districts. No allowlisted source has declared the event resolved. Re-checked 8 August 2026: GDACS's event report (FL 1104075, episode 1) is unchanged — the same 2-4 August 2026 reporting window, 12 confirmed deaths and 6,882 evacuated via the Sendai indicator feed; no episode 2 or newer figures have been published. Re-checked 9 August 2026: GDACS's event report (FL 1104075, episode 1) was refreshed at 08:00 UTC today but its Sendai indicator figures are unchanged — 12 confirmed deaths (8 general + 4 in Hatton) and 6,882 evacuated (3,316 + 3,566); no episode 2 has been published. Re-checked 10 August 2026: GDACS's report (episode 1) remains last updated 6 August 2026 with no newer episode issued; figures (12 deaths, 6,882 displaced) are unchanged. Re-checked 11 August 2026: direct fetch of GDACS's event report confirms it remains episode 1, reporting window 2-4 August 2026, with fatalities (12) and displaced (6,882) figures unchanged; no episode 2 has been published, and no newer allowlisted narrative sitrep for this event was found. Re-checked 12 August 2026: GDACS's event report is unchanged (Green alert, episode 1, 12 deaths, 6,882 evacuated), now static for 6 consecutive days; no episode 2 has been published and no allowlisted source has issued a closure or containment statement. Sri Lanka's Disaster Management Centre -- the national authority now issuing fresh, dated situation reports at least twice weekly -- reports 9 confirmed deaths and 0 missing as of 13 August 2026, revising down the earlier GDACS-sourced count of 12 deaths (static since 6 August), and shows the currently-sheltered population declining sharply, from 495 people (130 families) on 11 August to 263 people (73 families) on 13 August, with no new deaths reported in that window. Re-checked 14 August 2026: Sri Lanka's Disaster Management Centre situation report (14 August 2026, 1000hrs) reports 9 deaths and 7 injured, unchanged from 13 August, with the sheltered population continuing to decline — 188 persons (52 families) in 9 safe locations, down from 263 persons (73 families) on 13 August — while affected families/houses-damaged figures ticked up slightly (4,209 families/16,536 people affected; 713 houses partially damaged, up from 707). GDACS's event report (FL 1104075, episode 1) remains unchanged and static since 6 August. Re-checked 15 August 2026: Sri Lanka's Disaster Management Centre situation-reports table shows no report newer than the 14 August 2026 (1000hrs) edition already on file; direct fetch of that report's PDF reconfirms the same grand totals (9 deaths, 7 injured, 188 persons/52 families sheltered in 9 safe locations, 4,209 families/16,536 people affected). Figures remain unchanged. Re-checked 16 August 2026: DMC's 14 August daily situation report confirms 9 deaths, 7 injured, 4,209 families (16,536 people) affected nationally and 715 houses damaged; 52 families (188 people) remained in safe locations as of that report. Landslide early-warning issuance ceased after 9 August, suggesting the acute hazard has eased, though the daily situation-report cadence and continued sheltering indicate the response remains active. Re-checked 17 August 2026: DMC's situation report (17 August 2026, 1000hrs) reports 9 deaths and 9 injured (up from 7 on 14 August), with 4,214 families (16,555 people) affected nationally and 720 houses damaged (2 fully, 718 partially); the sheltered population has fallen sharply to 47 persons (16 families) across just 2 safe locations, down from 188 persons (52 families) in 9 locations on 14 August, indicating a significant number of displaced people have returned home. GDACS's event report (FL 1104075, episode 1) remains unchanged and static since 6 August. Re-checked 18 August 2026: DMC's situation-reports listing page shows no report newer than 17 August 2026 (1000hrs) already on file; a direct re-fetch of that report's PDF reconfirms the same grand totals (9 deaths, 9 injured, 4,214 families/16,555 people affected, 720 houses damaged, 47 persons in 2 safe locations). GDACS's event report (FL 1104075, episode 1) remains unchanged and static since 6 August (12 deaths, 6,882 evacuated per its Sendai indicator feed, which the more current DMC ground-assessed figures continue to supersede). Re-checked 19 August 2026: DMC's situation report (19 August 2026, 1000hrs) reports 9 deaths and 9 injured (unchanged from 17 August), with 4,222 families (16,583 people) affected nationally and 725 houses damaged (2 fully, 723 partially), a slight uptick from 4,214 families/16,555 people/720 houses on 17 August; the sheltered population remains steady at 47 persons (16 families) in 2 safe locations. GDACS's event report (FL 1104075, episode 1) remains unchanged and static since 6 August (12 deaths, 6,882 evacuated per its Sendai indicator feed, which the more current DMC ground-assessed figures continue to supersede).",
+  "description": "Heavy monsoon rainfall triggered flooding and landslides across Sri Lanka's central highlands from around 2 August 2026, affecting Kandy, Nuwara Eliya, Kegalle and Ratnapura districts, with a fatal landslide at Hatton in Nuwara Eliya District. Sri Lanka's Disaster Management Centre (DMC) reports 9 deaths, 9 injured and no one missing as of its 19 August 2026 situation report, with 4,222 families (16,583 people) affected nationally and 725 houses damaged; Nuwara Eliya remains the worst-hit district, followed by Kandy. The sheltered population has fallen sharply as displaced people return home, from 495 persons on 11 August to 47 persons in 2 safe locations by 19 August. GDACS assessed the event at a Green alert, and its early Sendai-feed snapshot of 12 deaths and 6,882 evacuated has been superseded by the DMC's ground-assessed figures.",
   "event": {
     "impact": {
       "deaths": 9,
       "displaced": 16583,
-      "summary": "GDACS's event report for Flood in Sri Lanka (event id 1104075, GLOFAS-sourced, reporting window 2-4 August 2026, overall Green alert) records, via its Sendai indicator feed (fetched 7 August 2026): 8 fatalities in Sri Lanka generally plus 4 fatalities specifically in Hatton (Nuwara Eliya District) -- 12 in total; 3,316 people evacuated plus a further 3,566 evacuated -- 6,882 in total; 15,412 people (1,512 households) affected; and 666 buildings damaged (537 in one indicator entry, 129 in another). 21 people were rescued in Gampola. No allowlisted source has yet published a confirmed death toll or evacuation figure through a narrative sitrep (no ReliefWeb disaster page exists yet for this event), so the GDACS Sendai indicator feed is the only allowlisted source of casualty/displacement figures as of 7 August 2026. No source has declared the event resolved. Re-checked 8 August 2026: GDACS's event report (FL 1104075, episode 1) is unchanged — the same 2-4 August 2026 reporting window, 12 confirmed deaths and 6,882 evacuated via the Sendai indicator feed; no episode 2 or newer figures have been published. Re-checked 9 August 2026: GDACS's event report (FL 1104075, episode 1) was refreshed at 08:00 UTC today but its Sendai indicator figures are unchanged — 12 confirmed deaths (8 general + 4 in Hatton) and 6,882 evacuated (3,316 + 3,566); no episode 2 has been published. Re-checked 10 August 2026: unchanged (12 deaths, 6,882 displaced); GDACS episode 1 remains last updated 6 August 2026. Re-checked 11 August 2026: unchanged (12 deaths, 6,882 displaced); GDACS's event report (FL 1104075, episode 1) confirmed via direct fetch, with no episode 2 published. Re-checked 12 August 2026: unchanged (12 deaths, 6,882 displaced); GDACS's report has held at Green/episode 1 for 6 consecutive days. No allowlisted source has declared this event resolved or contained. Sri Lanka's Disaster Management Centre -- the national authority now issuing fresh, dated situation reports at least twice weekly -- reports 9 confirmed deaths and 0 missing as of 13 August 2026, revising down the earlier GDACS-sourced count of 12 deaths (static since 6 August), and shows the currently-sheltered population declining sharply, from 495 people (130 families) on 11 August to 263 people (73 families) on 13 August, with no new deaths reported in that window. Re-checked 14 August 2026: Sri Lanka's Disaster Management Centre situation report (14 August 2026, 1000hrs) reports 9 deaths and 7 injured, unchanged from 13 August, with the sheltered population continuing to decline — 188 persons (52 families) in 9 safe locations, down from 263 persons (73 families) on 13 August — while affected families/houses-damaged figures ticked up slightly (4,209 families/16,536 people affected; 713 houses partially damaged, up from 707). GDACS's event report (FL 1104075, episode 1) remains unchanged and static since 6 August. Re-checked 15 August 2026: Sri Lanka's Disaster Management Centre situation-reports table shows no report newer than the 14 August 2026 (1000hrs) edition already on file; direct fetch of that report's PDF reconfirms the same grand totals (9 deaths, 7 injured, 188 persons/52 families sheltered in 9 safe locations, 4,209 families/16,536 people affected). Figures remain unchanged. Re-checked 16 August 2026: DMC's 14 August report confirms 9 deaths, 7 injured, 4,209 families (16,536 people) affected, 715 houses damaged; 52 families (188 people) still in safe locations. Re-checked 17 August 2026: DMC's situation report (17 August 2026, 1000hrs) reports 9 deaths and 9 injured (up from 7 on 14 August), with 4,214 families (16,555 people) affected nationally and 720 houses damaged (2 fully, 718 partially); the sheltered population has fallen sharply to 47 persons (16 families) across just 2 safe locations, down from 188 persons (52 families) in 9 locations on 14 August, indicating a significant number of displaced people have returned home. GDACS's event report (FL 1104075, episode 1) remains unchanged and static since 6 August. Re-checked 18 August 2026: DMC's situation-reports listing page shows no report newer than 17 August 2026 (1000hrs) already on file; a direct re-fetch of that report's PDF reconfirms the same grand totals (9 deaths, 9 injured, 4,214 families/16,555 people affected, 720 houses damaged, 47 persons in 2 safe locations). GDACS's event report (FL 1104075, episode 1) remains unchanged and static since 6 August (12 deaths, 6,882 evacuated per its Sendai indicator feed, which the more current DMC ground-assessed figures continue to supersede). Re-checked 19 August 2026: DMC's situation report (19 August 2026, 1000hrs) reports 9 deaths and 9 injured (unchanged from 17 August), with 4,222 families (16,583 people) affected nationally and 725 houses damaged (2 fully, 723 partially), a slight uptick from 4,214 families/16,555 people/720 houses on 17 August; the sheltered population remains steady at 47 persons (16 families) in 2 safe locations. GDACS's event report (FL 1104075, episode 1) remains unchanged and static since 6 August (12 deaths, 6,882 evacuated per its Sendai indicator feed, which the more current DMC ground-assessed figures continue to supersede)."
+      "summary": "Sri Lanka's Disaster Management Centre situation report of 19 August 2026 (1000hrs) records 9 deaths, 9 injured and 0 missing, with 4,222 families (16,583 people) affected across the country and 725 houses damaged (2 fully, 723 partially); 47 persons (16 families) remain in 2 safe locations. Nuwara Eliya district is worst-hit (2,021 families / 7,736 people affected, 6 deaths), followed by Kandy district (1,183 families / 4,925 people affected, 2 deaths)."
     },
     "live_source_url": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&report_type_id=1&Itemid=273&lang=en",
     "location": {
@@ -117,7 +69,7 @@
     "status": "ongoing"
   },
   "id": "sri-lanka-floods-landslides-2026",
-  "last_updated": "2026-08-19T09:13:11Z",
+  "last_updated": "2026-08-19T13:19:15Z",
   "name": "Floods and Landslides — Sri Lanka",
   "provenance": {
     "history": [
@@ -125,10 +77,15 @@
         "at": "2026-08-19T09:13:11Z",
         "layer": "verify",
         "run_id": "2026-08-19T09-13-11Z-95a4f0"
+      },
+      {
+        "at": "2026-08-19T13:19:15Z",
+        "layer": "verify",
+        "run_id": "2026-08-19T13-19-15Z-dfbfdd"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-19T09-13-11Z-95a4f0"
+    "last_run_id": "2026-08-19T13-19-15Z-dfbfdd"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -136,9 +93,31 @@
     "impact_rank": 2,
     "recency_rank": 739830
   },
+  "updates": [
+    {
+      "date": "2026-08-19",
+      "text": "The DMC's 19 August situation report held deaths at 9 and injured at 9, with the sheltered population unchanged at 47 persons (16 families) in 2 safe locations; affected families edged up to 4,222 (16,583 people) and damaged houses to 725 (2 fully, 723 partially)."
+    },
+    {
+      "date": "2026-08-17",
+      "text": "The DMC's 17 August situation report recorded 9 deaths and 9 injured (up from 7), with 4,214 families (16,555 people) affected and 720 houses damaged; the sheltered population fell to 47 persons (16 families) in 2 safe locations, from 188 persons (52 families) in 9 locations on 14 August, as displaced people returned home."
+    },
+    {
+      "date": "2026-08-16",
+      "text": "No landslide early warning had been issued since 9 August, indicating the acute hazard eased even as daily situation reports and sheltering continued."
+    },
+    {
+      "date": "2026-08-14",
+      "text": "The DMC's 14 August report held deaths at 9 with 7 injured; 188 persons (52 families) remained in 9 safe locations, down from 263 persons (73 families) on 13 August, while affected-family and house-damage counts ticked up slightly (4,209 families affected; 713 houses partially damaged)."
+    },
+    {
+      "date": "2026-08-13",
+      "text": "Sri Lanka's Disaster Management Centre began issuing national situation reports for this event: the 13 August report recorded 9 confirmed deaths and 0 missing, revising the toll down from the GDACS Sendai-feed count of 12 (static since 6 August), with 263 persons (73 families) sheltered, down from 495 on 11 August."
+    }
+  ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
