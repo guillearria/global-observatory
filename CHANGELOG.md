@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-19 — Daily World Pulse refresh: re-verify Afghanistan, Bangladesh, BC wildfires, China Yangtze floods, Colombia quake (2026-08-19) (`f466517`)
+
+- **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, canada-british-columbia-wildfires-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026
+
 ## 2026-08-19 — Daily World Pulse refresh: re-verify Ebola DRC, El Obeid siege, Europe heatwave, Haiti, India monsoon floods (2026-08-19) (`181c9ca`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026
