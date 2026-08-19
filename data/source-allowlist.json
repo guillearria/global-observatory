@@ -278,6 +278,24 @@
       "label": "Ministry of Defence (Spain) / Unidad Militar de Emergencias"
     },
     {
+      "category": "event",
+      "domain": "weather.gov",
+      "justification": "weather.gov is the US National Weather Service's own operational domain, run by the same federal agency (NOAA) already allowlisted at noaa.gov but hosted on a separate top-level domain so it does not match as a subdomain; NWS forecast offices publish the authoritative primary river-gauge crest records, rainfall totals and event summaries (e.g. NWS Indianapolis's dedicated August 2026 Indiana flooding page) that underlie every downstream report of a flood's severity, the same institutional tier as noaa.gov itself.",
+      "label": "National Weather Service (NWS)"
+    },
+    {
+      "category": "event",
+      "domain": "in.gov",
+      "justification": "in.gov is the State of Indiana's official government domain (covering the Governor's office and state agency releases, e.g. events.in.gov); it is the authoritative primary source for a governor's own executive orders and statewide disaster-emergency declarations, the same institutional tier as governor.wa.gov, gov.nv.gov and governor.hawaii.gov, already allowlisted for other US state governments' own emergency declarations.",
+      "label": "State of Indiana"
+    },
+    {
+      "category": "event",
+      "domain": "governor.wv.gov",
+      "justification": "The Office of the Governor of West Virginia is the US state executive agency that issues official state-of-emergency declarations, National Guard mobilization figures and flood-recovery damage updates for disasters within the state; the same institutional tier as governor.wa.gov, gov.nv.gov, governor.hawaii.gov and in.gov, already allowlisted for other US state governments' own emergency declarations.",
+      "label": "Office of the Governor of West Virginia"
+    },
+    {
       "category": "historical",
       "domain": "britannica.com",
       "justification": "Encyclopaedia Britannica has a stable named editorial board accountable for its entries, unlike community-edited references.",

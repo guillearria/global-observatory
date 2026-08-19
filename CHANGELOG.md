@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-19 — Daily World Pulse refresh: re-verify Philippines floods, Spain Huesca wildfire, Sri Lanka, Sudan cholera/displacement (2026-08-19) (`554d064`)
+
+- **Updated:** philippines-floods-luis-maymay-2026, spain-wildfire-huesca-aragon-2026, sri-lanka-floods-landslides-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis
+
 ## 2026-08-19 — Daily World Pulse refresh: re-verify Indonesia Flores, Japan Kumamoto, Mindanao, Nepal Rolpa, Pakistan floods (2026-08-19) (`ae9aad4`)
 
 - **Updated:** indonesia-earthquake-flores-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, nepal-rolpa-landslides-2026, pakistan-floods-2026
