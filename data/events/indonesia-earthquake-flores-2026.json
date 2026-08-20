@@ -40,14 +40,22 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558059",
       "text": "Re-checked 18 August 2026: GDACS's event report (event id 1558059, episode 1725109, still Red alert, score now 2.1, down from 2.4 on 17 August) shows population exposure to MMI VII+ shaking revised to about 870,000 (down from ~1.2 million cited 16-17 August); the recorded tsunami remains at a maximum wave height of about 1.68 m. The page's media citations now show only one casualty figure, from catnat.net (French-language): \"Un puissant seisme de magnitude 7,7 a secoue samedi matin l'est de l'Indonesie... Il a fait au moins 68 morts\" (\"a powerful magnitude-7.7 earthquake shook eastern Indonesia... it caused at least 68 deaths\") -- up from the 54 deaths cited via Punch NG/Asahi on 17 August. No displaced or injured figure is cited on the page today. As with the prior update, this is a media citation referenced on the GDACS page rather than a dedicated GDACS/Sendai casualty assessment, but per this record's established practice of adopting the GDACS page's most recent cited media toll, the headline death toll is updated to 68. USGS's PAGER product for event us6000tkt2 remains a Yellow alert, last updated 15 August 2026, with no change to its own casualty modeling.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-08-20",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/indonesia/indonesian-humanitarian-coordination-platform-situation-report-no-3-earthquake-and-tsunami-flores-and-surrounding-areas-19-august-2026",
+      "text": "Indonesian Humanitarian Coordination Platform Situation Report No. 3 (MPBI, 19 August 2026), citing provisional BNPB data as of 19 August 2026, 09:00 WIB: 71 deaths, 1,182 injured, 40,145 displaced, and 11,950 houses damaged (5,518 severely, 1,924 moderately, 4,508 slightly), with 217 education facilities, 96 health facilities, 46 government offices and 77 places of worship damaged; aftershocks continue frequently, raising landslide risk in already susceptible locations.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.7 shallow earthquake struck off Flores Island in East Nusa Tenggara, Indonesia, on 14 August 2026 at 21:58:21 UTC, centered about 68 km NNW of Ende at a depth of 10 km, where the Australia and Sunda plates converge; GDACS recorded a tsunami with a maximum wave height of about 1.68 m. Media tolls cited on GDACS's Red-alert event report have risen to at least 68 deaths as of 18 August, with about 12,800 people displaced and more than 100 injured reported a day earlier; rescue teams have been working to clear landslide-blocked streets and reach survivors trapped under rubble. A sustained aftershock sequence has followed, the largest a M6.1 event 58 km north of Ende, with continuing seismicity through at least 17 August. USGS assessed a Yellow PAGER alert with roughly 2 million people exposed to strong-to-violent shaking, while GDACS estimates about 870,000 people within zones of MMI VII or greater.",
+  "description": "A magnitude 7.7 shallow earthquake struck off Flores Island in East Nusa Tenggara, Indonesia, on 14 August 2026 at 21:58:21 UTC, centered about 68 km NNW of Ende at a depth of 10 km, where the Australia and Sunda plates converge; GDACS recorded a tsunami with a maximum wave height of about 1.68 m. Indonesia's BNPB, via the Indonesian Humanitarian Coordination Platform's Situation Report No. 3 (19 August), puts the toll at 71 deaths, 1,182 injured and 40,145 displaced, with 11,950 houses damaged; rescue teams have been working to clear landslide-blocked streets and reach survivors trapped under rubble. A sustained aftershock sequence has followed, the largest a M6.1 event 58 km north of Ende, with continuing seismicity raising landslide risk in already susceptible locations. USGS assessed a Yellow PAGER alert with roughly 2 million people exposed to strong-to-violent shaking, while GDACS's Red-alert report estimates about 870,000 people within zones of MMI VII or greater.",
   "event": {
     "impact": {
-      "deaths": 68,
-      "displaced": 12800,
-      "summary": "GDACS's Red-alert report cites media putting the toll at at least 68 deaths as of 18 August 2026, up from 54 a day earlier, with about 12,800 people displaced and more than 100 injured; GDACS's estimate of people exposed to MMI VII or greater shaking was revised to about 870,000. A tsunami with a maximum wave height of about 1.68 m was recorded, and aftershocks up to M6.1 have continued through at least 17 August; USGS's PAGER alert remains Yellow."
+      "deaths": 71,
+      "displaced": 40145,
+      "summary": "BNPB's provisional data as of 19 August 2026, per the Indonesian Humanitarian Coordination Platform's Situation Report No. 3, puts the toll at 71 deaths, 1,182 injured and 40,145 displaced, with 11,950 houses damaged (5,518 severely). GDACS's Red-alert report has not yet incorporated this update and estimates about 870,000 people exposed to MMI VII or greater shaking. A tsunami with a maximum wave height of about 1.68 m was recorded, and aftershocks up to M6.1 have continued; USGS's PAGER alert remains Yellow."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558059",
     "location": {
@@ -57,27 +65,22 @@
       "region": "East Nusa Tenggara, Flores Island, near Ende"
     },
     "occurrence_date": "2026-08-14",
-    "scale": "M7.7; GDACS Red alert (score 2.1); at least 68 deaths (18 Aug, per GDACS-cited media), ~12,800 displaced; sustained aftershock sequence, largest M6.1",
+    "scale": "M7.7; GDACS Red alert; 71 deaths and 40,145 displaced as of 19 Aug (BNPB via MPBI Sitrep No. 3); sustained aftershock sequence, largest M6.1",
     "status": "ongoing"
   },
   "id": "indonesia-earthquake-flores-2026",
-  "last_updated": "2026-08-19T13:19:14Z",
+  "last_updated": "2026-08-20T09:15:02Z",
   "name": "M7.7 Earthquake, Flores, Indonesia",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-19T09:13:03Z",
+        "at": "2026-08-20T09:15:02Z",
         "layer": "verify",
-        "run_id": "2026-08-19T09-13-03Z-9269a2"
-      },
-      {
-        "at": "2026-08-19T13:19:14Z",
-        "layer": "verify",
-        "run_id": "2026-08-19T13-19-14Z-a83f22"
+        "run_id": "2026-08-20T09-15-02Z-e24ea3"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-19T13-19-14Z-a83f22"
+    "last_run_id": "2026-08-20T09-15-02Z-e24ea3"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -86,6 +89,10 @@
     "recency_rank": 739842
   },
   "updates": [
+    {
+      "date": "2026-08-19",
+      "text": "BNPB's provisional data, per the Indonesian Humanitarian Coordination Platform's Situation Report No. 3, raised the toll to 71 deaths, 1,182 injured and 40,145 displaced (up from 68 deaths and 12,800 displaced), with 11,950 houses damaged across the affected area."
+    },
     {
       "date": "2026-08-18",
       "text": "Media tolls cited on GDACS's event report rose to at least 68 deaths (via catnat.net), up from 54 the previous day; GDACS revised its estimate of people exposed to MMI VII or greater shaking down to about 870,000 from about 1.2 million, and its alert score to 2.1 from 2.4. The recorded tsunami remains at a maximum wave height of about 1.68 m."
@@ -101,7 +108,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
