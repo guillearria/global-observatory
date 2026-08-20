@@ -114,6 +114,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-33",
+      "retrieved_date": "2026-08-20",
+      "source_name": "United Nations",
+      "source_url": "https://press.un.org/en/2026/db260819.doc.htm",
+      "text": "UN Daily Press Briefing (19 August 2026): \"The death toll according to local authorities has surpassed 6,400\" in Venezuela following the June earthquake doublet. No numbered OCHA 'Earthquakes in Venezuela: Situation Report' has been published since Situation Report #33 (14 August 2026); the weekly series' next edition is expected around 21 August.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-07-09",
       "source_name": "ReliefWeb",
@@ -162,12 +170,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.5 earthquake struck 16 km SW of Moron in northern Venezuela, west of Caracas, on 25 June 2026, forming a doublet with a magnitude 7.2 shock in the same sequence; at least seven states were impacted, with La Guaira the most affected. Per OCHA Situation Report #33 (14 August 2026), authorities reported 6,301 deaths as of 10 August, with 73,356 people treated at hospitals and 53,314 homes evaluated (9,567 at high risk); 16,740 injuries and 17,907 people who lost their homes remain the standing counts. Preliminary estimates put direct damage at some US$37 billion (UNDRR) and US$6.7 billion, about 6% of GDP (UNDP); a US$299 million addendum raised combined UN humanitarian requirements to US$931 million, targeting 6.2 million people, of whom 1.3 million are earthquake-affected, over six months. The response remains in a scaled-up relief and early-recovery phase, with over 304,000 people (57% women and girls) having accessed essential services and humanitarian assistance as of 14 August.",
+  "description": "A magnitude 7.5 earthquake struck 16 km SW of Moron in northern Venezuela, west of Caracas, on 25 June 2026, forming a doublet with a magnitude 7.2 shock in the same sequence; at least seven states were impacted, with La Guaira the most affected. The UN Spokesperson's Office said on 19 August that the death toll \"according to local authorities has surpassed 6,400\"; the most recent numbered report, OCHA Situation Report #33 (14 August 2026), had put authorities' reported toll at 6,301 deaths as of 10 August, with 73,356 people treated at hospitals and 53,314 homes evaluated (9,567 at high risk); 16,740 injuries and 17,907 people who lost their homes remain the standing counts. Preliminary estimates put direct damage at some US$37 billion (UNDRR) and US$6.7 billion, about 6% of GDP (UNDP); a US$299 million addendum raised combined UN humanitarian requirements to US$931 million, targeting 6.2 million people, of whom 1.3 million are earthquake-affected, over six months. The response remains in a scaled-up relief and early-recovery phase, with over 304,000 people (57% women and girls) having accessed essential services and humanitarian assistance as of 14 August.",
   "event": {
     "impact": {
-      "deaths": 6301,
+      "deaths": 6400,
       "displaced": 17907,
-      "summary": "Per OCHA Situation Report #33 (14 August 2026), authorities reported 6,301 deaths from the earthquakes as of 10 August, with 73,356 people having received hospital care and 53,314 homes evaluated (9,567 at high risk); injuries stand at 16,740 and 17,907 people are recorded as having lost their homes. Damage estimates stand at approximately US$37 billion (UNDRR, preliminary) and US$6.7 billion or about 6% of GDP (UNDP), against combined UN funding requirements of US$931 million targeting 1.3 million earthquake-affected people over six months. Over 304,000 people (57% women and girls) had accessed essential services and humanitarian assistance as of 14 August."
+      "summary": "The UN Spokesperson's Office said on 19 August that the death toll \"according to local authorities has surpassed 6,400\"; the most recent numbered report, OCHA Situation Report #33 (14 August 2026), had put authorities' reported toll at 6,301 deaths as of 10 August, with 73,356 people having received hospital care and 53,314 homes evaluated (9,567 at high risk); injuries stand at 16,740 and 17,907 people are recorded as having lost their homes. Damage estimates stand at approximately US$37 billion (UNDRR, preliminary) and US$6.7 billion or about 6% of GDP (UNDP), against combined UN funding requirements of US$931 million targeting 1.3 million earthquake-affected people over six months. Over 304,000 people (57% women and girls) had accessed essential services and humanitarian assistance as of 14 August."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
     "location": {
@@ -181,23 +189,18 @@
     "status": "ongoing"
   },
   "id": "venezuela-earthquake-2026",
-  "last_updated": "2026-08-19T13:19:16Z",
+  "last_updated": "2026-08-20T09:15:03Z",
   "name": "Venezuela M7.5 Earthquake Doublet",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-19T09:11:46Z",
+        "at": "2026-08-20T09:15:03Z",
         "layer": "verify",
-        "run_id": "2026-08-19T09-11-46Z-94315f"
-      },
-      {
-        "at": "2026-08-19T13:19:16Z",
-        "layer": "verify",
-        "run_id": "2026-08-19T13-19-16Z-e0876e"
+        "run_id": "2026-08-20T09-15-03Z-c1379c"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-19T13-19-16Z-e0876e"
+    "last_run_id": "2026-08-20T09-15-03Z-c1379c"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -206,6 +209,10 @@
     "recency_rank": 739792
   },
   "updates": [
+    {
+      "date": "2026-08-19",
+      "text": "The UN Spokesperson's Office said the death toll \"according to local authorities has surpassed 6,400,\" an increase from the 6,301 figure in OCHA Situation Report #33 (14 August); the next numbered OCHA situation report is expected around 21 August under the series' weekly cadence."
+    },
     {
       "date": "2026-08-14",
       "text": "OCHA Situation Report #33 (14 August 2026) raised the official toll to 6,301 deaths as of 10 August, with 73,356 people having received hospital care and 53,314 homes evaluated (9,567 at high risk); UNDRR preliminarily estimates direct damage at approximately US$37 billion and UNDP at US$6.7 billion (6% of GDP), and over 304,000 people had accessed assistance as of 14 August."
@@ -225,7 +232,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
