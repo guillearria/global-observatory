@@ -2,6 +2,26 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-20 — Daily World Pulse refresh: re-verify Washington wildfires, Europe heatwave, Spain Huesca, China Yangtze, Haiti (2026-08-20) (`c6214de`)
+
+- **Updated:** china-floods-yangtze-typhoon-dolphin-2026, europe-heatwave-2026, haiti-gang-violence-displacement-2026, spain-wildfire-huesca-aragon-2026, usa-washington-wildfires-2026
+
+## 2026-08-20 — Daily World Pulse refresh: Colombia toll rise, Venezuela toll rise, BC wildfire growth, Lala weakens (2026-08-20) (`c5b26a8`)
+
+- **Updated:** canada-british-columbia-wildfires-2026, colombia-earthquake-choco-2026, philippines-floods-luis-maymay-2026, usa-hawaii-hurricane-lala-2026, venezuela-earthquake-2026
+
+## 2026-08-20 — Daily World Pulse refresh: re-verify India monsoon floods, Afghanistan, Bangladesh, Nepal Rolpa, Sri Lanka (2026-08-20) (`9b87df5`)
+
+- **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, india-monsoon-floods-2026, nepal-rolpa-landslides-2026, sri-lanka-floods-landslides-2026
+
+## 2026-08-20 — Daily World Pulse refresh: Indonesia Flores toll rise, Pakistan toll rise, re-verify West Bank/Kumamoto/Mindanao (2026-08-20) (`452b7eb`)
+
+- **Updated:** indonesia-earthquake-flores-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, west-bank-settler-violence-surge-2026
+
+## 2026-08-20 — Daily World Pulse refresh: Ebola DRC case rise, El Obeid infrastructure strikes, re-verify Sudan cholera/displacement, Yemen (2026-08-20) (`8940f6c`)
+
+- **Updated:** ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, yemen-conflict-escalation-2026
+
 ## 2026-08-19 — One-time cleanup: current-state prose and dated updates[] for 47 events (`a159113`)
 
 - **Updated:** afghanistan-nuristan-floods-2026, algeria-wildfires-2026, bangladesh-floods-chattogram-2026, belgium-wildfire-high-fens-2026, canada-british-columbia-wildfires-2026, china-floods-guangxi-hunan-2026, china-floods-jilin-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, france-wildfire-fontainebleau-2026, france-wildfire-gironde-2026, greece-wildfire-attica-2026, guatemala-fuego-volcano-eruption-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, indonesia-earthquake-flores-2026, japan-chiba-floods-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, nepal-rolpa-landslides-2026, pakistan-floods-2026, peru-earthquake-huancayo-2026, philippines-floods-luis-maymay-2026, portugal-wildfires-2026, south-korea-stock-market-crisis-2026, spain-wildfire-almeria-2026, spain-wildfire-castellon-2026, spain-wildfire-huesca-aragon-2026, spain-wildfire-madrid-avila-2026, sri-lanka-floods-landslides-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, tunisia-wildfires-2026, typhoon-bavi-guam-mariana-2026, typhoon-dolphin-japan-2026, typhoon-noul-kiyapo-2026, usa-hawaii-hurricane-lala-2026, usa-indiana-floods-2026, usa-nevada-bug-stallion-fires-2026, usa-washington-wildfires-2026, usa-west-virginia-floods-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
