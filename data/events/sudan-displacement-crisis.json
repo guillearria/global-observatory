@@ -42,6 +42,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-20",
+      "retrieved_date": "2026-08-20",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/situations/sudansituation",
+      "text": "UNHCR's Operational Data Portal for the Sudan situation now shows Total Forcibly Displaced: 11,349,317, labeled 'Last updated 10 Aug 2026' -- up from 11,344,665 (3 August 2026 update). Related widgets, all labeled 'Last updated 10 Aug 2026' unless noted: newly arrived refugees/asylum-seekers and returnees 4,584,868 (of which 3,654,290 newly arrived refugees/asylum-seekers and 930,578 refugee returnees); refugees/asylum-seekers present before April 2023, 837,272; self-relocated refugees in Sudan 273,500. IDPs in Sudan (source IOM/OCHA) remain at 6,490,949, labeled 'Last updated 20 Jul 2026', unchanged.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-07-17",
       "source_name": "ReliefWeb",
@@ -77,23 +85,18 @@
     "status": "ongoing"
   },
   "id": "sudan-displacement-crisis",
-  "last_updated": "2026-08-19T13:19:15Z",
+  "last_updated": "2026-08-20T09:15:02Z",
   "name": "Sudan Displacement Crisis",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-19T09:13:12Z",
+        "at": "2026-08-20T09:15:02Z",
         "layer": "verify",
-        "run_id": "2026-08-19T09-13-12Z-0057b9"
-      },
-      {
-        "at": "2026-08-19T13:19:15Z",
-        "layer": "verify",
-        "run_id": "2026-08-19T13-19-15Z-11da67"
+        "run_id": "2026-08-20T09-15-02Z-cb8608"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-19T13-19-15Z-11da67"
+    "last_run_id": "2026-08-20T09-15-02Z-cb8608"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -121,7 +124,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
