@@ -34,6 +34,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-13",
+      "retrieved_date": "2026-08-21",
+      "source_name": "NOAA",
+      "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/180854.shtml",
+      "text": "NOAA's Central Pacific Hurricane Center Advisory Number 36 (11 PM HST, 20 August 2026): Hurricane Lala remained a Category 2 hurricane with maximum sustained winds of 100 mph (155 km/h) and a minimum central pressure of 971 mb, located near 26.6N 171.7W, about 115 miles northwest of Maro Reef and 145 miles northeast of Lisianski Island, moving north-northeast at 9 mph. A Hurricane Warning remained in effect for the Papahanaumokuakea Marine National Monument from Lisianski Island to Maro Reef, and a Tropical Storm Warning remained in effect east of Maro Reef to French Frigate Shoals; no watches or warnings were in effect for the main Hawaiian Islands. Lala was forecast to remain a hurricane through Saturday with gradual weakening thereafter.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-16",
       "source_name": "County of Hawaiʻi",
@@ -98,12 +106,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Hurricane Lala passed closest to Hawaii Island on 15-16 August 2026 as a Category 1 hurricane, with NOAA's 15 August advisory reporting 75 mph sustained winds about 65 miles west of Kailua-Kona and forecasting up to 30-35 inches of rain over windward Hawaii Island with life-threatening flooding and mudslides. Flash flooding cut off road access in Nāʻālehu and Waiʻōhinu in Kaʻū, prompting search-and-rescue operations; the County reported record-breaking power outages and 43 people in two emergency shelters, while the state — which declared emergencies on 13 and 14 August and activated about 180 National Guard personnel — closed Hilo and Kona airports and Hawaii Island and Maui County commercial ports. Lala has since tracked away from the main islands, re-intensified to Category 4 on 18 August, and weakened again: NOAA's Advisory 32 of 19 August puts it at Category 2 with 105 mph winds about 150 miles southwest of Maro Reef, with warnings covering only the uninhabited Papahanaumokuakea Marine National Monument. No death toll, injury count or displacement total has been confirmed by an official state, county or NOAA source.",
+  "description": "Hurricane Lala passed closest to Hawaii Island on 15-16 August 2026 as a Category 1 hurricane, with NOAA's 15 August advisory reporting 75 mph sustained winds about 65 miles west of Kailua-Kona and forecasting up to 30-35 inches of rain over windward Hawaii Island with life-threatening flooding and mudslides. Flash flooding cut off road access in Nāʻālehu and Waiʻōhinu in Kaʻu, prompting search-and-rescue operations; the County reported record-breaking power outages and 43 people in two emergency shelters, while the state -- which declared emergencies on 13 and 14 August and activated about 180 National Guard personnel -- closed Hilo and Kona airports and Hawaii Island and Maui County commercial ports. Lala has since tracked away from the main islands, re-intensified to Category 4 on 18 August, and weakened again: NOAA's Advisory 36 (11 PM HST, 20 August) puts it at Category 2 with 100 mph winds about 115 miles northwest of Maro Reef, with warnings covering only the uninhabited Papahanaumokuakea Marine National Monument. No death toll, injury count or displacement total has been confirmed by an official state, county or NOAA source.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "Lala's closest pass on 15-16 August 2026 brought severe flash flooding to Hawaii Island's Kaʻū district -- with search-and-rescue operations in Nāʻālehu, Waiʻōhinu and Pāhala -- record-breaking power outages, 43 people in two emergency shelters, airport and port closures, and an island-wide 'Essential Only' water-conservation request. No death toll, injury count, quantified power-outage figure or displacement total has been confirmed by an official state, county or NOAA source; GDACS keeps a Green/low-impact assessment with about 10,000 people in Category 1-or-higher wind zones, while a media-headlines module on its report page cites third-party reports of one storm-related death and up to about 111,000 customers without power on Hawaii Island. As of NOAA's Advisory 32 (19 August), Lala had weakened to a Category 2 hurricane with 105 mph sustained winds and a 963 mb central pressure, moving north-northwest away from the main Hawaiian Islands and forecast to remain a hurricane through the weekend."
+      "summary": "Lala's closest pass on 15-16 August 2026 brought severe flash flooding to Hawaii Island's Kaʻū district -- with search-and-rescue operations in Nāʻālehu, Waiʻōhinu and Pāhala -- record-breaking power outages, 43 people in two emergency shelters, airport and port closures, and an island-wide 'Essential Only' water-conservation request. No death toll, injury count, quantified power-outage figure or displacement total has been confirmed by an official state, county or NOAA source; GDACS keeps a Green/low-impact assessment with about 10,000 people in Category 1-or-higher wind zones, while a media-headlines module on its report page cites third-party reports of one storm-related death and up to about 111,000 customers without power on Hawaii Island. As of NOAA's Advisory 36 (11 PM HST, 20 August), Lala remained a Category 2 hurricane with 100 mph sustained winds and a 971 mb central pressure, about 115 miles northwest of Maro Reef and moving north-northeast away from the main Hawaiian Islands, forecast to remain a hurricane through Saturday."
     },
     "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/180854.shtml",
     "location": {
@@ -113,11 +121,11 @@
       "region": "Hawaii Island (Big Island), spreading impacts to Maui, Oahu and Kauai"
     },
     "occurrence_date": "2026-08-15",
-    "scale": "Weakened to a Category 2 hurricane (105 mph sustained winds, NOAA Advisory 32, 19 August) as it continues moving away from Hawaii; a Hurricane Warning and Tropical Storm Warning remain in effect for the uninhabited Papahanaumokuakea Marine National Monument, but no watches or warnings are in effect for the populated main Hawaiian Islands as of 20 August 2026",
+    "scale": "Advisory 36 (20 August, 11 PM HST): Category 2 hurricane, 100 mph sustained winds, moving north-northeast away from the main Hawaiian Islands; Hurricane Warning and Tropical Storm Warning remain in effect only for the uninhabited Papahanaumokuakea Marine National Monument, with no watches or warnings for the populated main islands",
     "status": "ongoing"
   },
   "id": "usa-hawaii-hurricane-lala-2026",
-  "last_updated": "2026-08-20T09:15:21Z",
+  "last_updated": "2026-08-21T09:21:47Z",
   "name": "Hurricane Lala, Hawaii",
   "provenance": {
     "history": [
@@ -125,10 +133,15 @@
         "at": "2026-08-20T09:15:21Z",
         "layer": "verify",
         "run_id": "2026-08-20T09-15-21Z-34d71f"
+      },
+      {
+        "at": "2026-08-21T09:21:47Z",
+        "layer": "verify",
+        "run_id": "2026-08-21T09-21-47Z-e8e0a8"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-20T09-15-21Z-34d71f"
+    "last_run_id": "2026-08-21T09-21-47Z-e8e0a8"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -137,6 +150,10 @@
     "recency_rank": 739843
   },
   "updates": [
+    {
+      "date": "2026-08-21",
+      "text": "NOAA's Advisory 36 (11 PM HST, 20 August) reported Lala remained a Category 2 hurricane -- 100 mph sustained winds, 971 mb central pressure -- about 115 miles northwest of Maro Reef and 145 miles northeast of Lisianski Island, moving north-northeast at 9 mph and forecast to remain a hurricane through Saturday with gradual weakening thereafter."
+    },
     {
       "date": "2026-08-19",
       "text": "NOAA's Advisory 32 (11 PM HST, 19 August) reported Lala had weakened to a Category 2 hurricane -- 105 mph sustained winds, 963 mb central pressure -- about 150 miles southwest of Maro Reef, continuing north-northwest away from the main Hawaiian Islands and forecast to remain a hurricane through the weekend."
@@ -176,7 +193,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

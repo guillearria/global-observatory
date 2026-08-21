@@ -27,7 +27,7 @@
     },
     {
       "id": "claim-13",
-      "retrieved_date": "2026-08-14",
+      "retrieved_date": "2026-08-21",
       "source_name": "ReliefWeb",
       "source_url": "https://reliefweb.int/report/india/situation-report-6-extreme-weather-events-india-assam-odisha-and-kerala-date-8th-august-2026",
       "text": "Sphere India, 'Situation Report 6 -- Extreme Weather Events in India: Assam, Odisha and Kerala' (dated 8 August 2026, posted to ReliefWeb 10 August 2026): Overview -- 'Assam reports 1.55 lakh people affected across 13 districts; Odisha faces one of its largest flood emergencies in recent years with 8.64 lakh people affected across 22 districts.' Assam: 'A total of 464 villages remain inundated, affecting 1,55,849 people... While human casualties remain low, one confirmed death was reported from Charaideo.' Statistical box: Causalities 1 death; Relief Camp inmates 10,326; non-camp 6,881. Odisha: 'Over 8.64 lakh people have been affected across 22 districts... Keonjhar recorded four of the six confirmed deaths.' Statistical box: Causalities 6; Residents evacuated 2.67 lakh; Houses damaged over 1,426. Kerala: 'An unexpected spell of extremely heavy rainfall between 1-7 August triggered severe flooding across Kerala, leaving 26 people dead, 4 missing, and forcing over 27,000 people to take shelter in around 325 relief camps.' Statistical box: Causalities 26 deaths; Missing Persons 4; Relief Camps 325. Gujarat and Maharashtra are outside this report's scope (only Assam, Odisha and Kerala covered).",
@@ -115,7 +115,7 @@
     },
     {
       "id": "claim-9",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-08-21",
       "source_name": "ReliefWeb",
       "source_url": "https://reliefweb.int/report/india/india-assam-floods-dref-operation-no-mdrin029",
       "text": "New authoritative report found 8 August 2026: IFRC's DREF Operation Update No. 1 for 'India: Assam Floods' (DREF operation no. MDRIN029, published 6 August 2026 on ReliefWeb) states: \"The floods have caused extensive damage to homes, livelihoods, and essential infrastructure across Assam. A total of 1,368 houses were fully damaged and 11,066 partially damaged, while more than 74,450 hectares of agricultural land were affected... In addition, 74 flood-related deaths have been reported... On the basis of situation report shared by Chief Minister Office, as of 28 July 2026, the floods had affected 1,144,733 people across 25 districts... The flooding led to large-scale displacement, with nearly 30,000 people evacuated and over 71,000 people accommodated in relief camps at the height of the emergency.\" This IFRC figure, sourced to the Assam Chief Minister's Office, is more recent and substantially higher than the ASDMA figure relayed by Sphere India already on file (0 deaths, 178,837 affected, as of 1 August) and is now adopted as the current Assam figure, superseding it; despite the overall decline in flood impacts noted by IFRC, 1,144,733 people remain affected across 8 districts as of this report. Combining updated state figures: Assam 74 deaths / ~30,000 evacuated, Odisha 0 deaths / 267,301 evacuated, Gujarat 0 deaths / ~22,000 relocated, Kerala 7 deaths / evacuee count not reported, Maharashtra 3 deaths / ~1,155 relocated -- giving a revised combined total of at least 84 deaths and at least 320,456 people displaced nationwide. No allowlisted source has declared any state's flooding resolved.",
@@ -141,7 +141,7 @@
     "status": "ongoing"
   },
   "id": "india-monsoon-floods-2026",
-  "last_updated": "2026-08-20T09:11:24Z",
+  "last_updated": "2026-08-21T09:17:03Z",
   "name": "Multi-State Monsoon Floods & Landslides — India",
   "provenance": {
     "history": [
@@ -149,10 +149,15 @@
         "at": "2026-08-20T09:11:24Z",
         "layer": "verify",
         "run_id": "2026-08-20T09-11-24Z-e183d4"
+      },
+      {
+        "at": "2026-08-21T09:17:03Z",
+        "layer": "verify",
+        "run_id": "2026-08-21T09-17-03Z-11100d"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-20T09-11-24Z-e183d4"
+    "last_run_id": "2026-08-21T09-17-03Z-11100d"
   },
   "schema_version": "1.0",
   "sort_keys": {

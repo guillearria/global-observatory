@@ -114,6 +114,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-33",
+      "retrieved_date": "2026-08-21",
+      "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
+      "source_url": "https://www.fdma.go.jp/disaster/info/items/20260728kumamotojishin59.pdf",
+      "text": "FDMA Disaster Report No. 59 (21 August 2026, 10:00 JST): the national confirmed death toll was revised down to 38 (from 39) after one of two deaths previously listed as still under investigation for relation to the disaster was judged unrelated and withdrawn from the count; missing remains 0 nationally, and injured remains unchanged at 364 (30 severely, 334 minor). Housing damage assessments rose to 21,033 buildings damaged in total (1,589 fully destroyed, 1,950 half destroyed, 17,494 partially damaged), up from 16,634 in Report No. 57. Evacuation instructions narrowed further to a single municipality in Kumamoto Prefecture covering 25,314 households and 56,006 people, down from 29,437 households and 65,014 people in Report No. 58, with the stronger Emergency Safety Confirmation category now at zero.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-08-18",
       "source_name": "USGS",
@@ -122,12 +130,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 6.8 earthquake struck southern Kumamoto Prefecture, Kyushu, Japan, on 28 July 2026, centred 5 km east of Uto City at a depth of about 10 km. Japan's Fire and Disaster Management Agency (FDMA) confirms 39 deaths and 364 injured, with no one now listed as missing nationally, and damage surveys have raised the building total to 16,634 (1,515 fully destroyed); evacuation instructions have been narrowed further to a single municipality in Kumamoto Prefecture, covering 29,437 households and 65,014 people. Water outages, which peaked at about 108,100 households, have been cut to about 27,800, with full restoration targeted by the end of August; the Kyushu Expressway has reopened to general vehicles, while the Kyushu Shinkansen and two local rail lines remain suspended. USGS's PAGER product retains a Red alert and GDACS an Orange alert, with about 1.2 million people exposed to MMI VII or greater shaking.",
+  "description": "A magnitude 6.8 earthquake struck southern Kumamoto Prefecture, Kyushu, Japan, on 28 July 2026, centred 5 km east of Uto City at a depth of about 10 km. Japan's Fire and Disaster Management Agency (FDMA) confirms 38 deaths and 364 injured, with no one now listed as missing nationally, and damage surveys have raised the building total to 21,033 (1,589 fully destroyed); evacuation instructions have been narrowed further to a single municipality in Kumamoto Prefecture, covering 25,314 households and 56,006 people. Water outages, which peaked at about 108,100 households, have been cut to about 27,800, with full restoration targeted by the end of August; the Kyushu Expressway has reopened to general vehicles, while the Kyushu Shinkansen and two local rail lines remain suspended. USGS's PAGER product retains a Red alert and GDACS an Orange alert, with about 1.2 million people exposed to MMI VII or greater shaking.",
   "event": {
     "impact": {
-      "deaths": 39,
+      "deaths": 38,
       "displaced": null,
-      "summary": "FDMA Report No. 58 (20 August 2026) confirms 39 deaths and 364 injured (30 severely), with no one still listed as missing nationally, and housing damage assessments continuing. Evacuation instructions have been narrowed further to a single municipality in Kumamoto Prefecture -- 29,437 households and 65,014 people -- down from 45,667 households and 100,970 people three days earlier. MLIT reports water outages reduced to about 27,800 households from a peak of about 108,100, and the Kyushu Expressway reopened to general vehicles while the Kyushu Shinkansen remains suspended. USGS's PAGER product retains a Red alert (maximum MMI 9.243) and GDACS an Orange alert, with about 1.2 million people exposed to MMI VII or greater shaking."
+      "summary": "FDMA Report No. 59 (21 August 2026) confirms 38 deaths -- revised down from 39 after one previously unresolved case was judged unrelated to the disaster -- and 364 injured (30 severely), with no one listed as missing nationally. Housing damage assessments have risen to 21,033 buildings (1,589 fully destroyed). Evacuation instructions have been narrowed further to a single municipality in Kumamoto Prefecture -- 25,314 households and 56,006 people -- down from 29,437 households and 65,014 people the day before. MLIT reports water outages reduced to about 27,800 households from a peak of about 108,100, and the Kyushu Expressway reopened to general vehicles while the Kyushu Shinkansen remains suspended. USGS's PAGER product retains a Red alert (maximum MMI 9.243) and GDACS an Orange alert, with about 1.2 million people exposed to MMI VII or greater shaking."
     },
     "live_source_url": "https://www.fdma.go.jp/disaster/info/",
     "location": {
@@ -141,7 +149,7 @@
     "status": "ongoing"
   },
   "id": "japan-earthquake-kumamoto-2026",
-  "last_updated": "2026-08-20T09:15:02Z",
+  "last_updated": "2026-08-21T09:22:15Z",
   "name": "M6.8 Earthquake — Kumamoto, Japan",
   "provenance": {
     "history": [
@@ -149,10 +157,15 @@
         "at": "2026-08-20T09:15:02Z",
         "layer": "verify",
         "run_id": "2026-08-20T09-15-02Z-36fa54"
+      },
+      {
+        "at": "2026-08-21T09:22:15Z",
+        "layer": "verify",
+        "run_id": "2026-08-21T09-22-15Z-c22009"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-20T09-15-02Z-36fa54"
+    "last_run_id": "2026-08-21T09-22-15Z-c22009"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -161,6 +174,10 @@
     "recency_rank": 739825
   },
   "updates": [
+    {
+      "date": "2026-08-21",
+      "text": "FDMA Report No. 59 revised the death toll down to 38 (from 39) after one unresolved case was ruled unrelated to the disaster; injured held at 364, missing at 0. Housing damage rose to 21,033 buildings (1,589 fully destroyed), and evacuation instructions narrowed further to 25,314 households / 56,006 people, down from 29,437 households / 65,014 people."
+    },
     {
       "date": "2026-08-20",
       "text": "FDMA Report No. 58 held the death toll at 39 with no one still listed as missing; the national injured total rose slightly to 364 (30 severely injured, up from 28), and evacuation instructions were narrowed further to a single municipality covering 29,437 households / 65,014 people, down from 45,667 households / 100,970 people."
@@ -204,7 +221,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

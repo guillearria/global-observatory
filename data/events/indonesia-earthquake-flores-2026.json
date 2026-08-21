@@ -35,7 +35,7 @@
     },
     {
       "id": "claim-5",
-      "retrieved_date": "2026-08-19",
+      "retrieved_date": "2026-08-21",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558059",
       "text": "Re-checked 18 August 2026: GDACS's event report (event id 1558059, episode 1725109, still Red alert, score now 2.1, down from 2.4 on 17 August) shows population exposure to MMI VII+ shaking revised to about 870,000 (down from ~1.2 million cited 16-17 August); the recorded tsunami remains at a maximum wave height of about 1.68 m. The page's media citations now show only one casualty figure, from catnat.net (French-language): \"Un puissant seisme de magnitude 7,7 a secoue samedi matin l'est de l'Indonesie... Il a fait au moins 68 morts\" (\"a powerful magnitude-7.7 earthquake shook eastern Indonesia... it caused at least 68 deaths\") -- up from the 54 deaths cited via Punch NG/Asahi on 17 August. No displaced or injured figure is cited on the page today. As with the prior update, this is a media citation referenced on the GDACS page rather than a dedicated GDACS/Sendai casualty assessment, but per this record's established practice of adopting the GDACS page's most recent cited media toll, the headline death toll is updated to 68. USGS's PAGER product for event us6000tkt2 remains a Yellow alert, last updated 15 August 2026, with no change to its own casualty modeling.",
@@ -43,7 +43,7 @@
     },
     {
       "id": "claim-6",
-      "retrieved_date": "2026-08-20",
+      "retrieved_date": "2026-08-21",
       "source_name": "ReliefWeb",
       "source_url": "https://reliefweb.int/report/indonesia/indonesian-humanitarian-coordination-platform-situation-report-no-3-earthquake-and-tsunami-flores-and-surrounding-areas-19-august-2026",
       "text": "Indonesian Humanitarian Coordination Platform Situation Report No. 3 (MPBI, 19 August 2026), citing provisional BNPB data as of 19 August 2026, 09:00 WIB: 71 deaths, 1,182 injured, 40,145 displaced, and 11,950 houses damaged (5,518 severely, 1,924 moderately, 4,508 slightly), with 217 education facilities, 96 health facilities, 46 government offices and 77 places of worship damaged; aftershocks continue frequently, raising landslide risk in already susceptible locations.",
@@ -69,7 +69,7 @@
     "status": "ongoing"
   },
   "id": "indonesia-earthquake-flores-2026",
-  "last_updated": "2026-08-20T09:15:02Z",
+  "last_updated": "2026-08-21T09:17:03Z",
   "name": "M7.7 Earthquake, Flores, Indonesia",
   "provenance": {
     "history": [
@@ -77,10 +77,15 @@
         "at": "2026-08-20T09:15:02Z",
         "layer": "verify",
         "run_id": "2026-08-20T09-15-02Z-e24ea3"
+      },
+      {
+        "at": "2026-08-21T09:17:03Z",
+        "layer": "verify",
+        "run_id": "2026-08-21T09-17-03Z-894dba"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-20T09-15-02Z-e24ea3"
+    "last_run_id": "2026-08-21T09-17-03Z-894dba"
   },
   "schema_version": "1.0",
   "sort_keys": {

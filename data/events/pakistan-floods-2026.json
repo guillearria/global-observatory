@@ -58,6 +58,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-18",
+      "retrieved_date": "2026-08-21",
+      "source_name": "National Disaster Management Authority (Pakistan)",
+      "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
+      "text": "NDMA's live Monsoon 2026 SITREP dashboard, as of 21 August 2026 (cumulative, 26 June-21 August 2026): Grand Total Deceased 164 (55 male, 33 female, 76 children), Grand Total Injured 484 (200 male, 122 female, 162 children) -- up from 163 deaths and 483 injuries as of 20 August. Cumulative housing damage: 1,517 houses affected (966 partially damaged, 551 destroyed); 1,419 livestock lost. Khyber Pakhtunkhwa recorded the highest death toll (70) and Punjab the most injuries (349); Gilgit-Baltistan recorded the most housing damage (535 structures). The last 24 hours (21 August) recorded 1 new death and 1 new injury, both in Khyber Pakhtunkhwa.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-02",
       "source_name": "ReliefWeb",
@@ -74,12 +82,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Heavy monsoon rains beginning 26 June 2026 have triggered flash floods, riverine flooding and house collapses across Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh. Pakistan's National Disaster Management Authority (NDMA) records a cumulative 163 deaths and 483 injuries nationwide from 26 June to 20 August 2026, with 1,499 houses affected and 1,413 livestock lost; Khyber Pakhtunkhwa carries the heaviest provincial death toll at 69 and Punjab the most injuries at 349. Casualties stem mainly from house collapses, flash floods, drowning and electrocution. NDMA continues to log new casualties and damage daily — its teams had carried out 1,111 rescue operations and rescued 8,700 people by 13 August — relief operations remain active in Khyber Pakhtunkhwa, Gilgit-Baltistan and Azad Jammu & Kashmir, and WHO stands ready to activate a contingency plan to assist 1.8 million people in high-risk areas.",
+  "description": "Heavy monsoon rains beginning 26 June 2026 have triggered flash floods, riverine flooding and house collapses across Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh. Pakistan's National Disaster Management Authority (NDMA) records a cumulative 164 deaths and 484 injuries nationwide from 26 June to 21 August 2026, with 1,517 houses affected and 1,419 livestock lost; Khyber Pakhtunkhwa carries the heaviest provincial death toll at 70 and Punjab the most injuries at 349. Casualties stem mainly from house collapses, flash floods, drowning and electrocution. NDMA continues to log new casualties and damage daily — its teams had carried out 1,111 rescue operations and rescued 8,700 people by 13 August — relief operations remain active in Khyber Pakhtunkhwa, Gilgit-Baltistan and Azad Jammu & Kashmir, and WHO stands ready to activate a contingency plan to assist 1.8 million people in high-risk areas.",
   "event": {
     "impact": {
-      "deaths": 163,
+      "deaths": 164,
       "displaced": null,
-      "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 20 August 2026 at 163 deaths and 483 injuries, with 1,499 houses affected (550 destroyed, 949 partially damaged) and 1,413 livestock lost. Khyber Pakhtunkhwa has recorded the most deaths (69) and Punjab the most injuries (349). NDMA teams had conducted 1,111 rescue operations and rescued 8,700 people by 13 August, and WHO stands ready to assist up to 1.8 million people under the 2026 Monsoon and Flood Contingency Plan."
+      "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 21 August 2026 at 164 deaths and 484 injuries, with 1,517 houses affected (551 destroyed, 966 partially damaged) and 1,419 livestock lost. Khyber Pakhtunkhwa has recorded the most deaths (70) and Punjab the most injuries (349), with Gilgit-Baltistan now recording the most housing damage (535 structures). NDMA teams had conducted 1,111 rescue operations and rescued 8,700 people by 13 August, and WHO stands ready to assist up to 1.8 million people under the 2026 Monsoon and Flood Contingency Plan."
     },
     "live_source_url": "https://reliefweb.int/country/pak",
     "location": {
@@ -89,11 +97,11 @@
       "region": "Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh"
     },
     "occurrence_date": "2026-06-26",
-    "scale": "Nationwide monsoon flooding; NDMA-recorded 163 deaths as of 20 August 2026 (live SITREP dashboard)",
+    "scale": "Nationwide monsoon flooding; NDMA-recorded 164 deaths as of 21 August 2026 (live SITREP dashboard)",
     "status": "ongoing"
   },
   "id": "pakistan-floods-2026",
-  "last_updated": "2026-08-20T09:15:01Z",
+  "last_updated": "2026-08-21T09:22:39Z",
   "name": "Monsoon Floods — Pakistan",
   "provenance": {
     "history": [
@@ -101,10 +109,15 @@
         "at": "2026-08-20T09:15:01Z",
         "layer": "verify",
         "run_id": "2026-08-20T09-15-01Z-ec2f06"
+      },
+      {
+        "at": "2026-08-21T09:22:39Z",
+        "layer": "verify",
+        "run_id": "2026-08-21T09-22-39Z-e9e98f"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-20T09-15-01Z-ec2f06"
+    "last_run_id": "2026-08-21T09-22-39Z-e9e98f"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -113,6 +126,10 @@
     "recency_rank": 739793
   },
   "updates": [
+    {
+      "date": "2026-08-21",
+      "text": "NDMA's live Monsoon 2026 SITREP dashboard raised the cumulative toll to 164 deaths and 484 injuries as of 21 August, up from 163 deaths and 483 injuries the day before (1 new death and 1 new injury, both in Khyber Pakhtunkhwa); cumulative houses affected rose to 1,517 (551 destroyed) and livestock lost to 1,419."
+    },
     {
       "date": "2026-08-20",
       "text": "NDMA's live Monsoon 2026 SITREP dashboard raised the cumulative toll to 163 deaths and 483 injuries as of 20 August, up from 161 deaths and 473 injuries two days earlier; cumulative houses affected rose to 1,499 (550 destroyed) and livestock lost to 1,413."
@@ -144,7 +161,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

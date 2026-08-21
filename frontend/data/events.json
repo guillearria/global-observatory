@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T09:15:21Z",
+  "last_updated": "2026-08-21T09:23:25Z",
   "published": [
     {
       "category": "flood",
@@ -22,7 +22,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-08-16",
+          "retrieved_date": "2026-08-21",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/disaster/ff-2026-000120-afg",
           "text": "ReliefWeb's disaster record (FF-2026-000120-AFG) still shows Status: Ongoing; the latest posted item remains UNICEF's Flash Update No. 3 (originally published 11 Aug 2026, posted 13 Aug 2026) confirming a second flash flood struck Barg-e-Matal district, Nuristan, on 3 August, affecting 191 families. No newer update has been posted as of this check.",
@@ -80,7 +80,7 @@
         "status": "ongoing"
       },
       "id": "afghanistan-nuristan-floods-2026",
-      "last_updated": "2026-08-20T09:15:01Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Nuristan Flash Floods, Afghanistan",
       "provenance": {
         "history": [
@@ -88,10 +88,15 @@
             "at": "2026-08-20T09:15:01Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-01Z-5401e6"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-03a500"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-01Z-5401e6"
+        "last_run_id": "2026-08-21T09-17-03Z-03a500"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -271,7 +276,7 @@
         },
         {
           "id": "claim-22",
-          "retrieved_date": "2026-08-16",
+          "retrieved_date": "2026-08-21",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/disaster/fl-2026-000109-bgd",
           "text": "ReliefWeb's event-specific disaster record (FL-2026-000109-BGD, 'Bangladesh: Flash Floods - Jul 2026') remains Status: Ongoing; the most recent document is a Shelter Cluster/UNHCR Joint Field Mission Report (posted 4 Aug 2026, originally dated 30 Jul 2026) -- no numbered UN RC situation report newer than #2 (23 Jul 2026) has been issued, and no fresher casualty/displacement figures have been published as of this check.",
@@ -353,7 +358,7 @@
         "status": "ongoing"
       },
       "id": "bangladesh-floods-chattogram-2026",
-      "last_updated": "2026-08-20T09:11:24Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Monsoon Floods & Landslides — Chattogram Division, Bangladesh",
       "provenance": {
         "history": [
@@ -361,10 +366,15 @@
             "at": "2026-08-20T09:11:24Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-11-24Z-fde370"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-68ba9f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-11-24Z-fde370"
+        "last_run_id": "2026-08-21T09-17-03Z-68ba9f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -515,6 +525,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-17",
+          "retrieved_date": "2026-08-21",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030240",
+          "text": "GDACS's wildfire report for Canada (event id 1030240, episode 49, reporting window 08 August 2026 - 20 August 2026): burned area 29,678 hectares, up from 29,128 hectares in episode 44; affected population unchanged at 4,912 people within the burned area.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-12",
           "source_name": "Government of British Columbia",
@@ -579,12 +597,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A fast-moving wildfire outbreak swept British Columbia's Interior in early August 2026, led by the Bald Range fire near Summerland in the South Okanagan, which grew rapidly overnight and forced a large-scale evacuation; the province declared a State of Provincial Emergency on 8 August 2026. Penticton RCMP confirmed one fatality: an 80-year-old Meadow Valley resident who died on 9 August 2026 while attempting to evacuate, with the BC Coroners Service investigating. GDACS's tracked burned area has grown steadily to 29,128 hectares as of 19 August 2026, with 4,912 people within the burned area, and EmergencyInfoBC lists active evacuation orders and alerts across the Cariboo, North Okanagan, Okanagan-Similkameen, Thompson-Nicola and Fraser Valley regional districts and roughly 25 other communities. The state of emergency remains in effect and the burned area is still expanding.",
+      "description": "A fast-moving wildfire outbreak swept British Columbia's Interior in early August 2026, led by the Bald Range fire near Summerland in the South Okanagan, which grew rapidly overnight and forced a large-scale evacuation; the province declared a State of Provincial Emergency on 8 August 2026. Penticton RCMP confirmed one fatality: an 80-year-old Meadow Valley resident who died on 9 August 2026 while attempting to evacuate, with the BC Coroners Service investigating. GDACS's tracked burned area has grown steadily to 29,678 hectares as of 20 August 2026, with 4,912 people within the burned area, and EmergencyInfoBC lists active evacuation orders and alerts across the Cariboo, North Okanagan, Okanagan-Similkameen, Thompson-Nicola and Fraser Valley regional districts and roughly 25 other communities. The state of emergency remains in effect and the burned area is still expanding.",
       "event": {
         "impact": {
           "deaths": 1,
           "displaced": null,
-          "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. The State of Provincial Emergency declared on 8 August 2026 remains in effect; GDACS records 29,128 hectares burned and 4,912 people affected within the burned area as of 19 August 2026, and EmergencyInfoBC continues to list active evacuation orders and alerts across roughly 25 communities. The province has block-booked more than 1,500 hotel rooms for evacuees."
+          "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. The State of Provincial Emergency declared on 8 August 2026 remains in effect; GDACS records 29,678 hectares burned and 4,912 people affected within the burned area as of 20 August 2026, and EmergencyInfoBC continues to list active evacuation orders and alerts across roughly 25 communities. The province has block-booked more than 1,500 hotel rooms for evacuees."
         },
         "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/",
         "location": {
@@ -594,11 +612,11 @@
           "region": "British Columbia Interior, centred on the Bald Range fire near Summerland in the South Okanagan; more than 100 wildfires active provincewide"
         },
         "occurrence_date": "2026-08-08",
-        "scale": "Provincial State of Emergency; Bald Range fire (largest, near Summerland); 1 confirmed fatality; 29,128 hectares burned as of 19 August 2026 (GDACS)",
+        "scale": "Provincial State of Emergency; Bald Range fire (largest, near Summerland); 1 confirmed fatality; 29,678 hectares burned as of 20 August 2026 (GDACS)",
         "status": "ongoing"
       },
       "id": "canada-british-columbia-wildfires-2026",
-      "last_updated": "2026-08-20T09:15:01Z",
+      "last_updated": "2026-08-21T09:23:04Z",
       "name": "Wildfire State of Emergency — British Columbia, Canada",
       "provenance": {
         "history": [
@@ -606,10 +624,15 @@
             "at": "2026-08-20T09:15:01Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-01Z-b8fc54"
+          },
+          {
+            "at": "2026-08-21T09:23:04Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-23-04Z-b9064c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-01Z-b8fc54"
+        "last_run_id": "2026-08-21T09-23-04Z-b9064c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -618,6 +641,10 @@
         "recency_rank": 739836
       },
       "updates": [
+        {
+          "date": "2026-08-21",
+          "text": "GDACS's episode 49 update, covering to 20 August, put the tracked burned area at 29,678 hectares, up from 29,128, with the affected population unchanged at 4,912; the provincial state of emergency remains in effect."
+        },
         {
           "date": "2026-08-19",
           "text": "GDACS's episode 44 update, covering to 19 August, put the tracked burned area at 29,128 hectares, up from 26,618, with the affected population unchanged at 4,912; the provincial state of emergency remains in effect."
@@ -657,7 +684,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -855,14 +882,22 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
           "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 9, reporting window now 31 July - 16 August 2026) records the event's first confirmed death and missing persons: 1 person killed and 3 people missing after a residential building collapsed in a debris flow in Heping Town, Changxing County, Huzhou, Zhejiang Province. The combined displacement total remains 302,931 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu; overall alert level remains Orange (medium humanitarian impact).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-08-21",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
+          "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 10, reporting window 31 July - 19 August 2026) records 309,701 people displaced, up from 302,931 in episode 9, with newly reported evacuations in Sichuan Province added to the affected areas; the death toll remains 1 with 3 missing in Zhejiang, and GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. Overall alert level remains Orange (medium humanitarian impact).",
+          "verification_status": "verified"
         }
       ],
-      "description": "Heavy rain from Typhoon Dolphin and its remnants triggered severe flooding across central and eastern China beginning 31 July 2026, with the heaviest impacts from around 11 August 2026 in Hubei Province. GDACS rates the event (FL-2026-000148-CHN) an Orange alert, with a combined 302,931 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu — the single largest evacuation being 215,600 people in Shanghai over 8-10 August. The event's first confirmed casualties came when a residential building collapsed in a debris flow in Heping Town, Changxing County, Zhejiang Province, killing 1 person and leaving 3 missing. China's Ministry of Emergency Management has dispatched 13 emergency drainage teams to Zhoukou city, Henan, and the flooding remains ongoing as of GDACS's latest reporting window (31 July - 16 August 2026).",
+      "description": "Heavy rain from Typhoon Dolphin and its remnants triggered severe flooding across central and eastern China beginning 31 July 2026, with the heaviest impacts from around 11 August 2026 in Hubei Province. GDACS rates the event (FL-2026-000148-CHN) an Orange alert, with a combined 309,701 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu and Sichuan — the single largest evacuation being 215,600 people in Shanghai over 8-10 August. The event's first confirmed casualties came when a residential building collapsed in a debris flow in Heping Town, Changxing County, Zhejiang Province, killing 1 person and leaving 3 missing. China's Ministry of Emergency Management has dispatched 13 emergency drainage teams to Zhoukou city, Henan, and the flooding remains ongoing as of GDACS's latest reporting window (31 July - 19 August 2026).",
       "event": {
         "impact": {
           "deaths": 1,
-          "displaced": 302931,
-          "summary": "GDACS's episode 9 report (reporting window 31 July - 16 August 2026) records 302,931 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu, with 1 person killed and 3 missing after a residential building collapsed in a debris flow in Changxing County, Zhejiang. The event remains at Orange alert, and China's Ministry of Emergency Management has deployed 13 emergency drainage teams to Zhoukou city, Henan, for urban waterlogging relief."
+          "displaced": 309701,
+          "summary": "GDACS's episode 10 report (reporting window 31 July - 19 August 2026) records 309,701 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu and newly-added Sichuan, with 1 person killed and 3 missing after a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, and China's Ministry of Emergency Management has deployed 13 emergency drainage teams to Zhoukou city, Henan, for urban waterlogging relief."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
         "location": {
@@ -872,11 +907,11 @@
           "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu provinces/municipalities (Yangtze basin and eastern seaboard)"
         },
         "occurrence_date": "2026-07-31",
-        "scale": "GDACS Orange alert; 302,931 evacuated across 6 provinces/municipalities; 1 death, 3 missing (Zhejiang)",
+        "scale": "GDACS Orange alert; 309,701 evacuated across 7 provinces/municipalities; 1 death, 3 missing (Zhejiang)",
         "status": "ongoing"
       },
       "id": "china-floods-yangtze-typhoon-dolphin-2026",
-      "last_updated": "2026-08-20T09:11:23Z",
+      "last_updated": "2026-08-21T09:23:04Z",
       "name": "Typhoon Dolphin Flooding, Central China",
       "provenance": {
         "history": [
@@ -884,10 +919,15 @@
             "at": "2026-08-20T09:11:23Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-11-23Z-e9badc"
+          },
+          {
+            "at": "2026-08-21T09:23:04Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-23-04Z-f7e31b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-11-23Z-e9badc"
+        "last_run_id": "2026-08-21T09-23-04Z-f7e31b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -896,6 +936,10 @@
         "recency_rank": 739828
       },
       "updates": [
+        {
+          "date": "2026-08-21",
+          "text": "GDACS's episode 10 update raised the combined displacement total to 309,701 (from 302,931) and added evacuations in Sichuan Province to the affected areas; the death toll remained 1 with 3 missing, and GDACS's event-data API additionally recorded 134 people rescued and 151 buildings damaged or destroyed."
+        },
         {
           "date": "2026-08-17",
           "text": "GDACS's episode 9 update recorded the event's first confirmed casualties: 1 person killed and 3 missing after a residential building collapsed in a debris flow in Heping Town, Changxing County, Huzhou, Zhejiang Province; the combined displacement total held at 302,931 people."
@@ -911,7 +955,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -932,6 +976,14 @@
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/colombia/colombia-addendum-humanitarian-response-plan-earthquake-august-2026",
           "text": "OCHA's Addendum to the Humanitarian Response Plan -- Earthquake, Colombia (posted 20 August 2026, originally published 19 August 2026): \"According to the most recent reports as of 17 August, 304 people had lost their lives and 4,400 had been injured... Damage to housing is extensive: 134,341 homes have been affected and 29,554 have been destroyed... 267 residential buildings collapsed... Search and rescue activities remain ongoing and have enabled the rescue of 338 people.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-11",
+          "retrieved_date": "2026-08-21",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/colombia/colombia-flash-update-008-update-impact-earthquake-colombia-august-20-2026",
+          "text": "OCHA Colombia's Flash Update 008 (data as of 20 August 2026, 8 p.m. local time): the earthquake has affected more than 282,700 people and 153,300 households, resulting in 319 fatalities and the destruction of more than 31,400 homes. A State of Emergency remains in effect across 15 departments, and US$40 million has been mobilized to complement response and recovery efforts under the 2026 Humanitarian Needs and Response Plan (HNRP) Addendum.",
           "verification_status": "verified"
         },
         {
@@ -999,12 +1051,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.4 intermediate-depth earthquake struck western Colombia on 10 August 2026 at 12:34:28 UTC, centered 5 km south of San José del Palmar in Chocó Department at a depth of roughly 110 km; Colombia's geological survey described it as the seismic event of greatest magnitude recorded in the country in the 21st century. OCHA Colombia's Flash Update 007 and its Addendum to the Humanitarian Response Plan (data as of 17 August) put the toll at 304 deaths, 4,400 injured and 426 missing, with 186,182 people (121,470 families) affected across 15 departments and 472 municipalities; 29,554 homes have been destroyed and search-and-rescue operations have saved 338 people. Both GDACS and USGS's PAGER system rate the event a Red alert for high humanitarian impact, with GDACS estimating about 5.2 million people within zones of MMI VII or greater shaking. The government has activated emergency coordination centres in Bogotá, Quibdó, Armenia and Cali, and the international response continues to scale up.",
+      "description": "A magnitude 7.4 intermediate-depth earthquake struck western Colombia on 10 August 2026 at 12:34:28 UTC, centered 5 km south of San José del Palmar in Chocó Department at a depth of roughly 110 km; Colombia's geological survey described it as the seismic event of greatest magnitude recorded in the country in the 21st century. OCHA Colombia's Flash Update 008 (data as of 20 August) puts the toll at 319 deaths, with more than 282,700 people (153,300 households) affected across 15 departments and more than 31,400 homes destroyed; 4,400 injured and 426 missing remain the last-confirmed figures (Flash Update 007, 17 August), and search-and-rescue operations had saved 338 people as of that update. Both GDACS and USGS's PAGER system rate the event a Red alert for high humanitarian impact, with GDACS estimating about 5.2 million people within zones of MMI VII or greater shaking. The government has activated emergency coordination centres in Bogotá, Quibdó, Armenia and Cali, and the international response continues to scale up.",
       "event": {
         "impact": {
-          "deaths": 304,
-          "displaced": 186182,
-          "summary": "OCHA Colombia's Flash Update 007 and the Addendum to the Humanitarian Response Plan (data as of 17 August 2026) confirm 304 deaths, 4,400 injured and 426 missing, with 186,182 people (121,470 families) affected across 15 departments and 472 municipalities; 29,554 homes have been destroyed and 134,341 affected in total, with 267 residential buildings collapsed. Search and rescue operations have rescued 338 people. GDACS rates the event a Red alert (score 2.2) with about 5.2 million people in zones of MMI VII or greater shaking, and USGS's PAGER alert is also Red."
+          "deaths": 319,
+          "displaced": 282700,
+          "summary": "OCHA Colombia's Flash Update 008 (data as of 20 August 2026, 8 p.m. local time) reports the earthquake has affected more than 282,700 people (153,300 households) and caused 319 fatalities, with more than 31,400 homes destroyed. A State of Emergency remains in effect across 15 departments, and US$40 million has been mobilized under the 2026 Humanitarian Needs and Response Plan Addendum. Injured and missing figures were not restated in Flash Update 008 and remain at the last-confirmed 4,400 injured and 426 missing (Flash Update 007, 17 August). GDACS rates the event a Red alert with about 5.2 million people in zones of MMI VII or greater shaking, and USGS's PAGER alert is also Red."
         },
         "live_source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
         "location": {
@@ -1018,7 +1070,7 @@
         "status": "ongoing"
       },
       "id": "colombia-earthquake-choco-2026",
-      "last_updated": "2026-08-20T09:15:02Z",
+      "last_updated": "2026-08-21T09:23:25Z",
       "name": "M7.4 Earthquake, Chocó, Colombia",
       "provenance": {
         "history": [
@@ -1026,10 +1078,15 @@
             "at": "2026-08-20T09:15:02Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-02Z-527e10"
+          },
+          {
+            "at": "2026-08-21T09:23:25Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-23-25Z-599306"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-02Z-527e10"
+        "last_run_id": "2026-08-21T09-23-25Z-599306"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1038,6 +1095,10 @@
         "recency_rank": 739838
       },
       "updates": [
+        {
+          "date": "2026-08-21",
+          "text": "OCHA Colombia's Flash Update 008 (20 August, 8 p.m. local) raised the toll to 319 deaths and 282,700+ people (153,300 households) affected, with 31,400+ homes destroyed; a State of Emergency remains in effect across 15 departments and US$40 million has been mobilized under the HNRP Addendum. Injured (4,400) and missing (426) remain at Flash Update 007's levels."
+        },
         {
           "date": "2026-08-17",
           "text": "OCHA Colombia's Flash Update 007 and the addendum to the Humanitarian Response Plan (data as of 17 August) raised the toll to 304 deaths, 4,400 injured and 426 missing, with 186,182 people (121,470 families) affected across 15 departments and 472 municipalities; homes destroyed rose to 29,554 and search-and-rescue operations had saved 338 people."
@@ -1073,7 +1134,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1273,6 +1334,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-33",
+          "retrieved_date": "2026-08-21",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview, last updated 20 August 2026 at 14:30 (data as of 18 August 2026), reports the Democratic Republic of the Congo has recorded 5,208 confirmed cases including 2,476 related deaths, with 730 patients hospitalised in isolation and 1,115 recovered -- an increase of 187 new confirmed cases and 98 deaths since the prior 16 August data cut. 56 of 151 health zones remain affected across six provinces. Uganda's linked outbreak remains declared over (28 July 2026, 20 confirmed cases, 2 deaths).",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-07-12",
           "source_name": "ECDC",
@@ -1321,12 +1390,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak -- caused by Bundibugyo virus -- on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined that the DRC and Uganda epidemic constitutes a Public Health Emergency of International Concern. It is the largest Ebola outbreak recorded in the country: per ECDC's country overview (updated 19 August 2026, citing WHO AFRO data to 16 August), DRC has recorded 5,021 confirmed cases including 2,378 deaths, spanning 55 of 151 health zones across six provinces, with Ituri and North Kivu the most affected. Uganda's linked outbreak ended at 20 confirmed cases and two deaths, declared over by its Ministry of Health on 28 July 2026; imported cases were earlier confirmed in France and Germany, and the DRC outbreak remains ongoing.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak -- caused by Bundibugyo virus -- on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined that the DRC and Uganda epidemic constitutes a Public Health Emergency of International Concern. It is the largest Ebola outbreak recorded in the country: per ECDC's country overview (updated 20 August 2026, citing WHO AFRO data to 18 August), DRC has recorded 5,208 confirmed cases including 2,476 deaths, spanning 56 of 151 health zones across six provinces, with Ituri and North Kivu the most affected. Uganda's linked outbreak ended at 20 confirmed cases and two deaths, declared over by its Ministry of Health on 28 July 2026; imported cases were earlier confirmed in France and Germany, and the DRC outbreak remains ongoing.",
       "event": {
         "impact": {
-          "deaths": 2378,
+          "deaths": 2476,
           "displaced": null,
-          "summary": "Per ECDC's country overview (page updated 19 August 2026, citing WHO AFRO data as of 16 August), the Democratic Republic of the Congo has recorded 5,021 confirmed cases and 2,378 deaths -- the largest Ebola outbreak in its history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases -- across 55 of 151 health zones in six provinces including Bas-Uele. Ituri and North Kivu remain the most affected provinces. Uganda's linked outbreak was declared over on 28 July 2026 with 20 confirmed cases and two deaths."
+          "summary": "Per ECDC's country overview (last updated 20 August 2026, citing WHO AFRO data as of 18 August), the Democratic Republic of the Congo has recorded 5,208 confirmed cases and 2,476 deaths -- the largest Ebola outbreak in its history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases -- across 56 of 151 health zones in six provinces, with 730 patients hospitalised in isolation and 1,115 recovered. Ituri and North Kivu remain the most affected provinces. Uganda's linked outbreak was declared over on 28 July 2026 with 20 confirmed cases and two deaths."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -1340,7 +1409,7 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-08-20T09:15:01Z",
+      "last_updated": "2026-08-21T09:21:47Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
@@ -1348,10 +1417,15 @@
             "at": "2026-08-20T09:15:01Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-01Z-474325"
+          },
+          {
+            "at": "2026-08-21T09:21:47Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-21-47Z-a329e0"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-01Z-474325"
+        "last_run_id": "2026-08-21T09-21-47Z-a329e0"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1360,6 +1434,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-08-21",
+          "text": "ECDC's country overview (updated 20 August 2026, data as of 18 August) reported 5,208 confirmed cases and 2,476 deaths in the DRC, up from 5,021 cases and 2,378 deaths at the 16 August data cut -- 187 new confirmed cases and 98 new deaths -- with the outbreak now spanning 56 of 151 health zones (up from 55), and 730 patients in isolation with 1,115 recovered."
+        },
         {
           "date": "2026-08-18",
           "text": "WHO's Regional Office for Africa reported 5,021 confirmed cases and 2,378 deaths as of 16 August, up from 4,945 cases and 2,325 deaths a day earlier, per ECDC's 19 August country-overview update."
@@ -1399,7 +1477,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 30 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 31 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1480,7 +1558,7 @@
         },
         {
           "id": "claim-21",
-          "retrieved_date": "2026-08-20",
+          "retrieved_date": "2026-08-21",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/08/1168165",
           "text": "UN News, 'Sudan war: 200,000 newly displaced as fighting and floods intensify' (19 August 2026): heavy fighting and drone strikes on El Obeid city's main electrical transformer have triggered prolonged power outages, disrupting water pumping, health facilities and telecommunications; more than 200,000 people have been newly displaced across the wider Kordofan region since late 2025, and displacement in Sheikan locality (which contains El Obeid) has surged by 25 percent in the past eight months.",
@@ -1546,7 +1624,7 @@
         "status": "ongoing"
       },
       "id": "el-obeid-siege-sudan-2026",
-      "last_updated": "2026-08-20T09:15:21Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Siege of El Obeid — North Kordofan, Sudan",
       "provenance": {
         "history": [
@@ -1554,10 +1632,15 @@
             "at": "2026-08-20T09:15:21Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-21Z-b68bc5"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-5b8d9f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-21Z-b68bc5"
+        "last_run_id": "2026-08-21T09-17-03Z-5b8d9f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1622,7 +1705,7 @@
         },
         {
           "id": "claim-11",
-          "retrieved_date": "2026-08-10",
+          "retrieved_date": "2026-08-21",
           "source_name": "WHO",
           "source_url": "https://www.who.int/europe/news/item/16-07-2026-planning-for-a-warmer-world",
           "text": "A WHO/Europe statement dated 16 July 2026 ('Planning for a warmer world') states that 'data from just 5 countries shows nearly 10,000 excess deaths due to heat' this season, consistent with this record's current estimate of approximately 10,000 deaths, and separately notes that 'in the past 4 years alone, heat has claimed more than 200,000 lives' across the WHO European Region (a cumulative, multi-year figure, not specific to 2026). No later WHO/Europe statement with a revised 2026 regional total was found as of 10 August 2026.",
@@ -1646,7 +1729,7 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-08-20",
+          "retrieved_date": "2026-08-21",
           "source_name": "WHO",
           "source_url": "https://www.who.int/europe/news/item/16-07-2026-planning-for-a-warmer-world",
           "text": "WHO/Europe's statement of 16 July 2026, \"Planning for a warmer world\": \"This summer's toll is still being counted but, already, data from just 5 countries shows nearly 10,000 excess deaths due to heat.\" WHO Regional Director Dr Hans Henri P. Kluge: \"In the past 4 years alone, heat has claimed more than 200,000 lives, while heat-related mortality has risen by 30% over the past 20 years.\"",
@@ -1672,7 +1755,7 @@
         "status": "ongoing"
       },
       "id": "europe-heatwave-2026",
-      "last_updated": "2026-08-20T09:11:23Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "2026 European Heatwave — Public Health Emergency",
       "provenance": {
         "history": [
@@ -1680,10 +1763,15 @@
             "at": "2026-08-20T09:11:23Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-11-23Z-84b4bc"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-415766"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-11-23Z-84b4bc"
+        "last_run_id": "2026-08-21T09-17-03Z-415766"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2198,7 +2286,7 @@
         },
         {
           "id": "claim-10",
-          "retrieved_date": "2026-08-12",
+          "retrieved_date": "2026-08-21",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/haiti/ocha-haiti-nationwide-humanitarian-response-1-30-june-2026",
           "text": "Re-checked 12 August 2026: OCHA's 'Haiti: Nationwide Humanitarian Response (1-30 June 2026)' report (ReliefWeb, published 29 July 2026) confirms the 1.47 million/IOM Round 13 DTM figure (a 1 percent increase over Round 12) as the still-current national displacement total, including more than 300,000 in the Port-au-Prince metropolitan area alone, and adds that a new wave of violence between 13-19 June forced over 5,000 additional people to flee Cite Soleil -- a component of, not a supersession of, the national total. UN News (6 August 2026) restates the BINUH figures already on file (613 killed, 375 injured, 176+ women and girls raped over 4.5 months through 31 July) without a newer nationwide aggregate.",
@@ -2206,7 +2294,7 @@
         },
         {
           "id": "claim-13",
-          "retrieved_date": "2026-08-19",
+          "retrieved_date": "2026-08-21",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/08/1168090",
           "text": "UN News (6 August 2026): in Plaine du Cul-de-Sac and Cite Soleil alone, at least 613 people were killed and 375 injured over a 4.5-month period through 31 July 2026, more than a third of them not associated with gangs (including 111 women and 77 children); over 18,000 people were displaced from those two neighbourhoods in the same period, and 176+ women and girls were reported raped by gang members, often as a form of punishment. The 13 June attack on a World Cup viewing crowd of about 300 people killed 61 and injured 20, including at least 7 children.",
@@ -2280,7 +2368,7 @@
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-08-20T09:11:24Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
@@ -2288,10 +2376,15 @@
             "at": "2026-08-20T09:11:24Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-11-24Z-2c2c2a"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-de61f4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-11-24Z-2c2c2a"
+        "last_run_id": "2026-08-21T09-17-03Z-de61f4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2352,7 +2445,7 @@
         },
         {
           "id": "claim-13",
-          "retrieved_date": "2026-08-14",
+          "retrieved_date": "2026-08-21",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/india/situation-report-6-extreme-weather-events-india-assam-odisha-and-kerala-date-8th-august-2026",
           "text": "Sphere India, 'Situation Report 6 -- Extreme Weather Events in India: Assam, Odisha and Kerala' (dated 8 August 2026, posted to ReliefWeb 10 August 2026): Overview -- 'Assam reports 1.55 lakh people affected across 13 districts; Odisha faces one of its largest flood emergencies in recent years with 8.64 lakh people affected across 22 districts.' Assam: 'A total of 464 villages remain inundated, affecting 1,55,849 people... While human casualties remain low, one confirmed death was reported from Charaideo.' Statistical box: Causalities 1 death; Relief Camp inmates 10,326; non-camp 6,881. Odisha: 'Over 8.64 lakh people have been affected across 22 districts... Keonjhar recorded four of the six confirmed deaths.' Statistical box: Causalities 6; Residents evacuated 2.67 lakh; Houses damaged over 1,426. Kerala: 'An unexpected spell of extremely heavy rainfall between 1-7 August triggered severe flooding across Kerala, leaving 26 people dead, 4 missing, and forcing over 27,000 people to take shelter in around 325 relief camps.' Statistical box: Causalities 26 deaths; Missing Persons 4; Relief Camps 325. Gujarat and Maharashtra are outside this report's scope (only Assam, Odisha and Kerala covered).",
@@ -2440,7 +2533,7 @@
         },
         {
           "id": "claim-9",
-          "retrieved_date": "2026-08-09",
+          "retrieved_date": "2026-08-21",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/india/india-assam-floods-dref-operation-no-mdrin029",
           "text": "New authoritative report found 8 August 2026: IFRC's DREF Operation Update No. 1 for 'India: Assam Floods' (DREF operation no. MDRIN029, published 6 August 2026 on ReliefWeb) states: \"The floods have caused extensive damage to homes, livelihoods, and essential infrastructure across Assam. A total of 1,368 houses were fully damaged and 11,066 partially damaged, while more than 74,450 hectares of agricultural land were affected... In addition, 74 flood-related deaths have been reported... On the basis of situation report shared by Chief Minister Office, as of 28 July 2026, the floods had affected 1,144,733 people across 25 districts... The flooding led to large-scale displacement, with nearly 30,000 people evacuated and over 71,000 people accommodated in relief camps at the height of the emergency.\" This IFRC figure, sourced to the Assam Chief Minister's Office, is more recent and substantially higher than the ASDMA figure relayed by Sphere India already on file (0 deaths, 178,837 affected, as of 1 August) and is now adopted as the current Assam figure, superseding it; despite the overall decline in flood impacts noted by IFRC, 1,144,733 people remain affected across 8 districts as of this report. Combining updated state figures: Assam 74 deaths / ~30,000 evacuated, Odisha 0 deaths / 267,301 evacuated, Gujarat 0 deaths / ~22,000 relocated, Kerala 7 deaths / evacuee count not reported, Maharashtra 3 deaths / ~1,155 relocated -- giving a revised combined total of at least 84 deaths and at least 320,456 people displaced nationwide. No allowlisted source has declared any state's flooding resolved.",
@@ -2466,7 +2559,7 @@
         "status": "ongoing"
       },
       "id": "india-monsoon-floods-2026",
-      "last_updated": "2026-08-20T09:11:24Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Multi-State Monsoon Floods & Landslides — India",
       "provenance": {
         "history": [
@@ -2474,10 +2567,15 @@
             "at": "2026-08-20T09:11:24Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-11-24Z-e183d4"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-11100d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-11-24Z-e183d4"
+        "last_run_id": "2026-08-21T09-17-03Z-11100d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2546,7 +2644,7 @@
         },
         {
           "id": "claim-5",
-          "retrieved_date": "2026-08-19",
+          "retrieved_date": "2026-08-21",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558059",
           "text": "Re-checked 18 August 2026: GDACS's event report (event id 1558059, episode 1725109, still Red alert, score now 2.1, down from 2.4 on 17 August) shows population exposure to MMI VII+ shaking revised to about 870,000 (down from ~1.2 million cited 16-17 August); the recorded tsunami remains at a maximum wave height of about 1.68 m. The page's media citations now show only one casualty figure, from catnat.net (French-language): \"Un puissant seisme de magnitude 7,7 a secoue samedi matin l'est de l'Indonesie... Il a fait au moins 68 morts\" (\"a powerful magnitude-7.7 earthquake shook eastern Indonesia... it caused at least 68 deaths\") -- up from the 54 deaths cited via Punch NG/Asahi on 17 August. No displaced or injured figure is cited on the page today. As with the prior update, this is a media citation referenced on the GDACS page rather than a dedicated GDACS/Sendai casualty assessment, but per this record's established practice of adopting the GDACS page's most recent cited media toll, the headline death toll is updated to 68. USGS's PAGER product for event us6000tkt2 remains a Yellow alert, last updated 15 August 2026, with no change to its own casualty modeling.",
@@ -2554,7 +2652,7 @@
         },
         {
           "id": "claim-6",
-          "retrieved_date": "2026-08-20",
+          "retrieved_date": "2026-08-21",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/indonesia/indonesian-humanitarian-coordination-platform-situation-report-no-3-earthquake-and-tsunami-flores-and-surrounding-areas-19-august-2026",
           "text": "Indonesian Humanitarian Coordination Platform Situation Report No. 3 (MPBI, 19 August 2026), citing provisional BNPB data as of 19 August 2026, 09:00 WIB: 71 deaths, 1,182 injured, 40,145 displaced, and 11,950 houses damaged (5,518 severely, 1,924 moderately, 4,508 slightly), with 217 education facilities, 96 health facilities, 46 government offices and 77 places of worship damaged; aftershocks continue frequently, raising landslide risk in already susceptible locations.",
@@ -2580,7 +2678,7 @@
         "status": "ongoing"
       },
       "id": "indonesia-earthquake-flores-2026",
-      "last_updated": "2026-08-20T09:15:02Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "M7.7 Earthquake, Flores, Indonesia",
       "provenance": {
         "history": [
@@ -2588,10 +2686,15 @@
             "at": "2026-08-20T09:15:02Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-02Z-e24ea3"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-894dba"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-02Z-e24ea3"
+        "last_run_id": "2026-08-21T09-17-03Z-894dba"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2808,6 +2911,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-33",
+          "retrieved_date": "2026-08-21",
+          "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
+          "source_url": "https://www.fdma.go.jp/disaster/info/items/20260728kumamotojishin59.pdf",
+          "text": "FDMA Disaster Report No. 59 (21 August 2026, 10:00 JST): the national confirmed death toll was revised down to 38 (from 39) after one of two deaths previously listed as still under investigation for relation to the disaster was judged unrelated and withdrawn from the count; missing remains 0 nationally, and injured remains unchanged at 364 (30 severely, 334 minor). Housing damage assessments rose to 21,033 buildings damaged in total (1,589 fully destroyed, 1,950 half destroyed, 17,494 partially damaged), up from 16,634 in Report No. 57. Evacuation instructions narrowed further to a single municipality in Kumamoto Prefecture covering 25,314 households and 56,006 people, down from 29,437 households and 65,014 people in Report No. 58, with the stronger Emergency Safety Confirmation category now at zero.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-08-18",
           "source_name": "USGS",
@@ -2816,12 +2927,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 6.8 earthquake struck southern Kumamoto Prefecture, Kyushu, Japan, on 28 July 2026, centred 5 km east of Uto City at a depth of about 10 km. Japan's Fire and Disaster Management Agency (FDMA) confirms 39 deaths and 364 injured, with no one now listed as missing nationally, and damage surveys have raised the building total to 16,634 (1,515 fully destroyed); evacuation instructions have been narrowed further to a single municipality in Kumamoto Prefecture, covering 29,437 households and 65,014 people. Water outages, which peaked at about 108,100 households, have been cut to about 27,800, with full restoration targeted by the end of August; the Kyushu Expressway has reopened to general vehicles, while the Kyushu Shinkansen and two local rail lines remain suspended. USGS's PAGER product retains a Red alert and GDACS an Orange alert, with about 1.2 million people exposed to MMI VII or greater shaking.",
+      "description": "A magnitude 6.8 earthquake struck southern Kumamoto Prefecture, Kyushu, Japan, on 28 July 2026, centred 5 km east of Uto City at a depth of about 10 km. Japan's Fire and Disaster Management Agency (FDMA) confirms 38 deaths and 364 injured, with no one now listed as missing nationally, and damage surveys have raised the building total to 21,033 (1,589 fully destroyed); evacuation instructions have been narrowed further to a single municipality in Kumamoto Prefecture, covering 25,314 households and 56,006 people. Water outages, which peaked at about 108,100 households, have been cut to about 27,800, with full restoration targeted by the end of August; the Kyushu Expressway has reopened to general vehicles, while the Kyushu Shinkansen and two local rail lines remain suspended. USGS's PAGER product retains a Red alert and GDACS an Orange alert, with about 1.2 million people exposed to MMI VII or greater shaking.",
       "event": {
         "impact": {
-          "deaths": 39,
+          "deaths": 38,
           "displaced": null,
-          "summary": "FDMA Report No. 58 (20 August 2026) confirms 39 deaths and 364 injured (30 severely), with no one still listed as missing nationally, and housing damage assessments continuing. Evacuation instructions have been narrowed further to a single municipality in Kumamoto Prefecture -- 29,437 households and 65,014 people -- down from 45,667 households and 100,970 people three days earlier. MLIT reports water outages reduced to about 27,800 households from a peak of about 108,100, and the Kyushu Expressway reopened to general vehicles while the Kyushu Shinkansen remains suspended. USGS's PAGER product retains a Red alert (maximum MMI 9.243) and GDACS an Orange alert, with about 1.2 million people exposed to MMI VII or greater shaking."
+          "summary": "FDMA Report No. 59 (21 August 2026) confirms 38 deaths -- revised down from 39 after one previously unresolved case was judged unrelated to the disaster -- and 364 injured (30 severely), with no one listed as missing nationally. Housing damage assessments have risen to 21,033 buildings (1,589 fully destroyed). Evacuation instructions have been narrowed further to a single municipality in Kumamoto Prefecture -- 25,314 households and 56,006 people -- down from 29,437 households and 65,014 people the day before. MLIT reports water outages reduced to about 27,800 households from a peak of about 108,100, and the Kyushu Expressway reopened to general vehicles while the Kyushu Shinkansen remains suspended. USGS's PAGER product retains a Red alert (maximum MMI 9.243) and GDACS an Orange alert, with about 1.2 million people exposed to MMI VII or greater shaking."
         },
         "live_source_url": "https://www.fdma.go.jp/disaster/info/",
         "location": {
@@ -2835,7 +2946,7 @@
         "status": "ongoing"
       },
       "id": "japan-earthquake-kumamoto-2026",
-      "last_updated": "2026-08-20T09:15:02Z",
+      "last_updated": "2026-08-21T09:22:15Z",
       "name": "M6.8 Earthquake — Kumamoto, Japan",
       "provenance": {
         "history": [
@@ -2843,10 +2954,15 @@
             "at": "2026-08-20T09:15:02Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-02Z-36fa54"
+          },
+          {
+            "at": "2026-08-21T09:22:15Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-22-15Z-c22009"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-02Z-36fa54"
+        "last_run_id": "2026-08-21T09-22-15Z-c22009"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2855,6 +2971,10 @@
         "recency_rank": 739825
       },
       "updates": [
+        {
+          "date": "2026-08-21",
+          "text": "FDMA Report No. 59 revised the death toll down to 38 (from 39) after one unresolved case was ruled unrelated to the disaster; injured held at 364, missing at 0. Housing damage rose to 21,033 buildings (1,589 fully destroyed), and evacuation instructions narrowed further to 25,314 households / 56,006 people, down from 29,437 households / 65,014 people."
+        },
         {
           "date": "2026-08-20",
           "text": "FDMA Report No. 58 held the death toll at 39 with no one still listed as missing; the national injured total rose slightly to 364 (30 severely injured, up from 28), and evacuation instructions were narrowed further to a single municipality covering 29,437 households / 65,014 people, down from 45,667 households / 100,970 people."
@@ -2898,7 +3018,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3058,6 +3178,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-26",
+          "retrieved_date": "2026-08-21",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-80-effects-mw-78-earthquake-incident-maasim-sarangani-21-august-2026-6am",
+          "text": "DSWD DROMIC Report #80 (as of 21 August 2026, 6AM): 392,506 families (1,661,828 persons) remain affected across 661 barangays, unchanged from Report #79. Total displaced eased to 26,422 families (105,558 persons) -- 7,058 families (29,033 persons) in 80 evacuation centres and 19,364 families (76,525 persons) staying with relatives or friends -- down from 27,029 families (107,197 persons) in Report #79. Houses damaged remain unchanged at 138,563 total (19,320 totally, 119,243 partially damaged). Assistance provided to date rose to PHP 1,496,461,207.87.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-07-07",
           "source_name": "ReliefWeb",
@@ -3114,12 +3242,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7 June 23:37 UTC), generating a tsunami and widespread damage across Mindanao; GDACS maintains an Orange alert for medium humanitarian impact, its reprocessed model showing about 4.4 million people exposed to MMI VII or greater and a maximum observed tsunami wave of 0.83 metres. OCHA's response snapshot of 13 July 2026 recorded 94 deaths, 1,316 injured and 18 missing — still the standing official casualty count, as DSWD's DROMIC reporting series does not carry casualty figures — and eighteen local government units have declared a state of calamity. Per DSWD DROMIC Report #79 (as of 14 August 2026), 392,506 families (1,661,828 persons) are affected across 661 barangays in Regions IX, XI, XII and BARMM, 27,029 families (107,197 persons) remain displaced, and 138,563 houses have been damaged (19,320 totally, 119,243 partially). Aftershocks, including a magnitude 6.3 shock on 5 August 2026, have continued as the humanitarian response goes on.",
+      "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7 June 23:37 UTC), generating a tsunami and widespread damage across Mindanao; GDACS maintains an Orange alert for medium humanitarian impact, its reprocessed model showing about 4.4 million people exposed to MMI VII or greater and a maximum observed tsunami wave of 0.83 metres. OCHA's response snapshot of 13 July 2026 recorded 94 deaths, 1,316 injured and 18 missing — still the standing official casualty count, as DSWD's DROMIC reporting series does not carry casualty figures — and eighteen local government units have declared a state of calamity. Per DSWD DROMIC Report #79 (as of 14 August 2026), 392,506 families (1,661,828 persons) are affected across 661 barangays in Regions IX, XI, XII and BARMM, 26,422 families (105,558 persons) remain displaced, and 138,563 houses have been damaged (19,320 totally, 119,243 partially). Aftershocks, including a magnitude 6.3 shock on 5 August 2026, have continued as the humanitarian response goes on.",
       "event": {
         "impact": {
           "deaths": 94,
-          "displaced": 107197,
-          "summary": "OCHA's 13 July 2026 response snapshot records 94 deaths, 1,316 injured and 18 missing. DSWD DROMIC Report #79 (as of 14 August 2026, 6AM) reports 392,506 families (1,661,828 persons) affected, 27,029 families (107,197 persons) still displaced — 7,503 families (30,642 persons) in 80 evacuation centres and 19,526 families (76,555 persons) staying with relatives or friends — plus 138,563 houses damaged (19,320 totally, 119,243 partially) and PHP 1,453,887,143.87 in assistance provided to date. GDACS assesses an Orange alert (medium humanitarian impact) with about 4.4 million people exposed to MMI VII or greater."
+          "displaced": 105558,
+          "summary": "OCHA's 13 July 2026 response snapshot records 94 deaths, 1,316 injured and 18 missing -- still the standing official casualty count, as DSWD's DROMIC reporting series carries no casualty section. DSWD DROMIC Report #80 (as of 21 August 2026, 6AM) reports 392,506 families (1,661,828 persons) affected, unchanged from Report #79; displacement has eased to 26,422 families (105,558 persons) -- 7,058 families (29,033 persons) in 80 evacuation centres and 19,364 families (76,525 persons) staying with relatives or friends -- plus 138,563 houses damaged (19,320 totally, 119,243 partially, unchanged) and PHP 1,496,461,207.87 in assistance provided to date. GDACS assesses an Orange alert (medium humanitarian impact) with about 4.4 million people exposed to MMI VII or greater."
         },
         "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
         "location": {
@@ -3133,7 +3261,7 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-08-20T09:11:24Z",
+      "last_updated": "2026-08-21T09:22:39Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
@@ -3141,10 +3269,15 @@
             "at": "2026-08-20T09:11:24Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-11-24Z-f66067"
+          },
+          {
+            "at": "2026-08-21T09:22:39Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-22-39Z-7d7f2e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-11-24Z-f66067"
+        "last_run_id": "2026-08-21T09-22-39Z-7d7f2e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3153,6 +3286,10 @@
         "recency_rank": 739775
       },
       "updates": [
+        {
+          "date": "2026-08-21",
+          "text": "DSWD DROMIC Report #80 (21 August, 6AM) recorded displacement easing to 26,422 families (105,558 persons), down from 27,029 families (107,197 persons); affected population (392,506 families) and damaged houses (138,563) held unchanged; assistance provided rose to PHP 1,496,461,207.87. OCHA's 13 July toll (94 deaths, 1,316 injured, 18 missing) remains the freshest confirmed figure."
+        },
         {
           "date": "2026-08-14",
           "text": "DSWD DROMIC Report #79 (as of 14 August, 6AM) put the affected population at 392,506 families (1,661,828 persons), displacement at 27,029 families (107,197 persons) and damaged houses at 138,563 (19,320 totally, 119,243 partially) — the housing-damage total revised up from 115,205 — with assistance provided reaching PHP 1,453,887,143.87."
@@ -3176,7 +3313,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3185,7 +3322,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-08-20",
+          "retrieved_date": "2026-08-21",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1104091&episodeid=1&eventtype=FL",
           "text": "GDACS's flood report for Nepal (event FL 1104091, covering 12 Aug 2026 01:00 UTC to 14 Aug 2026 01:00 UTC) records 11 deaths and 37 displaced people, with an overall Green alert level for low humanitarian impact. The report notes nine road sections across Nepal are impassable due to landslides, road subsidence, and river erosion caused by ongoing heavy monsoon rainfall, with the monsoon bringing widespread cloud cover and moderate rainfall to the Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces.",
@@ -3211,7 +3348,7 @@
         "status": "ongoing"
       },
       "id": "nepal-rolpa-landslides-2026",
-      "last_updated": "2026-08-20T09:11:23Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Nepal Monsoon Floods and Landslides, Rolpa",
       "provenance": {
         "history": [
@@ -3219,10 +3356,15 @@
             "at": "2026-08-20T09:11:23Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-11-23Z-48dcb7"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-2ae94b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-11-23Z-48dcb7"
+        "last_run_id": "2026-08-21T09-17-03Z-2ae94b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3296,6 +3438,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-18",
+          "retrieved_date": "2026-08-21",
+          "source_name": "National Disaster Management Authority (Pakistan)",
+          "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
+          "text": "NDMA's live Monsoon 2026 SITREP dashboard, as of 21 August 2026 (cumulative, 26 June-21 August 2026): Grand Total Deceased 164 (55 male, 33 female, 76 children), Grand Total Injured 484 (200 male, 122 female, 162 children) -- up from 163 deaths and 483 injuries as of 20 August. Cumulative housing damage: 1,517 houses affected (966 partially damaged, 551 destroyed); 1,419 livestock lost. Khyber Pakhtunkhwa recorded the highest death toll (70) and Punjab the most injuries (349); Gilgit-Baltistan recorded the most housing damage (535 structures). The last 24 hours (21 August) recorded 1 new death and 1 new injury, both in Khyber Pakhtunkhwa.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-02",
           "source_name": "ReliefWeb",
@@ -3312,12 +3462,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Heavy monsoon rains beginning 26 June 2026 have triggered flash floods, riverine flooding and house collapses across Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh. Pakistan's National Disaster Management Authority (NDMA) records a cumulative 163 deaths and 483 injuries nationwide from 26 June to 20 August 2026, with 1,499 houses affected and 1,413 livestock lost; Khyber Pakhtunkhwa carries the heaviest provincial death toll at 69 and Punjab the most injuries at 349. Casualties stem mainly from house collapses, flash floods, drowning and electrocution. NDMA continues to log new casualties and damage daily — its teams had carried out 1,111 rescue operations and rescued 8,700 people by 13 August — relief operations remain active in Khyber Pakhtunkhwa, Gilgit-Baltistan and Azad Jammu & Kashmir, and WHO stands ready to activate a contingency plan to assist 1.8 million people in high-risk areas.",
+      "description": "Heavy monsoon rains beginning 26 June 2026 have triggered flash floods, riverine flooding and house collapses across Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh. Pakistan's National Disaster Management Authority (NDMA) records a cumulative 164 deaths and 484 injuries nationwide from 26 June to 21 August 2026, with 1,517 houses affected and 1,419 livestock lost; Khyber Pakhtunkhwa carries the heaviest provincial death toll at 70 and Punjab the most injuries at 349. Casualties stem mainly from house collapses, flash floods, drowning and electrocution. NDMA continues to log new casualties and damage daily — its teams had carried out 1,111 rescue operations and rescued 8,700 people by 13 August — relief operations remain active in Khyber Pakhtunkhwa, Gilgit-Baltistan and Azad Jammu & Kashmir, and WHO stands ready to activate a contingency plan to assist 1.8 million people in high-risk areas.",
       "event": {
         "impact": {
-          "deaths": 163,
+          "deaths": 164,
           "displaced": null,
-          "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 20 August 2026 at 163 deaths and 483 injuries, with 1,499 houses affected (550 destroyed, 949 partially damaged) and 1,413 livestock lost. Khyber Pakhtunkhwa has recorded the most deaths (69) and Punjab the most injuries (349). NDMA teams had conducted 1,111 rescue operations and rescued 8,700 people by 13 August, and WHO stands ready to assist up to 1.8 million people under the 2026 Monsoon and Flood Contingency Plan."
+          "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 21 August 2026 at 164 deaths and 484 injuries, with 1,517 houses affected (551 destroyed, 966 partially damaged) and 1,419 livestock lost. Khyber Pakhtunkhwa has recorded the most deaths (70) and Punjab the most injuries (349), with Gilgit-Baltistan now recording the most housing damage (535 structures). NDMA teams had conducted 1,111 rescue operations and rescued 8,700 people by 13 August, and WHO stands ready to assist up to 1.8 million people under the 2026 Monsoon and Flood Contingency Plan."
         },
         "live_source_url": "https://reliefweb.int/country/pak",
         "location": {
@@ -3327,11 +3477,11 @@
           "region": "Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh"
         },
         "occurrence_date": "2026-06-26",
-        "scale": "Nationwide monsoon flooding; NDMA-recorded 163 deaths as of 20 August 2026 (live SITREP dashboard)",
+        "scale": "Nationwide monsoon flooding; NDMA-recorded 164 deaths as of 21 August 2026 (live SITREP dashboard)",
         "status": "ongoing"
       },
       "id": "pakistan-floods-2026",
-      "last_updated": "2026-08-20T09:15:01Z",
+      "last_updated": "2026-08-21T09:22:39Z",
       "name": "Monsoon Floods — Pakistan",
       "provenance": {
         "history": [
@@ -3339,10 +3489,15 @@
             "at": "2026-08-20T09:15:01Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-01Z-ec2f06"
+          },
+          {
+            "at": "2026-08-21T09:22:39Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-22-39Z-e9e98f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-01Z-ec2f06"
+        "last_run_id": "2026-08-21T09-22-39Z-e9e98f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3351,6 +3506,10 @@
         "recency_rank": 739793
       },
       "updates": [
+        {
+          "date": "2026-08-21",
+          "text": "NDMA's live Monsoon 2026 SITREP dashboard raised the cumulative toll to 164 deaths and 484 injuries as of 21 August, up from 163 deaths and 483 injuries the day before (1 new death and 1 new injury, both in Khyber Pakhtunkhwa); cumulative houses affected rose to 1,517 (551 destroyed) and livestock lost to 1,419."
+        },
         {
           "date": "2026-08-20",
           "text": "NDMA's live Monsoon 2026 SITREP dashboard raised the cumulative toll to 163 deaths and 483 injuries as of 20 August, up from 161 deaths and 473 injuries two days earlier; cumulative houses affected rose to 1,499 (550 destroyed) and livestock lost to 1,413."
@@ -3382,7 +3541,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3452,7 +3611,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-08-20",
+          "retrieved_date": "2026-08-21",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/indonesia/asean-weekly-disaster-update-week-32-3-9-august-2026",
           "text": "ASEAN Weekly Disaster Update Week 32 | 3-9 August 2026 (AHA Centre, posted on ReliefWeb 11 August 2026): 'In the Philippines, the combined effects of the enhanced Southwest Monsoon, Tropical Depression LUIS, and Tropical Cyclone KUJIRA triggered widespread flooding, landslides, and strong winds across Regions I, II, III, IVA, IVB, V, VI, IX, and CAR. According to the NDRRMC, as of 10 August 2026 at 0700H UTC+7, these disasters have affected approximately 586K people (171K families), with about 32.8K people currently displaced, of whom 21.7K are being served in 293 evacuation centres. The events resulted in 8 fatalities, 9 injuries, and 1 missing person... In response, the NDRRMOC alert status was raised to RED, while the NDRRMC activated the Inter-Agency Coordinating Cell and NDRRMC Response Clusters to coordinate ongoing response efforts.'",
@@ -3494,7 +3653,7 @@
         "status": "ongoing"
       },
       "id": "philippines-floods-luis-maymay-2026",
-      "last_updated": "2026-08-20T09:15:01Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Southwest Monsoon & Tropical Cyclones Luis/Maymay Floods, Philippines",
       "provenance": {
         "history": [
@@ -3502,10 +3661,15 @@
             "at": "2026-08-20T09:15:01Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-01Z-7978fd"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-1beba6"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-01Z-7978fd"
+        "last_run_id": "2026-08-21T09-17-03Z-1beba6"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3841,7 +4005,7 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-08-19",
+          "retrieved_date": "2026-08-21",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1030237&episodeid=34&eventtype=WF",
           "text": "GDACS's forest-fire report for Spain (event 1030237, episode 34, covering 7 Aug 2026 00:00 UTC to 15 Aug 2026 00:00 UTC via thermal-anomaly detection) records 48,139 hectares burned nationwide and 873 people exposed within burned areas, with an overall alert level assessed as low humanitarian impact based on burned area and affected population.",
@@ -3867,7 +4031,7 @@
         "status": "ongoing"
       },
       "id": "spain-wildfire-huesca-aragon-2026",
-      "last_updated": "2026-08-20T09:11:24Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Peñas de Riglos Wildfire, Huesca, Aragón, Spain",
       "provenance": {
         "history": [
@@ -3875,10 +4039,15 @@
             "at": "2026-08-20T09:11:24Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-11-24Z-1ada71"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-359c76"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-11-24Z-1ada71"
+        "last_run_id": "2026-08-21T09-17-03Z-359c76"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4044,7 +4213,7 @@
         },
         {
           "id": "claim-12",
-          "retrieved_date": "2026-08-20",
+          "retrieved_date": "2026-08-21",
           "source_name": "Disaster Management Centre (Sri Lanka)",
           "source_url": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1787114595.pdf",
           "text": "DMC Situation Report -- Sri Lanka, 19 August 2026 at 1000hrs: GRAND TOTAL -- 4,222 Families / 16,583 People Affected; Deaths 9; Injured 9; Missing 0; Houses Damaged: 2 Fully, 723 Partially (725 total); Safe Locations: 2 locations, 16 families, 47 persons -- unchanged from the 17 August 2026 sheltered-population figure, with affected families/houses-damaged ticking up only slightly (4,214->4,222 families; 720->725 houses damaged). Nuwara Eliya district remains worst-hit (2,021 families / 7,736 people affected, 6 deaths), followed by Kandy district (1,183 families / 4,925 people affected, 2 deaths). GDACS's event report (FL 1104075, episode 1) remains unchanged and static since 6 August.",
@@ -4094,7 +4263,7 @@
         "status": "ongoing"
       },
       "id": "sri-lanka-floods-landslides-2026",
-      "last_updated": "2026-08-20T09:11:24Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Floods and Landslides — Sri Lanka",
       "provenance": {
         "history": [
@@ -4102,10 +4271,15 @@
             "at": "2026-08-20T09:11:24Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-11-24Z-152cfb"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-defbaf"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-11-24Z-152cfb"
+        "last_run_id": "2026-08-21T09-17-03Z-defbaf"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4194,7 +4368,7 @@
         },
         {
           "id": "claim-8",
-          "retrieved_date": "2026-08-20",
+          "retrieved_date": "2026-08-21",
           "source_name": "ECDC",
           "source_url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly",
           "text": "ECDC's cholera-monthly page (updated 27 July 2026) reports for Sudan: 'Since 11 January 2026 and as of 12 July 2026, 1 502 new cases, including 153 new deaths' and, year-to-date, 'Since 1 January 2026 and as of 12 July 2026, 1 511 cases, including 153 deaths' — compared with 32,230 cases and 774 deaths in the equivalent 2025 timeframe (1 January-8 July 2025). This is a later data cutoff (12 July 2026) than WHO's Representative to Sudan's 10 July 2026 Geneva briefing figure (1,330 cases, 114 deaths) and is treated here as the most current published national aggregate.",
@@ -4220,7 +4394,7 @@
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-08-20T09:11:24Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
@@ -4228,10 +4402,15 @@
             "at": "2026-08-20T09:11:24Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-11-24Z-bdaf8c"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-800d29"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-11-24Z-bdaf8c"
+        "last_run_id": "2026-08-21T09-17-03Z-800d29"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4307,6 +4486,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-21",
+          "retrieved_date": "2026-08-21",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/08/1168165",
+          "text": "UN News, 'Sudan war: 200,000 newly displaced as fighting and floods intensify' (19 August 2026), citing IOM: intensifying fighting has displaced at least 200,000 more people since late 2025, with seasonal floods now compounding the crisis. In North Kordofan, fighting and drone strikes on El Obeid's main electrical transformer triggered prolonged power outages disrupting water, health facilities and telecoms; displacement in Sheikan locality rose 25% over eight months, with 200,000+ newly displaced across the wider Kordofan region since late 2025. In Blue Nile, clashes near Geissan displaced 7,800 people, some into Ethiopia. In West Darfur, nearly 18,000 people were displaced in the first half of August. Heavy rain in North Darfur destroyed or damaged about 1,350 shelters in Tawila's camps in the preceding week, displacing 1,000+ families, with further flooding in Kabkabiya and Shangil Tobaya. IOM said a total of 8.6 million people have fled the war since it began in April 2023, and more than 4.5 million people have returned to Sudan in roughly the last 18 months.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-07-17",
           "source_name": "ReliefWeb",
@@ -4323,12 +4510,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The conflict that erupted in Sudan in April 2023 between the Sudanese Armed Forces and the Rapid Support Forces has produced what UNHCR calls the world's largest displacement, humanitarian and protection crisis, forcing millions from their homes inside Sudan and into neighbouring countries. UNHCR's Operational Data Portal for the Sudan situation last recorded 11,344,665 total forcibly displaced (updated 3 August 2026), comprising 6,490,949 IDPs within Sudan, 273,081 self-relocated refugees in Sudan and 4,580,635 newly arrived refugees, asylum-seekers and returnees outside the country. UNHCR's Sudan country page separately records 8,685,273 internally displaced persons within Sudan and 900,819 refugees and asylum-seekers hosted in Sudan (data as of 31 July 2026). Displacement continues: UN News reported on 10 August 2026 that fighting in Sirba locality, West Darfur, had displaced roughly 18,000 people from more than 20 villages, most of them fleeing into Chad, and that more than 30 million people across Sudan need humanitarian assistance while the country's $3 billion appeal is only 40% funded.",
+      "description": "The conflict that erupted in Sudan in April 2023 between the Sudanese Armed Forces and the Rapid Support Forces has produced what UNHCR calls the world's largest displacement, humanitarian and protection crisis, forcing millions from their homes inside Sudan and into neighbouring countries. UNHCR's Operational Data Portal for the Sudan situation last recorded 11,344,665 total forcibly displaced (updated 3 August 2026), comprising 6,490,949 IDPs within Sudan, 273,081 self-relocated refugees in Sudan and 4,580,635 newly arrived refugees, asylum-seekers and returnees outside the country. UNHCR's Sudan country page separately records 8,685,273 internally displaced persons within Sudan and 900,819 refugees and asylum-seekers hosted in Sudan (data as of 31 July 2026). Displacement continues: a 19 August 2026 UN News/IOM alert reported that fighting has displaced 200,000+ more people across the wider Kordofan region since late 2025, with seasonal floods now compounding the crisis in North Darfur, and that more than 30 million people across Sudan need humanitarian assistance while the country's $3 billion appeal is only 40% funded.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": 9586092,
-          "summary": "UNHCR's Sudan situation portal last recorded 11,344,665 total forcibly displaced (3 August 2026), while its Sudan country page records 8,685,273 internally displaced persons within Sudan plus 900,819 refugees and asylum-seekers hosted there (31 July 2026), with 6.49 million of the internal displacement having occurred since April 2023. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis, and UN News reported on 10 August 2026 that more than 30 million people in Sudan need humanitarian assistance, with the country's $3 billion appeal only 40% funded and fresh fighting in West Darfur displacing roughly 18,000 more people."
+          "summary": "UNHCR's Sudan situation portal last recorded 11,344,665 total forcibly displaced (3 August 2026), while its Sudan country page records 8,685,273 internally displaced persons within Sudan plus 900,819 refugees and asylum-seekers hosted there (31 July 2026), with 6.49 million of the internal displacement having occurred since April 2023. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. A 19 August 2026 UN News/IOM alert reported that fighting has displaced 200,000+ more people across the wider Kordofan region since late 2025 -- including a 25% rise in Sheikan locality displacement over eight months -- and that seasonal floods are now compounding the crisis, destroying or damaging about 1,350 shelters in North Darfur's Tawila camps in a single week; more than 30 million people in Sudan need humanitarian assistance and the country's $3 billion appeal is only 40% funded."
         },
         "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
         "location": {
@@ -4342,7 +4529,7 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-08-20T09:15:02Z",
+      "last_updated": "2026-08-21T09:23:04Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
@@ -4350,10 +4537,15 @@
             "at": "2026-08-20T09:15:02Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-02Z-cb8608"
+          },
+          {
+            "at": "2026-08-21T09:23:04Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-23-04Z-583dfc"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-02Z-cb8608"
+        "last_run_id": "2026-08-21T09-23-04Z-583dfc"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4362,6 +4554,10 @@
         "recency_rank": 738625
       },
       "updates": [
+        {
+          "date": "2026-08-21",
+          "text": "UN News/IOM reported (19 August) that fighting has displaced 200,000+ people across the wider Kordofan region since late 2025, including a 25% rise in Sheikan locality over eight months; floods destroyed or damaged about 1,350 shelters in North Darfur's Tawila camps in a week, displacing 1,000+ families, and displaced nearly 18,000 in West Darfur in early August."
+        },
         {
           "date": "2026-08-16",
           "text": "UNHCR's Sudan country page (data as of 31 July 2026) recorded 8,685,273 internally displaced persons within Sudan — 2.19 million displaced before April 2023 and 6.49 million since the conflict began — plus 900,819 refugees and asylum-seekers hosted in Sudan."
@@ -4381,7 +4577,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -4845,6 +5041,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-13",
+          "retrieved_date": "2026-08-21",
+          "source_name": "NOAA",
+          "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/180854.shtml",
+          "text": "NOAA's Central Pacific Hurricane Center Advisory Number 36 (11 PM HST, 20 August 2026): Hurricane Lala remained a Category 2 hurricane with maximum sustained winds of 100 mph (155 km/h) and a minimum central pressure of 971 mb, located near 26.6N 171.7W, about 115 miles northwest of Maro Reef and 145 miles northeast of Lisianski Island, moving north-northeast at 9 mph. A Hurricane Warning remained in effect for the Papahanaumokuakea Marine National Monument from Lisianski Island to Maro Reef, and a Tropical Storm Warning remained in effect east of Maro Reef to French Frigate Shoals; no watches or warnings were in effect for the main Hawaiian Islands. Lala was forecast to remain a hurricane through Saturday with gradual weakening thereafter.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-16",
           "source_name": "County of Hawaiʻi",
@@ -4909,12 +5113,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Hurricane Lala passed closest to Hawaii Island on 15-16 August 2026 as a Category 1 hurricane, with NOAA's 15 August advisory reporting 75 mph sustained winds about 65 miles west of Kailua-Kona and forecasting up to 30-35 inches of rain over windward Hawaii Island with life-threatening flooding and mudslides. Flash flooding cut off road access in Nāʻālehu and Waiʻōhinu in Kaʻū, prompting search-and-rescue operations; the County reported record-breaking power outages and 43 people in two emergency shelters, while the state — which declared emergencies on 13 and 14 August and activated about 180 National Guard personnel — closed Hilo and Kona airports and Hawaii Island and Maui County commercial ports. Lala has since tracked away from the main islands, re-intensified to Category 4 on 18 August, and weakened again: NOAA's Advisory 32 of 19 August puts it at Category 2 with 105 mph winds about 150 miles southwest of Maro Reef, with warnings covering only the uninhabited Papahanaumokuakea Marine National Monument. No death toll, injury count or displacement total has been confirmed by an official state, county or NOAA source.",
+      "description": "Hurricane Lala passed closest to Hawaii Island on 15-16 August 2026 as a Category 1 hurricane, with NOAA's 15 August advisory reporting 75 mph sustained winds about 65 miles west of Kailua-Kona and forecasting up to 30-35 inches of rain over windward Hawaii Island with life-threatening flooding and mudslides. Flash flooding cut off road access in Nāʻālehu and Waiʻōhinu in Kaʻu, prompting search-and-rescue operations; the County reported record-breaking power outages and 43 people in two emergency shelters, while the state -- which declared emergencies on 13 and 14 August and activated about 180 National Guard personnel -- closed Hilo and Kona airports and Hawaii Island and Maui County commercial ports. Lala has since tracked away from the main islands, re-intensified to Category 4 on 18 August, and weakened again: NOAA's Advisory 36 (11 PM HST, 20 August) puts it at Category 2 with 100 mph winds about 115 miles northwest of Maro Reef, with warnings covering only the uninhabited Papahanaumokuakea Marine National Monument. No death toll, injury count or displacement total has been confirmed by an official state, county or NOAA source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "Lala's closest pass on 15-16 August 2026 brought severe flash flooding to Hawaii Island's Kaʻū district -- with search-and-rescue operations in Nāʻālehu, Waiʻōhinu and Pāhala -- record-breaking power outages, 43 people in two emergency shelters, airport and port closures, and an island-wide 'Essential Only' water-conservation request. No death toll, injury count, quantified power-outage figure or displacement total has been confirmed by an official state, county or NOAA source; GDACS keeps a Green/low-impact assessment with about 10,000 people in Category 1-or-higher wind zones, while a media-headlines module on its report page cites third-party reports of one storm-related death and up to about 111,000 customers without power on Hawaii Island. As of NOAA's Advisory 32 (19 August), Lala had weakened to a Category 2 hurricane with 105 mph sustained winds and a 963 mb central pressure, moving north-northwest away from the main Hawaiian Islands and forecast to remain a hurricane through the weekend."
+          "summary": "Lala's closest pass on 15-16 August 2026 brought severe flash flooding to Hawaii Island's Kaʻū district -- with search-and-rescue operations in Nāʻālehu, Waiʻōhinu and Pāhala -- record-breaking power outages, 43 people in two emergency shelters, airport and port closures, and an island-wide 'Essential Only' water-conservation request. No death toll, injury count, quantified power-outage figure or displacement total has been confirmed by an official state, county or NOAA source; GDACS keeps a Green/low-impact assessment with about 10,000 people in Category 1-or-higher wind zones, while a media-headlines module on its report page cites third-party reports of one storm-related death and up to about 111,000 customers without power on Hawaii Island. As of NOAA's Advisory 36 (11 PM HST, 20 August), Lala remained a Category 2 hurricane with 100 mph sustained winds and a 971 mb central pressure, about 115 miles northwest of Maro Reef and moving north-northeast away from the main Hawaiian Islands, forecast to remain a hurricane through Saturday."
         },
         "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/180854.shtml",
         "location": {
@@ -4924,11 +5128,11 @@
           "region": "Hawaii Island (Big Island), spreading impacts to Maui, Oahu and Kauai"
         },
         "occurrence_date": "2026-08-15",
-        "scale": "Weakened to a Category 2 hurricane (105 mph sustained winds, NOAA Advisory 32, 19 August) as it continues moving away from Hawaii; a Hurricane Warning and Tropical Storm Warning remain in effect for the uninhabited Papahanaumokuakea Marine National Monument, but no watches or warnings are in effect for the populated main Hawaiian Islands as of 20 August 2026",
+        "scale": "Advisory 36 (20 August, 11 PM HST): Category 2 hurricane, 100 mph sustained winds, moving north-northeast away from the main Hawaiian Islands; Hurricane Warning and Tropical Storm Warning remain in effect only for the uninhabited Papahanaumokuakea Marine National Monument, with no watches or warnings for the populated main islands",
         "status": "ongoing"
       },
       "id": "usa-hawaii-hurricane-lala-2026",
-      "last_updated": "2026-08-20T09:15:21Z",
+      "last_updated": "2026-08-21T09:21:47Z",
       "name": "Hurricane Lala, Hawaii",
       "provenance": {
         "history": [
@@ -4936,10 +5140,15 @@
             "at": "2026-08-20T09:15:21Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-21Z-34d71f"
+          },
+          {
+            "at": "2026-08-21T09:21:47Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-21-47Z-e8e0a8"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-21Z-34d71f"
+        "last_run_id": "2026-08-21T09-21-47Z-e8e0a8"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4948,6 +5157,10 @@
         "recency_rank": 739843
       },
       "updates": [
+        {
+          "date": "2026-08-21",
+          "text": "NOAA's Advisory 36 (11 PM HST, 20 August) reported Lala remained a Category 2 hurricane -- 100 mph sustained winds, 971 mb central pressure -- about 115 miles northwest of Maro Reef and 145 miles northeast of Lisianski Island, moving north-northeast at 9 mph and forecast to remain a hurricane through Saturday with gradual weakening thereafter."
+        },
         {
           "date": "2026-08-19",
           "text": "NOAA's Advisory 32 (11 PM HST, 19 August) reported Lala had weakened to a Category 2 hurricane -- 105 mph sustained winds, 963 mb central pressure -- about 150 miles southwest of Maro Reef, continuing north-northwest away from the main Hawaiian Islands and forecast to remain a hurricane through the weekend."
@@ -4987,7 +5200,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5230,6 +5443,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-16",
+          "retrieved_date": "2026-08-21",
+          "source_name": "InciWeb (US wildland fire agencies)",
+          "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+          "text": "InciWeb's Sinlahekin Fire incident page, updated 20 August 2026 at 10:46 p.m. Pacific time, records the fire at 154,298 acres (up from 154,250 on 19 August) with containment at 47 percent (up from 44 percent) and 1,706 personnel assigned; the estimated date of full containment has moved to 31 August 2026, and incident management has transferred to Cal Fire Incident Management Team 5, a Type 1 team led by Incident Commander Todd Hopkins.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-08",
           "source_name": "Office of the Governor of Washington State",
@@ -5294,12 +5515,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, had grown to 154,250 acres and was 44% contained on 19 August 2026, with 1,731 personnel assigned. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
+      "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, had grown to 154,298 acres and was 47% contained as of 20 August 2026, with 1,706 personnel assigned under Cal Fire Incident Management Team 5. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and had grown to 154,250 acres at 44% containment on 19 August 2026, with 1,731 personnel assigned and Level 2 evacuation notices still in place for the Toby's Mill area. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
+          "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and had grown to 154,298 acres at 47% containment as of 20 August 2026, with 1,706 personnel assigned under Cal Fire Incident Management Team 5 and an estimated full-containment date of 31 August. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
         },
         "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
         "location": {
@@ -5309,11 +5530,11 @@
           "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
         },
         "occurrence_date": "2026-08-01",
-        "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 154,250 acres / 44% contained as of 19 August 2026",
+        "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 154,298 acres / 47% contained as of 20 August 2026, managed by Cal Fire Incident Management Team 5",
         "status": "ongoing"
       },
       "id": "usa-washington-wildfires-2026",
-      "last_updated": "2026-08-20T09:15:02Z",
+      "last_updated": "2026-08-21T09:21:47Z",
       "name": "Wildfire Emergency — Eastern Washington, USA",
       "provenance": {
         "history": [
@@ -5321,10 +5542,15 @@
             "at": "2026-08-20T09:15:02Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-02Z-629e93"
+          },
+          {
+            "at": "2026-08-21T09:21:47Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-21-47Z-52f617"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-02Z-629e93"
+        "last_run_id": "2026-08-21T09-21-47Z-52f617"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5333,6 +5559,10 @@
         "recency_rank": 739829
       },
       "updates": [
+        {
+          "date": "2026-08-21",
+          "text": "InciWeb reported the Sinlahekin Fire had grown to 154,298 acres (from 154,250 on 19 August) with containment rising to 47% (from 44%) and 1,706 personnel assigned; incident management transferred to Cal Fire Incident Management Team 5 (Incident Commander Todd Hopkins), and the estimated full-containment date moved to 31 August."
+        },
         {
           "date": "2026-08-19",
           "text": "InciWeb reported the Sinlahekin Fire had grown to 154,250 acres (from 154,162 acres on 18 August) with containment holding at 44% and personnel assigned rising to 1,731 (from 1,645); Washington's wildfire emergency proclamation lineage (26-03.1) remains listed as Active by the Governor's office."
@@ -5380,7 +5610,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5604,7 +5834,7 @@
         },
         {
           "id": "claim-33",
-          "retrieved_date": "2026-08-20",
+          "retrieved_date": "2026-08-21",
           "source_name": "United Nations",
           "source_url": "https://press.un.org/en/2026/db260819.doc.htm",
           "text": "UN Daily Press Briefing (19 August 2026): \"The death toll according to local authorities has surpassed 6,400\" in Venezuela following the June earthquake doublet. No numbered OCHA 'Earthquakes in Venezuela: Situation Report' has been published since Situation Report #33 (14 August 2026); the weekly series' next edition is expected around 21 August.",
@@ -5678,7 +5908,7 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-08-20T09:15:03Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
@@ -5686,10 +5916,15 @@
             "at": "2026-08-20T09:15:03Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-03Z-c1379c"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-0e64ca"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-03Z-c1379c"
+        "last_run_id": "2026-08-21T09-17-03Z-0e64ca"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5754,7 +5989,7 @@
         },
         {
           "id": "claim-16",
-          "retrieved_date": "2026-08-20",
+          "retrieved_date": "2026-08-21",
           "source_name": "United Nations",
           "source_url": "https://press.un.org/en/2026/sc16430.doc.htm",
           "text": "UN Security Council briefing by Ramiz Alakbarov, Deputy Special Coordinator for the Middle East Peace Process (11 August 2026): 'So far in 2026, 76 Palestinians have been killed in the West Bank by Israeli forces or settlers, including 18 children. Three Israelis were killed in confrontations with Palestinians.' 'Some 3,800 Palestinians, nearly half of them children, were displaced due to settler violence, demolitions and evictions.'",
@@ -5762,7 +5997,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-08-19",
+          "retrieved_date": "2026-08-21",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-14-august-2026",
           "text": "OCHA oPt Humanitarian Situation Report (14 August 2026, covering 4-10 August): 38 incidents involving Israeli settlers resulted in Palestinian casualties and/or property damage; in Masafer Yatta, about 30 settlers attacked the Tuba community, injuring 5 and destroying 3 residential structures by fire (displacing 3 families, 23 people including 14 children); near Beit Furik/Beit Dajan, four attacks (6-8 August) injured 7 Palestinians; settlers attacked a Palestine Red Crescent Society team near Abu Njeim on 7 August, injuring 4 including 2 paramedics.",
@@ -5770,7 +6005,7 @@
         },
         {
           "id": "claim-19",
-          "retrieved_date": "2026-08-16",
+          "retrieved_date": "2026-08-21",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-14-august-2026",
           "text": "The same OCHA oPt report documents an Israeli forces operation in Qalandiya Camp injuring 51 Palestinians (44 physically assaulted including a 9-year-old, one hit by a rubber-coated metal bullet, six treated for tear gas inhalation) and demolishing 9 structures (displacing 13 households, 71 people including 31 children); West Bank-wide, 25 Palestinian-owned structures were demolished between 8-10 August, displacing 6 households (29 people, including 17 children).",
@@ -5836,7 +6071,7 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-08-20T09:11:24Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
@@ -5844,10 +6079,15 @@
             "at": "2026-08-20T09:11:24Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-11-24Z-ae7f04"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-f310e3"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-11-24Z-ae7f04"
+        "last_run_id": "2026-08-21T09-17-03Z-f310e3"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5888,7 +6128,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-08-20",
+          "retrieved_date": "2026-08-21",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/08/1168151",
           "text": "UN News (citing OHCHR/UN High Commissioner Volker Turk), reporting on Yemen: 'at least 17 civilians were killed in Houthi attacks on government-controlled areas since August 6, 2026.' Specific incidents cited: a missile strike on the Jaw al-Naseem displacement camp in Ma'rib (7 August) injuring six civilians including a child; missile and drone attacks on Al-Mokha port in Ta'izz Governorate (9 August) killing three port workers and injuring four others; and an attack on a cargo ship in the Bab el-Mandeb Strait (11 August) killing four crew members (three Pakistani nationals, one Indonesian) with additional injuries. Turk said: 'I call on all parties to de-escalate tensions and spare the Yemeni people from further misery' and 'These attacks must end immediately.'",
@@ -5922,7 +6162,7 @@
         "status": "ongoing"
       },
       "id": "yemen-conflict-escalation-2026",
-      "last_updated": "2026-08-20T09:15:01Z",
+      "last_updated": "2026-08-21T09:17:03Z",
       "name": "Yemen Conflict Escalation",
       "provenance": {
         "history": [
@@ -5930,10 +6170,15 @@
             "at": "2026-08-20T09:15:01Z",
             "layer": "verify",
             "run_id": "2026-08-20T09-15-01Z-3bf8ff"
+          },
+          {
+            "at": "2026-08-21T09:17:03Z",
+            "layer": "verify",
+            "run_id": "2026-08-21T09-17-03Z-71ace4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-20T09-15-01Z-3bf8ff"
+        "last_run_id": "2026-08-21T09-17-03Z-71ace4"
       },
       "schema_version": "1.0",
       "sort_keys": {

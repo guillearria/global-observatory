@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-08-20",
+      "retrieved_date": "2026-08-21",
       "source_name": "ReliefWeb",
       "source_url": "https://reliefweb.int/report/indonesia/asean-weekly-disaster-update-week-32-3-9-august-2026",
       "text": "ASEAN Weekly Disaster Update Week 32 | 3-9 August 2026 (AHA Centre, posted on ReliefWeb 11 August 2026): 'In the Philippines, the combined effects of the enhanced Southwest Monsoon, Tropical Depression LUIS, and Tropical Cyclone KUJIRA triggered widespread flooding, landslides, and strong winds across Regions I, II, III, IVA, IVB, V, VI, IX, and CAR. According to the NDRRMC, as of 10 August 2026 at 0700H UTC+7, these disasters have affected approximately 586K people (171K families), with about 32.8K people currently displaced, of whom 21.7K are being served in 293 evacuation centres. The events resulted in 8 fatalities, 9 injuries, and 1 missing person... In response, the NDRRMOC alert status was raised to RED, while the NDRRMC activated the Inter-Agency Coordinating Cell and NDRRMC Response Clusters to coordinate ongoing response efforts.'",
@@ -45,7 +45,7 @@
     "status": "ongoing"
   },
   "id": "philippines-floods-luis-maymay-2026",
-  "last_updated": "2026-08-20T09:15:01Z",
+  "last_updated": "2026-08-21T09:17:03Z",
   "name": "Southwest Monsoon & Tropical Cyclones Luis/Maymay Floods, Philippines",
   "provenance": {
     "history": [
@@ -53,10 +53,15 @@
         "at": "2026-08-20T09:15:01Z",
         "layer": "verify",
         "run_id": "2026-08-20T09-15-01Z-7978fd"
+      },
+      {
+        "at": "2026-08-21T09:17:03Z",
+        "layer": "verify",
+        "run_id": "2026-08-21T09-17-03Z-1beba6"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-20T09-15-01Z-7978fd"
+    "last_run_id": "2026-08-21T09-17-03Z-1beba6"
   },
   "schema_version": "1.0",
   "sort_keys": {
