@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-21 — Daily World Pulse refresh: Colombia/Kumamoto/Pakistan toll rises, Ebola/China/Mindanao/BC updates, re-verify 15 ongoing events (2026-08-21) (`0fe6129`)
+
+- **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, canada-british-columbia-wildfires-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, indonesia-earthquake-flores-2026, japan-earthquake-kumamoto-2026, mindanao-earthquake-philippines-2026, nepal-rolpa-landslides-2026, pakistan-floods-2026, philippines-floods-luis-maymay-2026, spain-wildfire-huesca-aragon-2026, sri-lanka-floods-landslides-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, usa-hawaii-hurricane-lala-2026, usa-washington-wildfires-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
+
 ## 2026-08-20 — Daily World Pulse refresh: re-verify Washington wildfires, Europe heatwave, Spain Huesca, China Yangtze, Haiti (2026-08-20) (`c6214de`)
 
 - **Updated:** china-floods-yangtze-typhoon-dolphin-2026, europe-heatwave-2026, haiti-gang-violence-displacement-2026, spain-wildfire-huesca-aragon-2026, usa-washington-wildfires-2026
