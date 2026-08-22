@@ -58,6 +58,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-19",
+      "retrieved_date": "2026-08-22",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103972",
+      "text": "GDACS's flood report (event id 1103972, episode 25, event window extended to 23 June-22 August 2026) now records 54 deaths and 69,172 displaced -- up from 50 deaths at the 16-18 August checks, still a narrower scope than this record's OCHA/IFRC-sourced national aggregate -- and adds that heavy rain on 20 August 2026 triggered new flooding in Madhya Pradesh State. reliefweb.int/country/ind again returned HTTP 403 Forbidden to direct fetch; no Sphere India Situation Report 7 or newer state-level figures were found on an allowlisted source, so the headline combined national total (109 deaths, 347,155 displaced) is unchanged.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-06",
       "source_name": "ReliefWeb",
@@ -122,12 +130,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Heavy monsoon rains since mid-July 2026 have driven concurrent flooding and landslides across five Indian states — Assam, Odisha, Gujarat, Kerala and Maharashtra — with Sphere India coordinating a multi-state humanitarian response. Combining the latest state figures gives a toll of at least 109 deaths and at least 347,155 people displaced or sheltering nationwide, and the event remains ongoing. Odisha is among the worst-hit, with 8.64 lakh people affected across 22 districts; Kerala counts 26 dead and 4 missing after extreme rainfall between 1-7 August; IFRC records 74 flood-related deaths in Assam, where the crisis has passed its peak but 1,144,733 people remained affected across eight districts in early August. GDACS flags a fresh low-pressure area in the Bay of Bengal, with red-level rainfall warnings for Odisha and continued heavy rain forecast across several northern states.",
+  "description": "Heavy monsoon rains since mid-July 2026 have driven concurrent flooding and landslides across five Indian states — Assam, Odisha, Gujarat, Kerala and Maharashtra — with Sphere India coordinating a multi-state humanitarian response. Combining the latest state figures gives a toll of at least 109 deaths and at least 347,155 people displaced or sheltering nationwide, and the event remains ongoing. Odisha is among the worst-hit, with 8.64 lakh people affected across 22 districts; Kerala counts 26 dead and 4 missing after extreme rainfall between 1-7 August; IFRC records 74 flood-related deaths in Assam, where the crisis has passed its peak but 1,144,733 people remained affected across eight districts in early August. GDACS's narrower, Odisha-centered toll has since risen to 54 deaths (from 50), and heavy rain on 20 August triggered new flooding in Madhya Pradesh State.",
   "event": {
     "impact": {
       "deaths": 109,
       "displaced": 347155,
-      "summary": "At least 109 deaths and at least 347,155 people displaced or sheltering nationwide, combining state totals: IFRC records 74 deaths for Assam (conflicting with the 1 death in Sphere India's Situation Report 6; the higher figure is retained), with Odisha at 6, Kerala at 26 dead and 4 missing, Maharashtra at 3, and none confirmed in Gujarat. Odisha counts 8.64 lakh people affected across 22 districts and Kerala over 27,000 people in 325 relief camps; GDACS warns of renewed heavy rain from a fresh low-pressure area in the Bay of Bengal."
+      "summary": "At least 109 deaths and at least 347,155 people displaced or sheltering nationwide, combining state totals: IFRC records 74 deaths for Assam (conflicting with the 1 death in Sphere India's Situation Report 6; the higher figure is retained), with Odisha at 6, Kerala at 26 dead and 4 missing, Maharashtra at 3, and none confirmed in Gujarat. Odisha counts 8.64 lakh people affected across 22 districts and Kerala over 27,000 people in 325 relief camps; GDACS's narrower, Odisha-centered toll has risen to 54 deaths and 69,172 displaced, and heavy rain on 20 August triggered new flooding in Madhya Pradesh State."
     },
     "live_source_url": "https://reliefweb.int/country/ind",
     "location": {
@@ -141,23 +149,18 @@
     "status": "ongoing"
   },
   "id": "india-monsoon-floods-2026",
-  "last_updated": "2026-08-21T09:17:03Z",
+  "last_updated": "2026-08-22T09:09:37Z",
   "name": "Multi-State Monsoon Floods & Landslides — India",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-20T09:11:24Z",
+        "at": "2026-08-22T09:09:37Z",
         "layer": "verify",
-        "run_id": "2026-08-20T09-11-24Z-e183d4"
-      },
-      {
-        "at": "2026-08-21T09:17:03Z",
-        "layer": "verify",
-        "run_id": "2026-08-21T09-17-03Z-11100d"
+        "run_id": "2026-08-22T09-09-37Z-d7e1f3"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-21T09-17-03Z-11100d"
+    "last_run_id": "2026-08-22T09-09-37Z-d7e1f3"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -166,6 +169,10 @@
     "recency_rank": 739813
   },
   "updates": [
+    {
+      "date": "2026-08-22",
+      "text": "GDACS's flood report toll rose to 54 deaths (from 50), still on its narrower Odisha-centered scope, and the event window extended to 22 August; heavy rain on 20 August triggered new flooding in Madhya Pradesh State. No new state-level report changed the national aggregate (109 deaths, 347,155 displaced)."
+    },
     {
       "date": "2026-08-16",
       "text": "GDACS's flood report for the event rates it Green (low impact) at 50 deaths and 69,172 displaced on its narrower, Odisha-centered scope, and flags a fresh low-pressure area formed in the Bay of Bengal, with red-level rainfall warnings issued for Odisha and heavy rain forecast through 17-18 August across Himachal Pradesh, Punjab, Haryana and Delhi."
@@ -185,7 +192,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -75,7 +75,7 @@
     },
     {
       "id": "claim-21",
-      "retrieved_date": "2026-08-20",
+      "retrieved_date": "2026-08-22",
       "source_name": "GDACS",
       "source_url": "https://gdacs.org/report.aspx?eventid=1544720&eventtype=EQ",
       "text": "Re-checked 11 August 2026: reliefweb.int, this record's live_source_url and the source of the DSWD DROMIC series and OCHA casualty snapshot, returned HTTP 403 Forbidden and was unreachable across multiple attempts and multiple pages (disaster hub, specific report URLs, API endpoint) today. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Orange alert (\"medium humanitarian impact\"), currently showing modeled population exposure of about 4.4 million people at MMI≥VII and a maximum observed tsunami wave of 0.83 m -- GDACS's own automated impact-model figures for the event, which are updated as GDACS reprocesses episodes and are distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
@@ -91,7 +91,7 @@
     },
     {
       "id": "claim-26",
-      "retrieved_date": "2026-08-21",
+      "retrieved_date": "2026-08-22",
       "source_name": "ReliefWeb",
       "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-80-effects-mw-78-earthquake-incident-maasim-sarangani-21-august-2026-6am",
       "text": "DSWD DROMIC Report #80 (as of 21 August 2026, 6AM): 392,506 families (1,661,828 persons) remain affected across 661 barangays, unchanged from Report #79. Total displaced eased to 26,422 families (105,558 persons) -- 7,058 families (29,033 persons) in 80 evacuation centres and 19,364 families (76,525 persons) staying with relatives or friends -- down from 27,029 families (107,197 persons) in Report #79. Houses damaged remain unchanged at 138,563 total (19,320 totally, 119,243 partially damaged). Assistance provided to date rose to PHP 1,496,461,207.87.",
@@ -173,23 +173,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-08-21T09:22:39Z",
+  "last_updated": "2026-08-22T09:09:22Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-20T09:11:24Z",
+        "at": "2026-08-22T09:09:22Z",
         "layer": "verify",
-        "run_id": "2026-08-20T09-11-24Z-f66067"
-      },
-      {
-        "at": "2026-08-21T09:22:39Z",
-        "layer": "verify",
-        "run_id": "2026-08-21T09-22-39Z-7d7f2e"
+        "run_id": "2026-08-22T09-09-22Z-d74406"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-21T09-22-39Z-7d7f2e"
+    "last_run_id": "2026-08-22T09-09-22Z-d74406"
   },
   "schema_version": "1.0",
   "sort_keys": {
