@@ -3,19 +3,19 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-08-22",
+      "retrieved_date": "2026-08-23",
       "source_name": "GDACS",
       "source_url": "https://gdacs.org/report.aspx?eventid=1104091&episodeid=1&eventtype=FL",
       "text": "GDACS's flood report for Nepal (event FL 1104091, covering 12 Aug 2026 01:00 UTC to 14 Aug 2026 01:00 UTC) records 11 deaths and 37 displaced people, with an overall Green alert level for low humanitarian impact. The report notes nine road sections across Nepal are impassable due to landslides, road subsidence, and river erosion caused by ongoing heavy monsoon rainfall, with the monsoon bringing widespread cloud cover and moderate rainfall to the Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces.",
       "verification_status": "verified"
     }
   ],
-  "description": "Days of heavy monsoon rainfall triggered deadly landslides and flooding across Nepal from around 12 August 2026, concentrated in Rolpa district (Thabang and Sunchhahari rural municipalities) and adjoining Pyuthan district, with flood and landslide damage also across Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces. GDACS's flood report for Nepal records 11 deaths and 37 people displaced at an overall Green (low humanitarian impact) alert level, with nine road sections impassable nationwide due to landslides, road subsidence and river erosion. The largest single incident buried houses at Kotalbara settlement in Thabang Rural Municipality on the night of 12 August, and a second landslide struck Phalbang in Sunchhahari Rural Municipality; Nepali authorities and media reported the combined toll continuing to rise as search teams recovered bodies in neighbouring Pyuthan district, with local reporting — not yet corroborated by an authoritative source — putting it as high as the mid-teens, with several people still missing.",
+  "description": "Days of heavy monsoon rainfall triggered deadly landslides and flooding across Nepal from around 12 August 2026, concentrated in Rolpa district (Thabang and Sunchhahari rural municipalities) and adjoining Pyuthan district, with flood and landslide damage also across Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces. GDACS's flood report for Nepal, covering the 12-14 August episode, recorded 11 deaths and 37 people displaced at an overall Green (low humanitarian impact) alert level, with nine road sections impassable nationwide due to landslides, road subsidence and river erosion. The largest single incident buried houses at Kotalbara settlement in Thabang Rural Municipality on the night of 12 August, and a second landslide struck Phalbang in Sunchhahari Rural Municipality. GDACS's report still covers only that 12-14 August episode, and its most recent referenced media coverage dates to 17 August and concerns road-infrastructure repair rather than fresh casualties, consistent with the acute rainfall-triggered landslide activity having eased.",
   "event": {
     "impact": {
       "deaths": 11,
       "displaced": 37,
-      "summary": "GDACS's flood report for Nepal (event FL 1104091, covering 12-14 August 2026) records 11 deaths and 37 displaced people nationwide, with an overall Green (low humanitarian impact) alert level, and notes nine road sections impassable due to monsoon-triggered landslides, road subsidence and river erosion across Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces. Local reporting, not yet corroborated by an authoritative source, describes a rising toll from landslides at Kotalbara (Thabang) and Phalbang (Sunchhahari) in Rolpa district, with several people still missing."
+      "summary": "GDACS's flood report for Nepal (event FL 1104091, covering 12-14 August 2026) records 11 deaths and 37 displaced people nationwide, with an overall Green (low humanitarian impact) alert level, and notes nine road sections impassable due to monsoon-triggered landslides, road subsidence and river erosion across Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces. GDACS's report still covers only that 12-14 August episode, with no additional casualty figure issued as of 23 August 2026."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1104091&episodeid=1&eventtype=FL",
     "location": {
@@ -25,11 +25,11 @@
       "region": "Rolpa district (Thabang, Sunchhahari) and Pyuthan district; flooding/landslides also across Koshi, Bagmati, Karnali, Sudurpashchim, Gandaki and Lumbini provinces"
     },
     "occurrence_date": "2026-08-12",
-    "scale": "GDACS Green alert; 11 confirmed deaths (GDACS), local reporting of up to mid-teens deaths and several missing",
-    "status": "ongoing"
+    "scale": "GDACS Green alert; 11 confirmed deaths (GDACS) as of the 12-14 August episode",
+    "status": "contained"
   },
   "id": "nepal-rolpa-landslides-2026",
-  "last_updated": "2026-08-22T09:09:38Z",
+  "last_updated": "2026-08-23T09:22:01Z",
   "name": "Nepal Monsoon Floods and Landslides, Rolpa",
   "provenance": {
     "history": [
@@ -37,10 +37,15 @@
         "at": "2026-08-22T09:09:38Z",
         "layer": "verify",
         "run_id": "2026-08-22T09-09-38Z-582eaf"
+      },
+      {
+        "at": "2026-08-23T09:22:01Z",
+        "layer": "verify",
+        "run_id": "2026-08-23T09-22-01Z-95ac11"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-22T09-09-38Z-582eaf"
+    "last_run_id": "2026-08-23T09-22-01Z-95ac11"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -48,6 +53,12 @@
     "impact_rank": 2,
     "recency_rank": 739840
   },
+  "updates": [
+    {
+      "date": "2026-08-23",
+      "text": "Status moved from ongoing to contained: GDACS's flood report for this event still covers only the 12-14 August episode (Green alert, 11 deaths, 37 displaced), and its most recent referenced media coverage, from 17 August, concerns road-infrastructure repair rather than fresh casualties."
+    }
+  ],
   "verification": {
     "confidence": "high",
     "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",

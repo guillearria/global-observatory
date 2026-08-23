@@ -203,10 +203,18 @@
     },
     {
       "id": "claim-34",
-      "retrieved_date": "2026-08-22",
+      "retrieved_date": "2026-08-23",
       "source_name": "ECDC",
       "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
       "text": "ECDC's country overview (page last updated 21 August 2026, 14:30, data as of 19 August 2026) reports the Democratic Republic of the Congo has recorded 5,290 confirmed cases including 2,516 related deaths, with 1,152 recovered -- an increase of 81 new confirmed cases and 40 deaths since the prior 18 August data cut (5,208 cases/2,476 deaths), with new cases from Ituri (56), North Kivu (18) and Haut-Uele (7). Provincial breakdown: Ituri 4,447 cases/1,984 deaths; North Kivu 663 cases/452 deaths; Haut-Uele 160 cases/71 deaths; Tshopo 15 cases/7 deaths; South Kivu 3 cases/1 death; Bas-Uele 2 cases/1 death -- 56 of 151 health zones remain affected across six provinces. Uganda's linked outbreak remains declared over (28 July 2026, 20 confirmed cases, 2 deaths).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-35",
+      "retrieved_date": "2026-08-23",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news/item/20-08-2026-who-and-africa-cdc-welcome-the-allocation-of-ebola-vaccines-to-the-democratic-republic-of-the-congo",
+      "text": "WHO news release (20 August 2026), \"WHO and Africa CDC welcome the allocation of Ebola vaccines to the Democratic Republic of the Congo\": the International Coordinating Group approved an initial release of 70,000 doses of the Ervebo vaccine to the DRC -- 20,000 doses for a Phase 3 clinical trial and 50,000 doses for frontline and health-care workers -- while noting that it is not yet known whether Ervebo is protective against the Bundibugyo virus strain driving this outbreak, which the trial is designed to help determine.",
       "verification_status": "verified"
     },
     {
@@ -258,12 +266,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak -- caused by Bundibugyo virus -- on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined that the DRC and Uganda epidemic constitutes a Public Health Emergency of International Concern. It is the largest Ebola outbreak recorded in the country: per ECDC's country overview (updated 21 August 2026, data as of 19 August), DRC has recorded 5,290 confirmed cases including 2,516 deaths, spanning 56 of 151 health zones across six provinces, with Ituri and North Kivu the most affected. Uganda's linked outbreak ended at 20 confirmed cases and two deaths, declared over by its Ministry of Health on 28 July 2026; imported cases were earlier confirmed in France and Germany, and the DRC outbreak remains ongoing.",
+  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak -- caused by Bundibugyo virus -- on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined that the DRC and Uganda epidemic constitutes a Public Health Emergency of International Concern. It is the largest Ebola outbreak recorded in the country: per ECDC's country overview (data as of 19 August), DRC has recorded 5,290 confirmed cases including 2,516 deaths, spanning 56 of 151 health zones across six provinces, with Ituri and North Kivu the most affected. Uganda's linked outbreak ended at 20 confirmed cases and two deaths, declared over by its Ministry of Health on 28 July 2026; imported cases were earlier confirmed in France and Germany. On 20 August 2026 WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC, including 20,000 doses for a Phase 3 clinical trial testing its efficacy against the Bundibugyo strain and 50,000 doses for frontline health workers; the DRC outbreak remains ongoing.",
   "event": {
     "impact": {
       "deaths": 2516,
       "displaced": null,
-      "summary": "Per ECDC's country overview (last updated 21 August 2026, data as of 19 August), the Democratic Republic of the Congo has recorded 5,290 confirmed cases and 2,516 deaths -- the largest Ebola outbreak in its history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases -- across 56 of 151 health zones in six provinces, with 1,152 recovered. Ituri and North Kivu remain the most affected provinces. Uganda's linked outbreak was declared over on 28 July 2026 with 20 confirmed cases and two deaths."
+      "summary": "Per ECDC's country overview (data as of 19 August 2026), the Democratic Republic of the Congo has recorded 5,290 confirmed cases and 2,516 deaths -- the largest Ebola outbreak in its history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases -- across 56 of 151 health zones in six provinces, with 1,152 recovered. Ituri and North Kivu remain the most affected provinces. Uganda's linked outbreak was declared over on 28 July 2026 with 20 confirmed cases and two deaths. On 20 August 2026, WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC -- 20,000 for a Phase 3 clinical trial and 50,000 for frontline health workers -- though Ervebo's efficacy against the Bundibugyo strain driving this outbreak has not yet been established."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
     "location": {
@@ -277,7 +285,7 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-08-22T09:09:44Z",
+  "last_updated": "2026-08-23T09:22:00Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
@@ -285,10 +293,15 @@
         "at": "2026-08-22T09:09:44Z",
         "layer": "verify",
         "run_id": "2026-08-22T09-09-44Z-eaedff"
+      },
+      {
+        "at": "2026-08-23T09:22:00Z",
+        "layer": "verify",
+        "run_id": "2026-08-23T09-22-00Z-267489"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-22T09-09-44Z-eaedff"
+    "last_run_id": "2026-08-23T09-22-00Z-267489"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -304,6 +317,10 @@
     {
       "date": "2026-08-21",
       "text": "ECDC's country overview (updated 20 August 2026, data as of 18 August) reported 5,208 confirmed cases and 2,476 deaths in the DRC, up from 5,021 cases and 2,378 deaths at the 16 August data cut -- 187 new confirmed cases and 98 new deaths -- with the outbreak now spanning 56 of 151 health zones (up from 55), and 730 patients in isolation with 1,115 recovered."
+    },
+    {
+      "date": "2026-08-20",
+      "text": "WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo Ebola vaccine to DRC -- 20,000 doses for a Phase 3 clinical trial and 50,000 doses for frontline health workers -- while noting that Ervebo's protective efficacy against the Bundibugyo virus strain driving this outbreak has not yet been established."
     },
     {
       "date": "2026-08-18",
@@ -344,7 +361,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 32 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 33 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

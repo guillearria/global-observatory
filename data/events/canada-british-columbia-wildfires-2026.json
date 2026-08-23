@@ -98,6 +98,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-20",
+      "retrieved_date": "2026-08-23",
+      "source_name": "Government of British Columbia",
+      "source_url": "https://news.gov.bc.ca/releases/2026EMCR0037-000977",
+      "text": "Government of British Columbia news release (21 August 2026, 2:04 pm), 'Extending state of emergency due to wildfire risk': the Province 'has extended the state of provincial emergency for a further seven days, until Saturday, Aug. 29, 2026' due to continuing wildfire risk across British Columbia; the release states government 'has not needed to issue emergency orders under the state of emergency to respond to the current wildfire situation,' but is maintaining the declaration so response tools remain available as conditions evolve. The original declaration dates to 8 August 2026.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-12",
       "source_name": "GDACS",
@@ -154,12 +162,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A fast-moving wildfire outbreak swept British Columbia's Interior in early August 2026, led by the Bald Range fire near Summerland in the South Okanagan, which grew rapidly overnight and forced a large-scale evacuation; the province declared a State of Provincial Emergency on 8 August 2026. Penticton RCMP confirmed one fatality: an 80-year-old Meadow Valley resident who died on 9 August 2026 while attempting to evacuate, with the BC Coroners Service investigating. GDACS's tracked burned area has grown steadily to 30,182 hectares as of 21 August 2026, with 4,912 people within the burned area, and EmergencyInfoBC continues to list active evacuation orders and alerts, including for the Regional District of Okanagan-Similkameen and District of Summerland. The state of emergency remains in effect and the burned area is still expanding.",
+  "description": "A fast-moving wildfire outbreak swept British Columbia's Interior in early August 2026, led by the Bald Range fire near Summerland in the South Okanagan, which grew rapidly overnight and forced a large-scale evacuation; the province declared a State of Provincial Emergency on 8 August 2026. Penticton RCMP confirmed one fatality: an 80-year-old Meadow Valley resident who died on 9 August 2026 while attempting to evacuate, with the BC Coroners Service investigating. GDACS's tracked burned area has grown steadily to 30,182 hectares as of 21 August 2026, with 4,912 people within the burned area, and EmergencyInfoBC continues to list active evacuation orders and alerts, including for the Squamish-Lillooet and Thompson-Nicola regional districts. On 21 August the province extended the State of Provincial Emergency for a further seven days, to 29 August 2026, citing continuing wildfire risk, though it says it has not needed to invoke emergency orders under the declaration.",
   "event": {
     "impact": {
       "deaths": 1,
       "displaced": null,
-      "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. The State of Provincial Emergency declared on 8 August 2026 remains in effect; GDACS records 30,182 hectares burned and 4,912 people affected within the burned area as of 21 August 2026, and EmergencyInfoBC continues to list active evacuation orders and alerts, most recently updated for the Okanagan-Similkameen and Summerland areas. The province has block-booked more than 1,500 hotel rooms for evacuees."
+      "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS records 30,182 hectares burned and 4,912 people affected within the burned area as of 21 August 2026, and EmergencyInfoBC continues to list active evacuation orders and alerts, most recently updated for the Squamish-Lillooet and Thompson-Nicola regional districts. The province extended its State of Provincial Emergency (declared 8 August 2026) for a further seven days on 21 August, now running to 29 August 2026; it has block-booked more than 1,500 hotel rooms for evacuees and says it has not needed to invoke emergency orders under the declaration."
     },
     "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/",
     "location": {
@@ -169,11 +177,11 @@
       "region": "British Columbia Interior, centred on the Bald Range fire near Summerland in the South Okanagan; more than 100 wildfires active provincewide"
     },
     "occurrence_date": "2026-08-08",
-    "scale": "Provincial State of Emergency; Bald Range fire (largest, near Summerland); 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS)",
+    "scale": "Provincial State of Emergency (extended to 29 August 2026); Bald Range fire (largest, near Summerland); 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS)",
     "status": "ongoing"
   },
   "id": "canada-british-columbia-wildfires-2026",
-  "last_updated": "2026-08-22T09:10:46Z",
+  "last_updated": "2026-08-23T09:21:59Z",
   "name": "Wildfire State of Emergency — British Columbia, Canada",
   "provenance": {
     "history": [
@@ -181,10 +189,15 @@
         "at": "2026-08-22T09:10:46Z",
         "layer": "verify",
         "run_id": "2026-08-22T09-10-46Z-68a960"
+      },
+      {
+        "at": "2026-08-23T09:21:59Z",
+        "layer": "verify",
+        "run_id": "2026-08-23T09-21-59Z-2c1d35"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-22T09-10-46Z-68a960"
+    "last_run_id": "2026-08-23T09-21-59Z-2c1d35"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -193,6 +206,10 @@
     "recency_rank": 739836
   },
   "updates": [
+    {
+      "date": "2026-08-23",
+      "text": "British Columbia extended its State of Provincial Emergency (declared 8 August 2026) for a further seven days, to 29 August 2026, citing continuing wildfire risk; the province said it has not needed to issue emergency orders under the declaration to date but is maintaining it so response tools remain available as conditions evolve."
+    },
     {
       "date": "2026-08-22",
       "text": "GDACS's episode 53 update, covering to 21 August, put the tracked burned area at 30,182 hectares, up from 29,678, with the affected population unchanged at 4,912; the provincial state of emergency remains in effect with evacuation orders and alerts still active in the Okanagan-Similkameen and Summerland areas."
@@ -240,7 +257,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

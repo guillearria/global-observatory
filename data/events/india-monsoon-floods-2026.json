@@ -59,7 +59,7 @@
     },
     {
       "id": "claim-19",
-      "retrieved_date": "2026-08-22",
+      "retrieved_date": "2026-08-23",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103972",
       "text": "GDACS's flood report (event id 1103972, episode 25, event window extended to 23 June-22 August 2026) now records 54 deaths and 69,172 displaced -- up from 50 deaths at the 16-18 August checks, still a narrower scope than this record's OCHA/IFRC-sourced national aggregate -- and adds that heavy rain on 20 August 2026 triggered new flooding in Madhya Pradesh State. reliefweb.int/country/ind again returned HTTP 403 Forbidden to direct fetch; no Sphere India Situation Report 7 or newer state-level figures were found on an allowlisted source, so the headline combined national total (109 deaths, 347,155 displaced) is unchanged.",
@@ -149,7 +149,7 @@
     "status": "ongoing"
   },
   "id": "india-monsoon-floods-2026",
-  "last_updated": "2026-08-22T09:09:37Z",
+  "last_updated": "2026-08-23T09:22:00Z",
   "name": "Multi-State Monsoon Floods & Landslides — India",
   "provenance": {
     "history": [
@@ -157,10 +157,15 @@
         "at": "2026-08-22T09:09:37Z",
         "layer": "verify",
         "run_id": "2026-08-22T09-09-37Z-d7e1f3"
+      },
+      {
+        "at": "2026-08-23T09:22:00Z",
+        "layer": "verify",
+        "run_id": "2026-08-23T09-22-00Z-b6d712"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-22T09-09-37Z-d7e1f3"
+    "last_run_id": "2026-08-23T09-22-00Z-b6d712"
   },
   "schema_version": "1.0",
   "sort_keys": {

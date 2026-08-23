@@ -58,6 +58,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-20",
+      "retrieved_date": "2026-08-23",
+      "source_name": "United Nations",
+      "source_url": "https://press.un.org/en/2026/db260821.doc.htm",
+      "text": "UN Daily Press Briefing (21 August 2026): the Spokesperson's Office reported that, in an Israeli settler attack on a Palestinian community in Hebron, \"a young Palestinian was shot and killed, another critically injured, and a home was set on fire,\" while other homes were damaged; Israeli forces said the shooting followed a stone-throwing incident by Palestinians that injured Israelis. The briefing also reported that three Palestinian families in Qusra village have remained confined to their homes for two weeks, surrounded by a heavy presence of Israeli forces and settlers, with Israeli forces present inside one of the three homes. It stated: \"since the beginning of the year, 22 Palestinians have been killed in settler attacks: 12 by settlers, 7 by Israeli forces, and 3 where it remains unclear\" -- up from the 18 reported as of 20 July.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-07-27",
       "source_name": "ReliefWeb",
@@ -90,12 +98,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A sharp escalation of Israeli settler violence in the occupied West Bank culminated on 24 July 2026, when Israeli settlers carried out two attacks on Tal village near Nablus that left four Palestinians and two Israelis dead and triggered a wave of reprisal attacks on nearby Palestinian villages and an Israeli government-announced 'major counterterrorism operation.' OCHA has documented more than 1,380 settler-related incidents since the start of 2026, affecting over 250 Palestinian communities, and assesses July as, jointly with March 2026, the deadliest month for Palestinians in settler-related incidents since October 2023. A UN Security Council briefing on 11 August 2026 put the cumulative 2026 toll at 76 Palestinians, including 18 children, and 3 Israelis killed in the West Bank, with some 3,800 Palestinians, nearly half of them children, displaced by settler violence, demolitions and evictions. OCHA's latest weekly report, published 14 August 2026, documented 38 settler attacks resulting in casualties or property damage in the week of 4-10 August, and the violence continues.",
+  "description": "A sharp escalation of Israeli settler violence in the occupied West Bank culminated on 24 July 2026, when Israeli settlers carried out two attacks on Tal village near Nablus that left four Palestinians and two Israelis dead and triggered a wave of reprisal attacks and an Israeli government-announced 'major counterterrorism operation.' OCHA has documented more than 1,380 settler-related incidents since the start of 2026, affecting over 250 Palestinian communities, with July jointly the deadliest month for Palestinians in settler-related incidents since October 2023. A UN Security Council briefing on 11 August put the cumulative 2026 toll at 76 Palestinians, including 18 children, and 3 Israelis killed, with some 3,800 Palestinians, nearly half of them children, displaced by settler violence, demolitions and evictions. The UN's narrower tally of deaths specifically in settler attacks reached 22 Palestinians as of 21 August, up from 18 on 20 July; that day a settler attack in Hebron killed one Palestinian and critically injured another, and three families in Qusra village remain confined to their homes under a heavy Israeli forces and settler presence.",
   "event": {
     "impact": {
       "deaths": 79,
       "displaced": 3800,
-      "summary": "Per an 11 August 2026 UN Security Council briefing, 76 Palestinians, including 18 children, and 3 Israelis have been killed in the West Bank since the start of 2026, and some 3,800 Palestinians, nearly half of them children, have been displaced by settler violence, demolitions and evictions. OCHA has documented more than 1,380 settler-related incidents affecting over 250 Palestinian communities — about 6.6 per day — with more than 1,600 Palestinians injured, and July was, jointly with March 2026, the deadliest month for Palestinians in settler-related incidents since October 2023. OCHA's 14 August 2026 weekly report recorded 38 further settler attacks resulting in casualties or property damage between 4 and 10 August."
+      "summary": "Per an 11 August 2026 UN Security Council briefing, 76 Palestinians, including 18 children, and 3 Israelis have been killed in the West Bank since the start of 2026, and some 3,800 Palestinians, nearly half of them children, have been displaced by settler violence, demolitions and evictions. A narrower UN tally specific to settler attacks put the 2026 Palestinian death toll at 22 as of 21 August (12 by settlers, 7 by Israeli forces, 3 unclear), up from 18 as of 20 July; OCHA has documented more than 1,380 settler-related incidents affecting over 250 Palestinian communities, with July jointly the deadliest month for Palestinians in settler-related incidents since October 2023. On 21 August, Israeli settlers shot and killed a young Palestinian and critically injured another in Hebron, and three Palestinian families in Qusra village remained confined to their homes for two weeks under a heavy Israeli forces and settler presence."
     },
     "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-14-august-2026",
     "location": {
@@ -105,11 +113,11 @@
       "region": "Tal village, near Nablus, West Bank (Occupied Palestinian Territory)"
     },
     "occurrence_date": "2026-07-24",
-    "scale": "Mass-casualty settler attack; Israeli 'major counterterrorism operation' declared; deadliest month for Palestinians in settler-related incidents since October 2023",
+    "scale": "Mass-casualty settler attack; Israeli 'major counterterrorism operation' declared; deadliest month for Palestinians in settler-related incidents since October 2023; UN's settler-attack-specific death toll at 22 Palestinians as of 21 August 2026",
     "status": "ongoing"
   },
   "id": "west-bank-settler-violence-surge-2026",
-  "last_updated": "2026-08-22T09:09:42Z",
+  "last_updated": "2026-08-23T09:22:02Z",
   "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
   "provenance": {
     "history": [
@@ -117,10 +125,15 @@
         "at": "2026-08-22T09:09:42Z",
         "layer": "verify",
         "run_id": "2026-08-22T09-09-42Z-eb414c"
+      },
+      {
+        "at": "2026-08-23T09:22:02Z",
+        "layer": "verify",
+        "run_id": "2026-08-23T09-22-02Z-e02407"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-22T09-09-42Z-eb414c"
+    "last_run_id": "2026-08-23T09-22-02Z-e02407"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -129,6 +142,10 @@
     "recency_rank": 739821
   },
   "updates": [
+    {
+      "date": "2026-08-23",
+      "text": "The UN Daily Press Briefing of 21 August reported a settler attack in Hebron that shot and killed a young Palestinian and critically injured another, and put the UN's settler-attack-specific 2026 death toll at 22 Palestinians (12 by settlers, 7 by Israeli forces, 3 unclear), up from 18 on 20 July; three Palestinian families in Qusra village have been confined to their homes for two weeks."
+    },
     {
       "date": "2026-08-14",
       "text": "OCHA's weekly report of 14 August documented 38 settler attacks causing casualties or property damage over 4-10 August, including an attack by about 30 settlers on the Tuba community in Masafer Yatta that destroyed 3 homes and displaced 23 people, and an Israeli forces operation in Qalandiya Camp that injured 51 Palestinians and demolished 9 structures, displacing 71 people."
@@ -152,7 +169,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

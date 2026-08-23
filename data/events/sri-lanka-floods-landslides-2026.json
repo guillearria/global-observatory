@@ -26,6 +26,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-13",
+      "retrieved_date": "2026-08-23",
+      "source_name": "Disaster Management Centre (Sri Lanka)",
+      "source_url": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1787459674.pdf",
+      "text": "DMC Situation Report -- Sri Lanka, 23 August 2026 at 1000hrs: GRAND TOTAL -- 4,232 Families / 16,614 People Affected; Deaths 9; Injured 9; Missing 0; Houses Damaged: 2 Fully, 733 Partially (735 total); Safe Locations: 1 location, 8 families, 25 persons -- down from 2 locations / 16 families / 47 persons on 19 August, as displaced people continue returning home. Nuwara Eliya district remains worst-hit (2,021 families / 7,736 people affected, 6 deaths), followed by Kandy district (1,183 families / 4,925 people affected, 2 deaths).",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-7",
       "retrieved_date": "2026-08-13",
       "source_name": "Disaster Management Centre (Sri Lanka)",
@@ -50,12 +58,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Heavy monsoon rainfall triggered flooding and landslides across Sri Lanka's central highlands from around 2 August 2026, affecting Kandy, Nuwara Eliya, Kegalle and Ratnapura districts, with a fatal landslide at Hatton in Nuwara Eliya District. Sri Lanka's Disaster Management Centre (DMC) reports 9 deaths, 9 injured and no one missing as of its 19 August 2026 situation report, with 4,222 families (16,583 people) affected nationally and 725 houses damaged; Nuwara Eliya remains the worst-hit district, followed by Kandy. The sheltered population has fallen sharply as displaced people return home, from 495 persons on 11 August to 47 persons in 2 safe locations by 19 August. GDACS assessed the event at a Green alert, and its early Sendai-feed snapshot of 12 deaths and 6,882 evacuated has been superseded by the DMC's ground-assessed figures.",
+  "description": "Heavy monsoon rainfall triggered flooding and landslides across Sri Lanka's central highlands from around 2 August 2026, affecting Kandy, Nuwara Eliya, Kegalle, Ratnapura and other districts, with a fatal landslide at Hatton in Nuwara Eliya District. Sri Lanka's Disaster Management Centre (DMC) reports 9 deaths, 9 injured and no one missing as of its 23 August 2026 situation report, with 4,232 families (16,614 people) affected nationally and 735 houses damaged; Nuwara Eliya remains the worst-hit district, followed by Kandy. The sheltered population continues to fall as displaced people return home, down to 25 persons in 1 safe location by 23 August, from 47 persons in 2 locations on 19 August. GDACS assessed the event at a Green alert, and its early Sendai-feed snapshot of 12 deaths and 6,882 evacuated remains superseded by the DMC's ground-assessed figures.",
   "event": {
     "impact": {
       "deaths": 9,
-      "displaced": 16583,
-      "summary": "Sri Lanka's Disaster Management Centre situation report of 19 August 2026 (1000hrs) records 9 deaths, 9 injured and 0 missing, with 4,222 families (16,583 people) affected across the country and 725 houses damaged (2 fully, 723 partially); 47 persons (16 families) remain in 2 safe locations. Nuwara Eliya district is worst-hit (2,021 families / 7,736 people affected, 6 deaths), followed by Kandy district (1,183 families / 4,925 people affected, 2 deaths)."
+      "displaced": 16614,
+      "summary": "Sri Lanka's Disaster Management Centre situation report of 23 August 2026 (1000hrs) records 9 deaths, 9 injured and 0 missing, with 4,232 families (16,614 people) affected across the country and 735 houses damaged (2 fully, 733 partially); 25 persons (8 families) remain in 1 safe location. Nuwara Eliya district is worst-hit (2,021 families / 7,736 people affected, 6 deaths), followed by Kandy district (1,183 families / 4,925 people affected, 2 deaths)."
     },
     "live_source_url": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&report_type_id=1&Itemid=273&lang=en",
     "location": {
@@ -65,11 +73,11 @@
       "region": "Central highlands: Kandy, Nuwara Eliya (including Hatton), Kegalle and Ratnapura districts"
     },
     "occurrence_date": "2026-08-02",
-    "scale": "GDACS Green alert; 9 confirmed deaths (DMC, 19 Aug), 47 people in safe locations",
+    "scale": "GDACS Green alert; 9 confirmed deaths (DMC, 23 Aug), 25 people in 1 safe location",
     "status": "ongoing"
   },
   "id": "sri-lanka-floods-landslides-2026",
-  "last_updated": "2026-08-22T09:09:38Z",
+  "last_updated": "2026-08-23T09:22:01Z",
   "name": "Floods and Landslides — Sri Lanka",
   "provenance": {
     "history": [
@@ -77,10 +85,15 @@
         "at": "2026-08-22T09:09:38Z",
         "layer": "verify",
         "run_id": "2026-08-22T09-09-38Z-6ec853"
+      },
+      {
+        "at": "2026-08-23T09:22:01Z",
+        "layer": "verify",
+        "run_id": "2026-08-23T09-22-01Z-e98ad6"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-22T09-09-38Z-6ec853"
+    "last_run_id": "2026-08-23T09-22-01Z-e98ad6"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -89,6 +102,10 @@
     "recency_rank": 739830
   },
   "updates": [
+    {
+      "date": "2026-08-23",
+      "text": "The DMC's 23 August situation report held deaths at 9 and injured at 9, with affected families rising slightly to 4,232 (16,614 people) and houses damaged to 735 (2 fully, 733 partially); the sheltered population fell further to 25 persons (8 families) in 1 safe location, from 47 persons in 2 locations on 19 August."
+    },
     {
       "date": "2026-08-19",
       "text": "The DMC's 19 August situation report held deaths at 9 and injured at 9, with the sheltered population unchanged at 47 persons (16 families) in 2 safe locations; affected families edged up to 4,222 (16,583 people) and damaged houses to 725 (2 fully, 723 partially)."
@@ -112,7 +129,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -24,14 +24,22 @@
       "source_url": "https://reliefweb.int/report/philippines/phl-cyclone-08-2026-philippines-southwest-monsoon-enhanced-tropical-cyclones-maymay-and-dolphin-2026-08-13",
       "text": "PHL: Cyclone - 08-2026 - Philippines Southwest Monsoon enhanced by Tropical Cyclones Maymay and Dolphin (IFRC / Philippine Red Cross, posted on ReliefWeb 13 August 2026): confirms Tropical Depression MAYMAY intensified into Tropical Storm MAYMAY (international name Kujira) by 5 August 2026 and made landfall over the Ilocos Sur-La Union area on 6 August 2026, continuing to weaken while crossing Northern Luzon before its remnant merged with Tropical Cyclone DOLPHIN's larger circulation; the Philippine Red Cross supported local authorities with damage/needs assessment, search and rescue, evacuations, and relief distribution, and reports that 'almost 500 million PHP worth of assistance has been provided' by government agencies and partners, with 'hundreds of evacuation centers... operational.'",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-23",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104107&episodeid=1",
+      "text": "GDACS flood event report for the Philippines (event id 1104107, episode 1, overall Green alert, reporting window 17 Aug 2026 01:00 UTC to 19 Aug 2026 01:00 UTC, integrating Copernicus EMS/GloFAS assessment with local media reporting of flooding in Luzon and Mindoro): records 1,076 people displaced and 0 deaths in that window, assessed as low humanitarian impact based on magnitude, exposed population and vulnerability.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Beginning around 30 July 2026, an enhanced Southwest Monsoon combined with Tropical Depression LUIS and Tropical Storm MAYMAY (international name KUJIRA) triggered widespread flooding, landslides and strong winds across nine regions of the Philippines, from Ilocos and the Cordillera to Western Visayas and the Zamboanga Peninsula. MAYMAY made landfall over the Ilocos Sur-La Union area on 6 August 2026 before its remnant merged with Tropical Cyclone DOLPHIN's larger circulation, which continued to enhance the monsoon rains. Per NDRRMC figures relayed by the AHA Centre, as of 10 August 2026 the disasters had affected approximately 586,000 people, displaced about 32.8K — 21.7K of them served in 293 evacuation centres — and caused 8 deaths, 9 injuries and 1 missing person. The NDRRMC raised its Operations Center alert status to RED and activated its Inter-Agency Coordinating Cell and Response Clusters, the Philippine Red Cross reports almost 500 million PHP worth of assistance provided, and the event remains ongoing.",
+  "description": "Beginning around 30 July 2026, an enhanced Southwest Monsoon combined with Tropical Depression LUIS and Tropical Storm MAYMAY (international name KUJIRA) triggered widespread flooding, landslides and strong winds across nine regions of the Philippines, from Ilocos and the Cordillera to Western Visayas and the Zamboanga Peninsula. MAYMAY made landfall over the Ilocos Sur-La Union area on 6 August 2026 before its remnant merged with Tropical Cyclone DOLPHIN's larger circulation, which continued to enhance the monsoon rains. Per NDRRMC figures relayed by the AHA Centre, as of 10 August 2026 the disasters had affected approximately 586,000 people, displaced about 32.8K — 21.7K of them served in 293 evacuation centres — and caused 8 deaths, 9 injuries and 1 missing person. The NDRRMC raised its Operations Center alert status to RED and activated its Inter-Agency Coordinating Cell and Response Clusters, the Philippine Red Cross reports almost 500 million PHP worth of assistance provided, and GDACS separately recorded a further Green-alert flood episode across Luzon and Mindoro on 17-19 August, with 1,076 people displaced in that window. The event remains ongoing.",
   "event": {
     "impact": {
       "deaths": 8,
       "displaced": 32800,
-      "summary": "NDRRMC figures relayed by the AHA Centre (as of 10 August 2026): approximately 586,000 people affected, about 32.8K displaced with 21.7K served in 293 evacuation centres, 8 deaths, 9 injuries and 1 person missing; the NDRRMOC alert status stands at RED with the Inter-Agency Coordinating Cell activated. Almost 500 million PHP in assistance has been provided by government agencies and partners as Typhoon DOLPHIN continued to enhance the monsoon rains after MAYMAY's 6 August landfall over the Ilocos Sur-La Union area."
+      "summary": "NDRRMC figures relayed by the AHA Centre (as of 10 August 2026): approximately 586,000 people affected, about 32.8K displaced with 21.7K served in 293 evacuation centres, 8 deaths, 9 injuries and 1 person missing; the NDRRMOC alert status stands at RED with the Inter-Agency Coordinating Cell activated. Almost 500 million PHP in assistance has been provided by government agencies and partners as Typhoon DOLPHIN continued to enhance the monsoon rains after MAYMAY's 6 August landfall over the Ilocos Sur-La Union area. GDACS separately recorded a further Green-alert flood episode across Luzon and Mindoro from 17-19 August 2026, with 1,076 people displaced and no fatalities registered in that window."
     },
     "live_source_url": "https://reliefweb.int/country/phl",
     "location": {
@@ -45,7 +53,7 @@
     "status": "ongoing"
   },
   "id": "philippines-floods-luis-maymay-2026",
-  "last_updated": "2026-08-21T09:17:03Z",
+  "last_updated": "2026-08-23T09:22:01Z",
   "name": "Southwest Monsoon & Tropical Cyclones Luis/Maymay Floods, Philippines",
   "provenance": {
     "history": [
@@ -58,10 +66,15 @@
         "at": "2026-08-21T09:17:03Z",
         "layer": "verify",
         "run_id": "2026-08-21T09-17-03Z-1beba6"
+      },
+      {
+        "at": "2026-08-23T09:22:01Z",
+        "layer": "verify",
+        "run_id": "2026-08-23T09-22-01Z-46d5e1"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-21T09-17-03Z-1beba6"
+    "last_run_id": "2026-08-23T09-22-01Z-46d5e1"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -69,9 +82,15 @@
     "impact_rank": 2,
     "recency_rank": 739829
   },
+  "updates": [
+    {
+      "date": "2026-08-23",
+      "text": "GDACS recorded a further Green-alert flood episode across Luzon and Mindoro from 17-19 August 2026, with 1,076 people displaced and no fatalities in that window, on top of the NDRRMC's cumulative tally relayed by the AHA Centre (10 August) of approximately 586,000 people affected, 32.8K displaced and 8 deaths."
+    }
+  ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

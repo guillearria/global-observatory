@@ -1,0 +1,72 @@
+{
+  "category": "economic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-23",
+      "source_name": "Ministry of Finance (Japan)",
+      "source_url": "https://www.mof.go.jp/english/public_relations/statement/others/20260803073000.html",
+      "text": "Japan's Ministry of Finance statement (dated 3 August 2026) confirms: \"Japan's Ministry of Finance purchased the Japanese yen in coordination with the U.S. Department of the Treasury\" on 31 July 2026 (US Eastern Time), an action that \"countered excessive volatility and disorderly movements in the Japanese yen in recent months\" and was carried out pursuant to the U.S.-Japan Finance Ministers' Joint Statement issued in September 2025.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-23",
+      "source_name": "Ministry of Finance (Japan)",
+      "source_url": "https://www.mof.go.jp/english/public_relations/statement/others/20260803073000.html",
+      "text": "The same Ministry of Finance statement states Japan \"will not hesitate to conduct further joint intervention\" and that it plans to \"utilize the Federal Reserve's Foreign and International Monetary Authorities (FIMA) Repo Facility in the future,\" signaling the intervention capacity remains active going forward.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-23",
+      "source_name": "Ministry of Finance (Japan)",
+      "source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/monthly/20260731e.html",
+      "text": "The Ministry of Finance's own Foreign Exchange Intervention Operations monthly release for the period 29 June 2026 through 29 July 2026 (published 31 July 2026) reports: \"Total amount of foreign exchange intervention operations for the period from June 29, 2026 through July 29, 2026: ¥ 0\" — confirming no yen-buying intervention had occurred in the month immediately preceding the 31 July action.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Japanese yen fell to roughly a 40-year low against the US dollar through July 2026, driven by a wide Japan-US interest-rate gap and broader dollar strength. On 31 July 2026 (US Eastern Time) Japan's Ministry of Finance purchased yen in coordination with the US Department of the Treasury, acting under the September 2025 US-Japan Finance Ministers' Joint Statement to counter what it called \"excessive volatility and disorderly movements\" in the currency. The Ministry says it remains in close communication with US counterparts and \"will not hesitate to conduct further joint intervention,\" including future use of the Federal Reserve's FIMA Repo Facility. No intervention had been recorded by the Ministry's own monthly data for the preceding month (29 June-29 July 2026), underscoring that the action was an emergency, out-of-cycle step rather than routine market operations.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "No direct casualties; the impact is financial and macroeconomic. Japan's Ministry of Finance confirmed it purchased yen in coordination with the US Treasury on 31 July 2026 to counter excessive volatility and disorderly currency movements after the yen weakened toward levels not seen in roughly four decades. The Ministry says it remains in close communication with the US and will not hesitate to intervene again, including via the Federal Reserve's FIMA Repo Facility. The Ministry's own foreign-exchange intervention data show zero yen spent in the preceding reporting month (29 June-29 July 2026), confirming the 31 July action was an emergency departure from routine operations rather than a continuation of ongoing intervention."
+    },
+    "live_source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/index.html",
+    "location": {
+      "country": "Japan",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "region": "Nationwide; foreign-exchange market action centered on Tokyo, coordinated with US Treasury"
+    },
+    "occurrence_date": "2026-07-31",
+    "scale": "Joint Japan-US foreign-exchange intervention to stem a multi-decade low in the yen; Japan's Ministry of Finance has signaled readiness for further coordinated action",
+    "status": "ongoing"
+  },
+  "id": "japan-yen-intervention-2026",
+  "last_updated": "2026-08-23T09:22:06Z",
+  "name": "Yen Crisis — Joint Japan-US Currency Intervention",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-23T09:22:06Z",
+        "layer": "verify",
+        "run_id": "2026-08-23T09-22-06Z-d8b85c"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-23T09-22-06Z-d8b85c"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398281.0,
+    "impact_rank": 1,
+    "recency_rank": 739828
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
