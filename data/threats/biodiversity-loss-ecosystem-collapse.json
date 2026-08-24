@@ -6,14 +6,14 @@
       "window": "ongoing"
     },
     "severity": "continental",
-    "summary": "A present, quantified global decline in species and ecosystems — up to a million species threatened with extinction and most of the land and ocean already altered — with cascading risk to the food, water, and climate systems it underpins.",
+    "summary": "A present, quantified global decline in species and ecosystems — up to a million species threatened with extinction and most of the land and ocean already altered — with cascading risk to the food, water, and climate systems it underpins. IPBES's 2024 assessment found reform-oriented conservation has largely failed to reverse the decline, and estimates a decade's delay roughly doubles the eventual cost of acting.",
     "timeframe": "Ongoing decline over recent decades, with many losses (species extinctions, ecosystem tipping points) becoming irreversible within decades absent action."
   },
   "category": "resource",
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-06",
+      "retrieved_date": "2026-08-24",
       "source_name": "United Nations",
       "source_url": "https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/",
       "text": "Up to 1 million species are threatened with extinction, many within decades, more than ever before in human history (IPBES Global Assessment, 2019).",
@@ -21,7 +21,7 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-07-06",
+      "retrieved_date": "2026-08-24",
       "source_name": "United Nations",
       "source_url": "https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/",
       "text": "75 percent of the terrestrial environment has been severely altered to date by human actions, and 66 percent of the marine environment (IPBES Global Assessment, 2019).",
@@ -29,27 +29,35 @@
     },
     {
       "id": "claim-3",
-      "retrieved_date": "2026-07-06",
+      "retrieved_date": "2026-08-24",
       "source_name": "United Nations",
       "source_url": "https://www.un.org/sustainabledevelopment/blog/2019/05/nature-decline-unprecedented-report/",
       "text": "The current rate of global species extinction is tens to hundreds of times higher than the average over the last 10 million years, and it is accelerating (IPBES Global Assessment, 2019).",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-24",
+      "source_name": "IPBES",
+      "source_url": "https://www.ipbes.net/transformative-change/media-release",
+      "text": "The cost of delaying actions to halt and reverse biodiversity loss and nature's decline around the world by even a decade is estimated to be double that of acting now (IPBES Transformative Change Assessment, approved 18 December 2024 in Windhoek, Namibia).",
+      "verification_status": "verified"
     }
   ],
-  "description": "An accelerating, human-driven decline in species and ecosystems that underpin food, water, and climate stability. Nature is being altered at a global scale and pace unprecedented in human history, with a growing share of the ecosystem services humanity depends on already in decline.",
+  "description": "An accelerating, human-driven decline in species and ecosystems that underpin food, water, and climate stability. Nature is being altered at a global scale and pace unprecedented in human history, with a growing share of the ecosystem services humanity depends on already in decline. IPBES's 2024 Transformative Change Assessment found that reform-oriented conservation has largely failed to halt or reverse this decline, and that delaying corrective action by even a decade roughly doubles its eventual cost.",
   "id": "biodiversity-loss-ecosystem-collapse",
-  "last_updated": "2026-07-06T10:07:10Z",
+  "last_updated": "2026-08-24T10:09:00Z",
   "name": "Biodiversity Loss and Ecosystem Collapse",
   "provenance": {
     "history": [
       {
-        "at": "2026-07-06T10:07:10Z",
+        "at": "2026-08-24T10:09:00Z",
         "layer": "verify",
-        "run_id": "2026-07-06T10-07-10Z-8419b5"
+        "run_id": "2026-08-24T10-09-00Z-1e0251"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-06T10-07-10Z-8419b5"
+    "last_run_id": "2026-08-24T10-09-00Z-1e0251"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -59,7 +67,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
