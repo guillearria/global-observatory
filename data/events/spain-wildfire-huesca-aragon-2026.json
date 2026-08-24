@@ -19,19 +19,19 @@
     },
     {
       "id": "claim-3",
-      "retrieved_date": "2026-08-23",
+      "retrieved_date": "2026-08-24",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1030237&episodeid=34&eventtype=WF",
       "text": "GDACS's forest-fire report for Spain (event 1030237, episode 34, covering 7 Aug 2026 00:00 UTC to 15 Aug 2026 00:00 UTC via thermal-anomaly detection) records 48,139 hectares burned nationwide and 873 people exposed within burned areas, with an overall alert level assessed as low humanitarian impact based on burned area and affected population.",
       "verification_status": "verified"
     }
   ],
-  "description": "A major wildfire declared on 10 August 2026 near Las Peñas de Riglos in Huesca province, Aragón, northeastern Spain, grew rapidly in hot, dry and windy conditions, burning close to 16,000 hectares by mid-August per the European Commission's civil protection service — with nineteen villages evacuated at its peak, roughly a thousand residents displaced, and the historic San Juan de la Peña monastery complex threatened. On 16 August 2026 a soldier of Spain's Unidad Militar de Emergencias, Corporal Javier García Sancho of the Fourth Emergency Intervention Battalion (BIEM IV), died when his fire truck lost traction and rolled over on an operations-area road near Peña Oroel; two fellow soldiers were injured. France sent 104 ground firefighters with 36 vehicles to reinforce the response in Aragón, and GDACS's aggregate Spain forest-fire episode for 7-15 August 2026 recorded 48,139 hectares burned nationwide across multiple concurrent fires. The fire remains ongoing.",
+  "description": "A major wildfire declared on 10 August 2026 near Las Peñas de Riglos in Huesca province, Aragón, northeastern Spain, grew rapidly in hot, dry and windy conditions, burning close to 16,000 hectares by mid-August per the European Commission's civil protection service -- with nineteen villages evacuated at its peak, roughly a thousand residents displaced, and the historic San Juan de la Peña monastery complex threatened. On 16 August 2026 a soldier of Spain's Unidad Militar de Emergencias, Corporal Javier García Sancho of the Fourth Emergency Intervention Battalion (BIEM IV), died when his fire truck lost traction and rolled over on an operations-area road near Peña Oroel; two fellow soldiers were injured. France sent 104 ground firefighters with 36 vehicles to reinforce the response in Aragón, and GDACS's aggregate Spain forest-fire episode for 7-15 August 2026 recorded 48,139 hectares burned nationwide across multiple concurrent fires. GDACS has recorded no new thermal-anomaly detection since 15 August 2026 -- nine consecutive days as of 24 August -- and the fire is now assessed as contained.",
   "event": {
     "impact": {
       "deaths": 1,
       "displaced": 1046,
-      "summary": "Spain's Ministry of Defence confirmed the death of UME Corporal Javier García Sancho of the Fourth Emergency Intervention Battalion (BIEM IV), killed on 16 August 2026 when his fire truck lost traction and rolled over on an operations-area road near Peña Oroel; two other soldiers were injured. The European Commission reports close to 16,000 hectares burnt in the Aragón region, with 104 French ground firefighters and 36 vehicles reinforcing the response, while GDACS's Spain-wide forest-fire episode for 7-15 August 2026 recorded 48,139 hectares burned nationwide and 873 people exposed, an overall low humanitarian-impact rating. Roughly a thousand residents were evacuated from nineteen villages at the fire's peak."
+      "summary": "Spain's Ministry of Defence confirmed the death of UME Corporal Javier García Sancho of the Fourth Emergency Intervention Battalion (BIEM IV), killed on 16 August 2026 when his fire truck lost traction and rolled over on an operations-area road near Peña Oroel; two other soldiers were injured. The European Commission reported close to 16,000 hectares burnt in the Aragón region, with 104 French ground firefighters and 36 vehicles reinforcing the response, while GDACS's Spain-wide forest-fire episode (7-15 August 2026) recorded 48,139 hectares burned nationwide and 873 people exposed, an overall low humanitarian-impact rating. Roughly a thousand residents were evacuated from nineteen villages at the fire's peak. GDACS has recorded no new thermal-anomaly detection since 15 August -- nine consecutive days as of 24 August -- and the fire is now assessed as contained."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1030237&episodeid=34&eventtype=WF",
     "location": {
@@ -42,26 +42,21 @@
     },
     "occurrence_date": "2026-08-10",
     "scale": "~16,600-17,500 ha burned; 1 fatality",
-    "status": "ongoing"
+    "status": "contained"
   },
   "id": "spain-wildfire-huesca-aragon-2026",
-  "last_updated": "2026-08-23T09:22:01Z",
+  "last_updated": "2026-08-24T09:20:09Z",
   "name": "Peñas de Riglos Wildfire, Huesca, Aragón, Spain",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-22T09:10:53Z",
+        "at": "2026-08-24T09:20:09Z",
         "layer": "verify",
-        "run_id": "2026-08-22T09-10-53Z-7f6dfd"
-      },
-      {
-        "at": "2026-08-23T09:22:01Z",
-        "layer": "verify",
-        "run_id": "2026-08-23T09-22-01Z-a27ee6"
+        "run_id": "2026-08-24T09-20-09Z-82eb3f"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-23T09-22-01Z-a27ee6"
+    "last_run_id": "2026-08-24T09-20-09Z-82eb3f"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -69,6 +64,12 @@
     "impact_rank": 1,
     "recency_rank": 739838
   },
+  "updates": [
+    {
+      "date": "2026-08-24",
+      "text": "GDACS's forest-fire report has recorded no new thermal-anomaly detection since 15 August -- nine consecutive days as of 24 August -- and the fire is now assessed as contained; casualty and area figures are unchanged (1 death, about 1,046 evacuated, 48,139 ha nationwide across concurrent Spain fires)."
+    }
+  ],
   "verification": {
     "confidence": "high",
     "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",

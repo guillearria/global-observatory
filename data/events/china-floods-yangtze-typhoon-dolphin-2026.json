@@ -40,14 +40,22 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
       "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 10, reporting window 31 July - 19 August 2026) records 309,701 people displaced, up from 302,931 in episode 9, with newly reported evacuations in Sichuan Province added to the affected areas; the death toll remains 1 with 3 missing in Zhejiang, and GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. Overall alert level remains Orange (medium humanitarian impact).",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-7",
+      "retrieved_date": "2026-08-24",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
+      "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 11, reporting window 31 July - 25 August 2026) records 314,734 people displaced, up from 309,701 in episode 10, with newly reported evacuations in Guangxi Province added to the affected areas; the death toll remains 1 with 3 missing in Zhejiang, 134 rescued and 151 buildings damaged or destroyed (unchanged). Overall alert level remains Orange.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Heavy rain from Typhoon Dolphin and its remnants triggered severe flooding across central and eastern China beginning 31 July 2026, with the heaviest impacts from around 11 August 2026 in Hubei Province. GDACS rates the event (FL-2026-000148-CHN) an Orange alert, with a combined 309,701 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu and Sichuan — the single largest evacuation being 215,600 people in Shanghai over 8-10 August. The event's first confirmed casualties came when a residential building collapsed in a debris flow in Heping Town, Changxing County, Zhejiang Province, killing 1 person and leaving 3 missing. China's Ministry of Emergency Management has dispatched 13 emergency drainage teams to Zhoukou city, Henan, and the flooding remains ongoing as of GDACS's latest reporting window (31 July - 19 August 2026).",
+  "description": "Heavy rain from Typhoon Dolphin and its remnants triggered severe flooding across central and eastern China beginning 31 July 2026, with the heaviest impacts from around 11 August 2026 in Hubei Province. GDACS rates the event (FL-2026-000148-CHN) an Orange alert, with a combined 314,734 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and newly-added Guangxi Province. The event's first confirmed casualties came when a residential building collapsed in a debris flow in Heping Town, Changxing County, Zhejiang Province, killing 1 person and leaving 3 missing. China's Ministry of Emergency Management has dispatched 13 emergency drainage teams to Zhoukou city, Henan, and the flooding remains ongoing as of GDACS's latest reporting window (31 July - 25 August 2026).",
   "event": {
     "impact": {
       "deaths": 1,
-      "displaced": 309701,
-      "summary": "GDACS's episode 10 report (reporting window 31 July - 19 August 2026) records 309,701 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu and newly-added Sichuan, with 1 person killed and 3 missing after a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, and China's Ministry of Emergency Management has deployed 13 emergency drainage teams to Zhoukou city, Henan, for urban waterlogging relief."
+      "displaced": 314734,
+      "summary": "GDACS's episode 11 report (reporting window 31 July - 25 August 2026) records 314,734 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and newly-added Guangxi, with 1 person killed and 3 missing after a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, and China's Ministry of Emergency Management has deployed 13 emergency drainage teams to Zhoukou city, Henan, for urban waterlogging relief."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
     "location": {
@@ -61,23 +69,18 @@
     "status": "ongoing"
   },
   "id": "china-floods-yangtze-typhoon-dolphin-2026",
-  "last_updated": "2026-08-23T09:22:00Z",
+  "last_updated": "2026-08-24T09:20:09Z",
   "name": "Typhoon Dolphin Flooding, Central China",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-22T09:10:58Z",
+        "at": "2026-08-24T09:20:09Z",
         "layer": "verify",
-        "run_id": "2026-08-22T09-10-58Z-4b35b7"
-      },
-      {
-        "at": "2026-08-23T09:22:00Z",
-        "layer": "verify",
-        "run_id": "2026-08-23T09-22-00Z-40262f"
+        "run_id": "2026-08-24T09-20-09Z-6cadbb"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-23T09-22-00Z-40262f"
+    "last_run_id": "2026-08-24T09-20-09Z-6cadbb"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -86,6 +89,10 @@
     "recency_rank": 739828
   },
   "updates": [
+    {
+      "date": "2026-08-24",
+      "text": "GDACS's episode 11 update raised the combined displacement total to 314,734 (from 309,701) and added evacuations in Guangxi Province; the death toll remained 1 with 3 missing, 134 rescued and 151 buildings damaged or destroyed."
+    },
     {
       "date": "2026-08-21",
       "text": "GDACS's episode 10 update raised the combined displacement total to 309,701 (from 302,931) and added evacuations in Sichuan Province to the affected areas; the death toll remained 1 with 3 missing, and GDACS's event-data API additionally recorded 134 people rescued and 151 buildings damaged or destroyed."
@@ -105,7 +112,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
