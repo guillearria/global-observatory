@@ -2,6 +2,14 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-25 — Daily World Pulse refresh (partial, in progress): Ebola DRC case-count update, Sudan cholera & Europe heatwave re-verified (2026-08-25) (`97f876b`)
+
+- **Updated:** ebola-bundibugyo-drc-2026, europe-heatwave-2026, sudan-cholera-outbreak-2026
+
+## 2026-08-24 — Refresh 3 stale threat records: biodiversity loss, critical infrastructure cyberattack, forced displacement (`58dbddc`)
+
+- **Updated:** biodiversity-loss-ecosystem-collapse, critical-infrastructure-cyberattack, global-forced-displacement
+
 ## 2026-08-24 — Daily World Pulse refresh: add Typhoon Saudel, Pakistan/China Yangtze toll rises, Hawaii Lala/Washington wildfires update, Spain Huesca contained, re-verify 20 ongoing events (2026-08-24) (`bdcfa9f`)
 
 - **Added:** typhoon-saudel-2026

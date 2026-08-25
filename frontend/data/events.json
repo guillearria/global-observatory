@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T09:20:26Z",
+  "last_updated": "2026-08-25T23:34:46Z",
   "published": [
     {
       "category": "flood",
@@ -1389,6 +1389,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-36",
+          "retrieved_date": "2026-08-25",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 24 August 2026, 15:41, data as of 22 August 2026) reports the Democratic Republic of the Congo has recorded 5,514 confirmed cases including 2,642 related deaths, with 808 patients hospitalised in isolation and about 1,200 recovered -- up from 5,290 cases/2,516 deaths as of the prior 19 August data cut. Provincial breakdown: Ituri 4,607 cases/2,065 deaths (28 of 36 health zones); North Kivu 714 cases/490 deaths (13 of 34 health zones); Haut-Uele 173 cases/77 deaths (6 of 13 health zones); Tshopo 15 cases/8 deaths (7 of 23 health zones); South Kivu 3 cases/1 death (1 of 34 health zones); Bas-Uele 2 cases/1 death (2 of 11 health zones) -- 57 of 151 health zones now affected across the same six provinces. Uganda's linked outbreak remains declared over (28 July 2026, 20 confirmed cases, 2 deaths).",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-08-24",
           "source_name": "ECDC",
@@ -1437,12 +1445,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak -- caused by Bundibugyo virus -- on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined that the DRC and Uganda epidemic constitutes a Public Health Emergency of International Concern. It is the largest Ebola outbreak recorded in the country: per ECDC's country overview (data as of 19 August), DRC has recorded 5,290 confirmed cases including 2,516 deaths, spanning 56 of 151 health zones across six provinces, with Ituri and North Kivu the most affected. Uganda's linked outbreak ended at 20 confirmed cases and two deaths, declared over by its Ministry of Health on 28 July 2026; imported cases were earlier confirmed in France and Germany. On 20 August 2026 WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC, including 20,000 doses for a Phase 3 clinical trial testing its efficacy against the Bundibugyo strain and 50,000 doses for frontline health workers; the DRC outbreak remains ongoing.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak -- caused by Bundibugyo virus -- on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined that the DRC and Uganda epidemic constitutes a Public Health Emergency of International Concern. It is the largest Ebola outbreak recorded in the country: per ECDC's country overview (data as of 22 August), DRC has recorded 5,514 confirmed cases including 2,642 deaths, spanning 57 of 151 health zones across six provinces, with Ituri and North Kivu the most affected. Uganda's linked outbreak ended at 20 confirmed cases and two deaths, declared over by its Ministry of Health on 28 July 2026; imported cases were earlier confirmed in France and Germany. On 20 August 2026 WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC, including 20,000 doses for a Phase 3 clinical trial testing its efficacy against the Bundibugyo strain and 50,000 doses for frontline health workers; the DRC outbreak remains ongoing.",
       "event": {
         "impact": {
-          "deaths": 2516,
+          "deaths": 2642,
           "displaced": null,
-          "summary": "Per ECDC's country overview (data as of 19 August 2026), the Democratic Republic of the Congo has recorded 5,290 confirmed cases and 2,516 deaths -- the largest Ebola outbreak in its history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases -- across 56 of 151 health zones in six provinces, with 1,152 recovered. Ituri and North Kivu remain the most affected provinces. Uganda's linked outbreak was declared over on 28 July 2026 with 20 confirmed cases and two deaths. On 20 August 2026, WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC -- 20,000 for a Phase 3 clinical trial and 50,000 for frontline health workers -- though Ervebo's efficacy against the Bundibugyo strain driving this outbreak has not yet been established."
+          "summary": "Per ECDC's country overview (data as of 22 August 2026), the Democratic Republic of the Congo has recorded 5,514 confirmed cases and 2,642 deaths -- the largest Ebola outbreak in its history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases -- across 57 of 151 health zones in six provinces, with about 1,200 recovered and 808 patients in isolation. Ituri and North Kivu remain the most affected provinces. Uganda's linked outbreak was declared over on 28 July 2026 with 20 confirmed cases and two deaths. On 20 August 2026, WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC -- 20,000 for a Phase 3 clinical trial and 50,000 for frontline health workers -- though Ervebo's efficacy against the Bundibugyo strain driving this outbreak has not yet been established."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -1456,7 +1464,7 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-08-24T09:20:09Z",
+      "last_updated": "2026-08-25T23:34:23Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
@@ -1464,10 +1472,15 @@
             "at": "2026-08-24T09:20:09Z",
             "layer": "verify",
             "run_id": "2026-08-24T09-20-09Z-97be13"
+          },
+          {
+            "at": "2026-08-25T23:34:23Z",
+            "layer": "verify",
+            "run_id": "2026-08-25T23-34-23Z-9a1608"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-24T09-20-09Z-97be13"
+        "last_run_id": "2026-08-25T23-34-23Z-9a1608"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1476,6 +1489,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-08-24",
+          "text": "ECDC's country overview (updated 24 August 2026, data as of 22 August) reported 5,514 confirmed cases and 2,642 deaths in the DRC, up from 5,290 cases and 2,516 deaths at the 19 August data cut -- 224 new confirmed cases and 126 new deaths -- with 808 patients in isolation and about 1,200 recovered; 57 of 151 health zones remain affected across six provinces."
+        },
         {
           "date": "2026-08-22",
           "text": "ECDC's country overview (updated 21 August 2026, data as of 19 August) reported 5,290 confirmed cases and 2,516 deaths in the DRC, up from 5,208 cases and 2,476 deaths at the 18 August data cut -- 81 new confirmed cases and 40 new deaths -- with 1,152 recovered; 56 of 151 health zones remain affected across six provinces."
@@ -1527,7 +1544,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 33 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 34 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1758,7 +1775,7 @@
         },
         {
           "id": "claim-16",
-          "retrieved_date": "2026-08-24",
+          "retrieved_date": "2026-08-25",
           "source_name": "WHO",
           "source_url": "https://www.who.int/europe/health-topics/heatwaves",
           "text": "WHO/Europe's topic and situations pages carry no statement dated after 7 July 2026 ('Extreme heat: more deadly weeks may still lie ahead for the European Region') as of this check, despite a distinct later mid-August heatwave episode across Western/Central Europe reported elsewhere; the 30 June and 7 July statements remain WHO/Europe's most recent dated assessments.",
@@ -1800,7 +1817,7 @@
         "status": "ongoing"
       },
       "id": "europe-heatwave-2026",
-      "last_updated": "2026-08-24T09:20:09Z",
+      "last_updated": "2026-08-25T23:34:46Z",
       "name": "2026 European Heatwave — Public Health Emergency",
       "provenance": {
         "history": [
@@ -1808,10 +1825,15 @@
             "at": "2026-08-24T09:20:09Z",
             "layer": "verify",
             "run_id": "2026-08-24T09-20-09Z-b092a9"
+          },
+          {
+            "at": "2026-08-25T23:34:46Z",
+            "layer": "verify",
+            "run_id": "2026-08-25T23-34-46Z-1910d1"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-24T09-20-09Z-b092a9"
+        "last_run_id": "2026-08-25T23-34-46Z-1910d1"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4582,7 +4604,7 @@
         },
         {
           "id": "claim-17",
-          "retrieved_date": "2026-08-24",
+          "retrieved_date": "2026-08-25",
           "source_name": "ECDC",
           "source_url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly",
           "text": "ECDC's cholera worldwide monthly overview and its Weekly Communicable Disease Threats Report (Week 33, 8-14 Aug 2026) both confirm the Sudan cholera dataset has not been refreshed since a data cut of 12 July 2026: 1,511 cumulative cases and 153 deaths reported since 1 January 2026, ranking Sudan second globally after DRC (3,841 cases). WHO/EMRO's dedicated Sudan crisis page returned repeated server errors (HTTP 502) and could not be verified this session.",
@@ -4648,7 +4670,7 @@
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-08-24T09:20:09Z",
+      "last_updated": "2026-08-25T23:34:46Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
@@ -4656,10 +4678,15 @@
             "at": "2026-08-24T09:20:09Z",
             "layer": "verify",
             "run_id": "2026-08-24T09-20-09Z-1debef"
+          },
+          {
+            "at": "2026-08-25T23:34:46Z",
+            "layer": "verify",
+            "run_id": "2026-08-25T23-34-46Z-468824"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-24T09-20-09Z-1debef"
+        "last_run_id": "2026-08-25T23-34-46Z-468824"
       },
       "schema_version": "1.0",
       "sort_keys": {
