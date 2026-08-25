@@ -213,6 +213,42 @@ Three things look like leftovers from the PR era but are intentional:
 
 ## Frontend & delivery
 
+- **Identity pass — the page should say whose work it is (NEXT UP, added 2026-08-24).**
+  The site is content-strong (map, three tabs, detail views, ~49 live events) and
+  identity-weak: no favicon, no masthead, no attribution, no footer, no `og:image`. A visitor
+  landing from the author's GitHub profile can't tell whose site this is without reading the
+  URL. Chrome only — `frontend/index.html` + `frontend/styles.css` (both hand-authored); the
+  event cards, map, tab logic and freshness line work and stay as they are, and nothing under
+  `data/` or `pipeline/` is touched.
+
+  The floor (measured gaps):
+  - **Favicon** — none today. Inline SVG data-URI keeps the zero-external-requests property.
+  - **Masthead** — today a bare `<h1>`. Add a small mark + wordmark, and a nav with two
+    links: *Code* → this repo, *Guillermo Arria-Devoe* → the profile. The swing-lab
+    dashboard (same author) shipped this exact pattern 2026-08-24 and is the reference:
+    decorative SVG mark (`aria-hidden="true" focusable="false"`), wordmark carries the name.
+  - **Footer** — none today. Attribution + code link + one line naming the deterministic
+    trust gate: it is this project's strongest credibility claim and currently appears
+    nowhere on the page.
+  - **`og:image`** — text OG tags exist; a simple static 1200×630 PNG is optional, skip if
+    it drags.
+
+  Decisions to make in-session, not pre-made here:
+  1. **Accent.** `--accent #6ea8fe` is a blue in the same family as the swing-lab
+     dashboard's; per-project accents are the portfolio principle. If it changes, compute
+     WCAG ratios against `--bg #0f1115` and `--panel #181b22` — the site is dark-only, one
+     theme to check, ≥4.5:1 for small text. (Lesson already paid for on the swing-lab pass:
+     its first draft put an accent on link text at 4.19:1 and failed AA.)
+  2. **Typography.** `system-ui` today. Note the constraint honestly: this site holds a
+     deliberate **zero-external-requests property** (see the Leaflet item below — the
+     basemap is vendored for exactly this reason), so a hosted-webfont `<link>` would break
+     it. The real choice is system-ui vs. self-hosted subsetted woff2, not vs. Google Fonts.
+  3. **The mark.** Globe/pulse-shaped, ≤30 lines of inline SVG, same mark in masthead and
+     favicon.
+
+  Before committing: compute contrast for every new text color (don't eyeball), check 320px
+  wrap (no page-level horizontal scroll — `styles.css` documents why), run the tests, view
+  the built page in a browser. The deploy is the live public site.
 - **Weekly email newsletter**: share each week's results by email — a digest of World Pulse
   changes (new events, major figure updates, resolved/contained transitions) plus any threat or
   archive additions. The diff source already exists: `CHANGELOG.md` is a projection of git history
