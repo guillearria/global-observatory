@@ -66,6 +66,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-17",
+      "retrieved_date": "2026-08-26",
+      "source_name": "NOAA",
+      "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/180854.shtml",
+      "text": "NOAA Central Pacific Hurricane Center Tropical Storm Lala Advisory Number 55 (500 PM HST Tuesday, August 25, 2026): maximum sustained winds '50 MPH...85 KM/H', located near '35.2N 177.6W', about 540 miles north of Pearl and Hermes Atoll, moving 'WNW OR 295 DEGREES AT 6 MPH...9 KM/H'; Lala is expected to become a post-tropical cyclone on Thursday; not the final advisory.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-16",
       "source_name": "County of Hawaiʻi",
@@ -130,12 +138,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Hurricane Lala passed closest to Hawaii Island on 15-16 August 2026 as a Category 1 hurricane, with NOAA's 15 August advisory reporting 75 mph sustained winds about 65 miles west of Kailua-Kona and forecasting up to 30-35 inches of rain over windward Hawaii Island with life-threatening flooding and mudslides. Flash flooding cut off road access in Nāʻālehu and Waiʻōhinu in Kaʻu, prompting search-and-rescue operations; the County reported record-breaking power outages and 43 people in two emergency shelters, while the state -- which declared emergencies on 13 and 14 August and activated about 180 National Guard personnel -- closed Hilo and Kona airports and Hawaii Island and Maui County commercial ports. Lala tracked away from the main islands, re-intensified to Category 4 on 18 August, and has weakened steadily since: NOAA's Advisory 48 (11 PM HST, 23 August) put it at 65 mph sustained winds -- a tropical storm -- about 405 miles north of Pearl and Hermes Atoll, with no coastal watches or warnings in effect and continued gradual weakening. No death toll, injury count or displacement total has been confirmed by an official state, county or NOAA source.",
+  "description": "Hurricane Lala passed closest to Hawaii Island on 15-16 August 2026 as a Category 1 hurricane, with NOAA's 15 August advisory reporting 75 mph sustained winds about 65 miles west of Kailua-Kona and forecasting up to 30-35 inches of rain over windward Hawaii Island with life-threatening flooding and mudslides. Flash flooding cut off road access in Nāʻālehu and Waiʻōhinu in Kaʻu, prompting search-and-rescue operations; the County reported record-breaking power outages and 43 people in two emergency shelters, while the state -- which declared emergencies on 13 and 14 August and activated about 180 National Guard personnel -- closed Hilo and Kona airports and Hawaii Island and Maui County commercial ports. Lala tracked away from the main islands, re-intensified to Category 4 on 18 August, and has weakened steadily since: NOAA's Advisory 55 (5 PM HST, 25 August) put it at 50 mph sustained winds -- a tropical storm -- about 540 miles north of Pearl and Hermes Atoll, moving west-northwest and expected to become a post-tropical cyclone on Thursday 27 August. No death toll, injury count or displacement total has been confirmed by an official state, county or NOAA source.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "Lala's closest pass on 15-16 August 2026 brought severe flash flooding to Hawaii Island's Kaʻū district -- with search-and-rescue operations in Nāʻālehu, Waiʻōhinu and Pāhala -- record-breaking power outages, 43 people in two emergency shelters, airport and port closures, and an island-wide 'Essential Only' water-conservation request. No death toll, injury count, quantified power-outage figure or displacement total has been confirmed by an official state, county or NOAA source; GDACS's last assessment kept a Green/low-impact rating with about 10,000 people in Category 1-or-higher wind zones, while a media-headlines module on its report page cited third-party reports of one storm-related death and up to about 111,000 customers without power on Hawaii Island. As of NOAA's Advisory 48 (11 PM HST, 23 August), Lala had weakened further to 65 mph sustained winds and a 988 mb central pressure, about 405 miles north of Pearl and Hermes Atoll, moving north-northwest at 6 mph with no coastal watches or warnings in effect and continued gradual weakening."
+      "summary": "Lala's closest pass on 15-16 August 2026 brought severe flash flooding to Hawaii Island's Kaʻū district -- with search-and-rescue operations in Nāʻālehu, Waiʻōhinu and Pāhala -- record-breaking power outages, 43 people in two emergency shelters, airport and port closures, and an island-wide 'Essential Only' water-conservation request. No death toll, injury count, quantified power-outage figure or displacement total has been confirmed by an official state, county or NOAA source; GDACS's last assessment kept a Green/low-impact rating with about 10,000 people in Category 1-or-higher wind zones, while a media-headlines module on its report page cited third-party reports of one storm-related death and up to about 111,000 customers without power on Hawaii Island. As of NOAA's Advisory 55 (5 PM HST, 25 August), Lala had weakened further to 50 mph sustained winds, about 540 miles north of Pearl and Hermes Atoll, moving west-northwest at 6 mph and expected to become a post-tropical cyclone on Thursday 27 August."
     },
     "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/180854.shtml",
     "location": {
@@ -145,11 +153,11 @@
       "region": "Hawaii Island (Big Island), spreading impacts to Maui, Oahu and Kauai"
     },
     "occurrence_date": "2026-08-15",
-    "scale": "Advisory 44 (22 August, 11 PM HST): Tropical Storm, 70 mph sustained winds, about 335 miles north-northeast of Pearl and Hermes Atoll, no coastal watches or warnings in effect; gradual weakening forecast to continue",
+    "scale": "Advisory 55 (25 August, 5 PM HST): Tropical Storm, 50 mph sustained winds, about 540 miles north of Pearl and Hermes Atoll, moving west-northwest at 6 mph; expected to become post-tropical on Thursday 27 August",
     "status": "ongoing"
   },
   "id": "usa-hawaii-hurricane-lala-2026",
-  "last_updated": "2026-08-24T09:20:09Z",
+  "last_updated": "2026-08-26T04:52:24Z",
   "name": "Hurricane Lala, Hawaii",
   "provenance": {
     "history": [
@@ -157,10 +165,15 @@
         "at": "2026-08-24T09:20:09Z",
         "layer": "verify",
         "run_id": "2026-08-24T09-20-09Z-cea520"
+      },
+      {
+        "at": "2026-08-26T04:52:24Z",
+        "layer": "verify",
+        "run_id": "world-pulse-2026-08-26-local"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-24T09-20-09Z-cea520"
+    "last_run_id": "world-pulse-2026-08-26-local"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -169,6 +182,10 @@
     "recency_rank": 739843
   },
   "updates": [
+    {
+      "date": "2026-08-25",
+      "text": "NOAA's Advisory 55 (5 PM HST, 25 August) put Lala at 50 mph sustained winds about 540 miles north of Pearl and Hermes Atoll, moving west-northwest at 6 mph, and forecast it to become a post-tropical cyclone on Thursday 27 August."
+    },
     {
       "date": "2026-08-24",
       "text": "NOAA's Advisory 48 (11 PM HST, 23 August) put Lala at 65 mph sustained winds, about 405 miles north of Pearl and Hermes Atoll, moving north-northwest at 6 mph with no coastal watches or warnings and continued gradual weakening."
@@ -224,7 +241,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

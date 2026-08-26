@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T04:21:21Z",
+  "last_updated": "2026-08-26T04:52:24Z",
   "published": [
     {
       "category": "flood",
@@ -468,7 +468,7 @@
         },
         {
           "id": "claim-11",
-          "retrieved_date": "2026-08-24",
+          "retrieved_date": "2026-08-26",
           "source_name": "Government of British Columbia",
           "source_url": "https://www.emergencyinfobc.gov.bc.ca/",
           "text": "EmergencyInfoBC provincial emergencies listing (checked 17 August 2026): confirms the State of Provincial Emergency declared 8 August 2026 is still in effect, with active wildfire evacuation orders/alerts listed for the Regional District of North Okanagan, Okanagan Indian Band, Regional District of Okanagan-Similkameen, District of Summerland, City of Revelstoke and other regional districts and First Nations, most recently updated 16 August 2026.",
@@ -630,7 +630,7 @@
         "status": "ongoing"
       },
       "id": "canada-british-columbia-wildfires-2026",
-      "last_updated": "2026-08-24T09:20:09Z",
+      "last_updated": "2026-08-26T04:52:24Z",
       "name": "Wildfire State of Emergency — British Columbia, Canada",
       "provenance": {
         "history": [
@@ -638,10 +638,15 @@
             "at": "2026-08-24T09:20:09Z",
             "layer": "verify",
             "run_id": "2026-08-24T09-20-09Z-21bb56"
+          },
+          {
+            "at": "2026-08-26T04:52:24Z",
+            "layer": "verify",
+            "run_id": "world-pulse-2026-08-26-local"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-24T09-20-09Z-21bb56"
+        "last_run_id": "world-pulse-2026-08-26-local"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -915,14 +920,22 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
           "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 11, reporting window 31 July - 25 August 2026) records 314,734 people displaced, up from 309,701 in episode 10, with newly reported evacuations in Guangxi Province added to the affected areas; the death toll remains 1 with 3 missing in Zhejiang, 134 rescued and 151 buildings damaged or destroyed (unchanged). Overall alert level remains Orange.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-08-26",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
+          "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 13, as of 24 August 2026; event dates 31 July - 25 August 2026) records 2 deaths and 319,550 people displaced, and remains an Orange alert: 'Flood can have a medium humanitarian impact based on the magnitude, exposed population and vulnerability.'",
+          "verification_status": "verified"
         }
       ],
-      "description": "Heavy rain from Typhoon Dolphin and its remnants triggered severe flooding across central and eastern China beginning 31 July 2026, with the heaviest impacts from around 11 August 2026 in Hubei Province. GDACS rates the event (FL-2026-000148-CHN) an Orange alert, with a combined 314,734 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and newly-added Guangxi Province. The event's first confirmed casualties came when a residential building collapsed in a debris flow in Heping Town, Changxing County, Zhejiang Province, killing 1 person and leaving 3 missing. China's Ministry of Emergency Management has dispatched 13 emergency drainage teams to Zhoukou city, Henan, and the flooding remains ongoing as of GDACS's latest reporting window (31 July - 25 August 2026).",
+      "description": "Heavy rain from Typhoon Dolphin and its remnants triggered severe flooding across central and eastern China beginning 31 July 2026, with the heaviest impacts from around 11 August 2026 in Hubei Province. GDACS rates the event (FL-2026-000148-CHN) an Orange alert, with a combined 319,550 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi provinces and 2 deaths recorded as of its episode 13 update (24 August). The event's first confirmed casualties came when a residential building collapsed in a debris flow in Heping Town, Changxing County, Zhejiang Province, killing 1 person and leaving 3 missing. China's Ministry of Emergency Management has dispatched 13 emergency drainage teams to Zhoukou city, Henan, and the flooding remains ongoing as of GDACS's latest reporting window (31 July - 25 August 2026).",
       "event": {
         "impact": {
-          "deaths": 1,
-          "displaced": 314734,
-          "summary": "GDACS's episode 11 report (reporting window 31 July - 25 August 2026) records 314,734 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and newly-added Guangxi, with 1 person killed and 3 missing after a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, and China's Ministry of Emergency Management has deployed 13 emergency drainage teams to Zhoukou city, Henan, for urban waterlogging relief."
+          "deaths": 2,
+          "displaced": 319550,
+          "summary": "GDACS's episode 13 report (as of 24 August 2026; reporting window 31 July - 25 August) records 319,550 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi and 2 deaths, up from 314,734 displaced and 1 death in episode 11; the first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, and China's Ministry of Emergency Management has deployed 13 emergency drainage teams to Zhoukou city, Henan, for urban waterlogging relief."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
         "location": {
@@ -932,11 +945,11 @@
           "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu provinces/municipalities (Yangtze basin and eastern seaboard)"
         },
         "occurrence_date": "2026-07-31",
-        "scale": "GDACS Orange alert; 309,701 evacuated across 7 provinces/municipalities; 1 death, 3 missing (Zhejiang)",
+        "scale": "GDACS Orange alert; 319,550 displaced across 8 provinces/municipalities; 2 deaths, 3 missing (GDACS episode 13, 24 August 2026)",
         "status": "ongoing"
       },
       "id": "china-floods-yangtze-typhoon-dolphin-2026",
-      "last_updated": "2026-08-24T09:20:09Z",
+      "last_updated": "2026-08-26T04:52:24Z",
       "name": "Typhoon Dolphin Flooding, Central China",
       "provenance": {
         "history": [
@@ -944,10 +957,15 @@
             "at": "2026-08-24T09:20:09Z",
             "layer": "verify",
             "run_id": "2026-08-24T09-20-09Z-6cadbb"
+          },
+          {
+            "at": "2026-08-26T04:52:24Z",
+            "layer": "verify",
+            "run_id": "world-pulse-2026-08-26-local"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-24T09-20-09Z-6cadbb"
+        "last_run_id": "world-pulse-2026-08-26-local"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -956,6 +974,10 @@
         "recency_rank": 739828
       },
       "updates": [
+        {
+          "date": "2026-08-24",
+          "text": "GDACS's episode 13 update (24 August) raised the displacement total to 319,550 (from 314,734 in episode 11) and the recorded death toll to 2 (from 1); the event remains at Orange alert with its reporting window extended to 25 August."
+        },
         {
           "date": "2026-08-24",
           "text": "GDACS's episode 11 update raised the combined displacement total to 314,734 (from 309,701) and added evacuations in Guangxi Province; the death toll remained 1 with 3 missing, 134 rescued and 151 buildings damaged or destroyed."
@@ -979,7 +1001,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1012,7 +1034,7 @@
         },
         {
           "id": "claim-12",
-          "retrieved_date": "2026-08-24",
+          "retrieved_date": "2026-08-26",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1557236, episode 1724218) remains an Overall Red alert with a GDACS score of 2.2, now estimating about 5.4 million people within zones of MMI VII or greater shaking, up from about 5.2 million previously recorded on the same page; the most recent listed activity is UNITAR-UNOSAT's 'Potentially Damaged Buildings' assessment, activated 21 August 2026 10:25 UTC.",
@@ -1102,7 +1124,7 @@
         "status": "ongoing"
       },
       "id": "colombia-earthquake-choco-2026",
-      "last_updated": "2026-08-24T09:20:09Z",
+      "last_updated": "2026-08-26T04:52:24Z",
       "name": "M7.4 Earthquake, Chocó, Colombia",
       "provenance": {
         "history": [
@@ -1110,10 +1132,15 @@
             "at": "2026-08-24T09:20:09Z",
             "layer": "verify",
             "run_id": "2026-08-24T09-20-09Z-219e73"
+          },
+          {
+            "at": "2026-08-26T04:52:24Z",
+            "layer": "verify",
+            "run_id": "world-pulse-2026-08-26-local"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-24T09-20-09Z-219e73"
+        "last_run_id": "world-pulse-2026-08-26-local"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1397,6 +1424,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-37",
+          "retrieved_date": "2026-08-26",
+          "source_name": "WHO",
+          "source_url": "https://www.afro.who.int/countries/democratic-republic-of-congo/publication/ebola-bundibugyo-virus-disease-outbreak-7",
+          "text": "WHO AFRO, 'EBOLA BUNDIBUGYO VIRUS DISEASE OUTBREAK Democratic Republic of the Congo | Uganda Weekly External Situation Report 15, Data as of 23 August 2026': total confirmed cases 5,584 and confirmed deaths 2,680, with 563 new cases and 302 new deaths since Report 14; affected health zones increased from 55 to 57 across six provinces, Viadana (Bas-Uele) and Mutwanga (Nord-Kivu) the most recently affected; the report describes 'sustained transmission, high mortality and continued geographic expansion', with Ituri the primary hotspot and transmission intensifying in Nord-Kivu and Haut-Uele.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-08-24",
           "source_name": "ECDC",
@@ -1445,12 +1480,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak -- caused by Bundibugyo virus -- on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined that the DRC and Uganda epidemic constitutes a Public Health Emergency of International Concern. It is the largest Ebola outbreak recorded in the country: per ECDC's country overview (data as of 22 August), DRC has recorded 5,514 confirmed cases including 2,642 deaths, spanning 57 of 151 health zones across six provinces, with Ituri and North Kivu the most affected. Uganda's linked outbreak ended at 20 confirmed cases and two deaths, declared over by its Ministry of Health on 28 July 2026; imported cases were earlier confirmed in France and Germany. On 20 August 2026 WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC, including 20,000 doses for a Phase 3 clinical trial testing its efficacy against the Bundibugyo strain and 50,000 doses for frontline health workers; the DRC outbreak remains ongoing.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak -- caused by Bundibugyo virus -- on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined that the DRC and Uganda epidemic constitutes a Public Health Emergency of International Concern. It is the largest Ebola outbreak recorded in the country: per WHO AFRO's Weekly External Situation Report 15 (data as of 23 August), DRC has recorded 5,584 confirmed cases including 2,680 confirmed deaths, spanning 57 of 151 health zones across six provinces, with Ituri the primary hotspot and transmission intensifying in Nord-Kivu and Haut-Uele. Uganda's linked outbreak ended at 20 confirmed cases and two deaths, declared over by its Ministry of Health on 28 July 2026; imported cases were earlier confirmed in France and Germany. On 20 August 2026 WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC, including 20,000 doses for a Phase 3 clinical trial testing its efficacy against the Bundibugyo strain and 50,000 doses for frontline health workers; the DRC outbreak remains ongoing.",
       "event": {
         "impact": {
-          "deaths": 2642,
+          "deaths": 2680,
           "displaced": null,
-          "summary": "Per ECDC's country overview (data as of 22 August 2026), the Democratic Republic of the Congo has recorded 5,514 confirmed cases and 2,642 deaths -- the largest Ebola outbreak in its history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases -- across 57 of 151 health zones in six provinces, with about 1,200 recovered and 808 patients in isolation. Ituri and North Kivu remain the most affected provinces. Uganda's linked outbreak was declared over on 28 July 2026 with 20 confirmed cases and two deaths. On 20 August 2026, WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC -- 20,000 for a Phase 3 clinical trial and 50,000 for frontline health workers -- though Ervebo's efficacy against the Bundibugyo strain driving this outbreak has not yet been established."
+          "summary": "Per WHO AFRO's Weekly External Situation Report 15 (data as of 23 August 2026), the Democratic Republic of the Congo has recorded 5,584 confirmed cases and 2,680 confirmed deaths -- 563 new cases and 302 new deaths in a week -- the largest Ebola outbreak in its history, surpassing the 2018-2020 outbreak's 3,317 confirmed cases, across 57 of 151 health zones in six provinces, the most recently affected being Viadana (Bas-Uele) and Mutwanga (Nord-Kivu). WHO describes sustained transmission, high mortality and continued geographic expansion, with Ituri the primary hotspot and transmission intensifying in Nord-Kivu and Haut-Uele; ECDC's 22 August overview counted about 1,200 recovered and 808 patients in isolation. Uganda's linked outbreak was declared over on 28 July 2026 with 20 confirmed cases and two deaths. On 20 August 2026, WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC -- 20,000 for a Phase 3 clinical trial and 50,000 for frontline health workers -- though Ervebo's efficacy against the Bundibugyo strain driving this outbreak has not yet been established."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -1464,7 +1499,7 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-08-25T23:34:23Z",
+      "last_updated": "2026-08-26T04:52:24Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
@@ -1477,10 +1512,15 @@
             "at": "2026-08-25T23:34:23Z",
             "layer": "verify",
             "run_id": "2026-08-25T23-34-23Z-9a1608"
+          },
+          {
+            "at": "2026-08-26T04:52:24Z",
+            "layer": "verify",
+            "run_id": "world-pulse-2026-08-26-local"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-25T23-34-23Z-9a1608"
+        "last_run_id": "world-pulse-2026-08-26-local"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1489,6 +1529,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-08-26",
+          "text": "WHO AFRO's Weekly External Situation Report 15 (data as of 23 August 2026) reported 5,584 confirmed cases and 2,680 confirmed deaths -- 563 new cases and 302 new deaths since Report 14 -- with affected health zones rising from 55 to 57 across six provinces; Viadana (Bas-Uele) and Mutwanga (Nord-Kivu) are the most recently affected."
+        },
         {
           "date": "2026-08-24",
           "text": "ECDC's country overview (updated 24 August 2026, data as of 22 August) reported 5,514 confirmed cases and 2,642 deaths in the DRC, up from 5,290 cases and 2,516 deaths at the 19 August data cut -- 224 new confirmed cases and 126 new deaths -- with 808 patients in isolation and about 1,200 recovered; 57 of 151 health zones remain affected across six provinces."
@@ -1544,7 +1588,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 34 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 35 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3210,7 +3254,7 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-08-24",
+          "retrieved_date": "2026-08-26",
           "source_name": "Ministry of Finance (Japan)",
           "source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/monthly/20260731e.html",
           "text": "The Ministry of Finance's own Foreign Exchange Intervention Operations monthly release for the period 29 June 2026 through 29 July 2026 (published 31 July 2026) reports: \"Total amount of foreign exchange intervention operations for the period from June 29, 2026 through July 29, 2026: ¥ 0\" — confirming no yen-buying intervention had occurred in the month immediately preceding the 31 July action.",
@@ -3236,7 +3280,7 @@
         "status": "ongoing"
       },
       "id": "japan-yen-intervention-2026",
-      "last_updated": "2026-08-24T09:20:09Z",
+      "last_updated": "2026-08-26T04:52:24Z",
       "name": "Yen Crisis — Joint Japan-US Currency Intervention",
       "provenance": {
         "history": [
@@ -3244,10 +3288,15 @@
             "at": "2026-08-24T09:20:09Z",
             "layer": "verify",
             "run_id": "2026-08-24T09-20-09Z-e043b7"
+          },
+          {
+            "at": "2026-08-26T04:52:24Z",
+            "layer": "verify",
+            "run_id": "world-pulse-2026-08-26-local"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-24T09-20-09Z-e043b7"
+        "last_run_id": "world-pulse-2026-08-26-local"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4009,6 +4058,71 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "wildfire",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-08-26",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030252",
+          "text": "GDACS wildfire report for Serbia (event id 1030252, 05 Aug 2026 - 25 Aug 2026, latest EC/ECHO daily map update 24 Aug 2026): 'Forest fire can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability'; burned area 18,310 hectares; 510 people in the burned area.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-08-26",
+          "source_name": "European Union",
+          "source_url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/eu-sends-urgent-support-serbia-wildfires-intensify-2026-08-24_en",
+          "text": "European Civil Protection and Humanitarian Aid Operations, 'EU sends urgent support to Serbia as wildfires intensify' (24 August 2026): 'more than 3,500 hectares have already been impacted' at the Deliblato Sands Special Nature Reserve; 'Serbia activated the civil protection mechanism on Friday 21 August'; the EU mobilised '4 helicopters from the strategic reserve of the rescEU fleet based in Czechia, Romania and Slovakia' plus 'ground firefighting teams from Germany and Romania'; 'The fires have been ongoing for more than two weeks, fuelled by strong winds, challenging conditions, and terrain that is difficult to access'; the Copernicus emergency management service 'was already activated on 8 August'.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Wildfires have burned across Serbia since 5 August 2026, including the Deliblato Sands Special Nature Reserve in Vojvodina, and on 21 August Serbia activated the EU Civil Protection Mechanism for help. GDACS rates the event an Orange alert for medium humanitarian impact, with 18,310 hectares burned and about 510 people within the burned area as of its 24 August update; the European Commission reports more than 3,500 hectares impacted at Deliblato Sands and fires burning for more than two weeks, fuelled by strong winds and hard-to-access terrain. The EU mobilised four rescEU helicopters from Czechia, Romania and Slovakia plus ground firefighting teams from Germany and Romania, and the Copernicus emergency mapping service has been active since 8 August. No deaths or evacuation figures have been published by these sources.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "GDACS records 18,310 hectares burned and about 510 people within the burned area over 5-25 August 2026 (latest update 24 August), rated a medium humanitarian impact; the European Commission reports more than 3,500 hectares impacted at the Deliblato Sands reserve, with four rescEU helicopters and German and Romanian ground teams deployed after Serbia's 21 August activation of the EU Civil Protection Mechanism. No deaths or evacuation figures have been published by these sources."
+        },
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030252",
+        "location": {
+          "country": "Serbia",
+          "lat": 44.83,
+          "lon": 21.05,
+          "region": "Deliblato Sands Special Nature Reserve, South Banat District, Vojvodina"
+        },
+        "occurrence_date": "2026-08-05",
+        "scale": "GDACS Orange alert; 18,310 ha burned; EU Civil Protection Mechanism activated 21 August 2026",
+        "status": "ongoing"
+      },
+      "id": "serbia-wildfires-2026",
+      "last_updated": "2026-08-26T04:50:49Z",
+      "name": "Wildfires — Deliblato Sands, Serbia",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-08-26T04:50:49Z",
+            "layer": "verify",
+            "run_id": "2026-08-26T04-50-49Z-aea162"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-08-26T04-50-49Z-aea162"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398331.0,
+        "impact_rank": 1,
+        "recency_rank": 739833
+      },
+      "updates": [],
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5291,14 +5405,22 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
           "text": "GDACS assessed Tropical Cyclone SAUDEL-26 at an Overall Orange alert (medium humanitarian impact), with peak sustained winds of 213 km/h (Category 4) and approximately 3.5 million people exposed to Category 1 (120 km/h) or higher winds across the Northern Mariana Islands, Japan and China; the event window runs 18-24 August 2026, with a maximum storm surge forecast for 27 August 2026 at 17:00 UTC.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-08-26",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
+          "text": "GDACS's tropical cyclone report for SAUDEL-26 (active from 18 August to 26 August 2026) rates the storm an overall Green alert -- 'a low humanitarian impact based on the maximum sustained wind speed, exposed population and vulnerability' -- with maximum sustained winds of '213 km/h Category 4', approximately 280,000 people in Category 1 or higher wind zones across Japan and the Northern Mariana Islands, and a maximum storm surge of 1.8 metres.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Tropical Cyclone Saudel intensified to Category 4 strength (213 km/h sustained winds) in the Philippine Sea in mid-August 2026, tracking toward Japan's Ryukyu Islands after affecting the Northern Mariana Islands. GDACS assessed the storm at an Overall Orange alert (medium humanitarian impact), with approximately 3.5 million people exposed to Category 1 or higher winds across the Northern Mariana Islands, Japan and China. As of 24 August 2026 the storm had not yet made landfall and no death, injury or displacement figure has been confirmed by an authoritative source; a maximum storm surge is forecast for 27 August 2026.",
+      "description": "Tropical Cyclone Saudel intensified to Category 4 strength (213 km/h sustained winds) in the Philippine Sea in mid-August 2026, tracking toward Japan's Ryukyu Islands after affecting the Northern Mariana Islands. GDACS assessed the storm at an Orange alert with about 3.5 million people exposed on 24 August, then lowered it to an overall Green alert (low humanitarian impact) as the storm weakened, with its active track recorded as 18-26 August 2026, about 280,000 people in Category 1 or higher wind zones and a maximum storm surge of 1.8 m. No death, injury or displacement figure has been confirmed by an authoritative source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS assessed Tropical Cyclone SAUDEL-26 at an Overall Orange alert (medium humanitarian impact), with peak sustained winds of 213 km/h (Category 4) and approximately 3.5 million people exposed to Category 1 or higher winds across the Northern Mariana Islands, Japan and China. No death, injury or displacement figure has been confirmed by an authoritative source as of 24 August 2026, and a maximum storm surge is forecast for 27 August 2026 at 17:00 UTC."
+          "summary": "GDACS's current report (26 August 2026) rates SAUDEL-26 an overall Green alert (low humanitarian impact) for its 18-26 August track across the Northern Mariana Islands and Japan, down from the Orange alert assessed on 24 August, with peak sustained winds of 213 km/h (Category 4), about 280,000 people in Category 1 or higher wind zones and a maximum storm surge of 1.8 m. No death, injury or displacement figure has been confirmed by an authoritative source."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
         "location": {
@@ -5308,11 +5430,11 @@
           "region": "Philippine Sea, approaching the Ryukyu Islands (Okinawa / Amami Ōshima)"
         },
         "occurrence_date": "2026-08-18",
-        "scale": "Category 4 (213 km/h) — GDACS Orange alert",
-        "status": "ongoing"
+        "scale": "Category 4 peak (213 km/h); GDACS alert lowered to Green as of 26 August 2026",
+        "status": "contained"
       },
       "id": "typhoon-saudel-2026",
-      "last_updated": "2026-08-24T09:20:26Z",
+      "last_updated": "2026-08-26T04:52:24Z",
       "name": "Typhoon Saudel — Northern Mariana Islands, Japan & China",
       "provenance": {
         "history": [
@@ -5320,10 +5442,15 @@
             "at": "2026-08-24T09:20:26Z",
             "layer": "verify",
             "run_id": "2026-08-24T09-20-26Z-99fb76"
+          },
+          {
+            "at": "2026-08-26T04:52:24Z",
+            "layer": "verify",
+            "run_id": "world-pulse-2026-08-26-local"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-24T09-20-26Z-99fb76"
+        "last_run_id": "world-pulse-2026-08-26-local"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5331,9 +5458,15 @@
         "impact_rank": 1,
         "recency_rank": 739846
       },
+      "updates": [
+        {
+          "date": "2026-08-26",
+          "text": "GDACS lowered SAUDEL-26 to an overall Green alert (low humanitarian impact) for its 18-26 August track, with about 280,000 people in Category 1 or higher wind zones across Japan and the Northern Mariana Islands (from about 3.5 million at the 24 August Orange assessment) and a maximum storm surge of 1.8 m."
+        }
+      ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5405,6 +5538,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-17",
+          "retrieved_date": "2026-08-26",
+          "source_name": "NOAA",
+          "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/180854.shtml",
+          "text": "NOAA Central Pacific Hurricane Center Tropical Storm Lala Advisory Number 55 (500 PM HST Tuesday, August 25, 2026): maximum sustained winds '50 MPH...85 KM/H', located near '35.2N 177.6W', about 540 miles north of Pearl and Hermes Atoll, moving 'WNW OR 295 DEGREES AT 6 MPH...9 KM/H'; Lala is expected to become a post-tropical cyclone on Thursday; not the final advisory.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-16",
           "source_name": "County of Hawaiʻi",
@@ -5469,12 +5610,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Hurricane Lala passed closest to Hawaii Island on 15-16 August 2026 as a Category 1 hurricane, with NOAA's 15 August advisory reporting 75 mph sustained winds about 65 miles west of Kailua-Kona and forecasting up to 30-35 inches of rain over windward Hawaii Island with life-threatening flooding and mudslides. Flash flooding cut off road access in Nāʻālehu and Waiʻōhinu in Kaʻu, prompting search-and-rescue operations; the County reported record-breaking power outages and 43 people in two emergency shelters, while the state -- which declared emergencies on 13 and 14 August and activated about 180 National Guard personnel -- closed Hilo and Kona airports and Hawaii Island and Maui County commercial ports. Lala tracked away from the main islands, re-intensified to Category 4 on 18 August, and has weakened steadily since: NOAA's Advisory 48 (11 PM HST, 23 August) put it at 65 mph sustained winds -- a tropical storm -- about 405 miles north of Pearl and Hermes Atoll, with no coastal watches or warnings in effect and continued gradual weakening. No death toll, injury count or displacement total has been confirmed by an official state, county or NOAA source.",
+      "description": "Hurricane Lala passed closest to Hawaii Island on 15-16 August 2026 as a Category 1 hurricane, with NOAA's 15 August advisory reporting 75 mph sustained winds about 65 miles west of Kailua-Kona and forecasting up to 30-35 inches of rain over windward Hawaii Island with life-threatening flooding and mudslides. Flash flooding cut off road access in Nāʻālehu and Waiʻōhinu in Kaʻu, prompting search-and-rescue operations; the County reported record-breaking power outages and 43 people in two emergency shelters, while the state -- which declared emergencies on 13 and 14 August and activated about 180 National Guard personnel -- closed Hilo and Kona airports and Hawaii Island and Maui County commercial ports. Lala tracked away from the main islands, re-intensified to Category 4 on 18 August, and has weakened steadily since: NOAA's Advisory 55 (5 PM HST, 25 August) put it at 50 mph sustained winds -- a tropical storm -- about 540 miles north of Pearl and Hermes Atoll, moving west-northwest and expected to become a post-tropical cyclone on Thursday 27 August. No death toll, injury count or displacement total has been confirmed by an official state, county or NOAA source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "Lala's closest pass on 15-16 August 2026 brought severe flash flooding to Hawaii Island's Kaʻū district -- with search-and-rescue operations in Nāʻālehu, Waiʻōhinu and Pāhala -- record-breaking power outages, 43 people in two emergency shelters, airport and port closures, and an island-wide 'Essential Only' water-conservation request. No death toll, injury count, quantified power-outage figure or displacement total has been confirmed by an official state, county or NOAA source; GDACS's last assessment kept a Green/low-impact rating with about 10,000 people in Category 1-or-higher wind zones, while a media-headlines module on its report page cited third-party reports of one storm-related death and up to about 111,000 customers without power on Hawaii Island. As of NOAA's Advisory 48 (11 PM HST, 23 August), Lala had weakened further to 65 mph sustained winds and a 988 mb central pressure, about 405 miles north of Pearl and Hermes Atoll, moving north-northwest at 6 mph with no coastal watches or warnings in effect and continued gradual weakening."
+          "summary": "Lala's closest pass on 15-16 August 2026 brought severe flash flooding to Hawaii Island's Kaʻū district -- with search-and-rescue operations in Nāʻālehu, Waiʻōhinu and Pāhala -- record-breaking power outages, 43 people in two emergency shelters, airport and port closures, and an island-wide 'Essential Only' water-conservation request. No death toll, injury count, quantified power-outage figure or displacement total has been confirmed by an official state, county or NOAA source; GDACS's last assessment kept a Green/low-impact rating with about 10,000 people in Category 1-or-higher wind zones, while a media-headlines module on its report page cited third-party reports of one storm-related death and up to about 111,000 customers without power on Hawaii Island. As of NOAA's Advisory 55 (5 PM HST, 25 August), Lala had weakened further to 50 mph sustained winds, about 540 miles north of Pearl and Hermes Atoll, moving west-northwest at 6 mph and expected to become a post-tropical cyclone on Thursday 27 August."
         },
         "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/180854.shtml",
         "location": {
@@ -5484,11 +5625,11 @@
           "region": "Hawaii Island (Big Island), spreading impacts to Maui, Oahu and Kauai"
         },
         "occurrence_date": "2026-08-15",
-        "scale": "Advisory 44 (22 August, 11 PM HST): Tropical Storm, 70 mph sustained winds, about 335 miles north-northeast of Pearl and Hermes Atoll, no coastal watches or warnings in effect; gradual weakening forecast to continue",
+        "scale": "Advisory 55 (25 August, 5 PM HST): Tropical Storm, 50 mph sustained winds, about 540 miles north of Pearl and Hermes Atoll, moving west-northwest at 6 mph; expected to become post-tropical on Thursday 27 August",
         "status": "ongoing"
       },
       "id": "usa-hawaii-hurricane-lala-2026",
-      "last_updated": "2026-08-24T09:20:09Z",
+      "last_updated": "2026-08-26T04:52:24Z",
       "name": "Hurricane Lala, Hawaii",
       "provenance": {
         "history": [
@@ -5496,10 +5637,15 @@
             "at": "2026-08-24T09:20:09Z",
             "layer": "verify",
             "run_id": "2026-08-24T09-20-09Z-cea520"
+          },
+          {
+            "at": "2026-08-26T04:52:24Z",
+            "layer": "verify",
+            "run_id": "world-pulse-2026-08-26-local"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-24T09-20-09Z-cea520"
+        "last_run_id": "world-pulse-2026-08-26-local"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5508,6 +5654,10 @@
         "recency_rank": 739843
       },
       "updates": [
+        {
+          "date": "2026-08-25",
+          "text": "NOAA's Advisory 55 (5 PM HST, 25 August) put Lala at 50 mph sustained winds about 540 miles north of Pearl and Hermes Atoll, moving west-northwest at 6 mph, and forecast it to become a post-tropical cyclone on Thursday 27 August."
+        },
         {
           "date": "2026-08-24",
           "text": "NOAA's Advisory 48 (11 PM HST, 23 August) put Lala at 65 mph sustained winds, about 405 miles north of Pearl and Hermes Atoll, moving north-northwest at 6 mph with no coastal watches or warnings and continued gradual weakening."
@@ -5563,7 +5713,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5830,6 +5980,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-19",
+          "retrieved_date": "2026-08-26",
+          "source_name": "InciWeb (US wildland fire agencies)",
+          "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+          "text": "InciWeb's Sinlahekin Fire page, updated Tuesday, August 25, 2026 at 9:18 PM Pacific time, records the fire at 155,491 acres and 56% containment with 1,718 personnel assigned; it started July 26, 2026, '12 Miles W of Tonasket, WA'; recreation areas between Conconully and Loomis and the Loomis State Forest remain closed.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-08",
           "source_name": "Office of the Governor of Washington State",
@@ -5894,12 +6052,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, had grown to 155,209 acres and was 53% contained as of 23 August 2026, with 1,563 personnel assigned and the northwest portion near Toats Coulee Road remaining active; full containment is estimated for 31 August. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
+      "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, had grown to 155,491 acres and was 56% contained as of 25 August 2026, with 1,718 personnel assigned and the northwest portion near Toats Coulee Road remaining active; full containment is estimated for 31 August. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and had grown to 155,209 acres at 53% containment as of 23 August 2026, with 1,563 personnel assigned; the northwest portion near Toats Coulee Road remained active toward Hodges Horse Pasture, with crews conducting contingency line work and an estimated full-containment date of 31 August. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
+          "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and had grown to 155,491 acres at 56% containment as of 25 August 2026, with 1,718 personnel assigned; the northwest portion near Toats Coulee Road remained active toward Hodges Horse Pasture, with crews conducting contingency line work and an estimated full-containment date of 31 August. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
         },
         "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
         "location": {
@@ -5909,11 +6067,11 @@
           "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
         },
         "occurrence_date": "2026-08-01",
-        "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 154,480 acres / 47% contained as of 22 August 2026, managed by Cal Fire Incident Management Team 5",
+        "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 155,491 acres / 56% contained as of 25 August 2026, managed by Cal Fire Incident Management Team 5",
         "status": "ongoing"
       },
       "id": "usa-washington-wildfires-2026",
-      "last_updated": "2026-08-24T09:20:09Z",
+      "last_updated": "2026-08-26T04:52:24Z",
       "name": "Wildfire Emergency — Eastern Washington, USA",
       "provenance": {
         "history": [
@@ -5921,10 +6079,15 @@
             "at": "2026-08-24T09:20:09Z",
             "layer": "verify",
             "run_id": "2026-08-24T09-20-09Z-464de1"
+          },
+          {
+            "at": "2026-08-26T04:52:24Z",
+            "layer": "verify",
+            "run_id": "world-pulse-2026-08-26-local"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-24T09-20-09Z-464de1"
+        "last_run_id": "world-pulse-2026-08-26-local"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5933,6 +6096,10 @@
         "recency_rank": 739829
       },
       "updates": [
+        {
+          "date": "2026-08-25",
+          "text": "InciWeb's 25 August update (9:18 PM Pacific) put the Sinlahekin Fire at 155,491 acres (from 155,209 on 23 August) with containment up to 56% (from 53%) and 1,718 personnel assigned (from 1,563)."
+        },
         {
           "date": "2026-08-24",
           "text": "InciWeb reported the Sinlahekin Fire grew to 155,209 acres (from 154,480 on 22 August) with containment rising to 53% (from 47%) and 1,563 personnel assigned, as the fire remained active near Toats Coulee Road toward Hodges Horse Pasture; full containment still estimated for 31 August."
@@ -5992,7 +6159,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

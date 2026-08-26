@@ -19,7 +19,7 @@
     },
     {
       "id": "claim-11",
-      "retrieved_date": "2026-08-24",
+      "retrieved_date": "2026-08-26",
       "source_name": "Government of British Columbia",
       "source_url": "https://www.emergencyinfobc.gov.bc.ca/",
       "text": "EmergencyInfoBC provincial emergencies listing (checked 17 August 2026): confirms the State of Provincial Emergency declared 8 August 2026 is still in effect, with active wildfire evacuation orders/alerts listed for the Regional District of North Okanagan, Okanagan Indian Band, Regional District of Okanagan-Similkameen, District of Summerland, City of Revelstoke and other regional districts and First Nations, most recently updated 16 August 2026.",
@@ -181,7 +181,7 @@
     "status": "ongoing"
   },
   "id": "canada-british-columbia-wildfires-2026",
-  "last_updated": "2026-08-24T09:20:09Z",
+  "last_updated": "2026-08-26T04:52:24Z",
   "name": "Wildfire State of Emergency — British Columbia, Canada",
   "provenance": {
     "history": [
@@ -189,10 +189,15 @@
         "at": "2026-08-24T09:20:09Z",
         "layer": "verify",
         "run_id": "2026-08-24T09-20-09Z-21bb56"
+      },
+      {
+        "at": "2026-08-26T04:52:24Z",
+        "layer": "verify",
+        "run_id": "world-pulse-2026-08-26-local"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-24T09-20-09Z-21bb56"
+    "last_run_id": "world-pulse-2026-08-26-local"
   },
   "schema_version": "1.0",
   "sort_keys": {

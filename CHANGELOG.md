@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-26 — Verify the Tunisia wildfires ReliefWeb claim in a real browser (`a53c59e`)
+
+- **Updated:** tunisia-wildfires-2026
+
 ## 2026-08-26 — Verify two Britannica-cited historical claims in a real browser (Aleppo 1138, Yangtze 1931) (`b34a7dc`)
 
 - **Updated:** aleppo-earthquake-1138, china-floods-1931

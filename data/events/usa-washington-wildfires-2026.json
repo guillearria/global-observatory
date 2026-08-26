@@ -82,6 +82,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-19",
+      "retrieved_date": "2026-08-26",
+      "source_name": "InciWeb (US wildland fire agencies)",
+      "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+      "text": "InciWeb's Sinlahekin Fire page, updated Tuesday, August 25, 2026 at 9:18 PM Pacific time, records the fire at 155,491 acres and 56% containment with 1,718 personnel assigned; it started July 26, 2026, '12 Miles W of Tonasket, WA'; recreation areas between Conconully and Loomis and the Loomis State Forest remain closed.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-08",
       "source_name": "Office of the Governor of Washington State",
@@ -146,12 +154,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, had grown to 155,209 acres and was 53% contained as of 23 August 2026, with 1,563 personnel assigned and the northwest portion near Toats Coulee Road remaining active; full containment is estimated for 31 August. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
+  "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, had grown to 155,491 acres and was 56% contained as of 25 August 2026, with 1,718 personnel assigned and the northwest portion near Toats Coulee Road remaining active; full containment is estimated for 31 August. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and had grown to 155,209 acres at 53% containment as of 23 August 2026, with 1,563 personnel assigned; the northwest portion near Toats Coulee Road remained active toward Hodges Horse Pasture, with crews conducting contingency line work and an estimated full-containment date of 31 August. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
+      "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and had grown to 155,491 acres at 56% containment as of 25 August 2026, with 1,718 personnel assigned; the northwest portion near Toats Coulee Road remained active toward Hodges Horse Pasture, with crews conducting contingency line work and an estimated full-containment date of 31 August. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
     },
     "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
     "location": {
@@ -161,11 +169,11 @@
       "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
     },
     "occurrence_date": "2026-08-01",
-    "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 154,480 acres / 47% contained as of 22 August 2026, managed by Cal Fire Incident Management Team 5",
+    "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 155,491 acres / 56% contained as of 25 August 2026, managed by Cal Fire Incident Management Team 5",
     "status": "ongoing"
   },
   "id": "usa-washington-wildfires-2026",
-  "last_updated": "2026-08-24T09:20:09Z",
+  "last_updated": "2026-08-26T04:52:24Z",
   "name": "Wildfire Emergency — Eastern Washington, USA",
   "provenance": {
     "history": [
@@ -173,10 +181,15 @@
         "at": "2026-08-24T09:20:09Z",
         "layer": "verify",
         "run_id": "2026-08-24T09-20-09Z-464de1"
+      },
+      {
+        "at": "2026-08-26T04:52:24Z",
+        "layer": "verify",
+        "run_id": "world-pulse-2026-08-26-local"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-24T09-20-09Z-464de1"
+    "last_run_id": "world-pulse-2026-08-26-local"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -185,6 +198,10 @@
     "recency_rank": 739829
   },
   "updates": [
+    {
+      "date": "2026-08-25",
+      "text": "InciWeb's 25 August update (9:18 PM Pacific) put the Sinlahekin Fire at 155,491 acres (from 155,209 on 23 August) with containment up to 56% (from 53%) and 1,718 personnel assigned (from 1,563)."
+    },
     {
       "date": "2026-08-24",
       "text": "InciWeb reported the Sinlahekin Fire grew to 155,209 acres (from 154,480 on 22 August) with containment rising to 53% (from 47%) and 1,563 personnel assigned, as the fire remained active near Toats Coulee Road toward Hodges Horse Pasture; full containment still estimated for 31 August."
@@ -244,7 +261,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

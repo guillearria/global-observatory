@@ -1,0 +1,65 @@
+{
+  "category": "wildfire",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-26",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030252",
+      "text": "GDACS wildfire report for Serbia (event id 1030252, 05 Aug 2026 - 25 Aug 2026, latest EC/ECHO daily map update 24 Aug 2026): 'Forest fire can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability'; burned area 18,310 hectares; 510 people in the burned area.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-26",
+      "source_name": "European Union",
+      "source_url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/eu-sends-urgent-support-serbia-wildfires-intensify-2026-08-24_en",
+      "text": "European Civil Protection and Humanitarian Aid Operations, 'EU sends urgent support to Serbia as wildfires intensify' (24 August 2026): 'more than 3,500 hectares have already been impacted' at the Deliblato Sands Special Nature Reserve; 'Serbia activated the civil protection mechanism on Friday 21 August'; the EU mobilised '4 helicopters from the strategic reserve of the rescEU fleet based in Czechia, Romania and Slovakia' plus 'ground firefighting teams from Germany and Romania'; 'The fires have been ongoing for more than two weeks, fuelled by strong winds, challenging conditions, and terrain that is difficult to access'; the Copernicus emergency management service 'was already activated on 8 August'.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Wildfires have burned across Serbia since 5 August 2026, including the Deliblato Sands Special Nature Reserve in Vojvodina, and on 21 August Serbia activated the EU Civil Protection Mechanism for help. GDACS rates the event an Orange alert for medium humanitarian impact, with 18,310 hectares burned and about 510 people within the burned area as of its 24 August update; the European Commission reports more than 3,500 hectares impacted at Deliblato Sands and fires burning for more than two weeks, fuelled by strong winds and hard-to-access terrain. The EU mobilised four rescEU helicopters from Czechia, Romania and Slovakia plus ground firefighting teams from Germany and Romania, and the Copernicus emergency mapping service has been active since 8 August. No deaths or evacuation figures have been published by these sources.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "GDACS records 18,310 hectares burned and about 510 people within the burned area over 5-25 August 2026 (latest update 24 August), rated a medium humanitarian impact; the European Commission reports more than 3,500 hectares impacted at the Deliblato Sands reserve, with four rescEU helicopters and German and Romanian ground teams deployed after Serbia's 21 August activation of the EU Civil Protection Mechanism. No deaths or evacuation figures have been published by these sources."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030252",
+    "location": {
+      "country": "Serbia",
+      "lat": 44.83,
+      "lon": 21.05,
+      "region": "Deliblato Sands Special Nature Reserve, South Banat District, Vojvodina"
+    },
+    "occurrence_date": "2026-08-05",
+    "scale": "GDACS Orange alert; 18,310 ha burned; EU Civil Protection Mechanism activated 21 August 2026",
+    "status": "ongoing"
+  },
+  "id": "serbia-wildfires-2026",
+  "last_updated": "2026-08-26T04:50:49Z",
+  "name": "Wildfires — Deliblato Sands, Serbia",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-26T04:50:49Z",
+        "layer": "verify",
+        "run_id": "2026-08-26T04-50-49Z-aea162"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-26T04-50-49Z-aea162"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398331.0,
+    "impact_rank": 1,
+    "recency_rank": 739833
+  },
+  "updates": [],
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
