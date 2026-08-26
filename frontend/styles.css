@@ -306,6 +306,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   margin: 0 0 8px; font-size: 0.78rem; line-height: 1.6; font-weight: 600; letter-spacing: 0.06em;
   text-transform: uppercase; color: var(--muted);
 }
-.panel p { margin: 0 0 12px; max-width: 74ch; overflow-wrap: break-word; }
+.panel p { margin: 0 0 12px; overflow-wrap: break-word; }
 .panel p:last-child { margin-bottom: 0; }
 .error { color: var(--red); }
