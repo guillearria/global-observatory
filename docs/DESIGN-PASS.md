@@ -373,7 +373,10 @@ Seven points, all frontend; shipped as one PR the same day.
    extension's site permissions.* *Later that day, with the extension allowed on all sites:
    Aleppo 1138 and Yangtze 1931 confirmed verbatim and flipped (`b34a7dc`); the Thirty Years'
    War claim turned out to cite a page that does not state its figures — a re-sourcing job for
-   `/refresh-history`, recorded in the BACKLOG; ReliefWeb remains refused by the extension.*
+   `/refresh-history`, recorded in the BACKLOG; ReliefWeb opened on a second try and the Tunisia
+   claim was flipped too (`a53c59e`) — four of five closed, one re-sourcing job left.* The card
+   arrow became a stroked SVG centred by flex: a text "→" centres on the font's math axis,
+   visibly below the small-caps dateline's optical centre.*
    Round 3 also moved the card arrow onto the dateline row,
    put the About tab in line, rebuilt About as three panels, and dropped the redundant
    attribution (PR #21).

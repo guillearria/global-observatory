@@ -232,22 +232,20 @@ Three things look like leftovers from the PR era but are intentional:
   distinction stays in the pipeline (it is what makes "thoroughly verified" checkable) but is no
   longer a list-surface label. See the plan's §9.
 
-  **The unverified claims were a fetch problem, not an allowlist problem — three of five now
+  **The unverified claims were a fetch problem, not an allowlist problem — four of five now
   closed in a real browser.** Five of 594 claims (0.8%) cited allowlisted domains that block
   automated fetchers; the gate never downgraded them, the curating sessions honestly left them
-  `unverified`. Closed 2026-08-26: UNHCR (`2fd54b4`), Britannica Aleppo 1138 and Yangtze 1931
-  (`b34a7dc`) — each confirmed verbatim and the quotation appended to the claim. Two remain:
-  - **`thirty-years-war` claim-3 needs re-sourcing, not a flip.** The cited Britannica page is a
-    *brief treatment* that ends at Westphalia with no mortality figure at all, and Britannica's
-    full treatment (History of Europe, sections through "Problems solved by the war") gives only
-    Württemberg's fall from 450,000 to 100,000 — nowhere the claim's 4.5–8 million or the 15–20%
-    decline it attributes to Britannica. The record's `deaths_low`/`deaths_high` rest on that
-    claim alone. A `/refresh-history` pass should cite a page that states the toll (a university
-    press, Our World in Data) or restate the impact as the sources actually give it.
-  - **`tunisia-wildfires-2026` claim-2 (ReliefWeb)** — the Claude-in-Chrome extension still
-    refuses `reliefweb.int` after "Allow all sites" (2026-08-26; Britannica opened fine), and the
-    site answers fetchers with an empty 202 challenge. Open the URL by hand and confirm the report
-    title/date, or check the extension's block list.
+  `unverified`. Closed 2026-08-26, each confirmed verbatim with the quotation appended to the
+  claim: UNHCR (`2fd54b4`), Britannica Aleppo 1138 and Yangtze 1931 (`b34a7dc`), ReliefWeb
+  Tunisia wildfires (`a53c59e` — an IFRC situation report, originally published 30 Jul 2026).
+  **One remains, and it is a curation job, not a flip:** `thirty-years-war` claim-3 cites a
+  Britannica page that is a *brief treatment* ending at Westphalia with no mortality figure at
+  all, and Britannica's full treatment (History of Europe, sections through "Problems solved by
+  the war") gives only Württemberg's fall from 450,000 to 100,000 — nowhere the claim's 4.5–8
+  million or the 15–20% decline it attributes to Britannica. The record's `deaths_low` /
+  `deaths_high` rest on that claim alone. A `/refresh-history` pass should cite a page that
+  states the toll (a university press, Our World in Data) or restate the impact as the sources
+  actually give it; until then the record is honestly `partial`.
   Follow-ups, recorded not scheduled:
   - **Explicit `teaser` field** only if the derived first sentence reads badly after a week of
     refreshes. The three `/refresh-*` commands now steer the first sentence of `description` to
