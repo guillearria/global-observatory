@@ -380,3 +380,18 @@ Seven points, all frontend; shipped as one PR the same day.
    Round 3 also moved the card arrow onto the dateline row,
    put the About tab in line, rebuilt About as three panels, and dropped the redundant
    attribution (PR #21).
+
+## 10. Round 4 — redundancy trims and the deferred suggestions (2026-08-26)
+
+- Masthead nav (*Code · Guillermo Arria-Devoe*) removed — the About panels and the footer carry
+  both. The masthead is the mark and the wordmark, nothing else.
+- About's sub-line ("What this site is, where its figures come from, and who makes it") removed —
+  it restated the three panel titles.
+- `og:image` shipped: `assets/og-image.png`, rendered headlessly from a local HTML page that uses
+  the site's own vendored Newsreader, so the card matches the masthead exactly.
+- Search on all three tabs and a category filter on World Pulse (§7 follow-up). Search is
+  every-word-must-match over name, description, place, category label and date text; the map's
+  markers are not filtered (a marker whose card is filtered out simply has nothing to jump to).
+- `/refresh-events` now states that `event.location.region` and `event.scale` are labels
+  (≈ ≤ 80 / ≤ 60 chars), not prose — the detail page's facts block stays a facts block.
+- Explicit `teaser` field: deliberately not added; derived teasers read fine.

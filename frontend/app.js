@@ -91,12 +91,30 @@ const HISTORICAL_TYPE_LABELS = {
 // Canonical severity order (threat.schema.json enum) for the threats filter.
 const SEVERITY_ORDER = ["regional", "continental", "civilizational", "extinction"];
 
-// --- Sort/filter toolbars (threats + history panes) -------------------------
-// In-memory view state; resets on reload by design. World Pulse has no controls.
+// --- Sort/filter toolbars (all three list panes) ----------------------------
+// In-memory view state; resets on reload by design. `q` is the free-text search.
 const viewState = {
-  history: { sort: "oldest", category: "all" },
-  threats: { category: "all", severity: "all" },
+  pulse: { category: "all", q: "" },
+  history: { sort: "oldest", category: "all", q: "" },
+  threats: { category: "all", severity: "all", q: "" },
 };
+
+// Free-text search: every word of the query must appear somewhere in the
+// record's name, description, place, category label or date text.
+function searchText(rec, kind) {
+  const parts = partsFor(rec, kind);
+  const loc = kind === "event" ? (rec.event || {}).location
+    : kind === "historical" ? (rec.historical || {}).location : null;
+  return [rec.name, rec.description, ...parts.facts, parts.status,
+    loc && loc.country, loc && loc.region].filter(Boolean).join(" ").toLowerCase();
+}
+
+function matchesQuery(rec, kind, q) {
+  const words = (q || "").toLowerCase().split(/\s+/).filter(Boolean);
+  if (!words.length) return true;
+  const hay = searchText(rec, kind);
+  return words.every((w) => hay.includes(w));
+}
 
 // Latest per-pane re-render callback, registered by loadPane, so a toolbar
 // change re-renders from the already-loaded data without refetching.
@@ -529,7 +547,8 @@ function renderThreats(records) {
   const st = viewState.threats;
   const filtered = records.filter((rec) =>
     (st.category === "all" || (rec.category || "other") === st.category) &&
-    (st.severity === "all" || ((rec.assessment || {}).severity || "unknown") === st.severity));
+    (st.severity === "all" || ((rec.assessment || {}).severity || "unknown") === st.severity) &&
+    matchesQuery(rec, "threat", st.q));
   if (records.length && !filtered.length) return [noMatchNote()];
 
   const groups = new Map();
@@ -574,7 +593,12 @@ function pulseOrderKey(rec) {
 }
 
 function renderEvents(records) {
-  const recs = records.slice().sort((x, y) =>
+  const st = viewState.pulse;
+  const filtered = records.filter((rec) =>
+    (st.category === "all" || (rec.category || "other") === st.category) &&
+    matchesQuery(rec, "event", st.q));
+  if (records.length && !filtered.length) return [noMatchNote()];
+  const recs = filtered.slice().sort((x, y) =>
     (pulseOrderKey(y) - pulseOrderKey(x)) ||
     (impactOf(y) - impactOf(x)) ||
     (compositeOf(y) - compositeOf(x)));
@@ -586,7 +610,8 @@ function renderHistorical(records) {
   const st = viewState.history;
   const newest = st.sort === "newest";
   const filtered = records.filter((rec) =>
-    st.category === "all" || (rec.category || "other") === st.category);
+    (st.category === "all" || (rec.category || "other") === st.category) &&
+    matchesQuery(rec, "historical", st.q));
   if (records.length && !filtered.length) return [noMatchNote()];
 
   const groups = new Map();
@@ -742,10 +767,22 @@ function setupToolbars() {
       if (paneRerender[tab]) paneRerender[tab]();
     });
   };
+  const bindSearch = (id, tab) => {
+    const input = document.getElementById(id);
+    if (!input) return;
+    input.addEventListener("input", () => {
+      viewState[tab].q = input.value.trim();
+      if (paneRerender[tab]) paneRerender[tab]();
+    });
+  };
+  bind("pulse-category", "pulse", "category");
   bind("history-sort", "history", "sort");
   bind("history-category", "history", "category");
   bind("threats-category", "threats", "category");
   bind("threats-severity", "threats", "severity");
+  bindSearch("pulse-search", "pulse");
+  bindSearch("threats-search", "threats");
+  bindSearch("history-search", "history");
 }
 
 function main() {
@@ -762,6 +799,11 @@ function main() {
       if (window.GOMap) {
         GOMap.setEvents(data.published || [], { describe: (rec) => datelineText(rec, "event") });
       }
+      populateToolbar("pulse-toolbar", data, (recs) => {
+        fillSelect("pulse-category",
+          orderedUnique(recs.map((r) => r.category || "other"), Object.keys(EVENT_TYPE_LABELS)),
+          EVENT_TYPE_LABELS);
+      });
     },
   });
   loadPane({

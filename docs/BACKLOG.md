@@ -246,19 +246,19 @@ Three things look like leftovers from the PR era but are intentional:
   `deaths_high` rest on that claim alone. A `/refresh-history` pass should cite a page that
   states the toll (a university press, Our World in Data) or restate the impact as the sources
   actually give it; until then the record is honestly `partial`.
-  Follow-ups, recorded not scheduled:
-  - **Explicit `teaser` field** only if the derived first sentence reads badly after a week of
-    refreshes. The three `/refresh-*` commands now steer the first sentence of `description` to
-    ≤ ~200 chars, and the daily in-place rewrite converges the data on its own; today the derived
-    teasers run 60–421 chars (median 228) with zero fallbacks to the whole description.
-  - **`og:image`** — OG tags are still text-only; a 1200×630 PNG of mark + wordmark when cheap.
-  - **Body face** (self-hosted) only if HQ's portfolio design spec asks for a shared one — GO's
-    choices are one of that spec's three inputs, so ship first, standardise after.
-  - **Search + a World Pulse category filter** — the dateline makes category visible, which may
-    make a filter feel missing (see Richer UI below).
-  - **`event.location.region` and `event.scale` are written as prose** (up to 275 chars in live
-    data). No longer a card problem, but a cap in the refresh prompt would keep the detail view's
-    facts block a facts block.
+  **Round 4 (2026-08-26):** the masthead nav (Code · author) and the About sub-line went — both
+  duplicated the About panels and the footer. Shipped from the follow-ups: `og:image` (a
+  1200×630 render of the mark + wordmark in the site's own face, `assets/og-image.png`,
+  `twitter:card summary_large_image`); **search on all three tabs** (every query word must
+  appear in the name, description, place, category or date) plus a **category filter on World
+  Pulse**; and the refresh prompt now says `region` and `scale` are labels, not prose. Not done,
+  by design: an explicit `teaser` field — the derived first sentences read fine after the
+  prompt steer (60–421 chars, zero fallbacks), so there is nothing to fix.
+
+  Still open, recorded not scheduled:
+  - **Explicit `teaser` field** only if a future refresh produces first sentences that read badly.
+  - **Search over claim text** if readers want it — today search covers name, description,
+    place, category and date, not citations.
 - **Weekly email newsletter**: share each week's results by email — a digest of World Pulse
   changes (new events, major figure updates, resolved/contained transitions) plus any threat or
   archive additions. The diff source already exists: `CHANGELOG.md` is a projection of git history

@@ -19,7 +19,11 @@
   <meta property="og:title" content="Global Observatory — live world events, existential threats &amp; historical archive" />
   <meta property="og:description" content="A fact-based observatory of the world: a live pulse of confirmed major events on a world map, an ongoing tracker of existential threats, and a historical archive reaching back to the dawn of civilization. Every published figure is grounded in an authoritative source — an aggregation, not a forecast." />
   <meta property="og:url" content="https://guillearria.github.io/global-observatory/" />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content="https://guillearria.github.io/global-observatory/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Global Observatory — a globe with a pulse line; a fact-based observatory of the world" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -36,10 +40,6 @@
         <span class="wordmark">Global Observatory</span>
       </h1>
     </div>
-    <nav class="site-nav" aria-label="Site">
-      <a href="https://github.com/guillearria/global-observatory">Code</a>
-      <a href="https://github.com/guillearria">Guillermo Arria-Devoe</a>
-    </nav>
   </header>
 
   <nav class="tabs" aria-label="Sections">
@@ -55,6 +55,14 @@
         <h2 class="pane-title">World Pulse</h2>
         <p class="pane-sub">Confirmed major events happening now — disasters, outbreaks, and crises; recent and severe first.</p>
         <p class="freshness" id="pulse-freshness"></p>
+        <div class="toolbar" id="pulse-toolbar" hidden>
+          <label class="toolbar-field">Category
+            <select id="pulse-category"><option value="all" selected>All categories</option></select>
+          </label>
+          <label class="toolbar-field">Search
+            <input type="search" id="pulse-search" placeholder="country, place, keyword" autocomplete="off" />
+          </label>
+        </div>
       </div>
       <div class="map-wrap" id="map-section" hidden>
         <div id="map" role="application" aria-label="World map of tracked events"></div>
@@ -74,6 +82,9 @@
           </label>
           <label class="toolbar-field">Severity
             <select id="threats-severity"><option value="all" selected>All severities</option></select>
+          </label>
+          <label class="toolbar-field">Search
+            <input type="search" id="threats-search" placeholder="keyword" autocomplete="off" />
           </label>
         </div>
       </div>
@@ -95,6 +106,9 @@
           <label class="toolbar-field">Type
             <select id="history-category"><option value="all" selected>All types</option></select>
           </label>
+          <label class="toolbar-field">Search
+            <input type="search" id="history-search" placeholder="place, keyword" autocomplete="off" />
+          </label>
         </div>
       </div>
       <div id="history"><p class="loading">Loading historical records…</p></div>
@@ -102,10 +116,7 @@
 
     <!-- About: static; the only pane with no data and no detail routes. -->
     <section class="pane about" id="about-pane">
-      <div class="pane-head">
-        <h2 class="pane-title">About</h2>
-        <p class="pane-sub">What this site is, where its figures come from, and who makes it.</p>
-      </div>
+      <h2 class="pane-title">About</h2>
       <article class="panel">
         <h3 class="panel-title">What it is</h3>
         <p>Global Observatory is a fact-based observatory of the world in three parts: <a href="#pulse">World Pulse</a>, a daily pulse of confirmed major events — disasters, outbreaks and crises — on a world map; <a href="#threats">Existential Threats</a>, a standing tracker of the risks to humanity, by category; and the <a href="#history">Historical Archive</a>, major events from the dawn of civilization to the recent past on one timeline. It is an aggregation of published figures, not a forecast.</p>
