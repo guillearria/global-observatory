@@ -3,21 +3,23 @@
 // --- Router (hash-routed tabs + record detail views) -------------------------
 // #pulse / #threats / #history are the list tabs; #<tab>/<record-id> is that
 // record's detail view. All shareable URLs; back button walks the history.
-const TABS = ["pulse", "threats", "history"];
+const TABS = ["pulse", "threats", "history", "about"];
 
 const TAB_KINDS = { pulse: "event", threats: "threat", history: "historical" };
 const KIND_TABS = { event: "pulse", threat: "threats", historical: "history" };
 
 const PANE_TITLES = {
-  pulse: "World Pulse", threats: "Existential Threats", history: "Historical Archive",
+  pulse: "World Pulse", threats: "Existential Threats", history: "Historical Archive", about: "About",
 };
 
 const SITE_TITLE = document.title;
 
 function parseRoute() {
   const [tab, id] = location.hash.replace(/^#/, "").split("/");
-  // Unknown tab -> default list; extra segments beyond the id are ignored.
-  return { tab: TABS.includes(tab) ? tab : "pulse", id: id || null };
+  // Unknown tab -> default list; extra segments beyond the id are ignored; the
+  // static About pane has no records, so any id under it is dropped.
+  const known = TABS.includes(tab) ? tab : "pulse";
+  return { tab: known, id: known === "about" ? null : (id || null) };
 }
 
 function detailHref(tab, id) {
@@ -205,8 +207,9 @@ function formatDeathsRange(impact) {
 
 function claimNode(claim) {
   const src = el("div", { class: "claim-src" });
+  // Verified is the norm and unlabelled; only an exception gets a pill.
   const status = claim.verification_status || "unverified";
-  src.appendChild(badge(status, `badge-${status}`));
+  if (status !== "verified") src.appendChild(badge(status, `badge-${status}`));
   if (claim.source_url) {
     src.appendChild(linkOut(claim.source_url, claim.source_name || claim.source_url));
   } else if (claim.source_name) {
@@ -286,31 +289,32 @@ function datelineText(rec, kind) {
   return [...parts.facts, parts.status].filter(Boolean).join(" · ");
 }
 
-// Trust is the only thing rendered as a chip, and only loudly when it is the
-// exception: `verified` (the norm) is quiet text; partial / disputed /
-// unverified / under review keep the filled pill so they are the one block of
-// colour on a list.
+// Verification is the norm and is not labelled: a record shows a trust pill only
+// when it is the exception — partial / disputed / unverified / under review —
+// so that one pill is the only block of colour on a list. The detail view
+// carries the verdict for every record.
 function trustNode(rec, review) {
   const status = review ? "review" : ((rec.verification || {}).status || "unverified");
-  if (status === "verified") return el("span", { class: "card-trust trust-ok", text: "✓ verified" });
+  if (status === "verified") return null;
   return el("span", {
     class: `card-trust badge badge-${status}`,
     text: status === "review" ? "under review" : status,
   });
 }
 
+// Facts on the left (category | country | date), the live signal on the right
+// (event status with its dot, plus the exception pill when there is one).
 function datelineNode(rec, parts, review) {
   const facts = el("span", { class: "card-facts" });
-  const segments = parts.facts.filter(Boolean);
-  segments.forEach((f, i) => {
-    if (i) facts.appendChild(el("span", { class: "card-sep", text: " · " }));
+  parts.facts.filter(Boolean).forEach((f, i) => {
+    if (i) facts.appendChild(el("span", { class: "card-sep", text: "|" }));
     facts.appendChild(el("span", { text: f }));
   });
-  if (parts.status) {
-    if (segments.length) facts.appendChild(el("span", { class: "card-sep", text: " · " }));
-    facts.appendChild(el("span", { class: `card-status status-${parts.status}`, text: parts.status }));
-  }
-  return el("p", { class: "card-dateline" }, [facts, trustNode(rec, review)]);
+  const signal = el("span", { class: "card-signal" }, [
+    parts.status ? el("span", { class: `card-status status-${parts.status}`, text: parts.status }) : null,
+    trustNode(rec, review),
+  ]);
+  return el("p", { class: "card-dateline" }, [facts, signal.childElementCount ? signal : null]);
 }
 
 // The whole card is the link: the title anchor's ::after stretches over the
@@ -365,12 +369,13 @@ function verificationLine(rec, review) {
   const v = rec.verification || {};
   const claims = rec.claims || [];
   const ok = claims.filter((c) => c.verification_status === "verified").length;
-  const status = review ? "under review" : (v.status || "unverified");
-  const parts = [status.charAt(0).toUpperCase() + status.slice(1)];
+  const parts = [];
+  if (review) parts.push("Under review — no source confirmed for the headline figures");
+  else if (claims.length) parts.push(`${ok} of ${claims.length} source${claims.length === 1 ? "" : "s"} confirmed`);
   if (v.confidence) parts.push(`confidence ${v.confidence}`);
-  if (claims.length) {
-    parts.push(`${ok} of ${claims.length} cited claim${claims.length === 1 ? "" : "s"} ` +
-      `resolve${claims.length === 1 ? "s" : ""} to an allowlisted source`);
+  if (!review && ok < claims.length) {
+    const n = claims.length - ok;
+    parts.push(`${n} cited page${n === 1 ? "" : "s"} could not be re-opened (see citations)`);
   }
   const node = el("p", { class: "fact", text: parts.join(" · ") });
   if (v.notes) node.setAttribute("title", v.notes);

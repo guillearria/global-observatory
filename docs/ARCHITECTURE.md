@@ -151,24 +151,30 @@ by category and severity), and the Historical Archive (grouped by era, chronolog
 newest-first toggle, filterable by type). Every card, on all three tabs, is the same three
 elements (design pass, 2026-08-26 — `docs/DESIGN-PASS.md`): a **dateline** of short structured
 fields (category · country · date · status for events; severity · probability for threats; type ·
-date · country for the archive) with the trust mark at its right end — quiet text when `verified`,
-a filled pill for partial / disputed / unverified / under review; the **title**; and a **teaser**,
+date · country for the archive), pipe-separated, with the live signal on the right — an event's
+status with its dot, plus a filled pill *only* when the record is the exception (partial /
+disputed / unverified / under review; `verified` is the norm and carries no label); the
+**title**; and a **teaser**,
 the first sentence of `description`, derived client-side (`firstSentence`, with an abbreviation
 guard) and shown complete — never clamped, no ellipsis anywhere on the site. A `country` written
 as prose is reduced to its bare place and dropped past 40 characters. The whole card is the link:
 the title anchor's `::after` stretches over the `<article>`, which keeps `id="card-<id>"` as the
 map's jump target and the title as the accessible name. The detail view renders a facts block
-(full location, scale, the live-source link, last-updated, and the gate's verdict in words —
-"Verified · confidence high · 7 of 7 cited claims resolve to an allowlisted source", with the raw
-`verification.notes` string in a `title` attribute), the narrative under Overview, the numeric
+(full location, scale, the live-source link, last-updated, and the gate's verdict in reader
+words — "7 of 7 sources confirmed · confidence high", or "3 of 4 sources confirmed · confidence
+medium · 1 cited page could not be re-opened (see citations)" — with the raw `verification.notes`
+string in a `title` attribute), the narrative under Overview, the numeric
 lines plus the figures summary under Key figures (Assessment, for threats), the dated `updates[]`
-timeline (events), and the complete source-linked citations list, always expanded. Quarantined
-records render under an "Under review" warning banner on the list and resolve on detail routes
-with the same banner.
+timeline (events), and the complete source-linked citations list, always expanded — a claim shows
+a status pill only when it is not verified. Quarantined records render under an "Under review"
+warning banner on the list and resolve on detail routes with the same banner.
 
 Identity chrome (same pass): a masthead with an inline SVG mark (a globe with a pulse line) beside
-a Newsreader wordmark, a two-link nav (code, author), the same mark as a data-URI favicon, and a
-footer that states the trust gate. The display face is **self-hosted and subsetted**
+a Newsreader wordmark and a two-link nav (code, author), the same mark as a data-URI favicon, a
+one-line footer (*Project code on GitHub · Built by …*), and a static **About** tab (`#about`, no
+data, no detail routes) that explains the site, its sourcing rule and its curator in reader
+language — the allowlist/gate vocabulary stays in this document and the README, not on the page.
+The display face is **self-hosted and subsetted**
 (`frontend/assets/fonts/`, SIL OFL 1.1) precisely because of the no-external-requests property — a
 hosted-font `<link>` would break it; body text stays `system-ui`.
 
