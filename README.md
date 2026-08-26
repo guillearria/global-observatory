@@ -53,11 +53,14 @@ The site redeploys automatically whenever `frontend/data/*.json` changes on `mai
 
 **Git is the database, the changelog, and the audit trail** — one JSON file per record, so diffs
 are the record of what changed. The frontend is static vanilla HTML/CSS/JS with no build step and
-**no external requests** (even the map's NASA Blue Marble basemap is committed to the repo). It
-renders three hash-routed tabs — `#pulse`, `#threats`, `#history` — plus a per-record detail view
-(`#pulse/<id>`, `#threats/<id>`, `#history/<id>`: full prose, key figures, the dated updates
-timeline, and every citation) from three aggregate files, `frontend/data/events.json`,
-`frontend/data/threats.json`, and `frontend/data/historical.json`.
+**no external requests** (the map's NASA Blue Marble basemap and the display face are committed to
+the repo). It renders three hash-routed tabs — `#pulse`, `#threats`, `#history` — with one card
+anatomy: a dateline of short structured facts carrying the trust mark, the title, and a teaser —
+the first sentence of the record's `description`, shown complete, never truncated. The whole card
+links to the per-record detail view (`#pulse/<id>`, `#threats/<id>`, `#history/<id>`: full location
+and scale, the live-source link, the gate's verdict, the narrative, key figures, the dated updates
+timeline, and every citation). All of it renders from three aggregate files,
+`frontend/data/events.json`, `frontend/data/threats.json`, and `frontend/data/historical.json`.
 
 The full design is in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 

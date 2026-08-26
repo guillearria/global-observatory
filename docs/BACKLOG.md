@@ -213,49 +213,31 @@ Three things look like leftovers from the PR era but are intentional:
 
 ## Frontend & delivery
 
-- **Identity pass — the page should say whose work it is (NEXT UP, added 2026-08-24).**
-  The site is content-strong (map, three tabs, detail views, ~49 live events) and
-  identity-weak: no favicon, no masthead, no attribution, no footer, no `og:image`. A visitor
-  landing from the author's GitHub profile can't tell whose site this is without reading the
-  URL. Chrome only — `frontend/index.html` + `frontend/styles.css` (both hand-authored); the
-  event cards, map, tab logic and freshness line work and stay as they are, and nothing under
-  `data/` or `pipeline/` is touched.
+- **Design pass — cards, identity chrome, detail view** *(Done 2026-08-26 — PRs #16, #17, #18;
+  plan, audit and decisions in [`docs/DESIGN-PASS.md`](DESIGN-PASS.md)).* The identity brief HQ
+  wrote here on 2026-08-24 shipped as Phase 2 — masthead with a globe-and-pulse mark, data-URI
+  favicon, footer carrying the trust-gate sentence, Newsreader 600 self-hosted under
+  `frontend/assets/fonts/` — after the owner's 2026-08-25 card feedback superseded its "do not
+  restyle the event cards" line: Phase 1 gave all three tabs one card anatomy (dateline · title ·
+  first-sentence teaser, whole card clickable, no ellipsis anywhere), and Phase 3 moved the heavy
+  details — full location, scale, *live at source*, the gate's verdict in words — to the detail
+  view. Decisions taken with the owner: D1 accent unchanged, D2 one self-hosted display face,
+  D3 globe + pulse mark, D4 dateline yes, D5 quiet-verified / loud-exception, D6 no deaths range on
+  archive cards, D7 teaser derived client-side rather than a schema field.
 
-  **→ Plan written 2026-08-25: [`docs/DESIGN-PASS.md`](DESIGN-PASS.md).** It carries this brief
-  unchanged (§3) **plus the owner's 2026-08-25 card feedback, which supersedes the "event cards
-  … stay as they are" line above**: cards on all three tabs are in scope — no ellipsis, one
-  clean description per card, whole card clickable with a basic animation, *live at source*
-  moved to the detail page (§2). Seven owner decisions (D1–D7) gate Phase 1; `data/` and
-  `pipeline/` stay untouched throughout.
-
-  The floor (measured gaps):
-  - **Favicon** — none today. Inline SVG data-URI keeps the zero-external-requests property.
-  - **Masthead** — today a bare `<h1>`. Add a small mark + wordmark, and a nav with two
-    links: *Code* → this repo, *Guillermo Arria-Devoe* → the profile. The swing-lab
-    dashboard (same author) shipped this exact pattern 2026-08-24 and is the reference:
-    decorative SVG mark (`aria-hidden="true" focusable="false"`), wordmark carries the name.
-  - **Footer** — none today. Attribution + code link + one line naming the deterministic
-    trust gate: it is this project's strongest credibility claim and currently appears
-    nowhere on the page.
-  - **`og:image`** — text OG tags exist; a simple static 1200×630 PNG is optional, skip if
-    it drags.
-
-  Decisions to make in-session, not pre-made here:
-  1. **Accent.** `--accent #6ea8fe` is a blue in the same family as the swing-lab
-     dashboard's; per-project accents are the portfolio principle. If it changes, compute
-     WCAG ratios against `--bg #0f1115` and `--panel #181b22` — the site is dark-only, one
-     theme to check, ≥4.5:1 for small text. (Lesson already paid for on the swing-lab pass:
-     its first draft put an accent on link text at 4.19:1 and failed AA.)
-  2. **Typography.** `system-ui` today. Note the constraint honestly: this site holds a
-     deliberate **zero-external-requests property** (see the Leaflet item below — the
-     basemap is vendored for exactly this reason), so a hosted-webfont `<link>` would break
-     it. The real choice is system-ui vs. self-hosted subsetted woff2, not vs. Google Fonts.
-  3. **The mark.** Globe/pulse-shaped, ≤30 lines of inline SVG, same mark in masthead and
-     favicon.
-
-  Before committing: compute contrast for every new text color (don't eyeball), check 320px
-  wrap (no page-level horizontal scroll — `styles.css` documents why), run the tests, view
-  the built page in a browser. The deploy is the live public site.
+  Follow-ups, recorded not scheduled:
+  - **Explicit `teaser` field** only if the derived first sentence reads badly after a week of
+    refreshes. The three `/refresh-*` commands now steer the first sentence of `description` to
+    ≤ ~200 chars, and the daily in-place rewrite converges the data on its own; today the derived
+    teasers run 60–421 chars (median 228) with zero fallbacks to the whole description.
+  - **`og:image`** — OG tags are still text-only; a 1200×630 PNG of mark + wordmark when cheap.
+  - **Body face** (self-hosted) only if HQ's portfolio design spec asks for a shared one — GO's
+    choices are one of that spec's three inputs, so ship first, standardise after.
+  - **Search + a World Pulse category filter** — the dateline makes category visible, which may
+    make a filter feel missing (see Richer UI below).
+  - **`event.location.region` and `event.scale` are written as prose** (up to 275 chars in live
+    data). No longer a card problem, but a cap in the refresh prompt would keep the detail view's
+    facts block a facts block.
 - **Weekly email newsletter**: share each week's results by email — a digest of World Pulse
   changes (new events, major figure updates, resolved/contained transitions) plus any threat or
   archive additions. The diff source already exists: `CHANGELOG.md` is a projection of git history
@@ -270,7 +252,8 @@ Three things look like leftovers from the PR era but are intentional:
   *(Partly done 2026-08-10 — the threats pane filters by category/severity and the archive sorts
   by date and filters by type. Partly done 2026-08-16 — compact three-badge cards with per-record
   detail views: full prose, key figures, the `updates[]` timeline, and always-expanded citations
-  on `#pulse/<id>`-style routes. Search and the trust-badge legend remain.)*
+  on `#pulse/<id>`-style routes. The trust-badge legend landed in the footer 2026-08-26; search
+  remains.)*
 - **World Pulse map/lat-lon** *(Done 2026-07-05 — optional `lat`/`lon` landed in the event schema
   with the map as their consumer: a self-contained NASA Blue Marble basemap in `frontend/map.js`
   with pan/zoom and impact-scaled markers. All four events carry coordinates; `/refresh-events`
