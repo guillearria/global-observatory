@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-26 — Re-source the Thirty Years' War toll: Britannica's Germany article and two OUP articles (`a547c24`)
+
+- **Updated:** thirty-years-war
+
 ## 2026-08-26 — Daily World Pulse refresh: add Serbia wildfires, Ebola DRC toll rise, China Yangtze/Washington Sinlahekin/Hawaii Lala updates, Saudel lowered to Green, re-verify Colombia/BC/Japan yen (2026-08-26) (`c8d8ba2`)
 
 - **Added:** serbia-wildfires-2026

@@ -75,7 +75,7 @@
     },
     {
       "id": "claim-21",
-      "retrieved_date": "2026-08-24",
+      "retrieved_date": "2026-08-26",
       "source_name": "GDACS",
       "source_url": "https://gdacs.org/report.aspx?eventid=1544720&eventtype=EQ",
       "text": "Re-checked 11 August 2026: reliefweb.int, this record's live_source_url and the source of the DSWD DROMIC series and OCHA casualty snapshot, returned HTTP 403 Forbidden and was unreachable across multiple attempts and multiple pages (disaster hub, specific report URLs, API endpoint) today. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Orange alert (\"medium humanitarian impact\"), currently showing modeled population exposure of about 4.4 million people at MMI≥VII and a maximum observed tsunami wave of 0.83 m -- GDACS's own automated impact-model figures for the event, which are updated as GDACS reprocesses episodes and are distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
@@ -173,18 +173,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-08-24T09:20:09Z",
+  "last_updated": "2026-08-26T09:11:17Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-24T09:20:09Z",
+        "at": "2026-08-26T09:11:17Z",
         "layer": "verify",
-        "run_id": "2026-08-24T09-20-09Z-370e86"
+        "run_id": "2026-08-26T09-11-17Z-55719b"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-24T09-20-09Z-370e86"
+    "last_run_id": "2026-08-26T09-11-17Z-55719b"
   },
   "schema_version": "1.0",
   "sort_keys": {
