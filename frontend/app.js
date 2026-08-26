@@ -123,11 +123,30 @@ function badge(text, cls) {
   return el("span", { class: `badge ${cls}`, text });
 }
 
-// historical.date_display is free text and sometimes a whole sentence; past this
-// length it renders as a wrapping kicker line under the title instead of a pill
-// chip, which cannot wrap gracefully. (Historical cards only — event scale text
-// lives on the meta line.)
-const CHIP_MAX_CHARS = 40;
+// --- Card text: the teaser --------------------------------------------------
+// A card is three things: a dateline of short structured facts, the title, and
+// a teaser. The teaser is the first sentence of `description`, shown complete —
+// never clamped, never an ellipsis; the detail view carries everything else.
+// A sentence ends at . ! or ? followed by whitespace and a capital, digit,
+// quote or bracket, unless the period closes a known abbreviation or an initial
+// ("c. 1600 BCE", "No. 3", "U.S.", "St. Louis"). No boundary -> the whole text.
+const ABBREVIATIONS =
+  /\b(?:c|ca|St|No|Nos|vs|Mt|Dr|Mr|Mrs|Ms|Prof|Gen|Col|Lt|Sgt|approx|est|fig|vol|pp|U\.S|U\.K|U\.N|e\.g|i\.e|Jr|Sr|Inc|Ltd|Co|[A-Z])$/;
+
+function firstSentence(text) {
+  const re = /[.!?]["'”’)\]]*(?=\s+["'“‘(\[]?[A-Z0-9])/g;
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    if (text[m.index] === "." && ABBREVIATIONS.test(text.slice(0, m.index))) continue;
+    return text.slice(0, m.index + m[0].length);
+  }
+  return text;
+}
+
+function teaserOf(rec, fallback) {
+  const text = (rec.description || fallback || "").trim();
+  return text ? firstSentence(text) : "";
+}
 
 function dateOnly(iso) {
   return (iso || "").slice(0, 10);
@@ -202,99 +221,109 @@ function claimNode(claim) {
   ]);
 }
 
-// --- Per-kind adapters: badge row + summary + meta -------------------------
-function threatParts(rec, review) {
+// --- Per-kind adapters: dateline facts + status + teaser -------------------
+// Each returns { facts: string[], status?: string, teaser }. Facts are short
+// structured fields only — never region, scale or a summary: those are prose
+// and belong on the detail view. The trust mark is added by trustNode().
+
+// `location.country` is sometimes written as prose ("Roman Empire (Mediterranean,
+// Europe, ...)", "Turkey (Ottoman Empire); modern Armenia, Syria"). The dateline
+// takes the bare place — the first clause, minus a trailing parenthetical — and
+// drops it altogether past this length; the detail view shows the full text.
+const PLACE_MAX_CHARS = 40;
+
+function placeOf(location) {
+  const raw = ((location || {}).country || "").split(";")[0];
+  const place = raw.replace(/\s*\([^()]*\)\s*$/, "").trim();
+  return place.length <= PLACE_MAX_CHARS ? place : "";
+}
+
+function threatParts(rec) {
   const a = rec.assessment || {};
-  const v = rec.verification || {};
-  const prob = (a.probability || {}).estimate || "unknown";
-  const sev = a.severity || "unknown";
-  // Exactly three badges: the category is already the section grouping, and
-  // confidence duplicates the verification chip (partial <=> medium) — both
-  // still appear on the detail view.
-  const badges = [
-    review ? badge("under review", "badge-review")
-           : badge(v.status || "unverified", `badge-${v.status || "unverified"}`),
-    badge(`severity: ${sev}`, "badge-sev"),
-    badge(`probability: ${prob}`, "badge-prob"),
+  const facts = [
+    a.severity ? `Severity ${a.severity}` : "",
+    (a.probability || {}).estimate ? `Probability ${a.probability.estimate}` : "",
   ];
-  const summary = a.summary || rec.description || "";
-  const meta = [el("p", { class: "card-meta", text: `Last updated ${dateOnly(rec.last_updated)}` })];
-  return { badges, summary, meta };
+  return { facts, teaser: teaserOf(rec, a.summary) };
 }
 
-function eventParts(rec, review) {
+function eventParts(rec) {
   const ev = rec.event || {};
-  const v = rec.verification || {};
-  const status = ev.status || "ongoing";
-  const loc = ev.location || {};
-  const where = [loc.region, loc.country].filter(Boolean).join(", ");
-  // Exactly three badges; free-text scale belongs on the meta line, not in a chip.
-  const badges = [
-    review ? badge("under review", "badge-review")
-           : badge(v.status || "unverified", `badge-${v.status || "unverified"}`),
-    badge(EVENT_TYPE_LABELS[rec.category] || rec.category || "Event", "badge-cat"),
-    badge(status, `badge-${status}`),
+  const facts = [
+    EVENT_TYPE_LABELS[rec.category] || rec.category || "Event",
+    placeOf(ev.location),
+    dateOnly(ev.occurrence_date),
   ];
-  const summary = (ev.impact || {}).summary || rec.description || "";
-
-  const locLine = [where, dateOnly(ev.occurrence_date), ev.scale].filter(Boolean).join(" · ");
-  const meta = [];
-  if (locLine) meta.push(el("p", { class: "card-loc", text: locLine }));
-  if (ev.live_source_url) {
-    const asOf = dateOnly(latestRetrievedDate(rec.claims)) || dateOnly(rec.last_updated);
-    meta.push(el("p", { class: "card-live" }, [
-      el("span", { text: `Figures as of ${asOf} — ` }),
-      linkOut(ev.live_source_url, "live at source ↗"),
-    ]));
-  }
-  return { badges, summary, meta };
+  return { facts, status: ev.status || "ongoing", teaser: teaserOf(rec, (ev.impact || {}).summary) };
 }
 
-function historicalParts(rec, review) {
+function historicalParts(rec) {
   const hist = rec.historical || {};
-  const v = rec.verification || {};
-  const loc = hist.location || {};
-  const where = [loc.region, loc.country].filter(Boolean).join(", ");
-  const dateDisplay = hist.date_display || "";
-  const badges = [
-    review ? badge("under review", "badge-review")
-           : badge(v.status || "unverified", `badge-${v.status || "unverified"}`),
-    badge(HISTORICAL_TYPE_LABELS[rec.category] || rec.category || "Event", "badge-cat"),
-    dateDisplay && dateDisplay.length <= CHIP_MAX_CHARS ? badge(dateDisplay, "badge-scale") : null,
+  const facts = [
+    HISTORICAL_TYPE_LABELS[rec.category] || rec.category || "Event",
+    hist.date_display || "",
+    placeOf(hist.location),
   ];
-  const kicker = dateDisplay.length > CHIP_MAX_CHARS ? dateDisplay : "";
-  const summary = (hist.impact || {}).summary || rec.description || "";
-  const meta = [];
-  if (where) meta.push(el("p", { class: "card-loc", text: where }));
-  const deaths = formatDeathsRange(hist.impact || {});
-  if (deaths) meta.push(el("p", { class: "card-meta", text: deaths }));
-  return { badges, kicker, summary, meta };
+  return { facts, teaser: teaserOf(rec, (hist.impact || {}).summary) };
 }
 
+function partsFor(rec, kind) {
+  return kind === "event" ? eventParts(rec)
+    : kind === "historical" ? historicalParts(rec)
+    : threatParts(rec);
+}
+
+// The kind's figures snapshot (impact / assessment summary): detail view only.
+function kindSummary(rec, kind) {
+  if (kind === "event") return ((rec.event || {}).impact || {}).summary || "";
+  if (kind === "historical") return ((rec.historical || {}).impact || {}).summary || "";
+  return (rec.assessment || {}).summary || "";
+}
+
+// Plain-text dateline — also the map tooltip's second line (see main()).
+function datelineText(rec, kind) {
+  const parts = partsFor(rec, kind);
+  return [...parts.facts, parts.status].filter(Boolean).join(" · ");
+}
+
+// Trust is the only thing rendered as a chip, and only loudly when it is the
+// exception: `verified` (the norm) is quiet text; partial / disputed /
+// unverified / under review keep the filled pill so they are the one block of
+// colour on a list.
+function trustNode(rec, review) {
+  const status = review ? "review" : ((rec.verification || {}).status || "unverified");
+  if (status === "verified") return el("span", { class: "card-trust trust-ok", text: "✓ verified" });
+  return el("span", {
+    class: `card-trust badge badge-${status}`,
+    text: status === "review" ? "under review" : status,
+  });
+}
+
+function datelineNode(rec, parts, review) {
+  const facts = el("span", { class: "card-facts" });
+  const segments = parts.facts.filter(Boolean);
+  segments.forEach((f, i) => {
+    if (i) facts.appendChild(el("span", { class: "card-sep", text: " · " }));
+    facts.appendChild(el("span", { text: f }));
+  });
+  if (parts.status) {
+    if (segments.length) facts.appendChild(el("span", { class: "card-sep", text: " · " }));
+    facts.appendChild(el("span", { class: `card-status status-${parts.status}`, text: parts.status }));
+  }
+  return el("p", { class: "card-dateline" }, [facts, trustNode(rec, review)]);
+}
+
+// The whole card is the link: the title anchor's ::after stretches over the
+// article (styles.css), so the accessible name stays the title, Tab lands on
+// one link per card, and the article id remains the map's jump target.
 function cardNode(rec, { review, kind }) {
-  const parts = kind === "event" ? eventParts(rec, review)
-    : kind === "historical" ? historicalParts(rec, review)
-    : threatParts(rec, review);
+  const parts = partsFor(rec, kind);
   const href = detailHref(KIND_TABS[kind], rec.id);
-
-  const head = el("div", { class: "card-head" }, [
-    el("h3", {}, [el("a", { href, class: "card-title-link", text: rec.name || rec.id })]),
-    el("div", { class: "badges" }, parts.badges),
-  ]);
-
-  const n = (rec.claims || []).length;
-  const foot = el("p", { class: "card-foot" }, [
-    el("span", { text: `${n} cited claim${n === 1 ? "" : "s"} · ` }),
-    el("a", { href, text: "View details →" }),
-  ]);
-
-  // The id is the map's click-to-scroll target (see map.js).
   return el("article", { class: "card", id: `card-${rec.id}` }, [
-    head,
-    parts.kicker ? el("p", { class: "card-kicker", text: parts.kicker }) : null,
-    el("p", { class: "card-summary", text: parts.summary }),
-    ...parts.meta,
-    foot,
+    el("span", { class: "card-arrow", "aria-hidden": "true", text: "→" }),
+    datelineNode(rec, parts, review),
+    el("h3", { class: "card-title" }, [el("a", { href, class: "card-title-link", text: rec.name || rec.id })]),
+    parts.teaser ? el("p", { class: "card-teaser", text: parts.teaser }) : null,
   ]);
 }
 
@@ -414,9 +443,7 @@ function detailSection(title, children) {
 
 function detailNode(rec, { kind, review }) {
   const tab = KIND_TABS[kind];
-  const parts = kind === "event" ? eventParts(rec, review)
-    : kind === "historical" ? historicalParts(rec, review)
-    : threatParts(rec, review);
+  const parts = partsFor(rec, kind);
 
   const children = [
     el("p", { class: "detail-back" }, [
@@ -431,11 +458,10 @@ function detailNode(rec, { kind, review }) {
             "be read as established fact.",
     }));
   }
-  children.push(el("div", { class: "card-head" }, [
-    el("h2", { text: rec.name || rec.id }),
-    el("div", { class: "badges" }, parts.badges),
-  ]));
-  if (parts.kicker) children.push(el("p", { class: "card-kicker", text: parts.kicker }));
+  // Same head as the list card (dateline, then the title), so list -> detail
+  // reads as a zoom rather than a different page.
+  children.push(datelineNode(rec, parts, review));
+  children.push(el("h2", { class: "detail-title", text: rec.name || rec.id }));
   children.push(el("div", { class: "detail-meta" }, detailMeta(rec, kind)));
 
   const figures = detailFigures(rec, kind);
@@ -443,7 +469,7 @@ function detailNode(rec, { kind, review }) {
 
   // The kind summary first, then the description — they are separate editorial
   // texts (snapshot vs. narrative); the second is skipped when identical.
-  const summary = parts.summary || "";
+  const summary = kindSummary(rec, kind);
   const description = rec.description || "";
   const prose = [];
   if (summary) prose.push(el("p", { class: "detail-prose", text: summary }));
@@ -705,7 +731,11 @@ function main() {
   loadPane({
     url: "./data/events.json", mountId: "pulse", freshnessId: "pulse-freshness",
     kind: "event", cacheKey: "globalobservatory.events", noun: "event", staleAfterDays: 2,
-    onData: (data) => { if (window.GOMap) GOMap.setEvents(data.published || []); },
+    onData: (data) => {
+      if (window.GOMap) {
+        GOMap.setEvents(data.published || [], { describe: (rec) => datelineText(rec, "event") });
+      }
+    },
   });
   loadPane({
     url: "./data/threats.json", mountId: "threats", freshnessId: "threats-freshness",

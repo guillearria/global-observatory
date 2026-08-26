@@ -23,6 +23,7 @@
     pinchDist: 0,
     dragMoved: 0,      // px moved since pointerdown — suppresses click-after-drag
     centered: false,   // has the view been centered at a real (nonzero) container width yet
+    describe: null,    // (rec) => tooltip second line, passed by app.js with the records
   };
 
   // Base world width: the smallest 2:1 world that covers the container at zoom 1.
@@ -101,10 +102,12 @@
     const name = document.createElement("strong");
     name.textContent = rec.name || rec.id;
     tip.appendChild(name);
-    const summary = ((rec.event || {}).impact || {}).summary || rec.description || "";
-    if (summary) {
+    // Second line: the card's dateline (app.js supplies it) — short facts, never
+    // a truncated summary.
+    const line = state.describe ? state.describe(rec) : "";
+    if (line) {
       const s = document.createElement("span");
-      s.textContent = summary.length > 120 ? `${summary.slice(0, 117)}…` : summary;
+      s.textContent = line;
       tip.appendChild(s);
     }
     tip.hidden = false;
@@ -253,9 +256,11 @@
 
   // Re-render markers from the latest events payload. Called by app.js on every
   // events.json paint, so a daily data refresh updates the map with no extra plumbing.
-  function setEvents(records) {
+  // opts.describe(rec) -> the tooltip's second line (the card dateline).
+  function setEvents(records, opts) {
     const section = document.getElementById("map-section");
     if (!section) return;
+    state.describe = opts && typeof opts.describe === "function" ? opts.describe : null;
     state.records = (records || []).filter((r) => {
       const loc = (r.event || {}).location || {};
       return Number.isFinite(loc.lat) && Number.isFinite(loc.lon);
