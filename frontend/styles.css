@@ -173,7 +173,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 10px;
-  padding: 14px 44px 16px 18px; /* right padding clears the arrow */
+  padding: 14px 18px 16px;
   margin: 0 0 14px;
   cursor: pointer;
   transition: transform 160ms ease-out, border-color 160ms ease-out, box-shadow 160ms ease-out;
@@ -182,8 +182,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .card:active { transform: translateY(0); box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); }
 .card:has(.card-title-link:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
 .card-title-link:focus-visible { outline: none; }
+/* The arrow closes the dateline row (inside the signal group, so it sits on the
+   same line as the status and the facts) and nudges right on hover. */
 .card-arrow {
-  position: absolute; top: 14px; right: 16px; color: var(--muted); font-size: 1rem; line-height: 1.6;
+  color: var(--muted); font-size: 1rem; line-height: 1; letter-spacing: 0;
   transition: transform 160ms ease-out, color 160ms ease-out;
 }
 .card:hover .card-arrow { transform: translateX(3px); color: var(--accent); }
@@ -192,7 +194,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
    live signal on the right (event status with a dot, plus a pill only when the
    record is the exception — partial / under review — never when verified). */
 .card-dateline {
-  display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 2px 16px;
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 2px 16px;
   margin: 0; font-size: 0.78rem; line-height: 1.6; font-weight: 600; letter-spacing: 0.06em;
   text-transform: uppercase; color: var(--muted); min-width: 0;
 }
@@ -200,7 +202,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
    row instead of being pushed under a long dateline. */
 .card-facts { flex: 1 1 0; min-width: 0; overflow-wrap: anywhere; }
 .card-sep { margin: 0 0.55em; opacity: 0.45; font-weight: 400; }
-.card-signal { display: flex; align-items: baseline; gap: 12px; margin-left: auto; white-space: nowrap; }
+.card-signal { display: flex; align-items: center; gap: 12px; margin-left: auto; white-space: nowrap; }
 /* Event status is a word with a dot — never a pill, and never green. */
 .card-status::before {
   content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
@@ -237,7 +239,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 /* Narrow screens: the trust mark takes its own row (right-aligned) instead of
    squeezing the facts into a three-line column beside it. */
 @media (max-width: 480px) {
-  .card { padding-right: 36px; }
   .card-facts { flex-basis: 100%; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -296,12 +297,15 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 .site-footer p { margin: 0; }
 
-/* About pane: prose only. */
-.about-body { max-width: 72ch; }
-.about-body h3 {
-  font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;
-  color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 6px; margin: 28px 0 12px;
+/* About pane: static panels with the cards' surface, one per topic. */
+.panel {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+  padding: 14px 18px 16px; margin: 0 0 14px;
 }
-.about-body p { margin: 0 0 14px; overflow-wrap: break-word; }
-.tab-about { margin-left: auto; }
+.panel-title {
+  margin: 0 0 8px; font-size: 0.78rem; line-height: 1.6; font-weight: 600; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--muted);
+}
+.panel p { margin: 0 0 12px; max-width: 74ch; overflow-wrap: break-word; }
+.panel p:last-child { margin-bottom: 0; }
 .error { color: var(--red); }

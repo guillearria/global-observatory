@@ -304,7 +304,7 @@ function trustNode(rec, review) {
 
 // Facts on the left (category | country | date), the live signal on the right
 // (event status with its dot, plus the exception pill when there is one).
-function datelineNode(rec, parts, review) {
+function datelineNode(rec, parts, review, withArrow) {
   const facts = el("span", { class: "card-facts" });
   parts.facts.filter(Boolean).forEach((f, i) => {
     if (i) facts.appendChild(el("span", { class: "card-sep", text: "|" }));
@@ -313,6 +313,7 @@ function datelineNode(rec, parts, review) {
   const signal = el("span", { class: "card-signal" }, [
     parts.status ? el("span", { class: `card-status status-${parts.status}`, text: parts.status }) : null,
     trustNode(rec, review),
+    withArrow ? el("span", { class: "card-arrow", "aria-hidden": "true", text: "→" }) : null,
   ]);
   return el("p", { class: "card-dateline" }, [facts, signal.childElementCount ? signal : null]);
 }
@@ -324,8 +325,7 @@ function cardNode(rec, { review, kind }) {
   const parts = partsFor(rec, kind);
   const href = detailHref(KIND_TABS[kind], rec.id);
   return el("article", { class: "card", id: `card-${rec.id}` }, [
-    el("span", { class: "card-arrow", "aria-hidden": "true", text: "→" }),
-    datelineNode(rec, parts, review),
+    datelineNode(rec, parts, review, true),
     el("h3", { class: "card-title" }, [el("a", { href, class: "card-title-link", text: rec.name || rec.id })]),
     parts.teaser ? el("p", { class: "card-teaser", text: parts.teaser }) : null,
   ]);
