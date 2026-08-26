@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-26 — Daily World Pulse refresh (batch 4): West Bank settler violence factory-fire incident & attack-rate update, re-verify Yemen unchanged (2026-08-26) (`373227c`)
+
+- **Updated:** west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
+
 ## 2026-08-26 — Daily World Pulse refresh (batch 3): re-verify Indonesia Flores earthquake and Philippines Luis/Maymay floods unchanged (2026-08-26) (`029559f`)
 
 - **Updated:** indonesia-earthquake-flores-2026, philippines-floods-luis-maymay-2026
