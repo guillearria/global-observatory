@@ -46,7 +46,7 @@
     <a href="#pulse" data-tab="pulse">World Pulse</a>
     <a href="#threats" data-tab="threats">Existential Threats</a>
     <a href="#history" data-tab="history">Historical Archive</a>
-    <a href="#about" data-tab="about" class="tab-about">About</a>
+    <a href="#about" data-tab="about">About</a>
   </nav>
 
   <main>
@@ -106,14 +106,19 @@
         <h2 class="pane-title">About</h2>
         <p class="pane-sub">What this site is, where its figures come from, and who makes it.</p>
       </div>
-      <div class="about-body">
+      <article class="panel">
+        <h3 class="panel-title">What it is</h3>
         <p>Global Observatory is a fact-based observatory of the world in three parts: <a href="#pulse">World Pulse</a>, a daily pulse of confirmed major events — disasters, outbreaks and crises — on a world map; <a href="#threats">Existential Threats</a>, a standing tracker of the risks to humanity, by category; and the <a href="#history">Historical Archive</a>, major events from the dawn of civilization to the recent past on one timeline. It is an aggregation of published figures, not a forecast.</p>
-        <h3>Where the figures come from</h3>
+      </article>
+      <article class="panel">
+        <h3 class="panel-title">Where the figures come from</h3>
         <p>Every figure is drawn from an official or authoritative source — government agencies, UN bodies, scientific institutions, established reference works — and each record links every source it relies on, with the date it was retrieved. Whether a record is published at all is decided by a fixed rule, not by whoever wrote it: if its headline figures cannot be traced to such a source, it is held back or shown under <em>Under review</em>, and is never presented as confirmed. A record that cites an authoritative page that could not be re-opened is marked <em>partial</em> on its detail page, with the source still linked.</p>
         <p>Event figures are a snapshot as of the date they were retrieved; each event's detail page links the live source, which keeps the running total.</p>
-        <h3>Who makes it</h3>
-        <p>The dataset is researched and kept current by an automated curator — Claude, running on a daily schedule — that may extend the list of trusted institutions only with a written reason, and that never gets the final say on whether a figure is verified: the rule above does. The site, the rule and the data are open source, and the full history of every record is public. Built by <a href="https://github.com/guillearria">Guillermo Arria-Devoe</a>; code and data on <a href="https://github.com/guillearria/global-observatory">GitHub</a>.</p>
-      </div>
+      </article>
+      <article class="panel">
+        <h3 class="panel-title">Who makes it</h3>
+        <p>The dataset is researched and kept current by an automated curator — Claude, running on a daily schedule — that may extend the list of trusted institutions only with a written reason, and that never gets the final say on whether a figure is verified: the rule above does. The site, the rule and the data are open source, and the full history of every record is public.</p>
+      </article>
     </section>
 
     <!-- Detail view for #<tab>/<record-id> routes; list panes stay mounted
