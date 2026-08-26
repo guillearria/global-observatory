@@ -65,7 +65,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   padding: 0 20px;
 }
 
-/* Masthead: mark + wordmark, one-line tagline, and a two-link nav (code, author). */
+/* Masthead: mark + wordmark and a two-link nav (code, author); the tagline lives on About. */
 .masthead {
   padding-top: 32px; padding-bottom: 4px;
   display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 12px 24px;
@@ -77,7 +77,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 .mark { width: 30px; height: 30px; flex: none; color: var(--accent); }
 .wordmark { min-width: 0; overflow-wrap: break-word; }
-.tagline { color: var(--muted); margin: 10px 0 0; max-width: 62ch; }
 .site-nav { display: flex; gap: 18px; padding-top: 10px; font-size: 0.9rem; white-space: nowrap; }
 .site-nav a { color: var(--muted); text-decoration: none; }
 .site-nav a:hover { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
@@ -189,29 +188,28 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 .card:hover .card-arrow { transform: translateX(3px); color: var(--accent); }
 
-/* Dateline: short structured facts only (category · country · date · status),
-   with the trust mark at the right end of the same line. */
+/* Dateline: short structured facts on the left (category | country | date), the
+   live signal on the right (event status with a dot, plus a pill only when the
+   record is the exception — partial / under review — never when verified). */
 .card-dateline {
-  display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 2px 12px;
-  margin: 0; font-size: 0.75rem; line-height: 1.6; font-weight: 600; letter-spacing: 0.08em;
+  display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 2px 16px;
+  margin: 0; font-size: 0.78rem; line-height: 1.6; font-weight: 600; letter-spacing: 0.06em;
   text-transform: uppercase; color: var(--muted); min-width: 0;
 }
-/* Facts shrink and wrap inside their own box, so the trust mark stays on the
-   first row instead of being pushed under a long dateline. */
+/* Facts shrink and wrap inside their own box, so the signal stays on the first
+   row instead of being pushed under a long dateline. */
 .card-facts { flex: 1 1 0; min-width: 0; overflow-wrap: anywhere; }
-.card-sep { opacity: 0.6; }
-/* Event status is a word with a dot — never a pill, so pills mean trust only,
-   and never green, so green means verified only. */
+.card-sep { margin: 0 0.55em; opacity: 0.45; font-weight: 400; }
+.card-signal { display: flex; align-items: baseline; gap: 12px; margin-left: auto; white-space: nowrap; }
+/* Event status is a word with a dot — never a pill, and never green. */
 .card-status::before {
   content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
-  margin: 0 5px 2px 0; vertical-align: middle; background: var(--grey);
+  margin: 0 6px 2px 0; vertical-align: middle; background: var(--grey);
 }
 .status-ongoing::before { background: var(--red); }
 .status-contained::before { background: var(--amber); }
 .status-resolved::before { background: var(--grey); }
-/* Trust: quiet when it is the norm, a filled pill when it is the exception. */
-.card-trust { text-transform: none; letter-spacing: 0; margin-left: auto; }
-.trust-ok { color: var(--green); font-size: 0.8rem; font-weight: 600; }
+.card-trust { text-transform: none; letter-spacing: 0; }
 
 .card-title {
   margin: 6px 0 4px; font-family: var(--font-display); font-weight: 600; font-size: 1.3rem;
@@ -296,8 +294,14 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   margin-top: 48px; padding-top: 20px; padding-bottom: 40px;
   border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem;
 }
-.site-footer p { max-width: 74ch; }
-/* The trust-gate sentence is the site's strongest claim: full text colour, not muted. */
-.footer-gate { color: var(--text); font-size: 0.95rem; }
-.footer-legend .badge { vertical-align: baseline; }
+.site-footer p { margin: 0; }
+
+/* About pane: prose only. */
+.about-body { max-width: 72ch; }
+.about-body h3 {
+  font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;
+  color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 6px; margin: 28px 0 12px;
+}
+.about-body p { margin: 0 0 14px; overflow-wrap: break-word; }
+.tab-about { margin-left: auto; }
 .error { color: var(--red); }

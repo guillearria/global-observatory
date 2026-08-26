@@ -335,3 +335,35 @@ def lum(h):
 def ratio(a,b):
     x,y=lum(a),lum(b); return (max(x,y)+0.05)/(min(x,y)+0.05)   # need >= 4.5 for small text
 ```
+
+---
+
+## 9. Round 2 — owner feedback on the shipped pass (2026-08-26)
+
+Seven points, all frontend; shipped as one PR the same day.
+
+1. **Tagline → About.** The masthead is now mark + wordmark + nav only. A fourth tab, **About**
+   (`#about`, static, no data, no detail routes — `parseRoute` drops any id under it), carries
+   what the site is, where the figures come from, and who makes it — in reader language: no
+   "allowlist", "gate" or "quarantine" on the page.
+2. **Dateline separators** are pipes with air (`|`, 0.55em margins, 45% opacity) at 0.78rem /
+   0.06em tracking, instead of cramped middle dots.
+3. **Status sits on the right** with the signal group (● ongoing / contained / resolved), beside
+   the arrow — the left side is facts only (category | country | date).
+4. **Verified is unlabelled.** A card shows a pill only when the record is the exception
+   (`partial`, `under review`, …); the citations list shows a pill only on a claim that is not
+   verified. Verification is the baseline of the whole site, so labelling it on 594 claims was
+   noise. The detail page keeps the verdict, reworded for readers: *"3 of 4 sources confirmed ·
+   confidence medium · 1 cited page could not be re-opened (see citations)"*.
+5. **Footer** is swing-lab's form exactly: *Project code on GitHub · Built by Guillermo
+   Arria-Devoe*. The trust-gate sentence and the badge legend moved to About.
+6. **The "partial vs. verified system" is kept in the pipeline, not deprecated** — it is what
+   makes "thoroughly verified" a checked property rather than a claim — but it no longer
+   appears on the list surfaces. Owner's read stands: the gate context is for us, the reader
+   sees sources and dates.
+7. **What "partial" actually is, measured:** 594 claims across the site, **5 unverified** — and
+   every one cites an *allowlisted* domain (ReliefWeb ×1, UNHCR ×1, Britannica ×3). The gate
+   never downgraded them; the curating session could not open those pages (UNHCR and Britannica
+   block automated fetchers — the BACKLOG has recorded this for UNHCR since August) and
+   correctly refused to call them confirmed. Not a system defect: an operational follow-up —
+   five URLs to confirm by hand, then flip through `curate.write` — recorded in the BACKLOG.

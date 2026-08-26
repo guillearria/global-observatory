@@ -225,6 +225,23 @@ Three things look like leftovers from the PR era but are intentional:
   D3 globe + pulse mark, D4 dateline yes, D5 quiet-verified / loud-exception, D6 no deaths range on
   archive cards, D7 teaser derived client-side rather than a schema field.
 
+  **Round 2 (owner feedback, same day — one PR):** tagline and trust prose moved to a new
+  **About** tab; dateline separators are pipes; event status sits on the right with the signal
+  group; **verified is unlabelled** — a pill appears only on the exceptions (cards and citations
+  alike); footer is swing-lab's *Project code on GitHub · Built by …*. The partial/verified
+  distinction stays in the pipeline (it is what makes "thoroughly verified" checkable) but is no
+  longer a list-surface label. See the plan's §9.
+
+  **The five unverified claims (0.8% of 594) are a fetch problem, not an allowlist problem.**
+  All five cite allowlisted domains — `reliefweb.int` (tunisia-wildfires-2026 claim-2),
+  `unhcr.org` (global-forced-displacement claim-1, see the Data item below), `britannica.com`
+  (aleppo-earthquake-1138 claim-3, china-floods-1931 claim-2, thirty-years-war claim-3) — and
+  the gate never downgraded them: the curating sessions could not open the pages (UNHCR and
+  Britannica block automated fetchers) and honestly left them `unverified`. To close: a person
+  opens the five URLs in a real browser, confirms each claim's text, sets `verified` with
+  today's `retrieved_date`, and re-runs each record through `curate.write` — after which no
+  `partial` pill appears anywhere on the site.
+
   Follow-ups, recorded not scheduled:
   - **Explicit `teaser` field** only if the derived first sentence reads badly after a week of
     refreshes. The three `/refresh-*` commands now steer the first sentence of `description` to
