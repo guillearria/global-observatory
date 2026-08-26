@@ -1,3 +1,23 @@
+/* Display face — Newsreader 600 (SIL OFL 1.1, see assets/fonts/OFL.txt), self-hosted
+   and subsetted (latin + latin-ext) because this site makes no external requests.
+   Body text stays system-ui; the display face carries the wordmark and titles only. */
+@font-face {
+  font-family: "Newsreader";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/newsreader-600-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Newsreader";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/newsreader-600-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 :root {
   --bg: #0f1115;
   --panel: #181b22;
@@ -11,6 +31,7 @@
   --amber: #d29922;
   --red: #f85149;
   --grey: #6e7681;
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
 }
 
 * { box-sizing: border-box; }
@@ -44,9 +65,22 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   padding: 0 20px;
 }
 
-.site-header { padding-top: 40px; padding-bottom: 8px; }
-.site-header h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: -0.01em; }
-.tagline { color: var(--muted); margin: 0 0 8px; max-width: 74ch; }
+/* Masthead: mark + wordmark, one-line tagline, and a two-link nav (code, author). */
+.masthead {
+  padding-top: 32px; padding-bottom: 4px;
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 12px 24px;
+}
+.brand { min-width: 0; }
+.brand-name {
+  display: flex; align-items: center; gap: 12px; margin: 0;
+  font-family: var(--font-display); font-weight: 600; font-size: 1.9rem; line-height: 1.1; letter-spacing: -0.015em;
+}
+.mark { width: 30px; height: 30px; flex: none; color: var(--accent); }
+.wordmark { min-width: 0; overflow-wrap: break-word; }
+.tagline { color: var(--muted); margin: 10px 0 0; max-width: 62ch; }
+.site-nav { display: flex; gap: 18px; padding-top: 10px; font-size: 0.9rem; white-space: nowrap; }
+.site-nav a { color: var(--muted); text-decoration: none; }
+.site-nav a:hover { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
 .freshness { color: var(--muted); font-size: 0.85rem; margin: 6px 0 0; }
 .freshness-stale { color: var(--amber); font-weight: 600; }
 
@@ -69,9 +103,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 /* One pane per tab: World Pulse, Existential Threats, Historical Archive. */
 .pane { margin-top: 28px; }
 .pane[hidden] { display: none; }
-.pane-head { border-bottom: 2px solid var(--line); padding-bottom: 10px; margin-bottom: 18px; }
-.pane-title { font-size: 1.5rem; margin: 0; letter-spacing: -0.01em; }
-.pane-sub { color: var(--muted); margin: 4px 0 0; }
+.pane-head { border-bottom: 2px solid var(--line); padding-bottom: 12px; margin-bottom: 18px; }
+/* The active tab is the pane's visible title; the h2 stays for the outline only. */
+.pane-title { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.pane-sub { color: var(--muted); margin: 0; }
 
 /* Sort/filter toolbars (threats + history panes); hidden until data arrives. */
 .toolbar { display: flex; flex-wrap: wrap; gap: 10px 16px; margin-top: 12px; }
@@ -178,7 +213,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .card-trust { text-transform: none; letter-spacing: 0; margin-left: auto; }
 .trust-ok { color: var(--green); font-size: 0.8rem; font-weight: 600; }
 
-.card-title { margin: 6px 0 4px; font-size: 1.15rem; line-height: 1.3; min-width: 0; overflow-wrap: break-word; }
+.card-title {
+  margin: 6px 0 4px; font-family: var(--font-display); font-weight: 600; font-size: 1.3rem;
+  line-height: 1.25; letter-spacing: -0.01em; min-width: 0; overflow-wrap: break-word;
+}
 .card-title-link { color: inherit; text-decoration: none; }
 .card-title-link::after { content: ""; position: absolute; inset: 0; }
 /* The teaser is the first sentence of the description, complete — no clamp. */
@@ -223,7 +261,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 /* --- Record detail view (#<tab>/<record-id>) -------------------------------- */
 .detail-back { margin: 0 0 16px; font-size: 0.9rem; }
-.detail h2 { margin: 6px 0 0; font-size: 1.5rem; letter-spacing: -0.01em; min-width: 0; overflow-wrap: break-word; }
+.detail h2 {
+  margin: 6px 0 0; font-family: var(--font-display); font-weight: 600; font-size: 1.75rem;
+  line-height: 1.2; letter-spacing: -0.015em; min-width: 0; overflow-wrap: break-word;
+}
 .detail-meta { margin-top: 12px; }
 .detail-prose { max-width: 74ch; overflow-wrap: break-word; }
 .detail-section { margin-top: 28px; }
@@ -254,4 +295,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   margin-top: 48px; padding-top: 20px; padding-bottom: 40px;
   border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem;
 }
+.site-footer p { max-width: 74ch; }
+/* The trust-gate sentence is the site's strongest claim: full text colour, not muted. */
+.footer-gate { color: var(--text); font-size: 0.95rem; }
+.footer-legend .badge { vertical-align: baseline; }
 .error { color: var(--red); }
