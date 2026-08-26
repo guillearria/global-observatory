@@ -221,6 +221,13 @@ Three things look like leftovers from the PR era but are intentional:
   event cards, map, tab logic and freshness line work and stay as they are, and nothing under
   `data/` or `pipeline/` is touched.
 
+  **→ Plan written 2026-08-25: [`docs/DESIGN-PASS.md`](DESIGN-PASS.md).** It carries this brief
+  unchanged (§3) **plus the owner's 2026-08-25 card feedback, which supersedes the "event cards
+  … stay as they are" line above**: cards on all three tabs are in scope — no ellipsis, one
+  clean description per card, whole card clickable with a basic animation, *live at source*
+  moved to the detail page (§2). Seven owner decisions (D1–D7) gate Phase 1; `data/` and
+  `pipeline/` stay untouched throughout.
+
   The floor (measured gaps):
   - **Favicon** — none today. Inline SVG data-URI keeps the zero-external-requests property.
   - **Masthead** — today a bare `<h1>`. Add a small mark + wordmark, and a nav with two
