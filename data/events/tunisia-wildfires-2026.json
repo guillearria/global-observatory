@@ -11,11 +11,11 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-08-01",
+      "retrieved_date": "2026-08-26",
       "source_name": "ReliefWeb",
       "source_url": "https://reliefweb.int/report/tunisia/tun-fire-07-2026-tunisia-wildfires-2026-2026-07-30",
-      "text": "A ReliefWeb-hosted disaster/situation record titled 'TUN: Fire - 07-2026 - Tunisia Wildfires 2026' (dated 30 July 2026) exists for this event, confirming allowlisted humanitarian coverage of the Tunisia wildfires.",
-      "verification_status": "unverified"
+      "text": "A ReliefWeb-hosted disaster/situation record titled 'TUN: Fire - 07-2026 - Tunisia Wildfires 2026' (dated 30 July 2026) exists for this event, confirming allowlisted humanitarian coverage of the Tunisia wildfires. Confirmed in a browser 2026-08-26: an IFRC situation report, originally published 30 Jul 2026 (posted 31 Jul 2026), describing a wave of fires that began on 1 June 2026 and peaked from 12 July 2026 amid an exceptional heatwave with temperatures close to 50°C in several governorates including Béja.",
+      "verification_status": "verified"
     },
     {
       "id": "claim-4",
@@ -45,7 +45,7 @@
     "status": "contained"
   },
   "id": "tunisia-wildfires-2026",
-  "last_updated": "2026-08-19T13:04:10Z",
+  "last_updated": "2026-08-26T04:21:21Z",
   "name": "Wildfires — Le Kef & Béja, Tunisia",
   "provenance": {
     "history": [
@@ -58,10 +58,15 @@
         "at": "2026-08-19T13:04:10Z",
         "layer": "verify",
         "run_id": "2026-08-19T13-04-10Z-50a0e6"
+      },
+      {
+        "at": "2026-08-26T04:21:21Z",
+        "layer": "verify",
+        "run_id": "manual-verify-2026-08-26"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-19T13-04-10Z-50a0e6"
+    "last_run_id": "manual-verify-2026-08-26"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -76,8 +81,8 @@
     }
   ],
   "verification": {
-    "confidence": "medium",
-    "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
-    "status": "partial"
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
   }
 }
