@@ -238,14 +238,16 @@ Three things look like leftovers from the PR era but are intentional:
   `unverified`. Closed 2026-08-26, each confirmed verbatim with the quotation appended to the
   claim: UNHCR (`2fd54b4`), Britannica Aleppo 1138 and Yangtze 1931 (`b34a7dc`), ReliefWeb
   Tunisia wildfires (`a53c59e` — an IFRC situation report, originally published 30 Jul 2026).
-  **One remains, and it is a curation job, not a flip:** `thirty-years-war` claim-3 cites a
-  Britannica page that is a *brief treatment* ending at Westphalia with no mortality figure at
-  all, and Britannica's full treatment (History of Europe, sections through "Problems solved by
-  the war") gives only Württemberg's fall from 450,000 to 100,000 — nowhere the claim's 4.5–8
-  million or the 15–20% decline it attributes to Britannica. The record's `deaths_low` /
-  `deaths_high` rest on that claim alone. A `/refresh-history` pass should cite a page that
-  states the toll (a university press, Our World in Data) or restate the impact as the sources
-  actually give it; until then the record is honestly `partial`.
+  **The fifth closed too (`a547c24`, via `/refresh-history`):** `thirty-years-war` claim-3 had
+  cited Britannica's brief event page, which states no toll. Re-sourced to Britannica's *Germany*
+  article ("an overall population decline of 15 to 20 percent (from about 20 million to 16 or 17
+  million)", Württemberg "more than 50 percent"), a Journal of Refugee Studies article (OUP:
+  "deaths of an estimated 15-20 per cent of the population of the Holy Roman Empire") and a
+  German History article (OUP) on how contested the figures are; the toll is now stated as the
+  sources give it — 3–4 million as 15–20 per cent of ~20 million, explicitly an order of
+  magnitude mixing deaths with flight — instead of the unsourced 4.5–8 million. **Every
+  published record on the site is now fully verified; no `partial` pill appears anywhere.**
+
   **Round 4 (2026-08-26):** the masthead nav (Code · author) and the About sub-line went — both
   duplicated the About panels and the footer. Shipped from the follow-ups: `og:image` (a
   1200×630 render of the mark + wordmark in the site's own face, `assets/og-image.png`,
