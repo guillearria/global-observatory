@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-26 — Daily World Pulse refresh (batch 3): re-verify Indonesia Flores earthquake and Philippines Luis/Maymay floods unchanged (2026-08-26) (`029559f`)
+
+- **Updated:** indonesia-earthquake-flores-2026, philippines-floods-luis-maymay-2026
+
 ## 2026-08-26 — Daily World Pulse refresh (batch 2): Sri Lanka DMC toll rise, re-verify Sudan cholera unchanged (2026-08-26) (`3d45635`)
 
 - **Updated:** sudan-cholera-outbreak-2026
