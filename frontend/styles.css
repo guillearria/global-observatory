@@ -182,10 +182,11 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .card:active { transform: translateY(0); box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); }
 .card:has(.card-title-link:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
 .card-title-link:focus-visible { outline: none; }
-/* The arrow closes the dateline row (inside the signal group, so it sits on the
-   same line as the status and the facts) and nudges right on hover. */
+/* The arrow closes the dateline row: a stroked SVG (not a text glyph, which sits
+   below the capitals' optical centre), centred by the signal group's flex. */
 .card-arrow {
-  color: var(--muted); font-size: 1rem; line-height: 1; letter-spacing: 0;
+  width: 14px; height: 14px; flex: none; display: block; color: var(--muted);
+  fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
   transition: transform 160ms ease-out, color 160ms ease-out;
 }
 .card:hover .card-arrow { transform: translateX(3px); color: var(--accent); }

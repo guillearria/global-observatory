@@ -302,6 +302,22 @@ function trustNode(rec, review) {
   });
 }
 
+// The card's arrow is an SVG, not a text glyph: a "→" character centres on the
+// font's math axis, which sits visibly below the optical centre of the small-caps
+// dateline; a stroked icon centred by flex lines up with the capitals.
+const SVG_NS = "http://www.w3.org/2000/svg";
+function arrowIcon() {
+  const svg = document.createElementNS(SVG_NS, "svg");
+  svg.setAttribute("class", "card-arrow");
+  svg.setAttribute("viewBox", "0 0 16 16");
+  svg.setAttribute("aria-hidden", "true");
+  svg.setAttribute("focusable", "false");
+  const path = document.createElementNS(SVG_NS, "path");
+  path.setAttribute("d", "M2.5 8h11M9 3.5 13.5 8 9 12.5");
+  svg.appendChild(path);
+  return svg;
+}
+
 // Facts on the left (category | country | date), the live signal on the right
 // (event status with its dot, plus the exception pill when there is one).
 function datelineNode(rec, parts, review, withArrow) {
@@ -313,7 +329,7 @@ function datelineNode(rec, parts, review, withArrow) {
   const signal = el("span", { class: "card-signal" }, [
     parts.status ? el("span", { class: `card-status status-${parts.status}`, text: parts.status }) : null,
     trustNode(rec, review),
-    withArrow ? el("span", { class: "card-arrow", "aria-hidden": "true", text: "→" }) : null,
+    withArrow ? arrowIcon() : null,
   ]);
   return el("p", { class: "card-dateline" }, [facts, signal.childElementCount ? signal : null]);
 }
