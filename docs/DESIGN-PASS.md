@@ -370,6 +370,10 @@ Seven points, all frontend; shipped as one PR the same day.
    *Round 3 (2026-08-26): the UNHCR claim was confirmed in a real browser (the total lives in
    the chart's hidden data table, not the prose) and flipped — `2fd54b4`. The four Britannica /
    ReliefWeb claims remain: both domains 403 every fetcher and are outside the browser
-   extension's site permissions.* Round 3 also moved the card arrow onto the dateline row,
+   extension's site permissions.* *Later that day, with the extension allowed on all sites:
+   Aleppo 1138 and Yangtze 1931 confirmed verbatim and flipped (`b34a7dc`); the Thirty Years'
+   War claim turned out to cite a page that does not state its figures — a re-sourcing job for
+   `/refresh-history`, recorded in the BACKLOG; ReliefWeb remains refused by the extension.*
+   Round 3 also moved the card arrow onto the dateline row,
    put the About tab in line, rebuilt About as three panels, and dropped the redundant
    attribution (PR #21).
