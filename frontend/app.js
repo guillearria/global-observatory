@@ -359,46 +359,50 @@ function renderDetail(route) {
   mount.replaceChildren(detailNode(found.rec, { kind: TAB_KINDS[route.tab], review: found.review }));
 }
 
-// Meta lines for the detail head; unlike the card adapters this includes the
-// verification verdict (the gate's notes string) and, for events, the
-// last-updated stamp next to it.
-function detailMeta(rec, kind) {
+// The gate's verdict in words. The raw notes string ("7 verified, 0 disputed,
+// 0 unverified -> verified") is internal notation and goes in a title attribute.
+function verificationLine(rec, review) {
   const v = rec.verification || {};
-  const verLine = [
-    v.notes || (v.status ? `verification: ${v.status}` : ""),
-    v.confidence ? `(confidence: ${v.confidence})` : "",
-  ].filter(Boolean).join(" ");
+  const claims = rec.claims || [];
+  const ok = claims.filter((c) => c.verification_status === "verified").length;
+  const status = review ? "under review" : (v.status || "unverified");
+  const parts = [status.charAt(0).toUpperCase() + status.slice(1)];
+  if (v.confidence) parts.push(`confidence ${v.confidence}`);
+  if (claims.length) {
+    parts.push(`${ok} of ${claims.length} cited claim${claims.length === 1 ? "" : "s"} ` +
+      `resolve${claims.length === 1 ? "s" : ""} to an allowlisted source`);
+  }
+  const node = el("p", { class: "fact", text: parts.join(" · ") });
+  if (v.notes) node.setAttribute("title", v.notes);
+  return node;
+}
+
+// Facts block under the detail head: the free-text fields the cards no longer show
+// (full location, scale), the live-source link — its one home on the site — the
+// last-updated stamp, and the gate's verdict.
+function detailFacts(rec, kind, review) {
   const out = [];
   if (kind === "event") {
     const ev = rec.event || {};
     const loc = ev.location || {};
     const where = [loc.region, loc.country].filter(Boolean).join(", ");
-    const locLine = [where, dateOnly(ev.occurrence_date), ev.scale].filter(Boolean).join(" · ");
-    if (locLine) out.push(el("p", { class: "card-loc", text: locLine }));
+    if (where) out.push(el("p", { class: "fact fact-where", text: where }));
+    if (ev.scale) out.push(el("p", { class: "fact", text: ev.scale }));
     if (ev.live_source_url) {
       const asOf = dateOnly(latestRetrievedDate(rec.claims)) || dateOnly(rec.last_updated);
-      out.push(el("p", { class: "card-live" }, [
+      out.push(el("p", { class: "fact" }, [
         el("span", { text: `Figures as of ${asOf} — ` }),
         linkOut(ev.live_source_url, "live at source ↗"),
       ]));
     }
-    out.push(el("p", {
-      class: "card-meta",
-      text: `Last updated ${dateOnly(rec.last_updated)}${verLine ? ` · ${verLine}` : ""}`,
-    }));
-  } else if (kind === "threat") {
-    out.push(el("p", { class: "card-meta", text: `Last updated ${dateOnly(rec.last_updated)}` }));
-    if (verLine) out.push(el("p", { class: "card-meta", text: verLine }));
-  } else {
+  } else if (kind === "historical") {
     const hist = rec.historical || {};
     const loc = hist.location || {};
     const where = [loc.region, loc.country].filter(Boolean).join(", ");
-    if (where) out.push(el("p", { class: "card-loc", text: where }));
-    out.push(el("p", {
-      class: "card-meta",
-      text: `Last updated ${dateOnly(rec.last_updated)}${verLine ? ` · ${verLine}` : ""}`,
-    }));
+    if (where) out.push(el("p", { class: "fact fact-where", text: where }));
   }
+  out.push(el("p", { class: "fact", text: `Last updated ${dateOnly(rec.last_updated)}` }));
+  out.push(verificationLine(rec, review));
   return out;
 }
 
@@ -462,21 +466,23 @@ function detailNode(rec, { kind, review }) {
   // reads as a zoom rather than a different page.
   children.push(datelineNode(rec, parts, review));
   children.push(el("h2", { class: "detail-title", text: rec.name || rec.id }));
-  children.push(el("div", { class: "detail-meta" }, detailMeta(rec, kind)));
+  children.push(el("div", { class: "detail-facts" }, detailFacts(rec, kind, review)));
 
-  const figures = detailFigures(rec, kind);
-  if (figures.length) children.push(detailSection("Key figures", figures));
-
-  // The kind summary first, then the description — they are separate editorial
-  // texts (snapshot vs. narrative); the second is skipped when identical.
-  const summary = kindSummary(rec, kind);
+  // Narrative first (the description), then the figures: the numeric lines plus the
+  // kind's figures snapshot (impact / assessment summary) as their paragraph. The two
+  // texts are separate editorial fields and are never printed back to back.
   const description = rec.description || "";
-  const prose = [];
-  if (summary) prose.push(el("p", { class: "detail-prose", text: summary }));
-  if (description && description !== summary) {
-    prose.push(el("p", { class: "detail-prose", text: description }));
+  if (description) {
+    children.push(detailSection("Overview", [el("p", { class: "detail-prose", text: description })]));
   }
-  if (prose.length) children.push(detailSection("Overview", prose));
+  const figures = detailFigures(rec, kind);
+  const summary = kindSummary(rec, kind);
+  if (summary && summary !== description) {
+    figures.push(el("p", { class: "detail-prose figures-summary", text: summary }));
+  }
+  if (figures.length) {
+    children.push(detailSection(kind === "threat" ? "Assessment" : "Key figures", figures));
+  }
 
   if (kind === "event" && Array.isArray(rec.updates) && rec.updates.length) {
     children.push(detailSection("Updates", rec.updates.map((u) => el("div", { class: "update" }, [

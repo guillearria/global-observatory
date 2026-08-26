@@ -222,10 +222,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 /* The teaser is the first sentence of the description, complete — no clamp. */
 .card-teaser { margin: 0; color: var(--text); overflow-wrap: break-word; }
 
-/* Detail-view meta lines (facts block). */
-.card-meta { color: var(--muted); font-size: 0.85rem; margin-top: 10px; }
-.card-loc { color: var(--text); font-size: 0.85rem; margin: 0 0 4px; font-weight: 500; overflow-wrap: break-word; }
-.card-live { color: var(--muted); font-size: 0.85rem; margin: 0 0 4px; }
 
 .badge {
   display: inline-block; font-size: 0.78rem; font-weight: 600;
@@ -265,7 +261,11 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   margin: 6px 0 0; font-family: var(--font-display); font-weight: 600; font-size: 1.75rem;
   line-height: 1.2; letter-spacing: -0.015em; min-width: 0; overflow-wrap: break-word;
 }
-.detail-meta { margin-top: 12px; }
+/* Facts block under the detail head: full location (text colour), scale, the
+   live-source link, last-updated, and the gate's verdict in words. */
+.detail-facts { margin-top: 12px; }
+.fact { margin: 0 0 4px; font-size: 0.85rem; color: var(--muted); overflow-wrap: break-word; }
+.fact-where { color: var(--text); font-weight: 500; }
 .detail-prose { max-width: 74ch; overflow-wrap: break-word; }
 .detail-section { margin-top: 28px; }
 .detail-section h3 {
@@ -273,6 +273,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 6px; margin: 0 0 14px;
 }
 .figure { margin: 4px 0; }
+.figures-summary { margin-top: 12px; }
 .update { display: flex; gap: 12px; border-bottom: 1px solid var(--line); padding: 8px 0; }
 .update:last-child { border-bottom: none; }
 .update-date { color: var(--muted); white-space: nowrap; }
