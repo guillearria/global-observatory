@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-26 — Daily World Pulse refresh (batch 1): Haiti Kenscoff attack & quarterly toll rise, Pakistan/India monsoon updates, re-verify Afghanistan/Bangladesh/El Obeid/Europe heatwave/Iran-Israel-US war/Mindanao/Sudan displacement (2026-08-26) (`5f980c3`)
+
+- **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, iran-israel-us-war-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, sri-lanka-floods-landslides-2026, sudan-displacement-crisis
+
 ## 2026-08-26 — Re-source the Thirty Years' War toll: Britannica's Germany article and two OUP articles (`a547c24`)
 
 - **Updated:** thirty-years-war
