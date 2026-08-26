@@ -6,6 +6,7 @@
   --muted: #9aa3b0;
   --line: #2a2f3a;
   --accent: #6ea8fe;
+  --accent-soft: rgba(110, 168, 254, 0.55); /* hover borders */
   --green: #3fb950;
   --amber: #d29922;
   --red: #f85149;
@@ -128,32 +129,66 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 6px; margin: 0 0 14px;
 }
 
+/* --- Cards: dateline · title · teaser — one anatomy for all three tabs ----- */
+/* The whole card is the link: .card-title-link::after stretches the title anchor
+   over the article, so the accessible name stays the title, Tab lands on one
+   link per card, and the article id stays the map's jump target. Hover lifts,
+   :active settles, and the keyboard ring is drawn on the card via :has(). */
 .card {
+  position: relative;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 10px;
-  padding: 16px 18px;
+  padding: 14px 44px 16px 18px; /* right padding clears the arrow */
   margin: 0 0 14px;
+  cursor: pointer;
+  transition: transform 160ms ease-out, border-color 160ms ease-out, box-shadow 160ms ease-out;
 }
-/* space-between (not margin-left:auto on .badges): chips sit right of the title
-   when they share its row, but align left when wrapped to their own row. */
-.card-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 10px; }
-.card-head h3 { margin: 0; font-size: 1.15rem; min-width: 0; overflow-wrap: break-word; }
-/* Long free-text scale/date lines render as this wrapping kicker, not a chip. */
-.card-kicker { color: var(--text); font-size: 0.9rem; font-weight: 500; margin: 8px 0 0; overflow-wrap: break-word; }
-/* Cards show a fixed teaser; the full text lives on the record's detail view. */
-.card-summary {
-  color: var(--text); margin: 10px 0 10px; overflow-wrap: break-word;
-  display: -webkit-box; -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden;
+.card:hover { transform: translateY(-2px); border-color: var(--accent-soft); box-shadow: 0 10px 26px rgba(0, 0, 0, 0.38); }
+.card:active { transform: translateY(0); box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); }
+.card:has(.card-title-link:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+.card-title-link:focus-visible { outline: none; }
+.card-arrow {
+  position: absolute; top: 14px; right: 16px; color: var(--muted); font-size: 1rem; line-height: 1.6;
+  transition: transform 160ms ease-out, color 160ms ease-out;
 }
+.card:hover .card-arrow { transform: translateX(3px); color: var(--accent); }
+
+/* Dateline: short structured facts only (category · country · date · status),
+   with the trust mark at the right end of the same line. */
+.card-dateline {
+  display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 2px 12px;
+  margin: 0; font-size: 0.75rem; line-height: 1.6; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--muted); min-width: 0;
+}
+/* Facts shrink and wrap inside their own box, so the trust mark stays on the
+   first row instead of being pushed under a long dateline. */
+.card-facts { flex: 1 1 0; min-width: 0; overflow-wrap: anywhere; }
+.card-sep { opacity: 0.6; }
+/* Event status is a word with a dot — never a pill, so pills mean trust only,
+   and never green, so green means verified only. */
+.card-status::before {
+  content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+  margin: 0 5px 2px 0; vertical-align: middle; background: var(--grey);
+}
+.status-ongoing::before { background: var(--red); }
+.status-contained::before { background: var(--amber); }
+.status-resolved::before { background: var(--grey); }
+/* Trust: quiet when it is the norm, a filled pill when it is the exception. */
+.card-trust { text-transform: none; letter-spacing: 0; margin-left: auto; }
+.trust-ok { color: var(--green); font-size: 0.8rem; font-weight: 600; }
+
+.card-title { margin: 6px 0 4px; font-size: 1.15rem; line-height: 1.3; min-width: 0; overflow-wrap: break-word; }
 .card-title-link { color: inherit; text-decoration: none; }
-.card-title-link:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.card-title-link::after { content: ""; position: absolute; inset: 0; }
+/* The teaser is the first sentence of the description, complete — no clamp. */
+.card-teaser { margin: 0; color: var(--text); overflow-wrap: break-word; }
+
+/* Detail-view meta lines (facts block). */
 .card-meta { color: var(--muted); font-size: 0.85rem; margin-top: 10px; }
 .card-loc { color: var(--text); font-size: 0.85rem; margin: 0 0 4px; font-weight: 500; overflow-wrap: break-word; }
 .card-live { color: var(--muted); font-size: 0.85rem; margin: 0 0 4px; }
 
-.badges { display: flex; flex-wrap: wrap; gap: 6px; min-width: 0; }
 .badge {
   display: inline-block; font-size: 0.78rem; font-weight: 600;
   padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line);
@@ -166,17 +201,19 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .badge-unverified { color: var(--text); background: var(--panel-2); border-color: var(--grey); }
 .badge-disputed { color: #0f1115; background: var(--red); border-color: var(--red); }
 .badge-review   { color: #0f1115; background: var(--amber); border-color: var(--amber); }
-.badge-sev, .badge-prob, .badge-scale, .badge-cat { background: var(--panel-2); }
-.badge-conf { background: transparent; }
-/* Event status badges. */
-.badge-ongoing   { color: #0f1115; background: var(--red); border-color: var(--red); }
-.badge-contained { color: #0f1115; background: var(--amber); border-color: var(--amber); }
-.badge-resolved  { color: #0f1115; background: var(--green); border-color: var(--green); }
 
-.card-foot {
-  color: var(--muted); font-size: 0.85rem;
-  margin: 12px 0 0; border-top: 1px solid var(--line); padding-top: 10px;
+/* Narrow screens: the trust mark takes its own row (right-aligned) instead of
+   squeezing the facts into a three-line column beside it. */
+@media (max-width: 480px) {
+  .card { padding-right: 36px; }
+  .card-facts { flex-basis: 100%; }
 }
+@media (prefers-reduced-motion: reduce) {
+  .card, .card-arrow { transition: none; }
+  .card:hover, .card:active { transform: none; }
+  .card:hover .card-arrow { transform: none; }
+}
+
 .claim { padding: 10px 0; border-bottom: 1px solid var(--line); }
 .claim:last-child { border-bottom: none; }
 .claim-text { margin: 0 0 6px; overflow-wrap: break-word; }
@@ -186,7 +223,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 /* --- Record detail view (#<tab>/<record-id>) -------------------------------- */
 .detail-back { margin: 0 0 16px; font-size: 0.9rem; }
-.detail h2 { margin: 0; font-size: 1.5rem; letter-spacing: -0.01em; min-width: 0; overflow-wrap: break-word; }
+.detail h2 { margin: 6px 0 0; font-size: 1.5rem; letter-spacing: -0.01em; min-width: 0; overflow-wrap: break-word; }
 .detail-meta { margin-top: 12px; }
 .detail-prose { max-width: 74ch; overflow-wrap: break-word; }
 .detail-section { margin-top: 28px; }
