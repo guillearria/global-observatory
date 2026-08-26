@@ -148,20 +148,40 @@ unknown id to a not-found note): World Pulse (flat; recency-first with severity-
 power, blended at render time from `occurrence_date`, `impact_rank`, and `status` — stored
 `sort_keys` are untouched), Existential Threats (grouped by category, severity-sorted, filterable
 by category and severity), and the Historical Archive (grouped by era, chronological with a
-newest-first toggle, filterable by type). Cards are compact: exactly three badges, a
-three-line-clamped summary, key meta, and a claim count — the title links to the detail view,
-which renders the full prose, key figures, the dated `updates[]` timeline (events), and the
-complete source-linked citations list, always expanded. Quarantined records render under an
-"Under review" warning banner on the list and resolve on detail routes with the same banner.
+newest-first toggle, filterable by type). Every card, on all three tabs, is the same three
+elements (design pass, 2026-08-26 — `docs/DESIGN-PASS.md`): a **dateline** of short structured
+fields (category · country · date · status for events; severity · probability for threats; type ·
+date · country for the archive) with the trust mark at its right end — quiet text when `verified`,
+a filled pill for partial / disputed / unverified / under review; the **title**; and a **teaser**,
+the first sentence of `description`, derived client-side (`firstSentence`, with an abbreviation
+guard) and shown complete — never clamped, no ellipsis anywhere on the site. A `country` written
+as prose is reduced to its bare place and dropped past 40 characters. The whole card is the link:
+the title anchor's `::after` stretches over the `<article>`, which keeps `id="card-<id>"` as the
+map's jump target and the title as the accessible name. The detail view renders a facts block
+(full location, scale, the live-source link, last-updated, and the gate's verdict in words —
+"Verified · confidence high · 7 of 7 cited claims resolve to an allowlisted source", with the raw
+`verification.notes` string in a `title` attribute), the narrative under Overview, the numeric
+lines plus the figures summary under Key figures (Assessment, for threats), the dated `updates[]`
+timeline (events), and the complete source-linked citations list, always expanded. Quarantined
+records render under an "Under review" warning banner on the list and resolve on detail routes
+with the same banner.
+
+Identity chrome (same pass): a masthead with an inline SVG mark (a globe with a pulse line) beside
+a Newsreader wordmark, a two-link nav (code, author), the same mark as a data-URI favicon, and a
+footer that states the trust gate. The display face is **self-hosted and subsetted**
+(`frontend/assets/fonts/`, SIL OFL 1.1) precisely because of the no-external-requests property — a
+hosted-font `<link>` would break it; body text stays `system-ui`.
 
 The **World Pulse map** (`map.js`, pulse tab only) is fully self-contained: a committed NASA Blue
 Marble equirectangular basemap with drag-pan and wheel/pinch zoom, markers sized and colored by
 `sort_keys.impact_rank`, hover tooltips, and click-to-scroll to the event card. Markers re-render
 from every `events.json` paint, so the daily refresh updates the map automatically; `app.js` only
-touches the two-method `GOMap` API, keeping a richer map library a drop-in swap.
+touches the two-method `GOMap` API — `setEvents(records, { describe })`, whose optional hook
+supplies the tooltip's second line (the card dateline), and `invalidate()` — keeping a richer map
+library a drop-in swap.
 
-Freshness honesty: cached figures are labeled "as of <claims' retrieved_date>" — on cards and on
-the detail view — with a "live at source" link (`event.live_source_url`); a **staleness banner**
+Freshness honesty: cached figures are labeled "as of <claims' retrieved_date>" on the detail view,
+with a "live at source" link (`event.live_source_url`) — its one home on the site; a **staleness banner**
 appears on the list panes when `last_updated` exceeds 2 days (events) or 10 days (threats) — the
 Historical Archive is exempt (its `staleAfterDays` is null, and the banner guard requires a
 finite threshold).

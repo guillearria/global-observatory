@@ -1,6 +1,8 @@
 # Design pass — implementation plan
 
-**Status: PLAN (2026-08-25). Nothing below is implemented.** Written from three sources, reconciled:
+**Status: IMPLEMENTED — Phases 1–3 merged 2026-08-26 as PRs #16, #17 and #18; Phase 4 (docs) closed it.**
+Kept as the record of the audit, the decisions and the verification recipe. Written 2026-08-25
+from three sources, reconciled:
 
 1. **HQ's brief** — the identity-pass item at the top of `BACKLOG.md` → *Frontend & delivery*
    (commit `cdba4c7`): favicon, masthead, footer, optional `og:image`, plus three decisions left
@@ -79,7 +81,9 @@ Contrast (every current token clears AA on every surface: `--muted` 6.76:1 on pa
 └──────────────────────────────────────────────────────────────┘
 ```
 
-Three elements, in this order, and nothing else:
+Three elements, in this order, and nothing else. (As shipped, dates in the dateline are ISO —
+`2026-07-19` — matching the freshness line and the updates timeline; the mock's "19 Jul 2026" was
+not adopted. A `country` written as prose is reduced to its bare place and dropped past 40 chars.)
 
 1. **Dateline** — the scannable facts, as one short muted line *above* the title (an eyebrow, not
    a second paragraph). Per tab, built only from **short structured fields** — never `region`,
@@ -195,7 +199,7 @@ on the site.
 
 ---
 
-## 5. Decisions for the owner (make these before Phase 1 starts)
+## 5. Decisions for the owner — all seven taken as recommended, 2026-08-25
 
 | # | Decision | Recommendation | Why |
 |---|---|---|---|
