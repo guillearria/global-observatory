@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-25 — Verify the forced-displacement headline claim against the UNHCR Global Trends page (`2fd54b4`)
+
+- **Updated:** global-forced-displacement
+
 ## 2026-08-25 — Daily World Pulse refresh (partial, in progress): Ebola DRC case-count update, Sudan cholera & Europe heatwave re-verified (2026-08-25) (`2bbb60b`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, europe-heatwave-2026, sudan-cholera-outbreak-2026

@@ -19,11 +19,11 @@
     },
     {
       "id": "claim-3",
-      "retrieved_date": "2026-07-05",
+      "retrieved_date": "2026-08-26",
       "source_name": "Encyclopaedia Britannica",
       "source_url": "https://www.britannica.com/event/Aleppo-earthquake-of-1138",
-      "text": "Encyclopaedia Britannica dates the main shock to October 11, 1138, preceded by a smaller shock on October 10, states the traditional estimate that some 230,000 people were killed, and describes the collapse of Aleppo's citadel walls and the destruction of the Crusader citadel at Harim and the Muslim fort at al-Atarib.",
-      "verification_status": "unverified"
+      "text": "Encyclopaedia Britannica dates the main shock to October 11, 1138, preceded by a smaller shock on October 10, states the traditional estimate that some 230,000 people were killed, and describes the collapse of Aleppo's citadel walls and the destruction of the Crusader citadel at Harim and the Muslim fort at al-Atarib: \"it is estimated that 230,000 people were killed\"; \"Aleppo's citadel collapsed, killing hundreds of residents\"; \"European Crusaders had constructed a citadel at nearby Harim, which was leveled by the quake\"; \"A Muslim fort at Al-Atarib was destroyed as well.\"",
+      "verification_status": "verified"
     }
   ],
   "description": "A major earthquake, estimated by the USGS at about magnitude 7.1, struck Aleppo and its hinterland in northern Syria in October 1138, collapsing Aleppo's citadel and destroying the Crusader-held citadel at Harim and the Muslim fort at al-Atarib. It is routinely listed among the deadliest earthquakes in history with a toll of roughly 230,000, but that figure comes from the 15th-century compiler Ibn Taghribirdi and is widely regarded as conflating the Aleppo shock with the 1137 earthquake on the Jazira plain and the 1139 earthquake at Ganja in the Transcaucasus. The event occurred on the seismically active plate boundary between the Arabian and African plates associated with the Dead Sea Fault system.",
@@ -43,7 +43,7 @@
     "year_start": 1138
   },
   "id": "aleppo-earthquake-1138",
-  "last_updated": "2026-07-06T09:21:40Z",
+  "last_updated": "2026-08-26T04:11:36Z",
   "name": "1138 Aleppo Earthquake",
   "provenance": {
     "history": [
@@ -51,10 +51,15 @@
         "at": "2026-07-06T09:21:40Z",
         "layer": "verify",
         "run_id": "2026-07-06T09-21-40Z-7c4161"
+      },
+      {
+        "at": "2026-08-26T04:11:36Z",
+        "layer": "verify",
+        "run_id": "manual-verify-2026-08-26"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-07-06T09-21-40Z-7c4161"
+    "last_run_id": "manual-verify-2026-08-26"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -63,8 +68,8 @@
     "impact_rank": 1
   },
   "verification": {
-    "confidence": "medium",
-    "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
-    "status": "partial"
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
   }
 }
