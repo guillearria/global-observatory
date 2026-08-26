@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T10:09:00Z",
+  "last_updated": "2026-08-26T03:49:44Z",
   "published": [
     {
       "assessment": {
@@ -576,11 +576,11 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-07-02",
+          "retrieved_date": "2026-08-26",
           "source_name": "UNHCR",
           "source_url": "https://www.unhcr.org/global-trends",
-          "text": "At the end of 2025, 117.8 million people worldwide were forcibly displaced — roughly one in every 70 people (UNHCR Global Trends, June 2026).",
-          "verification_status": "unverified"
+          "text": "At the end of 2025, 117.8 million people worldwide were forcibly displaced — roughly one in every 70 people (UNHCR Global Trends, June 2026). The page's prose gives the ratio (one in every 70 people, 1.4 per cent of the world's population); its 2025 data table gives the components — 67,228,580 internally displaced, 28,461,306 refugees under UNHCR's mandate, 5,964,782 Palestine refugees under UNRWA's mandate, 8,998,091 asylum-seekers and 7,177,473 other people in need of international protection — which sum to 117,830,232.",
+          "verification_status": "verified"
         },
         {
           "id": "claim-2",
@@ -609,7 +609,7 @@
       ],
       "description": "Displacement by persecution, conflict, violence, and human-rights violations at near-record scale. Sustained mass displacement strains host states and international institutions, and is both a symptom and an amplifier of instability; 2025 saw the first decline in a decade, driven by large-scale returns.",
       "id": "global-forced-displacement",
-      "last_updated": "2026-08-24T10:09:00Z",
+      "last_updated": "2026-08-26T03:49:44Z",
       "name": "Global Forced Displacement Crisis",
       "provenance": {
         "history": [
@@ -617,10 +617,15 @@
             "at": "2026-08-24T10:09:00Z",
             "layer": "verify",
             "run_id": "2026-08-24T10-09-00Z-a92d0b"
+          },
+          {
+            "at": "2026-08-26T03:49:44Z",
+            "layer": "verify",
+            "run_id": "manual-verify-2026-08-26"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-24T10-09-00Z-a92d0b"
+        "last_run_id": "manual-verify-2026-08-26"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -629,9 +634,9 @@
         "severity_rank": 2
       },
       "verification": {
-        "confidence": "medium",
-        "notes": "gate: 3 verified, 0 disputed, 1 unverified -> partial",
-        "status": "partial"
+        "confidence": "high",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
       }
     },
     {
