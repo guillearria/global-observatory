@@ -232,15 +232,16 @@ Three things look like leftovers from the PR era but are intentional:
   distinction stays in the pipeline (it is what makes "thoroughly verified" checkable) but is no
   longer a list-surface label. See the plan's §9.
 
-  **The five unverified claims (0.8% of 594) are a fetch problem, not an allowlist problem.**
-  All five cite allowlisted domains — `reliefweb.int` (tunisia-wildfires-2026 claim-2),
-  `unhcr.org` (global-forced-displacement claim-1, see the Data item below), `britannica.com`
-  (aleppo-earthquake-1138 claim-3, china-floods-1931 claim-2, thirty-years-war claim-3) — and
-  the gate never downgraded them: the curating sessions could not open the pages (UNHCR and
-  Britannica block automated fetchers) and honestly left them `unverified`. To close: a person
-  opens the five URLs in a real browser, confirms each claim's text, sets `verified` with
-  today's `retrieved_date`, and re-runs each record through `curate.write` — after which no
-  `partial` pill appears anywhere on the site.
+  **The unverified claims are a fetch problem, not an allowlist problem.** Five of 594 (0.8%)
+  cited allowlisted domains that block automated fetchers, and the gate never downgraded them —
+  the curating sessions honestly left them `unverified`. **One closed 2026-08-26** (UNHCR, see
+  the Data item below — verified in a real browser, `2fd54b4`). **Four remain**, all on domains
+  the Claude-in-Chrome extension is not permitted to open and that 403 every fetcher:
+  `britannica.com` (aleppo-earthquake-1138 claim-3, china-floods-1931 claim-2, thirty-years-war
+  claim-3) and `reliefweb.int` (tunisia-wildfires-2026 claim-2). To close: allow those two
+  domains in the extension's site permissions (or open the four URLs by hand), confirm each
+  claim's text, set `verified` with today's `retrieved_date`, and re-run each record through
+  `curate.write` on a `claude/*` branch — after which no `partial` pill appears anywhere.
 
   Follow-ups, recorded not scheduled:
   - **Explicit `teaser` field** only if the derived first sentence reads badly after a week of
@@ -287,14 +288,13 @@ Three things look like leftovers from the PR era but are intentional:
 
 - **Fill the empty threat categories** *(Done 2026-07-02 — all 8 categories now have at least one
   record; nuclear needed a SIPRI allowlist entry since IAEA publishes no arsenal counts.)*
-- **Flip the forced-displacement headline claim to verified**: the record is honestly `partial`
-  because claim-1's 117.8M end-2025 total can't be machine-confirmed — unhcr.org 403s automated
-  fetchers (curl and WebFetch alike), its Wayback playback is a JS shell with no figures, and the
-  allowlisted mirrors (UN News story, UNifeed briefing) carry only the 41.6M refugee component.
-  Search-result snippets do corroborate 117.8M from Global Trends (June 2026), but the trust rule
-  requires confirming the figure on the cited page. A human with a real browser: open
-  https://www.unhcr.org/global-trends, confirm the total, set claim-1 `verified` with today's
-  `retrieved_date`, and re-run it through `curate.write(kind="threat")`.
+- **Flip the forced-displacement headline claim to verified** *(Done 2026-08-26 — `2fd54b4`, via
+  the publish workflow.)* Opened in a real browser: the page's prose gives the one-in-70 ratio and
+  its 2025 chart data table gives the five components (67,228,580 IDPs, 28,461,306 refugees under
+  UNHCR's mandate, 5,964,782 Palestine refugees, 8,998,091 asylum-seekers, 7,177,473 others in
+  need of international protection), which sum to 117,830,232 — the claim text now records that
+  derivation. Worth knowing for future refreshes: **the 117.8M total is not in the page's prose,
+  only in the hidden `<table>` behind the chart**, so a text-only fetch never finds it.
 - **Seed more real events**: more accrue naturally once the daily routine is running; no action
   needed beyond that.
 - **Seed the Historical Archive** *(Done 2026-07-06 — 43 landmark records across all six eras,
