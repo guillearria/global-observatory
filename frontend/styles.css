@@ -66,10 +66,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 
 /* Masthead: mark + wordmark and a two-link nav (code, author); the tagline lives on About. */
-.masthead {
-  padding-top: 32px; padding-bottom: 4px;
-  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 12px 24px;
-}
+.masthead { padding-top: 32px; padding-bottom: 4px; }
 .brand { min-width: 0; }
 .brand-name {
   display: flex; align-items: center; gap: 12px; margin: 0;
@@ -77,9 +74,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 .mark { width: 30px; height: 30px; flex: none; color: var(--accent); }
 .wordmark { min-width: 0; overflow-wrap: break-word; }
-.site-nav { display: flex; gap: 18px; padding-top: 10px; font-size: 0.9rem; white-space: nowrap; }
-.site-nav a { color: var(--muted); text-decoration: none; }
-.site-nav a:hover { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
 .freshness { color: var(--muted); font-size: 0.85rem; margin: 6px 0 0; }
 .freshness-stale { color: var(--amber); font-weight: 600; }
 
@@ -110,10 +104,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 /* Sort/filter toolbars (threats + history panes); hidden until data arrives. */
 .toolbar { display: flex; flex-wrap: wrap; gap: 10px 16px; margin-top: 12px; }
 .toolbar-field { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 0.85rem; }
-.toolbar select {
+.toolbar select, .toolbar input[type="search"] {
   background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
   border-radius: 8px; padding: 6px 10px; font: inherit; font-size: 0.9rem;
 }
+.toolbar input[type="search"] { min-width: 12ch; width: 22ch; max-width: 100%; }
+.toolbar input[type="search"]::placeholder { color: var(--muted); opacity: 0.8; }
 
 /* World Pulse map (map.js): self-contained NASA Blue Marble basemap + impact markers. */
 .map-wrap { margin: 0 0 20px; }
@@ -298,7 +294,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 .site-footer p { margin: 0; }
 
-/* About pane: static panels with the cards' surface, one per topic. */
+/* About pane: static panels with the cards' surface, one per topic; the hidden
+   h2 keeps the outline, so the first panel needs the pane's top spacing itself. */
+.about .panel:first-of-type { margin-top: 0; }
 .panel {
   background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
   padding: 14px 18px 16px; margin: 0 0 14px;

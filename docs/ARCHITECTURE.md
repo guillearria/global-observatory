@@ -170,10 +170,14 @@ a status pill only when it is not verified. Quarantined records render under an 
 warning banner on the list and resolve on detail routes with the same banner.
 
 Identity chrome (same pass): a masthead with an inline SVG mark (a globe with a pulse line) beside
-a Newsreader wordmark and a two-link nav (code, author), the same mark as a data-URI favicon, a
-one-line footer (*Project code on GitHub · Built by …*), and a static **About** tab (`#about`, no
-data, no detail routes) that explains the site, its sourcing rule and its curator in reader
-language — the allowlist/gate vocabulary stays in this document and the README, not on the page.
+a Newsreader wordmark (no nav — the footer and About carry the links), the same mark as a data-URI
+favicon, an `og:image` rendered from the same mark and face, a one-line footer (*Project code on
+GitHub · Built by …*), and a static **About** tab (`#about`, no data, no detail routes) that
+explains the site, its sourcing rule and its curator in reader language — the allowlist/gate
+vocabulary stays in this document and the README, not on the page. Every list tab has a toolbar:
+World Pulse filters by category and searches; Existential Threats filters by category and
+severity and searches; the Archive sorts, filters by type and searches. Search is every-word-must-
+match over name, description, place, category label and date text, in memory, no refetch.
 The display face is **self-hosted and subsetted**
 (`frontend/assets/fonts/`, SIL OFL 1.1) precisely because of the no-external-requests property — a
 hosted-font `<link>` would break it; body text stays `system-ui`.
