@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T04:11:36Z",
+  "last_updated": "2026-08-26T05:19:05Z",
   "published": [
     {
       "category": "natural-disaster",
@@ -2968,21 +2968,37 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-07-05",
+          "retrieved_date": "2026-08-26",
           "source_name": "Encyclopaedia Britannica",
-          "source_url": "https://www.britannica.com/event/Thirty-Years-War",
-          "text": "Total mortality from the Thirty Years' War is commonly estimated at roughly 4.5 to 8 million people, the majority from famine and epidemic disease rather than combat; Encyclopaedia Britannica frames the loss as an overall population decline of about 15-20% in the Holy Roman Empire (from about 20 million to 16-17 million).",
-          "verification_status": "unverified"
+          "source_url": "https://www.britannica.com/place/Germany/The-Thirty-Years-War-and-the-Peace-of-Westphalia",
+          "text": "Encyclopaedia Britannica, 'Germany - The Thirty Years' War and the Peace of Westphalia': \"Most historians agree that an overall population decline of 15 to 20 percent (from about 20 million to 16 or 17 million) occurred during the war and the ensuing epidemics.\" and \"in the most embattled realms, such as Wurttemberg, more than 50 percent of the people died or disappeared; elsewhere, the loss was less severe.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-08-26",
+          "source_name": "Oxford University Press",
+          "source_url": "https://academic.oup.com/jrs/article/36/3/552/7165283",
+          "text": "Journal of Refugee Studies 36(3), 'The Great and Miserable Flight: The Experiences of Refugees in Newsprint during the Thirty Years' War' (Oxford University Press): \"In addition to the deaths of an estimated 15-20 per cent of the population of the Holy Roman Empire, flight was a major factor behind the losses in areas with the highest-recorded population decline during the conflict (Wilson 2012: 26, 791)\"; \"the population of Ottobeuren by 1659 was only 45.6 per cent of what it had been prior to the outbreak of the war\"; the war \"holds the notorious distinction of being the greatest demographic crisis in European history following the Black Death of the mid-fourteenth century and prior to the devastation of the two World Wars of the early twentieth century.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-08-26",
+          "source_name": "Oxford University Press",
+          "source_url": "https://academic.oup.com/gh/article/43/3/448/8381800",
+          "text": "German History 43(3), 'Thirty Years War and German Memory: From Historikerstreit 2.0 to a New Germany' (Oxford University Press) notes that the popular loss figures derive from \"largely unverified statements\" by the historian Gunther Franz, that \"the many inconsistencies of Franz's statements on population losses have frequently been discussed\", and that \"if these figures are accurate, then the loss of population during the Thirty Years War was proportionally greater than in World War II.\"",
+          "verification_status": "verified"
         }
       ],
-      "description": "The Thirty Years' War (1618-1648) was a series of interconnected conflicts fought mainly in the German lands of the Holy Roman Empire, beginning as a struggle between Catholic and Protestant states and drawing in most major European powers, including Spain, France, Sweden, Denmark, and the Dutch Republic. It was one of the most destructive conflicts in European history, with the great majority of deaths caused by famine and epidemic disease rather than combat. The war ended with the Peace of Westphalia in 1648.",
+      "description": "The Thirty Years' War (1618-1648) was a series of interconnected conflicts fought mainly in the German lands of the Holy Roman Empire, beginning as a struggle between Catholic and Protestant states and drawing in most major European powers, including Spain, France, Sweden, Denmark, and the Dutch Republic. It was one of the most destructive conflicts in European history: the Empire's population is estimated to have fallen by 15 to 20 percent, from about 20 million to 16 or 17 million, through death at the hands of soldiers, disease, starvation and flight, with territories such as Wurttemberg losing more than half their people. The war ended with the Peace of Westphalia in 1648.",
       "historical": {
         "date_display": "1618-1648",
         "era": "early-modern",
         "impact": {
-          "deaths_high": 8000000,
-          "deaths_low": 4500000,
-          "summary": "Widely cited estimates put total mortality from the Thirty Years' War at roughly 4.5 to 8 million soldiers and civilians, with the great majority of deaths caused by famine and epidemic disease (plague, typhus, dysentery) rather than by combat. The figure is inherently uncertain: it rests on fragmentary early-modern records and is often expressed instead as a population decline of about 15-20% across the Holy Roman Empire (from roughly 20 million to 16-17 million), with some hard-hit regions such as Wuerttemberg losing more than half their people. This overall range could not be confirmed on a readable allowlisted page during research (Encyclopaedia Britannica and JSTOR returned HTTP 403 to automated fetches, and the relevant NIH/PMC and Cambridge journal articles are scanned page images); it is therefore recorded here as an unverified estimate, while battle- and epidemic-level details below are verified from allowlisted sources actually read."
+          "deaths_high": 4000000,
+          "deaths_low": 3000000,
+          "summary": "Modern scholarship states the loss as a proportion rather than a count: an overall population decline of 15 to 20 percent across the Holy Roman Empire, from about 20 million to 16 or 17 million people (Encyclopaedia Britannica), and a peer-reviewed estimate that 15-20 per cent of the Empire's population died, on top of large-scale flight (Journal of Refugee Studies, citing Wilson). The 3 to 4 million range recorded here is that proportion of a population of roughly 20 million; it mixes deaths with displacement and should be read as an order of magnitude. Losses were highly uneven: in the most embattled territories such as Wurttemberg more than half the people died or disappeared, and Ottobeuren's population in 1659 was only 45.6 per cent of its pre-war level. The figures rest on fragmentary early-modern records and remain contested - historians have long noted the inconsistencies in the mid-20th-century estimates the popular death tolls derive from - yet the war is described as the greatest demographic crisis in European history between the Black Death and the two World Wars."
         },
         "location": {
           "country": "Germany (Holy Roman Empire) and Central Europe",
@@ -2992,7 +3008,7 @@
         "year_start": 1618
       },
       "id": "thirty-years-war",
-      "last_updated": "2026-07-06T09:21:44Z",
+      "last_updated": "2026-08-26T05:19:05Z",
       "name": "Thirty Years' War",
       "provenance": {
         "history": [
@@ -3000,10 +3016,15 @@
             "at": "2026-07-06T09:21:44Z",
             "layer": "verify",
             "run_id": "2026-07-06T09-21-44Z-2aa914"
+          },
+          {
+            "at": "2026-08-26T05:19:05Z",
+            "layer": "verify",
+            "run_id": "history-thirty-years-war-2026-08-26"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-07-06T09-21-44Z-2aa914"
+        "last_run_id": "history-thirty-years-war-2026-08-26"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3012,9 +3033,9 @@
         "impact_rank": 4
       },
       "verification": {
-        "confidence": "medium",
-        "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
-        "status": "partial"
+        "confidence": "high",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
       }
     },
     {

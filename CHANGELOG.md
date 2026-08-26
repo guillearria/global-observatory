@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-08-26 — Daily World Pulse refresh: add Serbia wildfires, Ebola DRC toll rise, China Yangtze/Washington Sinlahekin/Hawaii Lala updates, Saudel lowered to Green, re-verify Colombia/BC/Japan yen (2026-08-26) (`c8d8ba2`)
+
+- **Added:** serbia-wildfires-2026
+- **Updated:** canada-british-columbia-wildfires-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, ebola-bundibugyo-drc-2026, japan-yen-intervention-2026, typhoon-saudel-2026, usa-hawaii-hurricane-lala-2026, usa-washington-wildfires-2026
+
 ## 2026-08-26 — Verify the Tunisia wildfires ReliefWeb claim in a real browser (`a53c59e`)
 
 - **Updated:** tunisia-wildfires-2026
