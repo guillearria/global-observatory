@@ -16,44 +16,47 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
       "text": "GDACS's tropical cyclone report for SAUDEL-26 (active from 18 August to 26 August 2026) rates the storm an overall Green alert -- 'a low humanitarian impact based on the maximum sustained wind speed, exposed population and vulnerability' -- with maximum sustained winds of '213 km/h Category 4', approximately 280,000 people in Category 1 or higher wind zones across Japan and the Northern Mariana Islands, and a maximum storm surge of 1.8 metres.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-27",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
+      "text": "GDACS's event-data API (episode 36) for SAUDEL-26 records an overall Orange alert with the event window extended to 18 August 2026 12:00 UTC - 27 August 2026 06:00 UTC, unchanged maximum sustained winds of 213 km/h (Category 4), about 11.5 million people exposed to Category 1 or higher winds across Japan, China and the Northern Mariana Islands, and a maximum storm surge of 2.3 metres (forecast for 28 August 00:00 UTC).",
+      "verification_status": "verified"
     }
   ],
-  "description": "Tropical Cyclone Saudel intensified to Category 4 strength (213 km/h sustained winds) in the Philippine Sea in mid-August 2026, tracking toward Japan's Ryukyu Islands after affecting the Northern Mariana Islands. GDACS assessed the storm at an Orange alert with about 3.5 million people exposed on 24 August, then lowered it to an overall Green alert (low humanitarian impact) as the storm weakened, with its active track recorded as 18-26 August 2026, about 280,000 people in Category 1 or higher wind zones and a maximum storm surge of 1.8 m. No death, injury or displacement figure has been confirmed by an authoritative source.",
+  "description": "Tropical Cyclone Saudel intensified to Category 4 strength (213 km/h sustained winds) in the Philippine Sea in mid-August 2026, tracking toward Japan's Ryukyu Islands after affecting the Northern Mariana Islands. GDACS lowered the storm to a Green alert on 26 August as it appeared to weaken, then re-escalated it to an overall Orange alert on 27 August as its episode window extended to 27 August with unchanged Category 4 intensity (213 km/h), about 11.5 million people now exposed to Category 1 or higher winds across Japan, China and the Northern Mariana Islands (up from about 280,000), and a forecast maximum storm surge of 2.3 m. No death, injury or displacement figure has been confirmed by an authoritative source.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's current report (26 August 2026) rates SAUDEL-26 an overall Green alert (low humanitarian impact) for its 18-26 August track across the Northern Mariana Islands and Japan, down from the Orange alert assessed on 24 August, with peak sustained winds of 213 km/h (Category 4), about 280,000 people in Category 1 or higher wind zones and a maximum storm surge of 1.8 m. No death, injury or displacement figure has been confirmed by an authoritative source."
+      "summary": "GDACS re-escalated SAUDEL-26 to an overall Orange alert (medium humanitarian impact) on 27 August 2026, with its episode window extended to 27 August, unchanged Category 4 intensity (213 km/h), about 11.5 million people now exposed to Category 1 or higher winds across Japan, China and the Northern Mariana Islands (up sharply from about 280,000 at the 26 August Green assessment), and a forecast maximum storm surge of 2.3 m. No death, injury or displacement figure has been confirmed by an authoritative source."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
     "location": {
       "country": "Japan",
       "lat": 23.9,
       "lon": 136.3,
-      "region": "Philippine Sea, approaching the Ryukyu Islands (Okinawa / Amami Ōshima)"
+      "region": "Ryukyu Islands (Okinawa / Amami Ōshima), extending to China"
     },
     "occurrence_date": "2026-08-18",
-    "scale": "Category 4 peak (213 km/h); GDACS alert lowered to Green as of 26 August 2026",
-    "status": "contained"
+    "scale": "Category 4 peak (213 km/h); GDACS re-escalated to Orange as of 27 August 2026",
+    "status": "ongoing"
   },
   "id": "typhoon-saudel-2026",
-  "last_updated": "2026-08-26T04:52:24Z",
+  "last_updated": "2026-08-27T09:17:01Z",
   "name": "Typhoon Saudel — Northern Mariana Islands, Japan & China",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-24T09:20:26Z",
+        "at": "2026-08-27T09:17:01Z",
         "layer": "verify",
-        "run_id": "2026-08-24T09-20-26Z-99fb76"
-      },
-      {
-        "at": "2026-08-26T04:52:24Z",
-        "layer": "verify",
-        "run_id": "world-pulse-2026-08-26-local"
+        "run_id": "2026-08-27T09-17-01Z-c38c85"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "world-pulse-2026-08-26-local"
+    "last_run_id": "2026-08-27T09-17-01Z-c38c85"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -63,13 +66,17 @@
   },
   "updates": [
     {
+      "date": "2026-08-27",
+      "text": "GDACS re-escalated SAUDEL-26 from Green back to an overall Orange alert as its episode window extended to 27 August, with exposed population rising to about 11.5 million people across Japan, China and the Northern Mariana Islands (from about 280,000) and a forecast maximum storm surge of 2.3 m."
+    },
+    {
       "date": "2026-08-26",
       "text": "GDACS lowered SAUDEL-26 to an overall Green alert (low humanitarian impact) for its 18-26 August track, with about 280,000 people in Category 1 or higher wind zones across Japan and the Northern Mariana Islands (from about 3.5 million at the 24 August Orange assessment) and a maximum storm surge of 1.8 m."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -56,14 +56,22 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
       "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 13, as of 24 August 2026; event dates 31 July - 25 August 2026) records 2 deaths and 319,550 people displaced, and remains an Orange alert: 'Flood can have a medium humanitarian impact based on the magnitude, exposed population and vulnerability.'",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-9",
+      "retrieved_date": "2026-08-27",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
+      "text": "GDACS's current flood report for event FL-2026-000148-CHN (episode 10 per the report page, reporting window 31 July - 26 August 2026) records 326,643 people displaced (up from 319,550 in the prior read) and 2 deaths (unchanged), remaining an overall Orange alert.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Heavy rain from Typhoon Dolphin and its remnants triggered severe flooding across central and eastern China beginning 31 July 2026, with the heaviest impacts from around 11 August 2026 in Hubei Province. GDACS rates the event (FL-2026-000148-CHN) an Orange alert, with a combined 319,550 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi provinces and 2 deaths recorded as of its episode 13 update (24 August). The event's first confirmed casualties came when a residential building collapsed in a debris flow in Heping Town, Changxing County, Zhejiang Province, killing 1 person and leaving 3 missing. China's Ministry of Emergency Management has dispatched 13 emergency drainage teams to Zhoukou city, Henan, and the flooding remains ongoing as of GDACS's latest reporting window (31 July - 25 August 2026).",
+  "description": "GDACS's episode report (as of 26 August 2026; reporting window 31 July - 26 August) for the flooding that followed Typhoon Dolphin's landfall records 326,643 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi and 2 deaths, up from 319,550 displaced two days earlier; the first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, and China's Ministry of Emergency Management has deployed 13 emergency drainage teams to Zhoukou city, Henan, for urban waterlogging relief.",
   "event": {
     "impact": {
       "deaths": 2,
       "displaced": 319550,
-      "summary": "GDACS's episode 13 report (as of 24 August 2026; reporting window 31 July - 25 August) records 319,550 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi and 2 deaths, up from 314,734 displaced and 1 death in episode 11; the first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, and China's Ministry of Emergency Management has deployed 13 emergency drainage teams to Zhoukou city, Henan, for urban waterlogging relief."
+      "summary": "GDACS's current flood report (as of 26 August 2026; reporting window 31 July - 26 August) records 326,643 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi and 2 deaths, up from 319,550 displaced in the prior report; the first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
     "location": {
@@ -73,27 +81,22 @@
       "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu provinces/municipalities (Yangtze basin and eastern seaboard)"
     },
     "occurrence_date": "2026-07-31",
-    "scale": "GDACS Orange alert; 319,550 displaced across 8 provinces/municipalities; 2 deaths, 3 missing (GDACS episode 13, 24 August 2026)",
+    "scale": "GDACS Orange alert; 326,643 displaced across 8 provinces/municipalities; 2 deaths, 3 missing (as of 26 August 2026)",
     "status": "ongoing"
   },
   "id": "china-floods-yangtze-typhoon-dolphin-2026",
-  "last_updated": "2026-08-26T04:52:24Z",
+  "last_updated": "2026-08-27T09:17:01Z",
   "name": "Typhoon Dolphin Flooding, Central China",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-24T09:20:09Z",
+        "at": "2026-08-27T09:17:01Z",
         "layer": "verify",
-        "run_id": "2026-08-24T09-20-09Z-6cadbb"
-      },
-      {
-        "at": "2026-08-26T04:52:24Z",
-        "layer": "verify",
-        "run_id": "world-pulse-2026-08-26-local"
+        "run_id": "2026-08-27T09-17-01Z-c5cc34"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "world-pulse-2026-08-26-local"
+    "last_run_id": "2026-08-27T09-17-01Z-c5cc34"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -102,6 +105,10 @@
     "recency_rank": 739828
   },
   "updates": [
+    {
+      "date": "2026-08-27",
+      "text": "GDACS's flood report window extended to 26 August, with displaced population up to 326,643 (from 319,550) and the death toll unchanged at 2; the event remains at Orange alert."
+    },
     {
       "date": "2026-08-24",
       "text": "GDACS's episode 13 update (24 August) raised the displacement total to 319,550 (from 314,734 in episode 11) and the recorded death toll to 2 (from 1); the event remains at Orange alert with its reporting window extended to 25 August."
@@ -129,7 +136,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

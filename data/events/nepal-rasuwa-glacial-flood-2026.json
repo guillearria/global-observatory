@@ -1,0 +1,65 @@
+{
+  "category": "flood",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-27",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbwb/executive",
+      "text": "The US Geological Survey's event page for us7000tbwb (GeoJSON feed) records a magnitude 5.2 event at 2026-08-26T02:52:10 UTC, 55 km NW of Kodārī, Nepal (28.271°N, 85.515°E), with type 'landslide' and status 'reviewed' -- titled 'M 5.2 Landslide - 55 km NW of Kodārī, Nepal.' USGS initially detected the signal as a magnitude 4.4 seismic event but, after analysis of long-period seismic waves and satellite imagery, determined it was a glacial collapse and debris flow rather than a tectonic earthquake.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-27",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1561857",
+      "text": "GDACS's earthquake-channel report for the reclassified event (26 August 2026, 02:52 UTC, 28.271°N 85.515°E, depth 5 km) records an overall Green alert with a GDACS score of 0 across all impact metrics and about 6,000 people exposed to MMI V (moderate) or greater shaking. A separate media-headlines module on the same report page cites third-party news reports of more than 1,300 people missing and approximately 180 deaths in the Nepal-Tibet glacier collapse disaster, which are explicitly not GDACS's own assessed figures.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A glacial collapse on the Nepal-Tibet border sent a catastrophic flash flood down the Bhotekoshi/Trishuli river system through Rasuwa and Nuwakot districts, Nepal, on the morning of 26 August 2026. The US Geological Survey initially detected a magnitude 4.4 seismic signal at 02:52 UTC, then reclassified the event as a magnitude-5.2-equivalent landslide rather than a tectonic earthquake after reviewing long-period seismic waves and satellite imagery, consistent with an ice-rock avalanche damming and then releasing a tributary river. GDACS's own earthquake-channel assessment rates the event Green with about 6,000 people exposed to strong shaking near the source; a media-headlines module on that GDACS report page relays third-party news reports of more than 1,300 people missing and roughly 180 deaths across Nepal and Tibet, figures that are not GDACS's own assessment and have not yet been confirmed by an authoritative source. Search-and-rescue operations continue along the affected river corridor, and several hydropower stations in the area have been damaged.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "No authoritative source has yet published its own confirmed casualty count. USGS's official classification is a magnitude-5.2-equivalent landslide -- 'M 5.2 Landslide - 55 km NW of Kodārī, Nepal' -- centered at 28.271°N, 85.515°E. GDACS's own earthquake-channel assessment (Green alert, GDACS score 0) estimates about 6,000 people exposed to MMI V or greater shaking near the source; a media-headlines module on the same GDACS report page relays unconfirmed third-party news reports of more than 1,300 people missing and roughly 180 deaths across Nepal and Tibet from the resulting flash flood. Nepal's National Disaster Risk Reduction and Management Authority has activated its emergency response, and search-and-rescue operations continue along the Bhotekoshi/Trishuli corridor."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1561857",
+    "location": {
+      "country": "Nepal",
+      "lat": 28.271,
+      "lon": 85.515,
+      "region": "Rasuwa & Nuwakot Districts, Nepal; Gyirong County, Tibet, China"
+    },
+    "occurrence_date": "2026-08-26",
+    "scale": "USGS M5.2-equivalent glacial collapse/landslide (reclassified from a tectonic earthquake); GDACS Green",
+    "status": "ongoing"
+  },
+  "id": "nepal-rasuwa-glacial-flood-2026",
+  "last_updated": "2026-08-27T09:17:01Z",
+  "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-27T09:17:01Z",
+        "layer": "verify",
+        "run_id": "2026-08-27T09-17-01Z-808857"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-27T09-17-01Z-808857"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398541.0,
+    "impact_rank": 1,
+    "recency_rank": 739854
+  },
+  "updates": [],
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

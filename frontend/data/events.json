@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T09:15:30Z",
+  "last_updated": "2026-08-27T09:17:01Z",
   "published": [
     {
       "category": "flood",
@@ -928,14 +928,22 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
           "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 13, as of 24 August 2026; event dates 31 July - 25 August 2026) records 2 deaths and 319,550 people displaced, and remains an Orange alert: 'Flood can have a medium humanitarian impact based on the magnitude, exposed population and vulnerability.'",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-9",
+          "retrieved_date": "2026-08-27",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
+          "text": "GDACS's current flood report for event FL-2026-000148-CHN (episode 10 per the report page, reporting window 31 July - 26 August 2026) records 326,643 people displaced (up from 319,550 in the prior read) and 2 deaths (unchanged), remaining an overall Orange alert.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Heavy rain from Typhoon Dolphin and its remnants triggered severe flooding across central and eastern China beginning 31 July 2026, with the heaviest impacts from around 11 August 2026 in Hubei Province. GDACS rates the event (FL-2026-000148-CHN) an Orange alert, with a combined 319,550 people evacuated across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi provinces and 2 deaths recorded as of its episode 13 update (24 August). The event's first confirmed casualties came when a residential building collapsed in a debris flow in Heping Town, Changxing County, Zhejiang Province, killing 1 person and leaving 3 missing. China's Ministry of Emergency Management has dispatched 13 emergency drainage teams to Zhoukou city, Henan, and the flooding remains ongoing as of GDACS's latest reporting window (31 July - 25 August 2026).",
+      "description": "GDACS's episode report (as of 26 August 2026; reporting window 31 July - 26 August) for the flooding that followed Typhoon Dolphin's landfall records 326,643 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi and 2 deaths, up from 319,550 displaced two days earlier; the first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, and China's Ministry of Emergency Management has deployed 13 emergency drainage teams to Zhoukou city, Henan, for urban waterlogging relief.",
       "event": {
         "impact": {
           "deaths": 2,
           "displaced": 319550,
-          "summary": "GDACS's episode 13 report (as of 24 August 2026; reporting window 31 July - 25 August) records 319,550 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi and 2 deaths, up from 314,734 displaced and 1 death in episode 11; the first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, and China's Ministry of Emergency Management has deployed 13 emergency drainage teams to Zhoukou city, Henan, for urban waterlogging relief."
+          "summary": "GDACS's current flood report (as of 26 August 2026; reporting window 31 July - 26 August) records 326,643 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi and 2 deaths, up from 319,550 displaced in the prior report; the first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
         "location": {
@@ -945,27 +953,22 @@
           "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu provinces/municipalities (Yangtze basin and eastern seaboard)"
         },
         "occurrence_date": "2026-07-31",
-        "scale": "GDACS Orange alert; 319,550 displaced across 8 provinces/municipalities; 2 deaths, 3 missing (GDACS episode 13, 24 August 2026)",
+        "scale": "GDACS Orange alert; 326,643 displaced across 8 provinces/municipalities; 2 deaths, 3 missing (as of 26 August 2026)",
         "status": "ongoing"
       },
       "id": "china-floods-yangtze-typhoon-dolphin-2026",
-      "last_updated": "2026-08-26T04:52:24Z",
+      "last_updated": "2026-08-27T09:17:01Z",
       "name": "Typhoon Dolphin Flooding, Central China",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-24T09:20:09Z",
+            "at": "2026-08-27T09:17:01Z",
             "layer": "verify",
-            "run_id": "2026-08-24T09-20-09Z-6cadbb"
-          },
-          {
-            "at": "2026-08-26T04:52:24Z",
-            "layer": "verify",
-            "run_id": "world-pulse-2026-08-26-local"
+            "run_id": "2026-08-27T09-17-01Z-c5cc34"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "world-pulse-2026-08-26-local"
+        "last_run_id": "2026-08-27T09-17-01Z-c5cc34"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -974,6 +977,10 @@
         "recency_rank": 739828
       },
       "updates": [
+        {
+          "date": "2026-08-27",
+          "text": "GDACS's flood report window extended to 26 August, with displaced population up to 326,643 (from 319,550) and the death toll unchanged at 2; the event remains at Orange alert."
+        },
         {
           "date": "2026-08-24",
           "text": "GDACS's episode 13 update (24 August) raised the displacement total to 319,550 (from 314,734 in episode 11) and the recorded death toll to 2 (from 1); the event remains at Orange alert with its reporting window extended to 25 August."
@@ -1001,7 +1008,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3632,6 +3639,71 @@
       "claims": [
         {
           "id": "claim-1",
+          "retrieved_date": "2026-08-27",
+          "source_name": "USGS",
+          "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbwb/executive",
+          "text": "The US Geological Survey's event page for us7000tbwb (GeoJSON feed) records a magnitude 5.2 event at 2026-08-26T02:52:10 UTC, 55 km NW of Kodārī, Nepal (28.271°N, 85.515°E), with type 'landslide' and status 'reviewed' -- titled 'M 5.2 Landslide - 55 km NW of Kodārī, Nepal.' USGS initially detected the signal as a magnitude 4.4 seismic event but, after analysis of long-period seismic waves and satellite imagery, determined it was a glacial collapse and debris flow rather than a tectonic earthquake.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-08-27",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1561857",
+          "text": "GDACS's earthquake-channel report for the reclassified event (26 August 2026, 02:52 UTC, 28.271°N 85.515°E, depth 5 km) records an overall Green alert with a GDACS score of 0 across all impact metrics and about 6,000 people exposed to MMI V (moderate) or greater shaking. A separate media-headlines module on the same report page cites third-party news reports of more than 1,300 people missing and approximately 180 deaths in the Nepal-Tibet glacier collapse disaster, which are explicitly not GDACS's own assessed figures.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A glacial collapse on the Nepal-Tibet border sent a catastrophic flash flood down the Bhotekoshi/Trishuli river system through Rasuwa and Nuwakot districts, Nepal, on the morning of 26 August 2026. The US Geological Survey initially detected a magnitude 4.4 seismic signal at 02:52 UTC, then reclassified the event as a magnitude-5.2-equivalent landslide rather than a tectonic earthquake after reviewing long-period seismic waves and satellite imagery, consistent with an ice-rock avalanche damming and then releasing a tributary river. GDACS's own earthquake-channel assessment rates the event Green with about 6,000 people exposed to strong shaking near the source; a media-headlines module on that GDACS report page relays third-party news reports of more than 1,300 people missing and roughly 180 deaths across Nepal and Tibet, figures that are not GDACS's own assessment and have not yet been confirmed by an authoritative source. Search-and-rescue operations continue along the affected river corridor, and several hydropower stations in the area have been damaged.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "No authoritative source has yet published its own confirmed casualty count. USGS's official classification is a magnitude-5.2-equivalent landslide -- 'M 5.2 Landslide - 55 km NW of Kodārī, Nepal' -- centered at 28.271°N, 85.515°E. GDACS's own earthquake-channel assessment (Green alert, GDACS score 0) estimates about 6,000 people exposed to MMI V or greater shaking near the source; a media-headlines module on the same GDACS report page relays unconfirmed third-party news reports of more than 1,300 people missing and roughly 180 deaths across Nepal and Tibet from the resulting flash flood. Nepal's National Disaster Risk Reduction and Management Authority has activated its emergency response, and search-and-rescue operations continue along the Bhotekoshi/Trishuli corridor."
+        },
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1561857",
+        "location": {
+          "country": "Nepal",
+          "lat": 28.271,
+          "lon": 85.515,
+          "region": "Rasuwa & Nuwakot Districts, Nepal; Gyirong County, Tibet, China"
+        },
+        "occurrence_date": "2026-08-26",
+        "scale": "USGS M5.2-equivalent glacial collapse/landslide (reclassified from a tectonic earthquake); GDACS Green",
+        "status": "ongoing"
+      },
+      "id": "nepal-rasuwa-glacial-flood-2026",
+      "last_updated": "2026-08-27T09:17:01Z",
+      "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-08-27T09:17:01Z",
+            "layer": "verify",
+            "run_id": "2026-08-27T09-17-01Z-808857"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-08-27T09-17-01Z-808857"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398541.0,
+        "impact_rank": 1,
+        "recency_rank": 739854
+      },
+      "updates": [],
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "flood",
+      "claims": [
+        {
+          "id": "claim-1",
           "retrieved_date": "2026-08-23",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1104091&episodeid=1&eventtype=FL",
@@ -5459,44 +5531,47 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
           "text": "GDACS's tropical cyclone report for SAUDEL-26 (active from 18 August to 26 August 2026) rates the storm an overall Green alert -- 'a low humanitarian impact based on the maximum sustained wind speed, exposed population and vulnerability' -- with maximum sustained winds of '213 km/h Category 4', approximately 280,000 people in Category 1 or higher wind zones across Japan and the Northern Mariana Islands, and a maximum storm surge of 1.8 metres.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-08-27",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
+          "text": "GDACS's event-data API (episode 36) for SAUDEL-26 records an overall Orange alert with the event window extended to 18 August 2026 12:00 UTC - 27 August 2026 06:00 UTC, unchanged maximum sustained winds of 213 km/h (Category 4), about 11.5 million people exposed to Category 1 or higher winds across Japan, China and the Northern Mariana Islands, and a maximum storm surge of 2.3 metres (forecast for 28 August 00:00 UTC).",
+          "verification_status": "verified"
         }
       ],
-      "description": "Tropical Cyclone Saudel intensified to Category 4 strength (213 km/h sustained winds) in the Philippine Sea in mid-August 2026, tracking toward Japan's Ryukyu Islands after affecting the Northern Mariana Islands. GDACS assessed the storm at an Orange alert with about 3.5 million people exposed on 24 August, then lowered it to an overall Green alert (low humanitarian impact) as the storm weakened, with its active track recorded as 18-26 August 2026, about 280,000 people in Category 1 or higher wind zones and a maximum storm surge of 1.8 m. No death, injury or displacement figure has been confirmed by an authoritative source.",
+      "description": "Tropical Cyclone Saudel intensified to Category 4 strength (213 km/h sustained winds) in the Philippine Sea in mid-August 2026, tracking toward Japan's Ryukyu Islands after affecting the Northern Mariana Islands. GDACS lowered the storm to a Green alert on 26 August as it appeared to weaken, then re-escalated it to an overall Orange alert on 27 August as its episode window extended to 27 August with unchanged Category 4 intensity (213 km/h), about 11.5 million people now exposed to Category 1 or higher winds across Japan, China and the Northern Mariana Islands (up from about 280,000), and a forecast maximum storm surge of 2.3 m. No death, injury or displacement figure has been confirmed by an authoritative source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's current report (26 August 2026) rates SAUDEL-26 an overall Green alert (low humanitarian impact) for its 18-26 August track across the Northern Mariana Islands and Japan, down from the Orange alert assessed on 24 August, with peak sustained winds of 213 km/h (Category 4), about 280,000 people in Category 1 or higher wind zones and a maximum storm surge of 1.8 m. No death, injury or displacement figure has been confirmed by an authoritative source."
+          "summary": "GDACS re-escalated SAUDEL-26 to an overall Orange alert (medium humanitarian impact) on 27 August 2026, with its episode window extended to 27 August, unchanged Category 4 intensity (213 km/h), about 11.5 million people now exposed to Category 1 or higher winds across Japan, China and the Northern Mariana Islands (up sharply from about 280,000 at the 26 August Green assessment), and a forecast maximum storm surge of 2.3 m. No death, injury or displacement figure has been confirmed by an authoritative source."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
         "location": {
           "country": "Japan",
           "lat": 23.9,
           "lon": 136.3,
-          "region": "Philippine Sea, approaching the Ryukyu Islands (Okinawa / Amami Ōshima)"
+          "region": "Ryukyu Islands (Okinawa / Amami Ōshima), extending to China"
         },
         "occurrence_date": "2026-08-18",
-        "scale": "Category 4 peak (213 km/h); GDACS alert lowered to Green as of 26 August 2026",
-        "status": "contained"
+        "scale": "Category 4 peak (213 km/h); GDACS re-escalated to Orange as of 27 August 2026",
+        "status": "ongoing"
       },
       "id": "typhoon-saudel-2026",
-      "last_updated": "2026-08-26T04:52:24Z",
+      "last_updated": "2026-08-27T09:17:01Z",
       "name": "Typhoon Saudel — Northern Mariana Islands, Japan & China",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-24T09:20:26Z",
+            "at": "2026-08-27T09:17:01Z",
             "layer": "verify",
-            "run_id": "2026-08-24T09-20-26Z-99fb76"
-          },
-          {
-            "at": "2026-08-26T04:52:24Z",
-            "layer": "verify",
-            "run_id": "world-pulse-2026-08-26-local"
+            "run_id": "2026-08-27T09-17-01Z-c38c85"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "world-pulse-2026-08-26-local"
+        "last_run_id": "2026-08-27T09-17-01Z-c38c85"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5506,13 +5581,17 @@
       },
       "updates": [
         {
+          "date": "2026-08-27",
+          "text": "GDACS re-escalated SAUDEL-26 from Green back to an overall Orange alert as its episode window extended to 27 August, with exposed population rising to about 11.5 million people across Japan, China and the Northern Mariana Islands (from about 280,000) and a forecast maximum storm surge of 2.3 m."
+        },
+        {
           "date": "2026-08-26",
           "text": "GDACS lowered SAUDEL-26 to an overall Green alert (low humanitarian impact) for its 18-26 August track, with about 280,000 people in Category 1 or higher wind zones across Japan and the Northern Mariana Islands (from about 3.5 million at the 24 August Orange assessment) and a maximum storm surge of 1.8 m."
         }
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5592,6 +5671,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-18",
+          "retrieved_date": "2026-08-27",
+          "source_name": "NOAA",
+          "source_url": "https://www.nhc.noaa.gov/mobile/text/refresh/HFOTCPCP2+html/142035.shtml",
+          "text": "NOAA Central Pacific Hurricane Center Tropical Storm Lala Advisory Number 60 (1100 PM HST Wednesday, 26 August 2026): maximum sustained winds '45 MPH...75 KM/H', located near '37.0N 178.3W', about 595 miles north of Kure Atoll, moving 'NORTH NEAR 6 MPH...9 KM/H'; no coastal watches or warnings in effect, with gradual weakening continuing and Lala expected to become a post-tropical cyclone Thursday night or Friday.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-16",
           "source_name": "County of Hawaiʻi",
@@ -5656,14 +5743,14 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Hurricane Lala passed closest to Hawaii Island on 15-16 August 2026 as a Category 1 hurricane, with NOAA's 15 August advisory reporting 75 mph sustained winds about 65 miles west of Kailua-Kona and forecasting up to 30-35 inches of rain over windward Hawaii Island with life-threatening flooding and mudslides. Flash flooding cut off road access in Nāʻālehu and Waiʻōhinu in Kaʻu, prompting search-and-rescue operations; the County reported record-breaking power outages and 43 people in two emergency shelters, while the state -- which declared emergencies on 13 and 14 August and activated about 180 National Guard personnel -- closed Hilo and Kona airports and Hawaii Island and Maui County commercial ports. Lala tracked away from the main islands, re-intensified to Category 4 on 18 August, and has weakened steadily since: NOAA's Advisory 55 (5 PM HST, 25 August) put it at 50 mph sustained winds -- a tropical storm -- about 540 miles north of Pearl and Hermes Atoll, moving west-northwest and expected to become a post-tropical cyclone on Thursday 27 August. No death toll, injury count or displacement total has been confirmed by an official state, county or NOAA source.",
+      "description": "Hurricane Lala passed closest to Hawaii Island on 15-16 August 2026 as a Category 1 hurricane, with NOAA's 15 August advisory reporting 75 mph sustained winds about 65 miles west of Kailua-Kona and forecasting up to 30-35 inches of rain over windward Hawaii Island with life-threatening flooding and mudslides. Flash flooding cut off road access in Nāʻālehu and Waiʻōhinu in Kaʻu, prompting search-and-rescue operations; the County reported record-breaking power outages and 43 people in two emergency shelters, while the state -- which declared emergencies on 13 and 14 August and activated about 180 National Guard personnel -- closed Hilo and Kona airports and Hawaii Island and Maui County commercial ports. Lala tracked away from the main islands, re-intensified to Category 4 on 18 August, and has weakened steadily since: NOAA's Advisory 60 (11 PM HST, 26 August) put it at 45 mph sustained winds -- a tropical storm -- about 595 miles north of Kure Atoll, moving north and now expected to become a post-tropical cyclone Thursday night or Friday. No death toll, injury count or displacement total has been confirmed by an official state, county or NOAA source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "Lala's closest pass on 15-16 August 2026 brought severe flash flooding to Hawaii Island's Kaʻū district -- with search-and-rescue operations in Nāʻālehu, Waiʻōhinu and Pāhala -- record-breaking power outages, 43 people in two emergency shelters, airport and port closures, and an island-wide 'Essential Only' water-conservation request. No death toll, injury count, quantified power-outage figure or displacement total has been confirmed by an official state, county or NOAA source; GDACS's last assessment kept a Green/low-impact rating with about 10,000 people in Category 1-or-higher wind zones, while a media-headlines module on its report page cited third-party reports of one storm-related death and up to about 111,000 customers without power on Hawaii Island. As of NOAA's Advisory 55 (5 PM HST, 25 August), Lala had weakened further to 50 mph sustained winds, about 540 miles north of Pearl and Hermes Atoll, moving west-northwest at 6 mph and expected to become a post-tropical cyclone on Thursday 27 August."
+          "summary": "Lala's closest pass on 15-16 August 2026 brought severe flash flooding to Hawaii Island's Kaʻū district -- with search-and-rescue operations in Nāʻālehu, Waiʻōhinu and Pāhala -- record-breaking power outages, 43 people in two emergency shelters, airport and port closures, and an island-wide 'Essential Only' water-conservation request. No death toll, injury count, quantified power-outage figure or displacement total has been confirmed by an official state, county or NOAA source; GDACS's last assessment kept a Green/low-impact rating with about 10,000 people in Category 1-or-higher wind zones, while a media-headlines module on its report page cited third-party reports of one storm-related death and up to about 111,000 customers without power on Hawaii Island. As of NOAA's Advisory 60 (11 PM HST, 26 August), Lala had weakened further to 45 mph sustained winds, about 595 miles north of Kure Atoll, moving north at 6 mph and now expected to become post-tropical Thursday night or Friday."
         },
-        "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/180854.shtml",
+        "live_source_url": "https://www.nhc.noaa.gov/mobile/text/refresh/HFOTCPCP2+html/142035.shtml",
         "location": {
           "country": "United States",
           "lat": 19.6,
@@ -5671,27 +5758,22 @@
           "region": "Hawaii Island (Big Island), spreading impacts to Maui, Oahu and Kauai"
         },
         "occurrence_date": "2026-08-15",
-        "scale": "Advisory 55 (25 August, 5 PM HST): Tropical Storm, 50 mph sustained winds, about 540 miles north of Pearl and Hermes Atoll, moving west-northwest at 6 mph; expected to become post-tropical on Thursday 27 August",
+        "scale": "Advisory 60 (26 August, 11 PM HST): Tropical Storm, 45 mph sustained winds, about 595 miles north of Kure Atoll, moving north at 6 mph; expected to become post-tropical Thursday night or Friday",
         "status": "ongoing"
       },
       "id": "usa-hawaii-hurricane-lala-2026",
-      "last_updated": "2026-08-26T04:52:24Z",
+      "last_updated": "2026-08-27T09:17:01Z",
       "name": "Hurricane Lala, Hawaii",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-24T09:20:09Z",
+            "at": "2026-08-27T09:17:01Z",
             "layer": "verify",
-            "run_id": "2026-08-24T09-20-09Z-cea520"
-          },
-          {
-            "at": "2026-08-26T04:52:24Z",
-            "layer": "verify",
-            "run_id": "world-pulse-2026-08-26-local"
+            "run_id": "2026-08-27T09-17-01Z-1d006f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "world-pulse-2026-08-26-local"
+        "last_run_id": "2026-08-27T09-17-01Z-1d006f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5700,6 +5782,10 @@
         "recency_rank": 739843
       },
       "updates": [
+        {
+          "date": "2026-08-26",
+          "text": "NOAA's Advisory 60 (11 PM HST, 26 August) put Lala at 45 mph sustained winds about 595 miles north of Kure Atoll, moving north at 6 mph, with no coastal watches or warnings in effect and continued weakening; the storm is now expected to become post-tropical Thursday night or Friday, a day later than the prior forecast."
+        },
         {
           "date": "2026-08-25",
           "text": "NOAA's Advisory 55 (5 PM HST, 25 August) put Lala at 50 mph sustained winds about 540 miles north of Pearl and Hermes Atoll, moving west-northwest at 6 mph, and forecast it to become a post-tropical cyclone on Thursday 27 August."
@@ -5759,7 +5845,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
