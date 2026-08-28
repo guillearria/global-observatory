@@ -1,0 +1,64 @@
+{
+  "category": "wildfire",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-28",
+      "source_name": "Office of the Governor of Nevada",
+      "source_url": "https://www.gov.nv.gov/press-releases/governor-joe-lombardo-declares-state-of-emergency-for-hawk-fire-in-washoe-county",
+      "text": "\"I have declared a state of emergency in Washoe County as we respond to the Hawk Fire, which is spreading quickly and threatening homes and structures,\" said Governor Joe Lombardo, in a press release dated 22 August 2026. Under the declaration, all state agencies are directed to work through the Nevada Emergency Operations Center to supplement local efforts.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-28",
+      "source_name": "InciWeb (US wildland fire agencies)",
+      "source_url": "https://inciweb.wildfire.gov/incident-information/nvtmfx-hawk-fire",
+      "text": "InciWeb's incident page for the Hawk Fire (updated 27 August 2026, 21:49) records: 15,085 acres burned, 95% of the perimeter contained, 570 total personnel assigned, date of origin 22 August 2026 at 11:23, located near Verdi approximately 5 miles northwest of Reno at 39°32'55\" N, -119°57'14\" W. Fuels in the fire area are described as critically dry grass, shrubs, brush, timber and understory.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Hawk Fire ignited on 22 August 2026 near Verdi, about five miles northwest of Reno in Washoe County, Nevada, prompting a state-of-emergency declaration. Governor Joe Lombardo declared the emergency the same day, directing all state agencies to work through the Nevada Emergency Operations Center to support the response as the fire, fed by critically dry grass, shrub, brush and timber fuels, threatened homes and structures on Reno's outskirts. As of 27 August 2026, InciWeb reported the fire had burned 15,085 acres and was 95% contained, with 570 personnel assigned to the incident. The fire is a separate, later incident from the Bug and Stallion fires that burned elsewhere in Washoe County earlier in August.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "As of 27 August 2026, InciWeb reported the Hawk Fire had burned 15,085 acres and was 95% contained, with 570 personnel assigned. Nevada Governor Joe Lombardo declared a state of emergency on 22 August 2026, directing state agencies to work through the Nevada Emergency Operations Center to support the response to the fire, which threatened homes and structures near Verdi, Washoe County."
+    },
+    "live_source_url": "https://inciweb.wildfire.gov/incident-information/nvtmfx-hawk-fire",
+    "location": {
+      "country": "United States",
+      "lat": 39.5486,
+      "lon": -119.9539,
+      "region": "Washoe County, Nevada (near Verdi, NW of Reno)"
+    },
+    "occurrence_date": "2026-08-22",
+    "scale": "15,085 acres, 95% contained",
+    "status": "contained"
+  },
+  "id": "usa-nevada-hawk-fire-2026",
+  "last_updated": "2026-08-28T09:22:51Z",
+  "name": "Hawk Fire, Washoe County, Nevada",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-28T09:22:51Z",
+        "layer": "verify",
+        "run_id": "2026-08-28T09-22-51Z-856113"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-28T09-22-51Z-856113"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398501.0,
+    "impact_rank": 1,
+    "recency_rank": 739850
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

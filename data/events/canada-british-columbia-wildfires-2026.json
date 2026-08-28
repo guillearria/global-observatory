@@ -106,6 +106,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-21",
+      "retrieved_date": "2026-08-28",
+      "source_name": "Government of British Columbia",
+      "source_url": "https://news.gov.bc.ca/releases/2026EMCR0039-000995",
+      "text": "Government of British Columbia news release (27 August 2026), 'Provincial state of emergency ends, wildfire risk remains': the state of provincial emergency, initially declared 8 August 2026, 'will come to an end on Aug. 27, 2026' following advice from emergency management officials; 'the Province did not need to use those emergency powers.' The release states 'the cancellation of the state of provincial emergency has no effect on current evacuation orders, evacuation alerts or local states of emergencies put in place by local governments or First Nations,' and that 'the Wildfire Act and Emergency and Disaster Management Act continues to provide the Province with the legislative tools currently needed to respond to wildfire emergencies,' with wildfire risk remaining elevated in many parts of the province due to warm, dry conditions.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-24",
       "source_name": "GDACS",
@@ -162,12 +170,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A fast-moving wildfire outbreak swept British Columbia's Interior in early August 2026, led by the Bald Range fire near Summerland in the South Okanagan, which grew rapidly overnight and forced a large-scale evacuation; the province declared a State of Provincial Emergency on 8 August 2026. Penticton RCMP confirmed one fatality: an 80-year-old Meadow Valley resident who died on 9 August 2026 while attempting to evacuate, with the BC Coroners Service investigating. GDACS's tracked burned area has grown steadily to 30,182 hectares as of 21 August 2026, with 4,912 people within the burned area, and EmergencyInfoBC continues to list active evacuation orders and alerts, including for the Squamish-Lillooet and Thompson-Nicola regional districts. On 21 August the province extended the State of Provincial Emergency for a further seven days, to 29 August 2026, citing continuing wildfire risk, though it says it has not needed to invoke emergency orders under the declaration.",
+  "description": "A fast-moving wildfire outbreak swept British Columbia's Interior in early August 2026, led by the Bald Range fire near Summerland in the South Okanagan, which forced a large-scale evacuation. The province declared a State of Provincial Emergency on 8 August 2026 and ended it on 27 August 2026, saying emergency management officials advised it was no longer needed and that the powers it enabled were never invoked. Penticton RCMP confirmed one fatality: an 80-year-old Meadow Valley resident who died on 9 August 2026 while attempting to evacuate, with the BC Coroners Service investigating. GDACS's most recently published figures put the tracked burned area at 30,182 hectares with 4,912 people within the burned area, as of 21 August 2026. The province says ending the declaration has no effect on existing local evacuation orders and alerts, which EmergencyInfoBC continues to list active across multiple regional districts and First Nations communities; wildfire risk remains elevated province-wide due to continuing warm, dry conditions.",
   "event": {
     "impact": {
       "deaths": 1,
       "displaced": null,
-      "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS records 30,182 hectares burned and 4,912 people affected within the burned area as of 21 August 2026, and EmergencyInfoBC continues to list active evacuation orders and alerts, most recently updated for the Squamish-Lillooet and Thompson-Nicola regional districts. The province extended its State of Provincial Emergency (declared 8 August 2026) for a further seven days on 21 August, now running to 29 August 2026; it has block-booked more than 1,500 hotel rooms for evacuees and says it has not needed to invoke emergency orders under the declaration."
+      "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures record 30,182 hectares burned and 4,912 people affected within the burned area, as of 21 August 2026. British Columbia ended its province-wide State of Provincial Emergency (declared 8 August 2026) on 27 August 2026, two days before its scheduled 29 August expiry, saying it never needed to invoke emergency powers under the declaration; the cancellation has no effect on existing local evacuation orders and alerts, which EmergencyInfoBC continues to list active across the Fraser Valley, Bulkley-Nechako, Cariboo, Okanagan-Similkameen, Thompson-Nicola and Summerland areas, among others. Wildfire risk remains elevated province-wide due to ongoing warm, dry conditions."
     },
     "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/",
     "location": {
@@ -177,27 +185,22 @@
       "region": "British Columbia Interior, centred on the Bald Range fire near Summerland in the South Okanagan; more than 100 wildfires active provincewide"
     },
     "occurrence_date": "2026-08-08",
-    "scale": "Provincial State of Emergency (extended to 29 August 2026); Bald Range fire (largest, near Summerland); 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS)",
+    "scale": "Provincial State of Emergency ended 27 August 2026 (declared 8 August); Bald Range fire (largest, near Summerland); 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS)",
     "status": "ongoing"
   },
   "id": "canada-british-columbia-wildfires-2026",
-  "last_updated": "2026-08-26T04:52:24Z",
+  "last_updated": "2026-08-28T09:22:49Z",
   "name": "Wildfire State of Emergency — British Columbia, Canada",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-24T09:20:09Z",
+        "at": "2026-08-28T09:22:49Z",
         "layer": "verify",
-        "run_id": "2026-08-24T09-20-09Z-21bb56"
-      },
-      {
-        "at": "2026-08-26T04:52:24Z",
-        "layer": "verify",
-        "run_id": "world-pulse-2026-08-26-local"
+        "run_id": "2026-08-28T09-22-49Z-2087a4"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "world-pulse-2026-08-26-local"
+    "last_run_id": "2026-08-28T09-22-49Z-2087a4"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -206,6 +209,10 @@
     "recency_rank": 739836
   },
   "updates": [
+    {
+      "date": "2026-08-28",
+      "text": "British Columbia ended its State of Provincial Emergency on 27 August 2026, two days ahead of its scheduled 29 August expiry, saying it never had to invoke emergency powers under the declaration. The cancellation has no effect on existing wildfire evacuation orders and alerts, still active across multiple regional districts and First Nations; wildfire risk remains elevated province-wide."
+    },
     {
       "date": "2026-08-23",
       "text": "British Columbia extended its State of Provincial Emergency (declared 8 August 2026) for a further seven days, to 29 August 2026, citing continuing wildfire risk; the province said it has not needed to issue emergency orders under the declaration to date but is maintaining it so response tools remain available as conditions evolve."
@@ -257,7 +264,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

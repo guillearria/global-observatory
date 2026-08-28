@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-08-24",
+      "retrieved_date": "2026-08-28",
       "source_name": "GDACS",
       "source_url": "https://gdacs.org/report.aspx?eventid=1544720&episodeid=6&eventtype=EQ",
       "text": "A magnitude 7.8 earthquake struck at 5.5996, 125.0647 (offshore Sarangani, Philippines) on 7 June 2026 at 23:37 UTC, at 35 km depth, generating a maximum tsunami wave of 1.93 metres; GDACS issued an orange alert for medium humanitarian impact with about 2.9 million people exposed to Modified Mercalli Intensity VII or greater.",
@@ -51,7 +51,7 @@
     },
     {
       "id": "claim-19",
-      "retrieved_date": "2026-08-08",
+      "retrieved_date": "2026-08-28",
       "source_name": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ti6x.geojson",
       "text": "Re-checked 8 August 2026: DSWD DROMIC Report #78 (6 August 2026, 6PM) remains the latest in its series on ReliefWeb; the OCHA 13 July casualty snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable casualty figure. Separately, USGS recorded a new M6.3 aftershock on 5 August 2026 at 04:14 UTC, 32 km SW of Sarangani, Philippines (10 km depth, Green alert, no tsunami warning) -- part of the same aftershock sequence PHIVOLCS has been tracking since the 8 June mainshock; no allowlisted source has reported new casualties or damage from this aftershock.",
@@ -59,7 +59,7 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-07-02",
+      "retrieved_date": "2026-08-28",
       "source_name": "United Nations",
       "source_url": "https://news.un.org/en/story/2026/06/1167672",
       "text": "At least 19 people were killed, 12 remain missing and at least 134 were injured after the 7.8 magnitude earthquake struck Sarangani province on 8 June 2026, according to OCHA, with authorities noting the figures were provisional as assessments continued; more than 3.2 million learners were affected with classes suspended in over 6,200 schools.",
@@ -67,7 +67,7 @@
     },
     {
       "id": "claim-20",
-      "retrieved_date": "2026-08-09",
+      "retrieved_date": "2026-08-28",
       "source_name": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ti80.geojson",
       "text": "USGS recorded a new M5.1 aftershock on 5 August 2026 at 05:59:21 UTC, 46 km SSW of Sarangani, Philippines, at a depth of about 29.8 km, with no tsunami generated and no alert issued — part of the same aftershock sequence PHIVOLCS has tracked since the 8 June 2026 mainshock.",
@@ -75,7 +75,7 @@
     },
     {
       "id": "claim-21",
-      "retrieved_date": "2026-08-26",
+      "retrieved_date": "2026-08-28",
       "source_name": "GDACS",
       "source_url": "https://gdacs.org/report.aspx?eventid=1544720&eventtype=EQ",
       "text": "Re-checked 11 August 2026: reliefweb.int, this record's live_source_url and the source of the DSWD DROMIC series and OCHA casualty snapshot, returned HTTP 403 Forbidden and was unreachable across multiple attempts and multiple pages (disaster hub, specific report URLs, API endpoint) today. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Orange alert (\"medium humanitarian impact\"), currently showing modeled population exposure of about 4.4 million people at MMI≥VII and a maximum observed tsunami wave of 0.83 m -- GDACS's own automated impact-model figures for the event, which are updated as GDACS reprocesses episodes and are distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
@@ -173,18 +173,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-08-26T09:11:17Z",
+  "last_updated": "2026-08-28T09:22:51Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-26T09:11:17Z",
+        "at": "2026-08-28T09:22:51Z",
         "layer": "verify",
-        "run_id": "2026-08-26T09-11-17Z-55719b"
+        "run_id": "2026-08-28T09-22-51Z-7766b9"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-26T09-11-17Z-55719b"
+    "last_run_id": "2026-08-28T09-22-51Z-7766b9"
   },
   "schema_version": "1.0",
   "sort_keys": {

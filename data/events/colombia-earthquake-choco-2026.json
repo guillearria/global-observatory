@@ -34,6 +34,22 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-13",
+      "retrieved_date": "2026-08-28",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/colombia/colombia-flash-update-009-update-impact-earthquake-colombia-august-24-2026",
+      "text": "OCHA Colombia's Flash Update No. 009 (data as of 24 August 2026, 17:00 local time): 324,157 people (159,924 households) affected across 15 departments and 494 municipalities; key figures reported were 329 deaths, 4,592 injured, 234 missing, and 31,519 homes destroyed. Following the national government's declaration of a State of Economic, Social and Ecological Emergency in 15 departments through Decree 1261, valid for 30 days, resources are being mobilized to support the disaster response; donors had mobilized more than US$35 million in addition to the US$5 million CERF allocation.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-14",
+      "retrieved_date": "2026-08-28",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/colombia/colombia-flash-update-010-actualizacion-afectaciones-por-terremoto-en-colombia-27-de-agosto-de-2026",
+      "text": "OCHA Colombia's Flash Update No. 010 (data as of 27 August 2026, 18:00 local time; the first edition on the plan's new weekly publication cadence): 406,113 people (193,011 households) affected; key figures reported were 331 deaths, 4,449 injured, 219 missing, 356 people rescued, and 33,395 homes destroyed. Risaralda, Caldas and Quindío together report 118 fatalities, with the highest mortality and largest number of affected families (60,046) recorded in Risaralda (110 deaths). Donors have mobilized more than US$40 million in addition to the US$5 million CERF allocation.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-24",
       "source_name": "GDACS",
@@ -98,12 +114,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.4 intermediate-depth earthquake struck western Colombia on 10 August 2026 at 12:34:28 UTC, centered 5 km south of San José del Palmar in Chocó Department at a depth of roughly 110 km; Colombia's geological survey described it as the seismic event of greatest magnitude recorded in the country in the 21st century. OCHA Colombia's Flash Update 008 (data as of 20 August) puts the toll at 319 deaths, with more than 282,700 people (153,300 households) affected across 15 departments and more than 31,400 homes destroyed; 4,400 injured and 426 missing remain the last-confirmed figures (Flash Update 007, 17 August), and search-and-rescue operations had saved 338 people as of that update. Both GDACS and USGS's PAGER system rate the event a Red alert for high humanitarian impact; GDACS now estimates about 5.4 million people within zones of MMI VII or greater shaking, up from an earlier 5.2 million. The government has activated emergency coordination centres in Bogotá, Quibdó, Armenia and Cali, and the international response continues to scale up.",
+  "description": "A magnitude 7.4 earthquake struck western Colombia on 10 August 2026, centered near San José del Palmar in Chocó Department at a depth of roughly 110 km. Colombia's geological survey described it as the seismic event of greatest magnitude recorded in the country in the 21st century. OCHA Colombia's Flash Update 010 (data as of 27 August) puts the toll at 331 deaths, with 406,113 people (193,011 households) affected across 15 departments, 4,449 injured, 219 missing, 356 people rescued, and 33,395 homes destroyed. The national government declared a State of Economic, Social and Ecological Emergency in 15 departments under Decree 1261, valid 30 days, to mobilize disaster-response resources. GDACS and USGS's PAGER system both continue to rate the event a Red alert for high humanitarian impact, with GDACS estimating about 5.4 million people within zones of MMI VII or greater shaking. International donors have mobilized more than US$40 million, and the response continues to scale up amid ongoing needs in shelter, health, water and education.",
   "event": {
     "impact": {
-      "deaths": 319,
-      "displaced": 282700,
-      "summary": "OCHA Colombia's Flash Update 008 (data as of 20 August 2026, 8 p.m. local time) reports the earthquake has affected more than 282,700 people (153,300 households) and caused 319 fatalities, with more than 31,400 homes destroyed. A State of Emergency remains in effect across 15 departments, and US$40 million has been mobilized under the 2026 Humanitarian Needs and Response Plan Addendum. Injured and missing figures were not restated in Flash Update 008 and remain at the last-confirmed 4,400 injured and 426 missing (Flash Update 007, 17 August). GDACS rates the event a Red alert, now estimating about 5.4 million people in zones of MMI VII or greater shaking (up from 5.2 million), and USGS's PAGER alert is also Red."
+      "deaths": 331,
+      "displaced": 406113,
+      "summary": "OCHA Colombia's Flash Update 010 (data as of 27 August 2026, 18:00 local time) reports 331 deaths and 406,113 people (193,011 households) affected across 15 departments, with 4,449 injured, 219 missing, 356 rescued and 33,395 homes destroyed; Risaralda, Caldas and Quindío together account for 118 of the deaths, with the highest mortality and largest number of affected families concentrated in Risaralda (110 deaths, 60,046 affected families). The national government has declared a State of Economic, Social and Ecological Emergency in 15 departments under Decree 1261 (valid 30 days) to mobilize response resources. GDACS rates the event a Red alert, estimating about 5.4 million people in zones of MMI VII or greater shaking, and USGS's PAGER alert remains Red. Donors have mobilized more than US$40 million alongside a US$5 million CERF allocation."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
     "location": {
@@ -117,23 +133,18 @@
     "status": "ongoing"
   },
   "id": "colombia-earthquake-choco-2026",
-  "last_updated": "2026-08-26T04:52:24Z",
+  "last_updated": "2026-08-28T09:22:50Z",
   "name": "M7.4 Earthquake, Chocó, Colombia",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-24T09:20:09Z",
+        "at": "2026-08-28T09:22:50Z",
         "layer": "verify",
-        "run_id": "2026-08-24T09-20-09Z-219e73"
-      },
-      {
-        "at": "2026-08-26T04:52:24Z",
-        "layer": "verify",
-        "run_id": "world-pulse-2026-08-26-local"
+        "run_id": "2026-08-28T09-22-50Z-051e01"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "world-pulse-2026-08-26-local"
+    "last_run_id": "2026-08-28T09-22-50Z-051e01"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -142,6 +153,10 @@
     "recency_rank": 739838
   },
   "updates": [
+    {
+      "date": "2026-08-28",
+      "text": "OCHA Flash Update 010 (data as of 27 August) raised the toll to 331 deaths and 406,113 people affected, with 4,449 injured, 219 missing, 356 rescued and 33,395 homes destroyed. Flash Update 009 (24 August) had disclosed the government's State of Economic, Social and Ecological Emergency in 15 departments under Decree 1261, valid 30 days."
+    },
     {
       "date": "2026-08-23",
       "text": "GDACS revised its estimate of the population within zones of MMI VII or greater shaking upward to about 5.4 million, from about 5.2 million, while keeping the earthquake at Red alert with a GDACS score of 2.2. OCHA Colombia's Flash Update 008 (data as of 20 August: 319 deaths, 282,700+ people affected) remains the most recent numbered situation report, with no Flash Update 009 yet published."
@@ -185,7 +200,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -24,39 +24,47 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
       "text": "GDACS's event-data API (episode 36) for SAUDEL-26 records an overall Orange alert with the event window extended to 18 August 2026 12:00 UTC - 27 August 2026 06:00 UTC, unchanged maximum sustained winds of 213 km/h (Category 4), about 11.5 million people exposed to Category 1 or higher winds across Japan, China and the Northern Mariana Islands, and a maximum storm surge of 2.3 metres (forecast for 28 August 00:00 UTC).",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-28",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
+      "text": "GDACS's tropical cyclone report for SAUDEL-26 (episode 39, reporting window 18 Aug 2026 12:00 UTC to 28 Aug 2026 00:00 UTC) shows the event's urgency status now 'Past', with no further episode issued since the window closed; the overall alert remained Orange, maximum sustained winds were unchanged at 213 km/h (Category 4), approximately 13.1 million people were exposed to Category 1 or higher winds across Japan, China and the Northern Mariana Islands (up from about 11.5 million), and a maximum storm surge of 2.7 metres was recorded on 27 August 2026 at 23:00 UTC.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Tropical Cyclone Saudel intensified to Category 4 strength (213 km/h sustained winds) in the Philippine Sea in mid-August 2026, tracking toward Japan's Ryukyu Islands after affecting the Northern Mariana Islands. GDACS lowered the storm to a Green alert on 26 August as it appeared to weaken, then re-escalated it to an overall Orange alert on 27 August as its episode window extended to 27 August with unchanged Category 4 intensity (213 km/h), about 11.5 million people now exposed to Category 1 or higher winds across Japan, China and the Northern Mariana Islands (up from about 280,000), and a forecast maximum storm surge of 2.3 m. No death, injury or displacement figure has been confirmed by an authoritative source.",
+  "description": "Tropical Cyclone Saudel intensified to Category 4 strength (213 km/h sustained winds) in the Philippine Sea in mid-August 2026, tracking through the Northern Mariana Islands toward Japan's Ryukyu Islands, Taiwan and China. GDACS's alert level oscillated between Green and Orange as the storm's track evolved, reaching a peak assessed exposure of about 13.1 million people across Japan, China and the Northern Mariana Islands and a maximum storm surge of 2.7 metres on 27 August. GDACS's final episode for the storm (episode 39) closed at 00:00 UTC on 28 August 2026, with the event's urgency status now marked Past and no further episode issued. No death, injury or displacement figure has been confirmed by an authoritative source.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS re-escalated SAUDEL-26 to an overall Orange alert (medium humanitarian impact) on 27 August 2026, with its episode window extended to 27 August, unchanged Category 4 intensity (213 km/h), about 11.5 million people now exposed to Category 1 or higher winds across Japan, China and the Northern Mariana Islands (up sharply from about 280,000 at the 26 August Green assessment), and a forecast maximum storm surge of 2.3 m. No death, injury or displacement figure has been confirmed by an authoritative source."
+      "summary": "GDACS's tropical cyclone report for SAUDEL-26 closed its final episode (episode 39) at 00:00 UTC on 28 August 2026, with the event's urgency status now marked Past. Over its track the storm reached Category 4 intensity (213 km/h sustained winds), exposed an estimated 13.1 million people to Category 1 or higher winds across Japan, China and the Northern Mariana Islands (up from about 11.5 million on 27 August), and produced a maximum storm surge of 2.7 metres on 27 August. No death, injury or displacement figure has been confirmed by an authoritative source."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
     "location": {
       "country": "Japan",
       "lat": 23.9,
       "lon": 136.3,
-      "region": "Ryukyu Islands (Okinawa / Amami Ōshima), extending to China"
+      "region": "Ryukyu Islands (Okinawa / Amami Ōshima), extending to Taiwan and China"
     },
     "occurrence_date": "2026-08-18",
-    "scale": "Category 4 peak (213 km/h); GDACS re-escalated to Orange as of 27 August 2026",
-    "status": "ongoing"
+    "scale": "Category 4 peak (213 km/h); GDACS episode closed (urgency Past) 28 August 2026, Orange alert",
+    "status": "contained"
   },
   "id": "typhoon-saudel-2026",
-  "last_updated": "2026-08-27T09:17:01Z",
+  "last_updated": "2026-08-28T09:22:52Z",
   "name": "Typhoon Saudel — Northern Mariana Islands, Japan & China",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-27T09:17:01Z",
+        "at": "2026-08-28T09:22:52Z",
         "layer": "verify",
-        "run_id": "2026-08-27T09-17-01Z-c38c85"
+        "run_id": "2026-08-28T09-22-52Z-c01bea"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-27T09-17-01Z-c38c85"
+    "last_run_id": "2026-08-28T09-22-52Z-c01bea"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -65,6 +73,10 @@
     "recency_rank": 739846
   },
   "updates": [
+    {
+      "date": "2026-08-28",
+      "text": "GDACS's episode window for SAUDEL-26 closed at 00:00 UTC on 28 August, with the event's urgency status now marked Past and no further episode issued; exposed population rose to about 13.1 million people (from about 11.5 million) and maximum storm surge to 2.7 m (27 August, 23:00 UTC), with maximum sustained winds unchanged at 213 km/h Category 4."
+    },
     {
       "date": "2026-08-27",
       "text": "GDACS re-escalated SAUDEL-26 from Green back to an overall Orange alert as its episode window extended to 27 August, with exposed population rising to about 11.5 million people across Japan, China and the Northern Mariana Islands (from about 280,000) and a forecast maximum storm surge of 2.3 m."
@@ -76,7 +88,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
