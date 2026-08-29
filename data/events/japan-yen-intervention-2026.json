@@ -24,14 +24,22 @@
       "source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/monthly/20260731e.html",
       "text": "The Ministry of Finance's own Foreign Exchange Intervention Operations monthly release for the period 29 June 2026 through 29 July 2026 (published 31 July 2026) reports: \"Total amount of foreign exchange intervention operations for the period from June 29, 2026 through July 29, 2026: ¥ 0\" — confirming no yen-buying intervention had occurred in the month immediately preceding the 31 July action.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-29",
+      "source_name": "Ministry of Finance (Japan)",
+      "source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/monthly/20260828e.html",
+      "text": "The Ministry of Finance's Foreign Exchange Intervention Operations monthly release for the period 30 July 2026 through 26 August 2026 (published 28 August 2026) states: total amount of foreign exchange intervention operations for the period, JPY 15,399.3 billion -- confirming sustained yen-buying intervention through the reporting month, without a public breakdown of individual operation dates or amounts.",
+      "verification_status": "verified"
     }
   ],
-  "description": "The Japanese yen fell to roughly a 40-year low against the US dollar through July 2026, driven by a wide Japan-US interest-rate gap and broader dollar strength. On 31 July 2026 (US Eastern Time) Japan's Ministry of Finance purchased yen in coordination with the US Department of the Treasury, acting under the September 2025 US-Japan Finance Ministers' Joint Statement to counter what it called \"excessive volatility and disorderly movements\" in the currency. The Ministry says it remains in close communication with US counterparts and \"will not hesitate to conduct further joint intervention,\" including future use of the Federal Reserve's FIMA Repo Facility. No intervention had been recorded by the Ministry's own monthly data for the preceding month (29 June-29 July 2026), underscoring that the action was an emergency, out-of-cycle step rather than routine market operations.",
+  "description": "The Japanese yen fell to roughly a 40-year low against the US dollar through July 2026, driven by a wide Japan-US interest-rate gap and broader dollar strength. On 31 July 2026 (US Eastern Time) Japan's Ministry of Finance purchased yen in coordination with the US Department of the Treasury, acting under the September 2025 US-Japan Finance Ministers' Joint Statement to counter what it called \"excessive volatility and disorderly movements\" in the currency. No intervention had been recorded by the Ministry's monthly data for the month immediately before (29 June-29 July 2026), underscoring that the action began as an emergency, out-of-cycle step; but the Ministry's following monthly release (30 July-26 August 2026, published 28 August 2026) recorded JPY 15,399.3 billion in total foreign-exchange intervention for that period, confirming it continued substantial coordinated yen-buying well beyond the initial 31 July action.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "No direct casualties; the impact is financial and macroeconomic. Japan's Ministry of Finance confirmed it purchased yen in coordination with the US Treasury on 31 July 2026 to counter excessive volatility and disorderly currency movements after the yen weakened toward levels not seen in roughly four decades. The Ministry says it remains in close communication with the US and will not hesitate to intervene again, including via the Federal Reserve's FIMA Repo Facility. The Ministry's own foreign-exchange intervention data show zero yen spent in the preceding reporting month (29 June-29 July 2026), confirming the 31 July action was an emergency departure from routine operations rather than a continuation of ongoing intervention."
+      "summary": "No direct casualties; the impact is financial and macroeconomic. Japan's Ministry of Finance confirmed it purchased yen in coordination with the US Treasury on 31 July 2026 to counter excessive volatility and disorderly currency movements after the yen weakened toward levels not seen in roughly four decades. The Ministry's own monthly foreign-exchange intervention data show zero yen spent in the reporting month immediately before the intervention (29 June-29 July 2026), confirming the 31 July action was an emergency departure from routine operations, but its following monthly release (30 July-26 August 2026, published 28 August) recorded JPY 15,399.3 billion in total intervention for that period, showing the Ministry continued substantial yen-buying operations well beyond the initial single action."
     },
     "live_source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/index.html",
     "location": {
@@ -45,18 +53,18 @@
     "status": "ongoing"
   },
   "id": "japan-yen-intervention-2026",
-  "last_updated": "2026-08-28T09:22:51Z",
+  "last_updated": "2026-08-29T09:13:31Z",
   "name": "Yen Crisis — Joint Japan-US Currency Intervention",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-28T09:22:51Z",
+        "at": "2026-08-29T09:13:31Z",
         "layer": "verify",
-        "run_id": "2026-08-28T09-22-51Z-6feafe"
+        "run_id": "2026-08-29T09-13-31Z-2b1afd"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-28T09-22-51Z-6feafe"
+    "last_run_id": "2026-08-29T09-13-31Z-2b1afd"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -64,9 +72,15 @@
     "impact_rank": 1,
     "recency_rank": 739828
   },
+  "updates": [
+    {
+      "date": "2026-08-29",
+      "text": "MOF's next monthly release (30 July-26 August 2026, published 28 August) recorded JPY 15,399.3 billion in total FX intervention for the period -- confirming substantial further yen-buying beyond the initial 31 July action, versus zero in the prior reporting month."
+    }
+  ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

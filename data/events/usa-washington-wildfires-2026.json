@@ -106,6 +106,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-21",
+      "retrieved_date": "2026-08-29",
+      "source_name": "InciWeb (US wildland fire agencies)",
+      "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+      "text": "InciWeb's Sinlahekin Fire page, updated Friday, August 28, 2026 at 9:10 PM Pacific time, records the fire at 166,216 acres (up from 163,001 on 28 August morning update) and still 49% contained, with 1,570 personnel assigned; fire behavior remains extreme with uphill runs, torching and spotting concentrated on the northwest side, and the outlook anticipates cooler temperatures and higher humidity moderating behavior over the next 72+ hours with little further growth expected, though interior heat persists. No specific full-containment date is given in this update.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-09",
       "source_name": "Office of the Governor of Washington State",
@@ -167,7 +175,7 @@
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and had grown to 163,001 acres at 49% containment as of 28 August 2026, with 1,636 personnel assigned; the northwest portion showed extreme fire behavior -- crowning, uphill runs, torching and spotting across 14 Mile Road -- under a Red Flag Warning for extremely dry fuels and rising winds, with crews establishing contingency lines toward Chopaka Mountain and strengthening containment along the eastern and southern edges; estimated full containment remains 31 August. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
+      "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and had grown to 166,216 acres at 49% containment as of the evening of 28 August 2026, with 1,570 personnel assigned; the northwest portion showed extreme fire behavior -- crowning, uphill runs, torching and spotting across 14 Mile Road -- under a Red Flag Warning for extremely dry fuels and rising winds, with crews establishing contingency lines toward Chopaka Mountain and strengthening containment along the eastern and southern edges; cooler, more humid conditions are expected to moderate fire behavior over the next 72+ hours, with little further growth expected though interior heat persists. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
     },
     "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
     "location": {
@@ -181,18 +189,18 @@
     "status": "ongoing"
   },
   "id": "usa-washington-wildfires-2026",
-  "last_updated": "2026-08-28T09:22:52Z",
+  "last_updated": "2026-08-29T09:14:42Z",
   "name": "Wildfire Emergency — Eastern Washington, USA",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-28T09:22:52Z",
+        "at": "2026-08-29T09:14:42Z",
         "layer": "verify",
-        "run_id": "2026-08-28T09-22-52Z-f9c1b9"
+        "run_id": "2026-08-29T09-14-42Z-46d71b"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-28T09-22-52Z-f9c1b9"
+    "last_run_id": "2026-08-29T09-14-42Z-46d71b"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -201,6 +209,10 @@
     "recency_rank": 739829
   },
   "updates": [
+    {
+      "date": "2026-08-29",
+      "text": "InciWeb's Sinlahekin Fire update (28 August, 9:10 PM PT) put the fire at 166,216 acres (up from 163,001), still 49% contained with 1,570 personnel; cooler, more humid conditions are expected to moderate fire behavior over the next 72+ hours."
+    },
     {
       "date": "2026-08-28",
       "text": "InciWeb's 28 August update (12:28 AM Pacific) put the Sinlahekin Fire at 163,001 acres (up from 155,491 on 25 August) with containment falling to 49% (from 56%) and personnel assigned at 1,636; extreme fire behavior -- crowning, uphill runs, torching and spotting across 14 Mile Road -- prompted a Red Flag Warning, with crews building contingency lines toward Chopaka Mountain."
@@ -268,7 +280,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
