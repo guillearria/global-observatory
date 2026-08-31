@@ -1,0 +1,73 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "high",
+      "numeric_annual": null,
+      "window": "ongoing"
+    },
+    "severity": "continental",
+    "summary": "A present, quantified decline in the productive capacity of land — more than a tenth of the world's land area already degraded by human activity, and roughly 100 million hectares of healthy land lost each year — that is directly cutting crop yields for 1.7 billion people and is slow to reverse.",
+    "timeframe": "Ongoing and accumulating; FAO's SDG indicator 15.3.1 series shows degradation still expanding through 2019, with sub-Saharan Africa, Western Asia, Latin America and the Caribbean, and Southern Asia degrading 6 to 8 percent faster than the global average since 2015."
+  },
+  "category": "resource",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-31",
+      "source_name": "FAO",
+      "source_url": "https://www.fao.org/land-water/land/overview/en",
+      "text": "FAO estimates that 1 660 million hectares of land — more than 10 percent of the world's land area — have been degraded by human activity, with over 60 percent of that degradation occurring on agricultural land, including cropland and pastureland.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-31",
+      "source_name": "FAO",
+      "source_url": "https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/1531-proportion-of-land-that-is-degraded-over-total-land-area/en",
+      "text": "Between 2015 and 2019 the world lost at least 100 million hectares of healthy and productive land every year, and these worsening trends impact the lives of 1.3 billion people who are estimated to be directly exposed to land degradation (SDG indicator 15.3.1).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-31",
+      "source_name": "FAO",
+      "source_url": "https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/1531-proportion-of-land-that-is-degraded-over-total-land-area/en",
+      "text": "In Eastern Asia, Latin America and the Caribbean, and Central Asia at least 20 percent of total land area was degraded over 2000-2019, while most other regions were over 10 percent; land in sub-Saharan Africa, Western Asia, Latin America and the Caribbean, and Southern Asia is degrading considerably faster than the global average, with increases of 6 percent to 8 percent since 2015.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-31",
+      "source_name": "FAO",
+      "source_url": "https://www.fao.org/agrifood-economics/news/detail-events/en/c/1754733/",
+      "text": "1.7 billion people live in areas where crop yields have fallen by at least 10 percent due to human-induced land degradation (The State of Food and Agriculture 2025: Addressing land degradation across landholding scales, released 3 November 2025).",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Land degradation and desertification are the progressive loss of soil productivity and vegetation cover across the world's croplands, pastures, and drylands. FAO puts human-induced degradation at 1 660 million hectares — more than 10 percent of the world's land area — with over 60 percent of it on agricultural land, and the world lost at least 100 million hectares of healthy, productive land every year between 2015 and 2019. The damage is already measurable in output: 1.7 billion people live where crop yields have fallen by at least 10 percent because of human-induced degradation, and 1.3 billion are directly exposed to degrading land. Because soil recovers over decades or centuries rather than seasons, losses compound rather than reverse, tightening the same food, water, and biodiversity systems that other threats tracked here already strain.",
+  "id": "land-degradation-desertification",
+  "last_updated": "2026-08-31T10:11:34Z",
+  "name": "Land Degradation and Desertification",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-31T10:11:34Z",
+        "layer": "verify",
+        "run_id": "2026-08-31T10-11-34Z-c7399f"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-31T10-11-34Z-c7399f"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 24.0,
+    "probability_rank": 4,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

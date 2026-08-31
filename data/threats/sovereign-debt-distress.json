@@ -1,0 +1,73 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "high",
+      "numeric_annual": null,
+      "window": "ongoing"
+    },
+    "severity": "continental",
+    "summary": "A present, quantified fiscal squeeze — record external debt stock, the largest net outflow from developing countries in half a century, and 3.4 billion people in states paying more in interest than they spend on health or education — with a synchronized multi-country default wave as the tail risk.",
+    "timeframe": "Ongoing and tightening; the World Bank's International Debt Report tracks the position annually, borrowing costs for developing economies stood at multi-decade highs in 2024, and the IMF projects global public debt to pass 100 percent of GDP by 2029."
+  },
+  "category": "societal",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-08-31",
+      "source_name": "World Bank",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2025/12/03/developing-countries-debt-outflows-hit-50-year-high-during-2022-2024",
+      "text": "Developing countries paid out $741 billion more in principal and interest on their external debt than they received in new financing between 2022 and 2024, and paid a record $415 billion in interest alone in 2024 (International Debt Report 2025, published 3 December 2025).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-08-31",
+      "source_name": "World Bank",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2025/12/03/developing-countries-debt-outflows-hit-50-year-high-during-2022-2024",
+      "text": "The combined external debt of low- and middle-income countries hit an all-time high of $8.9 trillion in 2024, including $1.2 trillion owed by the 78 mainly low-income countries eligible to borrow from the World Bank's International Development Association; developing countries restructured $90 billion in external debt in 2024, more than at any time since 2010.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-08-31",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2025/06/1165051",
+      "text": "More than 3.4 billion people now live in countries that spend more on interest payments than on health or education — 100 million more than the previous year — and debt service payments by developing countries soared by $74 billion in a single year, from $847 billion to $921 billion (Confronting the Debt Crisis: 11 Actions to Unlock Sustainable Financing, launched 27 June 2025).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-08-31",
+      "source_name": "IMF",
+      "source_url": "https://www.imf.org/en/publications/fm/issues/2026/04/15/fiscal-monitor-april-2026",
+      "text": "Global public debt rose to just under 94 percent of GDP in 2025 and is set to reach 100 percent by 2029, one year earlier than projected in April 2025 (IMF Fiscal Monitor, April 2026: Fiscal Policy under Pressure: High Debt, Rising Risks).",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A growing share of the world's governments owe more in debt service than they can pay without cutting health, education, and climate spending. The combined external debt of low- and middle-income countries hit an all-time high of $8.9 trillion in 2024, and between 2022 and 2024 those countries paid out $741 billion more in principal and interest than they received in new financing — the largest such gap in at least 50 years. More than 3.4 billion people now live in countries that spend more on interest payments than on health or education. The strain is not confined to poorer economies: global public debt rose to just under 94 percent of GDP in 2025 and the IMF projects it will reach 100 percent by 2029. The escalation pathway runs from isolated sovereign defaults to a synchronized wave of restructurings, capital flight, and a lost decade of development spending across dozens of countries at once.",
+  "id": "sovereign-debt-distress",
+  "last_updated": "2026-08-31T10:11:35Z",
+  "name": "Sovereign Debt Distress",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-08-31T10:11:35Z",
+        "layer": "verify",
+        "run_id": "2026-08-31T10-11-35Z-1c1ba7"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-08-31T10-11-35Z-1c1ba7"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 24.0,
+    "probability_rank": 4,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
