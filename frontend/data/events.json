@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T09:14:42Z",
+  "last_updated": "2026-08-31T09:16:34Z",
   "published": [
     {
       "category": "flood",
@@ -468,7 +468,7 @@
         },
         {
           "id": "claim-11",
-          "retrieved_date": "2026-08-26",
+          "retrieved_date": "2026-08-31",
           "source_name": "Government of British Columbia",
           "source_url": "https://www.emergencyinfobc.gov.bc.ca/",
           "text": "EmergencyInfoBC provincial emergencies listing (checked 17 August 2026): confirms the State of Provincial Emergency declared 8 August 2026 is still in effect, with active wildfire evacuation orders/alerts listed for the Regional District of North Okanagan, Okanagan Indian Band, Regional District of Okanagan-Similkameen, District of Summerland, City of Revelstoke and other regional districts and First Nations, most recently updated 16 August 2026.",
@@ -524,7 +524,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030240",
           "text": "GDACS's wildfire report for Canada (event id 1030240, episode 53, reporting window 08 Aug 2026 00:00 UTC - 21 Aug 2026 00:00 UTC): burned area 30,182 hectares, up from 29,678 hectares in episode 49; affected population unchanged at 4,912 people within the burned area.",
@@ -638,18 +638,18 @@
         "status": "ongoing"
       },
       "id": "canada-british-columbia-wildfires-2026",
-      "last_updated": "2026-08-29T09:15:04Z",
+      "last_updated": "2026-08-31T09:16:33Z",
       "name": "Wildfire State of Emergency — British Columbia, Canada",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:15:04Z",
+            "at": "2026-08-31T09:16:33Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-15-04Z-7fe284"
+            "run_id": "2026-08-31T09-16-33Z-be516a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-15-04Z-7fe284"
+        "last_run_id": "2026-08-31T09-16-33Z-be516a"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -722,7 +722,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL",
           "text": "GDACS report 'Overall Orange Flood in China from 22 Aug 2026 01:00 UTC to 26 Aug 2026 01:00 UTC' (event FL 1104123, GLIDE FL-2026-000166-CHN): location Fujian Province, China; 1 death and 87,168 displaced; alert text states heavy rain from 24 August 2026 caused the flooding, assessed as having 'a medium humanitarian impact based on the magnitude, exposed population and vulnerability.'",
@@ -748,18 +748,18 @@
         "status": "ongoing"
       },
       "id": "china-floods-fujian-2026",
-      "last_updated": "2026-08-29T09:11:20Z",
+      "last_updated": "2026-08-31T09:16:33Z",
       "name": "Fujian Floods, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:11:20Z",
+            "at": "2026-08-31T09:16:33Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-11-20Z-f5e0da"
+            "run_id": "2026-08-31T09-16-33Z-b3f1ab"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-11-20Z-f5e0da"
+        "last_run_id": "2026-08-31T09-16-33Z-b3f1ab"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -945,6 +945,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-10",
+          "retrieved_date": "2026-08-31",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
+          "text": "GDACS's current flood report for event FL-2026-000148-CHN (reporting window 31 July - 1 September 2026) states 'Death: 1' and 'Displaced: 309701', down from 326,643 displaced and 2 deaths in the prior read; overall alert level remains Orange (medium humanitarian impact).",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-14",
           "source_name": "GDACS",
@@ -1001,12 +1009,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "GDACS's episode report (as of 26 August 2026; reporting window 31 July - 26 August) for the flooding that followed Typhoon Dolphin's landfall records 326,643 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi and 2 deaths, up from 319,550 displaced two days earlier; the first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, and China's Ministry of Emergency Management has deployed 13 emergency drainage teams to Zhoukou city, Henan, for urban waterlogging relief.",
+      "description": "Flooding tied to Typhoon Dolphin has affected eight provinces and municipalities across central and eastern China since 31 July 2026. GDACS's current flood report (reporting window 31 July - 1 September 2026) records 309,701 people displaced and 1 confirmed death, down from a peak of 326,643 displaced and 2 deaths in its prior read; GDACS's own confirmed-death count has fluctuated between 1 and 2 across recent episode updates. The first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang, and GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert.",
       "event": {
         "impact": {
-          "deaths": 2,
-          "displaced": 319550,
-          "summary": "GDACS's current flood report (as of 26 August 2026; reporting window 31 July - 26 August) records 326,643 people displaced across Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Sichuan and Guangxi and 2 deaths, up from 319,550 displaced in the prior report; the first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang. GDACS's event-data API additionally records 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert."
+          "deaths": 1,
+          "displaced": 309701,
+          "summary": "GDACS's current flood report (reporting window 31 July - 1 September 2026) records 309,701 people displaced and 1 death, down from 326,643 displaced and 2 deaths in its prior read; GDACS's own confirmed-death count has fluctuated between 1 and 2 across recent updates. The first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang, and GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
         "location": {
@@ -1016,22 +1024,22 @@
           "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu provinces/municipalities (Yangtze basin and eastern seaboard)"
         },
         "occurrence_date": "2026-07-31",
-        "scale": "GDACS Orange alert; 326,643 displaced across 8 provinces/municipalities; 2 deaths, 3 missing (as of 26 August 2026)",
+        "scale": "GDACS Orange alert; 309,701 displaced across 8 provinces/municipalities; 1 death, 3 missing (as of 31 August 2026)",
         "status": "ongoing"
       },
       "id": "china-floods-yangtze-typhoon-dolphin-2026",
-      "last_updated": "2026-08-29T09:11:20Z",
+      "last_updated": "2026-08-31T09:16:33Z",
       "name": "Typhoon Dolphin Flooding, Central China",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:11:20Z",
+            "at": "2026-08-31T09:16:33Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-11-20Z-13d8e5"
+            "run_id": "2026-08-31T09-16-33Z-c79572"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-11-20Z-13d8e5"
+        "last_run_id": "2026-08-31T09-16-33Z-c79572"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1040,6 +1048,10 @@
         "recency_rank": 739828
       },
       "updates": [
+        {
+          "date": "2026-08-31",
+          "text": "GDACS's flood report window extended to 1 September, with displaced population down to 309,701 (from 326,643) and the recorded death toll at 1 (from 2 in the prior read); the event remains at Orange alert."
+        },
         {
           "date": "2026-08-27",
           "text": "GDACS's flood report window extended to 26 August, with displaced population up to 326,643 (from 319,550) and the death toll unchanged at 2; the event remains at Orange alert."
@@ -1071,7 +1083,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1526,7 +1538,7 @@
         },
         {
           "id": "claim-39",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "ECDC",
           "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
           "text": "ECDC's country overview (page last updated 28 August 2026, 14:40, data as of 26 August 2026) reports the Democratic Republic of the Congo has recorded 5,794 confirmed cases including 2,786 related deaths -- 81 new confirmed cases and 42 new deaths since the previous report -- across 60 of 151 health zones in six provinces, with 843 patients currently in isolation. The same page states WHO declared the end of the Ebola disease outbreak in Uganda on 26 August 2026, following 42 days without a new confirmed case, after Uganda's Ministry of Health had already declared its own end to the outbreak on 28 July 2026 with a final toll of 20 confirmed cases and two deaths.",
@@ -1600,18 +1612,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-08-29T09:11:06Z",
+      "last_updated": "2026-08-31T09:16:33Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:11:06Z",
+            "at": "2026-08-31T09:16:33Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-11-06Z-d39ef1"
+            "run_id": "2026-08-31T09-16-33Z-77b4b1"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-11-06Z-d39ef1"
+        "last_run_id": "2026-08-31T09-16-33Z-77b4b1"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1918,7 +1930,7 @@
         },
         {
           "id": "claim-16",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "WHO",
           "source_url": "https://www.who.int/europe/health-topics/heatwaves",
           "text": "WHO/Europe's topic and situations pages carry no statement dated after 7 July 2026 ('Extreme heat: more deadly weeks may still lie ahead for the European Region') as of this check, despite a distinct later mid-August heatwave episode across Western/Central Europe reported elsewhere; the 30 June and 7 July statements remain WHO/Europe's most recent dated assessments.",
@@ -1960,18 +1972,18 @@
         "status": "ongoing"
       },
       "id": "europe-heatwave-2026",
-      "last_updated": "2026-08-29T09:15:05Z",
+      "last_updated": "2026-08-31T09:16:33Z",
       "name": "2026 European Heatwave — Public Health Emergency",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:15:05Z",
+            "at": "2026-08-31T09:16:33Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-15-05Z-066a25"
+            "run_id": "2026-08-31T09-16-33Z-b056ae"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-15-05Z-066a25"
+        "last_run_id": "2026-08-31T09-16-33Z-b056ae"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2996,7 +3008,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "Encyclopaedia Britannica",
           "source_url": "https://www.britannica.com/event/2026-Iran-war",
           "text": "Encyclopaedia Britannica's account states: \"U.S. and Israeli forces launch[ed] Operation Epic Fury\" on 28 February 2026, conducting joint strikes on Iran \"numbering nearly 900 in just the first 12 hours,\" and that \"Khamenei was killed in the first wave of strikes on February 28, as were dozens of other top Iranian officials,\" with a strike near Bandar Abbas \"killing about 170 people\" at a girls' school. Over the following week, \"U.S. forces hit about 140 targets with more than 300 strikes.\"",
@@ -3004,7 +3016,7 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "Encyclopaedia Britannica",
           "source_url": "https://www.britannica.com/event/2026-Iran-war",
           "text": "The same article reports Iran retaliated with missile and drone strikes targeting U.S. embassies and military installations 'across the region, including in the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Iraq, Oman, and Jordan,' and that 'commercial traffic through the Strait of Hormuz dropped more than 90 percent after the outbreak of conflict,' with oil prices surging 'from about $70 per barrel just before the war to an average of $103 per barrel in March.'",
@@ -3012,7 +3024,7 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "Encyclopaedia Britannica",
           "source_url": "https://www.britannica.com/event/2026-Iran-war",
           "text": "Encyclopaedia Britannica reports Israel resumed operations against Hezbollah in Lebanon with a ground invasion beginning 17 March 2026, and that this campaign had 'displac[ed] over 1.1 million people by late March.'",
@@ -3020,7 +3032,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "Encyclopaedia Britannica",
           "source_url": "https://www.britannica.com/event/2026-Iran-war",
           "text": "Encyclopaedia Britannica reports the memorandum of understanding 'was signed on June 17 by Trump and Iranian Pres. Masoud Pezeshkian,' setting 'a 60-day timeline for an agreement on the unresolved issue of Iran's nuclear program'; the article, last updated 21 August 2026, dates the conflict 'February 28, 2026 - present' and describes hostilities as resumed after Iran struck commercial vessels in July, with the deadline having since lapsed without a permanent settlement.",
@@ -3054,18 +3066,18 @@
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-08-29T09:11:20Z",
+      "last_updated": "2026-08-31T09:16:33Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:11:20Z",
+            "at": "2026-08-31T09:16:33Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-11-20Z-a9ea70"
+            "run_id": "2026-08-31T09-16-33Z-d5c79e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-11-20Z-a9ea70"
+        "last_run_id": "2026-08-31T09-16-33Z-d5c79e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3424,7 +3436,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "Ministry of Finance (Japan)",
           "source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/monthly/20260828e.html",
           "text": "The Ministry of Finance's Foreign Exchange Intervention Operations monthly release for the period 30 July 2026 through 26 August 2026 (published 28 August 2026) states: total amount of foreign exchange intervention operations for the period, JPY 15,399.3 billion -- confirming sustained yen-buying intervention through the reporting month, without a public breakdown of individual operation dates or amounts.",
@@ -3450,18 +3462,18 @@
         "status": "ongoing"
       },
       "id": "japan-yen-intervention-2026",
-      "last_updated": "2026-08-29T09:13:31Z",
+      "last_updated": "2026-08-31T09:16:33Z",
       "name": "Yen Crisis — Joint Japan-US Currency Intervention",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:13:31Z",
+            "at": "2026-08-31T09:16:33Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-13-31Z-2b1afd"
+            "run_id": "2026-08-31T09-16-33Z-c3ed9c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-13-31Z-2b1afd"
+        "last_run_id": "2026-08-31T09-16-33Z-c3ed9c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3816,7 +3828,7 @@
         },
         {
           "id": "claim-6",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/08/1168221",
           "text": "UN News (28 August 2026), \"'Immense impact' of Nepal flood disaster highlighted as casualties mount\": quoting Government of Nepal figures, OCHA said 538 people had died and almost 3,750 had been rescued; around 1,000 people remain missing in Nepal, many believed to be tourists, while some 560 people remain missing in Tibet Autonomous Region, China, per Chinese authorities. The IFRC reported at least 93,000 people affected, and UNICEF said 18 schools were completely destroyed and 20 more damaged, with an estimated 10,000 school-age children needing education support.",
@@ -3842,18 +3854,18 @@
         "status": "ongoing"
       },
       "id": "nepal-rasuwa-glacial-flood-2026",
-      "last_updated": "2026-08-29T09:14:13Z",
+      "last_updated": "2026-08-31T09:16:33Z",
       "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:14:13Z",
+            "at": "2026-08-31T09:16:33Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-14-13Z-5d8a74"
+            "run_id": "2026-08-31T09-16-33Z-909916"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-14-13Z-5d8a74"
+        "last_run_id": "2026-08-31T09-16-33Z-909916"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4053,7 +4065,7 @@
         },
         {
           "id": "claim-23",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "National Disaster Management Authority (Pakistan)",
           "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
           "text": "NDMA's live Monsoon 2026 SITREP dashboard, checked 29 August 2026 (cumulative, 26 June-28 August 2026): Grand Total Deceased 175, Grand Total Injured 500 (unchanged); houses damaged 579 fully and 1,111 partially damaged (up from 571/1,082); livestock lost 1,442 (unchanged). Provincial death breakdown: Khyber Pakhtunkhwa 70, Punjab 61, Sindh 17, Azad Jammu & Kashmir 16, Balochistan 8, Islamabad Capital Territory 2, Gilgit-Baltistan 1. Rescue operations, persons rescued and camp counts remain unchanged at 1,164 operations, 9,439 people and 93 relief/66 medical camps.",
@@ -4087,18 +4099,18 @@
         "status": "ongoing"
       },
       "id": "pakistan-floods-2026",
-      "last_updated": "2026-08-29T09:12:55Z",
+      "last_updated": "2026-08-31T09:16:34Z",
       "name": "Monsoon Floods — Pakistan",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:12:55Z",
+            "at": "2026-08-31T09:16:34Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-12-55Z-d64eb4"
+            "run_id": "2026-08-31T09-16-34Z-66ed37"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-12-55Z-d64eb4"
+        "last_run_id": "2026-08-31T09-16-34Z-66ed37"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4379,7 +4391,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030252",
           "text": "GDACS wildfire report for Serbia (event id 1030252, 05 Aug 2026 - 25 Aug 2026, latest EC/ECHO daily map update 24 Aug 2026): 'Forest fire can have a medium humanitarian impact based on the burned area and the affected population and their vulnerability'; burned area 18,310 hectares; 510 people in the burned area.",
@@ -4413,18 +4425,18 @@
         "status": "ongoing"
       },
       "id": "serbia-wildfires-2026",
-      "last_updated": "2026-08-29T09:15:04Z",
+      "last_updated": "2026-08-31T09:16:34Z",
       "name": "Wildfires — Deliblato Sands, Serbia",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:15:04Z",
+            "at": "2026-08-31T09:16:34Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-15-04Z-a5807b"
+            "run_id": "2026-08-31T09-16-34Z-2b6d44"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-15-04Z-a5807b"
+        "last_run_id": "2026-08-31T09-16-34Z-2b6d44"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5043,7 +5055,7 @@
         },
         {
           "id": "claim-17",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "ECDC",
           "source_url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly",
           "text": "ECDC's cholera worldwide monthly overview and its Weekly Communicable Disease Threats Report (Week 33, 8-14 Aug 2026) both confirm the Sudan cholera dataset has not been refreshed since a data cut of 12 July 2026: 1,511 cumulative cases and 153 deaths reported since 1 January 2026, ranking Sudan second globally after DRC (3,841 cases). WHO/EMRO's dedicated Sudan crisis page returned repeated server errors (HTTP 502) and could not be verified this session.",
@@ -5109,18 +5121,18 @@
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-08-29T09:11:20Z",
+      "last_updated": "2026-08-31T09:16:34Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:11:20Z",
+            "at": "2026-08-31T09:16:34Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-11-20Z-78f457"
+            "run_id": "2026-08-31T09-16-34Z-835fa4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-11-20Z-78f457"
+        "last_run_id": "2026-08-31T09-16-34Z-835fa4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6434,6 +6446,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-22",
+          "retrieved_date": "2026-08-31",
+          "source_name": "InciWeb (US wildland fire agencies)",
+          "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+          "text": "InciWeb's Sinlahekin Fire page, updated Sunday, August 30, 2026 at 9:49 PM Pacific time, records the fire at 166,413 acres (up from 166,216 on 28 August) with 'Percent of Perimeter Contained: 40%' (down from 49%) and 1,684 personnel assigned; overnight crews observed 'excellent recoveries (70% to 100%)' with moist fuels limiting activity to smoldering and consuming heavy fuels, and 24-48 hour projections anticipate no fire spread with only limited creeping possible in large woody fuels. A warming, drying trend continues through Tuesday before an approaching cold front brings southerly winds, rain chances and higher humidity for the remainder of the week.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-08-09",
           "source_name": "Office of the Governor of Washington State",
@@ -6490,12 +6510,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers six counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, had grown to 163,001 acres and was 49% contained as of 28 August 2026, with 1,636 personnel assigned; its northwest portion showed extreme fire behavior -- crowning, uphill runs, torching and spotting -- under a Red Flag Warning, with crews building contingency lines and an estimated full-containment date of 31 August. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
+      "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers six counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, had grown to 166,413 acres and was 40% contained as of 30 August 2026, with 1,684 personnel assigned; overnight crews reported excellent fuel-moisture recovery and smoldering-only activity, and short-term projections anticipate no further fire spread as cooler, more humid conditions with rain chances move in behind an approaching cold front. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and had grown to 166,216 acres at 49% containment as of the evening of 28 August 2026, with 1,570 personnel assigned; the northwest portion showed extreme fire behavior -- crowning, uphill runs, torching and spotting across 14 Mile Road -- under a Red Flag Warning for extremely dry fuels and rising winds, with crews establishing contingency lines toward Chopaka Mountain and strengthening containment along the eastern and southern edges; cooler, more humid conditions are expected to moderate fire behavior over the next 72+ hours, with little further growth expected though interior heat persists. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
+          "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and had grown to 166,413 acres at 40% containment as of the evening of 30 August 2026, with 1,684 personnel assigned; overnight crews observed excellent fuel-moisture recovery (70-100%) limiting fire activity to smoldering and consumption of heavy fuels, and 24-48 hour projections anticipate no further fire spread. A warming, drying trend continues through Tuesday before an approaching cold front brings southerly winds, rain chances and higher humidity for the rest of the week. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
         },
         "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
         "location": {
@@ -6505,22 +6525,22 @@
           "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
         },
         "occurrence_date": "2026-08-01",
-        "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 163,001 acres / 49% contained as of 28 August 2026, managed by Cal Fire Incident Management Team 5",
+        "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 166,413 acres / 40% contained as of 30 August 2026, managed by Cal Fire Incident Management Team 5",
         "status": "ongoing"
       },
       "id": "usa-washington-wildfires-2026",
-      "last_updated": "2026-08-29T09:14:42Z",
+      "last_updated": "2026-08-31T09:16:34Z",
       "name": "Wildfire Emergency — Eastern Washington, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:14:42Z",
+            "at": "2026-08-31T09:16:34Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-14-42Z-46d71b"
+            "run_id": "2026-08-31T09-16-34Z-08bbc9"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-14-42Z-46d71b"
+        "last_run_id": "2026-08-31T09-16-34Z-08bbc9"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6529,6 +6549,10 @@
         "recency_rank": 739829
       },
       "updates": [
+        {
+          "date": "2026-08-31",
+          "text": "InciWeb's Sinlahekin Fire update (30 August, 9:49 PM PT) put the fire at 166,413 acres (up slightly from 166,216) with containment recalculated to 40% (from 49%) and 1,684 personnel assigned; overnight conditions produced excellent fuel-moisture recovery, limiting activity to smoldering, with no further fire spread anticipated over the next 24-48 hours."
+        },
         {
           "date": "2026-08-29",
           "text": "InciWeb's Sinlahekin Fire update (28 August, 9:10 PM PT) put the fire at 166,216 acres (up from 163,001), still 49% contained with 1,570 personnel; cooler, more humid conditions are expected to moderate fire behavior over the next 72+ hours."
@@ -6600,7 +6624,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 22 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -6982,7 +7006,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-14-august-2026",
           "text": "OCHA oPt Humanitarian Situation Report (14 August 2026, covering 4-10 August): 38 incidents involving Israeli settlers resulted in Palestinian casualties and/or property damage; in Masafer Yatta, about 30 settlers attacked the Tuba community, injuring 5 and destroying 3 residential structures by fire (displacing 3 families, 23 people including 14 children); near Beit Furik/Beit Dajan, four attacks (6-8 August) injured 7 Palestinians; settlers attacked a Palestine Red Crescent Society team near Abu Njeim on 7 August, injuring 4 including 2 paramedics.",
@@ -6990,7 +7014,7 @@
         },
         {
           "id": "claim-19",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-14-august-2026",
           "text": "The same OCHA oPt report documents an Israeli forces operation in Qalandiya Camp injuring 51 Palestinians (44 physically assaulted including a 9-year-old, one hit by a rubber-coated metal bullet, six treated for tear gas inhalation) and demolishing 9 structures (displacing 13 households, 71 people including 31 children); West Bank-wide, 25 Palestinian-owned structures were demolished between 8-10 August, displacing 6 households (29 people, including 17 children).",
@@ -7072,18 +7096,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-08-29T09:15:05Z",
+      "last_updated": "2026-08-31T09:16:34Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:15:05Z",
+            "at": "2026-08-31T09:16:34Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-15-05Z-5feeb9"
+            "run_id": "2026-08-31T09-16-34Z-1c424d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-15-05Z-5feeb9"
+        "last_run_id": "2026-08-31T09-16-34Z-1c424d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7132,7 +7156,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-08-31",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/08/1168151",
           "text": "UN News (citing OHCHR/UN High Commissioner Volker Turk), reporting on Yemen: 'at least 17 civilians were killed in Houthi attacks on government-controlled areas since August 6, 2026.' Specific incidents cited: a missile strike on the Jaw al-Naseem displacement camp in Ma'rib (7 August) injuring six civilians including a child; missile and drone attacks on Al-Mokha port in Ta'izz Governorate (9 August) killing three port workers and injuring four others; and an attack on a cargo ship in the Bab el-Mandeb Strait (11 August) killing four crew members (three Pakistani nationals, one Indonesian) with additional injuries. Turk said: 'I call on all parties to de-escalate tensions and spare the Yemeni people from further misery' and 'These attacks must end immediately.'",
@@ -7166,18 +7190,18 @@
         "status": "ongoing"
       },
       "id": "yemen-conflict-escalation-2026",
-      "last_updated": "2026-08-29T09:11:20Z",
+      "last_updated": "2026-08-31T09:16:34Z",
       "name": "Yemen Conflict Escalation",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:11:20Z",
+            "at": "2026-08-31T09:16:34Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-11-20Z-0324f3"
+            "run_id": "2026-08-31T09-16-34Z-29eb45"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-11-20Z-0324f3"
+        "last_run_id": "2026-08-31T09-16-34Z-29eb45"
       },
       "schema_version": "1.0",
       "sort_keys": {
