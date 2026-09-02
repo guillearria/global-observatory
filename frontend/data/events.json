@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T09:17:14Z",
+  "last_updated": "2026-09-02T09:13:22Z",
   "published": [
     {
       "category": "flood",
@@ -1612,14 +1612,30 @@
           "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
           "text": "As of 14 July 2026 (data up until 14 July), the Democratic Republic of the Congo reported 2,073 confirmed cases including 796 related deaths. Ituri province remains the most affected with 1,863 cases including 668 deaths, reported from 26 of 36 health zones; North Kivu has reported 189 cases including 111 deaths; South Kivu 3 cases including 1 death; Haut-Uele 14 cases including 13 deaths; and Tshopo 4 cases including 3 deaths. Uganda has reported 20 confirmed cases including two deaths; its last confirmed case, reported on 21 June, was discharged from care on 16 July 2026 after two negative tests, starting the 42-day countdown toward declaring Uganda's outbreak over.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-new-ecdc-sept1",
+          "retrieved_date": "2026-09-02",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 1 September 2026, 17:00, data as of 30 August 2026) reports the Democratic Republic of the Congo has recorded 6,100 confirmed cases and 2,950 deaths, up from 5,945 cases and 2,862 deaths as of 28 August; Uganda's linked chain remains closed at 20 confirmed cases and two deaths.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-new-who-sept1",
+          "retrieved_date": "2026-09-02",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-high-level-member-states-briefing-on-the-ebola-response-in-the-democratic-republic-of-the-congo--1-september-2026",
+          "text": "WHO Director-General's opening remarks at the High-Level Member States briefing on the Ebola response in the Democratic Republic of the Congo (1 September 2026): \"Today we passed 6000 reported cases, with almost 3000 deaths\"; \"the epidemic now affects 60 health zones in six provinces, across a huge geographic area\"; \"the Government-led plan for the next six months is for US$ 1.3 billion\"; \"we have three vaccines and three therapeutics now in trials.\"",
+          "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak, caused by Bundibugyo virus, on 15 May 2026, centred in Ituri Province. On 17 May the WHO Director-General determined that the DRC and Uganda epidemic constitutes a Public Health Emergency of International Concern (PHEIC). It remains the largest Ebola outbreak recorded in the country: ECDC's country overview (data as of 28 August 2026) reports 5,945 confirmed cases including 2,862 deaths in the DRC, spanning 60 of 151 health zones across six provinces, with 896 patients currently in isolation. Uganda's linked chain ended at 20 confirmed cases and two deaths -- first declared over by its own Ministry of Health on 28 July 2026, then formally declared over by WHO on 26 August 2026 after 42 days without a new case; imported cases were earlier confirmed in France and Germany. On 20 August 2026 WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC, including 20,000 doses for a Phase 3 clinical trial testing its efficacy against the Bundibugyo strain and 50,000 doses for frontline health workers; the DRC outbreak remains ongoing.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak, caused by Bundibugyo virus, on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined the DRC-Uganda epidemic constitutes a Public Health Emergency of International Concern (PHEIC). It remains the largest Ebola outbreak recorded in the country: the WHO Director-General said on 1 September 2026 that the outbreak has \"passed 6000 reported cases, with almost 3000 deaths\" across 60 health zones in six provinces, and ECDC's matching overview (data as of 30 August) puts the DRC toll at 6,100 confirmed cases and 2,950 deaths. Uganda's linked chain ended at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026 after 42 days without a new case. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial and 50,000 doses for frontline health workers, though Ervebo's efficacy against the Bundibugyo strain has not yet been established; the DRC outbreak remains ongoing.",
       "event": {
         "impact": {
-          "deaths": 2862,
+          "deaths": 2950,
           "displaced": null,
-          "summary": "ECDC's country overview (page updated 31 August 2026, data as of 28 August) reports the Democratic Republic of the Congo has recorded 5,945 confirmed cases and 2,862 deaths -- 82 new cases and 38 new deaths since the previous report -- across 60 of 151 health zones in six provinces, with 896 patients currently in isolation. WHO declared the end of Uganda's linked outbreak on 26 August 2026, 42 days after its last confirmed case, following Uganda's Ministry of Health's own 28 July 2026 declaration (20 confirmed cases, two deaths). On 20 August 2026, WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo vaccine to DRC -- 20,000 for a Phase 3 clinical trial and 50,000 for frontline health workers -- though Ervebo's efficacy against the Bundibugyo strain driving this outbreak has not yet been established."
+          "summary": "The WHO Director-General said on 1 September 2026 that the outbreak has \"passed 6000 reported cases, with almost 3000 deaths,\" affecting 60 health zones across six provinces; ECDC's matching country overview (data as of 30 August) puts the DRC toll at 6,100 confirmed cases and 2,950 deaths, up from 5,945 cases and 2,862 deaths two days earlier. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -1633,18 +1649,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-09-01T09:13:48Z",
+      "last_updated": "2026-09-02T09:13:22Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-01T09:13:48Z",
+            "at": "2026-09-02T09:13:22Z",
             "layer": "verify",
-            "run_id": "2026-09-01T09-13-48Z-fca047"
+            "run_id": "2026-09-02T09-13-22Z-5f01ba"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-01T09-13-48Z-fca047"
+        "last_run_id": "2026-09-02T09-13-22Z-5f01ba"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1653,6 +1669,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-09-01",
+          "text": "The WHO Director-General said the outbreak has \"passed 6000 reported cases, with almost 3000 deaths\" across 60 health zones in six provinces; ECDC's overview (data as of 30 August) recorded 6,100 cases and 2,950 deaths, up from 5,945/2,862 two days earlier. The 6-month response plan now requires US$1.3 billion, with three vaccines and three therapeutics in trials."
+        },
         {
           "date": "2026-08-31",
           "text": "ECDC (updated 31 August 2026, data as of 28 August) reported 5,945 confirmed cases and 2,862 deaths in the DRC, up from 5,794/2,786 at the 26 August cut -- 82 new cases, 38 new deaths -- across 60 of 151 health zones, with 896 patients in isolation."
@@ -1724,7 +1744,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 38 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 40 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -2570,6 +2590,22 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-18",
+          "retrieved_date": "2026-09-02",
+          "source_name": "United Nations",
+          "source_url": "https://transcripts.un.org/en/sc/10216",
+          "text": "UN Security Council transcript of its 10216th meeting on Haiti (28 August 2026): Acting Assistant Secretary-General for Humanitarian Affairs Indrika Ratwatte told the Council that in the Kenscoff attack of 23-24 August, \"dozens of people were killed and more than 2,600 forced to flee their homes ... over 50 people were reportedly abducted\"; nationwide, \"nearly 1.5 million people, 12% of Haiti's population, are internally displaced,\" more than 5,500 incidents of gender-based violence have been recorded in the first six months of 2026 (about 70% involving rape), the recruitment and use of children by armed groups rose an estimated 200% in 2025, and more than 1,600 schools remain closed, affecting 7,500 teachers and depriving more than 240,000 students. Special Representative and BINUH head Carlos Ruiz Massieu reported \"more than 1,400 people killed and more than 600 injured between April and June 2026,\" and Argentina's representative cited \"more than 3,000 deaths so far in 2026.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-19",
+          "retrieved_date": "2026-09-02",
+          "source_name": "United Nations",
+          "source_url": "https://dppa.un.org/en/news/haiti-needs-concrete-action-amid-escalating-gang-violence-special-representative-tells",
+          "text": "UN Department of Political and Peacebuilding Affairs (28 August 2026): Special Representative of the Secretary-General Carlos Ruiz Massieu welcomed \"increased coordination among the Haitian National Police, Haitian Armed Forces and Gang Suppression Force\" following the Kenscoff massacre and called for its \"swift and full deployment,\" stressing that security operations must be accompanied by restoration of State authority, rebuilt basic services, schools and health facilities, economic livelihood programmes, pathways for youth to leave gangs, and accountability for those perpetrating and financing gang violence.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-19",
           "source_name": "United Nations",
@@ -2610,12 +2646,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Gang violence in Haiti has displaced a record 1.47 million people and killed more than 1,400 nationwide in April-June 2026, with a new attack on Kenscoff killing 47 on 23 August. A BINUH quarterly report, published via UN News on 25 August 2026, found at least 1,408 people killed and 656 injured nationwide from April through June, including 463 killed in the Plaine du Cul-de-Sac and Cité Soleil area, at least 796 documented victims of gang-related rape, and 81 people abducted for ransom; nationwide displacement stood at nearly 1.47 million as of May 2026. A gang attack that began late on 23 August 2026 on the farming community of Kenscoff, south of Port-au-Prince, killed at least 47 people, including 22 reportedly executed inside a church compound where they had sought shelter, and wounded 22 others; UN Secretary-General António Guterres condemned the attack on 25 August and called for accountability through Haiti's specialized judicial units for mass crimes. Around 6.4 million people need humanitarian assistance and more than 5.8 million face hunger this year, while the UN-backed Gang Suppression Force remains far under its authorized strength.",
+      "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced nearly 1.5 million, with an attack on Kenscoff, south of Port-au-Prince, killing 47 and displacing thousands more on 23-24 August. Briefing the UN Security Council on 28 August, BINUH head Carlos Ruiz Massieu reported at least 1,408 killed and 656 injured nationwide from April through June, while OCHA's Indrika Ratwatte said nearly 1.5 million people (12% of the population) are displaced, over 5,500 gender-based violence incidents have been recorded this year (about 70% rape), and more than 1,600 schools remain closed, depriving over 240,000 students. The Kenscoff attack killed at least 47 -- including 22 reportedly executed inside a church compound -- displaced more than 2,600 and left over 50 abducted, one of the largest mass kidnappings in Haiti in recent years; Guterres condemned the attack, and Ruiz Massieu has called for the Gang Suppression Force's swift, full deployment alongside restored State authority and accountability. About 6.4 million people need humanitarian assistance and more than 5.8 million face hunger this year.",
       "event": {
         "impact": {
-          "deaths": 1408,
+          "deaths": 3000,
           "displaced": 1470000,
-          "summary": "A BINUH quarterly report (April-June 2026) found at least 1,408 people killed and 656 injured nationwide, including 463 killed and 796 documented rape victims in the Plaine du Cul-de-Sac and Cité Soleil area, while nationwide displacement stood at nearly 1.47 million people as of May 2026. A gang attack on Kenscoff, south of Port-au-Prince, that began late on 23 August 2026 killed at least 47 people, including 22 reportedly executed inside a church compound where they had sought shelter, and wounded 22 others; UN Secretary-General António Guterres condemned the attack on 25 August 2026. Only 1,000 of the Gang Suppression Force's 5,550 authorized troops have deployed, and about 6.4 million people need humanitarian assistance."
+          "summary": "Briefing the UN Security Council on 28 August 2026, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026, while BINUH head Carlos Ruiz Massieu put the April-June quarterly toll at more than 1,400 killed and more than 600 injured. OCHA's Indrika Ratwatte told the Council that nearly 1.5 million people (12% of the population) remain internally displaced, more than 5,500 incidents of gender-based violence have been recorded this year (about 70% involving rape), child recruitment by armed groups rose an estimated 200% in 2025, and more than 1,600 schools remain closed, depriving over 240,000 students. The 23-24 August gang attack on Kenscoff killed at least 47 people, displaced more than 2,600 and saw over 50 people abducted; the Gang Suppression Force remains under-deployed despite calls from the Secretary-General's Special Representative for its swift, full deployment."
         },
         "live_source_url": "https://reliefweb.int/country/hti",
         "location": {
@@ -2625,22 +2661,22 @@
           "region": "Nationwide, concentrated in Port-au-Prince metropolitan area (incl. Cité Soleil, Drouillard)"
         },
         "occurrence_date": "2026-07-19",
-        "scale": "~1.47M displaced; 1,408 killed Apr-Jun 2026",
+        "scale": "~1.47M displaced; 3,000+ killed nationwide in 2026",
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-08-29T09:15:05Z",
+      "last_updated": "2026-09-02T09:13:22Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:15:05Z",
+            "at": "2026-09-02T09:13:22Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-15-05Z-a16884"
+            "run_id": "2026-09-02T09-13-22Z-791988"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-15-05Z-a16884"
+        "last_run_id": "2026-09-02T09-13-22Z-791988"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2649,6 +2685,10 @@
         "recency_rank": 739816
       },
       "updates": [
+        {
+          "date": "2026-08-28",
+          "text": "Briefing the UN Security Council, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026; OCHA reported the Kenscoff attack displaced 2,600+ and saw 50+ abducted, plus 5,500+ gender-based violence incidents and 200% higher child recruitment in 2025, while BINUH's Ruiz Massieu urged the Gang Suppression Force's swift, full deployment."
+        },
         {
           "date": "2026-08-28",
           "text": "UN Secretary-General António Guterres condemned the Kenscoff attack in a 25 August 2026 statement, confirming that of the 47 people killed, 22 were reportedly executed inside a church compound where they had sought shelter, and called for accountability through Haiti's specialized judicial units for mass crimes."
@@ -2676,7 +2716,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3675,7 +3715,7 @@
         },
         {
           "id": "claim-26",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-09-02",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-80-effects-mw-78-earthquake-incident-maasim-sarangani-21-august-2026-6am",
           "text": "DSWD DROMIC Report #80 (as of 21 August 2026, 6AM): 392,506 families (1,661,828 persons) remain affected across 661 barangays, unchanged from Report #79. Total displaced eased to 26,422 families (105,558 persons) -- 7,058 families (29,033 persons) in 80 evacuation centres and 19,364 families (76,525 persons) staying with relatives or friends -- down from 27,029 families (107,197 persons) in Report #79. Houses damaged remain unchanged at 138,563 total (19,320 totally, 119,243 partially damaged). Assistance provided to date rose to PHP 1,496,461,207.87.",
@@ -3757,18 +3797,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-08-29T09:15:04Z",
+      "last_updated": "2026-09-02T09:13:03Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:15:04Z",
+            "at": "2026-09-02T09:13:03Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-15-04Z-6f38ab"
+            "run_id": "2026-09-02T09-13-03Z-00202b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-15-04Z-6f38ab"
+        "last_run_id": "2026-09-02T09-13-03Z-00202b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4305,7 +4345,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-09-02",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104107&episodeid=1",
           "text": "GDACS flood event report for the Philippines (event id 1104107, episode 1, overall Green alert, reporting window 17 Aug 2026 01:00 UTC to 19 Aug 2026 01:00 UTC, integrating Copernicus EMS/GloFAS assessment with local media reporting of flooding in Luzon and Mindoro): records 1,076 people displaced and 0 deaths in that window, assessed as low humanitarian impact based on magnitude, exposed population and vulnerability.",
@@ -4331,18 +4371,18 @@
         "status": "ongoing"
       },
       "id": "philippines-floods-luis-maymay-2026",
-      "last_updated": "2026-08-29T09:15:05Z",
+      "last_updated": "2026-09-02T09:13:03Z",
       "name": "Southwest Monsoon & Tropical Cyclones Luis/Maymay Floods, Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:15:05Z",
+            "at": "2026-09-02T09:13:03Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-15-05Z-349df9"
+            "run_id": "2026-09-02T09-13-03Z-b91d66"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-15-05Z-349df9"
+        "last_run_id": "2026-09-02T09-13-03Z-b91d66"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6897,7 +6937,7 @@
         },
         {
           "id": "claim-33",
-          "retrieved_date": "2026-08-29",
+          "retrieved_date": "2026-09-02",
           "source_name": "United Nations",
           "source_url": "https://press.un.org/en/2026/db260819.doc.htm",
           "text": "UN Daily Press Briefing (19 August 2026): \"The death toll according to local authorities has surpassed 6,400\" in Venezuela following the June earthquake doublet. No numbered OCHA 'Earthquakes in Venezuela: Situation Report' has been published since Situation Report #33 (14 August 2026); the weekly series' next edition is expected around 21 August.",
@@ -6971,18 +7011,18 @@
         "status": "ongoing"
       },
       "id": "venezuela-earthquake-2026",
-      "last_updated": "2026-08-29T09:15:05Z",
+      "last_updated": "2026-09-02T09:13:03Z",
       "name": "Venezuela M7.5 Earthquake Doublet",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-29T09:15:05Z",
+            "at": "2026-09-02T09:13:03Z",
             "layer": "verify",
-            "run_id": "2026-08-29T09-15-05Z-80850e"
+            "run_id": "2026-09-02T09-13-03Z-2c6dc1"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-29T09-15-05Z-80850e"
+        "last_run_id": "2026-09-02T09-13-03Z-2c6dc1"
       },
       "schema_version": "1.0",
       "sort_keys": {
