@@ -2,7 +2,7 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
-## 2026-09-02 — Daily World Pulse refresh (2026-09-02): Haiti Kenscoff SC briefing, Ebola DRC passes 6,000 cases/3,000 deaths, re-verify Venezuela/Mindanao/Philippines floods (`fadd5f3`)
+## 2026-09-02 — Daily World Pulse refresh (2026-09-02): Haiti Kenscoff SC briefing, Ebola DRC passes 6,000 cases/3,000 deaths, re-verify Venezuela/Mindanao/Philippines floods (`fa16044`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, haiti-gang-violence-displacement-2026, mindanao-earthquake-philippines-2026, philippines-floods-luis-maymay-2026, venezuela-earthquake-2026
 
