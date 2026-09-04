@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T09:12:13Z",
+  "last_updated": "2026-09-04T09:10:32Z",
   "published": [
     {
       "category": "flood",
@@ -524,7 +524,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-08-31",
+          "retrieved_date": "2026-09-04",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030240",
           "text": "GDACS's wildfire report for Canada (event id 1030240, episode 53, reporting window 08 Aug 2026 00:00 UTC - 21 Aug 2026 00:00 UTC): burned area 30,182 hectares, up from 29,678 hectares in episode 49; affected population unchanged at 4,912 people within the burned area.",
@@ -638,18 +638,18 @@
         "status": "ongoing"
       },
       "id": "canada-british-columbia-wildfires-2026",
-      "last_updated": "2026-08-31T09:16:33Z",
+      "last_updated": "2026-09-04T09:09:11Z",
       "name": "Wildfire State of Emergency — British Columbia, Canada",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-31T09:16:33Z",
+            "at": "2026-09-04T09:09:11Z",
             "layer": "verify",
-            "run_id": "2026-08-31T09-16-33Z-be516a"
+            "run_id": "2026-09-04T09-09-11Z-2fd08a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-31T09-16-33Z-be516a"
+        "last_run_id": "2026-09-04T09-09-11Z-2fd08a"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1622,6 +1622,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-sept3",
+          "retrieved_date": "2026-09-04",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 3 September 2026, 15:10) reports a total of 6,250 confirmed cases, including 3,039 related deaths in the DRC, based on the DRC's 2 September report using data through 1 September -- up from 6,100 cases and 2,950 deaths as of the 30 August data cut. The outbreak spans six provinces affecting 60 of 151 health zones, with Ituri province most heavily impacted. Uganda's linked outbreak remains closed (20 confirmed cases, two deaths; WHO declared it over on 26 August 2026).",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-who-sept1",
           "retrieved_date": "2026-09-02",
           "source_name": "WHO",
@@ -1630,12 +1638,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak, caused by Bundibugyo virus, on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined the DRC-Uganda epidemic constitutes a Public Health Emergency of International Concern (PHEIC). It remains the largest Ebola outbreak recorded in the country: the WHO Director-General said on 1 September 2026 that the outbreak has \"passed 6000 reported cases, with almost 3000 deaths\" across 60 health zones in six provinces, and ECDC's matching overview (data as of 30 August) puts the DRC toll at 6,100 confirmed cases and 2,950 deaths. Uganda's linked chain ended at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026 after 42 days without a new case. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial and 50,000 doses for frontline health workers, though Ervebo's efficacy against the Bundibugyo strain has not yet been established; the DRC outbreak remains ongoing.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak, caused by Bundibugyo virus, on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined the DRC-Uganda epidemic constitutes a Public Health Emergency of International Concern (PHEIC). It remains the largest Ebola outbreak recorded in the country: the WHO Director-General said on 2 September 2026 that the epidemic had passed 6,000 reported cases and reached 3,000 deaths across 60 health zones in six provinces, with Ituri the epicentre (85% of cases, 88% of deaths); ECDC's matching overview (data through 1 September) puts the DRC toll at 6,250 confirmed cases and 3,039 deaths. Uganda's linked chain ended at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial and 50,000 doses for frontline health workers, though Ervebo's efficacy against the Bundibugyo strain has not yet been established; the DRC outbreak remains ongoing.",
       "event": {
         "impact": {
-          "deaths": 2950,
+          "deaths": 3039,
           "displaced": null,
-          "summary": "The WHO Director-General said on 1 September 2026 that the outbreak has \"passed 6000 reported cases, with almost 3000 deaths,\" affecting 60 health zones across six provinces; ECDC's matching country overview (data as of 30 August) puts the DRC toll at 6,100 confirmed cases and 2,950 deaths, up from 5,945 cases and 2,862 deaths two days earlier. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "The WHO Director-General said on 2 September 2026 that the epidemic \"passed 6000 reported cases\" and \"reached 3000 deaths,\" affecting 60 health zones across six provinces, with Ituri province the epicentre (85% of cases, 88% of deaths); ECDC's matching country overview (data through 1 September) puts the DRC toll at 6,250 confirmed cases and 3,039 deaths, up from 6,100 cases and 2,950 deaths four days earlier. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -1649,18 +1657,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-09-02T09:13:22Z",
+      "last_updated": "2026-09-04T09:10:32Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-02T09:13:22Z",
+            "at": "2026-09-04T09:10:32Z",
             "layer": "verify",
-            "run_id": "2026-09-02T09-13-22Z-5f01ba"
+            "run_id": "2026-09-04T09-10-32Z-4acf6f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-02T09-13-22Z-5f01ba"
+        "last_run_id": "2026-09-04T09-10-32Z-4acf6f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1669,6 +1677,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-09-02",
+          "text": "WHO Director-General said the epidemic passed 6,000 reported cases and reached 3,000 deaths, with Ituri province the epicentre (85% of cases, 88% of deaths); ECDC's matching overview (data through 1 September) put the DRC toll at 6,250 confirmed cases and 3,039 deaths, up from 6,100/2,950 four days earlier."
+        },
         {
           "date": "2026-09-01",
           "text": "The WHO Director-General said the outbreak has \"passed 6000 reported cases, with almost 3000 deaths\" across 60 health zones in six provinces; ECDC's overview (data as of 30 August) recorded 6,100 cases and 2,950 deaths, up from 5,945/2,862 two days earlier. The 6-month response plan now requires US$1.3 billion, with three vaccines and three therapeutics in trials."
@@ -1744,7 +1756,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 40 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 41 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1975,7 +1987,7 @@
         },
         {
           "id": "claim-16",
-          "retrieved_date": "2026-08-31",
+          "retrieved_date": "2026-09-04",
           "source_name": "WHO",
           "source_url": "https://www.who.int/europe/health-topics/heatwaves",
           "text": "WHO/Europe's topic and situations pages carry no statement dated after 7 July 2026 ('Extreme heat: more deadly weeks may still lie ahead for the European Region') as of this check, despite a distinct later mid-August heatwave episode across Western/Central Europe reported elsewhere; the 30 June and 7 July statements remain WHO/Europe's most recent dated assessments.",
@@ -2017,18 +2029,18 @@
         "status": "ongoing"
       },
       "id": "europe-heatwave-2026",
-      "last_updated": "2026-08-31T09:16:33Z",
+      "last_updated": "2026-09-04T09:09:11Z",
       "name": "2026 European Heatwave — Public Health Emergency",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-31T09:16:33Z",
+            "at": "2026-09-04T09:09:11Z",
             "layer": "verify",
-            "run_id": "2026-08-31T09-16-33Z-b056ae"
+            "run_id": "2026-09-04T09-09-11Z-b0accd"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-31T09-16-33Z-b056ae"
+        "last_run_id": "2026-09-04T09-09-11Z-b0accd"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3122,14 +3134,22 @@
           "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
           "text": "UNHCR's Operational Data Portal for the Middle East situation records, for movements since 28 February 2026: 568,800 Iranian nationals who have crossed into neighbouring countries (as of 13 August 2026), 245,600 Lebanese refugees (as of 17 August 2026), 352,793 new internally displaced people within Lebanon (as of 10 August 2026), and Afghan and Syrian returnee movements of 848,500 and 849,800 respectively (as of 15 and 17 August 2026).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-09-04",
+          "source_name": "Encyclopaedia Britannica",
+          "source_url": "https://www.britannica.com/event/2026-Iran-war",
+          "text": "Encyclopaedia Britannica's running account (checked 4 September 2026) states: \"In late August, the U.S. military announced it had cleared all mines that Iran had placed in international shipping lanes of the Strait of Hormuz, reducing Tehran's ability to restrict movement through the waterway. Days later, U.S. forces attacked Larak Island, a small Iranian island in the strait that housed a military outpost used to monitor traffic, with American officials claiming Iranian forces were attempting to launch new mines from the location. The strikes prompted Iranian retaliation and sparked another round of military exchanges.\" It further states that, \"according to U.S. officials in August,\" the U.S. military had established a passage \"along the coast of Oman allowing the daily passage of 15-20 tankers and up to 10 million barrels of oil, nearly half of the prewar amount.\" No casualty figures for the Larak Island strikes or the ensuing exchanges are given.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of other officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated with missile and drone strikes on US and allied targets across Jordan, Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, Iraq and Oman, cutting commercial shipping through the Strait of Hormuz by more than 90% and pushing oil prices from about $70 to over $100 a barrel. Israel's parallel campaign against Hezbollah in Lebanon has displaced well over a million people; UNHCR now records 568,800 Iranian nationals who have crossed into neighbouring countries and 245,600 Lebanese refugees since the war began, alongside about 1.7 million Afghan and Syrian returnees. A US-Iran memorandum signed 17 June 2026 set a 60-day window to negotiate Iran's nuclear program, but hostilities resumed in July and the deadline expired 17 August 2026 without an agreement, leaving the conflict unresolved.",
+      "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of other officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated with strikes on US and allied targets across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping by more than 90% and pushing oil prices from about $70 to over $100 a barrel. A US-Iran memorandum's 60-day negotiating window expired 17 August 2026 without an agreement. In late August the US said it had cleared all Iranian-laid mines from the Strait, then struck Iran's Larak Island outpost days later, prompting Iranian retaliation and a fresh round of exchanges; the US now escorts 15-20 tankers (up to 10 million barrels a day, about half the prewar volume) through a corridor off Oman. UNHCR records 568,800 Iranian nationals who have crossed into neighbouring countries and 245,600 Lebanese refugees since the war began, alongside about 1.7 million Afghan and Syrian returnees; the conflict remains unresolved.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": 1167193,
-          "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a single strike near Bandar Abbas killed about 170 people at a girls' school; Britannica's running account describes thousands of deaths in Iran and Lebanon and dozens more in Israel and Gulf Arab states, though no single verified cumulative death toll exists. UNHCR's Middle East data portal records, since the war began: 568,800 Iranian nationals who have crossed into neighbouring countries (13 August), 245,600 Lebanese refugees (17 August) and 352,793 new IDPs within Lebanon (10 August) -- a combined 1,167,193 people currently displaced or newly refugees across those two countries -- plus about 1.7 million Afghan and Syrian returnee movements (mid-August). Commercial shipping through the Strait of Hormuz fell more than 90%, and oil prices rose from about $70 to an average of $103 a barrel in March. A June memorandum's 60-day negotiating window for a permanent settlement of Iran's nuclear program expired 17 August 2026 without an agreement, and hostilities remain unresolved."
+          "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a single strike near Bandar Abbas killed about 170 people at a girls' school; Britannica's running account describes thousands of deaths in Iran and Lebanon and dozens more in Israel and Gulf Arab states, though no single verified cumulative death toll exists. UNHCR's Middle East data portal records, since the war began: 568,800 Iranian nationals who have crossed into neighbouring countries (13 August), 245,600 Lebanese refugees (17 August) and 352,793 new IDPs within Lebanon (10 August) -- a combined 1,167,193 people displaced or newly refugees across those two countries -- plus about 1.7 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. In late August the US cleared Iranian-laid mines from the Strait, then struck Iran's Larak Island outpost, drawing Iranian retaliation; the US now escorts 15-20 tankers (up to 10 million barrels a day) through a corridor off Oman, about half the prewar volume."
         },
         "live_source_url": "https://www.britannica.com/event/2026-Iran-war",
         "location": {
@@ -3139,22 +3159,22 @@
           "region": "Iran, Israel and Lebanon, with strikes and shipping disruption spreading across Jordan, Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, Iraq, Oman and the Strait of Hormuz"
         },
         "occurrence_date": "2026-08-17",
-        "scale": "Interstate war since 28 February 2026 between the US/Israel and Iran, with strikes and missile/drone exchanges spreading across the Persian Gulf states, Jordan and Lebanon; a June 2026 peace memorandum's 60-day negotiating deadline expired 17 August 2026 without an agreement",
+        "scale": "Interstate war since 28 Feb 2026; renewed strikes late Aug after US hit Iran's Larak Island",
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-08-31T09:16:33Z",
+      "last_updated": "2026-09-04T09:09:11Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-31T09:16:33Z",
+            "at": "2026-09-04T09:09:11Z",
             "layer": "verify",
-            "run_id": "2026-08-31T09-16-33Z-d5c79e"
+            "run_id": "2026-09-04T09-09-11Z-ac0278"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-31T09-16-33Z-d5c79e"
+        "last_run_id": "2026-09-04T09-09-11Z-ac0278"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3162,9 +3182,15 @@
         "impact_rank": 4,
         "recency_rank": 739845
       },
+      "updates": [
+        {
+          "date": "2026-09-04",
+          "text": "In late August, after the US military said it had cleared all Iranian-laid mines from the Strait of Hormuz, US forces struck Iran's Larak Island outpost, which Iran retaliated against, sparking a fresh round of military exchanges; the US has since maintained an escorted corridor off Oman's coast carrying 15-20 tankers and up to 10 million barrels of oil daily, about half the prewar volume."
+        }
+      ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3513,7 +3539,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-08-31",
+          "retrieved_date": "2026-09-04",
           "source_name": "Ministry of Finance (Japan)",
           "source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/monthly/20260828e.html",
           "text": "The Ministry of Finance's Foreign Exchange Intervention Operations monthly release for the period 30 July 2026 through 26 August 2026 (published 28 August 2026) states: total amount of foreign exchange intervention operations for the period, JPY 15,399.3 billion -- confirming sustained yen-buying intervention through the reporting month, without a public breakdown of individual operation dates or amounts.",
@@ -3539,18 +3565,18 @@
         "status": "ongoing"
       },
       "id": "japan-yen-intervention-2026",
-      "last_updated": "2026-08-31T09:16:33Z",
+      "last_updated": "2026-09-04T09:09:11Z",
       "name": "Yen Crisis — Joint Japan-US Currency Intervention",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-31T09:16:33Z",
+            "at": "2026-09-04T09:09:11Z",
             "layer": "verify",
-            "run_id": "2026-08-31T09-16-33Z-c3ed9c"
+            "run_id": "2026-09-04T09-09-11Z-647ae4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-31T09-16-33Z-c3ed9c"
+        "last_run_id": "2026-09-04T09-09-11Z-647ae4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3918,14 +3944,22 @@
           "source_url": "https://news.un.org/en/story/2026/08/1168233",
           "text": "UN News, 'Nepal flooding deaths surpass 900 as needs climb' (31 August 2026): the confirmed death toll in Nepal has risen to 903, with more than 4,200 people still missing; more than 10,000 people have been rescued so far, including 252 foreign nationals. In China's Tibet Autonomous Region, at least 16 people have died and at least 546 remain missing. An estimated 65,000 people require emergency water, sanitation and hygiene assistance, over 22,000 children need protection support, and 19 schools have been damaged (9 completely destroyed), affecting more than 10,000 school-age children who require psychosocial support. The World Food Programme has dispatched nearly 80 metric tonnes of food, reaching approximately 9,200 people. The disaster is now Nepal's deadliest since the April 2015 earthquake, and the Nepalese government has deployed more than 20,000 search-and-rescue personnel and declared a flood emergency in 15 municipalities.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-09-04",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/09/1168234",
+          "text": "UN News, 'Nepal floods: Mounting death toll and concern for women and girls' (1 September 2026), citing OCHA spokesperson Jens Laerke: the death toll in Nepal stood at just over 1,000 as of late Tuesday (1 September), with some 4,247 people still missing. In China's border region, authorities reported 16 people confirmed killed and 546 missing from the glacier collapse that triggered the flooding. The IFRC was only able to access hard-hit areas such as Rasuwa district nearly a week after the flooding began.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A glacial collapse on the Nepal-Tibet border triggered a catastrophic flash flood down the Bhotekoshi/Trishuli river system through Rasuwa and Nuwakot districts, Nepal, on the morning of 26 August 2026. USGS classifies the triggering event as a magnitude-5.2-equivalent landslide rather than a tectonic earthquake, and GDACS's own earthquake-channel assessment remains Green with about 6,000 people exposed to strong shaking near the source. UN News reported on 31 August 2026 that Nepal's confirmed death toll has climbed to 903, with more than 4,200 people still missing and over 10,000 rescued (including 252 foreign nationals); in China's Tibet Autonomous Region, at least 16 people have died and at least 546 remain missing, for a combined confirmed toll of 919. An estimated 65,000 people need emergency water, sanitation and hygiene assistance and 19 schools have been damaged (9 completely destroyed); the Nepalese government has deployed more than 20,000 search-and-rescue personnel and declared a flood emergency in 15 municipalities, with search-and-rescue operations continuing along the affected river corridor.",
+      "description": "A glacial collapse on the Nepal-Tibet border triggered a catastrophic flash flood down the Bhotekoshi/Trishuli river system through Rasuwa and Nuwakot districts, Nepal, on the morning of 26 August 2026. USGS classifies the triggering event as a magnitude-5.2-equivalent landslide rather than a tectonic earthquake, and GDACS's own earthquake-channel assessment remains Green with about 6,000 people exposed to strong shaking near the source. UN News reported on 1 September 2026 that Nepal's confirmed death toll has climbed to just over 1,000, with some 4,247 people still missing; in China's Tibet Autonomous Region, at least 16 people have died and at least 546 remain missing, for a combined confirmed toll of about 1,016. An estimated 65,000 people need emergency water, sanitation and hygiene assistance and 19 schools have been damaged (9 completely destroyed); the Nepalese government has deployed more than 20,000 search-and-rescue personnel and declared a flood emergency in 15 municipalities, with search-and-rescue operations continuing and the UN raising concern over risks facing displaced women and girls.",
       "event": {
         "impact": {
-          "deaths": 919,
+          "deaths": 1016,
           "displaced": null,
-          "summary": "UN News reported on 31 August 2026 that Nepal's confirmed death toll has risen to 903, with more than 4,200 people still missing and over 10,000 rescued (including 252 foreign nationals); in China's Tibet Autonomous Region, at least 16 people have died and at least 546 remain missing, bringing the combined confirmed toll to 919 dead. An estimated 65,000 people need emergency water, sanitation and hygiene assistance, over 22,000 children need protection support, and 19 schools have been damaged (9 completely destroyed). The disaster is now Nepal's deadliest since the 2015 earthquake; more than 20,000 search-and-rescue personnel have been deployed and a flood emergency declared in 15 municipalities, with search operations continuing."
+          "summary": "UN News reported on 1 September 2026 that Nepal's confirmed death toll has risen to just over 1,000, with some 4,247 people still missing; in China's Tibet Autonomous Region, at least 16 people have died and at least 546 remain missing, bringing the combined confirmed toll to about 1,016 dead. An estimated 65,000 people need emergency water, sanitation and hygiene assistance, over 22,000 children need protection support, and 19 schools have been damaged (9 completely destroyed). The disaster is now Nepal's deadliest since the 2015 earthquake; more than 20,000 search-and-rescue personnel have been deployed and a flood emergency declared in 15 municipalities, with search operations continuing amid concern for women's and girls' safety and access to services in displacement sites."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1561857",
         "location": {
@@ -3939,26 +3973,30 @@
         "status": "ongoing"
       },
       "id": "nepal-rasuwa-glacial-flood-2026",
-      "last_updated": "2026-09-01T09:15:31Z",
+      "last_updated": "2026-09-04T09:10:32Z",
       "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-01T09:15:31Z",
+            "at": "2026-09-04T09:10:32Z",
             "layer": "verify",
-            "run_id": "2026-09-01T09-15-31Z-066c54"
+            "run_id": "2026-09-04T09-10-32Z-bc1be7"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-01T09-15-31Z-066c54"
+        "last_run_id": "2026-09-04T09-10-32Z-bc1be7"
       },
       "schema_version": "1.0",
       "sort_keys": {
-        "composite": 7398543.0,
-        "impact_rank": 3,
+        "composite": 7398544.0,
+        "impact_rank": 4,
         "recency_rank": 739854
       },
       "updates": [
+        {
+          "date": "2026-09-01",
+          "text": "UN News reported Nepal's confirmed death toll rose to just over 1,000 (from 903), with 4,247 missing (up from 4,200+); China's Tibet toll held at 16 dead, 546 missing. OCHA raised concern about risks to displaced women and girls as the IFRC gained access to hard-hit Rasuwa district nearly a week after the flooding began."
+        },
         {
           "date": "2026-08-31",
           "text": "UN News reported the confirmed death toll in Nepal had risen sharply to 903 (from 538), with more than 4,200 missing (up from about 1,000) and over 10,000 rescued; China's Tibet toll stood at 16 dead, 546 missing. Now Nepal's deadliest disaster since the 2015 earthquake, with 20,000+ search-and-rescue personnel deployed and a flood emergency declared in 15 municipalities."
@@ -3974,7 +4012,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5144,7 +5182,7 @@
         },
         {
           "id": "claim-17",
-          "retrieved_date": "2026-08-31",
+          "retrieved_date": "2026-09-04",
           "source_name": "ECDC",
           "source_url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly",
           "text": "ECDC's cholera worldwide monthly overview and its Weekly Communicable Disease Threats Report (Week 33, 8-14 Aug 2026) both confirm the Sudan cholera dataset has not been refreshed since a data cut of 12 July 2026: 1,511 cumulative cases and 153 deaths reported since 1 January 2026, ranking Sudan second globally after DRC (3,841 cases). WHO/EMRO's dedicated Sudan crisis page returned repeated server errors (HTTP 502) and could not be verified this session.",
@@ -5210,18 +5248,18 @@
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-08-31T09:16:34Z",
+      "last_updated": "2026-09-04T09:09:11Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-31T09:16:34Z",
+            "at": "2026-09-04T09:09:11Z",
             "layer": "verify",
-            "run_id": "2026-08-31T09-16-34Z-835fa4"
+            "run_id": "2026-09-04T09-09-11Z-2fb542"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-31T09-16-34Z-835fa4"
+        "last_run_id": "2026-09-04T09-09-11Z-2fb542"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7107,7 +7145,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-08-31",
+          "retrieved_date": "2026-09-04",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-14-august-2026",
           "text": "OCHA oPt Humanitarian Situation Report (14 August 2026, covering 4-10 August): 38 incidents involving Israeli settlers resulted in Palestinian casualties and/or property damage; in Masafer Yatta, about 30 settlers attacked the Tuba community, injuring 5 and destroying 3 residential structures by fire (displacing 3 families, 23 people including 14 children); near Beit Furik/Beit Dajan, four attacks (6-8 August) injured 7 Palestinians; settlers attacked a Palestine Red Crescent Society team near Abu Njeim on 7 August, injuring 4 including 2 paramedics.",
@@ -7115,7 +7153,7 @@
         },
         {
           "id": "claim-19",
-          "retrieved_date": "2026-08-31",
+          "retrieved_date": "2026-09-04",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-14-august-2026",
           "text": "The same OCHA oPt report documents an Israeli forces operation in Qalandiya Camp injuring 51 Palestinians (44 physically assaulted including a 9-year-old, one hit by a rubber-coated metal bullet, six treated for tear gas inhalation) and demolishing 9 structures (displacing 13 households, 71 people including 31 children); West Bank-wide, 25 Palestinian-owned structures were demolished between 8-10 August, displacing 6 households (29 people, including 17 children).",
@@ -7197,18 +7235,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-08-31T09:16:34Z",
+      "last_updated": "2026-09-04T09:09:11Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-31T09:16:34Z",
+            "at": "2026-09-04T09:09:11Z",
             "layer": "verify",
-            "run_id": "2026-08-31T09-16-34Z-1c424d"
+            "run_id": "2026-09-04T09-09-11Z-6004cb"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-31T09-16-34Z-1c424d"
+        "last_run_id": "2026-09-04T09-09-11Z-6004cb"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7257,7 +7295,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-08-31",
+          "retrieved_date": "2026-09-04",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/08/1168151",
           "text": "UN News (citing OHCHR/UN High Commissioner Volker Turk), reporting on Yemen: 'at least 17 civilians were killed in Houthi attacks on government-controlled areas since August 6, 2026.' Specific incidents cited: a missile strike on the Jaw al-Naseem displacement camp in Ma'rib (7 August) injuring six civilians including a child; missile and drone attacks on Al-Mokha port in Ta'izz Governorate (9 August) killing three port workers and injuring four others; and an attack on a cargo ship in the Bab el-Mandeb Strait (11 August) killing four crew members (three Pakistani nationals, one Indonesian) with additional injuries. Turk said: 'I call on all parties to de-escalate tensions and spare the Yemeni people from further misery' and 'These attacks must end immediately.'",
@@ -7291,18 +7329,18 @@
         "status": "ongoing"
       },
       "id": "yemen-conflict-escalation-2026",
-      "last_updated": "2026-08-31T09:16:34Z",
+      "last_updated": "2026-09-04T09:09:11Z",
       "name": "Yemen Conflict Escalation",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-31T09:16:34Z",
+            "at": "2026-09-04T09:09:11Z",
             "layer": "verify",
-            "run_id": "2026-08-31T09-16-34Z-29eb45"
+            "run_id": "2026-09-04T09-09-11Z-060d11"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-31T09-16-34Z-29eb45"
+        "last_run_id": "2026-09-04T09-09-11Z-060d11"
       },
       "schema_version": "1.0",
       "sort_keys": {

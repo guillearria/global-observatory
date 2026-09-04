@@ -314,6 +314,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-new-ecdc-sept3",
+      "retrieved_date": "2026-09-04",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "ECDC's country overview (page last updated 3 September 2026, 15:10) reports a total of 6,250 confirmed cases, including 3,039 related deaths in the DRC, based on the DRC's 2 September report using data through 1 September -- up from 6,100 cases and 2,950 deaths as of the 30 August data cut. The outbreak spans six provinces affecting 60 of 151 health zones, with Ituri province most heavily impacted. Uganda's linked outbreak remains closed (20 confirmed cases, two deaths; WHO declared it over on 26 August 2026).",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-new-who-sept1",
       "retrieved_date": "2026-09-02",
       "source_name": "WHO",
@@ -322,12 +330,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak, caused by Bundibugyo virus, on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined the DRC-Uganda epidemic constitutes a Public Health Emergency of International Concern (PHEIC). It remains the largest Ebola outbreak recorded in the country: the WHO Director-General said on 1 September 2026 that the outbreak has \"passed 6000 reported cases, with almost 3000 deaths\" across 60 health zones in six provinces, and ECDC's matching overview (data as of 30 August) puts the DRC toll at 6,100 confirmed cases and 2,950 deaths. Uganda's linked chain ended at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026 after 42 days without a new case. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial and 50,000 doses for frontline health workers, though Ervebo's efficacy against the Bundibugyo strain has not yet been established; the DRC outbreak remains ongoing.",
+  "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak, caused by Bundibugyo virus, on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined the DRC-Uganda epidemic constitutes a Public Health Emergency of International Concern (PHEIC). It remains the largest Ebola outbreak recorded in the country: the WHO Director-General said on 2 September 2026 that the epidemic had passed 6,000 reported cases and reached 3,000 deaths across 60 health zones in six provinces, with Ituri the epicentre (85% of cases, 88% of deaths); ECDC's matching overview (data through 1 September) puts the DRC toll at 6,250 confirmed cases and 3,039 deaths. Uganda's linked chain ended at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial and 50,000 doses for frontline health workers, though Ervebo's efficacy against the Bundibugyo strain has not yet been established; the DRC outbreak remains ongoing.",
   "event": {
     "impact": {
-      "deaths": 2950,
+      "deaths": 3039,
       "displaced": null,
-      "summary": "The WHO Director-General said on 1 September 2026 that the outbreak has \"passed 6000 reported cases, with almost 3000 deaths,\" affecting 60 health zones across six provinces; ECDC's matching country overview (data as of 30 August) puts the DRC toll at 6,100 confirmed cases and 2,950 deaths, up from 5,945 cases and 2,862 deaths two days earlier. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+      "summary": "The WHO Director-General said on 2 September 2026 that the epidemic \"passed 6000 reported cases\" and \"reached 3000 deaths,\" affecting 60 health zones across six provinces, with Ituri province the epicentre (85% of cases, 88% of deaths); ECDC's matching country overview (data through 1 September) puts the DRC toll at 6,250 confirmed cases and 3,039 deaths, up from 6,100 cases and 2,950 deaths four days earlier. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
     "location": {
@@ -341,18 +349,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-09-02T09:13:22Z",
+  "last_updated": "2026-09-04T09:10:32Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-02T09:13:22Z",
+        "at": "2026-09-04T09:10:32Z",
         "layer": "verify",
-        "run_id": "2026-09-02T09-13-22Z-5f01ba"
+        "run_id": "2026-09-04T09-10-32Z-4acf6f"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-02T09-13-22Z-5f01ba"
+    "last_run_id": "2026-09-04T09-10-32Z-4acf6f"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -361,6 +369,10 @@
     "recency_rank": 739751
   },
   "updates": [
+    {
+      "date": "2026-09-02",
+      "text": "WHO Director-General said the epidemic passed 6,000 reported cases and reached 3,000 deaths, with Ituri province the epicentre (85% of cases, 88% of deaths); ECDC's matching overview (data through 1 September) put the DRC toll at 6,250 confirmed cases and 3,039 deaths, up from 6,100/2,950 four days earlier."
+    },
     {
       "date": "2026-09-01",
       "text": "The WHO Director-General said the outbreak has \"passed 6000 reported cases, with almost 3000 deaths\" across 60 health zones in six provinces; ECDC's overview (data as of 30 August) recorded 6,100 cases and 2,950 deaths, up from 5,945/2,862 two days earlier. The 6-month response plan now requires US$1.3 billion, with three vaccines and three therapeutics in trials."
@@ -436,7 +448,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 40 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 41 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
