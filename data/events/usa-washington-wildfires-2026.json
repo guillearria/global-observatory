@@ -130,6 +130,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-24",
+      "retrieved_date": "2026-09-05",
+      "source_name": "InciWeb (US wildland fire agencies)",
+      "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+      "text": "InciWeb's Sinlahekin Fire page, updated Friday, September 4, 2026 at 11:52 PM Pacific time, records the fire at 166,106 acres (essentially unchanged from 166,373 on 31 August, reflecting a refined perimeter mapping) with containment risen to 44% (from 39%) and 1,344 personnel assigned (up from 1,312); wetting rains reduced fire behavior to smoldering and consumption of large-diameter woody fuels, with residual heat concentrated on the northwest flank. Crews are focused on suppression repair, structure protection and securing previously burned areas across multiple operational divisions; no evacuation orders are reported in this update.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-09",
       "source_name": "Office of the Governor of Washington State",
@@ -186,12 +194,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers six counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, stood at 166,373 acres and 39% contained as of 31 August 2026, with 1,312 personnel assigned; fire activity remains limited to smoldering and isolated creeping under damp fuel conditions, with only isolated spread possible on the northwest flank. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
+  "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers six counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, stood at 166,106 acres and 44% contained as of 4 September 2026, with 1,344 personnel assigned; wetting rains have reduced fire activity to smoldering, with crews now focused on suppression repair and structure protection. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and stood at 166,373 acres at 39% containment as of the evening of 31 August 2026, with 1,312 personnel assigned; fire activity remains limited to smoldering, consumption of heavy fuels and isolated creeping under damp fuel conditions, with only isolated spread possible on the northwest flank over the next 24 hours. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
+      "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and stood at 166,106 acres at 44% containment as of the evening of 4 September 2026, with 1,344 personnel assigned; wetting rains have reduced fire activity to smoldering and consumption of heavy fuels, with residual heat concentrated on the northwest flank and crews now focused on suppression repair and structure protection. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
     },
     "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
     "location": {
@@ -201,22 +209,22 @@
       "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
     },
     "occurrence_date": "2026-08-01",
-    "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 166,373 acres / 39% contained as of 31 August 2026, managed by Cal Fire Incident Management Team 5",
+    "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 166,106 acres / 44% contained as of 4 September 2026",
     "status": "ongoing"
   },
   "id": "usa-washington-wildfires-2026",
-  "last_updated": "2026-09-01T09:17:05Z",
+  "last_updated": "2026-09-05T09:11:28Z",
   "name": "Wildfire Emergency — Eastern Washington, USA",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-01T09:17:05Z",
+        "at": "2026-09-05T09:11:28Z",
         "layer": "verify",
-        "run_id": "2026-09-01T09-17-05Z-ab2085"
+        "run_id": "2026-09-05T09-11-28Z-9ffbfe"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-01T09-17-05Z-ab2085"
+    "last_run_id": "2026-09-05T09-11-28Z-9ffbfe"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -225,6 +233,10 @@
     "recency_rank": 739829
   },
   "updates": [
+    {
+      "date": "2026-09-04",
+      "text": "InciWeb's Sinlahekin Fire update (4 September, 11:52 PM PT) put the fire at 166,106 acres (essentially unchanged) with containment risen to 44% (from 39%) and 1,344 personnel assigned; wetting rains have reduced fire activity to smoldering, with crews now focused on suppression repair and structure protection."
+    },
     {
       "date": "2026-09-01",
       "text": "InciWeb's Sinlahekin Fire update (31 August, 10:54 PM PT) put the fire at 166,373 acres (essentially unchanged) with containment easing to 39% (from 40%) and personnel down to 1,312 (from 1,684); fire activity remains limited to smoldering and isolated creeping under damp fuel conditions."
@@ -304,7 +316,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 24 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

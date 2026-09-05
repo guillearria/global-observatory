@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T09:10:32Z",
+  "last_updated": "2026-09-05T09:11:47Z",
   "published": [
     {
       "category": "flood",
@@ -722,7 +722,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-09-01",
+          "retrieved_date": "2026-09-05",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL",
           "text": "GDACS report 'Overall Orange Flood in China from 22 Aug 2026 01:00 UTC to 26 Aug 2026 01:00 UTC' (event FL 1104123, GLIDE FL-2026-000166-CHN): location Fujian Province, China; 1 death and 87,168 displaced; alert text states heavy rain from 24 August 2026 caused the flooding, assessed as having 'a medium humanitarian impact based on the magnitude, exposed population and vulnerability.'",
@@ -748,18 +748,18 @@
         "status": "ongoing"
       },
       "id": "china-floods-fujian-2026",
-      "last_updated": "2026-09-01T09:16:16Z",
+      "last_updated": "2026-09-05T09:11:05Z",
       "name": "Fujian Floods, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-01T09:16:16Z",
+            "at": "2026-09-05T09:11:05Z",
             "layer": "verify",
-            "run_id": "2026-09-01T09-16-16Z-6f96ae"
+            "run_id": "2026-09-05T09-11-05Z-463d7d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-01T09-16-16Z-6f96ae"
+        "last_run_id": "2026-09-05T09-11-05Z-463d7d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -962,6 +962,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-12",
+          "retrieved_date": "2026-09-05",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081&episodeid=16",
+          "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 16, reporting window 31 July - 3 September 2026) records 318,302 people displaced, up from 317,816 in the prior read, and 3 confirmed deaths -- up from 1 -- comprising the earlier Changxing County, Zhejiang debris-flow death plus 2 new deaths in Yanling County, Hunan Province, recorded 29 August-3 September 2026. Overall alert level remains Orange (medium humanitarian impact); affected areas now additionally include Heilongjiang, Yunnan, Hainan and Taiwan.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-14",
           "source_name": "GDACS",
@@ -1018,12 +1026,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Flooding tied to Typhoon Dolphin has affected eight provinces and municipalities across central and eastern China since 31 July 2026. GDACS's current flood report (reporting window 31 July - 1 September 2026) records 317,816 people displaced and 1 confirmed death, up from 309,701 displaced in its prior read; GDACS's own confirmed-death count has fluctuated between 1 and 2 across recent episode updates. The first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang, and GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert.",
+      "description": "Flooding tied to Typhoon Dolphin has affected provinces and municipalities across central, southern and eastern China since 31 July 2026. GDACS's current flood report (episode 16, reporting window 31 July - 3 September 2026) records 318,302 people displaced and 3 confirmed deaths, up from 1 in its prior read: the first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang, and 2 further deaths were recorded in Yanling County, Hunan Province, between 29 August and 3 September. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert.",
       "event": {
         "impact": {
-          "deaths": 1,
-          "displaced": 317816,
-          "summary": "GDACS's current flood report (reporting window 31 July - 1 September 2026) records 317,816 people displaced and 1 confirmed death, up from 309,701 displaced in its prior read; GDACS's own confirmed-death count has fluctuated between 1 and 2 across recent updates. The first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang, and GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert."
+          "deaths": 3,
+          "displaced": 318302,
+          "summary": "GDACS's current flood report (episode 16, reporting window 31 July - 3 September 2026) records 318,302 people displaced and 3 confirmed deaths, up from 1 death in its prior read: the earlier Changxing County, Zhejiang debris-flow death plus 2 new deaths in Yanling County, Hunan Province, recorded 29 August-3 September 2026. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, now spanning provinces from Shaanxi and Hubei to Hunan, Yunnan, Hainan and Taiwan."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
         "location": {
@@ -1033,22 +1041,22 @@
           "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu provinces/municipalities (Yangtze basin and eastern seaboard)"
         },
         "occurrence_date": "2026-07-31",
-        "scale": "GDACS Orange alert; 317,816 displaced across 8 provinces/municipalities; 1 death, 3 missing (as of 1 September 2026)",
+        "scale": "GDACS Orange alert; 318,302 displaced across multiple provinces; 3 deaths (as of 3 September 2026)",
         "status": "ongoing"
       },
       "id": "china-floods-yangtze-typhoon-dolphin-2026",
-      "last_updated": "2026-09-01T09:16:09Z",
+      "last_updated": "2026-09-05T09:11:00Z",
       "name": "Typhoon Dolphin Flooding, Central China",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-01T09:16:09Z",
+            "at": "2026-09-05T09:11:00Z",
             "layer": "verify",
-            "run_id": "2026-09-01T09-16-09Z-4b0cc1"
+            "run_id": "2026-09-05T09-11-00Z-37919e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-01T09-16-09Z-4b0cc1"
+        "last_run_id": "2026-09-05T09-11-00Z-37919e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1057,6 +1065,10 @@
         "recency_rank": 739828
       },
       "updates": [
+        {
+          "date": "2026-09-03",
+          "text": "GDACS's episode 16 update recorded 2 new deaths in Yanling County, Hunan Province (29 August-3 September), raising the confirmed toll to 3; displaced population rose slightly to 318,302 (from 317,816). The event remains at Orange alert."
+        },
         {
           "date": "2026-09-01",
           "text": "GDACS's flood report window extended to 1 September, with displaced population up to 317,816 (from 309,701); the death toll held at 1 and the event remains at Orange alert."
@@ -1096,7 +1108,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -4199,6 +4211,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-24",
+          "retrieved_date": "2026-09-05",
+          "source_name": "National Disaster Management Authority (Pakistan)",
+          "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
+          "text": "NDMA's live Monsoon 2026 SITREP dashboard, checked 5 September 2026 (cumulative, 26 June-5 September 2026): Grand Total Deceased 181 (63 male, 36 female, 82 children), Grand Total Injured 509 (211 male, 133 female, 165 children) -- up from 175 deaths and 500 injured as of 29 August. Cumulative houses damaged 1,722 (589 fully, 1,133 partially damaged), up from 1,690; livestock lost 1,484 (up from 1,442); roads damaged 34.56 km; bridges damaged 41. Provincial death toll: Khyber Pakhtunkhwa 74, Punjab 62, Sindh 17, Azad Jammu & Kashmir 16, Balochistan 8, Islamabad Capital Territory 3, Gilgit-Baltistan 1. Cumulative rescue operations reached 1,175, with 10,654 persons rescued; 93 relief camps (804 people sheltered) and 66 medical camps established.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-5",
           "retrieved_date": "2026-08-11",
           "source_name": "ReliefWeb",
@@ -4207,12 +4227,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Heavy monsoon rains since 26 June 2026 have triggered flash floods, riverine flooding and house collapses across Pakistan, hitting Khyber Pakhtunkhwa, Punjab and Gilgit-Baltistan hardest. Pakistan's National Disaster Management Authority (NDMA) records a cumulative 169 deaths and 500 injuries nationwide from 26 June to 28 August 2026 -- unchanged for the past three days -- with 1,653 houses damaged (up from 1,601 on 25 August) and 1,442 livestock lost; Khyber Pakhtunkhwa carries the heaviest provincial death toll at 70, followed by Punjab at 55. Relief operations remain active nationwide: NDMA teams have carried out 1,164 rescue operations, rescued 9,439 people and established 93 relief camps and 66 medical camps, all steady since 25 August, and WHO stands ready to activate a contingency plan to assist 1.8 million people in high-risk areas.",
+      "description": "Heavy monsoon rains since 26 June 2026 have triggered flash floods, riverine flooding and house collapses across Pakistan, hitting Khyber Pakhtunkhwa, Punjab and Gilgit-Baltistan hardest. Pakistan's National Disaster Management Authority (NDMA) records a cumulative 181 deaths and 509 injuries nationwide from 26 June to 5 September 2026, with 1,722 houses damaged (589 fully, 1,133 partially) and 1,484 livestock lost; Khyber Pakhtunkhwa carries the heaviest provincial death toll at 74, followed by Punjab at 62. Relief operations remain active nationwide: NDMA teams have carried out 1,175 rescue operations, rescued 10,654 people and established 93 relief camps and 66 medical camps, and WHO stands ready to activate a contingency plan to assist 1.8 million people in high-risk areas.",
       "event": {
         "impact": {
-          "deaths": 175,
+          "deaths": 181,
           "displaced": null,
-          "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 28 August 2026 at 175 deaths and 500 injuries, up from 169 deaths three days earlier, while cumulative housing damage continues to rise, now standing at 1,690 houses affected (579 destroyed, 1,111 partially damaged) and 1,442 livestock lost. Khyber Pakhtunkhwa has recorded the most deaths (70), followed by Punjab (61, up from 55), Sindh (17), Azad Jammu & Kashmir (16), Balochistan (8), Islamabad Capital Territory (2) and Gilgit-Baltistan (1). NDMA teams have conducted 1,164 rescue operations, rescued 9,439 people and established 93 relief camps and 66 medical camps -- unchanged over the past several days."
+          "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 5 September 2026 at 181 deaths and 509 injuries, up from 175 deaths a week earlier, while cumulative housing damage continues to rise, now standing at 1,722 houses affected (589 destroyed, 1,133 partially damaged) and 1,484 livestock lost. Khyber Pakhtunkhwa has recorded the most deaths (74), followed by Punjab (62), Sindh (17), Azad Jammu & Kashmir (16), Balochistan (8), Islamabad Capital Territory (3) and Gilgit-Baltistan (1). NDMA teams have conducted 1,175 rescue operations, rescued 10,654 people and maintain 93 relief camps and 66 medical camps."
         },
         "live_source_url": "https://reliefweb.int/country/pak",
         "location": {
@@ -4222,22 +4242,22 @@
           "region": "Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh"
         },
         "occurrence_date": "2026-06-26",
-        "scale": "Nationwide monsoon flooding; NDMA-recorded 169 deaths as of 28 August 2026 (live SITREP dashboard)",
+        "scale": "Nationwide monsoon flooding; NDMA-recorded 181 deaths as of 5 September 2026 (live SITREP dashboard)",
         "status": "ongoing"
       },
       "id": "pakistan-floods-2026",
-      "last_updated": "2026-08-31T09:16:34Z",
+      "last_updated": "2026-09-05T09:10:17Z",
       "name": "Monsoon Floods — Pakistan",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-31T09:16:34Z",
+            "at": "2026-09-05T09:10:17Z",
             "layer": "verify",
-            "run_id": "2026-08-31T09-16-34Z-66ed37"
+            "run_id": "2026-09-05T09-10-17Z-2368b3"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-31T09-16-34Z-66ed37"
+        "last_run_id": "2026-09-05T09-10-17Z-2368b3"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4246,6 +4266,10 @@
         "recency_rank": 739793
       },
       "updates": [
+        {
+          "date": "2026-09-05",
+          "text": "NDMA's dashboard toll rose to 181 deaths (up from 175) and 509 injured (up from 500); cumulative housing damage rose to 1,722 houses (589 fully, 1,133 partially damaged, up from 1,690) and livestock lost to 1,484 (up from 1,442). Rescue operations reached 1,175, with 10,654 people rescued."
+        },
         {
           "date": "2026-08-29",
           "text": "NDMA's dashboard toll rose to 175 deaths (up from 169), driven mainly by Punjab (61, up from 55); injured held at 500. Cumulative housing damage rose to 1,690 houses (579 fully, 1,111 partially damaged, up from 1,653); livestock losses, rescue operations and camp counts unchanged."
@@ -4301,7 +4325,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -4531,14 +4555,22 @@
           "source_url": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/eu-sends-urgent-support-serbia-wildfires-intensify-2026-08-24_en",
           "text": "European Civil Protection and Humanitarian Aid Operations, 'EU sends urgent support to Serbia as wildfires intensify' (24 August 2026): 'more than 3,500 hectares have already been impacted' at the Deliblato Sands Special Nature Reserve; 'Serbia activated the civil protection mechanism on Friday 21 August'; the EU mobilised '4 helicopters from the strategic reserve of the rescEU fleet based in Czechia, Romania and Slovakia' plus 'ground firefighting teams from Germany and Romania'; 'The fires have been ongoing for more than two weeks, fuelled by strong winds, challenging conditions, and terrain that is difficult to access'; the Copernicus emergency management service 'was already activated on 8 August'.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-09-05",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030252&episodeid=40",
+          "text": "GDACS's wildfire report for Serbia (event id 1030252, episode 40, reporting window unchanged at 05 Aug 2026 00:00 UTC to 25 Aug 2026 00:00 UTC): burned area still 18,310 hectares and about 510 people in the burned area -- identical to the figures recorded in late August -- indicating no further fire growth has been detected in eleven days of subsequent automated episode updates.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Wildfires have burned across Serbia since 5 August 2026, including the Deliblato Sands Special Nature Reserve in Vojvodina, and on 21 August Serbia activated the EU Civil Protection Mechanism for help. GDACS rates the event an Orange alert for medium humanitarian impact, with 18,310 hectares burned and about 510 people within the burned area as of its 24 August update; the European Commission reports more than 3,500 hectares impacted at Deliblato Sands and fires burning for more than two weeks, fuelled by strong winds and hard-to-access terrain. The EU mobilised four rescEU helicopters from Czechia, Romania and Slovakia plus ground firefighting teams from Germany and Romania, and the Copernicus emergency mapping service has been active since 8 August. No deaths or evacuation figures have been published by these sources.",
+      "description": "Wildfires burned across Serbia from 5 August 2026, including the Deliblato Sands Special Nature Reserve in Vojvodina, and on 21 August Serbia activated the EU Civil Protection Mechanism for help. GDACS rated the event an Orange alert for medium humanitarian impact, with burned area holding at 18,310 hectares and about 510 people within the burned area since its 24 August update; GDACS's latest automated episode (5 September) shows no change in these figures, indicating the fire is now contained. The European Commission had reported more than 3,500 hectares impacted at Deliblato Sands, with the EU mobilising four rescEU helicopters from Czechia, Romania and Slovakia plus ground firefighting teams from Germany and Romania; the Copernicus emergency mapping service was active from 8 August. No deaths or evacuation figures have been published by these sources.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS records 18,310 hectares burned and about 510 people within the burned area over 5-25 August 2026 (latest update 24 August), rated a medium humanitarian impact; the European Commission reports more than 3,500 hectares impacted at the Deliblato Sands reserve, with four rescEU helicopters and German and Romanian ground teams deployed after Serbia's 21 August activation of the EU Civil Protection Mechanism. No deaths or evacuation figures have been published by these sources."
+          "summary": "GDACS records 18,310 hectares burned and about 510 people within the burned area over 5-25 August 2026, rated a medium humanitarian impact; the figure has remained unchanged through GDACS's episode 40 update (5 September 2026), eleven days after the last recorded fire growth, indicating the blaze is now contained. The European Commission reported more than 3,500 hectares impacted at the Deliblato Sands reserve, with four rescEU helicopters and German and Romanian ground teams deployed after Serbia's 21 August activation of the EU Civil Protection Mechanism. No deaths or evacuation figures have been published by these sources."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030252",
         "location": {
@@ -4548,22 +4580,22 @@
           "region": "Deliblato Sands Special Nature Reserve, South Banat District, Vojvodina"
         },
         "occurrence_date": "2026-08-05",
-        "scale": "GDACS Orange alert; 18,310 ha burned; EU Civil Protection Mechanism activated 21 August 2026",
-        "status": "ongoing"
+        "scale": "GDACS Orange alert; 18,310 ha burned (unchanged since 24 Aug); contained, EU Civil Protection Mechanism stood down",
+        "status": "contained"
       },
       "id": "serbia-wildfires-2026",
-      "last_updated": "2026-09-01T09:17:14Z",
+      "last_updated": "2026-09-05T09:11:47Z",
       "name": "Wildfires — Deliblato Sands, Serbia",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-01T09:17:14Z",
+            "at": "2026-09-05T09:11:47Z",
             "layer": "verify",
-            "run_id": "2026-09-01T09-17-14Z-8d9a30"
+            "run_id": "2026-09-05T09-11-47Z-92aa75"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-01T09-17-14Z-8d9a30"
+        "last_run_id": "2026-09-05T09-11-47Z-92aa75"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4571,10 +4603,15 @@
         "impact_rank": 1,
         "recency_rank": 739833
       },
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-05",
+          "text": "GDACS's burned-area and affected-population figures have remained unchanged (18,310 ha; ~510 people) through episode 40, eleven days after the last recorded growth; the event is now marked contained."
+        }
+      ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5071,6 +5108,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-15",
+          "retrieved_date": "2026-09-05",
+          "source_name": "Disaster Management Centre (Sri Lanka)",
+          "source_url": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1788501891.pdf",
+          "text": "DMC Situation Report -- Sri Lanka, 04th September 2026 at 1000hrs: GRAND TOTAL -- 4,288 Families / 16,812 People Affected; Deaths 10; Injured 9; Missing 0; Houses Damaged: 4 Fully, 781 Partially (785 total), up from 749 on 26 August; Safe Locations: 1 location, 8 families, 25 persons -- unchanged from 26 August. Nuwara Eliya district remains worst-hit; other damages recorded include 1 small/medium enterprise and 2 critical-infrastructure damages nationwide.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-7",
           "retrieved_date": "2026-08-13",
           "source_name": "Disaster Management Centre (Sri Lanka)",
@@ -5095,12 +5140,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Heavy monsoon rainfall triggered flooding and landslides across Sri Lanka's central highlands from around 2 August 2026, with a fatal landslide at Hatton in Nuwara Eliya District. Sri Lanka's Disaster Management Centre (DMC) reports 10 deaths, 9 injured and no one missing as of its 26 August 2026 situation report, with 4,248 families (16,672 people) affected nationally and 749 houses damaged; Nuwara Eliya remains the worst-hit district, followed by Kandy. The sheltered population has held steady at 25 persons in 1 safe location since 23 August, as most displaced residents have returned home. GDACS assessed the event at a Green alert, and its early Sendai-feed snapshot of 12 deaths and 6,882 evacuated remains superseded by the DMC's ground-assessed figures.",
+      "description": "Heavy monsoon rainfall triggered flooding and landslides across Sri Lanka's central highlands from around 2 August 2026, with a fatal landslide at Hatton in Nuwara Eliya District. Sri Lanka's Disaster Management Centre (DMC) reports 10 deaths, 9 injured and no one missing as of its 4 September 2026 situation report, with 4,288 families (16,812 people) affected nationally and 785 houses damaged, up from 749 a week earlier; Nuwara Eliya remains the worst-hit district, followed by Kandy. The sheltered population has held steady at 25 persons in 1 safe location since 23 August, as most displaced residents have returned home. GDACS assessed the event at a Green alert, and its early Sendai-feed snapshot of 12 deaths and 6,882 evacuated remains superseded by the DMC's ground-assessed figures.",
       "event": {
         "impact": {
           "deaths": 10,
-          "displaced": 16672,
-          "summary": "Sri Lanka's Disaster Management Centre situation report of 26 August 2026 (1000hrs) records 10 deaths, 9 injured and 0 missing, with 4,248 families (16,672 people) affected across the country and 749 houses damaged (2 fully, 747 partially); 25 persons (8 families) remain in 1 safe location. Nuwara Eliya district is worst-hit (2,021 families / 7,736 people affected, 6 deaths), followed by Kandy district (1,186 families / 4,935 people affected, 2 deaths)."
+          "displaced": 16812,
+          "summary": "Sri Lanka's Disaster Management Centre situation report of 4 September 2026 (1000hrs) records 10 deaths, 9 injured and 0 missing, with 4,288 families (16,812 people) affected across the country and 785 houses damaged (4 fully, 781 partially), up from 749 on 26 August; 25 persons (8 families) remain in 1 safe location, unchanged since 23 August. Nuwara Eliya district remains worst-hit, followed by Kandy district."
         },
         "live_source_url": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&report_type_id=1&Itemid=273&lang=en",
         "location": {
@@ -5110,22 +5155,22 @@
           "region": "Central highlands: Kandy, Nuwara Eliya (including Hatton), Kegalle and Ratnapura districts"
         },
         "occurrence_date": "2026-08-02",
-        "scale": "GDACS Green alert; 10 confirmed deaths (DMC, 26 Aug), 25 people in 1 safe location",
+        "scale": "GDACS Green alert; 10 confirmed deaths (DMC, 4 Sep), 25 people in 1 safe location",
         "status": "ongoing"
       },
       "id": "sri-lanka-floods-landslides-2026",
-      "last_updated": "2026-09-01T09:13:55Z",
+      "last_updated": "2026-09-05T09:10:39Z",
       "name": "Floods and Landslides — Sri Lanka",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-01T09:13:55Z",
+            "at": "2026-09-05T09:10:39Z",
             "layer": "verify",
-            "run_id": "2026-09-01T09-13-55Z-ac19d4"
+            "run_id": "2026-09-05T09-10-39Z-6af1c7"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-01T09-13-55Z-ac19d4"
+        "last_run_id": "2026-09-05T09-10-39Z-6af1c7"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5134,6 +5179,10 @@
         "recency_rank": 739830
       },
       "updates": [
+        {
+          "date": "2026-09-04",
+          "text": "The DMC's 4 September situation report held deaths at 10 and injured at 9, with affected families rising to 4,288 (16,812 people) and houses damaged to 785 (4 fully, 781 partially damaged), up from 749 on 26 August; the sheltered population held steady at 25 persons (8 families) in 1 safe location."
+        },
         {
           "date": "2026-08-26",
           "text": "The DMC's 26 August situation report recorded the toll rising to 10 deaths (from 9) with 9 injured, as affected families rose to 4,248 (16,672 people) and houses damaged to 749 (2 fully, 747 partially); the sheltered population held steady at 25 persons (8 families) in 1 safe location."
@@ -5165,7 +5214,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -6589,6 +6638,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-24",
+          "retrieved_date": "2026-09-05",
+          "source_name": "InciWeb (US wildland fire agencies)",
+          "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+          "text": "InciWeb's Sinlahekin Fire page, updated Friday, September 4, 2026 at 11:52 PM Pacific time, records the fire at 166,106 acres (essentially unchanged from 166,373 on 31 August, reflecting a refined perimeter mapping) with containment risen to 44% (from 39%) and 1,344 personnel assigned (up from 1,312); wetting rains reduced fire behavior to smoldering and consumption of large-diameter woody fuels, with residual heat concentrated on the northwest flank. Crews are focused on suppression repair, structure protection and securing previously burned areas across multiple operational divisions; no evacuation orders are reported in this update.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-08-09",
           "source_name": "Office of the Governor of Washington State",
@@ -6645,12 +6702,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers six counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, stood at 166,373 acres and 39% contained as of 31 August 2026, with 1,312 personnel assigned; fire activity remains limited to smoldering and isolated creeping under damp fuel conditions, with only isolated spread possible on the northwest flank. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
+      "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers six counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, stood at 166,106 acres and 44% contained as of 4 September 2026, with 1,344 personnel assigned; wetting rains have reduced fire activity to smoldering, with crews now focused on suppression repair and structure protection. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and stood at 166,373 acres at 39% containment as of the evening of 31 August 2026, with 1,312 personnel assigned; fire activity remains limited to smoldering, consumption of heavy fuels and isolated creeping under damp fuel conditions, with only isolated spread possible on the northwest flank over the next 24 hours. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
+          "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and stood at 166,106 acres at 44% containment as of the evening of 4 September 2026, with 1,344 personnel assigned; wetting rains have reduced fire activity to smoldering and consumption of heavy fuels, with residual heat concentrated on the northwest flank and crews now focused on suppression repair and structure protection. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
         },
         "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
         "location": {
@@ -6660,22 +6717,22 @@
           "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
         },
         "occurrence_date": "2026-08-01",
-        "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 166,373 acres / 39% contained as of 31 August 2026, managed by Cal Fire Incident Management Team 5",
+        "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 166,106 acres / 44% contained as of 4 September 2026",
         "status": "ongoing"
       },
       "id": "usa-washington-wildfires-2026",
-      "last_updated": "2026-09-01T09:17:05Z",
+      "last_updated": "2026-09-05T09:11:28Z",
       "name": "Wildfire Emergency — Eastern Washington, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-01T09:17:05Z",
+            "at": "2026-09-05T09:11:28Z",
             "layer": "verify",
-            "run_id": "2026-09-01T09-17-05Z-ab2085"
+            "run_id": "2026-09-05T09-11-28Z-9ffbfe"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-01T09-17-05Z-ab2085"
+        "last_run_id": "2026-09-05T09-11-28Z-9ffbfe"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6684,6 +6741,10 @@
         "recency_rank": 739829
       },
       "updates": [
+        {
+          "date": "2026-09-04",
+          "text": "InciWeb's Sinlahekin Fire update (4 September, 11:52 PM PT) put the fire at 166,106 acres (essentially unchanged) with containment risen to 44% (from 39%) and 1,344 personnel assigned; wetting rains have reduced fire activity to smoldering, with crews now focused on suppression repair and structure protection."
+        },
         {
           "date": "2026-09-01",
           "text": "InciWeb's Sinlahekin Fire update (31 August, 10:54 PM PT) put the fire at 166,373 acres (essentially unchanged) with containment easing to 39% (from 40%) and personnel down to 1,312 (from 1,684); fire activity remains limited to smoldering and isolated creeping under damp fuel conditions."
@@ -6763,7 +6824,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 24 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

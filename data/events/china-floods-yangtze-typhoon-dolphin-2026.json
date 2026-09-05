@@ -26,6 +26,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-12",
+      "retrieved_date": "2026-09-05",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081&episodeid=16",
+      "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 16, reporting window 31 July - 3 September 2026) records 318,302 people displaced, up from 317,816 in the prior read, and 3 confirmed deaths -- up from 1 -- comprising the earlier Changxing County, Zhejiang debris-flow death plus 2 new deaths in Yanling County, Hunan Province, recorded 29 August-3 September 2026. Overall alert level remains Orange (medium humanitarian impact); affected areas now additionally include Heilongjiang, Yunnan, Hainan and Taiwan.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-14",
       "source_name": "GDACS",
@@ -82,12 +90,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Flooding tied to Typhoon Dolphin has affected eight provinces and municipalities across central and eastern China since 31 July 2026. GDACS's current flood report (reporting window 31 July - 1 September 2026) records 317,816 people displaced and 1 confirmed death, up from 309,701 displaced in its prior read; GDACS's own confirmed-death count has fluctuated between 1 and 2 across recent episode updates. The first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang, and GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert.",
+  "description": "Flooding tied to Typhoon Dolphin has affected provinces and municipalities across central, southern and eastern China since 31 July 2026. GDACS's current flood report (episode 16, reporting window 31 July - 3 September 2026) records 318,302 people displaced and 3 confirmed deaths, up from 1 in its prior read: the first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang, and 2 further deaths were recorded in Yanling County, Hunan Province, between 29 August and 3 September. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert.",
   "event": {
     "impact": {
-      "deaths": 1,
-      "displaced": 317816,
-      "summary": "GDACS's current flood report (reporting window 31 July - 1 September 2026) records 317,816 people displaced and 1 confirmed death, up from 309,701 displaced in its prior read; GDACS's own confirmed-death count has fluctuated between 1 and 2 across recent updates. The first death and 3 missing came when a residential building collapsed in a debris flow in Changxing County, Zhejiang, and GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert."
+      "deaths": 3,
+      "displaced": 318302,
+      "summary": "GDACS's current flood report (episode 16, reporting window 31 July - 3 September 2026) records 318,302 people displaced and 3 confirmed deaths, up from 1 death in its prior read: the earlier Changxing County, Zhejiang debris-flow death plus 2 new deaths in Yanling County, Hunan Province, recorded 29 August-3 September 2026. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, now spanning provinces from Shaanxi and Hubei to Hunan, Yunnan, Hainan and Taiwan."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
     "location": {
@@ -97,22 +105,22 @@
       "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang and Jiangsu provinces/municipalities (Yangtze basin and eastern seaboard)"
     },
     "occurrence_date": "2026-07-31",
-    "scale": "GDACS Orange alert; 317,816 displaced across 8 provinces/municipalities; 1 death, 3 missing (as of 1 September 2026)",
+    "scale": "GDACS Orange alert; 318,302 displaced across multiple provinces; 3 deaths (as of 3 September 2026)",
     "status": "ongoing"
   },
   "id": "china-floods-yangtze-typhoon-dolphin-2026",
-  "last_updated": "2026-09-01T09:16:09Z",
+  "last_updated": "2026-09-05T09:11:00Z",
   "name": "Typhoon Dolphin Flooding, Central China",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-01T09:16:09Z",
+        "at": "2026-09-05T09:11:00Z",
         "layer": "verify",
-        "run_id": "2026-09-01T09-16-09Z-4b0cc1"
+        "run_id": "2026-09-05T09-11-00Z-37919e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-01T09-16-09Z-4b0cc1"
+    "last_run_id": "2026-09-05T09-11-00Z-37919e"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -121,6 +129,10 @@
     "recency_rank": 739828
   },
   "updates": [
+    {
+      "date": "2026-09-03",
+      "text": "GDACS's episode 16 update recorded 2 new deaths in Yanling County, Hunan Province (29 August-3 September), raising the confirmed toll to 3; displaced population rose slightly to 318,302 (from 317,816). The event remains at Orange alert."
+    },
     {
       "date": "2026-09-01",
       "text": "GDACS's flood report window extended to 1 September, with displaced population up to 317,816 (from 309,701); the death toll held at 1 and the event remains at Orange alert."
@@ -160,7 +172,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
