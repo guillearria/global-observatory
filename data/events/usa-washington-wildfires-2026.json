@@ -138,6 +138,30 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-25",
+      "retrieved_date": "2026-09-06",
+      "source_name": "InciWeb (US wildland fire agencies)",
+      "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+      "text": "InciWeb's Sinlahekin Fire page, updated Saturday, 5 September 2026 at 10:43 p.m. Pacific time, records the fire at 166,114 acres (essentially unchanged from 166,106 on 4 September) with containment risen to 52% (from 44%) and 1,242 personnel assigned (down from 1,344).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-26",
+      "retrieved_date": "2026-09-06",
+      "source_name": "Office of the Governor of Washington State",
+      "source_url": "https://governor.wa.gov/news/2026/governor-ferguson-adds-five-additional-counties-wildfire-emergency-proclamation-unlocking-state",
+      "text": "Office of the Governor of Washington State news release (31 August 2026): the amendment to the wildfire emergency proclamation 'adds Benton, Columbia, Grant, Kittitas and Whitman counties, bringing the total number counties covered by the state of emergency to 12,' along with three Tribal Nations, and extends tenant-protection provisions -- barring landlords from 'treating wildfire displacement as abandonment' or evicting tenants who take in displaced people or pets -- for 60 days, through 30 September 2026, alongside continued eligibility for the State Individual Assistance Program and an expanded Family Emergency Assistance Program.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-27",
+      "retrieved_date": "2026-09-06",
+      "source_name": "Office of the Governor of Washington State",
+      "source_url": "https://governor.wa.gov/news/2026/governor-ferguson-declares-emergency-over-wildfires-impacts-walla-walla-water-supply-flood-risk",
+      "text": "Office of the Governor of Washington State news release (28 August 2026): declares a state of emergency for Walla Walla County because the Paradise Fire, active since mid-July, 'has burned more than 8,000 acres across Walla Walla and Columbia counties' and threatens to contaminate the Mill Creek Watershed, the drinking-water source for the city of Walla Walla, also raising flood, landslide and debris-flow risk; the proclamation allows the city to seek federal assistance to mitigate short- and long-term impacts to its water supply and manage future flood risk.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-09",
       "source_name": "Office of the Governor of Washington State",
@@ -194,12 +218,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations of tens of thousands of people across eastern Washington State and into Idaho. Governor Bob Ferguson proclaimed a statewide wildfire emergency on 1 August, and a federal emergency declaration approved on 4 August 2026 covers six counties plus the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians; the governor's office reports over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 110 National Guard members activated. The Sinlahekin Fire, the state's largest, stood at 166,106 acres and 44% contained as of 4 September 2026, with 1,344 personnel assigned; wetting rains have reduced fire activity to smoldering, with crews now focused on suppression repair and structure protection. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
+  "description": "Dozens of wildfires broke out across the Pacific Northwest in late July and early August 2026, burning hundreds of thousands of acres and forcing evacuations across eastern Washington and into Idaho. Governor Ferguson's wildfire emergency proclamation, originally covering six counties plus three Tribal Nations, was expanded on 31 August 2026 to 12 counties (adding Benton, Columbia, Grant, Kittitas and Whitman) with tenant-protection and assistance provisions extended to 30 September 2026. A separate state of emergency was declared 28 August 2026 for Walla Walla County after the Paradise Fire (over 8,000 acres) threatened to contaminate the Mill Creek Watershed, the city's drinking-water source. The Sinlahekin Fire, the state's largest, reached 52% containment at 166,114 acres as of the evening of 5 September 2026, with 1,242 personnel assigned. No confirmed death toll or structure-loss count has been published for the emergency as a whole.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "The Sinlahekin Fire, the state's largest, started by a lightning strike on 26 July 2026 about 12 miles west of Tonasket and stood at 166,106 acres at 44% containment as of the evening of 4 September 2026, with 1,344 personnel assigned; wetting rains have reduced fire activity to smoldering and consumption of heavy fuels, with residual heat concentrated on the northwest flank and crews now focused on suppression repair and structure protection. Statewide, the governor's office reports over 1,000 fires and approximately 425,000 acres burned, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires at the emergency's height, 110 National Guard members activated and 13 State Fire Marshal task forces mobilized. Federal emergency and Public Health Emergency declarations cover six counties and three tribal nations; no confirmed death toll or structure-loss figure has been published."
+      "summary": "The Sinlahekin Fire, the state's largest, reached 52% containment (up from 44% a day earlier) at 166,114 acres as of 5 September 2026, with 1,242 personnel assigned. Washington's wildfire emergency now covers 12 counties (after five more were added 31 August) and three Tribal Nations, with tenant-protection and assistance provisions extended to 30 September; a distinct emergency was declared 28 August for Walla Walla County over the Paradise Fire's threat to the Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
     },
     "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
     "location": {
@@ -209,11 +233,11 @@
       "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
     },
     "occurrence_date": "2026-08-01",
-    "scale": "Federal emergency declaration; federal Public Health Emergency declaration; state emergency proclamation suspending state laws; Sinlahekin Fire (state's largest) at 166,106 acres / 44% contained as of 4 September 2026",
+    "scale": "Federal emergency declaration; state wildfire emergency now covering 12 counties; Sinlahekin Fire (state's largest) at 166,114 acres / 52% contained as of 5 September 2026",
     "status": "ongoing"
   },
   "id": "usa-washington-wildfires-2026",
-  "last_updated": "2026-09-05T09:11:28Z",
+  "last_updated": "2026-09-06T09:19:45Z",
   "name": "Wildfire Emergency — Eastern Washington, USA",
   "provenance": {
     "history": [
@@ -221,10 +245,15 @@
         "at": "2026-09-05T09:11:28Z",
         "layer": "verify",
         "run_id": "2026-09-05T09-11-28Z-9ffbfe"
+      },
+      {
+        "at": "2026-09-06T09:19:45Z",
+        "layer": "verify",
+        "run_id": "2026-09-06T09-19-45Z-e4b48f"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-05T09-11-28Z-9ffbfe"
+    "last_run_id": "2026-09-06T09-19-45Z-e4b48f"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -233,6 +262,10 @@
     "recency_rank": 739829
   },
   "updates": [
+    {
+      "date": "2026-09-06",
+      "text": "InciWeb put the Sinlahekin Fire at 166,114 acres with containment up to 52% (from 44%) and 1,242 personnel. Separately, Gov. Ferguson expanded the wildfire emergency to 12 counties (adding Benton, Columbia, Grant, Kittitas, Whitman) on 31 Aug, and declared a distinct Walla Walla County emergency 28 Aug over the Paradise Fire threatening the Mill Creek Watershed."
+    },
     {
       "date": "2026-09-04",
       "text": "InciWeb's Sinlahekin Fire update (4 September, 11:52 PM PT) put the fire at 166,106 acres (essentially unchanged) with containment risen to 44% (from 39%) and 1,344 personnel assigned; wetting rains have reduced fire activity to smoldering, with crews now focused on suppression repair and structure protection."
@@ -316,7 +349,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 24 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 27 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

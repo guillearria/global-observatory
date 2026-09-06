@@ -64,14 +64,22 @@
       "source_url": "https://news.un.org/en/story/2026/09/1168234",
       "text": "UN News, 'Nepal floods: Mounting death toll and concern for women and girls' (1 September 2026), citing OCHA spokesperson Jens Laerke: the death toll in Nepal stood at just over 1,000 as of late Tuesday (1 September), with some 4,247 people still missing. In China's border region, authorities reported 16 people confirmed killed and 546 missing from the glacier collapse that triggered the flooding. The IFRC was only able to access hard-hit areas such as Rasuwa district nearly a week after the flooding began.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-9",
+      "retrieved_date": "2026-09-06",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168281",
+      "text": "UN News, 'UN aims to raise nearly $50 million for Nepal flood response' (4 September 2026): the 26 August glacial-collapse floods 'have now claimed more than 1,250 lives and left thousands missing.' The UN and its humanitarian partners 'launched a $49.6 million flash appeal on Friday to deliver emergency assistance to more than 84,000 people affected by last week's catastrophic floods in Nepal,' with the UN's local team estimating 84,270 Nepalis (19,284 households) affected.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A glacial collapse on the Nepal-Tibet border triggered a catastrophic flash flood down the Bhotekoshi/Trishuli river system through Rasuwa and Nuwakot districts, Nepal, on the morning of 26 August 2026. USGS classifies the triggering event as a magnitude-5.2-equivalent landslide rather than a tectonic earthquake, and GDACS's own earthquake-channel assessment remains Green with about 6,000 people exposed to strong shaking near the source. UN News reported on 1 September 2026 that Nepal's confirmed death toll has climbed to just over 1,000, with some 4,247 people still missing; in China's Tibet Autonomous Region, at least 16 people have died and at least 546 remain missing, for a combined confirmed toll of about 1,016. An estimated 65,000 people need emergency water, sanitation and hygiene assistance and 19 schools have been damaged (9 completely destroyed); the Nepalese government has deployed more than 20,000 search-and-rescue personnel and declared a flood emergency in 15 municipalities, with search-and-rescue operations continuing and the UN raising concern over risks facing displaced women and girls.",
+  "description": "A glacial collapse on the Nepal-Tibet border triggered a catastrophic flash flood down the Bhotekoshi/Trishuli river system through Rasuwa and Nuwakot districts, Nepal, on the morning of 26 August 2026. USGS classifies the triggering event as a magnitude-5.2-equivalent landslide rather than a tectonic earthquake, and GDACS's own earthquake-channel assessment remains Green with about 6,000 people exposed to strong shaking near the source. UN News reported on 4 September 2026 that the combined Nepal-Tibet floods 'have now claimed more than 1,250 lives and left thousands missing,' up from the roughly 1,016 confirmed dead reported a few days earlier. The UN and humanitarian partners launched a $49.6 million flash appeal on 4 September to assist more than 84,000 people (84,270 Nepalis, 19,284 households) affected by the disaster; the Nepalese government has deployed more than 20,000 search-and-rescue personnel and declared a flood emergency in 15 municipalities, with search-and-rescue and recovery operations continuing.",
   "event": {
     "impact": {
-      "deaths": 1016,
+      "deaths": 1250,
       "displaced": null,
-      "summary": "UN News reported on 1 September 2026 that Nepal's confirmed death toll has risen to just over 1,000, with some 4,247 people still missing; in China's Tibet Autonomous Region, at least 16 people have died and at least 546 remain missing, bringing the combined confirmed toll to about 1,016 dead. An estimated 65,000 people need emergency water, sanitation and hygiene assistance, over 22,000 children need protection support, and 19 schools have been damaged (9 completely destroyed). The disaster is now Nepal's deadliest since the 2015 earthquake; more than 20,000 search-and-rescue personnel have been deployed and a flood emergency declared in 15 municipalities, with search operations continuing amid concern for women's and girls' safety and access to services in displacement sites."
+      "summary": "UN News reported on 4 September 2026 that the combined Nepal-Tibet glacial flood disaster 'has now claimed more than 1,250 lives and left thousands missing,' up from the roughly 1,016 confirmed dead reported a few days earlier. The UN and partners launched a $49.6 million flash appeal that day to assist more than 84,000 people (84,270 Nepalis, 19,284 households) affected. An estimated 65,000 people need emergency water, sanitation and hygiene assistance and 19 schools have been damaged; the disaster remains Nepal's deadliest since the 2015 earthquake, with more than 20,000 search-and-rescue personnel deployed and a flood emergency declared in 15 municipalities."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1561857",
     "location": {
@@ -81,11 +89,11 @@
       "region": "Rasuwa & Nuwakot Districts, Nepal; Gyirong County, Tibet, China"
     },
     "occurrence_date": "2026-08-26",
-    "scale": "USGS M5.2-equivalent glacial collapse/landslide (reclassified from a tectonic earthquake); GDACS Green",
+    "scale": "USGS M5.2-equivalent glacial collapse/landslide (reclassified from a tectonic earthquake); GDACS Green; UN-reported combined death toll over 1,250",
     "status": "ongoing"
   },
   "id": "nepal-rasuwa-glacial-flood-2026",
-  "last_updated": "2026-09-04T09:10:32Z",
+  "last_updated": "2026-09-06T09:20:27Z",
   "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
   "provenance": {
     "history": [
@@ -93,10 +101,15 @@
         "at": "2026-09-04T09:10:32Z",
         "layer": "verify",
         "run_id": "2026-09-04T09-10-32Z-bc1be7"
+      },
+      {
+        "at": "2026-09-06T09:20:27Z",
+        "layer": "verify",
+        "run_id": "2026-09-06T09-20-27Z-2fdf1c"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-04T09-10-32Z-bc1be7"
+    "last_run_id": "2026-09-06T09-20-27Z-2fdf1c"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -105,6 +118,10 @@
     "recency_rank": 739854
   },
   "updates": [
+    {
+      "date": "2026-09-04",
+      "text": "UN News reported the combined Nepal-Tibet death toll has climbed past 1,250 (from ~1,016), with thousands still missing; the UN and partners launched a $49.6 million flash appeal on 4 September to assist over 84,000 people (84,270 Nepalis, 19,284 households) affected by the 26 August glacial flood disaster."
+    },
     {
       "date": "2026-09-01",
       "text": "UN News reported Nepal's confirmed death toll rose to just over 1,000 (from 903), with 4,247 missing (up from 4,200+); China's Tibet toll held at 16 dead, 546 missing. OCHA raised concern about risks to displaced women and girls as the IFRC gained access to hard-hit Rasuwa district nearly a week after the flooding began."
@@ -124,7 +141,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

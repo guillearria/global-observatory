@@ -1,0 +1,65 @@
+{
+  "category": "storm",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-09-06",
+      "source_name": "NOAA",
+      "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP4+shtml/311454.shtml",
+      "text": "NOAA's Central Pacific Hurricane Center Advisory Number 41 (1100 PM HST, Saturday, 5 September 2026): Hurricane Lowell is a Category 3 hurricane on the Saffir-Simpson Hurricane Wind Scale with maximum sustained winds of 125 mph (205 km/h), located about 610 miles SSW of Lihue, Hawaii, moving northwest at 5 mph with an expected turn toward the north on Sunday. 'A Hurricane Watch is in effect for...The Papahanaumokuakea Marine National Monument from Nihoa to French Frigate Shoals' and 'A Tropical Storm Watch is in effect for...Kauai County, including the islands of Kauai and Niihau.' Forecast rainfall of 4 to 8 inches for Kauai, with maximum totals exceeding 12 inches possible, brings a risk of significant flash flooding and mudslides; storm surge of 1-3 feet is expected for Kauai County, and life-threatening surf and rip current conditions are expected across many of the Hawaiian Islands during the next several days.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-09-06",
+      "source_name": "GDACS",
+      "source_url": "http://www.gdacs.org/report.aspx?eventid=1001315&episodeid=39&eventtype=TC",
+      "text": "GDACS's tropical cyclone report for LOWELL-26 (reporting window 27 August - 5 September 2026) records an overall Green alert (GDACS score 0.5, low humanitarian impact) with maximum sustained winds reaching 259 km/h (Category 5); the assessment records 'no people in Category 1 or higher' wind-exposure zones because the storm has remained offshore with no terrestrial exposure through the end of its reporting window.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Hurricane Lowell, a Central Pacific hurricane that peaked at Category 5 strength in early September 2026, has prompted a Hurricane Watch and Tropical Storm Watch for Hawaii as it tracks toward the western Hawaiian Islands. NOAA's Central Pacific Hurricane Center's advisory of 11 PM HST on 5 September 2026 placed Lowell, then a Category 3 storm with 125 mph winds, about 610 miles southwest of Lihue, forecasting a turn north that would bring it close to Kauai and the Papahanaumokuakea Marine National Monument late Monday. Hazards include rainfall exceeding 12 inches on Kauai with a risk of significant flash flooding, storm surge of 1-3 feet, and life-threatening surf and rip currents across the Hawaiian Islands.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "NOAA's Central Pacific Hurricane Center advisory (11 PM HST, 5 September 2026) placed Hurricane Lowell, a Category 3 storm with 125 mph sustained winds, about 610 miles southwest of Lihue and forecast a turn north that would bring it close to Kauai late Monday. A Hurricane Watch is in effect for the Papahanaumokuakea Marine National Monument and a Tropical Storm Watch for Kauai County; forecast hazards include rainfall of 4-8 inches (locally over 12 inches) on Kauai with a risk of significant flash flooding and mudslides, storm surge of 1-3 feet for Kauai County, and life-threatening surf and rip currents across the Hawaiian Islands. GDACS classifies the storm as Green alert (low humanitarian impact) as of its offshore reporting window through 5 September, since no populated area had yet been directly exposed."
+    },
+    "live_source_url": "https://www.nhc.noaa.gov/",
+    "location": {
+      "country": "United States",
+      "lat": 22.0964,
+      "lon": -159.5261,
+      "region": "Kauai County (Kauai, Niihau) and the Papahanaumokuakea Marine National Monument, Hawaii"
+    },
+    "occurrence_date": "2026-08-27",
+    "scale": "Category 3-5 hurricane; NHC Hurricane Watch (Papahanaumokuakea) and Tropical Storm Watch (Kauai County)",
+    "status": "ongoing"
+  },
+  "id": "usa-hawaii-hurricane-lowell-2026",
+  "last_updated": "2026-09-06T09:23:47Z",
+  "name": "Hurricane Lowell, Hawaii",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-09-06T09:23:47Z",
+        "layer": "verify",
+        "run_id": "2026-09-06T09-23-47Z-b38ab2"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-09-06T09-23-47Z-b38ab2"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398551.0,
+    "impact_rank": 1,
+    "recency_rank": 739855
+  },
+  "updates": [],
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
