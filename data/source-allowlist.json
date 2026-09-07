@@ -32,6 +32,12 @@
       "label": "NOAA"
     },
     {
+      "category": "technological",
+      "domain": "spaceweather.gov",
+      "justification": "spaceweather.gov is the current operational home of NOAA's Space Weather Prediction Center, the US government's official source of geomagnetic storm watches, warnings and the NOAA Space Weather Scales; SWPC's former address swpc.noaa.gov now issues 301 redirects to this separate top-level domain, so the same NOAA/National Weather Service office already allowlisted at noaa.gov no longer matches as a subdomain, and the storm-severity definitions and per-solar-cycle event frequencies published here have no other primary publisher.",
+      "label": "NOAA SWPC"
+    },
+    {
       "category": "cosmic",
       "domain": "nasa.gov",
       "justification": "NASA is the authoritative publisher of near-Earth object survey and planetary defense figures.",
