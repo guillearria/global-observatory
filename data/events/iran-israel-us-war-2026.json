@@ -56,14 +56,22 @@
       "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
       "text": "UNHCR's Operational Data Portal for the Middle East situation records, for movements since 28 February 2026: 581,400 Iranian nationals who have crossed into neighbouring countries (as of 20 August 2026, up from 568,800 on 13 August), 245,600 Lebanese refugees (unchanged, as of 17 August 2026), 352,793 new internally displaced people within Lebanon (unchanged, as of 10 August 2026), 492,500 Iranians who have returned to Iran (19 August 2026), and Afghan returnees risen to 870,400 (22 August, up from 848,500).",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-8",
+      "retrieved_date": "2026-09-08",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
+      "text": "UNHCR's Operational Data Portal for the Middle East situation, last updated 5 September 2026, records Lebanese refugees risen to 285,000 (from 245,600 on 17 August); combined Afghan and Syrian returnee movements of 1,879,600 (Afghanistan 922,600, 49.1%; Syria 957,000, 50.9%); Iranian nationals crossed into neighbouring countries unchanged at 581,400 (still dated 20 August), Lebanon new IDPs unchanged at 352,793 (still dated 10 August), and Iranian returnees unchanged at 492,500 (still dated 19 August).",
+      "verification_status": "verified"
     }
   ],
-  "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of other officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated with strikes on US and allied targets across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping by more than 90% and pushing oil prices from about $70 to over $100 a barrel. A US-Iran memorandum's 60-day negotiating window expired 17 August 2026 without an agreement. In late August the US said it had cleared all Iranian-laid mines from the Strait, then struck Iran's Larak Island outpost days later, prompting Iranian retaliation and a fresh round of exchanges; the US now escorts 15-20 tankers (up to 10 million barrels a day, about half the prewar volume) through a corridor off Oman. UNHCR records 581,400 Iranian nationals who have crossed into neighbouring countries (up from 568,800) and 245,600 Lebanese refugees since the war began, alongside about 1.72 million Afghan and Syrian returnees; the conflict remains unresolved.",
+  "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of other officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated with strikes on US and allied targets across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping by more than 90% and pushing oil prices from about $70 to over $100 a barrel. A US-Iran memorandum's 60-day negotiating window expired 17 August 2026 without an agreement. In late August the US said it had cleared all Iranian-laid mines from the Strait, then struck Iran's Larak Island outpost days later, prompting Iranian retaliation and a fresh round of exchanges; the US now escorts 15-20 tankers (up to 10 million barrels a day, about half the prewar volume) through a corridor off Oman. UNHCR records 581,400 Iranian nationals who have crossed into neighbouring countries and 285,000 Lebanese refugees since the war began, alongside about 1.88 million Afghan and Syrian returnees; the conflict remains unresolved.",
   "event": {
     "impact": {
       "deaths": null,
-      "displaced": 1179793,
-      "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a single strike near Bandar Abbas killed about 170 people at a girls' school; Britannica's running account describes thousands of deaths in Iran and Lebanon and dozens more in Israel and Gulf Arab states, though no single verified cumulative death toll exists. UNHCR's Middle East data portal records, since the war began: 581,400 Iranian nationals who have crossed into neighbouring countries (20 August, up from 568,800), 245,600 Lebanese refugees (17 August) and 352,793 new IDPs within Lebanon (10 August) -- a combined 1,179,793 people displaced or newly refugees across those two countries -- plus about 1.72 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. In late August the US cleared Iranian-laid mines from the Strait, then struck Iran's Larak Island outpost, drawing Iranian retaliation; the US now escorts 15-20 tankers (up to 10 million barrels a day) through a corridor off Oman, about half the prewar volume."
+      "displaced": 1219193,
+      "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a single strike near Bandar Abbas killed about 170 people at a girls' school; Britannica's running account describes thousands of deaths in Iran and Lebanon and dozens more in Israel and Gulf Arab states, though no single verified cumulative death toll exists. UNHCR's Middle East data portal (last updated 5 September) records, since the war began: 581,400 Iranian nationals who have crossed into neighbouring countries (20 August), 285,000 Lebanese refugees (up from 245,600) and 352,793 new IDPs within Lebanon (10 August) -- a combined 1,219,193 people displaced or newly refugees across those two countries -- plus about 1.88 million Afghan and Syrian returnee movements (up from about 1.72 million). Shipping through the Strait of Hormuz fell more than 90%. In late August the US cleared Iranian-laid mines from the Strait, then struck Iran's Larak Island outpost, drawing Iranian retaliation; the US now escorts 15-20 tankers (up to 10 million barrels a day) through a corridor off Oman, about half the prewar volume."
     },
     "live_source_url": "https://www.britannica.com/event/2026-Iran-war",
     "location": {
@@ -77,23 +85,18 @@
     "status": "ongoing"
   },
   "id": "iran-israel-us-war-2026",
-  "last_updated": "2026-09-06T09:22:53Z",
+  "last_updated": "2026-09-08T09:26:27Z",
   "name": "Iran-Israel-US War",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-04T09:09:11Z",
+        "at": "2026-09-08T09:26:27Z",
         "layer": "verify",
-        "run_id": "2026-09-04T09-09-11Z-ac0278"
-      },
-      {
-        "at": "2026-09-06T09:22:53Z",
-        "layer": "verify",
-        "run_id": "2026-09-06T09-22-53Z-13d76c"
+        "run_id": "2026-09-08T09-26-27Z-fa44dc"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-06T09-22-53Z-13d76c"
+    "last_run_id": "2026-09-08T09-26-27Z-fa44dc"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -107,13 +110,17 @@
       "text": "UNHCR's Middle East dashboard shows Iranian cross-border movements rising to 581,400 (20 Aug, from 568,800) with 492,500 Iranians having returned to Iran (19 Aug); Afghan returnees rose to 870,400 (22 Aug). Lebanon refugee/IDP figures and the Strait of Hormuz corridor arrangement are unchanged."
     },
     {
+      "date": "2026-09-05",
+      "text": "UNHCR's Middle East dashboard shows Lebanese refugees risen to 285,000 (from 245,600) and combined Afghan/Syrian returnee movements risen to about 1.88 million (from about 1.72 million); the combined Iran/Lebanon displacement figure this record tracks rose to 1,219,193 accordingly. Iranian cross-border movements, Lebanon IDPs and Iranian returnee figures are unchanged."
+    },
+    {
       "date": "2026-09-04",
       "text": "In late August, after the US military said it had cleared all Iranian-laid mines from the Strait of Hormuz, US forces struck Iran's Larak Island outpost, which Iran retaliated against, sparking a fresh round of military exchanges; the US has since maintained an escorted corridor off Oman's coast carrying 15-20 tankers and up to 10 million barrels of oil daily, about half the prewar volume."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

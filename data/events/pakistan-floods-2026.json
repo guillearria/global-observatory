@@ -130,6 +130,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-26",
+      "retrieved_date": "2026-09-08",
+      "source_name": "National Disaster Management Authority (Pakistan)",
+      "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
+      "text": "NDMA's live Monsoon 2026 SITREP dashboard, checked 8 September 2026 (reporting period 26 June-8 September 2026): Grand Total Deceased unchanged at 181, Grand Total Injured unchanged at 515. Cumulative houses damaged risen to 1,740 (592 fully, 1,148 partially damaged), up from 1,729; livestock lost risen to 1,516, up from 1,486. Provincial death toll, rescue operations (1,178, 10,660 persons rescued) and relief/medical camp counts unchanged.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-5",
       "retrieved_date": "2026-08-11",
       "source_name": "ReliefWeb",
@@ -138,12 +146,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Heavy monsoon rains since 26 June 2026 have triggered flash floods, riverine flooding and house collapses across Pakistan, hitting Khyber Pakhtunkhwa, Punjab and Gilgit-Baltistan hardest. Pakistan's National Disaster Management Authority (NDMA) records a cumulative 181 deaths and 515 injuries nationwide from 26 June to 5 September 2026, with 1,729 houses damaged (589 fully, 1,140 partially) and 1,486 livestock lost; Khyber Pakhtunkhwa carries the heaviest provincial death toll at 74, followed by Punjab at 62. Relief operations remain active nationwide: NDMA teams have carried out 1,178 rescue operations, rescued 10,660 people and established 93 relief camps and 66 medical camps, and WHO stands ready to activate a contingency plan to assist 1.8 million people in high-risk areas.",
+  "description": "Heavy monsoon rains since 26 June 2026 have triggered flash floods, riverine flooding and house collapses across Pakistan, hitting Khyber Pakhtunkhwa, Punjab and Gilgit-Baltistan hardest. Pakistan's National Disaster Management Authority (NDMA) records a cumulative 181 deaths and 515 injuries nationwide from 26 June to 8 September 2026, with 1,740 houses damaged (592 fully, 1,148 partially) and 1,516 livestock lost; Khyber Pakhtunkhwa carries the heaviest provincial death toll at 74, followed by Punjab at 62. Relief operations remain active nationwide: NDMA teams have carried out 1,178 rescue operations, rescued 10,660 people and established 93 relief camps and 66 medical camps, and WHO stands ready to activate a contingency plan to assist 1.8 million people in high-risk areas.",
   "event": {
     "impact": {
       "deaths": 181,
       "displaced": null,
-      "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 5 September 2026 at 181 deaths and 515 injuries, up from 509 injuries three days earlier, while cumulative housing damage continues to rise, now standing at 1,729 houses affected (589 destroyed, 1,140 partially damaged) and 1,486 livestock lost. Khyber Pakhtunkhwa has recorded the most deaths (74), followed by Punjab (62), Sindh (17), Azad Jammu & Kashmir (16), Balochistan (8), Islamabad Capital Territory (3) and Gilgit-Baltistan (1). NDMA teams have conducted 1,178 rescue operations, rescued 10,660 people and maintain 93 relief camps and 66 medical camps."
+      "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 8 September 2026 at 181 deaths and 515 injuries, unchanged for the third consecutive check, while cumulative housing damage continues to rise, now standing at 1,740 houses affected (592 destroyed, 1,148 partially damaged) and 1,516 livestock lost. Khyber Pakhtunkhwa has recorded the most deaths (74), followed by Punjab (62), Sindh (17), Azad Jammu & Kashmir (16), Balochistan (8), Islamabad Capital Territory (3) and Gilgit-Baltistan (1). NDMA teams have conducted 1,178 rescue operations, rescued 10,660 people and maintain 93 relief camps and 66 medical camps."
     },
     "live_source_url": "https://reliefweb.int/country/pak",
     "location": {
@@ -157,23 +165,18 @@
     "status": "ongoing"
   },
   "id": "pakistan-floods-2026",
-  "last_updated": "2026-09-06T09:23:26Z",
+  "last_updated": "2026-09-08T09:24:52Z",
   "name": "Monsoon Floods — Pakistan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-05T09:10:17Z",
+        "at": "2026-09-08T09:24:52Z",
         "layer": "verify",
-        "run_id": "2026-09-05T09-10-17Z-2368b3"
-      },
-      {
-        "at": "2026-09-06T09:23:26Z",
-        "layer": "verify",
-        "run_id": "2026-09-06T09-23-26Z-cafd93"
+        "run_id": "2026-09-08T09-24-52Z-63caa5"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-06T09-23-26Z-cafd93"
+    "last_run_id": "2026-09-08T09-24-52Z-63caa5"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -182,6 +185,10 @@
     "recency_rank": 739793
   },
   "updates": [
+    {
+      "date": "2026-09-08",
+      "text": "NDMA's dashboard held deaths and injuries steady at 181/515 for a third consecutive check, while cumulative housing damage rose to 1,740 houses (592 fully, 1,148 partially damaged, up from 1,729) and livestock lost to 1,516 (up from 1,486)."
+    },
     {
       "date": "2026-09-06",
       "text": "NDMA's dashboard held deaths steady at 181 while injuries rose to 515 (up from 509); cumulative housing damage rose to 1,729 houses (589 fully, 1,140 partially damaged, up from 1,722) and livestock lost to 1,486 (up from 1,484). Rescue operations rose to 1,178 (up from 1,175), with 10,660 people rescued (up from 10,654)."
@@ -245,7 +252,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -82,6 +82,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-22",
+      "retrieved_date": "2026-09-08",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168287",
+      "text": "UN News (7 September 2026), on High Commissioner Volker Türk's briefing to the Human Rights Council: El Obeid in North Kordofan 'faces a partial RSF siege with repeated drone attacks on critical infrastructure,' among deteriorating situations the High Commissioner highlighted across Kordofan, Blue Nile, and North and West Darfur; Türk renewed his call for an immediate ceasefire, an end to foreign involvement, and a return to inclusive civilian rule. No new casualty or displacement figure specific to El Obeid was given.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-30",
       "source_name": "ReliefWeb",
@@ -122,12 +130,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Rapid Support Forces (RSF) paramilitary fighters have besieged El Obeid, the capital of Sudan's North Kordofan state, subjecting the city to sustained drone strikes and blockade, and UN News reported on 10 August 2026 that RSF forces had encircled the city and were threatening a full-scale ground assault. The UN Human Rights Office documented 15 drone strikes in three weeks that killed at least 45 civilians (3 July), and WFP counted more than 120,000 displaced people in the city's Unified IDP Camp alone (17 July), with rations cut to 50 percent of the full entitlement by funding shortfalls. Displacement into the city continues: OCHA reported roughly 15,000 families arriving over three weeks in mid-August, and Save the Children says nearly 39,000 children fled to the city in the first six months of the year, with El Obeid town and Sheikan locality now hosting more than 605,000 people. No ceasefire has been confirmed and the siege remains ongoing.",
+  "description": "Rapid Support Forces (RSF) paramilitary fighters have besieged El Obeid, the capital of Sudan's North Kordofan state, subjecting the city to sustained drone strikes and blockade, and UN News reported on 10 August 2026 that RSF forces had encircled the city and were threatening a full-scale ground assault. The UN Human Rights Office documented 15 drone strikes in three weeks that killed at least 45 civilians (3 July), and WFP counted more than 120,000 displaced people in the city's Unified IDP Camp alone (17 July), with rations cut to 50 percent of the full entitlement by funding shortfalls. Displacement into the city continues: OCHA reported roughly 15,000 families arriving over three weeks in mid-August, and Save the Children says nearly 39,000 children fled to the city in the first six months of the year, with El Obeid town and Sheikan locality now hosting more than 605,000 people. UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still 'faces a partial RSF siege with repeated drone attacks on critical infrastructure.' No ceasefire has been confirmed and the siege remains ongoing.",
   "event": {
     "impact": {
       "deaths": 45,
       "displaced": 120000,
-      "summary": "The most recent aggregate figures for El Obeid remain at least 45 civilians killed (UN Human Rights Office, 3 July 2026) and more than 120,000 people sheltering in the Unified IDP Camp (WFP, 17 July), while OCHA reported roughly 15,000 families newly displaced into the city over the three weeks to 12 August. Humanitarian partners have delivered two million litres of drinking water to about 133,000 people amid severe shortages, and Sudan's wider response remains underfunded, with US$1.2 billion received of the US$3 billion required. RSF forces have encircled the city; no ceasefire or lifting of the siege has been confirmed."
+      "summary": "The most recent aggregate figures for El Obeid remain at least 45 civilians killed (UN Human Rights Office, 3 July 2026) and more than 120,000 people sheltering in the Unified IDP Camp (WFP, 17 July), while OCHA reported roughly 15,000 families newly displaced into the city over the three weeks to 12 August. Humanitarian partners have delivered two million litres of drinking water to about 133,000 people amid severe shortages, and Sudan's wider response remains underfunded, with US$1.2 billion received of the US$3 billion required. RSF forces have encircled the city, and UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still faces a partial RSF siege with repeated drone attacks on critical infrastructure; no ceasefire or lifting of the siege has been confirmed."
     },
     "live_source_url": "https://reliefweb.int/country/sdn",
     "location": {
@@ -141,18 +149,18 @@
     "status": "ongoing"
   },
   "id": "el-obeid-siege-sudan-2026",
-  "last_updated": "2026-09-03T09:12:13Z",
+  "last_updated": "2026-09-08T09:28:33Z",
   "name": "Siege of El Obeid — North Kordofan, Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-03T09:12:13Z",
+        "at": "2026-09-08T09:28:33Z",
         "layer": "verify",
-        "run_id": "2026-09-03T09-12-13Z-c129fe"
+        "run_id": "2026-09-08T09-28-33Z-05ac6f"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-03T09-12-13Z-c129fe"
+    "last_run_id": "2026-09-08T09-28-33Z-05ac6f"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -161,6 +169,10 @@
     "recency_rank": 739782
   },
   "updates": [
+    {
+      "date": "2026-09-07",
+      "text": "UN High Commissioner Volker Türk told the Human Rights Council that El Obeid still faces a partial RSF siege with repeated drone attacks on critical infrastructure, among deteriorating situations he highlighted across Kordofan, Blue Nile, and North and West Darfur; no new casualty or displacement figure specific to El Obeid was given."
+    },
     {
       "date": "2026-08-19",
       "text": "UN News reported drone strikes had hit El Obeid's main electrical transformer, triggering power outages that disrupted water pumping, health facilities and telecommunications; displacement in Sheikan locality, which contains El Obeid, has surged 25 percent in eight months, part of over 200,000 newly displaced across wider Kordofan since late 2025."
@@ -200,7 +212,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

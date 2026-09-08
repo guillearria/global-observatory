@@ -122,6 +122,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-34",
+      "retrieved_date": "2026-09-08",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-34-27-august-2026-time-0500-pm",
+      "text": "OCHA's Situation Report #34 (27 August 2026, 5:00 pm) states that as of 24 August authorities reported 6,509 deaths, with 60,785 homes evaluated (11,001 at high risk) and nearly 364,000 people (54 per cent women and girls) having accessed essential services and humanitarian assistance; injuries (16,740) and people who lost their homes (17,907) remain unchanged.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-07-09",
       "source_name": "ReliefWeb",
@@ -170,12 +178,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.5 earthquake struck 16 km SW of Moron in northern Venezuela, west of Caracas, on 25 June 2026, forming a doublet with a magnitude 7.2 shock in the same sequence; at least seven states were impacted, with La Guaira the most affected. The UN Spokesperson's Office said on 19 August that the death toll \"according to local authorities has surpassed 6,400\"; the most recent numbered report, OCHA Situation Report #33 (14 August 2026), had put authorities' reported toll at 6,301 deaths as of 10 August, with 73,356 people treated at hospitals and 53,314 homes evaluated (9,567 at high risk); 16,740 injuries and 17,907 people who lost their homes remain the standing counts. Preliminary estimates put direct damage at some US$37 billion (UNDRR) and US$6.7 billion, about 6% of GDP (UNDP); a US$299 million addendum raised combined UN humanitarian requirements to US$931 million, targeting 6.2 million people, of whom 1.3 million are earthquake-affected, over six months. The response remains in a scaled-up relief and early-recovery phase, with over 304,000 people (57% women and girls) having accessed essential services and humanitarian assistance as of 14 August.",
+  "description": "A magnitude 7.5 earthquake struck 16 km SW of Moron in northern Venezuela, west of Caracas, on 25 June 2026, forming a doublet with a magnitude 7.2 shock in the same sequence; at least seven states were impacted, with La Guaira the most affected. OCHA Situation Report #34 (27 August 2026) puts authorities' reported toll at 6,509 deaths as of 24 August, with 60,785 homes evaluated (11,001 at high risk); 16,740 injuries and 17,907 people who lost their homes remain the standing counts. Preliminary estimates put direct damage at some US$37 billion (UNDRR) and US$6.7 billion, about 6% of GDP (UNDP); a US$299 million addendum raised combined UN humanitarian requirements to US$931 million, targeting 6.2 million people, of whom 1.3 million are earthquake-affected, over six months. The response remains in a scaled-up relief and early-recovery phase, with nearly 364,000 people (54% women and girls) having accessed essential services and humanitarian assistance as of 24 August.",
   "event": {
     "impact": {
-      "deaths": 6400,
+      "deaths": 6509,
       "displaced": 17907,
-      "summary": "The UN Spokesperson's Office said on 19 August that the death toll \"according to local authorities has surpassed 6,400\"; the most recent numbered report, OCHA Situation Report #33 (14 August 2026), had put authorities' reported toll at 6,301 deaths as of 10 August, with 73,356 people having received hospital care and 53,314 homes evaluated (9,567 at high risk); injuries stand at 16,740 and 17,907 people are recorded as having lost their homes. Damage estimates stand at approximately US$37 billion (UNDRR, preliminary) and US$6.7 billion or about 6% of GDP (UNDP), against combined UN funding requirements of US$931 million targeting 1.3 million earthquake-affected people over six months. Over 304,000 people (57% women and girls) had accessed essential services and humanitarian assistance as of 14 August."
+      "summary": "OCHA Situation Report #34 (27 August 2026, data as of 24 August) puts authorities' reported toll at 6,509 deaths, up from 6,301 as of 10 August in Situation Report #33; 60,785 homes have now been evaluated (11,001 at high risk), up from 53,314 evaluated (9,567 at high risk). Injuries stand unchanged at 16,740 and 17,907 people remain recorded as having lost their homes. Damage estimates stand at approximately US$37 billion (UNDRR, preliminary) and US$6.7 billion or about 6% of GDP (UNDP), against combined UN funding requirements of US$931 million targeting 1.3 million earthquake-affected people over six months. Nearly 364,000 people (54% women and girls) had accessed essential services and humanitarian assistance as of 24 August, up from over 304,000 as of 14 August."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
     "location": {
@@ -189,23 +197,18 @@
     "status": "ongoing"
   },
   "id": "venezuela-earthquake-2026",
-  "last_updated": "2026-09-06T09:18:50Z",
+  "last_updated": "2026-09-08T09:20:32Z",
   "name": "Venezuela M7.5 Earthquake Doublet",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-02T09:13:03Z",
+        "at": "2026-09-08T09:20:32Z",
         "layer": "verify",
-        "run_id": "2026-09-02T09-13-03Z-2c6dc1"
-      },
-      {
-        "at": "2026-09-06T09:18:50Z",
-        "layer": "verify",
-        "run_id": "2026-09-06T09-18-50Z-784526"
+        "run_id": "2026-09-08T09-20-32Z-aec68d"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-06T09-18-50Z-784526"
+    "last_run_id": "2026-09-08T09-20-32Z-aec68d"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -214,6 +217,10 @@
     "recency_rank": 739792
   },
   "updates": [
+    {
+      "date": "2026-08-24",
+      "text": "OCHA Situation Report #34 (27 August, data as of 24 August) raised the official toll to 6,509 deaths and homes evaluated to 60,785 (11,001 at high risk), with nearly 364,000 people having accessed essential services and humanitarian assistance."
+    },
     {
       "date": "2026-08-19",
       "text": "The UN Spokesperson's Office said the death toll \"according to local authorities has surpassed 6,400,\" an increase from the 6,301 figure in OCHA Situation Report #33 (14 August); the next numbered OCHA situation report is expected around 21 August under the series' weekly cadence."
@@ -237,7 +244,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 22 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
