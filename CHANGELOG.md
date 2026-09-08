@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-09-08 — Daily World Pulse refresh (2026-09-08): Colombia/Venezuela earthquake tolls rise, Hurricane Lowell nears Hawaii, Ebola DRC/Philippines floods/Pakistan/Washington/Sri Lanka updates (`bb04daa`)
+
+- **Updated:** afghanistan-nuristan-floods-2026, canada-british-columbia-wildfires-2026, china-floods-fujian-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, europe-heatwave-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, indonesia-earthquake-flores-2026, iran-israel-us-war-2026, japan-yen-intervention-2026, nepal-rasuwa-glacial-flood-2026, pakistan-floods-2026, philippines-floods-luis-maymay-2026, sri-lanka-floods-landslides-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, usa-hawaii-hurricane-lowell-2026, usa-washington-wildfires-2026, venezuela-earthquake-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
+
 ## 2026-09-07 — Refresh 3 stale threat records: geomagnetic storm, global warming, asteroid impact (`e0eb774`)
 
 - **Updated:** extreme-geomagnetic-storm, global-warming, near-earth-asteroid-impact
