@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T09:30:03Z",
+  "last_updated": "2026-09-09T09:14:28Z",
   "published": [
     {
       "category": "flood",
@@ -1699,6 +1699,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-sept8",
+          "retrieved_date": "2026-09-09",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 8 September 2026, 15:20, data through 6 September 2026): the Democratic Republic of the Congo has recorded a total of 6,686 confirmed cases including 3,226 related deaths, up from 6,604 cases and 3,175 deaths as of the 5 September data cut -- 82 new confirmed cases and 51 new deaths. The outbreak spans 61 of 151 health zones across six provinces: Ituri 5,365 cases/2,426 deaths (28 of 36 health zones), North Kivu 1,039 cases/681 deaths (16 of 34 health zones), Haut-Uele 253/106 (6 of 13 health zones), Tshopo 22/9 (7 of 23 health zones), Bas-Uele 4/3 (3 of 11 health zones) and South Kivu 3/1 (1 of 34 health zones), with 819 patients currently in isolation, 1,563 recovered and 85.3% of identified case contacts under follow-up. Uganda's linked outbreak remains closed (20 confirmed cases, two deaths; WHO declared it over on 26 August 2026).",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-who-sept1",
           "retrieved_date": "2026-09-02",
           "source_name": "WHO",
@@ -1707,12 +1715,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak, caused by Bundibugyo virus, on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined the DRC-Uganda epidemic constitutes a Public Health Emergency of International Concern (PHEIC). It is now the largest Ebola outbreak ever recorded in the country: ECDC's newest overview (data through 5 September) puts the DRC toll at 6,604 confirmed cases and 3,175 deaths across 61 of 151 health zones in six provinces, with Ituri the epicentre (5,326 cases, 2,398 deaths) and North Kivu the second-largest cluster (1,000 cases, 659 deaths). Uganda's linked chain ended at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial and 50,000 doses for frontline health workers, though Ervebo's efficacy against the Bundibugyo strain has not yet been established; the DRC outbreak remains ongoing.",
+      "description": "The Democratic Republic of the Congo declared its 17th Ebola outbreak, caused by Bundibugyo virus, on 15 May 2026, centred in Ituri Province; on 17 May the WHO Director-General determined the DRC-Uganda epidemic constitutes a Public Health Emergency of International Concern (PHEIC). It is now the largest Ebola outbreak ever recorded in the country: ECDC's newest overview (data through 6 September) puts the DRC toll at 6,686 confirmed cases and 3,226 deaths across 61 of 151 health zones in six provinces, with Ituri the epicentre (5,365 cases, 2,426 deaths) and North Kivu the second-largest cluster (1,039 cases, 681 deaths). Uganda's linked chain ended at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial and 50,000 doses for frontline health workers, though Ervebo's efficacy against the Bundibugyo strain has not yet been established; the DRC outbreak remains ongoing.",
       "event": {
         "impact": {
-          "deaths": 3175,
+          "deaths": 3226,
           "displaced": null,
-          "summary": "ECDC's newest country overview (data through 5 September 2026) puts the DRC toll at 6,604 confirmed cases and 3,175 deaths, up from 6,342 cases and 3,072 deaths as of the 2 September data cut. The outbreak now spans 61 of 151 health zones across six provinces: Ituri remains the epicentre with 5,326 cases and 2,398 deaths, followed by North Kivu (1,000 cases, 659 deaths), Haut-Uele (249/105), Tshopo (22/9), Bas-Uele (4/3) and South Kivu (3/1), with 851 patients currently in isolation. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest country overview (data through 6 September 2026) puts the DRC toll at 6,686 confirmed cases and 3,226 deaths, up from 6,604 cases and 3,175 deaths as of the 5 September data cut. The outbreak now spans 61 of 151 health zones across six provinces: Ituri remains the epicentre with 5,365 cases and 2,426 deaths, followed by North Kivu (1,039 cases, 681 deaths), Haut-Uele (253/106), Tshopo (22/9), Bas-Uele (4/3) and South Kivu (3/1), with 819 patients currently in isolation. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -1726,18 +1734,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-09-08T09:23:14Z",
+      "last_updated": "2026-09-09T09:11:55Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-08T09:23:14Z",
+            "at": "2026-09-09T09:11:55Z",
             "layer": "verify",
-            "run_id": "2026-09-08T09-23-14Z-74d652"
+            "run_id": "2026-09-09T09-11-55Z-4868b4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-08T09-23-14Z-74d652"
+        "last_run_id": "2026-09-09T09-11-55Z-4868b4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1746,6 +1754,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-09-06",
+          "text": "ECDC's updated country overview (data through 6 September) put the DRC toll at 6,686 confirmed cases and 3,226 deaths, up from 6,604 cases and 3,175 deaths as of the 5 September data cut -- 82 new cases, 51 new deaths -- still across 61 of 151 health zones in six provinces."
+        },
         {
           "date": "2026-09-06",
           "text": "ECDC's updated country overview (data through 2 September) put the DRC toll at 6,342 confirmed cases and 3,072 deaths, up from 6,250 cases and 3,039 deaths as of the 1 September data cut -- 92 new cases, 33 new deaths -- across 60 of 151 health zones in six provinces."
@@ -1833,7 +1845,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 43 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 44 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -4040,6 +4052,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-10",
+          "retrieved_date": "2026-09-09",
+          "source_name": "Ministry of Foreign Affairs (Nepal)",
+          "source_url": "https://mofa.gov.np/content/1879/daily-update-07-september-bhote-koshi-flood/",
+          "text": "Nepal's Ministry of Foreign Affairs, Daily Situation Update on the Bhote Koshi River Floods (7 September 2026, 13th day after the floods): 1,355 bodies have been recovered from the flood-hit areas; around 5,000 people still remain missing, including approximately 600 foreigners from 35 countries; and 13,396 people have been rescued so far, including over 300 foreigners. Search, rescue and identification operations continue in Rasuwa, Nuwakot, Dhading and other affected districts, with forensic teams from India, China, Japan, Singapore and the Republic of Korea assisting Nepal Police with DNA collection and identification.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-27",
           "source_name": "GDACS",
@@ -4104,12 +4124,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A glacial collapse on the Nepal-Tibet border triggered a catastrophic flash flood down the Bhotekoshi/Trishuli river system through Rasuwa and Nuwakot districts, Nepal, on the morning of 26 August 2026. USGS classifies the triggering event as a magnitude-5.2-equivalent landslide rather than a tectonic earthquake, and GDACS's own earthquake-channel assessment remains Green with about 6,000 people exposed to strong shaking near the source. UN News reported on 4 September 2026 that the combined Nepal-Tibet floods 'have now claimed more than 1,250 lives and left thousands missing,' up from the roughly 1,016 confirmed dead reported a few days earlier. The UN and humanitarian partners launched a $49.6 million flash appeal on 4 September to assist more than 84,000 people (84,270 Nepalis, 19,284 households) affected by the disaster; the Nepalese government has deployed more than 20,000 search-and-rescue personnel and declared a flood emergency in 15 municipalities, with search-and-rescue and recovery operations continuing.",
+      "description": "A glacial collapse on the Nepal-Tibet border triggered a catastrophic flash flood down the Bhotekoshi/Trishuli river system through Rasuwa and Nuwakot districts, Nepal, on the morning of 26 August 2026. USGS classifies the triggering event as a magnitude-5.2-equivalent landslide rather than a tectonic earthquake, and GDACS's own earthquake-channel assessment remains Green with about 6,000 people exposed to strong shaking near the source. Nepal's Ministry of Foreign Affairs reported on 7 September 2026 that 1,355 bodies had been recovered in Nepal alone, with around 5,000 people (including about 600 foreigners from 35 countries) still missing and 13,396 people rescued; UN News had separately put the combined Nepal-Tibet toll at more than 1,250 as of 4 September. The UN and humanitarian partners launched a $49.6 million flash appeal on 4 September to assist more than 84,000 people (84,270 Nepalis, 19,284 households) affected by the disaster; the Nepalese government has deployed more than 20,000 search-and-rescue personnel and declared a flood emergency in 15 municipalities, with search-and-rescue and identification operations continuing.",
       "event": {
         "impact": {
-          "deaths": 1250,
+          "deaths": 1355,
           "displaced": null,
-          "summary": "UN News reported on 4 September 2026 that the combined Nepal-Tibet glacial flood disaster 'has now claimed more than 1,250 lives and left thousands missing,' up from the roughly 1,016 confirmed dead reported a few days earlier. The UN and partners launched a $49.6 million flash appeal that day to assist more than 84,000 people (84,270 Nepalis, 19,284 households) affected. An estimated 65,000 people need emergency water, sanitation and hygiene assistance and 19 schools have been damaged; the disaster remains Nepal's deadliest since the 2015 earthquake, with more than 20,000 search-and-rescue personnel deployed and a flood emergency declared in 15 municipalities."
+          "summary": "Nepal's Ministry of Foreign Affairs reported on 7 September 2026 that 1,355 bodies had been recovered in Nepal alone (up from roughly 1,016-1,250 in the combined Nepal-Tibet figures reported a few days earlier), with around 5,000 people still missing -- including about 600 foreigners from 35 countries -- and 13,396 people rescued. UN News's 4 September figure of 'more than 1,250 lives' was a combined Nepal-Tibet toll; China's Tibet Autonomous Region separately stood at 16 confirmed deaths and 546 missing as of UN News's 1 September report, the most recent confirmed figure for that side of the border. The UN and partners launched a $49.6 million flash appeal on 4 September to assist more than 84,000 people (84,270 Nepalis, 19,284 households) affected. An estimated 65,000 people need emergency water, sanitation and hygiene assistance and 19 schools have been damaged; the disaster remains Nepal's deadliest since the 2015 earthquake, with more than 20,000 search-and-rescue personnel deployed and a flood emergency declared in 15 municipalities."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1561857",
         "location": {
@@ -4119,22 +4139,22 @@
           "region": "Rasuwa & Nuwakot Districts, Nepal; Gyirong County, Tibet, China"
         },
         "occurrence_date": "2026-08-26",
-        "scale": "USGS M5.2-equivalent glacial collapse/landslide (reclassified from a tectonic earthquake); GDACS Green; UN-reported combined death toll over 1,250",
+        "scale": "USGS M5.2-equivalent glacial collapse/landslide (reclassified from a tectonic earthquake); GDACS Green; Nepal MOFA toll 1,355 dead (Nepal alone)",
         "status": "ongoing"
       },
       "id": "nepal-rasuwa-glacial-flood-2026",
-      "last_updated": "2026-09-08T09:18:51Z",
+      "last_updated": "2026-09-09T09:14:28Z",
       "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-08T09:18:51Z",
+            "at": "2026-09-09T09:14:28Z",
             "layer": "verify",
-            "run_id": "2026-09-08T09-18-51Z-49cf7e"
+            "run_id": "2026-09-09T09-14-28Z-0a84a0"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-08T09-18-51Z-49cf7e"
+        "last_run_id": "2026-09-09T09-14-28Z-0a84a0"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4143,6 +4163,10 @@
         "recency_rank": 739854
       },
       "updates": [
+        {
+          "date": "2026-09-07",
+          "text": "Nepal's Ministry of Foreign Affairs reported 1,355 bodies recovered in Nepal alone (13th day since the floods), with around 5,000 people still missing (about 600 foreigners) and 13,396 rescued -- surpassing the combined Nepal-Tibet toll of 'more than 1,250' UN News had reported on 4 September."
+        },
         {
           "date": "2026-09-04",
           "text": "UN News reported the combined Nepal-Tibet death toll has climbed past 1,250 (from ~1,016), with thousands still missing; the UN and partners launched a $49.6 million flash appeal on 4 September to assist over 84,000 people (84,270 Nepalis, 19,284 households) affected by the 26 August glacial flood disaster."
@@ -4166,7 +4190,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -6479,39 +6503,63 @@
           "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP4+shtml/311454.shtml",
           "text": "NOAA's Central Pacific Hurricane Center Advisory Number 49 (1100 PM HST, Monday, 7 September 2026): Hurricane Lowell, now a Category 2 hurricane with maximum sustained winds of 110 mph, was located near 21.9N 160.8W, about 90 miles west of Lihue, Hawaii, moving north-northeast at 18 mph. A Hurricane Warning (upgraded from watch) is in effect for Kauai County, including Kauai and Niihau, and for the Papahanaumokuakea Marine National Monument; a Tropical Storm Warning (upgraded from watch) is in effect for Oahu. The core was forecast to pass just west of Niihau and Kauai overnight into early Tuesday before turning northwest and slowing.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-09-09",
+          "source_name": "NOAA",
+          "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP4+shtml/311454.shtml",
+          "text": "NOAA's Central Pacific Hurricane Center Advisory Number 53 (1100 PM HST, Tuesday, 8 September 2026): Tropical Storm Lowell, with maximum sustained winds of 65 mph (100 km/h) and minimum pressure of 981 mb, was located near 27.3N 161.5W, about 390 miles NNW of Lihue, Hawaii, moving north at 14 mph with a forecast turn toward the northwest then west; 'there are no coastal watches or warnings in effect,' with the system weakening and moving away from the Hawaiian Islands, though swells continue to pose hazards along exposed coasts.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-09-09",
+          "source_name": "Office of the Governor of Hawaiʻi",
+          "source_url": "https://governor.hawaii.gov/newsroom/news-release-state-of-hawai%ca%bbi-update-on-hurricane-lowell-response-efforts-and-impacts/",
+          "text": "The State of Hawaii's Joint Information Center (news release HurricaneLowell-JIC-2026-002, 8 September 2026) reports Hurricane Lowell caused widespread damage to Kauai's electrical system, leaving more than 36,000 customers -- about 90% of Kauai Island Utility Cooperative customers -- without power Tuesday morning, with downed trees, utility poles and power lines reported across the island; as of 6:30 a.m. Tuesday, about 21,000 customers on Oahu were without power (14,400 Leeward, 6,600 Windward). The Hawaii National Guard had 305 personnel positioned statewide (77 on Kauai with six High Water Vehicle Teams), and multiple Kauai highways -- including Route 560 near Hanalei and Route 50 near Hanapepe -- remained closed due to downed utility poles, trees, landslides and elevated stream levels.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-09-09",
+          "source_name": "Office of the Governor of Hawaiʻi",
+          "source_url": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-state-county-offices-uh-public-schools-on-o%ca%bbahu-reopen-kaua%ca%bbi-closures-continue/",
+          "text": "The Office of the Governor of Hawaii announced (news release, 8 September 2026) that state and county offices, public schools, University of Hawaii campuses and Judiciary facilities on Oahu would reopen 9 September 2026 as conditions improved following Hurricane Lowell, while in Kauai County, state and county offices, Kauai Community College, and all public schools on Kauai and Niihau would remain closed through 11 September 2026 as crews restore power, remove debris and address other storm impacts.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Hurricane Lowell, a Central Pacific hurricane that peaked at Category 5 strength in early September 2026, made its closest approach to Hawaii overnight into 8 September 2026 as a Category 2 storm passing just west of Niihau and Kauai. NOAA's Central Pacific Hurricane Center's Advisory 49 (11 PM HST, 7 September 2026) placed Lowell about 90 miles west of Lihue with 110 mph sustained winds, and upgraded watches to a Hurricane Warning for Kauai County and the Papahanaumokuakea Marine National Monument and a Tropical Storm Warning for Oahu. Hazards include rainfall locally exceeding 12 inches on Kauai with a risk of significant flash flooding and mudslides, storm surge of 1-3 feet, and life-threatening surf and rip currents across the Hawaiian Islands.",
+      "description": "Hurricane Lowell, a Central Pacific hurricane that peaked at Category 5 strength in early September 2026, passed just west of Kauai and Niihau overnight into 8 September 2026 as a Category 2 storm before weakening further and moving away from Hawaii. NOAA's Central Pacific Hurricane Center's Advisory 53 (11 PM HST, 8 September) placed Lowell as a Tropical Storm about 390 miles NNW of Lihue with 65 mph winds and no coastal watches or warnings remaining in effect. The storm knocked out power to about 90% of Kauai Island Utility Cooperative customers (more than 36,000 households) and around 21,000 Oahu customers, downed trees and utility poles, closed multiple Kauai highways, and left Kauai County state, county and school facilities closed through 11 September while crews clear debris and restore power; Governor Josh Green has deployed 305 Hawaii National Guard personnel statewide in support of the response.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "NOAA's Central Pacific Hurricane Center Advisory 49 (11 PM HST, 7 September 2026) placed Hurricane Lowell, now a Category 2 storm with 110 mph sustained winds (down from Category 3/125 mph two days earlier), about 90 miles west of Lihue -- much closer than the 610 miles recorded on 5 September -- moving north-northeast at 18 mph toward its closest approach to Kauai and Niihau overnight into 8 September. Watches have been upgraded to a Hurricane Warning for Kauai County and the Papahanaumokuakea Marine National Monument and a Tropical Storm Warning for Oahu; forecast hazards include rainfall of 4-8 inches (locally over 12 inches) on Kauai with a risk of significant flash flooding and mudslides, storm surge of 1-3 feet for Kauai County, and life-threatening surf and rip currents across the Hawaiian Islands. No confirmed casualty or damage figures have been published yet."
+          "summary": "NOAA's Central Pacific Hurricane Center Advisory 53 (11 PM HST, 8 September 2026) placed Lowell, now a Tropical Storm with 65 mph winds, about 390 miles NNW of Lihue and moving away from Hawaii, with no coastal watches or warnings remaining in effect. Hawaii's state government reports Hurricane Lowell caused widespread damage to Kauai's electrical system, leaving more than 36,000 customers (about 90% of Kauai Island Utility Cooperative's base) without power, plus about 21,000 outages on Oahu (14,400 Leeward, 6,600 Windward); downed trees, utility poles and power lines are reported across Kauai, several highways remain closed, and Kauai County state, county and school facilities are closed through 11 September as crews restore power and clear debris. No confirmed death or injury toll has been published by an authoritative source; some media reports cite one storm-related death on Oahu, which remains unconfirmed by an official release."
         },
         "live_source_url": "https://www.nhc.noaa.gov/",
         "location": {
           "country": "United States",
           "lat": 22.0964,
           "lon": -159.5261,
-          "region": "Kauai County (Kauai, Niihau) and the Papahanaumokuakea Marine National Monument, Hawaii"
+          "region": "Kauai County (Kauai, Niihau) and Oahu, Hawaii"
         },
         "occurrence_date": "2026-08-27",
-        "scale": "Category 2-5 hurricane (peaked Category 5); NHC Hurricane Warning (Kauai County, Papahanaumokuakea) and Tropical Storm Warning (Oahu)",
-        "status": "ongoing"
+        "scale": "Peaked Category 5; weakened to Tropical Storm (65 mph) by landfall approach, no warnings remaining",
+        "status": "contained"
       },
       "id": "usa-hawaii-hurricane-lowell-2026",
-      "last_updated": "2026-09-08T09:22:33Z",
+      "last_updated": "2026-09-09T09:10:03Z",
       "name": "Hurricane Lowell, Hawaii",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-08T09:22:33Z",
+            "at": "2026-09-09T09:10:03Z",
             "layer": "verify",
-            "run_id": "2026-09-08T09-22-33Z-db3eb7"
+            "run_id": "2026-09-09T09-10-03Z-ac60f5"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-08T09-22-33Z-db3eb7"
+        "last_run_id": "2026-09-09T09-10-03Z-ac60f5"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6521,13 +6569,17 @@
       },
       "updates": [
         {
+          "date": "2026-09-09",
+          "text": "Lowell passed just west of Kauai and Niihau overnight into 8 September as a Category 2 storm, weakened to a Tropical Storm and moved away from Hawaii with no warnings remaining. State officials confirmed widespread Kauai power outages (about 90% of KIUC customers) plus about 21,000 Oahu outages; Kauai County offices and schools stay closed through 11 September as recovery continues."
+        },
+        {
           "date": "2026-09-07",
           "text": "NHC upgraded watches to a Hurricane Warning for Kauai County and the Papahanaumokuakea Marine National Monument and a Tropical Storm Warning for Oahu as Lowell, now Category 2 with 110 mph winds, closed to about 90 miles west of Lihue ahead of its closest approach overnight into 8 September."
         }
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
