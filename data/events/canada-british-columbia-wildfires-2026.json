@@ -122,6 +122,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-23",
+      "retrieved_date": "2026-09-10",
+      "source_name": "Government of British Columbia",
+      "source_url": "https://news.gov.bc.ca/releases/2026EMCR0034-001024",
+      "text": "A BC Government News safety advisory for the Labour Day long weekend (issued 3 September 2026, 9:00 AM) states there are currently 160 active wildfires burning in B.C.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-24",
       "source_name": "GDACS",
@@ -178,12 +186,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A fast-moving wildfire outbreak swept British Columbia's Interior in early August 2026, led by the Bald Range fire near Summerland in the South Okanagan, which forced a large-scale evacuation. The province declared a State of Provincial Emergency on 8 August 2026 and ended it on 27 August 2026, saying emergency management officials advised it was no longer needed and that the powers it enabled were never invoked. Penticton RCMP confirmed one fatality: an 80-year-old Meadow Valley resident who died on 9 August 2026 while attempting to evacuate, with the BC Coroners Service investigating. GDACS's most recently published figures put the tracked burned area at 30,182 hectares with 4,912 people within the burned area, as of 21 August 2026. The province says ending the declaration has no effect on existing local evacuation orders and alerts; EmergencyInfoBC's wildfire page now lists 19 active local evacuation orders and alerts as of 4 September 2026, down from the broader set active in late August, though wildfire risk remains elevated province-wide due to continuing warm, dry conditions.",
+  "description": "A fast-moving wildfire outbreak swept British Columbia's Interior in early August 2026, led by the Bald Range fire near Summerland in the South Okanagan, which forced a large-scale evacuation. The province declared a State of Provincial Emergency on 8 August 2026 and ended it on 27 August 2026, saying emergency management officials advised it was no longer needed and that the powers it enabled were never invoked. Penticton RCMP confirmed one fatality: an 80-year-old Meadow Valley resident who died on 9 August 2026 while attempting to evacuate, with the BC Coroners Service investigating. GDACS's most recently published figures put the tracked burned area at 30,182 hectares with 4,912 people within the burned area, as of 21 August 2026; a Labour Day safety advisory (3 September) put wildfires still active across the province at 160. Ending the declaration has no effect on existing local evacuation orders and alerts; EmergencyInfoBC's wildfire page still lists 19 active orders and alerts as of 4 September 2026, though wildfire risk remains elevated province-wide due to continuing warm, dry conditions.",
   "event": {
     "impact": {
       "deaths": 1,
       "displaced": null,
-      "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures record 30,182 hectares burned and 4,912 people affected within the burned area, as of 21 August 2026. British Columbia ended its province-wide State of Provincial Emergency (declared 8 August 2026) on 27 August 2026, two days before its scheduled 29 August expiry, saying it never needed to invoke emergency powers under the declaration; the cancellation has no effect on existing local evacuation orders and alerts, and EmergencyInfoBC's wildfire page now lists 19 active local evacuation orders and alerts as of 4 September 2026, down from the broader set active in late August. Wildfire risk remains elevated province-wide due to ongoing warm, dry conditions."
+      "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures record 30,182 hectares burned and 4,912 people affected within the burned area, as of 21 August 2026; a provincial safety advisory of 3 September put the number of wildfires still active across B.C. at 160. British Columbia ended its province-wide State of Provincial Emergency (declared 8 August 2026) on 27 August 2026, two days before its scheduled 29 August expiry, saying it never needed to invoke emergency powers under the declaration; the cancellation has no effect on existing local evacuation orders and alerts, and EmergencyInfoBC's wildfire page still lists 19 active local evacuation orders and alerts as of 4 September 2026. Wildfire risk remains elevated province-wide due to ongoing warm, dry conditions."
     },
     "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/",
     "location": {
@@ -197,18 +205,18 @@
     "status": "ongoing"
   },
   "id": "canada-british-columbia-wildfires-2026",
-  "last_updated": "2026-09-08T09:27:35Z",
+  "last_updated": "2026-09-10T09:19:17Z",
   "name": "Wildfire State of Emergency — British Columbia, Canada",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-08T09:27:35Z",
+        "at": "2026-09-10T09:19:17Z",
         "layer": "verify",
-        "run_id": "2026-09-08T09-27-35Z-9393dc"
+        "run_id": "2026-09-10T09-19-17Z-22d175"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-08T09-27-35Z-9393dc"
+    "last_run_id": "2026-09-10T09-19-17Z-22d175"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -217,6 +225,10 @@
     "recency_rank": 739836
   },
   "updates": [
+    {
+      "date": "2026-09-10",
+      "text": "A 3 September BC Government safety advisory put the number of wildfires still active across the province at 160; EmergencyInfoBC's evacuation-order list remained at 19 as of 4 September."
+    },
     {
       "date": "2026-09-04",
       "text": "EmergencyInfoBC's wildfire page listed 19 active local evacuation orders and alerts, down from the broader set active across multiple regional districts in late August; GDACS's tracked burned area (30,182 hectares, 4,912 people affected) remains unchanged since 21 August."
@@ -276,7 +288,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 22 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

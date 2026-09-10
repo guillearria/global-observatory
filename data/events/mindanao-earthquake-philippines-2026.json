@@ -106,6 +106,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-28",
+      "retrieved_date": "2026-09-10",
+      "source_name": "Department of Social Welfare and Development (Philippines)",
+      "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-83-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-08-September-2026-6PM.pdf",
+      "text": "DSWD DROMIC Report #83 on the Effects of the Mw 7.8 Earthquake Incident in Maasim, Sarangani (as of 8 September 2026, 6PM) reports 395,626 families (1,674,308 persons) affected in 661 barangays across Regions IX, XI, XII and BARMM; 23,736 families (94,821 persons) remain displaced, unchanged from Report #82, and 128,604 houses have been damaged (19,320 totally, 109,284 partially), with assistance provided to date now over PHP 1.55 billion.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-07-07",
       "source_name": "ReliefWeb",
@@ -162,12 +170,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7 June 23:37 UTC), generating a tsunami and widespread damage across Mindanao; GDACS maintains an Orange alert for medium humanitarian impact, its reprocessed model showing about 4.4 million people exposed to MMI VII or greater and a maximum observed tsunami wave of 0.83 metres. OCHA's response snapshot of 13 July 2026 recorded 94 deaths, 1,316 injured and 18 missing — still the standing official casualty count, as DSWD's DROMIC reporting series does not carry casualty figures — and eighteen local government units have declared a state of calamity. Per DSWD DROMIC Report #82 (as of 5 September 2026), 392,939 families (1,663,560 persons) are affected across 661 barangays in Regions IX, XI, XII and BARMM; displacement has eased further to 23,736 families (94,821 persons), and 138,563 houses have been damaged (19,320 totally, 119,243 partially), with assistance provided to date now over ₱1.55 billion. Aftershocks, including a magnitude 6.3 shock on 5 August 2026, have continued as the humanitarian response goes on.",
+  "description": "A magnitude 7.8 earthquake struck offshore Sarangani province in the southern Philippines on 8 June 2026 (7 June 23:37 UTC), generating a tsunami and widespread damage across Mindanao; GDACS maintains an Orange alert for medium humanitarian impact, its reprocessed model showing about 4.4 million people exposed to MMI VII or greater and a maximum observed tsunami wave of 0.83 metres. OCHA's response snapshot of 13 July 2026 recorded 94 deaths, 1,316 injured and 18 missing — still the standing official casualty count, as DSWD's DROMIC reporting series does not carry casualty figures — and eighteen local government units have declared a state of calamity. Per DSWD DROMIC Report #83 (as of 8 September 2026), 395,626 families (1,674,308 persons) are affected across 661 barangays in Regions IX, XI, XII and BARMM; displacement remains at 23,736 families (94,821 persons), and 128,604 houses have been damaged (19,320 totally, 109,284 partially), with assistance provided to date now over ₱1.55 billion. Aftershocks, including a magnitude 6.3 shock on 5 August 2026, have continued as the humanitarian response goes on.",
   "event": {
     "impact": {
       "deaths": 94,
       "displaced": 94821,
-      "summary": "OCHA's 13 July 2026 response snapshot records 94 deaths, 1,316 injured and 18 missing -- still the standing official casualty count, as DSWD's DROMIC reporting series carries no casualty section. DSWD DROMIC Report #82 (as of 5 September 2026, 6PM) reports 392,939 families (1,663,560 persons) affected, up slightly from Report #79/#80; displacement has eased further to 23,736 families (94,821 persons) -- down from 26,422 families (105,558 persons) in late August -- plus 138,563 houses damaged (19,320 totally, 119,243 partially, unchanged) and over ₱1.55 billion in assistance provided to date. GDACS assesses an Orange alert (medium humanitarian impact) with about 4.4 million people exposed to MMI VII or greater."
+      "summary": "OCHA's 13 July 2026 response snapshot records 94 deaths, 1,316 injured and 18 missing -- still the standing official casualty count, as DSWD's DROMIC reporting series carries no casualty section. DSWD DROMIC Report #83 (as of 8 September 2026, 6PM) reports 395,626 families (1,674,308 persons) affected, up from Report #82; displacement remains unchanged at 23,736 families (94,821 persons), plus 128,604 houses damaged (19,320 totally, 109,284 partially) and over PHP 1.55 billion in assistance provided to date. GDACS assesses an Orange alert (medium humanitarian impact) with about 4.4 million people exposed to MMI VII or greater."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
     "location": {
@@ -181,23 +189,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-09-06T09:21:46Z",
+  "last_updated": "2026-09-10T09:17:57Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-02T09:13:03Z",
+        "at": "2026-09-10T09:17:57Z",
         "layer": "verify",
-        "run_id": "2026-09-02T09-13-03Z-00202b"
-      },
-      {
-        "at": "2026-09-06T09:21:46Z",
-        "layer": "verify",
-        "run_id": "2026-09-06T09-21-46Z-5addd7"
+        "run_id": "2026-09-10T09-17-57Z-dc17d1"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-06T09-21-46Z-5addd7"
+    "last_run_id": "2026-09-10T09-17-57Z-dc17d1"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -206,6 +209,10 @@
     "recency_rank": 739775
   },
   "updates": [
+    {
+      "date": "2026-09-10",
+      "text": "DSWD DROMIC Report #83 (8 Sep) confirms 94,821 persons remain displaced, unchanged from Report #82, while total affected rose to 1,674,308 persons in 661 barangays; assistance provided now exceeds PHP 1.55 billion."
+    },
     {
       "date": "2026-09-05",
       "text": "DSWD DROMIC Reports #81 (3 Sep) and #82 (5 Sep) show displacement eased further to 23,736 families (94,821 persons), down from 26,422/105,558 in late August, while affected families ticked up to 392,939 and assistance provided rose to over ₱1.55 billion; houses damaged held steady at 138,563."
@@ -237,7 +244,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

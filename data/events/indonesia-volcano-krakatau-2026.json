@@ -1,0 +1,56 @@
+{
+  "category": "volcanic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-09-10",
+      "source_name": "GDACS",
+      "source_url": "https://gdacs.org/report.aspx?eventid=1000148&episodeid=2&eventtype=VO",
+      "text": "GDACS's report for this event (event ID VO 1000148) rates the Krakatau eruption an Orange alert, \"unlikely to require external humanitarian assistance based on the exposed population and coping capacity,\" with about 2,000 people within 30km and no people affected within 100km; it records a Volcanic Explosivity Index of 6 for the episode, running from 04 Sep 2026 21:00 UTC to 05 Sep 2026 14:30 UTC.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Indonesia's Krakatau volcano, in the Sunda Strait, began a high-level eruption on 4 September 2026 that GDACS rated a VEI 6 event under an Orange alert. GDACS estimates about 2,000 people live within 30km of the volcano, with no population exposure reported beyond 100km; the eruption episode ran from 21:00 UTC on 4 September to 14:30 UTC on 5 September, and renewed volcanic activity has continued in the days since. Indonesian volcanological authorities maintain Alert Level III (Siaga), the second-highest of the country's four-tier scale, with a mandatory 3km exclusion zone around the volcano that has been in place since early July 2026.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "GDACS's Orange-alert report for this event estimates about 2,000 people live within 30km of Krakatau, with no population exposure reported beyond 100km, and rates the eruption a VEI 6 episode running from 21:00 UTC on 4 September to 14:30 UTC on 5 September 2026. No casualty or displacement figures have been published by an authoritative source; Indonesian volcanological authorities maintain a 3km exclusion zone around the volcano at Alert Level III (Siaga)."
+    },
+    "live_source_url": "https://gdacs.org/report.aspx?eventid=1000148&eventtype=VO",
+    "location": {
+      "country": "Indonesia",
+      "lat": -6.1,
+      "lon": 105.42,
+      "region": "Sunda Strait (Lampung / Banten provinces)"
+    },
+    "occurrence_date": "2026-09-04",
+    "scale": "VEI 6; GDACS Orange alert; Indonesia Alert Level III (Siaga)",
+    "status": "ongoing"
+  },
+  "id": "indonesia-volcano-krakatau-2026",
+  "last_updated": "2026-09-10T09:19:55Z",
+  "name": "Volcanic Eruption — Krakatau, Indonesia",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-09-10T09:19:55Z",
+        "layer": "verify",
+        "run_id": "2026-09-10T09-19-55Z-1761a0"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-09-10T09-19-55Z-1761a0"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398631.0,
+    "impact_rank": 1,
+    "recency_rank": 739863
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
