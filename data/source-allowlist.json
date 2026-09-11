@@ -414,6 +414,24 @@
       "domain": "mofa.gov.np",
       "justification": "Nepal's Ministry of Foreign Affairs is the national government agency publishing the official daily situation updates on the August 2026 Bhote Koshi/Rasuwa flood disaster (death toll, missing persons, rescues and returning nationals), coordinating with Nepal Police and disaster-response authorities; the same institutional tier as Pakistan's NDMA and Sri Lanka's DMC, already allowlisted for a national government's own disaster situation reports.",
       "label": "Ministry of Foreign Affairs (Nepal)"
+    },
+    {
+      "category": "biological",
+      "domain": "paho.org",
+      "justification": "The Pan American Health Organization is the World Health Organization's Regional Office for the Americas and an international public-health authority in its own right (it predates WHO, tracing to the 1902 Pan American Sanitary Conference); the same institutional tier as who.int and ecdc.europa.eu for health-emergency-response figures such as Health Cluster and Emergency Medical Team deployments.",
+      "label": "PAHO"
+    },
+    {
+      "category": "event",
+      "domain": "ahacentre.org",
+      "justification": "The ASEAN Coordinating Centre for Humanitarian Assistance on Disaster Management (AHA Centre) is ASEAN's own intergovernmental disaster-response coordination body; it publishes the same Weekly Disaster Update and Flash Update reports (citing member states' national disaster agencies, e.g. the Philippines' NDRRMC) that ReliefWeb, already allowlisted, mirrors from it. The same institutional tier as GDACS and ReliefWeb for the event category, and the primary source when ReliefWeb's own mirror of an AHA Centre report is not reachable.",
+      "label": "AHA Centre (ASEAN)"
+    },
+    {
+      "category": "event",
+      "domain": "fire.ca.gov",
+      "justification": "CAL FIRE (the California Department of Forestry and Fire Protection) is California's state firefighting agency and the official incident-reporting source for wildfire acreage, containment and evacuation status within the state; the same institutional tier as wildfire.gov (InciWeb) and the other US state-government emergency-management domains already allowlisted (governor.wa.gov, gov.nv.gov, governor.hawaii.gov, in.gov, governor.wv.gov).",
+      "label": "CAL FIRE"
     }
   ]
 }

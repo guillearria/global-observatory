@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-09-10",
+      "retrieved_date": "2026-09-11",
       "source_name": "GDACS",
       "source_url": "https://gdacs.org/report.aspx?eventid=1000148&episodeid=2&eventtype=VO",
       "text": "GDACS's report for this event (event ID VO 1000148) rates the Krakatau eruption an Orange alert, \"unlikely to require external humanitarian assistance based on the exposed population and coping capacity,\" with about 2,000 people within 30km and no people affected within 100km; it records a Volcanic Explosivity Index of 6 for the episode, running from 04 Sep 2026 21:00 UTC to 05 Sep 2026 14:30 UTC.",
@@ -29,18 +29,18 @@
     "status": "ongoing"
   },
   "id": "indonesia-volcano-krakatau-2026",
-  "last_updated": "2026-09-10T09:19:55Z",
+  "last_updated": "2026-09-11T09:27:57Z",
   "name": "Volcanic Eruption — Krakatau, Indonesia",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-10T09:19:55Z",
+        "at": "2026-09-11T09:27:57Z",
         "layer": "verify",
-        "run_id": "2026-09-10T09-19-55Z-1761a0"
+        "run_id": "2026-09-11T09-27-57Z-9d5e51"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-10T09-19-55Z-1761a0"
+    "last_run_id": "2026-09-11T09-27-57Z-9d5e51"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -48,6 +48,7 @@
     "impact_rank": 1,
     "recency_rank": 739863
   },
+  "updates": [],
   "verification": {
     "confidence": "high",
     "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",

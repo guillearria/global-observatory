@@ -11,10 +11,18 @@
     },
     {
       "id": "claim-17",
-      "retrieved_date": "2026-09-10",
+      "retrieved_date": "2026-09-11",
       "source_name": "ECDC",
       "source_url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly",
       "text": "ECDC's cholera worldwide monthly overview and its Weekly Communicable Disease Threats Report (Week 33, 8-14 Aug 2026) both confirm the Sudan cholera dataset has not been refreshed since a data cut of 12 July 2026: 1,511 cumulative cases and 153 deaths reported since 1 January 2026, ranking Sudan second globally after DRC (3,841 cases). WHO/EMRO's dedicated Sudan crisis page returned repeated server errors (HTTP 502) and could not be verified this session.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-18",
+      "retrieved_date": "2026-09-11",
+      "source_name": "United Nations",
+      "source_url": "https://press.un.org/en/2026/db260909.doc.htm",
+      "text": "UN Daily Press Briefing by the Office of the Spokesperson for the Secretary-General (9 September 2026): 'the current cholera outbreak, which, as you may recall, was declared in June, has resulted in nearly 2,900 reported cases and 247 associated deaths in 6 states in Sudan,' attributed to WHO. The same briefing announced that 'a 10-day cholera vaccination campaign to protect at least 95,000 people was launched yesterday in Tawila in North Darfur' with WHO support.",
       "verification_status": "verified"
     },
     {
@@ -58,12 +66,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Sudan's third cholera wave in as many years has spread since late June 2026 across war-affected western and central states, mainly the Darfurs and the Kordofans, where conflict and constrained humanitarian access hamper the response. ECDC's cholera-monthly surveillance (page updated 27 July 2026, data as of 12 July) records 1,511 cumulative cases including 153 deaths since 1 January 2026 -- the most current published national aggregate, superseding the more than 1,330 confirmed cases and 114 deaths WHO's Representative to Sudan reported on 10 July. WFP recorded more than 30 additional cases in El Obeid in mid-July as power outages disrupted the city's water supplies, and OCHA reporting describes spread into the Kalma/Kampala displacement camp in South Darfur, Tawila in North Darfur, and new localities in West and North Kordofan. WHO warns the outbreak could worsen as the rainy season sets in, aid officials say the true toll is likely higher, and the outbreak has not been declared contained.",
+  "description": "A cholera outbreak declared in Sudan in June 2026 remains active in Darfur and Kordofan states amid the ongoing conflict. A UN daily briefing on 9 September 2026, citing WHO, put the toll at nearly 2,900 cases and 247 deaths across six states, up sharply from the 1,511 cases and 153 deaths ECDC's cholera-monthly dataset had recorded as of a stale 12 July data cut. WHO is supporting a 10-day vaccination campaign in Tawila, North Darfur, launched 8 September and targeting at least 95,000 people.",
   "event": {
     "impact": {
-      "deaths": 153,
+      "deaths": 247,
       "displaced": null,
-      "summary": "ECDC's cholera-monthly surveillance reports 1,511 cumulative cholera cases including 153 deaths in Sudan since 1 January 2026, as of the 12 July 2026 data cut (implied case fatality rate ~10.1%) -- a dataset that had not been refreshed as of mid-August and that ranks Sudan second globally after DRC's 3,841 cases. The count supersedes the more than 1,330 confirmed cases and 114 deaths (CFR 13.7 percent) WHO reported on 10 July, in an outbreak centred on Darfur and Kordofan where WHO and UNICEF have scaled up medical supply deliveries to Kadugli, Dilling and El Fula. WFP recorded more than 30 cases in El Obeid alone in mid-July, and the outbreak has not been declared contained."
+      "summary": "A UN daily press briefing on 9 September 2026, citing WHO, reported the Sudan cholera outbreak declared in June 2026 has caused nearly 2,900 cases and 247 deaths across six states (implied case fatality rate ~8.5%) -- a marked rise from the 1,511 cases and 153 deaths ECDC's cholera-monthly dataset had recorded as of a stale 12 July 2026 data cut that had gone unrefreshed for two months. A 10-day WHO-supported cholera vaccination campaign targeting at least 95,000 people launched 8 September 2026 in Tawila, North Darfur. The outbreak, centred on Darfur and Kordofan where earlier WHO and UNICEF supply deliveries reached Kadugli, Dilling and El Fula, has not been declared contained."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly",
     "location": {
@@ -73,22 +81,22 @@
       "region": "Darfur and Kordofan states, western and central Sudan"
     },
     "occurrence_date": "2026-06-27",
-    "scale": "Case fatality rate ~10.1% (ECDC, 12 July 2026 data)",
+    "scale": "Case fatality rate ~8.5% (WHO figures cited in UN briefing, 9 Sept 2026)",
     "status": "ongoing"
   },
   "id": "sudan-cholera-outbreak-2026",
-  "last_updated": "2026-09-10T09:16:20Z",
+  "last_updated": "2026-09-11T09:28:31Z",
   "name": "Cholera Outbreak — Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-10T09:16:20Z",
+        "at": "2026-09-11T09:28:31Z",
         "layer": "verify",
-        "run_id": "2026-09-10T09-16-20Z-f23a4f"
+        "run_id": "2026-09-11T09-28-31Z-e63760"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-10T09-16-20Z-f23a4f"
+    "last_run_id": "2026-09-11T09-28-31Z-e63760"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -97,6 +105,10 @@
     "recency_rank": 739794
   },
   "updates": [
+    {
+      "date": "2026-09-11",
+      "text": "A UN daily press briefing (9 September), citing WHO, put the outbreak declared in June at nearly 2,900 cases and 247 deaths across six states -- well above ECDC's stale 12 July data cut (1,511 cases, 153 deaths). A WHO-supported 10-day vaccination campaign targeting 95,000 people launched 8 September in Tawila, North Darfur."
+    },
     {
       "date": "2026-08-16",
       "text": "ECDC's Weekly Communicable Disease Threats Report (Week 33, 8-14 August 2026) confirmed Sudan's cholera dataset had not been refreshed since the 12 July data cut -- 1,511 cumulative cases and 153 deaths since 1 January 2026 -- ranking Sudan second globally after DRC (3,841 cases)."
@@ -108,7 +120,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -130,6 +130,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-35",
+      "retrieved_date": "2026-09-11",
+      "source_name": "PAHO",
+      "source_url": "https://www.paho.org/sites/default/files/2026/09/sitrep-10-ven-earthquake-2026-september3.pdf",
+      "text": "PAHO/WHO Regional Situation Report No. 10, 'Earthquakes in Venezuela (M7.2 and M7.5)' (3 September 2026): 'Just over two months after the two earthquakes that struck Venezuela on 24 June 2026, the response has transitioned into early recovery while sustaining essential emergency operations.' As of 3 September, 106 transitional camps hold 24,477 of 28,171 installed capacity (87% occupancy); seven Emergency Medical Teams remain operational in La Guaira and Miranda while fifteen have demobilized; 68 partners remain active within the Health Cluster; 211 health facilities have been assessed, of which 136 (64%) are operational; and PAHO has shipped 41.3 metric tons of medical supplies, reaching 70,697 people with treatment.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-07-09",
       "source_name": "ReliefWeb",
@@ -178,12 +186,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.5 earthquake struck 16 km SW of Moron in northern Venezuela, west of Caracas, on 25 June 2026, forming a doublet with a magnitude 7.2 shock in the same sequence; at least seven states were impacted, with La Guaira the most affected. OCHA Situation Report #34 (27 August 2026) puts authorities' reported toll at 6,509 deaths as of 24 August, with 60,785 homes evaluated (11,001 at high risk); 16,740 injuries and 17,907 people who lost their homes remain the standing counts. Preliminary estimates put direct damage at some US$37 billion (UNDRR) and US$6.7 billion, about 6% of GDP (UNDP); a US$299 million addendum raised combined UN humanitarian requirements to US$931 million, targeting 6.2 million people, of whom 1.3 million are earthquake-affected, over six months. The response remains in a scaled-up relief and early-recovery phase, with nearly 364,000 people (54% women and girls) having accessed essential services and humanitarian assistance as of 24 August.",
+  "description": "A doublet of magnitude 7.2 and 7.5 earthquakes struck northern Venezuela near Morón/San Felipe on 24-25 June 2026, killing more than 6,500 people according to authorities. By early September the response had shifted from emergency operations into early recovery, with the confirmed death toll unchanged since OCHA's 27 August situation report.",
   "event": {
     "impact": {
       "deaths": 6509,
       "displaced": 17907,
-      "summary": "OCHA Situation Report #34 (27 August 2026, data as of 24 August) puts authorities' reported toll at 6,509 deaths, up from 6,301 as of 10 August in Situation Report #33; 60,785 homes have now been evaluated (11,001 at high risk), up from 53,314 evaluated (9,567 at high risk). Injuries stand unchanged at 16,740 and 17,907 people remain recorded as having lost their homes. Damage estimates stand at approximately US$37 billion (UNDRR, preliminary) and US$6.7 billion or about 6% of GDP (UNDP), against combined UN funding requirements of US$931 million targeting 1.3 million earthquake-affected people over six months. Nearly 364,000 people (54% women and girls) had accessed essential services and humanitarian assistance as of 24 August, up from over 304,000 as of 14 August."
+      "summary": "OCHA Situation Report #34 (27 August 2026, data as of 24 August) puts authorities' reported toll at 6,509 deaths, up from 6,301 as of 10 August in Situation Report #33; 60,785 homes have now been evaluated (11,001 at high risk), up from 53,314 evaluated (9,567 at high risk). Injuries stand unchanged at 16,740 and 17,907 people remain recorded as having lost their homes. Damage estimates stand at approximately US$37 billion (UNDRR, preliminary) and US$6.7 billion or about 6% of GDP (UNDP), against combined UN funding requirements of US$931 million targeting 1.3 million earthquake-affected people over six months. Nearly 364,000 people (54% women and girls) had accessed essential services and humanitarian assistance as of 24 August, up from over 304,000 as of 14 August. PAHO/WHO's Situation Report No. 10 (3 September 2026) describes the response as having moved into early recovery: 106 camps remain at 87% occupancy (24,477 of 28,171 capacity), seven Emergency Medical Teams are still operational (fifteen demobilized), and 68 partners remain active in the Health Cluster; no OCHA situation report newer than #34 had been published as of 11 September."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
     "location": {
@@ -197,18 +205,18 @@
     "status": "ongoing"
   },
   "id": "venezuela-earthquake-2026",
-  "last_updated": "2026-09-10T09:16:20Z",
+  "last_updated": "2026-09-11T09:28:31Z",
   "name": "Venezuela M7.5 Earthquake Doublet",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-10T09:16:20Z",
+        "at": "2026-09-11T09:28:31Z",
         "layer": "verify",
-        "run_id": "2026-09-10T09-16-20Z-d734e1"
+        "run_id": "2026-09-11T09-28-31Z-ef6a51"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-10T09-16-20Z-d734e1"
+    "last_run_id": "2026-09-11T09-28-31Z-ef6a51"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -217,6 +225,10 @@
     "recency_rank": 739792
   },
   "updates": [
+    {
+      "date": "2026-09-11",
+      "text": "PAHO/WHO's Situation Report No. 10 (3 September) described the response as having moved into early recovery two months after the earthquakes: 106 transitional camps at 87% occupancy, seven EMTs still operational (fifteen demobilized) and 68 active Health Cluster partners; the confirmed death toll remains at 6,509, with no OCHA situation report newer than #34 (27 August) yet published."
+    },
     {
       "date": "2026-08-24",
       "text": "OCHA Situation Report #34 (27 August, data as of 24 August) raised the official toll to 6,509 deaths and homes evaluated to 60,785 (11,001 at high risk), with nearly 364,000 people having accessed essential services and humanitarian assistance."
@@ -244,7 +256,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 22 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

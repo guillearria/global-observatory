@@ -27,19 +27,27 @@
     },
     {
       "id": "claim-4",
-      "retrieved_date": "2026-09-10",
+      "retrieved_date": "2026-09-11",
       "source_name": "Ministry of Finance (Japan)",
       "source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/monthly/20260828e.html",
       "text": "The Ministry of Finance's Foreign Exchange Intervention Operations monthly release for the period 30 July 2026 through 26 August 2026 (published 28 August 2026) states: total amount of foreign exchange intervention operations for the period, JPY 15,399.3 billion -- confirming sustained yen-buying intervention through the reporting month, without a public breakdown of individual operation dates or amounts.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-09-11",
+      "source_name": "Ministry of Finance (Japan)",
+      "source_url": "https://www.mof.go.jp/english/public_relations/statement/others/",
+      "text": "The Ministry of Finance's public listing of Finance Minister statements shows no further statement on yen intervention or foreign-exchange operations dated in September 2026; the only item posted in that month is a 1 September 2026 statement by Finance Minister KATAYAMA Satsuki on the re-election of Mr. Kanda for a second term as ADB president, unrelated to currency intervention. No monthly Foreign Exchange Intervention Operations release newer than the 30 July-26 August 2026 period has been published as of this check.",
+      "verification_status": "verified"
     }
   ],
-  "description": "The Japanese yen fell to roughly a 40-year low against the US dollar through July 2026, driven by a wide Japan-US interest-rate gap and broader dollar strength. On 31 July 2026 (US Eastern Time) Japan's Ministry of Finance purchased yen in coordination with the US Department of the Treasury, acting under the September 2025 US-Japan Finance Ministers' Joint Statement to counter what it called \"excessive volatility and disorderly movements\" in the currency. No intervention had been recorded by the Ministry's monthly data for the month immediately before (29 June-29 July 2026), underscoring that the action began as an emergency, out-of-cycle step; but the Ministry's following monthly release (30 July-26 August 2026, published 28 August 2026) recorded JPY 15,399.3 billion in total foreign-exchange intervention for that period, confirming it continued substantial coordinated yen-buying well beyond the initial 31 July action.",
+  "description": "Japan's Ministry of Finance and the US Treasury conducted an emergency joint yen-purchase intervention on 31 July 2026 after the yen weakened toward a roughly four-decade low, with sustained yen-buying continuing at least through late August. No further intervention action or foreign-exchange statement has been confirmed since, and the episode has eased toward routine market conditions by September.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "No direct casualties; the impact is financial and macroeconomic. Japan's Ministry of Finance confirmed it purchased yen in coordination with the US Treasury on 31 July 2026 to counter excessive volatility and disorderly currency movements after the yen weakened toward levels not seen in roughly four decades. The Ministry's own monthly foreign-exchange intervention data show zero yen spent in the reporting month immediately before the intervention (29 June-29 July 2026), confirming the 31 July action was an emergency departure from routine operations, but its following monthly release (30 July-26 August 2026, published 28 August) recorded JPY 15,399.3 billion in total intervention for that period, showing the Ministry continued substantial yen-buying operations well beyond the initial single action."
+      "summary": "No direct casualties; the impact is financial and macroeconomic. Japan's Ministry of Finance confirmed it purchased yen in coordination with the US Treasury on 31 July 2026 to counter excessive volatility and disorderly currency movements after the yen weakened toward levels not seen in roughly four decades. Its monthly foreign-exchange intervention data show zero yen spent in the reporting month immediately before the intervention (29 June-29 July 2026), confirming the 31 July action was an emergency departure from routine operations, while the following monthly release (30 July-26 August 2026, published 28 August) recorded JPY 15,399.3 billion in total intervention for that period. As of 11 September 2026, the Ministry has issued no further foreign-exchange statement and no newer monthly intervention report has been published beyond the 26 August period-end; its only September statement on file concerns an unrelated Asian Development Bank leadership matter, suggesting the emergency intervention phase has eased."
     },
     "live_source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/index.html",
     "location": {
@@ -49,22 +57,22 @@
       "region": "Nationwide; foreign-exchange market action centered on Tokyo, coordinated with US Treasury"
     },
     "occurrence_date": "2026-07-31",
-    "scale": "Joint Japan-US foreign-exchange intervention to stem a multi-decade low in the yen; Japan's Ministry of Finance has signaled readiness for further coordinated action",
-    "status": "ongoing"
+    "scale": "Joint Japan-US foreign-exchange intervention that stemmed a multi-decade low in the yen; no further intervention action confirmed since 26 August 2026",
+    "status": "contained"
   },
   "id": "japan-yen-intervention-2026",
-  "last_updated": "2026-09-10T09:16:20Z",
+  "last_updated": "2026-09-11T09:27:58Z",
   "name": "Yen Crisis — Joint Japan-US Currency Intervention",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-10T09:16:20Z",
+        "at": "2026-09-11T09:27:58Z",
         "layer": "verify",
-        "run_id": "2026-09-10T09-16-20Z-035ba3"
+        "run_id": "2026-09-11T09-27-58Z-303f97"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-10T09-16-20Z-035ba3"
+    "last_run_id": "2026-09-11T09-27-58Z-303f97"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -74,13 +82,17 @@
   },
   "updates": [
     {
+      "date": "2026-09-11",
+      "text": "No further Ministry of Finance statement on yen intervention, and no monthly foreign-exchange operations report newer than the 30 July-26 August 2026 period, have been published; the only September item on file is an unrelated Asian Development Bank leadership statement. Status moved from ongoing to contained."
+    },
+    {
       "date": "2026-08-29",
       "text": "MOF's next monthly release (30 July-26 August 2026, published 28 August) recorded JPY 15,399.3 billion in total FX intervention for the period -- confirming substantial further yen-buying beyond the initial 31 July action, versus zero in the prior reporting month."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

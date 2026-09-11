@@ -19,10 +19,18 @@
     },
     {
       "id": "claim-16",
-      "retrieved_date": "2026-09-10",
+      "retrieved_date": "2026-09-11",
       "source_name": "WHO",
       "source_url": "https://www.who.int/europe/health-topics/heatwaves",
       "text": "WHO/Europe's topic and situations pages carry no statement dated after 7 July 2026 ('Extreme heat: more deadly weeks may still lie ahead for the European Region') as of this check, despite a distinct later mid-August heatwave episode across Western/Central Europe reported elsewhere; the 30 June and 7 July statements remain WHO/Europe's most recent dated assessments.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-17",
+      "retrieved_date": "2026-09-11",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/europe/health-topics/heatwaves",
+      "text": "As of 11 September 2026, WHO/Europe's heatwave topic page and emergencies/situations page still carry no statement dated after 7 July 2026; their newest listed items are dated 31 July 2026 ('Wildfire smoke: a frequently underestimated health risk') and 2 September 2026 ('As the climate warms, the threat of wildfires is spreading'), both concerning wildfire rather than heat mortality, and a 31 July 2026 feature on Spain declaring a national wildfire emergency.",
       "verification_status": "verified"
     },
     {
@@ -42,12 +50,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A record-breaking series of heatwaves has gripped Western and Southern Europe since around 21 June 2026, straining health systems and emergency services across France, Spain, Belgium, the Netherlands, Italy and the UK. WHO/Europe's 30 June 2026 statement reported more than 300 heat-associated excess deaths in Spain within a few days, emergency medical calls up by as much as 50% in some French cities, London's ambulance service recording its highest-ever single-day number of life-threatening calls, and 5 deaths in 24 hours in Italy. Its 16 July 2026 statement, 'Planning for a warmer world', reported that data from just five countries already showed nearly 10,000 excess deaths due to heat this summer. A distinct further heatwave episode affected Western and Central Europe in mid-August 2026, and the public-health emergency remains ongoing.",
+  "description": "A series of heatwaves struck Western and Southern Europe (France, Spain, Belgium, Netherlands, Italy, UK) from June through mid-August 2026, prompting WHO public-health-emergency statements over an estimated 10,000 heat-linked excess deaths. By September, WHO/Europe had issued no further heat-specific statement, with its climate-health messaging having shifted to wildfire risk.",
   "event": {
     "impact": {
       "deaths": 10000,
       "displaced": null,
-      "summary": "WHO/Europe reported on 16 July 2026 that data from just five countries already showed nearly 10,000 excess deaths due to heat this summer, after its 30 June statement recorded more than 300 heat-associated excess deaths in Spain within days, a 50% rise in emergency medical calls in some French cities, London's highest-ever single-day volume of life-threatening ambulance calls, and 5 deaths in 24 hours in Italy. Heat has claimed more than 200,000 lives across the WHO European Region in the past four years, with heat-related mortality up 30% over the past two decades. A distinct further heatwave episode affected the region in mid-August 2026."
+      "summary": "WHO/Europe reported on 16 July 2026 that data from just five countries already showed nearly 10,000 excess deaths due to heat this summer, after its 30 June statement recorded more than 300 heat-associated excess deaths in Spain within days, a 50% rise in emergency medical calls in some French cities, London's highest-ever single-day volume of life-threatening ambulance calls, and 5 deaths in 24 hours in Italy. Heat has claimed more than 200,000 lives across the WHO European Region in the past four years, with heat-related mortality up 30% over the past two decades. A distinct further heatwave episode affected the region in mid-August 2026. As of 11 September 2026, WHO/Europe has issued no further heat-specific statement or revised regional death toll since 16 July; its newest climate-health items (31 July and 2 September) address wildfire and wildfire-smoke risk instead, indicating the acute heat emergency phase has passed."
     },
     "live_source_url": "https://www.who.int/europe/emergencies/situations/climate-crisis-extreme-weather",
     "location": {
@@ -57,22 +65,22 @@
       "region": "Western and Southern Europe: France, Spain, Belgium, Netherlands, Italy, United Kingdom"
     },
     "occurrence_date": "2026-06-21",
-    "scale": "Continental heatwave / WHO public health emergency statement",
-    "status": "ongoing"
+    "scale": "Continental heatwave / WHO public health emergency statement (acute phase passed by September)",
+    "status": "contained"
   },
   "id": "europe-heatwave-2026",
-  "last_updated": "2026-09-10T09:16:19Z",
+  "last_updated": "2026-09-11T09:27:57Z",
   "name": "2026 European Heatwave — Public Health Emergency",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-10T09:16:19Z",
+        "at": "2026-09-11T09:27:57Z",
         "layer": "verify",
-        "run_id": "2026-09-10T09-16-19Z-6b2aba"
+        "run_id": "2026-09-11T09-27-57Z-491b83"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-10T09-16-19Z-6b2aba"
+    "last_run_id": "2026-09-11T09-27-57Z-491b83"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -82,13 +90,17 @@
   },
   "updates": [
     {
+      "date": "2026-09-11",
+      "text": "WHO/Europe has issued no heatwave-specific statement or revised regional death toll since 16 July 2026; its newest climate-health items (31 July, 2 September) concern wildfire and wildfire-smoke risk rather than heat mortality. Status moved from ongoing to contained pending any final-season tally."
+    },
+    {
       "date": "2026-08-16",
       "text": "A distinct further heatwave episode affected Western and Central Europe in mid-August 2026, after the June and July waves on which the season's reported mortality figures are based."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

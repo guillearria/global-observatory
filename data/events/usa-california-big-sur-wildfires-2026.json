@@ -1,0 +1,64 @@
+{
+  "category": "wildfire",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-09-11",
+      "source_name": "CAL FIRE",
+      "source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire",
+      "text": "CAL FIRE's incident page for the Plaskett Fire reports that, as of September 10, 2026 at 6:21 PM, the fire (which started August 26, 2026 at 11:01 AM near Los Burros Road/Plaskett in the Los Padres National Forest, Monterey County) had burned 29,942 acres and was 79% contained, with multiple evacuation order and warning zones still in effect across Monterey County.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-09-11",
+      "source_name": "CAL FIRE",
+      "source_url": "https://www.fire.ca.gov/incidents/2026/8/8/timber-fire/",
+      "text": "CAL FIRE's incident page for the Timber Fire reports that, as of September 10, 2026 at 6:18 PM, the fire (which started August 8, 2026 at 8:35 PM southeast of Loma Vista in the Los Padres National Forest, Monterey County) had burned 25,380 acres and was 27% contained, with multiple evacuation order and warning zones still in effect and an evacuation shelter operating at Santa Rosa Catholic Church in Cambria; no injuries or deaths were reported.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Plaskett and Timber wildfires have burned roughly 55,000 combined acres along California's Big Sur coast since August 2026, forcing evacuations across two counties. The Timber Fire ignited August 8 and the larger Plaskett Fire ignited August 26 in the Los Padres National Forest near Big Sur; both remain active more than two weeks later, with CAL FIRE reporting the Plaskett Fire at about 29,900 acres and 79% contained and the Timber Fire at about 25,400 acres and 27% contained as of September 10. Evacuation orders and warnings remain in effect across numerous zones in Monterey County, with warnings extending into northern San Luis Obispo County, and an extended stretch of Highway 1 through the Big Sur coast has been closed to the public. No deaths or injuries have been reported by CAL FIRE for either fire.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "CAL FIRE reports no deaths or injuries from either fire. Multiple evacuation order and warning zones remain in effect across Monterey County (Plaskett and Timber fires), with evacuation warnings extending into northern San Luis Obispo County for the Plaskett Fire, and a Timber Fire evacuation shelter operating at Santa Rosa Catholic Church in Cambria. A long stretch of Highway 1 through the Big Sur coast remains closed to through traffic because of the Plaskett Fire."
+    },
+    "live_source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire",
+    "location": {
+      "country": "United States",
+      "lat": 35.87,
+      "lon": -121.43,
+      "region": "Big Sur, Los Padres National Forest — Monterey & San Luis Obispo Counties, California"
+    },
+    "occurrence_date": "2026-08-26",
+    "scale": "~55,000 combined acres (Plaskett 79%, Timber 27% contained)",
+    "status": "ongoing"
+  },
+  "id": "usa-california-big-sur-wildfires-2026",
+  "last_updated": "2026-09-11T09:27:59Z",
+  "name": "Wildfires — Big Sur / Los Padres National Forest, California",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-09-11T09:27:59Z",
+        "layer": "verify",
+        "run_id": "2026-09-11T09-27-59Z-165982"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-09-11T09-27-59Z-165982"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398541.0,
+    "impact_rank": 1,
+    "recency_rank": 739854
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

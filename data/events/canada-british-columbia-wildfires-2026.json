@@ -75,7 +75,7 @@
     },
     {
       "id": "claim-18",
-      "retrieved_date": "2026-09-06",
+      "retrieved_date": "2026-09-11",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030240",
       "text": "GDACS's wildfire report for Canada (event id 1030240, episode 53, reporting window 08 Aug 2026 00:00 UTC - 21 Aug 2026 00:00 UTC): burned area 30,182 hectares, up from 29,678 hectares in episode 49; affected population unchanged at 4,912 people within the burned area.",
@@ -127,6 +127,22 @@
       "source_name": "Government of British Columbia",
       "source_url": "https://news.gov.bc.ca/releases/2026EMCR0034-001024",
       "text": "A BC Government News safety advisory for the Labour Day long weekend (issued 3 September 2026, 9:00 AM) states there are currently 160 active wildfires burning in B.C.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-24",
+      "retrieved_date": "2026-09-11",
+      "source_name": "Government of British Columbia",
+      "source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
+      "text": "EmergencyInfoBC's wildfire hazard page (checked 11 September 2026) lists 14 active local evacuation notices, down from 19 on 4 September: Okanagan Indian Band (updated 9 September), Cariboo Regional District (3 September), Spuzzum First Nation and Regional District of Okanagan-Similkameen (2 September), Lytton First Nation (31 August), Coldwater Indian Band (29 August), Llenllenéy'ten/High Bar First Nation (28 August), District of Summerland and Ts'kw'aylaxw First Nation (24 August), Boothroyd Indian Band (16 August), Yale First Nation and Shxw'ow'hamel First Nation (1 August), Whispering Pines/Clinton Indian Band (24 July) and Boston Bar First Nation (6 July).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-25",
+      "retrieved_date": "2026-09-11",
+      "source_name": "Government of British Columbia",
+      "source_url": "https://blog.gov.bc.ca/bcwildfire/area-restriction-for-bald-range-wildfire-rescinded/",
+      "text": "BC Wildfire Service blog post (4 September 2026), 'Area Restriction for Bald Range wildfire rescinded': the Area Restriction Order for the Bald Range wildfire (K51490) near Summerland was rescinded because 'fire behaviour and activity has decreased, firefighting personnel no longer need to restrict public access'; the post notes the site remains an active job site and officials retain authority to order people to leave if conditions change.",
       "verification_status": "verified"
     },
     {
@@ -186,12 +202,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A fast-moving wildfire outbreak swept British Columbia's Interior in early August 2026, led by the Bald Range fire near Summerland in the South Okanagan, which forced a large-scale evacuation. The province declared a State of Provincial Emergency on 8 August 2026 and ended it on 27 August 2026, saying emergency management officials advised it was no longer needed and that the powers it enabled were never invoked. Penticton RCMP confirmed one fatality: an 80-year-old Meadow Valley resident who died on 9 August 2026 while attempting to evacuate, with the BC Coroners Service investigating. GDACS's most recently published figures put the tracked burned area at 30,182 hectares with 4,912 people within the burned area, as of 21 August 2026; a Labour Day safety advisory (3 September) put wildfires still active across the province at 160. Ending the declaration has no effect on existing local evacuation orders and alerts; EmergencyInfoBC's wildfire page still lists 19 active orders and alerts as of 4 September 2026, though wildfire risk remains elevated province-wide due to continuing warm, dry conditions.",
+  "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased and active evacuation notices provincewide had eased to 14, though wildfire risk remains elevated with roughly 160 fires still burning as of 3 September.",
   "event": {
     "impact": {
       "deaths": 1,
       "displaced": null,
-      "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures record 30,182 hectares burned and 4,912 people affected within the burned area, as of 21 August 2026; a provincial safety advisory of 3 September put the number of wildfires still active across B.C. at 160. British Columbia ended its province-wide State of Provincial Emergency (declared 8 August 2026) on 27 August 2026, two days before its scheduled 29 August expiry, saying it never needed to invoke emergency powers under the declaration; the cancellation has no effect on existing local evacuation orders and alerts, and EmergencyInfoBC's wildfire page still lists 19 active local evacuation orders and alerts as of 4 September 2026. Wildfire risk remains elevated province-wide due to ongoing warm, dry conditions."
+      "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode. British Columbia ended its province-wide State of Provincial Emergency (declared 8 August 2026) on 27 August 2026, saying it never needed to invoke emergency powers under the declaration. The BC Wildfire Service rescinded the area restriction order for the Bald Range fire itself on 4 September 2026, citing decreased fire behaviour and activity, though the site remains an active job site requiring caution. EmergencyInfoBC's wildfire page lists 14 active local evacuation orders and alerts as of 11 September 2026, down from 19 on 4 September, most recently updated for the Okanagan Indian Band (9 September). Wildfire risk remains elevated province-wide, with a 3 September safety advisory citing 160 wildfires still active across B.C."
     },
     "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/",
     "location": {
@@ -201,22 +217,22 @@
       "region": "British Columbia Interior, centred on the Bald Range fire near Summerland in the South Okanagan; more than 100 wildfires active provincewide"
     },
     "occurrence_date": "2026-08-08",
-    "scale": "Provincial State of Emergency ended 27 August 2026 (declared 8 August); Bald Range fire (largest, near Summerland); 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS)",
+    "scale": "Provincial State of Emergency ended 27 August 2026 (declared 8 August); Bald Range fire (largest, near Summerland) area restriction rescinded 4 September as fire activity decreased; 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS)",
     "status": "ongoing"
   },
   "id": "canada-british-columbia-wildfires-2026",
-  "last_updated": "2026-09-10T09:19:17Z",
+  "last_updated": "2026-09-11T09:27:56Z",
   "name": "Wildfire State of Emergency — British Columbia, Canada",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-10T09:19:17Z",
+        "at": "2026-09-11T09:27:56Z",
         "layer": "verify",
-        "run_id": "2026-09-10T09-19-17Z-22d175"
+        "run_id": "2026-09-11T09-27-56Z-f34241"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-10T09-19-17Z-22d175"
+    "last_run_id": "2026-09-11T09-27-56Z-f34241"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -225,6 +241,10 @@
     "recency_rank": 739836
   },
   "updates": [
+    {
+      "date": "2026-09-11",
+      "text": "BC Wildfire Service rescinded the area restriction order for the Bald Range fire on 4 September, citing decreased fire behaviour and activity; EmergencyInfoBC's evacuation-notice count eased to 14 active orders/alerts, down from 19, most recently updated for the Okanagan Indian Band (9 September)."
+    },
     {
       "date": "2026-09-10",
       "text": "A 3 September BC Government safety advisory put the number of wildfires still active across the province at 160; EmergencyInfoBC's evacuation-order list remained at 19 as of 4 September."
@@ -288,7 +308,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 25 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
