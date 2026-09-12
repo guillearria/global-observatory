@@ -146,6 +146,22 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-26",
+      "retrieved_date": "2026-09-12",
+      "source_name": "Government of British Columbia",
+      "source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
+      "text": "EmergencyInfoBC's wildfire hazard page (checked 12 September 2026) lists 12 active local evacuation notices, down from 14 on 11 September: Okanagan Indian Band (updated 9 September), Spuzzum First Nation and Regional District of Okanagan-Similkameen (2 September), Lytton First Nation (31 August), Coldwater Indian Band (29 August), District of Summerland and Ts'kw'aylaxw First Nation (24 August), Boothroyd Indian Band (16 August), Yale First Nation and Shxw'ow'hamel First Nation (1 August), Whispering Pines/Clinton Indian Band (24 July) and Boston Bar First Nation (6 July).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-27",
+      "retrieved_date": "2026-09-12",
+      "source_name": "Government of British Columbia",
+      "source_url": "https://blog.gov.bc.ca/bcwildfire/category-1-campfire-prohibition-rescinded-throughout-the-cariboo-fire-centre-2/",
+      "text": "BC Wildfire Service blog post: 'Effective at 12:00 p.m. (noon) PDT on Thursday, September 3, 2026, Category 1 campfires will be permitted throughout the Cariboo Fire Centre and Tsilhqot'in (Xeni Gwet'in) Declared Title Area,' citing improved fire conditions in the region; Category 2 and Category 3 open fires remain prohibited until 12:00 p.m. on October 31, 2026.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-24",
       "source_name": "GDACS",
@@ -202,12 +218,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased and active evacuation notices provincewide had eased to 14, though wildfire risk remains elevated with roughly 160 fires still burning as of 3 September.",
+  "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased. Conditions have continued to ease: the BC Wildfire Service lifted Category 1 campfire prohibitions across the Cariboo, Coastal and Kamloops fire centres effective 3 September (Category 2/3 open fires remain banned until 31 October), and EmergencyInfoBC's active evacuation-notice count has fallen to 12, down from a peak of roughly 30 in mid-August, though wildfire risk remains elevated province-wide.",
   "event": {
     "impact": {
       "deaths": 1,
       "displaced": null,
-      "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode. British Columbia ended its province-wide State of Provincial Emergency (declared 8 August 2026) on 27 August 2026, saying it never needed to invoke emergency powers under the declaration. The BC Wildfire Service rescinded the area restriction order for the Bald Range fire itself on 4 September 2026, citing decreased fire behaviour and activity, though the site remains an active job site requiring caution. EmergencyInfoBC's wildfire page lists 14 active local evacuation orders and alerts as of 11 September 2026, down from 19 on 4 September, most recently updated for the Okanagan Indian Band (9 September). Wildfire risk remains elevated province-wide, with a 3 September safety advisory citing 160 wildfires still active across B.C."
+      "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode; the GDACS tracking record for this event closed with no further episodes after that date. British Columbia ended its province-wide State of Provincial Emergency on 27 August 2026, and the BC Wildfire Service rescinded the Bald Range fire's area restriction on 4 September. Conditions have continued to improve: Category 1 campfire prohibitions were lifted in the Cariboo, Coastal and Kamloops fire centres effective 3 September, and EmergencyInfoBC's wildfire page lists 12 active local evacuation orders and alerts as of 12 September 2026, down from 14 the day before, most recently updated for the Okanagan Indian Band (9 September)."
     },
     "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/",
     "location": {
@@ -221,18 +237,18 @@
     "status": "ongoing"
   },
   "id": "canada-british-columbia-wildfires-2026",
-  "last_updated": "2026-09-11T09:27:56Z",
+  "last_updated": "2026-09-12T09:11:50Z",
   "name": "Wildfire State of Emergency — British Columbia, Canada",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-11T09:27:56Z",
+        "at": "2026-09-12T09:11:50Z",
         "layer": "verify",
-        "run_id": "2026-09-11T09-27-56Z-f34241"
+        "run_id": "2026-09-12T09-11-50Z-ff550d"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-11T09-27-56Z-f34241"
+    "last_run_id": "2026-09-12T09-11-50Z-ff550d"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -241,6 +257,10 @@
     "recency_rank": 739836
   },
   "updates": [
+    {
+      "date": "2026-09-12",
+      "text": "EmergencyInfoBC's evacuation list eased to 12 active orders/alerts (from 14), most recently updated for the Okanagan Indian Band (9 September); the BC Wildfire Service also rescinded Category 1 campfire prohibitions in the Cariboo, Coastal and Kamloops fire centres effective 3 September, citing improved conditions, though Category 2/3 open-fire bans remain until 31 October."
+    },
     {
       "date": "2026-09-11",
       "text": "BC Wildfire Service rescinded the area restriction order for the Bald Range fire on 4 September, citing decreased fire behaviour and activity; EmergencyInfoBC's evacuation-notice count eased to 14 active orders/alerts, down from 19, most recently updated for the Okanagan Indian Band (9 September)."
@@ -308,7 +328,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 25 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 27 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

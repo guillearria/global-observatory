@@ -8,14 +8,22 @@
       "source_url": "https://gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL",
       "text": "GDACS report 'Overall Orange Flood in China from 22 Aug 2026 01:00 UTC to 26 Aug 2026 01:00 UTC' (event FL 1104123, GLIDE FL-2026-000166-CHN): location Fujian Province, China; 1 death and 87,168 displaced; alert text states heavy rain from 24 August 2026 caused the flooding, assessed as having 'a medium humanitarian impact based on the magnitude, exposed population and vulnerability.'",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-09-12",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104123",
+      "text": "GDACS's event data API for FL 1104123 (Fujian floods) shows the record last modified 27 August 2026, with only 4 episodes published in total (the latest, episode 4, covering 22-26 August 2026) and no episode issued since; cumulative figures recorded are 1 death, 2 missing, 105 rescued, and evacuations spanning Guangxi (54,000), Longyan in Fujian (7,093) and other regions. Overall alert level remains Orange.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Heavy rain beginning 24 August 2026 caused flooding across Fujian Province on China's southeastern coast, triggering a GDACS Orange flood alert. GDACS's episode report, covering 22-26 August 2026, records 1 death and 87,168 people displaced by the flooding. The event is a distinct, later episode from the early-August landfall of Typhoon Dolphin elsewhere on China's eastern seaboard, which is tracked separately.",
+  "description": "Heavy rain beginning 24 August 2026 caused flooding across Fujian Province on China's southeastern coast, triggering a GDACS Orange flood alert. GDACS's episode report, covering 22-26 August 2026, recorded 1 death and 87,168 people displaced; its broader event-data record additionally logs 2 people missing, 105 rescued, and evacuations spread across Guangxi, Longyan (Fujian) and other affected areas. No further episode has been published since 26 August and GDACS last updated the record on 27 August 2026, indicating the tracked flood event has run its course. The event is a distinct, earlier episode from the late-July/August Yangtze-basin flooding tied to Typhoon Dolphin and Typhoon Saudel, which is tracked separately.",
   "event": {
     "impact": {
       "deaths": 1,
       "displaced": 87168,
-      "summary": "GDACS's flood report for Fujian Province (event FL 1104123, GLIDE FL-2026-000166-CHN), covering 22-26 August 2026, records 1 death and 87,168 people displaced under an Orange alert for medium humanitarian impact, attributing the flooding to heavy rain beginning 24 August 2026."
+      "summary": "GDACS's flood report for Fujian Province (event FL 1104123, GLIDE FL-2026-000166-CHN) recorded 1 death and 87,168 people displaced under an Orange alert for medium humanitarian impact, with heavy rain beginning 24 August 2026. GDACS's broader event record additionally logs 2 missing and 105 rescued, with evacuations spanning Guangxi and Longyan (Fujian). No new episode has been published since 26 August 2026, and GDACS last updated the record on 27 August 2026, indicating the tracked event has closed."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL",
     "location": {
@@ -26,21 +34,21 @@
     },
     "occurrence_date": "2026-08-22",
     "scale": "GDACS Orange flood alert",
-    "status": "ongoing"
+    "status": "contained"
   },
   "id": "china-floods-fujian-2026",
-  "last_updated": "2026-09-11T09:27:56Z",
+  "last_updated": "2026-09-12T09:11:51Z",
   "name": "Fujian Floods, China",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-11T09:27:56Z",
+        "at": "2026-09-12T09:11:51Z",
         "layer": "verify",
-        "run_id": "2026-09-11T09-27-56Z-37346f"
+        "run_id": "2026-09-12T09-11-51Z-f2052d"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-11T09-27-56Z-37346f"
+    "last_run_id": "2026-09-12T09-11-51Z-f2052d"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -48,10 +56,15 @@
     "impact_rank": 2,
     "recency_rank": 739850
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-12",
+      "text": "GDACS's event record for this flood (FL 1104123) shows no episode published since 26 August 2026 and was last updated by GDACS on 27 August, with cumulative figures of 1 death, 2 missing and 105 rescued; the tracked event appears to have run its course and status is updated to contained."
+    }
+  ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

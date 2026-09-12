@@ -14,6 +14,12 @@
       "label": "Servicio Geológico Colombiano"
     },
     {
+      "category": "geological",
+      "domain": "geologi.esdm.go.id",
+      "justification": "The Badan Geologi (Geological Agency) of Indonesia's Ministry of Energy and Mineral Resources houses PVMBG, the national volcanological survey that sets official volcano alert levels and exclusion-zone radii; the same institutional tier as USGS and Colombia's already-allowlisted Servicio Geológico Colombiano for hazard data within its own territory, and the primary source for Indonesian volcanic-alert-level and exclusion-zone figures that GDACS's own event reports do not carry.",
+      "label": "Badan Geologi / PVMBG (Indonesia)"
+    },
+    {
       "category": "event",
       "domain": "dswd.gov.ph",
       "justification": "The Department of Social Welfare and Development is the Philippine national government agency whose Disaster Response Operations Monitoring and Information Center (DROMIC) issues the official situation reports on disaster-affected/displaced families and housing damage that ReliefWeb itself mirrors; the same institutional tier as Pakistan's NDMA or Sri Lanka's DMC, and the primary source when ReliefWeb's own mirror is not yet reachable or not yet posted for a given report.",
