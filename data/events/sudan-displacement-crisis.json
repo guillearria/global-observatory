@@ -58,6 +58,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-22",
+      "retrieved_date": "2026-09-13",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/country/sdn",
+      "text": "UNHCR's Operational Data Portal for Sudan (data as of 31 August 2026): 8,622,801 internally displaced persons within Sudan, down from 8,685,273 as of 31 July 2026, and 905,349 refugees and asylum-seekers in Sudan, up from 900,819; 32% of the refugee/asylum-seeker population is out of camp and 68% is settled in camps, with IDPs comprising 2.19 million displaced prior to April 2023 and approximately 6.43 million displaced since.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-28",
       "source_name": "ReliefWeb",
@@ -74,12 +82,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "The conflict that erupted in Sudan in April 2023 between the Sudanese Armed Forces and the Rapid Support Forces has produced what UNHCR calls the world's largest displacement, humanitarian and protection crisis, forcing millions from their homes inside Sudan and into neighbouring countries. UNHCR's Operational Data Portal for the Sudan situation last recorded 11,344,665 total forcibly displaced (updated 3 August 2026), comprising 6,490,949 IDPs within Sudan, 273,081 self-relocated refugees in Sudan and 4,580,635 newly arrived refugees, asylum-seekers and returnees outside the country. UNHCR's Sudan country page separately records 8,685,273 internally displaced persons within Sudan and 900,819 refugees and asylum-seekers hosted in Sudan (data as of 31 July 2026). Displacement continues: a 19 August 2026 UN News/IOM alert reported that fighting has displaced 200,000+ more people across the wider Kordofan region since late 2025, with seasonal floods now compounding the crisis in North Darfur, and that more than 30 million people across Sudan need humanitarian assistance while the country's $3 billion appeal is only 40% funded.",
+  "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country, while its regional situation portal last recorded 11,349,317 people forcibly displaced by the Sudan crisis overall (10 August 2026 update). Displacement continues to be driven by fighting in Kordofan, Darfur and Blue Nile alongside seasonal flooding, with more than 30 million people across Sudan in need of humanitarian assistance and the country's $3 billion appeal only 40% funded.",
   "event": {
     "impact": {
       "deaths": null,
-      "displaced": 9586092,
-      "summary": "UNHCR's Sudan situation portal last recorded 11,344,665 total forcibly displaced (3 August 2026), while its Sudan country page records 8,685,273 internally displaced persons within Sudan plus 900,819 refugees and asylum-seekers hosted there (31 July 2026), with 6.49 million of the internal displacement having occurred since April 2023. UNHCR continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. A 19 August 2026 UN News/IOM alert reported that fighting has displaced 200,000+ more people across the wider Kordofan region since late 2025 -- including a 25% rise in Sheikan locality displacement over eight months -- and that seasonal floods are now compounding the crisis, destroying or damaging about 1,350 shelters in North Darfur's Tawila camps in a single week; more than 30 million people in Sudan need humanitarian assistance and the country's $3 billion appeal is only 40% funded."
+      "displaced": 9528150,
+      "summary": "UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan, down slightly from 8,685,273 a month earlier, and 905,349 refugees and asylum-seekers hosted in the country, up from 900,819; 6.43 million of the internal displacement has occurred since April 2023. UNHCR's regional situation portal last recorded a total of 11,349,317 people forcibly displaced by the Sudan crisis (10 August 2026 update) and continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. Fighting and flooding across Kordofan, Darfur and Blue Nile continue to displace people, with more than 30 million in need nationwide and Sudan's $3 billion humanitarian appeal only 40% funded."
     },
     "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
     "location": {
@@ -93,18 +101,18 @@
     "status": "ongoing"
   },
   "id": "sudan-displacement-crisis",
-  "last_updated": "2026-09-12T09:13:42Z",
+  "last_updated": "2026-09-13T09:18:25Z",
   "name": "Sudan Displacement Crisis",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-12T09:13:42Z",
+        "at": "2026-09-13T09:18:25Z",
         "layer": "verify",
-        "run_id": "2026-09-12T09-13-42Z-8c2b72"
+        "run_id": "2026-09-13T09-18-25Z-8f2d02"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-12T09-13-42Z-8c2b72"
+    "last_run_id": "2026-09-13T09-18-25Z-8f2d02"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -113,6 +121,10 @@
     "recency_rank": 738625
   },
   "updates": [
+    {
+      "date": "2026-09-13",
+      "text": "UNHCR's Sudan country portal (data as of 31 August 2026) recorded 8,622,801 internally displaced persons within Sudan, down from 8,685,273 a month earlier, while refugees and asylum-seekers hosted in Sudan rose slightly to 905,349 from 900,819."
+    },
     {
       "date": "2026-08-21",
       "text": "UN News/IOM reported (19 August) that fighting has displaced 200,000+ people across the wider Kordofan region since late 2025, including a 25% rise in Sheikan locality over eight months; floods destroyed or damaged about 1,350 shelters in North Darfur's Tawila camps in a week, displacing 1,000+ families, and displaced nearly 18,000 in West Darfur in early August."
@@ -136,7 +148,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

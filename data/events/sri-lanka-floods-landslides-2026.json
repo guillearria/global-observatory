@@ -66,6 +66,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-18",
+      "retrieved_date": "2026-09-13",
+      "source_name": "Disaster Management Centre (Sri Lanka)",
+      "source_url": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1789277061.pdf",
+      "text": "Sri Lanka's Disaster Management Centre situation report of 13 September 2026 (1000hrs) records 10 deaths, 9 injured and 0 missing, with 4,360 families (17,054 people) affected across the country and 851 houses damaged (4 fully, 847 partially), up from 796 on 9 September, while 25 persons (8 families) remain in 1 safe location, unchanged.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-7",
       "retrieved_date": "2026-08-13",
       "source_name": "Disaster Management Centre (Sri Lanka)",
@@ -90,12 +98,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Heavy monsoon rainfall triggered flooding and landslides across Sri Lanka's central highlands from around 2 August 2026, with a fatal landslide at Hatton in Nuwara Eliya District. Sri Lanka's Disaster Management Centre (DMC) reports 10 deaths, 9 injured and no one missing as of its 9 September 2026 situation report, with 4,309 families (16,881 people) affected nationally and 796 houses damaged, up marginally from 787 the previous day; Nuwara Eliya remains the worst-hit district, followed by Kandy. The sheltered population has held steady at 25 persons in 1 safe location since 23 August, as most displaced residents have returned home. GDACS assessed the event at a Green alert, and its early Sendai-feed snapshot of 12 deaths and 6,882 evacuated remains superseded by the DMC's ground-assessed figures.",
+  "description": "Heavy monsoon rainfall triggered flooding and landslides across Sri Lanka's central highlands from around 2 August 2026, with a fatal landslide at Hatton in Nuwara Eliya District. Sri Lanka's Disaster Management Centre (DMC) reports 10 deaths, 9 injured and no one missing as of its 13 September 2026 situation report, with 4,360 families (17,054 people) affected nationally and 851 houses damaged, up from 796 on 9 September; Nuwara Eliya remains the worst-hit district, followed by Kandy. The sheltered population has held steady at 25 persons in 1 safe location since 23 August, as most displaced residents have returned home. GDACS assessed the event at a Green alert, and its early Sendai-feed snapshot of 12 deaths and 6,882 evacuated remains superseded by the DMC's ground-assessed figures.",
   "event": {
     "impact": {
       "deaths": 10,
-      "displaced": 16881,
-      "summary": "Sri Lanka's Disaster Management Centre situation report of 9 September 2026 (1000hrs) records 10 deaths, 9 injured and 0 missing, with 4,309 families (16,881 people) affected across the country and 796 houses damaged (4 fully, 792 partially), up marginally from 787 the previous day; 25 persons (8 families) remain in 1 safe location, unchanged since 23 August. Nuwara Eliya district remains worst-hit, followed by Kandy district."
+      "displaced": 17054,
+      "summary": "Sri Lanka's Disaster Management Centre situation report of 13 September 2026 (1000hrs) records 10 deaths, 9 injured and 0 missing, with 4,360 families (17,054 people) affected across the country and 851 houses damaged (4 fully, 847 partially), up from 796 on 9 September; 25 persons (8 families) remain in 1 safe location, unchanged since 23 August. Nuwara Eliya district remains worst-hit, followed by Kandy district."
     },
     "live_source_url": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&report_type_id=1&Itemid=273&lang=en",
     "location": {
@@ -105,22 +113,22 @@
       "region": "Central highlands: Kandy, Nuwara Eliya (including Hatton), Kegalle and Ratnapura districts"
     },
     "occurrence_date": "2026-08-02",
-    "scale": "GDACS Green alert; 10 confirmed deaths (DMC, 8 Sep), 25 people in 1 safe location",
+    "scale": "GDACS Green alert; 10 confirmed deaths (DMC, 13 Sep), 25 people in 1 safe location",
     "status": "ongoing"
   },
   "id": "sri-lanka-floods-landslides-2026",
-  "last_updated": "2026-09-12T09:13:42Z",
+  "last_updated": "2026-09-13T09:18:25Z",
   "name": "Floods and Landslides — Sri Lanka",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-12T09:13:42Z",
+        "at": "2026-09-13T09:18:25Z",
         "layer": "verify",
-        "run_id": "2026-09-12T09-13-42Z-02df13"
+        "run_id": "2026-09-13T09-18-25Z-d25fdf"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-12T09-13-42Z-02df13"
+    "last_run_id": "2026-09-13T09-18-25Z-d25fdf"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -129,6 +137,10 @@
     "recency_rank": 739830
   },
   "updates": [
+    {
+      "date": "2026-09-13",
+      "text": "The DMC's 13 September situation report held deaths at 10 and injured at 9, with affected families rising to 4,360 (17,054 people) and houses damaged to 851 (4 fully, 847 partially), up from 796 on 9 September; the sheltered population held steady at 25 persons (8 families) in 1 safe location."
+    },
     {
       "date": "2026-09-10",
       "text": "Sri Lanka DMC's 9 September situation report keeps the death toll at 10 while affected persons edged up to 16,881 (4,309 families) from 16,822, with 796 houses damaged, up from 787."
@@ -172,7 +184,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
