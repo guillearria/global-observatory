@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T10:09:18Z",
+  "last_updated": "2026-09-14T10:10:11Z",
   "published": [
     {
       "assessment": {
@@ -728,14 +728,14 @@
           "window": "next-100-years"
         },
         "severity": "continental",
-        "summary": "A recurrent biological threat whose severe-pandemic form could greatly exceed the already-large annual burden of seasonal influenza.",
+        "summary": "A recurrent biological threat whose severe-pandemic form could greatly exceed the already-large annual burden of seasonal influenza; the main watch item is H5N1, which kills roughly half of the people it is confirmed to infect but has not acquired sustained human-to-human transmission.",
         "timeframe": "Pandemics recur on the order of every few decades; timing is not predictable."
       },
       "category": "biological",
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-08-03",
+          "retrieved_date": "2026-09-14",
           "source_name": "WHO",
           "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
           "text": "The WHO states seasonal influenza causes 290,000 to 650,000 respiratory deaths annually.",
@@ -743,27 +743,43 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-08-03",
+          "retrieved_date": "2026-09-14",
           "source_name": "WHO",
           "source_url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
           "text": "The WHO states there are around a billion cases of seasonal influenza annually worldwide, including 3-5 million cases of severe illness.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-09-14",
+          "source_name": "WHO",
+          "source_url": "https://cdn.who.int/media/docs/default-source/influenza/h5n1-human-case-cumulative-table/cumulative-number-of-confirmed-human-cases-for-avian-influenza-a(h5n1)-reported-to-who--2003-20267f2be8b2-0de2-43f6-9d81-7d7c8c2b7670.pdf?sfvrsn=8cdec10c_3",
+          "text": "WHO's cumulative table of confirmed human cases of avian influenza A(H5N1) reported to WHO for 2003-2026 records 1,002 cases and 479 deaths across 25 reporting countries, with data in WHO headquarters as of 7 August 2026.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-09-14",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news/item/20-07-2026-who-member-states-continue-negotiations-on-the-pathogen-access-and-benefit-sharing-annex",
+          "text": "WHO states the World Health Assembly adopted the WHO Pandemic Agreement in May 2025, and that at the close of the seventh meeting of the Intergovernmental Working Group on 17 July 2026 member states were still negotiating the agreement's Pathogen Access and Benefit Sharing annex, with an eighth meeting scheduled for 14-18 September 2026.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A novel influenza strain to which the population has little immunity could spread worldwide and cause mortality far exceeding ordinary seasonal influenza, as in 1918. Influenza pandemics have recurred several times per century.",
+      "description": "A novel influenza strain to which the population has little immunity could spread worldwide and cause mortality far exceeding ordinary seasonal influenza, as in 1918. Pandemics have recurred several times per century, and the ordinary seasonal burden — around a billion cases and 290,000 to 650,000 respiratory deaths a year — is the floor a pandemic strain would build on. Highly pathogenic avian influenza A(H5N1) remains the most closely watched candidate: WHO has logged just over a thousand confirmed human infections since 2003, almost half of them fatal, but these are sporadic cases tied to animal exposure rather than sustained human-to-human transmission. The international response framework is still being completed — the WHO Pandemic Agreement was adopted in May 2025, but its Pathogen Access and Benefit Sharing annex, which would govern how samples and countermeasures are shared during a pandemic, is still under negotiation.",
       "id": "influenza-pandemic",
-      "last_updated": "2026-08-03T10:07:23Z",
+      "last_updated": "2026-09-14T10:10:11Z",
       "name": "Influenza Pandemic",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-03T10:07:23Z",
+            "at": "2026-09-14T10:10:11Z",
             "layer": "verify",
-            "run_id": "2026-08-03T10-07-23Z-309989"
+            "run_id": "2026-09-14T10-10-11Z-d8bf93"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-03T10-07-23Z-309989"
+        "last_run_id": "2026-09-14T10-10-11Z-d8bf93"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -773,7 +789,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1230,7 +1246,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-08-03",
+          "retrieved_date": "2026-09-14",
           "source_name": "NASA",
           "source_url": "https://orbitaldebris.jsc.nasa.gov/faq/",
           "text": "NASA's Orbital Debris Program Office states more than 25,000 tracked objects larger than 10 cm orbit Earth, with an estimated 500,000 objects between 1 and 10 cm, and more than 100 million objects larger than 1 mm; as of January 2022 the total mass of orbiting material exceeded 9,000 metric tons.",
@@ -1238,7 +1254,7 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-08-03",
+          "retrieved_date": "2026-09-14",
           "source_name": "NASA",
           "source_url": "https://orbitaldebris.jsc.nasa.gov/faq/",
           "text": "NASA states the International Space Station maneuvers to avoid a tracked object when the estimated collision probability exceeds 1 in 10,000, which occurs about once a year on average.",
@@ -1246,27 +1262,43 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-08-03",
+          "retrieved_date": "2026-09-14",
           "source_name": "NASA",
           "source_url": "https://www.earthdata.nasa.gov/news/feature-articles/rubble-trouble",
           "text": "NASA describes the Kessler syndrome as a domino effect that can result when objects in intersecting orbits collide at thousands of miles per hour, generating debris that raises the odds of further collisions.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-09-14",
+          "source_name": "NASA",
+          "source_url": "https://orbitaldebris.jsc.nasa.gov/quarterly-news/pdfs/ODQNv30i1.pdf",
+          "text": "The Satellite Box Score in NASA's Orbital Debris Quarterly News (Volume 30, Issue 1 & 2, July 2026) lists 33,098 objects in Earth orbit cataloged by the U.S. Space Surveillance Network as of 4 May 2026 — 18,189 spacecraft, active and defunct, and 14,909 spent rocket bodies and other cataloged debris.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-09-14",
+          "source_name": "NASA",
+          "source_url": "https://orbitaldebris.jsc.nasa.gov/quarterly-news/pdfs/ODQNv30i1.pdf",
+          "text": "NASA's Orbital Debris Program Office states that because the orbital debris population follows a power-law size distribution, there is far more millimeter-sized debris (on the order of 100 million) than large, trackable objects (approximately 50,000), so the likelihood of non-catastrophic but mission-ending damage from millimeter-sized debris is orders of magnitude greater than that of an accidental collision with a large, trackable object.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Decades of launches, spent rocket stages, defunct satellites, and past collisions have left a large and growing population of debris in Earth orbit. As the density of objects in low Earth orbit rises, so does the risk of a cascading chain reaction of collisions — the 'Kessler syndrome' — that could render whole orbital bands too hazardous for satellites and crewed spacecraft for generations, threatening the GPS, communications, weather, and scientific infrastructure the world now depends on. NASA already tracks tens of thousands of objects and regularly maneuvers spacecraft, including the International Space Station, to avoid collisions.",
+      "description": "Decades of launches, spent rocket stages, defunct satellites, and past collisions have left a large and growing population of debris in Earth orbit. As the density of objects in low Earth orbit rises, so does the risk of a cascading chain reaction of collisions — the 'Kessler syndrome' — that could render whole orbital bands too hazardous for satellites and crewed spacecraft for generations, threatening the GPS, communications, weather, and scientific infrastructure the world now depends on. The US Space Surveillance Network now catalogs more than 33,000 objects in orbit, over half of them spacecraft, and NASA estimates on the order of 100 million fragments larger than a millimetre that are too small to track yet still capable of ending a mission. Spacecraft including the International Space Station maneuver away from tracked objects when the collision probability exceeds 1 in 10,000.",
       "id": "space-debris-kessler-syndrome",
-      "last_updated": "2026-08-03T10:08:41Z",
+      "last_updated": "2026-09-14T10:10:11Z",
       "name": "Space Debris and Kessler Syndrome",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-03T10:08:41Z",
+            "at": "2026-09-14T10:10:11Z",
             "layer": "verify",
-            "run_id": "2026-08-03T10-08-41Z-7174a1"
+            "run_id": "2026-09-14T10-10-11Z-b780c9"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-03T10-08-41Z-7174a1"
+        "last_run_id": "2026-09-14T10-10-11Z-b780c9"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1276,7 +1308,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1284,18 +1316,18 @@
       "assessment": {
         "probability": {
           "estimate": "very-low",
-          "numeric_annual": 7.3e-07,
+          "numeric_annual": 1.4e-06,
           "window": "next-100-years"
         },
         "severity": "continental",
-        "summary": "A continent-scale disaster with extremely low annual probability and no current signs of imminent eruption.",
+        "summary": "A continent-scale disaster with extremely low annual probability, continuously monitored, and with no current signs of unrest beyond background levels.",
         "timeframe": "No reliable short-term forecast. The three largest past eruptions occurred ~2.1M, ~1.3M, and ~0.64M years ago."
       },
       "category": "geological",
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-08-03",
+          "retrieved_date": "2026-09-14",
           "source_name": "USGS",
           "source_url": "https://www.usgs.gov/volcanoes/yellowstone/questions-about-supervolcanoes",
           "text": "The USGS estimates the yearly probability of another Yellowstone caldera-forming eruption at roughly 1 in 730,000 (0.00014%), based on averaging the intervals between the three past major eruptions.",
@@ -1303,27 +1335,43 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-08-03",
+          "retrieved_date": "2026-09-14",
           "source_name": "USGS",
           "source_url": "https://www.usgs.gov/volcanoes/yellowstone",
           "text": "USGS states Yellowstone's three caldera-forming eruptions were the Huckleberry Ridge Tuff (~2.1 million years ago), the Mesa Falls Tuff (~1.3 million years ago), and the Lava Creek Tuff (~640,000 years ago).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-09-14",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/volcanoes/yellowstone/questions-about-supervolcanoes",
+          "text": "The USGS states there is no evidence that a catastrophic eruption at Yellowstone is imminent, and that such events are unlikely to occur in the next few centuries.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-09-14",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/volcanoes/yellowstone/volcano-updates",
+          "text": "The Yellowstone Volcano Observatory's 1 September 2026 monthly update gives the current Volcano Alert Level as NORMAL and the current Aviation Color Code as GREEN, and reports 61 earthquakes located in the Yellowstone National Park region during August 2026, the largest a magnitude 2.0 micro earthquake.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A large caldera system beneath Yellowstone National Park capable of a 'supereruption' that would blanket much of North America in ash and inject climate-altering aerosols into the stratosphere. Such eruptions are extraordinarily rare and there is no evidence one is imminent.",
+      "description": "A large caldera system beneath Yellowstone National Park capable of a 'supereruption' that would blanket much of North America in ash and inject climate-altering aerosols into the stratosphere. Eruptions on that scale are extraordinarily rare: the USGS puts the yearly probability of another caldera-forming eruption at roughly 1 in 730,000 and states there is no evidence one is imminent, or likely within the next few centuries. The Yellowstone Volcano Observatory holds the volcano at its lowest status — Volcano Alert Level NORMAL, Aviation Color Code GREEN — with seismicity at background levels and caldera uplift of about a centimetre or less over recent months.",
       "id": "yellowstone-supervolcano",
-      "last_updated": "2026-08-03T10:07:13Z",
+      "last_updated": "2026-09-14T10:10:11Z",
       "name": "Yellowstone Supervolcano",
       "provenance": {
         "history": [
           {
-            "at": "2026-08-03T10:07:13Z",
+            "at": "2026-09-14T10:10:11Z",
             "layer": "verify",
-            "run_id": "2026-08-03T10-07-13Z-21ecf5"
+            "run_id": "2026-09-14T10-10-11Z-1c0310"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-08-03T10-07-13Z-21ecf5"
+        "last_run_id": "2026-09-14T10-10-11Z-1c0310"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1333,7 +1381,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }
