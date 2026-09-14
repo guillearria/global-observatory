@@ -90,6 +90,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-24",
+      "retrieved_date": "2026-09-14",
+      "source_name": "OCHA oPt",
+      "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-11-september-2026",
+      "text": "OCHA oPt's Humanitarian Situation Report of 11 September 2026 (reporting period 1-7 September) states: \"Six Palestinians were killed, 31 Palestinians and one Israeli settler were injured, and 61 Palestinians were displaced by demolitions\" in the West Bank during the week. It adds that, in Al 'Arrub Camp (Hebron, 7 September) and Qarawat Bani Hassan village (Salfit, 3 September), about 30 Palestinians were detained and interrogated in each community during Israeli forces' operations, with homes temporarily used for detention. The report does not restate a new year-to-date cumulative death/injury total; it separately notes about 1,500 Palestinians displaced by demolitions across the West Bank so far in 2026, and more than 1,600 settler attacks resulting in Palestinian casualties and/or property damage documented between January and August 2026.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-07-27",
       "source_name": "ReliefWeb",
@@ -122,12 +130,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Israeli settler violence in the occupied West Bank has continued through early September 2026, culminating on 24 July 2026 when Israeli settlers carried out two attacks on Tal village near Nablus that left four Palestinians and two Israelis dead and triggered a wave of reprisal attacks and an Israeli government-announced 'major counterterrorism operation.' OCHA oPt's 4 September 2026 Humanitarian Situation Report puts the cumulative 2026 toll at 82 Palestinians killed (19 children) and about 1,900 injured by Israeli forces or settlers, of whom 23 were killed and over 1,100 injured specifically in settler attacks. More than 3,960 Palestinians have been displaced by demolitions, evictions, settler attacks and related access restrictions in 2026, averaging more than 16 people per day -- nearly double the 2023-2025 daily average. UN humanitarian partners report more than 200 settler attacks per month on average in 2026, the highest monthly average on record.",
+  "description": "Israeli settler violence in the occupied West Bank has continued through early September 2026, culminating on 24 July 2026 when Israeli settlers carried out two attacks on Tal village near Nablus that left four Palestinians and two Israelis dead and triggered a wave of reprisal attacks and an Israeli government-announced 'major counterterrorism operation.' OCHA oPt's 4 September 2026 Humanitarian Situation Report put the cumulative 2026 toll at 82 Palestinians killed (19 children) and about 1,900 injured by Israeli forces or settlers, of whom 23 were killed and over 1,100 injured specifically in settler attacks; more than 3,960 Palestinians had been displaced by demolitions, evictions, settler attacks and related access restrictions in 2026, averaging more than 16 people per day. OCHA's following weekly report (11 September, covering 1-7 September) recorded six further Palestinians killed and 32 injured (31 Palestinians, one Israeli settler) plus 61 more people displaced by demolitions that week, without yet restating an updated year-to-date total. UN humanitarian partners report more than 200 settler attacks per month on average in 2026, the highest monthly average on record.",
   "event": {
     "impact": {
       "deaths": 82,
       "displaced": 3960,
-      "summary": "Per OCHA oPt's 4 September 2026 Humanitarian Situation Report, 82 Palestinians (19 children) have been killed and about 1,900 injured by Israeli forces or settlers in the West Bank since the start of 2026 -- 23 of the deaths and over 1,100 of the injuries specifically in settler attacks. More than 3,960 Palestinians have been displaced by demolitions, evictions, settler attacks and related access restrictions in 2026, averaging more than 16 people per day -- nearly double the daily average observed between 2023 and 2025. UN humanitarian partners report more than 200 settler attacks per month on average in 2026, the highest monthly average on record; 3 Israelis are still reported killed in 2026."
+      "summary": "Per OCHA oPt's 4 September 2026 Humanitarian Situation Report, 82 Palestinians (19 children) had been killed and about 1,900 injured by Israeli forces or settlers in the West Bank since the start of 2026 -- 23 of the deaths and over 1,100 of the injuries specifically in settler attacks -- with more than 3,960 people displaced by demolitions, evictions, settler attacks and related access restrictions, averaging more than 16 people per day. OCHA's next weekly report (11 September, covering 1-7 September) recorded six further Palestinians killed, 32 more injured (31 Palestinians, one Israeli settler), and 61 additional people displaced by demolitions that week, without yet restating a new year-to-date cumulative total. UN humanitarian partners report more than 200 settler attacks per month on average in 2026, the highest monthly average on record; 3 Israelis are still reported killed in 2026."
     },
     "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-4-september-2026",
     "location": {
@@ -141,18 +149,18 @@
     "status": "ongoing"
   },
   "id": "west-bank-settler-violence-surge-2026",
-  "last_updated": "2026-09-13T09:18:26Z",
+  "last_updated": "2026-09-14T09:13:46Z",
   "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-13T09:18:26Z",
+        "at": "2026-09-14T09:13:46Z",
         "layer": "verify",
-        "run_id": "2026-09-13T09-18-26Z-453c16"
+        "run_id": "2026-09-14T09-13-46Z-e40ad0"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-13T09-18-26Z-453c16"
+    "last_run_id": "2026-09-14T09-13-46Z-e40ad0"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -161,6 +169,10 @@
     "recency_rank": 739821
   },
   "updates": [
+    {
+      "date": "2026-09-14",
+      "text": "OCHA oPt's weekly report of 11 September (covering 1-7 September) recorded six further Palestinians killed, 31 Palestinians and one Israeli settler injured, and 61 Palestinians displaced by demolitions during the week -- on top of the 82 killed/about 1,900 injured/3,960+ displaced cumulative 2026 total already on file as of 4 September; no new year-to-date total has yet been published."
+    },
     {
       "date": "2026-09-10",
       "text": "OCHA oPt's 4 September 2026 report puts West Bank fatalities since Jan 2026 at 82 (up from 79), about 1,900 injured, including 23 killed and over 1,100 injured in settler attacks specifically; displacement rose to more than 3,960 Palestinians, up from 3,800."
@@ -200,7 +212,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
