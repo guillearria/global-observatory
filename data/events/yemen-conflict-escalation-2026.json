@@ -48,14 +48,22 @@
       "source_url": "https://news.un.org/en/story/2026/09/1168314",
       "text": "UN News (11 September 2026) reports that the World Health Organization 'recorded 67 deaths and 288 injuries between 6-24 August' in seven Yemeni governorates.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-7",
+      "retrieved_date": "2026-09-15",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168328",
+      "text": "UN News (14 September 2026), citing OCHA and OHCHR: 'At least 18,000 households -- or 125,000 people -- have been displaced since the start of the month' by hostilities in Yemen, with 80,000 people displaced 'by escalating fighting in Yemen in recent days'; separately, 'Between 1 September and Monday, the UN human rights office, OHCHR, has verified 40 civilian casualties -- eight people killed and 32 others injured,' with women and children accounting for half of those killed and more than half of those injured. The article also reports that Houthi fighters 'have seized multiple islands in the Red Sea and a crucial Yemeni port city, giving them greater control over the Bab al-Mandab Strait,' in addition to the earlier seizure of eight UN vehicles from a key aid hub.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Yemen's Houthi rebels seized the strategic Red Sea port of Mocha on 10 September 2026, and the UN warns the country has entered a 'new, more dangerous phase' of war. Pro-government forces reportedly withdrew a day later from an island base in the Bab al-Mandab Strait, and UN Special Envoy Hans Grundberg told the Security Council the 2022 truce has effectively collapsed. IOM reports at least 46,000 people displaced across the West Coast and Taiz governorates since fighting resumed on 3 September, WHO recorded 67 deaths and 288 injuries across seven governorates between 6-24 August, and OCHA has separately documented at least 14 civilians killed or wounded since the start of September.",
+  "description": "Yemen's Houthi rebels seized the strategic Red Sea port of Mocha on 10 September 2026, then went on to seize further Red Sea islands, tightening their grip on the Bab al-Mandab Strait; the UN warns the country has entered a 'new, more dangerous phase' of war. OCHA reported on 14 September that hostilities since the start of September have displaced at least 125,000 people (18,000 households), while OHCHR verified 40 civilian casualties -- eight killed and 32 injured -- between 1 and 14 September. WHO separately recorded 67 deaths and 288 injuries across seven governorates between 6-24 August. Humanitarian access along the west coast remains severely constrained, with supplies critically low and funding falling short of needs.",
   "event": {
     "impact": {
       "deaths": 67,
-      "displaced": 46000,
-      "summary": "WHO recorded 67 deaths and 288 injuries across seven Yemeni governorates between 6-24 August 2026, and OCHA separately documented at least 14 civilians, including two children, killed or wounded since the start of September. IOM reported on 11 September 2026 that at least 46,000 people have been displaced by fighting across Yemen's West Coast and Taiz governorates since hostilities resumed on 3 September, a figure the agency called 'alarmingly rising by the hour.' Houthi forces captured the Red Sea port of Mocha on 10 September, seizing eight UN vehicles from a humanitarian hub, and pro-government forces reportedly withdrew on 11 September from an island base in the Bab al-Mandab Strait; UN Special Envoy Hans Grundberg told the Security Council Yemen's 2022 truce has collapsed into 'a new, more dangerous phase of war.' Over half of Yemen's population faces acute food insecurity, with the humanitarian appeal only about 20 percent funded."
+      "displaced": 125000,
+      "summary": "OCHA reported on 14 September 2026 that hostilities since the start of September have displaced at least 125,000 people (18,000 households), with 80,000 displaced in the preceding days alone; OHCHR has verified 40 civilian casualties -- eight killed and 32 injured, with women and children accounting for half of deaths and over half of injuries -- between 1 and 14 September. WHO separately recorded 67 deaths and 288 injuries across seven governorates between 6-24 August. Houthi forces captured the Red Sea port of Mocha on 10 September and have since seized further Red Sea islands, tightening control over the Bab al-Mandab Strait and earlier seizing eight UN vehicles from a humanitarian hub; UN Special Envoy Hans Grundberg says Yemen's 2022 truce has collapsed into 'a new, more dangerous phase of war.' Humanitarian access on the west coast remains severely constrained amid critically low supplies and underfunding."
     },
     "live_source_url": "https://news.un.org/en/focus/yemen",
     "location": {
@@ -65,30 +73,34 @@
       "region": "Ta'izz Governorate (Mocha, Al-Mokha) and Yemen's West Coast; attacks also in the Bab el-Mandeb Strait"
     },
     "occurrence_date": "2026-08-07",
-    "scale": "Houthis seize Mocha port and reportedly gain the Bab al-Mandab Strait's Perim-area base; UN warns 2022 truce has collapsed into a new, more dangerous war phase",
+    "scale": "Houthi forces hold Mocha, the Perim-area Bab al-Mandab base and further Red Sea islands; UN warns the 2022 truce has collapsed into a new, more dangerous war phase",
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-09-14T09:12:02Z",
+  "last_updated": "2026-09-15T09:11:16Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-14T09:12:02Z",
+        "at": "2026-09-15T09:11:16Z",
         "layer": "verify",
-        "run_id": "2026-09-14T09-12-02Z-d41c23"
+        "run_id": "2026-09-15T09-11-16Z-829b78"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-14T09-12-02Z-d41c23"
+    "last_run_id": "2026-09-15T09-11-16Z-829b78"
   },
   "schema_version": "1.0",
   "sort_keys": {
-    "composite": 7398352.0,
-    "impact_rank": 2,
+    "composite": 7398353.0,
+    "impact_rank": 3,
     "recency_rank": 739835
   },
   "updates": [
+    {
+      "date": "2026-09-15",
+      "text": "OCHA reported hostilities since 1 September have displaced at least 125,000 people (18,000 households) in Yemen, with 80,000 displaced in recent days alone; OHCHR verified 40 civilian casualties (8 killed, 32 injured) between 1-14 September. Houthi forces seized further Red Sea islands beyond Mocha, tightening control of the Bab al-Mandab Strait."
+    },
     {
       "date": "2026-09-13",
       "text": "WHO reported 67 deaths and 288 injuries across seven Yemeni governorates between 6-24 August 2026, per UN News -- the most comprehensive casualty count yet published for the current escalation."
@@ -104,7 +116,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

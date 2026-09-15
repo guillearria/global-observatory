@@ -99,7 +99,7 @@
     },
     {
       "id": "claim-23",
-      "retrieved_date": "2026-09-14",
+      "retrieved_date": "2026-09-15",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104121",
       "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND) has further extended its reporting window to 9 August-3 September 2026, with the structured Uttarakhand casualty toll now at 25 confirmed deaths and 260,024 people displaced, up from 23 deaths and 240,570 displaced previously, still at Orange alert. No Sphere India situation report or IFRC update newer than those already on file was found, so the confirmed national aggregate of at least 109 deaths and at least 347,155 displaced -- which does not yet incorporate this Uttarakhand figure -- remains unchanged.",
@@ -160,39 +160,47 @@
       "source_url": "https://reliefweb.int/report/india/india-assam-floods-dref-operation-no-mdrin029",
       "text": "New authoritative report found 8 August 2026: IFRC's DREF Operation Update No. 1 for 'India: Assam Floods' (DREF operation no. MDRIN029, published 6 August 2026 on ReliefWeb) states: \"The floods have caused extensive damage to homes, livelihoods, and essential infrastructure across Assam. A total of 1,368 houses were fully damaged and 11,066 partially damaged, while more than 74,450 hectares of agricultural land were affected... In addition, 74 flood-related deaths have been reported... On the basis of situation report shared by Chief Minister Office, as of 28 July 2026, the floods had affected 1,144,733 people across 25 districts... The flooding led to large-scale displacement, with nearly 30,000 people evacuated and over 71,000 people accommodated in relief camps at the height of the emergency.\" This IFRC figure, sourced to the Assam Chief Minister's Office, is more recent and substantially higher than the ASDMA figure relayed by Sphere India already on file (0 deaths, 178,837 affected, as of 1 August) and is now adopted as the current Assam figure, superseding it; despite the overall decline in flood impacts noted by IFRC, 1,144,733 people remain affected across 8 districts as of this report. Combining updated state figures: Assam 74 deaths / ~30,000 evacuated, Odisha 0 deaths / 267,301 evacuated, Gujarat 0 deaths / ~22,000 relocated, Kerala 7 deaths / evacuee count not reported, Maharashtra 3 deaths / ~1,155 relocated -- giving a revised combined total of at least 84 deaths and at least 320,456 people displaced nationwide. No allowlisted source has declared any state's flooding resolved.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-new-sitrep7-sept5",
+      "retrieved_date": "2026-09-15",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/india/situation-report-7-extreme-weather-events-india-bihar-and-uttar-pradesh-date-5th-september-2026",
+      "text": "ReliefWeb lists Sphere India's 'Situation Report 7 -- Extreme Weather Events in India: Bihar and Uttar Pradesh' (dated 5 September 2026), indicating the monsoon emergency has spread to a new pair of states; a direct fetch of this report returned HTTP 403, consistent with this record's established pattern of ReliefWeb 403s. Non-allowlisted press (Business Standard, The Watchers) describe the Ganga river exceeding record flood levels at Patna and several million people affected across 13-15 Bihar districts by mid-September, with a handful of deaths reported, but these figures have not been corroborated on an allowlisted government, UN, or Red Cross/Red Crescent source, so they are not adopted into this record's confirmed national aggregate (at least 109 deaths, at least 347,155 displaced), which predates this Bihar/UP development.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Heavy monsoon rains since mid-July 2026 have caused deadly flooding and landslides across India, with flooding spreading into new states through early September 2026. Combining state figures gives a confirmed toll of at least 109 deaths and at least 347,155 people displaced or sheltering nationwide, coordinated by Sphere India's multi-state humanitarian response. Odisha remains among the worst-hit, with 8.64 lakh people affected across 22 districts; Kerala counts 26 dead and 4 missing; and IFRC records 74 flood-related deaths in Assam, where the crisis had passed its peak by early August even as 1,144,733 people remained affected. GDACS media tracking has since logged further flood deaths beyond these five states, including 3 in Himachal Pradesh, 10 in Madhya Pradesh and 5 in Uttar Pradesh (Varanasi) between 18 and 25 August, plus a distinct late-August Uttarakhand flood event now carrying its own GDACS-tracked toll of 25 deaths and 260,024 displaced, though no newer official national aggregate has superseded the 109-death, 347,155-displaced total.",
+  "description": "Heavy monsoon rains since mid-July 2026 have caused deadly flooding and landslides across India, with flooding spreading into new states through mid-September 2026. Combining state figures gives a confirmed toll of at least 109 deaths and at least 347,155 people displaced or sheltering nationwide, coordinated by Sphere India's multi-state humanitarian response. Odisha remains among the worst-hit, with 8.64 lakh people affected across 22 districts; Kerala counts 26 dead and 4 missing; and IFRC records 74 flood-related deaths in Assam, where the crisis had passed its peak by early August even as 1,144,733 people remained affected. GDACS media tracking has since logged further flood deaths beyond these five states, including 3 in Himachal Pradesh, 10 in Madhya Pradesh and 5 in Uttar Pradesh (Varanasi) between 18 and 25 August, plus a distinct late-August Uttarakhand flood event now carrying its own GDACS-tracked toll of 25 deaths and 260,024 displaced. Sphere India's Situation Report 7 (5 September) indicates the emergency extended into Bihar and Uttar Pradesh; no newer national aggregate supersedes the 109-death, 347,155-displaced total.",
   "event": {
     "impact": {
       "deaths": 109,
       "displaced": 347155,
-      "summary": "At least 109 deaths and at least 347,155 people displaced or sheltering nationwide, combining state totals: IFRC records 74 deaths for Assam (conflicting with the 1 death in Sphere India's Situation Report 6; the higher figure is retained), with Odisha at 6, Kerala at 26 dead and 4 missing, Maharashtra at 3, and none confirmed in Gujarat. Odisha counts 8.64 lakh people affected across 22 districts and Kerala over 27,000 people in 325 relief camps. GDACS media tracking (event FL-2026-000165-IND, Orange alert, window extended to 9 August-3 September) has since recorded further flood deaths in Himachal Pradesh (3), Madhya Pradesh (10) and Uttar Pradesh (5), plus continued rescues in Tripura and Odisha, and now carries a distinct structured toll of 25 deaths and 260,024 displaced for late-August flooding in Uttarakhand State, up from 23 deaths and 240,570 displaced previously, none of it yet reflected in the national aggregate."
+      "summary": "At least 109 deaths and at least 347,155 people displaced or sheltering nationwide, combining state totals: IFRC records 74 deaths for Assam (conflicting with the 1 death in Sphere India's Situation Report 6; the higher figure is retained), with Odisha at 6, Kerala at 26 dead and 4 missing, Maharashtra at 3, and none confirmed in Gujarat. Odisha counts 8.64 lakh people affected across 22 districts and Kerala over 27,000 people in 325 relief camps. GDACS media tracking (event FL-2026-000165-IND, Orange alert, window extended to 9 August-3 September) has since recorded further flood deaths in Himachal Pradesh (3), Madhya Pradesh (10) and Uttar Pradesh (5), plus continued rescues in Tripura and Odisha, and now carries a distinct structured toll of 25 deaths and 260,024 displaced for late-August flooding in Uttarakhand State, unchanged from the prior check, none of it yet reflected in the national aggregate."
     },
     "live_source_url": "https://reliefweb.int/country/ind",
     "location": {
       "country": "India",
       "lat": 23.5,
       "lon": 89.0,
-      "region": "Assam, Odisha, Gujarat, Kerala and Maharashtra (multi-state monsoon emergency)"
+      "region": "Assam, Odisha, Gujarat, Kerala, Maharashtra, and Uttarakhand, Bihar and Uttar Pradesh (multi-state monsoon emergency)"
     },
     "occurrence_date": "2026-07-16",
     "scale": "Multi-state monsoon flooding & landslides; GDACS Orange alert",
     "status": "ongoing"
   },
   "id": "india-monsoon-floods-2026",
-  "last_updated": "2026-09-14T09:16:51Z",
+  "last_updated": "2026-09-15T09:19:02Z",
   "name": "Multi-State Monsoon Floods & Landslides — India",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-14T09:16:51Z",
+        "at": "2026-09-15T09:19:02Z",
         "layer": "verify",
-        "run_id": "2026-09-14T09-16-51Z-f88560"
+        "run_id": "2026-09-15T09-19-02Z-07f21b"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-14T09-16-51Z-f88560"
+    "last_run_id": "2026-09-15T09-19-02Z-07f21b"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -201,6 +209,10 @@
     "recency_rank": 739813
   },
   "updates": [
+    {
+      "date": "2026-09-15",
+      "text": "Sphere India's Situation Report 7 (5 September) indicates the monsoon emergency has extended into Bihar and Uttar Pradesh; the report could not be directly fetched, and non-official press describe major Bihar flooding (record Ganga levels at Patna, millions affected) not yet corroborated on an official source, so the confirmed national aggregate (109 deaths, 347,155 displaced) is unchanged."
+    },
     {
       "date": "2026-09-08",
       "text": "GDACS's structured Uttarakhand flood toll rose to 25 deaths and 260,024 displaced, up from 23 deaths and 240,570 displaced; no newer national Sphere India/IFRC situation report has superseded the confirmed 109-death, 347,155-displaced total."
@@ -240,7 +252,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

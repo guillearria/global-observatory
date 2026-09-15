@@ -346,6 +346,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-new-ecdc-sept14",
+      "retrieved_date": "2026-09-15",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "ECDC's country overview (page last updated 14 September 2026, 13:30, data through 12 September 2026): 'a total of 7 200 confirmed cases, including 3 475 related deaths (from data up until 12 September),' an increase of 258 new confirmed cases and 126 deaths since the previous report on 11 September. A total of 923 patients are hospitalised in isolation, and 62 of 167 health zones are currently affected across seven provinces. Uganda's linked outbreak remains closed (20 confirmed cases, two deaths; declared over by WHO on 26 August 2026).",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-new-ecdc-sept3",
       "retrieved_date": "2026-09-04",
       "source_name": "ECDC",
@@ -378,12 +386,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "An Ebola (Bundibugyo virus) outbreak in DR Congo and Uganda, declared a Public Health Emergency of International Concern in May 2026, remains active in DRC — now the country's largest recorded Ebola epidemic. ECDC's newest country overview (data through 9 September 2026) puts the DRC toll at 6,942 confirmed cases and 3,349 deaths, spanning 61 of 151 health zones across six provinces, with Ituri the epicentre (5,508 cases, 2,501 deaths) followed by North Kivu (1,139/725). Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
+  "description": "An Ebola (Bundibugyo virus) outbreak in DR Congo and Uganda, declared a Public Health Emergency of International Concern in May 2026, remains active in DRC — now the country's largest recorded Ebola epidemic. ECDC's newest country overview (data through 12 September 2026) puts the DRC toll at 7,200 confirmed cases and 3,475 deaths, spanning 62 of 167 health zones across seven provinces, with 923 patients hospitalised in isolation. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
   "event": {
     "impact": {
-      "deaths": 3349,
+      "deaths": 3475,
       "displaced": null,
-      "summary": "ECDC's newest country overview (data through 9 September 2026) puts the DRC toll at 6,942 confirmed cases and 3,349 deaths, up from 6,843 cases and 3,310 deaths as of the 8 September data cut. The outbreak spans 61 of 151 health zones across six provinces: Ituri remains the epicentre with 5,508 cases and 2,501 deaths, followed by North Kivu (1,139 cases, 725 deaths), Haut-Uele (264/110), Tshopo (24/9), Bas-Uele (4/3) and South Kivu (3/1); 823 patients are hospitalised in isolation and 1,647 have recovered. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+      "summary": "ECDC's newest country overview (data through 12 September 2026) puts the DRC toll at 7,200 confirmed cases and 3,475 deaths, up from 6,942 cases and 3,349 deaths as of the 9 September data cut — an increase of 258 confirmed cases and 126 deaths in a single day's report. The outbreak now spans 62 of 167 health zones across seven provinces, with 923 patients hospitalised in isolation. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
     "location": {
@@ -397,18 +405,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-09-14T09:07:22Z",
+  "last_updated": "2026-09-15T09:15:31Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-14T09:07:22Z",
+        "at": "2026-09-15T09:15:31Z",
         "layer": "verify",
-        "run_id": "2026-09-14T09-07-22Z-532f7c"
+        "run_id": "2026-09-15T09-15-31Z-0d5c94"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-14T09-07-22Z-532f7c"
+    "last_run_id": "2026-09-15T09-15-31Z-0d5c94"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -417,6 +425,10 @@
     "recency_rank": 739751
   },
   "updates": [
+    {
+      "date": "2026-09-15",
+      "text": "ECDC's updated country overview (data through 12 September) put the DRC toll at 7,200 confirmed cases and 3,475 deaths, up from 6,942 cases and 3,349 deaths at the 9 September data cut, with the outbreak now spanning 62 of 167 health zones across seven provinces and 923 patients in isolation."
+    },
     {
       "date": "2026-09-12",
       "text": "ECDC's updated country overview (data through 9 September) put the DRC toll at 6,942 confirmed cases and 3,349 deaths, up from 6,843 cases and 3,310 deaths as of the 8 September data cut, still across 61 of 151 health zones in six provinces; 823 patients are hospitalised in isolation and 1,647 have recovered."
@@ -520,7 +532,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 47 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 48 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

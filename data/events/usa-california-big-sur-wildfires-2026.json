@@ -19,19 +19,27 @@
     },
     {
       "id": "claim-3",
-      "retrieved_date": "2026-09-14",
+      "retrieved_date": "2026-09-15",
       "source_name": "CAL FIRE",
       "source_url": "https://www.fire.ca.gov/incidents/2026/8/8/timber-fire/",
       "text": "CAL FIRE's incident page for the Timber Fire reports that, as of September 12, 2026 at 8:02 PM, the fire had burned 25,426 acres and was 39% contained, up from 27% contained the previous day; the fire 'remains active with isolated heat in the interior and difficult-to-access portions of the fire,' with crews continuing direct suppression and mop-up operations in steep terrain, particularly in the Ventana Wilderness area.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-09-15",
+      "source_name": "CAL FIRE",
+      "source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire",
+      "text": "CAL FIRE's incident page for the Plaskett Fire reports that, as of September 14, 2026 at 7:18 PM, the fire had burned 29,976 acres and was 89% contained, up from 83% contained on September 11; Evacuation Orders remain in effect for zones FHL-G011, FHL-G012-B, FHL-G014, FHL-G017, FHL-G018 and FHL-G023, while Evacuation Warnings are in effect for zones MRY-G016, MRY-F033, MRY-F034, MRY-F035 and MRY-F036, in Monterey County on Los Padres National Forest land under USFS jurisdiction, managed by California Interagency Incident Management Team 7.",
+      "verification_status": "verified"
     }
   ],
-  "description": "The Plaskett and Timber wildfires have burned roughly 55,400 combined acres along California's Big Sur coast since August 2026, forcing evacuations across two counties. The Timber Fire ignited August 8 and the larger Plaskett Fire ignited August 26 in the Los Padres National Forest near Big Sur; both remain active, with CAL FIRE reporting the Plaskett Fire at about 29,900 acres and 83% contained and the Timber Fire at about 25,400 acres and 39% contained as of September 12. Evacuation orders have been downgraded in portions of Big Sur, though numerous evacuation order and warning zones remain in effect across Monterey County and a stretch of Highway 1 through the Big Sur coast remains partially closed. No deaths or injuries have been reported by CAL FIRE for either fire.",
+  "description": "The Plaskett and Timber wildfires have burned roughly 55,400 combined acres along California's Big Sur coast since August 2026, forcing evacuations across two counties. The Timber Fire ignited August 8 and the larger Plaskett Fire ignited August 26 in the Los Padres National Forest near Big Sur; both remain active, with CAL FIRE reporting the Plaskett Fire at about 30,000 acres and 89% contained and the Timber Fire at about 25,400 acres and 39% contained as of September 14. Evacuation orders have been downgraded in portions of Big Sur, though numerous evacuation order and warning zones remain in effect across Monterey County and a stretch of Highway 1 through the Big Sur coast remains partially closed. No deaths or injuries have been reported by CAL FIRE for either fire.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "CAL FIRE reports no deaths or injuries from either fire. As of September 12, 2026, the Plaskett Fire holds at 83% containment on 29,942 acres, while the Timber Fire's containment has risen to 39% (from 27% the day before) on 25,426 acres, with crews continuing suppression and mop-up in steep, difficult-to-access terrain including the Ventana Wilderness. Multiple evacuation order and warning zones remain in effect across Monterey County, with warnings extending into northern San Luis Obispo County for the Plaskett Fire, and a long stretch of Highway 1 through the Big Sur coast remains partially closed to through traffic."
+      "summary": "CAL FIRE reports no deaths or injuries from either fire. As of September 14, 2026, the Plaskett Fire's containment has risen to 89% (from 83%) on 29,976 acres, while the Timber Fire holds at 39% containment on 25,426 acres, with crews continuing suppression and mop-up in steep, difficult-to-access terrain including the Ventana Wilderness. Evacuation orders remain in effect for several zones in Monterey County for the Plaskett Fire, with additional zones downgraded to warnings, while the Timber Fire still has 13 areas under evacuation orders and 27 under warnings. A long stretch of Highway 1 through the Big Sur coast remains partially closed to through traffic."
     },
     "live_source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire",
     "location": {
@@ -41,22 +49,22 @@
       "region": "Big Sur, Los Padres National Forest — Monterey & San Luis Obispo Counties, California"
     },
     "occurrence_date": "2026-08-26",
-    "scale": "~55,400 combined acres (Plaskett 83%, Timber 39% contained)",
+    "scale": "~55,400 combined acres (Plaskett 89%, Timber 39% contained)",
     "status": "ongoing"
   },
   "id": "usa-california-big-sur-wildfires-2026",
-  "last_updated": "2026-09-14T09:15:11Z",
+  "last_updated": "2026-09-15T09:15:43Z",
   "name": "Wildfires — Big Sur / Los Padres National Forest, California",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-14T09:15:11Z",
+        "at": "2026-09-15T09:15:43Z",
         "layer": "verify",
-        "run_id": "2026-09-14T09-15-11Z-87dec3"
+        "run_id": "2026-09-15T09-15-43Z-3d5e65"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-14T09-15-11Z-87dec3"
+    "last_run_id": "2026-09-15T09-15-43Z-3d5e65"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -65,6 +73,10 @@
     "recency_rank": 739854
   },
   "updates": [
+    {
+      "date": "2026-09-15",
+      "text": "CAL FIRE reported the Plaskett Fire's containment rising to 89% (from 83%) at 29,976 acres, with evacuation orders remaining in six zones and warnings in five others across Monterey County; the Timber Fire held steady at 39% containment on 25,426 acres as of September 14."
+    },
     {
       "date": "2026-09-13",
       "text": "CAL FIRE reported the Timber Fire's containment rose to 39% (from 27%) at 25,426 acres; the Plaskett Fire held steady at 83% containment on 29,942 acres. Crews continue suppression and mop-up in steep terrain including the Ventana Wilderness as evacuation zones remain in effect across Monterey County."
@@ -76,7 +88,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

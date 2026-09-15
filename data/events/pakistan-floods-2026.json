@@ -154,6 +154,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-29",
+      "retrieved_date": "2026-09-15",
+      "source_name": "National Disaster Management Authority (Pakistan)",
+      "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
+      "text": "NDMA's live Monsoon 2026 SITREP dashboard, checked 15 September 2026 (cumulative, 26 June-14 September 2026): Grand Total Deceased unchanged at 183 (63 male, 37 female, 83 children), Grand Total Injured risen to 517 (215 male, 135 female, 167 children), up from 515. Cumulative houses damaged risen to 1,788 total (611 fully destroyed, 1,177 partially damaged), up from 1,749 (598 fully, 1,151 partially damaged) as of 12 September; livestock lost unchanged at 1,516. Roads damaged risen to 34.82 km (from 34.56 km); bridges damaged unchanged at 41. Cumulative rescue operations risen to 1,179 (up from 1,178), with 10,662 persons rescued (up from 10,660).",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-5",
       "retrieved_date": "2026-08-11",
       "source_name": "ReliefWeb",
@@ -162,12 +170,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Nationwide monsoon flooding across Pakistan since late June 2026 has killed 183 people and injured 515, per NDMA's live tracking dashboard. Khyber Pakhtunkhwa and Punjab have recorded the most deaths, with cumulative housing and livestock losses continuing to rise even as the daily death toll has largely plateaued through early September.",
+  "description": "Nationwide monsoon flooding across Pakistan since late June 2026 has killed 183 people and injured 517, per NDMA's live tracking dashboard. Khyber Pakhtunkhwa and Punjab have recorded the most deaths, with cumulative housing and livestock losses continuing to rise even as the daily death toll has remained steady through mid-September.",
   "event": {
     "impact": {
       "deaths": 183,
       "displaced": null,
-      "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 12 September 2026 at 183 deaths and 515 injuries, unchanged for a second consecutive check, while cumulative housing damage continues to rise, now standing at 1,749 houses affected (598 destroyed, 1,151 partially damaged) and 1,516 livestock lost. Khyber Pakhtunkhwa has recorded the most deaths (74), followed by Punjab (64), Sindh (17), Azad Jammu & Kashmir (16), Balochistan (8), Islamabad Capital Territory (3) and Gilgit-Baltistan (1). NDMA teams have conducted 1,178 rescue operations, rescued 10,660 people and maintain 93 relief camps and 66 medical camps."
+      "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 14 September 2026 at 183 deaths and 517 injuries, with deaths unchanged for a third consecutive check while injuries and infrastructure damage continue to rise. Cumulative housing damage now stands at 1,788 houses affected (611 destroyed, 1,177 partially damaged) and 1,516 livestock lost, with 34.82 km of roads and 41 bridges damaged. Khyber Pakhtunkhwa has recorded the most deaths (74), followed by Punjab (64), Sindh (17), Azad Jammu & Kashmir (16), Balochistan (8), Islamabad Capital Territory (3) and Gilgit-Baltistan (1). NDMA teams have conducted 1,179 rescue operations, rescued 10,662 people and maintain 93 relief camps and 66 medical camps."
     },
     "live_source_url": "https://reliefweb.int/country/pak",
     "location": {
@@ -177,22 +185,22 @@
       "region": "Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh"
     },
     "occurrence_date": "2026-06-26",
-    "scale": "Nationwide monsoon flooding; NDMA-recorded 183 deaths as of 12 September 2026 (live SITREP dashboard)",
+    "scale": "Nationwide monsoon flooding; NDMA-recorded 183 deaths as of 14 September 2026 (live SITREP dashboard)",
     "status": "ongoing"
   },
   "id": "pakistan-floods-2026",
-  "last_updated": "2026-09-14T09:16:31Z",
+  "last_updated": "2026-09-15T09:14:43Z",
   "name": "Monsoon Floods — Pakistan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-14T09:16:31Z",
+        "at": "2026-09-15T09:14:43Z",
         "layer": "verify",
-        "run_id": "2026-09-14T09-16-31Z-de932c"
+        "run_id": "2026-09-15T09-14-43Z-d48231"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-14T09-16-31Z-de932c"
+    "last_run_id": "2026-09-15T09-14-43Z-d48231"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -201,6 +209,10 @@
     "recency_rank": 739793
   },
   "updates": [
+    {
+      "date": "2026-09-15",
+      "text": "NDMA's dashboard held deaths steady at 183 for a third consecutive check while injuries rose to 517 (from 515); cumulative housing damage rose to 1,788 houses (611 destroyed, 1,177 partially damaged, up from 1,749) and roads damaged rose to 34.82 km (from 34.56 km); rescue operations rose to 1,179 (10,662 persons rescued, up from 10,660)."
+    },
     {
       "date": "2026-09-13",
       "text": "NDMA's dashboard held deaths and injuries steady at 183/515 for a second consecutive check, while cumulative housing damage rose to 1,749 houses (598 fully, 1,151 partially damaged, up from 1,743); livestock losses held steady at 1,516."
@@ -276,7 +288,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

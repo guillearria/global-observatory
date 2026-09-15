@@ -42,6 +42,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-14",
+      "retrieved_date": "2026-09-15",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081&episodeid=18",
+      "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 18, reporting window extended to 31 July - 13 September 2026) records 399,045 people displaced, up sharply from 318,341 in episode 17, and 4 confirmed deaths (unchanged); the episode description states heavy rainfall from a South China Sea tropical depression caused flooding in Hainan Province beginning 11 September 2026. Overall alert level remains Orange (medium humanitarian impact).",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-14",
       "source_name": "GDACS",
@@ -98,37 +106,37 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Flooding tied initially to Typhoon Dolphin, and now continuing under renewed rain from Typhoon Saudel, has affected provinces and municipalities across central, southern and eastern China since 31 July 2026. GDACS's current flood report (episode 17, reporting window 31 July - 7 September 2026) records 318,341 people displaced and 4 confirmed deaths, up from 3 in its prior read: the newest death was recorded amid flooding and debris flows in Jiangxi Province in early September, attributed to Typhoon Saudel, on top of the earlier Zhejiang debris-flow death and the two Yanling County, Hunan deaths. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert.",
+  "description": "Flooding tied initially to Typhoon Dolphin, and continuing under successive rounds of renewed rain from Typhoon Saudel and a South China Sea tropical depression, has affected provinces and municipalities across central, southern and eastern China since 31 July 2026. GDACS's current flood report (episode 18, reporting window 31 July - 13 September 2026) records 399,045 people displaced, up sharply from 318,341 in its prior read, after heavy rainfall from a tropical depression triggered new flooding in Hainan Province beginning 11 September. The confirmed death toll holds at 4: the earlier Zhejiang debris-flow death, the two Yanling County (Hunan) deaths, and the Jiangxi death recorded in early September. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert.",
   "event": {
     "impact": {
       "deaths": 4,
-      "displaced": 318341,
-      "summary": "GDACS's current flood report (episode 17, reporting window 31 July - 7 September 2026) records 318,341 people displaced and 4 confirmed deaths, up from 3 deaths in its prior read, with the newest increase tied to Typhoon Saudel-driven flooding and debris flows in Jiangxi Province in early September 2026, on top of the earlier Changxing County (Zhejiang) and Yanling County (Hunan) deaths. The event remains at Orange alert, now spanning provinces from Shaanxi and Hubei to Hunan, Jiangxi, Yunnan, Hainan and Taiwan."
+      "displaced": 399045,
+      "summary": "GDACS's current flood report (episode 18, reporting window 31 July - 13 September 2026) records 399,045 people displaced, up sharply from 318,341 in its prior read, with the increase attributed to new flooding in Hainan Province from a South China Sea tropical depression beginning 11 September 2026. The confirmed death toll holds at 4, unchanged from the prior episode. The event remains at Orange alert, now spanning provinces from Shaanxi and Hubei to Hunan, Jiangxi, Yunnan, Hainan and Taiwan."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
     "location": {
       "country": "China",
       "lat": 32.2656,
       "lon": 111.6474,
-      "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu and Jiangxi provinces/municipalities (Yangtze basin and eastern seaboard)"
+      "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Jiangxi and Hainan provinces/municipalities (Yangtze basin, eastern seaboard and South China Sea coast)"
     },
     "occurrence_date": "2026-07-31",
-    "scale": "GDACS Orange alert; 318,341 displaced across multiple provinces; 4 deaths (as of 7 September 2026)",
+    "scale": "GDACS Orange alert; 399,045 displaced across multiple provinces; 4 deaths (as of 13 September 2026)",
     "status": "ongoing"
   },
   "id": "china-floods-yangtze-typhoon-dolphin-2026",
-  "last_updated": "2026-09-14T09:16:32Z",
+  "last_updated": "2026-09-15T09:14:19Z",
   "name": "Typhoon Dolphin Flooding, Central China",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-14T09:16:32Z",
+        "at": "2026-09-15T09:14:19Z",
         "layer": "verify",
-        "run_id": "2026-09-14T09-16-32Z-9417cc"
+        "run_id": "2026-09-15T09-14-19Z-29906e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-14T09-16-32Z-9417cc"
+    "last_run_id": "2026-09-15T09-14-19Z-29906e"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -137,6 +145,10 @@
     "recency_rank": 739828
   },
   "updates": [
+    {
+      "date": "2026-09-15",
+      "text": "GDACS's episode 18 update recorded a sharp rise in displacement to 399,045 people (from 318,341), attributed to new flooding in Hainan Province from a South China Sea tropical depression beginning 11 September; the death toll held at 4. Reporting window extended to 13 September. Event remains at Orange alert."
+    },
     {
       "date": "2026-09-06",
       "text": "GDACS's episode 17 update recorded 1 further death (total 4, up from 3) amid Typhoon Saudel-driven flooding and debris flows in Jiangxi Province in early September; displaced total rose slightly to 318,341 (from 318,302). Reporting window extended to 7 September. Event remains at Orange alert."
@@ -184,7 +196,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
