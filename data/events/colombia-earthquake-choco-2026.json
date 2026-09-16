@@ -58,6 +58,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-16",
+      "retrieved_date": "2026-09-16",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/colombia/colombia-flash-update-012-update-impact-earthquake-colombia-september-10-2026",
+      "text": "OCHA Colombia's Flash Update No. 012 (data as of 9 September 2026, 15:00 local time; posted 10 September 2026): 'at least 466,709 people (296,738 households) have been recorded as affected, including 331 fatalities, 4,505 injured people, 356 people rescued, 259 bodies recovered, and 111 people reported missing... broader reports indicate 36,326 homes destroyed and 117,362 damaged homes.' Impacts are now reported in 498 municipalities across 16 departments, up from 15; at least 135,000 people (31,100 households) have received assistance through 31 humanitarian organizations across 53 municipalities in the five prioritized departments, and the appeal still requires 53% of the requested US$619 million.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-24",
       "source_name": "GDACS",
@@ -122,12 +130,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.4 earthquake struck western Colombia on 10 August 2026, centered near San José del Palmar in Chocó Department at a depth of roughly 110 km. Colombia's geological survey described it as the seismic event of greatest magnitude recorded in the country in the 21st century. OCHA Colombia's Flash Update 011 (data as of 2 September) puts the toll at 331 deaths, with more than 466,600 people affected across 15 departments and more than 36,000 homes destroyed. The national government declared a State of Economic, Social and Ecological Emergency in 15 departments under Decree 1261, valid 30 days, to mobilize disaster-response resources. GDACS and USGS's PAGER system both continue to rate the event a Red alert for high humanitarian impact, with GDACS estimating about 5.4 million people within zones of MMI VII or greater shaking. International donors have mobilized more than US$40 million, and 29 humanitarian organizations are now reaching nearly 123,000 people amid ongoing needs in shelter, health, water and education.",
+  "description": "A magnitude 7.4 earthquake struck western Colombia on 10 August 2026, centered near San José del Palmar in Chocó Department at a depth of roughly 110 km. Colombia's geological survey described it as the seismic event of greatest magnitude recorded in the country in the 21st century. OCHA Colombia's Flash Update 012 (data as of 9 September) puts the toll at 331 deaths, with more than 466,700 people affected across 16 departments and 36,326 homes destroyed. The national government declared a State of Economic, Social and Ecological Emergency in 15 departments under Decree 1261 to mobilize disaster-response resources. GDACS and USGS's PAGER system both continue to rate the event a Red alert for high humanitarian impact, with GDACS estimating about 5.4 million people within zones of MMI VII or greater shaking. 31 humanitarian organizations are now reaching about 135,000 people amid ongoing needs in shelter, health, water and education, with the response appeal 53% funded.",
   "event": {
     "impact": {
       "deaths": 331,
-      "displaced": 466600,
-      "summary": "OCHA Colombia's Flash Update 011 (data as of 2 September 2026, 17:00 local time) reports 331 deaths and more than 466,600 people affected across 15 departments, with more than 36,000 homes destroyed; this is up from 406,113 people affected and 33,395 homes destroyed in Flash Update 010 (27 August), while the confirmed death toll has held steady. The national government's State of Economic, Social and Ecological Emergency in 15 departments under Decree 1261 remains in force. GDACS rates the event a Red alert, estimating about 5.4 million people in zones of MMI VII or greater shaking, and USGS's PAGER alert remains Red. Donors have mobilized more than US$40 million alongside a US$5 million CERF allocation, and 29 humanitarian organizations are now reaching nearly 123,000 people."
+      "displaced": 466709,
+      "summary": "OCHA Colombia's Flash Update 012 (data as of 9 September 2026, 15:00 local time) reports 331 deaths and more than 466,709 people affected across 16 departments (up from 15), with 36,326 homes destroyed and 117,362 damaged; this is up from 466,600 people affected and 36,000+ homes destroyed in Flash Update 011 (2 September), while the confirmed death toll has held steady. The national government's State of Economic, Social and Ecological Emergency in 15 departments under Decree 1261 remains in force. GDACS rates the event a Red alert, estimating about 5.4 million people in zones of MMI VII or greater shaking, and USGS's PAGER alert remains Red. 31 humanitarian organizations are now reaching about 135,000 people, and the response appeal remains 53% funded of the US$619 million required."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
     "location": {
@@ -141,18 +149,18 @@
     "status": "ongoing"
   },
   "id": "colombia-earthquake-choco-2026",
-  "last_updated": "2026-09-15T09:14:19Z",
+  "last_updated": "2026-09-16T09:15:12Z",
   "name": "M7.4 Earthquake, Chocó, Colombia",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-15T09:14:19Z",
+        "at": "2026-09-16T09:15:12Z",
         "layer": "verify",
-        "run_id": "2026-09-15T09-14-19Z-5279b6"
+        "run_id": "2026-09-16T09-15-12Z-301f1d"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-15T09-14-19Z-5279b6"
+    "last_run_id": "2026-09-16T09-15-12Z-301f1d"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -161,6 +169,10 @@
     "recency_rank": 739838
   },
   "updates": [
+    {
+      "date": "2026-09-16",
+      "text": "OCHA Flash Update 012 (data as of 9 September) confirmed the death toll steady at 331 and raised people affected to 466,709 (296,738 households) and homes destroyed to 36,326, with impacts now spanning 498 municipalities across 16 departments (up from 15); 31 humanitarian organizations are reaching about 135,000 people, and the response appeal remains 53% funded of US$619 million required."
+    },
     {
       "date": "2026-09-02",
       "text": "OCHA Flash Update 011 (data as of 2 September) raised people affected to more than 466,600 and homes destroyed to more than 36,000, while the confirmed death toll held at 331; 29 humanitarian organizations are now reaching nearly 123,000 people, with more than US$40 million mobilized."
@@ -212,7 +224,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
