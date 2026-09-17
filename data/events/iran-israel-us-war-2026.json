@@ -10,6 +10,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-10",
+      "retrieved_date": "2026-09-17",
+      "source_name": "Encyclopaedia Britannica",
+      "source_url": "https://www.britannica.com/event/2026-Iran-war",
+      "text": "Encyclopaedia Britannica's running account reports that on 15 September 2026 the US military said it destroyed two small Iranian boats attempting to steal a US Navy sea drone; the conflict remains unresolved as the US House voted a third time on 15-16 September to end US involvement in the Iran war.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-31",
       "source_name": "Encyclopaedia Britannica",
@@ -74,12 +82,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of other officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated with strikes on US and allied targets across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping by more than 90% and pushing oil prices from about $70 to over $100 a barrel. A US-Iran memorandum's 60-day negotiating window expired 17 August 2026 without an agreement. In late August the US said it had cleared all Iranian-laid mines from the Strait, then struck Iran's Larak Island outpost days later, prompting Iranian retaliation and a fresh round of exchanges; the US now escorts 15-20 tankers (up to 10 million barrels a day, about half the prewar volume) through a corridor off Oman. UNHCR records 595,100 Iranian nationals who have crossed into neighbouring countries and 285,000 Lebanese refugees since the war began, alongside about 1.88 million Afghan and Syrian returnees; the conflict remains unresolved.",
+  "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of other officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated with strikes on US and allied targets across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping by more than 90% and pushing oil prices from about $70 to over $100 a barrel. A US-Iran memorandum's 60-day negotiating window expired 17 August 2026 without an agreement, and in late August the US cleared Iranian-laid mines from the Strait before striking Iran's Larak Island outpost, prompting further exchanges. UNHCR records 595,100 Iranian nationals who have crossed into neighbouring countries and 285,000 Lebanese refugees since the war began, alongside about 1.88 million Afghan and Syrian returnees. On 15 September the US military said it destroyed two small Iranian boats attempting to steal a US Navy sea drone near the Strait; the US House voted a third time on 15-16 September to end American involvement; the conflict remains unresolved",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": 1232893,
-      "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a single strike near Bandar Abbas killed about 170 people at a girls' school; Britannica's running account describes thousands of deaths in Iran and Lebanon and dozens more in Israel and Gulf Arab states, though no single verified cumulative death toll exists. UNHCR's Middle East data portal (component figures updated 5-7 September) records, since the war began: 595,100 Iranian nationals who have crossed into neighbouring countries (of whom 505,000 have since crossed back into Iran), 285,000 Lebanese refugees and 352,793 new IDPs within Lebanon -- a combined 1,232,893 people displaced or newly refugees across those two countries -- plus about 1.88 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. In late August the US cleared Iranian-laid mines from the Strait, then struck Iran's Larak Island outpost, drawing Iranian retaliation; the US now escorts 15-20 tankers (up to 10 million barrels a day) through a corridor off Oman, about half the prewar volume."
+      "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a single strike near Bandar Abbas killed about 170 people at a girls' school; Britannica's running account describes thousands of deaths in Iran and Lebanon and dozens more in Israel and Gulf Arab states, though no single verified cumulative death toll exists. UNHCR's Middle East data portal (component figures updated 5-7 September) records, since the war began: 595,100 Iranian nationals who have crossed into neighbouring countries (505,000 since returned to Iran), 285,000 Lebanese refugees and 352,793 new IDPs within Lebanon -- a combined 1,232,893 people displaced or newly refugees across those two countries -- plus about 1.88 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%; the US cleared Iranian-laid mines from the Strait in late August, then struck Iran's Larak Island outpost, drawing Iranian retaliation. On 15 September the US military said it destroyed two small Iranian boats that attempted to steal a US Navy sea drone near the Strait."
     },
     "live_source_url": "https://www.britannica.com/event/2026-Iran-war",
     "location": {
@@ -93,18 +101,18 @@
     "status": "ongoing"
   },
   "id": "iran-israel-us-war-2026",
-  "last_updated": "2026-09-16T09:14:51Z",
+  "last_updated": "2026-09-17T09:19:39Z",
   "name": "Iran-Israel-US War",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-16T09:14:51Z",
+        "at": "2026-09-17T09:19:39Z",
         "layer": "verify",
-        "run_id": "2026-09-16T09-14-51Z-9579ff"
+        "run_id": "2026-09-17T09-19-39Z-be623c"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-16T09-14-51Z-9579ff"
+    "last_run_id": "2026-09-17T09-19-39Z-be623c"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -113,6 +121,10 @@
     "recency_rank": 739845
   },
   "updates": [
+    {
+      "date": "2026-09-17",
+      "text": "The US military said it destroyed two small Iranian boats on 15 September after they attempted to steal a US Navy sea drone near the Strait of Hormuz; the US House voted a third time on 15-16 September to end US involvement in the war."
+    },
     {
       "date": "2026-09-10",
       "text": "UNHCR's Middle East portal now records 595,100 Iranian nationals who have crossed into neighbouring countries since the war began (up from 581,400), with the combined Iran/Lebanon displacement figure rising to 1,232,893."
@@ -132,7 +144,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
