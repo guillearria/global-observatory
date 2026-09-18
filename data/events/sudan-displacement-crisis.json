@@ -59,10 +59,18 @@
     },
     {
       "id": "claim-22",
-      "retrieved_date": "2026-09-17",
+      "retrieved_date": "2026-09-18",
       "source_name": "UNHCR",
       "source_url": "https://data.unhcr.org/en/country/sdn",
       "text": "UNHCR's Operational Data Portal for Sudan (data as of 31 August 2026): 8,622,801 internally displaced persons within Sudan, down from 8,685,273 as of 31 July 2026, and 905,349 refugees and asylum-seekers in Sudan, up from 900,819; 32% of the refugee/asylum-seeker population is out of camp and 68% is settled in camps, with IDPs comprising 2.19 million displaced prior to April 2023 and approximately 6.43 million displaced since.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-23",
+      "retrieved_date": "2026-09-18",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168331",
+      "text": "UN News (14 September 2026): IOM Director-General Amy Pope warned the humanitarian system in Sudan 'could collapse within weeks' without further funding; the Common Humanitarian Pipeline, run by IOM with more than 100 partners, has reached 2.84 million people since July 2023 but needs US$15 million to sustain minimum operations for the next 12 months, with current shelter, sanitation and household relief items due to run out by the end of September and warehouses set to close by December without additional funding. WFP's Acting Executive Director Carl Skau said WFP's Sudan operation is 'only about one-third funded' and risks scaling back significantly in the coming weeks. The article puts nationwide internal displacement at about 8.6 million people and 19.5 million people facing crisis-level food insecurity, describing El Obeid as continuing to host IDP camps 'stretched beyond their capacities.'",
       "verification_status": "verified"
     },
     {
@@ -82,12 +90,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country, while its regional situation portal last recorded 11,349,317 people forcibly displaced by the Sudan crisis overall (10 August 2026 update). Displacement continues to be driven by fighting in Kordofan, Darfur and Blue Nile alongside seasonal flooding, with more than 30 million people across Sudan in need of humanitarian assistance and the country's $3 billion appeal only 40% funded.",
+  "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country, while its regional situation portal last recorded 11,349,317 people forcibly displaced by the Sudan crisis overall (10 August 2026 update). Displacement continues to be driven by fighting in Kordofan, Darfur and Blue Nile alongside seasonal flooding, with more than 30 million people across Sudan in need of humanitarian assistance; IOM and WFP have warned the humanitarian pipeline could collapse within weeks without further funding, with essential relief supplies due to run out by the end of September and Sudan's $3 billion appeal only 40% funded.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": 9528150,
-      "summary": "UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan, down slightly from 8,685,273 a month earlier, and 905,349 refugees and asylum-seekers hosted in the country, up from 900,819; 6.43 million of the internal displacement has occurred since April 2023. UNHCR's regional situation portal last recorded a total of 11,349,317 people forcibly displaced by the Sudan crisis (10 August 2026 update) and continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. Fighting and flooding across Kordofan, Darfur and Blue Nile continue to displace people, with more than 30 million in need nationwide and Sudan's $3 billion humanitarian appeal only 40% funded."
+      "summary": "UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan, down slightly from 8,685,273 a month earlier, and 905,349 refugees and asylum-seekers hosted in the country, up from 900,819; 6.43 million of the internal displacement has occurred since April 2023. UNHCR's regional situation portal last recorded a total of 11,349,317 people forcibly displaced by the Sudan crisis (10 August 2026 update) and continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. Fighting and flooding across Kordofan, Darfur and Blue Nile continue to displace people, with more than 30 million in need nationwide. IOM warned on 14 September that Sudan's humanitarian pipeline could collapse within weeks without further funding, with shelter and sanitation supplies due to run out by the end of September and warehouses closing by December, while WFP said it was only about one-third funded and risked scaling back significantly."
     },
     "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
     "location": {
@@ -101,18 +109,18 @@
     "status": "ongoing"
   },
   "id": "sudan-displacement-crisis",
-  "last_updated": "2026-09-17T09:17:33Z",
+  "last_updated": "2026-09-18T09:16:03Z",
   "name": "Sudan Displacement Crisis",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-17T09:17:33Z",
+        "at": "2026-09-18T09:16:03Z",
         "layer": "verify",
-        "run_id": "2026-09-17T09-17-33Z-eaa863"
+        "run_id": "2026-09-18T09-16-03Z-2ccfa3"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-17T09-17-33Z-eaa863"
+    "last_run_id": "2026-09-18T09-16-03Z-2ccfa3"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -121,6 +129,10 @@
     "recency_rank": 738625
   },
   "updates": [
+    {
+      "date": "2026-09-18",
+      "text": "IOM and WFP warned Sudan's humanitarian pipeline could collapse within weeks without more funding: IOM said shelter and sanitation supplies would run out by the end of September and warehouses would close by December, while WFP said it was only about one-third funded and risked scaling back significantly in the coming weeks."
+    },
     {
       "date": "2026-09-13",
       "text": "UNHCR's Sudan country portal (data as of 31 August 2026) recorded 8,622,801 internally displaced persons within Sudan, down from 8,685,273 a month earlier, while refugees and asylum-seekers hosted in Sudan rose slightly to 905,349 from 900,819."
@@ -148,7 +160,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

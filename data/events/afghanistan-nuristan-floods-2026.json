@@ -26,6 +26,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-19",
+      "retrieved_date": "2026-09-18",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/disaster/ff-2026-000120-afg",
+      "text": "Re-checked 18 September 2026: direct fetch of ReliefWeb's Afghanistan flash-flood disaster page (ff-2026-000120-afg) returned HTTP 403. Targeted searches for an OCHA Flash Update #4, WHO update, or DREF Operation Update/Final Report (MDRAF022) newer than the IFRC report already on file (10 August 2026) found nothing newer; the confirmed toll (30 deaths) remains unchanged.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-30",
       "source_name": "United Nations",
@@ -77,18 +85,18 @@
     "status": "ongoing"
   },
   "id": "afghanistan-nuristan-floods-2026",
-  "last_updated": "2026-09-17T09:17:34Z",
+  "last_updated": "2026-09-18T09:16:02Z",
   "name": "Nuristan Flash Floods, Afghanistan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-17T09:17:34Z",
+        "at": "2026-09-18T09:16:02Z",
         "layer": "verify",
-        "run_id": "2026-09-17T09-17-34Z-81de4f"
+        "run_id": "2026-09-18T09-16-02Z-34d616"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-17T09-17-34Z-81de4f"
+    "last_run_id": "2026-09-18T09-16-02Z-34d616"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -120,7 +128,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

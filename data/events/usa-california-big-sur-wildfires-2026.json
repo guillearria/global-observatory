@@ -51,7 +51,7 @@
     },
     {
       "id": "claim-7",
-      "retrieved_date": "2026-09-17",
+      "retrieved_date": "2026-09-18",
       "source_name": "CAL FIRE",
       "source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire/",
       "text": "CAL FIRE's incident page for the Plaskett Fire reports that, as of September 16, 2026 at 6:16 PM, the fire had burned 29,993 acres and reached 97% containment (up from 89%); the Monterey County Sheriff's Office has lifted all evacuation orders and warnings connected to the fire.",
@@ -64,14 +64,22 @@
       "source_url": "https://www.fire.ca.gov/incidents/2026/8/8/timber-fire/",
       "text": "CAL FIRE's incident page for the Timber Fire reports that, as of September 16, 2026 at 6:12 PM, the fire had burned 25,435 acres and remained 44% contained, with 661 structures still listed as threatened; evacuation orders remain in effect for 10 zones and warnings for 16 zones, with three zones downgraded from orders to warnings and thirteen zones lifted to normal status that day.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-9",
+      "retrieved_date": "2026-09-18",
+      "source_name": "CAL FIRE",
+      "source_url": "https://www.fire.ca.gov/incidents/2026/8/8/timber-fire/",
+      "text": "CAL FIRE's incident page for the Timber Fire reports that, as of September 17, 2026 at 5:52 PM, the fire had burned 25,435 acres and was 59% contained, up from 44% on September 16; 661 structures remain listed as threatened and 3 responder injuries are unchanged, with evacuation orders remaining in effect for 10 zones and warnings for 16 zones. Operations are transitioning toward hold, patrol and monitor status as containment strengthens and resources are consolidated.",
+      "verification_status": "verified"
     }
   ],
-  "description": "The Plaskett and Timber wildfires have burned roughly 55,400 combined acres along California's Big Sur coast since August 2026. The Timber Fire ignited August 8 and the larger Plaskett Fire ignited August 26 in the Los Padres National Forest near Big Sur; CAL FIRE now reports the Plaskett Fire 97% contained with all evacuation orders and warnings lifted, while the Timber Fire remains at 44% containment with evacuation orders still active for 10 zones in Monterey County. No deaths have been reported by CAL FIRE for either fire, though the Timber Fire has caused 3 responder injuries.",
+  "description": "The Plaskett and Timber wildfires have burned roughly 55,400 combined acres along California's Big Sur coast since August 2026. The Timber Fire ignited August 8 and the larger Plaskett Fire ignited August 26 in the Los Padres National Forest near Big Sur; CAL FIRE now reports the Plaskett Fire 97% contained with all evacuation orders and warnings lifted, while the Timber Fire has reached 59% containment with evacuation orders still active for 10 zones in Monterey County as operations shift toward hold, patrol and monitor status. No deaths have been reported by CAL FIRE for either fire, though the Timber Fire has caused 3 responder injuries.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "CAL FIRE reports no deaths from either fire, but 3 responder injuries on the Timber Fire. As of September 16, 2026, the Plaskett Fire has reached 97% containment on 29,993 acres, with all evacuation orders and warnings lifted by the Monterey County Sheriff's Office. The Timber Fire remains at 44% containment on 25,435 acres, with 661 structures still threatened and evacuation orders in effect for 10 zones (warnings for 16 more), though thirteen zones were lifted to normal status on 16 September."
+      "summary": "CAL FIRE reports no deaths from either fire, but 3 responder injuries on the Timber Fire. As of September 17, 2026, the Plaskett Fire remains 97% contained on 29,993 acres, with all evacuation orders and warnings lifted by the Monterey County Sheriff's Office. The Timber Fire has reached 59% containment (up from 44%) on 25,435 acres, with 661 structures still threatened and evacuation orders in effect for 10 zones (warnings for 16 more), as operations shift toward hold, patrol and monitor status."
     },
     "live_source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire",
     "location": {
@@ -81,22 +89,22 @@
       "region": "Big Sur, Los Padres National Forest — Monterey & San Luis Obispo Counties, California"
     },
     "occurrence_date": "2026-08-26",
-    "scale": "~55,400 combined acres (Plaskett 89%, Timber 44% contained)",
+    "scale": "~55,400 combined acres (Plaskett 97%, Timber 59% contained)",
     "status": "ongoing"
   },
   "id": "usa-california-big-sur-wildfires-2026",
-  "last_updated": "2026-09-17T09:17:34Z",
+  "last_updated": "2026-09-18T09:16:03Z",
   "name": "Wildfires — Big Sur / Los Padres National Forest, California",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-17T09:17:34Z",
+        "at": "2026-09-18T09:16:03Z",
         "layer": "verify",
-        "run_id": "2026-09-17T09-17-34Z-6fe933"
+        "run_id": "2026-09-18T09-16-03Z-020086"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-17T09-17-34Z-6fe933"
+    "last_run_id": "2026-09-18T09-16-03Z-020086"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -105,6 +113,10 @@
     "recency_rank": 739854
   },
   "updates": [
+    {
+      "date": "2026-09-18",
+      "text": "CAL FIRE reported the Timber Fire's containment rose to 59% (from 44%) on 25,435 acres, with 661 structures still threatened and operations shifting toward hold, patrol and monitor status."
+    },
     {
       "date": "2026-09-17",
       "text": "CAL FIRE reported the Plaskett Fire reached 97% containment (up from 89%) and Monterey County lifted all evacuation orders and warnings for it; the Timber Fire held at 44% containment (25,435 acres) with evacuation orders still active for 10 zones after three zones were downgraded to warnings and thirteen lifted to normal status."
@@ -128,7 +140,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
