@@ -10,6 +10,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-10",
+      "retrieved_date": "2026-09-19",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168364",
+      "text": "UN News (18 September 2026), 'Yemen's humanitarian crisis growing by the hour amid spike in displacement': the International Organization for Migration reports 'at least 112,000 people' have been displaced inside Yemen over the last two weeks, mainly along the west coast and in Aden, Hudaydah, Abyan and Taiz governorates, on top of the 4.8 million Yemenis already displaced by years of prior conflict; more than 3,000 people have now crossed the Bab el-Mandeb Strait to Djibouti, arriving on overcrowded boats with very limited food and water. IOM Chief of Mission Abdusattor Esoev said, 'Our resources are very, very, very limited and our stocks will be depleted very soon.' OHCHR spokesperson Shabia Mantoo said Yemeni civilians 'are already bearing the consequences of renewed full-scale hostilities,' and the article notes 73 UN personnel remain arbitrarily detained by Houthi authorities, some since 2021, with only 60 of Yemen's more than 5,000 health service delivery units fully functioning.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-28",
       "source_name": "United Nations",
@@ -74,12 +82,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Yemen's Houthi rebels seized the strategic Red Sea port of Mocha on 10 September 2026, then went on to seize further Red Sea islands, tightening their grip on the Bab al-Mandab Strait; the UN Security Council held an emergency session on the crisis on 15 September as the World Health Organization put cumulative casualties at 2,883 since 6 August. OCHA reported at least 125,000 people displaced since the start of September, while IOM separately recorded 93,864 newly displaced and UNHCR reported thousands fleeing to Djibouti across the Bab el-Mandeb Strait. Humanitarian access along the west coast remains severely constrained, with supplies critically low and funding falling short of needs.",
+  "description": "Yemen's Houthi rebels seized the strategic Red Sea port of Mocha on 10 September 2026, then went on to seize further Red Sea islands, tightening their grip on the Bab al-Mandab Strait; the UN Security Council held an emergency session on the crisis on 15 September as the World Health Organization put cumulative casualties at 2,883 since 6 August. OCHA reported at least 125,000 people displaced since the start of September, while IOM's own count has climbed to at least 112,000 over the two weeks to 18 September and more than 3,000 people have now crossed to Djibouti. Humanitarian access along the west coast remains severely constrained, with supplies critically low and IOM warning its relief stocks will soon be depleted.",
   "event": {
     "impact": {
       "deaths": 67,
       "displaced": 125000,
-      "summary": "OCHA reported on 14 September 2026 that hostilities since the start of September have displaced at least 125,000 people (18,000 households); IOM separately put newly displaced at 93,864 as of 15 September, and UNHCR reported more than 2,400 people have fled across the Bab el-Mandeb Strait to Djibouti within four days. OHCHR verified 40 civilian casualties -- eight killed and 32 injured -- between 1 and 14 September, while WHO's latest situation report puts the broader cumulative toll at 2,883 casualties since 6 August, up sharply from the 355 (67 deaths, 288 injuries) it had recorded for 6-24 August alone. Houthi forces captured the Red Sea port of Mocha on 10 September and have since seized further Red Sea islands, tightening control over the Bab al-Mandab Strait; the UN Security Council held an emergency session on the crisis on 15 September, and the UN released US$9 million from CERF for the displaced. Humanitarian access on the west coast remains severely constrained amid critically low supplies and underfunding."
+      "summary": "OCHA reported on 14 September 2026 that hostilities since the start of September have displaced at least 125,000 people (18,000 households); IOM's own running count, initially 93,864 as of 15 September, had risen to at least 112,000 over the two weeks to 18 September, with more than 3,000 people (up from 2,400 four days earlier) now having crossed the Bab el-Mandeb Strait to Djibouti. OHCHR verified 40 civilian casualties -- eight killed and 32 injured -- between 1 and 14 September, while WHO's latest situation report puts the broader cumulative toll at 2,883 casualties since 6 August, up sharply from the 355 (67 deaths, 288 injuries) it had recorded for 6-24 August alone. Houthi forces captured the Red Sea port of Mocha on 10 September and have since seized further Red Sea islands, tightening control over the Bab al-Mandab Strait; the UN Security Council held an emergency session on the crisis on 15 September, and the UN released US$9 million from CERF for the displaced. Humanitarian access on the west coast remains severely constrained, with only 60 of Yemen's more than 5,000 health service delivery units fully functioning and IOM warning its relief stocks will soon be depleted."
     },
     "live_source_url": "https://news.un.org/en/focus/yemen",
     "location": {
@@ -93,18 +101,18 @@
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-09-17T09:10:48Z",
+  "last_updated": "2026-09-19T09:11:58Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-17T09:10:48Z",
+        "at": "2026-09-19T09:11:58Z",
         "layer": "verify",
-        "run_id": "2026-09-17T09-10-48Z-5b3817"
+        "run_id": "2026-09-19T09-11-58Z-e5c748"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-17T09-10-48Z-5b3817"
+    "last_run_id": "2026-09-19T09-11-58Z-e5c748"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -113,6 +121,10 @@
     "recency_rank": 739835
   },
   "updates": [
+    {
+      "date": "2026-09-19",
+      "text": "IOM reported on 18 September that displacement inside Yemen has reached at least 112,000 people over two weeks of fighting (up from 93,864 as of 15 September), mainly along the west coast and in Aden, Hudaydah, Abyan and Taiz; more than 3,000 people (up from 2,400) have now crossed to Djibouti, and IOM warned its relief stocks will soon be depleted."
+    },
     {
       "date": "2026-09-16",
       "text": "The Security Council held an emergency session on Yemen as WHO's cumulative casualty count since 6 August rose to 2,883 and IOM separately recorded 93,864 people newly displaced this month; UNHCR reported over 2,400 people have fled to Djibouti within four days, and the UN released $9 million from CERF for the displaced."
@@ -136,7 +148,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
