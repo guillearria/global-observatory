@@ -64,6 +64,14 @@
       "source_url": "https://reliefweb.int/report/indonesia/indonesian-humanitarian-coordination-platform-situation-report-no-9-earthquake-and-tsunami-flores-and-surrounding-areas-14-september-2026",
       "text": "Indonesian Humanitarian Coordination Platform Situation Report No. 9 (14 September 2026), citing provisional BNPB data as of 9 September 2026, 09:00 WIB: '135 Deaths - 48 direct - 87 indirect / 1,764 Injured / 60,572 Displaced / 98,986 Damaged houses - 26,089 severely damaged - 22,505 moderately damaged - 50,392 lightly damaged.' District breakdown of the displaced: East Manggarai 24,124, Manggarai 12,585, West Manggarai 8,576, Nagekeo 6,936, Ngada 4,889, Sikka 3,462, Ende 0. The report notes that although the recorded number of displaced people has declined sharply from Situation Report No. 6, many people remain in self-managed shelters close to their homes and coordination remains essential.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-9",
+      "retrieved_date": "2026-09-20",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/disaster/eq-2026-000150-idn",
+      "text": "Re-checked 20 September 2026: the Indonesian Humanitarian Coordination Platform's Situation Report No. 9 (14 September 2026, BNPB data as of 9 September) remains the latest numbered situation report listed on ReliefWeb's Flores earthquake and tsunami disaster page, with no Situation Report No. 10 yet published. GDACS's event report for this earthquake (event id 1558059) is unchanged: Red alert, GDACS score 2.1, about 870,000 people exposed to MMI VII or greater shaking, and a maximum tsunami wave of about 1.68 m.",
+      "verification_status": "verified"
     }
   ],
   "description": "A magnitude 7.7 shallow earthquake struck off Flores Island in East Nusa Tenggara, Indonesia, on 14 August 2026 at 21:58:21 UTC, centered about 68 km NNW of Ende at a depth of 10 km, where the Australia and Sunda plates converge; GDACS recorded a tsunami with a maximum wave height of about 1.68 m. Indonesia's BNPB, via the Indonesian Humanitarian Coordination Platform's Situation Report No. 9 (data as of 9 September), now puts the toll at 135 deaths and 1,764 injured, with displacement down sharply to 60,572 as people return to self-managed shelters near their homes, and 98,986 houses damaged (26,089 severely). A sustained aftershock sequence has followed, the largest a M6.1 event 58 km north of Ende. USGS assessed a Yellow PAGER alert with roughly 2 million people exposed to strong-to-violent shaking, while GDACS's Red-alert report still estimates about 870,000 people within zones of MMI VII or greater, not yet reflecting BNPB's updated figures.",
@@ -85,18 +93,18 @@
     "status": "ongoing"
   },
   "id": "indonesia-earthquake-flores-2026",
-  "last_updated": "2026-09-18T09:16:03Z",
+  "last_updated": "2026-09-20T09:21:17Z",
   "name": "M7.7 Earthquake, Flores, Indonesia",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-18T09:16:03Z",
+        "at": "2026-09-20T09:21:17Z",
         "layer": "verify",
-        "run_id": "2026-09-18T09-16-03Z-bf93c4"
+        "run_id": "2026-09-20T09-21-17Z-332a71"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-18T09-16-03Z-bf93c4"
+    "last_run_id": "2026-09-20T09-21-17Z-332a71"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -132,7 +140,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

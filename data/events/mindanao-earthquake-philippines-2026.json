@@ -114,6 +114,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-29",
+      "retrieved_date": "2026-09-20",
+      "source_name": "Department of Social Welfare and Development (Philippines)",
+      "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-84-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-18-September-2026-6PM.pdf",
+      "text": "DSWD DROMIC Report #84 (as of 18 September 2026, 6PM) reports 395,626 families (1,674,308 persons) affected in 661 barangays across Regions IX, XI, XII and BARMM, unchanged from Report #83; 23,736 families (94,821 persons) remain displaced and 128,604 houses remain damaged (19,320 totally, 109,284 partially), both also unchanged from Report #83. Assistance provided to date rose to ₱1,658,236,877.87. DSWD's DROMIC template still carries no casualty section; OCHA's 13 July 2026 snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable casualty figure.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-07-07",
       "source_name": "ReliefWeb",
@@ -189,18 +197,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-09-18T09:16:03Z",
+  "last_updated": "2026-09-20T09:21:17Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-18T09:16:03Z",
+        "at": "2026-09-20T09:21:17Z",
         "layer": "verify",
-        "run_id": "2026-09-18T09-16-03Z-851793"
+        "run_id": "2026-09-20T09-21-17Z-d09bc6"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-18T09-16-03Z-851793"
+    "last_run_id": "2026-09-20T09-21-17Z-d09bc6"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -244,7 +252,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 22 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
