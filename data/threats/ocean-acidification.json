@@ -1,0 +1,97 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "very-high",
+      "numeric_annual": null,
+      "window": "ongoing"
+    },
+    "severity": "continental",
+    "summary": "A measured, ongoing shift in ocean chemistry — surface pH already down about 0.1 unit since pre-industrial times, roughly a 30% rise in acidity — projected to fall a further 0.3–0.4 units by 2100, eroding the calcifying species at the base of marine food webs and the fisheries built on them.",
+    "timeframe": "Already underway and directly measured in ocean time series; the projected additional 0.3–0.4 pH decline runs to 2100, and surface-ocean chemistry takes thousands of years to recover once emissions stop."
+  },
+  "category": "climate",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-09-21",
+      "source_name": "NOAA",
+      "source_url": "https://www.aoml.noaa.gov/101112-2/",
+      "text": "NOAA's Atlantic Oceanographic and Meteorological Laboratory states that the ocean's pH at the sea surface once measured at 8.2 before the 1700s and today is estimated at 8.1, a 0.1 decrease in ocean pH.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-09-21",
+      "source_name": "NOAA",
+      "source_url": "https://pmel.noaa.gov/co2/story/A+primer+on+pH",
+      "text": "NOAA's Pacific Marine Environmental Laboratory states that since the Industrial Revolution the global average pH of the surface ocean has decreased by 0.11, which corresponds to approximately a 30% increase in hydrogen ion concentration.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-09-21",
+      "source_name": "UNESCO",
+      "source_url": "https://www.ioc.unesco.org/en/ocean-acidification",
+      "text": "The Intergovernmental Oceanographic Commission of UNESCO states that every year the ocean absorbs about 25% of human-made carbon dioxide (CO2) emissions.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-09-21",
+      "source_name": "NOAA",
+      "source_url": "https://www.fisheries.noaa.gov/insight/understanding-ocean-acidification",
+      "text": "NOAA Fisheries states that over the past 200 years the world's oceans have absorbed more than 150 billion metric tons of carbon dioxide emitted from human activities, and that ocean carbon dioxide concentrations are now higher than at any time during the past 800,000 years.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-09-21",
+      "source_name": "NOAA",
+      "source_url": "https://www.aoml.noaa.gov/101112-2/",
+      "text": "NOAA states that by 2100 the average pH of the ocean's surface waters could decrease by 0.3 to 0.4, a 100% to 150% increase in acidification over the next 75 years.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-09-21",
+      "source_name": "NOAA",
+      "source_url": "https://sos.noaa.gov/catalog/datasets/ocean-acidification-saturation-state/",
+      "text": "NOAA states that the predicted pH decrease of approximately 0.3 units during the 21st century would be a greater change than possibly at any time in the last 300 million years, and that when aragonite saturation state falls below 3 calcifying organisms become stressed, while below 1 shells and other aragonite structures begin to dissolve.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-7",
+      "retrieved_date": "2026-09-21",
+      "source_name": "NOAA",
+      "source_url": "https://www.pmel.noaa.gov/co2/story/Ocean+Acidification's+impact+on+oysters+and+other+shellfish",
+      "text": "NOAA's Pacific Marine Environmental Laboratory reports that oyster seed production in the U.S. Northwest plummeted by as much as 80 percent between 2005 and 2009 as acidified water reached hatcheries, in a Washington shellfish industry worth $270 million a year.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Ocean acidification is the measured fall in seawater pH caused by the ocean absorbing about a quarter of human carbon dioxide emissions. Dissolved CO2 forms carbonic acid, raising the hydrogen-ion concentration and stripping out the carbonate ions that corals, oysters, clams, pteropods and other calcifying organisms need to build shells and skeletons. Surface pH has fallen from about 8.2 before the 1700s to about 8.1 today — roughly a 30% rise in acidity — and NOAA projects a further decline of 0.3–0.4 units by 2100 on current emissions, a shift larger than possibly any in the last 300 million years. This is not a discrete disaster but a slow, near-irreversible change in the chemistry of the entire ocean: it does not threaten human survival directly, and it acts at the base of marine food webs that supply the primary protein of more than a billion people. Only cutting CO2 emissions slows it; surface-ocean chemistry takes millennia to recover on its own.",
+  "id": "ocean-acidification",
+  "last_updated": "2026-09-21T10:10:28Z",
+  "name": "Ocean Acidification",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-09-21T10:10:28Z",
+        "layer": "verify",
+        "run_id": "2026-09-21T10-10-28Z-395e91"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-09-21T10-10-28Z-395e91"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 25.0,
+    "probability_rank": 5,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

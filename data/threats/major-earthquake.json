@@ -6,14 +6,14 @@
       "window": "annual"
     },
     "severity": "continental",
-    "summary": "A recurrent, well-quantified hazard — about 15 magnitude-7 and one magnitude-8+ earthquake expected globally each year — whose worst instances have killed hundreds of thousands of people in a single event.",
-    "timeframe": "Large earthquakes recur every year worldwide; a single catastrophic event striking a major population center can occur at any time without reliable short-term prediction."
+    "summary": "A recurrent, well-quantified hazard — about 15 magnitude-7 and one magnitude-8+ earthquake expected globally each year, concentrated on the Pacific Ring of Fire — whose worst instances have killed hundreds of thousands of people in a single event, and which no one can predict in advance.",
+    "timeframe": "Large earthquakes recur every year worldwide; a single catastrophic event striking a major population center can occur at any time, and short-term prediction remains impossible."
   },
   "category": "geological",
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-21",
       "source_name": "USGS",
       "source_url": "https://www.usgs.gov/faqs/why-are-we-having-so-many-or-so-few-earthquakes-has-naturally-occurring-earthquake-activity",
       "text": "According to long-term records since about 1900, USGS expects about 16 major earthquakes worldwide in any given year, including 15 earthquakes in the magnitude 7 range and one earthquake of magnitude 8.0 or greater.",
@@ -21,27 +21,51 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-08-05",
+      "retrieved_date": "2026-09-21",
       "source_name": "USGS",
       "source_url": "https://www.usgs.gov/programs/earthquake-hazards/lists-maps-and-statistics",
       "text": "USGS worldwide earthquake statistics record 298,101 deaths from earthquakes in 2004 (the Indian Ocean earthquake and tsunami) and 226,050 in 2010, among the deadliest years on record.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-09-21",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/faqs/can-you-predict-earthquakes",
+      "text": "USGS states that neither the USGS nor any other scientists have ever predicted a major earthquake, and that USGS scientists can only calculate the probability that a significant earthquake will occur in a specific area within a certain number of years.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-09-21",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/faqs/where-do-earthquakes-occur",
+      "text": "USGS states that about 81 percent of the planet's largest earthquakes occur along the Circum-Pacific seismic belt (the Ring of Fire), and that the Alpide belt accounts for about 17 percent of the world's largest earthquakes.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-09-21",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/fdsnws/event/1/count?format=geojson&starttime=2026-01-01&endtime=2026-09-21&minmagnitude=7.0",
+      "text": "A USGS earthquake catalog query covering 1 January to 21 September 2026 returns a count of 11 earthquakes of magnitude 7.0 or greater worldwide, against the long-term expectation of about 16 major earthquakes per year.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A large-magnitude earthquake striking a densely populated or poorly prepared region can kill tens to hundreds of thousands of people in seconds and collapse infrastructure across a wide area. Large earthquakes occur every year somewhere on Earth; the risk is concentrated along active plate boundaries such as the Pacific Ring of Fire.",
+  "description": "A large-magnitude earthquake striking a densely populated or poorly prepared region can kill tens to hundreds of thousands of people in seconds and collapse infrastructure across a wide area. Large earthquakes occur every year somewhere on Earth: USGS long-term records since about 1900 give an expectation of roughly 16 major earthquakes annually, 15 in the magnitude 7 range and one of magnitude 8.0 or greater, and the 2026 catalog is running in line with that. The risk is concentrated along active plate boundaries — about 81% of the largest earthquakes occur around the Pacific Ring of Fire and a further 17% along the Alpide belt from the Mediterranean through the Himalayas. What makes the hazard permanent is that it cannot be forecast: USGS states plainly that no scientist has ever predicted a major earthquake, and that only the probability of one in a given area over a span of years can be calculated. Exposure and building standards, not warning, decide the death toll.",
   "id": "major-earthquake",
-  "last_updated": "2026-08-05T23:58:40Z",
+  "last_updated": "2026-09-21T10:10:28Z",
   "name": "Major Earthquake",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-05T23:58:40Z",
+        "at": "2026-09-21T10:10:28Z",
         "layer": "verify",
-        "run_id": "2026-08-05T23-58-40Z-cbd781"
+        "run_id": "2026-09-21T10-10-28Z-ba3bc7"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-05T23-58-40Z-cbd781"
+    "last_run_id": "2026-09-21T10-10-28Z-ba3bc7"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -51,7 +75,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
