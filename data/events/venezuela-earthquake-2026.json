@@ -146,6 +146,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-37",
+      "retrieved_date": "2026-09-21",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-earthquakes-emergency-update-5-11-august-15-september-2026",
+      "text": "UNHCR's Venezuela Earthquakes Emergency Update #5 (11 August-15 September 2026, posted 16 September 2026): 'As Venezuela moves from emergency relief to recovery, thousands of earthquake-affected families still need documentation, protection services and safe accommodation.' The update reports service-delivery activity (7,200 people reached, 3,356 given relief items) but no new aggregate death toll or displacement figure; OCHA's numbered Situation Report series remains at #34 (27 August, data as of 24 August) and PAHO/WHO's Situation Report No. 10 (3 September) remains the latest in its series, so the confirmed death toll remains 6,509 and 17,907 people remain recorded as having lost their homes.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-07-09",
       "source_name": "ReliefWeb",
@@ -194,12 +202,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A doublet of magnitude 7.2 and 7.5 earthquakes struck northern Venezuela near Morón/San Felipe on 24-25 June 2026, killing more than 6,500 people according to authorities. By early September the response had shifted from emergency operations into early recovery, with the confirmed death toll unchanged since OCHA's 27 August situation report.",
+  "description": "A doublet of magnitude 7.2 and 7.5 earthquakes struck northern Venezuela near Morón/San Felipe on 24-25 June 2026, killing more than 6,500 people according to authorities. By September the response had moved from emergency relief into early recovery, per PAHO/WHO and UNHCR, with the confirmed death toll unchanged since OCHA's 27 August situation report even as thousands of affected families still need documentation, protection services and safe accommodation.",
   "event": {
     "impact": {
       "deaths": 6509,
       "displaced": 17907,
-      "summary": "OCHA Situation Report #34 (27 August 2026, data as of 24 August) puts authorities' reported toll at 6,509 deaths, up from 6,301 as of 10 August; 60,785 homes have now been evaluated (11,001 at high risk), up from 53,314 evaluated (9,567 at high risk). Injuries stand unchanged at 16,740 and 17,907 people remain recorded as having lost their homes. Damage estimates stand at approximately US$37 billion (UNDRR, preliminary) and US$6.7 billion or about 6% of GDP (UNDP), against combined UN funding requirements of US$931 million targeting 1.3 million earthquake-affected people. Nearly 364,000 people (54% women and girls) had accessed essential services and humanitarian assistance as of 24 August. PAHO/WHO's Situation Report No. 10 (3 September 2026) describes the response as having moved into early recovery: 106 camps remain at 87% occupancy (24,477 of 28,171 capacity), seven Emergency Medical Teams are still operational (fifteen demobilized), and 68 partners remain active in the Health Cluster; no newer OCHA or PAHO situation report had been published as of 13 September."
+      "summary": "OCHA Situation Report #34 (27 August 2026, data as of 24 August) remains the latest in its numbered series, putting authorities' reported toll at 6,509 deaths and 17,907 people who lost their homes, with injuries unchanged at 16,740. Damage estimates stand at approximately US$37 billion (UNDRR, preliminary) and US$6.7 billion or about 6% of GDP (UNDP), against combined UN funding requirements of US$931 million targeting 1.3 million earthquake-affected people. PAHO/WHO's Situation Report No. 10 (3 September) and UNHCR's Emergency Update #5 (11 August-15 September, posted 16 September) both describe the response as having moved from emergency relief into early recovery, while thousands of affected families still need documentation, protection services and safe accommodation; no newer OCHA, PAHO or UNHCR figure has been published as of 21 September."
     },
     "live_source_url": "https://reliefweb.int/disaster/eq-2026-000093-ven",
     "location": {
@@ -209,22 +217,22 @@
       "region": "Near Morón / San Felipe, northern Venezuela (west of Caracas)"
     },
     "occurrence_date": "2026-06-25",
-    "scale": "M7.5",
-    "status": "ongoing"
+    "scale": "M7.5; early-recovery phase as of September 2026",
+    "status": "contained"
   },
   "id": "venezuela-earthquake-2026",
-  "last_updated": "2026-09-20T09:21:17Z",
+  "last_updated": "2026-09-21T09:22:03Z",
   "name": "Venezuela M7.5 Earthquake Doublet",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-20T09:21:17Z",
+        "at": "2026-09-21T09:22:03Z",
         "layer": "verify",
-        "run_id": "2026-09-20T09-21-17Z-954e10"
+        "run_id": "2026-09-21T09-22-03Z-e5e685"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-20T09-21-17Z-954e10"
+    "last_run_id": "2026-09-21T09-22-03Z-e5e685"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -233,6 +241,10 @@
     "recency_rank": 739792
   },
   "updates": [
+    {
+      "date": "2026-09-21",
+      "text": "UNHCR's Emergency Update #5 (11 Aug-15 Sept, posted 16 Sept) confirmed the response has moved from emergency relief into recovery; thousands of families still need documentation, protection and safe accommodation. Status reclassified ongoing -> contained to reflect the early-recovery transition PAHO/WHO and UNHCR both describe."
+    },
     {
       "date": "2026-09-11",
       "text": "PAHO/WHO's Situation Report No. 10 (3 September) described the response as having moved into early recovery two months after the earthquakes: 106 transitional camps at 87% occupancy, seven EMTs still operational (fifteen demobilized) and 68 active Health Cluster partners; the confirmed death toll remains at 6,509, with no OCHA situation report newer than #34 (27 August) yet published."
@@ -264,7 +276,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 24 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 25 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

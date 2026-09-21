@@ -210,6 +210,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-33",
+      "retrieved_date": "2026-09-21",
+      "source_name": "InciWeb (US wildland fire agencies)",
+      "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+      "text": "InciWeb's Sinlahekin Fire incident page, updated 20 September 2026, 1:44 PM PT: containment has risen to 92% (from 84% on 17 September) at 166,026 acres (unchanged), with 594 personnel assigned (down from 616).",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-08-10",
       "source_name": "Office of the Governor of Washington State",
@@ -258,12 +266,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, remains active under a federal emergency declaration covering 12 counties and three Tribal Nations. The Sinlahekin Fire, the state's largest, has held at 84% containment on over 166,000 acres as of 17 September 2026, with personnel assigned winding down, while a separate emergency addresses the Paradise Fire's threat to Walla Walla's water supply.",
+  "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, remains active under a federal emergency declaration covering 12 counties and three Tribal Nations. The Sinlahekin Fire, the state's largest, has risen to 92% containment on over 166,000 acres as of 20 September 2026, with personnel assigned continuing to wind down, while a separate emergency addresses the Paradise Fire's threat to Walla Walla's water supply.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "The Sinlahekin Fire, the state's largest, has held at 84% containment on 166,026 acres as of 17 September 2026, with personnel assigned down to 616 from 727 as operations wind down. Washington's wildfire emergency covers 12 counties (after five more were added 31 August) and three Tribal Nations, with tenant-protection and assistance provisions extended to 30 September; a distinct emergency was declared 28 August for Walla Walla County over the Paradise Fire's threat to the Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
+      "summary": "The Sinlahekin Fire, the state's largest, has risen to 92% containment on 166,026 acres as of 20 September 2026, with personnel assigned down to 594 from 616 as operations wind down. Washington's wildfire emergency covers 12 counties (after five more were added 31 August) and three Tribal Nations, with tenant-protection and assistance provisions extended to 30 September; a distinct emergency was declared 28 August for Walla Walla County over the Paradise Fire's threat to the Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
     },
     "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
     "location": {
@@ -273,22 +281,22 @@
       "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
     },
     "occurrence_date": "2026-08-01",
-    "scale": "Federal emergency declaration; state wildfire emergency covering 12 counties; Sinlahekin Fire (state's largest) at 166,026 acres / 84% contained as of 17 September 2026",
+    "scale": "Federal emergency declaration; state wildfire emergency covering 12 counties; Sinlahekin Fire (state's largest) at 166,026 acres / 92% contained as of 20 September 2026",
     "status": "ongoing"
   },
   "id": "usa-washington-wildfires-2026",
-  "last_updated": "2026-09-20T09:09:44Z",
+  "last_updated": "2026-09-21T09:21:34Z",
   "name": "Wildfire Emergency — Eastern Washington, USA",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-20T09:09:44Z",
+        "at": "2026-09-21T09:21:34Z",
         "layer": "verify",
-        "run_id": "2026-09-20T09-09-44Z-d96cbf"
+        "run_id": "2026-09-21T09-21-34Z-10d496"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-20T09-09-44Z-d96cbf"
+    "last_run_id": "2026-09-21T09-21-34Z-10d496"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -297,6 +305,10 @@
     "recency_rank": 739829
   },
   "updates": [
+    {
+      "date": "2026-09-21",
+      "text": "InciWeb's update for the Sinlahekin Fire (20 September 2026, 1:44 PM PT) put containment at 92% (up from 84%) on 166,026 acres (unchanged), with personnel assigned down to 594 from 616."
+    },
     {
       "date": "2026-09-18",
       "text": "InciWeb's update for the Sinlahekin Fire (17 September 2026, 8:00 AM PT) held at 84% containment on 166,026 acres, with personnel assigned down to 616 from 727 as operations wind down."
@@ -404,7 +416,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 32 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 33 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -50,6 +50,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-15",
+      "retrieved_date": "2026-09-21",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081&episodeid=19",
+      "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 19, reporting window extended to 31 July - 21 September 2026) records 'Death: 6' (up from 4 in episode 18) and 399,045 people displaced (unchanged); overall alert level remains Orange (medium humanitarian impact), with a new referenced report noting heavy rain triggered flooding and debris flows in Sichuan Province, China, on 19 September 2026.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-14",
       "source_name": "GDACS",
@@ -106,12 +114,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Flooding tied initially to Typhoon Dolphin, and continuing under successive rounds of renewed rain from Typhoon Saudel and a South China Sea tropical depression, has affected provinces and municipalities across central, southern and eastern China since 31 July 2026. GDACS's current flood report (episode 18, reporting window 31 July - 13 September 2026) records 399,045 people displaced, up sharply from 318,341 in its prior read, after heavy rainfall from a tropical depression triggered new flooding in Hainan Province beginning 11 September. The confirmed death toll holds at 4: the earlier Zhejiang debris-flow death, the two Yanling County (Hunan) deaths, and the Jiangxi death recorded in early September. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert.",
+  "description": "Flooding tied initially to Typhoon Dolphin, and continuing under successive rounds of renewed rain from Typhoon Saudel, a South China Sea tropical depression and new rainfall in Sichuan Province, has affected provinces and municipalities across central, southern and eastern China since 31 July 2026. GDACS's current flood report (episode 19, reporting window 31 July - 21 September 2026) records 399,045 people displaced, unchanged from its prior read, while the confirmed death toll has risen to 6, up from 4, after heavy rain triggered flooding and debris flows in Sichuan Province beginning 19 September 2026. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert.",
   "event": {
     "impact": {
-      "deaths": 4,
+      "deaths": 6,
       "displaced": 399045,
-      "summary": "GDACS's current flood report (episode 18, reporting window 31 July - 13 September 2026) records 399,045 people displaced, up sharply from 318,341 in its prior read, with the increase attributed to new flooding in Hainan Province from a South China Sea tropical depression beginning 11 September 2026. The confirmed death toll holds at 4, unchanged from the prior episode. The event remains at Orange alert, now spanning provinces from Shaanxi and Hubei to Hunan, Jiangxi, Yunnan, Hainan and Taiwan."
+      "summary": "GDACS's current flood report (episode 19, reporting window 31 July - 21 September 2026) records the confirmed death toll rising to 6, up from 4 in the prior episode, with 399,045 people displaced (unchanged from episode 18). The episode's newly referenced report cites heavy rain triggering flooding and debris flows in Sichuan Province beginning 19 September 2026. The event remains at Orange alert, now spanning provinces from Shaanxi and Hubei to Hunan, Jiangxi, Yunnan, Hainan, Sichuan and Taiwan."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
     "location": {
@@ -121,22 +129,22 @@
       "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Jiangxi and Hainan provinces/municipalities (Yangtze basin, eastern seaboard and South China Sea coast)"
     },
     "occurrence_date": "2026-07-31",
-    "scale": "GDACS Orange alert; 399,045 displaced across multiple provinces; 4 deaths (as of 13 September 2026)",
+    "scale": "GDACS Orange alert; 399,045 displaced across multiple provinces; 6 deaths (as of 21 September 2026)",
     "status": "ongoing"
   },
   "id": "china-floods-yangtze-typhoon-dolphin-2026",
-  "last_updated": "2026-09-20T09:20:17Z",
+  "last_updated": "2026-09-21T09:21:19Z",
   "name": "Typhoon Dolphin Flooding, Central China",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-20T09:20:17Z",
+        "at": "2026-09-21T09:21:19Z",
         "layer": "verify",
-        "run_id": "2026-09-20T09-20-17Z-2629d3"
+        "run_id": "2026-09-21T09-21-19Z-578d2e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-20T09-20-17Z-2629d3"
+    "last_run_id": "2026-09-21T09-21-19Z-578d2e"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -145,6 +153,10 @@
     "recency_rank": 739828
   },
   "updates": [
+    {
+      "date": "2026-09-21",
+      "text": "GDACS's episode 19 update recorded the confirmed death toll rising to 6 (from 4), citing new flooding and debris flows in Sichuan Province beginning 19 September; displaced held at 399,045. Reporting window extended to 21 September. Event remains at Orange alert."
+    },
     {
       "date": "2026-09-15",
       "text": "GDACS's episode 18 update recorded a sharp rise in displacement to 399,045 people (from 318,341), attributed to new flooding in Hainan Province from a South China Sea tropical depression beginning 11 September; the death toll held at 4. Reporting window extended to 13 September. Event remains at Orange alert."
@@ -196,7 +208,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
