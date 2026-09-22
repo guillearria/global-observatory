@@ -24,14 +24,22 @@
       "source_url": "https://geologi.esdm.go.id/media-center/perkembangan-erupsi-gunungapi-anak-krakatau-tanggal-11-september-2026",
       "text": "Indonesia's Badan Geologi (PVMBG), in its update on Gunung Anak Krakatau dated 11 September 2026 (evaluation as of 06:00 WIB), states the volcano's activity level remains at Level III / Siaga (\"tingkat aktivitas G. Anak Krakatau tetap pada Level III (Siaga)\") with the 3km exclusion zone unchanged, and records 14 Strombolian eruptions since the continuous eruption episode ended (\"telah terjadi 14 kali erupsi Strombolian\"), up from 3 as of 7 September; it assesses the probability of a further eruption in the coming period as still high, and notes deep volcanic earthquakes show an increasing trend while shallow volcanic seismicity is fluctuating with a declining tendency.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-09-22",
+      "source_name": "Badan Geologi / PVMBG (Indonesia)",
+      "source_url": "http://geologi.esdm.go.id/media-center/laporan-khusus-penurunan-tingkat-aktivitas-gunungapi-anak-krakatau-provinsi-lampung-dari-level-iii-siaga-menjadi-level-ii-waspada-tanggal-21-september-2026-pukul-18-30-wib",
+      "text": "Indonesia's Badan Geologi (PVMBG), in a Special Report (Laporan Khusus) dated 21 September 2026, downgraded Gunung Anak Krakatau's activity level from Level III (Siaga) to Level II (Waspada), effective 21 September 2026 at 18:30 WIB (\"terhitung mulai tanggal 21 September 2026 pukul 18.30 WIB\"), and reduced the exclusion zone from 3km to 2km from the volcano's center (\"tidak diperbolehkan memasuki dan melakukan kegiatan di dalam wilayah radius 2 km\"). It cites declining seismicity on 20 September (\"1 kali Gempa Low Frequency dan Tremor Menerus dengan rata rata amplitudo 2 mm\") and a deflation trend in deformation monitoring supporting the downgrade, and asks residents of the Banten and Lampung coasts to stay calm and not believe rumors of an eruption (\"jangan mempercayai isu-isu tentang erupsi\").",
+      "verification_status": "verified"
     }
   ],
-  "description": "Indonesia's Krakatau volcano, in the Sunda Strait, began a high-level eruption on 4 September 2026 that GDACS rated a VEI 6 event under an Orange alert, with a 25-hour continuous episode running from 21:00 UTC on 4 September to 14:30 UTC on 5 September; GDACS estimates about 2,000 people live within 30km of the volcano. Indonesia's Badan Geologi (PVMBG) reports the volcano returned to intermittent Strombolian eruptions after the continuous episode ended, recording 14 such eruptions by 11 September, and keeps the volcano at Alert Level III (Siaga) with a mandatory 3km exclusion zone, assessing the probability of a further eruption in the coming period as still high.",
+  "description": "Indonesia's Krakatau volcano, in the Sunda Strait, began a high-level eruption on 4 September 2026 that GDACS rated a VEI 6 event under an Orange alert, with a 25-hour continuous episode running from 21:00 UTC on 4 September to 14:30 UTC on 5 September; GDACS estimates about 2,000 people live within 30km of the volcano. Indonesia's Badan Geologi (PVMBG) downgraded the volcano from Alert Level III (Siaga) to Level II (Waspada) on 21 September, citing declining seismicity and ground deformation, and reduced the mandatory exclusion zone from 3km to 2km around the crater.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's Orange-alert report for this event estimates about 2,000 people live within 30km of Krakatau and rates the initial episode a VEI 6 event running from 21:00 UTC on 4 September to 14:30 UTC on 5 September 2026. No casualty or displacement figures have been published by an authoritative source. Indonesia's Badan Geologi (PVMBG), as of its 11 September update, keeps the volcano at Alert Level III (Siaga) with a mandatory 3km exclusion zone, reports 14 Strombolian eruptions recorded since the continuous episode ended (up from 3 on 7 September), and assesses the probability of a further eruption in the coming period as still high."
+      "summary": "GDACS's Orange-alert report for this event estimates about 2,000 people live within 30km of Krakatau and rates the initial episode a VEI 6 event running from 21:00 UTC on 4 September to 14:30 UTC on 5 September 2026. No casualty or displacement figures have been published by an authoritative source. Indonesia's Badan Geologi (PVMBG) downgraded the volcano's alert level from Level III (Siaga) to Level II (Waspada) effective 21 September 2026, 18:30 WIB, citing declining seismicity and a deflation trend in ground deformation, and reduced the mandatory exclusion zone from 3km to 2km around the crater."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1000148&eventtype=VO",
     "location": {
@@ -41,22 +49,22 @@
       "region": "Sunda Strait (Lampung / Banten provinces)"
     },
     "occurrence_date": "2026-09-04",
-    "scale": "VEI 6; GDACS Orange alert; Indonesia Alert Level III (Siaga)",
+    "scale": "VEI 6; GDACS Orange alert; Indonesia Alert Level II (Waspada)",
     "status": "ongoing"
   },
   "id": "indonesia-volcano-krakatau-2026",
-  "last_updated": "2026-09-21T09:20:38Z",
+  "last_updated": "2026-09-22T09:11:52Z",
   "name": "Volcanic Eruption — Krakatau, Indonesia",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-21T09:20:38Z",
+        "at": "2026-09-22T09:11:52Z",
         "layer": "verify",
-        "run_id": "2026-09-21T09-20-38Z-afaad6"
+        "run_id": "2026-09-22T09-11-52Z-d24b0a"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-21T09-20-38Z-afaad6"
+    "last_run_id": "2026-09-22T09-11-52Z-d24b0a"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -65,6 +73,10 @@
     "recency_rank": 739863
   },
   "updates": [
+    {
+      "date": "2026-09-21",
+      "text": "Indonesia's Badan Geologi (PVMBG) downgraded Gunung Anak Krakatau from Alert Level III (Siaga) to Level II (Waspada), effective 21 September 2026 18:30 WIB, citing declining seismicity and a deflation trend in ground deformation, and reduced the mandatory exclusion zone from 3km to 2km around the crater."
+    },
     {
       "date": "2026-09-16",
       "text": "Indonesia's Badan Geologi (PVMBG) reported 14 Strombolian eruptions since the continuous episode ended, as of 11 September, up from 3 recorded on 7 September; the volcano remains at Alert Level III (Siaga) with the 3km exclusion zone unchanged, and the probability of a further eruption remains assessed as high."
@@ -76,7 +88,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

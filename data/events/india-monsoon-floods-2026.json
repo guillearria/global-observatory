@@ -114,6 +114,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-26",
+      "retrieved_date": "2026-09-22",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104121",
+      "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND) has extended its reporting window to 9 August-22 September 2026 (episode 16), still at Orange alert; the structured Uttarakhand-centered death toll has risen to 42 (from 25) while displaced has risen slightly to 260,529 (from 260,524). The episode narrative now also cites heavy rain causing flooding and landslides across parts of Kerala from 20 September 2026, plus media headlines on a 22 September depression lashing Odisha (schools closed) and a glacial-lake outburst risk near Tawang, Arunachal Pradesh. No Sphere India situation report newer than Situation Report 7 (5 September) was found, so the confirmed national aggregate of at least 109 deaths and at least 347,155 displaced -- which does not yet incorporate this GDACS-tracked figure -- remains unchanged.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-06",
       "source_name": "ReliefWeb",
@@ -178,12 +186,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Heavy monsoon rains since mid-July 2026 have caused deadly flooding and landslides across India, with flooding spreading into new states through mid-September 2026. Combining state figures gives a confirmed toll of at least 109 deaths and at least 347,155 people displaced or sheltering nationwide, coordinated by Sphere India's multi-state humanitarian response. Odisha remains among the worst-hit, with 8.64 lakh people affected across 22 districts; Kerala counts 26 dead and 4 missing; and IFRC records 74 flood-related deaths in Assam, where the crisis had passed its peak by early August even as 1,144,733 people remained affected. GDACS media tracking has since logged further flood deaths beyond these five states, plus a distinct late-August Uttarakhand flood event now carrying its own GDACS-tracked toll of 25 deaths and 260,524 displaced. Sphere India's Situation Report 7 indicates the emergency extended into Bihar and Uttar Pradesh, and GDACS has since logged new flooding from 14 September in Gujarat State; no newer national aggregate supersedes the 109-death, 347,155-displaced total.",
+  "description": "Heavy monsoon rains since mid-July 2026 have caused deadly flooding and landslides across India, with flooding spreading into new states through late September 2026. Combining state figures gives a confirmed toll of at least 109 deaths and at least 347,155 people displaced or sheltering nationwide, coordinated by Sphere India's multi-state humanitarian response. Odisha remains among the worst-hit, with 8.64 lakh people affected across 22 districts; Kerala counts 26 dead and 4 missing; and IFRC records 74 flood-related deaths in Assam, where the crisis had passed its peak by early August even as 1,144,733 people remained affected. GDACS media tracking has since logged further flood deaths beyond these five states, plus a distinct Uttarakhand-centered flood event now carrying its own GDACS-tracked toll of 42 deaths and 260,529 displaced. Sphere India's Situation Report 7 indicates the emergency extended into Bihar and Uttar Pradesh, GDACS has logged new flooding from 14 September in Gujarat State and from 20 September in Kerala, and a fresh depression is affecting Odisha as of 22 September; no newer national aggregate supersedes the 109-death, 347,155-displaced total.",
   "event": {
     "impact": {
       "deaths": 109,
       "displaced": 347155,
-      "summary": "At least 109 deaths and at least 347,155 people displaced or sheltering nationwide, combining state totals: IFRC records 74 deaths for Assam (conflicting with the 1 death in Sphere India's Situation Report 6; the higher figure is retained), with Odisha at 6, Kerala at 26 dead and 4 missing, Maharashtra at 3, and none confirmed in Gujarat. Odisha counts 8.64 lakh people affected across 22 districts and Kerala over 27,000 people in 325 relief camps. GDACS media tracking (event FL-2026-000165-IND, Orange alert, window extended to 9 August-16 September) has since recorded further flood deaths in Himachal Pradesh (3), Madhya Pradesh (10) and Uttar Pradesh (5), plus continued rescues in Tripura and Odisha, and now carries a distinct structured toll of 25 deaths and 260,524 displaced for late-August flooding in Uttarakhand State, up slightly from 260,024, with new flooding reported beginning 14 September in Gujarat State, none of it yet reflected in the national aggregate."
+      "summary": "At least 109 deaths and at least 347,155 people displaced or sheltering nationwide, combining state totals: IFRC records 74 deaths for Assam (conflicting with the 1 death in Sphere India's Situation Report 6; the higher figure is retained), with Odisha at 6, Kerala at 26 dead and 4 missing, Maharashtra at 3, and none confirmed in Gujarat. Odisha counts 8.64 lakh people affected across 22 districts and Kerala over 27,000 people in 325 relief camps. GDACS media tracking (event FL-2026-000165-IND, Orange alert, window extended to 9 August-22 September) has since recorded further flood deaths in Himachal Pradesh (3), Madhya Pradesh (10) and Uttar Pradesh (5), plus continued rescues in Tripura and Odisha, and now carries a distinct structured toll of 42 deaths and 260,529 displaced for Uttarakhand-centered flooding, up from 25 deaths and 260,524 displaced, with new flooding reported from 14 September in Gujarat State, from 20 September in Kerala, and a fresh depression affecting Odisha as of 22 September, none of it yet reflected in the national aggregate."
     },
     "live_source_url": "https://reliefweb.int/country/ind",
     "location": {
@@ -197,18 +205,18 @@
     "status": "ongoing"
   },
   "id": "india-monsoon-floods-2026",
-  "last_updated": "2026-09-20T09:20:17Z",
+  "last_updated": "2026-09-22T09:14:03Z",
   "name": "Multi-State Monsoon Floods & Landslides — India",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-20T09:20:17Z",
+        "at": "2026-09-22T09:14:03Z",
         "layer": "verify",
-        "run_id": "2026-09-20T09-20-17Z-945099"
+        "run_id": "2026-09-22T09-14-03Z-2a87a4"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-20T09-20-17Z-945099"
+    "last_run_id": "2026-09-22T09-14-03Z-2a87a4"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -217,6 +225,10 @@
     "recency_rank": 739813
   },
   "updates": [
+    {
+      "date": "2026-09-22",
+      "text": "GDACS's India flood event extended its window to 22 September; the Uttarakhand-centered toll rose to 42 deaths (from 25) and 260,529 displaced (from 260,524). GDACS also logged new flooding in Kerala from 20 September and a fresh depression affecting Odisha. The national aggregate (109 deaths, 347,155 displaced) is unchanged; no newer Sphere India report exists."
+    },
     {
       "date": "2026-09-18",
       "text": "GDACS's India flood event extended its window to 16 September and reported new flooding in Gujarat State from 14 September; the Uttarakhand-centered death toll held at 25 while displaced rose slightly to 260,524 (from 260,024). The national aggregate of 109 deaths and 347,155 displaced remains unchanged."
@@ -264,7 +276,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 22 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

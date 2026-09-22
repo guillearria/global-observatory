@@ -90,6 +90,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-23",
+      "retrieved_date": "2026-09-22",
+      "source_name": "UN World Food Programme",
+      "source_url": "https://www.wfp.org/news/wfp-acting-executive-directors-press-conference-following-his-mission-sudan-remarks-delivered",
+      "text": "WFP Acting Executive Director Carl Skau, in remarks delivered following his 8-day Sudan mission (published 14 September 2026), described visiting El Obeid: 'a huge city that had a million people before the war, and it's now kind of doubled in size' due to the influx of displaced people, and said the city 'was under risk of being besieged a few weeks ago with heavy fighting in the surroundings.' No precise updated population or displacement count accompanied the remarks.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-30",
       "source_name": "ReliefWeb",
@@ -130,12 +138,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Rapid Support Forces (RSF) paramilitary fighters have besieged El Obeid, the capital of Sudan's North Kordofan state, subjecting the city to sustained drone strikes and blockade, and UN News reported on 10 August 2026 that RSF forces had encircled the city and were threatening a full-scale ground assault. The UN Human Rights Office documented 15 drone strikes in three weeks that killed at least 45 civilians (3 July), and WFP counted more than 120,000 displaced people in the city's Unified IDP Camp alone (17 July), with rations cut to 50 percent of the full entitlement by funding shortfalls. Displacement into the city continues: OCHA reported roughly 15,000 families arriving over three weeks in mid-August, and Save the Children says nearly 39,000 children fled to the city in the first six months of the year, with El Obeid town and Sheikan locality now hosting more than 605,000 people. UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still 'faces a partial RSF siege with repeated drone attacks on critical infrastructure.' No ceasefire has been confirmed and the siege remains ongoing.",
+  "description": "Rapid Support Forces (RSF) paramilitary fighters have besieged El Obeid, the capital of Sudan's North Kordofan state, subjecting the city to sustained drone strikes and blockade, and UN News reported on 10 August 2026 that RSF forces had encircled the city and were threatening a full-scale ground assault. The UN Human Rights Office documented 15 drone strikes in three weeks that killed at least 45 civilians (3 July), and WFP counted more than 120,000 displaced people in the city's Unified IDP Camp alone (17 July), with rations cut to 50 percent of the full entitlement by funding shortfalls. Displacement into the city continues: OCHA reported roughly 15,000 families arriving over three weeks in mid-August, and WFP's Acting Executive Director, after an 8-day Sudan mission, said in mid-September that the city's overall population -- about a million before the war -- has 'kind of doubled in size.' UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still 'faces a partial RSF siege with repeated drone attacks on critical infrastructure.' No ceasefire has been confirmed and the siege remains ongoing.",
   "event": {
     "impact": {
       "deaths": 45,
       "displaced": 120000,
-      "summary": "The most recent aggregate figures for El Obeid remain at least 45 civilians killed (UN Human Rights Office, 3 July 2026) and more than 120,000 people sheltering in the Unified IDP Camp (WFP, 17 July), while OCHA reported roughly 15,000 families newly displaced into the city over the three weeks to 12 August. Humanitarian partners have delivered two million litres of drinking water to about 133,000 people amid severe shortages, and Sudan's wider response remains underfunded, with US$1.2 billion received of the US$3 billion required. RSF forces have encircled the city, and UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still faces a partial RSF siege with repeated drone attacks on critical infrastructure; no ceasefire or lifting of the siege has been confirmed."
+      "summary": "The most recent precise aggregate figures for El Obeid remain at least 45 civilians killed (UN Human Rights Office, 3 July 2026) and more than 120,000 people sheltering in the Unified IDP Camp (WFP, 17 July), while OCHA reported roughly 15,000 families newly displaced into the city over the three weeks to 12 August. WFP's Acting Executive Director, after visiting the city in September, described its overall population as having roughly doubled from about a million before the war, though no precise updated count has been published. Humanitarian partners have delivered two million litres of drinking water to about 133,000 people amid severe shortages, and Sudan's wider response remains underfunded, with US$1.2 billion received of the US$3 billion required. RSF forces have encircled the city, and UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still faces a partial RSF siege with repeated drone attacks on critical infrastructure; no ceasefire or lifting of the siege has been confirmed."
     },
     "live_source_url": "https://reliefweb.int/country/sdn",
     "location": {
@@ -149,18 +157,18 @@
     "status": "ongoing"
   },
   "id": "el-obeid-siege-sudan-2026",
-  "last_updated": "2026-09-21T09:20:37Z",
+  "last_updated": "2026-09-22T09:14:23Z",
   "name": "Siege of El Obeid — North Kordofan, Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-21T09:20:37Z",
+        "at": "2026-09-22T09:14:23Z",
         "layer": "verify",
-        "run_id": "2026-09-21T09-20-37Z-51dacd"
+        "run_id": "2026-09-22T09-14-23Z-4950b2"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-21T09-20-37Z-51dacd"
+    "last_run_id": "2026-09-22T09-14-23Z-4950b2"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -169,6 +177,10 @@
     "recency_rank": 739782
   },
   "updates": [
+    {
+      "date": "2026-09-14",
+      "text": "WFP's Acting Executive Director, after an 8-day Sudan mission, said El Obeid's overall population -- about a million before the war -- has 'kind of doubled in size' from displacement, and that the city faced a serious siege risk a few weeks earlier; no precise updated population or displacement figure accompanied the remarks."
+    },
     {
       "date": "2026-09-07",
       "text": "UN High Commissioner Volker Türk told the Human Rights Council that El Obeid still faces a partial RSF siege with repeated drone attacks on critical infrastructure, among deteriorating situations he highlighted across Kordofan, Blue Nile, and North and West Darfur; no new casualty or displacement figure specific to El Obeid was given."
@@ -212,7 +224,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

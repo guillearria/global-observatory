@@ -58,6 +58,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-16",
+      "retrieved_date": "2026-09-22",
+      "source_name": "Department of Social Welfare and Development (Philippines)",
+      "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-97-on-the-Combined-Effects-of-Enhanced-Southwest-Monsoon-and-Tropical-Cyclones-Luis-Maymay-Neneng-and-Pilandok-as-of-21-September-2026-6PM.pdf",
+      "text": "DSWD DROMIC Report #97 on the Combined Effects of Enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok (as of 21 September 2026, 6PM): a total of 3,066,726 families (10,835,145 persons) are affected in 7,083 barangays across 11 regions, up from 3,046,802 families (10,749,662 persons) in Report #95. There are 6,961 families (24,745 persons) in 330 evacuation centres and 15,851 families (54,772 persons) staying with relatives or friends, for a total displaced population of 22,812 families (79,517 persons), down from 24,463 families (85,123 persons). A total of 4,621 houses were damaged (625 totally, 3,996 partially damaged), unchanged from Report #95. Total assistance provided to date rose to ₱2,825,029,220.90.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-17",
       "source_name": "ReliefWeb",
@@ -122,12 +130,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "The combined effects of the enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok have affected more than 10.7 million people across Luzon, Visayas and the Zamboanga Peninsula since late July 2026. DSWD's DROMIC reporting puts the still-displaced population at about 85,000 and easing further as evacuation centres deactivate, while NDRRMC figures relayed by the AHA Centre put the confirmed toll at 44 deaths, 18 injuries and 5 missing, with the national disaster alert status still at RED.",
+  "description": "The combined effects of the enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok have affected more than 10.8 million people across Luzon, Visayas and the Zamboanga Peninsula since late July 2026. DSWD's DROMIC reporting puts the still-displaced population at about 79,500 and easing further as evacuation centres deactivate, while NDRRMC figures relayed by the AHA Centre put the confirmed toll at 44 deaths, 18 injuries and 5 missing, with the national disaster alert status still at RED.",
   "event": {
     "impact": {
       "deaths": 44,
-      "displaced": 85123,
-      "summary": "DSWD's DROMIC Report #95 (as of 18 September 2026, 6PM) counts 3,046,802 families (10,749,662 persons) affected across 6,973 barangays in 11 regions, unchanged from Report #94; displacement has eased further to 85,123 people (24,463 families), down from 86,053 in Report #94, and houses damaged rose to 4,621 (625 totally, 3,996 partially damaged), up from 4,616. DROMIC's report series does not carry a casualty count; the AHA Centre's Weekly Disaster Update for 7-13 September 2026, citing NDRRMC (as of 14 September), puts the toll at 44 deaths, 18 injuries and 5 missing among 9.6 million people affected. GDACS separately recorded a further Green-alert flood episode across Luzon and Mindoro from 17-19 August 2026, with 1,076 people displaced and no fatalities registered in that window."
+      "displaced": 79517,
+      "summary": "DSWD's DROMIC Report #97 (as of 21 September 2026, 6PM) counts 3,066,726 families (10,835,145 persons) affected across 7,083 barangays in 11 regions, up from 3,046,802 families (10,749,662 persons) in Report #95; displacement has eased further to 79,517 people (22,812 families), down from 85,123 in Report #95, while houses damaged held unchanged at 4,621 (625 totally, 3,996 partially damaged). Total assistance provided to date rose to ₱2,825,029,220.90. DROMIC's report series does not carry a casualty count; the AHA Centre's Weekly Disaster Update for 7-13 September 2026, citing NDRRMC (as of 14 September), puts the toll at 44 deaths, 18 injuries and 5 missing among 9.6 million people affected. GDACS separately recorded a further Green-alert flood episode across Luzon and Mindoro from 17-19 August 2026, with 1,076 people displaced and no fatalities registered in that window."
     },
     "live_source_url": "https://reliefweb.int/country/phl",
     "location": {
@@ -141,18 +149,18 @@
     "status": "ongoing"
   },
   "id": "philippines-floods-luis-maymay-2026",
-  "last_updated": "2026-09-21T09:20:38Z",
+  "last_updated": "2026-09-22T09:13:37Z",
   "name": "Southwest Monsoon & Tropical Cyclones Luis/Maymay Floods, Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-21T09:20:38Z",
+        "at": "2026-09-22T09:13:37Z",
         "layer": "verify",
-        "run_id": "2026-09-21T09-20-38Z-1b2116"
+        "run_id": "2026-09-22T09-13-37Z-533430"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-21T09-20-38Z-1b2116"
+    "last_run_id": "2026-09-22T09-13-37Z-533430"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -161,6 +169,10 @@
     "recency_rank": 739829
   },
   "updates": [
+    {
+      "date": "2026-09-21",
+      "text": "DSWD's DROMIC Report #97 (6PM) recorded affected population rising to 10,835,145 persons (3,066,726 families), up from 10,749,662; displacement eased further to 79,517 people (22,812 families), down from 85,123; houses damaged held unchanged at 4,621; total assistance provided rose to ₱2,825,029,220.90."
+    },
     {
       "date": "2026-09-18",
       "text": "DSWD's DROMIC Report #95 (6PM) recorded displacement easing further to 85,123 people (24,463 families), down from 86,053 in Report #94 (6AM); houses damaged rose slightly to 4,621 (625 destroyed, 3,996 partially damaged), up from 4,616."
@@ -204,7 +216,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
