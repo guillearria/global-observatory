@@ -42,6 +42,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-14",
+      "retrieved_date": "2026-09-23",
+      "source_name": "Ministry of Foreign Affairs (Nepal)",
+      "source_url": "https://mofa.gov.np/content/1884/the-ministry-s-regular-press-briefing--11-september/",
+      "text": "The same Ministry of Foreign Affairs regular press briefing (11 September 2026) states: \"the total damage caused by the disaster is estimated at approximately USD 1.8 billion, while the estimated loss is approximately USD 883 million,\" and \"the total estimated requirement for reconstruction is approximately USD 4.78 billion. Of this, approximately USD 57.67 million is estimated to be required for short-term reconstruction and recovery over the next six months, while approximately USD 4.71 billion is required for longer-term reconstruction.\"",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-27",
       "source_name": "GDACS",
@@ -106,12 +114,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A catastrophic glacial-lake outburst flood struck the Bhote Koshi River in Rasuwa and Nuwakot districts, Nepal, and Gyirong County, Tibet, on 26 August 2026, becoming Nepal's deadliest disaster since the 2015 earthquake. Nepal's Ministry of Foreign Affairs now confirms 1,385 deaths and about 5,130 people still missing, with over 13,670 rescued so far; a UN flash appeal seeks $49.6 million to assist more than 84,000 affected people as search, rescue and identification operations continue in the worst-hit districts.",
+  "description": "A catastrophic glacial-lake outburst flood struck the Bhote Koshi River in Rasuwa and Nuwakot districts, Nepal, and Gyirong County, Tibet, on 26 August 2026, becoming Nepal's deadliest disaster since the 2015 earthquake. Nepal's Ministry of Foreign Affairs confirms 1,385 deaths and about 5,130 people still missing, with over 13,670 rescued so far. The government's own damage assessment, released 11 September, puts total disaster damage at about USD 1.8 billion and reconstruction needs at about USD 4.78 billion; a separate UN flash appeal seeks $49.6 million to assist more than 84,000 affected people as search, rescue and identification operations continue in the worst-hit districts.",
   "event": {
     "impact": {
       "deaths": 1385,
       "displaced": null,
-      "summary": "Nepal's Ministry of Foreign Affairs reported at its 11 September press briefing that 1,385 bodies had been recovered in Nepal alone (up from 1,377 the day before), with around 5,130 people still missing -- including about 600 foreigners from 35 countries -- and 13,676 people rescued. UN News's 4 September figure of 'more than 1,250 lives' was a combined Nepal-Tibet toll; China's Tibet Autonomous Region separately stood at 16 confirmed deaths and 546 missing as of UN News's 1 September report, the most recent confirmed figure for that side of the border. The UN and partners launched a $49.6 million flash appeal on 4 September to assist more than 84,000 people (84,270 Nepalis, 19,284 households) affected. An estimated 65,000 people need emergency water, sanitation and hygiene assistance and 19 schools have been damaged; the disaster remains Nepal's deadliest since the 2015 earthquake, with more than 20,000 search-and-rescue personnel deployed and a flood emergency declared in 15 municipalities."
+      "summary": "Nepal's Ministry of Foreign Affairs reported at its 11 September press briefing that 1,385 bodies had been recovered in Nepal alone (up from 1,377 the day before), with around 5,130 people still missing -- including about 600 foreigners from 35 countries -- and 13,676 people rescued. The same briefing put total disaster damage at about USD 1.8 billion and losses at about USD 883 million, with reconstruction needs estimated at about USD 4.78 billion (USD 57.67 million for short-term recovery over six months, USD 4.71 billion for longer-term reconstruction). China's Tibet Autonomous Region separately stood at 16 confirmed deaths and 546 missing as of UN News's 1 September report, the most recent confirmed figure for that side of the border. The UN and partners launched a $49.6 million flash appeal on 4 September to assist more than 84,000 people (84,270 Nepalis, 19,284 households); the disaster remains Nepal's deadliest since the 2015 earthquake, with more than 20,000 search-and-rescue personnel deployed and a flood emergency declared in 15 municipalities."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1561857",
     "location": {
@@ -125,18 +133,18 @@
     "status": "ongoing"
   },
   "id": "nepal-rasuwa-glacial-flood-2026",
-  "last_updated": "2026-09-22T09:11:25Z",
+  "last_updated": "2026-09-23T09:20:35Z",
   "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-22T09:11:25Z",
+        "at": "2026-09-23T09:20:35Z",
         "layer": "verify",
-        "run_id": "2026-09-22T09-11-25Z-90cdc3"
+        "run_id": "2026-09-23T09-20-35Z-f6cf7c"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-22T09-11-25Z-90cdc3"
+    "last_run_id": "2026-09-23T09-20-35Z-f6cf7c"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -145,6 +153,10 @@
     "recency_rank": 739854
   },
   "updates": [
+    {
+      "date": "2026-09-11",
+      "text": "Nepal's government put the disaster's total damage at about USD 1.8 billion and losses at about USD 883 million, with reconstruction needs of about USD 4.78 billion (USD 57.67 million short-term, USD 4.71 billion longer-term), per its 11 September regular press briefing -- the same briefing that reported the 1,385 confirmed toll."
+    },
     {
       "date": "2026-09-11",
       "text": "Nepal's Ministry of Foreign Affairs raised the confirmed toll to 1,385 bodies recovered (from 1,377), with roughly 5,130 people still missing (unchanged) and 13,676 rescued (up from 13,656), per its 11 September regular press briefing."
@@ -184,7 +196,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -186,6 +186,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-30",
+      "retrieved_date": "2026-09-23",
+      "source_name": "Government of British Columbia",
+      "source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
+      "text": "EmergencyInfoBC's wildfire hazard page (checked 23 September 2026) still lists 12 active local evacuation notices, the same count and set of communities as on 14 September: District of Summerland and Okanagan Indian Band (both now updated 18 September), Spuzzum First Nation and Regional District of Okanagan-Similkameen (2 September), Lytton First Nation (31 August), Coldwater Indian Band (29 August), Ts'kw'aylaxw First Nation and Yale First Nation (24 and 23 August), Boothroyd Indian Band (16 August), Shxw'ow'hamel First Nation (1 August), Whispering Pines/Clinton Indian Band (24 July) and Boston Bar First Nation (6 July). The District of Summerland's own evacuation-information page confirms evacuation orders remain in effect as of its 18 September update, with no report found of a new fire or any change in the orders' geographic extent.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-08-12",
       "source_name": "Government of British Columbia",
@@ -253,18 +261,18 @@
     "status": "ongoing"
   },
   "id": "canada-british-columbia-wildfires-2026",
-  "last_updated": "2026-09-22T09:11:25Z",
+  "last_updated": "2026-09-23T09:20:25Z",
   "name": "Wildfire State of Emergency — British Columbia, Canada",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-22T09:11:25Z",
+        "at": "2026-09-23T09:20:25Z",
         "layer": "verify",
-        "run_id": "2026-09-22T09-11-25Z-5ab0d9"
+        "run_id": "2026-09-23T09-20-25Z-70b82b"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-22T09-11-25Z-5ab0d9"
+    "last_run_id": "2026-09-23T09-20-25Z-70b82b"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -352,7 +360,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 29 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 30 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
