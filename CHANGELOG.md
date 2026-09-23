@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-09-23 — Daily World Pulse refresh (2026-09-23): re-verify BC wildfires, Yangtze/Typhoon Dolphin floods, Nepal Rasuwa glacial flood (`41f6bc1`)
+
+- **Updated:** canada-british-columbia-wildfires-2026, china-floods-yangtze-typhoon-dolphin-2026, nepal-rasuwa-glacial-flood-2026
+
 ## 2026-09-23 — Daily World Pulse refresh (2026-09-23): Philippines floods update, re-verify Pakistan floods, Sudan cholera/displacement, Iran-Israel-US war, California/Washington wildfires, Afghanistan/Bangladesh floods, West Bank violence (`af0167c`)
 
 - **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, iran-israel-us-war-2026, pakistan-floods-2026, philippines-floods-luis-maymay-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, usa-california-big-sur-wildfires-2026, usa-washington-wildfires-2026, west-bank-settler-violence-surge-2026
