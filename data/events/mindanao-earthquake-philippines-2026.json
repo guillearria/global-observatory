@@ -75,7 +75,7 @@
     },
     {
       "id": "claim-21",
-      "retrieved_date": "2026-09-18",
+      "retrieved_date": "2026-09-23",
       "source_name": "GDACS",
       "source_url": "https://gdacs.org/report.aspx?eventid=1544720&eventtype=EQ",
       "text": "Re-checked 11 August 2026: reliefweb.int, this record's live_source_url and the source of the DSWD DROMIC series and OCHA casualty snapshot, returned HTTP 403 Forbidden and was unreachable across multiple attempts and multiple pages (disaster hub, specific report URLs, API endpoint) today. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Orange alert (\"medium humanitarian impact\"), currently showing modeled population exposure of about 4.4 million people at MMI≥VII and a maximum observed tsunami wave of 0.83 m -- GDACS's own automated impact-model figures for the event, which are updated as GDACS reprocesses episodes and are distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
@@ -131,7 +131,7 @@
     },
     {
       "id": "claim-30",
-      "retrieved_date": "2026-09-22",
+      "retrieved_date": "2026-09-23",
       "source_name": "Department of Social Welfare and Development (Philippines)",
       "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-85-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-22-September-2026-6AM.pdf",
       "text": "DSWD DROMIC Report #85 (as of 22 September 2026, 6AM) reports 395,626 families (1,674,308 persons) affected in 661 barangays across Regions IX, XI, XII and BARMM, unchanged from Report #84; displacement eased to 23,125 families (92,407 persons), down from 23,736 families (94,821 persons); 128,604 houses remain damaged (19,320 totally, 109,284 partially), also unchanged. Assistance provided to date rose to ₱1,728,725,552.87. DROMIC still carries no casualty section; OCHA's 13 July 2026 snapshot (94 deaths, 1,316 injured, 18 missing) remains the standing official casualty count.",
@@ -205,18 +205,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-09-22T09:13:04Z",
+  "last_updated": "2026-09-23T09:18:41Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-22T09:13:04Z",
+        "at": "2026-09-23T09:18:41Z",
         "layer": "verify",
-        "run_id": "2026-09-22T09-13-04Z-ee8358"
+        "run_id": "2026-09-23T09-18-41Z-32d4a8"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-22T09-13-04Z-ee8358"
+    "last_run_id": "2026-09-23T09-18-41Z-32d4a8"
   },
   "schema_version": "1.0",
   "sort_keys": {
