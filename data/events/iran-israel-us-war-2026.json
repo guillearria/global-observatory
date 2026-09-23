@@ -26,6 +26,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-12",
+      "retrieved_date": "2026-09-23",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
+      "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 628,000 Iranian nationals who have crossed into neighbouring countries (22 September 2026, of whom 530,000 have since crossed back into Iran), 311,500 Lebanese refugees, all recorded in the Syrian Arab Republic (21 September 2026), and 341,228 new IDPs within Lebanon (17 September 2026, down from 352,793 on 10 August) -- a combined 1,280,728 people displaced or newly refugees across those two countries -- plus 946,000 Afghan (12 September 2026) and 1,038,900 Syrian (21 September 2026) returnee movements, a combined 1,984,900.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-31",
       "source_name": "Encyclopaedia Britannica",
@@ -90,12 +98,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of other officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated with strikes on US and allied targets across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping by more than 90%. A US-Iran memorandum's 60-day negotiating window expired 17 August 2026 without an agreement, and in late August the US cleared Iranian-laid mines from the Strait before striking Iran's Larak Island outpost. UNHCR records 595,100 Iranian nationals who have crossed into neighbouring countries and 285,000 Lebanese refugees since the war began, alongside about 1.88 million Afghan and Syrian returnees. On 15 September the US military said it destroyed two small Iranian boats near the Strait, and the US House voted a third time to end American involvement; Iran then said on 18 September it had struck an oil tanker in the Strait, with the war's cost estimated at $43.6 billion. The conflict remains unresolved.",
+  "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of other officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated with strikes on US and allied targets across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping by more than 90%. A US-Iran memorandum's 60-day negotiating window expired 17 August 2026 without an agreement, and in late August the US cleared Iranian-laid mines from the Strait before striking Iran's Larak Island outpost. UNHCR now records 628,000 Iranian nationals who have crossed into neighbouring countries and 311,500 Lebanese refugees in Syria since the war began, alongside almost 1.98 million Afghan and Syrian returnees. On 15 September the US military said it destroyed two small Iranian boats near the Strait, and the US House voted a third time to end American involvement; Iran then said on 18 September it had struck an oil tanker in the Strait, with the war's cost estimated at $43.6 billion. The conflict remains unresolved.",
   "event": {
     "impact": {
       "deaths": null,
-      "displaced": 1232893,
-      "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; Britannica's running account describes thousands of deaths in Iran and Lebanon and dozens more in Israel and Gulf Arab states, though no single verified cumulative death toll exists. UNHCR's Middle East portal (updated 5-7 September) records, since the war began: 595,100 Iranian nationals who crossed into neighbouring countries (505,000 since returned), 285,000 Lebanese refugees and 352,793 new IDPs in Lebanon -- a combined 1,232,893 displaced or newly refugees across those two countries -- plus about 1.88 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%; the US cleared Iranian mines from the Strait in late August, then struck Iran's Larak Island outpost. On 15 September the US destroyed two small Iranian boats near the Strait, and on 18 September Iran claimed it struck an oil tanker there, as a new US military estimate put the war's total cost at $43.6 billion."
+      "displaced": 1280728,
+      "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; Britannica's running account describes thousands of deaths in Iran and Lebanon and dozens more in Israel and Gulf Arab states, though no single verified cumulative death toll exists. UNHCR's Middle East portal (updated 12-22 September) records, since the war began: 628,000 Iranian nationals who crossed into neighbouring countries (530,000 since returned), 311,500 Lebanese refugees now in Syria and 341,228 new IDPs in Lebanon -- a combined 1,280,728 displaced or newly refugees across those two countries -- plus almost 1.98 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%; the US cleared Iranian mines from the Strait in late August, then struck Iran's Larak Island outpost. On 15 September the US destroyed two small Iranian boats near the Strait, and on 18 September Iran claimed it struck an oil tanker there, as a new US military estimate put the war's total cost at $43.6 billion."
     },
     "live_source_url": "https://www.britannica.com/event/2026-Iran-war",
     "location": {
@@ -109,18 +117,18 @@
     "status": "ongoing"
   },
   "id": "iran-israel-us-war-2026",
-  "last_updated": "2026-09-22T09:11:25Z",
+  "last_updated": "2026-09-23T09:19:42Z",
   "name": "Iran-Israel-US War",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-22T09:11:25Z",
+        "at": "2026-09-23T09:19:42Z",
         "layer": "verify",
-        "run_id": "2026-09-22T09-11-25Z-21d9b9"
+        "run_id": "2026-09-23T09-19-42Z-ffc8b8"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-22T09-11-25Z-21d9b9"
+    "last_run_id": "2026-09-23T09-19-42Z-ffc8b8"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -129,6 +137,10 @@
     "recency_rank": 739845
   },
   "updates": [
+    {
+      "date": "2026-09-22",
+      "text": "UNHCR's Middle East portal now records 628,000 Iranian nationals who crossed into neighbouring countries (up from 595,100), 530,000 returned to Iran; Lebanese refugees in Syria rose to 311,500 while Lebanon's new IDPs eased to 341,228 (from 352,793); Afghan/Syrian returnees rose to about 1.98 million. Tracked Iran/Lebanon displacement total: 1,280,728."
+    },
     {
       "date": "2026-09-18",
       "text": "Iran claimed it struck an oil tanker in the Strait of Hormuz on 18 September; a new US military estimate put the war's total cost at $43.6 billion, and hundreds of thousands attended a government-organized rally in Iran, per Encyclopaedia Britannica's running account."
@@ -156,7 +168,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-09-23 — Daily World Pulse refresh (2026-09-23): re-verify Krakatau volcano, Mindanao earthquake (`cfd4a91`)
+
+- **Updated:** indonesia-volcano-krakatau-2026, mindanao-earthquake-philippines-2026
+
 ## 2026-09-23 — Daily World Pulse refresh (2026-09-23): re-verify Ebola DRC/Uganda, El Obeid siege, Haiti displacement, India monsoon floods, Flores earthquake (`6cd1de8`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, indonesia-earthquake-flores-2026

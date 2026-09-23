@@ -42,6 +42,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-20",
+      "retrieved_date": "2026-09-23",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/afghanistan/unicef-afghanistan-humanitarian-flash-update-no-4-central-and-eastern-region-flash-floods-20-august-2026",
+      "text": "UNICEF Afghanistan Humanitarian Flash Update No. 4 (posted to ReliefWeb 24 August 2026, covering the series of flash floods between 20 July and 3 August): in the Eastern Region, Parun district, Nuristan Province recorded 24 fatalities and 125 injuries with additional people reported missing, and 120 houses destroyed or damaged; the 3 August Barg-e-Matal flood affected 191 houses. In the Central Region, flash floods across nine provinces caused 2 further fatalities and 6 injuries, affected 316 houses (2,057 people), damaged about 1.6 million square meters of agricultural land, killed roughly 300 livestock and damaged 17 schools; a separate incident in Paktia destroyed 11 houses. This remains, as of 23 September 2026, the most recent flash-flood-specific report on ReliefWeb's Afghanistan disaster record for this event; it provides no revised aggregate death toll superseding the combined 30-death figure already on file.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-30",
       "source_name": "ReliefWeb",
@@ -85,18 +93,18 @@
     "status": "ongoing"
   },
   "id": "afghanistan-nuristan-floods-2026",
-  "last_updated": "2026-09-22T09:11:25Z",
+  "last_updated": "2026-09-23T09:19:56Z",
   "name": "Nuristan Flash Floods, Afghanistan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-22T09:11:25Z",
+        "at": "2026-09-23T09:19:56Z",
         "layer": "verify",
-        "run_id": "2026-09-22T09-11-25Z-b05f21"
+        "run_id": "2026-09-23T09-19-56Z-ce2472"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-22T09-11-25Z-b05f21"
+    "last_run_id": "2026-09-23T09-19-56Z-ce2472"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -128,7 +136,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
