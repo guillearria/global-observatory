@@ -74,6 +74,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-18",
+      "retrieved_date": "2026-09-25",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/colombia/colombia-flash-update-014-update-impact-earthquake-colombia-september-23-2026",
+      "text": "OCHA Colombia's Flash Update No. 014 (data as of 23 September 2026, 18:30 local time): 486,917 people (303,934 households) affected across 500 municipalities in 16 departments, including 335 deaths, 4,516 injured, 356 rescued, 259 bodies recovered and 105 missing -- unchanged from Flash Update 013. Per the RUD, 104,038 homes are uninhabitable (19,142 destroyed); broader reports outside the RUD put damaged homes at 206,931 (36,478 destroyed). Other newly itemized infrastructure damage: 6,094 community facilities, 402 health facilities, 182 water supply systems and 4,431 educational facilities. At least 31 organizations have assisted more than 137,000 people (32,600 households) across 53 municipalities, and the response appeal funding gap has widened to 52% of the US$619 million required (nearly 48% funded, down from 53% funded at Flash Update 012/013). IDEAM assesses a 75% probability of a severe El Niño onset in Q4 2026, which could worsen recovery needs, drought and wildfire risk.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-24",
       "source_name": "GDACS",
@@ -138,12 +146,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.4 earthquake struck western Colombia on 10 August 2026, centered near San José del Palmar in Chocó Department at a depth of roughly 110 km. Colombia's geological survey described it as the seismic event of greatest magnitude recorded in the country in the 21st century. OCHA Colombia's Flash Update 013 (data as of 17 September) puts the toll at 335 deaths and 105 people missing, with more than 486,900 people affected across 500 municipalities in 16 departments. GDACS and USGS's PAGER system both continue to rate the event a Red alert for high humanitarian impact, with GDACS estimating about 5.4 million people within zones of MMI VII or greater shaking. 31 humanitarian organizations are now reaching about 137,000 people amid ongoing needs in shelter, health, water and education, with the response appeal 53% funded.",
+  "description": "A magnitude 7.4 earthquake struck western Colombia on 10 August 2026, centered near San José del Palmar in Chocó Department at a depth of roughly 110 km. Colombia's geological survey described it as the seismic event of greatest magnitude recorded in the country in the 21st century. OCHA Colombia's Flash Update 014 (data as of 23 September) holds the toll at 335 deaths and 105 people missing, with 486,917 people affected across 500 municipalities in 16 departments -- unchanged from the prior update. GDACS and USGS's PAGER system both continue to rate the event a Red alert for high humanitarian impact, with GDACS estimating about 5.4 million people within zones of MMI VII or greater shaking. 31 humanitarian organizations are reaching more than 137,000 people amid ongoing needs in shelter, health, water and education, with the response appeal's funding gap widening to 52% of the US$619 million required.",
   "event": {
     "impact": {
       "deaths": 335,
       "displaced": 486917,
-      "summary": "OCHA Colombia's Flash Update 013 (data as of 17 September 2026, 14:00 local time) reports 335 deaths (up from 331), 4,516 injured, 356 rescued, 259 bodies recovered and 105 people missing (down from 111), with 486,917 people (303,934 households) affected across 500 municipalities in 16 departments -- up from 466,709 people in Flash Update 012 (9 September). Housing-damage figures diverge by source: the official Single Registry of Affected Persons (RUD) counts 104,037 homes uninhabitable (19,143 destroyed), concentrated in Valle del Cauca, Risaralda and Quindío, while broader situation reports outside the RUD put the toll at 206,931 homes damaged, 36,478 destroyed. GDACS rates the event a Red alert, estimating about 5.4 million people in zones of MMI VII or greater shaking, and USGS's PAGER alert remains Red. 31 humanitarian organizations are now reaching about 137,000 people, and the response appeal remains 53% funded of the US$619 million required."
+      "summary": "OCHA Colombia's Flash Update 014 (data as of 23 September 2026, 18:30 local time) holds the toll at 335 deaths, 4,516 injured, 356 rescued, 259 bodies recovered and 105 people missing, with 486,917 people (303,934 households) affected across 500 municipalities in 16 departments -- unchanged from Flash Update 013. Housing-damage figures diverge by source: the official Single Registry of Affected Persons (RUD) counts 104,038 homes uninhabitable (19,142 destroyed), concentrated in Valle del Cauca, Risaralda and Quindío, while broader situation reports outside the RUD put the toll at 206,931 homes damaged, 36,478 destroyed. GDACS rates the event a Red alert, estimating about 5.4 million people in zones of MMI VII or greater shaking, and USGS's PAGER alert remains Red. 31 humanitarian organizations are reaching more than 137,000 people, and the response appeal's funding gap has widened to 52% of the US$619 million required (down from 53% funded). IDEAM assesses a 75% probability of a severe El Niño onset in Q4 2026, adding drought and wildfire risk to the recovery."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
     "location": {
@@ -157,7 +165,7 @@
     "status": "ongoing"
   },
   "id": "colombia-earthquake-choco-2026",
-  "last_updated": "2026-09-24T09:14:54Z",
+  "last_updated": "2026-09-25T09:21:13Z",
   "name": "M7.4 Earthquake, Chocó, Colombia",
   "provenance": {
     "history": [
@@ -165,10 +173,15 @@
         "at": "2026-09-24T09:14:54Z",
         "layer": "verify",
         "run_id": "2026-09-24T09-14-54Z-7b5e5d"
+      },
+      {
+        "at": "2026-09-25T09:21:13Z",
+        "layer": "verify",
+        "run_id": "2026-09-25T09-21-13Z-22752b"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-24T09-14-54Z-7b5e5d"
+    "last_run_id": "2026-09-25T09-21-13Z-22752b"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -177,6 +190,10 @@
     "recency_rank": 739838
   },
   "updates": [
+    {
+      "date": "2026-09-23",
+      "text": "OCHA Flash Update 014 (23 September) held the toll steady at 335 deaths, 105 missing and 486,917 people affected. The response appeal's funding gap widened to 52% of US$619 million required (down from 53% funded), and IDEAM assessed a 75% probability of a severe El Niño onset in Q4 2026."
+    },
     {
       "date": "2026-09-17",
       "text": "OCHA Flash Update 013 (17 September) raised the toll to 335 deaths and 486,917 people affected (303,934 households) across 500 municipalities in 16 departments; missing fell to 105 from 111. Housing-damage estimates diverge by source: RUD registers 104,037 homes uninhabitable (19,143 destroyed); broader reports count 206,931 damaged (36,478 destroyed). 137,000 people reached; appeal 53% funded."
@@ -236,7 +253,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

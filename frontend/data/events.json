@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T09:18:25Z",
+  "last_updated": "2026-09-25T09:21:13Z",
   "published": [
     {
       "category": "flood",
@@ -1129,7 +1129,7 @@
         },
         {
           "id": "claim-15",
-          "retrieved_date": "2026-09-23",
+          "retrieved_date": "2026-09-25",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081&episodeid=19",
           "text": "GDACS's flood report for event FL-2026-000148-CHN (episode 19, reporting window extended to 31 July - 21 September 2026) records 'Death: 6' (up from 4 in episode 18) and 399,045 people displaced (unchanged); overall alert level remains Orange (medium humanitarian impact), with a new referenced report noting heavy rain triggered flooding and debris flows in Sichuan Province, China, on 19 September 2026.",
@@ -1211,7 +1211,7 @@
         "status": "ongoing"
       },
       "id": "china-floods-yangtze-typhoon-dolphin-2026",
-      "last_updated": "2026-09-23T09:20:35Z",
+      "last_updated": "2026-09-25T09:19:28Z",
       "name": "Typhoon Dolphin Flooding, Central China",
       "provenance": {
         "history": [
@@ -1219,10 +1219,15 @@
             "at": "2026-09-23T09:20:35Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-20-35Z-4c9ab4"
+          },
+          {
+            "at": "2026-09-25T09:19:28Z",
+            "layer": "verify",
+            "run_id": "2026-09-25T09-19-28Z-10c839"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-20-35Z-4c9ab4"
+        "last_run_id": "2026-09-25T09-19-28Z-10c839"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1366,6 +1371,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-18",
+          "retrieved_date": "2026-09-25",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/colombia/colombia-flash-update-014-update-impact-earthquake-colombia-september-23-2026",
+          "text": "OCHA Colombia's Flash Update No. 014 (data as of 23 September 2026, 18:30 local time): 486,917 people (303,934 households) affected across 500 municipalities in 16 departments, including 335 deaths, 4,516 injured, 356 rescued, 259 bodies recovered and 105 missing -- unchanged from Flash Update 013. Per the RUD, 104,038 homes are uninhabitable (19,142 destroyed); broader reports outside the RUD put damaged homes at 206,931 (36,478 destroyed). Other newly itemized infrastructure damage: 6,094 community facilities, 402 health facilities, 182 water supply systems and 4,431 educational facilities. At least 31 organizations have assisted more than 137,000 people (32,600 households) across 53 municipalities, and the response appeal funding gap has widened to 52% of the US$619 million required (nearly 48% funded, down from 53% funded at Flash Update 012/013). IDEAM assesses a 75% probability of a severe El Niño onset in Q4 2026, which could worsen recovery needs, drought and wildfire risk.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-24",
           "source_name": "GDACS",
@@ -1430,12 +1443,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.4 earthquake struck western Colombia on 10 August 2026, centered near San José del Palmar in Chocó Department at a depth of roughly 110 km. Colombia's geological survey described it as the seismic event of greatest magnitude recorded in the country in the 21st century. OCHA Colombia's Flash Update 013 (data as of 17 September) puts the toll at 335 deaths and 105 people missing, with more than 486,900 people affected across 500 municipalities in 16 departments. GDACS and USGS's PAGER system both continue to rate the event a Red alert for high humanitarian impact, with GDACS estimating about 5.4 million people within zones of MMI VII or greater shaking. 31 humanitarian organizations are now reaching about 137,000 people amid ongoing needs in shelter, health, water and education, with the response appeal 53% funded.",
+      "description": "A magnitude 7.4 earthquake struck western Colombia on 10 August 2026, centered near San José del Palmar in Chocó Department at a depth of roughly 110 km. Colombia's geological survey described it as the seismic event of greatest magnitude recorded in the country in the 21st century. OCHA Colombia's Flash Update 014 (data as of 23 September) holds the toll at 335 deaths and 105 people missing, with 486,917 people affected across 500 municipalities in 16 departments -- unchanged from the prior update. GDACS and USGS's PAGER system both continue to rate the event a Red alert for high humanitarian impact, with GDACS estimating about 5.4 million people within zones of MMI VII or greater shaking. 31 humanitarian organizations are reaching more than 137,000 people amid ongoing needs in shelter, health, water and education, with the response appeal's funding gap widening to 52% of the US$619 million required.",
       "event": {
         "impact": {
           "deaths": 335,
           "displaced": 486917,
-          "summary": "OCHA Colombia's Flash Update 013 (data as of 17 September 2026, 14:00 local time) reports 335 deaths (up from 331), 4,516 injured, 356 rescued, 259 bodies recovered and 105 people missing (down from 111), with 486,917 people (303,934 households) affected across 500 municipalities in 16 departments -- up from 466,709 people in Flash Update 012 (9 September). Housing-damage figures diverge by source: the official Single Registry of Affected Persons (RUD) counts 104,037 homes uninhabitable (19,143 destroyed), concentrated in Valle del Cauca, Risaralda and Quindío, while broader situation reports outside the RUD put the toll at 206,931 homes damaged, 36,478 destroyed. GDACS rates the event a Red alert, estimating about 5.4 million people in zones of MMI VII or greater shaking, and USGS's PAGER alert remains Red. 31 humanitarian organizations are now reaching about 137,000 people, and the response appeal remains 53% funded of the US$619 million required."
+          "summary": "OCHA Colombia's Flash Update 014 (data as of 23 September 2026, 18:30 local time) holds the toll at 335 deaths, 4,516 injured, 356 rescued, 259 bodies recovered and 105 people missing, with 486,917 people (303,934 households) affected across 500 municipalities in 16 departments -- unchanged from Flash Update 013. Housing-damage figures diverge by source: the official Single Registry of Affected Persons (RUD) counts 104,038 homes uninhabitable (19,142 destroyed), concentrated in Valle del Cauca, Risaralda and Quindío, while broader situation reports outside the RUD put the toll at 206,931 homes damaged, 36,478 destroyed. GDACS rates the event a Red alert, estimating about 5.4 million people in zones of MMI VII or greater shaking, and USGS's PAGER alert remains Red. 31 humanitarian organizations are reaching more than 137,000 people, and the response appeal's funding gap has widened to 52% of the US$619 million required (down from 53% funded). IDEAM assesses a 75% probability of a severe El Niño onset in Q4 2026, adding drought and wildfire risk to the recovery."
         },
         "live_source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
         "location": {
@@ -1449,7 +1462,7 @@
         "status": "ongoing"
       },
       "id": "colombia-earthquake-choco-2026",
-      "last_updated": "2026-09-24T09:14:54Z",
+      "last_updated": "2026-09-25T09:21:13Z",
       "name": "M7.4 Earthquake, Chocó, Colombia",
       "provenance": {
         "history": [
@@ -1457,10 +1470,15 @@
             "at": "2026-09-24T09:14:54Z",
             "layer": "verify",
             "run_id": "2026-09-24T09-14-54Z-7b5e5d"
+          },
+          {
+            "at": "2026-09-25T09:21:13Z",
+            "layer": "verify",
+            "run_id": "2026-09-25T09-21-13Z-22752b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-24T09-14-54Z-7b5e5d"
+        "last_run_id": "2026-09-25T09-21-13Z-22752b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1469,6 +1487,10 @@
         "recency_rank": 739838
       },
       "updates": [
+        {
+          "date": "2026-09-23",
+          "text": "OCHA Flash Update 014 (23 September) held the toll steady at 335 deaths, 105 missing and 486,917 people affected. The response appeal's funding gap widened to 52% of US$619 million required (down from 53% funded), and IDEAM assessed a 75% probability of a severe El Niño onset in Q4 2026."
+        },
         {
           "date": "2026-09-17",
           "text": "OCHA Flash Update 013 (17 September) raised the toll to 335 deaths and 486,917 people affected (303,934 households) across 500 municipalities in 16 departments; missing fell to 105 from 111. Housing-damage estimates diverge by source: RUD registers 104,037 homes uninhabitable (19,143 destroyed); broader reports count 206,931 damaged (36,478 destroyed). 137,000 people reached; appeal 53% funded."
@@ -1528,7 +1550,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1921,7 +1943,7 @@
         },
         {
           "id": "claim-new-ecdc-sept22",
-          "retrieved_date": "2026-09-24",
+          "retrieved_date": "2026-09-25",
           "source_name": "ECDC",
           "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
           "text": "ECDC's country overview (page last updated 23 September 2026, 14:45, data through 21 September 2026): 'On 22 September 2026, the Democratic Republic of the Congo (DRC) reported a total of 7 773 confirmed cases, including 3 759 related deaths (from data up until 21 September).' A total of 839 patients are hospitalised in isolation and 1,935 have recovered, with 84.5% of identified case contacts under follow-up. Provincial breakdown: Ituri 5,966 cases/2,737 deaths (28 of 36 health zones), North Kivu 1,438 cases/872 deaths (16 of 34 health zones), Haut-Uele 316 cases/129 deaths (7 of 13 health zones), Tshopo 42 cases/15 deaths (7 of 23 health zones), Bas-Uele 7 cases/4 deaths (3 of 11 health zones), South Kivu 3 cases/1 death (1 of 34 health zones) and Sud-Ubangi 1 case/1 death (1 of 16 health zones), with 63 of 167 health zones affected across seven provinces. Uganda's linked outbreak remains closed (20 confirmed cases, two deaths; declared over by WHO on 26 August 2026).",
@@ -1979,7 +2001,7 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-09-24T09:14:46Z",
+      "last_updated": "2026-09-25T09:15:40Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
@@ -1987,10 +2009,15 @@
             "at": "2026-09-24T09:14:46Z",
             "layer": "verify",
             "run_id": "2026-09-24T09-14-46Z-fbc442"
+          },
+          {
+            "at": "2026-09-25T09:15:40Z",
+            "layer": "verify",
+            "run_id": "2026-09-25T09-15-40Z-735b41"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-24T09-14-46Z-fbc442"
+        "last_run_id": "2026-09-25T09-15-40Z-735b41"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2211,7 +2238,7 @@
         },
         {
           "id": "claim-22",
-          "retrieved_date": "2026-09-23",
+          "retrieved_date": "2026-09-25",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/09/1168287",
           "text": "UN News (7 September 2026), on High Commissioner Volker Türk's briefing to the Human Rights Council: El Obeid in North Kordofan 'faces a partial RSF siege with repeated drone attacks on critical infrastructure,' among deteriorating situations the High Commissioner highlighted across Kordofan, Blue Nile, and North and West Darfur; Türk renewed his call for an immediate ceasefire, an end to foreign involvement, and a return to inclusive civilian rule. No new casualty or displacement figure specific to El Obeid was given.",
@@ -2219,7 +2246,7 @@
         },
         {
           "id": "claim-23",
-          "retrieved_date": "2026-09-23",
+          "retrieved_date": "2026-09-25",
           "source_name": "UN World Food Programme",
           "source_url": "https://www.wfp.org/news/wfp-acting-executive-directors-press-conference-following-his-mission-sudan-remarks-delivered",
           "text": "WFP Acting Executive Director Carl Skau, in remarks delivered following his 8-day Sudan mission (published 14 September 2026), described visiting El Obeid: 'a huge city that had a million people before the war, and it's now kind of doubled in size' due to the influx of displaced people, and said the city 'was under risk of being besieged a few weeks ago with heavy fighting in the surroundings.' No precise updated population or displacement count accompanied the remarks.",
@@ -2285,7 +2312,7 @@
         "status": "ongoing"
       },
       "id": "el-obeid-siege-sudan-2026",
-      "last_updated": "2026-09-23T09:17:14Z",
+      "last_updated": "2026-09-25T09:17:20Z",
       "name": "Siege of El Obeid — North Kordofan, Sudan",
       "provenance": {
         "history": [
@@ -2293,10 +2320,15 @@
             "at": "2026-09-23T09:17:14Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-17-14Z-8361d5"
+          },
+          {
+            "at": "2026-09-25T09:17:20Z",
+            "layer": "verify",
+            "run_id": "2026-09-25T09-17-20Z-ef673a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-17-14Z-8361d5"
+        "last_run_id": "2026-09-25T09-17-20Z-ef673a"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3259,7 +3291,7 @@
         },
         {
           "id": "claim-26",
-          "retrieved_date": "2026-09-23",
+          "retrieved_date": "2026-09-25",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104121",
           "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND) has extended its reporting window to 9 August-22 September 2026 (episode 16), still at Orange alert; the structured Uttarakhand-centered death toll has risen to 42 (from 25) while displaced has risen slightly to 260,529 (from 260,524). The episode narrative now also cites heavy rain causing flooding and landslides across parts of Kerala from 20 September 2026, plus media headlines on a 22 September depression lashing Odisha (schools closed) and a glacial-lake outburst risk near Tawang, Arunachal Pradesh. No Sphere India situation report newer than Situation Report 7 (5 September) was found, so the confirmed national aggregate of at least 109 deaths and at least 347,155 displaced -- which does not yet incorporate this GDACS-tracked figure -- remains unchanged.",
@@ -3349,7 +3381,7 @@
         "status": "ongoing"
       },
       "id": "india-monsoon-floods-2026",
-      "last_updated": "2026-09-23T09:17:14Z",
+      "last_updated": "2026-09-25T09:19:10Z",
       "name": "Multi-State Monsoon Floods & Landslides — India",
       "provenance": {
         "history": [
@@ -3357,10 +3389,15 @@
             "at": "2026-09-23T09:17:14Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-17-14Z-73fa14"
+          },
+          {
+            "at": "2026-09-25T09:19:10Z",
+            "layer": "verify",
+            "run_id": "2026-09-25T09-19-10Z-7a7ada"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-17-14Z-73fa14"
+        "last_run_id": "2026-09-25T09-19-10Z-7a7ada"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4183,7 +4220,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-09-24",
+          "retrieved_date": "2026-09-25",
           "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
           "source_url": "https://www.fdma.go.jp/disaster/info/items/c39576e6e4bfa220713442913b7554481b6345b4.pdf",
           "text": "Japan's Fire and Disaster Management Agency situation report No. 13 (24 September 2026, 17:00 JST) on Typhoon No. 25: 12 deaths (of which 3 disaster-related; Chiba: Mobara 1, Kamogawa 3, Sodegaura 1, Inzai 1, Sanmu 1; Kanagawa: Yokosuka 3, Miura 1; Miyazaki: Nichinan 1), 3 people missing (a Kamogawa landslide, a Nagara-machi landslide and a Miura landslide, each with one person unaccounted for), 28 injured (1 serious, 27 minor), and 828 homes damaged or destroyed (29 total collapse, 33 half collapse, 469 flooded above floor level, 255 flooded below floor level, 42 partially damaged). Evacuation instructions remained at 509 households (1,062 people): 464 households (996 people, 2 cities and 1 town) in Chiba and 45 households (66 people, 1 city) in Kanagawa. Tokyo's Oshima Town Level 5 landslide special warning, issued 21 September, had already been downgraded to Level 4 the same day, and Chiba, Tokyo and Kanagawa prefectures remain under their disaster response headquarters established 21 September.",
@@ -4209,7 +4246,7 @@
         "status": "ongoing"
       },
       "id": "japan-typhoon-dujuan-2026",
-      "last_updated": "2026-09-24T09:18:25Z",
+      "last_updated": "2026-09-25T09:16:35Z",
       "name": "Typhoon Dujuan (Typhoon No. 25), Japan",
       "provenance": {
         "history": [
@@ -4217,10 +4254,15 @@
             "at": "2026-09-24T09:18:25Z",
             "layer": "verify",
             "run_id": "2026-09-24T09-18-25Z-3181a4"
+          },
+          {
+            "at": "2026-09-25T09:16:35Z",
+            "layer": "verify",
+            "run_id": "2026-09-25T09-16-35Z-9027a2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-24T09-18-25Z-3181a4"
+        "last_run_id": "2026-09-25T09-16-35Z-9027a2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6397,7 +6439,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-09-22",
+          "retrieved_date": "2026-09-25",
           "source_name": "United Nations",
           "source_url": "https://press.un.org/en/2026/db260909.doc.htm",
           "text": "UN Daily Press Briefing by the Office of the Spokesperson for the Secretary-General (9 September 2026): 'the current cholera outbreak, which, as you may recall, was declared in June, has resulted in nearly 2,900 reported cases and 247 associated deaths in 6 states in Sudan,' attributed to WHO. The same briefing announced that 'a 10-day cholera vaccination campaign to protect at least 95,000 people was launched yesterday in Tawila in North Darfur' with WHO support.",
@@ -6463,7 +6505,7 @@
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-09-23T09:19:15Z",
+      "last_updated": "2026-09-25T09:17:38Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
@@ -6471,10 +6513,15 @@
             "at": "2026-09-23T09:19:15Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-19-15Z-2c0298"
+          },
+          {
+            "at": "2026-09-25T09:17:38Z",
+            "layer": "verify",
+            "run_id": "2026-09-25T09-17-38Z-b86bd2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-19-15Z-2c0298"
+        "last_run_id": "2026-09-25T09-17-38Z-b86bd2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7730,6 +7777,78 @@
       }
     },
     {
+      "category": "storm",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-09-25",
+          "source_name": "NOAA",
+          "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/240841.shtml",
+          "text": "NOAA's Central Pacific Hurricane Center Advisory Number 19 (11 PM HST, Thursday, 24 September 2026) placed Hurricane Nolo at 15.5N 155.6W, about 240 miles south of South Point, Hawaii, with maximum sustained winds of 80 mph (130 km/h) and a minimum central pressure of 985 mb, moving north-northeast at 5 mph; 'additional strengthening is forecast, and Nolo is expected to become a major hurricane on Saturday,' with a turn toward the west-northwest and west forecast Saturday and Sunday.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-09-25",
+          "source_name": "Office of the Governor of Hawaiʻi",
+          "source_url": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-closure-of-some-state-and-county-offices-public-schools-uh-for-ts-nolo/",
+          "text": "The Office of the Governor of Hawaii announced the closure of state and county offices, public schools and University of Hawaii campuses and facilities on Hawaii Island for Thursday, September 24 and Friday, September 25, 2026, with closures expanding to Maui County on Friday, September 25, as the state prepared for potentially dangerous impacts -- heavy rain, damaging winds and flooding -- from Tropical Storm Nolo.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-09-25",
+          "source_name": "County of Hawaiʻi",
+          "source_url": "https://www.hawaiicounty.gov/Home/Components/News/News/4697/720",
+          "text": "Hawaii County Mayor Mitchell D. Roth issued an Emergency Proclamation Relating to Tropical Storm Nolo after the National Weather Service's Central Pacific Hurricane Center issued Tropical Storm Nolo Advisory Number 13 on 23 September 2026, with Nolo centered about 310 miles south of South Point, Hawaii Island, maximum sustained winds near 40 mph, and forecast to approach Hawaii Island on Friday and Saturday, September 25 and 26, 2026, under a Hurricane Watch issued by the National Weather Service for the County.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Hurricane Nolo strengthened south of Hawaii's Big Island in late September 2026, prompting a state of emergency and county-level emergency proclamation ahead of a forecast major-hurricane approach this weekend. NOAA's Central Pacific Hurricane Center's Advisory 19 (11 PM HST, 24 September) placed Nolo as a Category 1 hurricane with 80 mph winds about 240 miles south of South Point, forecasting it to become a major hurricane by Saturday as it passes near or just south of the Big Island. Hawaii's governor and Hawaii County's mayor have both declared emergencies, closed state and county offices and schools on Hawaii Island (expanding to Maui County), and warned of catastrophic, life-threatening flash flooding from forecast rainfall of 15 to 30 inches, with isolated totals to 35 inches. No casualties or damage have yet been confirmed as the storm's closest approach is still forecast for the coming days.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "NOAA's Central Pacific Hurricane Center Advisory 19 (11 PM HST, 24 September 2026) placed Nolo as a Category 1 hurricane with 80 mph maximum sustained winds and a minimum pressure of 985 mb, located near 15.5N 155.6W, about 240 miles south of South Point, Hawaii, forecasting additional strengthening to major hurricane status by Saturday as the storm passes near or just south of the Big Island. Hawaii County Mayor Mitchell Roth issued an Emergency Proclamation Relating to Tropical Storm Nolo, and Hawaii's governor closed state and county offices, public schools and University of Hawaii campuses on Hawaii Island on 24-25 September, expanding closures to Maui County on 25 September. Forecasters warn of catastrophic, life-threatening flash flooding and mudslides from rainfall of 15 to 30 inches (isolated totals to 35 inches) on the Big Island's eastern and southern slopes. No confirmed deaths, injuries or damage figures have yet been published by an authoritative source."
+        },
+        "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/240841.shtml",
+        "location": {
+          "country": "United States",
+          "lat": 19.5429,
+          "lon": -155.6659,
+          "region": "Hawaii Island (Big Island) and Maui County, Hawaii"
+        },
+        "occurrence_date": "2026-09-23",
+        "scale": "Category 1 hurricane, forecast to reach major hurricane strength",
+        "status": "ongoing"
+      },
+      "id": "usa-hawaii-hurricane-nolo-2026",
+      "last_updated": "2026-09-25T09:15:00Z",
+      "name": "Hurricane Nolo, Hawaii",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-09-25T09:15:00Z",
+            "layer": "verify",
+            "run_id": "2026-09-25T09-15-00Z-8a814d"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-09-25T09-15-00Z-8a814d"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398821.0,
+        "impact_rank": 1,
+        "recency_rank": 739882
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
       "category": "flood",
       "claims": [
         {
@@ -8888,7 +9007,7 @@
         },
         {
           "id": "claim-26",
-          "retrieved_date": "2026-09-23",
+          "retrieved_date": "2026-09-25",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-18-september-2026",
           "text": "OCHA oPt's Humanitarian Situation Report of 18 September 2026 (reporting period 8-14 September) states: 'During the reporting period, no Palestinian fatalities were documented in the West Bank,' with 27 Palestinians injured. It reports more than 4,300 Palestinians displaced across the year to date -- over 1,500 due to structure demolitions and approximately 2,600 in the context of settler violence and access restrictions -- up from more than 4,000 as of 11 September. It adds that, as of 14 September 2026, more than 1,600 settler attacks resulting in Palestinian casualties, property damage or both had been recorded since the beginning of the year, averaging 6.7 attacks per day compared with five per day in 2025, and that 275 Palestinian communities have been affected so far in 2026, nearly as many as the 279 affected during all of 2025.",
@@ -8946,7 +9065,7 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-09-23T09:19:56Z",
+      "last_updated": "2026-09-25T09:18:40Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
@@ -8954,10 +9073,15 @@
             "at": "2026-09-23T09:19:56Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-19-56Z-3390da"
+          },
+          {
+            "at": "2026-09-25T09:18:40Z",
+            "layer": "verify",
+            "run_id": "2026-09-25T09-18-40Z-5759d3"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-19-56Z-3390da"
+        "last_run_id": "2026-09-25T09-18-40Z-5759d3"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -9050,7 +9174,7 @@
         },
         {
           "id": "claim-12",
-          "retrieved_date": "2026-09-23",
+          "retrieved_date": "2026-09-25",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/09/1168390",
           "text": "UN News (22 September 2026), 'Displacement on the rise in Yemen as fighting continues': UNHCR spokesperson Babar Baloch said fighting in Yemen 'is expanding across multiple front lines, triggering a rapidly growing displacement crisis and driving more than 130,000 people to flee their homes since the beginning of September,' with Taiz governorate accounting for more than 60 percent of overall displacement; more than 3,000 people have arrived in Djibouti, with arrivals projected to exceed 10,000 by mid-October, and over 22 million people -- more than half of Yemen's population -- are estimated to need humanitarian assistance.",
@@ -9058,7 +9182,7 @@
         },
         {
           "id": "claim-13",
-          "retrieved_date": "2026-09-23",
+          "retrieved_date": "2026-09-25",
           "source_name": "United Nations",
           "source_url": "https://press.un.org/en/2026/sc16458.doc.htm",
           "text": "UN Security Council Press Statement SC/16458, 'Security Council Press Statement on Escalation in Yemen, Attacks against Kingdom of Saudi Arabia,' issued 18 September 2026 by Council President Jerome Bonnafont (France) and confirmed on the Council's Yemen press-release listing (press.un.org/en/yemen): Council members condemned continued Houthi attacks against Saudi Arabia, including attacks affecting civilian and energy infrastructure that injured civilians, affirmed Saudi Arabia's right to self-defense, and demanded the Houthis immediately cease their military escalation.",
@@ -9148,7 +9272,7 @@
         "status": "ongoing"
       },
       "id": "yemen-conflict-escalation-2026",
-      "last_updated": "2026-09-23T09:20:59Z",
+      "last_updated": "2026-09-25T09:18:21Z",
       "name": "Yemen Conflict Escalation",
       "provenance": {
         "history": [
@@ -9156,10 +9280,15 @@
             "at": "2026-09-23T09:20:59Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-20-59Z-bf0652"
+          },
+          {
+            "at": "2026-09-25T09:18:21Z",
+            "layer": "verify",
+            "run_id": "2026-09-25T09-18-21Z-4c365d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-20-59Z-bf0652"
+        "last_run_id": "2026-09-25T09-18-21Z-4c365d"
       },
       "schema_version": "1.0",
       "sort_keys": {
