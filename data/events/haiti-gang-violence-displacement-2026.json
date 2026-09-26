@@ -90,6 +90,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-21",
+      "retrieved_date": "2026-09-26",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/reports/haiti-information-sheet-displacement-situation-round-14-august-2026",
+      "text": "IOM's Displacement Tracking Matrix 'Haiti — Information sheet on the displacement situation — Round 14 (August 2026)' (covering 15 May-12 August 2026, published 23 September 2026) puts the total number of internally displaced persons in Haiti at about 1.49 million and states that 'Artibonite recorded the largest increase (+16%), reflecting the continued deterioration of the security situation in the department.'",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-11",
       "source_name": "United Nations",
@@ -122,37 +130,37 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced nearly 1.5 million, with an attack on Kenscoff, south of Port-au-Prince, killing 47 and displacing thousands more on 23-24 August. Briefing the UN Security Council on 28 August, BINUH head Carlos Ruiz Massieu reported at least 1,408 killed and 656 injured nationwide from April through June, while OCHA's Indrika Ratwatte said nearly 1.5 million people (12% of the population) are displaced, over 5,500 gender-based violence incidents have been recorded this year (about 70% rape), and more than 1,600 schools remain closed, depriving over 240,000 students. The Kenscoff attack killed at least 47 -- including 22 reportedly executed inside a church compound -- displaced more than 2,600 and left over 50 abducted, one of the largest mass kidnappings in Haiti in recent years; Guterres condemned the attack, and Ruiz Massieu has called for the Gang Suppression Force's swift, full deployment alongside restored State authority and accountability. About 6.4 million people need humanitarian assistance and more than 5.8 million face hunger this year.",
+  "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement now spreading beyond Port-au-Prince into previously safer areas. IOM's Displacement Tracking Matrix Round 14 report (data through 12 August 2026, published 23 September) puts the national total at nearly 1.5 million IDPs, with Artibonite department recording the largest three-month increase (+16%) as insecurity spreads there. Briefing the UN Security Council on 28 August, BINUH head Carlos Ruiz Massieu reported at least 1,408 killed and 656 injured from April-June; OCHA said 5,500+ gender-based violence incidents have been recorded this year (about 70% rape) and 1,600+ schools remain closed, depriving over 240,000 students. The 23-24 August attack on Kenscoff killed at least 47 -- including 22 reportedly executed inside a church -- displaced more than 2,600 and left over 50 abducted; Ruiz Massieu has called for the Gang Suppression Force's swift, full deployment alongside restored State authority and accountability. About 6.4 million people need humanitarian assistance and more than 5.8 million face hunger this year.",
   "event": {
     "impact": {
       "deaths": 3000,
-      "displaced": 1470000,
-      "summary": "Briefing the UN Security Council on 28 August 2026, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026, while BINUH head Carlos Ruiz Massieu put the April-June quarterly toll at more than 1,400 killed and more than 600 injured. OCHA's Indrika Ratwatte told the Council that nearly 1.5 million people (12% of the population) remain internally displaced, more than 5,500 incidents of gender-based violence have been recorded this year (about 70% involving rape), child recruitment by armed groups rose an estimated 200% in 2025, and more than 1,600 schools remain closed, depriving over 240,000 students. The 23-24 August gang attack on Kenscoff killed at least 47 people, displaced more than 2,600 and saw over 50 people abducted; the Gang Suppression Force remains under-deployed despite calls from the Secretary-General's Special Representative for its swift, full deployment."
+      "displaced": 1490000,
+      "summary": "IOM's Displacement Tracking Matrix Round 14 report (covering 15 May-12 August 2026, published 23 September) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite department recording the largest increase of any department (+16%) over the reporting period as the security situation there deteriorates further. Briefing the UN Security Council on 28 August 2026, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026, while BINUH head Carlos Ruiz Massieu put the April-June quarterly toll at more than 1,400 killed and more than 600 injured. OCHA's Indrika Ratwatte told the Council that more than 5,500 incidents of gender-based violence have been recorded this year (about 70% involving rape), child recruitment by armed groups rose an estimated 200% in 2025, and more than 1,600 schools remain closed, depriving over 240,000 students. The 23-24 August gang attack on Kenscoff killed at least 47 people, displaced more than 2,600 and saw over 50 people abducted; the Gang Suppression Force remains under-deployed despite calls from the Secretary-General's Special Representative for its swift, full deployment."
     },
-    "live_source_url": "https://reliefweb.int/country/hti",
+    "live_source_url": "https://dtm.iom.int/haiti",
     "location": {
       "country": "Haiti",
       "lat": 18.5944,
       "lon": -72.3074,
-      "region": "Nationwide, concentrated in Port-au-Prince metropolitan area (incl. Cité Soleil, Drouillard)"
+      "region": "Nationwide, spreading beyond Port-au-Prince into Artibonite and other departments"
     },
     "occurrence_date": "2026-07-19",
-    "scale": "~1.47M displaced; 3,000+ killed nationwide in 2026",
+    "scale": "~1.49M displaced; 3,000+ killed nationwide in 2026",
     "status": "ongoing"
   },
   "id": "haiti-gang-violence-displacement-2026",
-  "last_updated": "2026-09-23T09:17:14Z",
+  "last_updated": "2026-09-26T09:20:03Z",
   "name": "Gang Violence Displacement Crisis — Haiti",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-23T09:17:14Z",
+        "at": "2026-09-26T09:20:03Z",
         "layer": "verify",
-        "run_id": "2026-09-23T09-17-14Z-93ebec"
+        "run_id": "2026-09-26T09-20-03Z-40d0ff"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-23T09-17-14Z-93ebec"
+    "last_run_id": "2026-09-26T09-20-03Z-40d0ff"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -161,6 +169,10 @@
     "recency_rank": 739816
   },
   "updates": [
+    {
+      "date": "2026-09-23",
+      "text": "IOM's DTM Round 14 report (data through 12 August, published 23 September) put national displacement at about 1.49 million, up slightly from Round 13's 1.47 million, with Artibonite department recording the largest three-month increase (+16%) as insecurity spreads beyond Port-au-Prince."
+    },
     {
       "date": "2026-08-28",
       "text": "Briefing the UN Security Council, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026; OCHA reported the Kenscoff attack displaced 2,600+ and saw 50+ abducted, plus 5,500+ gender-based violence incidents and 200% higher child recruitment in 2025, while BINUH's Ruiz Massieu urged the Gang Suppression Force's swift, full deployment."
@@ -192,7 +204,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

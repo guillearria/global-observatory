@@ -1,0 +1,72 @@
+{
+  "category": "flood",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-09-26",
+      "source_name": "GDACS",
+      "source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
+      "text": "GDACS's flood event report for Thailand (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA), covering an 18 August-26 September 2026 window, records 3 deaths and 169 people displaced nationwide, with an overall Green alert level (low humanitarian impact).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-09-26",
+      "source_name": "Al Jazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/9/26/disaster-zone-declared-across-bangkok-as-heavy-rain-triggers-flooding",
+      "text": "Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026, after nearly 300mm of rain fell on the city over 48 hours; the Bangkok Metropolitan Administration warned motorists to avoid more than 20 flood-affected roads and advised residents to move vehicles to higher ground.",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-09-26",
+      "source_name": "Nation Thailand",
+      "source_url": "https://www.nationthailand.com/thailand/bangkok/40071510",
+      "text": "As of 25 September 2026, flooding was reported to be affecting 11,796 households (37,036 people) across 38 districts, 143 sub-districts and 596 villages in 12 Thai provinces, per Thailand's Department of Disaster Prevention and Mitigation (DDPM), which also issued a Cell Broadcast alert warning that Bangkok canal water levels had reached critical stage and were continuing to rise.",
+      "verification_status": "unverified"
+    }
+  ],
+  "description": "Torrential monsoon rain flooded Bangkok and central Thailand in late September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. GDACS's ongoing Thailand flood report (18 August-26 September 2026 window) records 3 deaths and 169 displaced nationwide under a Green alert. Nearly 300mm of rain fell on Bangkok over 48 hours to 26 September, and Thailand's Department of Disaster Prevention and Mitigation reported flooding affecting about 11,796 households (37,036 people) across 12 provinces as of 25 September, with canal levels in Bangkok reaching critical stage and dozens of roads impassable.",
+  "event": {
+    "impact": {
+      "deaths": 3,
+      "displaced": 169,
+      "summary": "GDACS's Thailand flood event report (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, window 18 August-26 September 2026) records 3 deaths and 169 displaced nationwide under an overall Green alert. Separately, Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026 after nearly 300mm of rain fell over 48 hours, with Thailand's Department of Disaster Prevention and Mitigation reporting flooding affecting about 11,796 households (37,036 people) across 38 districts and 596 villages in 12 provinces as of 25 September. Bangkok's canal network reached critical water levels, prompting a cell-broadcast alert to residents and road-avoidance warnings for more than 20 flood-hit roads."
+    },
+    "live_source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
+    "location": {
+      "country": "Thailand",
+      "lat": 13.7563,
+      "lon": 100.5018,
+      "region": "Bangkok Metropolitan Area and 12 central provinces"
+    },
+    "occurrence_date": "2026-09-24",
+    "scale": "GDACS Green alert; Bangkok citywide flood-disaster declaration",
+    "status": "ongoing"
+  },
+  "id": "thailand-bangkok-floods-2026",
+  "last_updated": "2026-09-26T09:17:55Z",
+  "name": "Bangkok Flood Disaster, Thailand",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-09-26T09:17:55Z",
+        "layer": "verify",
+        "run_id": "2026-09-26T09-17-55Z-167cc2"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-09-26T09-17-55Z-167cc2"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398831.0,
+    "impact_rank": 1,
+    "recency_rank": 739883
+  },
+  "verification": {
+    "confidence": "medium",
+    "notes": "gate: 1 verified, 0 disputed, 2 unverified -> partial",
+    "status": "partial"
+  }
+}

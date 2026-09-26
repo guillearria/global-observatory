@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25T09:21:13Z",
+  "last_updated": "2026-09-26T09:23:08Z",
   "published": [
     {
       "category": "flood",
@@ -676,6 +676,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-31",
+          "retrieved_date": "2026-09-26",
+          "source_name": "Government of British Columbia",
+          "source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
+          "text": "EmergencyInfoBC's wildfire hazard page (checked 26 September 2026) lists 10 active local evacuation notices, down from 12 on 23 September: District of Summerland and Okanagan Indian Band (both updated 18 September), Spuzzum First Nation and Regional District of Okanagan-Similkameen (2 September), Lytton First Nation (31 August), Coldwater Indian Band (29 August), Ts'kw'aylaxw First Nation (24 August), Boothroyd Indian Band (16 August), Shxw'ow'hamel First Nation (1 August) and Whispering Pines/Clinton Indian Band (24 July); Yale First Nation and Boston Bar First Nation are no longer listed.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-08-12",
           "source_name": "Government of British Columbia",
@@ -724,12 +732,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased. Conditions have continued to ease overall: the BC Wildfire Service lifted Category 1 campfire prohibitions across the Cariboo, Coastal and Kamloops fire centres effective 3 September (Category 2/3 open fires remain banned until 31 October), though EmergencyInfoBC's active evacuation-notice count ticked back up to 12 on 14 September, from 11 the day before, after Yale First Nation's evacuation alert reappeared on the list; wildfire risk remains elevated province-wide.",
+      "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased. Conditions have continued to ease overall: the BC Wildfire Service lifted Category 1 campfire prohibitions across the Cariboo, Coastal and Kamloops fire centres effective 3 September (Category 2/3 open fires remain banned until 31 October), and EmergencyInfoBC's active evacuation-notice count has eased further to 10 as of 26 September, down from 12; wildfire risk remains elevated province-wide.",
       "event": {
         "impact": {
           "deaths": 1,
           "displaced": null,
-          "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode; the GDACS tracking record for this event closed with no further episodes after that date. British Columbia ended its province-wide State of Provincial Emergency on 27 August 2026, and the BC Wildfire Service rescinded the Bald Range fire's area restriction on 4 September. Conditions remain broadly improved: Category 1 campfire prohibitions were lifted in the Cariboo, Coastal and Kamloops fire centres effective 3 September, and EmergencyInfoBC's wildfire page lists 12 active local evacuation orders and alerts as of 14 September 2026, up from 11 the day before, after Yale First Nation's evacuation alert (dated 23 August) reappeared on the list; the most recently updated notices are for the Okanagan Indian Band (9 September) and Spuzzum First Nation/Regional District of Okanagan-Similkameen (2 September)."
+          "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode; the GDACS tracking record for this event closed with no further episodes after that date. British Columbia ended its province-wide State of Provincial Emergency on 27 August 2026, and the BC Wildfire Service rescinded the Bald Range fire's area restriction on 4 September. Conditions remain broadly improved: Category 1 campfire prohibitions were lifted in the Cariboo, Coastal and Kamloops fire centres effective 3 September, and EmergencyInfoBC's wildfire page lists 10 active local evacuation orders and alerts as of 26 September 2026, down from 12 on 23 September; the most recently updated notices are for the District of Summerland and Okanagan Indian Band (18 September)."
         },
         "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/",
         "location": {
@@ -743,7 +751,7 @@
         "status": "ongoing"
       },
       "id": "canada-british-columbia-wildfires-2026",
-      "last_updated": "2026-09-23T09:20:25Z",
+      "last_updated": "2026-09-26T09:21:17Z",
       "name": "Wildfire State of Emergency — British Columbia, Canada",
       "provenance": {
         "history": [
@@ -751,10 +759,15 @@
             "at": "2026-09-23T09:20:25Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-20-25Z-70b82b"
+          },
+          {
+            "at": "2026-09-26T09:21:17Z",
+            "layer": "verify",
+            "run_id": "2026-09-26T09-21-17Z-8ca6e1"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-20-25Z-70b82b"
+        "last_run_id": "2026-09-26T09-21-17Z-8ca6e1"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -763,6 +776,10 @@
         "recency_rank": 739836
       },
       "updates": [
+        {
+          "date": "2026-09-26",
+          "text": "EmergencyInfoBC's evacuation list eased to 10 active orders/alerts (from 12 on 23 September), with Yale First Nation and Boston Bar First Nation no longer listed; remaining notices range from Whispering Pines/Clinton Indian Band (24 July) to District of Summerland/Okanagan Indian Band (18 September)."
+        },
         {
           "date": "2026-09-15",
           "text": "EmergencyInfoBC's evacuation list ticked back up to 12 active orders/alerts (from 11 the day before), after Yale First Nation's evacuation alert (dated 23 August) reappeared on the list; all other notices were unchanged, ranging from Boston Bar First Nation (6 July) to Okanagan Indian Band (9 September)."
@@ -842,7 +859,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 30 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 31 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3068,6 +3085,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-21",
+          "retrieved_date": "2026-09-26",
+          "source_name": "IOM Displacement Tracking Matrix (DTM)",
+          "source_url": "https://dtm.iom.int/reports/haiti-information-sheet-displacement-situation-round-14-august-2026",
+          "text": "IOM's Displacement Tracking Matrix 'Haiti — Information sheet on the displacement situation — Round 14 (August 2026)' (covering 15 May-12 August 2026, published 23 September 2026) puts the total number of internally displaced persons in Haiti at about 1.49 million and states that 'Artibonite recorded the largest increase (+16%), reflecting the continued deterioration of the security situation in the department.'",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-08-11",
           "source_name": "United Nations",
@@ -3100,37 +3125,37 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced nearly 1.5 million, with an attack on Kenscoff, south of Port-au-Prince, killing 47 and displacing thousands more on 23-24 August. Briefing the UN Security Council on 28 August, BINUH head Carlos Ruiz Massieu reported at least 1,408 killed and 656 injured nationwide from April through June, while OCHA's Indrika Ratwatte said nearly 1.5 million people (12% of the population) are displaced, over 5,500 gender-based violence incidents have been recorded this year (about 70% rape), and more than 1,600 schools remain closed, depriving over 240,000 students. The Kenscoff attack killed at least 47 -- including 22 reportedly executed inside a church compound -- displaced more than 2,600 and left over 50 abducted, one of the largest mass kidnappings in Haiti in recent years; Guterres condemned the attack, and Ruiz Massieu has called for the Gang Suppression Force's swift, full deployment alongside restored State authority and accountability. About 6.4 million people need humanitarian assistance and more than 5.8 million face hunger this year.",
+      "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement now spreading beyond Port-au-Prince into previously safer areas. IOM's Displacement Tracking Matrix Round 14 report (data through 12 August 2026, published 23 September) puts the national total at nearly 1.5 million IDPs, with Artibonite department recording the largest three-month increase (+16%) as insecurity spreads there. Briefing the UN Security Council on 28 August, BINUH head Carlos Ruiz Massieu reported at least 1,408 killed and 656 injured from April-June; OCHA said 5,500+ gender-based violence incidents have been recorded this year (about 70% rape) and 1,600+ schools remain closed, depriving over 240,000 students. The 23-24 August attack on Kenscoff killed at least 47 -- including 22 reportedly executed inside a church -- displaced more than 2,600 and left over 50 abducted; Ruiz Massieu has called for the Gang Suppression Force's swift, full deployment alongside restored State authority and accountability. About 6.4 million people need humanitarian assistance and more than 5.8 million face hunger this year.",
       "event": {
         "impact": {
           "deaths": 3000,
-          "displaced": 1470000,
-          "summary": "Briefing the UN Security Council on 28 August 2026, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026, while BINUH head Carlos Ruiz Massieu put the April-June quarterly toll at more than 1,400 killed and more than 600 injured. OCHA's Indrika Ratwatte told the Council that nearly 1.5 million people (12% of the population) remain internally displaced, more than 5,500 incidents of gender-based violence have been recorded this year (about 70% involving rape), child recruitment by armed groups rose an estimated 200% in 2025, and more than 1,600 schools remain closed, depriving over 240,000 students. The 23-24 August gang attack on Kenscoff killed at least 47 people, displaced more than 2,600 and saw over 50 people abducted; the Gang Suppression Force remains under-deployed despite calls from the Secretary-General's Special Representative for its swift, full deployment."
+          "displaced": 1490000,
+          "summary": "IOM's Displacement Tracking Matrix Round 14 report (covering 15 May-12 August 2026, published 23 September) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite department recording the largest increase of any department (+16%) over the reporting period as the security situation there deteriorates further. Briefing the UN Security Council on 28 August 2026, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026, while BINUH head Carlos Ruiz Massieu put the April-June quarterly toll at more than 1,400 killed and more than 600 injured. OCHA's Indrika Ratwatte told the Council that more than 5,500 incidents of gender-based violence have been recorded this year (about 70% involving rape), child recruitment by armed groups rose an estimated 200% in 2025, and more than 1,600 schools remain closed, depriving over 240,000 students. The 23-24 August gang attack on Kenscoff killed at least 47 people, displaced more than 2,600 and saw over 50 people abducted; the Gang Suppression Force remains under-deployed despite calls from the Secretary-General's Special Representative for its swift, full deployment."
         },
-        "live_source_url": "https://reliefweb.int/country/hti",
+        "live_source_url": "https://dtm.iom.int/haiti",
         "location": {
           "country": "Haiti",
           "lat": 18.5944,
           "lon": -72.3074,
-          "region": "Nationwide, concentrated in Port-au-Prince metropolitan area (incl. Cité Soleil, Drouillard)"
+          "region": "Nationwide, spreading beyond Port-au-Prince into Artibonite and other departments"
         },
         "occurrence_date": "2026-07-19",
-        "scale": "~1.47M displaced; 3,000+ killed nationwide in 2026",
+        "scale": "~1.49M displaced; 3,000+ killed nationwide in 2026",
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-09-23T09:17:14Z",
+      "last_updated": "2026-09-26T09:20:03Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-23T09:17:14Z",
+            "at": "2026-09-26T09:20:03Z",
             "layer": "verify",
-            "run_id": "2026-09-23T09-17-14Z-93ebec"
+            "run_id": "2026-09-26T09-20-03Z-40d0ff"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-17-14Z-93ebec"
+        "last_run_id": "2026-09-26T09-20-03Z-40d0ff"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3139,6 +3164,10 @@
         "recency_rank": 739816
       },
       "updates": [
+        {
+          "date": "2026-09-23",
+          "text": "IOM's DTM Round 14 report (data through 12 August, published 23 September) put national displacement at about 1.49 million, up slightly from Round 13's 1.47 million, with Artibonite department recording the largest three-month increase (+16%) as insecurity spreads beyond Port-au-Prince."
+        },
         {
           "date": "2026-08-28",
           "text": "Briefing the UN Security Council, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026; OCHA reported the Kenscoff attack displaced 2,600+ and saw 50+ abducted, plus 5,500+ gender-based violence incidents and 200% higher child recruitment in 2025, while BINUH's Ruiz Massieu urged the Gang Suppression Force's swift, full deployment."
@@ -3170,7 +3199,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3612,7 +3641,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-09-23",
+          "retrieved_date": "2026-09-26",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1000148&episodeid=2&eventtype=VO",
           "text": "GDACS's report for this event (event ID VO 1000148) rates the Krakatau eruption an Orange alert, \"unlikely to require external humanitarian assistance based on the exposed population and coping capacity,\" with about 2,000 people within 30km and no people affected within 100km; it records a Volcanic Explosivity Index of 6 for the episode, running from 04 Sep 2026 21:00 UTC to 05 Sep 2026 14:30 UTC.",
@@ -3662,7 +3691,7 @@
         "status": "ongoing"
       },
       "id": "indonesia-volcano-krakatau-2026",
-      "last_updated": "2026-09-23T09:18:24Z",
+      "last_updated": "2026-09-26T09:23:08Z",
       "name": "Volcanic Eruption — Krakatau, Indonesia",
       "provenance": {
         "history": [
@@ -3670,10 +3699,15 @@
             "at": "2026-09-23T09:18:24Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-18-24Z-e1cb8a"
+          },
+          {
+            "at": "2026-09-26T09:23:08Z",
+            "layer": "verify",
+            "run_id": "2026-09-26T09-23-08Z-428b7c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-18-24Z-e1cb8a"
+        "last_run_id": "2026-09-26T09-23-08Z-428b7c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4767,7 +4801,7 @@
         },
         {
           "id": "claim-14",
-          "retrieved_date": "2026-09-23",
+          "retrieved_date": "2026-09-26",
           "source_name": "Ministry of Foreign Affairs (Nepal)",
           "source_url": "https://mofa.gov.np/content/1884/the-ministry-s-regular-press-briefing--11-september/",
           "text": "The same Ministry of Foreign Affairs regular press briefing (11 September 2026) states: \"the total damage caused by the disaster is estimated at approximately USD 1.8 billion, while the estimated loss is approximately USD 883 million,\" and \"the total estimated requirement for reconstruction is approximately USD 4.78 billion. Of this, approximately USD 57.67 million is estimated to be required for short-term reconstruction and recovery over the next six months, while approximately USD 4.71 billion is required for longer-term reconstruction.\"",
@@ -4857,7 +4891,7 @@
         "status": "ongoing"
       },
       "id": "nepal-rasuwa-glacial-flood-2026",
-      "last_updated": "2026-09-23T09:20:35Z",
+      "last_updated": "2026-09-26T09:23:08Z",
       "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
       "provenance": {
         "history": [
@@ -4865,10 +4899,15 @@
             "at": "2026-09-23T09:20:35Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-20-35Z-f6cf7c"
+          },
+          {
+            "at": "2026-09-26T09:23:08Z",
+            "layer": "verify",
+            "run_id": "2026-09-26T09-23-08Z-06f3aa"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-20-35Z-f6cf7c"
+        "last_run_id": "2026-09-26T09-23-08Z-06f3aa"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5187,6 +5226,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-34",
+          "retrieved_date": "2026-09-26",
+          "source_name": "National Disaster Management Authority (Pakistan)",
+          "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
+          "text": "NDMA's live Monsoon 2026 SITREP dashboard, checked 25 September 2026 (cumulative, 26 June-25 September 2026): Grand Total Deceased rose to 198 (68 male, 39 female, 91 children), up from 194; Grand Total Injured rose to 549 (223 male, 144 female, 182 children), up from 548. Cumulative housing damage rose to 1,838 houses total (623 destroyed, 1,215 partially damaged), up from 1,832; livestock lost rose to 1,559 (from 1,526). Cumulative rescue operations rose to 1,188 (10,677 persons rescued/evacuated), up from 1,181 (10,666); roads damaged 34.92 km (up from 34.82 km) and bridges damaged unchanged at 41.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-5",
           "retrieved_date": "2026-08-11",
           "source_name": "ReliefWeb",
@@ -5195,14 +5242,14 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Nationwide monsoon flooding across Pakistan since late June 2026 has killed 194 people and injured 548, per NDMA's live tracking dashboard. Khyber Pakhtunkhwa and Punjab have recorded the most deaths, with cumulative housing damage continuing to rise even as the death toll has climbed only slowly through late September.",
+      "description": "Nationwide monsoon flooding across Pakistan since late June 2026 has killed 198 people and injured 549, per NDMA's live tracking dashboard. Khyber Pakhtunkhwa and Punjab have recorded the most deaths, with cumulative housing damage continuing to rise even as the death toll has climbed only slowly through late September.",
       "event": {
         "impact": {
-          "deaths": 194,
+          "deaths": 198,
           "displaced": null,
-          "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 21 September 2026 at 194 deaths and 548 injuries, up from 191 deaths two days earlier (injuries unchanged). Cumulative housing damage now stands at 1,832 houses affected (618 destroyed, 1,214 partially damaged), with 1,526 livestock lost (unchanged). Khyber Pakhtunkhwa and Punjab remain the most-affected provinces for deaths, with Gilgit-Baltistan continuing to record the most housing damage. NDMA teams have conducted 1,181 rescue operations and rescued 10,666 people as of their most recent breakdown."
+          "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 25 September 2026 at 198 deaths and 549 injuries, up from 194 deaths and 548 injuries four days earlier. Cumulative housing damage now stands at 1,838 houses affected (623 destroyed, 1,215 partially damaged), with 1,559 livestock lost (up from 1,526). Khyber Pakhtunkhwa and Punjab remain the most-affected provinces for deaths, with Gilgit-Baltistan continuing to record the most housing damage. NDMA teams have conducted 1,188 rescue operations and rescued 10,677 people as of their most recent breakdown."
         },
-        "live_source_url": "https://reliefweb.int/country/pak",
+        "live_source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
         "location": {
           "country": "Pakistan",
           "lat": 30.3753,
@@ -5210,11 +5257,11 @@
           "region": "Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh"
         },
         "occurrence_date": "2026-06-26",
-        "scale": "Nationwide monsoon flooding; NDMA-recorded 191 deaths as of 20 September 2026 (live SITREP dashboard)",
+        "scale": "Nationwide monsoon flooding; NDMA-recorded 198 deaths as of 25 September 2026 (live SITREP dashboard)",
         "status": "ongoing"
       },
       "id": "pakistan-floods-2026",
-      "last_updated": "2026-09-23T09:19:15Z",
+      "last_updated": "2026-09-26T09:20:39Z",
       "name": "Monsoon Floods — Pakistan",
       "provenance": {
         "history": [
@@ -5222,10 +5269,15 @@
             "at": "2026-09-23T09:19:15Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-19-15Z-ea7206"
+          },
+          {
+            "at": "2026-09-26T09:20:39Z",
+            "layer": "verify",
+            "run_id": "2026-09-26T09-20-39Z-bb147e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-19-15Z-ea7206"
+        "last_run_id": "2026-09-26T09-20-39Z-bb147e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5234,6 +5286,10 @@
         "recency_rank": 739793
       },
       "updates": [
+        {
+          "date": "2026-09-25",
+          "text": "NDMA's dashboard toll rose to 198 deaths (from 194) and 549 injuries (from 548); cumulative housing damage rose to 1,838 houses (623 destroyed, 1,215 partially damaged, up from 1,832); livestock lost rose to 1,559 (from 1,526); rescue operations rose to 1,188 (10,677 persons rescued, up from 10,666)."
+        },
         {
           "date": "2026-09-21",
           "text": "NDMA's dashboard toll rose to 194 deaths (from 191); injuries held steady at 548; cumulative housing damage rose to 1,832 houses (618 destroyed, 1,214 partially damaged, up from 1,831); livestock lost held steady at 1,526."
@@ -5329,7 +5385,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 25 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 26 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -6610,7 +6666,7 @@
         },
         {
           "id": "claim-22",
-          "retrieved_date": "2026-09-23",
+          "retrieved_date": "2026-09-26",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/sdn",
           "text": "UNHCR's Operational Data Portal for Sudan (data as of 31 August 2026): 8,622,801 internally displaced persons within Sudan, down from 8,685,273 as of 31 July 2026, and 905,349 refugees and asylum-seekers in Sudan, up from 900,819; 32% of the refugee/asylum-seeker population is out of camp and 68% is settled in camps, with IDPs comprising 2.19 million displaced prior to April 2023 and approximately 6.43 million displaced since.",
@@ -6660,7 +6716,7 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-09-23T09:19:15Z",
+      "last_updated": "2026-09-26T09:23:08Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
@@ -6668,10 +6724,15 @@
             "at": "2026-09-23T09:19:15Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-19-15Z-4a560f"
+          },
+          {
+            "at": "2026-09-26T09:23:08Z",
+            "layer": "verify",
+            "run_id": "2026-09-26T09-23-08Z-858768"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-19-15Z-4a560f"
+        "last_run_id": "2026-09-26T09-23-08Z-858768"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6713,6 +6774,78 @@
         "confidence": "high",
         "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
+      }
+    },
+    {
+      "category": "flood",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-09-26",
+          "source_name": "GDACS",
+          "source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
+          "text": "GDACS's flood event report for Thailand (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA), covering an 18 August-26 September 2026 window, records 3 deaths and 169 people displaced nationwide, with an overall Green alert level (low humanitarian impact).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-09-26",
+          "source_name": "Al Jazeera",
+          "source_url": "https://www.aljazeera.com/news/2026/9/26/disaster-zone-declared-across-bangkok-as-heavy-rain-triggers-flooding",
+          "text": "Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026, after nearly 300mm of rain fell on the city over 48 hours; the Bangkok Metropolitan Administration warned motorists to avoid more than 20 flood-affected roads and advised residents to move vehicles to higher ground.",
+          "verification_status": "unverified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-09-26",
+          "source_name": "Nation Thailand",
+          "source_url": "https://www.nationthailand.com/thailand/bangkok/40071510",
+          "text": "As of 25 September 2026, flooding was reported to be affecting 11,796 households (37,036 people) across 38 districts, 143 sub-districts and 596 villages in 12 Thai provinces, per Thailand's Department of Disaster Prevention and Mitigation (DDPM), which also issued a Cell Broadcast alert warning that Bangkok canal water levels had reached critical stage and were continuing to rise.",
+          "verification_status": "unverified"
+        }
+      ],
+      "description": "Torrential monsoon rain flooded Bangkok and central Thailand in late September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. GDACS's ongoing Thailand flood report (18 August-26 September 2026 window) records 3 deaths and 169 displaced nationwide under a Green alert. Nearly 300mm of rain fell on Bangkok over 48 hours to 26 September, and Thailand's Department of Disaster Prevention and Mitigation reported flooding affecting about 11,796 households (37,036 people) across 12 provinces as of 25 September, with canal levels in Bangkok reaching critical stage and dozens of roads impassable.",
+      "event": {
+        "impact": {
+          "deaths": 3,
+          "displaced": 169,
+          "summary": "GDACS's Thailand flood event report (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, window 18 August-26 September 2026) records 3 deaths and 169 displaced nationwide under an overall Green alert. Separately, Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026 after nearly 300mm of rain fell over 48 hours, with Thailand's Department of Disaster Prevention and Mitigation reporting flooding affecting about 11,796 households (37,036 people) across 38 districts and 596 villages in 12 provinces as of 25 September. Bangkok's canal network reached critical water levels, prompting a cell-broadcast alert to residents and road-avoidance warnings for more than 20 flood-hit roads."
+        },
+        "live_source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
+        "location": {
+          "country": "Thailand",
+          "lat": 13.7563,
+          "lon": 100.5018,
+          "region": "Bangkok Metropolitan Area and 12 central provinces"
+        },
+        "occurrence_date": "2026-09-24",
+        "scale": "GDACS Green alert; Bangkok citywide flood-disaster declaration",
+        "status": "ongoing"
+      },
+      "id": "thailand-bangkok-floods-2026",
+      "last_updated": "2026-09-26T09:17:55Z",
+      "name": "Bangkok Flood Disaster, Thailand",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-09-26T09:17:55Z",
+            "layer": "verify",
+            "run_id": "2026-09-26T09-17-55Z-167cc2"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-09-26T09-17-55Z-167cc2"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398831.0,
+        "impact_rank": 1,
+        "recency_rank": 739883
+      },
+      "verification": {
+        "confidence": "medium",
+        "notes": "gate: 1 verified, 0 disputed, 2 unverified -> partial",
+        "status": "partial"
       }
     },
     {
@@ -7266,6 +7399,22 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-12",
+          "retrieved_date": "2026-09-26",
+          "source_name": "CAL FIRE",
+          "source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire/",
+          "text": "CAL FIRE's incident page for the Plaskett Fire reports that, as of 25 September 2026, the fire remains at 98% containment on 30,124 acres, with activity 'minimal' and crews continuing patrol, mop-up, suppression repair and monitoring operations under California Interagency Incident Management Team 6.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-13",
+          "retrieved_date": "2026-09-26",
+          "source_name": "CAL FIRE",
+          "source_url": "https://www.fire.ca.gov/incidents/2026/8/8/timber-fire/",
+          "text": "CAL FIRE's incident page for the Timber Fire reports that, as of 25 September 2026, the fire had burned 25,513 acres and remained 59% contained, with 3 responder injuries and 661 structures still listed as threatened; operations continue transitioning toward hold, patrol and monitor status under California Interagency Incident Management Team 6.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-09-12",
           "source_name": "CAL FIRE",
@@ -7330,12 +7479,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Plaskett and Timber wildfires have burned roughly 55,560 combined acres along California's Big Sur coast since August 2026. The Timber Fire ignited August 8 and the larger Plaskett Fire ignited August 26 in the Los Padres National Forest near Big Sur; CAL FIRE now reports the Plaskett Fire holding at 97% containment on 30,124 acres, with all evacuation orders and warnings previously lifted, while the Timber Fire holds at 59% containment on 25,436 acres with evacuation orders still active for 10 zones in Monterey County as command transitions to a new incident management team on September 22. No deaths have been reported by CAL FIRE for either fire, though the Timber Fire has caused 3 responder injuries.",
+      "description": "The Plaskett and Timber wildfires have burned roughly 55,640 combined acres along California's Big Sur coast since August 2026. The Timber Fire ignited August 8 and the larger Plaskett Fire ignited August 26 in the Los Padres National Forest near Big Sur; CAL FIRE now reports the Plaskett Fire at 98% containment on 30,124 acres with activity minimal, while the Timber Fire has reached 59% containment on 25,513 acres, with 661 structures still listed as threatened as operations continue transitioning to hold, patrol and monitor status. No deaths have been reported by CAL FIRE for either fire, though the Timber Fire has caused 3 responder injuries.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "CAL FIRE reports no deaths from either fire, but 3 responder injuries on the Timber Fire. As of September 19, 2026, the Plaskett Fire holds at 97% containment on 30,124 acres, with all evacuation orders and warnings previously lifted by the Monterey County Sheriff's Office. The Timber Fire holds at 59% containment on 25,436 acres, with 661 structures still threatened and evacuation orders in effect for 10 zones (warnings for 16 more), as command transitions from Southwest Area Incident Management Team 1 to California Interagency Incident Management Team 6 on September 22."
+          "summary": "CAL FIRE reports no deaths from either fire, but 3 responder injuries on the Timber Fire. As of September 25, 2026, the Plaskett Fire holds at 98% containment on 30,124 acres, with fire activity described as minimal and only patrol, mop-up and monitoring operations continuing. The Timber Fire holds at 59% containment on 25,513 acres, with 661 structures still listed as threatened, as operations continue transitioning from active suppression to hold, patrol and monitor status under California Interagency Incident Management Team 6."
         },
         "live_source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire",
         "location": {
@@ -7345,11 +7494,11 @@
           "region": "Big Sur, Los Padres National Forest — Monterey & San Luis Obispo Counties, California"
         },
         "occurrence_date": "2026-08-26",
-        "scale": "~55,560 combined acres (Plaskett 97%, Timber 59% contained)",
+        "scale": "~55,640 combined acres (Plaskett 98%, Timber 59% contained)",
         "status": "ongoing"
       },
       "id": "usa-california-big-sur-wildfires-2026",
-      "last_updated": "2026-09-23T09:19:39Z",
+      "last_updated": "2026-09-26T09:22:12Z",
       "name": "Wildfires — Big Sur / Los Padres National Forest, California",
       "provenance": {
         "history": [
@@ -7357,10 +7506,15 @@
             "at": "2026-09-23T09:19:39Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-19-39Z-8731aa"
+          },
+          {
+            "at": "2026-09-26T09:22:12Z",
+            "layer": "verify",
+            "run_id": "2026-09-26T09-22-12Z-9991d2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-19-39Z-8731aa"
+        "last_run_id": "2026-09-26T09-22-12Z-9991d2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7369,6 +7523,10 @@
         "recency_rank": 739854
       },
       "updates": [
+        {
+          "date": "2026-09-25",
+          "text": "CAL FIRE reported the Plaskett Fire's containment edged up to 98% (from 97%) on unchanged acreage of 30,124, with activity described as minimal; the Timber Fire's containment held at 59% as its acreage grew slightly to 25,513 (from 25,436), with 661 structures still threatened."
+        },
         {
           "date": "2026-09-20",
           "text": "CAL FIRE reported the Plaskett Fire holding at 97% containment (30,124 acres, up slightly from 29,993) and the Timber Fire holding at 59% containment (25,436 acres, essentially unchanged); Timber Fire command transitions from Southwest Area Incident Management Team 1 to California Interagency Incident Management Team 6 on September 22."
@@ -7400,7 +7558,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -7802,16 +7960,24 @@
           "source_url": "https://www.hawaiicounty.gov/Home/Components/News/News/4697/720",
           "text": "Hawaii County Mayor Mitchell D. Roth issued an Emergency Proclamation Relating to Tropical Storm Nolo after the National Weather Service's Central Pacific Hurricane Center issued Tropical Storm Nolo Advisory Number 13 on 23 September 2026, with Nolo centered about 310 miles south of South Point, Hawaii Island, maximum sustained winds near 40 mph, and forecast to approach Hawaii Island on Friday and Saturday, September 25 and 26, 2026, under a Hurricane Watch issued by the National Weather Service for the County.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-09-26",
+          "source_name": "NOAA",
+          "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/260241.shtml",
+          "text": "NOAA's Central Pacific Hurricane Center Advisory Number 23 (11 PM HST, Friday, 25 September 2026) placed Hurricane Nolo about 145 miles south of South Point, Hawaii, with maximum sustained winds of 105 mph (165 km/h), nearly stationary but forecast to move westward with increasing speed over the weekend, then turn north-northwest; the advisory states Nolo 'will strengthen into a major hurricane on Saturday and peak in intensity by late Sunday,' with a Hurricane Watch in effect for Hawaii County, a Tropical Storm Warning for Hawaii County, and a Tropical Storm Watch for Maui County, and 8 to 12 inches of rain (isolated 16 inches) expected on the Big Island's eastern and southern slopes.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Hurricane Nolo strengthened south of Hawaii's Big Island in late September 2026, prompting a state of emergency and county-level emergency proclamation ahead of a forecast major-hurricane approach this weekend. NOAA's Central Pacific Hurricane Center's Advisory 19 (11 PM HST, 24 September) placed Nolo as a Category 1 hurricane with 80 mph winds about 240 miles south of South Point, forecasting it to become a major hurricane by Saturday as it passes near or just south of the Big Island. Hawaii's governor and Hawaii County's mayor have both declared emergencies, closed state and county offices and schools on Hawaii Island (expanding to Maui County), and warned of catastrophic, life-threatening flash flooding from forecast rainfall of 15 to 30 inches, with isolated totals to 35 inches. No casualties or damage have yet been confirmed as the storm's closest approach is still forecast for the coming days.",
+      "description": "Hurricane Nolo strengthened into a Category 2 storm south of Hawaii's Big Island in late September 2026, prompting a state of emergency and county-level emergency proclamation ahead of a forecast major-hurricane approach this weekend. NOAA's Central Pacific Hurricane Center's Advisory 23 (11 PM HST, 25 September) placed Nolo with 105 mph winds about 145 miles south of South Point, forecasting it to strengthen into a major hurricane on Saturday and peak in intensity by late Sunday while a Hurricane Watch remains in effect for Hawaii County. Hawaii's governor and Hawaii County's mayor have both declared emergencies, closed state and county offices and schools on Hawaii Island (expanding to Maui County), and warned of catastrophic, life-threatening flash flooding from forecast rainfall of 8 to 12 inches (isolated totals to 16 inches). No casualties or damage have yet been confirmed as the storm's closest approach is still forecast for the coming days.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "NOAA's Central Pacific Hurricane Center Advisory 19 (11 PM HST, 24 September 2026) placed Nolo as a Category 1 hurricane with 80 mph maximum sustained winds and a minimum pressure of 985 mb, located near 15.5N 155.6W, about 240 miles south of South Point, Hawaii, forecasting additional strengthening to major hurricane status by Saturday as the storm passes near or just south of the Big Island. Hawaii County Mayor Mitchell Roth issued an Emergency Proclamation Relating to Tropical Storm Nolo, and Hawaii's governor closed state and county offices, public schools and University of Hawaii campuses on Hawaii Island on 24-25 September, expanding closures to Maui County on 25 September. Forecasters warn of catastrophic, life-threatening flash flooding and mudslides from rainfall of 15 to 30 inches (isolated totals to 35 inches) on the Big Island's eastern and southern slopes. No confirmed deaths, injuries or damage figures have yet been published by an authoritative source."
+          "summary": "NOAA's Central Pacific Hurricane Center Advisory 23 (11 PM HST, 25 September 2026) placed Nolo as a Category 2 hurricane with 105 mph maximum sustained winds and a minimum pressure of 975 mb, located about 145 miles south of South Point, Hawaii, nearly stationary but forecast to strengthen into a major hurricane on Saturday and peak in intensity by late Sunday as it tracks west then turns northwest. A Hurricane Watch remains in effect for Hawaii County alongside a Tropical Storm Warning for Hawaii County and a Tropical Storm Watch for Maui County. Hawaii County Mayor Mitchell Roth issued an Emergency Proclamation Relating to Tropical Storm Nolo, and Hawaii's governor closed state and county offices, public schools and University of Hawaii campuses on Hawaii Island, expanding closures to Maui County. Forecasters warn of catastrophic, life-threatening flash flooding and mudslides from rainfall of 8 to 12 inches (isolated totals to 16 inches) on the Big Island's eastern and southern slopes. No confirmed deaths, injuries or damage figures have yet been published by an authoritative source."
         },
-        "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/240841.shtml",
+        "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/260241.shtml",
         "location": {
           "country": "United States",
           "lat": 19.5429,
@@ -7819,22 +7985,22 @@
           "region": "Hawaii Island (Big Island) and Maui County, Hawaii"
         },
         "occurrence_date": "2026-09-23",
-        "scale": "Category 1 hurricane, forecast to reach major hurricane strength",
+        "scale": "Category 2 hurricane, forecast to reach major hurricane strength",
         "status": "ongoing"
       },
       "id": "usa-hawaii-hurricane-nolo-2026",
-      "last_updated": "2026-09-25T09:15:00Z",
+      "last_updated": "2026-09-26T09:18:25Z",
       "name": "Hurricane Nolo, Hawaii",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-25T09:15:00Z",
+            "at": "2026-09-26T09:18:25Z",
             "layer": "verify",
-            "run_id": "2026-09-25T09-15-00Z-8a814d"
+            "run_id": "2026-09-26T09-18-25Z-3e767c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-25T09-15-00Z-8a814d"
+        "last_run_id": "2026-09-26T09-18-25Z-3e767c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7842,9 +8008,15 @@
         "impact_rank": 1,
         "recency_rank": 739882
       },
+      "updates": [
+        {
+          "date": "2026-09-26",
+          "text": "Nolo intensified to a Category 2 hurricane (105 mph) per NOAA Advisory 23, still forecast to reach major hurricane strength by Saturday and peak late Sunday; a Hurricane Watch is now in effect for Hawaii County."
+        }
+      ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -8311,6 +8483,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-34",
+          "retrieved_date": "2026-09-26",
+          "source_name": "InciWeb (US wildland fire agencies)",
+          "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+          "text": "InciWeb's Sinlahekin Fire incident page (checked 26 September 2026) records containment risen to 93% (from 92% on 20 September) at 166,026 acres (unchanged), with 401 personnel assigned (down from 594); the incident notes 'No fire spread anticipated. Smoldering and consuming large-diameter woody fuels,' with crews continuing to strengthen containment lines and patrol previously burned areas.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-08-10",
           "source_name": "Office of the Governor of Washington State",
@@ -8359,12 +8539,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, remains active under a federal emergency declaration covering 12 counties and three Tribal Nations. The Sinlahekin Fire, the state's largest, has risen to 92% containment on over 166,000 acres as of 20 September 2026, with personnel assigned continuing to wind down, while a separate emergency addresses the Paradise Fire's threat to Walla Walla's water supply.",
+      "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, remains active under a federal emergency declaration covering 12 counties and three Tribal Nations. The Sinlahekin Fire, the state's largest, has risen to 93% containment on over 166,000 acres as of 26 September 2026, with personnel assigned continuing to wind down, while a separate emergency addresses the Paradise Fire's threat to Walla Walla's water supply.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "The Sinlahekin Fire, the state's largest, has risen to 92% containment on 166,026 acres as of 20 September 2026, with personnel assigned down to 594 from 616 as operations wind down. Washington's wildfire emergency covers 12 counties (after five more were added 31 August) and three Tribal Nations, with tenant-protection and assistance provisions extended to 30 September; a distinct emergency was declared 28 August for Walla Walla County over the Paradise Fire's threat to the Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
+          "summary": "The Sinlahekin Fire, the state's largest, has risen to 93% containment on 166,026 acres as of 26 September 2026, with personnel assigned down to 401 from 594 as operations wind down; officials report no further fire spread is anticipated, with crews smoldering out and consuming large-diameter woody fuels. Washington's wildfire emergency covers 12 counties (after five more were added 31 August) and three Tribal Nations, with tenant-protection and assistance provisions extended to 30 September; a distinct emergency was declared 28 August for Walla Walla County over the Paradise Fire's threat to the Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
         },
         "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
         "location": {
@@ -8374,11 +8554,11 @@
           "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
         },
         "occurrence_date": "2026-08-01",
-        "scale": "Federal emergency declaration; state wildfire emergency covering 12 counties; Sinlahekin Fire (state's largest) at 166,026 acres / 92% contained as of 20 September 2026",
+        "scale": "Federal emergency declaration; state wildfire emergency covering 12 counties; Sinlahekin Fire (state's largest) at 166,026 acres / 93% contained as of 26 September 2026",
         "status": "ongoing"
       },
       "id": "usa-washington-wildfires-2026",
-      "last_updated": "2026-09-23T09:19:48Z",
+      "last_updated": "2026-09-26T09:22:55Z",
       "name": "Wildfire Emergency — Eastern Washington, USA",
       "provenance": {
         "history": [
@@ -8386,10 +8566,15 @@
             "at": "2026-09-23T09:19:48Z",
             "layer": "verify",
             "run_id": "2026-09-23T09-19-48Z-139095"
+          },
+          {
+            "at": "2026-09-26T09:22:55Z",
+            "layer": "verify",
+            "run_id": "2026-09-26T09-22-55Z-f3df0f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-23T09-19-48Z-139095"
+        "last_run_id": "2026-09-26T09-22-55Z-f3df0f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8398,6 +8583,10 @@
         "recency_rank": 739829
       },
       "updates": [
+        {
+          "date": "2026-09-26",
+          "text": "InciWeb's update for the Sinlahekin Fire put containment at 93% (up from 92%) on 166,026 acres (unchanged), with personnel assigned down to 401 from 594 as the fire continues smoldering with no further spread anticipated."
+        },
         {
           "date": "2026-09-21",
           "text": "InciWeb's update for the Sinlahekin Fire (20 September 2026, 1:44 PM PT) put containment at 92% (up from 84%) on 166,026 acres (unchanged), with personnel assigned down to 594 from 616."
@@ -8509,7 +8698,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 33 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 34 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
