@@ -32,16 +32,24 @@
       "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/260241.shtml",
       "text": "NOAA's Central Pacific Hurricane Center Advisory Number 23 (11 PM HST, Friday, 25 September 2026) placed Hurricane Nolo about 145 miles south of South Point, Hawaii, with maximum sustained winds of 105 mph (165 km/h), nearly stationary but forecast to move westward with increasing speed over the weekend, then turn north-northwest; the advisory states Nolo 'will strengthen into a major hurricane on Saturday and peak in intensity by late Sunday,' with a Hurricane Watch in effect for Hawaii County, a Tropical Storm Warning for Hawaii County, and a Tropical Storm Watch for Maui County, and 8 to 12 inches of rain (isolated 16 inches) expected on the Big Island's eastern and southern slopes.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-09-27",
+      "source_name": "NOAA",
+      "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/270241.shtml",
+      "text": "NOAA's Central Pacific Hurricane Center Advisory Number 27 (11 PM HST, Saturday, 26 September 2026) placed Hurricane Nolo at 16.5N 157.3W, about 200 miles south-southwest of South Point, Hawaii, with maximum sustained winds of 100 mph (155 km/h); 'there are no coastal watches or warnings in effect' for Hawaii, though watches may be required for portions of the Papahanaumokuakea Marine National Monument.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Hurricane Nolo strengthened into a Category 2 storm south of Hawaii's Big Island in late September 2026, prompting a state of emergency and county-level emergency proclamation ahead of a forecast major-hurricane approach this weekend. NOAA's Central Pacific Hurricane Center's Advisory 23 (11 PM HST, 25 September) placed Nolo with 105 mph winds about 145 miles south of South Point, forecasting it to strengthen into a major hurricane on Saturday and peak in intensity by late Sunday while a Hurricane Watch remains in effect for Hawaii County. Hawaii's governor and Hawaii County's mayor have both declared emergencies, closed state and county offices and schools on Hawaii Island (expanding to Maui County), and warned of catastrophic, life-threatening flash flooding from forecast rainfall of 8 to 12 inches (isolated totals to 16 inches). No casualties or damage have yet been confirmed as the storm's closest approach is still forecast for the coming days.",
+  "description": "Hurricane Nolo strengthened into a Category 2 storm south of Hawaii's Big Island in late September 2026, prompting a state of emergency and county-level emergency proclamation ahead of a forecast major-hurricane approach. NOAA's Central Pacific Hurricane Center's Advisory 27 (11 PM HST, 26 September) placed Nolo about 200 miles south-southwest of South Point with 100 mph winds, moving away from Hawaii with no coastal watches or warnings remaining in effect. Hawaii's governor and Hawaii County's mayor had declared emergencies, closed state and county offices and schools on Hawaii Island and Maui County, and warned of catastrophic, life-threatening flash flooding from forecast rainfall of 8 to 12 inches (isolated totals to 16 inches); no casualties or damage have been confirmed by an authoritative source, and the direct threat to Hawaii has passed as the storm tracks west into open ocean.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "NOAA's Central Pacific Hurricane Center Advisory 23 (11 PM HST, 25 September 2026) placed Nolo as a Category 2 hurricane with 105 mph maximum sustained winds and a minimum pressure of 975 mb, located about 145 miles south of South Point, Hawaii, nearly stationary but forecast to strengthen into a major hurricane on Saturday and peak in intensity by late Sunday as it tracks west then turns northwest. A Hurricane Watch remains in effect for Hawaii County alongside a Tropical Storm Warning for Hawaii County and a Tropical Storm Watch for Maui County. Hawaii County Mayor Mitchell Roth issued an Emergency Proclamation Relating to Tropical Storm Nolo, and Hawaii's governor closed state and county offices, public schools and University of Hawaii campuses on Hawaii Island, expanding closures to Maui County. Forecasters warn of catastrophic, life-threatening flash flooding and mudslides from rainfall of 8 to 12 inches (isolated totals to 16 inches) on the Big Island's eastern and southern slopes. No confirmed deaths, injuries or damage figures have yet been published by an authoritative source."
+      "summary": "NOAA's Central Pacific Hurricane Center Advisory 27 (11 PM HST, 26 September 2026) placed Nolo as a Category 2 hurricane with 100 mph maximum sustained winds, located about 200 miles south-southwest of South Point, Hawaii, and moving away to the west with no coastal watches or warnings in effect for Hawaii. At its closest approach the storm brought strong winds, heavy rain and large surf to the Big Island and Maui County, prompting a state of emergency, county emergency proclamation, and closures of state/county offices and schools, but no confirmed deaths, injuries or damage have been published by an authoritative source. Nolo is forecast to continue strengthening into a major hurricane over open ocean, away from Hawaii."
     },
-    "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/260241.shtml",
+    "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/270241.shtml",
     "location": {
       "country": "United States",
       "lat": 19.5429,
@@ -49,22 +57,22 @@
       "region": "Hawaii Island (Big Island) and Maui County, Hawaii"
     },
     "occurrence_date": "2026-09-23",
-    "scale": "Category 2 hurricane, forecast to reach major hurricane strength",
-    "status": "ongoing"
+    "scale": "Category 2 hurricane at closest approach to Hawaii; no landfall",
+    "status": "contained"
   },
   "id": "usa-hawaii-hurricane-nolo-2026",
-  "last_updated": "2026-09-26T09:18:25Z",
+  "last_updated": "2026-09-27T09:16:35Z",
   "name": "Hurricane Nolo, Hawaii",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-26T09:18:25Z",
+        "at": "2026-09-27T09:16:35Z",
         "layer": "verify",
-        "run_id": "2026-09-26T09-18-25Z-3e767c"
+        "run_id": "2026-09-27T09-16-35Z-9cdebb"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-26T09-18-25Z-3e767c"
+    "last_run_id": "2026-09-27T09-16-35Z-9cdebb"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -74,13 +82,17 @@
   },
   "updates": [
     {
+      "date": "2026-09-27",
+      "text": "NOAA Advisory 27 (26 Sept, 11 PM HST) placed Nolo ~200 miles south-southwest of South Point with 100 mph winds; no coastal watches or warnings remain in effect for Hawaii as the storm moves away to the west."
+    },
+    {
       "date": "2026-09-26",
       "text": "Nolo intensified to a Category 2 hurricane (105 mph) per NOAA Advisory 23, still forecast to reach major hurricane strength by Saturday and peak late Sunday; a Hurricane Watch is now in effect for Hawaii County."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

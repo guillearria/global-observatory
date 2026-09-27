@@ -32,44 +32,47 @@
       "source_url": "https://www.fdma.go.jp/disaster/info/items/c39576e6e4bfa220713442913b7554481b6345b4.pdf",
       "text": "Japan's Fire and Disaster Management Agency situation report No. 13 (24 September 2026, 17:00 JST) on Typhoon No. 25: 12 deaths (of which 3 disaster-related; Chiba: Mobara 1, Kamogawa 3, Sodegaura 1, Inzai 1, Sanmu 1; Kanagawa: Yokosuka 3, Miura 1; Miyazaki: Nichinan 1), 3 people missing (a Kamogawa landslide, a Nagara-machi landslide and a Miura landslide, each with one person unaccounted for), 28 injured (1 serious, 27 minor), and 828 homes damaged or destroyed (29 total collapse, 33 half collapse, 469 flooded above floor level, 255 flooded below floor level, 42 partially damaged). Evacuation instructions remained at 509 households (1,062 people): 464 households (996 people, 2 cities and 1 town) in Chiba and 45 households (66 people, 1 city) in Kanagawa. Tokyo's Oshima Town Level 5 landslide special warning, issued 21 September, had already been downgraded to Level 4 the same day, and Chiba, Tokyo and Kanagawa prefectures remain under their disaster response headquarters established 21 September.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-09-27",
+      "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
+      "source_url": "https://www.fdma.go.jp/disaster/info/items/20260918taihuu25gou17.pdf",
+      "text": "Japan's Fire and Disaster Management Agency situation report No. 17 (27 September 2026, 10:00 JST) on Typhoon No. 25 and related weather: 13 deaths (Chiba 8, Kanagawa 4, Miyazaki 1), 4 people missing (Chiba 3, Kanagawa 1), 37 injured (3 serious, 34 minor), and 1,710 homes damaged or destroyed (41 total collapse, 56 half collapse, 663 flooded above floor level, 875 flooded below floor level, 75 partially damaged) across Ibaraki, Saitama, Chiba, Tokyo, Kanagawa and Miyazaki prefectures. Evacuation instructions covered 355,872 households (837,155 people) nationwide, including newly issued instructions for Saga (3,191 households, 7,620 people) and Kumamoto (352,183 households, 828,502 people) prefectures tied to heavy-rain warnings issued 27 September, separate from the typhoon's earlier Kanto-region impacts.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Typhoon Dujuan, Japan's Typhoon No. 25, brought record rainfall and violent winds to eastern Japan from 20 to 23 September 2026, triggering floods and landslides across the Kanto region. Japan Meteorological Agency issued a Level 5 special warning for landslides on Tokyo's Izu Oshima island on 21 September, and Chiba, Tokyo and Kanagawa prefectures each stood up disaster response headquarters. Japan's Fire and Disaster Management Agency's latest situation report (24 September) records 12 deaths -- seven in Chiba, four in Kanagawa and one in Miyazaki -- plus 3 people still missing, 28 injured and 828 homes damaged or destroyed. Evacuation instructions, which peaked at more than 74,000 people across Chiba, Tokyo and Kanagawa on 21-22 September, have held steady at about 1,060 people as damage assessment continues.",
+  "description": "Typhoon Dujuan, Japan's Typhoon No. 25, brought record rainfall and violent winds to eastern Japan from 20 to 23 September 2026, triggering floods and landslides across the Kanto region. Japan Meteorological Agency issued a Level 5 special warning for landslides on Tokyo's Izu Oshima island on 21 September, and Chiba, Tokyo and Kanagawa prefectures each stood up disaster response headquarters. Japan's Fire and Disaster Management Agency's latest situation report (27 September) records 13 deaths -- eight in Chiba, four in Kanagawa and one in Miyazaki -- plus 4 people still missing, 37 injured and 1,710 homes damaged or destroyed, with Ibaraki and Saitama newly added to the damage tally. Separately, heavy-rain warnings issued 27 September prompted large new evacuation instructions in Kumamoto (about 828,500 people) and Saga (about 7,600 people), unrelated to the typhoon's earlier Kanto-region impacts.",
   "event": {
     "impact": {
-      "deaths": 12,
+      "deaths": 13,
       "displaced": null,
-      "summary": "Japan's Fire and Disaster Management Agency's situation report No. 13 (24 September 2026, 17:00 JST) records 12 deaths (3 disaster-related; Chiba 7, Kanagawa 4, Miyazaki 1), 3 people still missing from landslides in Kamogawa, Nagara-machi and Miura, 28 injured, and 828 homes damaged or destroyed (29 total collapse, 33 half collapse, 469 flooded above floor level, 255 flooded below floor level, 42 partially damaged). Evacuation instructions remain at about 1,062 people (509 households) in Chiba and Kanagawa, unchanged from the prior report, as damage assessments continue in flood- and landslide-affected areas."
+      "summary": "Japan's Fire and Disaster Management Agency's situation report No. 17 (27 September 2026, 10:00 JST) records 13 deaths (Chiba 8, Kanagawa 4, Miyazaki 1), 4 people missing (Chiba 3, Kanagawa 1), 37 injured (3 serious, 34 minor), and 1,710 homes damaged or destroyed (41 total collapse, 56 half collapse, 663 flooded above floor level, 875 flooded below floor level, 75 partially damaged) across Ibaraki, Saitama, Chiba, Tokyo, Kanagawa and Miyazaki prefectures. Separately, heavy-rain warnings issued 27 September prompted evacuation instructions covering 355,872 households (837,155 people) nationwide, dominated by newly issued instructions for Kumamoto (352,183 households, about 828,500 people) and Saga (3,191 households, about 7,600 people) tied to that day's rain system rather than the typhoon's earlier Kanto impacts."
     },
     "live_source_url": "https://www.fdma.go.jp/disaster/info/",
     "location": {
       "country": "Japan",
       "lat": 35.6,
       "lon": 140.1,
-      "region": "Chiba, Kanagawa and Tokyo (Izu Oshima) prefectures, Kanto region; also Miyazaki Prefecture, Kyushu"
+      "region": "Chiba, Kanagawa and Tokyo (Izu Oshima) prefectures, Kanto region; also Miyazaki, Ibaraki and Saitama prefectures, plus separate heavy-rain evacuation instructions in Kumamoto and Saga"
     },
     "occurrence_date": "2026-09-21",
     "scale": "JMA Typhoon No. 25 (Dujuan); Level 5 landslide special warning",
     "status": "ongoing"
   },
   "id": "japan-typhoon-dujuan-2026",
-  "last_updated": "2026-09-25T09:16:35Z",
+  "last_updated": "2026-09-27T09:16:09Z",
   "name": "Typhoon Dujuan (Typhoon No. 25), Japan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-24T09:18:25Z",
+        "at": "2026-09-27T09:16:09Z",
         "layer": "verify",
-        "run_id": "2026-09-24T09-18-25Z-3181a4"
-      },
-      {
-        "at": "2026-09-25T09:16:35Z",
-        "layer": "verify",
-        "run_id": "2026-09-25T09-16-35Z-9027a2"
+        "run_id": "2026-09-27T09-16-09Z-6c51fc"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-25T09-16-35Z-9027a2"
+    "last_run_id": "2026-09-27T09-16-09Z-6c51fc"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -78,6 +81,10 @@
     "recency_rank": 739880
   },
   "updates": [
+    {
+      "date": "2026-09-27",
+      "text": "FDMA's report No. 17 (27 Sept) raised the toll to 13 deaths and 4 missing; homes damaged surged to 1,710 as Ibaraki/Saitama were added. Separate 27 Sept heavy-rain warnings triggered mass evacuation instructions in Kumamoto (~828,500) and Saga (~7,600)."
+    },
     {
       "date": "2026-09-24",
       "text": "FDMA's situation report No. 13 (24 September, 17:00 JST) raised the toll to 12 deaths (3 disaster-related; Chiba 7, Kanagawa 4, Miyazaki 1) and damaged homes to 828, while missing fell to 3 (Kamogawa, Nagara-machi and Miura landslides) and injured fell to 28. Evacuation instructions held steady at 509 households (1,062 people) in Chiba and Kanagawa."
@@ -93,7 +100,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

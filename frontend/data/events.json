@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-26T09:23:08Z",
+  "last_updated": "2026-09-27T09:18:40Z",
   "published": [
     {
       "category": "flood",
@@ -1967,6 +1967,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-sept23",
+          "retrieved_date": "2026-09-27",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 24 September 2026, data through 23 September 2026): the Democratic Republic of the Congo has recorded a total of 7,890 confirmed cases, including 3,799 related deaths, with 893 patients hospitalised in isolation and 1,966 recovered -- an increase of 70 new confirmed cases and 20 deaths since the previous report on 23 September (7,820 cases/3,779 deaths). New cases were reported from Ituri (31), North Kivu (31), Haut-Uele (6), Bas-Uele (1) and Tshopo (1). Provincial breakdown: Ituri 6,032 cases/2,764 deaths (28 of 36 health zones), North Kivu 1,480 cases/884 deaths (16 of 34 health zones), Haut-Uele 322 cases/130 deaths (7 of 13 health zones), Tshopo 43 cases/15 deaths (7 of 23 health zones), Bas-Uele 8 cases/4 deaths (3 of 11 health zones), South Kivu 3 cases/1 death (1 of 34 health zones) and Sud-Ubangi 2 cases/1 death (1 of 16 health zones), with 63 of 167 health zones affected across seven provinces. Uganda's linked outbreak remains closed (20 confirmed cases, two deaths; declared over by WHO on 26 August 2026).",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-ecdc-sept3",
           "retrieved_date": "2026-09-04",
           "source_name": "ECDC",
@@ -1999,12 +2007,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "An Ebola (Bundibugyo virus) outbreak in DR Congo and Uganda, declared a Public Health Emergency of International Concern in May 2026, remains active in DRC — now the country's largest recorded Ebola epidemic. ECDC's newest country overview (data through 21 September 2026) puts the DRC toll at 7,773 confirmed cases and 3,759 deaths, spanning 63 of 167 health zones across seven provinces, including a newly affected Sud-Ubangi province. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
+      "description": "An Ebola (Bundibugyo virus) outbreak in DR Congo and Uganda, declared a Public Health Emergency of International Concern in May 2026, remains active in DRC -- now the country's largest recorded Ebola epidemic. ECDC's newest country overview (data through 23 September 2026) puts the DRC toll at 7,890 confirmed cases and 3,799 deaths, spanning 63 of 167 health zones across seven provinces. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
       "event": {
         "impact": {
-          "deaths": 3759,
+          "deaths": 3799,
           "displaced": null,
-          "summary": "ECDC's newest country overview (data through 21 September 2026) puts the DRC toll at 7,773 confirmed cases and 3,759 deaths, up from 7,672 cases and 3,699 deaths at the 19 September data cut. The outbreak spans 63 of 167 health zones across seven provinces, now including a newly affected Sud-Ubangi (1 case), with Ituri province reporting 5,966 cases and 2,737 deaths and North Kivu 1,438 cases and 872 deaths. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest country overview (data through 23 September 2026) puts the DRC toll at 7,890 confirmed cases and 3,799 deaths, up from 7,773 cases and 3,759 deaths at the 21 September data cut. The outbreak spans 63 of 167 health zones across seven provinces, with Ituri province reporting 6,032 cases and 2,764 deaths and North Kivu 1,480 cases and 884 deaths. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -2018,23 +2026,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-09-25T09:15:40Z",
+      "last_updated": "2026-09-27T09:18:40Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-24T09:14:46Z",
+            "at": "2026-09-27T09:18:40Z",
             "layer": "verify",
-            "run_id": "2026-09-24T09-14-46Z-fbc442"
-          },
-          {
-            "at": "2026-09-25T09:15:40Z",
-            "layer": "verify",
-            "run_id": "2026-09-25T09-15-40Z-735b41"
+            "run_id": "2026-09-27T09-18-40Z-4eb9f3"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-25T09-15-40Z-735b41"
+        "last_run_id": "2026-09-27T09-18-40Z-4eb9f3"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2043,6 +2046,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-09-23",
+          "text": "ECDC's updated country overview (data through 23 September) put the DRC toll at 7,890 confirmed cases and 3,799 deaths, up from 7,773 cases and 3,759 deaths at the 21 September data cut, spanning 63 of 167 health zones across seven provinces."
+        },
         {
           "date": "2026-09-21",
           "text": "ECDC's updated country overview (data through 21 September) put the DRC toll at 7,773 confirmed cases and 3,759 deaths, up from 7,672 cases and 3,699 deaths at the 19 September data cut, with the outbreak now including a newly affected seventh-province health zone in Sud-Ubangi (1 case, 1 death)."
@@ -2158,15 +2165,11 @@
         {
           "date": "2026-08-07",
           "text": "ECDC reported 4,053 confirmed cases and 1,850 deaths (data to 5 August), noting that data reported by DRC on confirmed cases and deaths are under continuous review and harmonisation; 53 of 140 health zones were affected."
-        },
-        {
-          "date": "2026-08-01",
-          "text": "WHO Disease Outbreak News DON614 reported 3,605 confirmed cases including 1,587 deaths as of 30 July (crude case fatality ratio 44%), making this the largest recorded Ebola virus disease outbreak in DRC, surpassing the 2018-2020 outbreak's 3,317 confirmed cases."
         }
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 53 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 54 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -4259,44 +4262,47 @@
           "source_url": "https://www.fdma.go.jp/disaster/info/items/c39576e6e4bfa220713442913b7554481b6345b4.pdf",
           "text": "Japan's Fire and Disaster Management Agency situation report No. 13 (24 September 2026, 17:00 JST) on Typhoon No. 25: 12 deaths (of which 3 disaster-related; Chiba: Mobara 1, Kamogawa 3, Sodegaura 1, Inzai 1, Sanmu 1; Kanagawa: Yokosuka 3, Miura 1; Miyazaki: Nichinan 1), 3 people missing (a Kamogawa landslide, a Nagara-machi landslide and a Miura landslide, each with one person unaccounted for), 28 injured (1 serious, 27 minor), and 828 homes damaged or destroyed (29 total collapse, 33 half collapse, 469 flooded above floor level, 255 flooded below floor level, 42 partially damaged). Evacuation instructions remained at 509 households (1,062 people): 464 households (996 people, 2 cities and 1 town) in Chiba and 45 households (66 people, 1 city) in Kanagawa. Tokyo's Oshima Town Level 5 landslide special warning, issued 21 September, had already been downgraded to Level 4 the same day, and Chiba, Tokyo and Kanagawa prefectures remain under their disaster response headquarters established 21 September.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-09-27",
+          "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
+          "source_url": "https://www.fdma.go.jp/disaster/info/items/20260918taihuu25gou17.pdf",
+          "text": "Japan's Fire and Disaster Management Agency situation report No. 17 (27 September 2026, 10:00 JST) on Typhoon No. 25 and related weather: 13 deaths (Chiba 8, Kanagawa 4, Miyazaki 1), 4 people missing (Chiba 3, Kanagawa 1), 37 injured (3 serious, 34 minor), and 1,710 homes damaged or destroyed (41 total collapse, 56 half collapse, 663 flooded above floor level, 875 flooded below floor level, 75 partially damaged) across Ibaraki, Saitama, Chiba, Tokyo, Kanagawa and Miyazaki prefectures. Evacuation instructions covered 355,872 households (837,155 people) nationwide, including newly issued instructions for Saga (3,191 households, 7,620 people) and Kumamoto (352,183 households, 828,502 people) prefectures tied to heavy-rain warnings issued 27 September, separate from the typhoon's earlier Kanto-region impacts.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Typhoon Dujuan, Japan's Typhoon No. 25, brought record rainfall and violent winds to eastern Japan from 20 to 23 September 2026, triggering floods and landslides across the Kanto region. Japan Meteorological Agency issued a Level 5 special warning for landslides on Tokyo's Izu Oshima island on 21 September, and Chiba, Tokyo and Kanagawa prefectures each stood up disaster response headquarters. Japan's Fire and Disaster Management Agency's latest situation report (24 September) records 12 deaths -- seven in Chiba, four in Kanagawa and one in Miyazaki -- plus 3 people still missing, 28 injured and 828 homes damaged or destroyed. Evacuation instructions, which peaked at more than 74,000 people across Chiba, Tokyo and Kanagawa on 21-22 September, have held steady at about 1,060 people as damage assessment continues.",
+      "description": "Typhoon Dujuan, Japan's Typhoon No. 25, brought record rainfall and violent winds to eastern Japan from 20 to 23 September 2026, triggering floods and landslides across the Kanto region. Japan Meteorological Agency issued a Level 5 special warning for landslides on Tokyo's Izu Oshima island on 21 September, and Chiba, Tokyo and Kanagawa prefectures each stood up disaster response headquarters. Japan's Fire and Disaster Management Agency's latest situation report (27 September) records 13 deaths -- eight in Chiba, four in Kanagawa and one in Miyazaki -- plus 4 people still missing, 37 injured and 1,710 homes damaged or destroyed, with Ibaraki and Saitama newly added to the damage tally. Separately, heavy-rain warnings issued 27 September prompted large new evacuation instructions in Kumamoto (about 828,500 people) and Saga (about 7,600 people), unrelated to the typhoon's earlier Kanto-region impacts.",
       "event": {
         "impact": {
-          "deaths": 12,
+          "deaths": 13,
           "displaced": null,
-          "summary": "Japan's Fire and Disaster Management Agency's situation report No. 13 (24 September 2026, 17:00 JST) records 12 deaths (3 disaster-related; Chiba 7, Kanagawa 4, Miyazaki 1), 3 people still missing from landslides in Kamogawa, Nagara-machi and Miura, 28 injured, and 828 homes damaged or destroyed (29 total collapse, 33 half collapse, 469 flooded above floor level, 255 flooded below floor level, 42 partially damaged). Evacuation instructions remain at about 1,062 people (509 households) in Chiba and Kanagawa, unchanged from the prior report, as damage assessments continue in flood- and landslide-affected areas."
+          "summary": "Japan's Fire and Disaster Management Agency's situation report No. 17 (27 September 2026, 10:00 JST) records 13 deaths (Chiba 8, Kanagawa 4, Miyazaki 1), 4 people missing (Chiba 3, Kanagawa 1), 37 injured (3 serious, 34 minor), and 1,710 homes damaged or destroyed (41 total collapse, 56 half collapse, 663 flooded above floor level, 875 flooded below floor level, 75 partially damaged) across Ibaraki, Saitama, Chiba, Tokyo, Kanagawa and Miyazaki prefectures. Separately, heavy-rain warnings issued 27 September prompted evacuation instructions covering 355,872 households (837,155 people) nationwide, dominated by newly issued instructions for Kumamoto (352,183 households, about 828,500 people) and Saga (3,191 households, about 7,600 people) tied to that day's rain system rather than the typhoon's earlier Kanto impacts."
         },
         "live_source_url": "https://www.fdma.go.jp/disaster/info/",
         "location": {
           "country": "Japan",
           "lat": 35.6,
           "lon": 140.1,
-          "region": "Chiba, Kanagawa and Tokyo (Izu Oshima) prefectures, Kanto region; also Miyazaki Prefecture, Kyushu"
+          "region": "Chiba, Kanagawa and Tokyo (Izu Oshima) prefectures, Kanto region; also Miyazaki, Ibaraki and Saitama prefectures, plus separate heavy-rain evacuation instructions in Kumamoto and Saga"
         },
         "occurrence_date": "2026-09-21",
         "scale": "JMA Typhoon No. 25 (Dujuan); Level 5 landslide special warning",
         "status": "ongoing"
       },
       "id": "japan-typhoon-dujuan-2026",
-      "last_updated": "2026-09-25T09:16:35Z",
+      "last_updated": "2026-09-27T09:16:09Z",
       "name": "Typhoon Dujuan (Typhoon No. 25), Japan",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-24T09:18:25Z",
+            "at": "2026-09-27T09:16:09Z",
             "layer": "verify",
-            "run_id": "2026-09-24T09-18-25Z-3181a4"
-          },
-          {
-            "at": "2026-09-25T09:16:35Z",
-            "layer": "verify",
-            "run_id": "2026-09-25T09-16-35Z-9027a2"
+            "run_id": "2026-09-27T09-16-09Z-6c51fc"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-25T09-16-35Z-9027a2"
+        "last_run_id": "2026-09-27T09-16-09Z-6c51fc"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4305,6 +4311,10 @@
         "recency_rank": 739880
       },
       "updates": [
+        {
+          "date": "2026-09-27",
+          "text": "FDMA's report No. 17 (27 Sept) raised the toll to 13 deaths and 4 missing; homes damaged surged to 1,710 as Ibaraki/Saitama were added. Separate 27 Sept heavy-rain warnings triggered mass evacuation instructions in Kumamoto (~828,500) and Saga (~7,600)."
+        },
         {
           "date": "2026-09-24",
           "text": "FDMA's situation report No. 13 (24 September, 17:00 JST) raised the toll to 12 deaths (3 disaster-related; Chiba 7, Kanagawa 4, Miyazaki 1) and damaged homes to 828, while missing fell to 3 (Kamogawa, Nagara-machi and Miura landslides) and injured fell to 28. Evacuation instructions held steady at 509 households (1,062 people) in Chiba and Kanagawa."
@@ -4320,7 +4330,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -6781,10 +6791,10 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-09-26",
+          "retrieved_date": "2026-09-27",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
-          "text": "GDACS's flood event report for Thailand (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA), covering an 18 August-26 September 2026 window, records 3 deaths and 169 people displaced nationwide, with an overall Green alert level (low humanitarian impact).",
+          "text": "GDACS's flood event report for Thailand (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA), covering an 18 August-27 September 2026 window, records 4 deaths and 169 people displaced nationwide, with an overall Green alert level (low humanitarian impact).",
           "verification_status": "verified"
         },
         {
@@ -6802,14 +6812,22 @@
           "source_url": "https://www.nationthailand.com/thailand/bangkok/40071510",
           "text": "As of 25 September 2026, flooding was reported to be affecting 11,796 households (37,036 people) across 38 districts, 143 sub-districts and 596 villages in 12 Thai provinces, per Thailand's Department of Disaster Prevention and Mitigation (DDPM), which also issued a Cell Broadcast alert warning that Bangkok canal water levels had reached critical stage and were continuing to rise.",
           "verification_status": "unverified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-09-27",
+          "source_name": "ABC News (Australia)",
+          "source_url": "https://www.abc.net.au/news/2026-09-27/bangkok-thailand-declared-disaster-zone-floods-heavy-rain/107200576",
+          "text": "As of 27 September 2026, the Bangkok Metropolitan Administration had established more than 200 shelters across the city with about 4,200 people evacuated into them; Governor Chadchart Sittipunt said flooding should recede once the rain subsides, as city officials work to drain floodwaters, with more thunderstorms forecast over the weekend before tapering off Monday.",
+          "verification_status": "unverified"
         }
       ],
-      "description": "Torrential monsoon rain flooded Bangkok and central Thailand in late September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. GDACS's ongoing Thailand flood report (18 August-26 September 2026 window) records 3 deaths and 169 displaced nationwide under a Green alert. Nearly 300mm of rain fell on Bangkok over 48 hours to 26 September, and Thailand's Department of Disaster Prevention and Mitigation reported flooding affecting about 11,796 households (37,036 people) across 12 provinces as of 25 September, with canal levels in Bangkok reaching critical stage and dozens of roads impassable.",
+      "description": "Torrential monsoon rain flooded Bangkok and central Thailand in late September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. GDACS's ongoing Thailand flood report (18 August-27 September 2026 window) now records 4 deaths and 169 displaced nationwide under a Green alert. Nearly 300mm of rain fell on Bangkok over 48 hours to 26 September, and the Bangkok Metropolitan Administration opened more than 200 shelters, with about 4,200 people evacuated into them; Thailand's Department of Disaster Prevention and Mitigation had reported flooding affecting about 11,796 households (37,036 people) across 12 provinces as of 25 September. Governor Chadchart Sittipunt said on 27 September that the situation had stabilised and floodwaters should recede within two to three days once rain subsides.",
       "event": {
         "impact": {
-          "deaths": 3,
+          "deaths": 4,
           "displaced": 169,
-          "summary": "GDACS's Thailand flood event report (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, window 18 August-26 September 2026) records 3 deaths and 169 displaced nationwide under an overall Green alert. Separately, Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026 after nearly 300mm of rain fell over 48 hours, with Thailand's Department of Disaster Prevention and Mitigation reporting flooding affecting about 11,796 households (37,036 people) across 38 districts and 596 villages in 12 provinces as of 25 September. Bangkok's canal network reached critical water levels, prompting a cell-broadcast alert to residents and road-avoidance warnings for more than 20 flood-hit roads."
+          "summary": "GDACS's Thailand flood event report (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, window 18 August-27 September 2026) records 4 deaths and 169 displaced nationwide under an overall Green alert. Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026 after nearly 300mm of rain fell over 48 hours; the Bangkok Metropolitan Administration opened more than 200 shelters, with about 4,200 people evacuated into them, and Thailand's Department of Disaster Prevention and Mitigation reported flooding affecting about 11,796 households (37,036 people) across 38 districts and 596 villages in 12 provinces as of 25 September. On 27 September the governor said the situation had stabilised, with floodwaters expected to recede within two to three days once rain subsides."
         },
         "live_source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
         "location": {
@@ -6823,18 +6841,18 @@
         "status": "ongoing"
       },
       "id": "thailand-bangkok-floods-2026",
-      "last_updated": "2026-09-26T09:17:55Z",
+      "last_updated": "2026-09-27T09:13:25Z",
       "name": "Bangkok Flood Disaster, Thailand",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-26T09:17:55Z",
+            "at": "2026-09-27T09:13:25Z",
             "layer": "verify",
-            "run_id": "2026-09-26T09-17-55Z-167cc2"
+            "run_id": "2026-09-27T09-13-25Z-583d21"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-26T09-17-55Z-167cc2"
+        "last_run_id": "2026-09-27T09-13-25Z-583d21"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6842,9 +6860,15 @@
         "impact_rank": 1,
         "recency_rank": 739883
       },
+      "updates": [
+        {
+          "date": "2026-09-27",
+          "text": "GDACS's death toll rose to 4 (from 3) as its reporting window extended through 27 September; the Bangkok Metropolitan Administration opened 200+ shelters (about 4,200 evacuated), and the governor said the situation had stabilised with floodwaters expected to recede in 2-3 days."
+        }
+      ],
       "verification": {
         "confidence": "medium",
-        "notes": "gate: 1 verified, 0 disputed, 2 unverified -> partial",
+        "notes": "gate: 1 verified, 0 disputed, 3 unverified -> partial",
         "status": "partial"
       }
     },
@@ -7968,16 +7992,24 @@
           "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/260241.shtml",
           "text": "NOAA's Central Pacific Hurricane Center Advisory Number 23 (11 PM HST, Friday, 25 September 2026) placed Hurricane Nolo about 145 miles south of South Point, Hawaii, with maximum sustained winds of 105 mph (165 km/h), nearly stationary but forecast to move westward with increasing speed over the weekend, then turn north-northwest; the advisory states Nolo 'will strengthen into a major hurricane on Saturday and peak in intensity by late Sunday,' with a Hurricane Watch in effect for Hawaii County, a Tropical Storm Warning for Hawaii County, and a Tropical Storm Watch for Maui County, and 8 to 12 inches of rain (isolated 16 inches) expected on the Big Island's eastern and southern slopes.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-09-27",
+          "source_name": "NOAA",
+          "source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/270241.shtml",
+          "text": "NOAA's Central Pacific Hurricane Center Advisory Number 27 (11 PM HST, Saturday, 26 September 2026) placed Hurricane Nolo at 16.5N 157.3W, about 200 miles south-southwest of South Point, Hawaii, with maximum sustained winds of 100 mph (155 km/h); 'there are no coastal watches or warnings in effect' for Hawaii, though watches may be required for portions of the Papahanaumokuakea Marine National Monument.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Hurricane Nolo strengthened into a Category 2 storm south of Hawaii's Big Island in late September 2026, prompting a state of emergency and county-level emergency proclamation ahead of a forecast major-hurricane approach this weekend. NOAA's Central Pacific Hurricane Center's Advisory 23 (11 PM HST, 25 September) placed Nolo with 105 mph winds about 145 miles south of South Point, forecasting it to strengthen into a major hurricane on Saturday and peak in intensity by late Sunday while a Hurricane Watch remains in effect for Hawaii County. Hawaii's governor and Hawaii County's mayor have both declared emergencies, closed state and county offices and schools on Hawaii Island (expanding to Maui County), and warned of catastrophic, life-threatening flash flooding from forecast rainfall of 8 to 12 inches (isolated totals to 16 inches). No casualties or damage have yet been confirmed as the storm's closest approach is still forecast for the coming days.",
+      "description": "Hurricane Nolo strengthened into a Category 2 storm south of Hawaii's Big Island in late September 2026, prompting a state of emergency and county-level emergency proclamation ahead of a forecast major-hurricane approach. NOAA's Central Pacific Hurricane Center's Advisory 27 (11 PM HST, 26 September) placed Nolo about 200 miles south-southwest of South Point with 100 mph winds, moving away from Hawaii with no coastal watches or warnings remaining in effect. Hawaii's governor and Hawaii County's mayor had declared emergencies, closed state and county offices and schools on Hawaii Island and Maui County, and warned of catastrophic, life-threatening flash flooding from forecast rainfall of 8 to 12 inches (isolated totals to 16 inches); no casualties or damage have been confirmed by an authoritative source, and the direct threat to Hawaii has passed as the storm tracks west into open ocean.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "NOAA's Central Pacific Hurricane Center Advisory 23 (11 PM HST, 25 September 2026) placed Nolo as a Category 2 hurricane with 105 mph maximum sustained winds and a minimum pressure of 975 mb, located about 145 miles south of South Point, Hawaii, nearly stationary but forecast to strengthen into a major hurricane on Saturday and peak in intensity by late Sunday as it tracks west then turns northwest. A Hurricane Watch remains in effect for Hawaii County alongside a Tropical Storm Warning for Hawaii County and a Tropical Storm Watch for Maui County. Hawaii County Mayor Mitchell Roth issued an Emergency Proclamation Relating to Tropical Storm Nolo, and Hawaii's governor closed state and county offices, public schools and University of Hawaii campuses on Hawaii Island, expanding closures to Maui County. Forecasters warn of catastrophic, life-threatening flash flooding and mudslides from rainfall of 8 to 12 inches (isolated totals to 16 inches) on the Big Island's eastern and southern slopes. No confirmed deaths, injuries or damage figures have yet been published by an authoritative source."
+          "summary": "NOAA's Central Pacific Hurricane Center Advisory 27 (11 PM HST, 26 September 2026) placed Nolo as a Category 2 hurricane with 100 mph maximum sustained winds, located about 200 miles south-southwest of South Point, Hawaii, and moving away to the west with no coastal watches or warnings in effect for Hawaii. At its closest approach the storm brought strong winds, heavy rain and large surf to the Big Island and Maui County, prompting a state of emergency, county emergency proclamation, and closures of state/county offices and schools, but no confirmed deaths, injuries or damage have been published by an authoritative source. Nolo is forecast to continue strengthening into a major hurricane over open ocean, away from Hawaii."
         },
-        "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/260241.shtml",
+        "live_source_url": "https://www.nhc.noaa.gov/text/refresh/HFOTCPCP2+shtml/270241.shtml",
         "location": {
           "country": "United States",
           "lat": 19.5429,
@@ -7985,22 +8017,22 @@
           "region": "Hawaii Island (Big Island) and Maui County, Hawaii"
         },
         "occurrence_date": "2026-09-23",
-        "scale": "Category 2 hurricane, forecast to reach major hurricane strength",
-        "status": "ongoing"
+        "scale": "Category 2 hurricane at closest approach to Hawaii; no landfall",
+        "status": "contained"
       },
       "id": "usa-hawaii-hurricane-nolo-2026",
-      "last_updated": "2026-09-26T09:18:25Z",
+      "last_updated": "2026-09-27T09:16:35Z",
       "name": "Hurricane Nolo, Hawaii",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-26T09:18:25Z",
+            "at": "2026-09-27T09:16:35Z",
             "layer": "verify",
-            "run_id": "2026-09-26T09-18-25Z-3e767c"
+            "run_id": "2026-09-27T09-16-35Z-9cdebb"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-26T09-18-25Z-3e767c"
+        "last_run_id": "2026-09-27T09-16-35Z-9cdebb"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8010,13 +8042,17 @@
       },
       "updates": [
         {
+          "date": "2026-09-27",
+          "text": "NOAA Advisory 27 (26 Sept, 11 PM HST) placed Nolo ~200 miles south-southwest of South Point with 100 mph winds; no coastal watches or warnings remain in effect for Hawaii as the storm moves away to the west."
+        },
+        {
           "date": "2026-09-26",
           "text": "Nolo intensified to a Category 2 hurricane (105 mph) per NOAA Advisory 23, still forecast to reach major hurricane strength by Saturday and peak late Sunday; a Hurricane Watch is now in effect for Hawaii County."
         }
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
