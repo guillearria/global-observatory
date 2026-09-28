@@ -6,14 +6,14 @@
       "window": "next-50-years"
     },
     "severity": "civilizational",
-    "summary": "Documented AI harms are rising with adoption; the severe tail — misuse at scale or loss of control — is debated, but tracked and treated as a real risk by governments and intergovernmental bodies.",
+    "summary": "Documented AI harms keep accumulating as adoption widens — nearly 18,000 incidents and hazards logged by the OECD's monitor — and governments are extending risk frameworks to critical infrastructure; the severe tail, misuse at scale or loss of control, stays debated but is treated as a real risk by governments and intergovernmental bodies.",
     "timeframe": "Capabilities and adoption are advancing rapidly and documented incidents are rising; expert estimates of severe global outcomes span a very wide range."
   },
   "category": "technological",
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-02",
+      "retrieved_date": "2026-09-28",
       "source_name": "OECD",
       "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/trends-in-ai-incidents-and-hazards-reported-by-the-media_7c824ca9/4f5ff43c-en.pdf",
       "text": "The total number of AI incidents and hazards reported in public media surged between 2022 and 2025, per OECD analysis of the OECD.AI Incidents and Hazards Monitor (AIM).",
@@ -21,7 +21,7 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-07-02",
+      "retrieved_date": "2026-09-28",
       "source_name": "OECD",
       "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/trends-in-ai-incidents-and-hazards-reported-by-the-media_7c824ca9/4f5ff43c-en.pdf",
       "text": "Media-reported AI incidents and hazards linked to synthetic media, child safety, and cyberattacks and fraud have more than doubled since 2022 (OECD Artificial Intelligence Papers No. 53, February 2026).",
@@ -29,7 +29,7 @@
     },
     {
       "id": "claim-3",
-      "retrieved_date": "2026-07-02",
+      "retrieved_date": "2026-09-28",
       "source_name": "NIST",
       "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
       "text": "NIST released the AI Risk Management Framework (AI RMF 1.0) on 26 January 2023 to help manage risks to individuals, organizations, and society associated with artificial intelligence, and released a Generative AI Profile (NIST-AI-600-1) on 26 July 2024.",
@@ -42,22 +42,38 @@
       "source_url": "https://oecd.ai/en/incidents",
       "text": "The OECD AI Incidents Monitor (AIM) documents approximately 16,894 AI incidents and hazards in total; the platform notes that incidents have gotten more media attention lately, but have actually gone down as a share of all AI news.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-09-28",
+      "source_name": "OECD.AI",
+      "source_url": "https://oecd.ai/en/incidents",
+      "text": "The OECD AI Incidents and Hazards Monitor (AIM) reports a running total of about 17,930 incidents and hazards.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-09-28",
+      "source_name": "NIST",
+      "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "text": "On April 7, 2026, NIST released a concept note for an AI RMF Profile on Trustworthy AI in Critical Infrastructure, intended to guide critical infrastructure operators towards specific risk management practices when engaging AI-enabled capabilities; NIST also states that the AI RMF 1.0 is being revised as part of the White House AI Action Plan.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Risks from increasingly capable and widely deployed AI systems: documented present-day harms (synthetic media, fraud, cyberattacks, child-safety incidents), plus contested longer-term scenarios of large-scale misuse or loss of control. Governments and standards bodies now track incidents and publish risk-management frameworks, but quantified estimates of the severe tail remain scarce by nature. The OECD's AI Incidents and Hazards Monitor has logged nearly 17,000 documented incidents and hazards to date.",
+  "description": "Risks from increasingly capable, widely deployed AI systems: present-day harms such as synthetic media, fraud and cyberattacks, plus contested scenarios of large-scale misuse or loss of control. The OECD's AI Incidents and Hazards Monitor has now logged about 17,930 documented incidents and hazards, roughly a thousand more than in August 2026, with the categories tied to synthetic media, child safety and cyber-fraud having more than doubled since 2022. Governments and standards bodies are widening their frameworks in step: NIST issued a concept note in April 2026 for an AI Risk Management Framework profile covering critical infrastructure, and is revising the framework itself under the White House AI Action Plan. Quantified estimates of the severe tail remain scarce by nature.",
   "id": "advanced-ai-risk",
-  "last_updated": "2026-08-10T10:13:07Z",
+  "last_updated": "2026-09-28T10:07:44Z",
   "name": "Advanced AI Risk",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-10T10:13:07Z",
+        "at": "2026-09-28T10:07:44Z",
         "layer": "verify",
-        "run_id": "2026-08-10T10-13-07Z-ac254f"
+        "run_id": "2026-09-28T10-07-44Z-888952"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-10T10-13-07Z-ac254f"
+    "last_run_id": "2026-09-28T10-07-44Z-888952"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -67,7 +83,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

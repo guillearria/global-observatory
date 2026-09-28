@@ -6,14 +6,14 @@
       "window": "next-50-years"
     },
     "severity": "civilizational",
-    "summary": "Thousands of warheads remain in military stockpiles — thousands deployed, and roughly two thousand on high alert — making nuclear war a persistent, low-probability, civilization-scale risk.",
-    "timeframe": "No reliable forecast; risk tracks geopolitical crises, arsenal modernization, and the erosion or renewal of arms-control agreements."
+    "summary": "Thousands of warheads remain in military stockpiles — thousands deployed, and roughly two thousand on high alert — making nuclear war a persistent, low-probability, civilization-scale risk, now with no bilateral treaty capping the two largest arsenals since New START lapsed in February 2026.",
+    "timeframe": "No reliable forecast; risk tracks geopolitical crises, arsenal modernization, and the erosion or renewal of arms-control agreements — the last US-Russia strategic treaty lapsed in February 2026."
   },
   "category": "nuclear",
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-07-02",
+      "retrieved_date": "2026-09-28",
       "source_name": "SIPRI",
       "source_url": "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now",
       "text": "SIPRI estimates a total global inventory of 12,187 nuclear warheads in January 2026, of which about 9,745 were in military stockpiles for potential use.",
@@ -21,7 +21,7 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-07-02",
+      "retrieved_date": "2026-09-28",
       "source_name": "SIPRI",
       "source_url": "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now",
       "text": "An estimated 4,012 warheads were deployed with missiles and aircraft in January 2026, and between 2,100 and 2,200 of the deployed warheads were kept in a state of high operational alert on ballistic missiles.",
@@ -29,7 +29,7 @@
     },
     {
       "id": "claim-3",
-      "retrieved_date": "2026-07-02",
+      "retrieved_date": "2026-09-28",
       "source_name": "SIPRI",
       "source_url": "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now",
       "text": "Nine states possess nuclear weapons: the United States, Russia, the United Kingdom, France, China, India, Pakistan, North Korea and Israel.",
@@ -37,27 +37,35 @@
     },
     {
       "id": "claim-4",
-      "retrieved_date": "2026-08-10",
+      "retrieved_date": "2026-09-28",
       "source_name": "SIPRI",
       "source_url": "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now",
       "text": "Russia and the USA together possess around 83 per cent of all stockpiled nuclear warheads.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-09-28",
+      "source_name": "SIPRI",
+      "source_url": "https://www.sipri.org/media/press-release/2026/increasing-focus-nuclear-weapons-amid-heightened-escalation-risks-new-sipri-yearbook-out-now",
+      "text": "With the expiry of the bilateral 2010 Treaty on Measures for the Further Reduction and Limitation of Strategic Offensive Arms (New START) in February 2026, uncertainty is increasing about the future direction of US and Russian strategic nuclear force levels (SIPRI Yearbook 2026).",
+      "verification_status": "verified"
     }
   ],
-  "description": "A deliberate or inadvertent nuclear exchange between states. Global arsenals remain in the thousands of warheads, all nine nuclear-armed states are modernizing their forces, and hundreds of weapons are kept on high operational alert — keeping a civilization-scale exchange a persistent possibility even at low annual probability. Russia and the United States alone hold roughly 83 percent of all stockpiled warheads.",
+  "description": "A deliberate or inadvertent nuclear exchange between states. Global arsenals remain in the thousands of warheads — about 9,745 of an estimated 12,187 held in military stockpiles for potential use in January 2026, some 4,012 of them deployed and between 2,100 and 2,200 kept on high operational alert. All nine nuclear-armed states are modernizing their forces, and Russia and the United States alone hold roughly 83 percent of stockpiled warheads. New START, the last bilateral treaty capping their strategic forces, expired in February 2026 with no replacement, leaving the future direction of US and Russian strategic force levels newly uncertain.",
   "id": "nuclear-war",
-  "last_updated": "2026-08-10T10:13:07Z",
+  "last_updated": "2026-09-28T10:07:55Z",
   "name": "Nuclear War",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-10T10:13:07Z",
+        "at": "2026-09-28T10:07:55Z",
         "layer": "verify",
-        "run_id": "2026-08-10T10-13-07Z-2165d0"
+        "run_id": "2026-09-28T10-07-55Z-29c010"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-10T10-13-07Z-2165d0"
+    "last_run_id": "2026-09-28T10-07-55Z-29c010"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -67,7 +75,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
