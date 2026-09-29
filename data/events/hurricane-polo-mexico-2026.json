@@ -1,0 +1,70 @@
+{
+  "category": "storm",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-09-29",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=34&eventtype=TC",
+      "text": "GDACS's tropical cyclone report for POLO-26 (GLIDE TC-2026-000184-MEX, reporting window 21-29 September 2026) records a Red alert (highest GDACS alert score) with maximum sustained winds reaching 287 km/h (Category 5) and an estimated 220 thousand people exposed to Category 1 or higher wind speeds in Mexico; the report notes 'Tropical Cyclone POLO-26 can have a high humanitarian impact based on the maximum sustained wind speed, exposed population and vulnerability.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-09-29",
+      "source_name": "NOAA",
+      "source_url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP2+html/232347.shtml",
+      "text": "NOAA's National Hurricane Center Advisory Number 35 (200 AM MST, Tuesday, 29 September 2026) placed Hurricane Polo near 26.2N 111.9W, about 35 miles west-northwest of Loreto, Mexico, with maximum sustained winds near 80 mph (130 km/h) and higher gusts, moving toward the northeast near 10 mph (17 km/h) with significant acceleration expected as the center moved inland over Baja California Sur toward southern Sonora.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Hurricane Polo, a record-tying Category 5 eastern Pacific hurricane, made landfall on Baja California Sur just south of Las Barrancas at about 06:00 UTC on 29 September 2026 with sustained winds near 175 km/h before weakening further as it tracked toward Sonora. GDACS issued a Red alert for the storm, citing about 220,000 people exposed to Category 1-or-higher winds. NOAA's National Hurricane Center's Advisory 35 (2:00 AM MST, 29 September) placed the weakening system near Loreto with maximum sustained winds of 130 km/h (80 mph), moving northeast, with life-threatening flash flooding and mudslides possible across Baja California Sur and southern Sonora.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "As of NOAA's Advisory 35 (2:00 AM MST, 29 September 2026), Polo had weakened to maximum sustained winds of 130 km/h (80 mph) near 26.2N 111.9W, about 35 miles west-northwest of Loreto, Mexico, moving northeast at 17 km/h after making landfall south of Las Barrancas, Baja California Sur, with winds near 175 km/h. GDACS's Red-alert report estimates about 220,000 people exposed to Category-1-or-higher winds. No confirmed death or displacement toll has yet been published by an authoritative source."
+    },
+    "live_source_url": "https://www.nhc.noaa.gov/",
+    "location": {
+      "country": "Mexico",
+      "lat": 25.9,
+      "lon": -112.5,
+      "region": "Baja California Sur and southern Sonora"
+    },
+    "occurrence_date": "2026-09-21",
+    "scale": "Peaked Category 5 (287 km/h); landfall as Category 3; GDACS Red alert",
+    "status": "ongoing"
+  },
+  "id": "hurricane-polo-mexico-2026",
+  "last_updated": "2026-09-29T09:14:43Z",
+  "name": "Hurricane Polo, Mexico",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-09-29T09:14:43Z",
+        "layer": "verify",
+        "run_id": "2026-09-29T09-14-43Z-045bb8"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-09-29T09-14-43Z-045bb8"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398801.0,
+    "impact_rank": 1,
+    "recency_rank": 739880
+  },
+  "updates": [
+    {
+      "date": "2026-09-29",
+      "text": "Hurricane Polo made landfall south of Las Barrancas, Baja California Sur, around 06:00 UTC on 29 September with sustained winds near 175 km/h, then weakened further to 130 km/h (80 mph) by NOAA's Advisory 35 as it tracked northeast toward southern Sonora. GDACS holds the event at Red alert with about 220,000 people exposed to Category 1-or-higher winds."
+    }
+  ],
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
