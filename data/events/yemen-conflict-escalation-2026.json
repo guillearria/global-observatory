@@ -42,6 +42,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-14",
+      "retrieved_date": "2026-09-30",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168480",
+      "text": "UN News (25 September 2026), citing WHO and Aden health authorities: 'since 6 August, the renewed clashes in southwest Yemen have left more than 4,481 casualties including 830 deaths,' and 'more than 180,000 people have now been uprooted by the fighting.' The article also reports that only about 60 percent of health facilities are fully functional, with nine health facilities damaged, put out of service or directly attacked, mostly near Taiz, Lahj and Hudaydah, and that emergency obstetric care has been suspended at two hospitals as staff are redirected to trauma care.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-28",
       "source_name": "United Nations",
@@ -106,12 +114,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened to include Houthi attacks on Saudi Arabia. The UN Security Council condemned those attacks on 18 September and demanded an immediate end to the escalation, while the World Health Organization's most recent published tally puts cumulative casualties at 2,883 (504 deaths, 2,379 injuries) since 6 August. UNHCR reported on 22 September that more than 130,000 people have been displaced inside Yemen since the start of September, with more than 3,000 having crossed the Bab el-Mandeb Strait to Djibouti and arrivals projected to exceed 10,000 by mid-October. Humanitarian access along the west coast remains severely constrained, with more than 22 million people -- over half of Yemen's population -- estimated to need aid.",
+  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened to include Houthi attacks on Saudi Arabia. The UN Security Council condemned those attacks on 18 September and demanded an immediate end to the escalation. UN News reported on 25 September, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August, with casualties still rising by roughly 100 per day; more than 180,000 people have now been uprooted by the fighting. Yemen's health system is under severe strain, with only about 60 percent of facilities fully functional and nine damaged, out of service or directly attacked near Taiz, Lahj and Hudaydah. Humanitarian access along the west coast remains severely constrained, with more than 22 million people -- over half of Yemen's population -- estimated to need aid.",
   "event": {
     "impact": {
-      "deaths": 504,
-      "displaced": 130000,
-      "summary": "UNHCR reported on 22 September 2026 that more than 130,000 people have been displaced inside Yemen since the start of September, with more than 3,000 having crossed the Bab el-Mandeb Strait to Djibouti and arrivals projected to exceed 10,000 by mid-October; over 22 million people, more than half of Yemen's population, are estimated to need humanitarian assistance. WHO's most recent published Situation Report puts cumulative casualties since 6 August at 2,883 (504 deaths, 2,379 injuries), and DFA (Houthi) forces control the entire west coast except Midi district. The UN Security Council condemned continued Houthi attacks against Saudi Arabia -- affecting civilian and energy infrastructure and injuring civilians -- in a press statement issued 18 September, demanding an immediate end to the military escalation."
+      "deaths": 830,
+      "displaced": 180000,
+      "summary": "UN News reported on 25 September 2026, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August 2026, with casualties continuing to rise by roughly 100 per day; more than 180,000 people have now been uprooted by the fighting. Only about 60 percent of Yemen's health facilities remain fully functional, with nine damaged, out of service or directly attacked, mostly near Taiz, Lahj and Hudaydah, and emergency obstetric care suspended at two hospitals as staff are redirected to trauma care. DFA (Houthi) forces control the entire west coast except Midi district. The UN Security Council condemned continued Houthi attacks against Saudi Arabia -- affecting civilian and energy infrastructure and injuring civilians -- in a press statement issued 18 September, demanding an immediate end to the military escalation."
     },
     "live_source_url": "https://news.un.org/en/focus/yemen",
     "location": {
@@ -121,22 +129,22 @@
       "region": "Ta'izz Governorate (Mocha, Al-Mokha) and Yemen's West Coast; attacks also in the Bab el-Mandeb Strait and against Saudi Arabia"
     },
     "occurrence_date": "2026-08-07",
-    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have extended attacks to Saudi Arabia, condemned by the UN Security Council on 18 September; WHO records 504 deaths since 6 August 2026",
+    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have extended attacks to Saudi Arabia, condemned by the UN Security Council on 18 September; WHO reports 830 deaths and 4,481 total casualties since 6 August 2026",
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-09-29T09:22:49Z",
+  "last_updated": "2026-09-30T09:23:36Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-29T09:22:49Z",
+        "at": "2026-09-30T09:23:36Z",
         "layer": "verify",
-        "run_id": "2026-09-29T09-22-49Z-96e9eb"
+        "run_id": "2026-09-30T09-23-36Z-0744db"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-29T09-22-49Z-96e9eb"
+    "last_run_id": "2026-09-30T09-23-36Z-0744db"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -145,6 +153,10 @@
     "recency_rank": 739835
   },
   "updates": [
+    {
+      "date": "2026-09-30",
+      "text": "UN News reported, citing WHO and Aden health authorities, that cumulative casualties since 6 August have risen to more than 4,481 (830 deaths), still climbing by roughly 100 per day; displacement inside Yemen has risen past 180,000, and only about 60% of health facilities remain fully functional amid nine damaged, out-of-service or attacked facilities near Taiz, Lahj and Hudaydah."
+    },
     {
       "date": "2026-09-22",
       "text": "The UN Security Council condemned continued Houthi attacks against Saudi Arabia affecting civilian and energy infrastructure in a press statement issued 18 September, demanding an immediate end to the military escalation; UNHCR reported displacement inside Yemen has risen past 130,000 since the start of September, with Djibouti arrivals projected to exceed 10,000 by mid-October."
@@ -180,7 +192,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

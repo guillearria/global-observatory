@@ -74,6 +74,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-18",
+      "retrieved_date": "2026-09-30",
+      "source_name": "Department of Social Welfare and Development (Philippines)",
+      "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-103-on-the-Combined-Effects-of-Enhanced-Southwest-Monsoon-and-Tropical-Cyclones-Luis-Maymay-Neneng-and-Pilandok-as-of-29-September-2026-6PM.pdf",
+      "text": "DSWD DROMIC Report #103 on the Combined Effects of Enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok (as of 29 September 2026, 6PM): a total of 3,074,821 families (10,858,538 persons) are affected in 7,103 barangays across 11 regions. There are 2,289 families (8,117 persons) in 128 evacuation centres and 10,146 families (37,795 persons) staying with relatives or friends, for a total displaced population of 12,435 families (45,912 persons), down sharply from 22,799 families (79,469 persons) in Report #98. A total of 4,805 houses were damaged (663 totally, 4,142 partially damaged), up from 4,684 (640 totally, 4,044 partially damaged). Total humanitarian assistance provided reached PHP 2,952,380,651.76 (₱2,728,045,359.22 from DSWD, ₱173,025,496.02 from LGUs, ₱46,050,937.32 from NGOs). DROMIC's report series does not carry a casualty count.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-17",
       "source_name": "ReliefWeb",
@@ -138,12 +146,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "The combined effects of the enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok have affected more than 10.8 million people across Luzon, Visayas and the Zamboanga Peninsula since late July 2026. DSWD's DROMIC reporting puts the still-displaced population at about 79,500 and easing further as evacuation centres deactivate, even as houses damaged continue to rise, while NDRRMC figures relayed by the AHA Centre put the confirmed toll at 44 deaths, 18 injuries and 5 missing, with the national disaster alert status still at RED.",
+  "description": "The combined effects of the enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok have affected more than 10.8 million people across Luzon, Visayas and the Zamboanga Peninsula since late July 2026. DSWD's DROMIC reporting puts the still-displaced population at about 45,900 and easing sharply further as evacuation centres deactivate, even as houses damaged continue to rise, while NDRRMC figures relayed by the AHA Centre put the confirmed toll at 44 deaths, 18 injuries and 5 missing, with the national disaster alert status still at RED.",
   "event": {
     "impact": {
       "deaths": 44,
-      "displaced": 79469,
-      "summary": "DSWD's DROMIC Report #98 (as of 22 September 2026, 6PM) counts 3,068,296 families (10,836,936 persons) affected across 7,084 barangays in 11 regions, up slightly from 3,066,726 families (10,835,145 persons) in Report #97; displacement has eased further to 79,469 people (22,799 families), down from 79,517, while houses damaged rose to 4,684 (640 totally, 4,044 partially damaged), up from 4,621. Total assistance provided to date rose to ₱2,829,233,868.02. DROMIC's report series does not carry a casualty count; the AHA Centre's Weekly Disaster Update for 7-13 September 2026, citing NDRRMC (as of 14 September), puts the toll at 44 deaths, 18 injuries and 5 missing among 9.6 million people affected. GDACS separately recorded a further Green-alert flood episode across Luzon and Mindoro from 17-19 August 2026, with 1,076 people displaced and no fatalities registered in that window."
+      "displaced": 45912,
+      "summary": "DSWD's DROMIC Report #103 (as of 29 September 2026, 6PM) counts 3,074,821 families (10,858,538 persons) affected across 7,103 barangays in 11 regions, up from 3,068,296 families (10,836,936 persons) in Report #98; displacement has eased sharply to 45,912 people (12,435 families), down from 79,469, while houses damaged rose to 4,805 (663 totally, 4,142 partially damaged), up from 4,684. Total assistance provided to date rose to ₱2,952,380,651.76. DROMIC's report series does not carry a casualty count; the AHA Centre's Weekly Disaster Update for 7-13 September 2026, citing NDRRMC (as of 14 September), puts the toll at 44 deaths, 18 injuries and 5 missing among 9.6 million people affected. GDACS separately recorded a further Green-alert flood episode across Luzon and Mindoro from 17-19 August 2026, with 1,076 people displaced and no fatalities registered in that window."
     },
     "live_source_url": "https://reliefweb.int/country/phl",
     "location": {
@@ -153,22 +161,22 @@
       "region": "NCR, CAR and Regions I, II, III, IVA/IVB, V, VI, VIII and IX (Luzon, Visayas and Zamboanga Peninsula)"
     },
     "occurrence_date": "2026-08-01",
-    "scale": "NDRRMOC alert status RED; ~10.84 million people affected as of 22 September 2026 (DSWD DROMIC); NDRRMC: 44 deaths",
+    "scale": "NDRRMOC alert status RED; ~10.86 million people affected as of 29 September 2026 (DSWD DROMIC); NDRRMC: 44 deaths",
     "status": "ongoing"
   },
   "id": "philippines-floods-luis-maymay-2026",
-  "last_updated": "2026-09-29T09:22:08Z",
+  "last_updated": "2026-09-30T09:24:22Z",
   "name": "Southwest Monsoon & Tropical Cyclones Luis/Maymay Floods, Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-29T09:22:08Z",
+        "at": "2026-09-30T09:24:22Z",
         "layer": "verify",
-        "run_id": "2026-09-29T09-22-08Z-c33ad4"
+        "run_id": "2026-09-30T09-24-22Z-cbe135"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-29T09-22-08Z-c33ad4"
+    "last_run_id": "2026-09-30T09-24-22Z-cbe135"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -177,6 +185,10 @@
     "recency_rank": 739829
   },
   "updates": [
+    {
+      "date": "2026-09-29",
+      "text": "DSWD's DROMIC Report #103 (6PM) recorded affected population rising to 10,858,538 persons (3,074,821 families), up from 10,836,936; displacement eased sharply to 45,912 people (12,435 families), down from 79,469; houses damaged rose to 4,805 (663 totally, 4,142 partially damaged), up from 4,684; total assistance provided rose to ₱2,952,380,651.76."
+    },
     {
       "date": "2026-09-22",
       "text": "DSWD's DROMIC Report #98 (6PM) recorded affected population edging up to 10,836,936 persons (3,068,296 families), up from 10,835,145; displacement eased slightly further to 79,469 people (22,799 families), down from 79,517; houses damaged rose to 4,684 (640 totally, 4,044 partially damaged), up from 4,621; total assistance provided rose to ₱2,829,233,868.02."
@@ -228,7 +240,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

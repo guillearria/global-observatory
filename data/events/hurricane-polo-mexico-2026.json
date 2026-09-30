@@ -16,14 +16,22 @@
       "source_url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP2+html/232347.shtml",
       "text": "NOAA's National Hurricane Center Advisory Number 35 (200 AM MST, Tuesday, 29 September 2026) placed Hurricane Polo near 26.2N 111.9W, about 35 miles west-northwest of Loreto, Mexico, with maximum sustained winds near 80 mph (130 km/h) and higher gusts, moving toward the northeast near 10 mph (17 km/h) with significant acceleration expected as the center moved inland over Baja California Sur toward southern Sonora.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-09-30",
+      "source_name": "NOAA",
+      "source_url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP2+shtml/292347.shtml",
+      "text": "NOAA's National Hurricane Center Advisory Number 38 (800 PM MST, Tuesday, 29 September 2026), the final public advisory on the system, placed the remnants of Polo near 30.5N 108.0W, about 245 miles northeast of Guaymas, Mexico, with maximum sustained winds near 35 mph (55 km/h) and minimum central pressure 996 mb, stating \"POLO DISSIPATES OVER NORTHWESTERN MEXICO\" and noting this was the last public advisory issued by the National Hurricane Center on Polo.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Hurricane Polo, a record-tying Category 5 eastern Pacific hurricane, made landfall on Baja California Sur just south of Las Barrancas at about 06:00 UTC on 29 September 2026 with sustained winds near 175 km/h before weakening further as it tracked toward Sonora. GDACS issued a Red alert for the storm, citing about 220,000 people exposed to Category 1-or-higher winds. NOAA's National Hurricane Center's Advisory 35 (2:00 AM MST, 29 September) placed the weakening system near Loreto with maximum sustained winds of 130 km/h (80 mph), moving northeast, with life-threatening flash flooding and mudslides possible across Baja California Sur and southern Sonora.",
+  "description": "Hurricane Polo, a record-tying Category 5 eastern Pacific hurricane, has dissipated over northwestern Mexico after making landfall on Baja California Sur on 29 September 2026. GDACS issued a Red alert for the storm, citing about 220,000 people exposed to Category 1-or-higher winds. NOAA's National Hurricane Center's final public advisory (Advisory 38, 8:00 PM MST, 29 September) placed the dissipating remnants near 30.5N 108.0W, about 245 miles northeast of Guaymas, Sonora, with winds down to 35 mph. No confirmed death or damage toll has yet been published by an authoritative source.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "As of NOAA's Advisory 35 (2:00 AM MST, 29 September 2026), Polo had weakened to maximum sustained winds of 130 km/h (80 mph) near 26.2N 111.9W, about 35 miles west-northwest of Loreto, Mexico, moving northeast at 17 km/h after making landfall south of Las Barrancas, Baja California Sur, with winds near 175 km/h. GDACS's Red-alert report estimates about 220,000 people exposed to Category-1-or-higher winds. No confirmed death or displacement toll has yet been published by an authoritative source."
+      "summary": "NOAA's National Hurricane Center issued its final public advisory on Polo (Advisory 38, 8:00 PM MST, 29 September 2026), reporting the system had dissipated over northwestern Mexico near 30.5N 108.0W, about 245 miles northeast of Guaymas, Sonora, with maximum sustained winds down to 35 mph (55 km/h). GDACS's Red-alert report estimated about 220,000 people exposed to Category-1-or-higher winds during the storm's passage over Baja California Sur. No confirmed death or displacement toll has yet been published by an authoritative source."
     },
     "live_source_url": "https://www.nhc.noaa.gov/",
     "location": {
@@ -33,22 +41,22 @@
       "region": "Baja California Sur and southern Sonora"
     },
     "occurrence_date": "2026-09-21",
-    "scale": "Peaked Category 5 (287 km/h); landfall as Category 3; GDACS Red alert",
-    "status": "ongoing"
+    "scale": "Peaked Category 5 (287 km/h); dissipated over Mexico; GDACS Red alert",
+    "status": "resolved"
   },
   "id": "hurricane-polo-mexico-2026",
-  "last_updated": "2026-09-29T09:14:43Z",
+  "last_updated": "2026-09-30T09:16:23Z",
   "name": "Hurricane Polo, Mexico",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-29T09:14:43Z",
+        "at": "2026-09-30T09:16:23Z",
         "layer": "verify",
-        "run_id": "2026-09-29T09-14-43Z-045bb8"
+        "run_id": "2026-09-30T09-16-23Z-a6ba33"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-29T09-14-43Z-045bb8"
+    "last_run_id": "2026-09-30T09-16-23Z-a6ba33"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -58,13 +66,17 @@
   },
   "updates": [
     {
+      "date": "2026-09-30",
+      "text": "NOAA's National Hurricane Center issued its final public advisory on Polo (Advisory 38, 8:00 PM MST, 29 September), reporting the system had dissipated over northwestern Mexico near Guaymas, Sonora, with winds down to 35 mph. No confirmed death or damage toll has yet been published by an authoritative source."
+    },
+    {
       "date": "2026-09-29",
       "text": "Hurricane Polo made landfall south of Las Barrancas, Baja California Sur, around 06:00 UTC on 29 September with sustained winds near 175 km/h, then weakened further to 130 km/h (80 mph) by NOAA's Advisory 35 as it tracked northeast toward southern Sonora. GDACS holds the event at Red alert with about 220,000 people exposed to Category 1-or-higher winds."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

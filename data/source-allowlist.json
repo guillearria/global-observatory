@@ -444,6 +444,12 @@
       "domain": "fire.ca.gov",
       "justification": "CAL FIRE (the California Department of Forestry and Fire Protection) is California's state firefighting agency and the official incident-reporting source for wildfire acreage, containment and evacuation status within the state; the same institutional tier as wildfire.gov (InciWeb) and the other US state-government emergency-management domains already allowlisted (governor.wa.gov, gov.nv.gov, governor.hawaii.gov, in.gov, governor.wv.gov).",
       "label": "CAL FIRE"
+    },
+    {
+      "category": "event",
+      "domain": "nj.gov",
+      "justification": "nj.gov is the State of New Jersey's own official government domain, covering both the Governor's Office news releases and executive orders (via nj.gov/governor and nj.gov/infobank/eo) declaring and terminating a state of emergency; it is the authoritative primary source for a state-of-emergency declaration and its scope of counties, the same institutional tier as governor.wa.gov, gov.nv.gov, governor.hawaii.gov, in.gov and governor.wv.gov, already allowlisted for other US state governments' own emergency declarations.",
+      "label": "State of New Jersey"
     }
   ]
 }

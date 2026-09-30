@@ -26,6 +26,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-19",
+      "retrieved_date": "2026-09-30",
+      "source_name": "United Nations",
+      "source_url": "https://press.un.org/en/2026/db260928.doc.htm",
+      "text": "UN Daily Press Briefing by the Office of the Spokesperson for the Secretary-General (28 September 2026), attributed to WHO: the cholera outbreak that began in Al Nuhud, West Kordofan, in May has spread to 20 localities across six States, with nearly 3,000 cases and 250 associated deaths reported; 'the World Health Organization (WHO) has reported a sharp decline in cholera cases in recent weeks.' WHO has prepositioned 60 metric tons of cholera supplies across Sudan, enough to support treatment for about 120,000 cases, while UNICEF and WHO have provided support for oral cholera vaccination campaigns that reached over 900,000 people.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-07-17",
       "source_name": "United Nations",
@@ -66,12 +74,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A cholera outbreak declared in Sudan in June 2026 remains active in Darfur and Kordofan states amid the ongoing conflict. A UN daily briefing on 9 September 2026, citing WHO, put the toll at nearly 2,900 cases and 247 deaths across six states, up sharply from the 1,511 cases and 153 deaths ECDC's cholera-monthly dataset had recorded as of a stale 12 July data cut. WHO is supporting a 10-day vaccination campaign in Tawila, North Darfur, launched 8 September and targeting at least 95,000 people.",
+  "description": "A cholera outbreak declared in Sudan in June 2026 remains active in Darfur and Kordofan states amid the ongoing conflict, though WHO reports a sharp decline in cases in recent weeks. A UN daily briefing on 28 September 2026, citing WHO, put the toll at nearly 3,000 cases and 250 deaths across six states and 20 localities, up from 2,900 cases and 247 deaths reported on 9 September. WHO has prepositioned 60 metric tons of cholera supplies and, together with UNICEF, supported oral cholera vaccination campaigns that have reached over 900,000 people.",
   "event": {
     "impact": {
-      "deaths": 247,
+      "deaths": 250,
       "displaced": null,
-      "summary": "A UN daily press briefing on 9 September 2026, citing WHO, reported the Sudan cholera outbreak declared in June 2026 has caused nearly 2,900 cases and 247 deaths across six states (implied case fatality rate ~8.5%) -- a marked rise from the 1,511 cases and 153 deaths ECDC's cholera-monthly dataset had recorded as of a stale 12 July 2026 data cut that had gone unrefreshed for two months. A 10-day WHO-supported cholera vaccination campaign targeting at least 95,000 people launched 8 September 2026 in Tawila, North Darfur. The outbreak, centred on Darfur and Kordofan where earlier WHO and UNICEF supply deliveries reached Kadugli, Dilling and El Fula, has not been declared contained."
+      "summary": "A UN daily press briefing on 28 September 2026, citing WHO, reported the Sudan cholera outbreak declared in June 2026 -- which began in Al Nuhud, West Kordofan, and has since spread to 20 localities across six states -- has caused nearly 3,000 cases and 250 deaths (implied case fatality rate ~8.6%), up from nearly 2,900 cases and 247 deaths reported on 9 September. The same briefing said WHO has reported a sharp decline in cholera cases in recent weeks, has prepositioned 60 metric tons of cholera supplies across Sudan (enough to support treatment for about 120,000 cases), and that UNICEF- and WHO-supported oral cholera vaccination campaigns have reached over 900,000 people, including the 10-day campaign targeting at least 95,000 people that launched 8 September in Tawila, North Darfur. The outbreak, centred on Darfur and Kordofan, has not been declared contained."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly",
     "location": {
@@ -81,22 +89,22 @@
       "region": "Darfur and Kordofan states, western and central Sudan"
     },
     "occurrence_date": "2026-06-27",
-    "scale": "Case fatality rate ~8.5% (WHO figures cited in UN briefing, 9 Sept 2026)",
+    "scale": "Case fatality rate ~8.6% (WHO figures cited in UN briefing, 28 Sept 2026); WHO reports cases declining",
     "status": "ongoing"
   },
   "id": "sudan-cholera-outbreak-2026",
-  "last_updated": "2026-09-29T09:22:31Z",
+  "last_updated": "2026-09-30T09:24:25Z",
   "name": "Cholera Outbreak — Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-29T09:22:31Z",
+        "at": "2026-09-30T09:24:25Z",
         "layer": "verify",
-        "run_id": "2026-09-29T09-22-31Z-a0324a"
+        "run_id": "2026-09-30T09-24-25Z-64c0db"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-29T09-22-31Z-a0324a"
+    "last_run_id": "2026-09-30T09-24-25Z-64c0db"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -105,6 +113,10 @@
     "recency_rank": 739794
   },
   "updates": [
+    {
+      "date": "2026-09-28",
+      "text": "A UN daily press briefing (28 September), citing WHO, put the outbreak -- now spread to 20 localities across six states -- at nearly 3,000 cases and 250 deaths, up from 2,900/247 on 9 September; WHO reported a sharp decline in cases in recent weeks, having prepositioned 60 metric tons of supplies and supported vaccination campaigns reaching over 900,000 people."
+    },
     {
       "date": "2026-09-11",
       "text": "A UN daily press briefing (9 September), citing WHO, put the outbreak declared in June at nearly 2,900 cases and 247 deaths across six states -- well above ECDC's stale 12 July data cut (1,511 cases, 153 deaths). A WHO-supported 10-day vaccination campaign targeting 95,000 people launched 8 September in Tawila, North Darfur."
@@ -120,7 +132,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

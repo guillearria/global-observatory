@@ -1,0 +1,72 @@
+{
+  "category": "storm",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-09-30",
+      "source_name": "State of New Jersey",
+      "source_url": "https://www.nj.gov/governor/news/2026/20260925a.shtml",
+      "text": "Governor Mikie Sherrill's Executive Order No. 25, announced by the Office of the Governor, declared a State of Emergency effective 5:00 p.m. Friday, September 25, 2026, for Atlantic, Burlington, Cape May, Cumberland, Middlesex, Monmouth, Ocean and Salem counties, citing forecast \"damaging winds, heavy rain, significant coastal flooding, and resulting beach erosion\" from the approaching nor'easter.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-09-30",
+      "source_name": "State of New Jersey",
+      "source_url": "https://www.nj.gov/governor/news/2026/20260929b.shtml",
+      "text": "The Office of the Governor of New Jersey announced that the State of Emergency for Atlantic, Burlington, Cape May, Cumberland, Middlesex, Monmouth, Ocean and Salem counties was terminated effective 6:00 p.m. Tuesday, September 29, 2026, with Governor Sherrill noting the nor'easter \"brought serious challenges to communities across our state, especially along the shore,\" and that the Department of Environmental Protection was continuing to address beach erosion and coastline protection.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-09-30",
+      "source_name": "National Weather Service (NWS)",
+      "source_url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d8355253d56705e3e742e212a86d3a277ad0a4a2.005.1",
+      "text": "A National Weather Service Coastal Flood Warning issued by NWS Mount Holly NJ on September 27, 2026 for Ocean County warned of \"around one foot of innundation along the back bays of Ocean County New Jersey including Barnegat Bay and Manahawkin Bay,\" stating that \"numerous roads may be closed,\" that \"low lying property including homes, businesses, and some critical infrastructure will be inundated,\" and that \"back bay flooding may persist beyond Monday afternoon.\"",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A powerful nor'easter battered the New Jersey shore with damaging winds, heavy rain and major coastal flooding from 25 to 28 September 2026, prompting Governor Mikie Sherrill to declare a state of emergency across eight counties. The National Weather Service warned of roughly a foot of inundation in low-lying back-bay communities, with numerous roads closed and homes, businesses and some critical infrastructure flooded. The state of emergency was terminated on 29 September 2026 as conditions eased, though the governor said shoreline recovery and beach-erosion repair work would continue.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "Governor Sherrill's state of emergency covered eight counties from 25 to 29 September 2026 as the storm brought damaging winds, heavy rain, significant coastal flooding and beach erosion. NWS Mount Holly warned of around one foot of back-bay inundation in Ocean County, with numerous roads closed and homes, businesses and some critical infrastructure flooded; back-bay flooding was expected to persist beyond the storm's initial passage. No authoritative death or displacement figure specific to New Jersey has been confirmed."
+    },
+    "live_source_url": "https://www.nj.gov/governor/news/",
+    "location": {
+      "country": "United States",
+      "lat": 39.3643,
+      "lon": -74.4229,
+      "region": "Atlantic, Burlington, Cape May, Cumberland, Middlesex, Monmouth, Ocean and Salem counties, New Jersey Shore"
+    },
+    "occurrence_date": "2026-09-25",
+    "scale": "State of Emergency, 8 NJ counties; NWS Coastal Flood Warning",
+    "status": "resolved"
+  },
+  "id": "usa-new-jersey-noreaster-2026",
+  "last_updated": "2026-09-30T09:19:04Z",
+  "name": "September Nor'easter, New Jersey Shore, USA",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-09-30T09:19:04Z",
+        "layer": "verify",
+        "run_id": "2026-09-30T09-19-04Z-f608a2"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-09-30T09-19-04Z-f608a2"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398841.0,
+    "impact_rank": 1,
+    "recency_rank": 739884
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
