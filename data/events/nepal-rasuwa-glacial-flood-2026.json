@@ -58,6 +58,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-16",
+      "retrieved_date": "2026-10-01",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/nepal/nepal-rasuwa-flood-situation-report-no-9-22-september-2026",
+      "text": "UN OCHA and the UN Resident Coordinator's Office in Nepal, Rasuwa-Bhotekoshi Flood Situation Report No. 9 (as of 22 September 2026, covering 15-22 September): 'The floods have claimed 1,453 lives; 5,644 people remain missing and 13,795 have been rescued (NDRRMA, 23 September, 19:00). 1,112 people remain in 21 displacement centres.' The report also records a US$49.6 million Flash Appeal (through 31 December 2026) of which US$22.0 million was funded per FTS as of 23 September, 84.3K people targeted across 17 affected municipalities, and 64,263 people reached by assistance as of 22 September.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-27",
       "source_name": "GDACS",
@@ -122,12 +130,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A catastrophic glacial-lake outburst flood struck the Bhote Koshi River in Rasuwa and Nuwakot districts, Nepal, and Gyirong County, Tibet, on 26 August 2026, becoming Nepal's deadliest disaster since the 2015 earthquake. Nepal's Ministry of Foreign Affairs confirms 1,385 deaths and about 5,130 people still missing, with over 13,670 rescued so far. The government's own damage assessment, released 11 September, puts total disaster damage at about USD 1.8 billion and reconstruction needs at about USD 4.78 billion; a separate UN flash appeal seeks $49.6 million to assist more than 84,000 affected people as search, rescue and identification operations continue in the worst-hit districts.",
+  "description": "A catastrophic glacial-lake outburst flood struck the Bhote Koshi River in Rasuwa and Nuwakot districts, Nepal, and Gyirong County, Tibet, on 26 August 2026, becoming Nepal's deadliest disaster since the 2015 earthquake. UN OCHA's Rasuwa-Bhotekoshi Flood Situation Report No. 9 (as of 22 September) puts the confirmed toll at 1,453 deaths and 5,644 people still missing, per Nepal's NDRRMA, with 13,795 rescued and 1,112 people remaining in 21 displacement centres. Nepal's government has separately estimated total disaster damage at about USD 1.8 billion and reconstruction needs at about USD 4.78 billion. The UN's $49.6 million flash appeal was about 44% funded (US$22.0 million) as of 23 September, with over 64,000 people reached by assistance across the 17 affected municipalities as search, rescue and recovery operations continue.",
   "event": {
     "impact": {
-      "deaths": 1385,
+      "deaths": 1453,
       "displaced": null,
-      "summary": "Nepal's Ministry of Foreign Affairs reported at its 11 September press briefing that 1,385 bodies had been recovered in Nepal alone (up from 1,377 the day before), with around 5,130 people still missing -- including about 600 foreigners from 35 countries -- and 13,676 people rescued. The same briefing put total disaster damage at about USD 1.8 billion and losses at about USD 883 million, with reconstruction needs estimated at about USD 4.78 billion (USD 57.67 million for short-term recovery over six months, USD 4.71 billion for longer-term reconstruction). China's Tibet Autonomous Region separately stood at 43 confirmed deaths and 519 missing, according to official Chinese Government figures cited in UN News's 15 September report, the most recent confirmed figure for that side of the border. The UN and partners launched a $49.6 million flash appeal on 4 September to assist more than 84,000 people (84,270 Nepalis, 19,284 households); the disaster remains Nepal's deadliest since the 2015 earthquake, with more than 20,000 search-and-rescue personnel deployed and a flood emergency declared in 15 municipalities."
+      "summary": "UN OCHA's Rasuwa-Bhotekoshi Flood Situation Report No. 9 (UN Resident Coordinator's Office in Nepal, as of 22 September 2026) puts the confirmed toll at 1,453 deaths and 5,644 people still missing, per Nepal's NDRRMA (23 September, 19:00), with 13,795 people rescued and 1,112 remaining in 21 displacement centres across the 17 affected municipalities. Nepal's Ministry of Foreign Affairs had reported 1,385 deaths and reconstruction needs of about USD 4.78 billion (total damage about USD 1.8 billion) at its 11 September press briefing, the most recent such estimate. China's Tibet Autonomous Region separately stood at 43 confirmed deaths and 519 missing as of UN News's 15 September report. The UN's $49.6 million flash appeal (through 31 December 2026) was about 44% funded (US$22.0 million) as of 23 September, with 64,263 people reached by assistance; the disaster remains Nepal's deadliest since the 2015 earthquake."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1561857",
     "location": {
@@ -137,11 +145,11 @@
       "region": "Rasuwa & Nuwakot Districts, Nepal; Gyirong County, Tibet, China"
     },
     "occurrence_date": "2026-08-26",
-    "scale": "USGS M5.2-equivalent glacial collapse/landslide (reclassified from a tectonic earthquake); GDACS Green; Nepal MOFA toll 1,385 dead (Nepal alone)",
+    "scale": "USGS M5.2-equivalent glacial collapse/landslide (reclassified from a tectonic earthquake); GDACS Green; confirmed toll 1,453 dead (Nepal, per OCHA/NDRRMA)",
     "status": "ongoing"
   },
   "id": "nepal-rasuwa-glacial-flood-2026",
-  "last_updated": "2026-09-30T09:24:17Z",
+  "last_updated": "2026-10-01T09:24:19Z",
   "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
   "provenance": {
     "history": [
@@ -149,10 +157,15 @@
         "at": "2026-09-30T09:24:17Z",
         "layer": "verify",
         "run_id": "2026-09-30T09-24-17Z-67ec19"
+      },
+      {
+        "at": "2026-10-01T09:24:19Z",
+        "layer": "verify",
+        "run_id": "2026-10-01T09-24-19Z-7ae5f5"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-30T09-24-17Z-67ec19"
+    "last_run_id": "2026-10-01T09-24-19Z-7ae5f5"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -161,6 +174,10 @@
     "recency_rank": 739854
   },
   "updates": [
+    {
+      "date": "2026-10-01",
+      "text": "UN OCHA's Rasuwa-Bhotekoshi Flood Situation Report No. 9 (as of 22 September) put the toll at 1,453 deaths and 5,644 missing, per NDRRMA, up from 1,385 deaths and about 5,130 missing per Nepal's Foreign Ministry on 11 September; 13,795 rescued and 1,112 remain in 21 displacement centres. The UN's $49.6 million flash appeal was about 44% funded (US$22.0 million) as of 23 September."
+    },
     {
       "date": "2026-09-15",
       "text": "UN News (15 September) reported China's Tibet Autonomous Region toll had risen to 43 confirmed deaths and 519 still missing, per official Chinese Government figures -- up from 16 dead and 546 missing as of UN News's 1 September report; the Nepal-side toll remained at 'more than 1,300 killed and more than 5,000 missing.'"
@@ -208,7 +225,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

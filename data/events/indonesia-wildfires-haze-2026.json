@@ -1,0 +1,64 @@
+{
+  "category": "wildfire",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-01",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/indonesia/idn-fire-07-2026-indonesia-forest-fires-and-haze-sumatra-and-kalimantan-2026-08-24",
+      "text": "IFRC/Palang Merah Indonesia situation report 'IDN: Fire - 07-2026 - Indonesia: Forest Fires and Haze in Sumatra and Kalimantan' (originally published 24 August 2026): Since mid-July 2026, forest and land fires have increased across parts of Sumatra and Kalimantan amid prolonged dry conditions; the Government of Indonesia has prioritized response operations in six provinces (Riau, Jambi, South Sumatra, West Kalimantan, Central Kalimantan and South Kalimantan). As of 9 August 2026, the National Disaster Management Agency (BNPB) reported approximately 48,889.69 hectares burned across the six priority provinces; PMI West Kalimantan, citing the Ministry of Forestry's SIPONGI monitoring platform, separately reported approximately 38,301.86 hectares burned in West Kalimantan alone. In Central Kalimantan, the provincial disaster management agency reported 858 detected hotspots, 53 recorded fire incidents and approximately 190.96 hectares burned as of 23 August, with 66,679 acute respiratory infection cases recorded during the monitoring period (attribution to smoke exposure not yet verified). No consolidated and verified figures on people affected, displaced, injured, missing or deceased were available at the time of reporting.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-01",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/indonesia/indonesia-wildfire-haze-threatens-children-across-se-asia-and-closes-schools",
+      "text": "Save the Children, published via ReliefWeb (7 September 2026, 'Indonesia wildfire haze threatens children across SE Asia and closes schools'): Haze from wildfires across Indonesia's Kalimantan and Sumatra regions, intensified by El Nino-driven dry conditions, has forced more than 1.4 million students in affected areas of Indonesia into online or remote learning, with about 12,800 schools across Borneo and Sumatra closed, according to government data. The haze had spread as far as the Philippines, more than 800 km (497 miles) away, and capital cities in Southeast Asia were ranked among the top 10 cities with the worst air pollution globally.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Forest and peatland fires across Indonesia's Sumatra and Kalimantan have burned tens of thousands of hectares since mid-July 2026, triggering a regional transboundary haze crisis across Southeast Asia. Indonesia's national disaster agency (BNPB) had recorded roughly 49,000 hectares burned across six priority provinces by early August, and by early September the smoke had forced 1.4 million Indonesian students into remote learning and shut around 12,800 schools across Borneo and Sumatra, with haze reaching as far as the Philippines. No consolidated, verified figures for deaths, injuries or displacement had been published as of the most recent situation report.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "As of 9 August 2026, Indonesia's National Disaster Management Agency (BNPB) reported approximately 48,890 hectares burned across six priority provinces (Riau, Jambi, South Sumatra, West Kalimantan, Central Kalimantan, South Kalimantan); PMI West Kalimantan separately reported about 38,302 hectares burned in West Kalimantan alone, and Central Kalimantan's provincial disaster agency recorded 858 hotspots, 53 fire incidents and 66,679 acute respiratory infection cases during its monitoring period (smoke attribution unverified). By 7 September, haze had pushed 1.4 million Indonesian students into remote learning and closed about 12,800 schools across Borneo and Sumatra, with smoke reaching the Philippines more than 800 km away. No consolidated figures for deaths, injuries or displacement had been verified at last report."
+    },
+    "live_source_url": "https://reliefweb.int/country/idn",
+    "location": {
+      "country": "Indonesia",
+      "lat": -0.5,
+      "lon": 110.5,
+      "region": "Sumatra and Kalimantan (Riau, Jambi, South Sumatra, West Kalimantan, Central Kalimantan, South Kalimantan)"
+    },
+    "occurrence_date": "2026-08-24",
+    "scale": "~49,000 ha burned (BNPB); haze closed ~12,800 schools",
+    "status": "ongoing"
+  },
+  "id": "indonesia-wildfires-haze-2026",
+  "last_updated": "2026-10-01T09:26:10Z",
+  "name": "Forest Fires and Regional Haze — Indonesia",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-01T09:26:10Z",
+        "layer": "verify",
+        "run_id": "2026-10-01T09-26-10Z-4dff8d"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-01T09-26-10Z-4dff8d"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398521.0,
+    "impact_rank": 1,
+    "recency_rank": 739852
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

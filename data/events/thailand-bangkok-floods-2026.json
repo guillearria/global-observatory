@@ -32,14 +32,22 @@
       "source_url": "https://www.abc.net.au/news/2026-09-27/bangkok-thailand-declared-disaster-zone-floods-heavy-rain/107200576",
       "text": "As of 27 September 2026, the Bangkok Metropolitan Administration had established more than 200 shelters across the city with about 4,200 people evacuated into them; Governor Chadchart Sittipunt said flooding should recede once the rain subsides, as city officials work to drain floodwaters, with more thunderstorms forecast over the weekend before tapering off Monday.",
       "verification_status": "unverified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-10-01",
+      "source_name": "GDACS",
+      "source_url": "https://gdacs.org/report.aspx?eventtype=FL&eventid=1104122&episodeid=52",
+      "text": "GDACS's flood event report for Thailand (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 52, reporting window extended to 18 August-28 September 2026) records 'Death: 6' (up from 4) and 'Displaced: 569' (up from 169); overall alert level remains Green (low humanitarian impact).",
+      "verification_status": "verified"
     }
   ],
-  "description": "Torrential monsoon rain flooded Bangkok and central Thailand in late September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. GDACS's ongoing Thailand flood report (18 August-27 September 2026 window) now records 4 deaths and 169 displaced nationwide under a Green alert. Nearly 300mm of rain fell on Bangkok over 48 hours to 26 September, and the Bangkok Metropolitan Administration opened more than 200 shelters, with about 4,200 people evacuated into them; Thailand's Department of Disaster Prevention and Mitigation had reported flooding affecting about 11,796 households (37,036 people) across 12 provinces as of 25 September. Governor Chadchart Sittipunt said on 27 September that the situation had stabilised and floodwaters should recede within two to three days once rain subsides.",
+  "description": "Torrential monsoon rain flooded Bangkok and central Thailand from late September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. GDACS's ongoing Thailand flood report (18 August-28 September 2026 window, episode 52) now records 6 deaths and 569 displaced nationwide under a Green alert, up from 4 deaths and 169 displaced previously. Nearly 300mm of rain fell on Bangkok over 48 hours to 26 September, and the Bangkok Metropolitan Administration opened more than 200 shelters, with about 4,200 people evacuated into them; Thailand's Department of Disaster Prevention and Mitigation had reported flooding affecting about 11,796 households (37,036 people) across 12 provinces as of 25 September. Governor Chadchart Sittipunt said on 27 September that the situation had stabilised and floodwaters should recede within two to three days once rain subsides.",
   "event": {
     "impact": {
-      "deaths": 4,
-      "displaced": 169,
-      "summary": "GDACS's Thailand flood event report (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, window 18 August-27 September 2026) records 4 deaths and 169 displaced nationwide under an overall Green alert. Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026 after nearly 300mm of rain fell over 48 hours; the Bangkok Metropolitan Administration opened more than 200 shelters, with about 4,200 people evacuated into them, and Thailand's Department of Disaster Prevention and Mitigation reported flooding affecting about 11,796 households (37,036 people) across 38 districts and 596 villages in 12 provinces as of 25 September. On 27 September the governor said the situation had stabilised, with floodwaters expected to recede within two to three days once rain subsides."
+      "deaths": 6,
+      "displaced": 569,
+      "summary": "GDACS's Thailand flood event report (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 52, window 18 August-28 September 2026) records 6 deaths and 569 displaced nationwide under an overall Green alert, up from 4 deaths and 169 displaced in the prior episode. Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026 after nearly 300mm of rain fell over 48 hours; the Bangkok Metropolitan Administration opened more than 200 shelters, with about 4,200 people evacuated into them, and Thailand's Department of Disaster Prevention and Mitigation reported flooding affecting about 11,796 households (37,036 people) across 38 districts and 596 villages in 12 provinces as of 25 September. On 27 September the governor said the situation had stabilised, with floodwaters expected to recede within two to three days once rain subsides."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
     "location": {
@@ -53,7 +61,7 @@
     "status": "ongoing"
   },
   "id": "thailand-bangkok-floods-2026",
-  "last_updated": "2026-09-30T09:23:28Z",
+  "last_updated": "2026-10-01T09:24:19Z",
   "name": "Bangkok Flood Disaster, Thailand",
   "provenance": {
     "history": [
@@ -61,10 +69,15 @@
         "at": "2026-09-30T09:23:28Z",
         "layer": "verify",
         "run_id": "2026-09-30T09-23-28Z-6b2b2e"
+      },
+      {
+        "at": "2026-10-01T09:24:19Z",
+        "layer": "verify",
+        "run_id": "2026-10-01T09-24-19Z-44996f"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-30T09-23-28Z-6b2b2e"
+    "last_run_id": "2026-10-01T09-24-19Z-44996f"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -74,13 +87,17 @@
   },
   "updates": [
     {
+      "date": "2026-10-01",
+      "text": "GDACS's reporting window extended to 28 September (episode 52): confirmed deaths rose to 6 (from 4) and displaced to 569 (from 169) nationwide; the event remains at Green alert."
+    },
+    {
       "date": "2026-09-27",
       "text": "GDACS's death toll rose to 4 (from 3) as its reporting window extended through 27 September; the Bangkok Metropolitan Administration opened 200+ shelters (about 4,200 evacuated), and the governor said the situation had stabilised with floodwaters expected to recede in 2-3 days."
     }
   ],
   "verification": {
     "confidence": "medium",
-    "notes": "gate: 1 verified, 0 disputed, 3 unverified -> partial",
+    "notes": "gate: 2 verified, 0 disputed, 3 unverified -> partial",
     "status": "partial"
   }
 }

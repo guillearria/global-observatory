@@ -74,6 +74,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-24",
+      "retrieved_date": "2026-10-01",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/reports/dtm-sudan-focused-flash-alert-kordofan-region-7",
+      "text": "IOM's DTM Sudan Focused Flash Alert: Kordofan Region (7) (published 24 September 2026, covering 25 October 2025-1 September 2026) estimates 308,179 individuals displaced from the Kordofan region, recorded across 1,327 locations in 93 localities across 15 states; the largest numbers were recorded in Khartoum (123,509), North Kordofan (66,575) and White Nile (40,237).",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-28",
       "source_name": "ReliefWeb",
@@ -90,12 +98,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country, while its regional situation portal last recorded 11,349,317 people forcibly displaced by the Sudan crisis overall (10 August 2026 update). Displacement continues to be driven by fighting in Kordofan, Darfur and Blue Nile alongside seasonal flooding, with more than 30 million people across Sudan in need of humanitarian assistance; IOM and WFP have warned the humanitarian pipeline could collapse within weeks without further funding, with essential relief supplies due to run out by the end of September and Sudan's $3 billion appeal only 40% funded.",
+  "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country, while its regional situation portal last recorded 11,349,317 people forcibly displaced by the Sudan crisis overall (10 August 2026 update). Displacement continues to be driven by fighting in Kordofan, Darfur and Blue Nile alongside seasonal flooding, with more than 30 million people across Sudan in need of humanitarian assistance; IOM's DTM estimates 308,179 people have been displaced from the Kordofan region alone since late October 2025, mostly into Khartoum, North Kordofan and White Nile states. IOM and WFP have warned the humanitarian pipeline could collapse within weeks without further funding, with essential relief supplies due to run out by the end of September and Sudan's $3 billion appeal only 40% funded.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": 9528150,
-      "summary": "UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan, down slightly from 8,685,273 a month earlier, and 905,349 refugees and asylum-seekers hosted in the country, up from 900,819; 6.43 million of the internal displacement has occurred since April 2023. UNHCR's regional situation portal last recorded a total of 11,349,317 people forcibly displaced by the Sudan crisis (10 August 2026 update) and continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. Fighting and flooding across Kordofan, Darfur and Blue Nile continue to displace people, with more than 30 million in need nationwide. IOM warned on 14 September that Sudan's humanitarian pipeline could collapse within weeks without further funding, with shelter and sanitation supplies due to run out by the end of September and warehouses closing by December, while WFP said it was only about one-third funded and risked scaling back significantly."
+      "summary": "UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan, down slightly from 8,685,273 a month earlier, and 905,349 refugees and asylum-seekers hosted in the country, up from 900,819; 6.43 million of the internal displacement has occurred since April 2023. UNHCR's regional situation portal last recorded a total of 11,349,317 people forcibly displaced by the Sudan crisis (10 August 2026 update) and continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. IOM's DTM separately estimates 308,179 people displaced from the Kordofan region alone since late October 2025, mostly into Khartoum, North Kordofan and White Nile states. Fighting and flooding across Kordofan, Darfur and Blue Nile continue to displace people, with more than 30 million in need nationwide. IOM warned on 14 September that Sudan's humanitarian pipeline could collapse within weeks without further funding, with shelter and sanitation supplies due to run out by the end of September and warehouses closing by December, while WFP said it was only about one-third funded and risked scaling back significantly."
     },
     "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
     "location": {
@@ -109,7 +117,7 @@
     "status": "ongoing"
   },
   "id": "sudan-displacement-crisis",
-  "last_updated": "2026-09-30T09:24:27Z",
+  "last_updated": "2026-10-01T09:24:20Z",
   "name": "Sudan Displacement Crisis",
   "provenance": {
     "history": [
@@ -117,10 +125,15 @@
         "at": "2026-09-30T09:24:27Z",
         "layer": "verify",
         "run_id": "2026-09-30T09-24-27Z-8ece45"
+      },
+      {
+        "at": "2026-10-01T09:24:20Z",
+        "layer": "verify",
+        "run_id": "2026-10-01T09-24-20Z-886ec5"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-09-30T09-24-27Z-8ece45"
+    "last_run_id": "2026-10-01T09-24-20Z-886ec5"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -129,6 +142,10 @@
     "recency_rank": 738625
   },
   "updates": [
+    {
+      "date": "2026-10-01",
+      "text": "IOM's DTM Kordofan Region Flash Alert (7) (published 24 September, covering since 25 October 2025) recorded an estimated 308,179 people displaced from the Kordofan region as of 1 September 2026, with the largest numbers arriving in Khartoum (123,509), North Kordofan (66,575) and White Nile (40,237) states."
+    },
     {
       "date": "2026-09-18",
       "text": "IOM and WFP warned Sudan's humanitarian pipeline could collapse within weeks without more funding: IOM said shelter and sanitation supplies would run out by the end of September and warehouses would close by December, while WFP said it was only about one-third funded and risked scaling back significantly in the coming weeks."
@@ -160,7 +177,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
