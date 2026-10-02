@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-10-02 — World Pulse daily refresh (2026-10-02), part 3: re-verify Colombia earthquake unchanged (`2e8d1ce`)
+
+- **Updated:** colombia-earthquake-choco-2026
+
 ## 2026-10-02 — World Pulse daily refresh (2026-10-02), part 2: Sudan/DRC/Haiti updates, add Tokachidake unrest and DRC displacement surge (`ffacf26`)
 
 - **Added:** drc-north-kivu-ituri-displacement-2026, japan-volcano-tokachidake-2026
