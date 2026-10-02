@@ -2,6 +2,12 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-10-02 — World Pulse daily refresh (2026-10-02), part 2: Sudan/DRC/Haiti updates, add Tokachidake unrest and DRC displacement surge (`ffacf26`)
+
+- **Added:** drc-north-kivu-ituri-displacement-2026, japan-volcano-tokachidake-2026
+- **Updated:** china-floods-yangtze-typhoon-dolphin-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, indonesia-earthquake-flores-2026, indonesia-volcano-krakatau-2026, iran-israel-us-war-2026, philippines-floods-luis-maymay-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, yemen-conflict-escalation-2026
+- **Newly allowlisted domains:** jma.go.jp
+
 ## 2026-10-02 — World Pulse daily refresh (2026-10-02), part 1: South Asia floods + N.America wildfires/Asia typhoon-flood batch (`e6f60c5`)
 
 - **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, canada-british-columbia-wildfires-2026, india-monsoon-floods-2026, japan-typhoon-dujuan-2026, nepal-rasuwa-glacial-flood-2026, pakistan-floods-2026, thailand-bangkok-floods-2026, usa-california-big-sur-wildfires-2026, usa-washington-wildfires-2026, west-bank-settler-violence-surge-2026
