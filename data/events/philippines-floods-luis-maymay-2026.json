@@ -82,6 +82,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-19",
+      "retrieved_date": "2026-10-02",
+      "source_name": "Department of Social Welfare and Development (Philippines)",
+      "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/10/DSWD-DROMIC-Report-105-on-the-Combined-Effects-of-Enhanced-Southwest-Monsoon-and-Tropical-Cyclones-Luis-Maymay-Neneng-and-Pilandok-as-of-01-October-2026-6PM.pdf",
+      "text": "DSWD DROMIC Report #105 on the Combined Effects of Enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok (as of 1 October 2026, 6PM): a total of 3,074,596 families (10,873,216 persons) are affected in 7,103 barangays across 11 regions (NCR, CAR, I, II, III, CALABARZON, MIMAROPA, V, VI, VIII and IX). There are 2,286 families (8,101 persons) in 128 evacuation centres and 10,126 families (37,732 persons) staying with relatives or friends, for a total displaced population of 12,412 families (45,833 persons), down slightly from 12,435 families (45,912 persons) in Report #103. A total of 4,805 houses were damaged (663 totally, 4,142 partially damaged), unchanged from Report #103. DROMIC's report series does not carry a casualty count.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-17",
       "source_name": "ReliefWeb",
@@ -146,12 +154,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "The combined effects of the enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok have affected more than 10.8 million people across Luzon, Visayas and the Zamboanga Peninsula since late July 2026. DSWD's DROMIC reporting puts the still-displaced population at about 45,900 and easing sharply further as evacuation centres deactivate, even as houses damaged continue to rise, while NDRRMC figures relayed by the AHA Centre put the confirmed toll at 44 deaths, 18 injuries and 5 missing, with the national disaster alert status still at RED.",
+  "description": "The combined effects of the enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok affected more than 10.8 million people across Luzon, Visayas and the Zamboanga Peninsula since late July 2026. With no further tropical cyclones affecting the area and the AHA Centre's regional weekly updates no longer listing the event among active disasters, the response has moved into a recovery phase: DSWD's DROMIC reporting puts the still-displaced population at about 45,800 as of 1 October, down from a peak of around 202,000 in early September, even as the cumulative count of damaged houses continues to rise with ongoing assessments. NDRRMC figures relayed by the AHA Centre put the confirmed toll at 44 deaths, 18 injuries and 5 missing, unchanged since mid-September.",
   "event": {
     "impact": {
       "deaths": 44,
-      "displaced": 45912,
-      "summary": "DSWD's DROMIC Report #103 (as of 29 September 2026, 6PM) counts 3,074,821 families (10,858,538 persons) affected across 7,103 barangays in 11 regions, up from 3,068,296 families (10,836,936 persons) in Report #98; displacement has eased sharply to 45,912 people (12,435 families), down from 79,469, while houses damaged rose to 4,805 (663 totally, 4,142 partially damaged), up from 4,684. Total assistance provided to date rose to ₱2,952,380,651.76. DROMIC's report series does not carry a casualty count; the AHA Centre's Weekly Disaster Update for 7-13 September 2026, citing NDRRMC (as of 14 September), puts the toll at 44 deaths, 18 injuries and 5 missing among 9.6 million people affected. GDACS separately recorded a further Green-alert flood episode across Luzon and Mindoro from 17-19 August 2026, with 1,076 people displaced and no fatalities registered in that window."
+      "displaced": 45833,
+      "summary": "DSWD's DROMIC Report #105 (as of 1 October 2026, 6PM) counts 3,074,596 families (10,873,216 persons) affected across 7,103 barangays in 11 regions, up slightly from 3,074,821 families (10,858,538 persons) in Report #103. Displacement has eased further to 45,833 people (12,412 families) -- 8,101 in 128 evacuation centres and 37,732 staying with relatives or friends -- down from 45,912 in Report #103 and from a peak of roughly 202,000 in early September, while houses damaged held at 4,805 (663 totally, 4,142 partially damaged). DROMIC's report series does not carry a casualty count; the AHA Centre's Weekly Disaster Update for 7-13 September 2026, citing NDRRMC (as of 14 September), puts the toll at 44 deaths, 18 injuries and 5 missing among 9.6 million people affected, and the event has not appeared in the AHA Centre's regional weekly updates since. GDACS separately recorded a further Green-alert flood episode across Luzon and Mindoro from 17-19 August 2026, with 1,076 people displaced and no fatalities registered in that window."
     },
     "live_source_url": "https://reliefweb.int/country/phl",
     "location": {
@@ -161,27 +169,22 @@
       "region": "NCR, CAR and Regions I, II, III, IVA/IVB, V, VI, VIII and IX (Luzon, Visayas and Zamboanga Peninsula)"
     },
     "occurrence_date": "2026-08-01",
-    "scale": "NDRRMOC alert status RED; ~10.86 million people affected as of 29 September 2026 (DSWD DROMIC); NDRRMC: 44 deaths",
-    "status": "ongoing"
+    "scale": "NDRRMOC alert status RED (last reported); ~10.87 million people affected as of 1 October 2026 (DSWD DROMIC); NDRRMC: 44 deaths",
+    "status": "contained"
   },
   "id": "philippines-floods-luis-maymay-2026",
-  "last_updated": "2026-10-01T09:24:19Z",
+  "last_updated": "2026-10-02T09:25:45Z",
   "name": "Southwest Monsoon & Tropical Cyclones Luis/Maymay Floods, Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-30T09:24:22Z",
+        "at": "2026-10-02T09:25:45Z",
         "layer": "verify",
-        "run_id": "2026-09-30T09-24-22Z-cbe135"
-      },
-      {
-        "at": "2026-10-01T09:24:19Z",
-        "layer": "verify",
-        "run_id": "2026-10-01T09-24-19Z-f472ae"
+        "run_id": "2026-10-02T09-25-45Z-c98515"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-01T09-24-19Z-f472ae"
+    "last_run_id": "2026-10-02T09-25-45Z-c98515"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -190,6 +193,10 @@
     "recency_rank": 739829
   },
   "updates": [
+    {
+      "date": "2026-10-01",
+      "text": "DSWD's DROMIC Report #105 (6PM) recorded persons affected edging up to 10,873,216 (3,074,596 families); displacement eased slightly further to 45,833 people (12,412 families), down from 45,912, with 128 evacuation centres still open; houses damaged held at 4,805. The AHA Centre's weekly updates no longer list this event among active disasters, so status is moved to contained."
+    },
     {
       "date": "2026-09-29",
       "text": "DSWD's DROMIC Report #103 (6PM) recorded affected population rising to 10,858,538 persons (3,074,821 families), up from 10,836,936; displacement eased sharply to 45,912 people (12,435 families), down from 79,469; houses damaged rose to 4,805 (663 totally, 4,142 partially damaged), up from 4,684; total assistance provided rose to ₱2,952,380,651.76."
@@ -245,7 +252,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

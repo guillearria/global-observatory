@@ -1,0 +1,82 @@
+{
+  "category": "conflict",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-02",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168499",
+      "text": "\"Fighting in Masisi has displaced more than 24,000 people since mid-September.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-02",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168499",
+      "text": "\"...more than 3,000 people fled Rhoe displacement camp in Djugu territory (also in Ituri province) following clashes that intensified on 27 September. According to the UN aid coordination office, OCHA, at least four people were reportedly killed and seven injured, while several houses were burned down in Blukwa.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-10-02",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168465",
+      "text": "\"The camp had provided shelter for some 19,000 people fleeing violence in the resource-rich east of the country, close to the border with Rwanda. In recent days, thousands of people fled Kigonze following reports that soldiers had entered the site searching for weapons and people suspected of belonging to non-State armed groups.\" A separate UN News report (29 September 2026) cites OCHA: the camp \"hosts nearly 19,000 displaced people\" who have faced \"armed violence, threats and intimidation against civilians, arrests, forced displacement and the destruction of shelters\" since security incidents began on 20 September.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A fresh wave of armed clashes across North Kivu's Masisi territory and Ituri province in eastern DR Congo has displaced tens of thousands of people since mid-September 2026. The UN's OCHA says fighting in Masisi alone has displaced more than 24,000 people, while clashes between armed groups near Djugu in Ituri forced over 3,000 people to flee the Rhoe displacement camp on 27 September, killing at least four civilians, and separate incidents at Bunia's Kigonze camp — home to roughly 19,000 displaced people — have driven thousands more to leave after soldiers entered the site. The unrest is also disrupting the response to DR Congo's ongoing Ebola outbreak.",
+  "event": {
+    "impact": {
+      "deaths": 4,
+      "displaced": 27000,
+      "summary": "OCHA reports more than 24,000 people displaced by fighting in Masisi, North Kivu, since mid-September 2026, plus over 3,000 who fled Ituri's Rhoe displacement camp on 27 September after clashes left at least four people dead and seven injured and burned houses in Blukwa. Separately, thousands have fled Bunia's Kigonze camp (sheltering roughly 19,000 displaced people) following a military search operation, complicating the regional Ebola response."
+    },
+    "live_source_url": "https://news.un.org/en/focus/democratic-republic-congo",
+    "location": {
+      "country": "Democratic Republic of the Congo",
+      "lat": 0.1,
+      "lon": 29.5,
+      "region": "Masisi territory (North Kivu) and Djugu territory / Bunia (Ituri)"
+    },
+    "occurrence_date": "2026-09-15",
+    "scale": "Armed-group clashes (CODECO vs. Convention for the Popular Revolution, and North Kivu fighting) driving mass displacement across two provinces",
+    "status": "ongoing"
+  },
+  "id": "drc-north-kivu-ituri-displacement-2026",
+  "last_updated": "2026-10-02T09:24:58Z",
+  "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-02T09:24:58Z",
+        "layer": "verify",
+        "run_id": "2026-10-02T09-24-58Z-a9cfbd"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-02T09-24-58Z-a9cfbd"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398742.0,
+    "impact_rank": 2,
+    "recency_rank": 739874
+  },
+  "updates": [
+    {
+      "date": "2026-09-27",
+      "text": "Clashes near Djugu, Ituri intensified, forcing over 3,000 people to flee Rhoe displacement camp; OCHA reported at least four killed and seven injured, with houses burned in Blukwa."
+    },
+    {
+      "date": "2026-09-20",
+      "text": "Security incidents began at Bunia's Kigonze displacement camp (sheltering ~19,000 people) after soldiers entered searching for weapons and suspected armed-group members; OCHA reported armed violence, intimidation, arrests and shelter destruction, prompting thousands to flee."
+    }
+  ],
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

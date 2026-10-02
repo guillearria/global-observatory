@@ -1,0 +1,70 @@
+{
+  "category": "volcanic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-02",
+      "source_name": "Japan Meteorological Agency (JMA)",
+      "source_url": "https://www.jma.go.jp/jma/press/2609/12a/tokachidake_20260912.html",
+      "text": "JMA press release, 12 September 2026, 09:30 JST (Sapporo Regional Headquarters): \"十勝岳の噴火警戒レベルを２（火口周辺規制）から３（入山規制）に引上げ\" (Tokachidake's volcanic alert level raised from 2, crater-vicinity restriction, to 3, mountain-entry restriction). Reason given: \"８月１７日以降、山体付近を震源とする振幅の大きな火山性地震が増加\" (since 17 August, large-amplitude volcanic earthquakes centered near the mountain body have increased), with elevated thermal activity continuing.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-02",
+      "source_name": "Japan Meteorological Agency (JMA)",
+      "source_url": "https://www.data.jma.go.jp/vois/data/report/activity_info/108.html",
+      "text": "JMA's live volcanic activity status page for Tokachidake, checked 2 October 2026 (status dated from the 12 September 2026 09:30 JST bulletin with subsequent updates): Alert Level 3 (crater-vicinity warning/entry restriction) remains in effect; volcanic earthquakes have increased, with large-amplitude volcanic earthquakes occurring multiple times, indicating heightened volcanic activity; entry restrictions are in place in five municipalities in Hokkaido; people are warned to stay alert for large ejected rocks within approximately 3 km of the crater; ground deformation has continued since March and volcanic gas emissions have increased since April, meaning an eruption remains possible.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Japan's Meteorological Agency raised the volcanic alert level for Mount Tokachidake in Hokkaido from Level 2 to Level 3 (entry restriction) at 09:30 JST on 12 September 2026. The escalation followed a rise in large-amplitude volcanic earthquakes centered near the mountain since 17 August 2026. As of JMA's live activity status checked 2 October 2026, Level 3 remains in effect, with entry restrictions covering five Hokkaido municipalities around the crater and ongoing ground deformation (since March) and elevated volcanic gas emissions (since April) pointing to continued eruption potential within about 3 km of the crater.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "No casualties have been reported. JMA's live volcanic activity status (checked 2 October 2026) confirms Alert Level 3 remains current, with mountain-entry restrictions in place across five municipalities around Tokachidake, continuing ground deformation since March, increased volcanic gas (SO2) emissions since April, and the risk of large ejected rocks within roughly 3 km of the crater."
+    },
+    "live_source_url": "https://www.data.jma.go.jp/vois/data/report/activity_info/108.html",
+    "location": {
+      "country": "Japan",
+      "lat": 43.418,
+      "lon": 142.686,
+      "region": "Tokachidake, Hokkaido (entry restrictions across five surrounding municipalities)"
+    },
+    "occurrence_date": "2026-09-12",
+    "scale": "JMA Volcanic Alert Level 3 (entry restriction)",
+    "status": "ongoing"
+  },
+  "id": "japan-volcano-tokachidake-2026",
+  "last_updated": "2026-10-02T09:24:57Z",
+  "name": "Volcanic Unrest — Mount Tokachidake, Japan",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-02T09:24:57Z",
+        "layer": "verify",
+        "run_id": "2026-10-02T09-24-57Z-f5a9d3"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-02T09-24-57Z-f5a9d3"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398711.0,
+    "impact_rank": 1,
+    "recency_rank": 739871
+  },
+  "updates": [
+    {
+      "date": "2026-09-12",
+      "text": "JMA raised Tokachidake's volcanic alert level from 2 to 3 (entry restriction) at 09:30 JST, citing a rise in large-amplitude volcanic earthquakes near the mountain since 17 August."
+    }
+  ],
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

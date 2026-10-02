@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T09:22:26Z",
+  "last_updated": "2026-10-02T09:25:45Z",
   "published": [
     {
       "category": "flood",
@@ -1238,7 +1238,7 @@
         },
         {
           "id": "claim-new-sept27",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
           "text": "GDACS's flood event report for China (reporting window through 27 September 2026) records the confirmed death toll unchanged at 6, with 400,850 people displaced, up from 399,045 as of the prior episode; heavy rain caused flooding in areas of Chongqing Municipality in late September 2026, and the event remains at Orange alert.",
@@ -1264,23 +1264,18 @@
         "status": "ongoing"
       },
       "id": "china-floods-yangtze-typhoon-dolphin-2026",
-      "last_updated": "2026-10-01T09:24:19Z",
+      "last_updated": "2026-10-02T09:25:44Z",
       "name": "Typhoon Dolphin Flooding, Central China",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:15:28Z",
+            "at": "2026-10-02T09:25:44Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-15-28Z-bd0430"
-          },
-          {
-            "at": "2026-10-01T09:24:19Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-19Z-ef014d"
+            "run_id": "2026-10-02T09-25-44Z-a3e540"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-19Z-ef014d"
+        "last_run_id": "2026-10-02T09-25-44Z-a3e540"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1608,6 +1603,88 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "conflict",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-10-02",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/10/1168499",
+          "text": "\"Fighting in Masisi has displaced more than 24,000 people since mid-September.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-10-02",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/10/1168499",
+          "text": "\"...more than 3,000 people fled Rhoe displacement camp in Djugu territory (also in Ituri province) following clashes that intensified on 27 September. According to the UN aid coordination office, OCHA, at least four people were reportedly killed and seven injured, while several houses were burned down in Blukwa.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-10-02",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/09/1168465",
+          "text": "\"The camp had provided shelter for some 19,000 people fleeing violence in the resource-rich east of the country, close to the border with Rwanda. In recent days, thousands of people fled Kigonze following reports that soldiers had entered the site searching for weapons and people suspected of belonging to non-State armed groups.\" A separate UN News report (29 September 2026) cites OCHA: the camp \"hosts nearly 19,000 displaced people\" who have faced \"armed violence, threats and intimidation against civilians, arrests, forced displacement and the destruction of shelters\" since security incidents began on 20 September.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A fresh wave of armed clashes across North Kivu's Masisi territory and Ituri province in eastern DR Congo has displaced tens of thousands of people since mid-September 2026. The UN's OCHA says fighting in Masisi alone has displaced more than 24,000 people, while clashes between armed groups near Djugu in Ituri forced over 3,000 people to flee the Rhoe displacement camp on 27 September, killing at least four civilians, and separate incidents at Bunia's Kigonze camp — home to roughly 19,000 displaced people — have driven thousands more to leave after soldiers entered the site. The unrest is also disrupting the response to DR Congo's ongoing Ebola outbreak.",
+      "event": {
+        "impact": {
+          "deaths": 4,
+          "displaced": 27000,
+          "summary": "OCHA reports more than 24,000 people displaced by fighting in Masisi, North Kivu, since mid-September 2026, plus over 3,000 who fled Ituri's Rhoe displacement camp on 27 September after clashes left at least four people dead and seven injured and burned houses in Blukwa. Separately, thousands have fled Bunia's Kigonze camp (sheltering roughly 19,000 displaced people) following a military search operation, complicating the regional Ebola response."
+        },
+        "live_source_url": "https://news.un.org/en/focus/democratic-republic-congo",
+        "location": {
+          "country": "Democratic Republic of the Congo",
+          "lat": 0.1,
+          "lon": 29.5,
+          "region": "Masisi territory (North Kivu) and Djugu territory / Bunia (Ituri)"
+        },
+        "occurrence_date": "2026-09-15",
+        "scale": "Armed-group clashes (CODECO vs. Convention for the Popular Revolution, and North Kivu fighting) driving mass displacement across two provinces",
+        "status": "ongoing"
+      },
+      "id": "drc-north-kivu-ituri-displacement-2026",
+      "last_updated": "2026-10-02T09:24:58Z",
+      "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-10-02T09:24:58Z",
+            "layer": "verify",
+            "run_id": "2026-10-02T09-24-58Z-a9cfbd"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-10-02T09-24-58Z-a9cfbd"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398742.0,
+        "impact_rank": 2,
+        "recency_rank": 739874
+      },
+      "updates": [
+        {
+          "date": "2026-09-27",
+          "text": "Clashes near Djugu, Ituri intensified, forcing over 3,000 people to flee Rhoe displacement camp; OCHA reported at least four killed and seven injured, with houses burned in Blukwa."
+        },
+        {
+          "date": "2026-09-20",
+          "text": "Security incidents began at Bunia's Kigonze displacement camp (sheltering ~19,000 people) after soldiers entered searching for weapons and suspected armed-group members; OCHA reported armed violence, intimidation, arrests and shelter destruction, prompting thousands to flee."
+        }
+      ],
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -2031,6 +2108,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-sept29",
+          "retrieved_date": "2026-10-02",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 1 October 2026, 16:30, data through 29 September 2026): 'On 30 September 2026, the Democratic Republic of the Congo (DRC) reported a total of 8 224 confirmed cases, including 3 982 related deaths (from data up until 29 September).' Provincial breakdown: Ituri 6,250 cases/2,885 deaths (28 of 36 health zones), North Kivu 1,570 cases/931 deaths (16 of 34 health zones), Haut-Uele 344 cases/144 deaths (7 of 13 health zones), Tshopo 45 cases/16 deaths (7 of 23 health zones), Bas-Uele 10 cases/4 deaths (3 of 11 health zones), South Kivu 3 cases/1 death (1 of 34 health zones) and Sud-Ubangi 2 cases/1 death (1 of 16 health zones), with 63 of 167 health zones affected across seven provinces. Uganda's linked outbreak remains closed (20 confirmed cases, two deaths; declared over by WHO on 26 August 2026).",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-ecdc-sept3",
           "retrieved_date": "2026-09-04",
           "source_name": "ECDC",
@@ -2063,12 +2148,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 27 September 2026) puts the DRC toll at 8,116 confirmed cases and 3,924 deaths, spanning 63 of 167 health zones across seven provinces -- now the country's largest recorded Ebola epidemic. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
+      "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 29 September 2026) puts the DRC toll at 8,224 confirmed cases and 3,982 deaths, spanning 63 of 167 health zones across seven provinces -- now the country's largest recorded Ebola epidemic. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
       "event": {
         "impact": {
-          "deaths": 3924,
+          "deaths": 3982,
           "displaced": null,
-          "summary": "ECDC's newest country overview (data through 27 September 2026) puts the DRC toll at 8,116 confirmed cases and 3,924 deaths, up from 8,067 cases and 3,901 deaths at the 26 September data cut. The outbreak spans 63 of 167 health zones across seven provinces, with Ituri province reporting 6,182 cases and North Kivu 1,541 cases. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest country overview (data through 29 September 2026) puts the DRC toll at 8,224 confirmed cases and 3,982 deaths, up from 8,116 cases and 3,924 deaths at the 27 September data cut. The outbreak spans 63 of 167 health zones across seven provinces, with Ituri province reporting 6,250 cases and North Kivu 1,570 cases. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -2082,23 +2167,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-10-01T09:26:07Z",
+      "last_updated": "2026-10-02T09:24:59Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:16:22Z",
+            "at": "2026-10-02T09:24:59Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-16-22Z-400fad"
-          },
-          {
-            "at": "2026-10-01T09:26:07Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-26-07Z-28be68"
+            "run_id": "2026-10-02T09-24-59Z-c2d016"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-26-07Z-28be68"
+        "last_run_id": "2026-10-02T09-24-59Z-c2d016"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2107,6 +2187,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-10-02",
+          "text": "ECDC's updated country overview (data through 29 September) put the DRC toll at 8,224 confirmed cases and 3,982 deaths, up from 8,116 cases and 3,924 deaths at the 27 September data cut, still spanning 63 of 167 health zones across seven provinces."
+        },
         {
           "date": "2026-10-01",
           "text": "ECDC's updated country overview (data through 27 September) put the DRC toll at 8,116 confirmed cases and 3,924 deaths, up from 8,067 cases and 3,901 deaths at the 26 September data cut, still spanning 63 of 167 health zones across seven provinces."
@@ -2202,7 +2286,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 56 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 57 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -2306,6 +2390,22 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-24",
+          "retrieved_date": "2026-10-02",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/sudan/protection-cluster-alert-el-obeid",
+          "text": "Protection Cluster/UNHCR 'Protection Cluster Alert El Obeid' (posted 30 September 2026, originally published 29 September 2026): drone strikes on 25 September 2026 reportedly struck several civilian locations in El Obeid, including a shelter hosting displaced families, a fuel station, a civilian passenger bus and a residential house; at least two civilians were reportedly killed and around 20 others injured. The alert describes this as part of a wider escalation across North Kordofan and a recurring pattern of drone attacks affecting civilians, displaced populations and essential civilian infrastructure in and around El Obeid.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-25",
+          "retrieved_date": "2026-10-02",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/world/13-children-reportedly-killed-or-injured-drone-strike-displacement-shelter-al-obeid-sudan",
+          "text": "UNICEF statement via ReliefWeb (posted and originally published 1 October 2026): a drone strike late on 30 September/1 October 2026 on the Al Mina Al Bari shelter for internally displaced people in El Obeid, North Kordofan, reportedly killed one boy and injured 12 children (five boys, seven girls). UNICEF Representative in Sudan Angela Kearney said 'any sense of safety was shattered' and called for attacks on child-protection sites to stop; UNICEF notes more than 400 children were reportedly killed or injured by drone attacks nationwide between January and September 2026.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-08-30",
           "source_name": "ReliefWeb",
@@ -2346,12 +2446,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Rapid Support Forces (RSF) paramilitary fighters have besieged El Obeid, the capital of Sudan's North Kordofan state, subjecting the city to sustained drone strikes and blockade, and UN News reported on 10 August 2026 that RSF forces had encircled the city and were threatening a full-scale ground assault. The UN Human Rights Office documented 15 drone strikes in three weeks that killed at least 45 civilians (3 July), and WFP counted more than 120,000 displaced people in the city's Unified IDP Camp alone (17 July), with rations cut to 50 percent of the full entitlement by funding shortfalls. Displacement into the city continues: OCHA reported roughly 15,000 families arriving over three weeks in mid-August, and WFP's Acting Executive Director, after an 8-day Sudan mission, said in mid-September that the city's overall population -- about a million before the war -- has 'kind of doubled in size.' UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still 'faces a partial RSF siege with repeated drone attacks on critical infrastructure.' No ceasefire has been confirmed and the siege remains ongoing.",
+      "description": "Rapid Support Forces (RSF) fighters have besieged El Obeid, capital of Sudan's North Kordofan state, since mid-2026 with sustained drone strikes and blockade, prompting UN warnings of a risk of mass atrocities. The UN Human Rights Office documented 15 drone strikes in three weeks that killed at least 45 civilians (3 July), and WFP counted more than 120,000 displaced people in the city's Unified IDP Camp alone (17 July). WFP's Acting Executive Director said in mid-September that the city's overall population -- about a million before the war -- has 'kind of doubled in size.' UN High Commissioner Volker Türk told the Human Rights Council on 7 September that El Obeid still 'faces a partial RSF siege with repeated drone attacks on critical infrastructure.' Strikes have continued into late September and early October, including a 25 September attack on a displacement shelter, fuel station and bus that killed at least two and injured about 20, and a 1 October strike on the Al Mina Al Bari IDP shelter that killed one child and injured 12 others. No ceasefire has been confirmed and the siege remains ongoing.",
       "event": {
         "impact": {
           "deaths": 45,
           "displaced": 120000,
-          "summary": "The most recent precise aggregate figures for El Obeid remain at least 45 civilians killed (UN Human Rights Office, 3 July 2026) and more than 120,000 people sheltering in the Unified IDP Camp (WFP, 17 July), while OCHA reported roughly 15,000 families newly displaced into the city over the three weeks to 12 August. WFP's Acting Executive Director, after visiting the city in September, described its overall population as having roughly doubled from about a million before the war, though no precise updated count has been published. Humanitarian partners have delivered two million litres of drinking water to about 133,000 people amid severe shortages, and Sudan's wider response remains underfunded, with US$1.2 billion received of the US$3 billion required. RSF forces have encircled the city, and UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still faces a partial RSF siege with repeated drone attacks on critical infrastructure; no ceasefire or lifting of the siege has been confirmed."
+          "summary": "The most recent precise aggregate figures for El Obeid remain at least 45 civilians killed (UN Human Rights Office, 3 July 2026) and more than 120,000 people sheltering in the Unified IDP Camp (WFP, 17 July), while WFP's Acting Executive Director described the city's overall population as having roughly doubled from about a million before the war. Drone strikes have continued into late September and early October 2026: a 25 September attack on a displacement shelter, fuel station and bus killed at least two civilians and injured about 20 (Protection Cluster/UNHCR), and a 1 October strike on the Al Mina Al Bari IDP shelter killed one child and injured 12 others (UNICEF), which noted more than 400 children have been killed or injured by drone attacks nationwide this year. Sudan's wider response remains underfunded, with US$1.2 billion received of the US$3 billion required. UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still faces a partial RSF siege with repeated drone attacks on critical infrastructure; no ceasefire or lifting of the siege has been confirmed."
         },
         "live_source_url": "https://reliefweb.int/country/sdn",
         "location": {
@@ -2365,23 +2465,18 @@
         "status": "ongoing"
       },
       "id": "el-obeid-siege-sudan-2026",
-      "last_updated": "2026-10-01T09:24:20Z",
+      "last_updated": "2026-10-02T09:25:00Z",
       "name": "Siege of El Obeid — North Kordofan, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:16:22Z",
+            "at": "2026-10-02T09:25:00Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-16-22Z-3c9bb6"
-          },
-          {
-            "at": "2026-10-01T09:24:20Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-20Z-6e5e55"
+            "run_id": "2026-10-02T09-25-00Z-47ba97"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-20Z-6e5e55"
+        "last_run_id": "2026-10-02T09-25-00Z-47ba97"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2390,6 +2485,10 @@
         "recency_rank": 739782
       },
       "updates": [
+        {
+          "date": "2026-10-01",
+          "text": "Drone strikes continued to hit El Obeid: a 25 September attack on a displacement shelter, fuel station, bus and house killed at least 2 and injured about 20 (Protection Cluster/UNHCR), and a strike on the Al Mina Al Bari IDP shelter on 30 September/1 October killed one child and injured 12 others (UNICEF)."
+        },
         {
           "date": "2026-09-14",
           "text": "WFP's Acting Executive Director, after an 8-day Sudan mission, said El Obeid's overall population -- about a million before the war -- has 'kind of doubled in size' from displacement, and that the city faced a serious siege risk a few weeks earlier; no precise updated population or displacement figure accompanied the remarks."
@@ -2437,7 +2536,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3145,6 +3244,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-24",
+          "retrieved_date": "2026-10-02",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/haiti/haiti-emergency-tracking-tool-ett-110-displacements-following-armed-violence-commune-gros-morne-artibonite-28-30-september-2026",
+          "text": "IOM DTM 'Haiti -- Emergency Tracking Tool (ETT) 110' (data collection 28-30 September 2026, published 1 October 2026): armed violence on 28 September 2026 in the commune of Gros-Morne, Artibonite department -- affecting the localities of Peletier, Carnifice, Centre-Ville, Kamas and Dosny -- displaced approximately 5,254 people (1,214 households). Most (92%) found refuge with host families, mainly in Gros Morne and Gonaives communes, while 439 people settled in two newly established sites.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-08-11",
           "source_name": "United Nations",
@@ -3177,12 +3284,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement now spreading beyond Port-au-Prince into previously safer areas. IOM's Displacement Tracking Matrix Round 14 report (data through 12 August 2026, published 23 September) puts the national total at nearly 1.5 million IDPs, with Artibonite department recording the largest three-month increase (+16%) as insecurity spreads there. Briefing the UN Security Council on 28 August, BINUH head Carlos Ruiz Massieu reported at least 1,408 killed and 656 injured from April-June, and OCHA cited 5,500+ gender-based violence incidents this year. The 23-24 August attack on Kenscoff killed at least 47 -- including 22 reportedly executed inside a church -- and displaced more than 2,600. On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027, and the Secretary-General condemned a 28 September gang attack in Gros-Morne, Artibonite, that reportedly killed at least 11 people. About 6.4 million people need humanitarian assistance this year.",
+      "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement now spreading beyond Port-au-Prince into previously safer areas. IOM's Displacement Tracking Matrix Round 14 report (data through 12 August 2026) puts the national total at nearly 1.5 million IDPs, with Artibonite department recording the largest three-month increase (+16%) as insecurity spreads there. A 28 September gang attack in Gros-Morne, Artibonite, that the Secretary-General said reportedly killed at least 11 people also displaced approximately 5,254 people (IOM Emergency Tracking Tool, 1 October). Briefing the UN Security Council on 28 August, BINUH head Carlos Ruiz Massieu reported at least 1,408 killed and 656 injured from April-June, and OCHA cited 5,500+ gender-based violence incidents this year. The 23-24 August attack on Kenscoff killed at least 47, including 22 reportedly executed inside a church. On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027. About 6.4 million people need humanitarian assistance this year.",
       "event": {
         "impact": {
           "deaths": 3000,
           "displaced": 1490000,
-          "summary": "IOM's Displacement Tracking Matrix Round 14 report (covering 15 May-12 August 2026, published 23 September) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite department recording the largest increase of any department (+16%) over the reporting period as the security situation there deteriorates further. Briefing the UN Security Council on 28 August 2026, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026, while BINUH head Carlos Ruiz Massieu put the April-June quarterly toll at more than 1,400 killed and more than 600 injured. The 23-24 August gang attack on Kenscoff killed at least 47 people, displaced more than 2,600 and saw over 50 people abducted. On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027 (12 votes in favour, 3 abstentions), and the Secretary-General condemned a 28 September gang attack in Gros-Morne, Artibonite, that reportedly killed at least 11 people."
+          "summary": "IOM's Displacement Tracking Matrix Round 14 report (covering 15 May-12 August 2026) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite department recording the largest increase of any department (+16%) as the security situation there deteriorates further. A 28 September 2026 gang attack in Gros-Morne, Artibonite -- which the Secretary-General said reportedly killed at least 11 people -- displaced approximately 5,254 people (1,214 households), per IOM's Emergency Tracking Tool (ETT 110, published 1 October), with 92% taking refuge with host families. Briefing the UN Security Council on 28 August 2026, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026, while BINUH head Carlos Ruiz Massieu put the April-June quarterly toll at more than 1,400 killed and more than 600 injured. The 23-24 August gang attack on Kenscoff killed at least 47 people and displaced more than 2,600. On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027 (12 votes in favour, 3 abstentions)."
         },
         "live_source_url": "https://dtm.iom.int/haiti",
         "location": {
@@ -3196,23 +3303,18 @@
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-10-01T09:24:20Z",
+      "last_updated": "2026-10-02T09:25:00Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:16:23Z",
+            "at": "2026-10-02T09:25:00Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-16-23Z-17722f"
-          },
-          {
-            "at": "2026-10-01T09:24:20Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-20Z-47dbe2"
+            "run_id": "2026-10-02T09-25-00Z-731fe8"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-20Z-47dbe2"
+        "last_run_id": "2026-10-02T09-25-00Z-731fe8"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3221,6 +3323,10 @@
         "recency_rank": 739816
       },
       "updates": [
+        {
+          "date": "2026-10-01",
+          "text": "IOM's Emergency Tracking Tool (ETT 110) recorded approximately 5,254 people (1,214 households) displaced by armed violence on 28 September in Gros-Morne, Artibonite -- the same attack the Secretary-General condemned for reportedly killing at least 11 people -- with 92% taking refuge with host families and 439 in two newly established sites."
+        },
         {
           "date": "2026-10-01",
           "text": "The UN Security Council adopted resolution 2829 (2026) on 29 September, renewing the Gang Suppression Force's mandate and extending the UN Support Office in Haiti for six months, to 31 March 2027 (12 votes in favour, 3 abstentions). The Secretary-General condemned a 28 September gang attack in Gros-Morne, Artibonite, that reportedly killed at least 11 people."
@@ -3260,7 +3366,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3733,19 +3839,19 @@
         },
         {
           "id": "claim-9",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/disaster/eq-2026-000150-idn",
           "text": "Re-checked 20 September 2026: the Indonesian Humanitarian Coordination Platform's Situation Report No. 9 (14 September 2026, BNPB data as of 9 September) remains the latest numbered situation report listed on ReliefWeb's Flores earthquake and tsunami disaster page, with no Situation Report No. 10 yet published. GDACS's event report for this earthquake (event id 1558059) is unchanged: Red alert, GDACS score 2.1, about 870,000 people exposed to MMI VII or greater shaking, and a maximum tsunami wave of about 1.68 m.",
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.7 shallow earthquake struck off Flores Island in East Nusa Tenggara, Indonesia, on 14 August 2026 at 21:58:21 UTC, centered about 68 km NNW of Ende at a depth of 10 km, where the Australia and Sunda plates converge; GDACS recorded a tsunami with a maximum wave height of about 1.68 m. Indonesia's BNPB, via the Indonesian Humanitarian Coordination Platform's Situation Report No. 9 (data as of 9 September), now puts the toll at 135 deaths and 1,764 injured, with displacement down sharply to 60,572 as people return to self-managed shelters near their homes, and 98,986 houses damaged (26,089 severely). A sustained aftershock sequence has followed, the largest a M6.1 event 58 km north of Ende. USGS assessed a Yellow PAGER alert with roughly 2 million people exposed to strong-to-violent shaking, while GDACS's Red-alert report still estimates about 870,000 people within zones of MMI VII or greater, not yet reflecting BNPB's updated figures.",
+      "description": "A magnitude 7.7 shallow earthquake struck off Flores Island in East Nusa Tenggara, Indonesia, on 14 August 2026 at 21:58:21 UTC, centered about 68 km NNW of Ende at a depth of 10 km, where the Australia and Sunda plates converge; GDACS recorded a tsunami with a maximum wave height of about 1.68 m. Indonesia's BNPB, via the Indonesian Humanitarian Coordination Platform's Situation Report No. 9 (data as of 9 September), put the toll at 135 deaths and 1,764 injured, with displacement down sharply to 60,572 as people returned to self-managed shelters near their homes, and 98,986 houses damaged (26,089 severely). No numbered situation report newer than No. 9 has been published; the response has moved into a recovery phase, with BNPB constructing temporary housing for displaced households in the seven affected districts. A sustained aftershock sequence followed the mainshock, the largest a M6.1 event 58 km north of Ende. GDACS's Red-alert report still estimates about 870,000 people within zones of MMI VII or greater shaking, not yet reflecting BNPB's updated figures.",
       "event": {
         "impact": {
           "deaths": 135,
           "displaced": 60572,
-          "summary": "Indonesia's BNPB, per the Indonesian Humanitarian Coordination Platform's Situation Report No. 9 (data as of 9 September 2026), now puts the toll at 135 deaths (48 direct, 87 indirect) and 1,764 injured, with 98,986 houses damaged (26,089 severely) across East Nusa Tenggara. Displacement has fallen sharply to 60,572, down from 180,327 in late August, as many affected people have returned to self-managed shelters close to their homes even as coordination needs remain. GDACS's Red-alert report still has not incorporated BNPB's updated figures, continuing to estimate about 870,000 people exposed to MMI VII or greater shaking and a maximum tsunami wave height of about 1.68 m. USGS's PAGER alert remains Yellow."
+          "summary": "Indonesia's BNPB, per the Indonesian Humanitarian Coordination Platform's Situation Report No. 9 (data as of 9 September 2026), puts the toll at 135 deaths (48 direct, 87 indirect) and 1,764 injured, with 98,986 houses damaged (26,089 severely) across East Nusa Tenggara. Displacement had fallen sharply to 60,572, down from 180,327 in late August, as many affected people returned to self-managed shelters close to their homes. No newer numbered situation report has followed; the response has shifted into recovery, with BNPB building temporary housing for displaced households. GDACS's Red-alert report still has not incorporated BNPB's updated figures, continuing to estimate about 870,000 people exposed to MMI VII or greater shaking and a maximum tsunami wave height of about 1.68 m. USGS's PAGER alert remains Yellow."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558059",
         "location": {
@@ -3756,26 +3862,21 @@
         },
         "occurrence_date": "2026-08-14",
         "scale": "M7.7; GDACS Red alert; 135 deaths and 60,572 displaced as of 9 Sep (BNPB via MPBI Sitrep No. 9); sustained aftershock sequence, largest M6.1",
-        "status": "ongoing"
+        "status": "contained"
       },
       "id": "indonesia-earthquake-flores-2026",
-      "last_updated": "2026-10-01T09:24:18Z",
+      "last_updated": "2026-10-02T09:25:44Z",
       "name": "M7.7 Earthquake, Flores, Indonesia",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:25:48Z",
+            "at": "2026-10-02T09:25:44Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-25-48Z-c64205"
-          },
-          {
-            "at": "2026-10-01T09:24:18Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-18Z-169738"
+            "run_id": "2026-10-02T09-25-44Z-02e3e0"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-18Z-169738"
+        "last_run_id": "2026-10-02T09-25-44Z-02e3e0"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3784,6 +3885,10 @@
         "recency_rank": 739842
       },
       "updates": [
+        {
+          "date": "2026-10-02",
+          "text": "No situation report newer than Sitrep No. 9 (14 September, BNPB data as of 9 September) has been published, and GDACS's event report remains unchanged (Red alert, ~870,000 exposed, 1.68m tsunami). With displacement already down sharply and reconstruction of temporary housing underway in the seven affected districts, status is moved to contained."
+        },
         {
           "date": "2026-09-16",
           "text": "BNPB's provisional data, per the Indonesian Humanitarian Coordination Platform's Situation Report No. 9 (data as of 9 September), raised the toll to 135 deaths (48 direct, 87 indirect) and 1,764 injured, while displacement fell sharply to 60,572 from 180,327 as people returned to self-managed shelters near their homes; damaged houses rose to 98,986 (26,089 severely) from 73,818."
@@ -3844,19 +3949,19 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "Badan Geologi / PVMBG (Indonesia)",
           "source_url": "http://geologi.esdm.go.id/media-center/laporan-khusus-penurunan-tingkat-aktivitas-gunungapi-anak-krakatau-provinsi-lampung-dari-level-iii-siaga-menjadi-level-ii-waspada-tanggal-21-september-2026-pukul-18-30-wib",
           "text": "Indonesia's Badan Geologi (PVMBG), in a Special Report (Laporan Khusus) dated 21 September 2026, downgraded Gunung Anak Krakatau's activity level from Level III (Siaga) to Level II (Waspada), effective 21 September 2026 at 18:30 WIB (\"terhitung mulai tanggal 21 September 2026 pukul 18.30 WIB\"), and reduced the exclusion zone from 3km to 2km from the volcano's center (\"tidak diperbolehkan memasuki dan melakukan kegiatan di dalam wilayah radius 2 km\"). It cites declining seismicity on 20 September (\"1 kali Gempa Low Frequency dan Tremor Menerus dengan rata rata amplitudo 2 mm\") and a deflation trend in deformation monitoring supporting the downgrade, and asks residents of the Banten and Lampung coasts to stay calm and not believe rumors of an eruption (\"jangan mempercayai isu-isu tentang erupsi\").",
           "verification_status": "verified"
         }
       ],
-      "description": "Indonesia's Krakatau volcano, in the Sunda Strait, began a high-level eruption on 4 September 2026 that GDACS rated a VEI 6 event under an Orange alert, with a 25-hour continuous episode running from 21:00 UTC on 4 September to 14:30 UTC on 5 September; GDACS estimates about 2,000 people live within 30km of the volcano. Indonesia's Badan Geologi (PVMBG) downgraded the volcano from Alert Level III (Siaga) to Level II (Waspada) on 21 September, citing declining seismicity and ground deformation, and reduced the mandatory exclusion zone from 3km to 2km around the crater.",
+      "description": "Indonesia's Krakatau volcano, in the Sunda Strait, began a high-level eruption on 4 September 2026 that GDACS rated a VEI 6 event under an Orange alert, with a 25-hour continuous episode running from 21:00 UTC on 4 September to 14:30 UTC on 5 September; GDACS estimates about 2,000 people live within 30km of the volcano. Indonesia's Badan Geologi (PVMBG) downgraded the volcano from Alert Level III (Siaga) to Level II (Waspada) on 21 September, citing declining seismicity and ground deformation, and reduced the mandatory exclusion zone from 3km to 2km around the crater. As of early October, PVMBG has not reported any further change to this Level II status.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's Orange-alert report for this event estimates about 2,000 people live within 30km of Krakatau and rates the initial episode a VEI 6 event running from 21:00 UTC on 4 September to 14:30 UTC on 5 September 2026. No casualty or displacement figures have been published by an authoritative source. Indonesia's Badan Geologi (PVMBG) downgraded the volcano's alert level from Level III (Siaga) to Level II (Waspada) effective 21 September 2026, 18:30 WIB, citing declining seismicity and a deflation trend in ground deformation, and reduced the mandatory exclusion zone from 3km to 2km around the crater."
+          "summary": "GDACS's Orange-alert report for this event estimates about 2,000 people live within 30km of Krakatau and rates the initial episode a VEI 6 event running from 21:00 UTC on 4 September to 14:30 UTC on 5 September 2026. No casualty or displacement figures have been published by an authoritative source. Indonesia's Badan Geologi (PVMBG) downgraded the volcano's alert level from Level III (Siaga) to Level II (Waspada) effective 21 September 2026, 18:30 WIB, citing declining seismicity and a deflation trend in ground deformation, and reduced the mandatory exclusion zone from 3km to 2km around the crater; no further change to this status has been reported since."
         },
         "live_source_url": "https://gdacs.org/report.aspx?eventid=1000148&eventtype=VO",
         "location": {
@@ -3870,23 +3975,18 @@
         "status": "ongoing"
       },
       "id": "indonesia-volcano-krakatau-2026",
-      "last_updated": "2026-10-01T09:24:18Z",
+      "last_updated": "2026-10-02T09:25:44Z",
       "name": "Volcanic Eruption — Krakatau, Indonesia",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:25:51Z",
+            "at": "2026-10-02T09:25:44Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-25-51Z-637a23"
-          },
-          {
-            "at": "2026-10-01T09:24:18Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-18Z-509fec"
+            "run_id": "2026-10-02T09-25-44Z-9e9119"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-18Z-509fec"
+        "last_run_id": "2026-10-02T09-25-44Z-9e9119"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4007,7 +4107,7 @@
         },
         {
           "id": "claim-12",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
           "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 628,000 Iranian nationals who have crossed into neighbouring countries (22 September 2026, of whom 530,000 have since crossed back into Iran), 311,500 Lebanese refugees, all recorded in the Syrian Arab Republic (21 September 2026), and 341,228 new IDPs within Lebanon (17 September 2026, down from 352,793 on 10 August) -- a combined 1,280,728 people displaced or newly refugees across those two countries -- plus 946,000 Afghan (12 September 2026) and 1,038,900 Syrian (21 September 2026) returnee movements, a combined 1,984,900.",
@@ -4019,6 +4119,14 @@
           "source_name": "Encyclopaedia Britannica",
           "source_url": "https://www.britannica.com/news/2291901/91de6619aca2e1a9a32757166eae98d0",
           "text": "An Associated Press report carried on Encyclopaedia Britannica's news page (29 September 2026, 3:09 PM ET) states Iran's currency \"fell to a new record low on Tuesday, with traders in Tehran exchanging more than 2.5 million rials to the U.S. dollar,\" a decline coming \"just 27 days after the rial hit its previous record low of 2.2 million to the dollar on Sept. 2,\" attributing the collapse to the war's toll on the Iranian economy, international sanctions and a US naval blockade on Iranian oil exports.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-15",
+          "retrieved_date": "2026-10-02",
+          "source_name": "Encyclopaedia Britannica",
+          "source_url": "https://www.britannica.com/event/2026-Iran-war",
+          "text": "Encyclopaedia Britannica's running news feed for the 2026 Iran war lists, dated 1 October 2026: \"Third aircraft carrier and thousands of troops head to Mideast as Trump weighs new Iran strikes\" (4:03 PM ET) and \"Trump says Iran will be hit 'very hard' if it is behind copilot who tried to crash flight to Israel\" (7:50 PM ET). Entries dated 30 September state Iran said it received a formal US response to its latest proposal to end the conflict, and that Secretary of State Marco Rubio told Iran's delegation to the UN General Assembly to leave New York ahead of schedule after negotiations stalled. No casualty figures accompany these items.",
           "verification_status": "verified"
         },
         {
@@ -4086,12 +4194,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping over 90%, and hostilities have persisted, including a US strike on Iran's Larak Island outpost and, on 15 September, the destruction of two small Iranian boats near the Strait. UNHCR records 628,000 Iranian nationals and 311,500 Lebanese refugees displaced across borders since the war began, alongside almost 1.98 million Afghan and Syrian returnees. Iran said on 18 September it struck an oil tanker in the Strait, with the war's cost estimated at 43.6 billion dollars, and its currency fell to a new record low on 29 September, trading above 2.5 million rials per dollar, up from 2.2 million on 2 September, as sanctions and a naval oil blockade erode the economy. The conflict remains unresolved.",
+      "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping over 90%, and hostilities have persisted, including a US strike on Iran's Larak Island outpost and, on 15 September, the destruction of two small Iranian boats near the Strait. UNHCR records 628,000 Iranian nationals and 311,500 Lebanese refugees displaced across borders since the war began, alongside almost 1.98 million Afghan and Syrian returnees. Diplomacy remains stalled: Iran said on 1 October it had received a formal US response to its latest ceasefire proposal, even as the US ordered a third carrier and more troops to the region and Trump threatened Iran would be hit 'very hard' if behind a copilot's attempt to crash a flight to Israel. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar. The conflict remains unresolved.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": 1280728,
-          "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; no single verified cumulative death toll for the war exists. UNHCR's Middle East portal (updated 12-22 September) records, since the war began: 628,000 Iranian nationals who crossed into neighbouring countries (530,000 since returned), 311,500 Lebanese refugees now in Syria and 341,228 new IDPs in Lebanon -- a combined 1,280,728 displaced or newly refugees across those two countries -- plus almost 1.98 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%; the US cleared Iranian mines from the Strait in late August, then struck Iran's Larak Island outpost, and on 15 September destroyed two small Iranian boats near the Strait. On 18 September Iran claimed it struck an oil tanker there, and a new US military estimate put the war's total cost at 43.6 billion dollars. Iran's currency then fell to a new record low on 29 September, trading above 2.5 million rials per dollar, up from 2.2 million on 2 September, as sanctions and a naval oil blockade erode the economy."
+          "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; no single verified cumulative death toll for the war exists. UNHCR's Middle East portal (updated 12-22 September) records, since the war began: 628,000 Iranian nationals who crossed into neighbouring countries (530,000 since returned), 311,500 Lebanese refugees now in Syria and 341,228 new IDPs in Lebanon -- a combined 1,280,728 displaced or newly refugees across those two countries -- plus almost 1.98 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar, up from 2.2 million on 2 September, as sanctions and a naval oil blockade erode the economy. Diplomacy remains stalled: Iran said on 1 October it had received a formal US response to its ceasefire proposal, while the US ordered a third carrier and more troops to the region and weighed new strikes after Trump said Iran would be hit 'very hard' if behind a copilot's attempt to crash a flight to Israel."
         },
         "live_source_url": "https://www.britannica.com/event/2026-Iran-war",
         "location": {
@@ -4101,27 +4209,22 @@
           "region": "Iran, Israel and Lebanon, with strikes and shipping disruption spreading across Jordan, Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, Iraq, Oman and the Strait of Hormuz"
         },
         "occurrence_date": "2026-08-17",
-        "scale": "Interstate war since 28 Feb 2026; hostilities continue into September with Strait of Hormuz tanker strikes and naval incidents",
+        "scale": "Interstate war since 28 Feb 2026; unresolved into October, with a US military buildup (third carrier, added troops) amid threats of renewed strikes",
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-10-01T09:24:20Z",
+      "last_updated": "2026-10-02T09:25:07Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:25:54Z",
+            "at": "2026-10-02T09:25:07Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-25-54Z-806019"
-          },
-          {
-            "at": "2026-10-01T09:24:20Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-20Z-a19599"
+            "run_id": "2026-10-02T09-25-07Z-110e29"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-20Z-a19599"
+        "last_run_id": "2026-10-02T09-25-07Z-110e29"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4130,6 +4233,10 @@
         "recency_rank": 739845
       },
       "updates": [
+        {
+          "date": "2026-10-01",
+          "text": "The US ordered a third aircraft carrier and thousands of additional troops to the Middle East while weighing new strikes on Iran; Trump said Iran would be hit 'very hard' if it was behind a copilot's attempted crash of a flight bound for Israel. Iran said it had received a formal US response to its ceasefire proposal, and Rubio told Iran's UN delegation to leave New York early after talks stalled."
+        },
         {
           "date": "2026-09-30",
           "text": "Iran's currency fell to a new record low on 29 September, with traders in Tehran exchanging more than 2.5 million rials to the dollar, per Encyclopaedia Britannica's news account (AP) -- down from a previous record of 2.2 million on 2 September -- as US sanctions and a naval blockade on Iranian oil exports continue to erode the economy."
@@ -4165,7 +4272,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -4636,6 +4743,76 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "volcanic",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-10-02",
+          "source_name": "Japan Meteorological Agency (JMA)",
+          "source_url": "https://www.jma.go.jp/jma/press/2609/12a/tokachidake_20260912.html",
+          "text": "JMA press release, 12 September 2026, 09:30 JST (Sapporo Regional Headquarters): \"十勝岳の噴火警戒レベルを２（火口周辺規制）から３（入山規制）に引上げ\" (Tokachidake's volcanic alert level raised from 2, crater-vicinity restriction, to 3, mountain-entry restriction). Reason given: \"８月１７日以降、山体付近を震源とする振幅の大きな火山性地震が増加\" (since 17 August, large-amplitude volcanic earthquakes centered near the mountain body have increased), with elevated thermal activity continuing.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-10-02",
+          "source_name": "Japan Meteorological Agency (JMA)",
+          "source_url": "https://www.data.jma.go.jp/vois/data/report/activity_info/108.html",
+          "text": "JMA's live volcanic activity status page for Tokachidake, checked 2 October 2026 (status dated from the 12 September 2026 09:30 JST bulletin with subsequent updates): Alert Level 3 (crater-vicinity warning/entry restriction) remains in effect; volcanic earthquakes have increased, with large-amplitude volcanic earthquakes occurring multiple times, indicating heightened volcanic activity; entry restrictions are in place in five municipalities in Hokkaido; people are warned to stay alert for large ejected rocks within approximately 3 km of the crater; ground deformation has continued since March and volcanic gas emissions have increased since April, meaning an eruption remains possible.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Japan's Meteorological Agency raised the volcanic alert level for Mount Tokachidake in Hokkaido from Level 2 to Level 3 (entry restriction) at 09:30 JST on 12 September 2026. The escalation followed a rise in large-amplitude volcanic earthquakes centered near the mountain since 17 August 2026. As of JMA's live activity status checked 2 October 2026, Level 3 remains in effect, with entry restrictions covering five Hokkaido municipalities around the crater and ongoing ground deformation (since March) and elevated volcanic gas emissions (since April) pointing to continued eruption potential within about 3 km of the crater.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "No casualties have been reported. JMA's live volcanic activity status (checked 2 October 2026) confirms Alert Level 3 remains current, with mountain-entry restrictions in place across five municipalities around Tokachidake, continuing ground deformation since March, increased volcanic gas (SO2) emissions since April, and the risk of large ejected rocks within roughly 3 km of the crater."
+        },
+        "live_source_url": "https://www.data.jma.go.jp/vois/data/report/activity_info/108.html",
+        "location": {
+          "country": "Japan",
+          "lat": 43.418,
+          "lon": 142.686,
+          "region": "Tokachidake, Hokkaido (entry restrictions across five surrounding municipalities)"
+        },
+        "occurrence_date": "2026-09-12",
+        "scale": "JMA Volcanic Alert Level 3 (entry restriction)",
+        "status": "ongoing"
+      },
+      "id": "japan-volcano-tokachidake-2026",
+      "last_updated": "2026-10-02T09:24:57Z",
+      "name": "Volcanic Unrest — Mount Tokachidake, Japan",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-10-02T09:24:57Z",
+            "layer": "verify",
+            "run_id": "2026-10-02T09-24-57Z-f5a9d3"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-10-02T09-24-57Z-f5a9d3"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398711.0,
+        "impact_rank": 1,
+        "recency_rank": 739871
+      },
+      "updates": [
+        {
+          "date": "2026-09-12",
+          "text": "JMA raised Tokachidake's volcanic alert level from 2 to 3 (entry restriction) at 09:30 JST, citing a rise in large-amplitude volcanic earthquakes near the mountain since 17 August."
+        }
+      ],
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5892,6 +6069,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-19",
+          "retrieved_date": "2026-10-02",
+          "source_name": "Department of Social Welfare and Development (Philippines)",
+          "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/10/DSWD-DROMIC-Report-105-on-the-Combined-Effects-of-Enhanced-Southwest-Monsoon-and-Tropical-Cyclones-Luis-Maymay-Neneng-and-Pilandok-as-of-01-October-2026-6PM.pdf",
+          "text": "DSWD DROMIC Report #105 on the Combined Effects of Enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok (as of 1 October 2026, 6PM): a total of 3,074,596 families (10,873,216 persons) are affected in 7,103 barangays across 11 regions (NCR, CAR, I, II, III, CALABARZON, MIMAROPA, V, VI, VIII and IX). There are 2,286 families (8,101 persons) in 128 evacuation centres and 10,126 families (37,732 persons) staying with relatives or friends, for a total displaced population of 12,412 families (45,833 persons), down slightly from 12,435 families (45,912 persons) in Report #103. A total of 4,805 houses were damaged (663 totally, 4,142 partially damaged), unchanged from Report #103. DROMIC's report series does not carry a casualty count.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-17",
           "source_name": "ReliefWeb",
@@ -5956,12 +6141,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The combined effects of the enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok have affected more than 10.8 million people across Luzon, Visayas and the Zamboanga Peninsula since late July 2026. DSWD's DROMIC reporting puts the still-displaced population at about 45,900 and easing sharply further as evacuation centres deactivate, even as houses damaged continue to rise, while NDRRMC figures relayed by the AHA Centre put the confirmed toll at 44 deaths, 18 injuries and 5 missing, with the national disaster alert status still at RED.",
+      "description": "The combined effects of the enhanced Southwest Monsoon and Tropical Cyclones Luis, Maymay, Neneng and Pilandok affected more than 10.8 million people across Luzon, Visayas and the Zamboanga Peninsula since late July 2026. With no further tropical cyclones affecting the area and the AHA Centre's regional weekly updates no longer listing the event among active disasters, the response has moved into a recovery phase: DSWD's DROMIC reporting puts the still-displaced population at about 45,800 as of 1 October, down from a peak of around 202,000 in early September, even as the cumulative count of damaged houses continues to rise with ongoing assessments. NDRRMC figures relayed by the AHA Centre put the confirmed toll at 44 deaths, 18 injuries and 5 missing, unchanged since mid-September.",
       "event": {
         "impact": {
           "deaths": 44,
-          "displaced": 45912,
-          "summary": "DSWD's DROMIC Report #103 (as of 29 September 2026, 6PM) counts 3,074,821 families (10,858,538 persons) affected across 7,103 barangays in 11 regions, up from 3,068,296 families (10,836,936 persons) in Report #98; displacement has eased sharply to 45,912 people (12,435 families), down from 79,469, while houses damaged rose to 4,805 (663 totally, 4,142 partially damaged), up from 4,684. Total assistance provided to date rose to ₱2,952,380,651.76. DROMIC's report series does not carry a casualty count; the AHA Centre's Weekly Disaster Update for 7-13 September 2026, citing NDRRMC (as of 14 September), puts the toll at 44 deaths, 18 injuries and 5 missing among 9.6 million people affected. GDACS separately recorded a further Green-alert flood episode across Luzon and Mindoro from 17-19 August 2026, with 1,076 people displaced and no fatalities registered in that window."
+          "displaced": 45833,
+          "summary": "DSWD's DROMIC Report #105 (as of 1 October 2026, 6PM) counts 3,074,596 families (10,873,216 persons) affected across 7,103 barangays in 11 regions, up slightly from 3,074,821 families (10,858,538 persons) in Report #103. Displacement has eased further to 45,833 people (12,412 families) -- 8,101 in 128 evacuation centres and 37,732 staying with relatives or friends -- down from 45,912 in Report #103 and from a peak of roughly 202,000 in early September, while houses damaged held at 4,805 (663 totally, 4,142 partially damaged). DROMIC's report series does not carry a casualty count; the AHA Centre's Weekly Disaster Update for 7-13 September 2026, citing NDRRMC (as of 14 September), puts the toll at 44 deaths, 18 injuries and 5 missing among 9.6 million people affected, and the event has not appeared in the AHA Centre's regional weekly updates since. GDACS separately recorded a further Green-alert flood episode across Luzon and Mindoro from 17-19 August 2026, with 1,076 people displaced and no fatalities registered in that window."
         },
         "live_source_url": "https://reliefweb.int/country/phl",
         "location": {
@@ -5971,27 +6156,22 @@
           "region": "NCR, CAR and Regions I, II, III, IVA/IVB, V, VI, VIII and IX (Luzon, Visayas and Zamboanga Peninsula)"
         },
         "occurrence_date": "2026-08-01",
-        "scale": "NDRRMOC alert status RED; ~10.86 million people affected as of 29 September 2026 (DSWD DROMIC); NDRRMC: 44 deaths",
-        "status": "ongoing"
+        "scale": "NDRRMOC alert status RED (last reported); ~10.87 million people affected as of 1 October 2026 (DSWD DROMIC); NDRRMC: 44 deaths",
+        "status": "contained"
       },
       "id": "philippines-floods-luis-maymay-2026",
-      "last_updated": "2026-10-01T09:24:19Z",
+      "last_updated": "2026-10-02T09:25:45Z",
       "name": "Southwest Monsoon & Tropical Cyclones Luis/Maymay Floods, Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:24:22Z",
+            "at": "2026-10-02T09:25:45Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-24-22Z-cbe135"
-          },
-          {
-            "at": "2026-10-01T09:24:19Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-19Z-f472ae"
+            "run_id": "2026-10-02T09-25-45Z-c98515"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-19Z-f472ae"
+        "last_run_id": "2026-10-02T09-25-45Z-c98515"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6000,6 +6180,10 @@
         "recency_rank": 739829
       },
       "updates": [
+        {
+          "date": "2026-10-01",
+          "text": "DSWD's DROMIC Report #105 (6PM) recorded persons affected edging up to 10,873,216 (3,074,596 families); displacement eased slightly further to 45,833 people (12,412 families), down from 45,912, with 128 evacuation centres still open; houses damaged held at 4,805. The AHA Centre's weekly updates no longer list this event among active disasters, so status is moved to contained."
+        },
         {
           "date": "2026-09-29",
           "text": "DSWD's DROMIC Report #103 (6PM) recorded affected population rising to 10,858,538 persons (3,074,821 families), up from 10,836,936; displacement eased sharply to 45,912 people (12,435 families), down from 79,469; houses damaged rose to 4,805 (663 totally, 4,142 partially damaged), up from 4,684; total assistance provided rose to ₱2,952,380,651.76."
@@ -6055,7 +6239,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -6893,6 +7077,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-20",
+          "retrieved_date": "2026-10-02",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/sudan/sudan-sees-sharp-decline-cholera-cases-response-efforts-continue",
+          "text": "WHO press release via ReliefWeb, 'Sudan sees sharp decline in cholera cases as response efforts continue' (posted 25 September 2026, originally published 24 September 2026): a total of eight cases and no deaths were reported in the week ending 11 September 2026, compared with a peak of 421 cases in the week ending 3 July. The outbreak, which began in Al Nuhud locality, West Kordofan, in May, has spread to 20 localities across six states; a total of 2,955 cases and 250 associated deaths have been reported, a case fatality ratio of 8.4%, well above WHO's less-than-1% threshold. WHO has prepositioned 60 metric tons of cholera supplies (enough for about 120,000 cases), retrained and deployed 60 rapid response teams, trained 120 frontline health workers, and supported 17 cholera treatment centres and 18 oral rehydration points. Oral cholera vaccination campaigns with UNICEF reached 915,377 people, with coverage near 100% in West Kordofan and 99.7% in South Darfur, and 87% of the target population in Tawila, North Darfur. WHO Representative in Sudan Dr Abdinasir Abubakar said the decline 'is encouraging, but we must remain vigilant,' citing continued risk from insecurity, displacement, poor access and the rainy season.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-07-25",
           "source_name": "ReliefWeb",
@@ -6925,12 +7117,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A cholera outbreak declared in Sudan in June 2026 remains active in Darfur and Kordofan states amid the ongoing conflict, though WHO reports a sharp decline in cases in recent weeks. A UN daily briefing on 28 September 2026, citing WHO, put the toll at nearly 3,000 cases and 250 deaths across six states and 20 localities, up from 2,900 cases and 247 deaths reported on 9 September. WHO has prepositioned 60 metric tons of cholera supplies and, together with UNICEF, supported oral cholera vaccination campaigns that have reached over 900,000 people.",
+      "description": "A cholera outbreak declared in Sudan in June 2026 has declined sharply in recent weeks after spreading across Darfur and Kordofan states amid the ongoing conflict. WHO reported on 24 September 2026 that only eight cases and no deaths were recorded in the week ending 11 September, down from a peak of 421 cases in the week ending 3 July; the cumulative toll stands at 2,955 cases and 250 deaths (case fatality ratio 8.4%) across 20 localities in six states. WHO has prepositioned 60 metric tons of supplies and, with UNICEF, run oral cholera vaccination campaigns reaching 915,377 people, but it continues to warn of resurgence risk given insecurity, displacement and the rainy season, and the outbreak has not been declared over.",
       "event": {
         "impact": {
           "deaths": 250,
           "displaced": null,
-          "summary": "A UN daily press briefing on 28 September 2026, citing WHO, reported the Sudan cholera outbreak declared in June 2026 -- which began in Al Nuhud, West Kordofan, and has since spread to 20 localities across six states -- has caused nearly 3,000 cases and 250 deaths (implied case fatality rate ~8.6%), up from nearly 2,900 cases and 247 deaths reported on 9 September. The same briefing said WHO has reported a sharp decline in cholera cases in recent weeks, has prepositioned 60 metric tons of cholera supplies across Sudan (enough to support treatment for about 120,000 cases), and that UNICEF- and WHO-supported oral cholera vaccination campaigns have reached over 900,000 people, including the 10-day campaign targeting at least 95,000 people that launched 8 September in Tawila, North Darfur. The outbreak, centred on Darfur and Kordofan, has not been declared contained."
+          "summary": "WHO reported on 24 September 2026 that the Sudan cholera outbreak declared in June -- which began in Al Nuhud, West Kordofan, and spread to 20 localities across six states -- has declined sharply: just eight cases and no deaths in the week ending 11 September 2026, down from a peak of 421 cases in the week ending 3 July. The cumulative toll stands at 2,955 cases and 250 deaths, a case fatality ratio of 8.4%, well above WHO's less-than-1% threshold. WHO has prepositioned 60 metric tons of cholera supplies (enough to treat about 120,000 cases), deployed 60 rapid response teams, trained 120 frontline health workers, and supported 17 treatment centres and 18 oral rehydration points. WHO- and UNICEF-backed oral cholera vaccination campaigns have reached 915,377 people, with near-complete coverage in West Kordofan and South Darfur. WHO says the decline is encouraging but continues to warn of resurgence risk given insecurity, displacement, poor access and the rainy season; the outbreak has not been declared contained."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly",
         "location": {
@@ -6940,27 +7132,22 @@
           "region": "Darfur and Kordofan states, western and central Sudan"
         },
         "occurrence_date": "2026-06-27",
-        "scale": "Case fatality rate ~8.6% (WHO figures cited in UN briefing, 28 Sept 2026); WHO reports cases declining",
+        "scale": "Case fatality rate 8.4% (WHO, 24 Sept 2026); cases declined sharply from a July peak",
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-10-01T09:24:21Z",
+      "last_updated": "2026-10-02T09:25:00Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:24:25Z",
+            "at": "2026-10-02T09:25:00Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-24-25Z-64c0db"
-          },
-          {
-            "at": "2026-10-01T09:24:21Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-21Z-a93f0c"
+            "run_id": "2026-10-02T09-25-00Z-f90cab"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-21Z-a93f0c"
+        "last_run_id": "2026-10-02T09-25-00Z-f90cab"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6972,6 +7159,10 @@
         {
           "date": "2026-09-28",
           "text": "A UN daily press briefing (28 September), citing WHO, put the outbreak -- now spread to 20 localities across six states -- at nearly 3,000 cases and 250 deaths, up from 2,900/247 on 9 September; WHO reported a sharp decline in cases in recent weeks, having prepositioned 60 metric tons of supplies and supported vaccination campaigns reaching over 900,000 people."
+        },
+        {
+          "date": "2026-09-24",
+          "text": "WHO reported the outbreak has declined sharply: just 8 cases and no deaths in the week ending 11 September, down from a peak of 421 cases in the week ending 3 July. The cumulative toll stands at 2,955 cases and 250 deaths (CFR 8.4%), with WHO/UNICEF-backed vaccination campaigns having reached 915,377 people; WHO still warns of resurgence risk given insecurity, displacement and the rainy season."
         },
         {
           "date": "2026-09-11",
@@ -6988,7 +7179,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -7053,7 +7244,7 @@
         },
         {
           "id": "claim-22",
-          "retrieved_date": "2026-09-30",
+          "retrieved_date": "2026-10-02",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/sdn",
           "text": "UNHCR's Operational Data Portal for Sudan (data as of 31 August 2026): 8,622,801 internally displaced persons within Sudan, down from 8,685,273 as of 31 July 2026, and 905,349 refugees and asylum-seekers in Sudan, up from 900,819; 32% of the refugee/asylum-seeker population is out of camp and 68% is settled in camps, with IDPs comprising 2.19 million displaced prior to April 2023 and approximately 6.43 million displaced since.",
@@ -7076,6 +7267,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-25",
+          "retrieved_date": "2026-10-02",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/sudan/dtm-sudan-cross-border-monitoring-report-6",
+          "text": "IOM's DTM Sudan Cross-Border Monitoring Report (6) (published 1 October 2026, covering January 2024-August 2026) recorded 4,681,314 individuals displaced from Sudan into neighbouring countries since the conflict began in April 2023, and 1,110,605 individuals who crossed back into Sudan between January 2024 and August 2026 via the seven cross-border points DTM monitors with Chad (3), Egypt (2), Ethiopia (1) and Eritrea (1); the great majority of recorded returns (80%) were from Egypt and 20% from Chad. DTM notes this cross-border count may not equal the total returned individuals recorded at return locations inside Sudan, since it only covers these specific monitored crossing points.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-08-28",
           "source_name": "ReliefWeb",
@@ -7092,12 +7291,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country, while its regional situation portal last recorded 11,349,317 people forcibly displaced by the Sudan crisis overall (10 August 2026 update). Displacement continues to be driven by fighting in Kordofan, Darfur and Blue Nile alongside seasonal flooding, with more than 30 million people across Sudan in need of humanitarian assistance; IOM's DTM estimates 308,179 people have been displaced from the Kordofan region alone since late October 2025, mostly into Khartoum, North Kordofan and White Nile states. IOM and WFP have warned the humanitarian pipeline could collapse within weeks without further funding, with essential relief supplies due to run out by the end of September and Sudan's $3 billion appeal only 40% funded.",
+      "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country, while its regional situation portal last recorded 11,349,317 people forcibly displaced by the Sudan crisis overall (10 August 2026 update). IOM's DTM Cross-Border Monitoring Report (6), published 1 October 2026, separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since the conflict began and 1,110,605 crossing back into Sudan since January 2024. Displacement continues to be driven by fighting in Kordofan, Darfur and Blue Nile alongside seasonal flooding, with more than 30 million people across Sudan in need of humanitarian assistance; IOM's DTM separately estimates 308,179 people displaced from the Kordofan region alone since late October 2025. IOM and WFP have warned the humanitarian pipeline could collapse without further funding.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": 9528150,
-          "summary": "UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan, down slightly from 8,685,273 a month earlier, and 905,349 refugees and asylum-seekers hosted in the country, up from 900,819; 6.43 million of the internal displacement has occurred since April 2023. UNHCR's regional situation portal last recorded a total of 11,349,317 people forcibly displaced by the Sudan crisis (10 August 2026 update) and continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. IOM's DTM separately estimates 308,179 people displaced from the Kordofan region alone since late October 2025, mostly into Khartoum, North Kordofan and White Nile states. Fighting and flooding across Kordofan, Darfur and Blue Nile continue to displace people, with more than 30 million in need nationwide. IOM warned on 14 September that Sudan's humanitarian pipeline could collapse within weeks without further funding, with shelter and sanitation supplies due to run out by the end of September and warehouses closing by December, while WFP said it was only about one-third funded and risked scaling back significantly."
+          "summary": "UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country. UNHCR's regional situation portal last recorded a total of 11,349,317 people forcibly displaced by the Sudan crisis (10 August 2026 update) and continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. IOM's DTM Cross-Border Monitoring Report (6) (published 1 October 2026) separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since April 2023, and 1,110,605 crossing back into Sudan since January 2024 via its seven monitored border points. IOM's DTM also estimates 308,179 people displaced from the Kordofan region alone since late October 2025, mostly into Khartoum, North Kordofan and White Nile states. Fighting and flooding across Kordofan, Darfur and Blue Nile continue to displace people, with more than 30 million in need nationwide, and IOM and WFP have warned the humanitarian pipeline could collapse without further funding."
         },
         "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
         "location": {
@@ -7111,23 +7310,18 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-10-01T09:24:20Z",
+      "last_updated": "2026-10-02T09:25:09Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:24:27Z",
+            "at": "2026-10-02T09:25:09Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-24-27Z-8ece45"
-          },
-          {
-            "at": "2026-10-01T09:24:20Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-20Z-886ec5"
+            "run_id": "2026-10-02T09-25-09Z-ef6222"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-20Z-886ec5"
+        "last_run_id": "2026-10-02T09-25-09Z-ef6222"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7136,6 +7330,10 @@
         "recency_rank": 738625
       },
       "updates": [
+        {
+          "date": "2026-10-01",
+          "text": "IOM's DTM Cross-Border Monitoring Report (6) (published 1 October, data through August 2026) recorded 4,681,314 people displaced from Sudan into neighbouring countries since April 2023, and 1,110,605 crossing back into Sudan since January 2024 via its seven monitored cross-border points, 80% of them from Egypt and 20% from Chad."
+        },
         {
           "date": "2026-10-01",
           "text": "IOM's DTM Kordofan Region Flash Alert (7) (published 24 September, covering since 25 October 2025) recorded an estimated 308,179 people displaced from the Kordofan region as of 1 September 2026, with the largest numbers arriving in Khartoum (123,509), North Kordofan (66,575) and White Nile (40,237) states."
@@ -7171,7 +7369,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -9957,10 +10155,26 @@
         },
         {
           "id": "claim-14",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/09/1168480",
-          "text": "UN News (25 September 2026), citing WHO and Aden health authorities: 'since 6 August, the renewed clashes in southwest Yemen have left more than 4,481 casualties including 830 deaths,' and 'more than 180,000 people have now been uprooted by the fighting.' The article also reports that only about 60 percent of health facilities are fully functional, with nine health facilities damaged, put out of service or directly attacked, mostly near Taiz, Lahj and Hudaydah, and that emergency obstetric care has been suspended at two hospitals as staff are redirected to trauma care.",
+          "text": "UN News (29 September 2026), citing WHO and Aden health authorities: 'since 6 August, the renewed clashes in southwest Yemen have left more than 4,481 casualties including 830 deaths,' and 'more than 180,000 people have now been uprooted by the fighting.' The article also reports that only about 60 percent of health facilities are fully functional, with nine health facilities damaged, put out of service or directly attacked, mostly near Taiz, Lahj and Hudaydah, and that emergency obstetric care has been suspended at two hospitals as staff are redirected to trauma care.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-15",
+          "retrieved_date": "2026-10-02",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/09/1168480",
+          "text": "The same UN News article (29 September 2026) reports that Yemen's conflict escalation has fueled rising disease risk: approximately 7,800 suspected cholera cases with 22 deaths reported in 2026, more than 22,000 identified measles cases, and dengue linked to 37 deaths. It also reports that WHO's Aden warehouse has several lifesaving supply lines, including trauma kits and essential medicines, at zero stock, with the organisation having so far secured only a small fraction of the funding it needs for its emergency response.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-16",
+          "retrieved_date": "2026-10-02",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/09/1168436",
+          "text": "UN News (25 September 2026), 'Yemen violence deepens concerns over child hunger crisis': UNICEF has verified that at least 15 children have been killed and 14 injured in Yemen since 3 September, with three more reported missing; about 71,000 children are among nearly 130,000 people displaced over the past three weeks, with most displacement in Taiz governorate. Of nearly 2,900 children screened in areas with safe humanitarian access, more than one in four was acutely malnourished, including about 200 with severe acute malnutrition, compounding a pre-existing caseload of more than 2.2 million Yemeni children under five projected to be acutely malnourished in 2026.",
           "verification_status": "verified"
         },
         {
@@ -10028,12 +10242,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened to include Houthi attacks on Saudi Arabia. The UN Security Council condemned those attacks on 18 September and demanded an immediate end to the escalation. UN News reported on 25 September, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August, with casualties still rising by roughly 100 per day; more than 180,000 people have now been uprooted by the fighting. Yemen's health system is under severe strain, with only about 60 percent of facilities fully functional and nine damaged, out of service or directly attacked near Taiz, Lahj and Hudaydah. Humanitarian access along the west coast remains severely constrained, with more than 22 million people -- over half of Yemen's population -- estimated to need aid.",
+      "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened to include Houthi attacks on Saudi Arabia. The UN Security Council condemned those attacks on 18 September and demanded an immediate end to the escalation. UN News reported on 29 September, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August, with more than 180,000 people uprooted by the fighting. The same reporting documents a deepening health and child-welfare crisis: an estimated 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases and dengue linked to 37 deaths, alongside UNICEF-verified killing of at least 15 children and injury of 14 since 3 September, with more than a quarter of nearly 2,900 screened children found acutely malnourished. Only about 60 percent of health facilities remain fully functional, with nine damaged, out of service or directly attacked near Taiz, Lahj and Hudaydah, and humanitarian access along the west coast remains severely constrained.",
       "event": {
         "impact": {
           "deaths": 830,
           "displaced": 180000,
-          "summary": "UN News reported on 25 September 2026, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August 2026, with casualties continuing to rise by roughly 100 per day; more than 180,000 people have now been uprooted by the fighting. Only about 60 percent of Yemen's health facilities remain fully functional, with nine damaged, out of service or directly attacked, mostly near Taiz, Lahj and Hudaydah, and emergency obstetric care suspended at two hospitals as staff are redirected to trauma care. DFA (Houthi) forces control the entire west coast except Midi district. The UN Security Council condemned continued Houthi attacks against Saudi Arabia -- affecting civilian and energy infrastructure and injuring civilians -- in a press statement issued 18 September, demanding an immediate end to the military escalation."
+          "summary": "UN News reported on 29 September 2026, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August 2026, rising by roughly 100 per day; more than 180,000 people have now been uprooted. The same reporting documents a deepening health crisis -- about 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases, and dengue linked to 37 deaths -- plus a child-welfare crisis: UNICEF verified at least 15 children killed and 14 injured since 3 September among roughly 71,000 displaced children, with over a quarter of nearly 2,900 screened found acutely malnourished. Only about 60% of health facilities remain functional, nine damaged or attacked near Taiz, Lahj and Hudaydah. DFA (Houthi) forces control the entire west coast except Midi district. The UN Security Council condemned Houthi attacks on Saudi Arabia on 18 September, demanding an immediate end to the escalation."
         },
         "live_source_url": "https://news.un.org/en/focus/yemen",
         "location": {
@@ -10047,23 +10261,18 @@
         "status": "ongoing"
       },
       "id": "yemen-conflict-escalation-2026",
-      "last_updated": "2026-10-01T09:24:20Z",
+      "last_updated": "2026-10-02T09:23:55Z",
       "name": "Yemen Conflict Escalation",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:23:36Z",
+            "at": "2026-10-02T09:23:55Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-23-36Z-0744db"
-          },
-          {
-            "at": "2026-10-01T09:24:20Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-20Z-b73363"
+            "run_id": "2026-10-02T09-23-55Z-7bb16b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-20Z-b73363"
+        "last_run_id": "2026-10-02T09-23-55Z-7bb16b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -10075,6 +10284,10 @@
         {
           "date": "2026-09-30",
           "text": "UN News reported, citing WHO and Aden health authorities, that cumulative casualties since 6 August have risen to more than 4,481 (830 deaths), still climbing by roughly 100 per day; displacement inside Yemen has risen past 180,000, and only about 60% of health facilities remain fully functional amid nine damaged, out-of-service or attacked facilities near Taiz, Lahj and Hudaydah."
+        },
+        {
+          "date": "2026-09-29",
+          "text": "UN News reported, citing WHO/Aden health authorities and UNICEF, a deepening health and child crisis alongside the conflict: ~7,800 suspected cholera cases (22 deaths), 22,000+ measles cases and dengue linked to 37 deaths; UNICEF verified 15 children killed and 14 injured since 3 September among ~71,000 displaced children, with over a quarter of 2,900 screened acutely malnourished."
         },
         {
           "date": "2026-09-22",
@@ -10111,7 +10324,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }

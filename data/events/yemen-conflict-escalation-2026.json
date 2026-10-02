@@ -43,10 +43,26 @@
     },
     {
       "id": "claim-14",
-      "retrieved_date": "2026-10-01",
+      "retrieved_date": "2026-10-02",
       "source_name": "United Nations",
       "source_url": "https://news.un.org/en/story/2026/09/1168480",
-      "text": "UN News (25 September 2026), citing WHO and Aden health authorities: 'since 6 August, the renewed clashes in southwest Yemen have left more than 4,481 casualties including 830 deaths,' and 'more than 180,000 people have now been uprooted by the fighting.' The article also reports that only about 60 percent of health facilities are fully functional, with nine health facilities damaged, put out of service or directly attacked, mostly near Taiz, Lahj and Hudaydah, and that emergency obstetric care has been suspended at two hospitals as staff are redirected to trauma care.",
+      "text": "UN News (29 September 2026), citing WHO and Aden health authorities: 'since 6 August, the renewed clashes in southwest Yemen have left more than 4,481 casualties including 830 deaths,' and 'more than 180,000 people have now been uprooted by the fighting.' The article also reports that only about 60 percent of health facilities are fully functional, with nine health facilities damaged, put out of service or directly attacked, mostly near Taiz, Lahj and Hudaydah, and that emergency obstetric care has been suspended at two hospitals as staff are redirected to trauma care.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-15",
+      "retrieved_date": "2026-10-02",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168480",
+      "text": "The same UN News article (29 September 2026) reports that Yemen's conflict escalation has fueled rising disease risk: approximately 7,800 suspected cholera cases with 22 deaths reported in 2026, more than 22,000 identified measles cases, and dengue linked to 37 deaths. It also reports that WHO's Aden warehouse has several lifesaving supply lines, including trauma kits and essential medicines, at zero stock, with the organisation having so far secured only a small fraction of the funding it needs for its emergency response.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-16",
+      "retrieved_date": "2026-10-02",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168436",
+      "text": "UN News (25 September 2026), 'Yemen violence deepens concerns over child hunger crisis': UNICEF has verified that at least 15 children have been killed and 14 injured in Yemen since 3 September, with three more reported missing; about 71,000 children are among nearly 130,000 people displaced over the past three weeks, with most displacement in Taiz governorate. Of nearly 2,900 children screened in areas with safe humanitarian access, more than one in four was acutely malnourished, including about 200 with severe acute malnutrition, compounding a pre-existing caseload of more than 2.2 million Yemeni children under five projected to be acutely malnourished in 2026.",
       "verification_status": "verified"
     },
     {
@@ -114,12 +130,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened to include Houthi attacks on Saudi Arabia. The UN Security Council condemned those attacks on 18 September and demanded an immediate end to the escalation. UN News reported on 25 September, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August, with casualties still rising by roughly 100 per day; more than 180,000 people have now been uprooted by the fighting. Yemen's health system is under severe strain, with only about 60 percent of facilities fully functional and nine damaged, out of service or directly attacked near Taiz, Lahj and Hudaydah. Humanitarian access along the west coast remains severely constrained, with more than 22 million people -- over half of Yemen's population -- estimated to need aid.",
+  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened to include Houthi attacks on Saudi Arabia. The UN Security Council condemned those attacks on 18 September and demanded an immediate end to the escalation. UN News reported on 29 September, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August, with more than 180,000 people uprooted by the fighting. The same reporting documents a deepening health and child-welfare crisis: an estimated 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases and dengue linked to 37 deaths, alongside UNICEF-verified killing of at least 15 children and injury of 14 since 3 September, with more than a quarter of nearly 2,900 screened children found acutely malnourished. Only about 60 percent of health facilities remain fully functional, with nine damaged, out of service or directly attacked near Taiz, Lahj and Hudaydah, and humanitarian access along the west coast remains severely constrained.",
   "event": {
     "impact": {
       "deaths": 830,
       "displaced": 180000,
-      "summary": "UN News reported on 25 September 2026, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August 2026, with casualties continuing to rise by roughly 100 per day; more than 180,000 people have now been uprooted by the fighting. Only about 60 percent of Yemen's health facilities remain fully functional, with nine damaged, out of service or directly attacked, mostly near Taiz, Lahj and Hudaydah, and emergency obstetric care suspended at two hospitals as staff are redirected to trauma care. DFA (Houthi) forces control the entire west coast except Midi district. The UN Security Council condemned continued Houthi attacks against Saudi Arabia -- affecting civilian and energy infrastructure and injuring civilians -- in a press statement issued 18 September, demanding an immediate end to the military escalation."
+      "summary": "UN News reported on 29 September 2026, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August 2026, rising by roughly 100 per day; more than 180,000 people have now been uprooted. The same reporting documents a deepening health crisis -- about 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases, and dengue linked to 37 deaths -- plus a child-welfare crisis: UNICEF verified at least 15 children killed and 14 injured since 3 September among roughly 71,000 displaced children, with over a quarter of nearly 2,900 screened found acutely malnourished. Only about 60% of health facilities remain functional, nine damaged or attacked near Taiz, Lahj and Hudaydah. DFA (Houthi) forces control the entire west coast except Midi district. The UN Security Council condemned Houthi attacks on Saudi Arabia on 18 September, demanding an immediate end to the escalation."
     },
     "live_source_url": "https://news.un.org/en/focus/yemen",
     "location": {
@@ -133,23 +149,18 @@
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-10-01T09:24:20Z",
+  "last_updated": "2026-10-02T09:23:55Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-30T09:23:36Z",
+        "at": "2026-10-02T09:23:55Z",
         "layer": "verify",
-        "run_id": "2026-09-30T09-23-36Z-0744db"
-      },
-      {
-        "at": "2026-10-01T09:24:20Z",
-        "layer": "verify",
-        "run_id": "2026-10-01T09-24-20Z-b73363"
+        "run_id": "2026-10-02T09-23-55Z-7bb16b"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-01T09-24-20Z-b73363"
+    "last_run_id": "2026-10-02T09-23-55Z-7bb16b"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -161,6 +172,10 @@
     {
       "date": "2026-09-30",
       "text": "UN News reported, citing WHO and Aden health authorities, that cumulative casualties since 6 August have risen to more than 4,481 (830 deaths), still climbing by roughly 100 per day; displacement inside Yemen has risen past 180,000, and only about 60% of health facilities remain fully functional amid nine damaged, out-of-service or attacked facilities near Taiz, Lahj and Hudaydah."
+    },
+    {
+      "date": "2026-09-29",
+      "text": "UN News reported, citing WHO/Aden health authorities and UNICEF, a deepening health and child crisis alongside the conflict: ~7,800 suspected cholera cases (22 deaths), 22,000+ measles cases and dengue linked to 37 deaths; UNICEF verified 15 children killed and 14 injured since 3 September among ~71,000 displaced children, with over a quarter of 2,900 screened acutely malnourished."
     },
     {
       "date": "2026-09-22",
@@ -197,7 +212,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -42,6 +42,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-20",
+      "retrieved_date": "2026-10-02",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/sudan/sudan-sees-sharp-decline-cholera-cases-response-efforts-continue",
+      "text": "WHO press release via ReliefWeb, 'Sudan sees sharp decline in cholera cases as response efforts continue' (posted 25 September 2026, originally published 24 September 2026): a total of eight cases and no deaths were reported in the week ending 11 September 2026, compared with a peak of 421 cases in the week ending 3 July. The outbreak, which began in Al Nuhud locality, West Kordofan, in May, has spread to 20 localities across six states; a total of 2,955 cases and 250 associated deaths have been reported, a case fatality ratio of 8.4%, well above WHO's less-than-1% threshold. WHO has prepositioned 60 metric tons of cholera supplies (enough for about 120,000 cases), retrained and deployed 60 rapid response teams, trained 120 frontline health workers, and supported 17 cholera treatment centres and 18 oral rehydration points. Oral cholera vaccination campaigns with UNICEF reached 915,377 people, with coverage near 100% in West Kordofan and 99.7% in South Darfur, and 87% of the target population in Tawila, North Darfur. WHO Representative in Sudan Dr Abdinasir Abubakar said the decline 'is encouraging, but we must remain vigilant,' citing continued risk from insecurity, displacement, poor access and the rainy season.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-07-25",
       "source_name": "ReliefWeb",
@@ -74,12 +82,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A cholera outbreak declared in Sudan in June 2026 remains active in Darfur and Kordofan states amid the ongoing conflict, though WHO reports a sharp decline in cases in recent weeks. A UN daily briefing on 28 September 2026, citing WHO, put the toll at nearly 3,000 cases and 250 deaths across six states and 20 localities, up from 2,900 cases and 247 deaths reported on 9 September. WHO has prepositioned 60 metric tons of cholera supplies and, together with UNICEF, supported oral cholera vaccination campaigns that have reached over 900,000 people.",
+  "description": "A cholera outbreak declared in Sudan in June 2026 has declined sharply in recent weeks after spreading across Darfur and Kordofan states amid the ongoing conflict. WHO reported on 24 September 2026 that only eight cases and no deaths were recorded in the week ending 11 September, down from a peak of 421 cases in the week ending 3 July; the cumulative toll stands at 2,955 cases and 250 deaths (case fatality ratio 8.4%) across 20 localities in six states. WHO has prepositioned 60 metric tons of supplies and, with UNICEF, run oral cholera vaccination campaigns reaching 915,377 people, but it continues to warn of resurgence risk given insecurity, displacement and the rainy season, and the outbreak has not been declared over.",
   "event": {
     "impact": {
       "deaths": 250,
       "displaced": null,
-      "summary": "A UN daily press briefing on 28 September 2026, citing WHO, reported the Sudan cholera outbreak declared in June 2026 -- which began in Al Nuhud, West Kordofan, and has since spread to 20 localities across six states -- has caused nearly 3,000 cases and 250 deaths (implied case fatality rate ~8.6%), up from nearly 2,900 cases and 247 deaths reported on 9 September. The same briefing said WHO has reported a sharp decline in cholera cases in recent weeks, has prepositioned 60 metric tons of cholera supplies across Sudan (enough to support treatment for about 120,000 cases), and that UNICEF- and WHO-supported oral cholera vaccination campaigns have reached over 900,000 people, including the 10-day campaign targeting at least 95,000 people that launched 8 September in Tawila, North Darfur. The outbreak, centred on Darfur and Kordofan, has not been declared contained."
+      "summary": "WHO reported on 24 September 2026 that the Sudan cholera outbreak declared in June -- which began in Al Nuhud, West Kordofan, and spread to 20 localities across six states -- has declined sharply: just eight cases and no deaths in the week ending 11 September 2026, down from a peak of 421 cases in the week ending 3 July. The cumulative toll stands at 2,955 cases and 250 deaths, a case fatality ratio of 8.4%, well above WHO's less-than-1% threshold. WHO has prepositioned 60 metric tons of cholera supplies (enough to treat about 120,000 cases), deployed 60 rapid response teams, trained 120 frontline health workers, and supported 17 treatment centres and 18 oral rehydration points. WHO- and UNICEF-backed oral cholera vaccination campaigns have reached 915,377 people, with near-complete coverage in West Kordofan and South Darfur. WHO says the decline is encouraging but continues to warn of resurgence risk given insecurity, displacement, poor access and the rainy season; the outbreak has not been declared contained."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/all-topics-z/cholera/surveillance-and-disease-data/cholera-monthly",
     "location": {
@@ -89,27 +97,22 @@
       "region": "Darfur and Kordofan states, western and central Sudan"
     },
     "occurrence_date": "2026-06-27",
-    "scale": "Case fatality rate ~8.6% (WHO figures cited in UN briefing, 28 Sept 2026); WHO reports cases declining",
+    "scale": "Case fatality rate 8.4% (WHO, 24 Sept 2026); cases declined sharply from a July peak",
     "status": "ongoing"
   },
   "id": "sudan-cholera-outbreak-2026",
-  "last_updated": "2026-10-01T09:24:21Z",
+  "last_updated": "2026-10-02T09:25:00Z",
   "name": "Cholera Outbreak — Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-30T09:24:25Z",
+        "at": "2026-10-02T09:25:00Z",
         "layer": "verify",
-        "run_id": "2026-09-30T09-24-25Z-64c0db"
-      },
-      {
-        "at": "2026-10-01T09:24:21Z",
-        "layer": "verify",
-        "run_id": "2026-10-01T09-24-21Z-a93f0c"
+        "run_id": "2026-10-02T09-25-00Z-f90cab"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-01T09-24-21Z-a93f0c"
+    "last_run_id": "2026-10-02T09-25-00Z-f90cab"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -121,6 +124,10 @@
     {
       "date": "2026-09-28",
       "text": "A UN daily press briefing (28 September), citing WHO, put the outbreak -- now spread to 20 localities across six states -- at nearly 3,000 cases and 250 deaths, up from 2,900/247 on 9 September; WHO reported a sharp decline in cases in recent weeks, having prepositioned 60 metric tons of supplies and supported vaccination campaigns reaching over 900,000 people."
+    },
+    {
+      "date": "2026-09-24",
+      "text": "WHO reported the outbreak has declined sharply: just 8 cases and no deaths in the week ending 11 September, down from a peak of 421 cases in the week ending 3 July. The cumulative toll stands at 2,955 cases and 250 deaths (CFR 8.4%), with WHO/UNICEF-backed vaccination campaigns having reached 915,377 people; WHO still warns of resurgence risk given insecurity, displacement and the rainy season."
     },
     {
       "date": "2026-09-11",
@@ -137,7 +144,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

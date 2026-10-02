@@ -314,6 +314,12 @@
       "label": "Office of the Governor of West Virginia"
     },
     {
+      "category": "event",
+      "domain": "jma.go.jp",
+      "justification": "Japan's Meteorological Agency is the sole legal issuer, under Japan's Meteorological Service Act, of the country's official volcanic alert levels (funka keikai level) and real-time volcanic-activity status reports for all of Japan's active volcanoes; it is the same institutional tier as USGS for US volcanic hazard data and Indonesia's already-allowlisted Badan Geologi/PVMBG, and neither of Japan's existing allowlist entries (fdma.go.jp for disaster-response casualties, mlit.go.jp for infrastructure) covers volcanic alert-level determinations, which only JMA publishes (including via its data.jma.go.jp live volcanic-activity subdomain).",
+      "label": "Japan Meteorological Agency (JMA)"
+    },
+    {
       "category": "societal",
       "domain": "dtm.iom.int",
       "justification": "The Displacement Tracking Matrix is the International Organization for Migration's own operational data system for internal displacement figures; IOM is the UN migration agency, the same institutional tier as UNHCR (already allowlisted for refugee/forced-displacement figures) but the primary source for internal (non-refugee) displacement data such as Haiti's IDP rounds, which UNHCR does not itself publish.",

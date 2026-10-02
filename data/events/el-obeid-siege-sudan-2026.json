@@ -98,6 +98,22 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-24",
+      "retrieved_date": "2026-10-02",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/sudan/protection-cluster-alert-el-obeid",
+      "text": "Protection Cluster/UNHCR 'Protection Cluster Alert El Obeid' (posted 30 September 2026, originally published 29 September 2026): drone strikes on 25 September 2026 reportedly struck several civilian locations in El Obeid, including a shelter hosting displaced families, a fuel station, a civilian passenger bus and a residential house; at least two civilians were reportedly killed and around 20 others injured. The alert describes this as part of a wider escalation across North Kordofan and a recurring pattern of drone attacks affecting civilians, displaced populations and essential civilian infrastructure in and around El Obeid.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-25",
+      "retrieved_date": "2026-10-02",
+      "source_name": "ReliefWeb",
+      "source_url": "https://reliefweb.int/report/world/13-children-reportedly-killed-or-injured-drone-strike-displacement-shelter-al-obeid-sudan",
+      "text": "UNICEF statement via ReliefWeb (posted and originally published 1 October 2026): a drone strike late on 30 September/1 October 2026 on the Al Mina Al Bari shelter for internally displaced people in El Obeid, North Kordofan, reportedly killed one boy and injured 12 children (five boys, seven girls). UNICEF Representative in Sudan Angela Kearney said 'any sense of safety was shattered' and called for attacks on child-protection sites to stop; UNICEF notes more than 400 children were reportedly killed or injured by drone attacks nationwide between January and September 2026.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-30",
       "source_name": "ReliefWeb",
@@ -138,12 +154,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Rapid Support Forces (RSF) paramilitary fighters have besieged El Obeid, the capital of Sudan's North Kordofan state, subjecting the city to sustained drone strikes and blockade, and UN News reported on 10 August 2026 that RSF forces had encircled the city and were threatening a full-scale ground assault. The UN Human Rights Office documented 15 drone strikes in three weeks that killed at least 45 civilians (3 July), and WFP counted more than 120,000 displaced people in the city's Unified IDP Camp alone (17 July), with rations cut to 50 percent of the full entitlement by funding shortfalls. Displacement into the city continues: OCHA reported roughly 15,000 families arriving over three weeks in mid-August, and WFP's Acting Executive Director, after an 8-day Sudan mission, said in mid-September that the city's overall population -- about a million before the war -- has 'kind of doubled in size.' UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still 'faces a partial RSF siege with repeated drone attacks on critical infrastructure.' No ceasefire has been confirmed and the siege remains ongoing.",
+  "description": "Rapid Support Forces (RSF) fighters have besieged El Obeid, capital of Sudan's North Kordofan state, since mid-2026 with sustained drone strikes and blockade, prompting UN warnings of a risk of mass atrocities. The UN Human Rights Office documented 15 drone strikes in three weeks that killed at least 45 civilians (3 July), and WFP counted more than 120,000 displaced people in the city's Unified IDP Camp alone (17 July). WFP's Acting Executive Director said in mid-September that the city's overall population -- about a million before the war -- has 'kind of doubled in size.' UN High Commissioner Volker Türk told the Human Rights Council on 7 September that El Obeid still 'faces a partial RSF siege with repeated drone attacks on critical infrastructure.' Strikes have continued into late September and early October, including a 25 September attack on a displacement shelter, fuel station and bus that killed at least two and injured about 20, and a 1 October strike on the Al Mina Al Bari IDP shelter that killed one child and injured 12 others. No ceasefire has been confirmed and the siege remains ongoing.",
   "event": {
     "impact": {
       "deaths": 45,
       "displaced": 120000,
-      "summary": "The most recent precise aggregate figures for El Obeid remain at least 45 civilians killed (UN Human Rights Office, 3 July 2026) and more than 120,000 people sheltering in the Unified IDP Camp (WFP, 17 July), while OCHA reported roughly 15,000 families newly displaced into the city over the three weeks to 12 August. WFP's Acting Executive Director, after visiting the city in September, described its overall population as having roughly doubled from about a million before the war, though no precise updated count has been published. Humanitarian partners have delivered two million litres of drinking water to about 133,000 people amid severe shortages, and Sudan's wider response remains underfunded, with US$1.2 billion received of the US$3 billion required. RSF forces have encircled the city, and UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still faces a partial RSF siege with repeated drone attacks on critical infrastructure; no ceasefire or lifting of the siege has been confirmed."
+      "summary": "The most recent precise aggregate figures for El Obeid remain at least 45 civilians killed (UN Human Rights Office, 3 July 2026) and more than 120,000 people sheltering in the Unified IDP Camp (WFP, 17 July), while WFP's Acting Executive Director described the city's overall population as having roughly doubled from about a million before the war. Drone strikes have continued into late September and early October 2026: a 25 September attack on a displacement shelter, fuel station and bus killed at least two civilians and injured about 20 (Protection Cluster/UNHCR), and a 1 October strike on the Al Mina Al Bari IDP shelter killed one child and injured 12 others (UNICEF), which noted more than 400 children have been killed or injured by drone attacks nationwide this year. Sudan's wider response remains underfunded, with US$1.2 billion received of the US$3 billion required. UN High Commissioner Volker Türk told the Human Rights Council on 7 September 2026 that El Obeid still faces a partial RSF siege with repeated drone attacks on critical infrastructure; no ceasefire or lifting of the siege has been confirmed."
     },
     "live_source_url": "https://reliefweb.int/country/sdn",
     "location": {
@@ -157,23 +173,18 @@
     "status": "ongoing"
   },
   "id": "el-obeid-siege-sudan-2026",
-  "last_updated": "2026-10-01T09:24:20Z",
+  "last_updated": "2026-10-02T09:25:00Z",
   "name": "Siege of El Obeid — North Kordofan, Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-30T09:16:22Z",
+        "at": "2026-10-02T09:25:00Z",
         "layer": "verify",
-        "run_id": "2026-09-30T09-16-22Z-3c9bb6"
-      },
-      {
-        "at": "2026-10-01T09:24:20Z",
-        "layer": "verify",
-        "run_id": "2026-10-01T09-24-20Z-6e5e55"
+        "run_id": "2026-10-02T09-25-00Z-47ba97"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-01T09-24-20Z-6e5e55"
+    "last_run_id": "2026-10-02T09-25-00Z-47ba97"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -182,6 +193,10 @@
     "recency_rank": 739782
   },
   "updates": [
+    {
+      "date": "2026-10-01",
+      "text": "Drone strikes continued to hit El Obeid: a 25 September attack on a displacement shelter, fuel station, bus and house killed at least 2 and injured about 20 (Protection Cluster/UNHCR), and a strike on the Al Mina Al Bari IDP shelter on 30 September/1 October killed one child and injured 12 others (UNICEF)."
+    },
     {
       "date": "2026-09-14",
       "text": "WFP's Acting Executive Director, after an 8-day Sudan mission, said El Obeid's overall population -- about a million before the war -- has 'kind of doubled in size' from displacement, and that the city faced a serious siege risk a few weeks earlier; no precise updated population or displacement figure accompanied the remarks."
@@ -229,7 +244,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

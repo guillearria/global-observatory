@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-10-02 — World Pulse daily refresh (2026-10-02), part 1: South Asia floods + N.America wildfires/Asia typhoon-flood batch (`e6f60c5`)
+
+- **Updated:** afghanistan-nuristan-floods-2026, bangladesh-floods-chattogram-2026, canada-british-columbia-wildfires-2026, india-monsoon-floods-2026, japan-typhoon-dujuan-2026, nepal-rasuwa-glacial-flood-2026, pakistan-floods-2026, thailand-bangkok-floods-2026, usa-california-big-sur-wildfires-2026, usa-washington-wildfires-2026, west-bank-settler-violence-surge-2026
+
 ## 2026-10-01 — World Pulse daily refresh (2026-10-01): Ebola DRC and Nepal Rasuwa toll rises, add Indonesia wildfire haze crisis (`86f31de`)
 
 - **Added:** indonesia-wildfires-haze-2026
