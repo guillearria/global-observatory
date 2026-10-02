@@ -35,7 +35,7 @@
     },
     {
       "id": "claim-24",
-      "retrieved_date": "2026-10-01",
+      "retrieved_date": "2026-10-02",
       "source_name": "ReliefWeb",
       "source_url": "https://reliefweb.int/report/bangladesh/bangladesh-shelter-cluster-response-floods-and-landslides-2026-23-august-2026",
       "text": "IOM/Shelter Cluster's Bangladesh Shelter Cluster Response report (data as of 23 August 2026, posted to ReliefWeb 24 August 2026) confirms 59 fatalities and 293 injuries across the seven affected districts, 36,550 people sheltering in 1,722 evacuation shelters, and more than 54,000 houses damaged, with about US$37 million required for housing repair and reconstruction; a Shelter Cluster/UNHCR monthly meeting record dated 25 August 2026 (posted 8 September 2026) remains filed under the same disaster record. This is, as of 23 September 2026, the most recent flood-specific situation report found on ReliefWeb for this event; it reports no change to the confirmed death toll of 59.",
@@ -98,12 +98,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Monsoon-triggered flash floods and landslides have affected ten districts across Chattogram Division and adjoining south-eastern and north-eastern Bangladesh since early July 2026, with Chattogram city recording 412.3mm of rain in 24 hours — its highest single-day July rainfall in 42 years. Per the UN Resident Coordinator's Office Situation Report #2 (23 July 2026, data as of 22 July), about 1.28 million people are affected across the seven hardest-hit districts, 59 people have died nationwide (including 15 Rohingya refugees in Cox's Bazar camps, per UNHCR), 74,479 houses have been damaged or destroyed, and about 436,000 people need humanitarian assistance. Roughly 38,500 people were temporarily displaced across 1,000+ shelters and 267,918 households stranded, per the 19-20 July BDRCS/IFRC nationwide report. Food, cash, health, shelter, protection and WASH assistance remain active, and the event remains ongoing.",
+  "description": "Monsoon-triggered flash floods and landslides hit ten districts across Chattogram Division and nearby parts of Bangladesh starting in early July 2026, with Chattogram city recording its heaviest single-day July rainfall in 42 years (412.3mm in 24 hours). Floodwaters have long since receded and the confirmed toll has held steady at 59 deaths (including 15 Rohingya refugees in Cox's Bazar camps, per UNHCR) and 74,479 houses damaged or destroyed since the UN Resident Coordinator's Office Situation Report #2 (23 July 2026, data as of 22 July). The IOM/Shelter Cluster's response report (data as of 23 August 2026, the most recent flood-specific situation report found as of early October) confirms 59 fatalities, 293 injuries, 36,550 people sheltering in 1,722 evacuation shelters, more than 54,000 houses damaged, and about US$37 million required for housing repair and reconstruction, with no newer casualty or displacement figures reported since. With no new deaths reported for over ten weeks and the response having shifted from emergency relief to shelter reconstruction, the event is assessed as contained.",
   "event": {
     "impact": {
       "deaths": 59,
       "displaced": 38500,
-      "summary": "UN RCO Situation Report #2 (23 July 2026, data as of 22 July) records about 1.28 million people affected across the seven hardest-hit districts, 59 deaths nationwide (including 15 Rohingya refugees, per UNHCR), 74,479 houses damaged or destroyed, and about 436,000 people needing humanitarian assistance. Temporary displacement (~38,500 people, 1,000+ shelters) and stranded households (267,918) stand per the 19-20 July BDRCS/IFRC report. Food, cash, health, shelter, protection and WASH assistance remain active in the affected districts."
+      "summary": "The confirmed toll has held at 59 deaths (including 15 Rohingya refugees, per UNHCR) and 74,479 houses damaged or destroyed since the UN RCO Situation Report #2 (23 July 2026). The IOM/Shelter Cluster response report (data as of 23 August 2026, the latest flood-specific figures found as of early October) records 59 fatalities, 293 injuries, 36,550 people sheltering in 1,722 evacuation shelters, more than 54,000 houses damaged, and about US$37 million required for housing repair and reconstruction. No newer casualty or displacement figures have been reported since, and the response has shifted into shelter reconstruction and recovery."
     },
     "live_source_url": "https://reliefweb.int/disaster/fl-2026-000109-bgd",
     "location": {
@@ -114,26 +114,21 @@
     },
     "occurrence_date": "2026-07-04",
     "scale": "10 districts affected",
-    "status": "ongoing"
+    "status": "contained"
   },
   "id": "bangladesh-floods-chattogram-2026",
-  "last_updated": "2026-10-01T09:24:18Z",
+  "last_updated": "2026-10-02T09:21:06Z",
   "name": "Monsoon Floods & Landslides — Chattogram Division, Bangladesh",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-30T09:15:28Z",
+        "at": "2026-10-02T09:21:06Z",
         "layer": "verify",
-        "run_id": "2026-09-30T09-15-28Z-a92c4b"
-      },
-      {
-        "at": "2026-10-01T09:24:18Z",
-        "layer": "verify",
-        "run_id": "2026-10-01T09-24-18Z-3d82d6"
+        "run_id": "2026-10-02T09-21-06Z-b559f1"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-01T09-24-18Z-3d82d6"
+    "last_run_id": "2026-10-02T09-21-06Z-b559f1"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -141,7 +136,12 @@
     "impact_rank": 2,
     "recency_rank": 739801
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-02",
+      "text": "Status reassessed from ongoing to contained: the confirmed toll (59 deaths, 74,479 houses damaged/destroyed) has been unchanged since the 23 August Shelter Cluster report, floodwaters have long receded, and the response has moved into shelter reconstruction (about US$37 million required), with no newer situation report found."
+    }
+  ],
   "verification": {
     "confidence": "high",
     "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",

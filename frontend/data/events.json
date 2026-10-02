@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T09:26:10Z",
+  "last_updated": "2026-10-02T09:22:26Z",
   "published": [
     {
       "category": "flood",
@@ -46,7 +46,7 @@
         },
         {
           "id": "claim-20",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/afghanistan/unicef-afghanistan-humanitarian-flash-update-no-4-central-and-eastern-region-flash-floods-20-august-2026",
           "text": "UNICEF Afghanistan Humanitarian Flash Update No. 4 (posted to ReliefWeb 24 August 2026, covering the series of flash floods between 20 July and 3 August): in the Eastern Region, Parun district, Nuristan Province recorded 24 fatalities and 125 injuries with additional people reported missing, and 120 houses destroyed or damaged; the 3 August Barg-e-Matal flood affected 191 houses. In the Central Region, flash floods across nine provinces caused 2 further fatalities and 6 injuries, affected 316 houses (2,057 people), damaged about 1.6 million square meters of agricultural land, killed roughly 300 livestock and damaged 17 schools; a separate incident in Paktia destroyed 11 houses. This remains, as of 23 September 2026, the most recent flash-flood-specific report on ReliefWeb's Afghanistan disaster record for this event; it provides no revised aggregate death toll superseding the combined 30-death figure already on file.",
@@ -77,12 +77,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Flash floods triggered by heavy rainfall struck Afghanistan's eastern Nuristan Province around 19 July 2026, devastating the provincial capital Parun and its surrounding villages, and also killed Afghan refugees at a returnee transit camp near the Torkham border crossing; GDACS assessed the initial flood at a Green alert level. OCHA's Flash Update series records 23 killed in Parun City with 125 injured and 5 missing, plus deaths at Torkham, in Maidan Wardak and in Laghman Province, for a combined confirmed toll of at least 30 deaths across central, eastern and southeastern Afghanistan; the Shelter/NFI cluster counts 1,168 families affected across 14 provinces, with 234 houses destroyed and 930 damaged. WHO closed its reporting with a final situation report (3 August 2026) recording 29 fatalities and 129 injuries on its narrower domestic scope. A second flash flood struck Barg-e-Matal district in Nuristan on 3 August, affecting 191 families; the response remains ongoing.",
+      "description": "Flash floods triggered by heavy rainfall struck Afghanistan's eastern Nuristan Province around 19 July 2026, devastating the provincial capital Parun, and also killed Afghan refugees at a returnee transit camp near the Torkham border crossing. OCHA's Flash Update series recorded 23 killed in Parun City with 125 injured and 5 missing, plus deaths at Torkham, in Maidan Wardak and in Laghman Province, for a combined confirmed toll of at least 30 deaths across central, eastern and southeastern Afghanistan; the Shelter/NFI cluster counted 1,168 families affected across 14 provinces, with 234 houses destroyed and 930 damaged. WHO closed its reporting with a final situation report (3 August 2026) recording 29 fatalities and 129 injuries on its narrower domestic scope, and a second flash flood struck Barg-e-Matal district on 3 August, affecting 191 families. UNICEF's Flash Update No. 4 (the most recent flood-specific report found, covering through 3 August) reported no further deaths beyond the confirmed 30-death toll. With no new casualties reported for nearly nine weeks and relief operations having moved into early recovery, the event is assessed as contained.",
       "event": {
         "impact": {
           "deaths": 30,
           "displaced": null,
-          "summary": "The combined confirmed death toll is at least 30: 23 killed in Parun City (125 injured, 5 missing), 3 Afghan refugees killed at the Torkham transit camp, 1 death in Maidan Wardak and 3 in Laghman Province, where 187 families were affected. The Shelter/NFI cluster reports 1,168 families affected across 14 provinces (234 houses destroyed, 930 damaged); WHO's final situation report records 29 fatalities and 129 injuries on its domestic-only scope, and a second flash flood hit Barg-e-Matal district on 3 August, affecting 191 families."
+          "summary": "The combined confirmed death toll remains at least 30: 23 killed in Parun City (125 injured, 5 missing), 3 Afghan refugees killed at the Torkham transit camp, 1 death in Maidan Wardak and 3 in Laghman Province, where 187 families were affected. The Shelter/NFI cluster reports 1,168 families affected across 14 provinces (234 houses destroyed, 930 damaged); WHO's final situation report recorded 29 fatalities and 129 injuries on its domestic-only scope. UNICEF's Flash Update No. 4 (covering through 3 August, the most recent flood-specific report found) reported no toll change, and no newer report has since been found; relief operations have moved into early recovery."
         },
         "live_source_url": "https://reliefweb.int/disaster/ff-2026-000120-afg",
         "location": {
@@ -93,26 +93,21 @@
         },
         "occurrence_date": "2026-07-19",
         "scale": "Flash flood; GDACS Green alert",
-        "status": "ongoing"
+        "status": "contained"
       },
       "id": "afghanistan-nuristan-floods-2026",
-      "last_updated": "2026-10-01T09:24:19Z",
+      "last_updated": "2026-10-02T09:21:21Z",
       "name": "Nuristan Flash Floods, Afghanistan",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:15:28Z",
+            "at": "2026-10-02T09:21:21Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-15-28Z-afde48"
-          },
-          {
-            "at": "2026-10-01T09:24:19Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-19Z-f28e53"
+            "run_id": "2026-10-02T09-21-21Z-02d6ef"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-19Z-f28e53"
+        "last_run_id": "2026-10-02T09-21-21Z-02d6ef"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -121,6 +116,10 @@
         "recency_rank": 739816
       },
       "updates": [
+        {
+          "date": "2026-10-02",
+          "text": "Status reassessed from ongoing to contained: the confirmed toll (at least 30 deaths) has been unchanged since UNICEF's Flash Update No. 4 (data through 3 August), no newer flood-specific report has been found in nearly nine weeks, and relief operations have moved into early recovery."
+        },
         {
           "date": "2026-08-16",
           "text": "UNICEF's Flash Update No. 3, posted to ReliefWeb, confirmed that a second flash flood struck Barg-e-Matal district, Nuristan, on 3 August, affecting 191 families; ReliefWeb's disaster record for the floods remains listed as ongoing."
@@ -308,7 +307,7 @@
         },
         {
           "id": "claim-24",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/bangladesh/bangladesh-shelter-cluster-response-floods-and-landslides-2026-23-august-2026",
           "text": "IOM/Shelter Cluster's Bangladesh Shelter Cluster Response report (data as of 23 August 2026, posted to ReliefWeb 24 August 2026) confirms 59 fatalities and 293 injuries across the seven affected districts, 36,550 people sheltering in 1,722 evacuation shelters, and more than 54,000 houses damaged, with about US$37 million required for housing repair and reconstruction; a Shelter Cluster/UNHCR monthly meeting record dated 25 August 2026 (posted 8 September 2026) remains filed under the same disaster record. This is, as of 23 September 2026, the most recent flood-specific situation report found on ReliefWeb for this event; it reports no change to the confirmed death toll of 59.",
@@ -371,12 +370,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Monsoon-triggered flash floods and landslides have affected ten districts across Chattogram Division and adjoining south-eastern and north-eastern Bangladesh since early July 2026, with Chattogram city recording 412.3mm of rain in 24 hours — its highest single-day July rainfall in 42 years. Per the UN Resident Coordinator's Office Situation Report #2 (23 July 2026, data as of 22 July), about 1.28 million people are affected across the seven hardest-hit districts, 59 people have died nationwide (including 15 Rohingya refugees in Cox's Bazar camps, per UNHCR), 74,479 houses have been damaged or destroyed, and about 436,000 people need humanitarian assistance. Roughly 38,500 people were temporarily displaced across 1,000+ shelters and 267,918 households stranded, per the 19-20 July BDRCS/IFRC nationwide report. Food, cash, health, shelter, protection and WASH assistance remain active, and the event remains ongoing.",
+      "description": "Monsoon-triggered flash floods and landslides hit ten districts across Chattogram Division and nearby parts of Bangladesh starting in early July 2026, with Chattogram city recording its heaviest single-day July rainfall in 42 years (412.3mm in 24 hours). Floodwaters have long since receded and the confirmed toll has held steady at 59 deaths (including 15 Rohingya refugees in Cox's Bazar camps, per UNHCR) and 74,479 houses damaged or destroyed since the UN Resident Coordinator's Office Situation Report #2 (23 July 2026, data as of 22 July). The IOM/Shelter Cluster's response report (data as of 23 August 2026, the most recent flood-specific situation report found as of early October) confirms 59 fatalities, 293 injuries, 36,550 people sheltering in 1,722 evacuation shelters, more than 54,000 houses damaged, and about US$37 million required for housing repair and reconstruction, with no newer casualty or displacement figures reported since. With no new deaths reported for over ten weeks and the response having shifted from emergency relief to shelter reconstruction, the event is assessed as contained.",
       "event": {
         "impact": {
           "deaths": 59,
           "displaced": 38500,
-          "summary": "UN RCO Situation Report #2 (23 July 2026, data as of 22 July) records about 1.28 million people affected across the seven hardest-hit districts, 59 deaths nationwide (including 15 Rohingya refugees, per UNHCR), 74,479 houses damaged or destroyed, and about 436,000 people needing humanitarian assistance. Temporary displacement (~38,500 people, 1,000+ shelters) and stranded households (267,918) stand per the 19-20 July BDRCS/IFRC report. Food, cash, health, shelter, protection and WASH assistance remain active in the affected districts."
+          "summary": "The confirmed toll has held at 59 deaths (including 15 Rohingya refugees, per UNHCR) and 74,479 houses damaged or destroyed since the UN RCO Situation Report #2 (23 July 2026). The IOM/Shelter Cluster response report (data as of 23 August 2026, the latest flood-specific figures found as of early October) records 59 fatalities, 293 injuries, 36,550 people sheltering in 1,722 evacuation shelters, more than 54,000 houses damaged, and about US$37 million required for housing repair and reconstruction. No newer casualty or displacement figures have been reported since, and the response has shifted into shelter reconstruction and recovery."
         },
         "live_source_url": "https://reliefweb.int/disaster/fl-2026-000109-bgd",
         "location": {
@@ -387,26 +386,21 @@
         },
         "occurrence_date": "2026-07-04",
         "scale": "10 districts affected",
-        "status": "ongoing"
+        "status": "contained"
       },
       "id": "bangladesh-floods-chattogram-2026",
-      "last_updated": "2026-10-01T09:24:18Z",
+      "last_updated": "2026-10-02T09:21:06Z",
       "name": "Monsoon Floods & Landslides — Chattogram Division, Bangladesh",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:15:28Z",
+            "at": "2026-10-02T09:21:06Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-15-28Z-a92c4b"
-          },
-          {
-            "at": "2026-10-01T09:24:18Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-18Z-3d82d6"
+            "run_id": "2026-10-02T09-21-06Z-b559f1"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-18Z-3d82d6"
+        "last_run_id": "2026-10-02T09-21-06Z-b559f1"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -414,7 +408,12 @@
         "impact_rank": 2,
         "recency_rank": 739801
       },
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-10-02",
+          "text": "Status reassessed from ongoing to contained: the confirmed toll (59 deaths, 74,479 houses damaged/destroyed) has been unchanged since the 23 August Shelter Cluster report, floodwaters have long receded, and the response has moved into shelter reconstruction (about US$37 million required), with no newer situation report found."
+        }
+      ],
       "verification": {
         "confidence": "high",
         "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
@@ -702,6 +701,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-33",
+          "retrieved_date": "2026-10-02",
+          "source_name": "Government of British Columbia",
+          "source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
+          "text": "EmergencyInfoBC's wildfire hazard page (checked 2 October 2026) lists 7 active local evacuation notices, down from 9 on 30 September: District of Summerland (updated 30 September), Okanagan Indian Band (18 September), Spuzzum First Nation and Regional District of Okanagan-Similkameen (2 September), Ts'kw'aylaxw First Nation (24 August), Boothroyd Indian Band (16 August) and Shxw'ow'hamel First Nation (1 August); Coldwater Indian Band and Whispering Pines/Clinton Indian Band are no longer listed.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-08-12",
           "source_name": "Government of British Columbia",
@@ -750,12 +757,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased. Conditions have continued to ease overall: the BC Wildfire Service lifted Category 1 campfire prohibitions across the Cariboo, Coastal and Kamloops fire centres effective 3 September (Category 2/3 open fires remain banned until 31 October), and EmergencyInfoBC's active evacuation-notice count has eased further to 9 as of 30 September, down from 10, with Lytton First Nation no longer listed; wildfire risk remains elevated province-wide.",
+      "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased. Conditions have continued to ease: the BC Wildfire Service lifted Category 1 campfire prohibitions across the Cariboo, Coastal and Kamloops fire centres effective 3 September (Category 2/3 open fires remain banned until 31 October), and EmergencyInfoBC's active evacuation-notice count has eased further to 7 as of 2 October, down from 9, with Coldwater Indian Band and Whispering Pines/Clinton Indian Band no longer listed; wildfire risk remains elevated in parts of the province.",
       "event": {
         "impact": {
           "deaths": 1,
           "displaced": null,
-          "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode; the GDACS tracking record for this event closed with no further episodes after that date. British Columbia ended its province-wide State of Provincial Emergency on 27 August 2026, and the BC Wildfire Service rescinded the Bald Range fire's area restriction on 4 September. Conditions remain broadly improved: Category 1 campfire prohibitions were lifted in the Cariboo, Coastal and Kamloops fire centres effective 3 September, and EmergencyInfoBC's wildfire page lists 9 active local evacuation orders and alerts as of 30 September 2026, down from 10 on 26 September, with Lytton First Nation no longer listed; the most recently updated notices remain the District of Summerland and Okanagan Indian Band (18 September)."
+          "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode; the GDACS tracking record for this event closed with no further episodes after that date. British Columbia ended its province-wide State of Provincial Emergency on 27 August 2026, and the BC Wildfire Service rescinded the Bald Range fire's area restriction on 4 September. Conditions remain broadly improved: Category 1 campfire prohibitions were lifted in the Cariboo, Coastal and Kamloops fire centres effective 3 September, and EmergencyInfoBC's wildfire page lists 7 active local evacuation orders and alerts as of 2 October 2026, down from 9 on 30 September, with Coldwater Indian Band and Whispering Pines/Clinton Indian Band no longer listed; the most recently updated notice is the District of Summerland (30 September)."
         },
         "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/",
         "location": {
@@ -765,27 +772,22 @@
           "region": "British Columbia Interior, centred on the Bald Range fire near Summerland in the South Okanagan; more than 100 wildfires active provincewide"
         },
         "occurrence_date": "2026-08-08",
-        "scale": "Provincial State of Emergency ended 27 August 2026 (declared 8 August); Bald Range fire (largest, near Summerland) area restriction rescinded 4 September as fire activity decreased; 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS)",
+        "scale": "Provincial State of Emergency ended 27 August 2026 (declared 8 August); Bald Range fire (largest, near Summerland) area restriction rescinded 4 September as fire activity decreased; 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS); 7 active local evacuation notices as of 2 October 2026",
         "status": "ongoing"
       },
       "id": "canada-british-columbia-wildfires-2026",
-      "last_updated": "2026-10-01T09:24:21Z",
+      "last_updated": "2026-10-02T09:20:59Z",
       "name": "Wildfire State of Emergency — British Columbia, Canada",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:15:28Z",
+            "at": "2026-10-02T09:20:59Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-15-28Z-782780"
-          },
-          {
-            "at": "2026-10-01T09:24:21Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-21Z-09e99b"
+            "run_id": "2026-10-02T09-20-59Z-8c0884"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-21Z-09e99b"
+        "last_run_id": "2026-10-02T09-20-59Z-8c0884"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -794,6 +796,10 @@
         "recency_rank": 739836
       },
       "updates": [
+        {
+          "date": "2026-10-02",
+          "text": "EmergencyInfoBC's evacuation list eased to 7 active orders/alerts (from 9 on 30 September), with Coldwater Indian Band and Whispering Pines/Clinton Indian Band no longer listed; the most recently updated notice is the District of Summerland (30 September)."
+        },
         {
           "date": "2026-09-30",
           "text": "EmergencyInfoBC's evacuation list eased to 9 active orders/alerts (from 10 on 26 September), with Lytton First Nation no longer listed; remaining notices range from Whispering Pines/Clinton Indian Band (24 July) to District of Summerland/Okanagan Indian Band (18 September)."
@@ -881,7 +887,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 32 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 33 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3480,6 +3486,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-29",
+          "retrieved_date": "2026-10-02",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104121",
+          "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, episode 20, reporting window 9 August-28 September 2026, observation timestamp 1 October 2026) now records 131 deaths and 457,351 displaced, up from 128 deaths and 453,851 displaced at the 27 September data cut, still at Orange alert (medium humanitarian impact). The report's Copernicus EMS GloFAS-derived narrative states heavy rain caused rivers to overflow in areas of Bihar State, India, from late September 2026, continuing into early October.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-08-06",
           "source_name": "ReliefWeb",
@@ -3544,12 +3558,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Heavy monsoon rains since mid-July 2026 have caused deadly flooding and landslides across India, with flooding spreading into new states through late September 2026, most recently a sharp escalation in Uttar Pradesh. GDACS's structured national toll (window 9 August-28 September 2026) now stands at 130 deaths and 453,851 displaced, up from 128 deaths as of 27 September and sharply up from 42 deaths and 260,529 displaced as of 22 September, after Uttar Pradesh's Relief Commissioner reported 81 storm-related fatalities and 2,254 damaged buildings as of 28 September. Earlier in the emergency, Odisha was among the worst-hit with 8.64 lakh people affected across 22 districts, Kerala counted 26 dead and 4 missing, and IFRC recorded 74 flood-related deaths in Assam. This GDACS-tracked figure continues to exceed and supersede the earlier Sphere India-sourced national aggregate of 109 deaths and 347,155 displaced, based on an 8 August situation report that did not reflect the Uttarakhand, Gujarat, Kerala or Uttar Pradesh flooding tracked since.",
+      "description": "Heavy monsoon rains since mid-July 2026 have caused deadly flooding and landslides across India, with flooding spreading into new states through late September 2026 and continuing river overflow in Bihar into early October. GDACS's structured national toll (window 9 August-28 September 2026, episode 20) now stands at 131 deaths and 457,351 displaced, up from 128 deaths and 453,851 displaced as of 27 September, after Uttar Pradesh's Relief Commissioner reported 81 storm-related fatalities and 2,254 damaged buildings as of 28 September. Earlier in the emergency, Odisha was among the worst-hit with 8.64 lakh people affected across 22 districts, Kerala counted 26 dead and 4 missing, and IFRC recorded 74 flood-related deaths in Assam. This GDACS-tracked figure continues to exceed and supersede the earlier Sphere India-sourced national aggregate of 109 deaths and 347,155 displaced, based on an 8 August situation report that did not reflect the Uttarakhand, Gujarat, Kerala, Uttar Pradesh or Bihar flooding tracked since.",
       "event": {
         "impact": {
-          "deaths": 130,
-          "displaced": 453851,
-          "summary": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, window 9 August-28 September 2026, episode 19, Orange alert) now carries a structured national toll of 130 deaths and 453,851 displaced, up from 128 deaths at the 27 September data cut and sharply up from 42 deaths and 260,529 displaced as of 22 September, driven substantially by new flooding in Uttar Pradesh State: the state's Relief Commissioner reported 81 storm-related fatalities and 2,254 damaged buildings as of 28 September. This GDACS-tracked figure continues to exceed and supersede this record's earlier Sphere India-sourced national aggregate (109 deaths, 347,155 displaced, based on an 8 August situation report), which did not yet reflect the Uttarakhand, Gujarat, Kerala or Uttar Pradesh flooding tracked separately by GDACS since early September."
+          "deaths": 131,
+          "displaced": 457351,
+          "summary": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, window 9 August-28 September 2026, episode 20, Orange alert) now carries a structured national toll of 131 deaths and 457,351 displaced, up from 128 deaths and 453,851 displaced at the 27 September data cut; the event's narrative notes heavy rain continuing to cause river overflow in Bihar State into early October. This GDACS-tracked figure continues to exceed and supersede this record's earlier Sphere India-sourced national aggregate (109 deaths, 347,155 displaced, based on an 8 August situation report), which did not yet reflect the Uttarakhand, Gujarat, Kerala, Uttar Pradesh or Bihar flooding tracked separately by GDACS since early September."
         },
         "live_source_url": "https://reliefweb.int/country/ind",
         "location": {
@@ -3563,23 +3577,18 @@
         "status": "ongoing"
       },
       "id": "india-monsoon-floods-2026",
-      "last_updated": "2026-10-01T09:24:19Z",
+      "last_updated": "2026-10-02T09:20:34Z",
       "name": "Multi-State Monsoon Floods & Landslides — India",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:16:23Z",
+            "at": "2026-10-02T09:20:34Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-16-23Z-d47939"
-          },
-          {
-            "at": "2026-10-01T09:24:19Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-19Z-cacff6"
+            "run_id": "2026-10-02T09-20-34Z-4fdf11"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-19Z-cacff6"
+        "last_run_id": "2026-10-02T09-20-34Z-4fdf11"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3588,6 +3597,10 @@
         "recency_rank": 739813
       },
       "updates": [
+        {
+          "date": "2026-10-01",
+          "text": "GDACS's structured national toll rose to 131 deaths (from 128) and 457,351 displaced (from 453,851) as of episode 20 (window extended to 28 September); the event's narrative reports continuing river overflow in Bihar State from late September rainfall into early October."
+        },
         {
           "date": "2026-09-30",
           "text": "GDACS's structured national toll rose to 130 deaths (from 128) as of episode 19 (window extended to 28 September), with displaced holding at 453,851; continuing flooding and landslides were reported across multiple districts of Uttarakhand State in late September."
@@ -3647,7 +3660,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 25 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 26 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -4538,14 +4551,22 @@
           "source_url": "https://www.fdma.go.jp/disaster/info/items/20260918taihuu25gou21.pdf",
           "text": "Japan's Fire and Disaster Management Agency situation report No. 21 (1 October 2026, 9:00 JST) on Typhoon No. 25, Typhoon No. 26 and related frontal heavy rain: 16 deaths (Chiba 9, Kanagawa 5, Kumamoto 1, Miyazaki 1) and 2 people missing, both unchanged from report No. 20; 41 injured (3 serious, 38 minor); and 2,211 homes damaged or destroyed (58 total collapse, 371 half collapse, 385 flooded above floor level, 1,175 flooded below floor level, 222 partially damaged), up from 2,180. Evacuation instructions held at 1,315 households (2,675 people) across Chiba and Kanagawa, unchanged from the prior report.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-9",
+          "retrieved_date": "2026-10-02",
+          "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
+          "source_url": "https://www.fdma.go.jp/disaster/info/items/20260918taihuu25gou22.pdf",
+          "text": "Japan's Fire and Disaster Management Agency situation report No. 22 (2 October 2026, 8:00 JST) on Typhoon No. 25, Typhoon No. 26 and related frontal heavy rain: 16 deaths (Chiba 9, Kanagawa 5, Kumamoto 1, Miyazaki 1; 2 disaster-related) and 2 people missing, both unchanged from report No. 21; 41 injured (3 serious, 38 minor), unchanged; and 2,319 homes damaged or destroyed (62 total collapse, 399 half collapse, 399 flooded above floor level, 1,220 flooded below floor level, 239 partially damaged), up from 2,211 in report No. 21. Evacuation instructions were scaled back to 502 households (1,049 people) across Chiba (464 households, 996 people) and Kanagawa (38 households, 53 people), down from 1,315 households (2,675 people) in the prior report.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Typhoon Dujuan, Japan's Typhoon No. 25, brought record rainfall and violent winds to eastern Japan from 20 to 23 September 2026, triggering floods and landslides across the Kanto region; a subsequent Typhoon No. 26 and frontal heavy rain added further damage, including Kumamoto Prefecture's first fatality. Japan Meteorological Agency issued a Level 5 special warning for landslides on Tokyo's Izu Oshima island on 21 September, and Chiba, Tokyo, Kanagawa and Okinawa prefectures stood up disaster response headquarters (Okinawa's was dissolved 28 September). Japan's Fire and Disaster Management Agency's latest situation report (No. 21, 1 October) records 16 deaths -- nine in Chiba, five in Kanagawa, one in Kumamoto and one in Miyazaki -- 2 people still missing, 41 injured and 2,211 homes damaged or destroyed, up from 2,180. Evacuation instructions covering 1,315 households (2,675 people) in Chiba and Kanagawa remain in effect, unchanged from the prior report.",
+      "description": "Typhoon Dujuan, Japan's Typhoon No. 25, brought record rainfall and violent winds to eastern Japan from 20 to 23 September 2026, triggering floods and landslides across the Kanto region; a subsequent Typhoon No. 26 and frontal heavy rain added further damage, including Kumamoto Prefecture's first fatality. Japan Meteorological Agency issued a Level 5 special warning for landslides on Tokyo's Izu Oshima island on 21 September, and Chiba, Tokyo, Kanagawa and Okinawa prefectures stood up disaster response headquarters (Okinawa's was dissolved 28 September). Japan's Fire and Disaster Management Agency's latest situation report (No. 22, 2 October) holds the toll at 16 deaths -- nine in Chiba, five in Kanagawa, one in Kumamoto and one in Miyazaki -- 2 people still missing and 41 injured, unchanged from the prior report, while homes damaged or destroyed rose to 2,319, up from 2,211. Evacuation instructions have been scaled back to 502 households (1,049 people) in Chiba and Kanagawa, down from 1,315 households (2,675 people).",
       "event": {
         "impact": {
           "deaths": 16,
           "displaced": null,
-          "summary": "Japan's Fire and Disaster Management Agency's situation report No. 21 (1 October 2026, 9:00 JST) records 16 deaths (Chiba 9, Kanagawa 5, Kumamoto 1, Miyazaki 1) and 2 people missing, both unchanged from the prior report; 41 injured (3 serious, 38 minor); and 2,211 homes damaged or destroyed (58 total collapse, 371 half collapse, 385 flooded above floor level, 1,175 flooded below floor level, 222 partially damaged), up from 2,180. Evacuation instructions held at 1,315 households (2,675 people) -- 1,277 households (2,622 people) in Chiba and 38 households (53 people) in Kanagawa -- unchanged from the prior report."
+          "summary": "Japan's Fire and Disaster Management Agency's situation report No. 22 (2 October 2026, 8:00 JST) holds the toll at 16 deaths (Chiba 9, Kanagawa 5, Kumamoto 1, Miyazaki 1) and 2 missing, both unchanged from the prior report; 41 injured (3 serious, 38 minor), also unchanged. Homes damaged or destroyed rose to 2,319 (62 total collapse, 399 half collapse, 399 flooded above floor, 1,220 flooded below floor, 239 partially damaged), up from 2,211. Evacuation instructions were scaled back to 502 households (1,049 people) -- 464 households (996 people) in Chiba and 38 households (53 people) in Kanagawa -- down from 1,315 households (2,675 people) in the prior report."
         },
         "live_source_url": "https://www.fdma.go.jp/disaster/info/",
         "location": {
@@ -4559,23 +4580,18 @@
         "status": "ongoing"
       },
       "id": "japan-typhoon-dujuan-2026",
-      "last_updated": "2026-10-01T09:24:19Z",
+      "last_updated": "2026-10-02T09:21:35Z",
       "name": "Typhoon Dujuan (Typhoon No. 25), Japan",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:25:57Z",
+            "at": "2026-10-02T09:21:35Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-25-57Z-e55af6"
-          },
-          {
-            "at": "2026-10-01T09:24:19Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-19Z-528a39"
+            "run_id": "2026-10-02T09-21-35Z-9a03a8"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-19Z-528a39"
+        "last_run_id": "2026-10-02T09-21-35Z-9a03a8"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4584,6 +4600,10 @@
         "recency_rank": 739880
       },
       "updates": [
+        {
+          "date": "2026-10-02",
+          "text": "FDMA's report No. 22 (2 Oct, 8:00 JST) held deaths at 16, missing at 2 and injured at 41, all unchanged; homes damaged rose to 2,319 (from 2,211). Evacuation instructions were scaled back to 502 households (1,049 people) in Chiba/Kanagawa, down sharply from 1,315 households (2,675 people)."
+        },
         {
           "date": "2026-10-01",
           "text": "FDMA's report No. 21 (1 Oct, 9:00 JST) held deaths at 16 and missing at 2, both unchanged; homes damaged rose to 2,211 (from 2,180). Evacuation instructions held steady at 1,315 households (2,675 people) in Chiba and Kanagawa."
@@ -4615,7 +4635,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5129,7 +5149,7 @@
         },
         {
           "id": "claim-16",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/nepal/nepal-rasuwa-flood-situation-report-no-9-22-september-2026",
           "text": "UN OCHA and the UN Resident Coordinator's Office in Nepal, Rasuwa-Bhotekoshi Flood Situation Report No. 9 (as of 22 September 2026, covering 15-22 September): 'The floods have claimed 1,453 lives; 5,644 people remain missing and 13,795 have been rescued (NDRRMA, 23 September, 19:00). 1,112 people remain in 21 displacement centres.' The report also records a US$49.6 million Flash Appeal (through 31 December 2026) of which US$22.0 million was funded per FTS as of 23 September, 84.3K people targeted across 17 affected municipalities, and 64,263 people reached by assistance as of 22 September.",
@@ -5219,23 +5239,18 @@
         "status": "ongoing"
       },
       "id": "nepal-rasuwa-glacial-flood-2026",
-      "last_updated": "2026-10-01T09:24:19Z",
+      "last_updated": "2026-10-02T09:20:11Z",
       "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:24:17Z",
+            "at": "2026-10-02T09:20:11Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-24-17Z-67ec19"
-          },
-          {
-            "at": "2026-10-01T09:24:19Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-19Z-7ae5f5"
+            "run_id": "2026-10-02T09-20-11Z-baa36d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-19Z-7ae5f5"
+        "last_run_id": "2026-10-02T09-20-11Z-baa36d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5571,7 +5586,7 @@
         },
         {
           "id": "claim-35",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "National Disaster Management Authority (Pakistan)",
           "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
           "text": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 29 September 2026 at 199 deaths (68 male, 40 female, 91 children) and 556 injuries (227 male, 145 female, 184 children), up from 198 deaths and 549 injuries three days earlier. Cumulative housing damage now stands at 1,839 houses affected (623 destroyed, 1,216 partially damaged), with 1,559 livestock lost and 10,684 persons rescued or evacuated across 1,192 rescue/evacuation operations; Khyber Pakhtunkhwa remains the most-affected province.",
@@ -5605,23 +5620,18 @@
         "status": "ongoing"
       },
       "id": "pakistan-floods-2026",
-      "last_updated": "2026-10-01T09:24:18Z",
+      "last_updated": "2026-10-02T09:20:05Z",
       "name": "Monsoon Floods — Pakistan",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:24:20Z",
+            "at": "2026-10-02T09:20:05Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-24-20Z-5132ce"
-          },
-          {
-            "at": "2026-10-01T09:24:18Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-18Z-59b448"
+            "run_id": "2026-10-02T09-20-05Z-7b3ce8"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-18Z-59b448"
+        "last_run_id": "2026-10-02T09-20-05Z-7b3ce8"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7202,19 +7212,35 @@
         },
         {
           "id": "claim-5",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventtype=FL&eventid=1104122&episodeid=52",
           "text": "GDACS's flood event report for Thailand (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 52, reporting window extended to 18 August-28 September 2026) records 'Death: 6' (up from 4) and 'Displaced: 569' (up from 169); overall alert level remains Green (low humanitarian impact).",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-10-02",
+          "source_name": "Nation Thailand",
+          "source_url": "https://www.nationthailand.com/news/general/40071641",
+          "text": "Nation Thailand, citing Thailand's Department of Disaster Prevention and Mitigation (DDPM) 6am situation report of 29 September 2026: flooding remained active across 29 provinces and all 50 districts of Bangkok, affecting more than 2,602,309 people in 940,300 households, with the cumulative death toll since 16 September risen to 23; Samut Prakan (124,678 affected households) and Phra Nakhon Si Ayutthaya (13,971 households) were among the worst-hit provinces.",
+          "verification_status": "unverified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-10-02",
+          "source_name": "CGTN",
+          "source_url": "https://news.cgtn.com/news/2026-10-01/Thailand-floods-ease-as-water-recedes-in-Bangkok-1QT1Udw1Hbi/p.html",
+          "text": "CGTN (1 October 2026): floodwaters were receding in Bangkok and easing across most regions, though 29 provinces plus Bangkok still had active flooding; the cumulative national death toll had risen to 24 since mid-September, with more than 1.12 million households (about 3.19 million people) affected and roughly 1.71 million rai (about 273,600 hectares) of land still submerged nationwide. A government spokesperson said the water situation 'remains manageable,' while authorities warned of possible renewed flooding from 4-6 October as dam releases were expected to raise riverside water levels by about 80cm.",
+          "verification_status": "unverified"
         }
       ],
-      "description": "Torrential monsoon rain flooded Bangkok and central Thailand from late September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. GDACS's ongoing Thailand flood report (18 August-28 September 2026 window, episode 52) now records 6 deaths and 569 displaced nationwide under a Green alert, up from 4 deaths and 169 displaced previously. Nearly 300mm of rain fell on Bangkok over 48 hours to 26 September, and the Bangkok Metropolitan Administration opened more than 200 shelters, with about 4,200 people evacuated into them; Thailand's Department of Disaster Prevention and Mitigation had reported flooding affecting about 11,796 households (37,036 people) across 12 provinces as of 25 September. Governor Chadchart Sittipunt said on 27 September that the situation had stabilised and floodwaters should recede within two to three days once rain subsides.",
+      "description": "Torrential monsoon rain flooded Bangkok and central Thailand from late September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. GDACS's Thailand flood report (18 August-29 September 2026 window, episode 54) continues to record 6 deaths and 569 displaced nationwide under a Green alert -- a narrower tracking scope than the nationwide toll Thai authorities have reported via media: the Department of Disaster Prevention and Mitigation put the cumulative toll at 23 deaths and over 2.6 million people affected across 29 provinces as of 29 September, rising to a reported 24 deaths and about 3.19 million people affected by 1 October, a toll attributed to Thailand's Department of Disaster Prevention and Mitigation via Thai and international media that GDACS's own tracking for this event does not yet reflect. Bangkok's own flooding has begun to ease, with floodwaters receding and roads reopening, though authorities are watching for possible renewed flooding from additional rain and dam releases expected 4-6 October.",
       "event": {
         "impact": {
           "deaths": 6,
           "displaced": 569,
-          "summary": "GDACS's Thailand flood event report (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 52, window 18 August-28 September 2026) records 6 deaths and 569 displaced nationwide under an overall Green alert, up from 4 deaths and 169 displaced in the prior episode. Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026 after nearly 300mm of rain fell over 48 hours; the Bangkok Metropolitan Administration opened more than 200 shelters, with about 4,200 people evacuated into them, and Thailand's Department of Disaster Prevention and Mitigation reported flooding affecting about 11,796 households (37,036 people) across 38 districts and 596 villages in 12 provinces as of 25 September. On 27 September the governor said the situation had stabilised, with floodwaters expected to recede within two to three days once rain subsides."
+          "summary": "GDACS's Thailand flood event report (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 54, window 18 August-29 September 2026) records 6 deaths and 569 displaced nationwide under an overall Green alert, unchanged from the prior episode. Media reports citing Thailand's Department of Disaster Prevention and Mitigation describe a much larger nationwide toll -- 23 deaths and over 2.6 million people affected across 29 provinces as of 29 September, rising to a reported 24 deaths and about 3.19 million people (1.12 million households) by 1 October -- a toll attributed to Thailand's Department of Disaster Prevention and Mitigation via Thai and international media that GDACS's own tracking for this event does not yet reflect. Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026; by 1 October, floodwaters were reported receding in Bangkok and easing across most affected regions, though authorities warned of possible renewed flooding from additional rain and dam releases expected 4-6 October."
         },
         "live_source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
         "location": {
@@ -7224,27 +7250,22 @@
           "region": "Bangkok Metropolitan Area and 12 central provinces"
         },
         "occurrence_date": "2026-09-24",
-        "scale": "GDACS Green alert; Bangkok citywide flood-disaster declaration",
+        "scale": "GDACS Green alert (6 deaths/569 displaced tracked); Bangkok citywide flood-disaster declaration; media-reported nationwide DDPM toll of ~23-24 deaths and ~3 million people affected across 29 provinces, not yet reflected in GDACS tracking",
         "status": "ongoing"
       },
       "id": "thailand-bangkok-floods-2026",
-      "last_updated": "2026-10-01T09:24:19Z",
+      "last_updated": "2026-10-02T09:22:26Z",
       "name": "Bangkok Flood Disaster, Thailand",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:23:28Z",
+            "at": "2026-10-02T09:22:26Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-23-28Z-6b2b2e"
-          },
-          {
-            "at": "2026-10-01T09:24:19Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-19Z-44996f"
+            "run_id": "2026-10-02T09-22-26Z-707c76"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-19Z-44996f"
+        "last_run_id": "2026-10-02T09-22-26Z-707c76"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7253,6 +7274,10 @@
         "recency_rank": 739883
       },
       "updates": [
+        {
+          "date": "2026-10-01",
+          "text": "Media reports (CGTN) said Bangkok floodwaters were receding and easing nationwide, with a reported cumulative toll of 24 deaths and about 3.19 million people affected since mid-September; authorities warned of possible renewed flooding from additional rain and dam releases expected 4-6 October. GDACS's tracked figures (6 deaths, 569 displaced) remain unchanged."
+        },
         {
           "date": "2026-10-01",
           "text": "GDACS's reporting window extended to 28 September (episode 52): confirmed deaths rose to 6 (from 4) and displaced to 569 (from 169) nationwide; the event remains at Green alert."
@@ -7264,7 +7289,7 @@
       ],
       "verification": {
         "confidence": "medium",
-        "notes": "gate: 2 verified, 0 disputed, 3 unverified -> partial",
+        "notes": "gate: 2 verified, 0 disputed, 5 unverified -> partial",
         "status": "partial"
       }
     },
@@ -7852,7 +7877,7 @@
         },
         {
           "id": "claim-16",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "CAL FIRE",
           "source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire",
           "text": "CAL FIRE's incident page for the Plaskett Fire reports that, as of September 29, 2026 at 5:58 PM, the fire is 100% contained at 30,124 acres, with command transferred back to Los Padres National Forest on September 29, 2026; current operations focus on suppression repair, crew patrols and monitoring for remaining heat, with no further spread anticipated.",
@@ -7860,7 +7885,7 @@
         },
         {
           "id": "claim-17",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "CAL FIRE",
           "source_url": "https://www.fire.ca.gov/incidents/2026/8/8/timber-fire",
           "text": "CAL FIRE's incident page for the Timber Fire reports that, as of September 29, 2026 at 5:58 PM, the fire had burned 25,352 acres and remained 88% contained, with command transferred to Nevada Team 2 on September 29, 2026; the incident remains in advanced suppression repair and mop-up phases.",
@@ -7950,23 +7975,18 @@
         "status": "ongoing"
       },
       "id": "usa-california-big-sur-wildfires-2026",
-      "last_updated": "2026-10-01T09:24:21Z",
+      "last_updated": "2026-10-02T09:21:09Z",
       "name": "Wildfires — Big Sur / Los Padres National Forest, California",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:23:29Z",
+            "at": "2026-10-02T09:21:09Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-23-29Z-779dcb"
-          },
-          {
-            "at": "2026-10-01T09:24:21Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-21Z-1c488a"
+            "run_id": "2026-10-02T09-21-09Z-a887dc"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-21Z-1c488a"
+        "last_run_id": "2026-10-02T09-21-09Z-a887dc"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -9035,6 +9055,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-35",
+          "retrieved_date": "2026-10-02",
+          "source_name": "InciWeb (US wildland fire agencies)",
+          "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+          "text": "InciWeb's Sinlahekin Fire incident page, updated 30 September 2026, 10:14 a.m. PT: the fire holds at 166,007 acres (essentially unchanged from 166,026 on 26 September) with containment steady at 93% and personnel assigned down to 334 (from 401); the fire 'is winding down, and crews will concentrate on finishing up rehab and repair work for approximately another week and prepare to turn over the fire to local control,' with an estimated full-containment date of 15 October 2026.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-08-10",
           "source_name": "Office of the Governor of Washington State",
@@ -9083,12 +9111,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, remains active under a federal emergency declaration covering 12 counties and three Tribal Nations. The Sinlahekin Fire, the state's largest, has risen to 93% containment on over 166,000 acres as of 26 September 2026, with personnel assigned continuing to wind down, while a separate emergency addresses the Paradise Fire's threat to Walla Walla's water supply.",
+      "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, remains active under a federal emergency declaration covering 12 counties and three Tribal Nations. The Sinlahekin Fire, the state's largest, holds at 93% containment on about 166,007 acres as of 30 September 2026, with personnel assigned down to 334 as crews wind down operations, finish rehab and repair work, and target full containment by 15 October; a separate emergency continues to address the Paradise Fire's threat to Walla Walla's water supply.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "The Sinlahekin Fire, the state's largest, has risen to 93% containment on 166,026 acres as of 26 September 2026, with personnel assigned down to 401 from 594 as operations wind down; officials report no further fire spread is anticipated, with crews smoldering out and consuming large-diameter woody fuels. Washington's wildfire emergency covers 12 counties (after five more were added 31 August) and three Tribal Nations, with tenant-protection and assistance provisions extended to 30 September; a distinct emergency was declared 28 August for Walla Walla County over the Paradise Fire's threat to the Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
+          "summary": "The Sinlahekin Fire, the state's largest, holds at 93% containment on about 166,007 acres as of 30 September 2026 (essentially unchanged from 166,026 on 26 September), with personnel assigned down to 334 from 401 as operations wind down; InciWeb reports crews are focused on rehab and repair work for about another week before turning the fire over to local control, with full containment now estimated for 15 October 2026. Washington's wildfire emergency covers 12 counties (after five more were added 31 August) and three Tribal Nations, with tenant-protection and assistance provisions extended to 30 September; a distinct emergency was declared 28 August for Walla Walla County over the Paradise Fire's threat to the Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
         },
         "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
         "location": {
@@ -9098,27 +9126,22 @@
           "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
         },
         "occurrence_date": "2026-08-01",
-        "scale": "Federal emergency declaration; state wildfire emergency covering 12 counties; Sinlahekin Fire (state's largest) at 166,026 acres / 93% contained as of 26 September 2026",
+        "scale": "Federal emergency declaration; state wildfire emergency covering 12 counties; Sinlahekin Fire (state's largest) at 166,007 acres / 93% contained as of 30 September 2026, winding down toward 15 October target",
         "status": "ongoing"
       },
       "id": "usa-washington-wildfires-2026",
-      "last_updated": "2026-10-01T09:24:21Z",
+      "last_updated": "2026-10-02T09:20:40Z",
       "name": "Wildfire Emergency — Eastern Washington, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:23:33Z",
+            "at": "2026-10-02T09:20:40Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-23-33Z-56452b"
-          },
-          {
-            "at": "2026-10-01T09:24:21Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-21Z-310660"
+            "run_id": "2026-10-02T09-20-40Z-e502ee"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-21Z-310660"
+        "last_run_id": "2026-10-02T09-20-40Z-e502ee"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -9127,6 +9150,10 @@
         "recency_rank": 739829
       },
       "updates": [
+        {
+          "date": "2026-09-30",
+          "text": "InciWeb reported the Sinlahekin Fire is 'winding down': containment held at 93% on 166,007 acres (essentially unchanged), personnel assigned down to 334 (from 401), with crews focused on rehab/repair work and a new estimated full-containment date of 15 October 2026."
+        },
         {
           "date": "2026-09-26",
           "text": "InciWeb's update for the Sinlahekin Fire put containment at 93% (up from 92%) on 166,026 acres (unchanged), with personnel assigned down to 401 from 594 as the fire continues smoldering with no further spread anticipated."
@@ -9242,7 +9269,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 34 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 35 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -9748,7 +9775,7 @@
         },
         {
           "id": "claim-27",
-          "retrieved_date": "2026-10-01",
+          "retrieved_date": "2026-10-02",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-25-september-2026",
           "text": "OCHA oPt's Humanitarian Situation Report of 25 September 2026 (reporting period 15-21 September) states that Israeli forces shot and killed two Palestinians and a Palestinian killed one Israeli settler during the week; at least 49 Palestinians were injured by Israeli forces or settlers, including about 30 in settler attacks, and 51 settler attacks resulted in Palestinian casualties, property damage or both. Demolitions displaced 147 Palestinians in the West Bank that week -- more than three times the 2026 weekly average -- including 58 people in South 'Anata Bedouin communities near the area designated for the E1 settlement expansion plan; more than 1,100 structures have been demolished for lacking building permits in 2026, displacing over 1,500 people, more than a third of the over 4,300 Palestinians displaced so far this year.",
@@ -9806,23 +9833,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-10-01T09:24:20Z",
+      "last_updated": "2026-10-02T09:22:26Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-30T09:23:34Z",
+            "at": "2026-10-02T09:22:26Z",
             "layer": "verify",
-            "run_id": "2026-09-30T09-23-34Z-4947ea"
-          },
-          {
-            "at": "2026-10-01T09:24:20Z",
-            "layer": "verify",
-            "run_id": "2026-10-01T09-24-20Z-095ef9"
+            "run_id": "2026-10-02T09-22-26Z-5540e2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-01T09-24-20Z-095ef9"
+        "last_run_id": "2026-10-02T09-22-26Z-5540e2"
       },
       "schema_version": "1.0",
       "sort_keys": {

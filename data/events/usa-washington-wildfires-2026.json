@@ -226,6 +226,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-35",
+      "retrieved_date": "2026-10-02",
+      "source_name": "InciWeb (US wildland fire agencies)",
+      "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+      "text": "InciWeb's Sinlahekin Fire incident page, updated 30 September 2026, 10:14 a.m. PT: the fire holds at 166,007 acres (essentially unchanged from 166,026 on 26 September) with containment steady at 93% and personnel assigned down to 334 (from 401); the fire 'is winding down, and crews will concentrate on finishing up rehab and repair work for approximately another week and prepare to turn over the fire to local control,' with an estimated full-containment date of 15 October 2026.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-08-10",
       "source_name": "Office of the Governor of Washington State",
@@ -274,12 +282,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, remains active under a federal emergency declaration covering 12 counties and three Tribal Nations. The Sinlahekin Fire, the state's largest, has risen to 93% containment on over 166,000 acres as of 26 September 2026, with personnel assigned continuing to wind down, while a separate emergency addresses the Paradise Fire's threat to Walla Walla's water supply.",
+  "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, remains active under a federal emergency declaration covering 12 counties and three Tribal Nations. The Sinlahekin Fire, the state's largest, holds at 93% containment on about 166,007 acres as of 30 September 2026, with personnel assigned down to 334 as crews wind down operations, finish rehab and repair work, and target full containment by 15 October; a separate emergency continues to address the Paradise Fire's threat to Walla Walla's water supply.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "The Sinlahekin Fire, the state's largest, has risen to 93% containment on 166,026 acres as of 26 September 2026, with personnel assigned down to 401 from 594 as operations wind down; officials report no further fire spread is anticipated, with crews smoldering out and consuming large-diameter woody fuels. Washington's wildfire emergency covers 12 counties (after five more were added 31 August) and three Tribal Nations, with tenant-protection and assistance provisions extended to 30 September; a distinct emergency was declared 28 August for Walla Walla County over the Paradise Fire's threat to the Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
+      "summary": "The Sinlahekin Fire, the state's largest, holds at 93% containment on about 166,007 acres as of 30 September 2026 (essentially unchanged from 166,026 on 26 September), with personnel assigned down to 334 from 401 as operations wind down; InciWeb reports crews are focused on rehab and repair work for about another week before turning the fire over to local control, with full containment now estimated for 15 October 2026. Washington's wildfire emergency covers 12 counties (after five more were added 31 August) and three Tribal Nations, with tenant-protection and assistance provisions extended to 30 September; a distinct emergency was declared 28 August for Walla Walla County over the Paradise Fire's threat to the Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
     },
     "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
     "location": {
@@ -289,27 +297,22 @@
       "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
     },
     "occurrence_date": "2026-08-01",
-    "scale": "Federal emergency declaration; state wildfire emergency covering 12 counties; Sinlahekin Fire (state's largest) at 166,026 acres / 93% contained as of 26 September 2026",
+    "scale": "Federal emergency declaration; state wildfire emergency covering 12 counties; Sinlahekin Fire (state's largest) at 166,007 acres / 93% contained as of 30 September 2026, winding down toward 15 October target",
     "status": "ongoing"
   },
   "id": "usa-washington-wildfires-2026",
-  "last_updated": "2026-10-01T09:24:21Z",
+  "last_updated": "2026-10-02T09:20:40Z",
   "name": "Wildfire Emergency — Eastern Washington, USA",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-30T09:23:33Z",
+        "at": "2026-10-02T09:20:40Z",
         "layer": "verify",
-        "run_id": "2026-09-30T09-23-33Z-56452b"
-      },
-      {
-        "at": "2026-10-01T09:24:21Z",
-        "layer": "verify",
-        "run_id": "2026-10-01T09-24-21Z-310660"
+        "run_id": "2026-10-02T09-20-40Z-e502ee"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-01T09-24-21Z-310660"
+    "last_run_id": "2026-10-02T09-20-40Z-e502ee"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -318,6 +321,10 @@
     "recency_rank": 739829
   },
   "updates": [
+    {
+      "date": "2026-09-30",
+      "text": "InciWeb reported the Sinlahekin Fire is 'winding down': containment held at 93% on 166,007 acres (essentially unchanged), personnel assigned down to 334 (from 401), with crews focused on rehab/repair work and a new estimated full-containment date of 15 October 2026."
+    },
     {
       "date": "2026-09-26",
       "text": "InciWeb's update for the Sinlahekin Fire put containment at 93% (up from 92%) on 166,026 acres (unchanged), with personnel assigned down to 401 from 594 as the fire continues smoldering with no further spread anticipated."
@@ -433,7 +440,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 34 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 35 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

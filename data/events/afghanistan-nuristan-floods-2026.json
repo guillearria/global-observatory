@@ -43,7 +43,7 @@
     },
     {
       "id": "claim-20",
-      "retrieved_date": "2026-10-01",
+      "retrieved_date": "2026-10-02",
       "source_name": "ReliefWeb",
       "source_url": "https://reliefweb.int/report/afghanistan/unicef-afghanistan-humanitarian-flash-update-no-4-central-and-eastern-region-flash-floods-20-august-2026",
       "text": "UNICEF Afghanistan Humanitarian Flash Update No. 4 (posted to ReliefWeb 24 August 2026, covering the series of flash floods between 20 July and 3 August): in the Eastern Region, Parun district, Nuristan Province recorded 24 fatalities and 125 injuries with additional people reported missing, and 120 houses destroyed or damaged; the 3 August Barg-e-Matal flood affected 191 houses. In the Central Region, flash floods across nine provinces caused 2 further fatalities and 6 injuries, affected 316 houses (2,057 people), damaged about 1.6 million square meters of agricultural land, killed roughly 300 livestock and damaged 17 schools; a separate incident in Paktia destroyed 11 houses. This remains, as of 23 September 2026, the most recent flash-flood-specific report on ReliefWeb's Afghanistan disaster record for this event; it provides no revised aggregate death toll superseding the combined 30-death figure already on file.",
@@ -74,12 +74,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Flash floods triggered by heavy rainfall struck Afghanistan's eastern Nuristan Province around 19 July 2026, devastating the provincial capital Parun and its surrounding villages, and also killed Afghan refugees at a returnee transit camp near the Torkham border crossing; GDACS assessed the initial flood at a Green alert level. OCHA's Flash Update series records 23 killed in Parun City with 125 injured and 5 missing, plus deaths at Torkham, in Maidan Wardak and in Laghman Province, for a combined confirmed toll of at least 30 deaths across central, eastern and southeastern Afghanistan; the Shelter/NFI cluster counts 1,168 families affected across 14 provinces, with 234 houses destroyed and 930 damaged. WHO closed its reporting with a final situation report (3 August 2026) recording 29 fatalities and 129 injuries on its narrower domestic scope. A second flash flood struck Barg-e-Matal district in Nuristan on 3 August, affecting 191 families; the response remains ongoing.",
+  "description": "Flash floods triggered by heavy rainfall struck Afghanistan's eastern Nuristan Province around 19 July 2026, devastating the provincial capital Parun, and also killed Afghan refugees at a returnee transit camp near the Torkham border crossing. OCHA's Flash Update series recorded 23 killed in Parun City with 125 injured and 5 missing, plus deaths at Torkham, in Maidan Wardak and in Laghman Province, for a combined confirmed toll of at least 30 deaths across central, eastern and southeastern Afghanistan; the Shelter/NFI cluster counted 1,168 families affected across 14 provinces, with 234 houses destroyed and 930 damaged. WHO closed its reporting with a final situation report (3 August 2026) recording 29 fatalities and 129 injuries on its narrower domestic scope, and a second flash flood struck Barg-e-Matal district on 3 August, affecting 191 families. UNICEF's Flash Update No. 4 (the most recent flood-specific report found, covering through 3 August) reported no further deaths beyond the confirmed 30-death toll. With no new casualties reported for nearly nine weeks and relief operations having moved into early recovery, the event is assessed as contained.",
   "event": {
     "impact": {
       "deaths": 30,
       "displaced": null,
-      "summary": "The combined confirmed death toll is at least 30: 23 killed in Parun City (125 injured, 5 missing), 3 Afghan refugees killed at the Torkham transit camp, 1 death in Maidan Wardak and 3 in Laghman Province, where 187 families were affected. The Shelter/NFI cluster reports 1,168 families affected across 14 provinces (234 houses destroyed, 930 damaged); WHO's final situation report records 29 fatalities and 129 injuries on its domestic-only scope, and a second flash flood hit Barg-e-Matal district on 3 August, affecting 191 families."
+      "summary": "The combined confirmed death toll remains at least 30: 23 killed in Parun City (125 injured, 5 missing), 3 Afghan refugees killed at the Torkham transit camp, 1 death in Maidan Wardak and 3 in Laghman Province, where 187 families were affected. The Shelter/NFI cluster reports 1,168 families affected across 14 provinces (234 houses destroyed, 930 damaged); WHO's final situation report recorded 29 fatalities and 129 injuries on its domestic-only scope. UNICEF's Flash Update No. 4 (covering through 3 August, the most recent flood-specific report found) reported no toll change, and no newer report has since been found; relief operations have moved into early recovery."
     },
     "live_source_url": "https://reliefweb.int/disaster/ff-2026-000120-afg",
     "location": {
@@ -90,26 +90,21 @@
     },
     "occurrence_date": "2026-07-19",
     "scale": "Flash flood; GDACS Green alert",
-    "status": "ongoing"
+    "status": "contained"
   },
   "id": "afghanistan-nuristan-floods-2026",
-  "last_updated": "2026-10-01T09:24:19Z",
+  "last_updated": "2026-10-02T09:21:21Z",
   "name": "Nuristan Flash Floods, Afghanistan",
   "provenance": {
     "history": [
       {
-        "at": "2026-09-30T09:15:28Z",
+        "at": "2026-10-02T09:21:21Z",
         "layer": "verify",
-        "run_id": "2026-09-30T09-15-28Z-afde48"
-      },
-      {
-        "at": "2026-10-01T09:24:19Z",
-        "layer": "verify",
-        "run_id": "2026-10-01T09-24-19Z-f28e53"
+        "run_id": "2026-10-02T09-21-21Z-02d6ef"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-01T09-24-19Z-f28e53"
+    "last_run_id": "2026-10-02T09-21-21Z-02d6ef"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -118,6 +113,10 @@
     "recency_rank": 739816
   },
   "updates": [
+    {
+      "date": "2026-10-02",
+      "text": "Status reassessed from ongoing to contained: the confirmed toll (at least 30 deaths) has been unchanged since UNICEF's Flash Update No. 4 (data through 3 August), no newer flood-specific report has been found in nearly nine weeks, and relief operations have moved into early recovery."
+    },
     {
       "date": "2026-08-16",
       "text": "UNICEF's Flash Update No. 3, posted to ReliefWeb, confirmed that a second flash flood struck Barg-e-Matal district, Nuristan, on 3 August, affecting 191 families; ReliefWeb's disaster record for the floods remains listed as ongoing."
