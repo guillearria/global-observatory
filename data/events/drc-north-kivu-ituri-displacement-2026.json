@@ -24,14 +24,22 @@
       "source_url": "https://news.un.org/en/story/2026/09/1168465",
       "text": "\"The camp had provided shelter for some 19,000 people fleeing violence in the resource-rich east of the country, close to the border with Rwanda. In recent days, thousands of people fled Kigonze following reports that soldiers had entered the site searching for weapons and people suspected of belonging to non-State armed groups.\" A separate UN News report (29 September 2026) cites OCHA: the camp \"hosts nearly 19,000 displaced people\" who have faced \"armed violence, threats and intimidation against civilians, arrests, forced displacement and the destruction of shelters\" since security incidents began on 20 September.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-10-03",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168499",
+      "text": "The same UN News report (1 October 2026) states that \"a key transit centre for patients requiring treatment burned down\" at Bunia's Kigonze displacement camp, which \"now lies abandoned,\" setting back the regional Ebola response; UN official Julien Harneis said: \"It's been a huge struggle to create Ebola transit centres [and] Ebola treatment centres; it's required money, bringing in staff and it's been a struggle all across the east. So, when we lose a centre, that means we lose capacity, we lose investment and we have to start again.\"",
+      "verification_status": "verified"
     }
   ],
-  "description": "A fresh wave of armed clashes across North Kivu's Masisi territory and Ituri province in eastern DR Congo has displaced tens of thousands of people since mid-September 2026. The UN's OCHA says fighting in Masisi alone has displaced more than 24,000 people, while clashes between armed groups near Djugu in Ituri forced over 3,000 people to flee the Rhoe displacement camp on 27 September, killing at least four civilians, and separate incidents at Bunia's Kigonze camp — home to roughly 19,000 displaced people — have driven thousands more to leave after soldiers entered the site. The unrest is also disrupting the response to DR Congo's ongoing Ebola outbreak.",
+  "description": "A fresh wave of armed clashes across North Kivu's Masisi territory and Ituri province in eastern DR Congo has displaced tens of thousands of people since mid-September 2026. The UN's OCHA says fighting in Masisi alone has displaced more than 24,000 people, while clashes between armed groups near Djugu in Ituri forced over 3,000 people to flee the Rhoe displacement camp on 27 September, killing at least four civilians, and separate incidents at Bunia's Kigonze camp — home to roughly 19,000 displaced people — have driven thousands more to leave after soldiers entered the site. The unrest has now disrupted the regional Ebola response directly: UN News reported on 1 October that a key Ebola transit centre at the Kigonze camp burned down and now lies abandoned.",
   "event": {
     "impact": {
       "deaths": 4,
       "displaced": 27000,
-      "summary": "OCHA reports more than 24,000 people displaced by fighting in Masisi, North Kivu, since mid-September 2026, plus over 3,000 who fled Ituri's Rhoe displacement camp on 27 September after clashes left at least four people dead and seven injured and burned houses in Blukwa. Separately, thousands have fled Bunia's Kigonze camp (sheltering roughly 19,000 displaced people) following a military search operation, complicating the regional Ebola response."
+      "summary": "OCHA reports more than 24,000 people displaced by fighting in Masisi, North Kivu, since mid-September 2026, plus over 3,000 who fled Ituri's Rhoe displacement camp on 27 September after clashes left at least four people dead and seven injured and burned houses in Blukwa. Separately, thousands have fled Bunia's Kigonze camp (sheltering roughly 19,000 displaced people) following a military search operation, and UN News reported on 1 October that a key Ebola transit centre at the camp has since burned down and lies abandoned, further disrupting the regional Ebola response."
     },
     "live_source_url": "https://news.un.org/en/focus/democratic-republic-congo",
     "location": {
@@ -45,18 +53,18 @@
     "status": "ongoing"
   },
   "id": "drc-north-kivu-ituri-displacement-2026",
-  "last_updated": "2026-10-02T09:24:58Z",
+  "last_updated": "2026-10-03T09:17:57Z",
   "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-02T09:24:58Z",
+        "at": "2026-10-03T09:17:57Z",
         "layer": "verify",
-        "run_id": "2026-10-02T09-24-58Z-a9cfbd"
+        "run_id": "2026-10-03T09-17-57Z-7bc0b1"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-02T09-24-58Z-a9cfbd"
+    "last_run_id": "2026-10-03T09-17-57Z-7bc0b1"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -65,6 +73,10 @@
     "recency_rank": 739874
   },
   "updates": [
+    {
+      "date": "2026-10-03",
+      "text": "UN News reported on 1 October that a key Ebola transit centre at Bunia's Kigonze displacement camp -- already destabilized by a security incursion in late September -- burned down and now lies abandoned, further disrupting the regional Ebola response alongside continuing displacement from fighting in Masisi and Ituri."
+    },
     {
       "date": "2026-09-27",
       "text": "Clashes near Djugu, Ituri intensified, forcing over 3,000 people to flee Rhoe displacement camp; OCHA reported at least four killed and seven injured, with houses burned in Blukwa."
@@ -76,7 +88,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
