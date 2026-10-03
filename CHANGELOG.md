@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-10-03 — World Pulse daily refresh (2026-10-03), part 2: re-verify El Obeid siege, West Bank unchanged (`4a9b358`)
+
+- **Updated:** el-obeid-siege-sudan-2026, west-bank-settler-violence-surge-2026
+
 ## 2026-10-03 — World Pulse daily refresh (2026-10-03), part 1: re-verify 17 ongoing events (`567e774`)
 
 - **Updated:** canada-british-columbia-wildfires-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, india-monsoon-floods-2026, indonesia-volcano-krakatau-2026, indonesia-wildfires-haze-2026, iran-israel-us-war-2026, japan-typhoon-dujuan-2026, japan-volcano-tokachidake-2026, mindanao-earthquake-philippines-2026, nepal-rasuwa-glacial-flood-2026, sudan-cholera-outbreak-2026, thailand-bangkok-floods-2026, usa-california-big-sur-wildfires-2026, usa-washington-wildfires-2026, yemen-conflict-escalation-2026
