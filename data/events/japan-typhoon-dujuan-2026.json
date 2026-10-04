@@ -18,6 +18,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-11",
+      "retrieved_date": "2026-10-04",
+      "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
+      "source_url": "https://www.fdma.go.jp/disaster/info/items/20260918taihuu25gou24.pdf",
+      "text": "Japan's Fire and Disaster Management Agency situation report No. 24 (4 October 2026, 14:00 JST) on Typhoon No. 25, Typhoon No. 26 and related frontal heavy rain: 17 deaths (Chiba 10, Kanagawa 5, Kumamoto 1, Miyazaki 1), unchanged, and 0 people missing, down from 1; 41 injured (3 serious, 38 minor) and 2,412 homes damaged or destroyed (67 total collapse, 414 half collapse, 424 flooded above floor level, 1,259 flooded below floor level, 248 partially damaged), both unchanged from report No. 23. A footnote states the missing-person count in Chiba fell from 1 to 0 because the body found in Nagara-machi was confirmed to be the same person already listed among the dead. Evacuation instructions held at 3 municipalities, 484 households and 1,029 people: 464 households (996 people) in Chiba and 20 households (33 people) in Kanagawa, unchanged from the prior report.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-09-23",
       "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
@@ -82,12 +90,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Typhoon Dujuan, Japan's Typhoon No. 25, brought record rainfall and violent winds to eastern Japan from 20 to 23 September 2026, triggering floods and landslides across the Kanto region; a subsequent Typhoon No. 26 and frontal heavy rain added further damage, including Kumamoto Prefecture's first fatality. Japan Meteorological Agency issued a Level 5 special warning for landslides on Tokyo's Izu Oshima island on 21 September, and Chiba, Tokyo, Kanagawa and Okinawa prefectures stood up disaster response headquarters (Okinawa's was dissolved 28 September and Kanagawa's on 2 October). Japan's Fire and Disaster Management Agency's latest situation report (No. 23, 3 October) puts the toll at 17 deaths -- ten in Chiba, five in Kanagawa, one in Kumamoto and one in Miyazaki -- after a missing Nagara-machi, Chiba landslide victim was recovered and confirmed dead, leaving 1 person still missing and 41 injured, unchanged from the prior report; homes damaged or destroyed rose to 2,412, up from 2,319. Evacuation instructions have been scaled back further to 484 households (1,029 people) in Chiba and Kanagawa, down from 502 households (1,049 people).",
+  "description": "Typhoon Dujuan, Japan's Typhoon No. 25, brought record rainfall and violent winds to eastern Japan from 20 to 23 September 2026, triggering floods and landslides across the Kanto region; a subsequent Typhoon No. 26 and frontal heavy rain added further damage, including Kumamoto Prefecture's first fatality. Japan Meteorological Agency issued a Level 5 special warning for landslides on Tokyo's Izu Oshima island on 21 September, and Chiba, Tokyo, Kanagawa and Okinawa prefectures stood up disaster response headquarters (Okinawa's was dissolved 28 September and Kanagawa's on 2 October). Japan's Fire and Disaster Management Agency's latest situation report (No. 24, 4 October) holds the toll at 17 deaths -- ten in Chiba, five in Kanagawa, one in Kumamoto and one in Miyazaki -- and now puts the missing count at zero, after the Nagara-machi, Chiba landslide victim recovered earlier was confirmed to be the same person already counted among the dead rather than an additional fatality; 41 injured and 2,412 homes damaged or destroyed are unchanged from the prior report. Evacuation instructions remain at 484 households (1,029 people) in Chiba and Kanagawa.",
   "event": {
     "impact": {
       "deaths": 17,
       "displaced": null,
-      "summary": "Japan's Fire and Disaster Management Agency's situation report No. 23 (3 October 2026, 16:00 JST) puts the toll at 17 deaths (Chiba 10, Kanagawa 5, Kumamoto 1, Miyazaki 1) and 1 missing, after a Nagara-machi, Chiba landslide victim previously listed as missing was recovered and confirmed dead; 41 injured (3 serious, 38 minor), unchanged. Homes damaged or destroyed rose to 2,412 (67 total collapse, 414 half collapse, 424 flooded above floor, 1,259 flooded below floor, 248 partially damaged), up from 2,319. Evacuation instructions were scaled back to 484 households (1,029 people) -- 464 households (996 people) in Chiba and 20 households (33 people) in Kanagawa -- down from 502 households (1,049 people) in the prior report; Kanagawa's disaster response headquarters, established 21 September, was dissolved 2 October."
+      "summary": "Japan's Fire and Disaster Management Agency's situation report No. 24 (4 October 2026, 14:00 JST) holds the toll at 17 deaths (Chiba 10, Kanagawa 5, Kumamoto 1, Miyazaki 1) and now records 0 people missing, after the one remaining missing person -- the Nagara-machi, Chiba landslide victim recovered earlier -- was confirmed to be the same individual already counted among the dead rather than an additional fatality. 41 injured (3 serious, 38 minor) and 2,412 homes damaged or destroyed (67 total collapse, 414 half collapse, 424 flooded above floor, 1,259 flooded below floor, 248 partially damaged) are unchanged from report No. 23. Evacuation instructions remain at 484 households (1,029 people) -- 464 households (996 people) in Chiba and 20 households (33 people) in Kanagawa; Kanagawa's disaster response headquarters remains dissolved since 2 October."
     },
     "live_source_url": "https://www.fdma.go.jp/disaster/info/",
     "location": {
@@ -101,18 +109,18 @@
     "status": "ongoing"
   },
   "id": "japan-typhoon-dujuan-2026",
-  "last_updated": "2026-10-03T09:19:04Z",
+  "last_updated": "2026-10-04T09:20:37Z",
   "name": "Typhoon Dujuan (Typhoon No. 25), Japan",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-03T09:19:04Z",
+        "at": "2026-10-04T09:20:37Z",
         "layer": "verify",
-        "run_id": "2026-10-03T09-19-04Z-406b77"
+        "run_id": "2026-10-04T09-20-37Z-d8bcd5"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-03T09-19-04Z-406b77"
+    "last_run_id": "2026-10-04T09-20-37Z-d8bcd5"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -121,6 +129,10 @@
     "recency_rank": 739880
   },
   "updates": [
+    {
+      "date": "2026-10-04",
+      "text": "FDMA's report No. 24 (4 Oct, 14:00 JST) clarified that the one remaining missing person -- a Nagara-machi, Chiba landslide victim -- is the same individual already counted among the 17 confirmed deaths, not an additional fatality; missing now stands at 0. Deaths, injured, homes damaged and evacuation instructions are all unchanged from report No. 23."
+    },
     {
       "date": "2026-10-03",
       "text": "FDMA's report No. 23 (3 Oct, 16:00 JST) raised the toll to 17 deaths after a Nagara-machi, Chiba landslide victim previously missing was recovered dead, cutting missing to 1; injured held at 41 and homes damaged rose to 2,412 (from 2,319). Evacuation instructions eased to 484 households (1,029 people), down from 502 (1,049); Kanagawa's disaster HQ was dissolved 2 October."
@@ -160,7 +172,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

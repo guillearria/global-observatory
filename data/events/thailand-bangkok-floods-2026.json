@@ -56,14 +56,22 @@
       "source_url": "https://news.cgtn.com/news/2026-10-01/Thailand-floods-ease-as-water-recedes-in-Bangkok-1QT1Udw1Hbi/p.html",
       "text": "CGTN (1 October 2026): floodwaters were receding in Bangkok and easing across most regions, though 29 provinces plus Bangkok still had active flooding; the cumulative national death toll had risen to 24 since mid-September, with more than 1.12 million households (about 3.19 million people) affected and roughly 1.71 million rai (about 273,600 hectares) of land still submerged nationwide. A government spokesperson said the water situation 'remains manageable,' while authorities warned of possible renewed flooding from 4-6 October as dam releases were expected to raise riverside water levels by about 80cm.",
       "verification_status": "unverified"
+    },
+    {
+      "id": "claim-8",
+      "retrieved_date": "2026-10-04",
+      "source_name": "GDACS",
+      "source_url": "https://gdacs.org/report.aspx?eventtype=FL&eventid=1104122&episodeid=57",
+      "text": "GDACS's flood event report for Thailand (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 57, reporting window extended to 18 August-3 October 2026) records 'Death: 6' (unchanged) and 'Displaced: 627' (up from 569); overall alert level remains Green (low humanitarian impact). The report's narrative states that authorities in Thailand reported flooding in Ratchaburi Province from late September 2026.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Torrential monsoon rain flooded Bangkok and central Thailand from late September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. GDACS's Thailand flood report (18 August-29 September 2026 window, episode 54) continues to record 6 deaths and 569 displaced nationwide under a Green alert -- a narrower tracking scope than the nationwide toll Thai authorities have reported via media: the Department of Disaster Prevention and Mitigation put the cumulative toll at 23 deaths and over 2.6 million people affected across 29 provinces as of 29 September, rising to a reported 24 deaths and about 3.19 million people affected by 1 October, a toll attributed to Thailand's Department of Disaster Prevention and Mitigation via Thai and international media that GDACS's own tracking for this event does not yet reflect. Bangkok's own flooding has begun to ease, with floodwaters receding and roads reopening, though authorities are watching for possible renewed flooding from additional rain and dam releases expected 4-6 October.",
+  "description": "Torrential monsoon rain flooded Bangkok and central Thailand from late September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. GDACS's Thailand flood report (18 August-3 October 2026 window, episode 57) now records 6 deaths and 627 displaced nationwide under a Green alert, up from 569 displaced in the prior episode -- a narrower tracking scope than the nationwide toll Thai authorities have reported via media: the Department of Disaster Prevention and Mitigation put the cumulative toll at 23 deaths and over 2.6 million people affected across 29 provinces as of 29 September, rising to a reported 24 deaths and about 3.19 million people affected by 1 October, a toll attributed to Thailand's Department of Disaster Prevention and Mitigation via Thai and international media that GDACS's own tracking for this event does not yet reflect. Bangkok's own flooding has begun to ease, with floodwaters receding and roads reopening, though authorities are watching for possible renewed flooding from additional rain and dam releases expected 4-6 October.",
   "event": {
     "impact": {
       "deaths": 6,
-      "displaced": 569,
-      "summary": "GDACS's Thailand flood event report (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 54, window 18 August-29 September 2026) records 6 deaths and 569 displaced nationwide under an overall Green alert, unchanged from the prior episode. Media reports citing Thailand's Department of Disaster Prevention and Mitigation describe a much larger nationwide toll -- 23 deaths and over 2.6 million people affected across 29 provinces as of 29 September, rising to a reported 24 deaths and about 3.19 million people (1.12 million households) by 1 October -- a toll attributed to Thailand's Department of Disaster Prevention and Mitigation via Thai and international media that GDACS's own tracking for this event does not yet reflect. Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026; by 1 October, floodwaters were reported receding in Bangkok and easing across most affected regions, though authorities warned of possible renewed flooding from additional rain and dam releases expected 4-6 October."
+      "displaced": 627,
+      "summary": "GDACS's Thailand flood event report (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 57, window 18 August-3 October 2026) records 6 deaths and 627 displaced nationwide under an overall Green alert, up from 569 displaced in the prior episode; the narrative now also cites flooding reported in Ratchaburi Province from late September. Media reports citing Thailand's Department of Disaster Prevention and Mitigation describe a much larger nationwide toll -- 23 deaths and over 2.6 million people affected across 29 provinces as of 29 September, rising to a reported 24 deaths and about 3.19 million people (1.12 million households) by 1 October -- a toll attributed to Thailand's Department of Disaster Prevention and Mitigation via Thai and international media that GDACS's own tracking for this event does not yet reflect. Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026; by 1 October, floodwaters were reported receding in Bangkok and easing across most affected regions, though authorities warned of possible renewed flooding from additional rain and dam releases expected 4-6 October."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
     "location": {
@@ -73,22 +81,22 @@
       "region": "Bangkok Metropolitan Area and 12 central provinces"
     },
     "occurrence_date": "2026-09-24",
-    "scale": "GDACS Green alert (6 deaths/569 displaced tracked); Bangkok citywide flood-disaster declaration; media-reported nationwide DDPM toll of ~23-24 deaths and ~3 million people affected across 29 provinces, not yet reflected in GDACS tracking",
+    "scale": "GDACS Green alert (6 deaths/627 displaced tracked); Bangkok citywide flood-disaster declaration; media-reported nationwide DDPM toll of ~23-24 deaths and ~3 million people affected across 29 provinces, not yet reflected in GDACS tracking",
     "status": "ongoing"
   },
   "id": "thailand-bangkok-floods-2026",
-  "last_updated": "2026-10-03T09:18:28Z",
+  "last_updated": "2026-10-04T09:20:36Z",
   "name": "Bangkok Flood Disaster, Thailand",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-03T09:18:28Z",
+        "at": "2026-10-04T09:20:36Z",
         "layer": "verify",
-        "run_id": "2026-10-03T09-18-28Z-03204e"
+        "run_id": "2026-10-04T09-20-36Z-55b969"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-03T09-18-28Z-03204e"
+    "last_run_id": "2026-10-04T09-20-36Z-55b969"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -97,6 +105,10 @@
     "recency_rank": 739883
   },
   "updates": [
+    {
+      "date": "2026-10-04",
+      "text": "GDACS's reporting window extended to 3 October (episode 57): displaced rose to 627 (from 569) nationwide; the confirmed death toll held at 6, and the event remains at Green alert. The narrative now also cites flooding reported in Ratchaburi Province."
+    },
     {
       "date": "2026-10-01",
       "text": "Media reports (CGTN) said Bangkok floodwaters were receding and easing nationwide, with a reported cumulative toll of 24 deaths and about 3.19 million people affected since mid-September; authorities warned of possible renewed flooding from additional rain and dam releases expected 4-6 October. GDACS's tracked figures (6 deaths, 569 displaced) remain unchanged."
@@ -112,7 +124,7 @@
   ],
   "verification": {
     "confidence": "medium",
-    "notes": "gate: 2 verified, 0 disputed, 5 unverified -> partial",
+    "notes": "gate: 3 verified, 0 disputed, 5 unverified -> partial",
     "status": "partial"
   }
 }
