@@ -122,6 +122,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-28",
+      "retrieved_date": "2026-10-06",
+      "source_name": "OCHA oPt",
+      "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-2-october-2026",
+      "text": "OCHA oPt's Humanitarian Situation Report (published 5 October 2026, covering the West Bank 22-28 September 2026 and Gaza 21-27 September 2026): in the West Bank, no Palestinian fatalities were reported for the week, while 45 Palestinians were injured (including 3 children and 4 women -- 22 injured by Israeli forces during operations and 23 in settler attacks), and 93 Palestinians (including 55 children) were displaced by demolitions. In Gaza, cumulative fatalities since the 10 October 2025 ceasefire reached 1,431, with 5,026 injuries.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-07-27",
       "source_name": "ReliefWeb",
@@ -157,11 +165,11 @@
   "description": "Israeli settler violence in the occupied West Bank has continued through late September 2026, culminating on 24 July 2026 when Israeli settlers carried out two attacks on Tal village near Nablus that left four Palestinians and two Israelis dead and triggered a wave of reprisal attacks and an Israeli government-announced 'major counterterrorism operation.' OCHA oPt's 4 September 2026 report put the cumulative 2026 toll at 82 Palestinians killed and about 1,900 injured by Israeli forces or settlers, 23 of the deaths in settler attacks specifically. OCHA's 25 September report (15-21 September) recorded two further Palestinians killed by Israeli forces and one Israeli settler killed by a Palestinian, 49 Palestinians injured, and 147 displaced by demolitions that week -- over three times the weekly average, including 58 people near the planned E1 settlement expansion. Cumulative 2026 displacement remains at more than 4,300 people, over a third from structure demolitions, amid more than 1,600 settler attacks recorded since January.",
   "event": {
     "impact": {
-      "deaths": 82,
-      "displaced": 4300,
-      "summary": "Per OCHA oPt's 4 September 2026 Humanitarian Situation Report, 82 Palestinians (19 children) had been killed and about 1,900 injured by Israeli forces or settlers in the West Bank since the start of 2026 -- 23 of the deaths and over 1,100 of the injuries specifically in settler attacks; 3 Israelis are reported killed in 2026. OCHA's 25 September report (15-21 September) recorded two further Palestinians killed by Israeli forces and one Israeli settler killed by a Palestinian, with 49 Palestinians injured and 51 settler attacks causing casualties or property damage that week; no updated year-to-date total has yet been published. Cumulative 2026 displacement remains at more than 4,300 people -- over 1,500 of them from more than 1,100 structure demolitions -- after demolitions alone displaced 147 Palestinians in a single week, more than three times the 2026 weekly average, including 58 people near the planned E1 settlement expansion. More than 1,600 settler attacks have been recorded since the start of the year, averaging 6.7 per day versus five per day in 2025."
+      "deaths": 84,
+      "displaced": 4393,
+      "summary": "Per OCHA oPt's Humanitarian Situation Reports, the West Bank's 2026 cumulative toll has risen to at least 84 Palestinians killed (82 as of early September, plus 2 more in the 15-21 September week) and 4 Israelis killed by Palestinians, against a backdrop OCHA describes as the deadliest period for Palestinians in settler-related incidents since October 2023. The most recent report (covering 22-28 September, published 5 October) recorded a de-escalation -- zero West Bank Palestinian fatalities for the week, down from 2 killed plus 1 Israeli settler killed the prior week -- alongside 45 Palestinians injured and 93 more displaced by demolitions (including 55 children), bringing cumulative 2026 West Bank displacement to more than 4,390 people. More than 1,600 settler attacks have been recorded since the start of the year, averaging 6.7 per day versus five per day in 2025, affecting nearly as many communities as in all of 2025."
     },
-    "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-25-september-2026",
+    "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-2-october-2026",
     "location": {
       "country": "Palestine",
       "lat": 32.2211,
@@ -173,7 +181,7 @@
     "status": "ongoing"
   },
   "id": "west-bank-settler-violence-surge-2026",
-  "last_updated": "2026-10-05T09:18:03Z",
+  "last_updated": "2026-10-06T09:26:28Z",
   "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
   "provenance": {
     "history": [
@@ -181,10 +189,15 @@
         "at": "2026-10-05T09:18:03Z",
         "layer": "verify",
         "run_id": "2026-10-05T09-18-03Z-2c9fe2"
+      },
+      {
+        "at": "2026-10-06T09:26:28Z",
+        "layer": "verify",
+        "run_id": "2026-10-06T09-26-28Z-60529b"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-05T09-18-03Z-2c9fe2"
+    "last_run_id": "2026-10-06T09-26-28Z-60529b"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -193,6 +206,10 @@
     "recency_rank": 739821
   },
   "updates": [
+    {
+      "date": "2026-10-06",
+      "text": "OCHA oPt's 2 October report (22-28 September) recorded zero West Bank Palestinian fatalities for the week -- down from 2 killed plus 1 Israeli settler killed the prior week -- with 45 injured and 93 more displaced by demolitions, bringing cumulative 2026 West Bank deaths to at least 84 and displacement to more than 4,390."
+    },
     {
       "date": "2026-09-30",
       "text": "OCHA oPt's 25 September report (15-21 September) recorded two Palestinians killed by Israeli forces and one Israeli settler killed by a Palestinian, 49 Palestinians injured, and 147 displaced by demolitions in one week -- over three times the weekly average, including 58 people near the planned E1 settlement expansion near South 'Anata."
@@ -248,7 +265,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -74,6 +74,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-18",
+      "retrieved_date": "2026-10-06",
+      "source_name": "CAL FIRE",
+      "source_url": "https://www.fire.ca.gov/incidents/2026/8/8/timber-fire",
+      "text": "CAL FIRE's incident page for the Timber Fire reports, as of its page update timestamped October 5, 2026 at 10:11 AM, the fire at 25,352 acres and 90% contained (up from 88% as of September 29), with 661 structures still listed as threatened per a September 15 sub-update retained on the page.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-09-12",
       "source_name": "CAL FIRE",
@@ -143,7 +151,7 @@
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "CAL FIRE reports no deaths from either fire, but 3 responder injuries on the Timber Fire. As of September 29, 2026, the Plaskett Fire is fully contained (100%) at 30,124 acres, with command transferred back to Los Padres National Forest and crews continuing suppression repair, patrol and monitoring for remaining heat. The Timber Fire holds at 88% containment on about 25,352 acres, with 661 structures still listed as threatened, as command transferred to Nevada Team 2 on 29 September."
+      "summary": "CAL FIRE reports no deaths from either fire, but 3 responder injuries on the Timber Fire. The Plaskett Fire remains fully contained (100%) at 30,124 acres, with command transferred back to Los Padres National Forest. The Timber Fire has advanced to 90% containment (up from 88% on September 29) on about 25,352 acres, with 661 structures still listed as threatened, as crews continue suppression repair and mop-up under Nevada Team 2."
     },
     "live_source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire",
     "location": {
@@ -153,11 +161,11 @@
       "region": "Big Sur, Los Padres National Forest — Monterey & San Luis Obispo Counties, California"
     },
     "occurrence_date": "2026-08-26",
-    "scale": "~55,476 combined acres (Plaskett 100% contained, Timber 88% contained)",
+    "scale": "~55,476 combined acres (Plaskett 100% contained, Timber 90% contained)",
     "status": "ongoing"
   },
   "id": "usa-california-big-sur-wildfires-2026",
-  "last_updated": "2026-10-05T09:18:03Z",
+  "last_updated": "2026-10-06T09:27:11Z",
   "name": "Wildfires — Big Sur / Los Padres National Forest, California",
   "provenance": {
     "history": [
@@ -165,10 +173,15 @@
         "at": "2026-10-05T09:18:03Z",
         "layer": "verify",
         "run_id": "2026-10-05T09-18-03Z-19dd37"
+      },
+      {
+        "at": "2026-10-06T09:27:11Z",
+        "layer": "verify",
+        "run_id": "2026-10-06T09-27-11Z-014e33"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-05T09-18-03Z-19dd37"
+    "last_run_id": "2026-10-06T09-27-11Z-014e33"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -177,6 +190,10 @@
     "recency_rank": 739854
   },
   "updates": [
+    {
+      "date": "2026-10-06",
+      "text": "The Timber Fire advanced to 90% containment (up from 88% on September 29) at an unchanged 25,352 acres, per CAL FIRE's incident page."
+    },
     {
       "date": "2026-09-30",
       "text": "CAL FIRE reported the Plaskett Fire reached full containment (100%, up from 99%) on unchanged 30,124 acres, with command transferring back to Los Padres National Forest; the Timber Fire held at 88% containment on about 25,352 acres (essentially unchanged), with 661 structures still threatened as command transferred to Nevada Team 2."
@@ -220,7 +237,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

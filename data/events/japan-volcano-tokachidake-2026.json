@@ -11,7 +11,7 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-10-05",
+      "retrieved_date": "2026-10-06",
       "source_name": "Japan Meteorological Agency (JMA)",
       "source_url": "https://www.data.jma.go.jp/vois/data/report/activity_info/108.html",
       "text": "JMA's live volcanic activity status page for Tokachidake, checked 2 October 2026 (status dated from the 12 September 2026 09:30 JST bulletin with subsequent updates): Alert Level 3 (crater-vicinity warning/entry restriction) remains in effect; volcanic earthquakes have increased, with large-amplitude volcanic earthquakes occurring multiple times, indicating heightened volcanic activity; entry restrictions are in place in five municipalities in Hokkaido; people are warned to stay alert for large ejected rocks within approximately 3 km of the crater; ground deformation has continued since March and volcanic gas emissions have increased since April, meaning an eruption remains possible.",
@@ -37,7 +37,7 @@
     "status": "ongoing"
   },
   "id": "japan-volcano-tokachidake-2026",
-  "last_updated": "2026-10-05T09:18:01Z",
+  "last_updated": "2026-10-06T09:25:04Z",
   "name": "Volcanic Unrest — Mount Tokachidake, Japan",
   "provenance": {
     "history": [
@@ -45,10 +45,15 @@
         "at": "2026-10-05T09:18:01Z",
         "layer": "verify",
         "run_id": "2026-10-05T09-18-01Z-5cc923"
+      },
+      {
+        "at": "2026-10-06T09:25:04Z",
+        "layer": "verify",
+        "run_id": "2026-10-06T09-25-04Z-be3d4f"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-05T09-18-01Z-5cc923"
+    "last_run_id": "2026-10-06T09-25-04Z-be3d4f"
   },
   "schema_version": "1.0",
   "sort_keys": {
