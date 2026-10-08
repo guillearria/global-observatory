@@ -154,6 +154,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-30",
+      "retrieved_date": "2026-10-08",
+      "source_name": "GDACS",
+      "source_url": "https://gdacs.org/report.aspx?eventid=1104121&eventtype=FL",
+      "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, episode 21, reporting window 9 August-28 September 2026) now records 135 deaths, up from 131 at the prior episode, with 457,351 displaced (unchanged). The event's underlying data feed lists a newly added contributing record (inserted 8 October 2026) citing 81 fatalities in Uttar Pradesh.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-08-06",
       "source_name": "ReliefWeb",
@@ -210,12 +218,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Heavy monsoon rains since mid-July 2026 have caused deadly flooding and landslides across India, with flooding spreading into new states through late September 2026 and continuing river overflow in Bihar into early October. GDACS's structured national toll (window 9 August-28 September 2026, episode 20) now stands at 131 deaths and 457,351 displaced, up from 128 deaths and 453,851 displaced as of 27 September, after Uttar Pradesh's Relief Commissioner reported 81 storm-related fatalities and 2,254 damaged buildings as of 28 September. Earlier in the emergency, Odisha was among the worst-hit with 8.64 lakh people affected across 22 districts, Kerala counted 26 dead and 4 missing, and IFRC recorded 74 flood-related deaths in Assam. This GDACS-tracked figure continues to exceed and supersede the earlier Sphere India-sourced national aggregate of 109 deaths and 347,155 displaced, based on an 8 August situation report that did not reflect the Uttarakhand, Gujarat, Kerala, Uttar Pradesh or Bihar flooding tracked since.",
+  "description": "Heavy monsoon rains since mid-July 2026 have caused deadly flooding and landslides across India, with flooding spreading into new states through late September 2026 and continuing river overflow in Bihar into early October. GDACS's structured national toll (window 9 August-28 September 2026, episode 21) now stands at 135 deaths and 457,351 displaced, up from 131 deaths at the prior episode, after Uttar Pradesh's Relief Commissioner reported 81 storm-related fatalities and 2,254 damaged buildings as of 28 September. Earlier in the emergency, Odisha was among the worst-hit with 8.64 lakh people affected across 22 districts, Kerala counted 26 dead and 4 missing, and IFRC recorded 74 flood-related deaths in Assam. This GDACS-tracked figure continues to exceed and supersede the earlier Sphere India-sourced national aggregate of 109 deaths and 347,155 displaced, based on an 8 August situation report that did not reflect the Uttarakhand, Gujarat, Kerala, Uttar Pradesh or Bihar flooding tracked since.",
   "event": {
     "impact": {
-      "deaths": 131,
+      "deaths": 135,
       "displaced": 457351,
-      "summary": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, window 9 August-28 September 2026, episode 20, Orange alert) now carries a structured national toll of 131 deaths and 457,351 displaced, up from 128 deaths and 453,851 displaced at the 27 September data cut; the event's narrative notes heavy rain continuing to cause river overflow in Bihar State into early October. This GDACS-tracked figure continues to exceed and supersede this record's earlier Sphere India-sourced national aggregate (109 deaths, 347,155 displaced, based on an 8 August situation report), which did not yet reflect the Uttarakhand, Gujarat, Kerala, Uttar Pradesh or Bihar flooding tracked separately by GDACS since early September."
+      "summary": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, window 9 August-28 September 2026, episode 21, Orange alert) now carries a structured national toll of 135 deaths and 457,351 displaced, up from 131 deaths at the prior episode; the event's narrative notes heavy rain continuing to cause river overflow in Bihar State into early October. This GDACS-tracked figure continues to exceed and supersede this record's earlier Sphere India-sourced national aggregate (109 deaths, 347,155 displaced, based on an 8 August situation report), which did not yet reflect the Uttarakhand, Gujarat, Kerala, Uttar Pradesh or Bihar flooding tracked separately by GDACS since early September."
     },
     "live_source_url": "https://reliefweb.int/country/ind",
     "location": {
@@ -229,23 +237,18 @@
     "status": "ongoing"
   },
   "id": "india-monsoon-floods-2026",
-  "last_updated": "2026-10-06T09:25:02Z",
+  "last_updated": "2026-10-08T09:25:11Z",
   "name": "Multi-State Monsoon Floods & Landslides — India",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-05T09:17:34Z",
+        "at": "2026-10-08T09:25:11Z",
         "layer": "verify",
-        "run_id": "2026-10-05T09-17-34Z-c094a7"
-      },
-      {
-        "at": "2026-10-06T09:25:02Z",
-        "layer": "verify",
-        "run_id": "2026-10-06T09-25-02Z-fc477f"
+        "run_id": "2026-10-08T09-25-11Z-6db3e8"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-06T09-25-02Z-fc477f"
+    "last_run_id": "2026-10-08T09-25-11Z-6db3e8"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -254,6 +257,10 @@
     "recency_rank": 739813
   },
   "updates": [
+    {
+      "date": "2026-10-08",
+      "text": "GDACS's structured national toll rose to 135 deaths (from 131), with displaced unchanged at 457,351."
+    },
     {
       "date": "2026-10-01",
       "text": "GDACS's structured national toll rose to 131 deaths (from 128) and 457,351 displaced (from 453,851) as of episode 20 (window extended to 28 September); the event's narrative reports continuing river overflow in Bihar State from late September rainfall into early October."
@@ -317,7 +324,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 26 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 27 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

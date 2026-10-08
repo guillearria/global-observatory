@@ -66,6 +66,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-17",
+      "retrieved_date": "2026-10-08",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/documents/details/124301",
+      "text": "UNHCR's 'Yemen Situation: External Update #2' (dated 28 September 2026, published 1 October 2026) records approximately 142,000 people (more than 23,660 households) newly displaced across seven governorates between 1 August and 27 September 2026 (excluding Al Hodeidah, where access was unavailable); Taiz hosts 56% of this group, Lahj 26% and Aden 8%. The same update records almost 3,793 refugees who have crossed by sea to Djibouti and about 150 who reached Somaliland/Puntland, and notes more than 63,000 refugees and asylum-seekers already in Yemen are also affected; UNHCR's $193.6 million 2026 Yemen funding requirement is only 18% funded.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-28",
       "source_name": "United Nations",
@@ -135,7 +143,7 @@
     "impact": {
       "deaths": 830,
       "displaced": 180000,
-      "summary": "UN News reported on 29 September 2026, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August 2026, rising by roughly 100 per day; more than 180,000 people have now been uprooted. The same reporting documents a deepening health crisis -- about 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases, and dengue linked to 37 deaths -- plus a child-welfare crisis: UNICEF verified at least 15 children killed and 14 injured since 3 September among roughly 71,000 displaced children, with over a quarter of nearly 2,900 screened found acutely malnourished. Only about 60% of health facilities remain functional, nine damaged or attacked near Taiz, Lahj and Hudaydah. DFA (Houthi) forces control the entire west coast except Midi district. The UN Security Council condemned Houthi attacks on Saudi Arabia on 18 September, demanding an immediate end to the escalation."
+      "summary": "UN News reported on 29 September 2026, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August 2026, rising by roughly 100 per day; more than 180,000 people have now been uprooted. The same reporting documents a deepening health crisis -- about 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases, and dengue linked to 37 deaths -- plus a child-welfare crisis: UNICEF verified at least 15 children killed and 14 injured since 3 September among roughly 71,000 displaced children, with over a quarter of nearly 2,900 screened found acutely malnourished. DFA (Houthi) forces control the entire west coast except Midi district. UNHCR separately counted about 142,000 people newly displaced across seven governorates between 1 August and 27 September (External Update #2, published 1 October), mostly in Taiz, Lahj and Aden; its 2026 funding appeal remains only 18% funded. The UN Security Council condemned Houthi attacks on Saudi Arabia on 18 September, demanding an immediate end to the escalation."
     },
     "live_source_url": "https://news.un.org/en/focus/yemen",
     "location": {
@@ -149,23 +157,18 @@
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-10-06T09:25:03Z",
+  "last_updated": "2026-10-08T09:23:42Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-05T09:18:03Z",
+        "at": "2026-10-08T09:23:42Z",
         "layer": "verify",
-        "run_id": "2026-10-05T09-18-03Z-d05033"
-      },
-      {
-        "at": "2026-10-06T09:25:03Z",
-        "layer": "verify",
-        "run_id": "2026-10-06T09-25-03Z-a97b70"
+        "run_id": "2026-10-08T09-23-42Z-2d17a5"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-06T09-25-03Z-a97b70"
+    "last_run_id": "2026-10-08T09-23-42Z-2d17a5"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -174,6 +177,10 @@
     "recency_rank": 739835
   },
   "updates": [
+    {
+      "date": "2026-10-08",
+      "text": "UNHCR's Yemen Situation External Update #2 recorded a separate, more precise displacement count: about 142,000 people newly displaced across seven governorates between 1 August and 27 September, mostly sheltering in Taiz, Lahj and Aden; its 2026 funding appeal remains only 18% funded."
+    },
     {
       "date": "2026-09-30",
       "text": "UN News reported, citing WHO and Aden health authorities, that cumulative casualties since 6 August have risen to more than 4,481 (830 deaths), still climbing by roughly 100 per day; displacement inside Yemen has risen past 180,000, and only about 60% of health facilities remain fully functional amid nine damaged, out-of-service or attacked facilities near Taiz, Lahj and Hudaydah."
@@ -217,7 +224,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
