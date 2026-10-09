@@ -338,6 +338,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-new-ecdc-oct7",
+      "retrieved_date": "2026-10-09",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "ECDC's country overview (data through 6 October 2026): 'On 7 October 2026, the Democratic Republic of the Congo (DRC) reported a total of 8 728 confirmed cases, including 4 205 related deaths (from data up until 6 October).' A total of 1,066 patients are hospitalised in isolation and 2,269 have recovered. Provincial breakdown: Ituri 6,513 cases/3,007 deaths (28 of 36 health zones), North Kivu 1,785 cases/1,021 deaths (17 of 34 health zones), Haut-Uele 364 cases/153 deaths (7 of 13 health zones), Tshopo 51 cases/18 deaths (7 of 23 health zones), Bas-Uele 10 cases/4 deaths (3 of 11 health zones), South Kivu 3 cases/1 death (1 of 34 health zones) and Sud-Ubangi 2 cases/1 death (1 of 16 health zones), with 64 of 167 health zones affected across seven provinces. Uganda's linked outbreak remains closed (20 confirmed cases, two deaths; declared over by WHO on 26 August 2026).",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-new-ecdc-sept1",
       "retrieved_date": "2026-09-02",
       "source_name": "ECDC",
@@ -474,12 +482,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 4 October 2026) puts the DRC toll at 8,603 confirmed cases and 4,148 deaths, spanning 64 of 167 health zones across seven provinces -- now the country's largest recorded Ebola epidemic. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
+  "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 6 October 2026) puts the DRC toll at 8,728 confirmed cases and 4,205 deaths, spanning 64 of 167 health zones across seven provinces -- now the country's largest recorded Ebola epidemic. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
   "event": {
     "impact": {
-      "deaths": 4148,
+      "deaths": 4205,
       "displaced": null,
-      "summary": "ECDC's newest country overview (data through 4 October 2026) puts the DRC toll at 8,603 confirmed cases and 4,148 deaths, up from 8,442 cases and 4,080 deaths at the 2 October data cut. The outbreak spans 64 of 167 health zones across seven provinces, with Ituri province reporting the bulk of cases and North Kivu the second most affected. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+      "summary": "ECDC's newest country overview (data through 6 October 2026) puts the DRC toll at 8,728 confirmed cases and 4,205 deaths, up from 8,603 cases and 4,148 deaths at the 4 October data cut. The outbreak spans 64 of 167 health zones across seven provinces, with Ituri province reporting the bulk of cases and North Kivu the second most affected. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
     "location": {
@@ -493,7 +501,7 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-10-08T09:24:26Z",
+  "last_updated": "2026-10-09T09:20:14Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
@@ -501,10 +509,15 @@
         "at": "2026-10-08T09:24:26Z",
         "layer": "verify",
         "run_id": "2026-10-08T09-24-26Z-c4f5a6"
+      },
+      {
+        "at": "2026-10-09T09:20:14Z",
+        "layer": "verify",
+        "run_id": "2026-10-09T09-20-14Z-f2aedb"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-08T09-24-26Z-c4f5a6"
+    "last_run_id": "2026-10-09T09-20-14Z-f2aedb"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -513,6 +526,10 @@
     "recency_rank": 739751
   },
   "updates": [
+    {
+      "date": "2026-10-09",
+      "text": "ECDC's 7 October data cut put the DRC toll at 8,728 confirmed cases and 4,205 deaths (data through 6 October), up from 8,603/4,148 on 4 October, with 1,066 patients hospitalised in isolation and 2,269 recovered."
+    },
     {
       "date": "2026-10-08",
       "text": "ECDC's 4 October data cut put the DRC toll at 8,603 confirmed cases and 4,148 deaths (up from 8,442/4,080 on 2 October), with the outbreak spreading to a 64th health zone."
@@ -620,7 +637,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 59 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 60 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

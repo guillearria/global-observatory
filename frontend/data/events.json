@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T09:25:11Z",
+  "last_updated": "2026-10-09T09:20:14Z",
   "published": [
     {
       "category": "flood",
@@ -710,7 +710,7 @@
         },
         {
           "id": "claim-34",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "source_name": "Government of British Columbia",
           "source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
           "text": "EmergencyInfoBC's wildfire hazard page (checked 8 October 2026) lists 5 active local evacuation notices, down from 7 on 2 October 2026: Okanagan Indian Band, District of Summerland, Regional District of Okanagan-Similkameen, Boothroyd Indian Band and Shxw'ow'hamel First Nation remain listed.",
@@ -784,7 +784,7 @@
         "status": "ongoing"
       },
       "id": "canada-british-columbia-wildfires-2026",
-      "last_updated": "2026-10-08T09:19:55Z",
+      "last_updated": "2026-10-09T09:19:02Z",
       "name": "Wildfire State of Emergency — British Columbia, Canada",
       "provenance": {
         "history": [
@@ -792,10 +792,15 @@
             "at": "2026-10-08T09:19:55Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-19-55Z-be3f9f"
+          },
+          {
+            "at": "2026-10-09T09:19:02Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-19-02Z-26bf1a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-19-55Z-be3f9f"
+        "last_run_id": "2026-10-09T09-19-02Z-26bf1a"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1388,7 +1393,7 @@
         },
         {
           "id": "claim-12",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-09",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1557236, episode 1724218) remains an Overall Red alert with a GDACS score of 2.2, now estimating about 5.4 million people within zones of MMI VII or greater shaking, up from about 5.2 million previously recorded on the same page; the most recent listed activity is UNITAR-UNOSAT's 'Potentially Damaged Buildings' assessment, activated 21 August 2026 10:25 UTC.",
@@ -1444,7 +1449,7 @@
         },
         {
           "id": "claim-19",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/attachments/7c49c22f-9182-4d56-bb8b-06301106a687/Flash%20Update%20Colombia%20No%2015%20Earthquake%20impact_ENG_20260930.pdf",
           "text": "OCHA Colombia's Flash Update No. 15 (data as of 30 September 2026, 18:00 local time): 486,917 people (303,934 households) affected, 335 fatalities, 4,516 injured people, 356 people rescued, 259 bodies recovered, and 105 people reported missing -- unchanged from Flash Update No. 14. The document states it \"concludes the weekly update, with resources available for reference regarding the situation and response,\" marking the end of OCHA's numbered Flash Update series for this earthquake as the response moves into the recovery phase.",
@@ -1534,7 +1539,7 @@
         "status": "ongoing"
       },
       "id": "colombia-earthquake-choco-2026",
-      "last_updated": "2026-10-08T09:24:26Z",
+      "last_updated": "2026-10-09T09:19:02Z",
       "name": "M7.4 Earthquake, Chocó, Colombia",
       "provenance": {
         "history": [
@@ -1542,10 +1547,15 @@
             "at": "2026-10-08T09:24:26Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-24-26Z-db82f1"
+          },
+          {
+            "at": "2026-10-09T09:19:02Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-19-02Z-883a0a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-24-26Z-db82f1"
+        "last_run_id": "2026-10-09T09-19-02Z-883a0a"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2059,6 +2069,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-oct7",
+          "retrieved_date": "2026-10-09",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (data through 6 October 2026): 'On 7 October 2026, the Democratic Republic of the Congo (DRC) reported a total of 8 728 confirmed cases, including 4 205 related deaths (from data up until 6 October).' A total of 1,066 patients are hospitalised in isolation and 2,269 have recovered. Provincial breakdown: Ituri 6,513 cases/3,007 deaths (28 of 36 health zones), North Kivu 1,785 cases/1,021 deaths (17 of 34 health zones), Haut-Uele 364 cases/153 deaths (7 of 13 health zones), Tshopo 51 cases/18 deaths (7 of 23 health zones), Bas-Uele 10 cases/4 deaths (3 of 11 health zones), South Kivu 3 cases/1 death (1 of 34 health zones) and Sud-Ubangi 2 cases/1 death (1 of 16 health zones), with 64 of 167 health zones affected across seven provinces. Uganda's linked outbreak remains closed (20 confirmed cases, two deaths; declared over by WHO on 26 August 2026).",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-ecdc-sept1",
           "retrieved_date": "2026-09-02",
           "source_name": "ECDC",
@@ -2195,12 +2213,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 4 October 2026) puts the DRC toll at 8,603 confirmed cases and 4,148 deaths, spanning 64 of 167 health zones across seven provinces -- now the country's largest recorded Ebola epidemic. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
+      "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 6 October 2026) puts the DRC toll at 8,728 confirmed cases and 4,205 deaths, spanning 64 of 167 health zones across seven provinces -- now the country's largest recorded Ebola epidemic. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
       "event": {
         "impact": {
-          "deaths": 4148,
+          "deaths": 4205,
           "displaced": null,
-          "summary": "ECDC's newest country overview (data through 4 October 2026) puts the DRC toll at 8,603 confirmed cases and 4,148 deaths, up from 8,442 cases and 4,080 deaths at the 2 October data cut. The outbreak spans 64 of 167 health zones across seven provinces, with Ituri province reporting the bulk of cases and North Kivu the second most affected. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest country overview (data through 6 October 2026) puts the DRC toll at 8,728 confirmed cases and 4,205 deaths, up from 8,603 cases and 4,148 deaths at the 4 October data cut. The outbreak spans 64 of 167 health zones across seven provinces, with Ituri province reporting the bulk of cases and North Kivu the second most affected. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -2214,7 +2232,7 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-10-08T09:24:26Z",
+      "last_updated": "2026-10-09T09:20:14Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
@@ -2222,10 +2240,15 @@
             "at": "2026-10-08T09:24:26Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-24-26Z-c4f5a6"
+          },
+          {
+            "at": "2026-10-09T09:20:14Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-20-14Z-f2aedb"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-24-26Z-c4f5a6"
+        "last_run_id": "2026-10-09T09-20-14Z-f2aedb"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2234,6 +2257,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-10-09",
+          "text": "ECDC's 7 October data cut put the DRC toll at 8,728 confirmed cases and 4,205 deaths (data through 6 October), up from 8,603/4,148 on 4 October, with 1,066 patients hospitalised in isolation and 2,269 recovered."
+        },
         {
           "date": "2026-10-08",
           "text": "ECDC's 4 October data cut put the DRC toll at 8,603 confirmed cases and 4,148 deaths (up from 8,442/4,080 on 2 October), with the outbreak spreading to a 64th health zone."
@@ -2341,7 +2368,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 59 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 60 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -7347,7 +7374,7 @@
         },
         {
           "id": "claim-22",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/sdn",
           "text": "UNHCR's Operational Data Portal for Sudan (data as of 31 August 2026): 8,622,801 internally displaced persons within Sudan, down from 8,685,273 as of 31 July 2026, and 905,349 refugees and asylum-seekers in Sudan, up from 900,819; 32% of the refugee/asylum-seeker population is out of camp and 68% is settled in camps, with IDPs comprising 2.19 million displaced prior to April 2023 and approximately 6.43 million displaced since.",
@@ -7378,6 +7405,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-26",
+          "retrieved_date": "2026-10-09",
+          "source_name": "UNHCR",
+          "source_url": "https://data.unhcr.org/en/situations/sudansituation",
+          "text": "UNHCR's Operational Data Portal for the Sudan situation now shows Total Forcibly Displaced: 11,306,124, labeled 'Last updated 21 Sep 2026' -- down from 11,349,317 (10 August 2026 update). Related widgets: newly arrived refugees/asylum-seekers and returnees 4,622,820 (labeled 'Last updated 21 Sep 2026'), comprising 3,683,932 newly arrived refugees/asylum-seekers and 938,888 refugee returnees; refugees/asylum-seekers present before April 2023, 837,272; self-relocated refugees in Sudan 273,758 (labeled 'Last updated 14 Sep 2026'). IDPs in Sudan (source IOM/OCHA) now recorded at 6,409,546, labeled 'Last updated 20 Sep 2026', down from 6,490,949 (20 Jul 2026).",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-08-28",
           "source_name": "ReliefWeb",
@@ -7394,12 +7429,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country, while its regional situation portal last recorded 11,349,317 people forcibly displaced by the Sudan crisis overall (10 August 2026 update). IOM's DTM Cross-Border Monitoring Report (6), published 1 October 2026, separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since the conflict began and 1,110,605 crossing back into Sudan since January 2024. Displacement continues to be driven by fighting in Kordofan, Darfur and Blue Nile alongside seasonal flooding, with more than 30 million people across Sudan in need of humanitarian assistance; IOM's DTM separately estimates 308,179 people displaced from the Kordofan region alone since late October 2025. IOM and WFP have warned the humanitarian pipeline could collapse without further funding.",
+      "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country, while its regional situation portal most recently recorded 11,306,124 people forcibly displaced overall (21 September update), down slightly from 11,349,317 in August. IOM's DTM Cross-Border Monitoring Report (6), published 1 October 2026, separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since the conflict began and 1,110,605 crossing back into Sudan since January 2024. Displacement continues to be driven by fighting in Kordofan, Darfur and Blue Nile alongside seasonal flooding, with more than 30 million people across Sudan in need of humanitarian assistance. IOM and WFP have warned the humanitarian pipeline could collapse without further funding.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": 9528150,
-          "summary": "UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country. UNHCR's regional situation portal last recorded a total of 11,349,317 people forcibly displaced by the Sudan crisis (10 August 2026 update) and continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. IOM's DTM Cross-Border Monitoring Report (6) (published 1 October 2026) separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since April 2023, and 1,110,605 crossing back into Sudan since January 2024 via its seven monitored border points. IOM's DTM also estimates 308,179 people displaced from the Kordofan region alone since late October 2025, mostly into Khartoum, North Kordofan and White Nile states. Fighting and flooding across Kordofan, Darfur and Blue Nile continue to displace people, with more than 30 million in need nationwide, and IOM and WFP have warned the humanitarian pipeline could collapse without further funding."
+          "summary": "UNHCR's Sudan country portal (data as of 31 August 2026) records 8,622,801 internally displaced persons within Sudan and 905,349 refugees and asylum-seekers hosted in the country. UNHCR's regional situation portal most recently recorded a total of 11,306,124 people forcibly displaced by the Sudan crisis (21 September 2026 update), down from 11,349,317 in the 10 August update, and continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. IOM's DTM Cross-Border Monitoring Report (6) (published 1 October 2026) separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since April 2023, and 1,110,605 crossing back into Sudan since January 2024 via its seven monitored border points. IOM's DTM also estimates 308,179 people displaced from the Kordofan region alone since late October 2025, mostly into Khartoum, North Kordofan and White Nile states. Fighting and flooding across Kordofan, Darfur and Blue Nile continue to displace people, with more than 30 million in need nationwide, and IOM and WFP have warned the humanitarian pipeline could collapse without further funding."
         },
         "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
         "location": {
@@ -7413,7 +7448,7 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-10-08T09:24:26Z",
+      "last_updated": "2026-10-09T09:19:47Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
@@ -7421,10 +7456,15 @@
             "at": "2026-10-08T09:24:26Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-24-26Z-6965cd"
+          },
+          {
+            "at": "2026-10-09T09:19:47Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-19-47Z-af428e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-24-26Z-6965cd"
+        "last_run_id": "2026-10-09T09-19-47Z-af428e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7440,6 +7480,10 @@
         {
           "date": "2026-10-01",
           "text": "IOM's DTM Kordofan Region Flash Alert (7) (published 24 September, covering since 25 October 2025) recorded an estimated 308,179 people displaced from the Kordofan region as of 1 September 2026, with the largest numbers arriving in Khartoum (123,509), North Kordofan (66,575) and White Nile (40,237) states."
+        },
+        {
+          "date": "2026-09-21",
+          "text": "UNHCR's regional situation portal recorded 11,306,124 people forcibly displaced by the Sudan crisis (21 September update), down from 11,349,317 in the 10 August update; IDPs in Sudan recorded via this portal fell to 6,409,546 (20 September) from 6,490,949 (20 July)."
         },
         {
           "date": "2026-09-18",
@@ -7472,7 +7516,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -8214,7 +8258,7 @@
         },
         {
           "id": "claim-19",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "source_name": "CAL FIRE",
           "source_url": "https://www.fire.ca.gov/incidents/2026/8/8/timber-fire",
           "text": "CAL FIRE's incident page for the Timber Fire reports, per a Public Information Officer update timestamped October 7, 2026 at 5:12 PM, that the fire had reached 94% containment (up from 90% on October 5) on 25,352 acres (unchanged), and that all remaining evacuation orders had been lifted.",
@@ -8304,7 +8348,7 @@
         "status": "ongoing"
       },
       "id": "usa-california-big-sur-wildfires-2026",
-      "last_updated": "2026-10-08T09:20:19Z",
+      "last_updated": "2026-10-09T09:19:02Z",
       "name": "Wildfires — Big Sur / Los Padres National Forest, California",
       "provenance": {
         "history": [
@@ -8312,10 +8356,15 @@
             "at": "2026-10-08T09:20:19Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-20-19Z-1de465"
+          },
+          {
+            "at": "2026-10-09T09:19:02Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-19-02Z-d5e95b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-20-19Z-1de465"
+        "last_run_id": "2026-10-09T09-19-02Z-d5e95b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -9393,10 +9442,18 @@
         },
         {
           "id": "claim-35",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "source_name": "InciWeb (US wildland fire agencies)",
           "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
           "text": "InciWeb's Sinlahekin Fire incident page, updated 30 September 2026, 10:14 a.m. PT: the fire holds at 166,007 acres (essentially unchanged from 166,026 on 26 September) with containment steady at 93% and personnel assigned down to 334 (from 401); the fire 'is winding down, and crews will concentrate on finishing up rehab and repair work for approximately another week and prepare to turn over the fire to local control,' with an estimated full-containment date of 15 October 2026.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-36",
+          "retrieved_date": "2026-10-09",
+          "source_name": "Office of the Governor of Washington State",
+          "source_url": "https://governor.wa.gov/news/2026/governor-ferguson-requests-additional-fema-assistance-132m-repair-infrastructure-after-wildfires",
+          "text": "Office of the Governor of Washington State news release (7 October 2026): Governor Ferguson requested additional FEMA Public Assistance that 'could total a projected $13.2 million,' bringing the total federal Public Assistance requested for this disaster to 'over $133 million' for permanent repair, restoration or replacement of damaged public infrastructure (roads, bridges, utilities) across Asotin, Chelan, Columbia, Douglas, Ferry, Grant, Okanogan, Spokane, Stevens, Whitman and Yakima counties plus the Spokane Tribe of Indians; the release notes the Governor formally requested a federal Major Disaster Declaration on 28 September 2026, and that Individual Assistance has separately been requested for Benton, Okanogan, Spokane and Stevens counties and the Spokane Tribe of Indians.",
           "verification_status": "verified"
         },
         {
@@ -9448,12 +9505,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, remains active under a federal emergency declaration covering 12 counties and three Tribal Nations. The Sinlahekin Fire, the state's largest, holds at 93% containment on about 166,007 acres as of 30 September 2026, with personnel assigned down to 334 as crews wind down operations, finish rehab and repair work, and target full containment by 15 October; a separate emergency continues to address the Paradise Fire's threat to Walla Walla's water supply.",
+      "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, has moved into a federally supported recovery phase as the state's largest blaze nears full containment. The Sinlahekin Fire holds at 93% containment on about 166,007 acres as of 30 September 2026, with crews finishing rehab and repair work toward a 15 October full-containment target. Washington formally requested a federal Major Disaster Declaration on 28 September 2026 and, on 7 October, additional FEMA Public Assistance for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across 11 counties and the Spokane Tribe of Indians; a separate emergency continues to address the Paradise Fire's threat to Walla Walla's water supply.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "The Sinlahekin Fire, the state's largest, holds at 93% containment on about 166,007 acres as of 30 September 2026 (essentially unchanged from 166,026 on 26 September), with personnel assigned down to 334 from 401 as operations wind down; InciWeb reports crews are focused on rehab and repair work for about another week before turning the fire over to local control, with full containment now estimated for 15 October 2026. Washington's wildfire emergency covers 12 counties (after five more were added 31 August) and three Tribal Nations, with tenant-protection and assistance provisions extended to 30 September; a distinct emergency was declared 28 August for Walla Walla County over the Paradise Fire's threat to the Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
+          "summary": "The Sinlahekin Fire, the state's largest, holds at 93% containment on about 166,007 acres as of 30 September 2026, with personnel assigned down to 334 as operations wind down toward a 15 October full-containment target. Washington's governor formally requested a federal Major Disaster Declaration on 28 September 2026 and, on 7 October, additional FEMA Public Assistance of up to $13.2 million for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across Asotin, Chelan, Columbia, Douglas, Ferry, Grant, Okanogan, Spokane, Stevens, Whitman and Yakima counties and the Spokane Tribe of Indians; Individual Assistance has separately been requested for Benton, Okanogan, Spokane and Stevens counties and the Spokane Tribe. The wildfire proclamation lineage (26-03 through 26-06) now also covers recovery/rebuilding support and a fuel waiver; a distinct emergency continues to address the Paradise Fire's threat to Walla Walla's Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
         },
         "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
         "location": {
@@ -9463,11 +9520,11 @@
           "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
         },
         "occurrence_date": "2026-08-01",
-        "scale": "Federal emergency declaration; state wildfire emergency covering 12 counties; Sinlahekin Fire (state's largest) at 166,007 acres / 93% contained as of 30 September 2026, winding down toward 15 October target",
+        "scale": "Federal Major Disaster Declaration requested; Sinlahekin Fire (state's largest) 93% contained; FEMA Public Assistance requests exceed $133M",
         "status": "ongoing"
       },
       "id": "usa-washington-wildfires-2026",
-      "last_updated": "2026-10-08T09:20:39Z",
+      "last_updated": "2026-10-09T09:19:12Z",
       "name": "Wildfire Emergency — Eastern Washington, USA",
       "provenance": {
         "history": [
@@ -9475,10 +9532,15 @@
             "at": "2026-10-08T09:20:39Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-20-39Z-7fbfdf"
+          },
+          {
+            "at": "2026-10-09T09:19:12Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-19-12Z-3bb009"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-20-39Z-7fbfdf"
+        "last_run_id": "2026-10-09T09-19-12Z-3bb009"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -9487,6 +9549,10 @@
         "recency_rank": 739829
       },
       "updates": [
+        {
+          "date": "2026-10-07",
+          "text": "Washington requested additional FEMA Public Assistance of up to $13.2 million for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across 11 counties and the Spokane Tribe of Indians; the state had formally requested a federal Major Disaster Declaration on 28 September."
+        },
         {
           "date": "2026-09-30",
           "text": "InciWeb reported the Sinlahekin Fire is 'winding down': containment held at 93% on 166,007 acres (essentially unchanged), personnel assigned down to 334 (from 401), with crews focused on rehab/repair work and a new estimated full-containment date of 15 October 2026."
@@ -9606,7 +9672,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 35 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 36 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
