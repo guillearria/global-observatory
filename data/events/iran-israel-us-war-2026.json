@@ -50,6 +50,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-16",
+      "retrieved_date": "2026-10-09",
+      "source_name": "Encyclopaedia Britannica",
+      "source_url": "https://www.britannica.com/event/2026-Iran-war",
+      "text": "Encyclopaedia Britannica's running news feed for the 2026 Iran war lists, verbatim: (6 October 2026, 10:19 PM ET) 'Families of some US troops killed in the Iran war's deadliest strike absent from White House event'; (7 October 2026, 6:48 PM ET) 'Attacks on Saudi airports claimed by Houthi rebels kill 3 people, officials say'; (8 October 2026, 1:34 PM ET) 'Trump says US will not resume military strikes on Iran before the Nov. 3 midterm elections.' No further casualty figures accompany these entries.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-31",
       "source_name": "Encyclopaedia Britannica",
@@ -114,12 +122,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping over 90%, and hostilities have persisted, including a US strike on Iran's Larak Island outpost and, on 15 September, the destruction of two small Iranian boats near the Strait. UNHCR records 628,000 Iranian nationals and 311,500 Lebanese refugees displaced across borders since the war began, alongside almost 1.98 million Afghan and Syrian returnees. Diplomacy remains stalled: Iran said on 1 October it had received a formal US response to its latest ceasefire proposal, even as the US ordered a third carrier and more troops to the region and Trump threatened Iran would be hit 'very hard' if behind a copilot's attempt to crash a flight to Israel. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar. The conflict remains unresolved.",
+  "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping over 90%, and hostilities persisted through September, including a US strike on Iran's Larak Island outpost. UNHCR records 628,000 Iranian nationals and 311,500 Lebanese refugees displaced across borders since the war began, plus almost 1.98 million Afghan and Syrian returnees. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, even as a third carrier and more troops remain deployed -- two days after families of US troops killed in the war's deadliest strike stayed away from a White House event, and a day after Houthi rebels claimed attacks on Saudi airports that killed three people. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar. The conflict remains unresolved.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": 1280728,
-      "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; no single verified cumulative death toll for the war exists. UNHCR's Middle East portal (updated 12-22 September) records, since the war began: 628,000 Iranian nationals who crossed into neighbouring countries (530,000 since returned), 311,500 Lebanese refugees now in Syria and 341,228 new IDPs in Lebanon -- a combined 1,280,728 displaced or newly refugees across those two countries -- plus almost 1.98 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar, up from 2.2 million on 2 September, as sanctions and a naval oil blockade erode the economy. Diplomacy remains stalled: Iran said on 1 October it had received a formal US response to its ceasefire proposal, while the US ordered a third carrier and more troops to the region and weighed new strikes after Trump said Iran would be hit 'very hard' if behind a copilot's attempt to crash a flight to Israel."
+      "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; no single verified cumulative death toll for the war exists. UNHCR's Middle East portal (updated 12-22 September) records, since the war began: 628,000 Iranian nationals who crossed into neighbouring countries (530,000 since returned), 311,500 Lebanese refugees now in Syria and 341,228 new IDPs in Lebanon -- a combined 1,280,728 displaced or newly refugees across those two countries -- plus almost 1.98 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar, as sanctions and a naval oil blockade erode the economy. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, pausing the threatened escalation even as a third carrier and added troops remain in the region; this followed a 7 October Houthi-claimed attack on Saudi airports that killed three people."
     },
     "live_source_url": "https://www.britannica.com/event/2026-Iran-war",
     "location": {
@@ -129,11 +137,11 @@
       "region": "Iran, Israel and Lebanon, with strikes and shipping disruption spreading across Jordan, Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, Iraq, Oman and the Strait of Hormuz"
     },
     "occurrence_date": "2026-08-17",
-    "scale": "Interstate war since 28 Feb 2026; unresolved into October, with a US military buildup (third carrier, added troops) amid threats of renewed strikes",
+    "scale": "Interstate war since 28 Feb 2026; unresolved, but Trump said on 8 October the US will not resume strikes on Iran before the 3 November midterm elections",
     "status": "ongoing"
   },
   "id": "iran-israel-us-war-2026",
-  "last_updated": "2026-10-08T09:21:36Z",
+  "last_updated": "2026-10-09T09:24:26Z",
   "name": "Iran-Israel-US War",
   "provenance": {
     "history": [
@@ -141,10 +149,15 @@
         "at": "2026-10-08T09:21:36Z",
         "layer": "verify",
         "run_id": "2026-10-08T09-21-36Z-6db1a4"
+      },
+      {
+        "at": "2026-10-09T09:24:26Z",
+        "layer": "verify",
+        "run_id": "2026-10-09T09-24-26Z-ce62c2"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-08T09-21-36Z-6db1a4"
+    "last_run_id": "2026-10-09T09-24-26Z-ce62c2"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -153,6 +166,10 @@
     "recency_rank": 739845
   },
   "updates": [
+    {
+      "date": "2026-10-08",
+      "text": "Trump said the US will not resume military strikes on Iran before the 3 November midterm elections, even as the military buildup (third carrier, added troops) continues; the statement followed a 7 October Houthi-claimed attack on Saudi airports that killed 3 people, per Encyclopaedia Britannica's running AP-sourced account."
+    },
     {
       "date": "2026-10-01",
       "text": "The US ordered a third aircraft carrier and thousands of additional troops to the Middle East while weighing new strikes on Iran; Trump said Iran would be hit 'very hard' if it was behind a copilot's attempted crash of a flight bound for Israel. Iran said it had received a formal US response to its ceasefire proposal, and Rubio told Iran's UN delegation to leave New York early after talks stalled."
@@ -192,7 +209,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

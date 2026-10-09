@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09T09:21:50Z",
+  "last_updated": "2026-10-09T09:24:29Z",
   "published": [
     {
       "category": "flood",
@@ -3352,6 +3352,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-26",
+          "retrieved_date": "2026-10-09",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/audio/2026/10/1168510",
+          "text": "UN News Today audio bulletin (2 October 2026), relaying UN High Commissioner for Human Rights Volker Turk's statement: at least 5,700 people have been confirmed killed or injured by gangs, or during operations against them, in Haiti since 1 January 2026; gang members have kidnapped more than 230 people, and at least 1,000 women and girls have been raped -- a toll Turk said is likely much higher in reality.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-08-11",
           "source_name": "United Nations",
@@ -3384,12 +3392,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement now spreading beyond Port-au-Prince into previously safer areas. IOM's Displacement Tracking Matrix Round 14 report (data through 12 August 2026) puts the national total at nearly 1.5 million IDPs, with Artibonite department recording the largest three-month increase (+16%) as insecurity spreads there. A 28 September gang attack in Gros-Morne, Artibonite, that the Secretary-General said reportedly killed at least 11 people also displaced approximately 8,486 people (IOM Emergency Tracking Tool 110.1, 7 October, revised up from 5,254). Briefing the UN Security Council on 28 August, BINUH head Carlos Ruiz Massieu reported at least 1,408 killed and 656 injured from April-June, and OCHA cited 5,500+ gender-based violence incidents this year. The 23-24 August attack on Kenscoff killed at least 47, including 22 reportedly executed inside a church. On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027. About 6.4 million people need humanitarian assistance this year.",
+      "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement now spreading beyond Port-au-Prince into previously safer areas. UN High Commissioner for Human Rights Volker Turk told the Human Rights Council on 2 October that at least 5,700 people have been killed or injured by gangs or in operations against them since 1 January, alongside more than 230 kidnappings and at least 1,000 women and girls raped -- a toll he said is likely an undercount. IOM's Displacement Tracking Matrix Round 14 report (data through 12 August 2026) puts the national displacement total at nearly 1.5 million IDPs, with Artibonite department recording the largest three-month increase (+16%) as insecurity spreads there. A 28 September gang attack in Gros-Morne, Artibonite, that the Secretary-General said reportedly killed at least 11 people also displaced approximately 8,486 people (IOM Emergency Tracking Tool 110.1, 7 October). On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027. About 6.4 million people need humanitarian assistance this year.",
       "event": {
         "impact": {
           "deaths": 3000,
           "displaced": 1490000,
-          "summary": "IOM's Displacement Tracking Matrix Round 14 report (covering 15 May-12 August 2026) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite department recording the largest increase of any department (+16%) as the security situation there deteriorates further. A 28 September 2026 gang attack in Gros-Morne, Artibonite -- which the Secretary-General said reportedly killed at least 11 people -- displaced approximately 8,486 people (2,011 households) per IOM's revised Emergency Tracking Tool (ETT 110.1, published 7 October, up from 5,254 in ETT 110), with 99% taking refuge with host families. Briefing the UN Security Council on 28 August 2026, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026, while BINUH head Carlos Ruiz Massieu put the April-June quarterly toll at more than 1,400 killed and more than 600 injured. The 23-24 August gang attack on Kenscoff killed at least 47 people and displaced more than 2,600. On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027 (12 votes in favour, 3 abstentions)."
+          "summary": "IOM's Displacement Tracking Matrix Round 14 report (covering 15 May-12 August 2026) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite department recording the largest increase of any department (+16%) as the security situation there deteriorates further. UN High Commissioner for Human Rights Volker Turk told the Human Rights Council on 2 October 2026 that at least 5,700 people have been killed or injured by gangs or in operations against them since 1 January, with more than 230 kidnapped and at least 1,000 women and girls raped. A 28 September 2026 gang attack in Gros-Morne, Artibonite -- which the Secretary-General said reportedly killed at least 11 people -- displaced approximately 8,486 people (2,011 households) per IOM's revised Emergency Tracking Tool (ETT 110.1, published 7 October), with 99% taking refuge with host families. Argentina's UN Security Council statement of 28 August put nationwide deaths at more than 3,000 so far in 2026. On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027 (12 votes in favour, 3 abstentions)."
         },
         "live_source_url": "https://dtm.iom.int/haiti",
         "location": {
@@ -3403,7 +3411,7 @@
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-10-08T09:23:42Z",
+      "last_updated": "2026-10-09T09:24:22Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
@@ -3411,10 +3419,15 @@
             "at": "2026-10-08T09:23:42Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-23-42Z-bd0768"
+          },
+          {
+            "at": "2026-10-09T09:24:22Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-24-22Z-c25029"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-23-42Z-bd0768"
+        "last_run_id": "2026-10-09T09-24-22Z-c25029"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3426,6 +3439,10 @@
         {
           "date": "2026-10-08",
           "text": "IOM's Emergency Tracking Tool 110.1 (published 7 October) revised the Gros-Morne displacement toll upward to approximately 8,486 people (2,011 households), up from the ETT 110 figure of 5,254; 99% are sheltering with host families."
+        },
+        {
+          "date": "2026-10-02",
+          "text": "UN High Commissioner for Human Rights Volker Turk told the Human Rights Council that at least 5,700 people have been killed or injured by gangs, or during operations against them, in Haiti since 1 January 2026, with more than 230 people kidnapped and at least 1,000 women and girls raped -- a toll he said is likely an undercount."
         },
         {
           "date": "2026-10-01",
@@ -3470,7 +3487,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3713,7 +3730,7 @@
         },
         {
           "id": "claim-30",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1104121&eventtype=FL",
           "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, episode 21, reporting window 9 August-28 September 2026) now records 135 deaths, up from 131 at the prior episode, with 457,351 displaced (unchanged). The event's underlying data feed lists a newly added contributing record (inserted 8 October 2026) citing 81 fatalities in Uttar Pradesh.",
@@ -3795,7 +3812,7 @@
         "status": "ongoing"
       },
       "id": "india-monsoon-floods-2026",
-      "last_updated": "2026-10-08T09:25:11Z",
+      "last_updated": "2026-10-09T09:24:06Z",
       "name": "Multi-State Monsoon Floods & Landslides — India",
       "provenance": {
         "history": [
@@ -3803,10 +3820,15 @@
             "at": "2026-10-08T09:25:11Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-25-11Z-6db3e8"
+          },
+          {
+            "at": "2026-10-09T09:24:06Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-24-06Z-5a6099"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-25-11Z-6db3e8"
+        "last_run_id": "2026-10-09T09-24-06Z-5a6099"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4246,6 +4268,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-16",
+          "retrieved_date": "2026-10-09",
+          "source_name": "Encyclopaedia Britannica",
+          "source_url": "https://www.britannica.com/event/2026-Iran-war",
+          "text": "Encyclopaedia Britannica's running news feed for the 2026 Iran war lists, verbatim: (6 October 2026, 10:19 PM ET) 'Families of some US troops killed in the Iran war's deadliest strike absent from White House event'; (7 October 2026, 6:48 PM ET) 'Attacks on Saudi airports claimed by Houthi rebels kill 3 people, officials say'; (8 October 2026, 1:34 PM ET) 'Trump says US will not resume military strikes on Iran before the Nov. 3 midterm elections.' No further casualty figures accompany these entries.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-31",
           "source_name": "Encyclopaedia Britannica",
@@ -4310,12 +4340,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping over 90%, and hostilities have persisted, including a US strike on Iran's Larak Island outpost and, on 15 September, the destruction of two small Iranian boats near the Strait. UNHCR records 628,000 Iranian nationals and 311,500 Lebanese refugees displaced across borders since the war began, alongside almost 1.98 million Afghan and Syrian returnees. Diplomacy remains stalled: Iran said on 1 October it had received a formal US response to its latest ceasefire proposal, even as the US ordered a third carrier and more troops to the region and Trump threatened Iran would be hit 'very hard' if behind a copilot's attempt to crash a flight to Israel. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar. The conflict remains unresolved.",
+      "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping over 90%, and hostilities persisted through September, including a US strike on Iran's Larak Island outpost. UNHCR records 628,000 Iranian nationals and 311,500 Lebanese refugees displaced across borders since the war began, plus almost 1.98 million Afghan and Syrian returnees. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, even as a third carrier and more troops remain deployed -- two days after families of US troops killed in the war's deadliest strike stayed away from a White House event, and a day after Houthi rebels claimed attacks on Saudi airports that killed three people. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar. The conflict remains unresolved.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": 1280728,
-          "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; no single verified cumulative death toll for the war exists. UNHCR's Middle East portal (updated 12-22 September) records, since the war began: 628,000 Iranian nationals who crossed into neighbouring countries (530,000 since returned), 311,500 Lebanese refugees now in Syria and 341,228 new IDPs in Lebanon -- a combined 1,280,728 displaced or newly refugees across those two countries -- plus almost 1.98 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar, up from 2.2 million on 2 September, as sanctions and a naval oil blockade erode the economy. Diplomacy remains stalled: Iran said on 1 October it had received a formal US response to its ceasefire proposal, while the US ordered a third carrier and more troops to the region and weighed new strikes after Trump said Iran would be hit 'very hard' if behind a copilot's attempt to crash a flight to Israel."
+          "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; no single verified cumulative death toll for the war exists. UNHCR's Middle East portal (updated 12-22 September) records, since the war began: 628,000 Iranian nationals who crossed into neighbouring countries (530,000 since returned), 311,500 Lebanese refugees now in Syria and 341,228 new IDPs in Lebanon -- a combined 1,280,728 displaced or newly refugees across those two countries -- plus almost 1.98 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar, as sanctions and a naval oil blockade erode the economy. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, pausing the threatened escalation even as a third carrier and added troops remain in the region; this followed a 7 October Houthi-claimed attack on Saudi airports that killed three people."
         },
         "live_source_url": "https://www.britannica.com/event/2026-Iran-war",
         "location": {
@@ -4325,11 +4355,11 @@
           "region": "Iran, Israel and Lebanon, with strikes and shipping disruption spreading across Jordan, Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain, Iraq, Oman and the Strait of Hormuz"
         },
         "occurrence_date": "2026-08-17",
-        "scale": "Interstate war since 28 Feb 2026; unresolved into October, with a US military buildup (third carrier, added troops) amid threats of renewed strikes",
+        "scale": "Interstate war since 28 Feb 2026; unresolved, but Trump said on 8 October the US will not resume strikes on Iran before the 3 November midterm elections",
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-10-08T09:21:36Z",
+      "last_updated": "2026-10-09T09:24:26Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
@@ -4337,10 +4367,15 @@
             "at": "2026-10-08T09:21:36Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-21-36Z-6db1a4"
+          },
+          {
+            "at": "2026-10-09T09:24:26Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-24-26Z-ce62c2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-21-36Z-6db1a4"
+        "last_run_id": "2026-10-09T09-24-26Z-ce62c2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4349,6 +4384,10 @@
         "recency_rank": 739845
       },
       "updates": [
+        {
+          "date": "2026-10-08",
+          "text": "Trump said the US will not resume military strikes on Iran before the 3 November midterm elections, even as the military buildup (third carrier, added troops) continues; the statement followed a 7 October Houthi-claimed attack on Saudi airports that killed 3 people, per Encyclopaedia Britannica's running AP-sourced account."
+        },
         {
           "date": "2026-10-01",
           "text": "The US ordered a third aircraft carrier and thousands of additional troops to the Middle East while weighing new strikes on Iran; Trump said Iran would be hit 'very hard' if it was behind a copilot's attempted crash of a flight bound for Israel. Iran said it had received a formal US response to its ceasefire proposal, and Rubio told Iran's UN delegation to leave New York early after talks stalled."
@@ -4388,7 +4427,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5207,7 +5246,7 @@
         },
         {
           "id": "claim-21",
-          "retrieved_date": "2026-10-06",
+          "retrieved_date": "2026-10-09",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1544720&eventtype=EQ",
           "text": "Re-checked 11 August 2026: reliefweb.int, this record's live_source_url and the source of the DSWD DROMIC series and OCHA casualty snapshot, returned HTTP 403 Forbidden and was unreachable across multiple attempts and multiple pages (disaster hub, specific report URLs, API endpoint) today. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Orange alert (\"medium humanitarian impact\"), currently showing modeled population exposure of about 4.4 million people at MMI≥VII and a maximum observed tsunami wave of 0.83 m -- GDACS's own automated impact-model figures for the event, which are updated as GDACS reprocesses episodes and are distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
@@ -5271,7 +5310,7 @@
         },
         {
           "id": "claim-31",
-          "retrieved_date": "2026-10-02",
+          "retrieved_date": "2026-10-09",
           "source_name": "Department of Social Welfare and Development (Philippines)",
           "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-86-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-29-September-2026-6PM.pdf",
           "text": "DSWD DROMIC Report #86 (as of 29 September 2026, 6PM) reports a total of 396,163 families (1,674,308 persons) affected in 661 barangays in Regions IX, XI, XII and BARMM, up from 395,626 families in Report #85. There are 5,966 families (22,626 persons) inside 66 evacuation centers and 17,159 families (69,781 persons) staying with relatives or friends; total displaced stands at 23,125 families (92,407 persons), unchanged from Report #85. A total of 129,137 houses were damaged, of which 19,853 were totally damaged (up from 19,320) and 109,284 partially damaged (unchanged). A total of ₱1,728,725,552.87 worth of assistance was provided to the affected families, of which ₱1,728,225,552.87 from DSWD and ₱500,000.00 from the LGUs -- unchanged from Report #85.",
@@ -5345,7 +5384,7 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-10-06T09:25:03Z",
+      "last_updated": "2026-10-09T09:24:06Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
@@ -5358,10 +5397,15 @@
             "at": "2026-10-06T09:25:03Z",
             "layer": "verify",
             "run_id": "2026-10-06T09-25-03Z-a76dd5"
+          },
+          {
+            "at": "2026-10-09T09:24:06Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-24-06Z-18c059"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-06T09-25-03Z-a76dd5"
+        "last_run_id": "2026-10-09T09-24-06Z-18c059"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5478,7 +5522,7 @@
         },
         {
           "id": "claim-16",
-          "retrieved_date": "2026-10-02",
+          "retrieved_date": "2026-10-09",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/nepal/nepal-rasuwa-flood-situation-report-no-9-22-september-2026",
           "text": "UN OCHA and the UN Resident Coordinator's Office in Nepal, Rasuwa-Bhotekoshi Flood Situation Report No. 9 (as of 22 September 2026, covering 15-22 September): 'The floods have claimed 1,453 lives; 5,644 people remain missing and 13,795 have been rescued (NDRRMA, 23 September, 19:00). 1,112 people remain in 21 displacement centres.' The report also records a US$49.6 million Flash Appeal (through 31 December 2026) of which US$22.0 million was funded per FTS as of 23 September, 84.3K people targeted across 17 affected municipalities, and 64,263 people reached by assistance as of 22 September.",
@@ -5568,7 +5612,7 @@
         "status": "ongoing"
       },
       "id": "nepal-rasuwa-glacial-flood-2026",
-      "last_updated": "2026-10-07T09:17:41Z",
+      "last_updated": "2026-10-09T09:24:06Z",
       "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
       "provenance": {
         "history": [
@@ -5576,10 +5620,15 @@
             "at": "2026-10-07T09:17:41Z",
             "layer": "verify",
             "run_id": "2026-10-07T09-17-41Z-99f2b5"
+          },
+          {
+            "at": "2026-10-09T09:24:06Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-24-06Z-5d5025"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-07T09-17-41Z-99f2b5"
+        "last_run_id": "2026-10-09T09-24-06Z-5d5025"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5915,7 +5964,7 @@
         },
         {
           "id": "claim-35",
-          "retrieved_date": "2026-10-07",
+          "retrieved_date": "2026-10-09",
           "source_name": "National Disaster Management Authority (Pakistan)",
           "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
           "text": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 29 September 2026 at 199 deaths (68 male, 40 female, 91 children) and 556 injuries (227 male, 145 female, 184 children), up from 198 deaths and 549 injuries three days earlier. Cumulative housing damage now stands at 1,839 houses affected (623 destroyed, 1,216 partially damaged), with 1,559 livestock lost and 10,684 persons rescued or evacuated across 1,192 rescue/evacuation operations; Khyber Pakhtunkhwa remains the most-affected province.",
@@ -5949,7 +5998,7 @@
         "status": "ongoing"
       },
       "id": "pakistan-floods-2026",
-      "last_updated": "2026-10-07T09:17:40Z",
+      "last_updated": "2026-10-09T09:24:06Z",
       "name": "Monsoon Floods — Pakistan",
       "provenance": {
         "history": [
@@ -5957,10 +6006,15 @@
             "at": "2026-10-07T09:17:40Z",
             "layer": "verify",
             "run_id": "2026-10-07T09-17-40Z-322234"
+          },
+          {
+            "at": "2026-10-09T09:24:06Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-24-06Z-0e9b37"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-07T09-17-40Z-322234"
+        "last_run_id": "2026-10-09T09-24-06Z-0e9b37"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7678,14 +7732,22 @@
           "source_url": "https://gdacs.org/report.aspx?eventtype=FL&eventid=1104122&episodeid=57",
           "text": "GDACS's flood event report for Thailand (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 57, reporting window extended to 18 August-3 October 2026) records 'Death: 6' (unchanged) and 'Displaced: 627' (up from 569); overall alert level remains Green (low humanitarian impact). The report's narrative states that authorities in Thailand reported flooding in Ratchaburi Province from late September 2026.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-9",
+          "retrieved_date": "2026-10-09",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/thailand/tha-flood-09-2026-heavy-rainfall-caused-flooding-3-2026-10-06",
+          "text": "IFRC and Thai Red Cross's 'Thailand: Flood - 09-2026 - Heavy rainfall caused flooding #3' situation report (6 October 2026, hosted on ReliefWeb): 'From 16 September to 6 October 2026, flooding was reported across 50 provinces, affecting 1,474,981 households (4,188,452 people), with 31 deaths reported. As of 6 October, flooding remains ongoing in 27 provinces and Bangkok, affecting 1,149,285 households (3,143,962 people)...Bangkok: Approximately 329,000 households / 700,000 people were affected by flooding, with 4 deaths reported.' This nationwide toll of 31 deaths exceeds and supersedes GDACS's narrower tracked total (6 deaths, 627 displaced, episode 57) and is adopted as the new confirmed national total, being the more current and comprehensive allowlisted figure.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Torrential monsoon rain flooded Bangkok and central Thailand from late September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. GDACS's Thailand flood report (18 August-3 October 2026 window, episode 57) now records 6 deaths and 627 displaced nationwide under a Green alert, up from 569 displaced in the prior episode -- a narrower tracking scope than the nationwide toll Thai authorities have reported via media: the Department of Disaster Prevention and Mitigation put the cumulative toll at 23 deaths and over 2.6 million people affected across 29 provinces as of 29 September, rising to a reported 24 deaths and about 3.19 million people affected by 1 October, a toll attributed to Thailand's Department of Disaster Prevention and Mitigation via Thai and international media that GDACS's own tracking for this event does not yet reflect. Bangkok's own flooding has begun to ease, with floodwaters receding and roads reopening, though authorities are watching for possible renewed flooding from additional rain and dam releases expected 4-6 October.",
+      "description": "Torrential monsoon rain has flooded Bangkok and central Thailand since mid-September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. IFRC and the Thai Red Cross reported on 6 October 2026 that flooding since 16 September has killed 31 people nationwide and affected 4,188,452 people (1,474,981 households) across 50 provinces; as of 6 October, flooding remained active in 27 provinces and Bangkok, affecting 3,143,962 people (1,149,285 households), including about 700,000 people (329,000 households) in Bangkok, where 4 deaths have been recorded and water levels are decreasing. This nationwide toll supersedes GDACS's narrower tracked total of 6 deaths and 627 displaced. Forecasters warn of renewed heavy rain and increased dam discharge in the Chao Phraya basin from 9-13 October, which could raise river levels further in low-lying and riverside areas.",
       "event": {
         "impact": {
-          "deaths": 6,
-          "displaced": 627,
-          "summary": "GDACS's Thailand flood event report (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 57, window 18 August-3 October 2026) records 6 deaths and 627 displaced nationwide under an overall Green alert, up from 569 displaced in the prior episode; the narrative now also cites flooding reported in Ratchaburi Province from late September. Media reports citing Thailand's Department of Disaster Prevention and Mitigation describe a much larger nationwide toll -- 23 deaths and over 2.6 million people affected across 29 provinces as of 29 September, rising to a reported 24 deaths and about 3.19 million people (1.12 million households) by 1 October -- a toll attributed to Thailand's Department of Disaster Prevention and Mitigation via Thai and international media that GDACS's own tracking for this event does not yet reflect. Bangkok Governor Chadchart Sittipunt declared all 50 of the capital's districts flood-disaster areas on 26 September 2026; by 1 October, floodwaters were reported receding in Bangkok and easing across most affected regions, though authorities warned of possible renewed flooding from additional rain and dam releases expected 4-6 October."
+          "deaths": 31,
+          "displaced": 3143962,
+          "summary": "IFRC and the Thai Red Cross's 6 October 2026 situation report puts the confirmed nationwide toll at 31 deaths and 4,188,452 people (1,474,981 households) affected across 50 provinces since 16 September; as of 6 October, 3,143,962 people (1,149,285 households) remained affected in 27 provinces and Bangkok, including about 700,000 people (329,000 households) in Bangkok, where 4 deaths have been recorded and water levels are decreasing. This figure supersedes GDACS's narrower tracked total of 6 deaths and 627 displaced (episode 57, window 18 August-3 October). Forecasters warn of renewed heavy rain and increased Chao Phraya dam discharge from 9-13 October, which could raise flood risk again in low-lying and riverside areas."
         },
         "live_source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
         "location": {
@@ -7695,11 +7757,11 @@
           "region": "Bangkok Metropolitan Area and 12 central provinces"
         },
         "occurrence_date": "2026-09-24",
-        "scale": "GDACS Green alert (6 deaths/627 displaced tracked); Bangkok citywide flood-disaster declaration; media-reported nationwide DDPM toll of ~23-24 deaths and ~3 million people affected across 29 provinces, not yet reflected in GDACS tracking",
+        "scale": "Nationwide flooding, 50 provinces; IFRC/Thai Red Cross: 31 deaths, ~3.14M people affected (6 Oct); GDACS Green alert",
         "status": "ongoing"
       },
       "id": "thailand-bangkok-floods-2026",
-      "last_updated": "2026-10-08T09:25:11Z",
+      "last_updated": "2026-10-09T09:24:06Z",
       "name": "Bangkok Flood Disaster, Thailand",
       "provenance": {
         "history": [
@@ -7707,18 +7769,27 @@
             "at": "2026-10-08T09:25:11Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-25-11Z-51d55f"
+          },
+          {
+            "at": "2026-10-09T09:24:06Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-24-06Z-d6609f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-25-11Z-51d55f"
+        "last_run_id": "2026-10-09T09-24-06Z-d6609f"
       },
       "schema_version": "1.0",
       "sort_keys": {
-        "composite": 7398831.0,
-        "impact_rank": 1,
+        "composite": 7398834.0,
+        "impact_rank": 4,
         "recency_rank": 739883
       },
       "updates": [
+        {
+          "date": "2026-10-06",
+          "text": "IFRC and the Thai Red Cross's 6 October situation report, now hosted on ReliefWeb, put the confirmed nationwide toll at 31 deaths and about 3.14 million people (1.15 million households) still affected across 27 provinces and Bangkok, with a cumulative 4.19 million people affected since 16 September -- superseding GDACS's narrower tracked total of 6 deaths and 627 displaced."
+        },
         {
           "date": "2026-10-04",
           "text": "GDACS's reporting window extended to 3 October (episode 57): displaced rose to 627 (from 569) nationwide; the confirmed death toll held at 6, and the event remains at Green alert. The narrative now also cites flooding reported in Ratchaburi Province."
@@ -7738,7 +7809,7 @@
       ],
       "verification": {
         "confidence": "medium",
-        "notes": "gate: 3 verified, 0 disputed, 5 unverified -> partial",
+        "notes": "gate: 4 verified, 0 disputed, 5 unverified -> partial",
         "status": "partial"
       }
     },
@@ -10343,7 +10414,7 @@
         },
         {
           "id": "claim-28",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-2-october-2026",
           "text": "OCHA oPt's Humanitarian Situation Report (published 5 October 2026, covering the West Bank 22-28 September 2026 and Gaza 21-27 September 2026): in the West Bank, no Palestinian fatalities were reported for the week, while 45 Palestinians were injured (including 3 children and 4 women -- 22 injured by Israeli forces during operations and 23 in settler attacks), and 93 Palestinians (including 55 children) were displaced by demolitions. In Gaza, cumulative fatalities since the 10 October 2025 ceasefire reached 1,431, with 5,026 injuries.",
@@ -10401,7 +10472,7 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-10-08T09:21:36Z",
+      "last_updated": "2026-10-09T09:24:29Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
@@ -10409,10 +10480,15 @@
             "at": "2026-10-08T09:21:36Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-21-36Z-da3102"
+          },
+          {
+            "at": "2026-10-09T09:24:29Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-24-29Z-42329f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-21-36Z-da3102"
+        "last_run_id": "2026-10-09T09-24-29Z-42329f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -10560,6 +10636,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-18",
+          "retrieved_date": "2026-10-09",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/10/1168541",
+          "text": "UN News (7 October 2026), 'Critical funding gap threatens health response in Yemen': citing Yemeni health authorities, 'as of 2 October, there were 959 reported deaths and 4,207 injuries across 10 governorates'; the International Organization for Migration reports 'more than 200,000 people have been displaced,' with 'close to 3,800' having fled to Djibouti across the Red Sea; the World Health Organization said that 'of the nearly 198,000 people who have been uprooted,' less than one percent had received health services as of the previous week, and that its immediate funding requirement has increased from $9 million to $31 million, with an additional $700,000 needed to support refugees in Djibouti.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-28",
           "source_name": "United Nations",
@@ -10624,12 +10708,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened to include Houthi attacks on Saudi Arabia. The UN Security Council condemned those attacks on 18 September and demanded an immediate end to the escalation. UN News reported on 29 September, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August, with more than 180,000 people uprooted by the fighting. The same reporting documents a deepening health and child-welfare crisis: an estimated 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases and dengue linked to 37 deaths, alongside UNICEF-verified killing of at least 15 children and injury of 14 since 3 September, with more than a quarter of nearly 2,900 screened children found acutely malnourished. Only about 60 percent of health facilities remain fully functional, with nine damaged, out of service or directly attacked near Taiz, Lahj and Hudaydah, and humanitarian access along the west coast remains severely constrained.",
+      "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened to include Houthi attacks on Saudi Arabia and a sharply worsening casualty and displacement toll. UN News reported on 7 October, citing Yemeni health authorities, that renewed clashes in southwest Yemen had left 959 dead and 4,207 injured across 10 governorates as of 2 October; IOM put displacement at more than 200,000 people, nearly 3,800 of whom fled to Djibouti, while WHO said nearly 198,000 had been uprooted and under one percent had received health services. WHO's immediate funding requirement has risen from $9 million to $31 million, plus a further $700,000 for Djibouti refugees. The same reporting documents a deepening health and child-welfare crisis: an estimated 7,800 suspected cholera cases, over 22,000 measles cases and dengue linked to 37 deaths, alongside UNICEF-verified killing of 15 children since 3 September. Only about 60 percent of health facilities remain fully functional, and humanitarian access along the west coast remains severely constrained.",
       "event": {
         "impact": {
-          "deaths": 830,
-          "displaced": 180000,
-          "summary": "UN News reported on 29 September 2026, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August 2026, rising by roughly 100 per day; more than 180,000 people have now been uprooted. The same reporting documents a deepening health crisis -- about 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases, and dengue linked to 37 deaths -- plus a child-welfare crisis: UNICEF verified at least 15 children killed and 14 injured since 3 September among roughly 71,000 displaced children, with over a quarter of nearly 2,900 screened found acutely malnourished. DFA (Houthi) forces control the entire west coast except Midi district. UNHCR separately counted about 142,000 people newly displaced across seven governorates between 1 August and 27 September (External Update #2, published 1 October), mostly in Taiz, Lahj and Aden; its 2026 funding appeal remains only 18% funded. The UN Security Council condemned Houthi attacks on Saudi Arabia on 18 September, demanding an immediate end to the escalation."
+          "deaths": 959,
+          "displaced": 200000,
+          "summary": "UN News reported on 7 October 2026, citing Yemeni health authorities, that renewed clashes in southwest Yemen had left 959 people dead and 4,207 injured across 10 governorates as of 2 October -- up from 830 deaths and 4,481 total casualties as of 29 September. The International Organization for Migration put displacement inside Yemen at more than 200,000 people, with close to 3,800 having crossed to Djibouti; WHO separately counted nearly 198,000 people uprooted, of whom less than one percent had received health services as of the previous week. WHO's immediate funding requirement has risen from $9 million to $31 million, with a further $700,000 needed for Djibouti refugees. The same reporting documents a deepening health crisis -- about 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases, and dengue linked to 37 deaths -- plus a child-welfare crisis: UNICEF verified at least 15 children killed and 14 injured since 3 September. DFA (Houthi) forces control the entire west coast except Midi district. The UN Security Council condemned Houthi attacks on Saudi Arabia on 18 September, demanding an immediate end to the escalation."
         },
         "live_source_url": "https://news.un.org/en/focus/yemen",
         "location": {
@@ -10639,11 +10723,11 @@
           "region": "Ta'izz Governorate (Mocha, Al-Mokha) and Yemen's West Coast; attacks also in the Bab el-Mandeb Strait and against Saudi Arabia"
         },
         "occurrence_date": "2026-08-07",
-        "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have extended attacks to Saudi Arabia, condemned by the UN Security Council on 18 September; WHO reports 830 deaths and 4,481 total casualties since 6 August 2026",
+        "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have extended attacks to Saudi Arabia; UN News reports 959 deaths and 4,207 injuries across 10 governorates and 200,000+ displaced as of early October 2026",
         "status": "ongoing"
       },
       "id": "yemen-conflict-escalation-2026",
-      "last_updated": "2026-10-08T09:23:42Z",
+      "last_updated": "2026-10-09T09:24:24Z",
       "name": "Yemen Conflict Escalation",
       "provenance": {
         "history": [
@@ -10651,10 +10735,15 @@
             "at": "2026-10-08T09:23:42Z",
             "layer": "verify",
             "run_id": "2026-10-08T09-23-42Z-2d17a5"
+          },
+          {
+            "at": "2026-10-09T09:24:24Z",
+            "layer": "verify",
+            "run_id": "2026-10-09T09-24-24Z-283557"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-08T09-23-42Z-2d17a5"
+        "last_run_id": "2026-10-09T09-24-24Z-283557"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -10666,6 +10755,10 @@
         {
           "date": "2026-10-08",
           "text": "UNHCR's Yemen Situation External Update #2 recorded a separate, more precise displacement count: about 142,000 people newly displaced across seven governorates between 1 August and 27 September, mostly sheltering in Taiz, Lahj and Aden; its 2026 funding appeal remains only 18% funded."
+        },
+        {
+          "date": "2026-10-07",
+          "text": "UN News reported that Yemeni health authorities' toll rose to 959 deaths and 4,207 injuries across 10 governorates as of 2 October; IOM put displacement above 200,000 (close to 3,800 in Djibouti) and WHO counted nearly 198,000 uprooted, with less than 1% having received health services. WHO's funding requirement rose from $9 million to $31 million, plus $700,000 more for Djibouti refugees."
         },
         {
           "date": "2026-09-30",
@@ -10710,7 +10803,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }

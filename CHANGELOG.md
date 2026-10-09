@@ -2,6 +2,12 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-10-09 — World Pulse daily refresh (2026-10-09), part 2: add Somalia Baidoa clashes and NY measles emergency; Tokachidake seismicity update; re-verify 6 ongoing events unchanged (`ebc55fc`)
+
+- **Added:** somalia-baidoa-clashes-displacement-2026, usa-new-york-measles-outbreak-2026
+- **Updated:** china-floods-yangtze-typhoon-dolphin-2026, drc-north-kivu-ituri-displacement-2026, el-obeid-siege-sudan-2026, indonesia-volcano-krakatau-2026, indonesia-wildfires-haze-2026, japan-typhoon-dujuan-2026, japan-volcano-tokachidake-2026, sudan-cholera-outbreak-2026
+- **Newly allowlisted domains:** governor.ny.gov
+
 ## 2026-10-09 — World Pulse daily refresh (2026-10-09), part 1: Washington wildfires federal aid update; re-verify Colombia earthquake, BC/Big Sur wildfires, Ebola DRC, Sudan displacement unchanged (`a546f9a`)
 
 - **Updated:** canada-british-columbia-wildfires-2026, colombia-earthquake-choco-2026, ebola-bundibugyo-drc-2026, sudan-displacement-crisis, usa-california-big-sur-wildfires-2026, usa-washington-wildfires-2026

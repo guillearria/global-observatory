@@ -74,6 +74,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-18",
+      "retrieved_date": "2026-10-09",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168541",
+      "text": "UN News (7 October 2026), 'Critical funding gap threatens health response in Yemen': citing Yemeni health authorities, 'as of 2 October, there were 959 reported deaths and 4,207 injuries across 10 governorates'; the International Organization for Migration reports 'more than 200,000 people have been displaced,' with 'close to 3,800' having fled to Djibouti across the Red Sea; the World Health Organization said that 'of the nearly 198,000 people who have been uprooted,' less than one percent had received health services as of the previous week, and that its immediate funding requirement has increased from $9 million to $31 million, with an additional $700,000 needed to support refugees in Djibouti.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-28",
       "source_name": "United Nations",
@@ -138,12 +146,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened to include Houthi attacks on Saudi Arabia. The UN Security Council condemned those attacks on 18 September and demanded an immediate end to the escalation. UN News reported on 29 September, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August, with more than 180,000 people uprooted by the fighting. The same reporting documents a deepening health and child-welfare crisis: an estimated 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases and dengue linked to 37 deaths, alongside UNICEF-verified killing of at least 15 children and injury of 14 since 3 September, with more than a quarter of nearly 2,900 screened children found acutely malnourished. Only about 60 percent of health facilities remain fully functional, with nine damaged, out of service or directly attacked near Taiz, Lahj and Hudaydah, and humanitarian access along the west coast remains severely constrained.",
+  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened to include Houthi attacks on Saudi Arabia and a sharply worsening casualty and displacement toll. UN News reported on 7 October, citing Yemeni health authorities, that renewed clashes in southwest Yemen had left 959 dead and 4,207 injured across 10 governorates as of 2 October; IOM put displacement at more than 200,000 people, nearly 3,800 of whom fled to Djibouti, while WHO said nearly 198,000 had been uprooted and under one percent had received health services. WHO's immediate funding requirement has risen from $9 million to $31 million, plus a further $700,000 for Djibouti refugees. The same reporting documents a deepening health and child-welfare crisis: an estimated 7,800 suspected cholera cases, over 22,000 measles cases and dengue linked to 37 deaths, alongside UNICEF-verified killing of 15 children since 3 September. Only about 60 percent of health facilities remain fully functional, and humanitarian access along the west coast remains severely constrained.",
   "event": {
     "impact": {
-      "deaths": 830,
-      "displaced": 180000,
-      "summary": "UN News reported on 29 September 2026, citing WHO and Aden health authorities, that renewed clashes in southwest Yemen have left more than 4,481 casualties, including 830 deaths, since 6 August 2026, rising by roughly 100 per day; more than 180,000 people have now been uprooted. The same reporting documents a deepening health crisis -- about 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases, and dengue linked to 37 deaths -- plus a child-welfare crisis: UNICEF verified at least 15 children killed and 14 injured since 3 September among roughly 71,000 displaced children, with over a quarter of nearly 2,900 screened found acutely malnourished. DFA (Houthi) forces control the entire west coast except Midi district. UNHCR separately counted about 142,000 people newly displaced across seven governorates between 1 August and 27 September (External Update #2, published 1 October), mostly in Taiz, Lahj and Aden; its 2026 funding appeal remains only 18% funded. The UN Security Council condemned Houthi attacks on Saudi Arabia on 18 September, demanding an immediate end to the escalation."
+      "deaths": 959,
+      "displaced": 200000,
+      "summary": "UN News reported on 7 October 2026, citing Yemeni health authorities, that renewed clashes in southwest Yemen had left 959 people dead and 4,207 injured across 10 governorates as of 2 October -- up from 830 deaths and 4,481 total casualties as of 29 September. The International Organization for Migration put displacement inside Yemen at more than 200,000 people, with close to 3,800 having crossed to Djibouti; WHO separately counted nearly 198,000 people uprooted, of whom less than one percent had received health services as of the previous week. WHO's immediate funding requirement has risen from $9 million to $31 million, with a further $700,000 needed for Djibouti refugees. The same reporting documents a deepening health crisis -- about 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases, and dengue linked to 37 deaths -- plus a child-welfare crisis: UNICEF verified at least 15 children killed and 14 injured since 3 September. DFA (Houthi) forces control the entire west coast except Midi district. The UN Security Council condemned Houthi attacks on Saudi Arabia on 18 September, demanding an immediate end to the escalation."
     },
     "live_source_url": "https://news.un.org/en/focus/yemen",
     "location": {
@@ -153,11 +161,11 @@
       "region": "Ta'izz Governorate (Mocha, Al-Mokha) and Yemen's West Coast; attacks also in the Bab el-Mandeb Strait and against Saudi Arabia"
     },
     "occurrence_date": "2026-08-07",
-    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have extended attacks to Saudi Arabia, condemned by the UN Security Council on 18 September; WHO reports 830 deaths and 4,481 total casualties since 6 August 2026",
+    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have extended attacks to Saudi Arabia; UN News reports 959 deaths and 4,207 injuries across 10 governorates and 200,000+ displaced as of early October 2026",
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-10-08T09:23:42Z",
+  "last_updated": "2026-10-09T09:24:24Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
@@ -165,10 +173,15 @@
         "at": "2026-10-08T09:23:42Z",
         "layer": "verify",
         "run_id": "2026-10-08T09-23-42Z-2d17a5"
+      },
+      {
+        "at": "2026-10-09T09:24:24Z",
+        "layer": "verify",
+        "run_id": "2026-10-09T09-24-24Z-283557"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-08T09-23-42Z-2d17a5"
+    "last_run_id": "2026-10-09T09-24-24Z-283557"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -180,6 +193,10 @@
     {
       "date": "2026-10-08",
       "text": "UNHCR's Yemen Situation External Update #2 recorded a separate, more precise displacement count: about 142,000 people newly displaced across seven governorates between 1 August and 27 September, mostly sheltering in Taiz, Lahj and Aden; its 2026 funding appeal remains only 18% funded."
+    },
+    {
+      "date": "2026-10-07",
+      "text": "UN News reported that Yemeni health authorities' toll rose to 959 deaths and 4,207 injuries across 10 governorates as of 2 October; IOM put displacement above 200,000 (close to 3,800 in Djibouti) and WHO counted nearly 198,000 uprooted, with less than 1% having received health services. WHO's funding requirement rose from $9 million to $31 million, plus $700,000 more for Djibouti refugees."
     },
     {
       "date": "2026-09-30",
@@ -224,7 +241,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -130,6 +130,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-26",
+      "retrieved_date": "2026-10-09",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/audio/2026/10/1168510",
+      "text": "UN News Today audio bulletin (2 October 2026), relaying UN High Commissioner for Human Rights Volker Turk's statement: at least 5,700 people have been confirmed killed or injured by gangs, or during operations against them, in Haiti since 1 January 2026; gang members have kidnapped more than 230 people, and at least 1,000 women and girls have been raped -- a toll Turk said is likely much higher in reality.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-11",
       "source_name": "United Nations",
@@ -162,12 +170,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement now spreading beyond Port-au-Prince into previously safer areas. IOM's Displacement Tracking Matrix Round 14 report (data through 12 August 2026) puts the national total at nearly 1.5 million IDPs, with Artibonite department recording the largest three-month increase (+16%) as insecurity spreads there. A 28 September gang attack in Gros-Morne, Artibonite, that the Secretary-General said reportedly killed at least 11 people also displaced approximately 8,486 people (IOM Emergency Tracking Tool 110.1, 7 October, revised up from 5,254). Briefing the UN Security Council on 28 August, BINUH head Carlos Ruiz Massieu reported at least 1,408 killed and 656 injured from April-June, and OCHA cited 5,500+ gender-based violence incidents this year. The 23-24 August attack on Kenscoff killed at least 47, including 22 reportedly executed inside a church. On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027. About 6.4 million people need humanitarian assistance this year.",
+  "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement now spreading beyond Port-au-Prince into previously safer areas. UN High Commissioner for Human Rights Volker Turk told the Human Rights Council on 2 October that at least 5,700 people have been killed or injured by gangs or in operations against them since 1 January, alongside more than 230 kidnappings and at least 1,000 women and girls raped -- a toll he said is likely an undercount. IOM's Displacement Tracking Matrix Round 14 report (data through 12 August 2026) puts the national displacement total at nearly 1.5 million IDPs, with Artibonite department recording the largest three-month increase (+16%) as insecurity spreads there. A 28 September gang attack in Gros-Morne, Artibonite, that the Secretary-General said reportedly killed at least 11 people also displaced approximately 8,486 people (IOM Emergency Tracking Tool 110.1, 7 October). On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027. About 6.4 million people need humanitarian assistance this year.",
   "event": {
     "impact": {
       "deaths": 3000,
       "displaced": 1490000,
-      "summary": "IOM's Displacement Tracking Matrix Round 14 report (covering 15 May-12 August 2026) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite department recording the largest increase of any department (+16%) as the security situation there deteriorates further. A 28 September 2026 gang attack in Gros-Morne, Artibonite -- which the Secretary-General said reportedly killed at least 11 people -- displaced approximately 8,486 people (2,011 households) per IOM's revised Emergency Tracking Tool (ETT 110.1, published 7 October, up from 5,254 in ETT 110), with 99% taking refuge with host families. Briefing the UN Security Council on 28 August 2026, Argentina's representative cited more than 3,000 deaths nationwide in Haiti so far in 2026, while BINUH head Carlos Ruiz Massieu put the April-June quarterly toll at more than 1,400 killed and more than 600 injured. The 23-24 August gang attack on Kenscoff killed at least 47 people and displaced more than 2,600. On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027 (12 votes in favour, 3 abstentions)."
+      "summary": "IOM's Displacement Tracking Matrix Round 14 report (covering 15 May-12 August 2026) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite department recording the largest increase of any department (+16%) as the security situation there deteriorates further. UN High Commissioner for Human Rights Volker Turk told the Human Rights Council on 2 October 2026 that at least 5,700 people have been killed or injured by gangs or in operations against them since 1 January, with more than 230 kidnapped and at least 1,000 women and girls raped. A 28 September 2026 gang attack in Gros-Morne, Artibonite -- which the Secretary-General said reportedly killed at least 11 people -- displaced approximately 8,486 people (2,011 households) per IOM's revised Emergency Tracking Tool (ETT 110.1, published 7 October), with 99% taking refuge with host families. Argentina's UN Security Council statement of 28 August put nationwide deaths at more than 3,000 so far in 2026. On 29 September the Security Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027 (12 votes in favour, 3 abstentions)."
     },
     "live_source_url": "https://dtm.iom.int/haiti",
     "location": {
@@ -181,7 +189,7 @@
     "status": "ongoing"
   },
   "id": "haiti-gang-violence-displacement-2026",
-  "last_updated": "2026-10-08T09:23:42Z",
+  "last_updated": "2026-10-09T09:24:22Z",
   "name": "Gang Violence Displacement Crisis — Haiti",
   "provenance": {
     "history": [
@@ -189,10 +197,15 @@
         "at": "2026-10-08T09:23:42Z",
         "layer": "verify",
         "run_id": "2026-10-08T09-23-42Z-bd0768"
+      },
+      {
+        "at": "2026-10-09T09:24:22Z",
+        "layer": "verify",
+        "run_id": "2026-10-09T09-24-22Z-c25029"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-08T09-23-42Z-bd0768"
+    "last_run_id": "2026-10-09T09-24-22Z-c25029"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -204,6 +217,10 @@
     {
       "date": "2026-10-08",
       "text": "IOM's Emergency Tracking Tool 110.1 (published 7 October) revised the Gros-Morne displacement toll upward to approximately 8,486 people (2,011 households), up from the ETT 110 figure of 5,254; 99% are sheltering with host families."
+    },
+    {
+      "date": "2026-10-02",
+      "text": "UN High Commissioner for Human Rights Volker Turk told the Human Rights Council that at least 5,700 people have been killed or injured by gangs, or during operations against them, in Haiti since 1 January 2026, with more than 230 people kidnapped and at least 1,000 women and girls raped -- a toll he said is likely an undercount."
     },
     {
       "date": "2026-10-01",
@@ -248,7 +265,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
