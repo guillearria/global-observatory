@@ -16,14 +16,22 @@
       "source_url": "https://www.data.jma.go.jp/vois/data/report/activity_info/108.html",
       "text": "JMA's live volcanic activity status page for Tokachidake, checked 2 October 2026 (status dated from the 12 September 2026 09:30 JST bulletin with subsequent updates): Alert Level 3 (crater-vicinity warning/entry restriction) remains in effect; volcanic earthquakes have increased, with large-amplitude volcanic earthquakes occurring multiple times, indicating heightened volcanic activity; entry restrictions are in place in five municipalities in Hokkaido; people are warned to stay alert for large ejected rocks within approximately 3 km of the crater; ground deformation has continued since March and volcanic gas emissions have increased since April, meaning an eruption remains possible.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-10-09",
+      "source_name": "Japan Meteorological Agency (JMA)",
+      "source_url": "https://www.data.jma.go.jp/vois/data/report/activity_info/108.html",
+      "text": "JMA's volcanic status bulletin for Tokachidake issued 9 October 2026, 16:00 JST: the crater-area warning remains at Alert Level 3 (entry restriction). No large-amplitude volcanic earthquakes (maximum amplitude 2 micrometers or more at the Iwosawa observation point) have occurred since 13 September, after a brief tremor-driven increase on 7 September; seismicity has since returned to a low level. A field observation on 8 October measured sulfur dioxide emissions at about 900 tons per day. Ground deformation indicating inflation at a somewhat deeper level near the volcano body has continued since March, and gas emissions have remained elevated since April.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Japan's Meteorological Agency raised the volcanic alert level for Mount Tokachidake in Hokkaido from Level 2 to Level 3 (entry restriction) at 09:30 JST on 12 September 2026. The escalation followed a rise in large-amplitude volcanic earthquakes centered near the mountain since 17 August 2026. As of JMA's live activity status checked 2 October 2026, Level 3 remains in effect, with entry restrictions covering five Hokkaido municipalities around the crater and ongoing ground deformation (since March) and elevated volcanic gas emissions (since April) pointing to continued eruption potential within about 3 km of the crater.",
+  "description": "Japan's Meteorological Agency raised the volcanic alert level for Mount Tokachidake in Hokkaido from Level 2 to Level 3 (entry restriction) at 09:30 JST on 12 September 2026, after a rise in large-amplitude volcanic earthquakes centered near the mountain since 17 August 2026. Level 3 remains in effect, with entry restrictions covering five Hokkaido municipalities around the crater. JMA's 9 October bulletin reports that large-amplitude volcanic earthquakes have not recurred since 13 September, though ground deformation (since March) and elevated volcanic gas emissions -- measured at about 900 tons of sulfur dioxide per day on 8 October -- continue, keeping the risk of further activity within about 3 km of the crater.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "No casualties have been reported. JMA's live volcanic activity status (checked 2 October 2026) confirms Alert Level 3 remains current, with mountain-entry restrictions in place across five municipalities around Tokachidake, continuing ground deformation since March, increased volcanic gas (SO2) emissions since April, and the risk of large ejected rocks within roughly 3 km of the crater."
+      "summary": "No casualties have been reported. JMA's 9 October 2026 bulletin keeps Alert Level 3 in effect, with mountain-entry restrictions across five municipalities around Tokachidake; large-amplitude volcanic earthquakes have not recurred since 13 September, following a brief tremor-driven increase on 7 September, while ground deformation (since March) and sulfur dioxide emissions -- about 900 tons per day as measured on 8 October -- remain elevated, continuing the risk of large ejected rocks within roughly 3 km of the crater."
     },
     "live_source_url": "https://www.data.jma.go.jp/vois/data/report/activity_info/108.html",
     "location": {
@@ -37,18 +45,18 @@
     "status": "ongoing"
   },
   "id": "japan-volcano-tokachidake-2026",
-  "last_updated": "2026-10-08T09:25:11Z",
+  "last_updated": "2026-10-09T09:21:49Z",
   "name": "Volcanic Unrest — Mount Tokachidake, Japan",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-08T09:25:11Z",
+        "at": "2026-10-09T09:21:49Z",
         "layer": "verify",
-        "run_id": "2026-10-08T09-25-11Z-ace85d"
+        "run_id": "2026-10-09T09-21-49Z-d89560"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-08T09-25-11Z-ace85d"
+    "last_run_id": "2026-10-09T09-21-49Z-d89560"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -58,13 +66,17 @@
   },
   "updates": [
     {
+      "date": "2026-10-09",
+      "text": "JMA's 9 October bulletin held Tokachidake at Alert Level 3, reporting that large-amplitude volcanic earthquakes have not recurred since 13 September (after a brief tremor-driven increase on 7 September) while sulfur dioxide emissions measured about 900 tons per day on 8 October and ground deformation continued; the exclusion zone and alert level are unchanged."
+    },
+    {
       "date": "2026-09-12",
       "text": "JMA raised Tokachidake's volcanic alert level from 2 to 3 (entry restriction) at 09:30 JST, citing a rise in large-amplitude volcanic earthquakes near the mountain since 17 August."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

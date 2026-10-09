@@ -1,0 +1,65 @@
+{
+  "category": "conflict",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-09",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/documents/details/124034",
+      "text": "UNHCR Flash Alert #21 reports that clashes in Baidoa between 3 and 5 September 2026 displaced more than 14,000 people.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-09",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/documents/details/124371",
+      "text": "UNHCR Flash Alert #24 (published 6 October 2026) reports that renewed clashes in Baidoa, which began on 28 September 2026 and continued through 3 October 2026 between forces associated with the former Southwest State administration and the Somali National Army over control of the town, displaced more than 5,600 civilians and caused civilian casualties.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Repeated rounds of fighting for control of Baidoa, the South West State capital, between forces aligned with the Southwest State administration and the Somali National Army have displaced tens of thousands of civilians since late September 2026. UNHCR recorded more than 14,000 people displaced by clashes between 3 and 5 September, and a further 5,600-plus displaced by renewed fighting from 28 September to 3 October, on top of a city that already hosts more than half a million people previously displaced by conflict, drought and hunger elsewhere in Somalia. The fighting remains unresolved, with humanitarian partners responding across protection, shelter, food security, water and sanitation, and child-protection sectors.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": 19600,
+      "summary": "UNHCR has recorded at least 19,600 people newly displaced by two rounds of clashes in Baidoa: more than 14,000 displaced between 3 and 5 September 2026, and more than 5,600 more displaced by renewed fighting from 28 September to 3 October 2026 that also caused civilian casualties not yet quantified by UNHCR. Baidoa already hosts more than half a million people displaced by earlier conflict, drought and hunger, and the underlying dispute over control of the city remains unresolved."
+    },
+    "live_source_url": "https://reliefweb.int/country/som",
+    "location": {
+      "country": "Somalia",
+      "lat": 3.1136,
+      "lon": 43.6471,
+      "region": "Baidoa, South West State"
+    },
+    "occurrence_date": "2026-09-28",
+    "scale": "Intermittent urban clashes for control of a regional capital",
+    "status": "ongoing"
+  },
+  "id": "somalia-baidoa-clashes-displacement-2026",
+  "last_updated": "2026-10-09T09:21:43Z",
+  "name": "Baidoa Clashes & Displacement — South West State, Somalia",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-09T09:21:43Z",
+        "layer": "verify",
+        "run_id": "2026-10-09T09-21-43Z-6c4cd9"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-09T09-21-43Z-6c4cd9"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398872.0,
+    "impact_rank": 2,
+    "recency_rank": 739887
+  },
+  "updates": [],
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
