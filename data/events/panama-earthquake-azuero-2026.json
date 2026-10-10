@@ -1,0 +1,64 @@
+{
+  "category": "earthquake",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-10",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u18k.geojson",
+      "text": "USGS recorded a magnitude 7.7 (Mww) earthquake on 9 October 2026 at 17:56:06 UTC, located 12 km WSW of Pitaloza Arriba, Herrera Province, Panama (7.5868°N, -80.769°W) at a depth of 12.6 km. USGS's PAGER system assessed a Red alert, estimating about 4.6 million people exposed to Strong-to-Very-Strong (MMI V-VIII) shaking, with ground-failure alerts of Red for landslide and Orange for liquefaction.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-10",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
+      "text": "GDACS's earthquake report (event id 1570339, episode 1738684, GLIDE EQ-2026-000188-PAN) rates the event an Overall Orange alert for medium humanitarian impact, estimating about 590,000 people within zones of MMI VII or greater shaking, and recorded a tsunami with a maximum observed wave height of about 1.1 meters.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. USGS rated the quake's shaking impact a Red PAGER alert, while GDACS assessed an Overall Orange alert for the event; a tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled. No official casualty count has been published by an authoritative source as of 10 October 2026, with the national government still assessing damage to buildings, roads and infrastructure across the affected provinces.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "USGS's PAGER alert for the earthquake is Red, estimating about 4.6 million people exposed to Strong-to-Very-Strong (MMI V-VIII) shaking, with Red landslide and Orange liquefaction ground-failure alerts. GDACS rates the event an Overall Orange alert (GLIDE EQ-2026-000188-PAN), estimating about 590,000 people within zones of MMI VII or greater shaking and recording a tsunami with a maximum observed wave height of about 1.1 meters; the associated tsunami warning for Panama, Colombia, Ecuador, Nicaragua and Guatemala was later cancelled. No authoritative source has yet published a confirmed death or injury toll."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
+    "location": {
+      "country": "Panama",
+      "lat": 7.5868,
+      "lon": -80.769,
+      "region": "Herrera Province, Azuero Peninsula; strong shaking also felt in Coclé, Los Santos, Panamá Oeste and Veraguas"
+    },
+    "occurrence_date": "2026-10-09",
+    "scale": "M7.7; PAGER Red; GDACS Orange",
+    "status": "ongoing"
+  },
+  "id": "panama-earthquake-azuero-2026",
+  "last_updated": "2026-10-10T09:16:57Z",
+  "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-10T09:16:57Z",
+        "layer": "verify",
+        "run_id": "2026-10-10T09-16-57Z-9ca342"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-10T09-16-57Z-9ca342"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398981.0,
+    "impact_rank": 1,
+    "recency_rank": 739898
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

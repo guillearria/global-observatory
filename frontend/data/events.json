@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09T09:24:29Z",
+  "last_updated": "2026-10-10T09:20:57Z",
   "published": [
     {
       "category": "flood",
@@ -710,7 +710,7 @@
         },
         {
           "id": "claim-34",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-10",
           "source_name": "Government of British Columbia",
           "source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
           "text": "EmergencyInfoBC's wildfire hazard page (checked 8 October 2026) lists 5 active local evacuation notices, down from 7 on 2 October 2026: Okanagan Indian Band, District of Summerland, Regional District of Okanagan-Similkameen, Boothroyd Indian Band and Shxw'ow'hamel First Nation remain listed.",
@@ -784,23 +784,18 @@
         "status": "ongoing"
       },
       "id": "canada-british-columbia-wildfires-2026",
-      "last_updated": "2026-10-09T09:19:02Z",
+      "last_updated": "2026-10-10T09:20:57Z",
       "name": "Wildfire State of Emergency — British Columbia, Canada",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-08T09:19:55Z",
+            "at": "2026-10-10T09:20:57Z",
             "layer": "verify",
-            "run_id": "2026-10-08T09-19-55Z-be3f9f"
-          },
-          {
-            "at": "2026-10-09T09:19:02Z",
-            "layer": "verify",
-            "run_id": "2026-10-09T09-19-02Z-26bf1a"
+            "run_id": "2026-10-10T09-20-57Z-4f5725"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-09T09-19-02Z-26bf1a"
+        "last_run_id": "2026-10-10T09-20-57Z-4f5725"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2066,6 +2061,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-kenya-1",
+          "retrieved_date": "2026-10-10",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview reports that on 6 October 2026, Kenya's Ministry of Health confirmed the country's first imported Bundibugyo virus disease case: a Kenyan citizen who had lived in DRC, travelled through Uganda, arrived in Nairobi on 3 October, and died in hospital; 28 contacts were placed under quarantine and under enhanced surveillance.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-ecdc-oct2",
           "retrieved_date": "2026-10-06",
           "source_name": "ECDC",
@@ -2075,7 +2078,7 @@
         },
         {
           "id": "claim-new-ecdc-oct7",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-10",
           "source_name": "ECDC",
           "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
           "text": "ECDC's country overview (data through 6 October 2026): 'On 7 October 2026, the Democratic Republic of the Congo (DRC) reported a total of 8 728 confirmed cases, including 4 205 related deaths (from data up until 6 October).' A total of 1,066 patients are hospitalised in isolation and 2,269 have recovered. Provincial breakdown: Ituri 6,513 cases/3,007 deaths (28 of 36 health zones), North Kivu 1,785 cases/1,021 deaths (17 of 34 health zones), Haut-Uele 364 cases/153 deaths (7 of 13 health zones), Tshopo 51 cases/18 deaths (7 of 23 health zones), Bas-Uele 10 cases/4 deaths (3 of 11 health zones), South Kivu 3 cases/1 death (1 of 34 health zones) and Sud-Ubangi 2 cases/1 death (1 of 16 health zones), with 64 of 167 health zones affected across seven provinces. Uganda's linked outbreak remains closed (20 confirmed cases, two deaths; declared over by WHO on 26 August 2026).",
@@ -2218,42 +2221,37 @@
           "verification_status": "verified"
         }
       ],
-      "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 6 October 2026) puts the DRC toll at 8,728 confirmed cases and 4,205 deaths, spanning 64 of 167 health zones across seven provinces -- now the country's largest recorded Ebola epidemic. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
+      "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 6 October 2026) puts the DRC toll at 8,728 confirmed cases and 4,205 deaths, spanning 64 of 167 health zones across seven provinces -- now the country's largest recorded Ebola epidemic. On 6 October, Kenya confirmed its first imported case, a traveller from DRC via Uganda who died in Nairobi; 28 contacts were quarantined. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway though its efficacy against this strain remains unestablished.",
       "event": {
         "impact": {
           "deaths": 4205,
           "displaced": null,
-          "summary": "ECDC's newest country overview (data through 6 October 2026) puts the DRC toll at 8,728 confirmed cases and 4,205 deaths, up from 8,603 cases and 4,148 deaths at the 4 October data cut. The outbreak spans 64 of 167 health zones across seven provinces, with Ituri province reporting the bulk of cases and North Kivu the second most affected. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are now in clinical trials, including a 20,000-dose Ervebo Phase 3 trial whose efficacy against the Bundibugyo strain remains unestablished. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest country overview (data through 6 October 2026) holds the DRC toll at 8,728 confirmed cases and 4,205 deaths, unchanged from the prior data cut. The outbreak spans 64 of 167 health zones across seven provinces, with Ituri province reporting the bulk of cases and North Kivu the second most affected. On 6 October, Kenya confirmed its first imported case -- a Kenyan citizen who had lived in DRC and died in a Nairobi hospital after travelling through Uganda -- with 28 contacts quarantined; WHO is supporting Kenya's response and has advised against travel or trade restrictions on Kenya, Uganda or the DRC. The government-led response plan for the next six months requires US$1.3 billion, and three vaccines and three therapeutics are in clinical trials. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
           "country": "Democratic Republic of the Congo",
           "lat": 1.95,
           "lon": 30.04,
-          "region": "Ituri Province (Mongbwalu), DRC, with cases in Uganda and imported cases in France and Germany"
+          "region": "Ituri Province (Mongbwalu), DRC, with cases in Uganda and imported cases in France, Germany and Kenya"
         },
         "occurrence_date": "2026-05-15",
         "scale": "PHEIC",
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-10-09T09:20:14Z",
+      "last_updated": "2026-10-10T09:18:40Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-08T09:24:26Z",
+            "at": "2026-10-10T09:18:40Z",
             "layer": "verify",
-            "run_id": "2026-10-08T09-24-26Z-c4f5a6"
-          },
-          {
-            "at": "2026-10-09T09:20:14Z",
-            "layer": "verify",
-            "run_id": "2026-10-09T09-20-14Z-f2aedb"
+            "run_id": "2026-10-10T09-18-40Z-dd35c4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-09T09-20-14Z-f2aedb"
+        "last_run_id": "2026-10-10T09-18-40Z-dd35c4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2269,6 +2267,10 @@
         {
           "date": "2026-10-08",
           "text": "ECDC's 4 October data cut put the DRC toll at 8,603 confirmed cases and 4,148 deaths (up from 8,442/4,080 on 2 October), with the outbreak spreading to a 64th health zone."
+        },
+        {
+          "date": "2026-10-06",
+          "text": "Kenya confirmed its first imported Bundibugyo virus disease case: a Kenyan citizen who had lived in DRC died in a Nairobi hospital after travelling through Uganda; 28 contacts were quarantined. WHO is supporting Kenya's response and advised against travel or trade restrictions on the three countries. DRC's toll held at 8,728 cases and 4,205 deaths (data through 6 October)."
         },
         {
           "date": "2026-10-06",
@@ -2373,7 +2375,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 60 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 61 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5964,7 +5966,7 @@
         },
         {
           "id": "claim-35",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-10",
           "source_name": "National Disaster Management Authority (Pakistan)",
           "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
           "text": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 29 September 2026 at 199 deaths (68 male, 40 female, 91 children) and 556 injuries (227 male, 145 female, 184 children), up from 198 deaths and 549 injuries three days earlier. Cumulative housing damage now stands at 1,839 houses affected (623 destroyed, 1,216 partially damaged), with 1,559 livestock lost and 10,684 persons rescued or evacuated across 1,192 rescue/evacuation operations; Khyber Pakhtunkhwa remains the most-affected province.",
@@ -5998,23 +6000,18 @@
         "status": "ongoing"
       },
       "id": "pakistan-floods-2026",
-      "last_updated": "2026-10-09T09:24:06Z",
+      "last_updated": "2026-10-10T09:20:57Z",
       "name": "Monsoon Floods — Pakistan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-07T09:17:40Z",
+            "at": "2026-10-10T09:20:57Z",
             "layer": "verify",
-            "run_id": "2026-10-07T09-17-40Z-322234"
-          },
-          {
-            "at": "2026-10-09T09:24:06Z",
-            "layer": "verify",
-            "run_id": "2026-10-09T09-24-06Z-0e9b37"
+            "run_id": "2026-10-10T09-20-57Z-0b5d73"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-09T09-24-06Z-0e9b37"
+        "last_run_id": "2026-10-10T09-20-57Z-0b5d73"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6127,6 +6124,70 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 27 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "earthquake",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-10-10",
+          "source_name": "USGS",
+          "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u18k.geojson",
+          "text": "USGS recorded a magnitude 7.7 (Mww) earthquake on 9 October 2026 at 17:56:06 UTC, located 12 km WSW of Pitaloza Arriba, Herrera Province, Panama (7.5868°N, -80.769°W) at a depth of 12.6 km. USGS's PAGER system assessed a Red alert, estimating about 4.6 million people exposed to Strong-to-Very-Strong (MMI V-VIII) shaking, with ground-failure alerts of Red for landslide and Orange for liquefaction.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-10-10",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
+          "text": "GDACS's earthquake report (event id 1570339, episode 1738684, GLIDE EQ-2026-000188-PAN) rates the event an Overall Orange alert for medium humanitarian impact, estimating about 590,000 people within zones of MMI VII or greater shaking, and recorded a tsunami with a maximum observed wave height of about 1.1 meters.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. USGS rated the quake's shaking impact a Red PAGER alert, while GDACS assessed an Overall Orange alert for the event; a tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled. No official casualty count has been published by an authoritative source as of 10 October 2026, with the national government still assessing damage to buildings, roads and infrastructure across the affected provinces.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "USGS's PAGER alert for the earthquake is Red, estimating about 4.6 million people exposed to Strong-to-Very-Strong (MMI V-VIII) shaking, with Red landslide and Orange liquefaction ground-failure alerts. GDACS rates the event an Overall Orange alert (GLIDE EQ-2026-000188-PAN), estimating about 590,000 people within zones of MMI VII or greater shaking and recording a tsunami with a maximum observed wave height of about 1.1 meters; the associated tsunami warning for Panama, Colombia, Ecuador, Nicaragua and Guatemala was later cancelled. No authoritative source has yet published a confirmed death or injury toll."
+        },
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
+        "location": {
+          "country": "Panama",
+          "lat": 7.5868,
+          "lon": -80.769,
+          "region": "Herrera Province, Azuero Peninsula; strong shaking also felt in Coclé, Los Santos, Panamá Oeste and Veraguas"
+        },
+        "occurrence_date": "2026-10-09",
+        "scale": "M7.7; PAGER Red; GDACS Orange",
+        "status": "ongoing"
+      },
+      "id": "panama-earthquake-azuero-2026",
+      "last_updated": "2026-10-10T09:16:57Z",
+      "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-10-10T09:16:57Z",
+            "layer": "verify",
+            "run_id": "2026-10-10T09-16-57Z-9ca342"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-10-10T09-16-57Z-9ca342"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398981.0,
+        "impact_rank": 1,
+        "recency_rank": 739898
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -9389,10 +9450,10 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-10",
           "source_name": "CDC",
           "source_url": "https://www.cdc.gov/measles/data-research/index.html",
-          "text": "CDC's measles data page reports 3,887 confirmed measles cases in the United States in 2026 as of 1 October 2026 (3,869 reported by 47 jurisdictions plus 18 among international visitors), and a cumulative total of 2 US measles deaths.",
+          "text": "CDC's measles data page reports 4,080 confirmed measles cases in the United States in 2026 as of 8 October 2026, up from 3,887 as of 1 October, with a cumulative total of 2 US measles deaths.",
           "verification_status": "verified"
         }
       ],
@@ -9401,7 +9462,7 @@
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "As of 3 October 2026, New York State had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere in the state), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC reported 3,887 confirmed US measles cases and 2 deaths as of 1 October 2026. Governor Hochul's 5 October executive order declaring a state disaster emergency remains in effect through 4 November 2026."
+          "summary": "As of 3 October 2026, New York State had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere in the state), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC reported 4,080 confirmed US measles cases and 2 deaths as of 8 October 2026, up from 3,887 as of 1 October. Governor Hochul's 5 October executive order declaring a state disaster emergency remains in effect through 4 November 2026."
         },
         "live_source_url": "https://www.cdc.gov/measles/data-research/index.html",
         "location": {
@@ -9415,18 +9476,18 @@
         "status": "ongoing"
       },
       "id": "usa-new-york-measles-outbreak-2026",
-      "last_updated": "2026-10-09T09:21:45Z",
+      "last_updated": "2026-10-10T09:20:34Z",
       "name": "Measles State Disaster Emergency — New York, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-09T09:21:45Z",
+            "at": "2026-10-10T09:20:34Z",
             "layer": "verify",
-            "run_id": "2026-10-09T09-21-45Z-07a9a7"
+            "run_id": "2026-10-10T09-20-34Z-310951"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-09T09-21-45Z-07a9a7"
+        "last_run_id": "2026-10-10T09-20-34Z-310951"
       },
       "schema_version": "1.0",
       "sort_keys": {
