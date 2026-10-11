@@ -14,16 +14,24 @@
       "retrieved_date": "2026-10-10",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
-      "text": "GDACS's earthquake report (event id 1570339, episode 1738684, GLIDE EQ-2026-000188-PAN) rates the event an Overall Orange alert for medium humanitarian impact, estimating about 590,000 people within zones of MMI VII or greater shaking, and recorded a tsunami with a maximum observed wave height of about 1.1 meters.",
+      "text": "GDACS's earthquake report (event id 1570339, episode 1738684, GLIDE EQ-2026-000188-PAN) rates the event an Overall Orange alert for medium humanitarian impact, estimating about 540,000 people within zones of MMI VII or greater shaking, and recorded a tsunami with a maximum observed wave height of about 1.09 meters.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-10-11",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson",
+      "text": "USGS recorded an intense aftershock sequence following the M7.7 mainshock, including a magnitude 6.6 aftershock 14 km W of Río Grande at 20:25 UTC on 9 October and a magnitude 6.0 aftershock 7 km N of La Tronosa at 04:14 UTC on 10 October, plus dozens of additional magnitude 4.5-5.8 aftershocks clustered around Herrera and Los Santos provinces through 11 October.",
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. USGS rated the quake's shaking impact a Red PAGER alert, while GDACS assessed an Overall Orange alert for the event; a tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled. No official casualty count has been published by an authoritative source as of 10 October 2026, with the national government still assessing damage to buildings, roads and infrastructure across the affected provinces.",
+  "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. USGS rated the quake's shaking impact a Red PAGER alert, while GDACS assessed an Overall Orange alert for the event; a tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled. An intense aftershock sequence has followed, including magnitude 6.6 and 6.0 aftershocks, and no official casualty count has been published by an authoritative source as of 11 October 2026, with the national government still assessing damage to buildings, roads and infrastructure across the affected provinces.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "USGS's PAGER alert for the earthquake is Red, estimating about 4.6 million people exposed to Strong-to-Very-Strong (MMI V-VIII) shaking, with Red landslide and Orange liquefaction ground-failure alerts. GDACS rates the event an Overall Orange alert (GLIDE EQ-2026-000188-PAN), estimating about 590,000 people within zones of MMI VII or greater shaking and recording a tsunami with a maximum observed wave height of about 1.1 meters; the associated tsunami warning for Panama, Colombia, Ecuador, Nicaragua and Guatemala was later cancelled. No authoritative source has yet published a confirmed death or injury toll."
+      "summary": "USGS's PAGER alert for the earthquake is Red, estimating about 4.6 million people exposed to Strong-to-Very-Strong (MMI V-VIII) shaking, with Red landslide and Orange liquefaction ground-failure alerts. GDACS rates the event an Overall Orange alert (GLIDE EQ-2026-000188-PAN), estimating about 540,000 people within zones of MMI VII or greater shaking and recording a tsunami with a maximum observed wave height of about 1.09 meters; the associated tsunami warning for Panama, Colombia, Ecuador, Nicaragua and Guatemala was later cancelled. A vigorous aftershock sequence has followed the mainshock, including a magnitude 6.6 aftershock on 9 October and a magnitude 6.0 aftershock on 10 October, both centered near Río Grande/La Tronosa in Herrera Province. No authoritative source has yet published a confirmed death or injury toll."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
     "location": {
@@ -37,18 +45,18 @@
     "status": "ongoing"
   },
   "id": "panama-earthquake-azuero-2026",
-  "last_updated": "2026-10-10T09:16:57Z",
+  "last_updated": "2026-10-11T09:20:16Z",
   "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-10T09:16:57Z",
+        "at": "2026-10-11T09:20:16Z",
         "layer": "verify",
-        "run_id": "2026-10-10T09-16-57Z-9ca342"
+        "run_id": "2026-10-11T09-20-16Z-904b27"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-10T09-16-57Z-9ca342"
+    "last_run_id": "2026-10-11T09-20-16Z-904b27"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -56,9 +64,15 @@
     "impact_rank": 1,
     "recency_rank": 739898
   },
+  "updates": [
+    {
+      "date": "2026-10-11",
+      "text": "USGS recorded a vigorous aftershock sequence, including a magnitude 6.6 aftershock on 9 October and a magnitude 6.0 aftershock on 10 October near Río Grande/La Tronosa, Herrera Province, plus dozens of magnitude 4.5+ aftershocks; no casualty toll has yet been published."
+    }
+  ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
