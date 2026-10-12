@@ -6,8 +6,8 @@
       "window": "ongoing"
     },
     "severity": "continental",
-    "summary": "Over a hundred million people remain forcibly displaced worldwide — a standing stress on regional stability and the international protection system.",
-    "timeframe": "Ongoing at historic scale; direction depends on active conflicts, with returns in 2025 producing the first decline in ten years."
+    "summary": "Over a hundred million people remain forcibly displaced worldwide — a standing stress on regional stability and the international protection system. The population edged down for the first time in a decade in 2025 on the back of large-scale returns, but the response is contracting faster: UNHCR's funding fell by a quarter between 2024 and 2025 and it reached only a third of its 2026 appeal by July, putting nearly 8.3 million displaced and stateless people at risk of losing assistance.",
+    "timeframe": "Ongoing at historic scale; large-scale returns produced the first decline in ten years during 2025, while a 2026 funding shortfall is eroding the protection response faster than the displaced population is falling."
   },
   "category": "societal",
   "claims": [
@@ -21,7 +21,7 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-08-24",
+      "retrieved_date": "2026-10-12",
       "source_name": "United Nations",
       "source_url": "https://news.un.org/en/story/2026/06/1167693",
       "text": "Global refugee numbers fell by three per cent in 2025 to 41.6 million.",
@@ -29,7 +29,7 @@
     },
     {
       "id": "claim-3",
-      "retrieved_date": "2026-08-24",
+      "retrieved_date": "2026-10-12",
       "source_name": "United Nations",
       "source_url": "https://news.un.org/en/story/2026/06/1167693",
       "text": "14.7 million displaced people went back to their areas or countries of origin in 2025, including 4.4 million refugees and 10.3 million internally displaced people.",
@@ -37,32 +37,43 @@
     },
     {
       "id": "claim-4",
-      "retrieved_date": "2026-08-24",
+      "retrieved_date": "2026-10-12",
       "source_name": "United Nations",
       "source_url": "https://media.un.org/unifeed/en/asset/d358/d3585989",
       "text": "70 per cent of refugees are living in protracted, long-term displacement situations (UNHCR Global Trends briefing, June 2026).",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-10-12",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168486",
+      "text": "Nearly 8.3 million refugees and other forcibly displaced and stateless people could lose access to vital assistance, according to UNHCR's report Protection Eroded: The Human Cost of Underfunding, published on 29 September 2026.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-10-12",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168486",
+      "text": "UNHCR's available funding fell from $5.178 billion in 2024 to $3.932 billion in 2025, and by July 2026 the agency had received 32 per cent of the $8.5 billion it needed for the year; it cut its workforce by a third in 2025 and closed offices in 140 locations.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Displacement by persecution, conflict, violence, and human-rights violations at near-record scale. Sustained mass displacement strains host states and international institutions, and is both a symptom and an amplifier of instability; 2025 saw the first decline in a decade, driven by large-scale returns.",
+  "description": "Displacement by persecution, conflict, violence, and human-rights violations at near-record scale. 117.8 million people were forcibly displaced at the end of 2025 — roughly one in every 70 people — and 2025 brought the first decline in a decade, driven by 14.7 million returns, of which 4.4 million were refugees; even so, 70 percent of refugees remain in protracted situations. What is changing faster than the caseload is the capacity to respond. UNHCR's available funding fell from $5.178 billion in 2024 to $3.932 billion in 2025, and by July 2026 it had received 32 percent of the $8.5 billion it needed for the year; it cut its workforce by a third during 2025 and closed offices in 140 locations. Its September 2026 assessment puts nearly 8.3 million refugees and other forcibly displaced and stateless people at risk of losing access to vital assistance — a widening protection gap behind a slowly falling headline number.",
   "id": "global-forced-displacement",
-  "last_updated": "2026-08-26T03:49:44Z",
+  "last_updated": "2026-10-12T10:21:01Z",
   "name": "Global Forced Displacement Crisis",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-24T10:09:00Z",
+        "at": "2026-10-12T10:21:01Z",
         "layer": "verify",
-        "run_id": "2026-08-24T10-09-00Z-a92d0b"
-      },
-      {
-        "at": "2026-08-26T03:49:44Z",
-        "layer": "verify",
-        "run_id": "manual-verify-2026-08-26"
+        "run_id": "2026-10-12T10-21-01Z-8c6201"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "manual-verify-2026-08-26"
+    "last_run_id": "2026-10-12T10-21-01Z-8c6201"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -72,7 +83,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

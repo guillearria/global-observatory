@@ -6,14 +6,14 @@
       "window": "ongoing"
     },
     "severity": "continental",
-    "summary": "National cybersecurity commitments are improving but remain incomplete worldwide, and ransomware attacks on government services and breaches of core industries are already prominent documented threats — the tail risk is a cyberattack severe enough to disable critical infrastructure across multiple countries at once. NIST's June 2026 water-sector remote-access guidance reflects growing federal attention to operational-technology exposure in critical infrastructure.",
-    "timeframe": "Incident frequency and national preparedness are tracked annually; a severe multi-country outage could occur at any time given uneven critical-infrastructure protection."
+    "summary": "Recorded attacks fall overwhelmingly on the sectors governments designate as critical — 73 percent of organisations targeted across the EU in 2025 were essential or important entities under NIS2, public administration most of all. Volume is dominated by low-impact denial-of-service while ransomware does the most short-term damage; the tail risk is an attack severe enough to disable critical infrastructure across multiple countries at once, made more plausible by shared supply-chain and cloud dependencies.",
+    "timeframe": "Incident volume is tracked annually; a severe multi-country outage could occur at any time given uneven critical-infrastructure protection and shared supply-chain and cloud dependencies."
   },
   "category": "technological",
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-08-24",
+      "retrieved_date": "2026-10-12",
       "source_name": "ITU",
       "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2024-09-10-Global-Cybersecurity-Index.aspx",
       "text": "139 countries have active Computer Incident Response Teams, with various levels of sophistication, up from 109 in the 2021 index, and 132 countries have a National Cybersecurity Strategy as of 2024, up from 107 in 2021 (ITU Global Cybersecurity Index 2024).",
@@ -21,7 +21,7 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-08-24",
+      "retrieved_date": "2026-10-12",
       "source_name": "ITU",
       "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2024-09-10-Global-Cybersecurity-Index.aspx",
       "text": "Worrisome threats highlighted in the ITU Global Cybersecurity Index 2024 include ransomware attacks targeting government services and other sectors, cyber breaches affecting core industries, costly system outages, and breaches of privacy for individuals and organizations.",
@@ -29,7 +29,7 @@
     },
     {
       "id": "claim-3",
-      "retrieved_date": "2026-08-24",
+      "retrieved_date": "2026-10-12",
       "source_name": "NIST",
       "source_url": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
       "text": "NIST released version 2.0 of its Cybersecurity Framework on 26 February 2024; the framework was originally developed in 2014 to help protect critical infrastructure such as hospitals and power plants, and CSF 2.0 expands its scope to organizations in any sector.",
@@ -37,27 +37,43 @@
     },
     {
       "id": "claim-4",
-      "retrieved_date": "2026-08-24",
+      "retrieved_date": "2026-10-12",
       "source_name": "NIST",
       "source_url": "https://www.nist.gov/news-events/news/2026/06/nist-guidelines-secure-remote-access-water-and-wastewater-systems",
       "text": "NIST's National Cybersecurity Center of Excellence published Special Publication 1800-45, Cybersecurity for the Water and Wastewater Sector: Build Architecture, on 24 June 2026, demonstrating how water utilities of different sizes can securely enable remote access to operational technology as the sector adopts more internet-connected sensors, data collection, network devices, and analytic software.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-10-12",
+      "source_name": "European Union",
+      "source_url": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
+      "text": "ENISA's Threat Landscape 2026, published on 22 September 2026 and covering incidents observed from 1 January to 31 December 2025, found that 73 percent of the targeted organisations are essential and important entities under the NIS2 Directive, with public administration the most targeted sector in 32 percent of cases.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-10-12",
+      "source_name": "European Union",
+      "source_url": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
+      "text": "In ENISA's Threat Landscape 2026, low-impact distributed denial-of-service attacks accounted for 51 percent of recorded cases, while ransomware remains the most short-term impactful type of incident; the report's central finding is that cyber dependencies — including supply chains, third-party providers and cloud services — expand the attack surface.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A cyberattack severe enough to disable power grids, financial systems, water utilities, or other critical infrastructure across a wide area. National cybersecurity commitments are rising, but incident-response and critical-infrastructure-protection frameworks remain unevenly adopted worldwide, leaving gaps a sufficiently capable attacker could exploit. NIST issued new practice guidance in June 2026 for securing remote access to water and wastewater operational technology, responding directly to the growing exposure created by internet-connected sensors and control systems in that sector.",
+  "description": "A cyberattack severe enough to disable power grids, financial systems, water utilities, or other critical infrastructure across a wide area. Attacks already concentrate on those sectors: ENISA found 73 percent of organisations targeted across the EU during 2025 were “essential” or “important” entities under the NIS2 Directive — the categories covering energy, water, transport, health and public administration — with public administration the most targeted sector at 32 percent of cases. Most of that volume was low-impact denial-of-service (51 percent of recorded cases), while ransomware remained the most short-term impactful incident type, and ENISA's central finding was that dependencies on supply chains, third-party providers and cloud services widen the attack surface beyond what any one defender controls. National protections are rising but uneven: 139 countries run active incident-response teams and 132 have a national cybersecurity strategy. NIST issued practice guidance in June 2026 for securing remote access to water and wastewater operational technology.",
   "id": "critical-infrastructure-cyberattack",
-  "last_updated": "2026-08-24T10:09:00Z",
+  "last_updated": "2026-10-12T10:21:01Z",
   "name": "Large-Scale Cyberattack on Critical Infrastructure",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-24T10:09:00Z",
+        "at": "2026-10-12T10:21:01Z",
         "layer": "verify",
-        "run_id": "2026-08-24T10-09-00Z-247122"
+        "run_id": "2026-10-12T10-21-01Z-0c482e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-24T10-09-00Z-247122"
+    "last_run_id": "2026-10-12T10-21-01Z-0c482e"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -67,7 +83,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
