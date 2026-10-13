@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T09:20:47Z",
+  "last_updated": "2026-10-13T09:23:42Z",
   "published": [
     {
       "category": "flood",
@@ -4270,6 +4270,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-17",
+          "retrieved_date": "2026-10-13",
+          "source_name": "UNHCR",
+          "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
+          "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 325,400 Lebanese refugees in the Syrian Arab Republic (Government of Syria data, 30 September 2026, up from 311,500) and 329,686 new IDPs within Lebanon (Government of Lebanon data, 30 September 2026, down from 341,228) -- a combined 1,283,086 people displaced or newly refugees across Iran and Lebanon when added to the unchanged 628,000 Iranian cross-border figure -- plus 1,015,400 Afghan returnee movements (IOM/UNHCR, 3 October 2026) and 1,081,500 Syrian returnee movements (Government of Syria/UNHCR, 30 September 2026), a combined 2,096,900, up from about 1.98 million.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-08-31",
           "source_name": "Encyclopaedia Britannica",
@@ -4334,12 +4342,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping over 90%, and hostilities persisted through September, including a US strike on Iran's Larak Island outpost. UNHCR records 628,000 Iranian nationals and 311,500 Lebanese refugees displaced across borders since the war began, plus almost 1.98 million Afghan and Syrian returnees. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, even as a third carrier and more troops remain deployed -- two days after families of US troops killed in the war's deadliest strike stayed away from a White House event, and a day after Houthi rebels claimed attacks on Saudi airports that killed three people. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar. The conflict remains unresolved.",
+      "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping over 90%, and hostilities persisted through September, including a US strike on Iran's Larak Island outpost. UNHCR records 628,000 Iranian nationals and 325,400 Lebanese refugees displaced across borders since the war began, plus almost 2.1 million Afghan and Syrian returnees. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, even as a third carrier and more troops remain deployed -- two days after families of US troops killed in the war's deadliest strike stayed away from a White House event, and a day after Houthi rebels claimed attacks on Saudi airports that killed three people. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar. The conflict remains unresolved.",
       "event": {
         "impact": {
           "deaths": null,
-          "displaced": 1280728,
-          "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; no single verified cumulative death toll for the war exists. UNHCR's Middle East portal (updated 12-22 September) records, since the war began: 628,000 Iranian nationals who crossed into neighbouring countries (530,000 since returned), 311,500 Lebanese refugees now in Syria and 341,228 new IDPs in Lebanon -- a combined 1,280,728 displaced or newly refugees across those two countries -- plus almost 1.98 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar, as sanctions and a naval oil blockade erode the economy. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, pausing the threatened escalation even as a third carrier and added troops remain in the region; this followed a 7 October Houthi-claimed attack on Saudi airports that killed three people."
+          "displaced": 1283086,
+          "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; no single verified cumulative death toll for the war exists. UNHCR's Middle East portal (updated 30 September-3 October) records, since the war began: 628,000 Iranian nationals who crossed into neighbouring countries (530,000 since returned), 325,400 Lebanese refugees now in Syria and 329,686 new IDPs in Lebanon -- a combined 1,283,086 displaced or newly refugees across those two countries -- plus almost 2.1 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar, as sanctions and a naval oil blockade erode the economy. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, pausing the threatened escalation even as a third carrier and added troops remain in the region; this followed a 7 October Houthi-claimed attack on Saudi airports that killed three people."
         },
         "live_source_url": "https://www.britannica.com/event/2026-Iran-war",
         "location": {
@@ -4353,23 +4361,18 @@
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-10-09T09:24:26Z",
+      "last_updated": "2026-10-13T09:23:42Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-08T09:21:36Z",
+            "at": "2026-10-13T09:23:42Z",
             "layer": "verify",
-            "run_id": "2026-10-08T09-21-36Z-6db1a4"
-          },
-          {
-            "at": "2026-10-09T09:24:26Z",
-            "layer": "verify",
-            "run_id": "2026-10-09T09-24-26Z-ce62c2"
+            "run_id": "2026-10-13T09-23-42Z-7826dc"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-09T09-24-26Z-ce62c2"
+        "last_run_id": "2026-10-13T09-23-42Z-7826dc"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4378,6 +4381,10 @@
         "recency_rank": 739845
       },
       "updates": [
+        {
+          "date": "2026-10-13",
+          "text": "UNHCR's Middle East portal now records Lebanese refugees in Syria risen to 325,400 (30 Sep, from 311,500) and Lebanon's new IDPs easing to 329,686 (30 Sep, from 341,228); combined Afghan/Syrian returnee movements rose to about 2.1 million (1,015,400 Afghan as of 3 Oct, 1,081,500 Syrian as of 30 Sep, from about 1.98 million). Tracked Iran/Lebanon displacement total: 1,283,086."
+        },
         {
           "date": "2026-10-08",
           "text": "Trump said the US will not resume military strikes on Iran before the 3 November midterm elections, even as the military buildup (third carrier, added troops) continues; the statement followed a 7 October Houthi-claimed attack on Saudi airports that killed 3 people, per Encyclopaedia Britannica's running AP-sourced account."
@@ -4421,7 +4428,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -9131,6 +9138,94 @@
           "text": "Nolo intensified to a Category 2 hurricane (105 mph) per NOAA Advisory 23, still forecast to reach major hurricane strength by Saturday and peak late Sunday; a Hurricane Watch is now in effect for Hawaii County."
         }
       ],
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "storm",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-10-13",
+          "source_name": "Office of the Governor of Florida",
+          "source_url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-issues-executive-order-preparation-tropical-depression-nine",
+          "text": "Florida Governor Ron DeSantis signed Executive Order 26-202 on 6 October 2026 in Tallahassee, declaring a state of emergency for 25 Florida counties (Baker, Bay, Calhoun, Columbia, Dixie, Escambia, Franklin, Gadsden, Gilchrist, Gulf, Hamilton, Holmes, Jackson, Jefferson, Lafayette, Leon, Liberty, Madison, Okaloosa, Santa Rosa, Suwannee, Taylor, Walton, Wakulla and Washington) ahead of Tropical Depression Nine, which strengthened into Hurricane Isaias, directing the Florida Division of Emergency Management to stage preparedness resources including generators, fuel, flood barriers and sandbags.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-10-13",
+          "source_name": "Office of the Governor of Alabama",
+          "source_url": "https://governor.alabama.gov/newsroom/2026/10/governor-ivey-urges-alabamians-to-prepare-for-hurricane-isaias-provides-update/",
+          "text": "Alabama Governor Kay Ivey declared a state of emergency for 40 Alabama counties effective 7 October 2026 at 4:00 PM Central time ahead of Hurricane Isaias, ordered state offices and buildings in Baldwin, Coffee, Covington, Dale, Escambia, Geneva, Henry, Houston and Mobile counties closed beginning 9 October at noon Central, and, at the request of local officials, ordered a mandatory evacuation of non-resident tourists and visitors from Baldwin County south of the Gulf Intracoastal Waterway (including Gulf Shores and Orange Beach) and from Dauphin Island in Mobile County.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-10-13",
+          "source_name": "State of Georgia",
+          "source_url": "https://gov.georgia.gov/node/23611",
+          "text": "Georgia Governor Brian Kemp issued an updated Executive Order on 8 October 2026 declaring a State of Emergency covering all 159 Georgia counties in preparation for Hurricane Isaias, letting emergency management teams position resources ahead of the storm's impact, with GEMA/HS activating the State Operations Center beginning the afternoon of 9 October.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-10-13",
+          "source_name": "NOAA",
+          "source_url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATASAT4+html/100554.shtml",
+          "text": "NOAA's National Hurricane Center Watch/Warning Advisory Number 15, issued 4:00 AM CDT (0900 UTC) on 10 October 2026, placed post-tropical cyclone Isaias near 32.0°N 86.5°W, about 25 miles south-southwest of Montgomery, Alabama, with maximum sustained winds of about 35 mph, moving north at about 14 mph and expected to weaken slowly and dissipate on 11 October; all storm surge and tropical storm warnings had been discontinued with no watches or warnings in effect.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-10-13",
+          "source_name": "NOAA",
+          "source_url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPAT4+html/090300.shtml",
+          "text": "NOAA's National Hurricane Center advisory issued 11:00 AM EDT (1500 UTC) on 11 October 2026 placed the remnant post-tropical system about 180 miles northeast of Nashville, Tennessee (37.5°N, 84.0°W), with maximum sustained winds of about 25 mph, and forecast it to dissipate over West Virginia that evening.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Hurricane Isaias, the Atlantic season's first hurricane, made landfall near Destin, Florida on 9 October 2026, prompting state-of-emergency declarations across Florida, Alabama and all of Georgia. The storm weakened rapidly after landfall, and the US National Hurricane Center classified it a dissipating post-tropical cyclone over the southern Appalachians by 11 October. Florida's and Alabama's declarations covered the Panhandle and southern Alabama, including a mandatory evacuation order for non-resident visitors in parts of Baldwin and Mobile counties, Alabama; Georgia's governor activated the state's Emergency Operations Center statewide as a precaution. No death or damage toll specific to any of the three states has been confirmed by an authoritative government source cited here, though media reporting attributes several storm-related deaths and widespread power outages to the storm.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "Florida Governor Ron DeSantis's Executive Order 26-202 (6 October 2026) and Alabama Governor Kay Ivey's proclamation (effective 7 October) declared states of emergency for 25 Florida and 40 Alabama counties respectively ahead of landfall, while Georgia Governor Brian Kemp's 8 October Executive Order declared a statewide state of emergency across all 159 counties and activated GEMA/HS's State Operations Center. Alabama's declaration included a mandatory evacuation order for non-resident visitors in parts of Baldwin County (south of the Gulf Intracoastal Waterway, including Gulf Shores and Orange Beach) and Dauphin Island, Mobile County, plus state-office closures in nine counties. NOAA's National Hurricane Center tracked the system weakening to a post-tropical cyclone by 10 October, moving inland through Alabama toward the southern Appalachians and forecast to dissipate; no state or federal agency cited here has published a confirmed death, injury or damage total for the storm."
+        },
+        "live_source_url": "https://www.nhc.noaa.gov/",
+        "location": {
+          "country": "United States",
+          "lat": 30.3935,
+          "lon": -86.4958,
+          "region": "Florida Panhandle (landfall near Destin), southern Alabama & Georgia"
+        },
+        "occurrence_date": "2026-10-09",
+        "scale": "Hurricane; landfall near Destin, FL; SOE: FL (25 counties), AL (40 counties), GA (159 counties)",
+        "status": "resolved"
+      },
+      "id": "usa-hurricane-isaias-2026",
+      "last_updated": "2026-10-13T09:22:55Z",
+      "name": "Hurricane Isaias — Florida, Alabama & Georgia, USA",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-10-13T09:22:55Z",
+            "layer": "verify",
+            "run_id": "2026-10-13T09-22-55Z-da5322"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-10-13T09-22-55Z-da5322"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7398981.0,
+        "impact_rank": 1,
+        "recency_rank": 739898
+      },
       "verification": {
         "confidence": "high",
         "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
