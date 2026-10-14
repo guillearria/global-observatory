@@ -66,6 +66,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-17",
+      "retrieved_date": "2026-10-14",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168500",
+      "text": "UN News, 'Nepal floods threaten jobs and livelihoods beyond disaster zone: ILO' (1 October 2026): an ILO preliminary assessment of the late-August Rasuwa/Bhote Koshi glacial-collapse floods, which killed more than 1,450 people, found about 21,400 employed people live within 4 km of the flood footprint, with workers in tourism, agriculture, transport and small businesses facing reduced earnings and disrupted markets; informal and self-employed workers face heightened risk, and the ILO warns severe income losses could push families toward child labour. The floods also disrupted the Nepal-China trade corridor, which handles about 22% of Nepal's imports from China, with damage to the Rasuwa route affecting nearly half of exports to China. No new death, missing or rescue figure was given.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-27",
       "source_name": "GDACS",
@@ -149,23 +157,18 @@
     "status": "ongoing"
   },
   "id": "nepal-rasuwa-glacial-flood-2026",
-  "last_updated": "2026-10-09T09:24:06Z",
+  "last_updated": "2026-10-14T09:18:16Z",
   "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-07T09:17:41Z",
+        "at": "2026-10-14T09:18:16Z",
         "layer": "verify",
-        "run_id": "2026-10-07T09-17-41Z-99f2b5"
-      },
-      {
-        "at": "2026-10-09T09:24:06Z",
-        "layer": "verify",
-        "run_id": "2026-10-09T09-24-06Z-5d5025"
+        "run_id": "2026-10-14T09-18-16Z-0c79d3"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-09T09-24-06Z-5d5025"
+    "last_run_id": "2026-10-14T09-18-16Z-0c79d3"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -174,6 +177,10 @@
     "recency_rank": 739854
   },
   "updates": [
+    {
+      "date": "2026-10-01",
+      "text": "The ILO's preliminary assessment found about 21,400 employed people live within 4 km of the flood footprint, with tourism, agriculture, transport and small-business workers facing reduced earnings; the floods also disrupted the Nepal-China trade corridor, cutting into about 22% of Nepal's China imports and nearly half of Rasuwa-route exports to China."
+    },
     {
       "date": "2026-10-01",
       "text": "UN OCHA's Rasuwa-Bhotekoshi Flood Situation Report No. 9 (as of 22 September) put the toll at 1,453 deaths and 5,644 missing, per NDRRMA, up from 1,385 deaths and about 5,130 missing per Nepal's Foreign Ministry on 11 September; 13,795 rescued and 1,112 remain in 21 displacement centres. The UN's $49.6 million flash appeal was about 44% funded (US$22.0 million) as of 23 September."
@@ -225,7 +232,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
