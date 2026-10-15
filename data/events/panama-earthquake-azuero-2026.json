@@ -32,14 +32,30 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
       "text": "GDACS's event report lists a new Copernicus Emergency Management Service rapid-mapping activation, EMSR934, triggered 12 October 2026 at 03:45 UTC for Los Santos, Panama, in response to the earthquake.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-10-15",
+      "source_name": "PAHO",
+      "source_url": "https://www.paho.org/es/documentos/informe-situacion-1-terremoto-panama-octubre-2026",
+      "text": "PAHO's 'Informe de Situacion 1: Terremoto en Panama, Octubre 2026' (dated 11 October 2026): reports 27 people injured with mild-to-moderate injuries who received medical care, and no deaths or missing persons confirmed as of the report's cutoff. The Government of Panama declared a state of emergency on 10 October 2026 to strengthen response, coordination and resource mobilization. Panama Canal operations and vessel traffic continued normally, Tocumen International Airport resumed operations after safety checks, and Metro Lines 1 and 2 were out of service for technical inspections as of the prior cutoff.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-10-15",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u18k.geojson",
+      "text": "USGS's event feed for the earthquake, with Key Points updated 13 October 2026, now assesses the PAGER shaking-impact alert at Orange (automatic PAGER product), estimating about 3.4 million people exposed to Strong-to-Very-Strong (MMI V-VIII) shaking -- down from the initial Red alert and approximately 4.6 million estimate. Ground-failure exposure is now Orange for liquefaction (about 29,000 people, 1-sigma range about 25,558-31,639) and Yellow for landslide (about 180 people, 1-sigma range about 154-200), down from the initial Red landslide / Orange liquefaction alerts. The page records 1,887 'Did You Feel It?' responses with a maximum reported intensity (CDI) of 7.9.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. USGS rated the quake's shaking impact a Red PAGER alert, while GDACS assessed an Overall Orange alert for the event; a tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled. An intense aftershock sequence has followed, including magnitude 6.6 and 6.0 aftershocks, and no official casualty count has been published by an authoritative source as of 11 October 2026, with the national government still assessing damage to buildings, roads and infrastructure across the affected provinces.",
+  "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. A tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled, and an intense aftershock sequence followed, including magnitude 6.6 and 6.0 aftershocks. The Government of Panama declared a state of emergency on 10 October 2026, and PAHO's first situation report (11 October) recorded 27 people injured and no deaths or missing persons, with Tocumen International Airport back in operation and Panama Canal traffic unaffected. USGS has since revised its shaking-impact alert down from Red to Orange, now estimating about 3.4 million people exposed to Strong-to-Very-Strong shaking, while GDACS continues to rate the event an Overall Orange alert.",
   "event": {
     "impact": {
-      "deaths": null,
+      "deaths": 0,
       "displaced": null,
-      "summary": "USGS's PAGER alert for the earthquake is Red, estimating about 4.6 million people exposed to Strong-to-Very-Strong (MMI V-VIII) shaking, with Red landslide and Orange liquefaction ground-failure alerts. GDACS rates the event an Overall Orange alert (GLIDE EQ-2026-000188-PAN), estimating about 540,000 people within zones of MMI VII or greater shaking and recording a tsunami with a maximum observed wave height of about 1.09 meters; the associated tsunami warning for Panama, Colombia, Ecuador, Nicaragua and Guatemala was later cancelled. A vigorous aftershock sequence has followed the mainshock, including a magnitude 6.6 aftershock on 9 October and a magnitude 6.0 aftershock on 10 October, both centered near Río Grande/La Tronosa in Herrera Province. On 12 October, GDACS's event report recorded a new Copernicus EMS rapid-mapping activation (EMSR934) for Los Santos, Panama, in continued response to the earthquake. No authoritative source has yet published a confirmed death or injury toll."
+      "summary": "PAHO's first situation report (11 October 2026) recorded 27 people injured, with no deaths or missing persons confirmed; the Government of Panama declared a state of emergency on 10 October to coordinate response and resource mobilization, and Tocumen International Airport and the Panama Canal resumed normal operations. USGS has revised its PAGER shaking-impact alert down from Red to Orange, now estimating about 3.4 million people exposed to Strong-to-Very-Strong (MMI V-VIII) shaking, with Orange liquefaction (about 29,000 people) and Yellow landslide (about 180 people) ground-failure exposure. GDACS continues to rate the event an Overall Orange alert, with a vigorous aftershock sequence (including M6.6 and M6.0 aftershocks) and a Copernicus EMS rapid-mapping activation (EMSR934) for Los Santos province."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
     "location": {
@@ -49,22 +65,22 @@
       "region": "Herrera Province, Azuero Peninsula; strong shaking also felt in Coclé, Los Santos, Panamá Oeste and Veraguas"
     },
     "occurrence_date": "2026-10-09",
-    "scale": "M7.7; PAGER Red; GDACS Orange",
+    "scale": "M7.7; PAGER Orange (revised from Red); GDACS Orange",
     "status": "ongoing"
   },
   "id": "panama-earthquake-azuero-2026",
-  "last_updated": "2026-10-12T09:20:46Z",
+  "last_updated": "2026-10-15T09:19:39Z",
   "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-12T09:20:46Z",
+        "at": "2026-10-15T09:19:39Z",
         "layer": "verify",
-        "run_id": "2026-10-12T09-20-46Z-3a3bd5"
+        "run_id": "2026-10-15T09-19-39Z-796533"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-12T09-20-46Z-3a3bd5"
+    "last_run_id": "2026-10-15T09-19-39Z-796533"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -73,6 +89,10 @@
     "recency_rank": 739898
   },
   "updates": [
+    {
+      "date": "2026-10-15",
+      "text": "PAHO's first situation report (11 October) recorded 27 injured and no deaths; Panama declared a state of emergency on 10 October. USGS revised its PAGER alert down from Red to Orange, lowering its shaking-exposure estimate to about 3.4 million people and its ground-failure alerts to Orange liquefaction / Yellow landslide (from Red landslide / Orange liquefaction)."
+    },
     {
       "date": "2026-10-12",
       "text": "GDACS's event report recorded a new Copernicus EMS rapid-mapping activation (EMSR934) for Los Santos, Panama, three days after the mainshock; no confirmed death or injury toll has yet been published by an authoritative source."
@@ -84,7 +104,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

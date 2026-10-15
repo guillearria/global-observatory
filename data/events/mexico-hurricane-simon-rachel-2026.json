@@ -1,0 +1,72 @@
+{
+  "category": "storm",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-15",
+      "source_name": "GDACS",
+      "source_url": "http://www.gdacs.org/report.aspx?eventid=1001335&episodeid=32&eventtype=TC",
+      "text": "GDACS's event report for Tropical Cyclone Simon (event id 1001335, episode 32) rates the event an Overall Orange alert, running 07 Oct 2026 15:00 UTC to 15 Oct 2026 09:00 UTC, with maximum sustained winds of 250 km/h (Category 4) per NOAA model data, a medium humanitarian impact and medium vulnerability for Mexico, and a maximum forecast storm surge of 0.5 m.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-15",
+      "source_name": "NOAA",
+      "source_url": "https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.public.032.shtml",
+      "text": "NOAA's National Hurricane Center Public Advisory 32 for Tropical Storm Simon, issued 200 AM MST (0900 UTC) on 15 October 2026, reports maximum sustained winds of 60 mph (95 km/h), minimum central pressure of 996 mb, a nearly stationary position near 19.2N 108.5W (about 270 miles SSE of Cabo San Lucas), no coastal watches or warnings in effect, and rainfall totals of 1-2 inches (isolated 3 inches) forecast for Baja California Sur through early Saturday.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-10-15",
+      "source_name": "NOAA",
+      "source_url": "https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.public.056.shtml",
+      "text": "NOAA's National Hurricane Center Advisory 56 for Post-Tropical Cyclone Rachel, issued 8:00 PM PDT (0300 UTC) on 10-11 October 2026, reports maximum sustained winds of 60 mph (95 km/h), a minimum central pressure of about 987 mb, a position near 30.0N 116.5W (about 40 miles west of Punta Baja, Mexico, and 190 miles south of San Diego) moving north-northeast at about 36 mph, with tropical-storm-force winds extending up to 140 miles from the center.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Hurricane Simon and Tropical Storm Rachel struck Mexico's Pacific coast and Baja California between 7 and 15 October 2026, prompting a GDACS Overall Orange alert and a multi-state emergency response. GDACS and NOAA recorded Simon peaking at Category 4 strength with sustained winds of 250 km/h before weakening; Rachel moved inland over northern Baja California on 10-11 October as a post-tropical system before dissipating over the southwestern United States. As of 15 October, NOAA's National Hurricane Center rated Simon a weakening tropical storm with 60 mph winds, nearly stationary off Baja California Sur with no coastal watches or warnings in effect. No authoritative casualty or displacement figure has been published by GDACS or NOAA for either system.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "GDACS's event report for Hurricane Simon (event id 1001335) rates it an Overall Orange alert with medium humanitarian impact, recording maximum sustained winds of 250 km/h (Category 4) per NOAA model data and medium vulnerability for Mexico. NOAA's National Hurricane Center's advisory 32 (0900 UTC, 15 October) rated Simon a tropical storm with 60 mph winds, nearly stationary about 270 miles SSE of Cabo San Lucas, with no coastal watches or warnings in effect and 1-3 inches of rainfall forecast for Baja California Sur. Separately, NOAA/NHC's advisory 56A (10 October) tracked post-tropical cyclone Rachel moving inland over northern Baja California with 60 mph winds before forecasting it to dissipate over the southwestern United States. Neither GDACS nor NOAA has published a confirmed death toll or displacement figure for either system."
+    },
+    "live_source_url": "http://www.gdacs.org/report.aspx?eventid=1001335&episodeid=32&eventtype=TC",
+    "location": {
+      "country": "Mexico",
+      "lat": 19.2,
+      "lon": -108.5,
+      "region": "Pacific coast states (Guerrero, Jalisco, Colima, Michoacan, Nayarit) and Baja California/Baja California Sur"
+    },
+    "occurrence_date": "2026-10-07",
+    "scale": "Simon peaked Category 4 (250 km/h); GDACS Overall Orange alert; Rachel dissipated as a post-tropical system over Baja California",
+    "status": "ongoing"
+  },
+  "id": "mexico-hurricane-simon-rachel-2026",
+  "last_updated": "2026-10-15T09:24:59Z",
+  "name": "Hurricane Simon and Tropical Storm Rachel, Mexico",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-15T09:24:59Z",
+        "layer": "verify",
+        "run_id": "2026-10-15T09-24-59Z-94af53"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-15T09-24-59Z-94af53"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398961.0,
+    "impact_rank": 1,
+    "recency_rank": 739896
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

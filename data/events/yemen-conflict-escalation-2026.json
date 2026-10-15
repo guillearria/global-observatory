@@ -82,6 +82,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-19",
+      "retrieved_date": "2026-10-15",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168589",
+      "text": "UN News (13 October 2026), 'Yemen: Houthi siege, cholera outbreak and aid cuts put civilians in the crosshairs': citing WHO, 'the country has reported 8,034 suspected cholera cases and 27 deaths this year' and 'more than 22,800 suspected [measles] cases and 128 deaths reported this year'; 'since August, 200,000 people have been displaced'; the Houthis 'tightened their blockade at the start of this month' by taking 'control of the last main road between Taiz and other government-held areas'; WHO's 90-day emergency response 'needs $31 million and has received just $4.3 million, less than 14 per cent of the total.' The same coverage reports that Saudi authorities said a separate Houthi missile attack on Riyadh's airport killed 12 people and wounded more than 300.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-28",
       "source_name": "United Nations",
@@ -146,12 +154,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened to include Houthi attacks on Saudi Arabia and a sharply worsening casualty and displacement toll. UN News reported on 7 October, citing Yemeni health authorities, that renewed clashes in southwest Yemen had left 959 dead and 4,207 injured across 10 governorates as of 2 October; IOM put displacement at more than 200,000 people, nearly 3,800 of whom fled to Djibouti, while WHO said nearly 198,000 had been uprooted and under one percent had received health services. WHO's immediate funding requirement has risen from $9 million to $31 million, plus a further $700,000 for Djibouti refugees. The same reporting documents a deepening health and child-welfare crisis: an estimated 7,800 suspected cholera cases, over 22,000 measles cases and dengue linked to 37 deaths, alongside UNICEF-verified killing of 15 children since 3 September. Only about 60 percent of health facilities remain fully functional, and humanitarian access along the west coast remains severely constrained.",
+  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened into a deepening siege of Taiz and renewed attacks on Saudi Arabia. UN News reported on 7 October, citing Yemeni health authorities, that clashes in southwest Yemen had left 959 dead and 4,207 injured across 10 governorates as of 2 October, with IOM recording more than 200,000 people displaced inside Yemen and close to 3,800 having fled to Djibouti. At the start of October the Houthis tightened their siege of Taiz, seizing the city's last main road to government-held areas, as food prices surge and fuel and cooking gas grow scarce. WHO now counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) so far this year, while its 90-day emergency response remains only 14 percent funded. Saudi authorities said a separate Houthi missile attack on Riyadh's airport killed 12 people and wounded more than 300.",
   "event": {
     "impact": {
       "deaths": 959,
       "displaced": 200000,
-      "summary": "UN News reported on 7 October 2026, citing Yemeni health authorities, that renewed clashes in southwest Yemen had left 959 people dead and 4,207 injured across 10 governorates as of 2 October -- up from 830 deaths and 4,481 total casualties as of 29 September. The International Organization for Migration put displacement inside Yemen at more than 200,000 people, with close to 3,800 having crossed to Djibouti; WHO separately counted nearly 198,000 people uprooted, of whom less than one percent had received health services as of the previous week. WHO's immediate funding requirement has risen from $9 million to $31 million, with a further $700,000 needed for Djibouti refugees. The same reporting documents a deepening health crisis -- about 7,800 suspected cholera cases (22 deaths), over 22,000 measles cases, and dengue linked to 37 deaths -- plus a child-welfare crisis: UNICEF verified at least 15 children killed and 14 injured since 3 September. DFA (Houthi) forces control the entire west coast except Midi district. The UN Security Council condemned Houthi attacks on Saudi Arabia on 18 September, demanding an immediate end to the escalation."
+      "summary": "UN News reported on 7 October 2026, citing Yemeni health authorities, that renewed clashes in southwest Yemen had left 959 people dead and 4,207 injured across 10 governorates as of 2 October. The International Organization for Migration put displacement inside Yemen at more than 200,000 people, a figure UN News reconfirmed on 13 October; close to 3,800 have crossed to Djibouti. The Houthis tightened their siege of Taiz at the start of October, seizing the city's last main road to government-held areas, deepening a worsening health crisis: WHO now counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) this year, while its 90-day emergency response remains only 14 percent funded ($4.3 million of $31 million needed). Saudi authorities separately said a Houthi missile attack on Riyadh's airport killed 12 people and wounded more than 300. DFA (Houthi) forces control the entire west coast except Midi district."
     },
     "live_source_url": "https://news.un.org/en/focus/yemen",
     "location": {
@@ -165,18 +173,18 @@
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-10-11T09:22:01Z",
+  "last_updated": "2026-10-15T09:21:28Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-11T09:22:01Z",
+        "at": "2026-10-15T09:21:28Z",
         "layer": "verify",
-        "run_id": "2026-10-11T09-22-01Z-90ff0c"
+        "run_id": "2026-10-15T09-21-28Z-7f5856"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-11T09-22-01Z-90ff0c"
+    "last_run_id": "2026-10-15T09-21-28Z-7f5856"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -185,6 +193,10 @@
     "recency_rank": 739835
   },
   "updates": [
+    {
+      "date": "2026-10-15",
+      "text": "The Houthis tightened their siege of Taiz at the start of October, seizing its last main road to government-held areas. WHO's cholera toll rose to 8,034 cases (27 deaths) and measles to 22,800+ cases (128 deaths) this year; its 90-day response is only 14% funded ($4.3M of $31M). Saudi Arabia said a Houthi missile attack on Riyadh's airport killed 12, wounded 300+."
+    },
     {
       "date": "2026-10-08",
       "text": "UNHCR's Yemen Situation External Update #2 recorded a separate, more precise displacement count: about 142,000 people newly displaced across seven governorates between 1 August and 27 September, mostly sheltering in Taiz, Lahj and Aden; its 2026 funding appeal remains only 18% funded."
@@ -236,7 +248,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

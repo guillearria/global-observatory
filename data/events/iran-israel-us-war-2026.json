@@ -66,6 +66,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-18",
+      "retrieved_date": "2026-10-15",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
+      "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 633,500 Iranian nationals who have crossed into neighbouring countries (28 September 2026, up from 628,000), of whom 534,800 have since crossed back into Iran (28 September 2026, up from 530,000); Lebanese refugees in Syria and new IDPs within Lebanon are unchanged at 325,400 and 329,686 respectively (both Government data, 30 September 2026) -- a combined 1,288,586 people displaced or newly refugees across Iran and Lebanon; Afghan returnee movements (1,015,400, IOM/UNHCR, 3 October 2026) and Syrian returnee movements (1,081,500, Government of Syria/UNHCR, 30 September 2026) are also unchanged, a combined 2,096,900.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-31",
       "source_name": "Encyclopaedia Britannica",
@@ -130,12 +138,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping over 90%, and hostilities persisted through September, including a US strike on Iran's Larak Island outpost. UNHCR records 628,000 Iranian nationals and 325,400 Lebanese refugees displaced across borders since the war began, plus almost 2.1 million Afghan and Syrian returnees. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, even as a third carrier and more troops remain deployed -- two days after families of US troops killed in the war's deadliest strike stayed away from a White House event, and a day after Houthi rebels claimed attacks on Saudi airports that killed three people. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar. The conflict remains unresolved.",
+  "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping over 90%, and hostilities persisted through September, including a US strike on Iran's Larak Island outpost. UNHCR records 633,500 Iranian nationals and 325,400 Lebanese refugees displaced across borders since the war began, plus almost 2.1 million Afghan and Syrian returnees. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, even as a third carrier and more troops remain deployed -- two days after families of US troops killed in the war's deadliest strike stayed away from a White House event, and a day after Houthi rebels claimed attacks on Saudi airports that killed three people. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar. The conflict remains unresolved.",
   "event": {
     "impact": {
       "deaths": null,
-      "displaced": 1283086,
-      "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; no single verified cumulative death toll for the war exists. UNHCR's Middle East portal (updated 30 September-3 October) records, since the war began: 628,000 Iranian nationals who crossed into neighbouring countries (530,000 since returned), 325,400 Lebanese refugees now in Syria and 329,686 new IDPs in Lebanon -- a combined 1,283,086 displaced or newly refugees across those two countries -- plus almost 2.1 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar, as sanctions and a naval oil blockade erode the economy. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, pausing the threatened escalation even as a third carrier and added troops remain in the region; this followed a 7 October Houthi-claimed attack on Saudi airports that killed three people."
+      "displaced": 1288586,
+      "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; no single verified cumulative death toll for the war exists. UNHCR's Middle East portal (updated 28 September-3 October) records, since the war began: 633,500 Iranian nationals who crossed into neighbouring countries (534,800 since returned), 325,400 Lebanese refugees now in Syria and 329,686 new IDPs in Lebanon -- a combined 1,288,586 displaced or newly refugees across those two countries -- plus almost 2.1 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar, as sanctions and a naval oil blockade erode the economy. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, pausing the threatened escalation even as a third carrier and added troops remain in the region; this followed a 7 October Houthi-claimed attack on Saudi airports that killed three people."
     },
     "live_source_url": "https://www.britannica.com/event/2026-Iran-war",
     "location": {
@@ -149,18 +157,18 @@
     "status": "ongoing"
   },
   "id": "iran-israel-us-war-2026",
-  "last_updated": "2026-10-13T09:23:42Z",
+  "last_updated": "2026-10-15T09:18:38Z",
   "name": "Iran-Israel-US War",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-13T09:23:42Z",
+        "at": "2026-10-15T09:18:38Z",
         "layer": "verify",
-        "run_id": "2026-10-13T09-23-42Z-7826dc"
+        "run_id": "2026-10-15T09-18-38Z-ad0a53"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-13T09-23-42Z-7826dc"
+    "last_run_id": "2026-10-15T09-18-38Z-ad0a53"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -169,6 +177,10 @@
     "recency_rank": 739845
   },
   "updates": [
+    {
+      "date": "2026-10-15",
+      "text": "UNHCR's Middle East portal now records 633,500 Iranian nationals who have crossed into neighbouring countries (28 Sep, up from 628,000), with 534,800 since returned to Iran (up from 530,000); Lebanon refugee/IDP and Afghan/Syrian returnee figures are unchanged. Tracked Iran/Lebanon displacement total: 1,288,586."
+    },
     {
       "date": "2026-10-13",
       "text": "UNHCR's Middle East portal now records Lebanese refugees in Syria risen to 325,400 (30 Sep, from 311,500) and Lebanon's new IDPs easing to 329,686 (30 Sep, from 341,228); combined Afghan/Syrian returnee movements rose to about 2.1 million (1,015,400 Afghan as of 3 Oct, 1,081,500 Syrian as of 30 Sep, from about 1.98 million). Tracked Iran/Lebanon displacement total: 1,283,086."
@@ -216,7 +228,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
