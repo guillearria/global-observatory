@@ -144,6 +144,11 @@ for the design and its one gap (a newly added workflow must be listed in its `wo
 > — that question must never answer green without a message having gone out. A green self-test run
 > plus a Telegram message is the only proof.
 
+**Still unarmed as of 2026-10-15.** `gh secret list` shows no `TELEGRAM_*` secrets here, so the
+2026-10-03 `publish` failure reached no one (harmless that time, since the day's refresh still
+landed). swing-lab already holds both secrets, so arming this repo means reusing the same two
+values. Steps went to the owner on 2026-10-15; replace this paragraph once the self-test is green.
+
 **Still open — alarm on orphaned `claude/*` branches.** The one unambiguous failure signature, and
 cheaper than inferring failure from data freshness: `publish` deletes the branch on success, so a
 lingering branch always means a run did not land. It would have caught all five July casualties on
@@ -212,6 +217,25 @@ Three things look like leftovers from the PR era but are intentional:
   kinds — historical claims especially, since scholarly pages move.
 
 ## Frontend & delivery
+
+- **Public copy: one message, one wording** *(owner, 2026-10-15; next up, with the site rework)*.
+  The README and the GitHub About were rewritten in plain language on 2026-10-15. The About is
+  the README's first sentence, word for word, and the technical material moved to
+  [`TECHNICAL-OVERVIEW.md`](TECHNICAL-OVERVIEW.md). The site's own copy is next: the About tab,
+  the section subtitles, `<meta name="description">` and `og:description`. Reuse the README's
+  sentences rather than rewording them, so a reader meets the same message on GitHub and on the
+  site. Keep the public terms consistent too: "the checking program" is the trust gate, "the
+  approved list" is `data/source-allowlist.json`, and "Under review" is quarantine. Don't
+  over-explain: the About is one sentence, and the README carries the explanation.
+- **README screenshot of the map** *(deferred by the owner 2026-10-15)*. A screenshot near the
+  top of the README would help lay readers, but the site may get a visual revamp soon. Do it
+  once, after the revamp.
+- **Custom domain** *(pending the owner's portfolio decision, 2026-10-15; do not implement
+  until decided)*. `momo.rodeo` was registered 2026-10-14 and `arria.dev` is under
+  consideration. The choice belongs to the portfolio as a whole, not to this repo. The changes
+  on this side are small: three hardcoded URLs in `frontend/index.html` (canonical, `og:url`,
+  `og:image`), the README's site link, and the repo's About website field. GitHub
+  301-redirects the old `github.io` address to a custom domain, so existing links keep working.
 
 - **Design pass — cards, identity chrome, detail view** *(Done 2026-08-26 — PRs #16, #17, #18;
   plan, audit and decisions in [`docs/DESIGN-PASS.md`](DESIGN-PASS.md)).* The identity brief HQ

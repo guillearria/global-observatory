@@ -1,0 +1,174 @@
+# Technical overview
+
+The technical companion to the [README](../README.md): how the dataset is curated and checked, how
+to run it locally, and how each record file is laid out. The full design is in
+[`ARCHITECTURE.md`](ARCHITECTURE.md).
+
+The short version: an AI curator publishes autonomously but never gets the final say on whether a
+claim is verified — a deterministic gate does. The curator may extend the source allowlist, so it
+does have a say in what counts as authoritative; every such addition carries a written
+justification and is recorded in the changelog.
+
+> **Status:** the refresh commands are **scheduled as Claude Code cloud routines**: daily →
+> `/refresh-events` (09:00 UTC), weekly → `/refresh-threats` (Mondays 10:00 UTC). `/refresh-history`
+> runs ad hoc. All three auto-publish through the gate. Routines are managed at
+> claude.ai/code/routines. The frontend's staleness banner and the scheduled `staleness` workflow
+> (see Trust model below) are the signals if a routine silently stops firing.
+
+## How it works
+
+The dataset is curated by **Claude Code running on a Claude Max subscription** (no per-token API
+spend). All three content types share the same deterministic Python trust gate — it decides what
+publishes, never the model's say-so — but differ in cadence and publish model, because a discrete
+"what just happened" event, a standing "what could end us" risk, and a "what once happened"
+archive entry are genuinely different things:
+
+- **World Pulse (events)** — `data/events/*.json`, validated against `data/schema/event.schema.json`.
+  Curated via `/refresh-events` (`.claude/commands/refresh-events.md`) or
+  `scripts/author_event.py`. Cadence: **daily**.
+- **Existential Threats** — `data/threats/*.json`, validated against `data/schema/threat.schema.json`.
+  Curated via `/refresh-threats` or `scripts/author_threat.py`. Cadence: **weekly** (standing risks
+  don't move day to day).
+- **Historical Archive** — `data/historical/*.json`, validated against
+  `data/schema/historical.schema.json`. Curated via `/refresh-history` or
+  `scripts/author_historical.py`. Cadence: **ad hoc** (an archive grows when there is something
+  worth adding, and cannot go stale).
+
+All three are **auto-published with no PR**: the gate alone decides verified vs. quarantined, so
+there is no review queue to go undrained. Cloud sessions can only push to their own branch, so the
+`publish` workflow re-validates each branch, checks it touches only curated data and that the
+aggregates reproduce exactly from the records, then merges it into `main`. Code changes still
+reach `main` by human merge.
+
+The site redeploys automatically whenever `frontend/data/*.json` changes on `main`.
+
+**Git is the database, the changelog, and the audit trail** — one JSON file per record, so diffs
+are the record of what changed. The frontend is static vanilla HTML/CSS/JS with no build step and
+**no external requests** (the map's NASA Blue Marble basemap and the display face are committed to
+the repo). It renders three hash-routed data tabs — `#pulse`, `#threats`, `#history` — plus a
+static `#about`, with one card anatomy: a dateline of short structured facts (status on the
+right; a trust pill only when a record is *not* fully verified), the title, and a teaser — the
+first sentence of the record's `description`, shown complete, never truncated. The whole card
+links to the per-record detail view (`#pulse/<id>`, `#threats/<id>`, `#history/<id>`: full location
+and scale, the live-source link, the gate's verdict, the narrative, key figures, the dated updates
+timeline, and every citation). All of it renders from three aggregate files,
+`frontend/data/events.json`, `frontend/data/threats.json`, and `frontend/data/historical.json`.
+
+The full design is in [`ARCHITECTURE.md`](ARCHITECTURE.md).
+
+## Trust model
+
+- Every published claim links its source. A claim is `verified` only when its citation resolves to an
+  allowlisted authoritative domain — USGS, WHO, IPCC, NASA/CNEOS, IAEA, CDC, NOAA, UN, NIST, GDACS,
+  ReliefWeb, UNHCR, IMF, … plus a scholarly/reference tier for historical sourcing (Britannica,
+  Smithsonian, Library of Congress, national archives and museums, Our World in Data, university
+  presses; deliberately no Wikipedia) — see `data/source-allowlist.json`. The check is
+  a deterministic Python domain match, never the model's say-so.
+- The allowlist itself is **extensible by the refresh runs**, so that a figure with no allowlisted
+  source can be published rather than dropped. Each entry must name an institution and carry a
+  written justification (enforced by `data/schema/source-allowlist.schema.json` and the CI gate),
+  and every addition is listed in [`CHANGELOG.md`](../CHANGELOG.md). The rules that do the checking
+  are not extensible — a refresh run cannot touch `data/schema/` or the pipeline.
+- Records that fail verification are **not hidden**: they appear in an "Under review" section, clearly
+  flagged as unverified, and are never presented as confirmed.
+- Known limit (MVP): verification confirms that an authoritative source was *cited*, not deep semantic
+  entailment that the source supports the claim. The `disputed`/`partial` statuses give a later audit
+  pass a hook.
+- **Staleness banner:** the events and threats tabs warn if the data hasn't refreshed recently
+  (events: >2 days; threats: >10 days) — the mechanism-agnostic signal that the refresh schedule
+  has stopped firing. A scheduled GitHub Actions workflow
+  (`.github/workflows/staleness.yml`) runs the same check server-side daily and fails loudly, so
+  a dead schedule triggers a notification instead of waiting for someone to load the page. The
+  Historical Archive is exempt — an archive cannot go stale.
+
+## The map
+
+The World Pulse tab plots every event with coordinates (`event.location.lat`/`lon`, optional
+fields) on a self-contained equirectangular NASA Blue Marble basemap: drag to pan, scroll or pinch
+to zoom, markers sized and colored by `sort_keys.impact_rank` (grey → blue → amber → red), click a
+marker to jump to its card. Markers are drawn from the same `events.json` the cards render from, so
+every daily refresh updates the map automatically. No tile server, no map library, no external
+requests.
+
+## Run it locally
+
+```sh
+pip install -e ".[dev]"
+
+pytest                                  # unit tests
+python scripts/validate_data.py         # schema validation (the CI hard gate)
+python scripts/build_frontend.py        # build frontend/data/{threats,events,historical}.json
+python scripts/serve_frontend.py        # preview at http://localhost:8000
+```
+
+Curate without spending API credits — drive Claude Code on your Max plan:
+
+```sh
+# In a Claude Code session: research + verify current major world events, auto-published ($0 API)
+/refresh-events
+
+# ... or standing threats, on a weekly cadence ($0 API)
+/refresh-threats nuclear winter, antibiotic resistance
+
+# ... or landmark historical events, ad hoc ($0 API)
+/refresh-history the Bronze Age collapse, the Antonine Plague
+
+# Or finalize a hand-drafted record through the same deterministic gate:
+python scripts/author_event.py draft.json       # -> data/events/ or data/quarantine-events/
+python scripts/author_threat.py draft.json      # -> data/threats/ or data/quarantine/
+python scripts/author_historical.py draft.json  # -> data/historical/ or data/quarantine-historical/
+```
+
+## How to read a threat file
+
+Each `data/threats/<slug>.json` validates against `data/schema/threat.schema.json`:
+
+- `assessment` — categorical `probability.estimate` (+ optional published `numeric_annual`), `severity`,
+  `timeframe`, one-line `summary`.
+- `claims[]` — each a checkable assertion with `source_name`, `source_url`, `retrieved_date`, and a
+  per-claim `verification_status`. A re-verify that finds the same facts bumps `retrieved_date` in
+  place; a new claim is added only for a genuinely new assertion.
+- `verification` — overall `status` (verified / partial / quarantined / unverified) + `confidence`.
+- `provenance` — append-only record of which layer last touched it, capped so files stay small.
+- `sort_keys` — numeric ordering computed by `curate.compute_sort_keys` (`severity_rank`/`probability_rank`, severity-dominant).
+
+## How to read an event file
+
+Each `data/events/<slug>.json` validates against `data/schema/event.schema.json`. It shares
+`claims[]`, `verification`, `provenance`, `last_updated`, and `schema_version` byte-for-byte with the
+threat schema — the trust spine is identical — but replaces `assessment` with an `event` block, since
+a dated occurrence needs a different shape than a standing risk:
+
+- `event.occurrence_date` / `location` (`country`, `region`, optional `lat`/`lon` for the map) /
+  `status` (ongoing / contained / resolved) / `scale` (free text, e.g. `"M6.3"`, `"PHEIC"`) /
+  `impact` (`deaths`, `displaced`, `summary`) / `live_source_url` — the authoritative page that
+  keeps updating; the frontend links it as "live at source". `description` and `impact.summary`
+  are short current-state prose, rewritten in place on refresh (Python prose checks enforce
+  length caps and refuse process narration); the "Figures as of" date shown on the site derives
+  from the claims' `retrieved_date`, never from `last_updated`.
+- `updates[]` (optional) — the dated development log, newest first: one `{date, text}` entry per
+  material development or correction, capped at 30 entries × 400 chars. The detail view renders
+  it as the event's timeline.
+- `sort_keys` — `recency_rank`/`impact_rank`, **recency-dominant** (today's event outranks last
+  month's), the inverse of how threats sort. The World Pulse feed additionally blends severity in
+  at render time — each impact tier buys extra staying power, and contained/resolved events decay
+  ahead of ongoing ones — without touching the stored keys.
+
+## How to read a historical file
+
+Each `data/historical/<slug>.json` validates against `data/schema/historical.schema.json`. Same
+trust spine again; the `historical` block replaces `event`, because the deep past needs a different
+shape than the news:
+
+- `historical.year_start` / `year_end` — **signed astronomical years** (0 = 1 BCE, −2999 = 3000 BCE),
+  since ISO dates can't represent BCE; `date_display` is the human text the frontend shows
+  (e.g. `"c. 1177 BCE"`, `"1347–1351"`).
+- `era` — ancient / classical / medieval / early-modern / modern / contemporary; the timeline groups
+  by it.
+- `impact.deaths_low` / `deaths_high` — an **estimate range** quoted as the source states it
+  (the Black Death is "75–200 million", not a number someone invented), with a prose `summary`.
+- `sort_keys` — `chronology_rank`/`impact_rank`, **chronology-dominant** (the timeline reads oldest
+  → newest).
+
+See [`CONTRIBUTING.md`](../CONTRIBUTING.md) to add a record by hand, or propose a new
+authoritative source.

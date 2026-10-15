@@ -174,7 +174,8 @@ a Newsreader wordmark (no nav — the footer and About carry the links), the sam
 favicon, an `og:image` rendered from the same mark and face, a one-line footer (*Project code on
 GitHub · Built by …*), and a static **About** tab (`#about`, no data, no detail routes) that
 explains the site, its sourcing rule and its curator in reader language — the allowlist/gate
-vocabulary stays in this document and the README, not on the page. Every list tab has a toolbar:
+vocabulary stays in this document and `TECHNICAL-OVERVIEW.md`, not on the page (the README is
+written in reader language too, since 2026-10-14). Every list tab has a toolbar:
 World Pulse filters by category and searches; Existential Threats filters by category and
 severity and searches; the Archive sorts, filters by type and searches. Search is every-word-must-
 match over name, description, place, category label and date text, in memory, no refetch.
