@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-10-16 — World Pulse daily refresh (2026-10-16): re-verify El Obeid, Indonesia haze, Mindanao, Nepal Rasuwa, Sudan cholera unchanged (`16f3bc1`)
+
+- **Updated:** el-obeid-siege-sudan-2026, indonesia-wildfires-haze-2026, mindanao-earthquake-philippines-2026, nepal-rasuwa-glacial-flood-2026, sudan-cholera-outbreak-2026
+
 ## 2026-10-15 — World Pulse daily refresh (2026-10-15): add Hurricane Simon/Rachel (Mexico); Ebola DRC and Panama earthquake impact updates; re-verify 19 ongoing events (`810fc1d`)
 
 - **Added:** mexico-hurricane-simon-rachel-2026
