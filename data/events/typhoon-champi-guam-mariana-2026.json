@@ -1,0 +1,64 @@
+{
+  "category": "storm",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-17",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=12&eventtype=TC",
+      "text": "GDACS's Tropical Cyclone report for CHAMPI-26 (event id 1001338, episode 12, GLIDE TC-2026-000192-GUM) rates the storm an Overall Red alert (score 2.5), tracking Guam and the Northern Mariana Islands over a 14-17 October 2026 window, with an estimated 180,000 people exposed to Category 1 (120 km/h) or higher winds and a JTWC-sourced maximum sustained wind of 259 km/h. Vulnerability for Guam is rated medium.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-17",
+      "source_name": "National Weather Service (NWS)",
+      "source_url": "https://api.weather.gov/alerts/active?area=GU",
+      "text": "NWS Tiyan Guam's active-alerts feed (api.weather.gov, checked 17 October 2026) lists a Typhoon Warning for Guam and Rota and a Typhoon Watch plus Tropical Storm Warning for Tinian and Saipan, issued 3:06 PM ChST: Typhoon Champi (29W) was about 225 miles east-southeast of Guam, moving west-northwest at 18 mph, forecast to pass just south of or over Guam as a Category 3 storm, likely Sunday morning. The feed also lists a Coastal Flood Warning and High Surf Warning (issued 4:31 PM ChST, surf to 35 feet on Guam, 20-25 feet on Rota, 15-20 feet on Tinian/Saipan, coastal inundation of 5-7 feet on Guam) and a Flood Watch (issued 4:10 PM ChST, forecast rainfall of 8-14 inches on Guam, 5-8 inches on Rota, 3-5 inches on Tinian/Saipan).",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Typhoon Champi is approaching Guam and the Northern Mariana Islands in the western Pacific, with landfall-equivalent passage forecast for Sunday, 18 October 2026. The US National Weather Service has issued a Typhoon Warning for Guam and Rota and a Typhoon Watch with a Tropical Storm Warning for Tinian and Saipan, plus Coastal Flood and High Surf Warnings citing surf up to 35 feet. GDACS rates the storm an Overall Red alert, estimating about 180,000 people exposed to Category 1 or higher winds. No deaths, injuries or damage have been confirmed by an authoritative source.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "GDACS's Red-alert report for Typhoon Champi estimates about 180,000 people in Guam and the Northern Mariana Islands exposed to Category 1 or higher winds. As of 3:06 PM ChST on 17 October, the US National Weather Service placed the storm about 225 miles east-southeast of Guam with sustained winds near 100 mph, forecasting it to pass just south of or over Guam as a Category 3 system by Sunday morning. No deaths, injuries or damage have yet been confirmed by an authoritative source."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=12&eventtype=TC",
+    "location": {
+      "country": "Guam / Northern Mariana Islands (United States)",
+      "lat": 12.5,
+      "lon": 147.3,
+      "region": "Guam, Rota, Tinian and Saipan"
+    },
+    "occurrence_date": "2026-10-14",
+    "scale": "GDACS Red alert; forecast Category 3 near Guam",
+    "status": "ongoing"
+  },
+  "id": "typhoon-champi-guam-mariana-2026",
+  "last_updated": "2026-10-17T09:20:52Z",
+  "name": "Typhoon Champi — Guam & Northern Mariana Islands",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-17T09:20:52Z",
+        "layer": "verify",
+        "run_id": "2026-10-17T09-20-52Z-131ce8"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-17T09-20-52Z-131ce8"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7399031.0,
+    "impact_rank": 1,
+    "recency_rank": 739903
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

@@ -16,14 +16,22 @@
       "source_url": "https://www.cdc.gov/measles/data-research/index.html",
       "text": "CDC's measles data page reports 4,080 confirmed measles cases in the United States in 2026 as of 8 October 2026, up from 3,887 as of 1 October, with a cumulative total of 2 US measles deaths.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-10-17",
+      "source_name": "CDC",
+      "source_url": "https://www.cdc.gov/measles/data-research/index.html",
+      "text": "CDC's measles data page states: \"As of October 15, 2026, 4,410 confirmed measles cases were reported in the United States in 2026,\" up from 4,080 as of October 8, with a cumulative total of 2 US measles deaths (a figure the page notes is subject to change).",
+      "verification_status": "verified"
     }
   ],
-  "description": "New York Governor Kathy Hochul declared a statewide disaster emergency on 5 October 2026 over a growing measles outbreak concentrated in under-immunized rural communities. The order, Executive Order No. 65, cites 108 confirmed New York cases so far in 2026 as of 3 October, 92 of them since 15 July across 18 rural counties, and widens who can administer MMR vaccine and order testing; it runs through 4 November 2026. The New York outbreak is part of a wider US measles resurgence, with CDC reporting 3,887 confirmed cases nationwide and 2 deaths as of 1 October 2026.",
+  "description": "New York Governor Kathy Hochul declared a statewide disaster emergency on 5 October 2026 over a measles outbreak concentrated in under-immunized rural communities, an order that remains in effect through 4 November 2026. As of 3 October, New York had recorded 108 confirmed cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July across 18 rural counties, with local health departments administering over 1,000 MMR doses. The New York outbreak is part of a wider US measles resurgence: CDC reported 4,410 confirmed cases nationwide as of 15 October 2026, up from 4,080 a week earlier, with 2 cumulative deaths.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "As of 3 October 2026, New York State had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere in the state), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC reported 4,080 confirmed US measles cases and 2 deaths as of 8 October 2026, up from 3,887 as of 1 October. Governor Hochul's 5 October executive order declaring a state disaster emergency remains in effect through 4 November 2026."
+      "summary": "As of 3 October 2026, New York State had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC reported 4,410 confirmed US measles cases and 2 deaths as of 15 October 2026, up from 4,080 a week earlier. Governor Hochul's 5 October executive order declaring a state disaster emergency remains in effect through 4 November 2026."
     },
     "live_source_url": "https://www.cdc.gov/measles/data-research/index.html",
     "location": {
@@ -37,18 +45,18 @@
     "status": "ongoing"
   },
   "id": "usa-new-york-measles-outbreak-2026",
-  "last_updated": "2026-10-15T09:18:36Z",
+  "last_updated": "2026-10-17T09:19:14Z",
   "name": "Measles State Disaster Emergency — New York, USA",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-15T09:18:36Z",
+        "at": "2026-10-17T09:19:14Z",
         "layer": "verify",
-        "run_id": "2026-10-15T09-18-36Z-aee069"
+        "run_id": "2026-10-17T09-19-14Z-cbc985"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-15T09-18-36Z-aee069"
+    "last_run_id": "2026-10-17T09-19-14Z-cbc985"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -56,10 +64,15 @@
     "impact_rank": 1,
     "recency_rank": 739894
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-17",
+      "text": "CDC reported 4,410 confirmed US measles cases in 2026 as of 15 October, up from 4,080 a week earlier; the cumulative US death toll remains at 2. New York's own case count and the statewide disaster emergency are unchanged."
+    }
+  ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
