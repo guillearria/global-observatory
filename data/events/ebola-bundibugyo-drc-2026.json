@@ -346,6 +346,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-kenya-3",
+      "retrieved_date": "2026-10-18",
+      "source_name": "WHO",
+      "source_url": "https://afro.who.int/countries/kenya/news/who-supports-kenyas-ebola-response-third-case-found-early-quarantine",
+      "text": "WHO AFRO reports Kenya has now confirmed three Bundibugyo virus disease cases, including one death: the first case (a man who died 5 October) was Kenya's first-ever Ebola case; a second and third case -- a 39-year-old man and a 65-year-old woman, both close family contacts of the first patient -- were confirmed on 14 and 16 October respectively, having already been under quarantine when they fell ill. As of 16 October, 127 of 130 listed contacts were in quarantine under daily monitoring for 21 days, the second patient is stable and responding to supportive care, and Kenya's Ministry of Health reports no evidence of community transmission.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-new-ecdc-oct2",
       "retrieved_date": "2026-10-06",
       "source_name": "ECDC",
@@ -499,7 +507,7 @@
     },
     {
       "id": "claim-new-oct16",
-      "retrieved_date": "2026-10-17",
+      "retrieved_date": "2026-10-18",
       "source_name": "ECDC",
       "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
       "text": "ECDC's country overview (page last updated 16 October 2026, data through 14 October 2026): as of 15 October 2026, the Democratic Republic of the Congo reported a total of 9,277 confirmed cases, including 4,478 related deaths (from data up until 14 October), with 65 new confirmed cases and 37 deaths reported on 14 October alone. The outbreak remains spread across 65 of 167 health zones in seven provinces, with Ituri province still the most affected; the page notes media reports indicating that two cases have been confirmed in North Ubangi, which would make it the eighth affected province.",
@@ -514,12 +522,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 14 October 2026) puts the DRC toll at 9,277 confirmed cases and 4,478 deaths, spanning 65 of 167 health zones across seven provinces -- the country's largest recorded Ebola epidemic, with media reports of two cases in North Ubangi that would make it an eighth. Kenya confirmed a second case on 14 October, a close contact of its first (6 October) case, now in a treatment centre. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway, though its efficacy against this strain remains unestablished.",
+  "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 14 October 2026) puts the DRC toll at 9,277 confirmed cases and 4,478 deaths, spanning 65 of 167 health zones across seven provinces -- the country's largest recorded Ebola epidemic, with media reports of two cases in North Ubangi that would make it an eighth. Kenya has now confirmed three cases including one death, with its second and third patients -- both close family contacts of the first -- identified on 14 and 16 October while already under quarantine, and no evidence of community transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway, though its efficacy against this strain remains unestablished.",
   "event": {
     "impact": {
       "deaths": 4478,
       "displaced": null,
-      "summary": "ECDC's newest country overview (data through 14 October 2026) holds the DRC toll at 9,277 confirmed cases and 4,478 deaths, up from 9,144 cases and 4,410 deaths as of the prior 12 October data cut. The outbreak spans 65 of 167 health zones across seven provinces, with media reports additionally indicating two cases confirmed in North Ubangi, which would make it an eighth affected province. Kenya confirmed a second case on 14 October -- a close family contact of its first patient, now moved to a treatment centre -- and Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+      "summary": "ECDC's newest country overview (data through 14 October 2026) holds the DRC toll at 9,277 confirmed cases and 4,478 deaths, up from 9,144 cases and 4,410 deaths as of the prior 12 October data cut. The outbreak spans 65 of 167 health zones across seven provinces, with media reports additionally indicating two cases confirmed in North Ubangi, which would make it an eighth affected province. Kenya has confirmed three cases including one death: its second and third patients, both close family contacts of the first, were identified on 14 and 16 October respectively while already under quarantine, with 127 of 130 listed contacts in quarantine and no evidence of community transmission as of 16 October. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
     "location": {
@@ -533,18 +541,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-10-17T09:19:24Z",
+  "last_updated": "2026-10-18T09:19:14Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-17T09:19:24Z",
+        "at": "2026-10-18T09:19:14Z",
         "layer": "verify",
-        "run_id": "2026-10-17T09-19-24Z-46f00a"
+        "run_id": "2026-10-18T09-19-14Z-a9bb0d"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-17T09-19-24Z-46f00a"
+    "last_run_id": "2026-10-18T09-19-14Z-a9bb0d"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -553,6 +561,10 @@
     "recency_rank": 739751
   },
   "updates": [
+    {
+      "date": "2026-10-18",
+      "text": "WHO AFRO reported Kenya's third confirmed case on 16 October -- a 65-year-old woman, a close family contact of the first patient -- bringing Kenya's total to three cases and one death; the second and third patients were both already under quarantine when they fell ill, 127 of 130 listed contacts remain in quarantine, and Kenya's Ministry of Health reports no evidence of community transmission."
+    },
     {
       "date": "2026-10-17",
       "text": "ECDC's 16 October data cut put the DRC toll at 9,277 confirmed cases and 4,478 deaths (data through 14 October), up from 9,144/4,410 on 12 October, with media reports of a possible eighth affected province (North Ubangi). Kenya confirmed a second case on 14 October, a close family contact of its first patient, now in a treatment centre."
@@ -668,15 +680,11 @@
     {
       "date": "2026-08-24",
       "text": "Through early-to-mid August the DRC toll climbed steadily: 4,209 cases/1,916 deaths (7 Aug) rising to 4,665/2,184 (12-13 Aug, reaching a sixth province, Bas-Uele, and becoming the country's largest recorded Ebola outbreak) and 5,514/2,642 by 22 Aug, across 57 of 151 health zones in six provinces."
-    },
-    {
-      "date": "2026-08-20",
-      "text": "WHO and Africa CDC announced the allocation of 70,000 doses of the Ervebo Ebola vaccine to DRC -- 20,000 doses for a Phase 3 clinical trial and 50,000 doses for frontline health workers -- while noting that Ervebo's protective efficacy against the Bundibugyo virus strain driving this outbreak has not yet been established."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 64 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 65 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

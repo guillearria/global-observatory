@@ -107,10 +107,18 @@
     },
     {
       "id": "claim-28",
-      "retrieved_date": "2026-10-17",
+      "retrieved_date": "2026-10-18",
       "source_name": "UNHCR",
       "source_url": "https://data.unhcr.org/en/country/sdn",
-      "text": "UNHCR's Operational Data Portal for Sudan (checked 17 October 2026): internally displaced persons within Sudan now stand at 8,583,274, labeled 'last updated 30 Sep 2026' -- down from 8,622,801 (31 August 2026 update); refugees and asylum-seekers in Sudan remain at 909,744, unchanged, also labeled 'last updated 30 Sep 2026'.",
+      "text": "UNHCR's Operational Data Portal for Sudan (checked 18 October 2026): internally displaced persons within Sudan remain at 8,583,274, labeled 'last updated 30 Sep 2026' -- unchanged since 17 October 2026 (down from 8,622,801 as of the 31 August 2026 update); refugees and asylum-seekers in Sudan remain at 909,744, unchanged, also labeled 'last updated 30 Sep 2026'.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-29",
+      "retrieved_date": "2026-10-18",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/situations/sudansituation",
+      "text": "UNHCR's Operational Data Portal for the Sudan situation now shows Total Forcibly Displaced: 11,321,158, labeled 'Last updated 05 Oct 2026' -- up from 11,306,124 (21 September 2026 update). Related widgets: newly arrived refugees/asylum-seekers and returnees 4,637,854 (labeled 'Last updated 05 Oct 2026'), comprising 3,695,741 newly arrived refugees/asylum-seekers and 942,113 refugee returnees; refugees/asylum-seekers present before April 2023, 837,272 (no separate last-updated label shown); self-relocated refugees in Sudan 273,758, labeled 'Last updated 14 Sep 2026', unchanged. IDPs in Sudan (source IOM/OCHA) remain at 6,409,546, labeled 'Last updated 20 Sep 2026', unchanged. These components sum to the stated total.",
       "verification_status": "verified"
     },
     {
@@ -130,12 +138,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal records 8,583,274 internally displaced persons within Sudan (30 September 2026 update, down from 8,622,801 a month earlier) and 909,744 refugees and asylum-seekers hosted in the country (unchanged), while its regional situation portal most recently recorded 11,306,124 people forcibly displaced overall (21 September update). IOM's DTM Cross-Border Monitoring Report (6), published 1 October 2026, separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since the conflict began and 1,110,605 crossing back into Sudan since January 2024. Displacement continues to be driven by fighting in Kordofan, Darfur and Blue Nile alongside seasonal flooding, with more than 30 million people across Sudan in need of humanitarian assistance, and IOM and WFP have warned the humanitarian pipeline could collapse without further funding.",
+  "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal records 8,583,274 internally displaced persons within Sudan and 909,744 refugees and asylum-seekers hosted in the country (both a 30 September 2026 update, unchanged on re-check), while its regional situation portal now records 11,321,158 people forcibly displaced overall (5 October update, up from 11,306,124 a month-and-a-half earlier). IOM's DTM Cross-Border Monitoring Report (6), published 1 October 2026, separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since the conflict began and 1,110,605 crossing back into Sudan since January 2024. Displacement continues to be driven by fighting in Kordofan, Darfur and Blue Nile alongside seasonal flooding, with more than 30 million people across Sudan in need of humanitarian assistance, and IOM and WFP have warned the humanitarian pipeline could collapse without further funding.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": 9493018,
-      "summary": "UNHCR's Sudan country portal (checked 17 October 2026) now records 8,583,274 internally displaced persons within Sudan (30 September 2026 update, down from 8,622,801 a month earlier) and 909,744 refugees and asylum-seekers hosted in the country (unchanged, also a 30 September update). UNHCR's regional situation portal most recently recorded a total of 11,306,124 people forcibly displaced by the Sudan crisis (21 September 2026 update), and continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. IOM's DTM Cross-Border Monitoring Report (6) (published 1 October 2026) separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since April 2023, and 1,110,605 crossing back into Sudan since January 2024 via its seven monitored border points. Fighting and flooding across Kordofan, Darfur and Blue Nile continue to displace people, with more than 30 million in need nationwide, and IOM and WFP have warned the humanitarian pipeline could collapse without further funding."
+      "summary": "UNHCR's Sudan country portal (checked 18 October 2026) records 8,583,274 internally displaced persons within Sudan and 909,744 refugees and asylum-seekers hosted in the country, both unchanged from a 30 September 2026 update. UNHCR's regional situation portal now records a total of 11,321,158 people forcibly displaced by the Sudan crisis (5 October 2026 update, up from 11,306,124 in the 21 September update), and continues to describe Sudan as the world's largest displacement, humanitarian and protection crisis. IOM's DTM Cross-Border Monitoring Report (6) (published 1 October 2026) separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since April 2023, and 1,110,605 crossing back into Sudan since January 2024 via its seven monitored border points. Fighting and flooding across Kordofan, Darfur and Blue Nile continue to displace people, with more than 30 million in need nationwide, and IOM and WFP have warned the humanitarian pipeline could collapse without further funding."
     },
     "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
     "location": {
@@ -149,18 +157,18 @@
     "status": "ongoing"
   },
   "id": "sudan-displacement-crisis",
-  "last_updated": "2026-10-17T09:22:29Z",
+  "last_updated": "2026-10-18T09:16:16Z",
   "name": "Sudan Displacement Crisis",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-17T09:22:29Z",
+        "at": "2026-10-18T09:16:16Z",
         "layer": "verify",
-        "run_id": "2026-10-17T09-22-29Z-474506"
+        "run_id": "2026-10-18T09-16-16Z-bb8a44"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-17T09-22-29Z-474506"
+    "last_run_id": "2026-10-18T09-16-16Z-bb8a44"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -169,6 +177,10 @@
     "recency_rank": 738625
   },
   "updates": [
+    {
+      "date": "2026-10-18",
+      "text": "UNHCR's regional situation portal recorded 11,321,158 people forcibly displaced by the Sudan crisis (5 October update), up from 11,306,124 in the 21 September update, driven by a rise in refugees, asylum-seekers and returnees outside Sudan (4,637,854, up from 4,622,820); IDPs recorded via this portal held steady at 6,409,546."
+    },
     {
       "date": "2026-10-17",
       "text": "UNHCR's Sudan country portal recorded internally displaced persons within Sudan falling to 8,583,274 (30 September update), down from 8,622,801 a month earlier, while refugees and asylum-seekers hosted in Sudan held steady at 909,744."
@@ -220,7 +232,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -98,6 +98,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-20",
+      "retrieved_date": "2026-10-18",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/reports/yemen-displacement-caused-escalation-west-coast-update-14-4-october-2026",
+      "text": "IOM's Displacement Tracking Matrix 'Yemen - Displacement Caused by Escalation in the West Coast - Update #14' (period covered 1 August-13 October 2026) records 227,683 people (about 37,946 households) displaced since 1 August 2026, and 228,739 people (38,122 households) cumulatively since the West Coast escalation began in June 2026. Ta'iz governorate accounts for the largest share, 121,104 people (53%), followed by Lahj (51,984, 23%), Aden (27,348, 12%), Abyan (11,838, 5%) and Al Hodeidah (8,244, 4%), with smaller numbers in Hadramawt, Shabwah, Ma'rib, Al Maharah and Ad Dali'.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-09-11",
       "source_name": "United Nations",
@@ -154,12 +162,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and the conflict has since widened into a deepening siege of Taiz and renewed attacks on Saudi Arabia. UN News reported on 7 October, citing Yemeni health authorities, that clashes in southwest Yemen had left 959 dead and 4,207 injured across 10 governorates as of 2 October, with IOM recording more than 200,000 people displaced inside Yemen and close to 3,800 having fled to Djibouti. At the start of October the Houthis tightened their siege of Taiz, seizing the city's last main road to government-held areas, as food prices surge and fuel and cooking gas grow scarce. WHO now counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) so far this year, while its 90-day emergency response remains only 14 percent funded. Saudi authorities said a separate Houthi missile attack on Riyadh's airport killed 12 people and wounded more than 300.",
+  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and by mid-October had largely encircled Taiz, cutting most remaining supply routes from government-held areas. UN News reported on 7 October, citing Yemeni health authorities, that clashes in southwest Yemen had left 959 dead and 4,207 injured across 10 governorates as of 2 October -- the most recent confirmed casualty count. IOM's Displacement Tracking Matrix now records 227,683 people displaced between 1 August and 13 October 2026, up from the roughly 200,000 reported in early October, with Ta'iz governorate accounting for 53 percent of the total; close to 3,800 people have fled to Djibouti. Food, fuel and cooking-gas shortages are worsening inside besieged Taiz as prices surge. WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) so far this year, while its 90-day emergency response remains only 14 percent funded. Saudi authorities said a separate Houthi missile attack on Riyadh's airport killed 12 people and wounded more than 300.",
   "event": {
     "impact": {
       "deaths": 959,
-      "displaced": 200000,
-      "summary": "UN News reported on 7 October 2026, citing Yemeni health authorities, that renewed clashes in southwest Yemen had left 959 people dead and 4,207 injured across 10 governorates as of 2 October. The International Organization for Migration put displacement inside Yemen at more than 200,000 people, a figure UN News reconfirmed on 13 October; close to 3,800 have crossed to Djibouti. The Houthis tightened their siege of Taiz at the start of October, seizing the city's last main road to government-held areas, deepening a worsening health crisis: WHO now counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) this year, while its 90-day emergency response remains only 14 percent funded ($4.3 million of $31 million needed). Saudi authorities separately said a Houthi missile attack on Riyadh's airport killed 12 people and wounded more than 300. DFA (Houthi) forces control the entire west coast except Midi district."
+      "displaced": 227683,
+      "summary": "UN News reported on 7 October 2026, citing Yemeni health authorities, that renewed clashes in southwest Yemen had left 959 people dead and 4,207 injured across 10 governorates as of 2 October -- still the most recent confirmed casualty count. IOM's Displacement Tracking Matrix (Update #14, period 1 August-13 October) now puts displacement inside Yemen at 227,683 people, up from the roughly 200,000 reported in early October; Ta'iz governorate accounts for 53 percent of the total (121,104 people), followed by Lahj (23%) and Aden (12%). Close to 3,800 people have crossed to Djibouti. The Houthis have largely encircled Taiz, cutting most remaining supply routes from government-held areas and driving up food, water and fuel prices, deepening a worsening health crisis: WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) this year, while its 90-day emergency response remains only 14 percent funded ($4.3 million of $31 million needed). Saudi authorities separately said a Houthi missile attack on Riyadh's airport killed 12 people and wounded more than 300. DFA (Houthi) forces control the entire west coast except Midi district."
     },
     "live_source_url": "https://news.un.org/en/focus/yemen",
     "location": {
@@ -169,22 +177,22 @@
       "region": "Ta'izz Governorate (Mocha, Al-Mokha) and Yemen's West Coast; attacks also in the Bab el-Mandeb Strait and against Saudi Arabia"
     },
     "occurrence_date": "2026-08-07",
-    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have extended attacks to Saudi Arabia; UN News reports 959 deaths and 4,207 injuries across 10 governorates and 200,000+ displaced as of early October 2026",
+    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have largely encircled Taiz; UN News reports 959 deaths and 4,207 injuries across 10 governorates, and IOM records 227,683 displaced as of 13 October 2026",
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-10-17T09:19:15Z",
+  "last_updated": "2026-10-18T09:11:41Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-17T09:19:15Z",
+        "at": "2026-10-18T09:11:41Z",
         "layer": "verify",
-        "run_id": "2026-10-17T09-19-15Z-330161"
+        "run_id": "2026-10-18T09-11-41Z-b4e6ed"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-17T09-19-15Z-330161"
+    "last_run_id": "2026-10-18T09-11-41Z-b4e6ed"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -193,6 +201,10 @@
     "recency_rank": 739835
   },
   "updates": [
+    {
+      "date": "2026-10-18",
+      "text": "IOM's DTM Update #14 (1 Aug-13 Oct) puts Yemen displacement at 227,683, up from ~200,000 in early October; Ta'iz accounts for 53% of the total, followed by Lahj (23%) and Aden (12%). The Houthis have largely encircled Taiz, cutting most remaining supply routes from government-held areas as prices surge."
+    },
     {
       "date": "2026-10-15",
       "text": "The Houthis tightened their siege of Taiz at the start of October, seizing its last main road to government-held areas. WHO's cholera toll rose to 8,034 cases (27 deaths) and measles to 22,800+ cases (128 deaths) this year; its 90-day response is only 14% funded ($4.3M of $31M). Saudi Arabia said a Houthi missile attack on Riyadh's airport killed 12, wounded 300+."
@@ -248,7 +260,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

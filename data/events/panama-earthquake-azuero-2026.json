@@ -18,6 +18,22 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-11",
+      "retrieved_date": "2026-10-18",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
+      "text": "GDACS's earthquake report for this event (event id 1570339, episode 1738684), checked 18 October 2026, now lists Exposed Population at '130 thousand (in MMI>=VII)' and a GDACS Score of 1.4 -- up from the roughly 50,000 recorded a day earlier -- while continuing to rate the event Overall Orange alert for medium humanitarian impact; the maximum observed tsunami wave height remains about 1.09 meters.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-12",
+      "retrieved_date": "2026-10-18",
+      "source_name": "PAHO",
+      "source_url": "https://www.paho.org/es/noticias/10-10-2026-opsoms-coordina-con-ministerio-salud-apoyo-respuesta-salud-tras-terremoto",
+      "text": "PAHO/WHO news article (dated 10 October 2026, with an 11 October dateline in the text): per preliminary information from Panama's Ministry of Health (MINSA), 29 health facilities were affected across eight provinces and the Ngäbe-Buglé comarca following the earthquake; most remain operational, though some have structural or non-structural damage, preventive evacuations, care relocated to tents or temporary modules, or interrupted water/electricity service. No deaths or injuries are reported in the article beyond PAHO's earlier situation-report toll. MINSA's Emergency Operations Coordination Center (CODES) remains active, and PAHO/WHO's Panama office has activated its own emergency response mechanisms to support damage assessment and needs identification.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-10-10",
       "source_name": "GDACS",
@@ -67,10 +83,10 @@
     },
     {
       "id": "claim-8",
-      "retrieved_date": "2026-10-17",
+      "retrieved_date": "2026-10-18",
       "source_name": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u18k.geojson",
-      "text": "USGS's ground-failure product for the earthquake (updated 17 October 2026) now estimates liquefaction population exposure at approximately 49,000 people (Orange alert, up from about 29,000 as of 13 October) and landslide population exposure at approximately 200 people (Yellow alert, up from about 180 as of 13 October).",
+      "text": "USGS's ground-failure product for the earthquake (last updated 18 October 2026, 05:25 UTC) continues to estimate liquefaction population exposure at approximately 49,000 people (Orange alert) and landslide population exposure at approximately 200 people (Yellow alert), unchanged from 17 October 2026.",
       "verification_status": "verified"
     },
     {
@@ -82,12 +98,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. A tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled, and an intense aftershock sequence has continued, including magnitude 6.6, 6.1 and 6.0 aftershocks. PAHO's situation report (11 October) remains the latest published toll, with 27 people injured and no deaths confirmed, and Panama's 10 October state of emergency remains in force. GDACS has sharply revised down its estimate of people exposed to MMI VII+ shaking to about 50,000 (from roughly 540,000 initially) while still rating the event Overall Orange, and USGS has revised its ground-failure exposure estimates upward; a Copernicus EMS rapid-mapping activation for Los Santos province remains active.",
+  "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. A tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled, and an intense aftershock sequence has continued, including magnitude 6.6, 6.1 and 6.0 aftershocks. PAHO's situation report (11 October) remains the latest published casualty toll, with 27 people injured and no deaths confirmed, and Panama's 10 October state of emergency remains in force; Panama's Ministry of Health has since reported, via PAHO, that 29 health facilities are affected across eight provinces and the Ngäbe-Buglé comarca, most still operating. GDACS's estimate of people exposed to MMI VII+ shaking has swung sharply -- from roughly 540,000 initially, down to about 50,000, and now up to about 130,000 -- while the event continues to be rated Overall Orange. USGS's ground-failure exposure estimates (about 49,000 to liquefaction hazard, about 200 to landslide hazard) are unchanged, and a Copernicus EMS rapid-mapping activation for Los Santos province remains active.",
   "event": {
     "impact": {
       "deaths": 0,
       "displaced": null,
-      "summary": "PAHO's first situation report (11 October 2026) remains the latest published toll: 27 people injured, no deaths or missing persons confirmed. GDACS now estimates about 50,000 people exposed to MMI VII+ shaking (revised sharply down from its initial estimate of roughly 540,000) and continues to rate the earthquake Overall Orange for medium humanitarian impact. USGS's PAGER ground-failure product has been revised to about 49,000 people exposed to liquefaction hazard (Orange, up from 29,000) and about 200 exposed to landslide hazard (Yellow, up from 180). The aftershock sequence continues, including a magnitude 6.1 event on 12 October near Rio Grande, and a Copernicus EMS rapid-mapping activation for Los Santos province (EMSR934) was updated as recently as 16 October."
+      "summary": "PAHO's first situation report (11 October 2026) remains the latest published casualty toll: 27 people injured, no deaths or missing persons confirmed. Panama's Ministry of Health has since reported, via a PAHO/WHO update, that 29 health facilities are affected across eight provinces and the Ngäbe-Buglé comarca -- most still operating, some with structural or non-structural damage, preventive evacuations, care relocated to tents or temporary modules, or interrupted water/electricity service. GDACS's estimate of people exposed to MMI VII+ shaking has fluctuated sharply across successive checks -- from about 540,000 initially, to about 50,000, and now to about 130,000 (GDACS Score 1.4) -- while the earthquake continues to be rated Overall Orange for medium humanitarian impact. USGS's PAGER ground-failure product holds at about 49,000 people exposed to liquefaction hazard (Orange) and about 200 to landslide hazard (Yellow). The aftershock sequence continues, and a Copernicus EMS rapid-mapping activation for Los Santos province (EMSR934) remains active as of 16 October."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
     "location": {
@@ -97,22 +113,22 @@
       "region": "Herrera Province, Azuero Peninsula; strong shaking also felt in Coclé, Los Santos, Panamá Oeste and Veraguas"
     },
     "occurrence_date": "2026-10-09",
-    "scale": "M7.7; PAGER Orange (revised from Red); GDACS Orange",
+    "scale": "M7.7; PAGER Orange (revised from Red); GDACS Orange (~130,000 people in MMI VII+ zones, GDACS Score 1.4)",
     "status": "ongoing"
   },
   "id": "panama-earthquake-azuero-2026",
-  "last_updated": "2026-10-17T09:22:10Z",
+  "last_updated": "2026-10-18T09:16:24Z",
   "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-17T09:22:10Z",
+        "at": "2026-10-18T09:16:24Z",
         "layer": "verify",
-        "run_id": "2026-10-17T09-22-10Z-bbfc37"
+        "run_id": "2026-10-18T09-16-24Z-2e28bb"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-17T09-22-10Z-bbfc37"
+    "last_run_id": "2026-10-18T09-16-24Z-2e28bb"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -121,6 +137,10 @@
     "recency_rank": 739898
   },
   "updates": [
+    {
+      "date": "2026-10-18",
+      "text": "PAHO reported Panama's Ministry of Health found 29 health facilities affected across eight provinces and the Ngäbe-Buglé comarca, most still operating; the injury/death toll (27 injured, no deaths) is unchanged. GDACS's MMI VII+ exposure estimate rose to about 130,000 (score 1.4), after an intervening estimate of about 50,000; USGS's ground-failure estimates held steady."
+    },
     {
       "date": "2026-10-17",
       "text": "GDACS revised its MMI VII+ exposed-population estimate sharply down to about 50,000 (from ~540,000); USGS's ground-failure product was revised up to ~49,000 people exposed to liquefaction (Orange) and ~200 to landslide (Yellow). A M6.1 aftershock struck near Rio Grande on 12 October, and Copernicus EMS mapping for Los Santos continued through 16 October."
@@ -140,7 +160,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
