@@ -1,0 +1,56 @@
+{
+  "category": "humanitarian",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-19",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168573",
+      "text": "UN News, citing IOM: a boat carrying 305 people from Djibouti toward Yemen capsized near Guehere, north of Obock, in the early hours of Friday (9 October 2026). The confirmed death toll rose to at least 139, including children, with 84 people still missing, up from an initial count of 109 dead and 116 missing after the bodies of 30 more people were recovered; about 82 of the 305 aboard survived. IOM Resident Coordinator Jose Barahona said at least 139 lives were lost, and IOM called it one of the deadliest shipwrecks recorded on the Eastern Route from the Horn of Africa to the Arabian Peninsula.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A migrant boat carrying 305 people from Djibouti toward Yemen capsized near Obock, Djibouti, in the early hours of 9 October 2026. IOM raised the confirmed death toll to at least 139 people, including children, with 84 still missing and about 82 survivors, up from an initial count of 109 dead and 116 missing as more bodies were recovered. IOM called it one of the deadliest shipwrecks recorded on the Eastern Route between the Horn of Africa and Yemen, and search operations were continuing as of mid-October.",
+  "event": {
+    "impact": {
+      "deaths": 139,
+      "displaced": null,
+      "summary": "IOM confirmed at least 139 people dead, including children, and 84 still missing after a boat carrying 305 migrants capsized near Obock, Djibouti on 9 October 2026 while crossing to Yemen; about 82 people survived. The toll rose from an initial 109 dead and 116 missing as more bodies were recovered, and officials cautioned it may still rise since the count covers only bodies already buried by Djiboutian authorities."
+    },
+    "live_source_url": "https://news.un.org/en/story/2026/10/1168573",
+    "location": {
+      "country": "Djibouti",
+      "lat": 11.9667,
+      "lon": 43.2667,
+      "region": "Obock region (near Guehere, north of Obock)"
+    },
+    "occurrence_date": "2026-10-09",
+    "scale": "Migrant vessel capsize; 139+ dead, 84 missing",
+    "status": "ongoing"
+  },
+  "id": "djibouti-migrant-shipwreck-2026",
+  "last_updated": "2026-10-19T09:11:06Z",
+  "name": "Migrant Boat Shipwreck — Obock, Djibouti",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-19T09:11:06Z",
+        "layer": "verify",
+        "run_id": "2026-10-19T09-11-06Z-2fd597"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-19T09-11-06Z-2fd597"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398983.0,
+    "impact_rank": 3,
+    "recency_rank": 739898
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 1 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
