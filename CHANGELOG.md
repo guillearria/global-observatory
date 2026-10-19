@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-10-19 — World Pulse refresh (2026-10-19): add Djibouti migrant shipwreck; re-verify 20 ongoing events (Africa/Haiti, Middle East, Americas, Japan/Pacific/N. America clusters) (`a0742e9`)
+
+- **Added:** djibouti-migrant-shipwreck-2026
+- **Updated:** canada-british-columbia-wildfires-2026, colombia-earthquake-choco-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, indonesia-wildfires-haze-2026, iran-israel-us-war-2026, japan-typhoon-dujuan-2026, japan-volcano-tokachidake-2026, panama-earthquake-azuero-2026, somalia-baidoa-clashes-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, typhoon-champi-guam-mariana-2026, usa-california-big-sur-wildfires-2026, usa-new-york-measles-outbreak-2026, usa-washington-wildfires-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
+
 ## 2026-10-18 — World Pulse daily refresh (2026-10-18): Yemen/Sudan displacement revised up, Typhoon Champi reaches Super Typhoon strength near Guam, Panama earthquake exposure revised, Ebola DRC (Kenya 3rd case), Nepal Rasuwa and Indonesia haze updates; re-verify 20 ongoing events unchanged (`e6ddf6b`)
 
 - **Updated:** canada-british-columbia-wildfires-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, indonesia-volcano-krakatau-2026, indonesia-wildfires-haze-2026, iran-israel-us-war-2026, japan-typhoon-dujuan-2026, japan-volcano-tokachidake-2026, mindanao-earthquake-philippines-2026, nepal-rasuwa-glacial-flood-2026, pakistan-floods-2026, panama-earthquake-azuero-2026, somalia-baidoa-clashes-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, thailand-bangkok-floods-2026, typhoon-champi-guam-mariana-2026, usa-california-big-sur-wildfires-2026, usa-new-york-measles-outbreak-2026, usa-washington-wildfires-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
