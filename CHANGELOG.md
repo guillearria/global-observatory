@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-10-19 — Threats refresh (2026-10-19): add AMOC collapse, major tsunami, and nuclear/radiological material out of regulatory control (`4e0bd9d`)
+
+- **Added:** amoc-collapse, major-tsunami, nuclear-radiological-material-trafficking
+
 ## 2026-10-19 — World Pulse daily refresh (2026-10-19): re-verify South/SE Asia floods and volcano cluster; typhoon Champi intensity/exposure revised upward (`1ca380d`)
 
 - **Updated:** china-floods-yangtze-typhoon-dolphin-2026, india-monsoon-floods-2026, indonesia-volcano-krakatau-2026, mindanao-earthquake-philippines-2026, nepal-rasuwa-glacial-flood-2026, pakistan-floods-2026, thailand-bangkok-floods-2026
