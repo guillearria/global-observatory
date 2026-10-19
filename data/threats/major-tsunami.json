@@ -1,0 +1,105 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "high",
+      "numeric_annual": null,
+      "window": "ongoing"
+    },
+    "severity": "continental",
+    "summary": "A recurrent, well-catalogued hazard whose historical toll — over 270 deadly tsunamis and more than 544,000 known deaths — is dominated by a handful of basin-wide events, the 2004 Indian Ocean tsunami alone killing 227,899 people. Ocean-crossing waves can be warned against hours ahead; locally generated ones arrive within minutes and effectively cannot be, which is why exposure and evacuation readiness, not detection, decide the death toll.",
+    "timeframe": "Tsunamis recur throughout the historical record, with over 270 deadly ones catalogued; the basin-wide, mass-casualty events come from great subduction-zone earthquakes that recur on timescales of centuries at any one source and cannot be forecast."
+  },
+  "category": "geological",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-19",
+      "source_name": "NOAA",
+      "source_url": "https://www.noaa.gov/explainers/science-behind-tsunamis",
+      "text": "Of the approximately 2,800 events in the NCEI Global Historical Tsunami Database, more than 1,400 are confirmed tsunamis. Over 270 confirmed deadly tsunamis have resulted in over 544,000 known (or confirmed) deaths, a number NOAA notes may include deaths from the generating event such as the earthquake.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-19",
+      "source_name": "NOAA",
+      "source_url": "https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/tsunamis/global-historical-data",
+      "text": "NOAA's National Centers for Environmental Information describe the Global Historical Tsunami Database as spanning 2000 B.C. to the present and including more than 27,000 runup locations where tsunami effects were observed.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-10-19",
+      "source_name": "NOAA",
+      "source_url": "https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/tsunamis/global-historical-data",
+      "text": "NOAA's National Centers for Environmental Information record 227,899 deaths from the 2004 Indian Ocean tsunami, and state that tsunamis have caused more than 500,000 fatalities throughout the world.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-10-19",
+      "source_name": "NOAA",
+      "source_url": "https://www.noaa.gov/explainers/science-behind-tsunamis",
+      "text": "In the 2004 Indian Ocean tsunami, wave heights reached 167 feet in Indonesia's Aceh province, and the waves reached some areas within 20 minutes and others in 7 hours.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-10-19",
+      "source_name": "NOAA",
+      "source_url": "https://www.noaa.gov/explainers/science-behind-tsunamis",
+      "text": "NOAA states that landslide-generated tsunamis can impact coastlines within minutes with little to no warning, though they usually lose energy quickly and rarely affect distant coastlines.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-10-19",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/centers/pcmsc/could-it-happen-here",
+      "text": "USGS states that geologic evidence of submerged vegetation indicates that large or great earthquakes of magnitude 8 to 9 have occurred on average every 500 years along the Cascadia subduction zone, and that a tsunami was generated on 26 January 1700 by a local earthquake close to magnitude 9.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-7",
+      "retrieved_date": "2026-10-19",
+      "source_name": "USGS",
+      "source_url": "https://www.usgs.gov/centers/pcmsc/could-it-happen-here",
+      "text": "USGS warns that if you see the tsunami, it is too late to out run it, and that future great ruptures of the Cascadia subduction zone would most likely cause local and possibly ocean-wide tsunamis that could affect the western United States.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-8",
+      "retrieved_date": "2026-10-19",
+      "source_name": "National Weather Service (NWS)",
+      "source_url": "https://www.weather.gov/safety/tsunami",
+      "text": "The US National Weather Service states that a tsunami can strike any ocean coast at any time, and that we cannot predict where, when or how destructive the next tsunami will be.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A tsunami is a series of ocean waves, usually set off by a large undersea earthquake, that can cross an entire ocean basin and kill tens of thousands of people on arrival. NOAA's global historical database holds approximately 2,800 events back to 2000 B.C., of which more than 1,400 are confirmed tsunamis and over 270 were deadly, together accounting for over 544,000 known deaths — a figure NOAA cautions may include deaths from the generating earthquake. The 2004 Indian Ocean tsunami alone killed 227,899 people, with wave heights reaching 167 feet in Indonesia's Aceh province and water arriving in some areas within 20 minutes and others only after 7 hours. That spread is the heart of the hazard: distant coasts can be warned, but a locally generated tsunami often outruns any alert, and landslide-driven ones can impact coastlines within minutes with little to no warning. The great subduction-zone sources recur on timescales of centuries — USGS finds magnitude 8 to 9 earthquakes have occurred on average every 500 years on the Cascadia zone, the last on 26 January 1700 — and the National Weather Service states it cannot predict where, when or how destructive the next tsunami will be.",
+  "id": "major-tsunami",
+  "last_updated": "2026-10-19T10:23:52Z",
+  "name": "Major Tsunami",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-19T10:23:52Z",
+        "layer": "verify",
+        "run_id": "2026-10-19T10-23-52Z-894a44"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-19T10-23-52Z-894a44"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 24.0,
+    "probability_rank": 4,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T10:21:01Z",
+  "last_updated": "2026-10-19T10:23:52Z",
   "published": [
     {
       "assessment": {
@@ -83,6 +83,95 @@
         "composite": 32.0,
         "probability_rank": 2,
         "severity_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "low",
+          "numeric_annual": null,
+          "window": "next-100-years"
+        },
+        "severity": "continental",
+        "summary": "Measured AMOC change is real but contested: a reconstructed slowdown of about 15 percent since the 1950s and a 12% weakening of the deep Antarctic Bottom Water limb over 2000-2020, set against NOAA's finding that the overturning weakening has nearly stalled since the early 2010s and that the Florida Current has held steady for 40 years. An outright collapse this century is a low-probability, high-impact tail that EU risk bodies now treat as a security planning problem rather than a forecast, and for which early warning monitoring does not yet exist.",
+        "timeframe": "Direct basin-wide monitoring spans only about two decades, so the observed trend remains uncertain; an abrupt collapse is generally assessed as unlikely this century, but would be effectively irreversible on human timescales if it occurred."
+      },
+      "category": "climate",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-10-19",
+          "source_name": "NOAA",
+          "source_url": "https://www.aoml.noaa.gov/advancing-our-understanding-of-the-amoc/",
+          "text": "NOAA's Atlantic Oceanographic and Meteorological Laboratory describes the AMOC as the Atlantic component of the global ocean conveyor belt and a crucial component of the global heat, salt, nutrients and carbon balances in the ocean, affecting regional climate, sea level and marine ecosystems.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-10-19",
+          "source_name": "NOAA",
+          "source_url": "https://www.aoml.noaa.gov/advancing-our-understanding-of-the-amoc/",
+          "text": "NOAA reports that extensive weakening of the Atlantic Meridional Overturning Circulation occurred in the 2000s, primarily driven by anthropogenic forcing (increased CO2 and reduced aerosol).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-10-19",
+          "source_name": "NOAA",
+          "source_url": "https://www.aoml.noaa.gov/advancing-our-understanding-of-the-amoc/",
+          "text": "NOAA reports that a strengthening natural signal since the early 2010s has cancelled out the anthropogenic weakening signal, leading to a near stalling of the AMOC weakening, and that the Florida Current has remained remarkably stable over the past 40 years.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-10-19",
+          "source_name": "NOAA",
+          "source_url": "https://www.aoml.noaa.gov/atlantic-meridional-overturning-circulation-weakening-in-the-deep-sea-of-north-atlantic/",
+          "text": "A study reported by NOAA's Atlantic Oceanographic and Meteorological Laboratory found that the northward transport of Antarctic Bottom Water at 16°N weakened by about 12% during 2000-2020.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-10-19",
+          "source_name": "NOAA",
+          "source_url": "https://www.fisheries.noaa.gov/feature-story/reconstruction-major-north-atlantic-circulation-system-shows-weakening",
+          "text": "NOAA Fisheries reported in 2018 that a reconstruction of the Atlantic Meridional Overturning Circulation indicates it has slowed down or weakened by about 15 percent since the 1950s.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-10-19",
+          "source_name": "European Union",
+          "source_url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC140827",
+          "text": "A January 2025 European Commission Joint Research Centre policy brief states that widespread and systemic risks of crossing several Earth System Tipping Points are becoming an emerging security threat for Europe, naming a collapse of the Atlantic ocean circulation as an example with direct impacts to Europe, and calls for early warning monitoring systems and tipping-point-tailored risk assessments for Europe.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "The Atlantic Meridional Overturning Circulation carries warm water northward through the Atlantic, and a collapse of it would abruptly reorganise climate across Europe and the tropics. NOAA describes the AMOC as the Atlantic component of the global ocean conveyor belt and a crucial component of the global heat, salt, nutrients and carbon balances in the ocean. Whether it is already failing is genuinely contested: NOAA Fisheries reported in 2018 a slowdown of about 15 percent since the 1950s, and NOAA's Atlantic Oceanographic and Meteorological Laboratory found extensive weakening in the 2000s driven primarily by anthropogenic forcing — but also that a natural strengthening signal since the early 2010s has produced a near stalling of that weakening, with the Florida Current remarkably stable over the past 40 years. The deep limb gives a clearer signal: northward transport of Antarctic Bottom Water at 16°N weakened by about 12% during 2000-2020. The policy concern is the tail rather than the trend — the European Commission's Joint Research Centre names a collapse of the Atlantic ocean circulation among the Earth System Tipping Points posing an emerging security threat to Europe.",
+      "id": "amoc-collapse",
+      "last_updated": "2026-10-19T10:23:52Z",
+      "name": "Atlantic Overturning Circulation (AMOC) Collapse",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-10-19T10:23:52Z",
+            "layer": "verify",
+            "run_id": "2026-10-19T10-23-52Z-0d6e23"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-10-19T10-23-52Z-0d6e23"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 22.0,
+        "probability_rank": 2,
+        "severity_rank": 2
       },
       "verification": {
         "confidence": "high",
@@ -1194,6 +1283,111 @@
     {
       "assessment": {
         "probability": {
+          "estimate": "high",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "continental",
+        "summary": "A recurrent, well-catalogued hazard whose historical toll — over 270 deadly tsunamis and more than 544,000 known deaths — is dominated by a handful of basin-wide events, the 2004 Indian Ocean tsunami alone killing 227,899 people. Ocean-crossing waves can be warned against hours ahead; locally generated ones arrive within minutes and effectively cannot be, which is why exposure and evacuation readiness, not detection, decide the death toll.",
+        "timeframe": "Tsunamis recur throughout the historical record, with over 270 deadly ones catalogued; the basin-wide, mass-casualty events come from great subduction-zone earthquakes that recur on timescales of centuries at any one source and cannot be forecast."
+      },
+      "category": "geological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-10-19",
+          "source_name": "NOAA",
+          "source_url": "https://www.noaa.gov/explainers/science-behind-tsunamis",
+          "text": "Of the approximately 2,800 events in the NCEI Global Historical Tsunami Database, more than 1,400 are confirmed tsunamis. Over 270 confirmed deadly tsunamis have resulted in over 544,000 known (or confirmed) deaths, a number NOAA notes may include deaths from the generating event such as the earthquake.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-10-19",
+          "source_name": "NOAA",
+          "source_url": "https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/tsunamis/global-historical-data",
+          "text": "NOAA's National Centers for Environmental Information describe the Global Historical Tsunami Database as spanning 2000 B.C. to the present and including more than 27,000 runup locations where tsunami effects were observed.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-10-19",
+          "source_name": "NOAA",
+          "source_url": "https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/tsunamis/global-historical-data",
+          "text": "NOAA's National Centers for Environmental Information record 227,899 deaths from the 2004 Indian Ocean tsunami, and state that tsunamis have caused more than 500,000 fatalities throughout the world.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-10-19",
+          "source_name": "NOAA",
+          "source_url": "https://www.noaa.gov/explainers/science-behind-tsunamis",
+          "text": "In the 2004 Indian Ocean tsunami, wave heights reached 167 feet in Indonesia's Aceh province, and the waves reached some areas within 20 minutes and others in 7 hours.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-10-19",
+          "source_name": "NOAA",
+          "source_url": "https://www.noaa.gov/explainers/science-behind-tsunamis",
+          "text": "NOAA states that landslide-generated tsunamis can impact coastlines within minutes with little to no warning, though they usually lose energy quickly and rarely affect distant coastlines.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-10-19",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/centers/pcmsc/could-it-happen-here",
+          "text": "USGS states that geologic evidence of submerged vegetation indicates that large or great earthquakes of magnitude 8 to 9 have occurred on average every 500 years along the Cascadia subduction zone, and that a tsunami was generated on 26 January 1700 by a local earthquake close to magnitude 9.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-10-19",
+          "source_name": "USGS",
+          "source_url": "https://www.usgs.gov/centers/pcmsc/could-it-happen-here",
+          "text": "USGS warns that if you see the tsunami, it is too late to out run it, and that future great ruptures of the Cascadia subduction zone would most likely cause local and possibly ocean-wide tsunamis that could affect the western United States.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-10-19",
+          "source_name": "National Weather Service (NWS)",
+          "source_url": "https://www.weather.gov/safety/tsunami",
+          "text": "The US National Weather Service states that a tsunami can strike any ocean coast at any time, and that we cannot predict where, when or how destructive the next tsunami will be.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A tsunami is a series of ocean waves, usually set off by a large undersea earthquake, that can cross an entire ocean basin and kill tens of thousands of people on arrival. NOAA's global historical database holds approximately 2,800 events back to 2000 B.C., of which more than 1,400 are confirmed tsunamis and over 270 were deadly, together accounting for over 544,000 known deaths — a figure NOAA cautions may include deaths from the generating earthquake. The 2004 Indian Ocean tsunami alone killed 227,899 people, with wave heights reaching 167 feet in Indonesia's Aceh province and water arriving in some areas within 20 minutes and others only after 7 hours. That spread is the heart of the hazard: distant coasts can be warned, but a locally generated tsunami often outruns any alert, and landslide-driven ones can impact coastlines within minutes with little to no warning. The great subduction-zone sources recur on timescales of centuries — USGS finds magnitude 8 to 9 earthquakes have occurred on average every 500 years on the Cascadia zone, the last on 26 January 1700 — and the National Weather Service states it cannot predict where, when or how destructive the next tsunami will be.",
+      "id": "major-tsunami",
+      "last_updated": "2026-10-19T10:23:52Z",
+      "name": "Major Tsunami",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-10-19T10:23:52Z",
+            "layer": "verify",
+            "run_id": "2026-10-19T10-23-52Z-894a44"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-10-19T10-23-52Z-894a44"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 24.0,
+        "probability_rank": 4,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
           "estimate": "very-low",
           "numeric_annual": null,
           "window": "next-100-years"
@@ -1277,6 +1471,111 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "high",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "regional",
+        "summary": "Loss of regulatory control over radioactive material is continuous and well documented — hundreds of incidents reported every year, concentrated in industrial and medical sources and in transport, where more than half of all thefts since 1993 and about 70% in the last decade have occurred. The severe tail stays rare: confirmed trafficking intent accounts for a small fraction of thefts, and no seizure of kilogram quantities of weapons-usable nuclear material has been reported since 1994.",
+        "timeframe": "Incidents are reported to the IAEA every year, fluctuating around a long-term average of roughly 180 per year; the rare high-consequence case — a radiological dispersal device, or diversion of weapons-usable material — could occur at any time, but the last seizure of kilogram quantities of weapons-usable nuclear material was in 1994."
+      },
+      "category": "nuclear",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-10-19",
+          "source_name": "IAEA",
+          "source_url": "https://data.iaea.org/dataset/3ab8e4cb-9b81-4c92-ae1d-238bc0acb8fd/resource/3d9bea58-114b-43da-8322-525df197e968/download/itdb-factsheet-2026.pdf",
+          "text": "As of 31 December 2025, a total of 4626 incidents have been reported by participating States to the IAEA Incident and Trafficking Database: 359 categorized within Group I (connected or likely connected with trafficking or malicious use), 1120 within Group II (undetermined intent) and 3147 within Group III (not, or unlikely to be, connected with trafficking or malicious use).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-10-19",
+          "source_name": "IAEA",
+          "source_url": "https://data.iaea.org/dataset/3ab8e4cb-9b81-4c92-ae1d-238bc0acb8fd/resource/3d9bea58-114b-43da-8322-525df197e968/download/itdb-factsheet-2026.pdf",
+          "text": "In 2025, 236 incidents were reported to the ITDB by 34 States, an increase of 89 incidents from 2024; the IAEA states the increase reflects retrospective reporting of past incidents rather than an actual increase in incident frequency.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-10-19",
+          "source_name": "IAEA",
+          "source_url": "https://data.iaea.org/dataset/3ab8e4cb-9b81-4c92-ae1d-238bc0acb8fd/resource/3d9bea58-114b-43da-8322-525df197e968/download/itdb-factsheet-2026.pdf",
+          "text": "Reports to the ITDB have fluctuated around a long-term average of approximately 180 incidents per year since the trend stabilized after 2007, and the database's information is disseminated through the IAEA to 145 participating States, a number that remained unchanged in 2025.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-10-19",
+          "source_name": "IAEA",
+          "source_url": "https://data.iaea.org/dataset/3ab8e4cb-9b81-4c92-ae1d-238bc0acb8fd/resource/3d9bea58-114b-43da-8322-525df197e968/download/itdb-factsheet-2026.pdf",
+          "text": "Of all incidents reported to the ITDB, 14% involved nuclear material, 60% involved other radioactive material, and 26% involved radioactively contaminated and other material; the IAEA reports that incidents involving nuclear material continue to decline.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-10-19",
+          "source_name": "IAEA",
+          "source_url": "https://data.iaea.org/dataset/3ab8e4cb-9b81-4c92-ae1d-238bc0acb8fd/resource/3d9bea58-114b-43da-8322-525df197e968/download/itdb-factsheet-2026.pdf",
+          "text": "Overall, 54.5% of all thefts reported to the ITDB since 1993 have occurred during the authorized transport of nuclear or other radioactive material, and this figure stands at 69.6% in the last decade.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-10-19",
+          "source_name": "IAEA",
+          "source_url": "https://data.iaea.org/dataset/3ab8e4cb-9b81-4c92-ae1d-238bc0acb8fd/resource/3d9bea58-114b-43da-8322-525df197e968/download/itdb-factsheet-2026.pdf",
+          "text": "Of the thefts reported to the ITDB, 3.7% have been confirmed to be related to trafficking, 9.7% have been confirmed not to be related to trafficking or malicious use, and the trafficking or malicious use intent of 86.6% of thefts remains undetermined.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-10-19",
+          "source_name": "IAEA",
+          "source_url": "https://data.iaea.org/dataset/3ab8e4cb-9b81-4c92-ae1d-238bc0acb8fd/resource/3d9bea58-114b-43da-8322-525df197e968/download/itdb-factsheet-2026.pdf",
+          "text": "In the period between 1993 and 2025, confirmed Group I incidents included high enriched uranium (13), plutonium (3) and plutonium-beryllium neutron sources (5); the latest incident that involved kilogram quantities of weapons usable nuclear material occurred in 1994.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-10-19",
+          "source_name": "IAEA",
+          "source_url": "https://data.iaea.org/dataset/3ab8e4cb-9b81-4c92-ae1d-238bc0acb8fd/resource/3d9bea58-114b-43da-8322-525df197e968/download/itdb-factsheet-2026.pdf",
+          "text": "Thefts of Category 1-3 sealed radioactive sources — those the IAEA classes as dangerous to extremely dangerous to a person — comprise 11.7% of the total stolen sources, while thefts of Category 4 and 5 sources that are unlikely to be dangerous comprise 88.3%.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Nuclear and radioactive material that slips out of regulatory control could supply the ingredients for a radiological dispersal device or an improvised nuclear device. The IAEA's Incident and Trafficking Database has logged 4,626 incidents reported by participating States since 1993, 236 of them in 2025, though the agency attributes that year's rise mainly to retrospective reporting rather than to more incidents occurring. The overwhelming majority are not malicious: 3,147 incidents sit in the group confirmed or likely unconnected to trafficking, and the intent behind 86.6% of reported thefts is undetermined. What the record shows instead is a chronic regulatory and security weakness — 60% of incidents involve radioactive sources used in industry and medicine, and 54.5% of all thefts since 1993 occurred during authorized transport, rising to 69.6% in the last decade. Weapons-usable material is the rare exception: 13 confirmed high-enriched-uranium cases and 3 plutonium cases across 32 years, and the last seizure of kilogram quantities of weapons-usable nuclear material was in 1994.",
+      "id": "nuclear-radiological-material-trafficking",
+      "last_updated": "2026-10-19T10:23:52Z",
+      "name": "Nuclear and Radiological Material Out of Regulatory Control",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-10-19T10:23:52Z",
+            "layer": "verify",
+            "run_id": "2026-10-19T10-23-52Z-66b5c2"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-10-19T10-23-52Z-66b5c2"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 14.0,
+        "probability_rank": 4,
+        "severity_rank": 1
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

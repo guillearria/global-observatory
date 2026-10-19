@@ -1,0 +1,89 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "low",
+      "numeric_annual": null,
+      "window": "next-100-years"
+    },
+    "severity": "continental",
+    "summary": "Measured AMOC change is real but contested: a reconstructed slowdown of about 15 percent since the 1950s and a 12% weakening of the deep Antarctic Bottom Water limb over 2000-2020, set against NOAA's finding that the overturning weakening has nearly stalled since the early 2010s and that the Florida Current has held steady for 40 years. An outright collapse this century is a low-probability, high-impact tail that EU risk bodies now treat as a security planning problem rather than a forecast, and for which early warning monitoring does not yet exist.",
+    "timeframe": "Direct basin-wide monitoring spans only about two decades, so the observed trend remains uncertain; an abrupt collapse is generally assessed as unlikely this century, but would be effectively irreversible on human timescales if it occurred."
+  },
+  "category": "climate",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-19",
+      "source_name": "NOAA",
+      "source_url": "https://www.aoml.noaa.gov/advancing-our-understanding-of-the-amoc/",
+      "text": "NOAA's Atlantic Oceanographic and Meteorological Laboratory describes the AMOC as the Atlantic component of the global ocean conveyor belt and a crucial component of the global heat, salt, nutrients and carbon balances in the ocean, affecting regional climate, sea level and marine ecosystems.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-19",
+      "source_name": "NOAA",
+      "source_url": "https://www.aoml.noaa.gov/advancing-our-understanding-of-the-amoc/",
+      "text": "NOAA reports that extensive weakening of the Atlantic Meridional Overturning Circulation occurred in the 2000s, primarily driven by anthropogenic forcing (increased CO2 and reduced aerosol).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-10-19",
+      "source_name": "NOAA",
+      "source_url": "https://www.aoml.noaa.gov/advancing-our-understanding-of-the-amoc/",
+      "text": "NOAA reports that a strengthening natural signal since the early 2010s has cancelled out the anthropogenic weakening signal, leading to a near stalling of the AMOC weakening, and that the Florida Current has remained remarkably stable over the past 40 years.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-10-19",
+      "source_name": "NOAA",
+      "source_url": "https://www.aoml.noaa.gov/atlantic-meridional-overturning-circulation-weakening-in-the-deep-sea-of-north-atlantic/",
+      "text": "A study reported by NOAA's Atlantic Oceanographic and Meteorological Laboratory found that the northward transport of Antarctic Bottom Water at 16°N weakened by about 12% during 2000-2020.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-10-19",
+      "source_name": "NOAA",
+      "source_url": "https://www.fisheries.noaa.gov/feature-story/reconstruction-major-north-atlantic-circulation-system-shows-weakening",
+      "text": "NOAA Fisheries reported in 2018 that a reconstruction of the Atlantic Meridional Overturning Circulation indicates it has slowed down or weakened by about 15 percent since the 1950s.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-10-19",
+      "source_name": "European Union",
+      "source_url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC140827",
+      "text": "A January 2025 European Commission Joint Research Centre policy brief states that widespread and systemic risks of crossing several Earth System Tipping Points are becoming an emerging security threat for Europe, naming a collapse of the Atlantic ocean circulation as an example with direct impacts to Europe, and calls for early warning monitoring systems and tipping-point-tailored risk assessments for Europe.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "The Atlantic Meridional Overturning Circulation carries warm water northward through the Atlantic, and a collapse of it would abruptly reorganise climate across Europe and the tropics. NOAA describes the AMOC as the Atlantic component of the global ocean conveyor belt and a crucial component of the global heat, salt, nutrients and carbon balances in the ocean. Whether it is already failing is genuinely contested: NOAA Fisheries reported in 2018 a slowdown of about 15 percent since the 1950s, and NOAA's Atlantic Oceanographic and Meteorological Laboratory found extensive weakening in the 2000s driven primarily by anthropogenic forcing — but also that a natural strengthening signal since the early 2010s has produced a near stalling of that weakening, with the Florida Current remarkably stable over the past 40 years. The deep limb gives a clearer signal: northward transport of Antarctic Bottom Water at 16°N weakened by about 12% during 2000-2020. The policy concern is the tail rather than the trend — the European Commission's Joint Research Centre names a collapse of the Atlantic ocean circulation among the Earth System Tipping Points posing an emerging security threat to Europe.",
+  "id": "amoc-collapse",
+  "last_updated": "2026-10-19T10:23:52Z",
+  "name": "Atlantic Overturning Circulation (AMOC) Collapse",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-19T10:23:52Z",
+        "layer": "verify",
+        "run_id": "2026-10-19T10-23-52Z-0d6e23"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-19T10-23-52Z-0d6e23"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 22.0,
+    "probability_rank": 2,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
