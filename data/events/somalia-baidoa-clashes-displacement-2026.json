@@ -11,19 +11,19 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-10-19",
+      "retrieved_date": "2026-10-20",
       "source_name": "UNHCR",
       "source_url": "https://data.unhcr.org/en/documents/details/124371",
-      "text": "UNHCR Flash Alert #24 (published 6 October 2026) reports that renewed clashes in Baidoa, which began on 28 September 2026 and continued through 3 October 2026 between forces associated with the former Southwest State administration and the Somali National Army over control of the town, displaced more than 5,600 civilians and caused civilian casualties.",
+      "text": "UNHCR Flash Alert #24 (published Oct 2026) reports that renewed clashes in Baidoa, which began on 28 September 2026 and continued through 3 October 2026 between forces associated with the former Southwest State administration and the Somali National Army over control of the town, displaced 934 households (5,604 individuals) and caused 11 deaths and 86 injuries recorded at Bay Regional Hospital and Bayhaw Hospital, including eight deaths reportedly caused by stray bullets near RP Hotel; Southwest University, the RP Hotel, two mosques and three schools also reportedly sustained significant damage.",
       "verification_status": "verified"
     }
   ],
   "description": "Repeated rounds of fighting for control of Baidoa, the South West State capital, between forces aligned with the Southwest State administration and the Somali National Army have displaced tens of thousands of civilians since late September 2026. UNHCR recorded more than 14,000 people displaced by clashes between 3 and 5 September, and a further 5,600-plus displaced by renewed fighting from 28 September to 3 October, on top of a city that already hosts more than half a million people previously displaced by conflict, drought and hunger elsewhere in Somalia. The fighting remains unresolved, with humanitarian partners responding across protection, shelter, food security, water and sanitation, and child-protection sectors.",
   "event": {
     "impact": {
-      "deaths": null,
+      "deaths": 11,
       "displaced": 19600,
-      "summary": "UNHCR has recorded at least 19,600 people newly displaced by two rounds of clashes in Baidoa: more than 14,000 displaced between 3 and 5 September 2026, and more than 5,600 more displaced by renewed fighting from 28 September to 3 October 2026 that also caused civilian casualties not yet quantified by UNHCR. Baidoa already hosts more than half a million people displaced by earlier conflict, drought and hunger, and the underlying dispute over control of the city remains unresolved."
+      "summary": "UNHCR has recorded at least 19,600 people newly displaced by two rounds of clashes in Baidoa: more than 14,000 displaced between 3 and 5 September 2026, and 934 households (5,604 individuals) displaced by renewed fighting from 28 September to 3 October 2026. UNHCR's Flash Alert #24 specifies that the September-October round of fighting caused 11 deaths and 86 injuries recorded at Bay Regional Hospital and Bayhaw Hospital, including eight deaths from stray bullets near the RP Hotel, and damaged Southwest University, the RP Hotel, two mosques and three schools. Baidoa already hosts more than half a million people displaced by earlier conflict, drought and hunger, and the underlying dispute over control of the city remains unresolved."
     },
     "live_source_url": "https://reliefweb.int/country/som",
     "location": {
@@ -37,18 +37,18 @@
     "status": "ongoing"
   },
   "id": "somalia-baidoa-clashes-displacement-2026",
-  "last_updated": "2026-10-19T09:11:10Z",
+  "last_updated": "2026-10-20T09:09:53Z",
   "name": "Baidoa Clashes & Displacement — South West State, Somalia",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-19T09:11:10Z",
+        "at": "2026-10-20T09:09:53Z",
         "layer": "verify",
-        "run_id": "2026-10-19T09-11-10Z-dbe3ba"
+        "run_id": "2026-10-20T09-09-53Z-8902d2"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-19T09-11-10Z-dbe3ba"
+    "last_run_id": "2026-10-20T09-09-53Z-8902d2"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -56,6 +56,12 @@
     "impact_rank": 2,
     "recency_rank": 739887
   },
+  "updates": [
+    {
+      "date": "2026-10-20",
+      "text": "UNHCR's Flash Alert #24 document specifies that the 28 September-3 October round of clashes caused 11 deaths and 86 injuries (recorded at Bay Regional Hospital and Bayhaw Hospital), a casualty figure not previously quantified."
+    }
+  ],
   "verification": {
     "confidence": "high",
     "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",

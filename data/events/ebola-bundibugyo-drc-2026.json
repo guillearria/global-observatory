@@ -354,6 +354,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-kenya-4",
+      "retrieved_date": "2026-10-20",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "ECDC's country overview reports that Kenya's Bundibugyo virus disease case count rose to eight, including one death, as of 18 October 2026. Following the first case (imported from DRC, reported 6 October, since died) and second and third cases (close family contacts, confirmed 14 and 16 October), four further cases were confirmed on 17 October -- one a close relative of the first case and three healthcare workers who had been in contact with the first case -- and an eighth case, described by Kenya's Health Ministry Director-General as a patient attendant rather than a healthcare worker, was confirmed on 18 October. All six cases added since 16 October are linked to the first case; all have been placed in quarantine.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-new-ecdc-oct2",
       "retrieved_date": "2026-10-06",
       "source_name": "ECDC",
@@ -514,6 +522,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-new-oct17",
+      "retrieved_date": "2026-10-20",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "ECDC's country overview (page last updated 19 October 2026 at 14:35, data through 17 October 2026): the Democratic Republic of the Congo reported a total of 9,455 confirmed cases, including 4,561 related deaths, from data up until 17 October. Provincial breakdown as of 17 October: Ituri 6,918 cases/3,197 deaths (28 of 36 health zones), Nord-Kivu 2,036 cases/1,156 deaths (17 of 34 health zones), Haut-Uele 408 cases/176 deaths (7 of 13 health zones), Tshopo 73 cases/25 deaths (7 of 23 health zones), Bas-Uele 13 cases/4 deaths (4 of 11 health zones), Sud-Kivu 3 cases/1 death (1 of 34 health zones), Sud Ubangi 2 cases/1 death (1 of 16 health zones) and Nord Ubangi 2 cases/1 death (1 of 11 health zones); 66 of 178 health zones are now affected across eight provinces, with North Ubangi confirmed as the eighth.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-new-who-sept1",
       "retrieved_date": "2026-09-02",
       "source_name": "WHO",
@@ -522,12 +538,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 14 October 2026) puts the DRC toll at 9,277 confirmed cases and 4,478 deaths, spanning 65 of 167 health zones across seven provinces -- the country's largest recorded Ebola epidemic, with media reports of two cases in North Ubangi that would make it an eighth. Kenya has now confirmed three cases including one death, with its second and third patients -- both close family contacts of the first -- identified on 14 and 16 October while already under quarantine, and no evidence of community transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway, though its efficacy against this strain remains unestablished.",
+  "description": "An Ebola (Bundibugyo virus) outbreak declared a Public Health Emergency of International Concern in May 2026 remains active in the Democratic Republic of the Congo. ECDC's newest country overview (data through 17 October 2026) puts the DRC toll at 9,455 confirmed cases and 4,561 deaths, spanning 66 of 178 health zones across eight provinces -- the country's largest recorded Ebola epidemic, with North Ubangi now confirmed as the eighth affected province. Kenya's case count has grown to eight, including one death: six cases beyond the initial imported case and its first two close contacts were confirmed between 17 and 18 October, all linked to the first patient and placed in quarantine. Uganda's linked outbreak was declared over by WHO on 26 August 2026 at 20 cases and two deaths, and a 20,000-dose Phase 3 trial of the Ervebo vaccine is underway, though its efficacy against this strain remains unestablished.",
   "event": {
     "impact": {
-      "deaths": 4478,
+      "deaths": 4561,
       "displaced": null,
-      "summary": "ECDC's newest country overview (data through 14 October 2026) holds the DRC toll at 9,277 confirmed cases and 4,478 deaths, up from 9,144 cases and 4,410 deaths as of the prior 12 October data cut. The outbreak spans 65 of 167 health zones across seven provinces, with media reports additionally indicating two cases confirmed in North Ubangi, which would make it an eighth affected province. Kenya has confirmed three cases including one death: its second and third patients, both close family contacts of the first, were identified on 14 and 16 October respectively while already under quarantine, with 127 of 130 listed contacts in quarantine and no evidence of community transmission as of 16 October. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+      "summary": "ECDC's newest country overview (data through 17 October 2026, page updated 19 October) puts the DRC toll at 9,455 confirmed cases and 4,561 deaths, up from 9,277 cases and 4,478 deaths as of the prior 14 October data cut. The outbreak now spans 66 of 178 health zones across eight provinces, with North Ubangi confirmed as the eighth affected province and Ituri still the most affected (6,918 cases/3,197 deaths). Kenya's case count has risen to eight, including one death: six new cases beyond the initial imported case and its two close-contact cases were confirmed between 17 and 18 October, all linked to the first patient and placed in quarantine. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
     "location": {
@@ -541,18 +557,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-10-19T09:11:09Z",
+  "last_updated": "2026-10-20T09:10:54Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-19T09:11:09Z",
+        "at": "2026-10-20T09:10:54Z",
         "layer": "verify",
-        "run_id": "2026-10-19T09-11-09Z-829b35"
+        "run_id": "2026-10-20T09-10-54Z-377b9a"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-19T09-11-09Z-829b35"
+    "last_run_id": "2026-10-20T09-10-54Z-377b9a"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -561,6 +577,10 @@
     "recency_rank": 739751
   },
   "updates": [
+    {
+      "date": "2026-10-20",
+      "text": "DRC's confirmed toll rose to 9,455 cases and 4,561 deaths (data through 17 October), with North Ubangi confirmed as an eighth affected province; Kenya's case count grew to eight, including one death, after six new cases -- a relative and three healthcare workers on 17 October, and a patient attendant on 18 October -- all linked to and in contact with the first patient."
+    },
     {
       "date": "2026-10-18",
       "text": "WHO AFRO reported Kenya's third confirmed case on 16 October -- a 65-year-old woman, a close family contact of the first patient -- bringing Kenya's total to three cases and one death; the second and third patients were both already under quarantine when they fell ill, 127 of 130 listed contacts remain in quarantine, and Kenya's Ministry of Health reports no evidence of community transmission."
@@ -676,15 +696,11 @@
     {
       "date": "2026-08-26",
       "text": "WHO AFRO's Weekly External Situation Report 15 (data as of 23 August 2026) reported 5,584 confirmed cases and 2,680 confirmed deaths -- 563 new cases and 302 new deaths since Report 14 -- with affected health zones rising from 55 to 57 across six provinces; Viadana (Bas-Uele) and Mutwanga (Nord-Kivu) are the most recently affected."
-    },
-    {
-      "date": "2026-08-24",
-      "text": "Through early-to-mid August the DRC toll climbed steadily: 4,209 cases/1,916 deaths (7 Aug) rising to 4,665/2,184 (12-13 Aug, reaching a sixth province, Bas-Uele, and becoming the country's largest recorded Ebola outbreak) and 5,514/2,642 by 22 Aug, across 57 of 151 health zones in six provinces."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 65 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 67 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
