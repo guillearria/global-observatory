@@ -40,14 +40,30 @@
       "source_url": "https://api.weather.gov/alerts/active?area=GU",
       "text": "NWS Tiyan Guam's active-alerts feed (api.weather.gov, checked 19 October 2026): Guam and Rota remain under a Rip Current Statement and a High Surf Advisory, both issued 3:55 PM ChST and valid until 4:00 AM ChST on 20 October, attributed to the remnant southerly swell of Super Typhoon Champi, which is slowly diminishing; surf may drop below the advisory threshold around 20 October, which would allow the alerts to expire. No damage reports are mentioned in the feed.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-10-21",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=20&eventtype=TC",
+      "text": "GDACS's tropical cyclone report for CHAMPI-26 (event id 1001338, episode 20) now gives a tracking window of 14-21 October 2026 and a JTWC-sourced peak intensity of 296 km/h (Category 5), up from the 278 km/h recorded on 19 October, with the estimated population exposed to Category 1 or higher winds unchanged at about 230,000 across Guam, the Northern Mariana Islands and Japan.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-7",
+      "retrieved_date": "2026-10-21",
+      "source_name": "National Weather Service (NWS)",
+      "source_url": "https://www.weather.gov/gum/",
+      "text": "NWS Tiyan Guam's weather forecast office page (checked 21 October 2026, 7:06 PM ChST) states there are no watches, warnings, or advisories in effect for Guam, and no active tropical cyclones -- confirming the Rip Current Statement and High Surf Advisory tied to Champi's remnant swell have expired as forecast. No deaths, injuries or damage have been confirmed by an authoritative source for Guam or the Northern Mariana Islands.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Typhoon Champi tracked through the western Pacific toward Guam and the Northern Mariana Islands, peaking as a Category 5 Super Typhoon with JTWC-sourced maximum sustained winds of 278 km/h as it continued west after passing about 170 miles west of Guam on 18 October 2026 without a direct landfall. GDACS's latest tropical cyclone report rates the storm an Overall Red alert, now estimating about 230,000 people across Guam, the Northern Mariana Islands and Japan were exposed to Category 1 or higher winds as the storm's tracked window extended toward Japan. The US National Weather Service cancelled its Typhoon Warnings for Guam and Rota on the evening of 18 October, and by 19 October only a Rip Current Statement and High Surf Advisory remain in effect for Guam and Rota, driven by the storm's diminishing remnant swell and expected to expire around 20 October. No deaths, injuries or damage have yet been confirmed by an authoritative source.",
+  "description": "Typhoon Champi tracked through the western Pacific past Guam and the Northern Mariana Islands before continuing toward Japan's Ryukyu Islands. GDACS's tropical cyclone report, now covering a 14-21 October 2026 window, rates the storm an Overall Red alert with a JTWC-sourced peak intensity revised up to 296 km/h (Category 5) and an estimated 230,000 people across Guam, the Marianas and Japan exposed to Category 1 or higher winds. The storm passed about 170 miles west of Guam on 18 October without a direct landfall; NWS Tiyan Guam reports no watches, warnings or advisories remain in effect there as of 21 October. The system was still approaching waters south of Okinawa, Japan as of this check, with no confirmed deaths, injuries or damage from any authoritative source.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's latest Red-alert report (episode 20, tracking window 14-19 October) puts Typhoon Champi's peak intensity at 278 km/h (Category 5, per JTWC) and raises its estimated population exposed to Category 1 or higher winds to about 230,000 across Guam, the Northern Mariana Islands and Japan, up from 259 km/h and 180,000 in the prior episode. The storm's center passed about 170 miles west of Guam on 18 October without a direct landfall; the National Weather Service cancelled its Typhoon Warnings for Guam and Rota that evening, and by 19 October only a Rip Current Statement and High Surf Advisory remain in effect for Guam and Rota as the storm's remnant swell diminishes. No deaths, injuries or damage have yet been confirmed by an authoritative source."
+      "summary": "GDACS's latest report (episode 20, window now extended to 14-21 October) puts Typhoon Champi's peak intensity at 296 km/h (Category 5, JTWC), up from 278 km/h, with about 230,000 people exposed to Category 1 or higher winds across Guam, the Northern Mariana Islands and Japan, unchanged from the prior check. The storm passed about 170 miles west of Guam on 18 October without a direct landfall, and NWS Tiyan Guam reports no watches, warnings or advisories remain in effect as of 21 October. The storm was continuing toward waters south of Okinawa, Japan. No deaths, injuries or damage have yet been confirmed by an authoritative source."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=20&eventtype=TC",
     "location": {
@@ -57,22 +73,22 @@
       "region": "Guam, Rota, Tinian and Saipan"
     },
     "occurrence_date": "2026-10-14",
-    "scale": "GDACS Red alert; Category 5 Super Typhoon (278 km/h) passed ~170 mi west of Guam without landfall; advisories easing",
+    "scale": "GDACS Red alert; Category 5 Super Typhoon (296 km/h); passed Guam without landfall, now nearing Okinawa",
     "status": "ongoing"
   },
   "id": "typhoon-champi-guam-mariana-2026",
-  "last_updated": "2026-10-19T09:11:39Z",
+  "last_updated": "2026-10-21T09:11:17Z",
   "name": "Typhoon Champi — Guam & Northern Mariana Islands",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-19T09:11:39Z",
+        "at": "2026-10-21T09:11:17Z",
         "layer": "verify",
-        "run_id": "2026-10-19T09-11-39Z-dec2ca"
+        "run_id": "2026-10-21T09-11-17Z-aae6d4"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-19T09-11-39Z-dec2ca"
+    "last_run_id": "2026-10-21T09-11-17Z-aae6d4"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -81,6 +97,10 @@
     "recency_rank": 739903
   },
   "updates": [
+    {
+      "date": "2026-10-21",
+      "text": "GDACS revised Champi's peak intensity up to 296 km/h (Category 5, JTWC) and extended its tracking window to 14-21 October; NWS Tiyan Guam reports no watches, warnings or advisories remain in effect for Guam, confirming the storm's remnant-swell advisories have expired as forecast. The storm continues toward waters south of Okinawa, Japan."
+    },
     {
       "date": "2026-10-19",
       "text": "GDACS's latest report (episode 20) raised Champi's peak intensity to 278 km/h (Category 5, JTWC) and exposed population to about 230,000 across Guam, the Marianas and Japan, up from 259 km/h and 180,000. Only a Rip Current Statement and High Surf Advisory persist from the storm's diminishing swell, expected to expire around 20 October. No deaths or damage confirmed."
@@ -92,7 +112,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

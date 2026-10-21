@@ -1,0 +1,64 @@
+{
+  "category": "flood",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-21",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104217&episodeid=3",
+      "text": "GDACS's flood report for Chile (event id FL 1104217, episode 3, reporting window 06 October 2026 01:00 UTC - 15 October 2026 01:00 UTC) covers intense rainfall, thunderstorms and hail causing urban and river flooding in the Santiago Metropolitan Region from 13 October 2026; the report records 1 death and about 100 people displaced, with an Overall Green alert for low humanitarian impact.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-21",
+      "source_name": "Ministerio del Interior y Seguridad Publica (Chile)",
+      "source_url": "https://www.interior.gob.cl/noticias/2026/10/09/gobierno-decreta-zona-de-catastrofe-en-la-comuna-de-las-condes/",
+      "text": "Chile's Ministry of the Interior and Public Security (press release, 9 October 2026): Minister Claudio Alvarado officially declared the commune of Las Condes a catastrophe-affected zone (zona afectada por catastrofe) following the 8 October 2026 aluvion (debris flow); the declaration authorizes extraordinary administrative measures, with the Metropolitan Regional Presidential Delegate to coordinate recovery programs with the municipality, and classes were suspended in Las Condes on 9 October. Senapred had separately issued a red alert for ten communes in the Metropolitan Region over the risk of further mass-movement events.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A debris flow (aluvión) swept through the Las Condes commune in Santiago, Chile, on 8 October 2026 after heavy rain triggered a mass movement in the Quebrada Honda sector. Chile's Ministry of the Interior and Public Security officially declared Las Condes a catastrophe-affected zone the next day, and Senapred issued a red alert for ten Metropolitan Region communes over the risk of further landslides. GDACS recorded one death and about 100 people displaced in its flood report for the event; Chilean authorities reported several hundred people affected and evacuated, with no fatalities confirmed in their own tally as of the most recent available report.",
+  "event": {
+    "impact": {
+      "deaths": 1,
+      "displaced": 100,
+      "summary": "GDACS's flood report for the event (reporting window 6-15 October 2026) records 1 death and about 100 people displaced, rating the event Overall Green for low humanitarian impact. Chile's Ministry of the Interior and Public Security officially declared Las Condes a catastrophe-affected zone on 9 October 2026, the day after the debris flow, and Senapred separately issued a red alert for ten Metropolitan Region communes over the risk of further mass-movement events; the ministry's own release does not report a death, injury or damage total."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104217&episodeid=3",
+    "location": {
+      "country": "Chile",
+      "lat": -33.3844,
+      "lon": -70.5083,
+      "region": "Las Condes, Santiago Metropolitan Region (Quebrada Honda sector)"
+    },
+    "occurrence_date": "2026-10-08",
+    "scale": "Debris flow; catastrophe zone declared; Senapred Red Alert for 10 Metropolitan Region communes",
+    "status": "contained"
+  },
+  "id": "chile-aluvion-las-condes-2026",
+  "last_updated": "2026-10-21T09:16:25Z",
+  "name": "Debris Flow & Catastrophe Declaration — Las Condes, Chile",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-21T09:16:25Z",
+        "layer": "verify",
+        "run_id": "2026-10-21T09-16-25Z-41ddf9"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-21T09-16-25Z-41ddf9"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398971.0,
+    "impact_rank": 1,
+    "recency_rank": 739897
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
