@@ -227,6 +227,9 @@ Three things look like leftovers from the PR era but are intentional:
   site. Keep the public terms consistent too: "the checking program" is the trust gate, "the
   approved list" is `data/source-allowlist.json`, and "Under review" is quarantine. Don't
   over-explain: the About is one sentence, and the README carries the explanation.
+  **2026-10-20 (owner: "WAY too much verbosity"):** the README is now one screen; its full
+  plain-language text moved word for word to [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md). Reuse sentences
+  from there for the site copy. The About is still the README's first sentence.
 - **README screenshot of the map** *(deferred by the owner 2026-10-15)*. A screenshot near the
   top of the README would help lay readers, but the site may get a visual revamp soon. Do it
   once, after the revamp.
