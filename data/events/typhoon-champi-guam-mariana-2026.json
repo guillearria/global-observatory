@@ -56,14 +56,22 @@
       "source_url": "https://www.weather.gov/gum/",
       "text": "NWS Tiyan Guam's weather forecast office page (checked 21 October 2026, 7:06 PM ChST) states there are no watches, warnings, or advisories in effect for Guam, and no active tropical cyclones -- confirming the Rip Current Statement and High Surf Advisory tied to Champi's remnant swell have expired as forecast. No deaths, injuries or damage have been confirmed by an authoritative source for Guam or the Northern Mariana Islands.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-8",
+      "retrieved_date": "2026-10-22",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=32&eventtype=TC",
+      "text": "GDACS's tropical cyclone report for CHAMPI-26 (event id 1001338, episode 32, GLIDE TC-2026-000192-GUM) now gives a tracking window of 14-22 October 2026, with peak intensity unchanged at 296 km/h (Category 5, JTWC) and population exposed to Category 1 or higher winds unchanged at about 230,000. The report now additionally lists the Philippines and Taiwan among affected areas, alongside Guam, the Northern Mariana Islands and Japan, and cites a media item reporting sea travel suspended in five Bicol provinces, Philippines, due to a gale warning. No casualty or damage figures are reported.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Typhoon Champi tracked through the western Pacific past Guam and the Northern Mariana Islands before continuing toward Japan's Ryukyu Islands. GDACS's tropical cyclone report, now covering a 14-21 October 2026 window, rates the storm an Overall Red alert with a JTWC-sourced peak intensity revised up to 296 km/h (Category 5) and an estimated 230,000 people across Guam, the Marianas and Japan exposed to Category 1 or higher winds. The storm passed about 170 miles west of Guam on 18 October without a direct landfall; NWS Tiyan Guam reports no watches, warnings or advisories remain in effect there as of 21 October. The system was still approaching waters south of Okinawa, Japan as of this check, with no confirmed deaths, injuries or damage from any authoritative source.",
+  "description": "Typhoon Champi tracked through the western Pacific, passing Guam and the Northern Mariana Islands before continuing toward Japan's Ryukyu Islands, Taiwan and the Philippines. GDACS's tropical cyclone report, now covering a 14-22 October 2026 window (episode 32), rates the storm an Overall Red alert with a JTWC-sourced peak intensity of 296 km/h (Category 5) and an estimated 230,000 people exposed to Category 1 or higher winds. The storm passed about 170 miles west of Guam on 18 October without a direct landfall there, and has since tracked toward Okinawa's Sakishima Islands and Taiwan, prompting a gale warning that suspended sea travel in five Bicol provinces of the Philippines. No deaths, injuries or damage have been confirmed by any authoritative source.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's latest report (episode 20, window now extended to 14-21 October) puts Typhoon Champi's peak intensity at 296 km/h (Category 5, JTWC), up from 278 km/h, with about 230,000 people exposed to Category 1 or higher winds across Guam, the Northern Mariana Islands and Japan, unchanged from the prior check. The storm passed about 170 miles west of Guam on 18 October without a direct landfall, and NWS Tiyan Guam reports no watches, warnings or advisories remain in effect as of 21 October. The storm was continuing toward waters south of Okinawa, Japan. No deaths, injuries or damage have yet been confirmed by an authoritative source."
+      "summary": "GDACS's latest report (episode 32, window extended to 14-22 October) keeps Typhoon Champi's peak intensity at 296 km/h (Category 5, JTWC) and exposed population at about 230,000, now listing the Philippines and Taiwan alongside Guam, the Northern Mariana Islands and Japan as affected areas. The storm passed about 170 miles west of Guam on 18 October without a direct landfall and has continued toward the Sakishima Islands and Taiwan; a gale warning has suspended sea travel in five Bicol provinces, Philippines. No deaths, injuries or damage have yet been confirmed by an authoritative source."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=20&eventtype=TC",
     "location": {
@@ -73,22 +81,22 @@
       "region": "Guam, Rota, Tinian and Saipan"
     },
     "occurrence_date": "2026-10-14",
-    "scale": "GDACS Red alert; Category 5 Super Typhoon (296 km/h); passed Guam without landfall, now nearing Okinawa",
+    "scale": "GDACS Red alert; Category 5 Super Typhoon (296 km/h); passed Guam without landfall, now nearing Okinawa's Sakishima Islands and Taiwan",
     "status": "ongoing"
   },
   "id": "typhoon-champi-guam-mariana-2026",
-  "last_updated": "2026-10-21T09:11:17Z",
+  "last_updated": "2026-10-22T09:09:15Z",
   "name": "Typhoon Champi — Guam & Northern Mariana Islands",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-21T09:11:17Z",
+        "at": "2026-10-22T09:09:15Z",
         "layer": "verify",
-        "run_id": "2026-10-21T09-11-17Z-aae6d4"
+        "run_id": "2026-10-22T09-09-15Z-3abbbe"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-21T09-11-17Z-aae6d4"
+    "last_run_id": "2026-10-22T09-09-15Z-3abbbe"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -97,6 +105,10 @@
     "recency_rank": 739903
   },
   "updates": [
+    {
+      "date": "2026-10-22",
+      "text": "GDACS extended the tracking window to 14-22 October (episode 32) as Champi continued toward Okinawa's Sakishima Islands and Taiwan, now also listing the Philippines among affected areas after a gale warning suspended sea travel in five Bicol provinces. Peak intensity (296 km/h) and exposed population (~230,000) are unchanged; no deaths or damage confirmed."
+    },
     {
       "date": "2026-10-21",
       "text": "GDACS revised Champi's peak intensity up to 296 km/h (Category 5, JTWC) and extended its tracking window to 14-21 October; NWS Tiyan Guam reports no watches, warnings or advisories remain in effect for Guam, confirming the storm's remnant-swell advisories have expired as forecast. The storm continues toward waters south of Okinawa, Japan."
@@ -112,7 +124,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

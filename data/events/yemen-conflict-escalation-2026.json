@@ -106,6 +106,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-21",
+      "retrieved_date": "2026-10-22",
+      "source_name": "WHO",
+      "source_url": "https://www.emro.who.int/images/stories/yemen/Yemen-Conflict-Escalation-Situation-Report-08.pdf",
+      "text": "WHO's Conflict Escalation in Yemen Situation Report #8 (reporting period 12-19 October 2026, issued 20 October 2026) records the MoPHP Health Emergency Operations Centre's cumulative casualty register at 8,513 (6,939 injured, 1,574 deaths) by 19 October, an increase of 1,340 (1,048 injured, 292 deaths) since Sitrep #7's 7,173 cumulative total at 11 October, with a new front having opened in Shabwah governorate (216 casualties, 51 deaths in two days) alongside continued fighting in Marib, Lahj, Taiz and Al-Dhale'e. IOM's Displacement Tracking Matrix recorded 42,764 households (256,591 people) displaced as of 19 October, up about 28% from 201,217 on 7 October, with Taiz both the largest origin and destination governorate. Access into Taiz city remains the most critical gap: the main Haygat Al-Abd road is cut, 42 health facilities report acute shortages, and the Joint Medical Emergency Committee estimates US$624,900 is needed to keep five public hospitals running for three months. Suspected cholera cases across the five most-affected governorates declined to 562 in epidemiological week 41, down from a peak of 639 in week 40.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-09-11",
       "source_name": "United Nations",
@@ -162,14 +170,14 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and by mid-October had largely encircled Taiz, cutting most remaining supply routes from government-held areas. UN News reported on 7 October, citing Yemeni health authorities, that clashes in southwest Yemen had left 959 dead and 4,207 injured across 10 governorates as of 2 October -- the most recent confirmed casualty count. IOM's Displacement Tracking Matrix now records 227,683 people displaced between 1 August and 13 October 2026, up from the roughly 200,000 reported in early October, with Ta'iz governorate accounting for 53 percent of the total; close to 3,800 people have fled to Djibouti. Food, fuel and cooking-gas shortages are worsening inside besieged Taiz as prices surge. WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) so far this year, while its 90-day emergency response remains only 14 percent funded. Saudi authorities said a separate Houthi missile attack on Riyadh's airport killed 12 people and wounded more than 300.",
+  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and by late October had largely encircled Taiz while opening a new front in Shabwah governorate. WHO's Situation Report #8 (19 October) puts cumulative casualties at 8,513 (1,574 deaths, 6,939 injured), up 1,340 in the preceding eight days, with Marib and Shabwah the most lethal fronts. IOM's Displacement Tracking Matrix records 256,591 people displaced as of 19 October, up 28% from a week earlier; Taiz city's hospital system is near breaking point, with its main supply road cut and 42 health facilities reporting acute shortages. WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) so far this year, while weekly cholera cases in the worst-affected governorates have begun declining from a late-September peak.",
   "event": {
     "impact": {
-      "deaths": 959,
-      "displaced": 227683,
-      "summary": "UN News reported on 7 October 2026, citing Yemeni health authorities, that renewed clashes in southwest Yemen had left 959 people dead and 4,207 injured across 10 governorates as of 2 October -- still the most recent confirmed casualty count. IOM's Displacement Tracking Matrix (Update #14, period 1 August-13 October) now puts displacement inside Yemen at 227,683 people, up from the roughly 200,000 reported in early October; Ta'iz governorate accounts for 53 percent of the total (121,104 people), followed by Lahj (23%) and Aden (12%). Close to 3,800 people have crossed to Djibouti. The Houthis have largely encircled Taiz, cutting most remaining supply routes from government-held areas and driving up food, water and fuel prices, deepening a worsening health crisis: WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) this year, while its 90-day emergency response remains only 14 percent funded ($4.3 million of $31 million needed). Saudi authorities separately said a Houthi missile attack on Riyadh's airport killed 12 people and wounded more than 300. DFA (Houthi) forces control the entire west coast except Midi district."
+      "deaths": 1574,
+      "displaced": 256591,
+      "summary": "WHO's Conflict Escalation Situation Report #8 (issued 20 October 2026, reporting period 12-19 October) puts the MoPHP HEOC's cumulative casualty register at 8,513 (6,939 injured, 1,574 deaths) as of 19 October, up 1,340 in eight days, as fighting continued across Marib, Lahj, Taiz and Al-Dhale'e and a new front opened in Shabwah (216 casualties, 51 deaths in two days). IOM's Displacement Tracking Matrix recorded 256,591 people (42,764 households) displaced as of 19 October, up 28% from 201,217 a week earlier, with Taiz both the largest origin and destination governorate. Taiz city's hospital system is near breaking point: the main Haygat Al-Abd supply road is cut, 42 health facilities report acute shortages, and US$624,900 is needed to keep five public hospitals running for three months. WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) so far this year, while weekly cholera cases across the five most-affected governorates have declined to 562 in week 41, down from a peak of 639 in week 40."
     },
-    "live_source_url": "https://news.un.org/en/focus/yemen",
+    "live_source_url": "https://www.emro.who.int/yemen/information-resources/yemen-conflict-escalation-situation-report.html",
     "location": {
       "country": "Yemen",
       "lat": 15.4695,
@@ -177,30 +185,34 @@
       "region": "Ta'izz Governorate (Mocha, Al-Mokha) and Yemen's West Coast; attacks also in the Bab el-Mandeb Strait and against Saudi Arabia"
     },
     "occurrence_date": "2026-08-07",
-    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have largely encircled Taiz; UN News reports 959 deaths and 4,207 injuries across 10 governorates, and IOM records 227,683 displaced as of 13 October 2026",
+    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have largely encircled Taiz, with a new front active in Shabwah; WHO records 8,513 cumulative casualties (1,574 deaths) and IOM 256,591 displaced as of 19 October 2026",
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-10-21T09:11:07Z",
+  "last_updated": "2026-10-22T09:10:34Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-21T09:11:07Z",
+        "at": "2026-10-22T09:10:34Z",
         "layer": "verify",
-        "run_id": "2026-10-21T09-11-07Z-99bfd4"
+        "run_id": "2026-10-22T09-10-34Z-e80ba8"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-21T09-11-07Z-99bfd4"
+    "last_run_id": "2026-10-22T09-10-34Z-e80ba8"
   },
   "schema_version": "1.0",
   "sort_keys": {
-    "composite": 7398353.0,
-    "impact_rank": 3,
+    "composite": 7398354.0,
+    "impact_rank": 4,
     "recency_rank": 739835
   },
   "updates": [
+    {
+      "date": "2026-10-20",
+      "text": "WHO's Situation Report #8 (12-19 October) recorded cumulative casualties rising to 8,513 (1,574 deaths, 6,939 injured), up 1,340 in eight days as fighting opened a new front in Shabwah (216 casualties, 51 deaths in two days); IOM recorded displacement up 28% to 256,591 since 7 October, and Taiz city's hospital system neared breaking point with its main supply road cut."
+    },
     {
       "date": "2026-10-18",
       "text": "IOM's DTM Update #14 (1 Aug-13 Oct) puts Yemen displacement at 227,683, up from ~200,000 in early October; Ta'iz accounts for 53% of the total, followed by Lahj (23%) and Aden (12%). The Houthis have largely encircled Taiz, cutting most remaining supply routes from government-held areas as prices surge."
@@ -260,7 +272,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -1,0 +1,72 @@
+{
+  "category": "volcanic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-22",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
+      "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-22",
+      "source_name": "Department of Social Welfare and Development (Philippines)",
+      "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/07/DSWD-DROMIC-Report-3-on-the-Kanlaon-Volcano-Eruption-as-of-14-July-2026-6PM.pdf",
+      "text": "DSWD DROMIC Report #3 on the Kanlaon Volcano Eruption, as of 14 July 2026 6PM, recorded 18,856 families (62,785 persons) affected across 12 barangays in the Negros Island Region, with the volcano held at Alert Level 2 and communities within the 4km-radius Permanent Danger Zone instructed to remain evacuated.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-10-22",
+      "source_name": "The Star (Malaysia), citing Philippine Office of Civil Defense",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/13/some-24000-families-affected-by-central-philippine-volcano-eruption",
+      "text": "News reports citing the Philippine Office of Civil Defense (OCD) said about 24,000 families (roughly 94,000 individuals) were affected by ashfall from the 10 October eruption, with 2,500 families (about 8,000 individuals) sheltering across 21 evacuation sites as of the 13 October briefing; PHIVOLCS reported continuing ash emissions on 11 and 12 October with the volcano held at Alert Level 2. These OCD-sourced figures have not been independently corroborated by an authoritative international source.",
+      "verification_status": "unverified"
+    }
+  ],
+  "description": "Mount Kanlaon on Negros Island, Philippines, produced a moderately explosive eruption on 10 October 2026 that sent an ash plume several kilometres above its summit, the latest episode in a prolonged eruptive sequence. GDACS rated the event an Orange alert for medium humanitarian impact, with about 870,000 people living within 30km of the volcano and roughly 10.79 million within 100km. Philippine civil-defense authorities reported tens of thousands of residents affected by ashfall and thousands evacuated from the mandatory 4km danger zone around the crater in the days that followed, though those specific displacement figures have not yet been corroborated by an authoritative international source. PHIVOLCS kept the volcano at Alert Level 2 through mid-October as further ash emissions continued.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "No casualty or displacement figures for the 10 October eruption have yet been published by an authoritative international source. GDACS rates the eruption an Orange alert for medium humanitarian impact, estimating about 870,000 people within 30km of the volcano and about 10.79 million within 100km. Local civil-defense authorities and Philippine press reported tens of thousands of residents affected by ashfall and thousands evacuated from the mandatory 4km permanent danger zone, and PHIVOLCS continued recording ash emissions through mid-October with the volcano held at Alert Level 2."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
+    "location": {
+      "country": "Philippines",
+      "lat": 10.41,
+      "lon": 123.13,
+      "region": "Negros Island (Canlaon City and surrounding municipalities)"
+    },
+    "occurrence_date": "2026-10-10",
+    "scale": "GDACS Orange alert; PHIVOLCS Alert Level 2",
+    "status": "ongoing"
+  },
+  "id": "philippines-kanlaon-volcano-eruption-2026",
+  "last_updated": "2026-10-22T09:11:11Z",
+  "name": "Kanlaon Volcano Eruption, Negros Island, Philippines",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-22T09:11:11Z",
+        "layer": "verify",
+        "run_id": "2026-10-22T09-11-11Z-f8aad0"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-22T09-11-11Z-f8aad0"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398991.0,
+    "impact_rank": 1,
+    "recency_rank": 739899
+  },
+  "verification": {
+    "confidence": "medium",
+    "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
+    "status": "partial"
+  }
+}
