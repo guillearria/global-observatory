@@ -1,0 +1,64 @@
+{
+  "category": "earthquake",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-23",
+      "source_name": "USGS",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u43g.geojson",
+      "text": "USGS recorded a magnitude 7.0 (Mww) earthquake on 22 October 2026 at 14:33:40 UTC, located 191 km ENE of Nagqu, China (32.3805N, 93.7797E) at a depth of 18 km. USGS's PAGER system assessed an Orange shaking-impact alert, and the ShakeMap product recorded a maximum MMI of about 8.2. No tsunami was generated.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-23",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
+      "text": "GDACS's earthquake report (event id 1573141, episode 1741837, GLIDE EQ-2026-000195-CHN) rates the event an Overall Red alert, with a GDACS score of 2 and about 10,000 people exposed to MMI VII or greater shaking. The report's media-headlines section, which GDACS notes it has not independently verified, cites at least 16 deaths, injuries variously reported at 65 and 76, and hundreds of houses collapsed.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A magnitude 7.0 earthquake struck Baqen County, Nagqu Prefecture, in the Tibet Autonomous Region (Xizang) of China on 22 October 2026, and GDACS issued an Overall Red alert. USGS located the epicenter about 191 km ENE of Nagqu at a depth of 18 km and assessed an Orange PAGER shaking-impact alert, with roughly 10,000 people estimated exposed to MMI VII or greater shaking per GDACS. Media reports mirrored on GDACS's event page cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed; rescue and damage-assessment operations are ongoing and no tsunami was generated.",
+  "event": {
+    "impact": {
+      "deaths": 16,
+      "displaced": null,
+      "summary": "GDACS's event report (Overall Red alert, GLIDE EQ-2026-000195-CHN) mirrors media headlines citing at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed in Baqen County, Nagqu Prefecture. USGS assesses an Orange PAGER alert with about 10,000 people exposed to MMI VII or greater shaking, matching GDACS's own exposed-population estimate at that threshold. No tsunami was generated, and rescue and damage-assessment operations are ongoing."
+    },
+    "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
+    "location": {
+      "country": "China",
+      "lat": 32.3805,
+      "lon": 93.7797,
+      "region": "Baqen County, Nagqu Prefecture, Tibet Autonomous Region (Xizang)"
+    },
+    "occurrence_date": "2026-10-22",
+    "scale": "M7.0; GDACS Red alert; USGS PAGER Orange",
+    "status": "ongoing"
+  },
+  "id": "china-earthquake-nagqu-2026",
+  "last_updated": "2026-10-23T09:12:00Z",
+  "name": "M7.0 Earthquake, Nagqu (Baqen County), Tibet, China",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-23T09:12:00Z",
+        "layer": "verify",
+        "run_id": "2026-10-23T09-12-00Z-e5793c"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-23T09-12-00Z-e5793c"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7399112.0,
+    "impact_rank": 2,
+    "recency_rank": 739911
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

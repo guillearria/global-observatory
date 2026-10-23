@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T09:11:11Z",
+  "last_updated": "2026-10-23T09:12:56Z",
   "published": [
     {
       "category": "flood",
@@ -717,6 +717,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-35",
+          "retrieved_date": "2026-10-23",
+          "source_name": "Government of British Columbia",
+          "source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
+          "text": "EmergencyInfoBC's wildfire hazard page (checked 23 October 2026) lists 4 active local evacuation notices, down from 5 on 8 October 2026: Okanagan Indian Band (updated 2 October), Regional District of Okanagan-Similkameen (2 September), Boothroyd Indian Band (16 August) and Shxw'ow'hamel First Nation (1 August); the District of Summerland's notice is no longer listed.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-08-12",
           "source_name": "Government of British Columbia",
@@ -765,12 +773,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased. Conditions have continued to ease: the BC Wildfire Service lifted Category 1 campfire prohibitions across the Cariboo, Coastal and Kamloops fire centres effective 3 September (Category 2/3 open fires remain banned until 31 October), and EmergencyInfoBC's active evacuation-notice count has eased further to 5 as of 8 October, down from 7; wildfire risk remains elevated in parts of the province.",
+      "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased. Conditions have continued to ease: the BC Wildfire Service lifted Category 1 campfire prohibitions across the Cariboo, Coastal and Kamloops fire centres effective 3 September (Category 2/3 open fires remain banned until 31 October), and EmergencyInfoBC's active evacuation-notice count has eased further to 4 as of 23 October, down from 5, with the District of Summerland's notice no longer listed; wildfire risk remains elevated in parts of the province.",
       "event": {
         "impact": {
           "deaths": 1,
           "displaced": null,
-          "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode; the GDACS tracking record for this event closed with no further episodes after that date. British Columbia ended its province-wide State of Provincial Emergency on 27 August 2026, and the BC Wildfire Service rescinded the Bald Range fire's area restriction on 4 September. Conditions remain broadly improved: Category 1 campfire prohibitions were lifted in the Cariboo, Coastal and Kamloops fire centres effective 3 September, and EmergencyInfoBC's wildfire page lists 5 active local evacuation notices as of 8 October 2026, down from 7 on 2 October: Okanagan Indian Band, District of Summerland, Regional District of Okanagan-Similkameen, Boothroyd Indian Band and Shxw'ow'hamel First Nation remain listed."
+          "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode; the GDACS tracking record for this event closed with no further episodes after that date. British Columbia ended its province-wide State of Provincial Emergency on 27 August 2026, and the BC Wildfire Service rescinded the Bald Range fire's area restriction on 4 September. Conditions remain broadly improved: Category 1 campfire prohibitions were lifted in the Cariboo, Coastal and Kamloops fire centres effective 3 September, and EmergencyInfoBC's wildfire page lists 4 active local evacuation notices as of 23 October 2026, down from 5 on 8 October: Okanagan Indian Band, Regional District of Okanagan-Similkameen, Boothroyd Indian Band and Shxw'ow'hamel First Nation remain listed, while the District of Summerland's notice is no longer shown."
         },
         "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/",
         "location": {
@@ -780,22 +788,22 @@
           "region": "British Columbia Interior, centred on the Bald Range fire near Summerland in the South Okanagan; more than 100 wildfires active provincewide"
         },
         "occurrence_date": "2026-08-08",
-        "scale": "Provincial State of Emergency ended 27 August 2026 (declared 8 August); Bald Range fire (largest, near Summerland) area restriction rescinded 4 September as fire activity decreased; 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS); 5 active local evacuation notices as of 8 October 2026",
+        "scale": "Provincial State of Emergency ended 27 August 2026 (declared 8 August); Bald Range fire (largest, near Summerland) area restriction rescinded 4 September as fire activity decreased; 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS); 4 active local evacuation notices as of 23 October 2026",
         "status": "ongoing"
       },
       "id": "canada-british-columbia-wildfires-2026",
-      "last_updated": "2026-10-22T09:08:17Z",
+      "last_updated": "2026-10-23T09:12:14Z",
       "name": "Wildfire State of Emergency — British Columbia, Canada",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:17Z",
+            "at": "2026-10-23T09:12:14Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-17Z-628cdb"
+            "run_id": "2026-10-23T09-12-14Z-1c361c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-17Z-628cdb"
+        "last_run_id": "2026-10-23T09-12-14Z-1c361c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -804,6 +812,10 @@
         "recency_rank": 739836
       },
       "updates": [
+        {
+          "date": "2026-10-23",
+          "text": "EmergencyInfoBC's evacuation list eased further to 4 active orders/alerts (from 5 on 8 October), with the District of Summerland no longer listed; the remaining notices are Okanagan Indian Band (2 October), Regional District of Okanagan-Similkameen (2 September), Boothroyd Indian Band (16 August) and Shxw'ow'hamel First Nation (1 August)."
+        },
         {
           "date": "2026-10-08",
           "text": "EmergencyInfoBC's evacuation list eased further to 5 active orders/alerts (from 7 on 2 October): Okanagan Indian Band, District of Summerland, Regional District of Okanagan-Similkameen, Boothroyd Indian Band and Shxw'ow'hamel First Nation remain listed."
@@ -899,7 +911,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 34 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 35 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -960,6 +972,70 @@
         "composite": 7398971.0,
         "impact_rank": 1,
         "recency_rank": 739897
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "earthquake",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-10-23",
+          "source_name": "USGS",
+          "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u43g.geojson",
+          "text": "USGS recorded a magnitude 7.0 (Mww) earthquake on 22 October 2026 at 14:33:40 UTC, located 191 km ENE of Nagqu, China (32.3805N, 93.7797E) at a depth of 18 km. USGS's PAGER system assessed an Orange shaking-impact alert, and the ShakeMap product recorded a maximum MMI of about 8.2. No tsunami was generated.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-10-23",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
+          "text": "GDACS's earthquake report (event id 1573141, episode 1741837, GLIDE EQ-2026-000195-CHN) rates the event an Overall Red alert, with a GDACS score of 2 and about 10,000 people exposed to MMI VII or greater shaking. The report's media-headlines section, which GDACS notes it has not independently verified, cites at least 16 deaths, injuries variously reported at 65 and 76, and hundreds of houses collapsed.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A magnitude 7.0 earthquake struck Baqen County, Nagqu Prefecture, in the Tibet Autonomous Region (Xizang) of China on 22 October 2026, and GDACS issued an Overall Red alert. USGS located the epicenter about 191 km ENE of Nagqu at a depth of 18 km and assessed an Orange PAGER shaking-impact alert, with roughly 10,000 people estimated exposed to MMI VII or greater shaking per GDACS. Media reports mirrored on GDACS's event page cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed; rescue and damage-assessment operations are ongoing and no tsunami was generated.",
+      "event": {
+        "impact": {
+          "deaths": 16,
+          "displaced": null,
+          "summary": "GDACS's event report (Overall Red alert, GLIDE EQ-2026-000195-CHN) mirrors media headlines citing at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed in Baqen County, Nagqu Prefecture. USGS assesses an Orange PAGER alert with about 10,000 people exposed to MMI VII or greater shaking, matching GDACS's own exposed-population estimate at that threshold. No tsunami was generated, and rescue and damage-assessment operations are ongoing."
+        },
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
+        "location": {
+          "country": "China",
+          "lat": 32.3805,
+          "lon": 93.7797,
+          "region": "Baqen County, Nagqu Prefecture, Tibet Autonomous Region (Xizang)"
+        },
+        "occurrence_date": "2026-10-22",
+        "scale": "M7.0; GDACS Red alert; USGS PAGER Orange",
+        "status": "ongoing"
+      },
+      "id": "china-earthquake-nagqu-2026",
+      "last_updated": "2026-10-23T09:12:00Z",
+      "name": "M7.0 Earthquake, Nagqu (Baqen County), Tibet, China",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-10-23T09:12:00Z",
+            "layer": "verify",
+            "run_id": "2026-10-23T09-12-00Z-e5793c"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-10-23T09-12-00Z-e5793c"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7399112.0,
+        "impact_rank": 2,
+        "recency_rank": 739911
       },
       "verification": {
         "confidence": "high",
@@ -1314,7 +1390,7 @@
         },
         {
           "id": "claim-new-sept27",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
           "text": "GDACS's flood event report for China (reporting window through 27 September 2026) records the confirmed death toll unchanged at 6, with 400,850 people displaced, up from 399,045 as of the prior episode; heavy rain caused flooding in areas of Chongqing Municipality in late September 2026, and the event remains at Orange alert.",
@@ -1340,18 +1416,18 @@
         "status": "ongoing"
       },
       "id": "china-floods-yangtze-typhoon-dolphin-2026",
-      "last_updated": "2026-10-22T09:09:15Z",
+      "last_updated": "2026-10-23T09:11:43Z",
       "name": "Typhoon Dolphin Flooding, Central China",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:09:15Z",
+            "at": "2026-10-23T09:11:43Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-09-15Z-98d998"
+            "run_id": "2026-10-23T09-11-43Z-b227ed"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-09-15Z-98d998"
+        "last_run_id": "2026-10-23T09-11-43Z-b227ed"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1452,7 +1528,7 @@
         },
         {
           "id": "claim-12",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1557236, episode 1724218) remains an Overall Red alert with a GDACS score of 2.2, now estimating about 5.4 million people within zones of MMI VII or greater shaking, up from about 5.2 million previously recorded on the same page; the most recent listed activity is UNITAR-UNOSAT's 'Potentially Damaged Buildings' assessment, activated 21 August 2026 10:25 UTC.",
@@ -1598,18 +1674,18 @@
         "status": "ongoing"
       },
       "id": "colombia-earthquake-choco-2026",
-      "last_updated": "2026-10-22T09:08:17Z",
+      "last_updated": "2026-10-23T09:12:14Z",
       "name": "M7.4 Earthquake, Chocó, Colombia",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:17Z",
+            "at": "2026-10-23T09:12:14Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-17Z-1e3f5b"
+            "run_id": "2026-10-23T09-12-14Z-9565e9"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-17Z-1e3f5b"
+        "last_run_id": "2026-10-23T09-12-14Z-9565e9"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1694,7 +1770,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168573",
           "text": "UN News, citing IOM: a boat carrying 305 people from Djibouti toward Yemen capsized near Guehere, north of Obock, in the early hours of Friday (9 October 2026). The confirmed death toll rose to at least 139, including children, with 84 people still missing, up from an initial count of 109 dead and 116 missing after the bodies of 30 more people were recovered; about 82 of the 305 aboard survived. IOM Resident Coordinator Jose Barahona said at least 139 lives were lost, and IOM called it one of the deadliest shipwrecks recorded on the Eastern Route from the Horn of Africa to the Arabian Peninsula.",
@@ -1720,18 +1796,18 @@
         "status": "ongoing"
       },
       "id": "djibouti-migrant-shipwreck-2026",
-      "last_updated": "2026-10-22T09:08:17Z",
+      "last_updated": "2026-10-23T09:11:46Z",
       "name": "Migrant Boat Shipwreck — Obock, Djibouti",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:17Z",
+            "at": "2026-10-23T09:11:46Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-17Z-4d32e7"
+            "run_id": "2026-10-23T09-11-46Z-84ee38"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-17Z-4d32e7"
+        "last_run_id": "2026-10-23T09-11-46Z-84ee38"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1750,7 +1826,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168499",
           "text": "\"Fighting in Masisi has displaced more than 24,000 people since mid-September.\"",
@@ -1800,18 +1876,18 @@
         "status": "ongoing"
       },
       "id": "drc-north-kivu-ituri-displacement-2026",
-      "last_updated": "2026-10-22T09:08:17Z",
+      "last_updated": "2026-10-23T09:11:46Z",
       "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:17Z",
+            "at": "2026-10-23T09:11:46Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-17Z-2d4103"
+            "run_id": "2026-10-23T09-11-46Z-3ec205"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-17Z-2d4103"
+        "last_run_id": "2026-10-23T09-11-46Z-3ec205"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2196,7 +2272,7 @@
         },
         {
           "id": "claim-kenya-4",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "ECDC",
           "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
           "text": "ECDC's country overview reports that Kenya's Bundibugyo virus disease case count rose to eight, including one death, as of 18 October 2026. Following the first case (imported from DRC, reported 6 October, since died) and second and third cases (close family contacts, confirmed 14 and 16 October), four further cases were confirmed on 17 October -- one a close relative of the first case and three healthcare workers who had been in contact with the first case -- and an eighth case, described by Kenya's Health Ministry Director-General as a patient attendant rather than a healthcare worker, was confirmed on 18 October. All six cases added since 16 October are linked to the first case; all have been placed in quarantine.",
@@ -2372,7 +2448,7 @@
         },
         {
           "id": "claim-new-oct18",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "ECDC",
           "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
           "text": "ECDC's country overview (page last updated 19 October 2026, data through 18 October 2026): the Democratic Republic of the Congo reported a total of 9,552 confirmed cases, including 4,602 related deaths, from data up until 18 October. Ituri province remains the most affected with 6,960 cases and 3,217 deaths (28 of 36 health zones); 66 of 178 health zones are affected across eight provinces. Kenya's case count remains at eight confirmed cases and one death.",
@@ -2406,18 +2482,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-10-22T09:08:17Z",
+      "last_updated": "2026-10-23T09:11:47Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:17Z",
+            "at": "2026-10-23T09:11:47Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-17Z-47d837"
+            "run_id": "2026-10-23T09-11-47Z-0b0ab1"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-17Z-47d837"
+        "last_run_id": "2026-10-23T09-11-47Z-0b0ab1"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2654,7 +2730,7 @@
         },
         {
           "id": "claim-24",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/sudan/protection-cluster-alert-el-obeid",
           "text": "Protection Cluster/UNHCR 'Protection Cluster Alert El Obeid' (posted 30 September 2026, originally published 29 September 2026): drone strikes on 25 September 2026 reportedly struck several civilian locations in El Obeid, including a shelter hosting displaced families, a fuel station, a civilian passenger bus and a residential house; at least two civilians were reportedly killed and around 20 others injured. The alert describes this as part of a wider escalation across North Kordofan and a recurring pattern of drone attacks affecting civilians, displaced populations and essential civilian infrastructure in and around El Obeid.",
@@ -2662,7 +2738,7 @@
         },
         {
           "id": "claim-25",
-          "retrieved_date": "2026-10-19",
+          "retrieved_date": "2026-10-23",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/world/13-children-reportedly-killed-or-injured-drone-strike-displacement-shelter-al-obeid-sudan",
           "text": "UNICEF statement via ReliefWeb (posted and originally published 1 October 2026): a drone strike late on 30 September/1 October 2026 on the Al Mina Al Bari shelter for internally displaced people in El Obeid, North Kordofan, reportedly killed one boy and injured 12 children (five boys, seven girls). UNICEF Representative in Sudan Angela Kearney said 'any sense of safety was shattered' and called for attacks on child-protection sites to stop; UNICEF notes more than 400 children were reportedly killed or injured by drone attacks nationwide between January and September 2026.",
@@ -2728,18 +2804,18 @@
         "status": "ongoing"
       },
       "id": "el-obeid-siege-sudan-2026",
-      "last_updated": "2026-10-22T09:08:17Z",
+      "last_updated": "2026-10-23T09:11:47Z",
       "name": "Siege of El Obeid — North Kordofan, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:17Z",
+            "at": "2026-10-23T09:11:47Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-17Z-f8aff3"
+            "run_id": "2026-10-23T09-11-47Z-cee54b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-17Z-f8aff3"
+        "last_run_id": "2026-10-23T09-11-47Z-cee54b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3484,7 +3560,7 @@
         },
         {
           "id": "claim-21",
-          "retrieved_date": "2026-10-15",
+          "retrieved_date": "2026-10-23",
           "source_name": "IOM Displacement Tracking Matrix (DTM)",
           "source_url": "https://dtm.iom.int/reports/haiti-information-sheet-displacement-situation-round-14-august-2026",
           "text": "IOM's Displacement Tracking Matrix 'Haiti — Information sheet on the displacement situation — Round 14 (August 2026)' (covering 15 May-12 August 2026, published 23 September 2026) puts the total number of internally displaced persons in Haiti at about 1.49 million and states that 'Artibonite recorded the largest increase (+16%), reflecting the continued deterioration of the security situation in the department.'",
@@ -3532,7 +3608,7 @@
         },
         {
           "id": "claim-27",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "IOM Displacement Tracking Matrix (DTM)",
           "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-1102-update-displacements-following-armed-violence-commune",
           "text": "IOM DTM 'Haiti -- Emergency Tracking Tool 110.2 -- Update on displacements following armed violence in the commune of Gros Morne in Artibonite (28 September-13 October 2026)' (published 15 October 2026) revises the toll upward again: approximately 10,197 people (2,436 households) have been displaced by the Gros-Morne violence, with 99% finding refuge with host families and 1% settled in two established sites.",
@@ -3590,18 +3666,18 @@
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-10-22T09:08:18Z",
+      "last_updated": "2026-10-23T09:12:15Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:18Z",
+            "at": "2026-10-23T09:12:15Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-18Z-121287"
+            "run_id": "2026-10-23T09-12-15Z-86d2f5"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-18Z-121287"
+        "last_run_id": "2026-10-23T09-12-15Z-86d2f5"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3916,7 +3992,7 @@
         },
         {
           "id": "claim-31",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1104121&eventtype=FL&episodeid=22",
           "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, episode 22, reporting window 9 August-7 October 2026) now records 136 deaths, up from 135 at the prior episode, with 457,351 displaced (unchanged), still at Orange alert.",
@@ -3998,18 +4074,18 @@
         "status": "ongoing"
       },
       "id": "india-monsoon-floods-2026",
-      "last_updated": "2026-10-22T09:08:56Z",
+      "last_updated": "2026-10-23T09:11:43Z",
       "name": "Multi-State Monsoon Floods & Landslides — India",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:56Z",
+            "at": "2026-10-23T09:11:43Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-56Z-934843"
+            "run_id": "2026-10-23T09-11-43Z-c8d880"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-56Z-934843"
+        "last_run_id": "2026-10-23T09-11-43Z-c8d880"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4248,7 +4324,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-10-15",
+          "retrieved_date": "2026-10-23",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1000148&episodeid=2&eventtype=VO",
           "text": "GDACS's report for this event (event ID VO 1000148) rates the Krakatau eruption an Orange alert, \"unlikely to require external humanitarian assistance based on the exposed population and coping capacity,\" with about 2,000 people within 30km and no people affected within 100km; it records a Volcanic Explosivity Index of 6 for the episode, running from 04 Sep 2026 21:00 UTC to 05 Sep 2026 14:30 UTC.",
@@ -4306,18 +4382,18 @@
         "status": "ongoing"
       },
       "id": "indonesia-volcano-krakatau-2026",
-      "last_updated": "2026-10-22T09:08:57Z",
+      "last_updated": "2026-10-23T09:12:06Z",
       "name": "Volcanic Eruption — Krakatau, Indonesia",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:57Z",
+            "at": "2026-10-23T09:12:06Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-57Z-13a883"
+            "run_id": "2026-10-23T09-12-06Z-f3983c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-57Z-13a883"
+        "last_run_id": "2026-10-23T09-12-06Z-f3983c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4496,7 +4572,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
           "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 633,500 Iranian nationals who have crossed into neighbouring countries (28 September 2026, up from 628,000), of whom 534,800 have since crossed back into Iran (28 September 2026, up from 530,000); Lebanese refugees in Syria and new IDPs within Lebanon are unchanged at 325,400 and 329,686 respectively (both Government data, 30 September 2026) -- a combined 1,288,586 people displaced or newly refugees across Iran and Lebanon; Afghan returnee movements (1,015,400, IOM/UNHCR, 3 October 2026) and Syrian returnee movements (1,081,500, Government of Syria/UNHCR, 30 September 2026) are also unchanged, a combined 2,096,900.",
@@ -4586,18 +4662,18 @@
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-10-22T09:10:34Z",
+      "last_updated": "2026-10-23T09:12:43Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:10:34Z",
+            "at": "2026-10-23T09:12:43Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-10-34Z-bc3c58"
+            "run_id": "2026-10-23T09-12-43Z-aa6cde"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-10-34Z-bc3c58"
+        "last_run_id": "2026-10-23T09-12-43Z-aa6cde"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4998,10 +5074,18 @@
         },
         {
           "id": "claim-11",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
           "source_url": "https://www.fdma.go.jp/disaster/info/items/20260918taihuu25gou24.pdf",
           "text": "Japan's Fire and Disaster Management Agency situation report No. 24 (4 October 2026, 14:00 JST) on Typhoon No. 25, Typhoon No. 26 and related frontal heavy rain: 17 deaths (Chiba 10, Kanagawa 5, Kumamoto 1, Miyazaki 1), unchanged, and 0 people missing, down from 1; 41 injured (3 serious, 38 minor) and 2,412 homes damaged or destroyed (67 total collapse, 414 half collapse, 424 flooded above floor level, 1,259 flooded below floor level, 248 partially damaged), both unchanged from report No. 23. A footnote states the missing-person count in Chiba fell from 1 to 0 because the body found in Nagara-machi was confirmed to be the same person already listed among the dead. Evacuation instructions held at 3 municipalities, 484 households and 1,029 people: 464 households (996 people) in Chiba and 20 households (33 people) in Kanagawa, unchanged from the prior report.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-12",
+          "retrieved_date": "2026-10-23",
+          "source_name": "Japan Fire and Disaster Management Agency (FDMA)",
+          "source_url": "https://www.fdma.go.jp/disaster/info/items/20260918taihuu25gou25.pdf",
+          "text": "Japan's Fire and Disaster Management Agency situation report No. 25 (5 October 2026, 09:00 JST) on Typhoon No. 25, Typhoon No. 26 and related frontal heavy rain states explicitly that it is \"unchanged from the previous report\": 17 deaths (Chiba 10, Kanagawa 5, Kumamoto 1, Miyazaki 1; 3 disaster-related), 0 missing, 41 injured (3 serious, 38 minor), 2,412 homes damaged or destroyed (67 total collapse, 414 half collapse, 424 flooded above floor level, 1,259 flooded below floor level, 248 partially damaged), and evacuation instructions covering 3 municipalities, 484 households and 1,029 people (464 households/996 people in Chiba, 20 households/33 people in Kanagawa). No report has been issued on FDMA's disaster-information page since this one. Chiba's and Tokyo's disaster response headquarters, established 21 September, are listed with no dissolution date in this report; Kanagawa's was dissolved 2 October and Okinawa's 28 September.",
           "verification_status": "verified"
         },
         {
@@ -5069,12 +5153,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Typhoon Dujuan, Japan's Typhoon No. 25, brought record rainfall and violent winds to eastern Japan from 20 to 23 September 2026, triggering floods and landslides across the Kanto region; a subsequent Typhoon No. 26 and frontal heavy rain added further damage, including Kumamoto Prefecture's first fatality. Japan Meteorological Agency issued a Level 5 special warning for landslides on Tokyo's Izu Oshima island on 21 September, and Chiba, Tokyo, Kanagawa and Okinawa prefectures stood up disaster response headquarters (Okinawa's was dissolved 28 September and Kanagawa's on 2 October). Japan's Fire and Disaster Management Agency's latest situation report (No. 24, 4 October) holds the toll at 17 deaths -- ten in Chiba, five in Kanagawa, one in Kumamoto and one in Miyazaki -- and now puts the missing count at zero, after the Nagara-machi, Chiba landslide victim recovered earlier was confirmed to be the same person already counted among the dead rather than an additional fatality; 41 injured and 2,412 homes damaged or destroyed are unchanged from the prior report. Evacuation instructions remain at 484 households (1,029 people) in Chiba and Kanagawa.",
+      "description": "Typhoon Dujuan, Japan's Typhoon No. 25, brought record rainfall and violent winds to eastern Japan from 20 to 23 September 2026, triggering floods and landslides across the Kanto region; a subsequent Typhoon No. 26 and frontal heavy rain added further damage, including Kumamoto Prefecture's first fatality. Japan Meteorological Agency issued a Level 5 special warning for landslides on Tokyo's Izu Oshima island on 21 September, and Chiba, Tokyo, Kanagawa and Okinawa prefectures stood up disaster response headquarters (Okinawa's was dissolved 28 September and Kanagawa's on 2 October). Japan's Fire and Disaster Management Agency's final situation report (No. 25, 5 October) explicitly confirms the toll is unchanged from the prior report -- 17 deaths (ten in Chiba, five in Kanagawa, one in Kumamoto and one in Miyazaki), zero missing, 41 injured and 2,412 homes damaged or destroyed -- and no further report has been issued since; evacuation instructions remain in force for 484 households (1,029 people) in Chiba and Kanagawa.",
       "event": {
         "impact": {
           "deaths": 17,
           "displaced": null,
-          "summary": "Japan's Fire and Disaster Management Agency's situation report No. 24 (4 October 2026, 14:00 JST) holds the toll at 17 deaths (Chiba 10, Kanagawa 5, Kumamoto 1, Miyazaki 1) and now records 0 people missing, after the one remaining missing person -- the Nagara-machi, Chiba landslide victim recovered earlier -- was confirmed to be the same individual already counted among the dead rather than an additional fatality. 41 injured (3 serious, 38 minor) and 2,412 homes damaged or destroyed (67 total collapse, 414 half collapse, 424 flooded above floor, 1,259 flooded below floor, 248 partially damaged) are unchanged from report No. 23. Evacuation instructions remain at 484 households (1,029 people) -- 464 households (996 people) in Chiba and 20 households (33 people) in Kanagawa; Kanagawa's disaster response headquarters remains dissolved since 2 October."
+          "summary": "Japan's Fire and Disaster Management Agency's final situation report (No. 25, 5 October 2026, 09:00 JST) states explicitly that the toll is unchanged from the prior report: 17 deaths (Chiba 10, Kanagawa 5, Kumamoto 1, Miyazaki 1), 0 missing, 41 injured (3 serious, 38 minor) and 2,412 homes damaged or destroyed (67 total collapse, 414 half collapse, 424 flooded above floor, 1,259 flooded below floor, 248 partially damaged). No report has been issued since. Evacuation instructions remain at 484 households (1,029 people) -- 464 households (996 people) in Chiba and 20 households (33 people) in Kanagawa. Kanagawa's and Okinawa's disaster response headquarters have been dissolved; Chiba's and Tokyo's remain listed without a dissolution date."
         },
         "live_source_url": "https://www.fdma.go.jp/disaster/info/",
         "location": {
@@ -5085,21 +5169,21 @@
         },
         "occurrence_date": "2026-09-21",
         "scale": "JMA Typhoon No. 25 (Dujuan); Level 5 landslide special warning",
-        "status": "ongoing"
+        "status": "contained"
       },
       "id": "japan-typhoon-dujuan-2026",
-      "last_updated": "2026-10-22T09:09:15Z",
+      "last_updated": "2026-10-23T09:12:56Z",
       "name": "Typhoon Dujuan (Typhoon No. 25), Japan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:09:15Z",
+            "at": "2026-10-23T09:12:56Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-09-15Z-06e5ab"
+            "run_id": "2026-10-23T09-12-56Z-ee116c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-09-15Z-06e5ab"
+        "last_run_id": "2026-10-23T09-12-56Z-ee116c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5108,6 +5192,10 @@
         "recency_rank": 739880
       },
       "updates": [
+        {
+          "date": "2026-10-23",
+          "text": "FDMA's report No. 25 (5 Oct, 09:00 JST) -- its most recent, with no report issued since -- states figures are unchanged from report No. 24: 17 deaths, 0 missing, 41 injured, 2,412 homes damaged; evacuation instructions still cover 484 households. With the toll stable for three weeks, status moves from ongoing to contained."
+        },
         {
           "date": "2026-10-04",
           "text": "FDMA's report No. 24 (4 Oct, 14:00 JST) clarified that the one remaining missing person -- a Nagara-machi, Chiba landslide victim -- is the same individual already counted among the 17 confirmed deaths, not an additional fatality; missing now stands at 0. Deaths, injured, homes damaged and evacuation instructions are all unchanged from report No. 23."
@@ -5151,7 +5239,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -5184,7 +5272,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "Japan Meteorological Agency (JMA)",
           "source_url": "https://www.data.jma.go.jp/vois/data/report/activity_info/108.html",
           "text": "JMA's volcanic warning for Tokachidake issued 16 October 2026, 10:00 JST (Sapporo Regional Meteorological Observatory), lowers the alert from Level 3 (entry restriction) to Level 2 (crater-vicinity restriction), judging that the likelihood of an eruption affecting the area within about 3km of crater 62-2 has dropped; the Level 2 warning now covers eruptions affecting roughly 1.5km of the crater, with entry restrictions remaining in Biei, Kamifurano and Shintoku (Furano and Minami-Furano no longer require special precaution). The bulletin notes large-amplitude volcanic earthquakes have not recurred since 13 September, though high crater-area temperatures, increased volcanic gas emissions, and continuing ground deformation (inflation at a somewhat deeper level) persist.",
@@ -5210,18 +5298,18 @@
         "status": "ongoing"
       },
       "id": "japan-volcano-tokachidake-2026",
-      "last_updated": "2026-10-22T09:09:15Z",
+      "last_updated": "2026-10-23T09:12:46Z",
       "name": "Volcanic Unrest — Mount Tokachidake, Japan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:09:15Z",
+            "at": "2026-10-23T09:12:46Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-09-15Z-94cccf"
+            "run_id": "2026-10-23T09-12-46Z-f7ef81"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-09-15Z-94cccf"
+        "last_run_id": "2026-10-23T09-12-46Z-f7ef81"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5574,7 +5662,7 @@
         },
         {
           "id": "claim-21",
-          "retrieved_date": "2026-10-16",
+          "retrieved_date": "2026-10-23",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1544720&eventtype=EQ",
           "text": "Re-checked 11 August 2026: reliefweb.int, this record's live_source_url and the source of the DSWD DROMIC series and OCHA casualty snapshot, returned HTTP 403 Forbidden and was unreachable across multiple attempts and multiple pages (disaster hub, specific report URLs, API endpoint) today. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Orange alert (\"medium humanitarian impact\"), currently showing modeled population exposure of about 4.4 million people at MMI≥VII and a maximum observed tsunami wave of 0.83 m -- GDACS's own automated impact-model figures for the event, which are updated as GDACS reprocesses episodes and are distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
@@ -5712,18 +5800,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-10-22T09:08:57Z",
+      "last_updated": "2026-10-23T09:12:06Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:57Z",
+            "at": "2026-10-23T09:12:06Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-57Z-5a3784"
+            "run_id": "2026-10-23T09-12-06Z-1c4ab4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-57Z-5a3784"
+        "last_run_id": "2026-10-23T09-12-06Z-1c4ab4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5856,7 +5944,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "United Nations",
           "source_url": "https://nepal.un.org/sites/default/files/2026-10/Nepal%20Rasuwa-Bhotekoshi%20Flood%20Situation%20Report%20No.10_20260929.pdf",
           "text": "The Office of the UN Resident Coordinator in Nepal, with OCHA, 'Nepal Rasuwa-Bhotekoshi Flood Situation Report No. 10' (as of 29 September 2026, covering 22-29 September): 'The floods have claimed 1,453 lives; 5,285 people remain missing and 13,795 have been rescued (NDRRMA, 26 September, 19:00). 1,109 people remain in 21 displacement centres' in Rasuwa, Nuwakot, and Dhading -- missing persons down from 5,644 in Report No. 9, displacement essentially unchanged from 1,112. The report records the US$49.6 million Flash Appeal (through 31 December 2026) at US$22.3 million funded (FTS, as of 29 September), up from US$22.0 million; 84.3K people targeted across 17 affected municipalities; and 88,125 people reached by assistance as of 29 September, up from 64,263 in Report No. 9.",
@@ -5946,18 +6034,18 @@
         "status": "ongoing"
       },
       "id": "nepal-rasuwa-glacial-flood-2026",
-      "last_updated": "2026-10-22T09:08:57Z",
+      "last_updated": "2026-10-23T09:11:43Z",
       "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:57Z",
+            "at": "2026-10-23T09:11:43Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-57Z-bfbfd2"
+            "run_id": "2026-10-23T09-11-43Z-bf95dc"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-57Z-bfbfd2"
+        "last_run_id": "2026-10-23T09-11-43Z-bf95dc"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6301,7 +6389,7 @@
         },
         {
           "id": "claim-35",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "National Disaster Management Authority (Pakistan)",
           "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
           "text": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 29 September 2026 at 199 deaths (68 male, 40 female, 91 children) and 556 injuries (227 male, 145 female, 184 children), up from 198 deaths and 549 injuries three days earlier. Cumulative housing damage now stands at 1,839 houses affected (623 destroyed, 1,216 partially damaged), with 1,559 livestock lost and 10,684 persons rescued or evacuated across 1,192 rescue/evacuation operations; Khyber Pakhtunkhwa remains the most-affected province.",
@@ -6335,18 +6423,18 @@
         "status": "ongoing"
       },
       "id": "pakistan-floods-2026",
-      "last_updated": "2026-10-22T09:08:57Z",
+      "last_updated": "2026-10-23T09:11:43Z",
       "name": "Monsoon Floods — Pakistan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:57Z",
+            "at": "2026-10-23T09:11:43Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-57Z-84a327"
+            "run_id": "2026-10-23T09-11-43Z-fb9afb"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-57Z-84a327"
+        "last_run_id": "2026-10-23T09-11-43Z-fb9afb"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6483,7 +6571,7 @@
         },
         {
           "id": "claim-11",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1570339, episode 1738684), checked 18 October 2026, now lists Exposed Population at '130 thousand (in MMI>=VII)' and a GDACS Score of 1.4 -- up from the roughly 50,000 recorded a day earlier -- while continuing to rate the event Overall Orange alert for medium humanitarian impact; the maximum observed tsunami wave height remains about 1.09 meters.",
@@ -6581,18 +6669,18 @@
         "status": "ongoing"
       },
       "id": "panama-earthquake-azuero-2026",
-      "last_updated": "2026-10-22T09:08:18Z",
+      "last_updated": "2026-10-23T09:12:15Z",
       "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:18Z",
+            "at": "2026-10-23T09:12:15Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-18Z-be184b"
+            "run_id": "2026-10-23T09-12-15Z-07894a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-18Z-be184b"
+        "last_run_id": "2026-10-23T09-12-15Z-07894a"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6952,7 +7040,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
           "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km.",
@@ -6994,18 +7082,18 @@
         "status": "ongoing"
       },
       "id": "philippines-kanlaon-volcano-eruption-2026",
-      "last_updated": "2026-10-22T09:11:11Z",
+      "last_updated": "2026-10-23T09:12:07Z",
       "name": "Kanlaon Volcano Eruption, Negros Island, Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:11:11Z",
+            "at": "2026-10-23T09:12:07Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-11-11Z-f8aad0"
+            "run_id": "2026-10-23T09-12-07Z-ac3ba4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-11-11Z-f8aad0"
+        "last_run_id": "2026-10-23T09-12-07Z-ac3ba4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7171,7 +7259,7 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/documents/details/124371",
           "text": "UNHCR Flash Alert #24 (published Oct 2026) reports that renewed clashes in Baidoa, which began on 28 September 2026 and continued through 3 October 2026 between forces associated with the former Southwest State administration and the Somali National Army over control of the town, displaced 934 households (5,604 individuals) and caused 11 deaths and 86 injuries recorded at Bay Regional Hospital and Bayhaw Hospital, including eight deaths reportedly caused by stray bullets near RP Hotel; Southwest University, the RP Hotel, two mosques and three schools also reportedly sustained significant damage.",
@@ -7197,18 +7285,18 @@
         "status": "ongoing"
       },
       "id": "somalia-baidoa-clashes-displacement-2026",
-      "last_updated": "2026-10-22T09:08:18Z",
+      "last_updated": "2026-10-23T09:11:46Z",
       "name": "Baidoa Clashes & Displacement — South West State, Somalia",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:18Z",
+            "at": "2026-10-23T09:11:46Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-18Z-8ca429"
+            "run_id": "2026-10-23T09-11-46Z-590eb8"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-18Z-8ca429"
+        "last_run_id": "2026-10-23T09-11-46Z-590eb8"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7908,7 +7996,7 @@
         },
         {
           "id": "claim-19",
-          "retrieved_date": "2026-10-21",
+          "retrieved_date": "2026-10-23",
           "source_name": "United Nations",
           "source_url": "https://press.un.org/en/2026/db260928.doc.htm",
           "text": "UN Daily Press Briefing by the Office of the Spokesperson for the Secretary-General (28 September 2026), attributed to WHO: the cholera outbreak that began in Al Nuhud, West Kordofan, in May has spread to 20 localities across six States, with nearly 3,000 cases and 250 associated deaths reported; 'the World Health Organization (WHO) has reported a sharp decline in cholera cases in recent weeks.' WHO has prepositioned 60 metric tons of cholera supplies across Sudan, enough to support treatment for about 120,000 cases, while UNICEF and WHO have provided support for oral cholera vaccination campaigns that reached over 900,000 people.",
@@ -7924,7 +8012,7 @@
         },
         {
           "id": "claim-20",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/sudan/sudan-sees-sharp-decline-cholera-cases-response-efforts-continue",
           "text": "WHO press release via ReliefWeb, 'Sudan sees sharp decline in cholera cases as response efforts continue' (posted 25 September 2026, originally published 24 September 2026): a total of eight cases and no deaths were reported in the week ending 11 September 2026, compared with a peak of 421 cases in the week ending 3 July. The outbreak, which began in Al Nuhud locality, West Kordofan, in May, has spread to 20 localities across six states; a total of 2,955 cases and 250 associated deaths have been reported, a case fatality ratio of 8.4%, well above WHO's less-than-1% threshold. WHO has prepositioned 60 metric tons of cholera supplies (enough for about 120,000 cases), retrained and deployed 60 rapid response teams, trained 120 frontline health workers, and supported 17 cholera treatment centres and 18 oral rehydration points. Oral cholera vaccination campaigns with UNICEF reached 915,377 people, with coverage near 100% in West Kordofan and 99.7% in South Darfur, and 87% of the target population in Tawila, North Darfur. WHO Representative in Sudan Dr Abdinasir Abubakar said the decline 'is encouraging, but we must remain vigilant,' citing continued risk from insecurity, displacement, poor access and the rainy season.",
@@ -7982,18 +8070,18 @@
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-10-22T09:08:18Z",
+      "last_updated": "2026-10-23T09:11:46Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:18Z",
+            "at": "2026-10-23T09:11:46Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-18Z-597262"
+            "run_id": "2026-10-23T09-11-46Z-44dfa2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-18Z-597262"
+        "last_run_id": "2026-10-23T09-11-46Z-44dfa2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8130,7 +8218,7 @@
         },
         {
           "id": "claim-27",
-          "retrieved_date": "2026-10-15",
+          "retrieved_date": "2026-10-23",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/sdn",
           "text": "UNHCR's Operational Data Portal for Sudan (checked 15 October 2026): internally displaced persons within Sudan remain at 8,622,801, still labeled 'last updated 31 August 2026', while refugees and asylum-seekers in Sudan now stand at 909,744, labeled 'last updated 30 September 2026' -- up from 905,349 (31 August 2026 update).",
@@ -8138,7 +8226,7 @@
         },
         {
           "id": "claim-28",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/sdn",
           "text": "UNHCR's Operational Data Portal for Sudan (checked 18 October 2026): internally displaced persons within Sudan remain at 8,583,274, labeled 'last updated 30 Sep 2026' -- unchanged since 17 October 2026 (down from 8,622,801 as of the 31 August 2026 update); refugees and asylum-seekers in Sudan remain at 909,744, unchanged, also labeled 'last updated 30 Sep 2026'.",
@@ -8188,18 +8276,18 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-10-22T09:08:18Z",
+      "last_updated": "2026-10-23T09:11:47Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:18Z",
+            "at": "2026-10-23T09:11:47Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-18Z-1cc4f3"
+            "run_id": "2026-10-23T09-11-47Z-a7056d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-18Z-1cc4f3"
+        "last_run_id": "2026-10-23T09-11-47Z-a7056d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8328,7 +8416,7 @@
         },
         {
           "id": "claim-8",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventtype=FL&eventid=1104122&episodeid=57",
           "text": "GDACS's flood event report for Thailand (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 57, reporting window extended to 18 August-3 October 2026) records 'Death: 6' (unchanged) and 'Displaced: 627' (up from 569); overall alert level remains Green (low humanitarian impact). The report's narrative states that authorities in Thailand reported flooding in Ratchaburi Province from late September 2026.",
@@ -8362,18 +8450,18 @@
         "status": "ongoing"
       },
       "id": "thailand-bangkok-floods-2026",
-      "last_updated": "2026-10-22T09:08:57Z",
+      "last_updated": "2026-10-23T09:11:43Z",
       "name": "Bangkok Flood Disaster, Thailand",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:57Z",
+            "at": "2026-10-23T09:11:43Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-57Z-37adb3"
+            "run_id": "2026-10-23T09-11-43Z-c9690d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-57Z-37adb3"
+        "last_run_id": "2026-10-23T09-11-43Z-c9690d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8702,16 +8790,24 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=32&eventtype=TC",
           "text": "GDACS's tropical cyclone report for CHAMPI-26 (event id 1001338, episode 32, GLIDE TC-2026-000192-GUM) now gives a tracking window of 14-22 October 2026, with peak intensity unchanged at 296 km/h (Category 5, JTWC) and population exposed to Category 1 or higher winds unchanged at about 230,000. The report now additionally lists the Philippines and Taiwan among affected areas, alongside Guam, the Northern Mariana Islands and Japan, and cites a media item reporting sea travel suspended in five Bicol provinces, Philippines, due to a gale warning. No casualty or damage figures are reported.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-9",
+          "retrieved_date": "2026-10-23",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=35&eventtype=TC",
+          "text": "GDACS's tropical cyclone report for CHAMPI-26 (event id 1001338, episode 35, GLIDE TC-2026-000192-GUM) now gives a tracking window of 14-23 October 2026, with peak intensity unchanged at 296 km/h (Category 5, JTWC), but revises the estimated population exposed to Category 1 or higher winds down to about 180,000, from about 230,000 in episode 32. Affected areas are now listed as the Philippines, Guam, the Northern Mariana Islands and Japan -- Taiwan is no longer listed. The report still cites no media item or casualty figure newer than the 21 October item on sea travel suspended in five Bicol provinces, Philippines, and the PAGER casualty section remains empty.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Typhoon Champi tracked through the western Pacific, passing Guam and the Northern Mariana Islands before continuing toward Japan's Ryukyu Islands, Taiwan and the Philippines. GDACS's tropical cyclone report, now covering a 14-22 October 2026 window (episode 32), rates the storm an Overall Red alert with a JTWC-sourced peak intensity of 296 km/h (Category 5) and an estimated 230,000 people exposed to Category 1 or higher winds. The storm passed about 170 miles west of Guam on 18 October without a direct landfall there, and has since tracked toward Okinawa's Sakishima Islands and Taiwan, prompting a gale warning that suspended sea travel in five Bicol provinces of the Philippines. No deaths, injuries or damage have been confirmed by any authoritative source.",
+      "description": "Typhoon Champi tracked through the western Pacific, passing Guam and the Northern Mariana Islands before continuing toward Japan's Ryukyu Islands and the Philippines. GDACS's tropical cyclone report, now covering a 14-23 October 2026 window (episode 35), rates the storm an Overall Red alert with a JTWC-sourced peak intensity of 296 km/h (Category 5) and an estimated 180,000 people exposed to Category 1 or higher winds, down from an earlier estimate of about 230,000. The storm passed about 170 miles west of Guam on 18 October without a direct landfall there, and has continued toward Japan and the Philippines; Taiwan, briefly listed among affected areas on 22 October, no longer appears in GDACS's affected-areas list. No deaths, injuries or damage have been confirmed by any authoritative source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's latest report (episode 32, window extended to 14-22 October) keeps Typhoon Champi's peak intensity at 296 km/h (Category 5, JTWC) and exposed population at about 230,000, now listing the Philippines and Taiwan alongside Guam, the Northern Mariana Islands and Japan as affected areas. The storm passed about 170 miles west of Guam on 18 October without a direct landfall and has continued toward the Sakishima Islands and Taiwan; a gale warning has suspended sea travel in five Bicol provinces, Philippines. No deaths, injuries or damage have yet been confirmed by an authoritative source."
+          "summary": "GDACS's latest report (episode 35, window extended to 14-23 October) keeps Typhoon Champi's peak intensity at 296 km/h (Category 5, JTWC) but revises the exposed-population estimate down to about 180,000, from about 230,000 recorded a day earlier; affected areas are now listed as the Philippines, Guam, the Northern Mariana Islands and Japan, with Taiwan no longer appearing on the list. The storm passed about 170 miles west of Guam on 18 October without a direct landfall; a gale warning previously suspended sea travel in five Bicol provinces, Philippines. No deaths, injuries or damage have yet been confirmed by an authoritative source."
         },
-        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=20&eventtype=TC",
+        "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=35&eventtype=TC",
         "location": {
           "country": "Guam / Northern Mariana Islands (United States)",
           "lat": 12.5,
@@ -8719,22 +8815,22 @@
           "region": "Guam, Rota, Tinian and Saipan"
         },
         "occurrence_date": "2026-10-14",
-        "scale": "GDACS Red alert; Category 5 Super Typhoon (296 km/h); passed Guam without landfall, now nearing Okinawa's Sakishima Islands and Taiwan",
+        "scale": "GDACS Red alert; Category 5 Super Typhoon (296 km/h); passed Guam without landfall, tracking toward Japan and the Philippines",
         "status": "ongoing"
       },
       "id": "typhoon-champi-guam-mariana-2026",
-      "last_updated": "2026-10-22T09:09:15Z",
+      "last_updated": "2026-10-23T09:12:46Z",
       "name": "Typhoon Champi — Guam & Northern Mariana Islands",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:09:15Z",
+            "at": "2026-10-23T09:12:46Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-09-15Z-3abbbe"
+            "run_id": "2026-10-23T09-12-46Z-b1daf2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-09-15Z-3abbbe"
+        "last_run_id": "2026-10-23T09-12-46Z-b1daf2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8743,6 +8839,10 @@
         "recency_rank": 739903
       },
       "updates": [
+        {
+          "date": "2026-10-23",
+          "text": "GDACS extended the tracking window to 14-23 October (episode 35) and revised the exposed-population estimate down to about 180,000 (from ~230,000); Taiwan no longer appears on the affected-areas list, which now reads Philippines, Guam, Northern Mariana Islands and Japan. Peak intensity (296 km/h) is unchanged; no deaths or damage confirmed."
+        },
         {
           "date": "2026-10-22",
           "text": "GDACS extended the tracking window to 14-22 October (episode 32) as Champi continued toward Okinawa's Sakishima Islands and Taiwan, now also listing the Philippines among affected areas after a gale warning suspended sea travel in five Bicol provinces. Peak intensity (296 km/h) and exposed population (~230,000) are unchanged; no deaths or damage confirmed."
@@ -8762,7 +8862,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -9123,7 +9223,7 @@
         },
         {
           "id": "claim-16",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "CAL FIRE",
           "source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire",
           "text": "CAL FIRE's incident page for the Plaskett Fire reports that, as of September 29, 2026 at 5:58 PM, the fire is 100% contained at 30,124 acres, with command transferred back to Los Padres National Forest on September 29, 2026; current operations focus on suppression repair, crew patrols and monitoring for remaining heat, with no further spread anticipated.",
@@ -9163,7 +9263,7 @@
         },
         {
           "id": "claim-20",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "CAL FIRE",
           "source_url": "https://www.fire.ca.gov/incidents/2026/8/8/timber-fire/",
           "text": "CAL FIRE's incident page for the Timber Fire reports, as of its page update timestamped October 9, 2026 at 4:09 PM, that the fire had reached 97% containment (up from 94% on October 7) on 25,352 acres (unchanged).",
@@ -9245,18 +9345,18 @@
         "status": "ongoing"
       },
       "id": "usa-california-big-sur-wildfires-2026",
-      "last_updated": "2026-10-22T09:08:18Z",
+      "last_updated": "2026-10-23T09:12:14Z",
       "name": "Wildfires — Big Sur / Los Padres National Forest, California",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:18Z",
+            "at": "2026-10-23T09:12:14Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-18Z-33fccd"
+            "run_id": "2026-10-23T09-12-14Z-72bf40"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-18Z-33fccd"
+        "last_run_id": "2026-10-23T09-12-14Z-72bf40"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -10226,7 +10326,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "CDC",
           "source_url": "https://www.cdc.gov/measles/data-research/index.html",
           "text": "CDC's measles data page, checked 21 October 2026, still states \"As of October 15, 2026, 4,410 confirmed measles cases were reported in the United States in 2026,\" but now lists a cumulative \"Total Deaths\" figure of 3 (footnoted \"This number is subject to change; CDC will update its reporting\"), up from the 2 shown on the same page as of 19 October 2026 for the same October 15 data cut.",
@@ -10252,18 +10352,18 @@
         "status": "ongoing"
       },
       "id": "usa-new-york-measles-outbreak-2026",
-      "last_updated": "2026-10-22T09:08:19Z",
+      "last_updated": "2026-10-23T09:12:15Z",
       "name": "Measles State Disaster Emergency — New York, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:19Z",
+            "at": "2026-10-23T09:12:15Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-19Z-62b222"
+            "run_id": "2026-10-23T09-12-15Z-f22e98"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-19Z-62b222"
+        "last_run_id": "2026-10-23T09-12-15Z-f22e98"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -10531,6 +10631,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-37",
+          "retrieved_date": "2026-10-23",
+          "source_name": "InciWeb (US wildland fire agencies)",
+          "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+          "text": "InciWeb's Sinlahekin Fire incident page, checked 23 October 2026, now states 'This incident is no longer being updated,' holding at the 30 September 2026 figures of 93% perimeter containment on 166,007 acres with 334 personnel assigned; the page's estimated full-containment date of 15 October 2026 has passed with no further posted update.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-08-10",
           "source_name": "Office of the Governor of Washington State",
@@ -10579,12 +10687,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, has moved into a federally supported recovery phase as the state's largest blaze nears full containment. The Sinlahekin Fire holds at 93% containment on about 166,007 acres as of 30 September 2026, with crews finishing rehab and repair work toward a 15 October full-containment target. Washington formally requested a federal Major Disaster Declaration on 28 September 2026 and, on 7 October, additional FEMA Public Assistance for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across 11 counties and the Spokane Tribe of Indians; a separate emergency continues to address the Paradise Fire's threat to Walla Walla's water supply.",
+      "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, has moved into a federally supported recovery phase as the state's largest blaze winds down. InciWeb's Sinlahekin Fire page now states the incident is no longer being updated, holding at its 30 September figures of 93% containment on about 166,007 acres. Washington formally requested a federal Major Disaster Declaration on 28 September 2026 and, on 7 October, additional FEMA Public Assistance for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across 11 counties and the Spokane Tribe of Indians; a separate emergency continues to address the Paradise Fire's threat to Walla Walla's water supply.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "The Sinlahekin Fire, the state's largest, holds at 93% containment on about 166,007 acres as of 30 September 2026, with personnel assigned down to 334 as operations wind down toward a 15 October full-containment target. Washington's governor formally requested a federal Major Disaster Declaration on 28 September 2026 and, on 7 October, additional FEMA Public Assistance of up to $13.2 million for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across Asotin, Chelan, Columbia, Douglas, Ferry, Grant, Okanogan, Spokane, Stevens, Whitman and Yakima counties and the Spokane Tribe of Indians; Individual Assistance has separately been requested for Benton, Okanogan, Spokane and Stevens counties and the Spokane Tribe. The wildfire proclamation lineage (26-03 through 26-06) now also covers recovery/rebuilding support and a fuel waiver; a distinct emergency continues to address the Paradise Fire's threat to Walla Walla's Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
+          "summary": "The Sinlahekin Fire, the state's largest, is no longer being updated by InciWeb as of 23 October 2026, holding at its 30 September figures of 93% containment on about 166,007 acres with 334 personnel; the page's 15 October estimated full-containment date has passed without a further posted update. Washington's governor formally requested a federal Major Disaster Declaration on 28 September 2026 and, on 7 October, additional FEMA Public Assistance of up to $13.2 million for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across Asotin, Chelan, Columbia, Douglas, Ferry, Grant, Okanogan, Spokane, Stevens, Whitman and Yakima counties and the Spokane Tribe of Indians. Individual Assistance has separately been requested for Benton, Okanogan, Spokane and Stevens counties and the Spokane Tribe. The wildfire proclamation lineage (26-03 through 26-06) also covers recovery/rebuilding support and a fuel waiver; a distinct emergency continues to address the Paradise Fire's threat to Walla Walla's Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
         },
         "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
         "location": {
@@ -10598,18 +10706,18 @@
         "status": "ongoing"
       },
       "id": "usa-washington-wildfires-2026",
-      "last_updated": "2026-10-22T09:08:19Z",
+      "last_updated": "2026-10-23T09:12:41Z",
       "name": "Wildfire Emergency — Eastern Washington, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:08:19Z",
+            "at": "2026-10-23T09:12:41Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-08-19Z-1fb140"
+            "run_id": "2026-10-23T09-12-41Z-ce1191"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-08-19Z-1fb140"
+        "last_run_id": "2026-10-23T09-12-41Z-ce1191"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -10618,6 +10726,10 @@
         "recency_rank": 739829
       },
       "updates": [
+        {
+          "date": "2026-10-23",
+          "text": "InciWeb's Sinlahekin Fire page now states the incident is no longer being updated, holding at its 30 September figures (93% containment, 166,007 acres, 334 personnel); the estimated 15 October full-containment date has passed with no further posted update."
+        },
         {
           "date": "2026-10-07",
           "text": "Washington requested additional FEMA Public Assistance of up to $13.2 million for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across 11 counties and the Spokane Tribe of Indians; the state had formally requested a federal Major Disaster Declaration on 28 September."
@@ -10732,16 +10844,12 @@
         },
         {
           "date": "2026-08-04",
-          "text": "President Trump approved a federal emergency declaration covering Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties and the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians, authorizing FEMA to coordinate federal disaster relief."
-        },
-        {
-          "date": "2026-08-01",
-          "text": "Governor Bob Ferguson proclaimed a statewide wildfire emergency, reporting over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires; 110 National Guard members were activated and 13 State Fire Marshal task forces mobilized."
+          "text": "President Trump approved a federal emergency declaration (4 August) covering six counties and three tribal nations, authorizing FEMA coordination; it followed Governor Ferguson's 1 August statewide wildfire emergency proclamation reporting over 1,000 fires and approximately 425,000 acres burned, the highest since 2021, with 110 National Guard members activated."
         }
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 36 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 37 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -11263,7 +11371,7 @@
         },
         {
           "id": "claim-29",
-          "retrieved_date": "2026-10-22",
+          "retrieved_date": "2026-10-23",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-15-october-2026",
           "text": "OCHA oPt's Humanitarian Situation Report (published 15 October 2026, covering the West Bank 29 September-12 October 2026): 5 Palestinians were killed during the period (3 in settler attacks), 246 Palestinians were injured (including 22 children) by Israeli forces or settlers, and 96 Palestinians were displaced by demolitions over the two weeks, including 69 people in a single demolition in At Tur on 6 October. More than 2,060 settler attacks resulting in Palestinian casualties, property damage or both have been documented since the start of 2026, including 244 such incidents during this reporting period.",
@@ -11321,18 +11429,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-10-22T09:10:34Z",
+      "last_updated": "2026-10-23T09:12:43Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-22T09:10:34Z",
+            "at": "2026-10-23T09:12:43Z",
             "layer": "verify",
-            "run_id": "2026-10-22T09-10-34Z-ac1c39"
+            "run_id": "2026-10-23T09-12-43Z-62d2d2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-22T09-10-34Z-ac1c39"
+        "last_run_id": "2026-10-23T09-12-43Z-62d2d2"
       },
       "schema_version": "1.0",
       "sort_keys": {

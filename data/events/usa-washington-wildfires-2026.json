@@ -242,6 +242,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-37",
+      "retrieved_date": "2026-10-23",
+      "source_name": "InciWeb (US wildland fire agencies)",
+      "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
+      "text": "InciWeb's Sinlahekin Fire incident page, checked 23 October 2026, now states 'This incident is no longer being updated,' holding at the 30 September 2026 figures of 93% perimeter containment on 166,007 acres with 334 personnel assigned; the page's estimated full-containment date of 15 October 2026 has passed with no further posted update.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-08-10",
       "source_name": "Office of the Governor of Washington State",
@@ -290,12 +298,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, has moved into a federally supported recovery phase as the state's largest blaze nears full containment. The Sinlahekin Fire holds at 93% containment on about 166,007 acres as of 30 September 2026, with crews finishing rehab and repair work toward a 15 October full-containment target. Washington formally requested a federal Major Disaster Declaration on 28 September 2026 and, on 7 October, additional FEMA Public Assistance for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across 11 counties and the Spokane Tribe of Indians; a separate emergency continues to address the Paradise Fire's threat to Walla Walla's water supply.",
+  "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, has moved into a federally supported recovery phase as the state's largest blaze winds down. InciWeb's Sinlahekin Fire page now states the incident is no longer being updated, holding at its 30 September figures of 93% containment on about 166,007 acres. Washington formally requested a federal Major Disaster Declaration on 28 September 2026 and, on 7 October, additional FEMA Public Assistance for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across 11 counties and the Spokane Tribe of Indians; a separate emergency continues to address the Paradise Fire's threat to Walla Walla's water supply.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "The Sinlahekin Fire, the state's largest, holds at 93% containment on about 166,007 acres as of 30 September 2026, with personnel assigned down to 334 as operations wind down toward a 15 October full-containment target. Washington's governor formally requested a federal Major Disaster Declaration on 28 September 2026 and, on 7 October, additional FEMA Public Assistance of up to $13.2 million for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across Asotin, Chelan, Columbia, Douglas, Ferry, Grant, Okanogan, Spokane, Stevens, Whitman and Yakima counties and the Spokane Tribe of Indians; Individual Assistance has separately been requested for Benton, Okanogan, Spokane and Stevens counties and the Spokane Tribe. The wildfire proclamation lineage (26-03 through 26-06) now also covers recovery/rebuilding support and a fuel waiver; a distinct emergency continues to address the Paradise Fire's threat to Walla Walla's Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
+      "summary": "The Sinlahekin Fire, the state's largest, is no longer being updated by InciWeb as of 23 October 2026, holding at its 30 September figures of 93% containment on about 166,007 acres with 334 personnel; the page's 15 October estimated full-containment date has passed without a further posted update. Washington's governor formally requested a federal Major Disaster Declaration on 28 September 2026 and, on 7 October, additional FEMA Public Assistance of up to $13.2 million for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across Asotin, Chelan, Columbia, Douglas, Ferry, Grant, Okanogan, Spokane, Stevens, Whitman and Yakima counties and the Spokane Tribe of Indians. Individual Assistance has separately been requested for Benton, Okanogan, Spokane and Stevens counties and the Spokane Tribe. The wildfire proclamation lineage (26-03 through 26-06) also covers recovery/rebuilding support and a fuel waiver; a distinct emergency continues to address the Paradise Fire's threat to Walla Walla's Mill Creek Watershed water supply. No confirmed death toll or structure-loss figure has been published."
     },
     "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
     "location": {
@@ -309,18 +317,18 @@
     "status": "ongoing"
   },
   "id": "usa-washington-wildfires-2026",
-  "last_updated": "2026-10-22T09:08:19Z",
+  "last_updated": "2026-10-23T09:12:41Z",
   "name": "Wildfire Emergency — Eastern Washington, USA",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-22T09:08:19Z",
+        "at": "2026-10-23T09:12:41Z",
         "layer": "verify",
-        "run_id": "2026-10-22T09-08-19Z-1fb140"
+        "run_id": "2026-10-23T09-12-41Z-ce1191"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-22T09-08-19Z-1fb140"
+    "last_run_id": "2026-10-23T09-12-41Z-ce1191"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -329,6 +337,10 @@
     "recency_rank": 739829
   },
   "updates": [
+    {
+      "date": "2026-10-23",
+      "text": "InciWeb's Sinlahekin Fire page now states the incident is no longer being updated, holding at its 30 September figures (93% containment, 166,007 acres, 334 personnel); the estimated 15 October full-containment date has passed with no further posted update."
+    },
     {
       "date": "2026-10-07",
       "text": "Washington requested additional FEMA Public Assistance of up to $13.2 million for infrastructure repair, bringing the total federal Public Assistance requested for this disaster to over $133 million across 11 counties and the Spokane Tribe of Indians; the state had formally requested a federal Major Disaster Declaration on 28 September."
@@ -443,16 +455,12 @@
     },
     {
       "date": "2026-08-04",
-      "text": "President Trump approved a federal emergency declaration covering Chelan, Ferry, Okanogan, Spokane, Stevens and Yakima counties and the Yakama Nation, the Colville Reservation and the Spokane Tribe of Indians, authorizing FEMA to coordinate federal disaster relief."
-    },
-    {
-      "date": "2026-08-01",
-      "text": "Governor Bob Ferguson proclaimed a statewide wildfire emergency, reporting over 1,000 fires and approximately 425,000 acres burned statewide, the highest acreage since 2021, with 200,000+ acres actively burning across 12 large fires; 110 National Guard members were activated and 13 State Fire Marshal task forces mobilized."
+      "text": "President Trump approved a federal emergency declaration (4 August) covering six counties and three tribal nations, authorizing FEMA coordination; it followed Governor Ferguson's 1 August statewide wildfire emergency proclamation reporting over 1,000 fires and approximately 425,000 acres burned, the highest since 2021, with 110 National Guard members activated."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 36 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 37 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
