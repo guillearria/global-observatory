@@ -146,6 +146,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-28",
+      "retrieved_date": "2026-10-24",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-112-displacement-following-armed-violence-commune-petite",
+      "text": "IOM DTM 'Haiti -- Emergency Tracking Tool (ETT) 112' (armed violence from 19-22 October 2026, published 22 October 2026) recorded approximately 7,250 people (1,637 households) displaced by armed violence in the commune of Petite Riviere de l'Artibonite, Artibonite department -- a separate incident from the Gros-Morne displacement tracked in ETT 110.2. About 60% sought refuge within Petite Riviere de l'Artibonite and 40% in neighbouring Verrettes commune.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-11",
       "source_name": "United Nations",
@@ -178,12 +186,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement spreading beyond Port-au-Prince into previously safer areas. UN High Commissioner Volker Turk told the Human Rights Council on 2 October that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with 230+ kidnapped and 1,000+ women and girls raped -- likely an undercount. IOM's DTM Round 14 (through 12 August) put the national total near 1.49 million IDPs, with Artibonite's displacement worsening further after a 28 September Gros-Morne attack that killed at least 11 and has now displaced about 10,197 people (ETT 110.2, 15 October). The Security Council renewed the Gang Suppression Force's mandate on 29 September, to 31 March 2027.",
+  "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement spreading beyond Port-au-Prince into previously safer areas. UN High Commissioner Volker Turk told the Human Rights Council on 2 October that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with 230+ kidnapped and 1,000+ women and girls raped -- likely an undercount. IOM's DTM Round 14 (through 12 August) put the national total near 1.49 million IDPs; Artibonite department's displacement has since worsened further, with a 28 September Gros-Morne attack that killed at least 11 displacing about 10,197 people (ETT 110.2, 15 October) and a separate 19 October outbreak of armed violence in Petite Riviere de l'Artibonite displacing about 7,250 more (ETT 112, 22 October). The Security Council renewed the Gang Suppression Force's mandate on 29 September, to 31 March 2027.",
   "event": {
     "impact": {
       "deaths": 3000,
       "displaced": 1490000,
-      "summary": "IOM's DTM Round 14 report (covering 15 May-12 August 2026) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite recording the largest departmental increase (+16%) as insecurity there deteriorates further. UN High Commissioner for Human Rights Volker Turk told the Human Rights Council on 2 October 2026 that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with more than 230 kidnapped and at least 1,000 women and girls raped. A 28 September gang attack in Gros-Morne, Artibonite -- which reportedly killed at least 11 people -- has now displaced approximately 10,197 people (2,436 households) per IOM's revised Emergency Tracking Tool (ETT 110.2, published 15 October), up from 8,486 in ETT 110.1, with 99% sheltering with host families. Argentina's 28 August UN Security Council statement put nationwide deaths at 3,000+ so far in 2026; on 29 September the Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027."
+      "summary": "IOM's DTM Round 14 report (covering 15 May-12 August 2026) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite recording the largest departmental increase (+16%) as insecurity there deteriorates further. UN High Commissioner for Human Rights Volker Turk told the Human Rights Council on 2 October 2026 that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with more than 230 kidnapped and at least 1,000 women and girls raped. Artibonite department has seen two further armed-violence displacements in October: a 28 September Gros-Morne attack that reportedly killed at least 11 people has displaced approximately 10,197 people (ETT 110.2, 15 October), and armed violence beginning 19 October in Petite Riviere de l'Artibonite has displaced about 7,250 more people (ETT 112, 22 October). Argentina's 28 August UN Security Council statement put nationwide deaths at 3,000+ so far in 2026; on 29 September the Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027."
     },
     "live_source_url": "https://dtm.iom.int/haiti",
     "location": {
@@ -197,18 +205,18 @@
     "status": "ongoing"
   },
   "id": "haiti-gang-violence-displacement-2026",
-  "last_updated": "2026-10-23T09:12:15Z",
+  "last_updated": "2026-10-24T09:10:34Z",
   "name": "Gang Violence Displacement Crisis — Haiti",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-23T09:12:15Z",
+        "at": "2026-10-24T09:10:34Z",
         "layer": "verify",
-        "run_id": "2026-10-23T09-12-15Z-86d2f5"
+        "run_id": "2026-10-24T09-10-34Z-e4d43e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-23T09-12-15Z-86d2f5"
+    "last_run_id": "2026-10-24T09-10-34Z-e4d43e"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -217,6 +225,10 @@
     "recency_rank": 739816
   },
   "updates": [
+    {
+      "date": "2026-10-24",
+      "text": "IOM's Emergency Tracking Tool 112 (published 22 October) recorded approximately 7,250 people (1,637 households) displaced by armed violence beginning 19 October in the commune of Petite Riviere de l'Artibonite, Artibonite department -- a separate incident from the ongoing Gros-Morne displacement."
+    },
     {
       "date": "2026-10-17",
       "text": "IOM's Emergency Tracking Tool 110.2 (published 15 October) revised the Gros-Morne, Artibonite displacement toll upward again to approximately 10,197 people (2,436 households), up from 8,486 in ETT 110.1, with 99% sheltering with host families and 1% in two established sites."
@@ -272,7 +284,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 22 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
