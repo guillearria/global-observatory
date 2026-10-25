@@ -2,6 +2,14 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-10-25 — World Pulse daily refresh (2026-10-25): Americas cluster re-verification — Washington wildfires damage assessment, Panama earthquake's first confirmed death; no new major event met the gate's bar today (`04d9dda`)
+
+- **Updated:** canada-british-columbia-wildfires-2026, colombia-earthquake-choco-2026, panama-earthquake-azuero-2026, usa-california-big-sur-wildfires-2026, usa-new-york-measles-outbreak-2026, usa-washington-wildfires-2026
+
+## 2026-10-25 — World Pulse daily refresh (2026-10-25): re-verify Africa/Horn, Middle East, Japan/China clusters (23 events, all unchanged); catch up CHANGELOG.md for the 2026-10-24 refresh (`230c0a1`)
+
+- **Updated:** china-earthquake-nagqu-2026, china-floods-yangtze-typhoon-dolphin-2026, djibouti-migrant-shipwreck-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, indonesia-volcano-krakatau-2026, indonesia-wildfires-haze-2026, iran-israel-us-war-2026, japan-volcano-tokachidake-2026, mindanao-earthquake-philippines-2026, nepal-rasuwa-glacial-flood-2026, pakistan-floods-2026, philippines-kanlaon-volcano-eruption-2026, somalia-baidoa-clashes-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, thailand-bangkok-floods-2026, typhoon-champi-guam-mariana-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
+
 ## 2026-10-24 — World Pulse daily refresh (2026-10-24): Ebola DRC/Kenya toll rise, Yemen/Haiti/NY measles updates; re-verify remaining 23 ongoing events across Africa/Horn, Middle East, S/SE Asia, Japan/Pacific and Americas clusters; no new major event met the gate's bar today (`036d8d5`)
 
 - **Updated:** canada-british-columbia-wildfires-2026, china-earthquake-nagqu-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, djibouti-migrant-shipwreck-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, indonesia-volcano-krakatau-2026, iran-israel-us-war-2026, japan-volcano-tokachidake-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, panama-earthquake-azuero-2026, philippines-kanlaon-volcano-eruption-2026, somalia-baidoa-clashes-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, thailand-bangkok-floods-2026, typhoon-champi-guam-mariana-2026, usa-california-big-sur-wildfires-2026, usa-new-york-measles-outbreak-2026, usa-washington-wildfires-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
