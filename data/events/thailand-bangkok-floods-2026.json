@@ -10,6 +10,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-10",
+      "retrieved_date": "2026-10-25",
+      "source_name": "The Star (Malaysia), citing Thailand Interior Ministry",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/12/thailand-flood-death-toll-since-september-16-rises-to-71-interior-ministry",
+      "text": "The Star (Malaysia), 12 October 2026, citing Thailand's Interior Ministry: the death toll from flooding since 16 September 2026 has risen to 71, with the Department of Disaster Prevention and Mitigation reporting about 2.46 million people affected across 20 provinces and Bangkok as of 12 October. This Interior Ministry figure has not been independently corroborated on an allowlisted government, UN, or Red Cross/Red Crescent source and is not adopted into the confirmed nationwide total (31 deaths, per IFRC/Thai Red Cross, 6 October), which remains the most recent allowlisted figure.",
+      "verification_status": "unverified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-09-26",
       "source_name": "Al Jazeera",
@@ -74,12 +82,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Torrential monsoon rain has flooded Bangkok and central Thailand since mid-September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. IFRC and the Thai Red Cross reported on 6 October 2026 that flooding since 16 September has killed 31 people nationwide and affected 4,188,452 people (1,474,981 households) across 50 provinces; as of 6 October, flooding remained active in 27 provinces and Bangkok, affecting 3,143,962 people (1,149,285 households), including about 700,000 people (329,000 households) in Bangkok, where 4 deaths have been recorded and water levels are decreasing. This nationwide toll supersedes GDACS's narrower tracked total of 6 deaths and 627 displaced. Forecasters warn of renewed heavy rain and increased dam discharge in the Chao Phraya basin from 9-13 October, which could raise river levels further in low-lying and riverside areas.",
+  "description": "Torrential monsoon rain has flooded Bangkok and central Thailand since mid-September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. IFRC and the Thai Red Cross's most recent situation report (6 October 2026) puts the confirmed nationwide toll at 31 deaths and 4,188,452 people affected since 16 September, with 3,143,962 people still affected in 27 provinces and Bangkok as of that date. Thailand's Interior Ministry has since told local press the toll reached 71 deaths as of 12 October, with the affected population easing to about 2.46 million people across 20 provinces and Bangkok, but that higher figure has not yet been corroborated by an official Thai government report, UN agency, or the Red Cross/Red Crescent. Flooding has gradually eased nationwide through mid-October as floodwaters recede.",
   "event": {
     "impact": {
       "deaths": 31,
       "displaced": 3143962,
-      "summary": "IFRC and the Thai Red Cross's 6 October 2026 situation report puts the confirmed nationwide toll at 31 deaths and 4,188,452 people (1,474,981 households) affected across 50 provinces since 16 September; as of 6 October, 3,143,962 people (1,149,285 households) remained affected in 27 provinces and Bangkok, including about 700,000 people (329,000 households) in Bangkok, where 4 deaths have been recorded and water levels are decreasing. This figure supersedes GDACS's narrower tracked total of 6 deaths and 627 displaced (episode 57, window 18 August-3 October). Forecasters warn of renewed heavy rain and increased Chao Phraya dam discharge from 9-13 October, which could raise flood risk again in low-lying and riverside areas."
+      "summary": "IFRC and the Thai Red Cross's 6 October 2026 situation report remains the most recent corroborated figure: 31 deaths and 4,188,452 people (1,474,981 households) affected across 50 provinces since 16 September, with 3,143,962 people (1,149,285 households) still affected in 27 provinces and Bangkok as of that date. Thailand's Interior Ministry has since told local press the toll reached 71 deaths as of 12 October, with the affected population easing to about 2.46 million people across 20 provinces and Bangkok, but this higher figure has not been corroborated by an official Thai government report, UN agency, or the Red Cross/Red Crescent. GDACS's narrower tracked total remains 6 deaths and 627 displaced."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
     "location": {
@@ -93,18 +101,18 @@
     "status": "ongoing"
   },
   "id": "thailand-bangkok-floods-2026",
-  "last_updated": "2026-10-24T09:10:37Z",
+  "last_updated": "2026-10-25T09:11:07Z",
   "name": "Bangkok Flood Disaster, Thailand",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-24T09:10:37Z",
+        "at": "2026-10-25T09:11:07Z",
         "layer": "verify",
-        "run_id": "2026-10-24T09-10-37Z-014b12"
+        "run_id": "2026-10-25T09-11-07Z-8bbf08"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-24T09-10-37Z-014b12"
+    "last_run_id": "2026-10-25T09-11-07Z-8bbf08"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -113,6 +121,10 @@
     "recency_rank": 739883
   },
   "updates": [
+    {
+      "date": "2026-10-25",
+      "text": "Thailand's Interior Ministry told local press the toll since 16 September had risen to 71 deaths, with the affected population easing to about 2.46 million people (20 provinces and Bangkok) as of 12 October; uncorroborated by an official report, UN agency, or Red Cross/Red Crescent, so the confirmed total remains 31 deaths per IFRC/Thai Red Cross (6 October)."
+    },
     {
       "date": "2026-10-06",
       "text": "IFRC and the Thai Red Cross's 6 October situation report, now hosted on ReliefWeb, put the confirmed nationwide toll at 31 deaths and about 3.14 million people (1.15 million households) still affected across 27 provinces and Bangkok, with a cumulative 4.19 million people affected since 16 September -- superseding GDACS's narrower tracked total of 6 deaths and 627 displaced."
@@ -136,7 +148,7 @@
   ],
   "verification": {
     "confidence": "medium",
-    "notes": "gate: 4 verified, 0 disputed, 5 unverified -> partial",
+    "notes": "gate: 4 verified, 0 disputed, 6 unverified -> partial",
     "status": "partial"
   }
 }
