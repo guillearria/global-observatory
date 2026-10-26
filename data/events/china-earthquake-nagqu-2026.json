@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-10-25",
+      "retrieved_date": "2026-10-26",
       "source_name": "USGS",
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u43g.geojson",
       "text": "USGS recorded a magnitude 7.0 (Mww) earthquake on 22 October 2026 at 14:33:40 UTC, located 191 km ENE of Nagqu, China (32.3805N, 93.7797E) at a depth of 18 km. USGS's PAGER system assessed an Orange shaking-impact alert, and the ShakeMap product recorded a maximum MMI of about 8.2. No tsunami was generated.",
@@ -11,7 +11,7 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-10-25",
+      "retrieved_date": "2026-10-26",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
       "text": "GDACS's earthquake report (event id 1573141, episode 1741837, GLIDE EQ-2026-000195-CHN) rates the event an Overall Red alert, with a GDACS score of 2 and about 10,000 people exposed to MMI VII or greater shaking. The report's media-headlines section, which GDACS notes it has not independently verified, cites at least 16 deaths, injuries variously reported at 65 and 76, and hundreds of houses collapsed.",
@@ -37,18 +37,18 @@
     "status": "ongoing"
   },
   "id": "china-earthquake-nagqu-2026",
-  "last_updated": "2026-10-25T09:08:57Z",
+  "last_updated": "2026-10-26T09:12:15Z",
   "name": "M7.0 Earthquake, Nagqu (Baqen County), Tibet, China",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-25T09:08:57Z",
+        "at": "2026-10-26T09:12:15Z",
         "layer": "verify",
-        "run_id": "2026-10-25T09-08-57Z-58ed41"
+        "run_id": "2026-10-26T09-12-15Z-3bb9fe"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-25T09-08-57Z-58ed41"
+    "last_run_id": "2026-10-26T09-12-15Z-3bb9fe"
   },
   "schema_version": "1.0",
   "sort_keys": {
