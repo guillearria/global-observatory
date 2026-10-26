@@ -1,0 +1,81 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "very-low",
+      "numeric_annual": null,
+      "window": "next-100-years"
+    },
+    "severity": "civilizational",
+    "summary": "Extremely rare on any human timescale and with no candidate close enough to threaten Earth — the nearest red supergiant supernova candidate is around 700 light-years away, fourteen times NASA's 50-light-year damage threshold — but a close event could not be prevented and its modelled effect is severe: a Galactic gamma-ray burst at 2 kiloparsecs would cut the ozone column by 35 percent globally and 55 percent at some latitudes for more than five years, with widespread extinctions likely.",
+    "timeframe": "No known object threatens Earth. Core-collapse supernovae within 8 parsecs recur about 1.5 times per billion years, gamma-ray bursts close enough to affect Earth about every 15 million years, and Betelgeuse — the nearest red supergiant candidate, around 700 light-years away — is not expected to explode for roughly another 100,000 years."
+  },
+  "category": "cosmic",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-26",
+      "source_name": "NASA",
+      "source_url": "https://www.nasa.gov/universe/2012-fear-no-supernova/",
+      "text": "For Earth's ozone layer to experience damage from a supernova, the blast must occur less than 50 light-years away, and all of the nearby stars capable of going supernova are much farther than this. Astronomers estimate that a gamma-ray burst could affect Earth from up to 10,000 light-years away, with each separated by about 15 million years, on average; the closest burst on record, GRB 031203, was 1.3 billion light-years away.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-26",
+      "source_name": "NASA",
+      "source_url": "https://acd-ext.gsfc.nasa.gov/People/Jackman/Gehrels_2003.pdf",
+      "text": "Two-dimensional atmospheric model calculations find that for the combined ozone depletion from supernova gamma rays and cosmic rays roughly to double the \"biologically active\" UV flux received at the surface of the Earth, the supernova must occur within about 8 parsecs, and that the time-averaged Galactic rate of core-collapse supernovae occurring within 8 pc is 1.5 per billion years; the authors conclude this pathway for mass extinctions \"may be less important than previously thought\" (Gehrels et al., The Astrophysical Journal 585:1169, 10 March 2003).",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-10-26",
+      "source_name": "NASA",
+      "source_url": "https://ntrs.nasa.gov/api/citations/20050179464/downloads/20050179464.pdf",
+      "text": "Based on cosmological rates, it is probable that at least once in the last billion years the Earth has been irradiated by a gamma-ray burst in our Galaxy from within 2 kpc. A ten second burst delivering 100 kJ/m2 to the Earth results in globally averaged ozone depletion of 35%, with depletion reaching 55% at some latitudes; significant global depletion persists for over 5 years after the burst, and a 50% decrease in ozone column density results in approximately three times the normal UVB flux, making widespread extinctions likely on extrapolation from the UVB sensitivity of modern organisms (Thomas et al., \"Terrestrial Ozone Depletion Due to a Milky Way Gamma-Ray Burst\").",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-10-26",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/universe/what-is-betelgeuse-inside-the-strange-volatile-star/",
+      "text": "Betelgeuse, the nearest red supergiant supernova candidate, is around 700 light-years away, and scientists expect its explosion isn't likely to happen for about another 100,000 years.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-10-26",
+      "source_name": "NASA",
+      "source_url": "https://astrobiology.nasa.gov/news/how-deadly-would-a-nearby-gamma-ray-burst-be/",
+      "text": "Modelling of a gamma-ray burst over the South Pole found the resulting ground-level ozone is around 10 parts per billion, below the at least 30 ppb it takes to increase the risk of death due to respiratory failure in humans or to make ozone a risk to vegetation, so that pathway would not have played a part in the Ordovician mass extinction around 450 million years ago (NASA Astrobiology, 8 November 2016).",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A supernova or gamma-ray burst exploding close enough to Earth would strip away much of the ozone layer, exposing the surface to damaging ultraviolet radiation for years. NASA puts the damage threshold for a supernova at under 50 light-years, and every nearby star capable of exploding is far beyond it: Betelgeuse, the closest red supergiant candidate, sits around 700 light-years away and is not expected to explode for roughly another 100,000 years. The modelled consequences of a close event are nonetheless severe. A two-dimensional atmospheric model of a ten-second Galactic gamma-ray burst 2 kiloparsecs away found globally averaged ozone depletion of 35 percent, reaching 55 percent at some latitudes and persisting for over five years — enough, on the authors' extrapolation from the UVB sensitivity of modern organisms, to make widespread extinctions likely. The recurrence rates are what make this a background risk rather than a forecast: core-collapse supernovae within 8 parsecs occur about 1.5 times per billion years, and gamma-ray bursts close enough to affect Earth roughly every 15 million years. Neither can be deflected, and nothing in the current sky is a candidate.",
+  "id": "nearby-supernova-gamma-ray-burst",
+  "last_updated": "2026-10-26T10:22:26Z",
+  "name": "Nearby Supernova or Gamma-Ray Burst",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-26T10:22:26Z",
+        "layer": "verify",
+        "run_id": "2026-10-26T10-22-26Z-b40228"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-26T10-22-26Z-b40228"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 31.0,
+    "probability_rank": 1,
+    "severity_rank": 3
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

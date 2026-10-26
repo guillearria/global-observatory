@@ -6,14 +6,14 @@
       "window": "ongoing"
     },
     "severity": "continental",
-    "summary": "Autonomous weapons are being fielded faster than the law governing them is being written; large General Assembly majorities back new rules, but several states with the most capable systems vote against them, leaving an arms race under no binding constraint as the most likely path.",
-    "timeframe": "Ongoing, with a diplomatic deadline in view: the UN and the ICRC set 2026 as the target for a legally binding instrument, and the seventh Review Conference of the Convention on Certain Conventional Weapons, in Geneva in November 2026, is described as the clearest path available for States to act."
+    "summary": "Autonomous weapons are being fielded faster than the law governing them is being written; large General Assembly majorities back new rules, but several states with the most capable systems vote against them. The expert group has closed with a consensus set of agreed elements for an instrument, leaving the November 2026 Review Conference to decide whether negotiations ever start — and an arms race under no binding constraint as the default if they do not.",
+    "timeframe": "Ongoing, with a decision point in view: the seventh Review Conference of the Convention on Certain Conventional Weapons meets at the Palais des Nations in Geneva on 16-20 November 2026, and is where States decide whether to launch negotiations on a legally binding instrument, against a UN and ICRC target of adopting one by the end of 2026."
   },
   "category": "technological",
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-08-31",
+      "retrieved_date": "2026-10-26",
       "source_name": "United Nations",
       "source_url": "https://news.un.org/en/story/2026/08/1168196",
       "text": "In a renewed joint appeal on 25 August 2026, UN Secretary-General António Guterres said: \"We are now dangerously close to crossing a moral red line: the autonomous targeting of humans by machines.\" The appeal renews a 2023 joint call for States to negotiate a legally binding agreement by 2026 and points to the seventh Review Conference of the Convention on Certain Conventional Weapons, in Geneva in November 2026, as the clearest path available.",
@@ -37,27 +37,43 @@
     },
     {
       "id": "claim-4",
-      "retrieved_date": "2026-08-31",
+      "retrieved_date": "2026-10-26",
       "source_name": "United Nations",
       "source_url": "https://news.un.org/en/story/2025/05/1163256",
       "text": "On 14 May 2025 the UN Secretary-General called lethal autonomous weapon systems \"politically unacceptable\" and \"morally repugnant\", said that machines with the power and discretion to take human lives without human control should be prohibited by international law, and urged Member States to agree clear regulations and prohibitions by 2026.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-10-26",
+      "source_name": "United Nations",
+      "source_url": "https://transcripts.un.org/en/ga/c1/81/2",
+      "text": "At the First Committee's second plenary meeting of the General Assembly's eighty-first session, on 6 October 2026, the Chair said the Group of Governmental Experts on lethal autonomous weapon systems, under the framework of the Convention on Certain Conventional Weapons, \"concluded its work with a consensus report\"; the High Representative for Disarmament Affairs, Izumi Nakamitsu, cited the agreed elements for an instrument on lethal autonomous weapons systems as an achievement showing that the disarmament machinery can adapt to new challenges.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-10-26",
+      "source_name": "United Nations",
+      "source_url": "https://indico.un.org/event/1019366/",
+      "text": "The 7th Review Conference of the High Contracting Parties to the Convention on Certain Conventional Weapons is scheduled to run from 16 to 20 November 2026 at the Palais des Nations in Geneva, Switzerland.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Lethal autonomous weapons systems are weapons that select and engage targets without meaningful human control over the decision to kill. No binding international instrument governs them. The UN General Assembly has adopted successive resolutions on the subject — 166 to 3 in December 2024, 164 to 6 in December 2025 — but several states with the most advanced programmes are among those voting against, and negotiations remain confined to an expert group under the Convention on Certain Conventional Weapons. The Secretary-General and the President of the International Committee of the Red Cross have jointly urged states to adopt rules by 2026, warning in August 2026 that the world is dangerously close to crossing a moral red line in the autonomous targeting of humans by machines. The risk here is less a single catastrophe than an unconstrained arms race that lowers the threshold for using force, compresses escalation below human reaction times, and proliferates to unauthorized recipients including non-State actors.",
+  "description": "Lethal autonomous weapons systems select and engage targets without meaningful human control over the decision to kill. No binding international instrument governs them. The General Assembly has adopted successive resolutions on the subject — 166 to 3 in December 2024, 164 to 6 in December 2025 — but several of the states with the most advanced programmes vote against. The expert group under the Convention on Certain Conventional Weapons has closed its three-year mandate with a consensus report setting out agreed elements for an instrument it was never mandated to negotiate; whether negotiations open now falls to the Convention's seventh Review Conference, in Geneva on 16-20 November 2026. The Secretary-General and the President of the International Committee of the Red Cross jointly call that conference the clearest path available, warning in August 2026 that the world is dangerously close to crossing a moral red line in the autonomous targeting of humans by machines. The risk is less a single catastrophe than an arms race under no binding constraint that lowers the threshold for using force, compresses escalation below human reaction times, and proliferates to non-State actors.",
   "id": "lethal-autonomous-weapons",
-  "last_updated": "2026-08-31T10:11:34Z",
+  "last_updated": "2026-10-26T10:22:25Z",
   "name": "Lethal Autonomous Weapons Systems",
   "provenance": {
     "history": [
       {
-        "at": "2026-08-31T10:11:34Z",
+        "at": "2026-10-26T10:22:25Z",
         "layer": "verify",
-        "run_id": "2026-08-31T10-11-34Z-9eb904"
+        "run_id": "2026-10-26T10-22-25Z-a46ecf"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-08-31T10-11-34Z-9eb904"
+    "last_run_id": "2026-10-26T10-22-25Z-a46ecf"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -67,7 +83,7 @@
   },
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
