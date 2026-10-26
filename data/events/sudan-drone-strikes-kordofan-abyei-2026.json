@@ -1,0 +1,88 @@
+{
+  "category": "conflict",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-10-26",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168661",
+      "text": "UN News (23 October 2026), citing the UN Human Rights Office (OHCHR) and High Commissioner Volker Türk: drone strikes \"killed at least 306 people and injured hundreds more in the first three weeks of October alone.\" OHCHR documented strikes on displacement shelters, a gold-mining site, a transport convoy and a market across West Kordofan, Blue Nile and Abyei.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-10-26",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168661",
+      "text": "UN News (23 October 2026), per OHCHR documentation: alleged drone strikes attributed to government forces on displacement shelters in Ghubeish and El Nuhud, West Kordofan, between 6 and 10 October 2026, killed at least 25 civilians.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-10-26",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168661",
+      "text": "UN News (23 October 2026), per OHCHR documentation: an alleged RSF drone strike on 9 October 2026 on displaced people mining gold at Abu Shendi, Blue Nile, killed at least 31 people, most of them women and children.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-10-26",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168661",
+      "text": "UN News (23 October 2026), per OHCHR documentation: a repeat ('double tap') drone strike on a transport truck at Dibab, West Kordofan, on 18 October 2026, killed at least 139 people.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-10-26",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/10/1168661",
+      "text": "UN News (23 October 2026): a 19 October 2026 strike on Amiet Market and Todach, Abyei, killed more than 80 people, per UN peacekeepers (UNISFA) who visited the affected communities; UNISFA's Acting Force Commander, Brigadier General Adebowale Ajabge, said the mission's hospital in Todach treated more than 27 injured people, and the Security Council said the toll is expected to rise.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Drone strikes hit displacement shelters, a gold-mining site, a transport convoy and a market across West Kordofan, Blue Nile and Abyei, Sudan, in October 2026, killing hundreds of civilians. The UN Human Rights Office documented at least 306 people killed and hundreds more injured in the first three weeks of the month alone, across several distinct strikes: at least 25 killed in Ghubeish and El Nuhud (West Kordofan, 6-10 October), at least 31 in Abu Shendi (Blue Nile, 9 October, mostly women and children mining gold), at least 139 in a repeat 'double tap' strike on a transport truck in Dibab (West Kordofan, 18 October), and more than 80 in a strike on Amiet Market and Todach (Abyei, 19 October), where UN peacekeepers say the toll is expected to rise. UN High Commissioner for Human Rights Volker Türk condemned the escalation; this surge is geographically distinct from the separate, longer-running siege of El Obeid in North Kordofan.",
+  "event": {
+    "impact": {
+      "deaths": 306,
+      "displaced": null,
+      "summary": "The UN Human Rights Office has documented at least 306 civilians killed and hundreds more injured by drone strikes across Sudan in the first three weeks of October 2026 alone, in strikes distinct from the separate El Obeid siege: 25 dead in Ghubeish/El Nuhud (West Kordofan), 31 dead in Abu Shendi (Blue Nile), 139 dead in Dibab (West Kordofan) and more than 80 dead at Amiet Market/Todach (Abyei), where UN peacekeepers treated over 27 injured and the Security Council has said the toll is expected to rise further. No ceasefire or de-escalation has been confirmed."
+    },
+    "live_source_url": "https://reliefweb.int/country/sdn",
+    "location": {
+      "country": "Sudan",
+      "lat": 12.0,
+      "lon": 28.15,
+      "region": "West Kordofan, Blue Nile & Abyei"
+    },
+    "occurrence_date": "2026-10-06",
+    "scale": "306+ killed, hundreds injured in 3 weeks (OHCHR)",
+    "status": "ongoing"
+  },
+  "id": "sudan-drone-strikes-kordofan-abyei-2026",
+  "last_updated": "2026-10-26T09:18:52Z",
+  "name": "Drone-Strike Escalation — West Kordofan, Blue Nile & Abyei, Sudan",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-10-26T09:18:52Z",
+        "layer": "verify",
+        "run_id": "2026-10-26T09-18-52Z-85299e"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-10-26T09-18-52Z-85299e"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7398953.0,
+    "impact_rank": 3,
+    "recency_rank": 739895
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
