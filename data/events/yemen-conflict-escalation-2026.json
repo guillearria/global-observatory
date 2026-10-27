@@ -122,6 +122,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-23",
+      "retrieved_date": "2026-10-27",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/datasets/yemen-displacement-caused-escalation-western-yemen-update-dataset-25-october-2026",
+      "text": "IOM's Displacement Tracking Matrix 'Yemen - Displacement Caused by Escalation in Western Yemen - Update Dataset (25 October 2026)' records 276,301 internally displaced persons (46,044 households) tracked since the escalation began in June 2026, as of 24 October 2026, up from 259,807 as of 20 October; of this, 275,245 individuals (45,868 households) were displaced between 1 August and 24 October 2026. Ta'iz governorate remains the largest share at 126,156 individuals (46%), followed by Lahj (68,832, 25%) and Aden (47,400, 17%).",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-09-11",
       "source_name": "United Nations",
@@ -178,12 +186,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and by late October had largely encircled Taiz while opening a new front in Shabwah governorate. WHO's Situation Report #8 (19 October) puts cumulative casualties at 8,513 (1,574 deaths, 6,939 injured), up 1,340 in the preceding eight days, with Marib and Shabwah the most lethal fronts. IOM's Displacement Tracking Matrix Update #15 (21 October) now records 259,807 people displaced since the escalation began in June 2026, up from 256,591 a week earlier, after 8,682 more people fled on 20 October alone; Taiz city's hospital system is near breaking point, with its main supply road cut and 42 health facilities reporting acute shortages. WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) so far this year, while weekly cholera cases in the worst-affected governorates have begun declining from a late-September peak.",
+  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and by late October had largely encircled Taiz while opening a new front in Shabwah governorate. WHO's Situation Report #8 (19 October) puts cumulative casualties at 8,513 (1,574 deaths, 6,939 injured), up 1,340 in the preceding eight days, with Marib and Shabwah the most lethal fronts. IOM's Displacement Tracking Matrix now records 276,301 people displaced since the escalation began in June 2026, as of 24 October, up from 259,807 as of 20 October; Taiz city's hospital system is near breaking point, with its main supply road cut and 42 health facilities reporting acute shortages. WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) so far this year, while weekly cholera cases in the worst-affected governorates have begun declining from a late-September peak.",
   "event": {
     "impact": {
       "deaths": 1574,
-      "displaced": 259807,
-      "summary": "WHO's Conflict Escalation Situation Report #8 (issued 20 October 2026, reporting period 12-19 October) puts the MoPHP HEOC's cumulative casualty register at 8,513 (6,939 injured, 1,574 deaths) as of 19 October, up 1,340 in eight days, as fighting continued across Marib, Lahj, Taiz and Al-Dhale'e and a new front opened in Shabwah (216 casualties, 51 deaths in two days). IOM's Displacement Tracking Matrix Update #15 (21 October) now puts cumulative displacement since the escalation began in June 2026 at 259,807 people, up from 256,591 a week earlier, after a further 8,682 people were displaced on 20 October alone; Ta'iz remains both the largest origin and destination governorate (48% of the total). Taiz city's hospital system remains near breaking point: the main Haygat Al-Abd supply road is cut, 42 health facilities report acute shortages, and US$624,900 is needed to keep five public hospitals running for three months. WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) so far this year, while weekly cholera cases across the five most-affected governorates have declined to 562 in week 41, down from a peak of 639 in week 40."
+      "displaced": 276301,
+      "summary": "WHO's Conflict Escalation Situation Report #8 (issued 20 October 2026, reporting period 12-19 October) puts the MoPHP HEOC's cumulative casualty register at 8,513 (6,939 injured, 1,574 deaths) as of 19 October, up 1,340 in eight days, as fighting continued across Marib, Lahj, Taiz and Al-Dhale'e and a new front opened in Shabwah (216 casualties, 51 deaths in two days). IOM's Displacement Tracking Matrix update dataset (25 October) now puts cumulative displacement since the escalation began in June 2026 at 276,301 people (46,044 households) as of 24 October, up from 259,807 as of 20 October; Ta'iz remains the largest governorate at 46% of the total, followed by Lahj (25%) and Aden (17%). Taiz city's hospital system remains near breaking point: the main Haygat Al-Abd supply road is cut, 42 health facilities report acute shortages, and US$624,900 is needed to keep five public hospitals running for three months. WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) so far this year, while weekly cholera cases across the five most-affected governorates have declined to 562 in week 41, down from a peak of 639 in week 40."
     },
     "live_source_url": "https://www.emro.who.int/yemen/information-resources/yemen-conflict-escalation-situation-report.html",
     "location": {
@@ -193,22 +201,22 @@
       "region": "Ta'izz Governorate (Mocha, Al-Mokha) and Yemen's West Coast; attacks also in the Bab el-Mandeb Strait and against Saudi Arabia"
     },
     "occurrence_date": "2026-08-07",
-    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have largely encircled Taiz, with a new front active in Shabwah; WHO records 8,513 cumulative casualties (1,574 deaths) as of 19 October and IOM 259,807 displaced as of 20 October 2026",
+    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have largely encircled Taiz, with a new front active in Shabwah; WHO records 8,513 cumulative casualties (1,574 deaths) as of 19 October and IOM 276,301 displaced as of 24 October 2026",
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-10-26T09:12:19Z",
+  "last_updated": "2026-10-27T09:13:24Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-26T09:12:19Z",
+        "at": "2026-10-27T09:13:24Z",
         "layer": "verify",
-        "run_id": "2026-10-26T09-12-19Z-84de55"
+        "run_id": "2026-10-27T09-13-24Z-1948c7"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-26T09-12-19Z-84de55"
+    "last_run_id": "2026-10-27T09-13-24Z-1948c7"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -217,6 +225,10 @@
     "recency_rank": 739835
   },
   "updates": [
+    {
+      "date": "2026-10-26",
+      "text": "IOM's DTM update dataset (25 October) recorded displacement since the escalation began in June 2026 rising to 276,301 people (46,044 households) as of 24 October, up from 259,807 a week earlier; Ta'iz remains the largest governorate (46%), followed by Lahj (25%) and Aden (17%)."
+    },
     {
       "date": "2026-10-21",
       "text": "IOM's DTM Update #15 (21 October) recorded displacement since the escalation began in June 2026 rising to 259,807 people (43,295 households), up from 256,591 a week earlier, after a further 8,682 people were displaced on 20 October alone; Ta'iz remains the largest origin/destination governorate (48%)."
@@ -284,7 +296,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 22 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
