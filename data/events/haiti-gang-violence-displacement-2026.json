@@ -170,6 +170,22 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-30",
+      "retrieved_date": "2026-10-28",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-113-displacement-following-armed-violence-commune-croix-des",
+      "text": "IOM DTM 'Haiti -- Emergency Tracking Tool (ETT) 113' (armed violence from 18 October 2026, covering through 26 October 2026, published 27 October 2026) recorded approximately 1,937 people (474 households) displaced by armed violence in the commune of Croix-des-Bouquets, West department, mainly affecting the Santo, Marassa and Djaboul neighbourhoods -- a separate incident from the Gros-Morne, Petite Riviere de l'Artibonite and Arcahaie displacements already tracked. 59% sought refuge in the neighbouring commune of Tabarre; 85% are staying with host families and 15% settled in five spontaneous sites.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-31",
+      "retrieved_date": "2026-10-28",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-1121-updates-displacement-following-armed-violence-communes",
+      "text": "IOM DTM 'Haiti -- Emergency Tracking Tool (ETT) 112.1' (updates on displacement following armed violence in the communes of Petite Riviere de l'Artibonite and Verrettes, Artibonite department, since 19 October 2026, covering through 26 October 2026, published 27 October 2026) revises the toll sharply upward to approximately 13,912 people (3,316 households) displaced, up from about 7,250 people (1,637 households) in ETT 112. 62% sheltered within Petite Riviere de l'Artibonite and 38% in Verrettes; 77% are staying with host families and 23% settled in 14 sites.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-6",
       "retrieved_date": "2026-08-08",
       "source_name": "ReliefWeb",
@@ -194,12 +210,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement spreading beyond Port-au-Prince into previously safer areas. UN High Commissioner Volker Turk told the Human Rights Council on 2 October that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with 230+ kidnapped and 1,000+ women and girls raped -- likely an undercount. IOM's DTM Round 14 (through 12 August) put the national total near 1.49 million IDPs; several departments have seen further armed-violence displacement since, including a 28 September Gros-Morne attack displacing about 10,197 people (ETT 110.2, 15 October), armed violence beginning 19 October in Petite Riviere de l'Artibonite displacing about 7,250 more (ETT 112, 22 October), and an 18 October attack on Arcahaie, West department, displacing about 2,884 people (ETT 111, 22 October). The Security Council renewed the Gang Suppression Force's mandate on 29 September, to 31 March 2027.",
+  "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement spreading beyond Port-au-Prince into previously safer areas. UN High Commissioner Volker Turk told the Human Rights Council on 2 October that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with 230+ kidnapped and 1,000+ women and girls raped -- likely an undercount. IOM's DTM Round 14 (through 12 August) put the national total near 1.49 million IDPs; several departments have seen further armed-violence displacement since, including a revised toll of about 13,912 people displaced from Petite Riviere de l'Artibonite and Verrettes (ETT 112.1, 27 October, up from 7,250), a new displacement of about 1,937 people from Croix-des-Bouquets (ETT 113, 27 October), and an 18 October attack on Arcahaie displacing about 2,884 people (ETT 111, 22 October). The Security Council renewed the Gang Suppression Force's mandate on 29 September, to 31 March 2027.",
   "event": {
     "impact": {
       "deaths": 3000,
       "displaced": 1490000,
-      "summary": "IOM's DTM Round 14 report (covering 15 May-12 August 2026) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite recording the largest departmental increase (+16%) as insecurity there deteriorates further. UN High Commissioner for Human Rights Volker Turk told the Human Rights Council on 2 October 2026 that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with more than 230 kidnapped and at least 1,000 women and girls raped. Several further armed-violence displacements have followed in October: a 28 September Gros-Morne attack displaced approximately 10,197 people (ETT 110.2, 15 October), armed violence beginning 19 October in Petite Riviere de l'Artibonite displaced about 7,250 more (ETT 112, 22 October), and an 18 October attack on Arcahaie, West department, displaced about 2,884 people (ETT 111, 22 October). Argentina's 28 August UN Security Council statement put nationwide deaths at 3,000+ so far in 2026; on 29 September the Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027."
+      "summary": "IOM's DTM Round 14 report (covering 15 May-12 August 2026) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite recording the largest departmental increase (+16%) as insecurity there deteriorates further. UN High Commissioner for Human Rights Volker Turk told the Human Rights Council on 2 October 2026 that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with more than 230 kidnapped and at least 1,000 women and girls raped. Several further armed-violence displacements have followed in October: IOM's ETT 112.1 (27 October) revised the Petite Riviere de l'Artibonite/Verrettes toll sharply upward to about 13,912 people, up from 7,250; ETT 113 (27 October) recorded a new displacement of about 1,937 people from Croix-des-Bouquets; and an 18 October attack on Arcahaie, West department, displaced about 2,884 people (ETT 111, 22 October). Argentina's 28 August UN Security Council statement put nationwide deaths at 3,000+ so far in 2026; on 29 September the Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027."
     },
     "live_source_url": "https://dtm.iom.int/haiti",
     "location": {
@@ -213,18 +229,18 @@
     "status": "ongoing"
   },
   "id": "haiti-gang-violence-displacement-2026",
-  "last_updated": "2026-10-27T09:13:24Z",
+  "last_updated": "2026-10-28T09:11:09Z",
   "name": "Gang Violence Displacement Crisis — Haiti",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-27T09:13:24Z",
+        "at": "2026-10-28T09:11:09Z",
         "layer": "verify",
-        "run_id": "2026-10-27T09-13-24Z-c30912"
+        "run_id": "2026-10-28T09-11-09Z-1b4e3e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-27T09-13-24Z-c30912"
+    "last_run_id": "2026-10-28T09-11-09Z-1b4e3e"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -233,6 +249,14 @@
     "recency_rank": 739816
   },
   "updates": [
+    {
+      "date": "2026-10-27",
+      "text": "IOM's Emergency Tracking Tool 113 recorded a new displacement: approximately 1,937 people (474 households) displaced by armed violence since 18 October in the commune of Croix-des-Bouquets, West department, mainly from the Santo, Marassa and Djaboul neighbourhoods."
+    },
+    {
+      "date": "2026-10-27",
+      "text": "IOM's Emergency Tracking Tool 112.1 revised the Petite Riviere de l'Artibonite/Verrettes displacement toll sharply upward to approximately 13,912 people (3,316 households), up from about 7,250 in ETT 112."
+    },
     {
       "date": "2026-10-27",
       "text": "IOM's Emergency Tracking Tool 111 (published 22 October) recorded approximately 2,884 people (701 households) displaced by armed violence on 18 October in the commune of Arcahaie, West department -- a separate incident from the Gros-Morne and Petite Riviere de l'Artibonite displacements."
@@ -296,7 +320,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 24 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 26 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
