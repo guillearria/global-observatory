@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T09:18:45Z",
+  "last_updated": "2026-10-30T09:11:23Z",
   "published": [
     {
       "category": "flood",
@@ -725,6 +725,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-36",
+          "retrieved_date": "2026-10-30",
+          "source_name": "Government of British Columbia",
+          "source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
+          "text": "EmergencyInfoBC's wildfire hazard page (checked 30 October 2026) lists 3 active local evacuation notices, down from 4 on 23 October 2026: Okanagan Indian Band (updated 2 October), Regional District of Okanagan-Similkameen (2 September) and Shxw'ow'hamel First Nation (1 August); Boothroyd Indian Band is no longer listed.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-08-12",
           "source_name": "Government of British Columbia",
@@ -773,14 +781,14 @@
           "verification_status": "verified"
         }
       ],
-      "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased. Conditions have continued to ease: the BC Wildfire Service lifted Category 1 campfire prohibitions across the Cariboo, Coastal and Kamloops fire centres effective 3 September (Category 2/3 open fires remain banned until 31 October), and EmergencyInfoBC's active evacuation-notice count has eased further to 4 as of 23 October, down from 5, with the District of Summerland's notice no longer listed; wildfire risk remains elevated in parts of the province.",
+      "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased. Conditions have continued to ease: the BC Wildfire Service lifted Category 1 campfire prohibitions across the Cariboo, Coastal and Kamloops fire centres effective 3 September (Category 2/3 open fires remain banned until 31 October), and EmergencyInfoBC's active evacuation-notice count has eased further to 3 as of 30 October, down from 4, with Boothroyd Indian Band's notice no longer listed; wildfire risk remains elevated in parts of the province.",
       "event": {
         "impact": {
           "deaths": 1,
           "displaced": null,
-          "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode; the GDACS tracking record for this event closed with no further episodes after that date. British Columbia ended its province-wide State of Provincial Emergency on 27 August 2026, and the BC Wildfire Service rescinded the Bald Range fire's area restriction on 4 September. Conditions remain broadly improved: Category 1 campfire prohibitions were lifted in the Cariboo, Coastal and Kamloops fire centres effective 3 September, and EmergencyInfoBC's wildfire page lists 4 active local evacuation notices as of 23 October 2026, down from 5 on 8 October: Okanagan Indian Band, Regional District of Okanagan-Similkameen, Boothroyd Indian Band and Shxw'ow'hamel First Nation remain listed, while the District of Summerland's notice is no longer shown."
+          "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode; the GDACS tracking record for this event closed with no further episodes after that date. British Columbia ended its province-wide State of Provincial Emergency on 27 August 2026, and the BC Wildfire Service rescinded the Bald Range fire's area restriction on 4 September. Conditions remain broadly improved: Category 1 campfire prohibitions were lifted in the Cariboo, Coastal and Kamloops fire centres effective 3 September, and EmergencyInfoBC's wildfire page lists 3 active local evacuation notices as of 30 October 2026, down from 4 on 23 October: Okanagan Indian Band, Regional District of Okanagan-Similkameen and Shxw'ow'hamel First Nation remain listed, while Boothroyd Indian Band's notice is no longer shown."
         },
-        "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/",
+        "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
         "location": {
           "country": "Canada",
           "lat": 49.6008,
@@ -788,22 +796,22 @@
           "region": "British Columbia Interior, centred on the Bald Range fire near Summerland in the South Okanagan; more than 100 wildfires active provincewide"
         },
         "occurrence_date": "2026-08-08",
-        "scale": "Provincial State of Emergency ended 27 August 2026 (declared 8 August); Bald Range fire (largest, near Summerland) area restriction rescinded 4 September as fire activity decreased; 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS); 4 active local evacuation notices as of 23 October 2026",
+        "scale": "Provincial State of Emergency ended 27 August 2026 (declared 8 August); Bald Range fire (largest, near Summerland) area restriction rescinded 4 September as fire activity decreased; 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS); 3 active local evacuation notices as of 30 October 2026",
         "status": "ongoing"
       },
       "id": "canada-british-columbia-wildfires-2026",
-      "last_updated": "2026-10-29T09:14:17Z",
+      "last_updated": "2026-10-30T09:11:05Z",
       "name": "Wildfire State of Emergency — British Columbia, Canada",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:14:17Z",
+            "at": "2026-10-30T09:11:05Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-14-17Z-9941a7"
+            "run_id": "2026-10-30T09-11-05Z-001f4b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-14-17Z-9941a7"
+        "last_run_id": "2026-10-30T09-11-05Z-001f4b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -812,6 +820,10 @@
         "recency_rank": 739836
       },
       "updates": [
+        {
+          "date": "2026-10-30",
+          "text": "EmergencyInfoBC's evacuation list eased further to 3 active orders/alerts (from 4 on 23 October), with Boothroyd Indian Band no longer listed; the remaining notices are Okanagan Indian Band (2 October), Regional District of Okanagan-Similkameen (2 September) and Shxw'ow'hamel First Nation (1 August)."
+        },
         {
           "date": "2026-10-23",
           "text": "EmergencyInfoBC's evacuation list eased further to 4 active orders/alerts (from 5 on 8 October), with the District of Summerland no longer listed; the remaining notices are Okanagan Indian Band (2 October), Regional District of Okanagan-Similkameen (2 September), Boothroyd Indian Band (16 August) and Shxw'ow'hamel First Nation (1 August)."
@@ -911,7 +923,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 35 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 36 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1000,7 +1012,7 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
           "text": "GDACS's earthquake report (event id 1573141, episode 1741837) mirrors a Xinhua media headline dated 26 October 2026 reporting that the first 60 prefabricated houses for quake-affected residents in Xizang had been completed and that households were beginning to move in; GDACS notes it has not independently verified mirrored media headlines. No newer episode has been published, and no updated casualty or exposed-population figures accompany the report.",
@@ -1026,18 +1038,18 @@
         "status": "ongoing"
       },
       "id": "china-earthquake-nagqu-2026",
-      "last_updated": "2026-10-29T09:14:15Z",
+      "last_updated": "2026-10-30T09:11:05Z",
       "name": "M7.0 Earthquake, Nagqu (Baqen County), Tibet, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:14:15Z",
+            "at": "2026-10-30T09:11:05Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-14-15Z-e7248f"
+            "run_id": "2026-10-30T09-11-05Z-9825f1"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-14-15Z-e7248f"
+        "last_run_id": "2026-10-30T09-11-05Z-9825f1"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1784,7 +1796,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "GDACS",
           "source_url": "http://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC",
           "text": "GDACS's tropical cyclone report for ARNAB-26 (event id 1001345, episode 10, tracking window 26 October 2026 00:00 UTC to 28 October 2026 06:00 UTC) rates the storm an Overall Red alert (GDACS score 2.5 from JTWC/HWRF), with a JTWC-sourced peak wind of 222 km/h (Category 4; HWRF estimates 223 km/h) and about 4 million people in India exposed to Category 1 or higher winds. Vulnerability for India is rated high. HWRF separately projects a storm surge up to 1.6m and rainfall up to 981mm; the report gives no casualty figures.",
@@ -1834,18 +1846,18 @@
         "status": "ongoing"
       },
       "id": "cyclone-arnab-india-2026",
-      "last_updated": "2026-10-29T09:18:45Z",
+      "last_updated": "2026-10-30T09:11:05Z",
       "name": "Cyclone Arnab — Andhra Pradesh, India",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:18:45Z",
+            "at": "2026-10-30T09:11:05Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-18-45Z-9cef8a"
+            "run_id": "2026-10-30T09-11-05Z-cdaff8"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-18-45Z-9cef8a"
+        "last_run_id": "2026-10-30T09-11-05Z-cdaff8"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1944,7 +1956,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168499",
           "text": "The same UN News report (1 October 2026) states that \"a key transit centre for patients requiring treatment burned down\" at Bunia's Kigonze displacement camp, which \"now lies abandoned,\" setting back the regional Ebola response; UN official Julien Harneis said: \"It's been a huge struggle to create Ebola transit centres [and] Ebola treatment centres; it's required money, bringing in staff and it's been a struggle all across the east. So, when we lose a centre, that means we lose capacity, we lose investment and we have to start again.\"",
@@ -1970,18 +1982,18 @@
         "status": "ongoing"
       },
       "id": "drc-north-kivu-ituri-displacement-2026",
-      "last_updated": "2026-10-29T09:11:04Z",
+      "last_updated": "2026-10-30T09:10:13Z",
       "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:11:04Z",
+            "at": "2026-10-30T09:10:13Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-11-04Z-ab2e43"
+            "run_id": "2026-10-30T09-10-13Z-a91572"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-11-04Z-ab2e43"
+        "last_run_id": "2026-10-30T09-10-13Z-a91572"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2421,6 +2433,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-oct29",
+          "retrieved_date": "2026-10-30",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 29 October 2026, 16:00) reports the Democratic Republic of the Congo has recorded a total of 10,193 confirmed cases, including 4,960 related deaths, as of 28 October 2026 (data through 27 October 2026), up from 10,141 cases and 4,928 deaths the prior day. Kenya's case count remains nine confirmed cases, including two deaths, as of 26 October 2026.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-ecdc-oct7",
           "retrieved_date": "2026-10-12",
           "source_name": "ECDC",
@@ -2597,12 +2617,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with a cross-border chain in Kenya and a now-closed outbreak in Uganda. ECDC's newest country overview (data through 26 October 2026) puts the DRC toll at 10,141 confirmed cases and 4,928 deaths across eight provinces, up from 10,060/4,887 the day before. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
+      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with a cross-border chain in Kenya and a now-closed outbreak in Uganda. ECDC's newest country overview (data through 27 October 2026) puts the DRC toll at 10,193 confirmed cases and 4,960 deaths across eight provinces, up from 10,141/4,928 the day before. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
       "event": {
         "impact": {
-          "deaths": 4928,
+          "deaths": 4960,
           "displaced": null,
-          "summary": "ECDC's newest country overview (page last updated 28 October 2026, 16:00) puts the DRC toll at 10,141 confirmed cases and 4,928 deaths as of 27 October 2026 (data through 26 October), up from 10,060 cases and 4,887 deaths the prior day. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest country overview (page last updated 29 October 2026, 16:00) puts the DRC toll at 10,193 confirmed cases and 4,960 deaths as of 28 October 2026 (data through 27 October), up from 10,141 cases and 4,928 deaths the prior day. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -2616,18 +2636,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-10-29T09:15:00Z",
+      "last_updated": "2026-10-30T09:11:23Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:15:00Z",
+            "at": "2026-10-30T09:11:23Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-15-00Z-40831e"
+            "run_id": "2026-10-30T09-11-23Z-81329e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-15-00Z-40831e"
+        "last_run_id": "2026-10-30T09-11-23Z-81329e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2636,6 +2656,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-10-30",
+          "text": "ECDC's country overview (updated 29 October) raised the DRC toll to 10,193 confirmed cases and 4,960 deaths (data through 27 October), up from 10,141/4,928; Kenya's linked case count held steady at nine confirmed cases and two deaths."
+        },
         {
           "date": "2026-10-29",
           "text": "ECDC's country overview (updated 28 October) raised the DRC toll to 10,141 confirmed cases and 4,928 deaths (data through 26 October), up from 10,060/4,887; Kenya's linked case count held steady at nine confirmed cases and two deaths."
@@ -2751,15 +2775,11 @@
         {
           "date": "2026-09-05",
           "text": "ECDC's updated country overview (data through 5 September) put the DRC toll at 6,604 confirmed cases and 3,175 deaths, up from 6,342 cases and 3,072 deaths as of the 2 September data cut, with the outbreak now spanning 61 of 151 health zones (up from 60) across six provinces."
-        },
-        {
-          "date": "2026-09-02",
-          "text": "WHO Director-General said the epidemic passed 6,000 reported cases and reached 3,000 deaths, with Ituri province the epicentre (85% of cases, 88% of deaths); ECDC's matching overview (data through 1 September) put the DRC toll at 6,250 confirmed cases and 3,039 deaths, up from 6,100/2,950 four days earlier."
         }
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 73 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 74 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -2872,7 +2892,7 @@
         },
         {
           "id": "claim-25",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/world/13-children-reportedly-killed-or-injured-drone-strike-displacement-shelter-al-obeid-sudan",
           "text": "UNICEF statement via ReliefWeb (posted and originally published 1 October 2026): a drone strike late on 30 September/1 October 2026 on the Al Mina Al Bari shelter for internally displaced people in El Obeid, North Kordofan, reportedly killed one boy and injured 12 children (five boys, seven girls). UNICEF Representative in Sudan Angela Kearney said 'any sense of safety was shattered' and called for attacks on child-protection sites to stop; UNICEF notes more than 400 children were reportedly killed or injured by drone attacks nationwide between January and September 2026.",
@@ -2938,18 +2958,18 @@
         "status": "ongoing"
       },
       "id": "el-obeid-siege-sudan-2026",
-      "last_updated": "2026-10-29T09:08:44Z",
+      "last_updated": "2026-10-30T09:10:13Z",
       "name": "Siege of El Obeid — North Kordofan, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:08:44Z",
+            "at": "2026-10-30T09:10:13Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-08-44Z-d5e24e"
+            "run_id": "2026-10-30T09-10-13Z-dc73fd"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-08-44Z-d5e24e"
+        "last_run_id": "2026-10-30T09-10-13Z-dc73fd"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4174,7 +4194,7 @@
         },
         {
           "id": "claim-31",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1104121&eventtype=FL&episodeid=22",
           "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, episode 22, reporting window 9 August-7 October 2026) now records 136 deaths, up from 135 at the prior episode, with 457,351 displaced (unchanged), still at Orange alert.",
@@ -4256,18 +4276,18 @@
         "status": "ongoing"
       },
       "id": "india-monsoon-floods-2026",
-      "last_updated": "2026-10-29T09:14:16Z",
+      "last_updated": "2026-10-30T09:11:05Z",
       "name": "Multi-State Monsoon Floods & Landslides — India",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:14:16Z",
+            "at": "2026-10-30T09:11:05Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-14-16Z-5a1211"
+            "run_id": "2026-10-30T09-11-05Z-b37ace"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-14-16Z-5a1211"
+        "last_run_id": "2026-10-30T09-11-05Z-b37ace"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7453,7 +7473,7 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/documents/details/124371",
           "text": "UNHCR Flash Alert #24 (published Oct 2026) reports that renewed clashes in Baidoa, which began on 28 September 2026 and continued through 3 October 2026 between forces associated with the former Southwest State administration and the Somali National Army over control of the town, displaced 934 households (5,604 individuals) and caused 11 deaths and 86 injuries recorded at Bay Regional Hospital and Bayhaw Hospital, including eight deaths reportedly caused by stray bullets near RP Hotel; Southwest University, the RP Hotel, two mosques and three schools also reportedly sustained significant damage.",
@@ -7479,18 +7499,18 @@
         "status": "ongoing"
       },
       "id": "somalia-baidoa-clashes-displacement-2026",
-      "last_updated": "2026-10-29T09:11:04Z",
+      "last_updated": "2026-10-30T09:10:13Z",
       "name": "Baidoa Clashes & Displacement — South West State, Somalia",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:11:04Z",
+            "at": "2026-10-30T09:10:13Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-11-04Z-4da2b9"
+            "run_id": "2026-10-30T09-10-13Z-86870d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-11-04Z-4da2b9"
+        "last_run_id": "2026-10-30T09-10-13Z-86870d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8206,7 +8226,7 @@
         },
         {
           "id": "claim-20",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/sudan/sudan-sees-sharp-decline-cholera-cases-response-efforts-continue",
           "text": "WHO press release via ReliefWeb, 'Sudan sees sharp decline in cholera cases as response efforts continue' (posted 25 September 2026, originally published 24 September 2026): a total of eight cases and no deaths were reported in the week ending 11 September 2026, compared with a peak of 421 cases in the week ending 3 July. The outbreak, which began in Al Nuhud locality, West Kordofan, in May, has spread to 20 localities across six states; a total of 2,955 cases and 250 associated deaths have been reported, a case fatality ratio of 8.4%, well above WHO's less-than-1% threshold. WHO has prepositioned 60 metric tons of cholera supplies (enough for about 120,000 cases), retrained and deployed 60 rapid response teams, trained 120 frontline health workers, and supported 17 cholera treatment centres and 18 oral rehydration points. Oral cholera vaccination campaigns with UNICEF reached 915,377 people, with coverage near 100% in West Kordofan and 99.7% in South Darfur, and 87% of the target population in Tawila, North Darfur. WHO Representative in Sudan Dr Abdinasir Abubakar said the decline 'is encouraging, but we must remain vigilant,' citing continued risk from insecurity, displacement, poor access and the rainy season.",
@@ -8264,18 +8284,18 @@
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-10-29T09:15:36Z",
+      "last_updated": "2026-10-30T09:11:05Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:15:36Z",
+            "at": "2026-10-30T09:11:05Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-15-36Z-234ed7"
+            "run_id": "2026-10-30T09-11-05Z-4c0722"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-15-36Z-234ed7"
+        "last_run_id": "2026-10-30T09-11-05Z-4c0722"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8412,7 +8432,7 @@
         },
         {
           "id": "claim-27",
-          "retrieved_date": "2026-10-28",
+          "retrieved_date": "2026-10-30",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/sdn",
           "text": "UNHCR's Operational Data Portal for Sudan (checked 15 October 2026): internally displaced persons within Sudan remain at 8,622,801, still labeled 'last updated 31 August 2026', while refugees and asylum-seekers in Sudan now stand at 909,744, labeled 'last updated 30 September 2026' -- up from 905,349 (31 August 2026 update).",
@@ -8420,7 +8440,7 @@
         },
         {
           "id": "claim-28",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-10-30",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/sdn",
           "text": "UNHCR's Operational Data Portal for Sudan (checked 18 October 2026): internally displaced persons within Sudan remain at 8,583,274, labeled 'last updated 30 Sep 2026' -- unchanged since 17 October 2026 (down from 8,622,801 as of the 31 August 2026 update); refugees and asylum-seekers in Sudan remain at 909,744, unchanged, also labeled 'last updated 30 Sep 2026'.",
@@ -8428,7 +8448,7 @@
         },
         {
           "id": "claim-29",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/situations/sudansituation",
           "text": "UNHCR's Operational Data Portal for the Sudan situation now shows Total Forcibly Displaced: 11,321,158, labeled 'Last updated 05 Oct 2026' -- up from 11,306,124 (21 September 2026 update). Related widgets: newly arrived refugees/asylum-seekers and returnees 4,637,854 (labeled 'Last updated 05 Oct 2026'), comprising 3,695,741 newly arrived refugees/asylum-seekers and 942,113 refugee returnees; refugees/asylum-seekers present before April 2023, 837,272 (no separate last-updated label shown); self-relocated refugees in Sudan 273,758, labeled 'Last updated 14 Sep 2026', unchanged. IDPs in Sudan (source IOM/OCHA) remain at 6,409,546, labeled 'Last updated 20 Sep 2026', unchanged. These components sum to the stated total.",
@@ -8470,18 +8490,18 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-10-29T09:11:03Z",
+      "last_updated": "2026-10-30T09:10:13Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:11:03Z",
+            "at": "2026-10-30T09:10:13Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-11-03Z-59c1d0"
+            "run_id": "2026-10-30T09-10-13Z-e1a6c7"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-11-03Z-59c1d0"
+        "last_run_id": "2026-10-30T09-10-13Z-e1a6c7"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8554,7 +8574,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168661",
           "text": "UN News (23 October 2026), citing the UN Human Rights Office (OHCHR) and High Commissioner Volker Türk: drone strikes \"killed at least 306 people and injured hundreds more in the first three weeks of October alone.\" OHCHR documented strikes on displacement shelters, a gold-mining site, a transport convoy and a market across West Kordofan, Blue Nile and Abyei.",
@@ -8612,18 +8632,18 @@
         "status": "ongoing"
       },
       "id": "sudan-drone-strikes-kordofan-abyei-2026",
-      "last_updated": "2026-10-29T09:08:44Z",
+      "last_updated": "2026-10-30T09:10:13Z",
       "name": "Drone-Strike Escalation — West Kordofan, Blue Nile & Abyei, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:08:44Z",
+            "at": "2026-10-30T09:10:13Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-08-44Z-e97d36"
+            "run_id": "2026-10-30T09-10-13Z-7f4fcd"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-08-44Z-e97d36"
+        "last_run_id": "2026-10-30T09-10-13Z-7f4fcd"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -10652,7 +10672,7 @@
         },
         {
           "id": "claim-5",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "CDC",
           "source_url": "https://www.cdc.gov/measles/data-research/index.html",
           "text": "CDC's measles data page, checked 23 October 2026, states 4,588 confirmed measles cases were reported in the United States in 2026 as of 12:00PM on 22 October, up from 4,410 as of 15 October; the cumulative 'Total Deaths' figure remains 3, footnoted as subject to change.",
@@ -10678,18 +10698,18 @@
         "status": "ongoing"
       },
       "id": "usa-new-york-measles-outbreak-2026",
-      "last_updated": "2026-10-29T09:14:16Z",
+      "last_updated": "2026-10-30T09:11:06Z",
       "name": "Measles State Disaster Emergency — New York, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:14:16Z",
+            "at": "2026-10-30T09:11:06Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-14-16Z-c68a92"
+            "run_id": "2026-10-30T09-11-06Z-2d96b9"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-14-16Z-c68a92"
+        "last_run_id": "2026-10-30T09-11-06Z-2d96b9"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -10970,7 +10990,7 @@
         },
         {
           "id": "claim-38",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "Office of the Governor of Washington State",
           "source_url": "https://governor.wa.gov/news/2026/governor-ferguson-requests-federal-major-disaster-declaration-four-counties-additional-state-level",
           "text": "Office of the Governor of Washington State news release (28 September 2026): a preliminary damage assessment by the state emergency management division, FEMA and local jurisdictions found the wildfires destroyed 649 primary residences and damaged an additional 2,542 homes, chiefly in Spokane County, burning nearly 369,000 acres across Benton, Okanogan, Spokane and Stevens counties. Governor Ferguson formally requested a federal Major Disaster Declaration: an estimated $11.2 million in FEMA Individual Assistance (Benton, Okanogan, Spokane, Stevens counties and the Spokane Tribe of Indians) and $117.7 million in Public Assistance for debris removal and emergency response costs (Asotin, Chelan, Columbia, Douglas, Ferry, Grant, Okanogan, Spokane, Stevens, Whitman and Yakima counties). As of this check (25 October 2026), no FEMA decision on the Major Disaster Declaration request has been published.",
@@ -11044,18 +11064,18 @@
         "status": "ongoing"
       },
       "id": "usa-washington-wildfires-2026",
-      "last_updated": "2026-10-29T09:14:15Z",
+      "last_updated": "2026-10-30T09:11:05Z",
       "name": "Wildfire Emergency — Eastern Washington, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:14:15Z",
+            "at": "2026-10-30T09:11:05Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-14-15Z-030ad3"
+            "run_id": "2026-10-30T09-11-05Z-38044d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-14-15Z-030ad3"
+        "last_run_id": "2026-10-30T09-11-05Z-38044d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -11725,7 +11745,7 @@
         },
         {
           "id": "claim-30",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-22-october-2026",
           "text": "OCHA oPt's Humanitarian Situation Report of 22 October 2026 (reporting period 13-19 October) states: no Palestinian fatalities were documented in the West Bank during the period, while 148 Palestinians were injured (including six children; 92 by Israeli forces and 56 by settlers), and 83 settler attacks causing casualties or property damage were documented across 48 communities. Israeli authorities demolished or forced the demolition of 21 Palestinian-owned structures, displacing 37 people; since the start of 2026, about 1,790 Palestinians have been displaced by demolitions for lack of an Israeli-issued building permit, and more than 2,159 settler attacks have been documented across over 300 communities, averaging 7.4 per day. The report also documents an eight-hour Israeli forces operation in Ramallah city (13 October) that injured 59 Palestinians, mainly from tear-gas inhalation, and a settler attack in Khirbet Abu Falah, Ramallah (16 October) that injured nine Palestinians, including a child, and a foreign journalist.",
@@ -11775,18 +11795,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-10-29T09:08:43Z",
+      "last_updated": "2026-10-30T09:10:13Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:08:43Z",
+            "at": "2026-10-30T09:10:13Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-08-43Z-c9b7bc"
+            "run_id": "2026-10-30T09-10-13Z-956f00"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-08-43Z-c9b7bc"
+        "last_run_id": "2026-10-30T09-10-13Z-956f00"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -11975,7 +11995,7 @@
         },
         {
           "id": "claim-21",
-          "retrieved_date": "2026-10-28",
+          "retrieved_date": "2026-10-30",
           "source_name": "WHO",
           "source_url": "https://www.emro.who.int/images/stories/yemen/Yemen-Conflict-Escalation-Situation-Report-08.pdf",
           "text": "WHO's Conflict Escalation in Yemen Situation Report #8 (reporting period 12-19 October 2026, issued 20 October 2026) records the MoPHP Health Emergency Operations Centre's cumulative casualty register at 8,513 (6,939 injured, 1,574 deaths) by 19 October, an increase of 1,340 (1,048 injured, 292 deaths) since Sitrep #7's 7,173 cumulative total at 11 October, with a new front having opened in Shabwah governorate (216 casualties, 51 deaths in two days) alongside continued fighting in Marib, Lahj, Taiz and Al-Dhale'e. IOM's Displacement Tracking Matrix recorded 42,764 households (256,591 people) displaced as of 19 October, up about 28% from 201,217 on 7 October, with Taiz both the largest origin and destination governorate. Access into Taiz city remains the most critical gap: the main Haygat Al-Abd road is cut, 42 health facilities report acute shortages, and the Joint Medical Emergency Committee estimates US$624,900 is needed to keep five public hospitals running for three months. Suspected cholera cases across the five most-affected governorates declined to 562 in epidemiological week 41, down from a peak of 639 in week 40.",
@@ -11999,7 +12019,7 @@
         },
         {
           "id": "claim-24",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-30",
           "source_name": "IOM Displacement Tracking Matrix (DTM)",
           "source_url": "https://dtm.iom.int/datasets/yemen-displacement-caused-escalation-western-yemen-update-dataset-28-october-2026",
           "text": "IOM's Displacement Tracking Matrix 'Yemen - Displacement Caused by Escalation in Western Yemen - Update Dataset (28 October 2026)' records 287,767 internally displaced persons (47,955 households) tracked since the escalation began in June 2026, as of 27 October 2026, up from 276,301 as of 24 October (an increase of 12,522 individuals recorded on 27 October alone compared with the prior day's report); of this, about 286,711 individuals (47,779 households) were displaced between 1 August and 27 October 2026. Ta'iz governorate remains the largest share at 128,484 individuals (45%), followed by Lahj (71,100, 25%) and Aden (53,016, 18%).",
@@ -12081,18 +12101,18 @@
         "status": "ongoing"
       },
       "id": "yemen-conflict-escalation-2026",
-      "last_updated": "2026-10-29T09:11:03Z",
+      "last_updated": "2026-10-30T09:10:13Z",
       "name": "Yemen Conflict Escalation",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:11:03Z",
+            "at": "2026-10-30T09:10:13Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-11-03Z-105103"
+            "run_id": "2026-10-30T09-10-13Z-4ce2c4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-11-03Z-105103"
+        "last_run_id": "2026-10-30T09-10-13Z-4ce2c4"
       },
       "schema_version": "1.0",
       "sort_keys": {

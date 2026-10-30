@@ -410,6 +410,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-new-ecdc-oct29",
+      "retrieved_date": "2026-10-30",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "ECDC's country overview (page last updated 29 October 2026, 16:00) reports the Democratic Republic of the Congo has recorded a total of 10,193 confirmed cases, including 4,960 related deaths, as of 28 October 2026 (data through 27 October 2026), up from 10,141 cases and 4,928 deaths the prior day. Kenya's case count remains nine confirmed cases, including two deaths, as of 26 October 2026.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-new-ecdc-oct7",
       "retrieved_date": "2026-10-12",
       "source_name": "ECDC",
@@ -586,12 +594,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with a cross-border chain in Kenya and a now-closed outbreak in Uganda. ECDC's newest country overview (data through 26 October 2026) puts the DRC toll at 10,141 confirmed cases and 4,928 deaths across eight provinces, up from 10,060/4,887 the day before. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
+  "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with a cross-border chain in Kenya and a now-closed outbreak in Uganda. ECDC's newest country overview (data through 27 October 2026) puts the DRC toll at 10,193 confirmed cases and 4,960 deaths across eight provinces, up from 10,141/4,928 the day before. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
   "event": {
     "impact": {
-      "deaths": 4928,
+      "deaths": 4960,
       "displaced": null,
-      "summary": "ECDC's newest country overview (page last updated 28 October 2026, 16:00) puts the DRC toll at 10,141 confirmed cases and 4,928 deaths as of 27 October 2026 (data through 26 October), up from 10,060 cases and 4,887 deaths the prior day. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+      "summary": "ECDC's newest country overview (page last updated 29 October 2026, 16:00) puts the DRC toll at 10,193 confirmed cases and 4,960 deaths as of 28 October 2026 (data through 27 October), up from 10,141 cases and 4,928 deaths the prior day. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
     "location": {
@@ -605,18 +613,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-10-29T09:15:00Z",
+  "last_updated": "2026-10-30T09:11:23Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-29T09:15:00Z",
+        "at": "2026-10-30T09:11:23Z",
         "layer": "verify",
-        "run_id": "2026-10-29T09-15-00Z-40831e"
+        "run_id": "2026-10-30T09-11-23Z-81329e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-29T09-15-00Z-40831e"
+    "last_run_id": "2026-10-30T09-11-23Z-81329e"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -625,6 +633,10 @@
     "recency_rank": 739751
   },
   "updates": [
+    {
+      "date": "2026-10-30",
+      "text": "ECDC's country overview (updated 29 October) raised the DRC toll to 10,193 confirmed cases and 4,960 deaths (data through 27 October), up from 10,141/4,928; Kenya's linked case count held steady at nine confirmed cases and two deaths."
+    },
     {
       "date": "2026-10-29",
       "text": "ECDC's country overview (updated 28 October) raised the DRC toll to 10,141 confirmed cases and 4,928 deaths (data through 26 October), up from 10,060/4,887; Kenya's linked case count held steady at nine confirmed cases and two deaths."
@@ -740,15 +752,11 @@
     {
       "date": "2026-09-05",
       "text": "ECDC's updated country overview (data through 5 September) put the DRC toll at 6,604 confirmed cases and 3,175 deaths, up from 6,342 cases and 3,072 deaths as of the 2 September data cut, with the outbreak now spanning 61 of 151 health zones (up from 60) across six provinces."
-    },
-    {
-      "date": "2026-09-02",
-      "text": "WHO Director-General said the epidemic passed 6,000 reported cases and reached 3,000 deaths, with Ituri province the epicentre (85% of cases, 88% of deaths); ECDC's matching overview (data through 1 September) put the DRC toll at 6,250 confirmed cases and 3,039 deaths, up from 6,100/2,950 four days earlier."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 73 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 74 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
