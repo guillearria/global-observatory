@@ -98,8 +98,12 @@ Target for this run: **$ARGUMENTS**
 5. **Verify locally:**
    ```sh
    python scripts/validate_data.py && python scripts/build_frontend.py && python -m pytest -q
+   git fetch --unshallow origin 2>/dev/null || true  # the changelog needs full history
    python -c "from pipeline import changelog; changelog.regenerate()"
    ```
+   If `regenerate()` refuses with a shallow-clone error even after the unshallow, leave
+   `CHANGELOG.md` alone, say so in your final summary, and carry on — a stale changelog is
+   repaired by the next full-history run; one regenerated from truncated history is corrupt.
 
 6. **Commit and push — no PR.** Every dataset auto-publishes; the deterministic gate is the
    verification layer, not a reviewer. Commit `data/threats/` (+ `data/quarantine/` if anything

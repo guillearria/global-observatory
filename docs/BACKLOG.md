@@ -200,6 +200,10 @@ Three things look like leftovers from the PR era but are intentional:
   no-op. **This has now happened twice** (see also `d511af8`, 2026-08-05), so treat future churn on
   a clean `main` as the signal that a shallow-clone regeneration got committed again — not as
   cosmetic noise. `git rev-parse --is-shallow-repository` must print `false` before regenerating.
+  **It happened again on 2026-10-19 (`a0742e9`) and 2026-10-22 (`3bb16c8`)**, cutting the file
+  to 37 sections where full history yields 204 — the note alone did not hold. Since 2026-10-31
+  `changelog.regenerate()` raises `ShallowCloneError` instead of writing, and the three refresh
+  commands run `git fetch --unshallow` first. Repaired from a full clone the same day.
 - **The 2026-07-27 threat claims were verified by reading, not refetching.** The cloud session that
   landed them had an egress policy blocking `noaa.gov`, `nasa.gov` and `ipcc.ch` (403 at the CONNECT
   tunnel), so the cited pages could not be re-opened. They were accepted because every claim is
@@ -327,6 +331,25 @@ Three things look like leftovers from the PR era but are intentional:
   need of international protection), which sum to 117,830,232 — the claim text now records that
   derivation. Worth knowing for future refreshes: **the 117.8M total is not in the page's prose,
   only in the hidden `<table>` behind the chart**, so a text-only fetch never finds it.
+- **Full `updates[]` logs were trimmed oldest-first** *(Fixed 2026-10-31.)* The DRC Ebola and
+  Washington wildfire records reached the 30-entry cap (Ebola on 22 September, Washington on
+  9 October) and the daily routine kept them at 30 by deleting the oldest entry each run. That cost
+  Ebola about 20 entries, including
+  the outbreak becoming DRC's largest ever, the spread to Bas-Uele, the Ervebo allocation and the
+  end of Uganda's linked outbreak; Washington lost its 1 August state emergency and 4 August
+  federal declaration. Both logs were condensed into monthly summaries with those milestones
+  restored word for word from earlier published versions (each backed by a claim in the record).
+  Ebola is now at 16 entries and Washington at 11. `author_event.py` now refuses a draft that drops
+  entries unless `--condense` is passed, `validate_data.py` warns from 25 entries, and
+  `/refresh-events` caps a running tally at one entry a week. Still near the cap and left for the
+  routine to condense under the new rule: `canada-british-columbia-wildfires-2026` and
+  `pakistan-floods-2026` (25 each).
+- **Claims grow without a cap — the real driver of `events.json` size.** `frontend/data/events.json`
+  passed 1 MiB on 2026-10-31 (1.07 MB, up ~190 KB a month) and claims are ~60% of it: a long-running
+  record gains a new dated ECDC/InciWeb claim per figure change (Ebola has 75). Nothing is broken
+  yet. Options when it matters: retire claims superseded by a newer reading of the same source page,
+  or stop shipping old claims to the frontend. Either touches the trust model, so decide
+  deliberately.
 - **Seed more real events**: more accrue naturally once the daily routine is running; no action
   needed beyond that.
 - **Seed the Historical Archive** *(Done 2026-07-06 — 43 landmark records across all six eras,
