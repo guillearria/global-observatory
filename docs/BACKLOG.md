@@ -200,6 +200,10 @@ Three things look like leftovers from the PR era but are intentional:
   no-op. **This has now happened twice** (see also `d511af8`, 2026-08-05), so treat future churn on
   a clean `main` as the signal that a shallow-clone regeneration got committed again — not as
   cosmetic noise. `git rev-parse --is-shallow-repository` must print `false` before regenerating.
+  **It happened again on 2026-10-19 (`a0742e9`) and 2026-10-22 (`3bb16c8`)**, cutting the file
+  to 37 sections where full history yields 204 — the note alone did not hold. Since 2026-10-31
+  `changelog.regenerate()` raises `ShallowCloneError` instead of writing, and the three refresh
+  commands run `git fetch --unshallow` first. Repaired from a full clone the same day.
 - **The 2026-07-27 threat claims were verified by reading, not refetching.** The cloud session that
   landed them had an egress policy blocking `noaa.gov`, `nasa.gov` and `ipcc.ch` (403 at the CONNECT
   tunnel), so the cited pages could not be re-opened. They were accepted because every claim is
