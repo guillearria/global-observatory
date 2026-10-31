@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T09:09:52Z",
+  "last_updated": "2026-10-31T09:11:05Z",
   "published": [
     {
       "category": "flood",
@@ -1876,7 +1876,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-31",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168573",
           "text": "UN News, citing IOM: a boat carrying 305 people from Djibouti toward Yemen capsized near Guehere, north of Obock, in the early hours of Friday (9 October 2026). The confirmed death toll rose to at least 139, including children, with 84 people still missing, up from an initial count of 109 dead and 116 missing after the bodies of 30 more people were recovered; about 82 of the 305 aboard survived. IOM Resident Coordinator Jose Barahona said at least 139 lives were lost, and IOM called it one of the deadliest shipwrecks recorded on the Eastern Route from the Horn of Africa to the Arabian Peninsula.",
@@ -1902,18 +1902,18 @@
         "status": "ongoing"
       },
       "id": "djibouti-migrant-shipwreck-2026",
-      "last_updated": "2026-10-29T09:11:04Z",
+      "last_updated": "2026-10-31T09:10:15Z",
       "name": "Migrant Boat Shipwreck — Obock, Djibouti",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:11:04Z",
+            "at": "2026-10-31T09:10:15Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-11-04Z-47a802"
+            "run_id": "2026-10-31T09-10-15Z-757cfb"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-11-04Z-47a802"
+        "last_run_id": "2026-10-31T09-10-15Z-757cfb"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1956,7 +1956,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-10-30",
+          "retrieved_date": "2026-10-31",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168499",
           "text": "The same UN News report (1 October 2026) states that \"a key transit centre for patients requiring treatment burned down\" at Bunia's Kigonze displacement camp, which \"now lies abandoned,\" setting back the regional Ebola response; UN official Julien Harneis said: \"It's been a huge struggle to create Ebola transit centres [and] Ebola treatment centres; it's required money, bringing in staff and it's been a struggle all across the east. So, when we lose a centre, that means we lose capacity, we lose investment and we have to start again.\"",
@@ -1982,18 +1982,18 @@
         "status": "ongoing"
       },
       "id": "drc-north-kivu-ituri-displacement-2026",
-      "last_updated": "2026-10-30T09:10:13Z",
+      "last_updated": "2026-10-31T09:10:15Z",
       "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-30T09:10:13Z",
+            "at": "2026-10-31T09:10:15Z",
             "layer": "verify",
-            "run_id": "2026-10-30T09-10-13Z-a91572"
+            "run_id": "2026-10-31T09-10-15Z-9d17d0"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-30T09-10-13Z-a91572"
+        "last_run_id": "2026-10-31T09-10-15Z-9d17d0"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2441,6 +2441,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-oct30",
+          "retrieved_date": "2026-10-31",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 30 October 2026, 16:00) reports the Democratic Republic of the Congo has recorded a total of 10,274 confirmed cases, including 4,992 related deaths, as of 29 October 2026 (data through 28 October 2026), up from 10,193 cases and 4,960 deaths the prior day. Kenya's case count remains nine confirmed cases, including two deaths, as of 26 October 2026, unchanged.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-ecdc-oct7",
           "retrieved_date": "2026-10-12",
           "source_name": "ECDC",
@@ -2617,12 +2625,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with a cross-border chain in Kenya and a now-closed outbreak in Uganda. ECDC's newest country overview (data through 27 October 2026) puts the DRC toll at 10,193 confirmed cases and 4,960 deaths across eight provinces, up from 10,141/4,928 the day before. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
+      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with a cross-border chain in Kenya and a now-closed outbreak in Uganda. ECDC's newest country overview (data through 28 October 2026) puts the DRC toll at 10,274 confirmed cases and 4,992 deaths across eight provinces, up from 10,193/4,960 the day before. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
       "event": {
         "impact": {
-          "deaths": 4960,
+          "deaths": 4992,
           "displaced": null,
-          "summary": "ECDC's newest country overview (page last updated 29 October 2026, 16:00) puts the DRC toll at 10,193 confirmed cases and 4,960 deaths as of 28 October 2026 (data through 27 October), up from 10,141 cases and 4,928 deaths the prior day. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest country overview (page last updated 30 October 2026, 16:00) puts the DRC toll at 10,274 confirmed cases and 4,992 deaths as of 29 October 2026 (data through 28 October), up from 10,193 cases and 4,960 deaths the prior day. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -2636,18 +2644,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-10-30T09:11:23Z",
+      "last_updated": "2026-10-31T09:11:05Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-30T09:11:23Z",
+            "at": "2026-10-31T09:11:05Z",
             "layer": "verify",
-            "run_id": "2026-10-30T09-11-23Z-81329e"
+            "run_id": "2026-10-31T09-11-05Z-644149"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-30T09-11-23Z-81329e"
+        "last_run_id": "2026-10-31T09-11-05Z-644149"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2656,6 +2664,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-10-31",
+          "text": "ECDC's country overview (updated 30 October) raised the DRC toll to 10,274 confirmed cases and 4,992 deaths (data through 28 October), up from 10,193/4,960; Kenya's linked case count held steady at nine confirmed cases and two deaths."
+        },
         {
           "date": "2026-10-30",
           "text": "ECDC's country overview (updated 29 October) raised the DRC toll to 10,193 confirmed cases and 4,960 deaths (data through 27 October), up from 10,141/4,928; Kenya's linked case count held steady at nine confirmed cases and two deaths."
@@ -2771,15 +2783,11 @@
         {
           "date": "2026-09-06",
           "text": "ECDC's updated country overview (data through 2 September) put the DRC toll at 6,342 confirmed cases and 3,072 deaths, up from 6,250 cases and 3,039 deaths as of the 1 September data cut -- 92 new cases, 33 new deaths -- across 60 of 151 health zones in six provinces."
-        },
-        {
-          "date": "2026-09-05",
-          "text": "ECDC's updated country overview (data through 5 September) put the DRC toll at 6,604 confirmed cases and 3,175 deaths, up from 6,342 cases and 3,072 deaths as of the 2 September data cut, with the outbreak now spanning 61 of 151 health zones (up from 60) across six provinces."
         }
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 74 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 75 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -2892,7 +2900,7 @@
         },
         {
           "id": "claim-25",
-          "retrieved_date": "2026-10-30",
+          "retrieved_date": "2026-10-31",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/world/13-children-reportedly-killed-or-injured-drone-strike-displacement-shelter-al-obeid-sudan",
           "text": "UNICEF statement via ReliefWeb (posted and originally published 1 October 2026): a drone strike late on 30 September/1 October 2026 on the Al Mina Al Bari shelter for internally displaced people in El Obeid, North Kordofan, reportedly killed one boy and injured 12 children (five boys, seven girls). UNICEF Representative in Sudan Angela Kearney said 'any sense of safety was shattered' and called for attacks on child-protection sites to stop; UNICEF notes more than 400 children were reportedly killed or injured by drone attacks nationwide between January and September 2026.",
@@ -2958,18 +2966,18 @@
         "status": "ongoing"
       },
       "id": "el-obeid-siege-sudan-2026",
-      "last_updated": "2026-10-30T09:10:13Z",
+      "last_updated": "2026-10-31T09:10:14Z",
       "name": "Siege of El Obeid — North Kordofan, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-30T09:10:13Z",
+            "at": "2026-10-31T09:10:14Z",
             "layer": "verify",
-            "run_id": "2026-10-30T09-10-13Z-dc73fd"
+            "run_id": "2026-10-31T09-10-14Z-291365"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-30T09-10-13Z-dc73fd"
+        "last_run_id": "2026-10-31T09-10-14Z-291365"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3794,7 +3802,7 @@
         },
         {
           "id": "claim-30",
-          "retrieved_date": "2026-10-28",
+          "retrieved_date": "2026-10-31",
           "source_name": "IOM Displacement Tracking Matrix (DTM)",
           "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-113-displacement-following-armed-violence-commune-croix-des",
           "text": "IOM DTM 'Haiti -- Emergency Tracking Tool (ETT) 113' (armed violence from 18 October 2026, covering through 26 October 2026, published 27 October 2026) recorded approximately 1,937 people (474 households) displaced by armed violence in the commune of Croix-des-Bouquets, West department, mainly affecting the Santo, Marassa and Djaboul neighbourhoods -- a separate incident from the Gros-Morne, Petite Riviere de l'Artibonite and Arcahaie displacements already tracked. 59% sought refuge in the neighbouring commune of Tabarre; 85% are staying with host families and 15% settled in five spontaneous sites.",
@@ -3802,7 +3810,7 @@
         },
         {
           "id": "claim-31",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-31",
           "source_name": "IOM Displacement Tracking Matrix (DTM)",
           "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-1121-updates-displacement-following-armed-violence-communes",
           "text": "IOM DTM 'Haiti -- Emergency Tracking Tool (ETT) 112.1' (updates on displacement following armed violence in the communes of Petite Riviere de l'Artibonite and Verrettes, Artibonite department, since 19 October 2026, covering through 26 October 2026, published 27 October 2026) revises the toll sharply upward to approximately 13,912 people (3,316 households) displaced, up from about 7,250 people (1,637 households) in ETT 112. 62% sheltered within Petite Riviere de l'Artibonite and 38% in Verrettes; 77% are staying with host families and 23% settled in 14 sites.",
@@ -3852,18 +3860,18 @@
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-10-29T09:11:03Z",
+      "last_updated": "2026-10-31T09:10:15Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:11:03Z",
+            "at": "2026-10-31T09:10:15Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-11-03Z-ea713f"
+            "run_id": "2026-10-31T09-10-15Z-e14f93"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-11-03Z-ea713f"
+        "last_run_id": "2026-10-31T09-10-15Z-e14f93"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4774,7 +4782,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-10-29",
+          "retrieved_date": "2026-10-31",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
           "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 633,500 Iranian nationals who have crossed into neighbouring countries (28 September 2026, up from 628,000), of whom 534,800 have since crossed back into Iran (28 September 2026, up from 530,000); Lebanese refugees in Syria and new IDPs within Lebanon are unchanged at 325,400 and 329,686 respectively (both Government data, 30 September 2026) -- a combined 1,288,586 people displaced or newly refugees across Iran and Lebanon; Afghan returnee movements (1,015,400, IOM/UNHCR, 3 October 2026) and Syrian returnee movements (1,081,500, Government of Syria/UNHCR, 30 September 2026) are also unchanged, a combined 2,096,900.",
@@ -4864,18 +4872,18 @@
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-10-29T09:15:36Z",
+      "last_updated": "2026-10-31T09:10:15Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-29T09:15:36Z",
+            "at": "2026-10-31T09:10:15Z",
             "layer": "verify",
-            "run_id": "2026-10-29T09-15-36Z-6c0ddb"
+            "run_id": "2026-10-31T09-10-15Z-a5bbaf"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-29T09-15-36Z-6c0ddb"
+        "last_run_id": "2026-10-31T09-10-15Z-a5bbaf"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7473,7 +7481,7 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-10-30",
+          "retrieved_date": "2026-10-31",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/documents/details/124371",
           "text": "UNHCR Flash Alert #24 (published Oct 2026) reports that renewed clashes in Baidoa, which began on 28 September 2026 and continued through 3 October 2026 between forces associated with the former Southwest State administration and the Somali National Army over control of the town, displaced 934 households (5,604 individuals) and caused 11 deaths and 86 injuries recorded at Bay Regional Hospital and Bayhaw Hospital, including eight deaths reportedly caused by stray bullets near RP Hotel; Southwest University, the RP Hotel, two mosques and three schools also reportedly sustained significant damage.",
@@ -7499,18 +7507,18 @@
         "status": "ongoing"
       },
       "id": "somalia-baidoa-clashes-displacement-2026",
-      "last_updated": "2026-10-30T09:10:13Z",
+      "last_updated": "2026-10-31T09:10:15Z",
       "name": "Baidoa Clashes & Displacement — South West State, Somalia",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-30T09:10:13Z",
+            "at": "2026-10-31T09:10:15Z",
             "layer": "verify",
-            "run_id": "2026-10-30T09-10-13Z-86870d"
+            "run_id": "2026-10-31T09-10-15Z-4c6add"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-30T09-10-13Z-86870d"
+        "last_run_id": "2026-10-31T09-10-15Z-4c6add"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8226,7 +8234,7 @@
         },
         {
           "id": "claim-20",
-          "retrieved_date": "2026-10-30",
+          "retrieved_date": "2026-10-31",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/sudan/sudan-sees-sharp-decline-cholera-cases-response-efforts-continue",
           "text": "WHO press release via ReliefWeb, 'Sudan sees sharp decline in cholera cases as response efforts continue' (posted 25 September 2026, originally published 24 September 2026): a total of eight cases and no deaths were reported in the week ending 11 September 2026, compared with a peak of 421 cases in the week ending 3 July. The outbreak, which began in Al Nuhud locality, West Kordofan, in May, has spread to 20 localities across six states; a total of 2,955 cases and 250 associated deaths have been reported, a case fatality ratio of 8.4%, well above WHO's less-than-1% threshold. WHO has prepositioned 60 metric tons of cholera supplies (enough for about 120,000 cases), retrained and deployed 60 rapid response teams, trained 120 frontline health workers, and supported 17 cholera treatment centres and 18 oral rehydration points. Oral cholera vaccination campaigns with UNICEF reached 915,377 people, with coverage near 100% in West Kordofan and 99.7% in South Darfur, and 87% of the target population in Tawila, North Darfur. WHO Representative in Sudan Dr Abdinasir Abubakar said the decline 'is encouraging, but we must remain vigilant,' citing continued risk from insecurity, displacement, poor access and the rainy season.",
@@ -8284,18 +8292,18 @@
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-10-30T09:11:05Z",
+      "last_updated": "2026-10-31T09:10:14Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-30T09:11:05Z",
+            "at": "2026-10-31T09:10:14Z",
             "layer": "verify",
-            "run_id": "2026-10-30T09-11-05Z-4c0722"
+            "run_id": "2026-10-31T09-10-14Z-e3d72d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-30T09-11-05Z-4c0722"
+        "last_run_id": "2026-10-31T09-10-14Z-e3d72d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8440,7 +8448,7 @@
         },
         {
           "id": "claim-28",
-          "retrieved_date": "2026-10-30",
+          "retrieved_date": "2026-10-31",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/sdn",
           "text": "UNHCR's Operational Data Portal for Sudan (checked 18 October 2026): internally displaced persons within Sudan remain at 8,583,274, labeled 'last updated 30 Sep 2026' -- unchanged since 17 October 2026 (down from 8,622,801 as of the 31 August 2026 update); refugees and asylum-seekers in Sudan remain at 909,744, unchanged, also labeled 'last updated 30 Sep 2026'.",
@@ -8490,18 +8498,18 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-10-30T09:10:13Z",
+      "last_updated": "2026-10-31T09:10:14Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-30T09:10:13Z",
+            "at": "2026-10-31T09:10:14Z",
             "layer": "verify",
-            "run_id": "2026-10-30T09-10-13Z-e1a6c7"
+            "run_id": "2026-10-31T09-10-14Z-a04742"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-30T09-10-13Z-e1a6c7"
+        "last_run_id": "2026-10-31T09-10-14Z-a04742"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8574,7 +8582,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-10-30",
+          "retrieved_date": "2026-10-31",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168661",
           "text": "UN News (23 October 2026), citing the UN Human Rights Office (OHCHR) and High Commissioner Volker Türk: drone strikes \"killed at least 306 people and injured hundreds more in the first three weeks of October alone.\" OHCHR documented strikes on displacement shelters, a gold-mining site, a transport convoy and a market across West Kordofan, Blue Nile and Abyei.",
@@ -8632,18 +8640,18 @@
         "status": "ongoing"
       },
       "id": "sudan-drone-strikes-kordofan-abyei-2026",
-      "last_updated": "2026-10-30T09:10:13Z",
+      "last_updated": "2026-10-31T09:10:14Z",
       "name": "Drone-Strike Escalation — West Kordofan, Blue Nile & Abyei, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-30T09:10:13Z",
+            "at": "2026-10-31T09:10:14Z",
             "layer": "verify",
-            "run_id": "2026-10-30T09-10-13Z-7f4fcd"
+            "run_id": "2026-10-31T09-10-14Z-ad716e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-30T09-10-13Z-7f4fcd"
+        "last_run_id": "2026-10-31T09-10-14Z-ad716e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -11757,7 +11765,7 @@
         },
         {
           "id": "claim-30",
-          "retrieved_date": "2026-10-30",
+          "retrieved_date": "2026-10-31",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-22-october-2026",
           "text": "OCHA oPt's Humanitarian Situation Report of 22 October 2026 (reporting period 13-19 October) states: no Palestinian fatalities were documented in the West Bank during the period, while 148 Palestinians were injured (including six children; 92 by Israeli forces and 56 by settlers), and 83 settler attacks causing casualties or property damage were documented across 48 communities. Israeli authorities demolished or forced the demolition of 21 Palestinian-owned structures, displacing 37 people; since the start of 2026, about 1,790 Palestinians have been displaced by demolitions for lack of an Israeli-issued building permit, and more than 2,159 settler attacks have been documented across over 300 communities, averaging 7.4 per day. The report also documents an eight-hour Israeli forces operation in Ramallah city (13 October) that injured 59 Palestinians, mainly from tear-gas inhalation, and a settler attack in Khirbet Abu Falah, Ramallah (16 October) that injured nine Palestinians, including a child, and a foreign journalist.",
@@ -11807,18 +11815,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-10-30T09:10:13Z",
+      "last_updated": "2026-10-31T09:10:15Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-30T09:10:13Z",
+            "at": "2026-10-31T09:10:15Z",
             "layer": "verify",
-            "run_id": "2026-10-30T09-10-13Z-956f00"
+            "run_id": "2026-10-31T09-10-15Z-1a2100"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-30T09-10-13Z-956f00"
+        "last_run_id": "2026-10-31T09-10-15Z-1a2100"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -12007,7 +12015,7 @@
         },
         {
           "id": "claim-21",
-          "retrieved_date": "2026-10-30",
+          "retrieved_date": "2026-10-31",
           "source_name": "WHO",
           "source_url": "https://www.emro.who.int/images/stories/yemen/Yemen-Conflict-Escalation-Situation-Report-08.pdf",
           "text": "WHO's Conflict Escalation in Yemen Situation Report #8 (reporting period 12-19 October 2026, issued 20 October 2026) records the MoPHP Health Emergency Operations Centre's cumulative casualty register at 8,513 (6,939 injured, 1,574 deaths) by 19 October, an increase of 1,340 (1,048 injured, 292 deaths) since Sitrep #7's 7,173 cumulative total at 11 October, with a new front having opened in Shabwah governorate (216 casualties, 51 deaths in two days) alongside continued fighting in Marib, Lahj, Taiz and Al-Dhale'e. IOM's Displacement Tracking Matrix recorded 42,764 households (256,591 people) displaced as of 19 October, up about 28% from 201,217 on 7 October, with Taiz both the largest origin and destination governorate. Access into Taiz city remains the most critical gap: the main Haygat Al-Abd road is cut, 42 health facilities report acute shortages, and the Joint Medical Emergency Committee estimates US$624,900 is needed to keep five public hospitals running for three months. Suspected cholera cases across the five most-affected governorates declined to 562 in epidemiological week 41, down from a peak of 639 in week 40.",
@@ -12031,7 +12039,7 @@
         },
         {
           "id": "claim-24",
-          "retrieved_date": "2026-10-30",
+          "retrieved_date": "2026-10-31",
           "source_name": "IOM Displacement Tracking Matrix (DTM)",
           "source_url": "https://dtm.iom.int/datasets/yemen-displacement-caused-escalation-western-yemen-update-dataset-28-october-2026",
           "text": "IOM's Displacement Tracking Matrix 'Yemen - Displacement Caused by Escalation in Western Yemen - Update Dataset (28 October 2026)' records 287,767 internally displaced persons (47,955 households) tracked since the escalation began in June 2026, as of 27 October 2026, up from 276,301 as of 24 October (an increase of 12,522 individuals recorded on 27 October alone compared with the prior day's report); of this, about 286,711 individuals (47,779 households) were displaced between 1 August and 27 October 2026. Ta'iz governorate remains the largest share at 128,484 individuals (45%), followed by Lahj (71,100, 25%) and Aden (53,016, 18%).",
@@ -12113,18 +12121,18 @@
         "status": "ongoing"
       },
       "id": "yemen-conflict-escalation-2026",
-      "last_updated": "2026-10-30T09:10:13Z",
+      "last_updated": "2026-10-31T09:10:15Z",
       "name": "Yemen Conflict Escalation",
       "provenance": {
         "history": [
           {
-            "at": "2026-10-30T09:10:13Z",
+            "at": "2026-10-31T09:10:15Z",
             "layer": "verify",
-            "run_id": "2026-10-30T09-10-13Z-4ce2c4"
+            "run_id": "2026-10-31T09-10-15Z-988200"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-10-30T09-10-13Z-4ce2c4"
+        "last_run_id": "2026-10-31T09-10-15Z-988200"
       },
       "schema_version": "1.0",
       "sort_keys": {
