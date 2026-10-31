@@ -109,6 +109,9 @@ SUMMARY_MAX_CHARS = 1_200
 EVENT_REGION_MAX_CHARS = 200
 EVENT_UPDATE_TEXT_MAX_CHARS = 400
 EVENT_UPDATES_MAX_ENTRIES = 30
+# validate_data.py warns (without failing) from here, so a refresh run condenses the log
+# before it fills instead of discovering the cap on the day it has to add an entry.
+EVENT_UPDATES_WARN_ENTRIES = 25
 
 
 def allowlisted(url: str) -> tuple[bool, str | None]:

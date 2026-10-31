@@ -168,6 +168,28 @@ def _historical_sort_keys(record: dict) -> dict:
     }
 
 
+# --- Event development-log guard ---------------------------------------------
+def _update_key(u: dict) -> tuple[str, str]:
+    # Same identity _normalize dedupes on: stripped date + stripped, case-folded text.
+    return (str(u.get("date", "")).strip(), str(u.get("text", "")).strip().lower())
+
+
+def dropped_updates(previous: dict | None, draft: dict) -> list[dict]:
+    """Entries in the previous record's `updates[]` that the draft no longer carries.
+
+    The log is a public timeline, so removing an entry must be a deliberate condense, never a
+    quiet trim to fit the cap. In October 2026 the daily refresh kept a full log at 30 by
+    deleting the oldest entry each day, and lost an outbreak's milestones that way. Returns
+    the removed entries oldest-first; empty for a new record or a purely additive draft.
+    """
+    if not previous:
+        return []
+    kept = {_update_key(u) for u in draft.get("updates") or [] if isinstance(u, dict)}
+    gone = [u for u in previous.get("updates") or [] if isinstance(u, dict)
+            and _update_key(u) not in kept]
+    return sorted(gone, key=lambda u: str(u.get("date", "")))
+
+
 # --- Finalize + write --------------------------------------------------------
 def finalize(record: dict, *, kind: str = "threat", run_id: str | None = None) -> dict:
     """Run a draft through normalize -> gate -> sort_keys -> provenance -> schema.
