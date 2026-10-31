@@ -327,6 +327,25 @@ Three things look like leftovers from the PR era but are intentional:
   need of international protection), which sum to 117,830,232 — the claim text now records that
   derivation. Worth knowing for future refreshes: **the 117.8M total is not in the page's prose,
   only in the hidden `<table>` behind the chart**, so a text-only fetch never finds it.
+- **Full `updates[]` logs were trimmed oldest-first** *(Fixed 2026-10-31.)* The DRC Ebola and
+  Washington wildfire records reached the 30-entry cap (Ebola on 22 September, Washington on
+  9 October) and the daily routine kept them at 30 by deleting the oldest entry each run. That cost
+  Ebola about 20 entries, including
+  the outbreak becoming DRC's largest ever, the spread to Bas-Uele, the Ervebo allocation and the
+  end of Uganda's linked outbreak; Washington lost its 1 August state emergency and 4 August
+  federal declaration. Both logs were condensed into monthly summaries with those milestones
+  restored word for word from earlier published versions (each backed by a claim in the record).
+  Ebola is now at 16 entries and Washington at 11. `author_event.py` now refuses a draft that drops
+  entries unless `--condense` is passed, `validate_data.py` warns from 25 entries, and
+  `/refresh-events` caps a running tally at one entry a week. Still near the cap and left for the
+  routine to condense under the new rule: `canada-british-columbia-wildfires-2026` and
+  `pakistan-floods-2026` (25 each).
+- **Claims grow without a cap — the real driver of `events.json` size.** `frontend/data/events.json`
+  passed 1 MiB on 2026-10-31 (1.07 MB, up ~190 KB a month) and claims are ~60% of it: a long-running
+  record gains a new dated ECDC/InciWeb claim per figure change (Ebola has 75). Nothing is broken
+  yet. Options when it matters: retire claims superseded by a newer reading of the same source page,
+  or stop shipping old claims to the frontend. Either touches the trust model, so decide
+  deliberately.
 - **Seed more real events**: more accrue naturally once the daily routine is running; no action
   needed beyond that.
 - **Seed the Historical Archive** *(Done 2026-07-06 — 43 landmark records across all six eras,
