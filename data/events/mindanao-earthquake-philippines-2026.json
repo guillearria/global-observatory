@@ -75,10 +75,10 @@
     },
     {
       "id": "claim-21",
-      "retrieved_date": "2026-10-29",
+      "retrieved_date": "2026-11-01",
       "source_name": "GDACS",
       "source_url": "https://gdacs.org/report.aspx?eventid=1544720&eventtype=EQ",
-      "text": "Re-checked 11 August 2026: reliefweb.int, this record's live_source_url and the source of the DSWD DROMIC series and OCHA casualty snapshot, returned HTTP 403 Forbidden and was unreachable across multiple attempts and multiple pages (disaster hub, specific report URLs, API endpoint) today. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Orange alert (\"medium humanitarian impact\"), currently showing modeled population exposure of about 4.4 million people at MMI≥VII and a maximum observed tsunami wave of 0.83 m -- GDACS's own automated impact-model figures for the event, which are updated as GDACS reprocesses episodes and are distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
+      "text": "Re-checked 1 November 2026: reliefweb.int, this record's live_source_url and the source of the DSWD DROMIC series and OCHA casualty snapshot, again returned HTTP 403 Forbidden, and dromic.dswd.gov.ph returned HTTP 503, both unreachable across multiple attempts today. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Orange alert (\"medium humanitarian impact\"), still showing modeled population exposure of about 4.4 million people at MMI≥VII and a maximum observed tsunami wave of 0.83 m, unchanged from the prior read -- GDACS's own automated impact-model figures, distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
       "verification_status": "verified"
     },
     {
@@ -213,18 +213,18 @@
     "status": "ongoing"
   },
   "id": "mindanao-earthquake-philippines-2026",
-  "last_updated": "2026-10-31T09:09:52Z",
+  "last_updated": "2026-11-01T09:16:41Z",
   "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-31T09:09:52Z",
+        "at": "2026-11-01T09:16:41Z",
         "layer": "verify",
-        "run_id": "2026-10-31T09-09-52Z-7d152f"
+        "run_id": "2026-11-01T09-16-41Z-587b61"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-31T09-09-52Z-7d152f"
+    "last_run_id": "2026-11-01T09-16-41Z-587b61"
   },
   "schema_version": "1.0",
   "sort_keys": {
