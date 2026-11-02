@@ -1,0 +1,97 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "low",
+      "numeric_annual": null,
+      "window": "next-50-years"
+    },
+    "severity": "civilizational",
+    "summary": "No state or group is known to have used an engineered pathogen at scale, which is what keeps the probability estimate low rather than higher. Every input to the risk is nevertheless moving adversely: synthesis and genome-editing capability keeps getting cheaper, AI assistance on biology tasks now exceeds expert baselines on some evaluations, and the treaty banning biological weapons has no way to check compliance and spent 2025 deadlocked. Severity is bounded by transmissibility rather than by any physical limit on yield, which is what separates this from nuclear war: a self-propagating agent needs no delivery system and does not stop at a border.",
+    "timeframe": "No natural cycle paces this threat. Risk tracks how widely biotechnology and AI capability diffuse, both of which have moved measurably since 2022, against a treaty regime whose strengthening process stalled in 2025."
+  },
+  "category": "biological",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-11-02",
+      "source_name": "SIPRI",
+      "source_url": "https://www.sipri.org/yearbook/2026/12",
+      "text": "The SIPRI Yearbook 2026 reports that the Biological Weapons Convention is moving towards universality, with Comoros and Kiribati acceding in 2025, bringing the number of states parties to 190. The 2025 sessions of the Working Group on strengthening the Convention moved from conceptual debate to drafting concrete text, but procedural deadlocks at the end of the year prevented formal adoption of a final substantive report, and the 2025 Meeting of States Parties was largely defined by procedural deadlock and the inability to reach consensus on substantive outcomes.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-11-02",
+      "source_name": "SIPRI",
+      "source_url": "https://www.sipri.org/sites/default/files/2026-03/0326_preventing_biological_weapons_proliferation_0.pdf",
+      "text": "SIPRI states that reporting and transparency mechanisms are the primary method for states to demonstrate good-faith implementation of the Biological Weapons Convention 'in the absence of a standing verification mechanism under the BWC'. Citing the BWC Implementation Support Unit, 136 of 189 states parties (72 per cent) have submitted at least one confidence-building measure (CBM) report since 2020 while 53 (28 per cent) provided none, and as of mid-2025, 35 states parties (19 per cent) had not submitted a CBM report since the transparency mechanism was introduced in 1987.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-11-02",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news/item/20-05-2025-world-health-assembly-adopts-historic-pandemic-agreement-to-make-the-world-more-equitable-and-safer-from-future-pandemics",
+      "text": "WHO Member States formally adopted the Pandemic Agreement by consensus on 20 May 2025 in a plenary session of the 78th World Health Assembly, after a committee vote the previous day of 124 in favour, none against and 11 abstentions. The agreement opens for signature and ratification only after the Pathogen Access and Benefit Sharing (PABS) annex is adopted, and enters into force after 60 ratifications. Under PABS, participating manufacturers would give WHO rapid access targeting 20% of their real-time production of pandemic-related vaccines, therapeutics and diagnostics.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-11-02",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/publications/i/item/9789240056107",
+      "text": "WHO published the 'Global guidance framework for the responsible use of the life sciences: mitigating biorisks and governing dual-use research' on 13 September 2022, a 174-page framework intended to support Member States and stakeholders to mitigate and prevent biorisks and govern dual-use research, and stating that 'mitigating biorisks and governing dual-use research is a shared responsibility.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-11-02",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/publications/m/item/pathogens-prioritization-a-scientific-framework-for-epidemic-and-pandemic-research-preparedness",
+      "text": "In WHO's pathogens prioritization report of 30 July 2024, over 200 scientists from more than 50 countries evaluated the evidence on 28 viral families and one core group of bacteria, encompassing 1,652 pathogens, to set a scientific framework for epidemic and pandemic research preparedness.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-11-02",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-covid-19-pandemic-in-2020-and-2021",
+      "text": "WHO estimates that approximately 14.9 million excess deaths (range 13.3 million to 16.6 million) were associated with the COVID-19 pandemic between 1 January 2020 and 31 December 2021.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-7",
+      "retrieved_date": "2026-11-02",
+      "source_name": "UK AI Security Institute",
+      "source_url": "https://www.aisi.gov.uk/frontier-ai-trends-report",
+      "text": "The UK AI Security Institute's Frontier AI Trends Report gives expert baseline scores of 38% for biology question-answering and 48% for chemistry question-answering, and states that models 'first reached our expert baseline for open-ended questions in 2024 and now exceed it by up to 60%', with relative biology performance moving from -0.4 in 2022 to +0.6 in 2025. On safeguards, AISI reports 'significant progress in the safeguards of certain AI systems, particularly in the biological misuse domain', while still finding a universal jailbreak for biological misuse requests in both of two models tested six months apart - the first taking about 10 minutes of expert red-teamer time and the second over 7 hours of expert effort.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A pathogen engineered as a weapon, or released by accident from a laboratory, could spread further and kill more people than any natural outbreak. COVID-19 sets the scale: WHO associates roughly 14.9 million excess deaths with the pandemic in 2020-2021 alone, and a deliberately optimised agent would not be bounded by what evolution happens to produce. The restraints are weak. The Biological Weapons Convention reached 190 states parties in 2025, but it still has no standing verification mechanism, 35 states parties had never filed a confidence-building report as of mid-2025, and both the 2025 Meeting of States Parties and the working group meant to strengthen the treaty ended in procedural deadlock. The WHO Pandemic Agreement adopted in May 2025 needs 60 ratifications before it binds anyone, and oversight of dual-use research still rests on voluntary WHO guidance. Meanwhile the capability frontier widens: the UK AI Security Institute reports that frontier models passed its expert baselines on open-ended biology and chemistry questions in 2024 and now exceed them by up to 60 per cent.",
+  "id": "engineered-pandemic",
+  "last_updated": "2026-11-02T10:21:55Z",
+  "name": "Engineered Pandemic (Biological Weapons and Dual-Use Research)",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-11-02T10:21:55Z",
+        "layer": "verify",
+        "run_id": "2026-11-02T10-21-55Z-d4194f"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-11-02T10-21-55Z-d4194f"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 32.0,
+    "probability_rank": 2,
+    "severity_rank": 3
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

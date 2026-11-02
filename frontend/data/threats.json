@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T10:22:26Z",
+  "last_updated": "2026-11-02T10:21:56Z",
   "published": [
     {
       "assessment": {
@@ -540,6 +540,103 @@
         "probability": {
           "estimate": "low",
           "numeric_annual": null,
+          "window": "next-50-years"
+        },
+        "severity": "civilizational",
+        "summary": "No state or group is known to have used an engineered pathogen at scale, which is what keeps the probability estimate low rather than higher. Every input to the risk is nevertheless moving adversely: synthesis and genome-editing capability keeps getting cheaper, AI assistance on biology tasks now exceeds expert baselines on some evaluations, and the treaty banning biological weapons has no way to check compliance and spent 2025 deadlocked. Severity is bounded by transmissibility rather than by any physical limit on yield, which is what separates this from nuclear war: a self-propagating agent needs no delivery system and does not stop at a border.",
+        "timeframe": "No natural cycle paces this threat. Risk tracks how widely biotechnology and AI capability diffuse, both of which have moved measurably since 2022, against a treaty regime whose strengthening process stalled in 2025."
+      },
+      "category": "biological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-11-02",
+          "source_name": "SIPRI",
+          "source_url": "https://www.sipri.org/yearbook/2026/12",
+          "text": "The SIPRI Yearbook 2026 reports that the Biological Weapons Convention is moving towards universality, with Comoros and Kiribati acceding in 2025, bringing the number of states parties to 190. The 2025 sessions of the Working Group on strengthening the Convention moved from conceptual debate to drafting concrete text, but procedural deadlocks at the end of the year prevented formal adoption of a final substantive report, and the 2025 Meeting of States Parties was largely defined by procedural deadlock and the inability to reach consensus on substantive outcomes.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-11-02",
+          "source_name": "SIPRI",
+          "source_url": "https://www.sipri.org/sites/default/files/2026-03/0326_preventing_biological_weapons_proliferation_0.pdf",
+          "text": "SIPRI states that reporting and transparency mechanisms are the primary method for states to demonstrate good-faith implementation of the Biological Weapons Convention 'in the absence of a standing verification mechanism under the BWC'. Citing the BWC Implementation Support Unit, 136 of 189 states parties (72 per cent) have submitted at least one confidence-building measure (CBM) report since 2020 while 53 (28 per cent) provided none, and as of mid-2025, 35 states parties (19 per cent) had not submitted a CBM report since the transparency mechanism was introduced in 1987.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-11-02",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news/item/20-05-2025-world-health-assembly-adopts-historic-pandemic-agreement-to-make-the-world-more-equitable-and-safer-from-future-pandemics",
+          "text": "WHO Member States formally adopted the Pandemic Agreement by consensus on 20 May 2025 in a plenary session of the 78th World Health Assembly, after a committee vote the previous day of 124 in favour, none against and 11 abstentions. The agreement opens for signature and ratification only after the Pathogen Access and Benefit Sharing (PABS) annex is adopted, and enters into force after 60 ratifications. Under PABS, participating manufacturers would give WHO rapid access targeting 20% of their real-time production of pandemic-related vaccines, therapeutics and diagnostics.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-11-02",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/publications/i/item/9789240056107",
+          "text": "WHO published the 'Global guidance framework for the responsible use of the life sciences: mitigating biorisks and governing dual-use research' on 13 September 2022, a 174-page framework intended to support Member States and stakeholders to mitigate and prevent biorisks and govern dual-use research, and stating that 'mitigating biorisks and governing dual-use research is a shared responsibility.'",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-11-02",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/publications/m/item/pathogens-prioritization-a-scientific-framework-for-epidemic-and-pandemic-research-preparedness",
+          "text": "In WHO's pathogens prioritization report of 30 July 2024, over 200 scientists from more than 50 countries evaluated the evidence on 28 viral families and one core group of bacteria, encompassing 1,652 pathogens, to set a scientific framework for epidemic and pandemic research preparedness.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-11-02",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-covid-19-pandemic-in-2020-and-2021",
+          "text": "WHO estimates that approximately 14.9 million excess deaths (range 13.3 million to 16.6 million) were associated with the COVID-19 pandemic between 1 January 2020 and 31 December 2021.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-11-02",
+          "source_name": "UK AI Security Institute",
+          "source_url": "https://www.aisi.gov.uk/frontier-ai-trends-report",
+          "text": "The UK AI Security Institute's Frontier AI Trends Report gives expert baseline scores of 38% for biology question-answering and 48% for chemistry question-answering, and states that models 'first reached our expert baseline for open-ended questions in 2024 and now exceed it by up to 60%', with relative biology performance moving from -0.4 in 2022 to +0.6 in 2025. On safeguards, AISI reports 'significant progress in the safeguards of certain AI systems, particularly in the biological misuse domain', while still finding a universal jailbreak for biological misuse requests in both of two models tested six months apart - the first taking about 10 minutes of expert red-teamer time and the second over 7 hours of expert effort.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A pathogen engineered as a weapon, or released by accident from a laboratory, could spread further and kill more people than any natural outbreak. COVID-19 sets the scale: WHO associates roughly 14.9 million excess deaths with the pandemic in 2020-2021 alone, and a deliberately optimised agent would not be bounded by what evolution happens to produce. The restraints are weak. The Biological Weapons Convention reached 190 states parties in 2025, but it still has no standing verification mechanism, 35 states parties had never filed a confidence-building report as of mid-2025, and both the 2025 Meeting of States Parties and the working group meant to strengthen the treaty ended in procedural deadlock. The WHO Pandemic Agreement adopted in May 2025 needs 60 ratifications before it binds anyone, and oversight of dual-use research still rests on voluntary WHO guidance. Meanwhile the capability frontier widens: the UK AI Security Institute reports that frontier models passed its expert baselines on open-ended biology and chemistry questions in 2024 and now exceed them by up to 60 per cent.",
+      "id": "engineered-pandemic",
+      "last_updated": "2026-11-02T10:21:55Z",
+      "name": "Engineered Pandemic (Biological Weapons and Dual-Use Research)",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-11-02T10:21:55Z",
+            "layer": "verify",
+            "run_id": "2026-11-02T10-21-55Z-d4194f"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-11-02T10-21-55Z-d4194f"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 32.0,
+        "probability_rank": 2,
+        "severity_rank": 3
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "low",
+          "numeric_annual": null,
           "window": "next-100-years"
         },
         "severity": "continental",
@@ -550,7 +647,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-09-07",
+          "retrieved_date": "2026-11-02",
           "source_name": "NOAA",
           "source_url": "https://www.nesdis.noaa.gov/news/when-solar-storms-attack-space-weather-and-our-infrastructure",
           "text": "The 1859 Carrington Event, the largest geomagnetic storm in recorded history, crippled a large portion of the telegraph system across North America and Europe, with operators reporting fires from sparking equipment; on 13 March 1989, a severe geomagnetic storm took the Hydro-Québec electricity transmission system offline, leaving six million people without power for nine hours, many for days.",
@@ -558,7 +655,7 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-09-07",
+          "retrieved_date": "2026-11-02",
           "source_name": "NOAA",
           "source_url": "https://www.nesdis.noaa.gov/news/when-solar-storms-attack-space-weather-and-our-infrastructure",
           "text": "Citing the National Academies of Sciences, NOAA states that a Carrington-magnitude solar storm today has the potential to cost nearly $2 trillion, disrupting telecommunications, banking systems, GPS, and the energy grid, with an estimated 20-40 million people in the United States at risk of extended power outages lasting from 16 days to 1-2 years.",
@@ -566,15 +663,15 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-09-07",
+          "retrieved_date": "2026-11-02",
           "source_name": "NOAA",
           "source_url": "https://sciencecouncil.noaa.gov/noaa-by-the-numbers/space-weather/",
-          "text": "NOAA estimates the economic value of impacts to the U.S. electric power industry from a single geomagnetic storm event could range from $100 million for a small event up to $27 billion (2019 dollars) for a very large but unlikely event, and that a Carrington-level event could cause direct domestic economic damage of approximately $1.2 trillion over five months, with global impacts of $2.4 to $3.4 trillion over one year.",
+          "text": "NOAA's Science Council cites a 2020 Eastern Research Group report estimating that the value of NOAA Space Weather Prediction Center information to the U.S. electric power industry “could range from $100 million, for a small event, up to $27 billion (2019$) for a very large (but unlikely) event”. The same page cites Schulte in den Bäumen et al. (2014) that a Carrington-type event near New York could result in direct domestic economic damage of approximately $1.2 trillion over a five-month period, with a global estimate of $2.4 to $3.4 trillion over one year.",
           "verification_status": "verified"
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-09-07",
+          "retrieved_date": "2026-11-02",
           "source_name": "NOAA SWPC",
           "source_url": "https://www.spaceweather.gov/noaa-scales-explanation",
           "text": "The NOAA Space Weather Scales give an average frequency of 100 G4 (Severe) geomagnetic storms per solar cycle (60 days per cycle) and 4 G5 (Extreme) storms per solar cycle (4 days per cycle). At G5, NOAA states that 'some grid systems may experience complete collapse or blackouts', transformers 'may experience damage', pipeline currents 'can reach hundreds of amps', HF radio propagation 'may be impossible in many areas for one to two days', and satellite navigation 'may be degraded for days'.",
@@ -583,18 +680,18 @@
       ],
       "description": "A severe solar eruption can drive strong electrical currents through Earth's surface, threatening power grids, satellites, GPS, radio, and aviation communications over a wide area. The 1859 Carrington Event, the largest geomagnetic storm on record, crippled telegraph systems across North America and Europe, and a March 1989 storm knocked out Hydro-Quebec's grid, leaving six million people without power for nine hours. Storms of moderate severity are routine rather than rare: NOAA's Space Weather Scales put the average frequency at about 100 G4 (Severe) storms per roughly 11-year solar cycle, and 4 G5 (Extreme) storms, at which grid systems may collapse and transformers may be damaged. Modern societies are far more dependent on the electronics and satellite systems such storms disrupt, and NOAA cites a National Academies of Sciences estimate that a Carrington-level storm today could put 20-40 million people in the United States at risk of extended power outages lasting from 16 days to 1-2 years, with total economic damage estimated at nearly $2 trillion.",
       "id": "extreme-geomagnetic-storm",
-      "last_updated": "2026-09-07T10:09:18Z",
+      "last_updated": "2026-11-02T10:21:56Z",
       "name": "Extreme Geomagnetic Storm (Solar Superstorm)",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-07T10:09:18Z",
+            "at": "2026-11-02T10:21:56Z",
             "layer": "verify",
-            "run_id": "2026-09-07T10-09-18Z-7d9a46"
+            "run_id": "2026-11-02T10-21-56Z-5d8ef1"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-07T10-09-18Z-7d9a46"
+        "last_run_id": "2026-11-02T10-21-56Z-5d8ef1"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -891,7 +988,7 @@
           "window": "ongoing"
         },
         "severity": "civilizational",
-        "summary": "An ongoing, human-caused warming of the climate system with civilizational-scale risks under continued high emissions; 2026 is tracking among the warmest years on record while atmospheric CO2 continues to rise.",
+        "summary": "An ongoing, human-caused warming of the climate system with civilizational-scale risks under continued high emissions. 2026 is now tracking as the second-warmest year on record rather than the third or fourth, atmospheric CO2 at Mauna Loa continues to rise year over year, and upper-ocean heat content has set a record five years running.",
         "timeframe": "Already underway; impacts intensify with cumulative emissions."
       },
       "category": "climate",
@@ -906,7 +1003,7 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-09-07",
+          "retrieved_date": "2026-11-02",
           "source_name": "NOAA",
           "source_url": "https://www.ncei.noaa.gov/news/global-climate-202513",
           "text": "NOAA's National Centers for Environmental Information ranked 2025 as the third-warmest year in the global temperature record dating back to 1850: the annual global surface temperature was 2.11°F (1.17°C) above the 20th-century average and 2.41°F (1.34°C) above the 1850-1900 pre-industrial average, behind only 2024 and 2023. The ten warmest years in the 176-year record have all occurred since 2015, and upper-ocean heat content was record high in 2025.",
@@ -914,10 +1011,10 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-09-07",
+          "retrieved_date": "2026-11-02",
           "source_name": "NOAA",
           "source_url": "https://gml.noaa.gov/ccgg/trends/",
-          "text": "NOAA's Global Monitoring Laboratory measured a monthly mean atmospheric CO2 concentration of 431.44 ppm at Mauna Loa Observatory, Hawaii in June 2026, up from 429.61 ppm in June 2025.",
+          "text": "NOAA's Global Monitoring Laboratory measured a monthly mean atmospheric CO2 concentration of 426.07 ppm at Mauna Loa Observatory, Hawaii in September 2026, up from 424.37 ppm in September 2025.",
           "verification_status": "verified"
         },
         {
@@ -927,22 +1024,30 @@
           "source_url": "https://www.ncei.noaa.gov/news/global-climate-202607",
           "text": "NOAA's National Centers for Environmental Information reported that global surface temperatures in July 2026 were 2.12°F (1.18°C) above the 20th-century average, tying with 2024 for the warmest July on record, and that the January-July global surface temperature was the third highest on record. NCEI's annual outlook states it is very likely that 2026 will rank among the five-warmest years on record, with the highest probabilities favoring it as the third- or fourth-warmest.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-11-02",
+          "source_name": "NOAA",
+          "source_url": "https://www.ncei.noaa.gov/news/global-climate-202609",
+          "text": "NOAA's National Centers for Environmental Information reported that the September 2026 global surface temperature was 2.39°F (1.33°C) above the 20th-century average, the second-warmest September in the 1850-2026 record, trailing 2023 by 0.13°F (0.07°C), and that the January-September global surface temperature was the second highest on record behind 2024. NCEI states it is very likely that 2026 will rank among the five-warmest years on record, with the highest probabilities favouring 2026 as the second-warmest year on record.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Sustained warming of Earth's climate system driven by human greenhouse-gas emissions, with widespread impacts on weather extremes, sea level, ecosystems, and human systems. Unlike discrete events, it is an ongoing, intensifying process: 2025 was the third-warmest year on NOAA's global record, 1.34°C above the 1850-1900 pre-industrial average, and the ten warmest years on record have all occurred since 2015. The pace has not slackened in 2026 — July 2026 tied 2024 as the warmest July on record, the January-July global temperature was the third highest on record, and NOAA's annual outlook makes it very likely that 2026 finishes among the five warmest years. Atmospheric CO2 at NOAA's Mauna Loa Observatory reached 431.44 ppm in June 2026, up from 429.61 ppm a year earlier and the highest level in over two million years.",
+      "description": "Sustained warming of Earth's climate system driven by human greenhouse-gas emissions, with widespread impacts on weather extremes, sea level, ecosystems, and human systems. Unlike discrete events it is an ongoing, intensifying process: 2025 was the third-warmest year on NOAA's global record, 1.34°C above the 1850-1900 pre-industrial average, and the ten warmest years on record have all occurred since 2015. 2026 is running hotter still. September 2026 was the second-warmest September in the 1850-2026 record at 1.33°C above the 20th-century average, the January-September global temperature was the second highest on record behind 2024, and NOAA's outlook now puts the highest probability on 2026 finishing as the second-warmest year ever measured. Atmospheric CO2 at NOAA's Mauna Loa Observatory averaged 426.07 ppm in September 2026, up from 424.37 ppm a year earlier, and upper-ocean heat content set a record for the fifth consecutive year in 2025.",
       "id": "global-warming",
-      "last_updated": "2026-09-07T10:09:18Z",
+      "last_updated": "2026-11-02T10:21:55Z",
       "name": "Climate Change (Global Warming)",
       "provenance": {
         "history": [
           {
-            "at": "2026-09-07T10:09:18Z",
+            "at": "2026-11-02T10:21:55Z",
             "layer": "verify",
-            "run_id": "2026-09-07T10-09-18Z-6b7e6a"
+            "run_id": "2026-11-02T10-21-55Z-fe7088"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-09-07T10-09-18Z-6b7e6a"
+        "last_run_id": "2026-11-02T10-21-55Z-fe7088"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -952,7 +1057,7 @@
       },
       "verification": {
         "confidence": "high",
-        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
