@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-11-01",
+      "retrieved_date": "2026-11-02",
       "source_name": "GDACS",
       "source_url": "http://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC",
       "text": "GDACS's tropical cyclone report for ARNAB-26 (event id 1001345, episode 10, tracking window 26 October 2026 00:00 UTC to 28 October 2026 06:00 UTC) rates the storm an Overall Red alert (GDACS score 2.5 from JTWC/HWRF), with a JTWC-sourced peak wind of 222 km/h (Category 4; HWRF estimates 223 km/h) and about 4 million people in India exposed to Category 1 or higher winds. Vulnerability for India is rated high. HWRF separately projects a storm surge up to 1.6m and rainfall up to 981mm; the report gives no casualty figures.",
@@ -32,14 +32,22 @@
       "source_url": "https://www.usnews.com/news/world/articles/2026-10-27/india-evacuates-over-180-000-as-cyclone-arnab-hits-coast",
       "text": "U.S. News / Associated Press (27 October 2026), 'India Evacuates Over 180,000 as Cyclone Arnab Hits Coast': Indian authorities evacuated more than 180,000 people from Andhra Pradesh and Odisha ahead of the cyclone's arrival, suspending operations at three Andhra Pradesh airports and cancelling train and flight services in the storm's path.",
       "verification_status": "unverified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-11-02",
+      "source_name": "GDACS",
+      "source_url": "http://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC",
+      "text": "GDACS's tropical cyclone report for ARNAB-26 (event id 1001345) remains at episode 10, its final tracking window (26-28 October 2026); no further episode has been issued, consistent with the storm's dissipation after moving inland over Andhra Pradesh and weakening. The report still carries no casualty figures.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Cyclone Arnab intensified into a Category 4-equivalent storm (222 km/h) in the Bay of Bengal and made landfall on India's Andhra Pradesh coast, between Bapatla and Visakhapatnam near Yanam, on 28 October 2026. GDACS issued an Overall Red alert, estimating about 4 million people exposed to Category 1 or higher winds, with HWRF projecting storm surge up to 1.6 m and rainfall up to 981 mm. India's National Crisis Management Committee coordinated evacuations ahead of landfall, and news agencies reported more than 100,000 people moved to shelters across Andhra Pradesh and Odisha. GDACS's own report carries no casualty figures; media reports (not yet corroborated by an official Indian government report) cited a rising toll reaching at least seven deaths from falling trees, electrocution and wall collapses, chiefly in Andhra Pradesh, as the storm weakened and spread heavy rain toward West Bengal and Nepal.",
+  "description": "Cyclone Arnab intensified into a Category 4-equivalent storm (222 km/h) in the Bay of Bengal and made landfall on India's Andhra Pradesh coast, between Bapatla and Visakhapatnam near Yanam, on 28 October 2026. GDACS issued an Overall Red alert, estimating about 4 million people exposed to Category 1 or higher winds, with HWRF projecting storm surge up to 1.6 m and rainfall up to 981 mm. The storm weakened rapidly after landfall and dissipated over land; GDACS's tracking ended at episode 10, with no casualty figures of its own. News agencies (not corroborated by an official Indian government report) reported a death toll reaching at least seven, chiefly in Andhra Pradesh from falling trees, electrocution and wall collapses, and more than 100,000 people evacuated across Andhra Pradesh and Odisha ahead of landfall; evacuees have since returned as the storm emergency has passed.",
   "event": {
     "impact": {
       "deaths": 7,
       "displaced": null,
-      "summary": "GDACS's tropical cyclone report for ARNAB-26 (event id 1001345, episode 10, tracking window 26-28 October 2026) rates the storm an Overall Red alert with a JTWC-sourced peak intensity of 222 km/h (Category 4) and about 4 million people exposed to Category 1 or higher winds in India; HWRF separately projects a 1.6m storm surge and up to 981mm of rainfall. GDACS's own report carries no casualty figures. News agencies (not yet corroborated by an official Indian government report) reported a death toll rising to at least seven -- from falling trees, electrocution and wall collapses, chiefly in Andhra Pradesh -- and more than 100,000 people evacuated across Andhra Pradesh and Odisha ahead of landfall."
+      "summary": "GDACS's tropical cyclone report for ARNAB-26 (event id 1001345) ended tracking at episode 10, rating the storm's peak an Overall Red alert with a JTWC-sourced intensity of 222 km/h (Category 4) and about 4 million people exposed to Category 1 or higher winds in India; HWRF had projected a 1.6m storm surge and up to 981mm of rainfall. GDACS's own report carries no casualty figures. News agencies (not corroborated by an official Indian government report) reported a death toll reaching at least seven -- from falling trees, electrocution and wall collapses, chiefly in Andhra Pradesh -- and more than 100,000 people evacuated across Andhra Pradesh and Odisha ahead of landfall."
     },
     "live_source_url": "http://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC",
     "location": {
@@ -49,11 +57,11 @@
       "region": "Andhra Pradesh coast (Bapatla to Visakhapatnam, near Yanam); heavy rain also in Odisha, West Bengal and Nepal"
     },
     "occurrence_date": "2026-10-26",
-    "scale": "Category 4 (222 km/h, JTWC); GDACS Red alert; IMD Very Severe Cyclonic Storm at landfall",
-    "status": "ongoing"
+    "scale": "Category 4 (222 km/h, JTWC) at peak; GDACS Red alert; IMD Very Severe Cyclonic Storm at landfall; dissipated inland",
+    "status": "resolved"
   },
   "id": "cyclone-arnab-india-2026",
-  "last_updated": "2026-11-01T09:09:45Z",
+  "last_updated": "2026-11-02T09:18:09Z",
   "name": "Cyclone Arnab — Andhra Pradesh, India",
   "provenance": {
     "history": [
@@ -61,10 +69,15 @@
         "at": "2026-11-01T09:09:45Z",
         "layer": "verify",
         "run_id": "2026-11-01T09-09-45Z-bb8ca3"
+      },
+      {
+        "at": "2026-11-02T09:18:09Z",
+        "layer": "verify",
+        "run_id": "2026-11-02T09-18-09Z-dcb042"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-01T09-09-45Z-bb8ca3"
+    "last_run_id": "2026-11-02T09-18-09Z-dcb042"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -72,9 +85,15 @@
     "impact_rank": 1,
     "recency_rank": 739915
   },
+  "updates": [
+    {
+      "date": "2026-11-02",
+      "text": "The cyclone dissipated after moving inland over Andhra Pradesh; GDACS's tracking ended at episode 10 with no further episode issued. The event moves from ongoing to resolved as the storm emergency has passed and evacuees have returned."
+    }
+  ],
   "verification": {
     "confidence": "medium",
-    "notes": "gate: 1 verified, 0 disputed, 3 unverified -> partial",
+    "notes": "gate: 2 verified, 0 disputed, 3 unverified -> partial",
     "status": "partial"
   }
 }

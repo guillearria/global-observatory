@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T09:14:46Z",
+  "last_updated": "2026-11-02T09:19:50Z",
   "published": [
     {
       "category": "flood",
@@ -510,7 +510,7 @@
         },
         {
           "id": "claim-11",
-          "retrieved_date": "2026-08-31",
+          "retrieved_date": "2026-08-24",
           "source_name": "Government of British Columbia",
           "source_url": "https://www.emergencyinfobc.gov.bc.ca/",
           "text": "EmergencyInfoBC provincial emergencies listing (checked 17 August 2026): confirms the State of Provincial Emergency declared 8 August 2026 is still in effect, with active wildfire evacuation orders/alerts listed for the Regional District of North Okanagan, Okanagan Indian Band, Regional District of Okanagan-Similkameen, District of Summerland, City of Revelstoke and other regional districts and First Nations, most recently updated 16 August 2026.",
@@ -590,7 +590,7 @@
         },
         {
           "id": "claim-20",
-          "retrieved_date": "2026-08-23",
+          "retrieved_date": "2026-08-29",
           "source_name": "Government of British Columbia",
           "source_url": "https://news.gov.bc.ca/releases/2026EMCR0037-000977",
           "text": "Government of British Columbia news release (21 August 2026, 2:04 pm), 'Extending state of emergency due to wildfire risk': the Province 'has extended the state of provincial emergency for a further seven days, until Saturday, Aug. 29, 2026' due to continuing wildfire risk across British Columbia; the release states government 'has not needed to issue emergency orders under the state of emergency to respond to the current wildfire situation,' but is maintaining the declaration so response tools remain available as conditions evolve. The original declaration dates to 8 August 2026.",
@@ -726,7 +726,7 @@
         },
         {
           "id": "claim-36",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "Government of British Columbia",
           "source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
           "text": "EmergencyInfoBC's wildfire hazard page (checked 30 October 2026) lists 3 active local evacuation notices, down from 4 on 23 October 2026: Okanagan Indian Band (updated 2 October), Regional District of Okanagan-Similkameen (2 September) and Shxw'ow'hamel First Nation (1 August); Boothroyd Indian Band is no longer listed.",
@@ -781,12 +781,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after the fast-moving Bald Range fire near Summerland forced overnight evacuations, part of a wider wildfire outbreak that killed one person. The province ended the emergency declaration on 27 August, and by early September the Bald Range fire's area restriction had been rescinded as fire activity decreased. Conditions have continued to ease: the BC Wildfire Service lifted Category 1 campfire prohibitions across the Cariboo, Coastal and Kamloops fire centres effective 3 September (Category 2/3 open fires remain banned until 31 October), and EmergencyInfoBC's active evacuation-notice count has eased further to 3 as of 30 October, down from 4, with Boothroyd Indian Band's notice no longer listed; wildfire risk remains elevated in parts of the province.",
+      "description": "British Columbia declared a state of provincial emergency on 8 August 2026 after a wildfire forced evacuations near Summerland, part of a wildfire season that killed one person. The province ended the emergency declaration on 27 August, and the Bald Range fire's area restriction was rescinded in early September as fire activity decreased. The wildfire season has now wound down: GDACS's tracking of the event closed in late August with no further growth recorded, and EmergencyInfoBC lists just 3 active local evacuation notices as of 2 November 2026 (Okanagan Indian Band, Regional District of Okanagan-Similkameen and Shxw'ow'hamel First Nation), unchanged for three consecutive weekly checks; the event is now considered contained.",
       "event": {
         "impact": {
           "deaths": 1,
           "displaced": null,
-          "summary": "One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating from the Bald Range fire near Summerland. GDACS's most recently published figures remain 30,182 hectares burned and 4,912 people affected within the burned area, unchanged since its 21 August 2026 episode; the GDACS tracking record for this event closed with no further episodes after that date. British Columbia ended its province-wide State of Provincial Emergency on 27 August 2026, and the BC Wildfire Service rescinded the Bald Range fire's area restriction on 4 September. Conditions remain broadly improved: Category 1 campfire prohibitions were lifted in the Cariboo, Coastal and Kamloops fire centres effective 3 September, and EmergencyInfoBC's wildfire page lists 3 active local evacuation notices as of 30 October 2026, down from 4 on 23 October: Okanagan Indian Band, Regional District of Okanagan-Similkameen and Shxw'ow'hamel First Nation remain listed, while Boothroyd Indian Band's notice is no longer shown."
+          "summary": "GDACS's wildfire tracking for this event closed in late August with no further growth recorded, last standing at 30,182 hectares burned and 4,912 people affected. The province's State of Provincial Emergency ended 27 August 2026, and the Bald Range fire's area restriction was rescinded 4 September. One death is confirmed: an 80-year-old Meadow Valley resident who died on 9 August 2026 while evacuating the Bald Range fire. EmergencyInfoBC's wildfire page lists just 3 active local evacuation notices as of 2 November 2026 (Okanagan Indian Band, Regional District of Okanagan-Similkameen, Shxw'ow'hamel First Nation), unchanged for three consecutive weekly checks; the event is now considered contained."
         },
         "live_source_url": "https://www.emergencyinfobc.gov.bc.ca/hazard/wildfire",
         "location": {
@@ -796,22 +796,22 @@
           "region": "British Columbia Interior, centred on the Bald Range fire near Summerland in the South Okanagan; more than 100 wildfires active provincewide"
         },
         "occurrence_date": "2026-08-08",
-        "scale": "Provincial State of Emergency ended 27 August 2026 (declared 8 August); Bald Range fire (largest, near Summerland) area restriction rescinded 4 September as fire activity decreased; 1 confirmed fatality; 30,182 hectares burned as of 21 August 2026 (GDACS); 3 active local evacuation notices as of 30 October 2026",
-        "status": "ongoing"
+        "scale": "Provincial State of Emergency ended 27 Aug 2026; 1 confirmed fatality; GDACS tracking closed at 30,182 ha (21 Aug); 3 active local evacuation notices as of 2 Nov 2026 — contained",
+        "status": "contained"
       },
       "id": "canada-british-columbia-wildfires-2026",
-      "last_updated": "2026-11-01T09:10:34Z",
+      "last_updated": "2026-11-02T09:18:57Z",
       "name": "Wildfire State of Emergency — British Columbia, Canada",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-01T09:10:34Z",
+            "at": "2026-11-02T09:18:57Z",
             "layer": "verify",
-            "run_id": "2026-11-01T09-10-34Z-8668a5"
+            "run_id": "2026-11-02T09-18-57Z-4e905d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-10-34Z-8668a5"
+        "last_run_id": "2026-11-02T09-18-57Z-4e905d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -820,6 +820,10 @@
         "recency_rank": 739836
       },
       "updates": [
+        {
+          "date": "2026-11-02",
+          "text": "EmergencyInfoBC's evacuation list remains at 3 active notices (Okanagan Indian Band, Regional District of Okanagan-Similkameen, Shxw'ow'hamel First Nation), unchanged for three consecutive checks since 23 October; with no wildfire growth recorded since August and the provincial emergency long ended, the event is reclassified from ongoing to contained."
+        },
         {
           "date": "2026-10-30",
           "text": "EmergencyInfoBC's evacuation list eased further to 3 active orders/alerts (from 4 on 23 October), with Boothroyd Indian Band no longer listed; the remaining notices are Okanagan Indian Band (2 October), Regional District of Okanagan-Similkameen (2 September) and Shxw'ow'hamel First Nation (1 August)."
@@ -1017,14 +1021,22 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
           "text": "GDACS's earthquake report (event id 1573141, episode 1741837) mirrors a Xinhua media headline dated 26 October 2026 reporting that the first 60 prefabricated houses for quake-affected residents in Xizang had been completed and that households were beginning to move in; GDACS notes it has not independently verified mirrored media headlines. No newer episode has been published, and no updated casualty or exposed-population figures accompany the report.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-11-02",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
+          "text": "GDACS's earthquake report for this event (event id 1573141, episode 1741837), checked 2 November 2026, now rates the event Overall Orange alert, down from the Red alert recorded a week earlier, with a GDACS score of 1.6 (down from 2); the exposed-population estimate remains at about 10,000 people in zones of MMI VII or greater shaking, and the same mirrored media headlines (prefabricated-housing reconstruction in Xizang, dated 26 October) remain the most recent items on the page, with no updated casualty figures.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.0 earthquake struck Baqen County, Nagqu Prefecture, in the Tibet Autonomous Region (Xizang) of China on 22 October 2026, and GDACS issued an Overall Red alert. USGS located the epicenter about 191 km ENE of Nagqu at a depth of 18 km and assessed an Orange PAGER shaking-impact alert, with roughly 10,000 people estimated exposed to MMI VII or greater shaking per GDACS. Media reports mirrored on GDACS's event page cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed; rescue and damage-assessment operations are ongoing and no tsunami was generated. A Xinhua headline mirrored on GDACS's report page (26 October) reports the first 60 prefabricated houses for affected residents have been completed, with households beginning to move in.",
+      "description": "A magnitude 7.0 earthquake struck Baqen County, Nagqu Prefecture, in the Tibet Autonomous Region (Xizang) of China on 22 October 2026. USGS located the epicenter about 191 km ENE of Nagqu at a depth of 18 km and assessed an Orange PAGER shaking-impact alert, with roughly 10,000 people estimated exposed to MMI VII or greater shaking. GDACS has since downgraded its own alert for the event from Red to Orange, with its GDACS score easing from 2 to 1.6, while its exposed-population estimate holds at about 10,000 people. Media reports mirrored on GDACS's event page cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed; no updated casualty figures have been published and no tsunami was generated. A Xinhua headline mirrored on GDACS's report page (26 October) reports the first 60 prefabricated houses for affected residents have been completed, with households beginning to move in.",
       "event": {
         "impact": {
           "deaths": 16,
           "displaced": null,
-          "summary": "GDACS's event report (Overall Red alert, GLIDE EQ-2026-000195-CHN) mirrors media headlines citing at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed in Baqen County, Nagqu Prefecture. USGS assesses an Orange PAGER alert with about 10,000 people exposed to MMI VII or greater shaking, matching GDACS's own exposed-population estimate at that threshold. No tsunami was generated, and rescue and damage-assessment operations are ongoing; recovery has begun, with the first 60 prefabricated houses for affected residents completed as of 26 October."
+          "summary": "GDACS has downgraded its event report (GLIDE EQ-2026-000195-CHN) from an Overall Red alert to Orange, with its GDACS score easing from 2 to 1.6; its exposed-population estimate holds at about 10,000 people in zones of MMI VII or greater shaking, matching USGS's Orange PAGER alert. Media headlines mirrored on GDACS's page still cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed in Baqen County, Nagqu Prefecture; no updated casualty figures have been published. No tsunami was generated, and recovery continues, with the first 60 prefabricated houses for affected residents completed as of 26 October."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
         "location": {
@@ -1034,22 +1046,22 @@
           "region": "Baqen County, Nagqu Prefecture, Tibet Autonomous Region (Xizang)"
         },
         "occurrence_date": "2026-10-22",
-        "scale": "M7.0; GDACS Red alert; USGS PAGER Orange",
+        "scale": "M7.0; GDACS Orange alert (downgraded from Red); USGS PAGER Orange",
         "status": "ongoing"
       },
       "id": "china-earthquake-nagqu-2026",
-      "last_updated": "2026-11-01T09:16:40Z",
+      "last_updated": "2026-11-02T09:19:49Z",
       "name": "M7.0 Earthquake, Nagqu (Baqen County), Tibet, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-01T09:16:40Z",
+            "at": "2026-11-02T09:19:49Z",
             "layer": "verify",
-            "run_id": "2026-11-01T09-16-40Z-32ddd9"
+            "run_id": "2026-11-02T09-19-49Z-2eaf4b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-16-40Z-32ddd9"
+        "last_run_id": "2026-11-02T09-19-49Z-2eaf4b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1059,13 +1071,17 @@
       },
       "updates": [
         {
+          "date": "2026-11-02",
+          "text": "GDACS downgraded its alert for the Nagqu earthquake from Red to Orange, with its GDACS score easing from 2 to 1.6; the exposed-population estimate in MMI VII+ zones holds at about 10,000 people, and no updated casualty figures have been published beyond the standing count of at least 16 deaths."
+        },
+        {
           "date": "2026-10-26",
           "text": "Recovery has begun in the quake area: a Xinhua headline mirrored on GDACS's report page reports the first 60 prefabricated houses for affected residents have been completed, with households beginning to move in. No updated casualty figures have been published."
         }
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1367,6 +1383,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-32",
+          "retrieved_date": "2026-11-02",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
+          "text": "GDACS's flood event report for China (event id 1104081, GLIDE FL-2026-000148-CHN) remains at episode 20, reporting window 31 July-27 September 2026, with the death toll still at 6 and displaced population still at 400,850; no new episode has been published in over five weeks, and the event remains at Orange alert.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-08-16",
           "source_name": "GDACS",
@@ -1416,19 +1440,19 @@
         },
         {
           "id": "claim-new-sept27",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
           "text": "GDACS's flood event report for China (episode 20, reporting window 31 July - 27 September 2026) records the confirmed death toll unchanged at 6, with 400,850 people displaced, up from 399,045 as of the prior episode; heavy rain caused flooding in areas of Chongqing Municipality in late September 2026, and the event remains at Orange alert. Re-checked 1 November 2026: still the latest published episode (episode 20), with no newer episode and figures unchanged.",
           "verification_status": "verified"
         }
       ],
-      "description": "Flooding tied initially to Typhoon Dolphin, and continuing under successive rounds of renewed rain from Typhoon Saudel, a South China Sea tropical depression and new rainfall in Sichuan Province, has affected provinces and municipalities across central, southern and eastern China since 31 July 2026. GDACS's current flood report (episode 20, reporting window 31 Jul - 27 Sep 2026) records 400,850 people displaced, unchanged from its prior read, while the confirmed death toll remains at 6, after heavy rain triggered flooding and debris flows in Sichuan Province beginning 19 September 2026 and later in Chongqing Municipality. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert.",
+      "description": "Flooding tied to Typhoon Dolphin and later storms affected provinces across central, southern and eastern China from 31 July 2026. GDACS's flood report (event FL-2026-000148-CHN) holds at episode 20, recording 400,850 people displaced and 6 confirmed deaths, a tally unchanged since 27 September 2026 with no further episode published since. GDACS's event-data API recorded 134 people rescued and 151 buildings damaged or destroyed over the course of the event, which spanned Shaanxi, Hubei, Hunan, Jiangxi, Yunnan, Hainan, Sichuan, Chongqing and Taiwan. The event remains at Orange alert but with no active new flooding reported for over a month, consistent with the end of China's wet season.",
       "event": {
         "impact": {
           "deaths": 6,
           "displaced": 400850,
-          "summary": "GDACS's current flood report (episode 20, reporting window 31 Jul - 27 Sep 2026) holds the confirmed death toll at 6 and displaced population at 400,850, both unchanged since the prior episode. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, spanning provinces from Shaanxi and Hubei to Hunan, Jiangxi, Yunnan, Hainan, Sichuan, Chongqing and Taiwan, with no new episode published since 27 September 2026."
+          "summary": "GDACS's flood report for China (event FL-2026-000148-CHN) holds the confirmed death toll at 6 and displaced population at 400,850, both unchanged since episode 20 (reporting window ending 27 September 2026); no further episode has been published since. GDACS's event-data API recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, spanning provinces from Shaanxi and Hubei to Hunan, Jiangxi, Yunnan, Hainan, Sichuan, Chongqing and Taiwan."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
         "location": {
@@ -1438,11 +1462,11 @@
           "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Jiangxi and Hainan provinces/municipalities (Yangtze basin, eastern seaboard and South China Sea coast)"
         },
         "occurrence_date": "2026-07-31",
-        "scale": "GDACS Orange alert; 400,850 displaced across multiple provinces; 6 deaths (as of 27 September 2026)",
-        "status": "ongoing"
+        "scale": "GDACS Orange alert; 400,850 displaced across multiple provinces; 6 deaths; no new episode since 27 September 2026",
+        "status": "contained"
       },
       "id": "china-floods-yangtze-typhoon-dolphin-2026",
-      "last_updated": "2026-11-01T09:16:41Z",
+      "last_updated": "2026-11-02T09:18:09Z",
       "name": "Typhoon Dolphin Flooding, Central China",
       "provenance": {
         "history": [
@@ -1450,10 +1474,15 @@
             "at": "2026-11-01T09:16:41Z",
             "layer": "verify",
             "run_id": "2026-11-01T09-16-41Z-4c6eb2"
+          },
+          {
+            "at": "2026-11-02T09:18:09Z",
+            "layer": "verify",
+            "run_id": "2026-11-02T09-18-09Z-549b74"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-16-41Z-4c6eb2"
+        "last_run_id": "2026-11-02T09-18-09Z-549b74"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1462,6 +1491,10 @@
         "recency_rank": 739828
       },
       "updates": [
+        {
+          "date": "2026-11-02",
+          "text": "No new GDACS episode has been published since 27 September (episode 20); with over five weeks of stable figures (6 deaths, 400,850 displaced) and no new flooding reported, the event moves from ongoing to contained."
+        },
         {
           "date": "2026-09-29",
           "text": "GDACS's latest window (through 27 September) held the death toll at 6 while displacement rose to 400,850 (from 399,045), with new flooding reported in Chongqing Municipality."
@@ -1521,7 +1554,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1554,7 +1587,7 @@
         },
         {
           "id": "claim-12",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1557236, episode 1724218) remains an Overall Red alert with a GDACS score of 2.2, now estimating about 5.4 million people within zones of MMI VII or greater shaking, up from about 5.2 million previously recorded on the same page; the most recent listed activity is UNITAR-UNOSAT's 'Potentially Damaged Buildings' assessment, activated 21 August 2026 10:25 UTC.",
@@ -1700,18 +1733,18 @@
         "status": "ongoing"
       },
       "id": "colombia-earthquake-choco-2026",
-      "last_updated": "2026-11-01T09:10:34Z",
+      "last_updated": "2026-11-02T09:19:49Z",
       "name": "M7.4 Earthquake, Chocó, Colombia",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-01T09:10:34Z",
+            "at": "2026-11-02T09:19:49Z",
             "layer": "verify",
-            "run_id": "2026-11-01T09-10-34Z-0e9188"
+            "run_id": "2026-11-02T09-19-49Z-4606fa"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-10-34Z-0e9188"
+        "last_run_id": "2026-11-02T09-19-49Z-4606fa"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1796,7 +1829,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "GDACS",
           "source_url": "http://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC",
           "text": "GDACS's tropical cyclone report for ARNAB-26 (event id 1001345, episode 10, tracking window 26 October 2026 00:00 UTC to 28 October 2026 06:00 UTC) rates the storm an Overall Red alert (GDACS score 2.5 from JTWC/HWRF), with a JTWC-sourced peak wind of 222 km/h (Category 4; HWRF estimates 223 km/h) and about 4 million people in India exposed to Category 1 or higher winds. Vulnerability for India is rated high. HWRF separately projects a storm surge up to 1.6m and rainfall up to 981mm; the report gives no casualty figures.",
@@ -1825,14 +1858,22 @@
           "source_url": "https://www.usnews.com/news/world/articles/2026-10-27/india-evacuates-over-180-000-as-cyclone-arnab-hits-coast",
           "text": "U.S. News / Associated Press (27 October 2026), 'India Evacuates Over 180,000 as Cyclone Arnab Hits Coast': Indian authorities evacuated more than 180,000 people from Andhra Pradesh and Odisha ahead of the cyclone's arrival, suspending operations at three Andhra Pradesh airports and cancelling train and flight services in the storm's path.",
           "verification_status": "unverified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-11-02",
+          "source_name": "GDACS",
+          "source_url": "http://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC",
+          "text": "GDACS's tropical cyclone report for ARNAB-26 (event id 1001345) remains at episode 10, its final tracking window (26-28 October 2026); no further episode has been issued, consistent with the storm's dissipation after moving inland over Andhra Pradesh and weakening. The report still carries no casualty figures.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Cyclone Arnab intensified into a Category 4-equivalent storm (222 km/h) in the Bay of Bengal and made landfall on India's Andhra Pradesh coast, between Bapatla and Visakhapatnam near Yanam, on 28 October 2026. GDACS issued an Overall Red alert, estimating about 4 million people exposed to Category 1 or higher winds, with HWRF projecting storm surge up to 1.6 m and rainfall up to 981 mm. India's National Crisis Management Committee coordinated evacuations ahead of landfall, and news agencies reported more than 100,000 people moved to shelters across Andhra Pradesh and Odisha. GDACS's own report carries no casualty figures; media reports (not yet corroborated by an official Indian government report) cited a rising toll reaching at least seven deaths from falling trees, electrocution and wall collapses, chiefly in Andhra Pradesh, as the storm weakened and spread heavy rain toward West Bengal and Nepal.",
+      "description": "Cyclone Arnab intensified into a Category 4-equivalent storm (222 km/h) in the Bay of Bengal and made landfall on India's Andhra Pradesh coast, between Bapatla and Visakhapatnam near Yanam, on 28 October 2026. GDACS issued an Overall Red alert, estimating about 4 million people exposed to Category 1 or higher winds, with HWRF projecting storm surge up to 1.6 m and rainfall up to 981 mm. The storm weakened rapidly after landfall and dissipated over land; GDACS's tracking ended at episode 10, with no casualty figures of its own. News agencies (not corroborated by an official Indian government report) reported a death toll reaching at least seven, chiefly in Andhra Pradesh from falling trees, electrocution and wall collapses, and more than 100,000 people evacuated across Andhra Pradesh and Odisha ahead of landfall; evacuees have since returned as the storm emergency has passed.",
       "event": {
         "impact": {
           "deaths": 7,
           "displaced": null,
-          "summary": "GDACS's tropical cyclone report for ARNAB-26 (event id 1001345, episode 10, tracking window 26-28 October 2026) rates the storm an Overall Red alert with a JTWC-sourced peak intensity of 222 km/h (Category 4) and about 4 million people exposed to Category 1 or higher winds in India; HWRF separately projects a 1.6m storm surge and up to 981mm of rainfall. GDACS's own report carries no casualty figures. News agencies (not yet corroborated by an official Indian government report) reported a death toll rising to at least seven -- from falling trees, electrocution and wall collapses, chiefly in Andhra Pradesh -- and more than 100,000 people evacuated across Andhra Pradesh and Odisha ahead of landfall."
+          "summary": "GDACS's tropical cyclone report for ARNAB-26 (event id 1001345) ended tracking at episode 10, rating the storm's peak an Overall Red alert with a JTWC-sourced intensity of 222 km/h (Category 4) and about 4 million people exposed to Category 1 or higher winds in India; HWRF had projected a 1.6m storm surge and up to 981mm of rainfall. GDACS's own report carries no casualty figures. News agencies (not corroborated by an official Indian government report) reported a death toll reaching at least seven -- from falling trees, electrocution and wall collapses, chiefly in Andhra Pradesh -- and more than 100,000 people evacuated across Andhra Pradesh and Odisha ahead of landfall."
         },
         "live_source_url": "http://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC",
         "location": {
@@ -1842,11 +1883,11 @@
           "region": "Andhra Pradesh coast (Bapatla to Visakhapatnam, near Yanam); heavy rain also in Odisha, West Bengal and Nepal"
         },
         "occurrence_date": "2026-10-26",
-        "scale": "Category 4 (222 km/h, JTWC); GDACS Red alert; IMD Very Severe Cyclonic Storm at landfall",
-        "status": "ongoing"
+        "scale": "Category 4 (222 km/h, JTWC) at peak; GDACS Red alert; IMD Very Severe Cyclonic Storm at landfall; dissipated inland",
+        "status": "resolved"
       },
       "id": "cyclone-arnab-india-2026",
-      "last_updated": "2026-11-01T09:09:45Z",
+      "last_updated": "2026-11-02T09:18:09Z",
       "name": "Cyclone Arnab — Andhra Pradesh, India",
       "provenance": {
         "history": [
@@ -1854,10 +1895,15 @@
             "at": "2026-11-01T09:09:45Z",
             "layer": "verify",
             "run_id": "2026-11-01T09-09-45Z-bb8ca3"
+          },
+          {
+            "at": "2026-11-02T09:18:09Z",
+            "layer": "verify",
+            "run_id": "2026-11-02T09-18-09Z-dcb042"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-09-45Z-bb8ca3"
+        "last_run_id": "2026-11-02T09-18-09Z-dcb042"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1865,9 +1911,15 @@
         "impact_rank": 1,
         "recency_rank": 739915
       },
+      "updates": [
+        {
+          "date": "2026-11-02",
+          "text": "The cyclone dissipated after moving inland over Andhra Pradesh; GDACS's tracking ended at episode 10 with no further episode issued. The event moves from ongoing to resolved as the storm emergency has passed and evacuees have returned."
+        }
+      ],
       "verification": {
         "confidence": "medium",
-        "notes": "gate: 1 verified, 0 disputed, 3 unverified -> partial",
+        "notes": "gate: 2 verified, 0 disputed, 3 unverified -> partial",
         "status": "partial"
       }
     },
@@ -4214,10 +4266,18 @@
         },
         {
           "id": "claim-31",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1104121&eventtype=FL&episodeid=22",
           "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, episode 22, reporting window 9 August-7 October 2026) now records 136 deaths, up from 135 at the prior episode, with 457,351 displaced (unchanged), still at Orange alert.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-32",
+          "retrieved_date": "2026-11-02",
+          "source_name": "GDACS",
+          "source_url": "https://gdacs.org/report.aspx?eventid=1104121&eventtype=FL",
+          "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND) remains at episode 22, reporting window 9 August-7 October 2026, with 136 deaths and 457,351 displaced, unchanged from the prior episode; no further episode has been published in nearly four weeks, and the event remains at Orange alert.",
           "verification_status": "verified"
         },
         {
@@ -4277,12 +4337,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Heavy monsoon rains since mid-July 2026 have caused deadly flooding and landslides across India, with flooding spreading into new states through late September 2026 and continuing river overflow in Bihar into early October. GDACS's structured national toll (window 9 August-7 October 2026, episode 22) now stands at 136 deaths and 457,351 displaced, up from 135 deaths at the prior episode, after Uttar Pradesh's Relief Commissioner reported 81 storm-related fatalities and 2,254 damaged buildings as of 28 September. Earlier in the emergency, Odisha was among the worst-hit with 8.64 lakh people affected across 22 districts, Kerala counted 26 dead and 4 missing, and IFRC recorded 74 flood-related deaths in Assam. This GDACS-tracked figure continues to exceed and supersede the earlier Sphere India-sourced national aggregate of 109 deaths and 347,155 displaced, based on an 8 August situation report that did not reflect the Uttarakhand, Gujarat, Kerala, Uttar Pradesh or Bihar flooding tracked since.",
+      "description": "Heavy monsoon rains caused deadly flooding and landslides across India from mid-July through early October 2026, spreading through Assam, Odisha, Gujarat, Kerala, Maharashtra, Uttarakhand, Bihar and Uttar Pradesh before easing with the monsoon's withdrawal. GDACS's structured national toll (window 9 August-7 October 2026, episode 22) stands at 136 deaths and 457,351 displaced, unchanged for nearly four weeks with no new episode published since. Earlier in the emergency, Odisha was among the worst-hit with 8.64 lakh people affected across 22 districts, Kerala counted 26 dead and 4 missing, and IFRC recorded 74 flood-related deaths in Assam. This GDACS-tracked figure continues to exceed and supersede the earlier Sphere India-sourced national aggregate of 109 deaths and 347,155 displaced, based on an 8 August situation report that did not reflect the later flooding.",
       "event": {
         "impact": {
           "deaths": 136,
           "displaced": 457351,
-          "summary": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, window 9 August-7 October 2026, episode 22, Orange alert) now carries a structured national toll of 136 deaths and 457,351 displaced, up from 135 deaths at the prior episode; the event's narrative notes heavy rain continuing to cause river overflow in Bihar State into early October. This GDACS-tracked figure continues to exceed and supersede this record's earlier Sphere India-sourced national aggregate (109 deaths, 347,155 displaced, based on an 8 August situation report), which did not yet reflect the Uttarakhand, Gujarat, Kerala, Uttar Pradesh or Bihar flooding tracked separately by GDACS since early September."
+          "summary": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, window 9 August-7 October 2026, episode 22, Orange alert) holds a structured national toll of 136 deaths and 457,351 displaced, unchanged for nearly four weeks with no new episode published since 7 October, consistent with the monsoon's withdrawal from the tracked states. This GDACS-tracked figure continues to exceed and supersede this record's earlier Sphere India-sourced national aggregate (109 deaths, 347,155 displaced, based on an 8 August situation report)."
         },
         "live_source_url": "https://reliefweb.int/country/ind",
         "location": {
@@ -4292,11 +4352,11 @@
           "region": "Assam, Odisha, Gujarat, Kerala, Maharashtra, and Uttarakhand, Bihar and Uttar Pradesh (multi-state monsoon emergency)"
         },
         "occurrence_date": "2026-07-16",
-        "scale": "Multi-state monsoon flooding & landslides; GDACS Orange alert",
-        "status": "ongoing"
+        "scale": "Multi-state monsoon flooding & landslides; GDACS Orange alert; no new episode since 7 October 2026",
+        "status": "contained"
       },
       "id": "india-monsoon-floods-2026",
-      "last_updated": "2026-11-01T09:09:45Z",
+      "last_updated": "2026-11-02T09:18:10Z",
       "name": "Multi-State Monsoon Floods & Landslides — India",
       "provenance": {
         "history": [
@@ -4304,10 +4364,15 @@
             "at": "2026-11-01T09:09:45Z",
             "layer": "verify",
             "run_id": "2026-11-01T09-09-45Z-a00ea1"
+          },
+          {
+            "at": "2026-11-02T09:18:10Z",
+            "layer": "verify",
+            "run_id": "2026-11-02T09-18-10Z-2664f7"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-09-45Z-a00ea1"
+        "last_run_id": "2026-11-02T09-18-10Z-2664f7"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4316,6 +4381,10 @@
         "recency_rank": 739813
       },
       "updates": [
+        {
+          "date": "2026-11-02",
+          "text": "No new GDACS episode has been published since 7 October (episode 22); with the structured national toll stable at 136 deaths and 457,351 displaced for nearly four weeks, consistent with the monsoon's withdrawal, the event moves from ongoing to contained."
+        },
         {
           "date": "2026-10-11",
           "text": "GDACS's structured national toll rose to 136 deaths (from 135), with displaced unchanged at 457,351, per episode 22 (window extended to 7 October)."
@@ -4387,7 +4456,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 28 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 29 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -4546,7 +4615,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1000148&episodeid=2&eventtype=VO",
           "text": "GDACS's report for this event (event ID VO 1000148) rates the Krakatau eruption an Orange alert, \"unlikely to require external humanitarian assistance based on the exposed population and coping capacity,\" with about 2,000 people within 30km and no people affected within 100km; it records a Volcanic Explosivity Index of 6 for the episode, running from 04 Sep 2026 21:00 UTC to 05 Sep 2026 14:30 UTC. Re-checked 1 November 2026: the report page is unchanged, still showing episode 2 as the latest and no updated exposure or casualty figures; geologi.esdm.go.id could not be reached to confirm the press-reported Level III status.",
@@ -4604,18 +4673,18 @@
         "status": "ongoing"
       },
       "id": "indonesia-volcano-krakatau-2026",
-      "last_updated": "2026-11-01T09:16:41Z",
+      "last_updated": "2026-11-02T09:19:50Z",
       "name": "Volcanic Eruption — Krakatau, Indonesia",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-01T09:16:41Z",
+            "at": "2026-11-02T09:19:50Z",
             "layer": "verify",
-            "run_id": "2026-11-01T09-16-41Z-942fd6"
+            "run_id": "2026-11-02T09-19-50Z-ee551d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-16-41Z-942fd6"
+        "last_run_id": "2026-11-02T09-19-50Z-ee551d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5494,7 +5563,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "Japan Meteorological Agency (JMA)",
           "source_url": "https://www.data.jma.go.jp/vois/data/report/activity_info/108.html",
           "text": "JMA's volcanic warning for Tokachidake issued 16 October 2026, 10:00 JST (Sapporo Regional Meteorological Observatory), lowers the alert from Level 3 (entry restriction) to Level 2 (crater-vicinity restriction), judging that the likelihood of an eruption affecting the area within about 3km of crater 62-2 has dropped; the Level 2 warning now covers eruptions affecting roughly 1.5km of the crater, with entry restrictions remaining in Biei, Kamifurano and Shintoku (Furano and Minami-Furano no longer require special precaution). The bulletin notes large-amplitude volcanic earthquakes have not recurred since 13 September, though high crater-area temperatures, increased volcanic gas emissions, and continuing ground deformation (inflation at a somewhat deeper level) persist. Re-checked 1 November 2026: the Sapporo Regional Meteorological Observatory's latest bulletin, issued 30 October 2026, 16:00 JST, keeps the volcano at Alert Level 2 with activity levels and the explanatory text unchanged.",
@@ -5520,18 +5589,18 @@
         "status": "ongoing"
       },
       "id": "japan-volcano-tokachidake-2026",
-      "last_updated": "2026-11-01T09:16:41Z",
+      "last_updated": "2026-11-02T09:19:50Z",
       "name": "Volcanic Unrest — Mount Tokachidake, Japan",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-01T09:16:41Z",
+            "at": "2026-11-02T09:19:50Z",
             "layer": "verify",
-            "run_id": "2026-11-01T09-16-41Z-f6dc80"
+            "run_id": "2026-11-02T09-19-50Z-a503ed"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-16-41Z-f6dc80"
+        "last_run_id": "2026-11-02T09-19-50Z-a503ed"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5843,7 +5912,7 @@
           "verification_status": "verified"
         },
         {
-          "id": "claim-16",
+          "id": "claim-13",
           "retrieved_date": "2026-08-06",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-77-effects-mw-78-earthquake-incident-maasim-sarangani-31-july-2026-6pm",
@@ -5851,7 +5920,7 @@
           "verification_status": "verified"
         },
         {
-          "id": "claim-18",
+          "id": "claim-14",
           "retrieved_date": "2026-08-14",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-78-effects-mw-78-earthquake-incident-maasim-sarangani-06-august-2026-6pm",
@@ -5859,11 +5928,43 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-15",
+          "retrieved_date": "2026-08-19",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-79-effects-mw-78-earthquake-incident-maasim-sarangani-14-august-2026-6am",
+          "text": "DSWD DROMIC Report #79 (as of 14 August 2026, 6AM): 392,506 families (1,661,828 persons) affected in 661 barangays across Regions IX, XI, XII and BARMM; 27,029 families (107,197 persons) remain displaced (7,503 families/30,642 persons in 80 evacuation centres, 19,526 families/76,555 persons staying with relatives/friends); 138,563 houses damaged (19,320 totally, 119,243 partially); PHP 1,453,887,143.87 worth of assistance provided to date. DROMIC reports do not carry casualty figures; no allowlisted source has updated the death toll beyond OCHA's earlier count.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-16",
+          "retrieved_date": "2026-09-02",
+          "source_name": "ReliefWeb",
+          "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-80-effects-mw-78-earthquake-incident-maasim-sarangani-21-august-2026-6am",
+          "text": "DSWD DROMIC Report #80 (as of 21 August 2026, 6AM): 392,506 families (1,661,828 persons) remain affected across 661 barangays, unchanged from Report #79. Total displaced eased to 26,422 families (105,558 persons) -- 7,058 families (29,033 persons) in 80 evacuation centres and 19,364 families (76,525 persons) staying with relatives or friends -- down from 27,029 families (107,197 persons) in Report #79. Houses damaged remain unchanged at 138,563 total (19,320 totally, 119,243 partially damaged). Assistance provided to date rose to PHP 1,496,461,207.87.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-17",
+          "retrieved_date": "2026-09-06",
+          "source_name": "Department of Social Welfare and Development (Philippines)",
+          "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-82-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-05-September-2026-6PM-Google-Docs.pdf",
+          "text": "DSWD DROMIC Report #82 on the Mw 7.8 Earthquake in Maasim, Sarangani (as of 5 September 2026, 6PM): 'A total of 392,939 families or 1,663,560 persons are affected in 661 barangays in Regions IX, XI, XII, and BARMM... There are 23,736 families or 94,821 persons still displaced in Regions XI, XII, and BARMM... A total of 138,563 houses were damaged; of which, 19,320 were totally damaged and 119,243 were partially damaged... A total of ₱1,554,617,857.87 worth of assistance was provided to the affected families' -- up from 392,506 families/1,661,828 persons affected and 26,422 families (105,558 persons) displaced in Report #79 (14 August).",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-18",
+          "retrieved_date": "2026-09-18",
+          "source_name": "Department of Social Welfare and Development (Philippines)",
+          "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-83-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-08-September-2026-6PM.pdf",
+          "text": "DSWD DROMIC Report #83 on the Effects of the Mw 7.8 Earthquake Incident in Maasim, Sarangani (as of 8 September 2026, 6PM) reports 395,626 families (1,674,308 persons) affected in 661 barangays across Regions IX, XI, XII and BARMM; 23,736 families (94,821 persons) remain displaced, unchanged from Report #82, and 128,604 houses have been damaged (19,320 totally, 109,284 partially), with assistance provided to date now over PHP 1.55 billion.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-19",
-          "retrieved_date": "2026-08-28",
-          "source_name": "USGS",
-          "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ti6x.geojson",
-          "text": "Re-checked 8 August 2026: DSWD DROMIC Report #78 (6 August 2026, 6PM) remains the latest in its series on ReliefWeb; the OCHA 13 July casualty snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable casualty figure. Separately, USGS recorded a new M6.3 aftershock on 5 August 2026 at 04:14 UTC, 32 km SW of Sarangani, Philippines (10 km depth, Green alert, no tsunami warning) -- part of the same aftershock sequence PHIVOLCS has been tracking since the 8 June mainshock; no allowlisted source has reported new casualties or damage from this aftershock.",
+          "retrieved_date": "2026-09-21",
+          "source_name": "Department of Social Welfare and Development (Philippines)",
+          "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-84-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-18-September-2026-6PM.pdf",
+          "text": "DSWD DROMIC Report #84 (as of 18 September 2026, 6PM) reports 395,626 families (1,674,308 persons) affected in 661 barangays across Regions IX, XI, XII and BARMM, unchanged from Report #83; 23,736 families (94,821 persons) remain displaced and 128,604 houses remain damaged (19,320 totally, 109,284 partially), both also unchanged from Report #83. Assistance provided to date rose to ₱1,658,236,877.87. DSWD's DROMIC template still carries no casualty section; OCHA's 13 July 2026 snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable casualty figure.",
           "verification_status": "verified"
         },
         {
@@ -5884,7 +5985,7 @@
         },
         {
           "id": "claim-21",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1544720&eventtype=EQ",
           "text": "Re-checked 1 November 2026: reliefweb.int, this record's live_source_url and the source of the DSWD DROMIC series and OCHA casualty snapshot, again returned HTTP 403 Forbidden, and dromic.dswd.gov.ph returned HTTP 503, both unreachable across multiple attempts today. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Orange alert (\"medium humanitarian impact\"), still showing modeled population exposure of about 4.4 million people at MMI≥VII and a maximum observed tsunami wave of 0.83 m, unchanged from the prior read -- GDACS's own automated impact-model figures, distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
@@ -5892,42 +5993,18 @@
         },
         {
           "id": "claim-25",
-          "retrieved_date": "2026-08-19",
-          "source_name": "ReliefWeb",
-          "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-79-effects-mw-78-earthquake-incident-maasim-sarangani-14-august-2026-6am",
-          "text": "DSWD DROMIC Report #79 (as of 14 August 2026, 6AM): 392,506 families (1,661,828 persons) affected in 661 barangays across Regions IX, XI, XII and BARMM; 27,029 families (107,197 persons) remain displaced (7,503 families/30,642 persons in 80 evacuation centres, 19,526 families/76,555 persons staying with relatives/friends); 138,563 houses damaged (19,320 totally, 119,243 partially); PHP 1,453,887,143.87 worth of assistance provided to date. DROMIC reports do not carry casualty figures; no allowlisted source has updated the death toll beyond OCHA's earlier count.",
+          "retrieved_date": "2026-09-29",
+          "source_name": "Department of Social Welfare and Development (Philippines)",
+          "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-85-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-22-September-2026-6AM.pdf",
+          "text": "DSWD DROMIC Report #85 (as of 22 September 2026, 6AM) reports 395,626 families (1,674,308 persons) affected in 661 barangays across Regions IX, XI, XII and BARMM, unchanged from Report #84; displacement eased to 23,125 families (92,407 persons), down from 23,736 families (94,821 persons); 128,604 houses remain damaged (19,320 totally, 109,284 partially), also unchanged. Assistance provided to date rose to ₱1,728,725,552.87. DROMIC still carries no casualty section; OCHA's 13 July 2026 snapshot (94 deaths, 1,316 injured, 18 missing) remains the standing official casualty count.",
           "verification_status": "verified"
         },
         {
           "id": "claim-26",
-          "retrieved_date": "2026-09-02",
-          "source_name": "ReliefWeb",
-          "source_url": "https://reliefweb.int/report/philippines/dswd-dromic-report-80-effects-mw-78-earthquake-incident-maasim-sarangani-21-august-2026-6am",
-          "text": "DSWD DROMIC Report #80 (as of 21 August 2026, 6AM): 392,506 families (1,661,828 persons) remain affected across 661 barangays, unchanged from Report #79. Total displaced eased to 26,422 families (105,558 persons) -- 7,058 families (29,033 persons) in 80 evacuation centres and 19,364 families (76,525 persons) staying with relatives or friends -- down from 27,029 families (107,197 persons) in Report #79. Houses damaged remain unchanged at 138,563 total (19,320 totally, 119,243 partially damaged). Assistance provided to date rose to PHP 1,496,461,207.87.",
-          "verification_status": "verified"
-        },
-        {
-          "id": "claim-27",
-          "retrieved_date": "2026-09-06",
+          "retrieved_date": "2026-10-31",
           "source_name": "Department of Social Welfare and Development (Philippines)",
-          "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-82-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-05-September-2026-6PM-Google-Docs.pdf",
-          "text": "DSWD DROMIC Report #82 on the Mw 7.8 Earthquake in Maasim, Sarangani (as of 5 September 2026, 6PM): 'A total of 392,939 families or 1,663,560 persons are affected in 661 barangays in Regions IX, XI, XII, and BARMM... There are 23,736 families or 94,821 persons still displaced in Regions XI, XII, and BARMM... A total of 138,563 houses were damaged; of which, 19,320 were totally damaged and 119,243 were partially damaged... A total of ₱1,554,617,857.87 worth of assistance was provided to the affected families' -- up from 392,506 families/1,661,828 persons affected and 26,422 families (105,558 persons) displaced in Report #79 (14 August).",
-          "verification_status": "verified"
-        },
-        {
-          "id": "claim-28",
-          "retrieved_date": "2026-09-18",
-          "source_name": "Department of Social Welfare and Development (Philippines)",
-          "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-83-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-08-September-2026-6PM.pdf",
-          "text": "DSWD DROMIC Report #83 on the Effects of the Mw 7.8 Earthquake Incident in Maasim, Sarangani (as of 8 September 2026, 6PM) reports 395,626 families (1,674,308 persons) affected in 661 barangays across Regions IX, XI, XII and BARMM; 23,736 families (94,821 persons) remain displaced, unchanged from Report #82, and 128,604 houses have been damaged (19,320 totally, 109,284 partially), with assistance provided to date now over PHP 1.55 billion.",
-          "verification_status": "verified"
-        },
-        {
-          "id": "claim-29",
-          "retrieved_date": "2026-09-21",
-          "source_name": "Department of Social Welfare and Development (Philippines)",
-          "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-84-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-18-September-2026-6PM.pdf",
-          "text": "DSWD DROMIC Report #84 (as of 18 September 2026, 6PM) reports 395,626 families (1,674,308 persons) affected in 661 barangays across Regions IX, XI, XII and BARMM, unchanged from Report #83; 23,736 families (94,821 persons) remain displaced and 128,604 houses remain damaged (19,320 totally, 109,284 partially), both also unchanged from Report #83. Assistance provided to date rose to ₱1,658,236,877.87. DSWD's DROMIC template still carries no casualty section; OCHA's 13 July 2026 snapshot (94 deaths, 1,316 injured, 18 missing) remains the freshest citable casualty figure.",
+          "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-86-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-29-September-2026-6PM.pdf",
+          "text": "DSWD DROMIC Report #86 (as of 29 September 2026, 6PM) reports a total of 396,163 families (1,674,308 persons) affected in 661 barangays in Regions IX, XI, XII and BARMM, up from 395,626 families in Report #85. There are 5,966 families (22,626 persons) inside 66 evacuation centers and 17,159 families (69,781 persons) staying with relatives or friends; total displaced stands at 23,125 families (92,407 persons), unchanged from Report #85. A total of 129,137 houses were damaged, of which 19,853 were totally damaged (up from 19,320) and 109,284 partially damaged (unchanged). A total of ₱1,728,725,552.87 worth of assistance was provided to the affected families, of which ₱1,728,225,552.87 from DSWD and ₱500,000.00 from the LGUs -- unchanged from Report #85.",
           "verification_status": "verified"
         },
         {
@@ -5936,22 +6013,6 @@
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/disaster/eq-2026-000083-phl",
           "text": "By 23 June, government figures reported 77 deaths, with about 1.6 million people affected across Regions IX, XI, XII, and BARMM. PHIVOLCS recorded more than 9,400 aftershocks and further seismic activity expected. More than 80,000 houses have been damaged, including nearly 15,000 destroyed, with 884 damaged infrastructure losses and 130 affected roads and 47 bridges limiting access to isolated communities. Eighteen local government units (LGUs) have declared a state of calamity.",
-          "verification_status": "verified"
-        },
-        {
-          "id": "claim-30",
-          "retrieved_date": "2026-09-29",
-          "source_name": "Department of Social Welfare and Development (Philippines)",
-          "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-85-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-22-September-2026-6AM.pdf",
-          "text": "DSWD DROMIC Report #85 (as of 22 September 2026, 6AM) reports 395,626 families (1,674,308 persons) affected in 661 barangays across Regions IX, XI, XII and BARMM, unchanged from Report #84; displacement eased to 23,125 families (92,407 persons), down from 23,736 families (94,821 persons); 128,604 houses remain damaged (19,320 totally, 109,284 partially), also unchanged. Assistance provided to date rose to ₱1,728,725,552.87. DROMIC still carries no casualty section; OCHA's 13 July 2026 snapshot (94 deaths, 1,316 injured, 18 missing) remains the standing official casualty count.",
-          "verification_status": "verified"
-        },
-        {
-          "id": "claim-31",
-          "retrieved_date": "2026-10-31",
-          "source_name": "Department of Social Welfare and Development (Philippines)",
-          "source_url": "https://dromic.dswd.gov.ph/wp-content/uploads/2026/09/DSWD-DROMIC-Report-86-on-the-Effects-of-Mw-7.8-Earthquake-Incident-in-Maasim-Sarangani-as-of-29-September-2026-6PM.pdf",
-          "text": "DSWD DROMIC Report #86 (as of 29 September 2026, 6PM) reports a total of 396,163 families (1,674,308 persons) affected in 661 barangays in Regions IX, XI, XII and BARMM, up from 395,626 families in Report #85. There are 5,966 families (22,626 persons) inside 66 evacuation centers and 17,159 families (69,781 persons) staying with relatives or friends; total displaced stands at 23,125 families (92,407 persons), unchanged from Report #85. A total of 129,137 houses were damaged, of which 19,853 were totally damaged (up from 19,320) and 109,284 partially damaged (unchanged). A total of ₱1,728,725,552.87 worth of assistance was provided to the affected families, of which ₱1,728,225,552.87 from DSWD and ₱500,000.00 from the LGUs -- unchanged from Report #85.",
           "verification_status": "verified"
         },
         {
@@ -6022,18 +6083,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-11-01T09:16:41Z",
+      "last_updated": "2026-11-02T09:19:50Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-01T09:16:41Z",
+            "at": "2026-11-02T09:19:50Z",
             "layer": "verify",
-            "run_id": "2026-11-01T09-16-41Z-587b61"
+            "run_id": "2026-11-02T09-19-50Z-131b14"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-16-41Z-587b61"
+        "last_run_id": "2026-11-02T09-19-50Z-131b14"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6085,7 +6146,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 24 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -6166,10 +6227,18 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "United Nations",
           "source_url": "https://nepal.un.org/sites/default/files/2026-10/Nepal%20Rasuwa-Bhotekoshi%20Flood%20Situation%20Report%20No.10_20260929.pdf",
           "text": "The Office of the UN Resident Coordinator in Nepal, with OCHA, 'Nepal Rasuwa-Bhotekoshi Flood Situation Report No. 10' (as of 29 September 2026, covering 22-29 September): 'The floods have claimed 1,453 lives; 5,285 people remain missing and 13,795 have been rescued (NDRRMA, 26 September, 19:00). 1,109 people remain in 21 displacement centres' in Rasuwa, Nuwakot, and Dhading -- missing persons down from 5,644 in Report No. 9, displacement essentially unchanged from 1,112. The report records the US$49.6 million Flash Appeal (through 31 December 2026) at US$22.3 million funded (FTS, as of 29 September), up from US$22.0 million; 84.3K people targeted across 17 affected municipalities; and 88,125 people reached by assistance as of 29 September, up from 64,263 in Report No. 9.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-19",
+          "retrieved_date": "2026-11-02",
+          "source_name": "Ministry of Foreign Affairs (Nepal)",
+          "source_url": "https://mofa.gov.np/",
+          "text": "Nepal's Ministry of Foreign Affairs website lists no Bhote Koshi flood daily update or press briefing newer than its 11 September 2026 regular press briefing (1,385 deaths recovered); the UN Resident Coordinator's Office/OCHA Rasuwa-Bhotekoshi Flood Situation Report No. 10 (29 September 2026, 1,453 deaths, 5,285 missing) remains the latest confirmed figure found.",
           "verification_status": "verified"
         },
         {
@@ -6237,12 +6306,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A catastrophic glacial-lake outburst flood struck the Bhote Koshi River in Rasuwa and Nuwakot districts, Nepal, and Gyirong County, Tibet, on 26 August 2026, becoming Nepal's deadliest disaster since the 2015 earthquake. The UN Resident Coordinator's Office in Nepal, with OCHA, puts the confirmed toll in its Rasuwa-Bhotekoshi Flood Situation Report No. 10 (as of 29 September) at 1,453 deaths and 5,285 people still missing, per Nepal's NDRRMA, with 13,795 rescued and 1,109 people remaining in 21 displacement centres. Nepal's government has separately estimated total disaster damage at about USD 1.8 billion and reconstruction needs at about USD 4.78 billion. The UN's $49.6 million flash appeal was about 45% funded (US$22.3 million) as of 29 September, with 88,125 people reached by assistance across the 17 affected municipalities as search, rescue and recovery operations continue.",
+      "description": "A catastrophic glacial-lake outburst flood struck the Bhote Koshi River in Rasuwa and Nuwakot districts, Nepal, and Gyirong County, Tibet, China, on 26 August 2026, becoming Nepal's deadliest disaster since the 2015 earthquake. The UN Resident Coordinator's Office in Nepal, with OCHA, puts the confirmed toll in its Rasuwa-Bhotekoshi Flood Situation Report No. 10 (as of 29 September) at 1,453 deaths and 5,285 people still missing, per Nepal's NDRRMA, with 13,795 rescued and 1,109 people remaining in 21 displacement centres; no newer situation report or ministry update has since been published, indicating the search-and-rescue phase has concluded. Nepal's government has separately estimated total disaster damage at about USD 1.8 billion and reconstruction needs at about USD 4.78 billion. The UN's $49.6 million flash appeal was about 45% funded as of 29 September, with recovery and reconstruction work continuing across the 17 affected municipalities.",
       "event": {
         "impact": {
           "deaths": 1453,
           "displaced": null,
-          "summary": "UN OCHA's Rasuwa-Bhotekoshi Flood Situation Report No. 10 (UN Resident Coordinator's Office in Nepal, as of 29 September 2026) puts the confirmed toll at 1,453 deaths and 5,285 people still missing, per Nepal's NDRRMA (26 September, 19:00), with 13,795 people rescued and 1,109 remaining in 21 displacement centres across Rasuwa, Nuwakot and Dhading -- missing persons down from 5,644 in Report No. 9. Nepal's Ministry of Foreign Affairs had reported 1,385 deaths and reconstruction needs of about USD 4.78 billion (total damage about USD 1.8 billion) at its 11 September press briefing, the most recent such estimate. China's Tibet Autonomous Region separately stood at 43 confirmed deaths and 519 missing as of UN News's 15 September report. The UN's $49.6 million flash appeal (through 31 December 2026) was about 45% funded (US$22.3 million) as of 29 September, with 88,125 people reached by assistance, up from 64,263 in Report No. 9; the disaster remains Nepal's deadliest since the 2015 earthquake."
+          "summary": "UN OCHA's Rasuwa-Bhotekoshi Flood Situation Report No. 10 (UN Resident Coordinator's Office in Nepal, as of 29 September 2026) remains the latest confirmed figure: 1,453 deaths and 5,285 people still missing, per Nepal's NDRRMA, with 13,795 people rescued and 1,109 remaining in 21 displacement centres across Rasuwa, Nuwakot and Dhading. Nepal's Ministry of Foreign Affairs had reported 1,385 deaths and reconstruction needs of about USD 4.78 billion (total damage about USD 1.8 billion) at its 11 September press briefing, its most recent such estimate; no newer update from either source has followed, consistent with search and rescue operations having concluded and the response moving into recovery. China's Tibet Autonomous Region separately stood at 43 confirmed deaths and 519 missing as of UN News's 15 September report. The UN's $49.6 million flash appeal (through 31 December 2026) was about 45% funded (US$22.3 million) as of 29 September; the disaster remains Nepal's deadliest since the 2015 earthquake."
         },
         "live_source_url": "https://reliefweb.int/country/npl",
         "location": {
@@ -6252,11 +6321,11 @@
           "region": "Rasuwa & Nuwakot Districts, Nepal; Gyirong County, Tibet, China"
         },
         "occurrence_date": "2026-08-26",
-        "scale": "USGS M5.2-equivalent glacial collapse/landslide (reclassified from a tectonic earthquake); GDACS Green; confirmed toll 1,453 dead (Nepal, per OCHA/NDRRMA)",
-        "status": "ongoing"
+        "scale": "USGS M5.2-equivalent glacial collapse/landslide (reclassified from a tectonic earthquake); GDACS Green; confirmed toll 1,453 dead (Nepal, per OCHA/NDRRMA); search and rescue concluded",
+        "status": "contained"
       },
       "id": "nepal-rasuwa-glacial-flood-2026",
-      "last_updated": "2026-11-01T09:09:45Z",
+      "last_updated": "2026-11-02T09:18:10Z",
       "name": "Glacial Collapse Flash Flood — Rasuwa, Nepal & Tibet, China",
       "provenance": {
         "history": [
@@ -6264,10 +6333,15 @@
             "at": "2026-11-01T09:09:45Z",
             "layer": "verify",
             "run_id": "2026-11-01T09-09-45Z-33005b"
+          },
+          {
+            "at": "2026-11-02T09:18:10Z",
+            "layer": "verify",
+            "run_id": "2026-11-02T09-18-10Z-af6152"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-09-45Z-33005b"
+        "last_run_id": "2026-11-02T09-18-10Z-af6152"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6276,6 +6350,10 @@
         "recency_rank": 739854
       },
       "updates": [
+        {
+          "date": "2026-11-02",
+          "text": "No OCHA situation report or Nepal Ministry of Foreign Affairs update has followed Situation Report No. 10 (29 September) or the 11 September press briefing; with figures stable for over a month and search and rescue concluded, the event moves from ongoing to contained as recovery and reconstruction continue."
+        },
         {
           "date": "2026-10-18",
           "text": "UN OCHA's Situation Report No. 10 (as of 29 September) recorded missing persons easing to 5,285 (from 5,644), deaths holding at 1,453 and 13,795 rescued; displacement held near-steady at 1,109 in 21 centres; the $49.6M flash appeal reached 45% funding (US$22.3M) and people reached by assistance rose to 88,125 (from 64,263)."
@@ -6335,7 +6413,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -6611,10 +6689,18 @@
         },
         {
           "id": "claim-35",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "National Disaster Management Authority (Pakistan)",
           "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
           "text": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 29 September 2026 at 199 deaths (68 male, 40 female, 91 children) and 556 injuries (227 male, 145 female, 184 children), up from 198 deaths and 549 injuries three days earlier. Cumulative housing damage now stands at 1,839 houses affected (623 destroyed, 1,216 partially damaged), with 1,559 livestock lost and 10,684 persons rescued or evacuated across 1,192 rescue/evacuation operations; Khyber Pakhtunkhwa remains the most-affected province.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-36",
+          "retrieved_date": "2026-11-02",
+          "source_name": "National Disaster Management Authority (Pakistan)",
+          "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
+          "text": "NDMA's live Monsoon 2026 SITREP dashboard, checked 2 November 2026, puts the cumulative toll from 26 June to 30 September 2026 at 199 deaths and 556 injuries, with 1,839 houses affected (623 destroyed, 1,216 partially damaged) and 1,559 livestock lost -- unchanged from the 29 September data cut recorded over a month earlier, indicating the monsoon flood emergency has ended.",
           "verification_status": "verified"
         },
         {
@@ -6626,12 +6712,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Nationwide monsoon flooding across Pakistan since late June 2026 has killed 199 people and injured 556, per NDMA live tracking dashboard. Khyber Pakhtunkhwa and Punjab have recorded the most deaths, with cumulative housing damage continuing to rise even as the death toll has climbed only slowly through late September.",
+      "description": "Nationwide monsoon flooding across Pakistan from late June through September 2026 killed 199 people and injured 556, per NDMA's live tracking dashboard, with Khyber Pakhtunkhwa and Punjab recording the most deaths. Cumulative housing damage reached 1,839 houses affected (623 destroyed, 1,216 partially damaged) and 1,559 livestock lost. The dashboard's cumulative toll has held unchanged since 29-30 September 2026, more than a month ago, indicating Pakistan's 2026 monsoon flood emergency has ended; recovery and rebuilding continue in the hardest-hit provinces.",
       "event": {
         "impact": {
           "deaths": 199,
           "displaced": null,
-          "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 29 September 2026 at 199 deaths and 556 injuries, up from 198 deaths and 549 injuries three days earlier. Cumulative housing damage now stands at 1,839 houses affected (623 destroyed, 1,216 partially damaged), with 1,559 livestock lost. Khyber Pakhtunkhwa and Punjab remain the most-affected provinces."
+          "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 30 September 2026 at 199 deaths and 556 injuries, with 1,839 houses affected (623 destroyed, 1,216 partially damaged) and 1,559 livestock lost -- unchanged for over a month, through the dashboard's 2 November reading. Khyber Pakhtunkhwa and Punjab remain the most-affected provinces."
         },
         "live_source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
         "location": {
@@ -6641,11 +6727,11 @@
           "region": "Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh"
         },
         "occurrence_date": "2026-06-26",
-        "scale": "Nationwide monsoon flooding; NDMA-recorded 199 deaths as of 29 September 2026 (live SITREP dashboard)",
-        "status": "ongoing"
+        "scale": "Nationwide monsoon flooding; NDMA-recorded 199 deaths as of 29 September 2026 (live SITREP dashboard, unchanged through 2 November)",
+        "status": "contained"
       },
       "id": "pakistan-floods-2026",
-      "last_updated": "2026-11-01T09:09:45Z",
+      "last_updated": "2026-11-02T09:18:10Z",
       "name": "Monsoon Floods — Pakistan",
       "provenance": {
         "history": [
@@ -6653,10 +6739,15 @@
             "at": "2026-11-01T09:09:45Z",
             "layer": "verify",
             "run_id": "2026-11-01T09-09-45Z-7c260d"
+          },
+          {
+            "at": "2026-11-02T09:18:10Z",
+            "layer": "verify",
+            "run_id": "2026-11-02T09-18-10Z-2ab2cb"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-09-45Z-7c260d"
+        "last_run_id": "2026-11-02T09-18-10Z-2ab2cb"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6665,6 +6756,10 @@
         "recency_rank": 739793
       },
       "updates": [
+        {
+          "date": "2026-11-02",
+          "text": "NDMA's live dashboard has held the cumulative toll at 199 deaths and 556 injuries for over a month (since the 29-30 September data cut); with no new monsoon-related casualties or damage recorded, the event moves from ongoing to contained."
+        },
         {
           "date": "2026-09-29",
           "text": "NDMA's dashboard toll rose slightly to 199 deaths (from 198) and 556 injuries (from 549); housing damage edged up to 1,839 houses affected (1,216 partial, 623 destroyed)."
@@ -6768,7 +6863,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 27 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 28 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -6793,7 +6888,7 @@
         },
         {
           "id": "claim-11",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1570339, episode 1738684), checked 18 October 2026, now lists Exposed Population at '130 thousand (in MMI>=VII)' and a GDACS Score of 1.4 -- up from the roughly 50,000 recorded a day earlier -- while continuing to rate the event Overall Orange alert for medium humanitarian impact; the maximum observed tsunami wave height remains about 1.09 meters.",
@@ -6907,18 +7002,18 @@
         "status": "ongoing"
       },
       "id": "panama-earthquake-azuero-2026",
-      "last_updated": "2026-11-01T09:10:34Z",
+      "last_updated": "2026-11-02T09:19:49Z",
       "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-01T09:10:34Z",
+            "at": "2026-11-02T09:19:49Z",
             "layer": "verify",
-            "run_id": "2026-11-01T09-10-34Z-a9d78d"
+            "run_id": "2026-11-02T09-19-49Z-a9795d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-10-34Z-a9d78d"
+        "last_run_id": "2026-11-02T09-19-49Z-a9795d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7286,7 +7381,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
           "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km. Re-checked 1 November 2026: the report page is unchanged, with no new episode and no casualty or displacement figures added; dromic.dswd.gov.ph returned HTTP 503 on repeated attempts and could not be checked for a newer DROMIC report on this eruption.",
@@ -7328,18 +7423,18 @@
         "status": "ongoing"
       },
       "id": "philippines-kanlaon-volcano-eruption-2026",
-      "last_updated": "2026-11-01T09:16:41Z",
+      "last_updated": "2026-11-02T09:19:50Z",
       "name": "Kanlaon Volcano Eruption, Negros Island, Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-01T09:16:41Z",
+            "at": "2026-11-02T09:19:50Z",
             "layer": "verify",
-            "run_id": "2026-11-01T09-16-41Z-bcd283"
+            "run_id": "2026-11-02T09-19-50Z-c8b00f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-16-41Z-bcd283"
+        "last_run_id": "2026-11-02T09-19-50Z-c8b00f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8743,6 +8838,14 @@
           "verification_status": "unverified"
         },
         {
+          "id": "claim-13",
+          "retrieved_date": "2026-11-02",
+          "source_name": "GDACS",
+          "source_url": "https://gdacs.org/report.aspx?eventtype=FL&eventid=1104122",
+          "text": "GDACS's flood event report for Thailand (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA) remains at its latest episode, reporting window 18 August-1 October 2026, recording 'Death: 6' and 'Displaced: 627', unchanged since early October; overall alert level remains Green (low humanitarian impact), with no newer episode published in over four weeks.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-09-26",
           "source_name": "Al Jazeera",
@@ -8792,7 +8895,7 @@
         },
         {
           "id": "claim-8",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventtype=FL&eventid=1104122&episodeid=57",
           "text": "GDACS's flood event report for Thailand (GDACS ID FL 1104122, GLIDE FL-2026-000158-THA, episode 57, reporting window extended to 18 August-3 October 2026) records 'Death: 6' (unchanged) and 'Displaced: 627' (up from 569); overall alert level remains Green (low humanitarian impact). The report's narrative states that authorities in Thailand reported flooding in Ratchaburi Province from late September 2026.",
@@ -8800,19 +8903,19 @@
         },
         {
           "id": "claim-9",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/thailand/tha-flood-09-2026-heavy-rainfall-caused-flooding-3-2026-10-06",
           "text": "IFRC and Thai Red Cross's 'Thailand: Flood - 09-2026 - Heavy rainfall caused flooding #3' situation report (6 October 2026, hosted on ReliefWeb): 'From 16 September to 6 October 2026, flooding was reported across 50 provinces, affecting 1,474,981 households (4,188,452 people), with 31 deaths reported. As of 6 October, flooding remains ongoing in 27 provinces and Bangkok, affecting 1,149,285 households (3,143,962 people)...Bangkok: Approximately 329,000 households / 700,000 people were affected by flooding, with 4 deaths reported.' This nationwide toll of 31 deaths exceeds and supersedes GDACS's narrower tracked total (6 deaths, 627 displaced, episode 57) and is adopted as the new confirmed national total, being the more current and comprehensive allowlisted figure.",
           "verification_status": "verified"
         }
       ],
-      "description": "Torrential monsoon rain has flooded Bangkok and central Thailand since mid-September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. IFRC and the Thai Red Cross's most recent situation report (6 October 2026) puts the confirmed nationwide toll at 31 deaths and 4,188,452 people affected since 16 September, with 3,143,962 people still affected in 27 provinces and Bangkok as of that date. Thai government figures reported in local press since then have varied and are not yet corroborated by an official Thai government report, UN agency, or the Red Cross/Red Crescent: the Interior Ministry put the toll at 71 deaths as of 12 October, while the Department of Disaster Prevention and Mitigation's own tally, cited 23 October, put it at 64 deaths with 1,131,401 people still affected across 16 provinces and Bangkok. Flooding has gradually eased nationwide through late October as floodwaters recede.",
+      "description": "Torrential monsoon rain flooded Bangkok and central Thailand from mid-September 2026, prompting the capital's governor to declare all 50 districts disaster-affected areas. IFRC and the Thai Red Cross's situation report of 6 October 2026 put the confirmed nationwide toll at 31 deaths and 4,188,452 people affected since 16 September, with 3,143,962 people still affected in 27 provinces and Bangkok as of that date; GDACS's narrower tracked figures (6 deaths, 627 displaced) have been unchanged for over four weeks. Thai government figures reported in local press since early October have varied and remain uncorroborated by an official Thai government report, UN agency, or the Red Cross/Red Crescent, but consistently describe floodwaters receding and the affected population falling sharply through late October as the flood season winds down.",
       "event": {
         "impact": {
           "deaths": 31,
           "displaced": 3143962,
-          "summary": "IFRC and the Thai Red Cross's 6 October 2026 situation report remains the most recent corroborated figure: 31 deaths and 4,188,452 people (1,474,981 households) affected across 50 provinces since 16 September, with 3,143,962 people (1,149,285 households) still affected in 27 provinces and Bangkok as of that date. Thailand's Interior Ministry and the Department of Disaster Prevention and Mitigation have since given local press varying higher or differently-scoped tolls -- 71 deaths as of 12 October, then 64 deaths with 1,131,401 people still affected as of 23 October -- but neither has been corroborated by an official Thai government report, UN agency, or the Red Cross/Red Crescent. GDACS's narrower tracked total remains 6 deaths and 627 displaced."
+          "summary": "IFRC and the Thai Red Cross's 6 October 2026 situation report remains the most recent corroborated figure: 31 deaths and 4,188,452 people (1,474,981 households) affected across 50 provinces since 16 September, with 3,143,962 people (1,149,285 households) still affected in 27 provinces and Bangkok as of that date. GDACS's narrower tracked total has held steady at 6 deaths and 627 displaced for over four weeks. Thailand's Interior Ministry and the Department of Disaster Prevention and Mitigation have since given local press varying, uncorroborated higher or differently-scoped tolls as floodwaters have receded through late October, but neither has been confirmed by an official Thai government report, UN agency, or the Red Cross/Red Crescent."
         },
         "live_source_url": "https://gdacs.org/report.aspx?eventid=1104122&eventtype=FL",
         "location": {
@@ -8822,11 +8925,11 @@
           "region": "Bangkok Metropolitan Area and 12 central provinces"
         },
         "occurrence_date": "2026-09-24",
-        "scale": "Nationwide flooding, 50 provinces; IFRC/Thai Red Cross: 31 deaths, ~3.14M people affected (6 Oct); GDACS Green alert",
-        "status": "ongoing"
+        "scale": "Nationwide flooding, 50 provinces; IFRC/Thai Red Cross: 31 deaths, ~3.14M people affected (6 Oct); floodwaters receding; GDACS Green alert",
+        "status": "contained"
       },
       "id": "thailand-bangkok-floods-2026",
-      "last_updated": "2026-11-01T09:09:46Z",
+      "last_updated": "2026-11-02T09:18:28Z",
       "name": "Bangkok Flood Disaster, Thailand",
       "provenance": {
         "history": [
@@ -8834,10 +8937,15 @@
             "at": "2026-11-01T09:09:46Z",
             "layer": "verify",
             "run_id": "2026-11-01T09-09-46Z-20b8ab"
+          },
+          {
+            "at": "2026-11-02T09:18:28Z",
+            "layer": "verify",
+            "run_id": "2026-11-02T09-18-28Z-0930e1"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-09-46Z-20b8ab"
+        "last_run_id": "2026-11-02T09-18-28Z-0930e1"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8846,6 +8954,10 @@
         "recency_rank": 739883
       },
       "updates": [
+        {
+          "date": "2026-11-02",
+          "text": "GDACS's tracked figures (6 deaths, 627 displaced) have held unchanged for over four weeks with no further episode published; combined with local reporting of steadily receding floodwaters through late October, the event moves from ongoing to contained."
+        },
         {
           "date": "2026-10-28",
           "text": "Thailand's DDPM told local press (Nation Thailand, 23 October) the toll stood at 64 deaths with 1,131,401 people still affected across 16 provinces and Bangkok, down from about 3.14 million affected on 11 October; this remains uncorroborated by an official report, UN agency, or Red Cross/Red Crescent, so the confirmed total stays 31 deaths per IFRC/Thai Red Cross (6 October)."
@@ -8877,7 +8989,7 @@
       ],
       "verification": {
         "confidence": "medium",
-        "notes": "gate: 4 verified, 0 disputed, 7 unverified -> partial",
+        "notes": "gate: 5 verified, 0 disputed, 7 unverified -> partial",
         "status": "partial"
       }
     },
@@ -9623,7 +9735,7 @@
         },
         {
           "id": "claim-16",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "CAL FIRE",
           "source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire",
           "text": "CAL FIRE's incident page for the Plaskett Fire reports that, as of September 29, 2026 at 5:58 PM, the fire is 100% contained at 30,124 acres, with command transferred back to Los Padres National Forest on September 29, 2026; current operations focus on suppression repair, crew patrols and monitoring for remaining heat, with no further spread anticipated.",
@@ -9663,7 +9775,7 @@
         },
         {
           "id": "claim-20",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "CAL FIRE",
           "source_url": "https://www.fire.ca.gov/incidents/2026/8/8/timber-fire/",
           "text": "CAL FIRE's incident page for the Timber Fire reports, as of its page update timestamped October 9, 2026 at 4:09 PM, that the fire had reached 97% containment (up from 94% on October 7) on 25,352 acres (unchanged).",
@@ -9726,12 +9838,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "The Plaskett and Timber wildfires have burned roughly 55,476 combined acres along California's Big Sur coast since August 2026. The Timber Fire ignited August 8 and the larger Plaskett Fire ignited August 26 in the Los Padres National Forest near Big Sur; CAL FIRE now reports the Plaskett Fire fully contained at 30,124 acres, with command transferred back to Los Padres National Forest on 29 September, while the Timber Fire has reached 97% containment on about 25,352 acres, with all remaining evacuation orders lifted and command held by Nevada Team 2. No deaths have been reported by CAL FIRE for either fire, though the Timber Fire has caused 3 responder injuries.",
+      "description": "The Plaskett and Timber wildfires burned roughly 55,476 combined acres along California's Big Sur coast in August and September 2026. The Timber Fire ignited August 8 and the larger Plaskett Fire ignited August 26, both in the Los Padres National Forest near Big Sur. CAL FIRE's Plaskett Fire incident page has held at full (100%) containment on 30,124 acres since late September, and the Timber Fire has held at 97% containment on about 25,352 acres since early October, with all evacuation orders lifted and no further fire growth reported through early November; both fires are now considered contained. No deaths have been reported by CAL FIRE for either fire, though the Timber Fire caused 3 responder injuries.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "CAL FIRE reports no deaths from either fire, but 3 responder injuries on the Timber Fire. The Plaskett Fire remains fully contained (100%) at 30,124 acres, with command transferred back to Los Padres National Forest. The Timber Fire has advanced to 97% containment (up from 94% on October 7) on about 25,352 acres, with all remaining evacuation orders lifted, as crews continue suppression repair and mop-up under Nevada Team 2."
+          "summary": "CAL FIRE reports no deaths from either fire, but 3 responder injuries on the Timber Fire. The Plaskett Fire has remained fully contained (100%) at 30,124 acres since late September. The Timber Fire has held at 97% containment on about 25,352 acres since early October, with all evacuation orders lifted and no further growth reported; both fires are now considered contained as of early November 2026."
         },
         "live_source_url": "https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire",
         "location": {
@@ -9741,22 +9853,22 @@
           "region": "Big Sur, Los Padres National Forest — Monterey & San Luis Obispo Counties, California"
         },
         "occurrence_date": "2026-08-26",
-        "scale": "~55,476 combined acres (Plaskett 100% contained, Timber 97% contained)",
-        "status": "ongoing"
+        "scale": "~55,476 combined acres; Plaskett 100% contained, Timber 97% contained — both considered contained",
+        "status": "contained"
       },
       "id": "usa-california-big-sur-wildfires-2026",
-      "last_updated": "2026-11-01T09:10:34Z",
+      "last_updated": "2026-11-02T09:18:57Z",
       "name": "Wildfires — Big Sur / Los Padres National Forest, California",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-01T09:10:34Z",
+            "at": "2026-11-02T09:18:57Z",
             "layer": "verify",
-            "run_id": "2026-11-01T09-10-34Z-3ceb1d"
+            "run_id": "2026-11-02T09-18-57Z-54854b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-10-34Z-3ceb1d"
+        "last_run_id": "2026-11-02T09-18-57Z-54854b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -9765,6 +9877,10 @@
         "recency_rank": 739854
       },
       "updates": [
+        {
+          "date": "2026-11-02",
+          "text": "Both Big Sur fires remain unchanged: the Plaskett Fire has held at 100% containment on 30,124 acres since late September and the Timber Fire at 97% containment on about 25,352 acres since early October, with no growth or new evacuation activity reported; the event is reclassified from ongoing to contained."
+        },
         {
           "date": "2026-10-11",
           "text": "Timber Fire containment rose to 97% (from 94% on October 7) on 25,352 acres (unchanged), per CAL FIRE's incident page."
@@ -10742,7 +10858,7 @@
         },
         {
           "id": "claim-6",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "CDC",
           "source_url": "https://www.cdc.gov/measles/data-research/index.html",
           "text": "CDC's measles data page, checked 31 October 2026, states 4,852 confirmed measles cases were reported in the United States in 2026 as of 29 October 2026, up from 4,588 as of 22 October; the cumulative 'Total Deaths' figure remains 3, footnoted as subject to change.",
@@ -10768,18 +10884,18 @@
         "status": "ongoing"
       },
       "id": "usa-new-york-measles-outbreak-2026",
-      "last_updated": "2026-11-01T09:10:34Z",
+      "last_updated": "2026-11-02T09:18:57Z",
       "name": "Measles State Disaster Emergency — New York, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-01T09:10:34Z",
+            "at": "2026-11-02T09:18:57Z",
             "layer": "verify",
-            "run_id": "2026-11-01T09-10-34Z-b94b51"
+            "run_id": "2026-11-02T09-18-57Z-2e3aaf"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-10-34Z-b94b51"
+        "last_run_id": "2026-11-02T09-18-57Z-2e3aaf"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -11056,7 +11172,7 @@
         },
         {
           "id": "claim-37",
-          "retrieved_date": "2026-10-28",
+          "retrieved_date": "2026-11-02",
           "source_name": "InciWeb (US wildland fire agencies)",
           "source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
           "text": "InciWeb's Sinlahekin Fire incident page, checked 23 October 2026, now states 'This incident is no longer being updated,' holding at the 30 September 2026 figures of 93% perimeter containment on 166,007 acres with 334 personnel assigned; the page's estimated full-containment date of 15 October 2026 has passed with no further posted update.",
@@ -11064,7 +11180,7 @@
         },
         {
           "id": "claim-38",
-          "retrieved_date": "2026-11-01",
+          "retrieved_date": "2026-11-02",
           "source_name": "Office of the Governor of Washington State",
           "source_url": "https://governor.wa.gov/news/2026/governor-ferguson-requests-federal-major-disaster-declaration-four-counties-additional-state-level",
           "text": "Office of the Governor of Washington State news release (28 September 2026): a preliminary damage assessment by the state emergency management division, FEMA and local jurisdictions found the wildfires destroyed 649 primary residences and damaged an additional 2,542 homes, chiefly in Spokane County, burning nearly 369,000 acres across Benton, Okanogan, Spokane and Stevens counties. Governor Ferguson formally requested a federal Major Disaster Declaration: an estimated $11.2 million in FEMA Individual Assistance (Benton, Okanogan, Spokane, Stevens counties and the Spokane Tribe of Indians) and $117.7 million in Public Assistance for debris removal and emergency response costs (Asotin, Chelan, Columbia, Douglas, Ferry, Grant, Okanogan, Spokane, Stevens, Whitman and Yakima counties). As of this check (25 October 2026), no FEMA decision on the Major Disaster Declaration request has been published.",
@@ -11119,12 +11235,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A wildfire emergency across Eastern Washington State, declared 1 August 2026 after more than 1,000 fires burned roughly 425,000 acres, has moved into a federally supported recovery phase as the state's largest blaze winds down. A preliminary damage assessment released 28 September 2026 found the fires destroyed 649 primary residences and damaged 2,542 more across Benton, Okanogan, Spokane and Stevens counties and the Spokane Tribe of Indians, prompting Governor Ferguson to formally request a federal Major Disaster Declaration (an estimated $11.2 million in Individual Assistance plus $117.7 million in Public Assistance for debris removal and emergency response), a request that remains pending with FEMA as of 25 October 2026. Washington's wildfire proclamation lineage remains active under its Recovery and Rebuilding phase (26-03.3), and a separate emergency continues to address the Paradise Fire's threat to Walla Walla's water supply.",
+      "description": "A wildfire emergency across Eastern Washington, declared 1 August 2026 after 1,000+ fires burned about 425,000 acres, has moved into recovery as firefighting winds down. The Sinlahekin Fire, the state's largest, is no longer being updated by InciWeb and remains contained at 93% of its perimeter on about 166,007 acres. A preliminary damage assessment (28 September 2026) found the fires destroyed 649 primary residences and damaged 2,542 more across Benton, Okanogan, Spokane and Stevens counties; Governor Ferguson's federal Major Disaster Declaration request (about $11.2 million in Individual Assistance and $117.7 million in Public Assistance) remains pending with FEMA as of 2 November 2026. A separate emergency continues to address the Paradise Fire's threat to Walla Walla's water supply.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "Washington's preliminary damage assessment (28 September 2026) found the wildfires destroyed 649 primary residences and damaged 2,542 more, chiefly in Spokane County, across roughly 369,000 acres in Benton, Okanogan, Spokane and Stevens counties. Governor Ferguson's federal Major Disaster Declaration request — about $11.2 million in Individual Assistance and $117.7 million in Public Assistance for debris removal and emergency response — remains pending as of 25 October 2026. The Sinlahekin Fire, the state's largest, is no longer being updated by InciWeb, holding at its 30 September figures of 93% containment on about 166,007 acres. Separate federal Public Assistance requests for infrastructure repair across 11 counties and the Spokane Tribe now total over $133 million, and a distinct emergency continues to address the Paradise Fire's threat to Walla Walla's Mill Creek Watershed water supply. No confirmed death toll has been published."
+          "summary": "Washington's preliminary damage assessment (28 September 2026) found the wildfires destroyed 649 primary residences and damaged 2,542 more, chiefly in Spokane County, across roughly 369,000 acres in Benton, Okanogan, Spokane and Stevens counties. The Sinlahekin Fire, the state's largest, remains contained at 93% of its perimeter on about 166,007 acres and is no longer being updated by InciWeb. Governor Ferguson's federal Major Disaster Declaration request — about $11.2 million in Individual Assistance and $117.7 million in Public Assistance — remains pending with FEMA as of 2 November 2026. No confirmed death toll has been published."
         },
         "live_source_url": "https://inciweb.wildfire.gov/incident-information/wanes-sinlahekin-fire",
         "location": {
@@ -11134,22 +11250,22 @@
           "region": "Eastern Washington State (Chelan, Ferry, Okanogan, Spokane, Stevens, Douglas and Yakima counties), with fires also affecting Idaho"
         },
         "occurrence_date": "2026-08-01",
-        "scale": "Federal Major Disaster Declaration requested; 649 homes destroyed, 2,542 damaged; Sinlahekin Fire (state's largest) 93% contained",
-        "status": "ongoing"
+        "scale": "Wildfires contained; FEMA Major Disaster Declaration pending; 649 homes destroyed, 2,542 damaged; Sinlahekin Fire 93% contained",
+        "status": "contained"
       },
       "id": "usa-washington-wildfires-2026",
-      "last_updated": "2026-11-01T09:10:34Z",
+      "last_updated": "2026-11-02T09:19:28Z",
       "name": "Wildfire Emergency — Eastern Washington, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-01T09:10:34Z",
+            "at": "2026-11-02T09:19:28Z",
             "layer": "verify",
-            "run_id": "2026-11-01T09-10-34Z-d0bf53"
+            "run_id": "2026-11-02T09-19-28Z-2057c5"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-01T09-10-34Z-d0bf53"
+        "last_run_id": "2026-11-02T09-19-28Z-2057c5"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -11158,6 +11274,10 @@
         "recency_rank": 739829
       },
       "updates": [
+        {
+          "date": "2026-11-02",
+          "text": "No change since late October: the Sinlahekin Fire remains at 93% containment on about 166,007 acres with InciWeb no longer updating it, and Governor Ferguson's federal Major Disaster Declaration request remains pending with FEMA; the event is reclassified from ongoing to contained as active firefighting has wound down."
+        },
         {
           "date": "2026-10-25",
           "text": "A 28 September 2026 damage assessment found the wildfires destroyed 649 homes and damaged 2,542 more across Benton, Okanogan, Spokane and Stevens counties, burning nearly 369,000 acres; it underpins Gov. Ferguson's federal Major Disaster Declaration request ($11.2M Individual Assistance + $117.7M Public Assistance), still pending with FEMA."
@@ -11272,11 +11392,7 @@
         },
         {
           "date": "2026-08-10",
-          "text": "Governor Ferguson signed an emergency proclamation suspending numerous state laws — disaster cash-assistance eligibility rules, document-replacement fees, professional-license deadlines, unemployment-benefit waiting periods and eviction-action limits among them — and added Douglas County to the covered area."
-        },
-        {
-          "date": "2026-08-07",
-          "text": "HHS approved a federal Public Health Emergency declaration for the six wildfire-affected counties and three tribal nations already covered by the 4 August federal emergency declaration, which itself followed Gov. Ferguson's 1 August proclamation reporting over 1,000 fires and approximately 425,000 acres burned statewide, the highest since 2021."
+          "text": "Governor Ferguson signed an emergency proclamation suspending numerous state laws to speed wildfire relief and added Douglas County to the covered area; this followed HHS's 7 August approval of a federal Public Health Emergency for the area already covered by the 4 August federal emergency declaration."
         }
       ],
       "verification": {

@@ -203,10 +203,18 @@
     },
     {
       "id": "claim-35",
-      "retrieved_date": "2026-11-01",
+      "retrieved_date": "2026-11-02",
       "source_name": "National Disaster Management Authority (Pakistan)",
       "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
       "text": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 29 September 2026 at 199 deaths (68 male, 40 female, 91 children) and 556 injuries (227 male, 145 female, 184 children), up from 198 deaths and 549 injuries three days earlier. Cumulative housing damage now stands at 1,839 houses affected (623 destroyed, 1,216 partially damaged), with 1,559 livestock lost and 10,684 persons rescued or evacuated across 1,192 rescue/evacuation operations; Khyber Pakhtunkhwa remains the most-affected province.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-36",
+      "retrieved_date": "2026-11-02",
+      "source_name": "National Disaster Management Authority (Pakistan)",
+      "source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
+      "text": "NDMA's live Monsoon 2026 SITREP dashboard, checked 2 November 2026, puts the cumulative toll from 26 June to 30 September 2026 at 199 deaths and 556 injuries, with 1,839 houses affected (623 destroyed, 1,216 partially damaged) and 1,559 livestock lost -- unchanged from the 29 September data cut recorded over a month earlier, indicating the monsoon flood emergency has ended.",
       "verification_status": "verified"
     },
     {
@@ -218,12 +226,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Nationwide monsoon flooding across Pakistan since late June 2026 has killed 199 people and injured 556, per NDMA live tracking dashboard. Khyber Pakhtunkhwa and Punjab have recorded the most deaths, with cumulative housing damage continuing to rise even as the death toll has climbed only slowly through late September.",
+  "description": "Nationwide monsoon flooding across Pakistan from late June through September 2026 killed 199 people and injured 556, per NDMA's live tracking dashboard, with Khyber Pakhtunkhwa and Punjab recording the most deaths. Cumulative housing damage reached 1,839 houses affected (623 destroyed, 1,216 partially damaged) and 1,559 livestock lost. The dashboard's cumulative toll has held unchanged since 29-30 September 2026, more than a month ago, indicating Pakistan's 2026 monsoon flood emergency has ended; recovery and rebuilding continue in the hardest-hit provinces.",
   "event": {
     "impact": {
       "deaths": 199,
       "displaced": null,
-      "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 29 September 2026 at 199 deaths and 556 injuries, up from 198 deaths and 549 injuries three days earlier. Cumulative housing damage now stands at 1,839 houses affected (623 destroyed, 1,216 partially damaged), with 1,559 livestock lost. Khyber Pakhtunkhwa and Punjab remain the most-affected provinces."
+      "summary": "NDMA's live Monsoon 2026 SITREP dashboard puts the cumulative toll from 26 June to 30 September 2026 at 199 deaths and 556 injuries, with 1,839 houses affected (623 destroyed, 1,216 partially damaged) and 1,559 livestock lost -- unchanged for over a month, through the dashboard's 2 November reading. Khyber Pakhtunkhwa and Punjab remain the most-affected provinces."
     },
     "live_source_url": "https://sitreps.ndma.gov.pk/fdashboardn",
     "location": {
@@ -233,11 +241,11 @@
       "region": "Khyber Pakhtunkhwa, Punjab, Gilgit-Baltistan, Azad Jammu & Kashmir, Balochistan and Sindh"
     },
     "occurrence_date": "2026-06-26",
-    "scale": "Nationwide monsoon flooding; NDMA-recorded 199 deaths as of 29 September 2026 (live SITREP dashboard)",
-    "status": "ongoing"
+    "scale": "Nationwide monsoon flooding; NDMA-recorded 199 deaths as of 29 September 2026 (live SITREP dashboard, unchanged through 2 November)",
+    "status": "contained"
   },
   "id": "pakistan-floods-2026",
-  "last_updated": "2026-11-01T09:09:45Z",
+  "last_updated": "2026-11-02T09:18:10Z",
   "name": "Monsoon Floods — Pakistan",
   "provenance": {
     "history": [
@@ -245,10 +253,15 @@
         "at": "2026-11-01T09:09:45Z",
         "layer": "verify",
         "run_id": "2026-11-01T09-09-45Z-7c260d"
+      },
+      {
+        "at": "2026-11-02T09:18:10Z",
+        "layer": "verify",
+        "run_id": "2026-11-02T09-18-10Z-2ab2cb"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-01T09-09-45Z-7c260d"
+    "last_run_id": "2026-11-02T09-18-10Z-2ab2cb"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -257,6 +270,10 @@
     "recency_rank": 739793
   },
   "updates": [
+    {
+      "date": "2026-11-02",
+      "text": "NDMA's live dashboard has held the cumulative toll at 199 deaths and 556 injuries for over a month (since the 29-30 September data cut); with no new monsoon-related casualties or damage recorded, the event moves from ongoing to contained."
+    },
     {
       "date": "2026-09-29",
       "text": "NDMA's dashboard toll rose slightly to 199 deaths (from 198) and 556 injuries (from 549); housing damage edged up to 1,839 houses affected (1,216 partial, 623 destroyed)."
@@ -360,7 +377,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 27 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 28 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
