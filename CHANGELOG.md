@@ -19,6 +19,10 @@ _Generated from git history over `data/threats/`, `data/quarantine/`, `data/even
 
 - **Updated:** canada-british-columbia-wildfires-2026, china-earthquake-nagqu-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, cyclone-arnab-india-2026, djibouti-migrant-shipwreck-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, indonesia-volcano-krakatau-2026, iran-israel-us-war-2026, japan-volcano-tokachidake-2026, mindanao-earthquake-philippines-2026, nepal-rasuwa-glacial-flood-2026, pakistan-floods-2026, panama-earthquake-azuero-2026, philippines-kanlaon-volcano-eruption-2026, somalia-baidoa-clashes-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, sudan-drone-strikes-kordofan-abyei-2026, thailand-bangkok-floods-2026, typhoon-champi-guam-mariana-2026, usa-california-big-sur-wildfires-2026, usa-new-york-measles-outbreak-2026, usa-washington-wildfires-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
 
+## 2026-10-31 — Condense the full Ebola DRC and Washington wildfire logs; restore dropped milestones (`fd761e1`)
+
+- **Updated:** ebola-bundibugyo-drc-2026, usa-washington-wildfires-2026
+
 ## 2026-10-31 — World Pulse daily refresh (2026-10-31), part 4: Ebola DRC toll update; re-verify Africa/Horn/Middle East ongoing events (`d5100eb`)
 
 - **Updated:** djibouti-migrant-shipwreck-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, iran-israel-us-war-2026, somalia-baidoa-clashes-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, sudan-drone-strikes-kordofan-abyei-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
