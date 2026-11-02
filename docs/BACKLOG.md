@@ -149,12 +149,29 @@ for the design and its one gap (a newly added workflow must be listed in its `wo
 landed). swing-lab already holds both secrets, so arming this repo means reusing the same two
 values. Steps went to the owner on 2026-10-15; replace this paragraph once the self-test is green.
 
+**Still unarmed as of 2026-11-02, and a second gap: bot-started deploys never reach `notify`.**
+The owner switched Pages off during a GitHub cleanup, so from 2026-11-01 09:22 UTC every `pages`
+run failed at `configure-pages` ("Get Pages site failed… Not Found") and the live site returned 404
+until it was re-enabled on 2026-11-02. Four of those failures created no `notify` run at all,
+because `publish.yml` starts `pages` and `validate` with `gh workflow run` on the built-in
+`github.token`, and GitHub does not fire `workflow_run` for runs caused by that token. Only the
+`pages` run started by a human push (the PR #29 merge, `9782fd0`) reached `notify`, which then
+found the secrets unset. So **arming the secrets is not enough**: the daily deploy, the one most
+likely to break, cannot alert. To fix it, add a failure step inside `pages.yml` / `validate.yml` that
+calls `scripts/notify.py`, or have `publish` wait for the runs it starts and fail with them. Also add
+a check of the **live site** to the daily `staleness` run: fetch the deployed `data/events.json` and
+fail if it isn't a 200 or its `last_updated` is well behind `main`'s. A green CI run says nothing about
+whether the site is up.
+
 **Still open — alarm on orphaned `claude/*` branches.** The one unambiguous failure signature, and
 cheaper than inferring failure from data freshness: `publish` deletes the branch on success, so a
 lingering branch always means a run did not land. It would have caught all five July casualties on
 the day they happened, including the two that `staleness` could not see because other records kept
 the aggregate fresh. Now that `notify.yml` exists, this is just a scheduled check that fails when
-`git ls-remote --heads origin 'claude/*'` returns anything older than ~24h.
+`git ls-remote --heads origin 'claude/*'` returns anything older than ~24h. One is lingering now
+(2026-11-02): `claude/trusting-wright-o9t9go`, from 2026-10-21, a CHANGELOG-only run whose content
+`main`'s regenerated CHANGELOG already covers. Delete it by hand; it misleads the routine's
+unpublished-work check.
 
 **Related, same root cause — the changelog was silently corrupted.** `pipeline.changelog` is a
 projection of `git log --name-status` over the data dirs, so it is only as correct as the history
@@ -343,13 +360,53 @@ Three things look like leftovers from the PR era but are intentional:
   entries unless `--condense` is passed, `validate_data.py` warns from 25 entries, and
   `/refresh-events` caps a running tally at one entry a week. Still near the cap and left for the
   routine to condense under the new rule: `canada-british-columbia-wildfires-2026` and
-  `pakistan-floods-2026` (25 each).
-- **Claims grow without a cap — the real driver of `events.json` size.** `frontend/data/events.json`
-  passed 1 MiB on 2026-10-31 (1.07 MB, up ~190 KB a month) and claims are ~60% of it: a long-running
-  record gains a new dated ECDC/InciWeb claim per figure change (Ebola has 75). Nothing is broken
-  yet. Options when it matters: retire claims superseded by a newer reading of the same source page,
-  or stop shipping old claims to the frontend. Either touches the trust model, so decide
-  deliberately.
+  `pakistan-floods-2026` (26 each on 2026-11-02, both now contained). On 2026-11-02 the guard
+  worked on a real merge: it refused the merged drafts and listed every folded entry until
+  `--condense` was passed. **Remaining gap:** the guard proves a drop was deliberate, not that the
+  summary is faithful. Add a deterministic check: every number in a condensed entry must appear in
+  the entries it replaces or in the record's claims. The 2026-10-31 condense was verified that way
+  by a one-off script; the routine's future condenses only have its instructions.
+- **`events.json` grows without bound: a retention gap, not a storage problem.** *(Researched
+  2026-11-02; nothing changed yet.)* `frontend/data/events.json` is 1.09 MB (about 219 KB gzipped as
+  Pages serves it) and has grown about 200 KB a month since mid-August. It holds 79 events and 802
+  claims, and gains about 8 events and 100 claims a month. Where the bytes go:
+  - **Claims are 64% of the file, and most of a long record's claims are superseded snapshots.**
+    A running figure gains a new dated claim per reading: 66 of Ebola's 75 claims are case/death
+    counts dating back to July.
+  - **Finished events never leave.** 58 of 79 events (73%) are contained or resolved. "A pulse, not
+    an archive" is only applied when proposing events, never to removing them. The 21 ongoing
+    events alone would be 367 KB.
+  - **Every visit downloads everything.** `frontend/app.js:721` fetches all three aggregates with a
+    cache-busting `?t=`, but cards and the map need only ~20% (a cards-only index would be ~190 KB).
+    Claims and `updates[]` only appear in the detail view, plus one "as of" date per card.
+
+  **Limits.** GitHub's limits are far off: Pages allows a 1 GB site and 100 GB/month of bandwidth
+  (soft), git blocks files over 100 MiB, and the repo is ~4.6 MB against a recommended 1 GB. One
+  limit is already crossed: above 1 MB the REST contents API returns an empty `content` unless the
+  request asks for `application/vnd.github.raw+json`. Nothing reads `events.json` that way today. The
+  constraint that bites first is the daily routine. It re-reads records in full (Ebola is 75 KB,
+  about 20k tokens), which costs metered compute and is where the `updates[]` trimming came from.
+
+  **A database is not the answer at this scale.** It would not have prevented any of the
+  October/November failures: the log trimming was a rules bug, the CHANGELOG damage came from a
+  shallow clone, and the outage was a Pages setting. It would also cost three things: the free
+  static hosting; git as the audit trail (the CHANGELOG projection, `publish`'s byte-exact data-only
+  check, and reviewable diffs); and HQ's no-database convention. Revisit at ~50–100× today's size
+  (tens of MB, thousands of events), or if the site needs a public API or concurrent writers.
+
+  **Levers, cheapest first.** Do 1 and 2 before `events.json` reaches ~2 MB, around March 2027 at
+  the current rate:
+  1. *Retire finished events from the live aggregate* after N days contained/resolved. The record
+     files stay in git, and notable events could graduate to the Historical Archive. Product call:
+     how long a finished event stays on World Pulse. The frontend already ranks them lower over time
+     (`STATUS_DECAY_DAYS`).
+  2. *Split the aggregate* into a cards/map index plus one detail file per event, fetched when a
+     card opens. This is mechanical and cuts ~80% off every visit. `build_frontend.py` and
+     `publish`'s byte-exact check extend to the new files naturally.
+  3. *Stop shipping superseded claims*: keep the claims that back the current figures and anything
+     an `updates[]` entry relies on; git keeps the rest. This is a trust-model call.
+  4. Minor: replace the `?t=` cache-buster with `fetch(url, {cache: "no-cache"})` so repeat visits
+     can revalidate instead of re-downloading.
 - **Seed more real events**: more accrue naturally once the daily routine is running; no action
   needed beyond that.
 - **Seed the Historical Archive** *(Done 2026-07-06 — 43 landmark records across all six eras,
