@@ -168,10 +168,9 @@ cheaper than inferring failure from data freshness: `publish` deletes the branch
 lingering branch always means a run did not land. It would have caught all five July casualties on
 the day they happened, including the two that `staleness` could not see because other records kept
 the aggregate fresh. Now that `notify.yml` exists, this is just a scheduled check that fails when
-`git ls-remote --heads origin 'claude/*'` returns anything older than ~24h. One is lingering now
-(2026-11-02): `claude/trusting-wright-o9t9go`, from 2026-10-21, a CHANGELOG-only run whose content
-`main`'s regenerated CHANGELOG already covers. Delete it by hand; it misleads the routine's
-unpublished-work check.
+`git ls-remote --heads origin 'claude/*'` returns anything older than ~24h. (The last orphan,
+`claude/trusting-wright-o9t9go` from 2026-10-21, sat unnoticed for 12 days before being deleted
+by hand on 2026-11-02.)
 
 **Related, same root cause — the changelog was silently corrupted.** `pipeline.changelog` is a
 projection of `git log --name-status` over the data dirs, so it is only as correct as the history
