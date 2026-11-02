@@ -163,10 +163,18 @@
     },
     {
       "id": "claim-31",
-      "retrieved_date": "2026-10-31",
+      "retrieved_date": "2026-11-02",
       "source_name": "GDACS",
       "source_url": "https://gdacs.org/report.aspx?eventid=1104121&eventtype=FL&episodeid=22",
       "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, episode 22, reporting window 9 August-7 October 2026) now records 136 deaths, up from 135 at the prior episode, with 457,351 displaced (unchanged), still at Orange alert.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-32",
+      "retrieved_date": "2026-11-02",
+      "source_name": "GDACS",
+      "source_url": "https://gdacs.org/report.aspx?eventid=1104121&eventtype=FL",
+      "text": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND) remains at episode 22, reporting window 9 August-7 October 2026, with 136 deaths and 457,351 displaced, unchanged from the prior episode; no further episode has been published in nearly four weeks, and the event remains at Orange alert.",
       "verification_status": "verified"
     },
     {
@@ -226,12 +234,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Heavy monsoon rains since mid-July 2026 have caused deadly flooding and landslides across India, with flooding spreading into new states through late September 2026 and continuing river overflow in Bihar into early October. GDACS's structured national toll (window 9 August-7 October 2026, episode 22) now stands at 136 deaths and 457,351 displaced, up from 135 deaths at the prior episode, after Uttar Pradesh's Relief Commissioner reported 81 storm-related fatalities and 2,254 damaged buildings as of 28 September. Earlier in the emergency, Odisha was among the worst-hit with 8.64 lakh people affected across 22 districts, Kerala counted 26 dead and 4 missing, and IFRC recorded 74 flood-related deaths in Assam. This GDACS-tracked figure continues to exceed and supersede the earlier Sphere India-sourced national aggregate of 109 deaths and 347,155 displaced, based on an 8 August situation report that did not reflect the Uttarakhand, Gujarat, Kerala, Uttar Pradesh or Bihar flooding tracked since.",
+  "description": "Heavy monsoon rains caused deadly flooding and landslides across India from mid-July through early October 2026, spreading through Assam, Odisha, Gujarat, Kerala, Maharashtra, Uttarakhand, Bihar and Uttar Pradesh before easing with the monsoon's withdrawal. GDACS's structured national toll (window 9 August-7 October 2026, episode 22) stands at 136 deaths and 457,351 displaced, unchanged for nearly four weeks with no new episode published since. Earlier in the emergency, Odisha was among the worst-hit with 8.64 lakh people affected across 22 districts, Kerala counted 26 dead and 4 missing, and IFRC recorded 74 flood-related deaths in Assam. This GDACS-tracked figure continues to exceed and supersede the earlier Sphere India-sourced national aggregate of 109 deaths and 347,155 displaced, based on an 8 August situation report that did not reflect the later flooding.",
   "event": {
     "impact": {
       "deaths": 136,
       "displaced": 457351,
-      "summary": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, window 9 August-7 October 2026, episode 22, Orange alert) now carries a structured national toll of 136 deaths and 457,351 displaced, up from 135 deaths at the prior episode; the event's narrative notes heavy rain continuing to cause river overflow in Bihar State into early October. This GDACS-tracked figure continues to exceed and supersede this record's earlier Sphere India-sourced national aggregate (109 deaths, 347,155 displaced, based on an 8 August situation report), which did not yet reflect the Uttarakhand, Gujarat, Kerala, Uttar Pradesh or Bihar flooding tracked separately by GDACS since early September."
+      "summary": "GDACS's India flood event (id 1104121, glide FL-2026-000165-IND, window 9 August-7 October 2026, episode 22, Orange alert) holds a structured national toll of 136 deaths and 457,351 displaced, unchanged for nearly four weeks with no new episode published since 7 October, consistent with the monsoon's withdrawal from the tracked states. This GDACS-tracked figure continues to exceed and supersede this record's earlier Sphere India-sourced national aggregate (109 deaths, 347,155 displaced, based on an 8 August situation report)."
     },
     "live_source_url": "https://reliefweb.int/country/ind",
     "location": {
@@ -241,22 +249,27 @@
       "region": "Assam, Odisha, Gujarat, Kerala, Maharashtra, and Uttarakhand, Bihar and Uttar Pradesh (multi-state monsoon emergency)"
     },
     "occurrence_date": "2026-07-16",
-    "scale": "Multi-state monsoon flooding & landslides; GDACS Orange alert",
-    "status": "ongoing"
+    "scale": "Multi-state monsoon flooding & landslides; GDACS Orange alert; no new episode since 7 October 2026",
+    "status": "contained"
   },
   "id": "india-monsoon-floods-2026",
-  "last_updated": "2026-10-31T09:09:51Z",
+  "last_updated": "2026-11-02T09:18:10Z",
   "name": "Multi-State Monsoon Floods & Landslides — India",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-31T09:09:51Z",
+        "at": "2026-11-01T09:09:45Z",
         "layer": "verify",
-        "run_id": "2026-10-31T09-09-51Z-f2dd33"
+        "run_id": "2026-11-01T09-09-45Z-a00ea1"
+      },
+      {
+        "at": "2026-11-02T09:18:10Z",
+        "layer": "verify",
+        "run_id": "2026-11-02T09-18-10Z-2664f7"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-31T09-09-51Z-f2dd33"
+    "last_run_id": "2026-11-02T09-18-10Z-2664f7"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -265,6 +278,10 @@
     "recency_rank": 739813
   },
   "updates": [
+    {
+      "date": "2026-11-02",
+      "text": "No new GDACS episode has been published since 7 October (episode 22); with the structured national toll stable at 136 deaths and 457,351 displaced for nearly four weeks, consistent with the monsoon's withdrawal, the event moves from ongoing to contained."
+    },
     {
       "date": "2026-10-11",
       "text": "GDACS's structured national toll rose to 136 deaths (from 135), with displaced unchanged at 457,351, per episode 22 (window extended to 7 October)."
@@ -336,7 +353,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 28 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 29 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

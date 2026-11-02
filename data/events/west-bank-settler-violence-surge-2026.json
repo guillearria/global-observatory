@@ -154,6 +154,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-31",
+      "retrieved_date": "2026-11-02",
+      "source_name": "OCHA oPt",
+      "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-29-october-2026",
+      "text": "OCHA oPt's Humanitarian Situation Report of 29 October 2026 (reporting period 20-26 October): 57 Palestinians were injured (23 by settlers, 34 by Israeli forces), including nine children; 62 settler attacks causing casualties or property damage were documented across 49 communities, 38 of them olive-harvest related. 94 people, including 40 children, were displaced by settler attacks and access restrictions, and a further 37 people, including 19 children, were displaced by demolitions. The report notes that two Palestinians who attacked an Israeli checkpoint in Hebron on 23 October were killed in an exchange of fire. For October overall, 397 settler-attack incidents were recorded between 1 and 26 October, the highest monthly figure since OCHA began documenting such incidents in 2006, with a weekly average of 53 incidents so far in 2026.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-07-30",
       "source_name": "United Nations",
@@ -178,14 +186,14 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Israeli settler violence in the occupied West Bank has continued through late October 2026, culminating on 24 July 2026 when Israeli settlers carried out two attacks on Tal village near Nablus that left four Palestinians and two Israelis dead and triggered a wave of reprisal attacks. OCHA oPt's newest report (13-19 October, published 22 October) recorded zero West Bank Palestinian fatalities for the week but 148 injured and 83 further settler attacks, including an eight-hour Israeli forces operation in Ramallah city and a settler attack in Khirbet Abu Falah that injured a foreign journalist; the 2026 cumulative toll holds at least 89 Palestinians killed and 4 Israelis killed by Palestinians. Demolitions displaced 37 more people in the latest week, pushing cumulative 2026 West Bank displacement to roughly 4,526; more than 2,159 settler attacks have now been documented since January, averaging 7.4 per day.",
+  "description": "Israeli settler violence in the occupied West Bank has continued through late October 2026, culminating on 24 July 2026 when Israeli settlers carried out two attacks on Tal village near Nablus that left four Palestinians and two Israelis dead and triggered a wave of reprisal attacks. OCHA oPt's newest report (20-26 October, published 29 October) recorded 57 Palestinians injured and 62 further settler attacks across 49 communities, mostly tied to the olive harvest, plus 131 more people displaced by settler attacks and demolitions; October recorded 397 settler attacks between 1-26 October, the highest monthly total since OCHA began documenting them in 2006, averaging 53 incidents a week so far in 2026. The 2026 cumulative toll holds at least 89 Palestinians killed and 4 Israelis killed by Palestinians; cumulative 2026 West Bank displacement now stands at roughly 4,657.",
   "event": {
     "impact": {
       "deaths": 89,
-      "displaced": 4526,
-      "summary": "OCHA oPt's newest Humanitarian Situation Report (13-19 October 2026, published 22 October) recorded zero West Bank Palestinian fatalities for the week, 148 injured (92 by Israeli forces, 56 by settlers), and 83 settler attacks across 48 communities; the West Bank's 2026 cumulative toll holds at at least 89 Palestinians killed and 4 Israelis killed by Palestinians. Demolitions displaced 37 more people over the week, pushing cumulative 2026 West Bank displacement to roughly 4,526 people, with about 1,790 of that displaced by demolitions specifically for lack of an Israeli-issued building permit. More than 2,159 settler attacks have now been recorded since the start of the year, including 83 in this reporting period, averaging 7.4 per day."
+      "displaced": 4657,
+      "summary": "OCHA oPt's newest Humanitarian Situation Report (20-26 October 2026, published 29 October) recorded 57 Palestinians injured (34 by Israeli forces, 23 by settlers, including 9 children) and 62 further settler attacks across 49 communities, 38 of them olive-harvest related; it gave no West Bank fatality count for the period beyond noting two Palestinians were killed in an exchange of fire after attacking an Israeli checkpoint in Hebron on 23 October. Demolitions and settler attacks/access restrictions displaced 131 more people over the week (94 by settler attacks and access restrictions, 37 by demolitions), pushing cumulative 2026 West Bank displacement to roughly 4,657. October recorded 397 settler attacks between 1-26 October -- the highest monthly total since OCHA began documenting them in 2006 -- averaging 53 incidents a week so far in 2026. The West Bank's 2026 cumulative toll otherwise holds at at least 89 Palestinians killed and 4 Israelis killed by Palestinians."
     },
-    "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-22-october-2026",
+    "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-29-october-2026",
     "location": {
       "country": "Palestine",
       "lat": 32.2211,
@@ -193,22 +201,22 @@
       "region": "Tal village, near Nablus, West Bank (Occupied Palestinian Territory)"
     },
     "occurrence_date": "2026-07-24",
-    "scale": "Mass-casualty settler attack; Israeli 'major counterterrorism operation' declared; West Bank's deadliest sustained period for Palestinians in settler-related incidents since October 2023",
+    "scale": "Mass-casualty settler attack; Israeli 'major counterterrorism operation' declared; October 2026 recorded the highest monthly settler-attack total since OCHA began documenting them in 2006",
     "status": "ongoing"
   },
   "id": "west-bank-settler-violence-surge-2026",
-  "last_updated": "2026-10-31T09:10:15Z",
+  "last_updated": "2026-11-02T09:14:46Z",
   "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-31T09:10:15Z",
+        "at": "2026-11-02T09:14:46Z",
         "layer": "verify",
-        "run_id": "2026-10-31T09-10-15Z-1a2100"
+        "run_id": "2026-11-02T09-14-46Z-23fce7"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-31T09-10-15Z-1a2100"
+    "last_run_id": "2026-11-02T09-14-46Z-23fce7"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -217,6 +225,10 @@
     "recency_rank": 739821
   },
   "updates": [
+    {
+      "date": "2026-10-29",
+      "text": "OCHA oPt's 29 October report (20-26 Oct) recorded 57 Palestinians injured and 62 further settler attacks across 49 communities, mostly olive-harvest related; 131 more were displaced, pushing 2026 displacement to roughly 4,657. October's 397 settler attacks (1-26 Oct) are the highest monthly total since OCHA began recording them in 2006."
+    },
     {
       "date": "2026-10-22",
       "text": "OCHA oPt's 22 October report (13-19 October) recorded zero West Bank Palestinian fatalities for the week, 148 injured and 83 settler attacks across 48 communities; demolitions displaced 37 more people, pushing cumulative 2026 displacement to roughly 4,526, with settler attacks since January passing 2,159 (averaging 7.4/day)."
@@ -284,7 +296,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 22 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

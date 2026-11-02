@@ -11,10 +11,10 @@
     },
     {
       "id": "claim-10",
-      "retrieved_date": "2026-10-31",
+      "retrieved_date": "2026-11-01",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC",
-      "text": "GDACS's tropical cyclone report for CHAMPI-26 (event id 1001338, episode 46, GLIDE TC-2026-000192-GUM) now gives a tracking window of 14-25 October 2026, with peak intensity unchanged at 296 km/h (Category 5, JTWC) and the estimated population exposed to Category 1 or higher winds revised up to about 290,000, from about 180,000 in episode 35. Affected areas now additionally list China and South Korea, alongside the Philippines, Guam, the Northern Mariana Islands and Japan. The report's mirrored media headlines (24-26 October) report about 56,000 households in Taiwan without electricity and separately describe damage in Taiwan and Okinawa with rainfall exceeding 200mm across Japan, noting the system weakened into an extratropical depression; GDACS's own casualty-estimate section remains empty and the report gives no death or injury figures.",
+      "text": "GDACS's tropical cyclone report for CHAMPI-26 (event id 1001338, episode 46, GLIDE TC-2026-000192-GUM) now gives a tracking window of 14-25 October 2026, with peak intensity unchanged at 296 km/h (Category 5, JTWC) and the estimated population exposed to Category 1 or higher winds revised up to about 290,000, from about 180,000 in episode 35. Affected areas now additionally list China and South Korea, alongside the Philippines, Guam, the Northern Mariana Islands and Japan. The report's mirrored media headlines (24-26 October) report about 56,000 households in Taiwan without electricity and separately describe damage in Taiwan and Okinawa with rainfall exceeding 200mm across Japan, noting the system weakened into an extratropical depression; GDACS's own casualty-estimate section remains empty and the report gives no death or injury figures. Re-checked 1 November 2026: episode 46 remains the latest published episode, with the same window, intensity, exposed population and affected-areas list, and still no death or injury figures recorded by GDACS.",
       "verification_status": "verified"
     },
     {
@@ -82,12 +82,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Typhoon Champi tracked through the western Pacific in October 2026, passing Guam and the Northern Mariana Islands before continuing past the Philippines toward Taiwan, Japan, China and South Korea. GDACS's latest tropical cyclone report (episode 46, window 14-25 October) rates the storm an Overall Red alert with a JTWC-sourced peak intensity of 296 km/h (Category 5) and an estimated 290,000 people exposed to Category 1 or higher winds, up from about 180,000 as its track widened. The storm passed about 170 miles west of Guam on 18 October without a direct landfall there; GDACS's mirrored media headlines report roughly 56,000 households left without power in Taiwan and further damage in Taiwan and Okinawa with heavy rain over Japan, before the system weakened into an extratropical depression. GDACS's own report gives no confirmed death or injury figures.",
+  "description": "Typhoon Champi tracked through the western Pacific in October 2026, passing Guam and the Northern Mariana Islands before continuing past the Philippines toward Taiwan, Japan, China and South Korea. GDACS's final tropical cyclone report (episode 46, window 14-25 October) rated the storm an Overall Red alert with a JTWC-sourced peak intensity of 296 km/h (Category 5) and an estimated 290,000 people exposed to Category 1 or higher winds. The storm passed about 170 miles west of Guam on 18 October without a direct landfall there; GDACS's mirrored media headlines reported roughly 56,000 households left without power in Taiwan and further damage in Taiwan and Okinawa with heavy rain over Japan, before the system weakened into an extratropical depression around 26 October, after which GDACS's report page stopped advancing past that episode. GDACS's own report gives no confirmed death or injury figures for the storm.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's latest published report (episode 46, window 14-25 October) keeps Typhoon Champi's peak intensity at 296 km/h (Category 5, JTWC) while revising the exposed-population estimate up to about 290,000, from about 180,000, as the storm's track extended toward China, South Korea and Japan. GDACS's mirrored media headlines report roughly 56,000 households left without electricity in Taiwan and damage in Taiwan and Okinawa with rainfall exceeding 200mm across Japan, before the system weakened into an extratropical depression. GDACS's own casualty-estimate section remains empty and gives no confirmed death or injury figures for the storm."
+      "summary": "GDACS's final published report (episode 46, window 14-25 October) holds Typhoon Champi's peak intensity at 296 km/h (Category 5, JTWC) and an exposed-population estimate of about 290,000 across Guam, the Northern Mariana Islands, the Philippines, Japan, China and South Korea. GDACS's mirrored media headlines report roughly 56,000 households left without electricity in Taiwan and damage in Taiwan and Okinawa with rainfall exceeding 200mm across Japan, before the system weakened into an extratropical depression around 26 October, with episode 46 standing as GDACS's last published update on the storm. GDACS's own casualty-estimate section remains empty and gives no confirmed death or injury figures for the storm."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC",
     "location": {
@@ -98,21 +98,21 @@
     },
     "occurrence_date": "2026-10-14",
     "scale": "GDACS Red alert; Category 5 Super Typhoon (296 km/h); weakened to extratropical depression after affecting Taiwan, Okinawa and Japan",
-    "status": "ongoing"
+    "status": "resolved"
   },
   "id": "typhoon-champi-guam-mariana-2026",
-  "last_updated": "2026-10-31T09:07:48Z",
+  "last_updated": "2026-11-01T09:17:05Z",
   "name": "Typhoon Champi — Guam & Northern Mariana Islands",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-31T09:07:48Z",
+        "at": "2026-11-01T09:17:05Z",
         "layer": "verify",
-        "run_id": "2026-10-31T09-07-48Z-de4d70"
+        "run_id": "2026-11-01T09-17-05Z-69d4fe"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-31T09-07-48Z-de4d70"
+    "last_run_id": "2026-11-01T09-17-05Z-69d4fe"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -121,6 +121,10 @@
     "recency_rank": 739903
   },
   "updates": [
+    {
+      "date": "2026-11-01",
+      "text": "Typhoon Champi is now marked resolved: GDACS's report page still shows episode 46 (window 14-25 October) as its latest entry a week after the system weakened into an extratropical depression, with no confirmed deaths or injuries recorded in GDACS's own casualty section."
+    },
     {
       "date": "2026-10-27",
       "text": "GDACS extended the tracking window to 14-25 October (episode 46) as Champi's track widened to include China and South Korea; exposed population rose to ~290,000 (from ~180,000). Media mirrored on GDACS report ~56,000 Taiwan households without power and Taiwan/Okinawa damage with heavy Japan rain, before the storm weakened to an extratropical depression. No confirmed deaths/injuries."

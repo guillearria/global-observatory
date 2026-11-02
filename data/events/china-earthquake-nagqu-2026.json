@@ -11,7 +11,7 @@
     },
     {
       "id": "claim-2",
-      "retrieved_date": "2026-10-31",
+      "retrieved_date": "2026-11-01",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
       "text": "GDACS's earthquake report (event id 1573141, episode 1741837, GLIDE EQ-2026-000195-CHN) rates the event an Overall Red alert, with a GDACS score of 2 and about 10,000 people exposed to MMI VII or greater shaking. The report's media-headlines section, which GDACS notes it has not independently verified, cites at least 16 deaths, injuries variously reported at 65 and 76, and hundreds of houses collapsed.",
@@ -19,19 +19,27 @@
     },
     {
       "id": "claim-3",
-      "retrieved_date": "2026-10-31",
+      "retrieved_date": "2026-11-01",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
       "text": "GDACS's earthquake report (event id 1573141, episode 1741837) mirrors a Xinhua media headline dated 26 October 2026 reporting that the first 60 prefabricated houses for quake-affected residents in Xizang had been completed and that households were beginning to move in; GDACS notes it has not independently verified mirrored media headlines. No newer episode has been published, and no updated casualty or exposed-population figures accompany the report.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-11-02",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
+      "text": "GDACS's earthquake report for this event (event id 1573141, episode 1741837), checked 2 November 2026, now rates the event Overall Orange alert, down from the Red alert recorded a week earlier, with a GDACS score of 1.6 (down from 2); the exposed-population estimate remains at about 10,000 people in zones of MMI VII or greater shaking, and the same mirrored media headlines (prefabricated-housing reconstruction in Xizang, dated 26 October) remain the most recent items on the page, with no updated casualty figures.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.0 earthquake struck Baqen County, Nagqu Prefecture, in the Tibet Autonomous Region (Xizang) of China on 22 October 2026, and GDACS issued an Overall Red alert. USGS located the epicenter about 191 km ENE of Nagqu at a depth of 18 km and assessed an Orange PAGER shaking-impact alert, with roughly 10,000 people estimated exposed to MMI VII or greater shaking per GDACS. Media reports mirrored on GDACS's event page cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed; rescue and damage-assessment operations are ongoing and no tsunami was generated. A Xinhua headline mirrored on GDACS's report page (26 October) reports the first 60 prefabricated houses for affected residents have been completed, with households beginning to move in.",
+  "description": "A magnitude 7.0 earthquake struck Baqen County, Nagqu Prefecture, in the Tibet Autonomous Region (Xizang) of China on 22 October 2026. USGS located the epicenter about 191 km ENE of Nagqu at a depth of 18 km and assessed an Orange PAGER shaking-impact alert, with roughly 10,000 people estimated exposed to MMI VII or greater shaking. GDACS has since downgraded its own alert for the event from Red to Orange, with its GDACS score easing from 2 to 1.6, while its exposed-population estimate holds at about 10,000 people. Media reports mirrored on GDACS's event page cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed; no updated casualty figures have been published and no tsunami was generated. A Xinhua headline mirrored on GDACS's report page (26 October) reports the first 60 prefabricated houses for affected residents have been completed, with households beginning to move in.",
   "event": {
     "impact": {
       "deaths": 16,
       "displaced": null,
-      "summary": "GDACS's event report (Overall Red alert, GLIDE EQ-2026-000195-CHN) mirrors media headlines citing at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed in Baqen County, Nagqu Prefecture. USGS assesses an Orange PAGER alert with about 10,000 people exposed to MMI VII or greater shaking, matching GDACS's own exposed-population estimate at that threshold. No tsunami was generated, and rescue and damage-assessment operations are ongoing; recovery has begun, with the first 60 prefabricated houses for affected residents completed as of 26 October."
+      "summary": "GDACS has downgraded its event report (GLIDE EQ-2026-000195-CHN) from an Overall Red alert to Orange, with its GDACS score easing from 2 to 1.6; its exposed-population estimate holds at about 10,000 people in zones of MMI VII or greater shaking, matching USGS's Orange PAGER alert. Media headlines mirrored on GDACS's page still cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed in Baqen County, Nagqu Prefecture; no updated casualty figures have been published. No tsunami was generated, and recovery continues, with the first 60 prefabricated houses for affected residents completed as of 26 October."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
     "location": {
@@ -41,22 +49,22 @@
       "region": "Baqen County, Nagqu Prefecture, Tibet Autonomous Region (Xizang)"
     },
     "occurrence_date": "2026-10-22",
-    "scale": "M7.0; GDACS Red alert; USGS PAGER Orange",
+    "scale": "M7.0; GDACS Orange alert (downgraded from Red); USGS PAGER Orange",
     "status": "ongoing"
   },
   "id": "china-earthquake-nagqu-2026",
-  "last_updated": "2026-10-31T09:07:47Z",
+  "last_updated": "2026-11-02T09:19:49Z",
   "name": "M7.0 Earthquake, Nagqu (Baqen County), Tibet, China",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-31T09:07:47Z",
+        "at": "2026-11-02T09:19:49Z",
         "layer": "verify",
-        "run_id": "2026-10-31T09-07-47Z-a5db36"
+        "run_id": "2026-11-02T09-19-49Z-2eaf4b"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-31T09-07-47Z-a5db36"
+    "last_run_id": "2026-11-02T09-19-49Z-2eaf4b"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -66,13 +74,17 @@
   },
   "updates": [
     {
+      "date": "2026-11-02",
+      "text": "GDACS downgraded its alert for the Nagqu earthquake from Red to Orange, with its GDACS score easing from 2 to 1.6; the exposed-population estimate in MMI VII+ zones holds at about 10,000 people, and no updated casualty figures have been published beyond the standing count of at least 16 deaths."
+    },
+    {
       "date": "2026-10-26",
       "text": "Recovery has begun in the quake area: a Xinhua headline mirrored on GDACS's report page reports the first 60 prefabricated houses for affected residents have been completed, with households beginning to move in. No updated casualty figures have been published."
     }
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

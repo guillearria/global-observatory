@@ -2,9 +2,22 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
-## 2026-10-31 — Condense the full Ebola DRC and Washington wildfire logs; restore dropped milestones (`fd761e1`)
+## 2026-11-02 — Threats refresh (2026-11-02): add engineered pandemic; refresh global warming and geomagnetic storm (`27d7519`)
 
-- **Updated:** ebola-bundibugyo-drc-2026, usa-washington-wildfires-2026
+- **Added:** engineered-pandemic
+- **Updated:** extreme-geomagnetic-storm, global-warming
+
+## 2026-11-02 — World Pulse daily refresh (2026-11-02), part 2: China Nagqu earthquake downgraded to Orange; six events (Yangtze floods, India monsoon floods, Nepal glacial flood, Pakistan floods, Thailand Bangkok floods, BC wildfires, Big Sur wildfires, Washington wildfires) moved ongoing to contained as figures plateaued; re-verify remaining Asia/Americas ongoing events (`3c19554`)
+
+- **Updated:** canada-british-columbia-wildfires-2026, china-earthquake-nagqu-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, cyclone-arnab-india-2026, india-monsoon-floods-2026, indonesia-volcano-krakatau-2026, japan-volcano-tokachidake-2026, mindanao-earthquake-philippines-2026, nepal-rasuwa-glacial-flood-2026, pakistan-floods-2026, panama-earthquake-azuero-2026, philippines-kanlaon-volcano-eruption-2026, thailand-bangkok-floods-2026, usa-california-big-sur-wildfires-2026, usa-new-york-measles-outbreak-2026, usa-washington-wildfires-2026
+
+## 2026-11-02 — World Pulse daily refresh (2026-11-02), part 1: Yemen conflict casualty update; re-verify Sudan/Horn, DRC, Mideast and Haiti ongoing events (`9129b25`)
+
+- **Updated:** djibouti-migrant-shipwreck-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, iran-israel-us-war-2026, somalia-baidoa-clashes-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, sudan-drone-strikes-kordofan-abyei-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
+
+## 2026-11-01 — World Pulse daily refresh (2026-11-01): Panama earthquake, El Obeid siege, Kordofan drone strikes, West Bank settler violence, Yemen healthcare collapse updates; Typhoon Champi resolved; re-verify remaining ongoing events (`46cb388`)
+
+- **Updated:** canada-british-columbia-wildfires-2026, china-earthquake-nagqu-2026, china-floods-yangtze-typhoon-dolphin-2026, colombia-earthquake-choco-2026, cyclone-arnab-india-2026, djibouti-migrant-shipwreck-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, india-monsoon-floods-2026, indonesia-volcano-krakatau-2026, iran-israel-us-war-2026, japan-volcano-tokachidake-2026, mindanao-earthquake-philippines-2026, nepal-rasuwa-glacial-flood-2026, pakistan-floods-2026, panama-earthquake-azuero-2026, philippines-kanlaon-volcano-eruption-2026, somalia-baidoa-clashes-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, sudan-drone-strikes-kordofan-abyei-2026, thailand-bangkok-floods-2026, typhoon-champi-guam-mariana-2026, usa-california-big-sur-wildfires-2026, usa-new-york-measles-outbreak-2026, usa-washington-wildfires-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
 
 ## 2026-10-31 — World Pulse daily refresh (2026-10-31), part 4: Ebola DRC toll update; re-verify Africa/Horn/Middle East ongoing events (`d5100eb`)
 

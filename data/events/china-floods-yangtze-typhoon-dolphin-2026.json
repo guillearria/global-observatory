@@ -66,6 +66,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-32",
+      "retrieved_date": "2026-11-02",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
+      "text": "GDACS's flood event report for China (event id 1104081, GLIDE FL-2026-000148-CHN) remains at episode 20, reporting window 31 July-27 September 2026, with the death toll still at 6 and displaced population still at 400,850; no new episode has been published in over five weeks, and the event remains at Orange alert.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-08-16",
       "source_name": "GDACS",
@@ -115,19 +123,19 @@
     },
     {
       "id": "claim-new-sept27",
-      "retrieved_date": "2026-10-31",
+      "retrieved_date": "2026-11-02",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
-      "text": "GDACS's flood event report for China (episode 20, reporting window 31 July - 27 September 2026) records the confirmed death toll unchanged at 6, with 400,850 people displaced, up from 399,045 as of the prior episode; heavy rain caused flooding in areas of Chongqing Municipality in late September 2026, and the event remains at Orange alert. Re-checked 24 October 2026: still the latest published episode (episode 20), with no newer episode and figures unchanged.",
+      "text": "GDACS's flood event report for China (episode 20, reporting window 31 July - 27 September 2026) records the confirmed death toll unchanged at 6, with 400,850 people displaced, up from 399,045 as of the prior episode; heavy rain caused flooding in areas of Chongqing Municipality in late September 2026, and the event remains at Orange alert. Re-checked 1 November 2026: still the latest published episode (episode 20), with no newer episode and figures unchanged.",
       "verification_status": "verified"
     }
   ],
-  "description": "Flooding tied initially to Typhoon Dolphin, and continuing under successive rounds of renewed rain from Typhoon Saudel, a South China Sea tropical depression and new rainfall in Sichuan Province, has affected provinces and municipalities across central, southern and eastern China since 31 July 2026. GDACS's current flood report (episode 20, reporting window 31 July - 27 September 2026) records 400,850 people displaced, unchanged from its prior read, while the confirmed death toll remains at 6, after heavy rain triggered flooding and debris flows in Sichuan Province beginning 19 September 2026 and later in Chongqing Municipality. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert.",
+  "description": "Flooding tied to Typhoon Dolphin and later storms affected provinces across central, southern and eastern China from 31 July 2026. GDACS's flood report (event FL-2026-000148-CHN) holds at episode 20, recording 400,850 people displaced and 6 confirmed deaths, a tally unchanged since 27 September 2026 with no further episode published since. GDACS's event-data API recorded 134 people rescued and 151 buildings damaged or destroyed over the course of the event, which spanned Shaanxi, Hubei, Hunan, Jiangxi, Yunnan, Hainan, Sichuan, Chongqing and Taiwan. The event remains at Orange alert but with no active new flooding reported for over a month, consistent with the end of China's wet season.",
   "event": {
     "impact": {
       "deaths": 6,
       "displaced": 400850,
-      "summary": "GDACS's current flood report (episode 20, reporting window 31 July - 27 September 2026) holds the confirmed death toll at 6 and displaced population at 400,850, both unchanged since the prior episode. GDACS's event-data API has recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, spanning provinces from Shaanxi and Hubei to Hunan, Jiangxi, Yunnan, Hainan, Sichuan, Chongqing and Taiwan, with no new episode published since 27 September 2026."
+      "summary": "GDACS's flood report for China (event FL-2026-000148-CHN) holds the confirmed death toll at 6 and displaced population at 400,850, both unchanged since episode 20 (reporting window ending 27 September 2026); no further episode has been published since. GDACS's event-data API recorded 134 people rescued and 151 buildings damaged or destroyed. The event remains at Orange alert, spanning provinces from Shaanxi and Hubei to Hunan, Jiangxi, Yunnan, Hainan, Sichuan, Chongqing and Taiwan."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104081",
     "location": {
@@ -137,22 +145,27 @@
       "region": "Hubei, Henan, Shaanxi, Shanghai, Zhejiang, Jiangsu, Jiangxi and Hainan provinces/municipalities (Yangtze basin, eastern seaboard and South China Sea coast)"
     },
     "occurrence_date": "2026-07-31",
-    "scale": "GDACS Orange alert; 400,850 displaced across multiple provinces; 6 deaths (as of 27 September 2026)",
-    "status": "ongoing"
+    "scale": "GDACS Orange alert; 400,850 displaced across multiple provinces; 6 deaths; no new episode since 27 September 2026",
+    "status": "contained"
   },
   "id": "china-floods-yangtze-typhoon-dolphin-2026",
-  "last_updated": "2026-10-31T09:07:47Z",
+  "last_updated": "2026-11-02T09:18:09Z",
   "name": "Typhoon Dolphin Flooding, Central China",
   "provenance": {
     "history": [
       {
-        "at": "2026-10-31T09:07:47Z",
+        "at": "2026-11-01T09:16:41Z",
         "layer": "verify",
-        "run_id": "2026-10-31T09-07-47Z-df2226"
+        "run_id": "2026-11-01T09-16-41Z-4c6eb2"
+      },
+      {
+        "at": "2026-11-02T09:18:09Z",
+        "layer": "verify",
+        "run_id": "2026-11-02T09-18-09Z-549b74"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-10-31T09-07-47Z-df2226"
+    "last_run_id": "2026-11-02T09-18-09Z-549b74"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -161,6 +174,10 @@
     "recency_rank": 739828
   },
   "updates": [
+    {
+      "date": "2026-11-02",
+      "text": "No new GDACS episode has been published since 27 September (episode 20); with over five weeks of stable figures (6 deaths, 400,850 displaced) and no new flooding reported, the event moves from ongoing to contained."
+    },
     {
       "date": "2026-09-29",
       "text": "GDACS's latest window (through 27 September) held the death toll at 6 while displacement rose to 400,850 (from 399,045), with new flooding reported in Chongqing Municipality."
@@ -220,7 +237,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
