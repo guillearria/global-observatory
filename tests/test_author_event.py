@@ -1,6 +1,7 @@
 """World Pulse events run through the same deterministic gate as threats (kind='event')."""
 
 import copy
+import json
 
 import pytest
 
@@ -228,3 +229,75 @@ def test_claims_text_exempt_from_prose_checks():
     draft["claims"][0]["text"] = "Re-confirmed by direct fetch on 30 June 2026: 12 deaths."
     rec = finalize(draft, kind="event")
     assert rec["verification"]["status"] == "verified"
+
+
+# --- updates[] drop guard (October 2026: a full log was trimmed oldest-first, losing milestones)
+def _logged(*texts):
+    return {"id": "test-event",
+            "updates": [{"date": f"2026-06-{i + 10:02d}", "text": t} for i, t in enumerate(texts)]}
+
+
+def test_dropped_updates_new_record_or_additive_draft_is_empty():
+    from pipeline.curate import dropped_updates
+
+    assert dropped_updates(None, _logged("A.")) == []
+    prev = _logged("A.", "B.")
+    draft = copy.deepcopy(prev)
+    draft["updates"].append({"date": "2026-06-30", "text": "C."})
+    assert dropped_updates(prev, draft) == []
+
+
+def test_dropped_updates_matches_on_normalized_text():
+    from pipeline.curate import dropped_updates
+
+    prev = _logged("Toll revised to 12.")
+    draft = {"updates": [{"date": " 2026-06-10 ", "text": "  toll REVISED to 12. "}]}
+    assert dropped_updates(prev, draft) == []  # whitespace/case-only differences are not drops
+
+
+def test_dropped_updates_lists_removed_and_rewritten_entries_oldest_first():
+    from pipeline.curate import dropped_updates
+
+    prev = _logged("Oldest.", "Middle.", "Newest.")
+    draft = {"updates": [{"date": "2026-06-12", "text": "Newest, revised."},
+                         {"date": "2026-06-11", "text": "Middle."}]}
+    assert [u["text"] for u in dropped_updates(prev, draft)] == ["Oldest.", "Newest."]
+
+
+def _run_author_event(monkeypatch, tmp_path, draft, *flags):
+    import importlib.util
+    import sys
+    from pathlib import Path
+
+    from pipeline import config
+
+    spec = importlib.util.spec_from_file_location(
+        "author_event", Path(__file__).resolve().parents[1] / "scripts" / "author_event.py")
+    author_event = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(author_event)
+
+    monkeypatch.setattr(config, "EVENTS_DIR", tmp_path / "events")
+    monkeypatch.setattr(config, "QUARANTINE_EVENTS_DIR", tmp_path / "quarantine-events")
+    path = tmp_path / "draft.json"
+    path.write_text(json.dumps(draft), encoding="utf-8")
+    monkeypatch.setattr(sys, "argv", ["author_event", *flags, str(path)])
+    author_event.main()
+    return json.loads((tmp_path / "events" / "test-event.json").read_text(encoding="utf-8"))
+
+
+def test_author_event_refuses_a_draft_that_drops_updates(monkeypatch, tmp_path, capsys):
+    url = "https://earthquake.usgs.gov/x"
+    first = _draft(url, updates=[{"date": "2026-06-26", "text": "Toll revised to 12."},
+                                 {"date": "2026-06-28", "text": "Displacement doubled."}])
+    _run_author_event(monkeypatch, tmp_path, first)
+
+    trimmed = _draft(url, updates=[{"date": "2026-06-28", "text": "Displacement doubled."}])
+    with pytest.raises(SystemExit) as exc:
+        _run_author_event(monkeypatch, tmp_path, copy.deepcopy(trimmed))
+    assert "Refusing" in str(exc.value)
+    assert "Toll revised to 12." in capsys.readouterr().err
+    on_disk = json.loads((tmp_path / "events" / "test-event.json").read_text(encoding="utf-8"))
+    assert len(on_disk["updates"]) == 2  # nothing was written
+
+    rec = _run_author_event(monkeypatch, tmp_path, trimmed, "--condense")
+    assert [u["text"] for u in rec["updates"]] == ["Displacement doubled."]

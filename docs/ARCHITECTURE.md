@@ -86,7 +86,10 @@ Key record fields (see the schema files for the full contract):
 - Event `updates[]` — optional dated development log (`{date, text}`, newest first, capped at 30
   entries × 400 chars, Python-enforced), mirroring provenance's capped-append precedent. One
   entry per material development or correction; a no-change re-verify only bumps the confirming
-  claim's `retrieved_date`. Feeds no derived field, so it is deliberately unaudited.
+  claim's `retrieved_date`. Feeds no derived field, so it is deliberately unaudited — but it is
+  a public timeline, so `author_event.py` refuses a draft that drops existing entries unless
+  `--condense` is passed (and lists them either way), and `validate_data.py` warns from 25
+  entries. Full logs are condensed into monthly summaries, never trimmed oldest-first.
 - Threat `assessment.probability` carries a categorical `estimate` plus optional published
   `numeric_annual` — no invented precision.
 - Event `event.location` carries optional `lat`/`lon` (WGS84 decimal degrees) — the World Pulse

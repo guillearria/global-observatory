@@ -38,6 +38,20 @@ def _validate_dir(directory, kind: str = "threat", *, quarantined: bool = False)
     return errs
 
 
+def _updates_warnings() -> list[str]:
+    """Events whose updates[] log is close to the cap. Advisory: printed, never a failure."""
+    warns = []
+    for slug, rec in store.load_all(kind="event").items():
+        n = len(rec.get("updates") or [])
+        if n >= config.EVENT_UPDATES_WARN_ENTRIES:
+            warns.append(
+                f"{slug}.json: updates[] has {n}/{config.EVENT_UPDATES_MAX_ENTRIES} entries — "
+                "condense older figure-only entries now (see 'Condensing updates[]' in "
+                ".claude/commands/refresh-events.md); never delete entries to fit"
+            )
+    return warns
+
+
 def _count(directory) -> int:
     return len(list(directory.glob("*.json"))) if directory.exists() else 0
 
@@ -52,6 +66,8 @@ def main() -> None:
         + _validate_dir(config.HISTORICAL_DIR, "historical")
         + _validate_dir(config.QUARANTINE_HISTORICAL_DIR, "historical", quarantined=True)
     )
+    for w in _updates_warnings():
+        print("WARN", w)
     for e in errs:
         print("FAIL", e)
     if errs:

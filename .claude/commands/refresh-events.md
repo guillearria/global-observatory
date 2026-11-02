@@ -131,20 +131,47 @@ events so cached figures don't go stale.)
    - `updates[]` (optional): the dated development log, each `{date:"<ISO date>", text:"≤400 chars"}`,
      newest first — **one entry per material development or correction, none for no-change
      re-checks** (those only bump the confirming claim's `retrieved_date`). The script sorts and
-     dedupes; the validator caps it at 30 entries.
+     dedupes; the validator caps it at 30 entries and warns from 25.
+     **A running tally gets at most one entry a week.** When the only change is a figure that
+     moves on every check (an outbreak's case count, a fire's containment %, a cumulative
+     displacement total) and the newest entry is itself figure-only and under 7 days old, revise
+     that entry in place to the new figures and today's date instead of stacking another. A
+     milestone always gets its own entry: a first case or spread into a new country or province,
+     an emergency declaration or its end, a record broken, a major vaccine/aid/funding decision,
+     a status change, a correction.
    Use the existing `data/events/*.json` as shape references.
+
+   **Condensing updates[]** (do this whenever `validate_data.py` prints a `WARN … updates[]` line,
+   in the same run): the log is a public timeline, so **never delete entries to fit the cap** —
+   that is how the DRC Ebola record lost its July–August milestones in October 2026. Instead:
+   - Keep every milestone entry (as defined above) word for word.
+   - Merge the oldest run of figure-only entries into **one** summary entry per calendar month,
+     dated at the newest entry it absorbs, stating where the figures started and ended over that
+     span (e.g. "Through September the DRC toll rose from 6,342 cases/3,072 deaths (data to
+     2 Sep) to 8,116/3,924 (27 Sep), …").
+   - Use only figures already written in the entries you merge — condensing adds no new facts.
+   - Work oldest month first until the log is at 20 entries or fewer (or only milestones and
+     the current month are left), so it has room to grow again.
 
 4. **Finalize through the gate** (writes to `data/events/` or `data/quarantine-events/` by result):
    ```sh
    python scripts/author_event.py path/to/draft.json
    ```
    Review the printed status. Investigate any unexpected quarantine.
+   If your draft removes or rewrites any existing `updates[]` entry, the script **refuses** and
+   lists them. That is correct when you have folded them into kept entries (the weekly tally
+   revision or a condense above): re-run with `--condense`. If it lists an entry you did not mean
+   to touch, put it back — do not reach for `--condense` to make the error go away.
 
 5. **Verify locally:**
    ```sh
    python scripts/validate_data.py && python scripts/build_frontend.py && python -m pytest -q
+   git fetch --unshallow origin 2>/dev/null || true  # the changelog needs full history
    python -c "from pipeline import changelog; changelog.regenerate()"
    ```
+   If `regenerate()` refuses with a shallow-clone error even after the unshallow, leave
+   `CHANGELOG.md` alone, say so in your final summary, and carry on — a stale changelog is
+   repaired by the next full-history run; one regenerated from truncated history is corrupt.
 
 6. **Commit and push — no PR.** Every dataset auto-publishes; the deterministic gate is the
    verification layer, not a reviewer. Commit `data/events/` (+ `data/quarantine-events/` if

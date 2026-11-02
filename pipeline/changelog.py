@@ -120,7 +120,24 @@ def render() -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
+class ShallowCloneError(RuntimeError):
+    """Raised instead of writing a changelog from truncated history."""
+
+
+def _is_shallow() -> bool:
+    return _git("rev-parse", "--is-shallow-repository").strip() == "true"
+
+
 def regenerate() -> str:
+    # In a shallow clone the graft boundary looks like the commit that added every file, so the
+    # projection silently flattens weeks of history into one "Added" list. Cloud refresh runs did
+    # exactly that in August (twice) and again on 2026-10-19 and 2026-10-22, while a note said to
+    # check first. Refuse here rather than rely on the note.
+    if _is_shallow():
+        raise ShallowCloneError(
+            "refusing to regenerate CHANGELOG.md from a shallow clone — it would drop history. "
+            "Run `git fetch --unshallow origin` first."
+        )
     text = render()
     config.CHANGELOG_PATH.write_text(text, encoding="utf-8")
     return text
