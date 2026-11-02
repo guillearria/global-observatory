@@ -154,6 +154,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-32",
+      "retrieved_date": "2026-11-02",
+      "source_name": "WHO",
+      "source_url": "https://www.emro.who.int/images/stories/yemen/Yemen-Conflict-Escalation-Situation-Report-09.pdf",
+      "text": "WHO's Conflict Escalation in Yemen Situation Report #9 (reporting period 20-25 October 2026, issued 28 October 2026) records the MoPHP Health Emergency Operations Centre's cumulative casualty register at 9,072 (7,395 injured, 1,677 deaths) by 25 October, an increase of 559 (456 injured, 103 deaths) since Sitrep #8's 8,513 at 19 October. Marib was the most lethal front, recording 45 deaths among 143 casualties (31%), more than Taiz (34 of 237) or Lahj (21 of 158); on 22 and 23 October, deaths in Marib outnumbered injuries. The Shabwah Health Office revised the toll from the 19 October missile strike on Al-Alam Camp near Ataq upward to 235 casualties (69 deaths, 166 injured), with 21 critical patients transferred to Mukalla. IOM's DTM recorded 276,301 people displaced (46,044 households) as of 24 October, with the pace of new displacement slowing sharply after mid-October. Suspected cholera cases across the five most-affected governorates declined to 447 in week 42, down from a peak of 639 in week 40, though 3 confirmed cases and 1 death in Marib point to possible spread beyond the southern belt; Marib's primary healthcare network has weakened further, with only 6 of 31 mobile medical teams still operating (down from 31 in 2025) and 15 facilities non-functional.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-09-11",
       "source_name": "United Nations",
@@ -202,12 +210,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Yemen's Houthi (DFA) rebels seized the Red Sea port of Mocha and the rest of the Bab el-Mandeb coast in September 2026, and by late October had largely encircled Taiz while opening a new front in Shabwah governorate. WHO's Situation Report #8 (19 October) puts cumulative casualties at 8,513 (1,574 deaths, 6,939 injured), up 1,340 in the preceding eight days, with Marib and Shabwah the most lethal fronts. IOM's Displacement Tracking Matrix now records 287,767 people displaced since the escalation began in June 2026, as of 27 October, up from 276,301 as of 24 October. Taiz city's hospital system remains near breaking point, with its main supply road cut and 42 health facilities reporting acute shortages, and the WHO has had to deliver trauma and emergency-surgery kits to hospitals there; in Marib, primary healthcare is nearing collapse from funding cuts, with just 6 of 31 mobile medical teams still operating and 15 health facilities shut. WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) so far this year.",
+  "description": "Houthi (DFA) forces have encircled Taiz and expanded fighting into Marib and Shabwah governorates amid Yemen's conflict escalation that began in June 2026. WHO's Situation Report #9 (20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths), up 559 in six days, with Marib now the most lethal front and a missile strike on Shabwah's Al-Alam Camp revised upward to 235 casualties. IOM's Displacement Tracking Matrix records 287,767 people displaced since the escalation began, as of 27 October. Taiz city's hospital system remains near breaking point, with its main supply road cut and WHO delivering trauma kits there on 24 October; in Marib, only 6 of 31 mobile medical teams remain operational amid funding cuts. Suspected cholera cases have declined to 447 in week 42 across the worst-affected governorates, down from a week-40 peak of 639, though new cases in Marib suggest possible spread.",
   "event": {
     "impact": {
-      "deaths": 1574,
+      "deaths": 1677,
       "displaced": 287767,
-      "summary": "WHO's Conflict Escalation Situation Report #8 (20 October 2026, period 12-19 October) puts cumulative casualties at 8,513 (6,939 injured, 1,574 deaths) as of 19 October, up 1,340 in eight days, with a new front opened in Shabwah (216 casualties, 51 deaths in two days). IOM's DTM dataset (28 October) puts cumulative displacement since the escalation began in June 2026 at 287,767 people (47,955 households) as of 27 October, up from 276,301 on 24 October; Ta'iz remains the largest governorate (45%), followed by Lahj (25%) and Aden (18%). Taiz city's hospital system is near breaking point -- its main supply road is cut, 42 health facilities report acute shortages, and WHO has delivered trauma kits there -- while in Marib, funding cuts have left primary healthcare on the verge of collapse, with only 6 of 31 mobile medical teams still operating and 15 facilities shut. WHO counts 8,034 suspected cholera cases (27 deaths) and more than 22,800 suspected measles cases (128 deaths) this year; weekly cholera cases have declined to 562 in week 41, down from a peak of 639 in week 40."
+      "summary": "WHO's Conflict Escalation Situation Report #9 (28 October 2026, period 20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths) as of 25 October, up 559 in six days; Marib is now the most lethal front, recording 45 deaths among 143 casualties, and the Shabwah Health Office revised the toll from the 19 October Al-Alam Camp missile strike upward to 235 casualties (69 deaths). IOM's DTM dataset (28 October) puts cumulative displacement since the escalation began in June 2026 at 287,767 people (47,955 households) as of 27 October, up from 276,301 on 24 October; Ta'iz remains the largest governorate (45%), followed by Lahj (25%) and Aden (18%). Taiz city's hospital system is near breaking point -- its main supply road is cut, and WHO delivered trauma kits to three hospitals and a health centre there on 24 October -- while in Marib, funding cuts have left only 6 of 31 mobile medical teams operational and 15 facilities shut. Suspected cholera cases have declined to 447 in week 42 across the five most-affected governorates, down from a peak of 639 in week 40, though 3 confirmed cases and 1 death in Marib point to possible spread beyond the southern belt."
     },
     "live_source_url": "https://www.emro.who.int/yemen/information-resources/yemen-conflict-escalation-situation-report.html",
     "location": {
@@ -217,22 +225,22 @@
       "region": "Ta'izz Governorate (Mocha, Al-Mokha) and Yemen's West Coast; attacks also in the Bab el-Mandeb Strait and against Saudi Arabia"
     },
     "occurrence_date": "2026-08-07",
-    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have largely encircled Taiz, with a new front active in Shabwah; WHO records 8,513 cumulative casualties (1,574 deaths) as of 19 October and IOM 287,767 displaced as of 27 October 2026",
+    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have largely encircled Taiz, with Marib now the most lethal front; WHO records 9,072 cumulative casualties (1,677 deaths) as of 25 October and IOM 287,767 displaced as of 27 October 2026",
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-11-01T09:19:26Z",
+  "last_updated": "2026-11-02T09:14:46Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-01T09:19:26Z",
+        "at": "2026-11-02T09:14:46Z",
         "layer": "verify",
-        "run_id": "2026-11-01T09-19-26Z-26bcde"
+        "run_id": "2026-11-02T09-14-46Z-e92ca7"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-01T09-19-26Z-26bcde"
+    "last_run_id": "2026-11-02T09-14-46Z-e92ca7"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -244,6 +252,10 @@
     {
       "date": "2026-10-29",
       "text": "WHO delivered trauma and emergency-surgery kits to hospitals in Taiz city, which remains almost entirely surrounded by Houthi forces, amid acute shortages of medicines, fuel and water; in Marib, WHO said primary healthcare is nearing collapse from funding cuts, with just 6 of 31 mobile medical teams still operating and 15 health facilities shut."
+    },
+    {
+      "date": "2026-10-28",
+      "text": "WHO's Situation Report #9 (20-25 October) recorded cumulative casualties rising to 9,072 (7,395 injured, 1,677 deaths), up 559 in six days; Marib emerged as the most lethal front (45 deaths among 143 casualties), and Shabwah's Al-Alam Camp missile-strike toll was revised upward to 235 casualties (69 deaths)."
     },
     {
       "date": "2026-10-28",
@@ -320,7 +332,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 25 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 26 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
