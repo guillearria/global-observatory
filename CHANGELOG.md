@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-03 — World Pulse daily refresh (2026-11-03): add Cyclone Murasu (India, GDACS Red); Ebola DRC spreads to Nigeria; Yemen displacement to 300,391; condense BC wildfires and Pakistan floods logs; re-verify remaining ongoing events (`437357a`)
+
+- **Added:** cyclone-murasu-india-2026
+- **Updated:** canada-british-columbia-wildfires-2026, china-earthquake-nagqu-2026, colombia-earthquake-choco-2026, djibouti-migrant-shipwreck-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, indonesia-volcano-krakatau-2026, indonesia-wildfires-haze-2026, iran-israel-us-war-2026, japan-volcano-tokachidake-2026, mindanao-earthquake-philippines-2026, pakistan-floods-2026, panama-earthquake-azuero-2026, philippines-kanlaon-volcano-eruption-2026, somalia-baidoa-clashes-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, sudan-drone-strikes-kordofan-abyei-2026, usa-new-york-measles-outbreak-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
+
 ## 2026-11-02 — Threats refresh (2026-11-02): add engineered pandemic; refresh global warming and geomagnetic storm (`27d7519`)
 
 - **Added:** engineered-pandemic
