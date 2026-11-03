@@ -419,7 +419,7 @@
     },
     {
       "id": "claim-new-ecdc-oct30",
-      "retrieved_date": "2026-11-02",
+      "retrieved_date": "2026-11-03",
       "source_name": "ECDC",
       "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
       "text": "ECDC's country overview (page last updated 30 October 2026, 16:00) reports the Democratic Republic of the Congo has recorded a total of 10,274 confirmed cases, including 4,992 related deaths, as of 29 October 2026 (data through 28 October 2026), up from 10,193 cases and 4,960 deaths the prior day. Kenya's case count remains nine confirmed cases, including two deaths, as of 26 October 2026, unchanged.",
@@ -562,6 +562,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-new-nigeria-oct20",
+      "retrieved_date": "2026-11-03",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "ECDC's country overview reports that on 20 October 2026 an Ebola case was reported in Nigeria: the individual had a travel history to Uganda, developed symptoms on 7 October, sought medical care on 11 October, and tested positive on 20 October. As of 29 October 2026, 62 contacts of the case had been identified and were under follow-up, with further contact tracing and epidemiological investigations ongoing. On 26 October, the Nigeria case and a close contact of hers were medically evacuated to Switzerland. ECDC reports no evidence of onward community transmission in Nigeria.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-new-oct12",
       "retrieved_date": "2026-10-15",
       "source_name": "ECDC",
@@ -602,42 +610,37 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with a cross-border chain in Kenya and a now-closed outbreak in Uganda. ECDC's newest country overview (data through 28 October 2026) puts the DRC toll at 10,274 confirmed cases and 4,992 deaths across eight provinces, up from 10,193/4,960 the day before. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
+  "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda (now closed), Kenya, France, Germany and, as of 20 October, Nigeria. ECDC's newest country overview (data through 28 October 2026) puts the DRC toll at 10,274 confirmed cases and 4,992 deaths across eight provinces, up from 10,193/4,960 the day before. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland on 26 October with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
   "event": {
     "impact": {
       "deaths": 4992,
       "displaced": null,
-      "summary": "ECDC's newest country overview (page last updated 30 October 2026, 16:00) puts the DRC toll at 10,274 confirmed cases and 4,992 deaths as of 29 October 2026 (data through 28 October), up from 10,193 cases and 4,960 deaths the prior day. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+      "summary": "ECDC's newest country overview (page last updated 30 October 2026, 16:00) puts the DRC toll at 10,274 confirmed cases and 4,992 deaths as of 29 October 2026 (data through 28 October), up from 10,193 cases and 4,960 deaths the prior day. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Nigeria reported a single imported case on 20 October (travel history to Uganda), medically evacuated to Switzerland on 26 October with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
     "location": {
       "country": "Democratic Republic of the Congo",
       "lat": 1.95,
       "lon": 30.04,
-      "region": "Ituri Province (Mongbwalu), DRC, with cases in Uganda and imported cases in France, Germany and Kenya"
+      "region": "Ituri Province (Mongbwalu), DRC, with cases in Uganda and imported cases in France, Germany, Kenya and Nigeria"
     },
     "occurrence_date": "2026-05-15",
     "scale": "PHEIC",
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-11-02T14:41:26Z",
+  "last_updated": "2026-11-03T09:12:57Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-02T09:14:45Z",
+        "at": "2026-11-03T09:12:57Z",
         "layer": "verify",
-        "run_id": "2026-11-02T09-14-45Z-d0020e"
-      },
-      {
-        "at": "2026-11-02T14:41:26Z",
-        "layer": "verify",
-        "run_id": "2026-11-02T14-41-26Z-39036f"
+        "run_id": "2026-11-03T09-12-57Z-036319"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-02T14-41-26Z-39036f"
+    "last_run_id": "2026-11-03T09-12-57Z-036319"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -646,6 +649,10 @@
     "recency_rank": 739751
   },
   "updates": [
+    {
+      "date": "2026-11-03",
+      "text": "Nigeria reported its first imported Bundibugyo Ebola case on 20 October (travel history to Uganda), becoming the outbreak's ninth affected country; the patient and a close contact were medically evacuated to Switzerland on 26 October, with 62 contacts under follow-up and no evidence of onward transmission (ECDC)."
+    },
     {
       "date": "2026-10-31",
       "text": "ECDC's country overview (updated 30 October) raised the DRC toll to 10,274 confirmed cases and 4,992 deaths (data through 28 October), up from 9,964/4,851 four days earlier (data through 24 October); Kenya's linked case count held steady at nine confirmed cases and two deaths."
@@ -713,7 +720,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 75 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 76 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
