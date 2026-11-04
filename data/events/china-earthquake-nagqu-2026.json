@@ -32,14 +32,22 @@
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
       "text": "GDACS's earthquake report for this event (event id 1573141, episode 1741837), checked 2 November 2026, now rates the event Overall Orange alert, down from the Red alert recorded a week earlier, with a GDACS score of 1.6 (down from 2); the exposed-population estimate remains at about 10,000 people in zones of MMI VII or greater shaking, and the same mirrored media headlines (prefabricated-housing reconstruction in Xizang, dated 26 October) remain the most recent items on the page, with no updated casualty figures.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-11-04",
+      "source_name": "GDACS",
+      "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
+      "text": "GDACS's earthquake report for this event (event id 1573141, episode 1741837), re-checked 4 November 2026, remains Overall Orange with its automated GDACS score at 1.9 (up slightly from 1.6 three days earlier); the exposed-population estimate is unchanged at about 10,000 people in MMI VII or greater zones, and no updated casualty figures or newer episode have been published beyond the 26 October prefabricated-housing headline already on record.",
+      "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.0 earthquake struck Baqen County, Nagqu Prefecture, in the Tibet Autonomous Region (Xizang) of China on 22 October 2026. USGS located the epicenter about 191 km ENE of Nagqu at a depth of 18 km and assessed an Orange PAGER shaking-impact alert, with roughly 10,000 people estimated exposed to MMI VII or greater shaking. GDACS has since downgraded its own alert for the event from Red to Orange, with its GDACS score easing from 2 to 1.6, while its exposed-population estimate holds at about 10,000 people. Media reports mirrored on GDACS's event page cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed; no updated casualty figures have been published and no tsunami was generated. A Xinhua headline mirrored on GDACS's report page (26 October) reports the first 60 prefabricated houses for affected residents have been completed, with households beginning to move in.",
+  "description": "A magnitude 7.0 earthquake struck Baqen County, Nagqu Prefecture, in the Tibet Autonomous Region (Xizang) of China on 22 October 2026. USGS located the epicenter about 191 km ENE of Nagqu at a depth of 18 km and assessed an Orange PAGER shaking-impact alert, with roughly 10,000 people estimated exposed to MMI VII or greater shaking. GDACS continues to rate the event Overall Orange, with its automated score easing from 2 to 1.6 and then edging back up to 1.9 as its model refreshes; its exposed-population estimate holds at about 10,000 people throughout. Media reports mirrored on GDACS's event page cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed; no updated casualty figures have been published and no tsunami was generated. A Xinhua headline mirrored on GDACS's report page (26 October) reports the first 60 prefabricated houses for affected residents have been completed, with households beginning to move in.",
   "event": {
     "impact": {
       "deaths": 16,
       "displaced": null,
-      "summary": "GDACS has downgraded its event report (GLIDE EQ-2026-000195-CHN) from an Overall Red alert to Orange, with its GDACS score easing from 2 to 1.6; its exposed-population estimate holds at about 10,000 people in zones of MMI VII or greater shaking, matching USGS's Orange PAGER alert. Media headlines mirrored on GDACS's page still cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed in Baqen County, Nagqu Prefecture; no updated casualty figures have been published. No tsunami was generated, and recovery continues, with the first 60 prefabricated houses for affected residents completed as of 26 October."
+      "summary": "GDACS continues to rate its event report (GLIDE EQ-2026-000195-CHN) Overall Orange, with its automated score having eased from 2 to 1.6 and since edged back up to 1.9; its exposed-population estimate holds steady at about 10,000 people in zones of MMI VII or greater shaking, matching USGS's Orange PAGER alert. Media headlines mirrored on GDACS's page still cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed in Baqen County, Nagqu Prefecture; no updated casualty figures have been published. No tsunami was generated, and recovery continues, with the first 60 prefabricated houses for affected residents completed as of 26 October."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
     "location": {
@@ -49,22 +57,22 @@
       "region": "Baqen County, Nagqu Prefecture, Tibet Autonomous Region (Xizang)"
     },
     "occurrence_date": "2026-10-22",
-    "scale": "M7.0; GDACS Orange alert (downgraded from Red); USGS PAGER Orange",
+    "scale": "M7.0; GDACS Orange alert; USGS PAGER Orange",
     "status": "ongoing"
   },
   "id": "china-earthquake-nagqu-2026",
-  "last_updated": "2026-11-03T09:11:40Z",
+  "last_updated": "2026-11-04T09:09:47Z",
   "name": "M7.0 Earthquake, Nagqu (Baqen County), Tibet, China",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-03T09:11:40Z",
+        "at": "2026-11-04T09:09:47Z",
         "layer": "verify",
-        "run_id": "2026-11-03T09-11-40Z-24a3c8"
+        "run_id": "2026-11-04T09-09-47Z-f9aed8"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-03T09-11-40Z-24a3c8"
+    "last_run_id": "2026-11-04T09-09-47Z-f9aed8"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -84,7 +92,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

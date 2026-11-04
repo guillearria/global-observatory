@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T09:16:08Z",
+  "last_updated": "2026-11-04T09:15:40Z",
   "published": [
     {
       "category": "flood",
@@ -1005,14 +1005,22 @@
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1573141, episode 1741837), checked 2 November 2026, now rates the event Overall Orange alert, down from the Red alert recorded a week earlier, with a GDACS score of 1.6 (down from 2); the exposed-population estimate remains at about 10,000 people in zones of MMI VII or greater shaking, and the same mirrored media headlines (prefabricated-housing reconstruction in Xizang, dated 26 October) remain the most recent items on the page, with no updated casualty figures.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-11-04",
+          "source_name": "GDACS",
+          "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
+          "text": "GDACS's earthquake report for this event (event id 1573141, episode 1741837), re-checked 4 November 2026, remains Overall Orange with its automated GDACS score at 1.9 (up slightly from 1.6 three days earlier); the exposed-population estimate is unchanged at about 10,000 people in MMI VII or greater zones, and no updated casualty figures or newer episode have been published beyond the 26 October prefabricated-housing headline already on record.",
+          "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.0 earthquake struck Baqen County, Nagqu Prefecture, in the Tibet Autonomous Region (Xizang) of China on 22 October 2026. USGS located the epicenter about 191 km ENE of Nagqu at a depth of 18 km and assessed an Orange PAGER shaking-impact alert, with roughly 10,000 people estimated exposed to MMI VII or greater shaking. GDACS has since downgraded its own alert for the event from Red to Orange, with its GDACS score easing from 2 to 1.6, while its exposed-population estimate holds at about 10,000 people. Media reports mirrored on GDACS's event page cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed; no updated casualty figures have been published and no tsunami was generated. A Xinhua headline mirrored on GDACS's report page (26 October) reports the first 60 prefabricated houses for affected residents have been completed, with households beginning to move in.",
+      "description": "A magnitude 7.0 earthquake struck Baqen County, Nagqu Prefecture, in the Tibet Autonomous Region (Xizang) of China on 22 October 2026. USGS located the epicenter about 191 km ENE of Nagqu at a depth of 18 km and assessed an Orange PAGER shaking-impact alert, with roughly 10,000 people estimated exposed to MMI VII or greater shaking. GDACS continues to rate the event Overall Orange, with its automated score easing from 2 to 1.6 and then edging back up to 1.9 as its model refreshes; its exposed-population estimate holds at about 10,000 people throughout. Media reports mirrored on GDACS's event page cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed; no updated casualty figures have been published and no tsunami was generated. A Xinhua headline mirrored on GDACS's report page (26 October) reports the first 60 prefabricated houses for affected residents have been completed, with households beginning to move in.",
       "event": {
         "impact": {
           "deaths": 16,
           "displaced": null,
-          "summary": "GDACS has downgraded its event report (GLIDE EQ-2026-000195-CHN) from an Overall Red alert to Orange, with its GDACS score easing from 2 to 1.6; its exposed-population estimate holds at about 10,000 people in zones of MMI VII or greater shaking, matching USGS's Orange PAGER alert. Media headlines mirrored on GDACS's page still cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed in Baqen County, Nagqu Prefecture; no updated casualty figures have been published. No tsunami was generated, and recovery continues, with the first 60 prefabricated houses for affected residents completed as of 26 October."
+          "summary": "GDACS continues to rate its event report (GLIDE EQ-2026-000195-CHN) Overall Orange, with its automated score having eased from 2 to 1.6 and since edged back up to 1.9; its exposed-population estimate holds steady at about 10,000 people in zones of MMI VII or greater shaking, matching USGS's Orange PAGER alert. Media headlines mirrored on GDACS's page still cite at least 16 deaths, injuries reported between 65 and 76, and hundreds of houses collapsed in Baqen County, Nagqu Prefecture; no updated casualty figures have been published. No tsunami was generated, and recovery continues, with the first 60 prefabricated houses for affected residents completed as of 26 October."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
         "location": {
@@ -1022,22 +1030,22 @@
           "region": "Baqen County, Nagqu Prefecture, Tibet Autonomous Region (Xizang)"
         },
         "occurrence_date": "2026-10-22",
-        "scale": "M7.0; GDACS Orange alert (downgraded from Red); USGS PAGER Orange",
+        "scale": "M7.0; GDACS Orange alert; USGS PAGER Orange",
         "status": "ongoing"
       },
       "id": "china-earthquake-nagqu-2026",
-      "last_updated": "2026-11-03T09:11:40Z",
+      "last_updated": "2026-11-04T09:09:47Z",
       "name": "M7.0 Earthquake, Nagqu (Baqen County), Tibet, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:40Z",
+            "at": "2026-11-04T09:09:47Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-40Z-24a3c8"
+            "run_id": "2026-11-04T09-09-47Z-f9aed8"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-40Z-24a3c8"
+        "last_run_id": "2026-11-04T09-09-47Z-f9aed8"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1057,7 +1065,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -1563,7 +1571,7 @@
         },
         {
           "id": "claim-12",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1557236, episode 1724218) remains an Overall Red alert with a GDACS score of 2.2, now estimating about 5.4 million people within zones of MMI VII or greater shaking, up from about 5.2 million previously recorded on the same page; the most recent listed activity is UNITAR-UNOSAT's 'Potentially Damaged Buildings' assessment, activated 21 August 2026 10:25 UTC.",
@@ -1709,18 +1717,18 @@
         "status": "ongoing"
       },
       "id": "colombia-earthquake-choco-2026",
-      "last_updated": "2026-11-03T09:11:40Z",
+      "last_updated": "2026-11-04T09:09:47Z",
       "name": "M7.4 Earthquake, Chocó, Colombia",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:40Z",
+            "at": "2026-11-04T09:09:47Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-40Z-05910f"
+            "run_id": "2026-11-04T09-09-47Z-c8f9a4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-40Z-05910f"
+        "last_run_id": "2026-11-04T09-09-47Z-c8f9a4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1904,7 +1912,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
           "text": "GDACS rates Tropical Cyclone MURASU-26 (event id 1001346, GLIDE TC-2026-000199-IND) an Overall Red alert (GDACS score 2.5, JTWC single-source maximum expected impact), with the event window running 1 November 2026 00:00 UTC to 3 November 2026 06:00 UTC. Maximum sustained winds are 157 km/h (Category 2, JTWC model; other models range 68-148 km/h), with about 1.5 million people exposed to Category 1 or higher winds in India and high vulnerability assessed for the country. GDACS's PAGER-style casualty section is empty; no deaths, injuries or damage have been reported.",
@@ -1930,18 +1938,18 @@
         "status": "ongoing"
       },
       "id": "cyclone-murasu-india-2026",
-      "last_updated": "2026-11-03T09:14:16Z",
+      "last_updated": "2026-11-04T09:09:50Z",
       "name": "Tropical Cyclone Murasu — India",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:14:16Z",
+            "at": "2026-11-04T09:09:50Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-14-16Z-dd5379"
+            "run_id": "2026-11-04T09-09-50Z-3650c3"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-14-16Z-dd5379"
+        "last_run_id": "2026-11-04T09-09-50Z-3650c3"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1960,7 +1968,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168573",
           "text": "UN News, citing IOM: a boat carrying 305 people from Djibouti toward Yemen capsized near Guehere, north of Obock, in the early hours of Friday (9 October 2026). The confirmed death toll rose to at least 139, including children, with 84 people still missing, up from an initial count of 109 dead and 116 missing after the bodies of 30 more people were recovered; about 82 of the 305 aboard survived. IOM Resident Coordinator Jose Barahona said at least 139 lives were lost, and IOM called it one of the deadliest shipwrecks recorded on the Eastern Route from the Horn of Africa to the Arabian Peninsula.",
@@ -1986,18 +1994,18 @@
         "status": "ongoing"
       },
       "id": "djibouti-migrant-shipwreck-2026",
-      "last_updated": "2026-11-03T09:11:42Z",
+      "last_updated": "2026-11-04T09:11:27Z",
       "name": "Migrant Boat Shipwreck — Obock, Djibouti",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:42Z",
+            "at": "2026-11-04T09:11:27Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-42Z-0ba95d"
+            "run_id": "2026-11-04T09-11-27Z-2d335a"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-42Z-0ba95d"
+        "last_run_id": "2026-11-04T09-11-27Z-2d335a"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2040,7 +2048,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168499",
           "text": "The same UN News report (1 October 2026) states that \"a key transit centre for patients requiring treatment burned down\" at Bunia's Kigonze displacement camp, which \"now lies abandoned,\" setting back the regional Ebola response; UN official Julien Harneis said: \"It's been a huge struggle to create Ebola transit centres [and] Ebola treatment centres; it's required money, bringing in staff and it's been a struggle all across the east. So, when we lose a centre, that means we lose capacity, we lose investment and we have to start again.\"",
@@ -2066,18 +2074,18 @@
         "status": "ongoing"
       },
       "id": "drc-north-kivu-ituri-displacement-2026",
-      "last_updated": "2026-11-03T09:11:42Z",
+      "last_updated": "2026-11-04T09:11:27Z",
       "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:42Z",
+            "at": "2026-11-04T09:11:27Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-42Z-8daa93"
+            "run_id": "2026-11-04T09-11-27Z-f2637c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-42Z-8daa93"
+        "last_run_id": "2026-11-04T09-11-27Z-f2637c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2526,7 +2534,7 @@
         },
         {
           "id": "claim-new-ecdc-oct30",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "ECDC",
           "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
           "text": "ECDC's country overview (page last updated 30 October 2026, 16:00) reports the Democratic Republic of the Congo has recorded a total of 10,274 confirmed cases, including 4,992 related deaths, as of 29 October 2026 (data through 28 October 2026), up from 10,193 cases and 4,960 deaths the prior day. Kenya's case count remains nine confirmed cases, including two deaths, as of 26 October 2026, unchanged.",
@@ -2670,7 +2678,7 @@
         },
         {
           "id": "claim-new-nigeria-oct20",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "ECDC",
           "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
           "text": "ECDC's country overview reports that on 20 October 2026 an Ebola case was reported in Nigeria: the individual had a travel history to Uganda, developed symptoms on 7 October, sought medical care on 11 October, and tested positive on 20 October. As of 29 October 2026, 62 contacts of the case had been identified and were under follow-up, with further contact tracing and epidemiological investigations ongoing. On 26 October, the Nigeria case and a close contact of hers were medically evacuated to Switzerland. ECDC reports no evidence of onward community transmission in Nigeria.",
@@ -2736,18 +2744,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-11-03T09:12:57Z",
+      "last_updated": "2026-11-04T09:09:50Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:12:57Z",
+            "at": "2026-11-04T09:09:50Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-12-57Z-036319"
+            "run_id": "2026-11-04T09-09-50Z-52092c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-12-57Z-036319"
+        "last_run_id": "2026-11-04T09-09-50Z-52092c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2948,7 +2956,7 @@
         },
         {
           "id": "claim-26",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168696",
           "text": "UN News (28 October 2026), briefing by the UN Fact-Finding Mission for Sudan (chair Mohamed Chande Othman): RSF drone strikes continue to kill and wound civilians in El Obeid and to damage homes, schools, displacement sites and electricity and water systems, and these strikes 'may amount to war crimes.' An expert cited in the article said only around 30 percent of hospitals in the city remained operational. The Mission separately said Sudanese Armed Forces (SAF) security cells have arrested thousands in El Obeid, held and reportedly tortured in unofficial locations and in El Obeid Central Prison, which reportedly holds about 2,000 people against a stated capacity of about 450; a former detainee described up to 40 people held in a single cell of roughly 2.5 by 2 metres.",
@@ -3014,18 +3022,18 @@
         "status": "ongoing"
       },
       "id": "el-obeid-siege-sudan-2026",
-      "last_updated": "2026-11-03T09:11:41Z",
+      "last_updated": "2026-11-04T09:09:48Z",
       "name": "Siege of El Obeid — North Kordofan, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:41Z",
+            "at": "2026-11-04T09:09:48Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-41Z-c26de6"
+            "run_id": "2026-11-04T09-09-48Z-2dc1b4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-41Z-c26de6"
+        "last_run_id": "2026-11-04T09-09-48Z-2dc1b4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3854,7 +3862,7 @@
         },
         {
           "id": "claim-30",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "IOM Displacement Tracking Matrix (DTM)",
           "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-113-displacement-following-armed-violence-commune-croix-des",
           "text": "IOM DTM 'Haiti -- Emergency Tracking Tool (ETT) 113' (armed violence from 18 October 2026, covering through 26 October 2026, published 27 October 2026) recorded approximately 1,937 people (474 households) displaced by armed violence in the commune of Croix-des-Bouquets, West department, mainly affecting the Santo, Marassa and Djaboul neighbourhoods -- a separate incident from the Gros-Morne, Petite Riviere de l'Artibonite and Arcahaie displacements already tracked. 59% sought refuge in the neighbouring commune of Tabarre; 85% are staying with host families and 15% settled in five spontaneous sites.",
@@ -3862,7 +3870,7 @@
         },
         {
           "id": "claim-31",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "IOM Displacement Tracking Matrix (DTM)",
           "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-1121-updates-displacement-following-armed-violence-communes",
           "text": "IOM DTM 'Haiti -- Emergency Tracking Tool (ETT) 112.1' (updates on displacement following armed violence in the communes of Petite Riviere de l'Artibonite and Verrettes, Artibonite department, since 19 October 2026, covering through 26 October 2026, published 27 October 2026) revises the toll sharply upward to approximately 13,912 people (3,316 households) displaced, up from about 7,250 people (1,637 households) in ETT 112. 62% sheltered within Petite Riviere de l'Artibonite and 38% in Verrettes; 77% are staying with host families and 23% settled in 14 sites.",
@@ -3912,18 +3920,18 @@
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-11-03T09:11:42Z",
+      "last_updated": "2026-11-04T09:11:27Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:42Z",
+            "at": "2026-11-04T09:11:27Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-42Z-ace03a"
+            "run_id": "2026-11-04T09-11-27Z-d57856"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-42Z-ace03a"
+        "last_run_id": "2026-11-04T09-11-27Z-d57856"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4603,7 +4611,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1000148&episodeid=2&eventtype=VO",
           "text": "GDACS's report for this event (event ID VO 1000148) rates the Krakatau eruption an Orange alert, \"unlikely to require external humanitarian assistance based on the exposed population and coping capacity,\" with about 2,000 people within 30km and no people affected within 100km; it records a Volcanic Explosivity Index of 6 for the episode, running from 04 Sep 2026 21:00 UTC to 05 Sep 2026 14:30 UTC. Re-checked 1 November 2026: the report page is unchanged, still showing episode 2 as the latest and no updated exposure or casualty figures; geologi.esdm.go.id could not be reached to confirm the press-reported Level III status.",
@@ -4661,18 +4669,18 @@
         "status": "ongoing"
       },
       "id": "indonesia-volcano-krakatau-2026",
-      "last_updated": "2026-11-03T09:11:40Z",
+      "last_updated": "2026-11-04T09:09:31Z",
       "name": "Volcanic Eruption — Krakatau, Indonesia",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:40Z",
+            "at": "2026-11-04T09:09:31Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-40Z-adbf15"
+            "run_id": "2026-11-04T09-09-31Z-158476"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-40Z-adbf15"
+        "last_run_id": "2026-11-04T09-09-31Z-158476"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4851,7 +4859,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
           "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 633,500 Iranian nationals who have crossed into neighbouring countries (28 September 2026, up from 628,000), of whom 534,800 have since crossed back into Iran (28 September 2026, up from 530,000); Lebanese refugees in Syria and new IDPs within Lebanon are unchanged at 325,400 and 329,686 respectively (both Government data, 30 September 2026) -- a combined 1,288,586 people displaced or newly refugees across Iran and Lebanon; Afghan returnee movements (1,015,400, IOM/UNHCR, 3 October 2026) and Syrian returnee movements (1,081,500, Government of Syria/UNHCR, 30 September 2026) are also unchanged, a combined 2,096,900.",
@@ -4941,18 +4949,18 @@
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-11-03T09:11:41Z",
+      "last_updated": "2026-11-04T09:15:11Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:41Z",
+            "at": "2026-11-04T09:15:11Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-41Z-eddab0"
+            "run_id": "2026-11-04T09-15-11Z-f4a599"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-41Z-eddab0"
+        "last_run_id": "2026-11-04T09-15-11Z-f4a599"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5551,7 +5559,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "Japan Meteorological Agency (JMA)",
           "source_url": "https://www.data.jma.go.jp/vois/data/report/activity_info/108.html",
           "text": "JMA's volcanic warning for Tokachidake issued 16 October 2026, 10:00 JST (Sapporo Regional Meteorological Observatory), lowers the alert from Level 3 (entry restriction) to Level 2 (crater-vicinity restriction), judging that the likelihood of an eruption affecting the area within about 3km of crater 62-2 has dropped; the Level 2 warning now covers eruptions affecting roughly 1.5km of the crater, with entry restrictions remaining in Biei, Kamifurano and Shintoku (Furano and Minami-Furano no longer require special precaution). The bulletin notes large-amplitude volcanic earthquakes have not recurred since 13 September, though high crater-area temperatures, increased volcanic gas emissions, and continuing ground deformation (inflation at a somewhat deeper level) persist. Re-checked 1 November 2026: the Sapporo Regional Meteorological Observatory's latest bulletin, issued 30 October 2026, 16:00 JST, keeps the volcano at Alert Level 2 with activity levels and the explanatory text unchanged.",
@@ -5577,18 +5585,18 @@
         "status": "ongoing"
       },
       "id": "japan-volcano-tokachidake-2026",
-      "last_updated": "2026-11-03T09:11:40Z",
+      "last_updated": "2026-11-04T09:09:31Z",
       "name": "Volcanic Unrest — Mount Tokachidake, Japan",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:40Z",
+            "at": "2026-11-04T09:09:31Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-40Z-953f92"
+            "run_id": "2026-11-04T09-09-31Z-8fc530"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-40Z-953f92"
+        "last_run_id": "2026-11-04T09-09-31Z-8fc530"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5996,6 +6004,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-27",
+          "retrieved_date": "2026-11-04",
+          "source_name": "GDACS",
+          "source_url": "https://gdacs.org/report.aspx?eventid=1544720&eventtype=EQ",
+          "text": "Re-checked 4 November 2026: reliefweb.int (this record's live_source_url) again returned HTTP 403 Forbidden, and dromic.dswd.gov.ph returned HTTP 503, both unreachable. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Overall Orange alert, GDACS score 1.8, modeled population exposure of about 4.4 million people at MMI>=VII and an observed tsunami wave of about 0.83 m, unchanged from the prior read -- GDACS's own automated impact-model figures, distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-07-07",
           "source_name": "ReliefWeb",
@@ -6071,18 +6087,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-11-03T09:11:40Z",
+      "last_updated": "2026-11-04T09:09:48Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:40Z",
+            "at": "2026-11-04T09:09:48Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-40Z-f14849"
+            "run_id": "2026-11-04T09-09-48Z-42b157"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-40Z-f14849"
+        "last_run_id": "2026-11-04T09-09-48Z-42b157"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6134,7 +6150,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 24 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -6831,7 +6847,7 @@
         },
         {
           "id": "claim-11",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1570339, episode 1738684), checked 18 October 2026, now lists Exposed Population at '130 thousand (in MMI>=VII)' and a GDACS Score of 1.4 -- up from the roughly 50,000 recorded a day earlier -- while continuing to rate the event Overall Orange alert for medium humanitarian impact; the maximum observed tsunami wave height remains about 1.09 meters.",
@@ -6945,18 +6961,18 @@
         "status": "ongoing"
       },
       "id": "panama-earthquake-azuero-2026",
-      "last_updated": "2026-11-03T09:11:40Z",
+      "last_updated": "2026-11-04T09:09:47Z",
       "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:40Z",
+            "at": "2026-11-04T09:09:47Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-40Z-5080c3"
+            "run_id": "2026-11-04T09-09-47Z-1ec6c6"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-40Z-5080c3"
+        "last_run_id": "2026-11-04T09-09-47Z-1ec6c6"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7324,10 +7340,10 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
-          "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km. Re-checked 1 November 2026: the report page is unchanged, with no new episode and no casualty or displacement figures added; dromic.dswd.gov.ph returned HTTP 503 on repeated attempts and could not be checked for a newer DROMIC report on this eruption.",
+          "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km. Re-checked 4 November 2026: the report page is unchanged, still showing episode 1 as the latest with no updated exposure, casualty or displacement figures; dromic.dswd.gov.ph returned HTTP 503 and PHIVOLCS's own site (phivolcs.dost.gov.ph) carried no Kanlaon-specific bulletin, so no newer DSWD/PHIVOLCS report could be checked for this eruption.",
           "verification_status": "verified"
         },
         {
@@ -7366,18 +7382,18 @@
         "status": "ongoing"
       },
       "id": "philippines-kanlaon-volcano-eruption-2026",
-      "last_updated": "2026-11-03T09:11:40Z",
+      "last_updated": "2026-11-04T09:09:31Z",
       "name": "Kanlaon Volcano Eruption, Negros Island, Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:40Z",
+            "at": "2026-11-04T09:09:31Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-40Z-9b4e26"
+            "run_id": "2026-11-04T09-09-31Z-f55533"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-40Z-9b4e26"
+        "last_run_id": "2026-11-04T09-09-31Z-f55533"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7535,7 +7551,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/documents/details/124034",
           "text": "UNHCR Flash Alert #21 reports that clashes in Baidoa between 3 and 5 September 2026 displaced more than 14,000 people.",
@@ -7543,7 +7559,7 @@
         },
         {
           "id": "claim-2",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/documents/details/124371",
           "text": "UNHCR Flash Alert #24 (published Oct 2026) reports that renewed clashes in Baidoa, which began on 28 September 2026 and continued through 3 October 2026 between forces associated with the former Southwest State administration and the Somali National Army over control of the town, displaced 934 households (5,604 individuals) and caused 11 deaths and 86 injuries recorded at Bay Regional Hospital and Bayhaw Hospital, including eight deaths reportedly caused by stray bullets near RP Hotel; Southwest University, the RP Hotel, two mosques and three schools also reportedly sustained significant damage.",
@@ -7569,18 +7585,18 @@
         "status": "ongoing"
       },
       "id": "somalia-baidoa-clashes-displacement-2026",
-      "last_updated": "2026-11-03T09:11:41Z",
+      "last_updated": "2026-11-04T09:11:27Z",
       "name": "Baidoa Clashes & Displacement — South West State, Somalia",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:41Z",
+            "at": "2026-11-04T09:11:27Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-41Z-318fa8"
+            "run_id": "2026-11-04T09-11-27Z-7a894e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-41Z-318fa8"
+        "last_run_id": "2026-11-04T09-11-27Z-7a894e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8296,7 +8312,7 @@
         },
         {
           "id": "claim-20",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "ReliefWeb",
           "source_url": "https://reliefweb.int/report/sudan/sudan-sees-sharp-decline-cholera-cases-response-efforts-continue",
           "text": "WHO press release via ReliefWeb, 'Sudan sees sharp decline in cholera cases as response efforts continue' (posted 25 September 2026, originally published 24 September 2026): a total of eight cases and no deaths were reported in the week ending 11 September 2026, compared with a peak of 421 cases in the week ending 3 July. The outbreak, which began in Al Nuhud locality, West Kordofan, in May, has spread to 20 localities across six states; a total of 2,955 cases and 250 associated deaths have been reported, a case fatality ratio of 8.4%, well above WHO's less-than-1% threshold. WHO has prepositioned 60 metric tons of cholera supplies (enough for about 120,000 cases), retrained and deployed 60 rapid response teams, trained 120 frontline health workers, and supported 17 cholera treatment centres and 18 oral rehydration points. Oral cholera vaccination campaigns with UNICEF reached 915,377 people, with coverage near 100% in West Kordofan and 99.7% in South Darfur, and 87% of the target population in Tawila, North Darfur. WHO Representative in Sudan Dr Abdinasir Abubakar said the decline 'is encouraging, but we must remain vigilant,' citing continued risk from insecurity, displacement, poor access and the rainy season.",
@@ -8354,18 +8370,18 @@
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-11-03T09:11:42Z",
+      "last_updated": "2026-11-04T09:09:50Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:42Z",
+            "at": "2026-11-04T09:09:50Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-42Z-d28a81"
+            "run_id": "2026-11-04T09-09-50Z-a41cc6"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-42Z-d28a81"
+        "last_run_id": "2026-11-04T09-09-50Z-a41cc6"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8510,7 +8526,7 @@
         },
         {
           "id": "claim-28",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/sdn",
           "text": "UNHCR's Operational Data Portal for Sudan (checked 18 October 2026): internally displaced persons within Sudan remain at 8,583,274, labeled 'last updated 30 Sep 2026' -- unchanged since 17 October 2026 (down from 8,622,801 as of the 31 August 2026 update); refugees and asylum-seekers in Sudan remain at 909,744, unchanged, also labeled 'last updated 30 Sep 2026'.",
@@ -8560,18 +8576,18 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-11-03T09:11:41Z",
+      "last_updated": "2026-11-04T09:11:27Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:41Z",
+            "at": "2026-11-04T09:11:27Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-41Z-ca32ae"
+            "run_id": "2026-11-04T09-11-27Z-1b27ba"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-41Z-ca32ae"
+        "last_run_id": "2026-11-04T09-11-27Z-1b27ba"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8644,7 +8660,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168661",
           "text": "UN News (23 October 2026), citing the UN Human Rights Office (OHCHR) and High Commissioner Volker Türk: drone strikes \"killed at least 306 people and injured hundreds more in the first three weeks of October alone.\" OHCHR documented strikes on displacement shelters, a gold-mining site, a transport convoy and a market across West Kordofan, Blue Nile and Abyei.",
@@ -8676,7 +8692,7 @@
         },
         {
           "id": "claim-5",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168661",
           "text": "UN News (23 October 2026): a 19 October 2026 strike on Amiet Market and Todach, Abyei, killed more than 80 people, per UN peacekeepers (UNISFA) who visited the affected communities; UNISFA's Acting Force Commander, Brigadier General Adebowale Ajabge, said the mission's hospital in Todach treated more than 27 injured people, and the Security Council said the toll is expected to rise.",
@@ -8684,7 +8700,7 @@
         },
         {
           "id": "claim-6",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168628",
           "text": "UN News (19 October 2026): UN Spokesperson Stéphane Dujarric said the UN is 'alarmed by the continued deadly drone strikes' killing civilians, including children, across Sudan. That Monday, drone strikes injured at least 19 people in a busy market in Abyei, and a strike near Khartoum airport reportedly killed one civilian and led to flight cancellations; over the preceding weekend, drone attacks in West Darfur, South Darfur and North Kordofan reportedly killed at least 19 people, including 10 children. The article also reports that 25 Sudanese Red Crescent volunteers have been killed since the conflict began, including one killed the preceding week in Um Darfa, Blue Nile State, while providing first aid after a drone attack on a health centre; Sudan's humanitarian response plan is just over 43 percent funded.",
@@ -8692,7 +8708,7 @@
         },
         {
           "id": "claim-7",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168703",
           "text": "UN News (29 October 2026), citing UNICEF: at least five children were killed and two injured in a drone attack on a market in Nyala, South Darfur, on Monday 27 October 2026; the victims were three boys and two girls aged seven to 14. UNICEF said more than 400 children were killed or injured in Sudan from January to September 2026, with armed drone attacks causing a significant share. UNICEF's Etleva Kadilli said: 'The killing and injuring of children must end.'",
@@ -8718,18 +8734,18 @@
         "status": "ongoing"
       },
       "id": "sudan-drone-strikes-kordofan-abyei-2026",
-      "last_updated": "2026-11-03T09:11:41Z",
+      "last_updated": "2026-11-04T09:15:40Z",
       "name": "Drone-Strike Escalation — West Kordofan, Blue Nile & Abyei, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:41Z",
+            "at": "2026-11-04T09:15:40Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-41Z-5b1f9f"
+            "run_id": "2026-11-04T09-15-40Z-993955"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-41Z-5b1f9f"
+        "last_run_id": "2026-11-04T09-15-40Z-993955"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -10801,19 +10817,27 @@
         },
         {
           "id": "claim-6",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "CDC",
           "source_url": "https://www.cdc.gov/measles/data-research/index.html",
           "text": "CDC's measles data page, checked 31 October 2026, states 4,852 confirmed measles cases were reported in the United States in 2026 as of 29 October 2026, up from 4,588 as of 22 October; the cumulative 'Total Deaths' figure remains 3, footnoted as subject to change.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-7",
+          "retrieved_date": "2026-11-04",
+          "source_name": "State of New York",
+          "source_url": "https://www.governor.ny.gov/news/statement-governor-hochul-pediatric-measles-associated-death-lewis-county",
+          "text": "Governor Kathy Hochul statement, 2 November 2026: \"I am heartbroken to learn that a child in Lewis County has died after contracting measles.\" The statement calls it New York State's first measles-related death in 30 years and urges vaccination as the best protection against the disease.",
+          "verification_status": "verified"
         }
       ],
-      "description": "New York Governor Kathy Hochul declared a statewide disaster emergency on 5 October 2026 over a measles outbreak concentrated in under-immunized rural communities, an order that remains in effect through 4 November 2026. As of 3 October, New York had recorded 108 confirmed cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July across 18 rural counties, with local health departments administering over 1,000 MMR doses. The New York outbreak is part of a wider US measles resurgence: CDC's dashboard now shows 4,852 confirmed cases nationwide as of 29 October 2026, up from 4,588 a week earlier, with 3 cumulative deaths, a figure CDC flags as subject to change.",
+      "description": "Governor Kathy Hochul declared a statewide disaster emergency on 5 October 2026 over a measles outbreak concentrated in under-immunized rural communities, an order that was set to run through 4 November 2026. On 2 November, Hochul announced that a child in Lewis County had died after contracting measles — New York State's first measles-related death in 30 years. As of 3 October, New York had recorded 108 confirmed cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July across 18 rural counties. The New York outbreak is part of a wider US measles resurgence: CDC's dashboard shows 4,852 confirmed cases nationwide as of 29 October 2026, with 3 cumulative deaths nationally, a figure CDC flags as subject to change and which does not yet reflect the Lewis County death.",
       "event": {
         "impact": {
-          "deaths": null,
+          "deaths": 1,
           "displaced": null,
-          "summary": "As of 3 October 2026, New York State had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC's dashboard now shows 4,852 confirmed US measles cases as of 29 October 2026, up from 4,588 a week earlier, with the cumulative death toll holding at 3, a figure CDC says is subject to change. Governor Hochul's 5 October executive order declaring a state disaster emergency remains in effect through 4 November 2026."
+          "summary": "Governor Hochul announced on 2 November 2026 that a child in Lewis County died after contracting measles, New York State's first measles-related death in 30 years. As of 3 October 2026, New York had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC's dashboard shows 4,852 confirmed US measles cases as of 29 October 2026, with the cumulative national death toll holding at 3, a figure CDC says is subject to change and which predates the Lewis County death. Governor Hochul's 5 October executive order declaring a state disaster emergency was set to run through 4 November 2026; as of that date New York's executive orders listing shows no order extending or superseding it."
         },
         "live_source_url": "https://www.cdc.gov/measles/data-research/index.html",
         "location": {
@@ -10827,18 +10851,18 @@
         "status": "ongoing"
       },
       "id": "usa-new-york-measles-outbreak-2026",
-      "last_updated": "2026-11-03T09:11:42Z",
+      "last_updated": "2026-11-04T09:09:51Z",
       "name": "Measles State Disaster Emergency — New York, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:42Z",
+            "at": "2026-11-04T09:09:51Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-42Z-05f018"
+            "run_id": "2026-11-04T09-09-51Z-c6b8b4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-42Z-05f018"
+        "last_run_id": "2026-11-04T09-09-51Z-c6b8b4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -10847,6 +10871,10 @@
         "recency_rank": 739894
       },
       "updates": [
+        {
+          "date": "2026-11-02",
+          "text": "Governor Hochul announced that a child in Lewis County died after contracting measles — New York State's first measles-related death in 30 years. CDC's national dashboard still shows 4,852 cases and 3 deaths as of 29 October, not yet reflecting this death."
+        },
         {
           "date": "2026-10-29",
           "text": "CDC reported 4,852 confirmed US measles cases in 2026 as of 29 October, up from 4,588 a week earlier; the cumulative US death toll remains at 3. New York's own case count and the statewide disaster emergency are unchanged."
@@ -10866,7 +10894,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -11819,7 +11847,7 @@
         },
         {
           "id": "claim-31",
-          "retrieved_date": "2026-11-03",
+          "retrieved_date": "2026-11-04",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-29-october-2026",
           "text": "OCHA oPt's Humanitarian Situation Report of 29 October 2026 (reporting period 20-26 October): 57 Palestinians were injured (23 by settlers, 34 by Israeli forces), including nine children; 62 settler attacks causing casualties or property damage were documented across 49 communities, 38 of them olive-harvest related. 94 people, including 40 children, were displaced by settler attacks and access restrictions, and a further 37 people, including 19 children, were displaced by demolitions. The report notes that two Palestinians who attacked an Israeli checkpoint in Hebron on 23 October were killed in an exchange of fire. For October overall, 397 settler-attack incidents were recorded between 1 and 26 October, the highest monthly figure since OCHA began documenting such incidents in 2006, with a weekly average of 53 incidents so far in 2026.",
@@ -11869,18 +11897,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-11-03T09:11:41Z",
+      "last_updated": "2026-11-04T09:14:06Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:11:41Z",
+            "at": "2026-11-04T09:14:06Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-11-41Z-3b4561"
+            "run_id": "2026-11-04T09-14-06Z-8b3a4c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-11-41Z-3b4561"
+        "last_run_id": "2026-11-04T09-14-06Z-8b3a4c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -12136,6 +12164,22 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-34",
+          "retrieved_date": "2026-11-04",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/10/1168716",
+          "text": "UN News (31 October 2026): UN High Commissioner for Human Rights Volker Türk demanded an independent investigation into the death in Houthi custody of Mohammad el Shami, a UN human rights office staff member detained since Houthi raids in June 2024; Secretary-General António Guterres also condemned the death and called for an impartial investigation. As of mid-October 2026, 71 UN staff remained in Houthi detention, including seven from Türk's office; this is the second reported death of a detained UN staff member, after one was reported in June.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-35",
+          "retrieved_date": "2026-11-04",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/11/1168730",
+          "text": "UN News (3 November 2026), citing UNFPA Yemen Representative Francesco Galtieri: displacement from the west coast and Taiz has tripled since the escalation began, with nearly 300,000 people forced from their homes, more than half of them women and children, and more than a third of displaced families headed by a woman. In the Taiz area, more than 13,000 pregnant women are present, about 6,400 of them displaced, with roughly 1,500 obstetric emergencies expected among them; at the Swedish Motherhood and Childhood Hospital in Taiz, daily deliveries have fallen from about ten to five and functioning incubators for premature babies from 40 to ten due to fuel shortages, and only five of 27 designated emergency maternal and newborn hospitals in Taiz are even partially functioning. UNFPA said an estimated three women died in childbirth each day in Yemen even before this escalation.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-09-11",
           "source_name": "United Nations",
@@ -12184,12 +12228,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Houthi (DFA) forces have encircled Taiz and expanded fighting into Marib and Shabwah governorates amid Yemen's conflict escalation that began in June 2026. WHO's Situation Report #9 (20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths), up 559 in six days, with Marib now the most lethal front and a missile strike on Shabwah's Al-Alam Camp revised upward to 235 casualties. IOM's Displacement Tracking Matrix records 300,391 people displaced since the escalation began, as of 31 October. Taiz city's hospital system remains near breaking point, with its main supply road cut and WHO delivering trauma kits there on 24 October; in Marib, only 6 of 31 mobile medical teams remain operational amid funding cuts. Suspected cholera cases have declined to 447 in week 42 across the worst-affected governorates, down from a week-40 peak of 639, though new cases in Marib suggest possible spread.",
+      "description": "Houthi (DFA) forces have encircled Taiz and expanded fighting into Marib and Shabwah governorates amid Yemen's conflict escalation that began in June 2026. WHO's Situation Report #9 (20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths), and IOM's Displacement Tracking Matrix records 300,391 people displaced since the escalation began, as of 31 October. The crisis has deepened for women and children in Taiz: UNFPA reports more than 13,000 pregnant women in the area, about 6,400 of them displaced, with roughly 1,500 obstetric emergencies expected, as fuel shortages have cut daily deliveries and functioning incubators at Taiz's main maternity hospital and left only five of 27 designated maternal and newborn hospitals even partially functioning. Separately, the UN human rights chief demanded an investigation after a UN staff member held in Houthi detention since 2024 died in custody, the second such death reported; 71 UN personnel remain detained by the Houthis. Taiz city's hospital system remains near breaking point, with its main supply road cut, and in Marib only 6 of 31 mobile medical teams remain operational amid funding cuts.",
       "event": {
         "impact": {
           "deaths": 1677,
           "displaced": 300391,
-          "summary": "WHO's Conflict Escalation Situation Report #9 (28 October 2026, period 20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths) as of 25 October, up 559 in six days; Marib is now the most lethal front, recording 45 deaths among 143 casualties, and the Shabwah Health Office revised the toll from the 19 October Al-Alam Camp missile strike upward to 235 casualties (69 deaths). IOM's DTM dataset (31 October) puts cumulative displacement since the escalation began in June 2026 at 300,391 people (50,059 households) as of 31 October, up from 287,767 on 27 October; Ta'iz remains the largest governorate (45%), followed by Lahj (24%) and Aden (19%). Taiz city's hospital system is near breaking point -- its main supply road is cut, and WHO delivered trauma kits to three hospitals and a health centre there on 24 October -- while in Marib, funding cuts have left only 6 of 31 mobile medical teams operational and 15 facilities shut. Suspected cholera cases have declined to 447 in week 42 across the five most-affected governorates, down from a peak of 639 in week 40, though 3 confirmed cases and 1 death in Marib point to possible spread beyond the southern belt."
+          "summary": "WHO's Conflict Escalation Situation Report #9 (28 October 2026, period 20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths) as of 25 October, up 559 in six days; Marib is now the most lethal front, and the Shabwah Health Office revised the Al-Alam Camp missile-strike toll upward to 235 casualties (69 deaths). IOM's DTM dataset (31 October) puts cumulative displacement at 300,391 people as of 31 October, up from 287,767 on 27 October; Ta'iz remains the largest governorate (45%). UNFPA reports the crisis is falling hardest on women and children in Taiz: more than 13,000 pregnant women are in the area (about 6,400 displaced), roughly 1,500 obstetric emergencies are expected, and only 5 of 27 designated maternal/newborn hospitals in Taiz remain even partially functioning amid fuel shortages. The UN human rights chief separately demanded an investigation after a UN staff member held in Houthi detention since 2024 died in custody -- the second such death -- with 71 UN personnel still detained. Taiz's hospital system is near breaking point, while in Marib only 6 of 31 mobile medical teams remain operational."
         },
         "live_source_url": "https://www.emro.who.int/yemen/information-resources/yemen-conflict-escalation-situation-report.html",
         "location": {
@@ -12199,22 +12243,22 @@
           "region": "Ta'izz Governorate (Mocha, Al-Mokha) and Yemen's West Coast; attacks also in the Bab el-Mandeb Strait and against Saudi Arabia"
         },
         "occurrence_date": "2026-08-07",
-        "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have largely encircled Taiz, with Marib now the most lethal front; WHO records 9,072 cumulative casualties (1,677 deaths) as of 25 October and IOM 287,767 displaced as of 27 October 2026",
+        "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have largely encircled Taiz, with Marib now the most lethal front; WHO records 9,072 cumulative casualties (1,677 deaths) as of 25 October and IOM 300,391 displaced as of 31 October 2026",
         "status": "ongoing"
       },
       "id": "yemen-conflict-escalation-2026",
-      "last_updated": "2026-11-03T09:13:49Z",
+      "last_updated": "2026-11-04T09:12:26Z",
       "name": "Yemen Conflict Escalation",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-03T09:13:49Z",
+            "at": "2026-11-04T09:12:26Z",
             "layer": "verify",
-            "run_id": "2026-11-03T09-13-49Z-e4bc11"
+            "run_id": "2026-11-04T09-12-26Z-0fba5b"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-03T09-13-49Z-e4bc11"
+        "last_run_id": "2026-11-04T09-12-26Z-0fba5b"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -12225,7 +12269,15 @@
       "updates": [
         {
           "date": "2026-11-03",
+          "text": "UNFPA reported the war is deepening the toll on women and children in Taiz: over 13,000 pregnant women are in the area (6,400 displaced), roughly 1,500 obstetric emergencies are expected, and fuel shortages have halved deliveries and incubator capacity at the city's main maternity hospital, leaving only 5 of 27 maternal/newborn hospitals even partially functioning."
+        },
+        {
+          "date": "2026-11-03",
           "text": "IOM's DTM update dataset (31 October) recorded displacement since the escalation began in June 2026 rising to 300,391 people (50,059 households) as of 31 October, up from 287,767 four days earlier; Ta'iz remains the largest governorate (45%), followed by Lahj (24%) and Aden (19%)."
+        },
+        {
+          "date": "2026-10-31",
+          "text": "The UN human rights chief demanded an independent investigation after Mohammad el Shami, a UN human rights staff member held in Houthi detention since June 2024, died in custody -- the second such reported death; 71 UN personnel remain detained by the Houthis, including seven from the rights office."
         },
         {
           "date": "2026-10-29",
@@ -12306,7 +12358,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 27 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 29 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     }
