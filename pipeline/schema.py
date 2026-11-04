@@ -219,6 +219,45 @@ def validate_source_allowlist(doc: dict) -> list[str]:
     return msgs
 
 
+
+def _claim_retrieved_date_checks(record: dict) -> list[str]:
+    """Require calendar dates, the never-retrieved sentinel, or explained unknown provenance.
+
+    Do not normalize invalid dates: doing so would silently change provenance.
+    Shape/type errors remain the JSON Schema validator's responsibility.
+    """
+    msgs = []
+    claims = record.get("claims")
+    if not isinstance(claims, list):
+        return msgs
+    for i, claim in enumerate(claims):
+        if not isinstance(claim, dict):
+            continue
+        raw = claim.get("retrieved_date")
+        if "retrieved_date" in claim and raw is None:
+            note = claim.get("retrieval_note")
+            if not isinstance(note, str) or not note.strip():
+                msgs.append(
+                    f"claims[{i}].retrieval_note: a nonblank explanation is required "
+                    "when retrieved_date is null (unknown/not recorded)"
+                )
+            continue
+        if not isinstance(raw, str) or raw == "":
+            continue
+        try:
+            # fromisoformat also accepts compact and week dates on supported Python
+            # versions. Round-tripping enforces the canonical date-only spelling.
+            valid = date.fromisoformat(raw).isoformat() == raw
+        except ValueError:
+            valid = False
+        if not valid:
+            msgs.append(
+                f"claims[{i}].retrieved_date: {raw!r} must be a valid YYYY-MM-DD date "
+                "or empty string if never retrieved, or null with a retrieval_note if unknown"
+            )
+    return msgs
+
+
 def validate(record: dict, kind: str = "threat") -> None:
     """Validate a record against its kind's schema. Raises ValidationError with all problems joined."""
     msgs = [
@@ -230,6 +269,7 @@ def validate(record: dict, kind: str = "threat") -> None:
     if isinstance(slug, str) and not models.slug_ok(slug):
         msgs.append(f"id: {slug!r} does not match ^[a-z0-9-]+$")
 
+    msgs += _claim_retrieved_date_checks(record)
     msgs += _RANGE_CHECKS[kind](record)
     msgs += _prose_checks(record, kind)
 

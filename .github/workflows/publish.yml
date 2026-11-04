@@ -57,10 +57,14 @@ jobs:
       - name: Validate schema + aggregate integrity
         if: steps.scope.outputs.skip != 'true'
         run: |
-          pip install -e .
+          pip install -e ".[dev]"
           python scripts/validate_data.py
           python scripts/build_frontend.py
           git diff --exit-code  # committed aggregates must match the records exactly
+      - uses: actions/setup-node@v4
+        if: steps.scope.outputs.skip != 'true'
+        with:
+          node-version: "22"
       - name: Merge into main and clean up the branch
         if: steps.scope.outputs.skip != 'true'
         run: |
@@ -69,6 +73,12 @@ jobs:
           sha=$(git rev-parse HEAD)
           git checkout -B publish origin/main
           git merge --no-edit "$sha"   # a conflict fails the job loudly — that's intended
+          # Recheck the actual merged tree, including any newer code on main.
+          python scripts/validate_data.py
+          python scripts/build_frontend.py
+          git diff --exit-code -- frontend/data
+          pytest -q
+          node --test tests/test_retrieval_ui.cjs
           git push origin publish:main
           git push origin --delete "$GITHUB_REF_NAME"
       - name: Redeploy Pages and re-run validate (token pushes don't retrigger push workflows)

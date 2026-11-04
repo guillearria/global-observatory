@@ -51,6 +51,14 @@ The program confirms that each number links to a trusted source, but it can't re
 make sure the number matches. That part depends on the research. The AI is told to open every
 source and copy each number from it, and to mark a number as unconfirmed whenever it can't.
 
+## Missing retrieval dates
+
+Some legacy claims have no recorded source retrieval date. Their citations say "Retrieval date
+not recorded" and explain the gap; this does not mean the source was never retrieved. Sources
+explicitly recorded as never retrieved are labeled separately. Incomplete retrieval provenance
+is also flagged on verified record cards and detail pages. A record's edit date is never used
+as a substitute for a missing source retrieval date. These labels do not re-check the claim.
+
 ## Keeping it current
 
 The site updates itself. If the daily updates ever stop, visitors see a warning on the site, and an

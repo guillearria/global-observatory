@@ -93,8 +93,12 @@
             "description": "Empty string until Verify grounds the claim. Only Verify may set this."
           },
           "retrieved_date": {
+            "type": ["string", "null"],
+            "description": "Valid YYYY-MM-DD retrieval date; empty string means never retrieved; null means retrieval date unknown/not recorded and requires a nonblank retrieval_note. Python enforces calendar validity and the note requirement."
+          },
+          "retrieval_note": {
             "type": "string",
-            "description": "ISO-8601 date the source was last retrieved, or empty string if never."
+            "description": "Explanation of missing retrieval provenance, required and nonblank when retrieved_date is null. May be retained after a later genuine retrieval to preserve the earlier metadata limitation."
           },
           "verification_status": {
             "type": "string",

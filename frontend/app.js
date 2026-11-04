@@ -1,830 +1,877 @@
 "use strict";
-
-// --- Router (hash-routed tabs + record detail views) -------------------------
-// #pulse / #threats / #history are the list tabs; #<tab>/<record-id> is that
-// record's detail view. All shareable URLs; back button walks the history.
-const TABS = ["pulse", "threats", "history", "about"];
-
-const TAB_KINDS = { pulse: "event", threats: "threat", history: "historical" };
-const KIND_TABS = { event: "pulse", threat: "threats", historical: "history" };
-
-const PANE_TITLES = {
-  pulse: "World Pulse", threats: "Existential Threats", history: "Historical Archive", about: "About",
-};
-
-const SITE_TITLE = document.title;
-
-function parseRoute() {
-  const [tab, id] = location.hash.replace(/^#/, "").split("/");
-  // Unknown tab -> default list; extra segments beyond the id are ignored; the
-  // static About pane has no records, so any id under it is dropped.
-  const known = TABS.includes(tab) ? tab : "pulse";
-  return { tab: known, id: known === "about" ? null : (id || null) };
+// Views consume the same generated aggregates as the daily publisher.
+const datasets = {};
+const currentYear = new Date().getUTCFullYear();
+let historyMin = -2200,
+  historyMax = currentYear;
+function historyBounds(rows) {
+  const years = rows
+    .flatMap((r) => [r.historical?.year_start, r.historical?.year_end])
+    .filter(Number.isFinite);
+  const first = Math.min(-2199, ...years),
+    last = Math.max(currentYear, ...years);
+  return { min: first <= 0 ? first - 1 : first, max: last };
 }
-
-function detailHref(tab, id) {
-  return `#${tab}/${id}`;
+function freshness(kind, now = Date.now()) {
+  const limit = { events: 2, threats: 10 }[kind];
+  if (!limit) return "";
+  const stamp = datasets[kind]?.last_updated,
+    age = (now - Date.parse(stamp)) / 86400000;
+  if (!Number.isFinite(age) || age < -1)
+    return '<p class="notice" role="status">Collection refresh date is unavailable or invalid. Check original sources.</p>';
+  return age > limit
+    ? `<p class="notice" role="status">This collection has not been refreshed in ${Math.floor(age)} days. Check original sources for current information.</p>`
+    : "";
 }
-
-function showView(route) {
-  const detailPane = document.getElementById("detail-pane");
-  // List panes stay mounted even behind a detail view: the map's click-to-card
-  // targets and the toolbars' filter state live in them.
-  for (const tab of TABS) {
-    const pane = document.getElementById(`${tab}-pane`);
-    if (pane) pane.hidden = route.id !== null || tab !== route.tab;
-  }
-  if (detailPane) detailPane.hidden = route.id === null;
-  for (const link of document.querySelectorAll(".tabs a")) {
-    const active = link.dataset.tab === route.tab;
-    link.classList.toggle("active", active);
-    if (active) link.setAttribute("aria-current", "page");
-    else link.removeAttribute("aria-current");
-  }
-  if (route.id !== null) {
-    renderDetail(route);
-    window.scrollTo(0, 0);
-    return;
-  }
-  document.title = SITE_TITLE;
-  // A map laid out while its pane was hidden has zero size — re-measure on show.
-  // Runs on every return from a detail view too; invalidate is cheap and bails
-  // itself at zero width.
-  if (route.tab === "pulse" && window.GOMap) GOMap.invalidate();
-}
-
-// --- Threat categories (existential threats pane) --------------------------
-// Fixed display order; any unknown category is appended after these.
-const CATEGORY_ORDER = [
-  "cosmic", "geological", "nuclear", "biological",
-  "climate", "technological", "resource", "societal",
-];
-
-const CATEGORY_LABELS = {
-  cosmic: "Cosmic", geological: "Geological", nuclear: "Nuclear",
-  biological: "Biological", climate: "Climate", technological: "Technological",
-  resource: "Resource", societal: "Societal",
-};
-
-// --- Event types (World Pulse pane) ----------------------------------------
-const EVENT_TYPE_LABELS = {
-  earthquake: "Earthquake", storm: "Storm", flood: "Flood", wildfire: "Wildfire",
-  volcanic: "Volcanic", drought: "Drought", outbreak: "Outbreak", conflict: "Conflict",
-  humanitarian: "Humanitarian crisis", economic: "Economic crisis", industrial: "Industrial",
-  other: "Event",
-};
-
-// --- Historical eras and types (historical archive pane) --------------------
-const ERA_ORDER = ["ancient", "classical", "medieval", "early-modern", "modern", "contemporary"];
-
-const ERA_LABELS = {
-  ancient: "Ancient", classical: "Classical", medieval: "Medieval",
-  "early-modern": "Early Modern", modern: "Modern", contemporary: "Contemporary",
-};
-
-const HISTORICAL_TYPE_LABELS = {
-  pandemic: "Pandemic", war: "War", famine: "Famine", "natural-disaster": "Natural disaster",
-  "societal-collapse": "Societal collapse", genocide: "Genocide", economic: "Economic crisis",
-  other: "Event",
-};
-
-// Canonical severity order (threat.schema.json enum) for the threats filter.
-const SEVERITY_ORDER = ["regional", "continental", "civilizational", "extinction"];
-
-// --- Sort/filter toolbars (all three list panes) ----------------------------
-// In-memory view state; resets on reload by design. `q` is the free-text search.
-const viewState = {
-  pulse: { category: "all", q: "" },
-  history: { sort: "oldest", category: "all", q: "" },
-  threats: { category: "all", severity: "all", q: "" },
-};
-
-// Free-text search: every word of the query must appear somewhere in the
-// record's name, description, place, category label or date text.
-function searchText(rec, kind) {
-  const parts = partsFor(rec, kind);
-  const loc = kind === "event" ? (rec.event || {}).location
-    : kind === "historical" ? (rec.historical || {}).location : null;
-  return [rec.name, rec.description, ...parts.facts, parts.status,
-    loc && loc.country, loc && loc.region].filter(Boolean).join(" ").toLowerCase();
-}
-
-function matchesQuery(rec, kind, q) {
-  const words = (q || "").toLowerCase().split(/\s+/).filter(Boolean);
-  if (!words.length) return true;
-  const hay = searchText(rec, kind);
-  return words.every((w) => hay.includes(w));
-}
-
-// Latest per-pane re-render callback, registered by loadPane, so a toolbar
-// change re-renders from the already-loaded data without refetching.
-const paneRerender = {};
-
-// Latest data per pane (same mount ids as the route tab names), so detail
-// routes render from the already-loaded aggregate without their own fetch.
-const paneData = {};
-
-function el(tag, attrs, children) {
-  const node = document.createElement(tag);
-  if (attrs) {
-    for (const [k, v] of Object.entries(attrs)) {
-      if (k === "class") node.className = v;
-      else if (k === "text") node.textContent = v;
-      else node.setAttribute(k, v);
-    }
-  }
-  for (const child of children || []) {
-    if (child) node.appendChild(child);
-  }
-  return node;
-}
-
-function badge(text, cls) {
-  return el("span", { class: `badge ${cls}`, text });
-}
-
-// --- Card text: the teaser --------------------------------------------------
-// A card is three things: a dateline of short structured facts, the title, and
-// a teaser. The teaser is the first sentence of `description`, shown complete —
-// never clamped, never an ellipsis; the detail view carries everything else.
-// A sentence ends at . ! or ? followed by whitespace and a capital, digit,
-// quote or bracket, unless the period closes a known abbreviation or an initial
-// ("c. 1600 BCE", "No. 3", "U.S.", "St. Louis"). No boundary -> the whole text.
-const ABBREVIATIONS =
-  /\b(?:c|ca|St|No|Nos|vs|Mt|Dr|Mr|Mrs|Ms|Prof|Gen|Col|Lt|Sgt|approx|est|fig|vol|pp|U\.S|U\.K|U\.N|e\.g|i\.e|Jr|Sr|Inc|Ltd|Co|[A-Z])$/;
-
-function firstSentence(text) {
-  const re = /[.!?]["'”’)\]]*(?=\s+["'“‘(\[]?[A-Z0-9])/g;
-  let m;
-  while ((m = re.exec(text)) !== null) {
-    if (text[m.index] === "." && ABBREVIATIONS.test(text.slice(0, m.index))) continue;
-    return text.slice(0, m.index + m[0].length);
-  }
-  return text;
-}
-
-function teaserOf(rec, fallback) {
-  const text = (rec.description || fallback || "").trim();
-  return text ? firstSentence(text) : "";
-}
-
-function dateOnly(iso) {
-  return (iso || "").slice(0, 10);
-}
-
-// Days between an ISO timestamp and now; NaN (falsy checks below) if unparseable.
-function daysSince(iso) {
-  if (!iso) return NaN;
-  const then = Date.parse(iso);
-  if (Number.isNaN(then)) return NaN;
-  return (Date.now() - then) / 86400000;
-}
-
-function linkOut(url, text) {
-  return el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text });
-}
-
-function compositeOf(rec) {
-  return (rec.sort_keys && typeof rec.sort_keys.composite === "number")
-    ? rec.sort_keys.composite : 0;
-}
-
-function chronologyOf(rec) {
-  return (rec.sort_keys && typeof rec.sort_keys.chronology_rank === "number")
-    ? rec.sort_keys.chronology_rank : 0;
-}
-
-function impactOf(rec) {
-  return (rec.sort_keys && typeof rec.sort_keys.impact_rank === "number")
-    ? rec.sort_keys.impact_rank : 0;
-}
-
-// The freshness of an event's cached figures is the claims' retrieved_date, not the
-// record's last_updated (which is re-stamped on every pipeline run, even ones that
-// don't touch the figures) — see event.schema.json's documented invariant.
-function latestRetrievedDate(claims) {
-  const dates = (claims || []).map((c) => c.retrieved_date).filter(Boolean);
-  return dates.length ? dates.reduce((a, b) => (a > b ? a : b)) : "";
-}
-
-const compactNumber = new Intl.NumberFormat("en", {
-  notation: "compact", maximumFractionDigits: 1,
-});
-
-// "Estimated deaths: 75M–200M" from a deaths_low/deaths_high range; historical tolls
-// are ranges, not counts, so both bounds are shown when they differ.
-function formatDeathsRange(impact) {
-  const lo = impact.deaths_low, hi = impact.deaths_high;
-  const loNum = typeof lo === "number", hiNum = typeof hi === "number";
-  if (!loNum && !hiNum) return "";
-  if (loNum && hiNum && lo !== hi) {
-    return `Estimated deaths: ${compactNumber.format(lo)}–${compactNumber.format(hi)}`;
-  }
-  return `Estimated deaths: ~${compactNumber.format(loNum ? lo : hi)}`;
-}
-
-function claimNode(claim) {
-  const src = el("div", { class: "claim-src" });
-  // Verified is the norm and unlabelled; only an exception gets a pill.
-  const status = claim.verification_status || "unverified";
-  if (status !== "verified") src.appendChild(badge(status, `badge-${status}`));
-  if (claim.source_url) {
-    src.appendChild(linkOut(claim.source_url, claim.source_name || claim.source_url));
-  } else if (claim.source_name) {
-    src.appendChild(el("span", { text: claim.source_name }));
-  }
-  if (claim.retrieved_date) {
-    src.appendChild(el("span", { text: `retrieved ${claim.retrieved_date}` }));
-  }
-  return el("div", { class: "claim" }, [
-    el("p", { class: "claim-text", text: claim.text || "" }),
-    src,
-  ]);
-}
-
-// --- Per-kind adapters: dateline facts + status + teaser -------------------
-// Each returns { facts: string[], status?: string, teaser }. Facts are short
-// structured fields only — never region, scale or a summary: those are prose
-// and belong on the detail view. The trust mark is added by trustNode().
-
-// `location.country` is sometimes written as prose ("Roman Empire (Mediterranean,
-// Europe, ...)", "Turkey (Ottoman Empire); modern Armenia, Syria"). The dateline
-// takes the bare place — the first clause, minus a trailing parenthetical — and
-// drops it altogether past this length; the detail view shows the full text.
-const PLACE_MAX_CHARS = 40;
-
-function placeOf(location) {
-  const raw = ((location || {}).country || "").split(";")[0];
-  const place = raw.replace(/\s*\([^()]*\)\s*$/, "").trim();
-  return place.length <= PLACE_MAX_CHARS ? place : "";
-}
-
-function threatParts(rec) {
-  const a = rec.assessment || {};
-  const facts = [
-    a.severity ? `Severity ${a.severity}` : "",
-    (a.probability || {}).estimate ? `Probability ${a.probability.estimate}` : "",
-  ];
-  return { facts, teaser: teaserOf(rec, a.summary) };
-}
-
-function eventParts(rec) {
-  const ev = rec.event || {};
-  const facts = [
-    EVENT_TYPE_LABELS[rec.category] || rec.category || "Event",
-    placeOf(ev.location),
-    dateOnly(ev.occurrence_date),
-  ];
-  return { facts, status: ev.status || "ongoing", teaser: teaserOf(rec, (ev.impact || {}).summary) };
-}
-
-function historicalParts(rec) {
-  const hist = rec.historical || {};
-  const facts = [
-    HISTORICAL_TYPE_LABELS[rec.category] || rec.category || "Event",
-    hist.date_display || "",
-    placeOf(hist.location),
-  ];
-  return { facts, teaser: teaserOf(rec, (hist.impact || {}).summary) };
-}
-
-function partsFor(rec, kind) {
-  return kind === "event" ? eventParts(rec)
-    : kind === "historical" ? historicalParts(rec)
-    : threatParts(rec);
-}
-
-// The kind's figures snapshot (impact / assessment summary): detail view only.
-function kindSummary(rec, kind) {
-  if (kind === "event") return ((rec.event || {}).impact || {}).summary || "";
-  if (kind === "historical") return ((rec.historical || {}).impact || {}).summary || "";
-  return (rec.assessment || {}).summary || "";
-}
-
-// Plain-text dateline — also the map tooltip's second line (see main()).
-function datelineText(rec, kind) {
-  const parts = partsFor(rec, kind);
-  return [...parts.facts, parts.status].filter(Boolean).join(" · ");
-}
-
-// Verification is the norm and is not labelled: a record shows a trust pill only
-// when it is the exception — partial / disputed / unverified / under review —
-// so that one pill is the only block of colour on a list. The detail view
-// carries the verdict for every record.
-function trustNode(rec, review) {
-  const status = review ? "review" : ((rec.verification || {}).status || "unverified");
-  if (status === "verified") return null;
-  return el("span", {
-    class: `card-trust badge badge-${status}`,
-    text: status === "review" ? "under review" : status,
-  });
-}
-
-// The card's arrow is an SVG, not a text glyph: a "→" character centres on the
-// font's math axis, which sits visibly below the optical centre of the small-caps
-// dateline; a stroked icon centred by flex lines up with the capitals.
-const SVG_NS = "http://www.w3.org/2000/svg";
-function arrowIcon() {
-  const svg = document.createElementNS(SVG_NS, "svg");
-  svg.setAttribute("class", "card-arrow");
-  svg.setAttribute("viewBox", "0 0 16 16");
-  svg.setAttribute("aria-hidden", "true");
-  svg.setAttribute("focusable", "false");
-  const path = document.createElementNS(SVG_NS, "path");
-  path.setAttribute("d", "M2.5 8h11M9 3.5 13.5 8 9 12.5");
-  svg.appendChild(path);
-  return svg;
-}
-
-// Facts on the left (category | country | date), the live signal on the right
-// (event status with its dot, plus the exception pill when there is one).
-function datelineNode(rec, parts, review, withArrow) {
-  const facts = el("span", { class: "card-facts" });
-  parts.facts.filter(Boolean).forEach((f, i) => {
-    if (i) facts.appendChild(el("span", { class: "card-sep", text: "|" }));
-    facts.appendChild(el("span", { text: f }));
-  });
-  const signal = el("span", { class: "card-signal" }, [
-    parts.status ? el("span", { class: `card-status status-${parts.status}`, text: parts.status }) : null,
-    trustNode(rec, review),
-    withArrow ? arrowIcon() : null,
-  ]);
-  return el("p", { class: "card-dateline" }, [facts, signal.childElementCount ? signal : null]);
-}
-
-// The whole card is the link: the title anchor's ::after stretches over the
-// article (styles.css), so the accessible name stays the title, Tab lands on
-// one link per card, and the article id remains the map's jump target.
-function cardNode(rec, { review, kind }) {
-  const parts = partsFor(rec, kind);
-  const href = detailHref(KIND_TABS[kind], rec.id);
-  return el("article", { class: "card", id: `card-${rec.id}` }, [
-    datelineNode(rec, parts, review, true),
-    el("h3", { class: "card-title" }, [el("a", { href, class: "card-title-link", text: rec.name || rec.id })]),
-    parts.teaser ? el("p", { class: "card-teaser", text: parts.teaser }) : null,
-  ]);
-}
-
-// --- Detail view (#<tab>/<record-id>): one record as a full page ------------
-function findRecord(data, id) {
-  for (const rec of data.published || []) if (rec.id === id) return { rec, review: false };
-  for (const rec of data.under_review || []) if (rec.id === id) return { rec, review: true };
-  return null;
-}
-
-function renderDetail(route) {
-  const mount = document.getElementById("detail");
-  if (!mount) return;
-  const data = paneData[route.tab];
-  if (!data) {
-    // Cold deep link: the pane's aggregate hasn't arrived yet — loadPane's
-    // render re-invokes renderDetail once it has data (cached or fetched).
-    mount.replaceChildren(el("p", { class: "loading", text: "Loading…" }));
-    return;
-  }
-  const found = findRecord(data, route.id);
-  if (!found) {
-    document.title = SITE_TITLE;
-    mount.replaceChildren(
-      el("p", { class: "error", text: "No record with this id — it may have been renamed or removed." }),
-      el("p", { class: "detail-back" }, [
-        el("a", { href: `#${route.tab}`, text: `← Back to ${PANE_TITLES[route.tab]}` }),
-      ]),
-    );
-    return;
-  }
-  document.title = `${found.rec.name || route.id} — ${SITE_TITLE}`;
-  mount.replaceChildren(detailNode(found.rec, { kind: TAB_KINDS[route.tab], review: found.review }));
-}
-
-// The gate's verdict in words. The raw notes string ("7 verified, 0 disputed,
-// 0 unverified -> verified") is internal notation and goes in a title attribute.
-function verificationLine(rec, review) {
-  const v = rec.verification || {};
-  const claims = rec.claims || [];
-  const ok = claims.filter((c) => c.verification_status === "verified").length;
-  const parts = [];
-  if (review) parts.push("Under review — no source confirmed for the headline figures");
-  else if (claims.length) parts.push(`${ok} of ${claims.length} source${claims.length === 1 ? "" : "s"} confirmed`);
-  if (v.confidence) parts.push(`confidence ${v.confidence}`);
-  if (!review && ok < claims.length) {
-    const n = claims.length - ok;
-    parts.push(`${n} cited page${n === 1 ? "" : "s"} could not be re-opened (see citations)`);
-  }
-  const node = el("p", { class: "fact", text: parts.join(" · ") });
-  if (v.notes) node.setAttribute("title", v.notes);
-  return node;
-}
-
-// Facts block under the detail head: the free-text fields the cards no longer show
-// (full location, scale), the live-source link — its one home on the site — the
-// last-updated stamp, and the gate's verdict.
-function detailFacts(rec, kind, review) {
-  const out = [];
-  if (kind === "event") {
-    const ev = rec.event || {};
-    const loc = ev.location || {};
-    const where = [loc.region, loc.country].filter(Boolean).join(", ");
-    if (where) out.push(el("p", { class: "fact fact-where", text: where }));
-    if (ev.scale) out.push(el("p", { class: "fact", text: ev.scale }));
-    if (ev.live_source_url) {
-      const asOf = dateOnly(latestRetrievedDate(rec.claims)) || dateOnly(rec.last_updated);
-      out.push(el("p", { class: "fact" }, [
-        el("span", { text: `Figures as of ${asOf} — ` }),
-        linkOut(ev.live_source_url, "live at source ↗"),
-      ]));
-    }
-  } else if (kind === "historical") {
-    const hist = rec.historical || {};
-    const loc = hist.location || {};
-    const where = [loc.region, loc.country].filter(Boolean).join(", ");
-    if (where) out.push(el("p", { class: "fact fact-where", text: where }));
-  }
-  out.push(el("p", { class: "fact", text: `Last updated ${dateOnly(rec.last_updated)}` }));
-  out.push(verificationLine(rec, review));
-  return out;
-}
-
-function figureLine(label, value) {
-  return el("p", { class: "figure", text: `${label}: ${value}` });
-}
-
-// Key-figure lines per kind; skipped entirely when a record has none.
-function detailFigures(rec, kind) {
-  const out = [];
-  if (kind === "event") {
-    const impact = (rec.event || {}).impact || {};
-    if (typeof impact.deaths === "number") out.push(figureLine("Deaths", compactNumber.format(impact.deaths)));
-    if (typeof impact.displaced === "number") out.push(figureLine("Displaced", compactNumber.format(impact.displaced)));
-  } else if (kind === "threat") {
-    const a = rec.assessment || {};
-    const p = a.probability || {};
-    if (a.severity) out.push(figureLine("Severity", a.severity));
-    if (p.estimate) {
-      let text = p.estimate;
-      if (p.window) text += ` (window: ${p.window})`;
-      if (typeof p.numeric_annual === "number") text += ` · annual ≈ ${p.numeric_annual}`;
-      out.push(figureLine("Probability", text));
-    }
-    if (a.timeframe) out.push(figureLine("Timeframe", a.timeframe));
-    if ((rec.verification || {}).confidence) out.push(figureLine("Confidence", rec.verification.confidence));
-  } else {
-    const hist = rec.historical || {};
-    const deaths = formatDeathsRange(hist.impact || {});
-    if (deaths) out.push(el("p", { class: "figure", text: deaths }));
-    if (hist.date_display) out.push(figureLine("Date", hist.date_display));
-  }
-  return out;
-}
-
-function detailSection(title, children) {
-  return el("section", { class: "detail-section" }, [
-    el("h3", { text: title }),
-    ...children,
-  ]);
-}
-
-function detailNode(rec, { kind, review }) {
-  const tab = KIND_TABS[kind];
-  const parts = partsFor(rec, kind);
-
-  const children = [
-    el("p", { class: "detail-back" }, [
-      el("a", { href: `#${tab}`, text: `← Back to ${PANE_TITLES[tab]}` }),
-    ]),
-  ];
-  if (review) {
-    children.push(el("div", {
-      class: "review-banner",
-      text: "This record failed automated verification — no authoritative source has been " +
-            "confirmed for its headline claims. It is shown for transparency and must not " +
-            "be read as established fact.",
-    }));
-  }
-  // Same head as the list card (dateline, then the title), so list -> detail
-  // reads as a zoom rather than a different page.
-  children.push(datelineNode(rec, parts, review));
-  children.push(el("h2", { class: "detail-title", text: rec.name || rec.id }));
-  children.push(el("div", { class: "detail-facts" }, detailFacts(rec, kind, review)));
-
-  // Narrative first (the description), then the figures: the numeric lines plus the
-  // kind's figures snapshot (impact / assessment summary) as their paragraph. The two
-  // texts are separate editorial fields and are never printed back to back.
-  const description = rec.description || "";
-  if (description) {
-    children.push(detailSection("Overview", [el("p", { class: "detail-prose", text: description })]));
-  }
-  const figures = detailFigures(rec, kind);
-  const summary = kindSummary(rec, kind);
-  if (summary && summary !== description) {
-    figures.push(el("p", { class: "detail-prose figures-summary", text: summary }));
-  }
-  if (figures.length) {
-    children.push(detailSection(kind === "threat" ? "Assessment" : "Key figures", figures));
-  }
-
-  if (kind === "event" && Array.isArray(rec.updates) && rec.updates.length) {
-    children.push(detailSection("Updates", rec.updates.map((u) => el("div", { class: "update" }, [
-      el("span", { class: "update-date", text: u.date || "" }),
-      el("span", { class: "update-text", text: u.text || "" }),
-    ]))));
-  }
-
-  const claims = rec.claims || [];
-  children.push(detailSection(`Citations (${claims.length})`, claims.map(claimNode)));
-
-  return el("article", { class: review ? "detail under-review" : "detail" }, children);
-}
-
-// Empty state for an active filter that matches nothing — distinct from the
-// "nothing tracked yet" message loadPane shows for a genuinely empty dataset.
-function noMatchNote() {
-  return el("p", { class: "loading", text: "No records match the current filters." });
-}
-
-// --- Threats pane: grouped by category, severity-dominant ------------------
-function renderThreats(records) {
-  const st = viewState.threats;
-  const filtered = records.filter((rec) =>
-    (st.category === "all" || (rec.category || "other") === st.category) &&
-    (st.severity === "all" || ((rec.assessment || {}).severity || "unknown") === st.severity) &&
-    matchesQuery(rec, "threat", st.q));
-  if (records.length && !filtered.length) return [noMatchNote()];
-
-  const groups = new Map();
-  for (const rec of filtered) {
-    const cat = rec.category || "other";
-    if (!groups.has(cat)) groups.set(cat, []);
-    groups.get(cat).push(rec);
-  }
-  const cats = [...groups.keys()].sort((x, y) => {
-    const ix = CATEGORY_ORDER.indexOf(x), iy = CATEGORY_ORDER.indexOf(y);
-    return (ix === -1 ? 99 : ix) - (iy === -1 ? 99 : iy);
-  });
-
-  const out = [];
-  for (const cat of cats) {
-    const recs = groups.get(cat).sort((x, y) => compositeOf(y) - compositeOf(x));
-    out.push(el("section", { class: "category" }, [
-      el("h3", { class: "category-title", text: CATEGORY_LABELS[cat] || cat }),
-      ...recs.map((r) => cardNode(r, { review: false, kind: "threat" })),
-    ]));
-  }
-  return out;
-}
-
-// --- Pulse pane: recency-first with severity staying power ------------------
-// Render-time ordering only: the stored sort_keys stay exactly as the pipeline
-// computed them (pipeline/audit.py re-derives and enforces those), so the feed
-// can weigh severity without touching any data file. Each impact tier above
-// baseline buys two weeks of staying power; contained/resolved events decay
-// ahead of ongoing ones. Known limit: a worsening long-running event keeps its
-// original occurrence_date (the schema has no "latest development" date), so it
-// rises only through its impact tier.
-const SEVERITY_STAY_DAYS = 14;
-const STATUS_DECAY_DAYS = { ongoing: 0, contained: 7, resolved: 14 };
-
-function pulseOrderKey(rec) {
-  const ev = rec.event || {};
-  const t = Date.parse((ev.occurrence_date || "").slice(0, 10)); // date-only -> UTC midnight
-  const days = Number.isFinite(t) ? t / 86400000 : 0;
-  const impact = impactOf(rec) || 1;
-  return days + SEVERITY_STAY_DAYS * (impact - 1) - (STATUS_DECAY_DAYS[ev.status] || 0);
-}
-
-function renderEvents(records) {
-  const st = viewState.pulse;
-  const filtered = records.filter((rec) =>
-    (st.category === "all" || (rec.category || "other") === st.category) &&
-    matchesQuery(rec, "event", st.q));
-  if (records.length && !filtered.length) return [noMatchNote()];
-  const recs = filtered.slice().sort((x, y) =>
-    (pulseOrderKey(y) - pulseOrderKey(x)) ||
-    (impactOf(y) - impactOf(x)) ||
-    (compositeOf(y) - compositeOf(x)));
-  return recs.map((r) => cardNode(r, { review: false, kind: "event" }));
-}
-
-// --- History pane: grouped by era, chronological (oldest first by default) --
-function renderHistorical(records) {
-  const st = viewState.history;
-  const newest = st.sort === "newest";
-  const filtered = records.filter((rec) =>
-    (st.category === "all" || (rec.category || "other") === st.category) &&
-    matchesQuery(rec, "historical", st.q));
-  if (records.length && !filtered.length) return [noMatchNote()];
-
-  const groups = new Map();
-  for (const rec of filtered) {
-    const era = (rec.historical || {}).era || "other";
-    if (!groups.has(era)) groups.set(era, []);
-    groups.get(era).push(rec);
-  }
-  const eras = [...groups.keys()].sort((x, y) => {
-    const ix = ERA_ORDER.indexOf(x), iy = ERA_ORDER.indexOf(y);
-    return (ix === -1 ? 99 : ix) - (iy === -1 ? 99 : iy);
-  });
-  if (newest) eras.reverse();
-
-  const out = [];
-  for (const era of eras) {
-    const recs = groups.get(era).sort((x, y) =>
-      (newest ? chronologyOf(y) - chronologyOf(x) : chronologyOf(x) - chronologyOf(y)) ||
-      (impactOf(y) - impactOf(x)));
-    out.push(el("section", { class: "category" }, [
-      el("h3", { class: "category-title", text: ERA_LABELS[era] || era }),
-      ...recs.map((r) => cardNode(r, { review: false, kind: "historical" })),
-    ]));
-  }
-  return out;
-}
-
-function renderUnderReview(records, kind) {
-  if (!records.length) return [];
-  const noun = kind === "event" ? "events" : kind === "historical" ? "records" : "threats";
-  return [el("section", { class: "review-section" }, [
-    el("h3", { class: "category-title", text: "Under review" }),
-    el("div", {
-      class: "review-banner",
-      text: `These ${noun} failed automated verification — no authoritative source has been ` +
-            "confirmed for their headline claims. They are shown for transparency and must not " +
-            "be read as established facts.",
+async function loadDatasets(fetcher = fetch) {
+  await Promise.all(
+    ["events", "threats", "historical"].map(async (kind) => {
+      try {
+        const response = await fetcher(`./data/${kind}.json`, {
+          cache: "no-cache",
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        if (!Array.isArray(data.published))
+          throw new Error("Invalid collection");
+        datasets[kind] = data;
+      } catch (error) {
+        datasets[kind] = { published: [], error: true };
+        console.error(`Unable to load ${kind}`, error);
+      }
     }),
-    ...records.map((r) => cardNode(r, { review: true, kind })),
-  ])];
+  );
+  const bounds = historyBounds(datasets.historical.published);
+  historyMin = bounds.min;
+  historyMax = bounds.max;
 }
 
-// --- localStorage last-known-good (paint instantly, then revalidate) -------
-function readCache(key) {
+const main = document.querySelector("main");
+const viewState = {};
+const esc = (s) =>
+  String(s ?? "").replace(
+    /[&<>"']/g,
+    (c) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[
+        c
+      ],
+  );
+const safe = (url) => {
   try {
-    const raw = localStorage.getItem(key);
-    return raw ? JSON.parse(raw) : null;
-  } catch (_) { return null; }
+    const u = new URL(url);
+    return u.protocol === "https:" ? u.href : "";
+  } catch {
+    return "";
+  }
+};
+const ext = (url, label) =>
+  safe(url)
+    ? `<a href="${esc(safe(url))}" target="_blank" rel="noopener noreferrer">${esc(label)} <span aria-hidden="true">↗</span><span class="sr-only"> (opens in new tab)</span></a>`
+    : `<span>${esc(label)}</span>`;
+const date = (d) =>
+  typeof d === "string" &&
+  !d.startsWith("0000-") &&
+  /^\d{4}-\d{2}-\d{2}$/.test(d) &&
+  Number.isFinite(Date.parse(d)) &&
+  new Date(d).toISOString().slice(0, 10) === d
+    ? d
+    : "";
+const normalizedText = (s) =>
+  String(s ?? "")
+    .trim()
+    .replace(/\s+/g, " ")
+    .toLowerCase();
+const excerpt = (s) =>
+  s.length > 260
+    ? (/\s/.test(s[260])
+        ? s.slice(0, 260).trimEnd()
+        : s.slice(0, 260).replace(/\s+\S*$/, "")) + "…"
+    : s;
+function sources(r) {
+  const claims = r.claims || [];
+  const unknown = claims.some(
+    (c) => !date(c.retrieved_date) && c.retrieved_date !== "",
+  );
+  return `<details><summary>Evidence (${claims.length} claims)</summary>${unknown ? '<p class="small">Some retrieval dates are not recorded.</p>' : ""}<ol class="sources">${claims.map((c) => `<li><p>${esc(c.text)}</p>${ext(c.source_url, c.source_name || "Source")} ${date(c.retrieved_date) ? `<span class="small">Retrieved ${esc(c.retrieved_date)}</span>` : c.retrieved_date === "" ? '<span class="small">Source never retrieved</span>' : ""}${c.retrieval_note ? `<p class="small">${esc(c.retrieval_note)}</p>` : ""}${c.verification_status !== "verified" ? `<p class="status-warning">${esc(label(c.verification_status || "unverified"))}</p>` : ""}</li>`).join("")}</ol></details>`;
 }
-
-function writeCache(key, data) {
-  try { localStorage.setItem(key, JSON.stringify(data)); } catch (_) { /* private mode */ }
+const helpPages = [
+  {
+    place: "Sudan",
+    operator: "World Food Programme",
+    scope: "Food assistance · Sudan-wide response",
+    url: "https://www.wfp.org/emergencies/sudan",
+    ids: [
+      "sudan-displacement-crisis",
+      "el-obeid-siege-sudan-2026",
+      "sudan-drone-strikes-kordofan-abyei-2026",
+    ],
+  },
+  {
+    place: "Haiti",
+    operator: "World Food Programme",
+    scope: "Food and cash assistance · Includes people displaced by violence",
+    url: "https://www.wfp.org/emergencies/haiti-emergency",
+    ids: ["haiti-gang-violence-displacement-2026"],
+  },
+  {
+    place: "Eastern DR Congo",
+    operator: "UNICEF",
+    scope: "Water, health and protection for children · Eastern DRC",
+    url: "https://www.unicef.org/drcongo/en/what-we-do/emergency-response/eastern-drc",
+    ids: ["drc-north-kivu-ituri-displacement-2026"],
+  },
+  {
+    place: "Yemen",
+    operator: "World Food Programme",
+    scope: "Food assistance · Includes people displaced by recent fighting",
+    url: "https://www.wfp.org/emergencies/yemen-emergency",
+    ids: ["yemen-conflict-escalation-2026"],
+  },
+];
+const helpFor = (id) => helpPages.filter((p) => p.ids.includes(id));
+const year = (n) => (n <= 0 ? `${1 - n} BCE` : `${n} CE`);
+const toStoredYear = (n) => (n < 0 ? n + 1 : n);
+const endYear = (h) =>
+  Number.isFinite(h.year_end)
+    ? h.year_end
+    : /\bpresent\b/i.test(h.date_display || "")
+      ? currentYear
+      : null;
+const validLocation = (r) => {
+  const l = r.event?.location || r.historical?.location;
+  return (
+    l &&
+    Number.isFinite(l.lat) &&
+    Number.isFinite(l.lon) &&
+    Math.abs(l.lat) <= 90 &&
+    Math.abs(l.lon) <= 180
+  );
+};
+const bucket = (n) =>
+  typeof n !== "number" || !Number.isFinite(n) || n < 0
+    ? "unknown"
+    : n === 0
+      ? "zero"
+      : n < 100
+        ? "small"
+        : n < 1000
+          ? "medium"
+          : "large";
+const yearMatch = (r, lo, hi) => {
+  const h = r.historical;
+  return (
+    Number.isFinite(h.year_start) &&
+    h.year_start <= hi &&
+    (endYear(h) !== null ? endYear(h) >= lo : h.year_start >= lo)
+  );
+};
+const historicalOrder = (a, b) =>
+  a.historical.year_start - b.historical.year_start || a.id.localeCompare(b.id);
+const label = (s) =>
+  String(s ?? "")
+    .replaceAll("-", " ")
+    .replace(/(^|\s)\p{Ll}/gu, (c) => c.toUpperCase());
+const iconPaths = {
+  plus: "M12 5v14M5 12h14",
+  minus: "M5 12h14",
+  reset: "M4 10a8 8 0 1 1 1 8M4 4v6h6",
+  left: "m14 6-6 6 6 6",
+  right: "m10 6 6 6-6 6",
+  up: "m6 14 6-6 6 6",
+  down: "m6 10 6 6 6-6",
+  biological: "M8 3c0 9 8 9 8 18M16 3c0 9-8 9-8 18M8 5h8M9 9h6M9 15h6M8 19h8",
+  climate: "M13 3v11a4 4 0 1 1-4 0V3a2 2 0 0 1 4 0M11 8v9M17 5h3M17 9h2",
+  cosmic:
+    "M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M5 19l3-3M16 8l3-3M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0",
+  geological: "m2 20 7-15 5 9 3-5 5 11H2M6 12l3 2 3-3",
+  nuclear:
+    "M12 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4M10 7 8 3a10 10 0 0 1 8 0l-2 4M7 13l-5 1a10 10 0 0 0 4 7l3-4M17 13l5 1a10 10 0 0 1-4 7l-3-4",
+  resource: "M12 21V11M12 16C3 16 3 8 3 8s9-1 9 8M12 12c0-9 9-9 9-9s1 9-9 9",
+  societal:
+    "M8 8a3 3 0 1 1 0-6 3 3 0 0 1 0 6M16 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6M2 21v-5a6 6 0 0 1 12 0v5M15 13a6 6 0 0 1 7 6v2",
+  technological:
+    "M7 7h10v10H7zM9 2v5M15 2v5M9 17v5M15 17v5M2 9h5M2 15h5M17 9h5M17 15h5",
+};
+const icon = (name) =>
+  `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="${Object.hasOwn(iconPaths, name) ? iconPaths[name] : iconPaths.cosmic}"/></svg>`;
+function helpCard(p) {
+  return `<p class="meta">${esc(p.place)}</p><h3>${esc(p.operator)}</h3><p>${esc(p.scope)}</p>${ext(p.url, "Response and ways to give")}<p class="small">Broader response, not a fund for this individual incident.</p>`;
 }
-
-async function loadPane({ url, mountId, freshnessId, kind, cacheKey, noun, staleAfterDays, onData }) {
-  const mount = document.getElementById(mountId);
-  const fresh = document.getElementById(freshnessId);
-  let lastData = null;
-
-  const render = (data) => {
-    lastData = data;
-    paneData[mountId] = data;
-    const published = data.published || [];
-    const underReview = data.under_review || [];
-    const body = kind === "event" ? renderEvents(published)
-      : kind === "historical" ? renderHistorical(published)
-      : renderThreats(published);
-    const nodes = [...body, ...renderUnderReview(underReview, kind)];
-    if (!nodes.length) {
-      mount.replaceChildren(el("p", { class: "loading", text: `No ${noun} tracked yet.` }));
-    } else {
-      mount.replaceChildren(...nodes);
+function helpBlock(id) {
+  const pages = helpFor(id);
+  return `<aside class="help"><h2>How to help</h2>${pages.length ? pages.map(helpCard).join("") : '<p>No response link reviewed for this event yet.</p><a href="#about">Suggest a relevant organization</a>'}<p class="small">${pages.length ? "Pages checked 4 Nov 2026. Links are not endorsements; check the organization’s donation terms." : ""}</p></aside>`;
+}
+let carouselIndex = 0;
+function carousel() {
+  return `<aside class="help carousel" role="region" aria-roledescription="carousel" aria-labelledby="help-heading"><h2 id="help-heading">Ways to help</h2><div class="carousel-stage"><button id="previous" class="carousel-arrow" aria-label="Previous response">${icon("left")}</button><div id="slide" role="group" aria-live="polite" aria-atomic="true"></div><button id="next" class="carousel-arrow" aria-label="Next response">${icon("right")}</button></div><div class="slide-nav">${helpPages.map((p, i) => `<button data-slide="${i}" aria-label="${esc(p.place)}: slide ${i + 1} of ${helpPages.length}" aria-current="${i === carouselIndex ? "true" : "false"}"><span></span></button>`).join("")}<span id="slide-count" class="sr-only"></span></div></aside>`;
+}
+function bindCarousel() {
+  function paint() {
+    const p = helpPages[carouselIndex];
+    document
+      .querySelector("#slide")
+      .setAttribute(
+        "aria-label",
+        `${carouselIndex + 1} of ${helpPages.length}`,
+      );
+    document.querySelector("#slide").innerHTML =
+      `<a class="response-card" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(p.place + " — " + p.operator + ". " + p.scope + ". Official response page; check donation terms. Opens in a new tab.")}"><span class="response-icon" aria-hidden="true">${esc(
+        p.operator === "UNICEF"
+          ? "U"
+          : p.operator
+              .split(/\s+/)
+              .map((w) => w[0])
+              .join(""),
+      )}</span><span class="response-text"><strong>${esc(p.place)}</strong><span>${esc(p.operator)}</span></span><span class="response-external" aria-hidden="true">↗</span></a>`;
+    document.querySelector("#slide-count").textContent =
+      `${carouselIndex + 1} / ${helpPages.length}`;
+    document
+      .querySelectorAll("[data-slide]")
+      .forEach((b) =>
+        b.setAttribute(
+          "aria-current",
+          String(Number(b.dataset.slide) === carouselIndex),
+        ),
+      );
+  }
+  document.querySelectorAll("[data-slide]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        carouselIndex = Number(b.dataset.slide);
+        paint();
+      }),
+  );
+  document.querySelector("#previous").onclick = () => {
+    carouselIndex = (carouselIndex + helpPages.length - 1) % helpPages.length;
+    paint();
+  };
+  document.querySelector("#next").onclick = () => {
+    carouselIndex = (carouselIndex + 1) % helpPages.length;
+    paint();
+  };
+  paint();
+}
+let disposeMap = () => {};
+function mountMap(host, records, onSelect, { passive = false } = {}) {
+  const points = records.filter(validLocation);
+  let zoom = 1,
+    x = 0,
+    y = 0,
+    active = 0;
+  const groups = [];
+  for (const r of points) {
+    const l = r.event?.location || r.historical.location;
+    let g = groups.find((g) => g.lat === l.lat && g.lon === l.lon);
+    if (!g) {
+      g = { lat: l.lat, lon: l.lon, records: [] };
+      groups.push(g);
     }
-    if (onData) onData(data);
-    // An open detail route over this pane repaints from the fresh data — this
-    // is also how a cold deep link's "Loading…" placeholder resolves.
-    const route = parseRoute();
-    if (route.id && route.tab === mountId) renderDetail(route);
-    if (!data.last_updated) {
-      fresh.replaceChildren();
+    g.records.push(r);
+  }
+  host.innerHTML = `<div class="map-tools"><div class="control-group" role="group" aria-label="Map zoom"><button data-map="out" aria-label="Zoom out">${icon("minus")}</button><span data-map="zoom" aria-live="polite">1×</span><button data-map="in" aria-label="Zoom in">${icon("plus")}</button></div><button data-map="reset" class="reset-map">${icon("reset")}<span>World view</span></button><div class="control-group pan-controls" role="group" aria-label="Pan map">${["left", "up", "down", "right"].map((dir) => `<button data-pan="${dir}" aria-label="Pan ${dir}">${icon(dir)}</button>`).join("")}</div></div><div class="world" role="region" tabindex="0" aria-label="World map" aria-describedby="map-help"><div class="earth"><img src="./assets/blue-marble-4096.jpg" alt="" draggable="false">${groups
+    .map((g, i) => {
+      const b = passive
+        ? "location"
+        : g.records.length > 1
+          ? "cluster"
+          : bucket(g.records[0].event?.impact?.deaths);
+      return `<${passive ? "span" : "button"} class="marker ${b}" style="left:${((g.lon + 180) / 360) * 100}%;top:${((90 - g.lat) / 180) * 100}%" data-index="${i}" ${passive ? 'aria-hidden="true"' : `tabindex="${i === 0 ? 0 : -1}" aria-pressed="false"`} aria-label="${esc(g.records.length > 1 ? g.records.length + " events at this location: " + g.records.map((r) => r.name).join("; ") : g.records[0].name + " · " + (passive ? "approximate location" : b === "unknown" ? "deaths not recorded" : g.records[0].event.impact.deaths + " recorded deaths"))}"><span>${g.records.length > 1 ? g.records.length : ""}</span></${passive ? "span" : "button"}>`;
+    })
+    .join(
+      "",
+    )}</div></div><details class="map-legend"><summary>What the dots mean </summary><p id="map-help" class="small">Approximate locations, not affected areas. Basemap: NASA Blue Marble. Drag with a mouse or use the pan controls; arrow keys browse focused markers. Recorded deaths, not importance: <i class="legend-dot unknown"></i> unknown · <i class="legend-dot zero"></i> 0 · <i class="legend-dot small"></i> 1–99 · <i class="legend-dot medium"></i> 100–999 · <i class="legend-dot large"></i> 1,000+. Numbers on markers group records at identical coordinates. Figures are saved snapshots; a small dot may still represent a major crisis. Use the list to reach overlapping locations.</p></details>`;
+  const world = host.querySelector(".world"),
+    earth = host.querySelector(".earth"),
+    markers = [...host.querySelectorAll(".marker")];
+  const abort = new AbortController();
+  const listen = (el, type, fn) =>
+    el.addEventListener(
+      type,
+      (e) => {
+        if (type === "click" && el.getAttribute("aria-disabled") === "true")
+          return;
+        fn(e);
+      },
+      { signal: abort.signal },
+    );
+  function render() {
+    const w = world.clientWidth,
+      h = world.clientHeight,
+      bw = w,
+      bh = bw / 2;
+    const maxX = Math.max(0, (bw * zoom - w) / 2),
+      maxY = Math.max(0, (bh * zoom - h) / 2);
+    x = Math.max(-maxX, Math.min(maxX, x));
+    y = Math.max(-maxY, Math.min(maxY, y));
+    earth.style.width = bw + "px";
+    earth.style.height = bh + "px";
+    earth.style.transform = `translate(calc(-50% + ${x}px),calc(-50% + ${y}px)) scale(${zoom})`;
+    earth.style.setProperty("--unzoom", 1 / zoom);
+    host.querySelector('[data-map="zoom"]').textContent = zoom.toFixed(1) + "×";
+    host.querySelectorAll("[data-pan]").forEach((b) => {
+      b.setAttribute(
+        "aria-disabled",
+        String(
+          {
+            left: x >= maxX,
+            right: x <= -maxX,
+            up: y >= maxY,
+            down: y <= -maxY,
+          }[b.dataset.pan],
+        ),
+      );
+    });
+    host
+      .querySelector('[data-map="out"]')
+      .setAttribute("aria-disabled", String(zoom <= 1));
+    host
+      .querySelector('[data-map="in"]')
+      .setAttribute("aria-disabled", String(zoom >= 8));
+  }
+  function change(n) {
+    n = Math.max(1, Math.min(8, n));
+    x *= n / zoom;
+    y *= n / zoom;
+    zoom = n;
+    render();
+  }
+  listen(host.querySelector('[data-map="in"]'), "click", () =>
+    change(zoom * 1.5),
+  );
+  listen(host.querySelector('[data-map="out"]'), "click", () =>
+    change(zoom / 1.5),
+  );
+  listen(host.querySelector('[data-map="reset"]'), "click", () => {
+    zoom = 1;
+    x = y = 0;
+    render();
+  });
+  function select(i) {
+    active = i;
+    markers.forEach((m, j) => {
+      m.tabIndex = j === i ? 0 : -1;
+      m.setAttribute("aria-pressed", String(j === i));
+    });
+    onSelect(groups[i].records);
+  }
+  markers.forEach((m, i) => {
+    if (passive) return;
+    listen(m, "focus", () => {
+      const a = m.getBoundingClientRect(),
+        b = world.getBoundingClientRect();
+      if (
+        a.left < b.left ||
+        a.right > b.right ||
+        a.top < b.top ||
+        a.bottom > b.bottom
+      ) {
+        const g = groups[i],
+          bw = world.clientWidth;
+        x = -(g.lon / 360) * bw * zoom;
+        y = (g.lat / 180) * (bw / 2) * zoom;
+        render();
+      }
+    });
+    listen(m, "click", () => select(i));
+    listen(m, "keydown", (e) => {
+      if (["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.key)) {
+        e.preventDefault();
+        e.stopPropagation();
+        active =
+          (i +
+            (["ArrowLeft", "ArrowUp"].includes(e.key)
+              ? markers.length - 1
+              : 1)) %
+          markers.length;
+        markers.forEach((m, j) => (m.tabIndex = j === active ? 0 : -1));
+        const g = groups[active],
+          bw = world.clientWidth;
+        x = -(g.lon / 360) * bw * zoom;
+        y = (g.lat / 180) * (bw / 2) * zoom;
+        render();
+        markers[active].focus();
+      }
+    });
+  });
+  listen(world, "keydown", (e) => {
+    if (e.target !== world) return;
+    const moves = {
+      ArrowLeft: [50, 0],
+      ArrowRight: [-50, 0],
+      ArrowUp: [0, 50],
+      ArrowDown: [0, -50],
+    };
+    if (moves[e.key]) {
+      e.preventDefault();
+      x += moves[e.key][0];
+      y += moves[e.key][1];
+      render();
+    } else if (["+", "=", "-"].includes(e.key)) {
+      e.preventDefault();
+      change(zoom * (e.key === "-" ? 1 / 1.5 : 1.5));
+    }
+  });
+  host.querySelectorAll("[data-pan]").forEach((b) =>
+    listen(b, "click", () => {
+      const dx = world.clientWidth * 0.25,
+        dy = world.clientHeight * 0.25,
+        d = { left: [dx, 0], right: [-dx, 0], up: [0, dy], down: [0, -dy] }[
+          b.dataset.pan
+        ];
+      x += d[0];
+      y += d[1];
+      render();
+    }),
+  );
+  let start;
+  listen(world, "pointerdown", (e) => {
+    if (e.pointerType !== "mouse" || e.target.closest("button")) return;
+    start = { id: e.pointerId, x: e.clientX, y: e.clientY, ox: x, oy: y };
+    world.setPointerCapture(e.pointerId);
+  });
+  listen(world, "pointermove", (e) => {
+    if (start && start.id === e.pointerId) {
+      x = start.ox + e.clientX - start.x;
+      y = start.oy + e.clientY - start.y;
+      render();
+    }
+  });
+  listen(world, "pointerup", () => (start = null));
+  listen(world, "pointercancel", () => (start = null));
+  const resize = new ResizeObserver(render);
+  resize.observe(world);
+  if (passive) {
+    host.querySelector(".map-legend").innerHTML =
+      '<summary>Map details</summary><p id="map-help" class="small">Approximate location, not an affected-area boundary. Basemap: NASA Blue Marble. Use the controls to zoom and pan.</p>';
+    if (groups.length === 1) {
+      zoom = 3;
+      const bw = world.clientWidth;
+      x = (-groups[0].lon / 360) * bw * zoom;
+      y = (groups[0].lat / 180) * (bw / 2) * zoom;
+    }
+  }
+  render();
+  return () => {
+    abort.abort();
+    resize.disconnect();
+  };
+}
+function row(r, kind) {
+  const d = r.event || r.historical || {};
+  return `<article class="row"><div class="place">${esc(kind === "historical" ? d.date_display || year(d.year_start) : d.location?.country || label(r.category))}<div class="status">${esc(label(d.status || d.era || ""))}</div></div><h3><a href="#${kind}/${encodeURIComponent(r.id)}">${esc(r.name)}</a></h3></article>`;
+}
+function eventListing() {
+  let mapKey = null;
+  const state =
+    viewState.events ||
+    (viewState.events = {
+      query: "",
+      status: "ongoing",
+      country: "",
+      help: false,
+      limit: 8,
+    });
+  main.innerHTML = `<h1>Explore what’s happening.</h1><p class="intro">A world of events, with context and ways to help.</p><div class="explorer"><section><div class="map-surface"><div id="world-map"></div><div id="selection" class="selection" aria-live="polite"><h2>Choose a point on the map</h2><p class="small">Select a marker to explore an event.</p></div></div></section></div>${carousel()}<div class="section-head"><h2>Explore emergencies</h2><span id="count" role="status"></span></div><div class="toolbar"><input id="search" type="search" aria-label="Search emergencies" placeholder="Find a place or event"><select id="status" aria-label="Status"><option value="ongoing">Ongoing</option><option value="all">All statuses</option><option value="contained">Contained</option><option value="resolved">Resolved</option></select><select id="country" aria-label="Country"><option value="">All countries</option>${[
+    ...new Set(
+      datasets.events.published
+        .map((r) => r.event?.location?.country)
+        .filter(Boolean),
+    ),
+  ]
+    .sort()
+    .map((c) => `<option value="${esc(c)}">${esc(c)}</option>`)
+    .join(
+      "",
+    )}</select><label><input type="checkbox" id="help-only"> Ways to help available</label></div><div id="rows"></div><button id="more">Show more</button><p class="footnote">Collection snapshot: ${esc((datasets.events.last_updated || "").slice(0, 10))}. Browse sources before relying on figures.</p>`;
+  bindCarousel();
+  function select(records) {
+    document.querySelector("#selection").innerHTML = records
+      .map(
+        (r) =>
+          `<div class="selected-event"><div><p class="meta">${esc(r.event.location.country)} · ${esc(label(r.event.status))}</p><h2>${esc(r.name)}</h2><p class="selection-summary">${esc(excerpt(r.description || r.event?.summary || ""))}</p><p class="small">${bucket(r.event.impact?.deaths) === "unknown" ? "Deaths not recorded" : Number(r.event.impact.deaths).toLocaleString() + " recorded deaths"} · Approximate location</p></div><div class="selection-action"><a class="primary" href="#events/${encodeURIComponent(r.id)}">View event ${icon("right")}</a></div></div>`,
+      )
+      .join("<hr>");
+  }
+  function paint(resetMap = true) {
+    let rows = datasets.events.published.filter(
+      (r) =>
+        (state.status === "all" || r.event?.status === state.status) &&
+        (!state.country || r.event?.location?.country === state.country) &&
+        (!state.help || helpFor(r.id).length) &&
+        [r.name, r.event?.location?.country]
+          .join(" ")
+          .toLowerCase()
+          .includes(state.query.toLowerCase()),
+    );
+    document.querySelector("#count").textContent = rows.length + " records";
+    document.querySelector("#rows").innerHTML =
+      rows
+        .slice(0, state.limit)
+        .map((r) => row(r, "events"))
+        .join("") || "<p>No matching records.</p>";
+    document.querySelector("#more").hidden = rows.length <= state.limit;
+    const key = rows.map((r) => r.id).join("|");
+    if (resetMap && key !== mapKey) {
+      mapKey = key;
+      document.querySelector(".map-surface > .map-legend")?.remove();
+      document.querySelector("#selection").innerHTML =
+        '<div class="selection-empty"><p class="meta">Explore the world</p><h2>Select an event</h2><p class="small">Choose a marker to see its context and sources.</p></div>';
+      disposeMap();
+      disposeMap = mountMap(document.querySelector("#world-map"), rows, select);
+      const legend = document.querySelector("#world-map .map-legend");
+      document.querySelector(".map-surface").appendChild(legend);
+    }
+  }
+  for (const key of ["search", "status", "country", "help-only"]) {
+    const el = document.getElementById(key);
+    const prop = {
+      search: "query",
+      status: "status",
+      country: "country",
+      "help-only": "help",
+    }[key];
+    if (el.type === "checkbox") el.checked = state[prop];
+    else el.value = state[prop];
+    el.addEventListener(key === "search" ? "input" : "change", () => {
+      state[prop] = el.type === "checkbox" ? el.checked : el.value;
+      state.limit = 8;
+      paint();
+    });
+  }
+  document.querySelector("#more").onclick = () => {
+    const n = state.limit;
+    state.limit += 8;
+    paint(false);
+    document.querySelectorAll("#rows h3 a")[n]?.focus();
+  };
+  paint();
+}
+function historyView() {
+  const rows = datasets.historical.published;
+  const state =
+    viewState.historical ||
+    (viewState.historical = {
+      lo: historyMin,
+      hi: historyMax,
+      era: "",
+      category: "",
+      sort: "old",
+      query: "",
+    });
+  const options = (field) =>
+    [...new Set(rows.map((r) => field(r)))]
+      .sort()
+      .map((v) => `<option value="${esc(v)}">${esc(label(v))}</option>`)
+      .join("");
+  main.innerHTML = `<h1>Explore the past.</h1><p class="intro">Move through centuries of disasters, disease and conflict.</p><section class="timeline-controls"><div class="toolbar"><label>From <input id="from" aria-describedby="year-help history-count" type="number" min="${historyMin}" max="${historyMax}" value="${state.lo}"></label><label>To <input id="to" aria-describedby="year-help history-count" type="number" min="${historyMin}" max="${historyMax}" value="${state.hi}"></label></div><div class="history-presets" role="group" aria-label="History date presets"><button id="all-years">All years</button><button data-range="${historyMin},-1">BCE</button><button data-range="1,1499">1–1499 CE</button><button data-range="1500,${historyMax}">Since 1500</button><button id="recent-years">Since 1900</button><button data-range="2000,${historyMax}">Since 2000</button></div><p class="sr-only" id="year-help">Enter negative numbers for BCE and positive numbers for CE. There is no year zero.</p><label for="time-start">Trim earlier years</label><input id="time-start" type="range" min="${toStoredYear(historyMin)}" max="${toStoredYear(state.hi)}" value="${toStoredYear(state.lo)}"><div class="toolbar"><select id="era" aria-label="Period"><option value="">All periods</option>${options((r) => r.historical.era)}</select><select id="category" aria-label="Category"><option value="">All categories</option>${options((r) => r.category)}</select><select id="sort" aria-label="Date order"><option value="old">Oldest first</option><option value="new">Newest first</option></select><input id="history-search" type="search" placeholder="Search history" aria-label="Search history"></div><p id="history-count" role="status"></p></section><div id="timeline"></div><details><summary>How dates work</summary><p class="footnote">Filters include overlapping recorded ranges. Unknown ends match the start year only. Dates and period labels follow the saved collection. Bars show recorded year ranges on a linear scale; explicit ongoing records extend to ${currentYear}, and unknown ends appear as points. Stored astronomical years are converted to BCE/CE. Period boundaries vary across regions.</p></details>`;
+  function paint() {
+    const from = document.querySelector("#from"),
+      to = document.querySelector("#to");
+    if (from.value === "" || to.value === "") {
+      document.querySelector("#timeline").innerHTML = "";
+      document
+        .querySelectorAll(".history-presets button")
+        .forEach((b) => b.setAttribute("aria-pressed", "false"));
       return;
     }
-    const summary = `${published.length} ${noun}${published.length === 1 ? "" : "s"}` +
-      (underReview.length ? `, ${underReview.length} under review` : "") +
-      ` · latest update ${dateOnly(data.last_updated)}`;
-    const age = daysSince(data.last_updated);
-    // staleAfterDays: null means the pane is exempt (an archive cannot go stale) —
-    // without the isFinite guard, `age > null` would read as `age > 0`: always stale.
-    const stale = Number.isFinite(age) && Number.isFinite(staleAfterDays) && age > staleAfterDays;
-    const freshNodes = [el("span", { text: summary })];
-    if (stale) {
-      freshNodes.push(el("span", {
-        class: "freshness-stale",
-        text: ` — stale: no refresh in over ${Math.floor(age)} days (expected every ${staleAfterDays})`,
-      }));
+    const lo = Number(from.value),
+      hi = Number(to.value);
+    const slider = document.querySelector("#time-start");
+    if (
+      !Number.isInteger(lo) ||
+      !Number.isInteger(hi) ||
+      lo === 0 ||
+      hi === 0 ||
+      lo > hi ||
+      lo < historyMin ||
+      hi > historyMax
+    ) {
+      document.querySelector("#history-count").textContent =
+        `Choose a valid range between ${year(toStoredYear(historyMin))} and ${year(historyMax)}, excluding year zero.`;
+      document.querySelector("#timeline").innerHTML = "";
+      document
+        .querySelectorAll(".history-presets button")
+        .forEach((b) => b.setAttribute("aria-pressed", "false"));
+      from.setAttribute("aria-invalid", "true");
+      to.setAttribute("aria-invalid", "true");
+      return;
     }
-    fresh.replaceChildren(...freshNodes);
+    from.removeAttribute("aria-invalid");
+    to.removeAttribute("aria-invalid");
+    state.lo = lo;
+    state.hi = hi;
+    slider.max = toStoredYear(hi);
+    slider.value = toStoredYear(lo);
+    slider.setAttribute("aria-valuetext", year(toStoredYear(lo)));
+    document.querySelectorAll(".history-presets button").forEach((b) => {
+      const range =
+        b.id === "all-years"
+          ? [historyMin, historyMax]
+          : b.id === "recent-years"
+            ? [1900, historyMax]
+            : b.dataset.range.split(",").map(Number);
+      b.setAttribute(
+        "aria-pressed",
+        String(range[0] === lo && range[1] === hi),
+      );
+    });
+    let matches = rows
+      .filter(
+        (r) =>
+          yearMatch(r, toStoredYear(lo), toStoredYear(hi)) &&
+          (!state.era || r.historical.era === state.era) &&
+          (!state.category || r.category === state.category) &&
+          r.name.toLowerCase().includes(state.query.toLowerCase()),
+      )
+      .sort(historicalOrder);
+    if (state.sort === "new") matches.reverse();
+    document.querySelector("#history-count").textContent =
+      `${matches.length} records · ${year(toStoredYear(lo))} → ${year(toStoredYear(hi))}`;
+    const axisLo = toStoredYear(lo),
+      axisHi = toStoredYear(hi),
+      span = Math.max(1, axisHi - axisLo);
+    document.querySelector("#timeline").innerHTML =
+      `<div class="axis"><span>${year(axisLo)}</span><span>${year(axisHi)}</span></div>` +
+      matches
+        .map((r) => {
+          const h = r.historical,
+            left = Math.max(0, ((h.year_start - axisLo) / span) * 100),
+            end = Math.min(
+              100,
+              (((endYear(h) ?? h.year_start) - axisLo) / span) * 100,
+            );
+          return `<article class="timeline-row"><p class="meta">${esc(h.date_display || year(h.year_start))} · ${esc(label(h.era))}</p><div class="time-track" aria-hidden="true"><span style="left:min(${left}%, calc(100% - 8px));width:${Math.max(0, end - left)}%"></span></div><h3><a href="#historical/${encodeURIComponent(r.id)}">${esc(r.name)}</a></h3>${endYear(h) === null ? '<span class="small">End not recorded</span>' : /\bpresent\b/i.test(h.date_display || "") ? '<span class="small">Ongoing · shown to current year</span>' : ""}</article>`;
+        })
+        .join("");
+  }
+  for (const key of ["era", "category", "sort"]) {
+    const el = document.getElementById(key);
+    el.value = state[key];
+    el.onchange = () => {
+      state[key] = el.value;
+      paint();
+    };
+  }
+  document.querySelector("#history-search").value = state.query;
+  document.querySelector("#history-search").oninput = (e) => {
+    state.query = e.target.value;
+    paint();
   };
-
-  // Toolbar changes re-render this pane from the latest data, no refetch.
-  paneRerender[mountId] = () => { if (lastData) render(lastData); };
-
-  const cached = readCache(cacheKey);
-  if (cached) render(cached);
-
+  for (const id of ["from", "to"]) document.getElementById(id).oninput = paint;
+  document.querySelector("#time-start").oninput = (e) => {
+    const n = Number(e.target.value);
+    document.querySelector("#from").value = n <= 0 ? n - 1 : n;
+    paint();
+  };
+  document.querySelectorAll("[data-range]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        const [a, z] = b.dataset.range.split(",").map(Number);
+        setRange(a, z);
+      }),
+  );
+  document.querySelector("#all-years").onclick = () =>
+    setRange(historyMin, historyMax);
+  document.querySelector("#recent-years").onclick = () =>
+    setRange(1900, historyMax);
+  function setRange(a, b) {
+    document.querySelector("#from").value = a;
+    document.querySelector("#to").value = b;
+    paint();
+  }
+  paint();
+}
+function riskVisual(r) {
+  const a = r.assessment || {};
+  const levels = ["regional", "continental", "civilizational"];
+  return `<div class="risk-visual"><p class="meta">Potential scale · Collection assessment</p>${!levels.includes(a.severity) ? `<p>Scale: ${esc(label(a.severity || "not assessed"))}</p>` : ""}<div class="severity">${levels.map((v) => `<span class="${a.severity === v ? "chosen" : ""}">${a.severity === v ? "✓ " : ""}${label(v)}${a.severity === v ? '<span class="sr-only"> (selected assessment)</span>' : ""}</span>`).join("")}</div><p><strong>Likelihood:</strong> ${esc(label(a.probability?.estimate || "Not estimated"))}<br><span class="small">${esc(label(a.probability?.window || "No time window recorded"))}</span></p><p class="small">Qualitative labels, not a forecast. See the evidence below.</p></div>`;
+}
+function risks() {
+  const rows = datasets.threats.published;
+  const categories = [...new Set(rows.map((r) => r.category))].sort();
+  main.innerHTML = `<h1>Risks</h1><p class="intro">Explore possible consequences and the evidence behind them.</p><h2 class="category-heading">Categories</h2><div class="risk-grid">${categories.map((c) => `<button class="risk-category" data-category="${esc(c)}" aria-pressed="false">${icon(c)}<span>${esc(label(c))}</span></button>`).join("")}</div><div class="toolbar"><select id="risk-filter" aria-label="Risk category"><option value="">All categories</option>${categories.map((c) => `<option value="${esc(c)}">${esc(label(c))}</option>`).join("")}</select><input id="risk-search" type="search" aria-label="Search risks" placeholder="Search risks"></div><p id="risk-count" role="status"></p><div id="risk-rows"></div>`;
+  const filter = document.querySelector("#risk-filter"),
+    search = document.querySelector("#risk-search");
+  function paint() {
+    const matches = rows.filter(
+      (r) =>
+        (!filter.value || r.category === filter.value) &&
+        r.name.toLowerCase().includes(search.value.toLowerCase()),
+    );
+    document.querySelector("#risk-count").textContent =
+      matches.length + " records";
+    document
+      .querySelectorAll("[data-category]")
+      .forEach((b) =>
+        b.setAttribute(
+          "aria-pressed",
+          String(b.dataset.category === filter.value),
+        ),
+      );
+    document.querySelector("#risk-rows").innerHTML =
+      matches.map((r) => row(r, "threats")).join("") ||
+      "<p>No matching records.</p>";
+  }
+  filter.onchange = paint;
+  search.oninput = paint;
+  document.querySelectorAll("[data-category]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        filter.value =
+          filter.value === b.dataset.category ? "" : b.dataset.category;
+        paint();
+      }),
+  );
+  paint();
+}
+function recordFacts(r) {
+  const d = r.event || {};
+  const latest = (r.claims || [])
+    .map((c) => date(c.retrieved_date))
+    .filter(Boolean)
+    .sort()
+    .at(-1);
+  const facts = [];
+  if (latest) facts.push(`Latest dated source retrieval ${esc(latest)}`);
+  if (d.occurrence_date) facts.push(`Started ${esc(d.occurrence_date)}`);
+  if (d.scale) facts.push(esc(d.scale));
+  for (const [key, label] of [
+    ["deaths", "Recorded deaths"],
+    ["displaced", "Recorded displaced"],
+  ]) {
+    if (Number.isFinite(d.impact?.[key]))
+      facts.push(`${label}: ${d.impact[key].toLocaleString()}`);
+  }
+  return `<section class="record-facts"><p class="small">${facts.join(" · ")}</p>${safe(d.live_source_url) ? ext(d.live_source_url, "Latest at source") : ""}</section>`;
+}
+function recordUpdates(r) {
+  return r.updates?.length
+    ? `<details><summary>Updates (${r.updates.length})</summary><ol class="sources">${r.updates.map((u) => `<li><time>${esc(u.date)}</time><p>${esc(u.text)}</p></li>`).join("")}</ol></details>`
+    : "";
+}
+function record(kind, id) {
+  const r = datasets[kind].published.find((r) => r.id === id);
+  if (!r) {
+    main.innerHTML = "<h1>Record not found</h1>";
+    return;
+  }
+  const d = r.event || r.historical || r.assessment || {};
+  main.innerHTML = `<a class="back" href="#${kind}">← Back to collection</a><header class="detail-header"><p class="meta">${esc(d.location?.country || label(r.category))}${d.date_display ? " · " + esc(d.date_display) : ""}</p><h1>${esc(r.name)}</h1><p class="small">Record edited ${esc((r.last_updated || "").slice(0, 10))} · Automated summary</p></header><div class="detail-layout"><section><div id="detail-visual"></div><div class="full-overview"><h2>Overview</h2><p>${esc(r.description || d.summary || "")}</p></div></section>${kind === "events" ? helpBlock(id) : ""}</div>${d.impact?.summary && normalizedText(d.impact.summary) !== normalizedText(r.description || d.summary) ? `<section class="impact-context"><h2>Impact and context</h2><p class="prose">${esc(d.impact.summary)}</p></section>` : ""}${kind === "threats" && d.summary && normalizedText(d.summary) !== normalizedText(r.description) ? `<section class="impact-context"><h2>Assessment context</h2><p>${esc(d.summary)}</p></section>` : ""}${d.timeframe ? `<section class="impact-context"><h2>Timeframe</h2><p class="prose">${esc(d.timeframe)}</p></section>` : ""}${recordFacts(r)}${recordUpdates(r)}${sources(r)}`;
+  const visual = document.querySelector("#detail-visual");
+  if (kind === "historical")
+    visual.innerHTML = `<div class="date-visual"><span>${esc(label(d.era))}</span><strong>${esc(d.date_display || year(d.year_start))}</strong><div class="date-line" aria-hidden="true">●━━━━━━━━${d.year_end != null ? "●" : "┄"}</div><p class="small">${year(d.year_start)}${endYear(d) !== null ? " → " + (/\bpresent\b/i.test(d.date_display || "") ? `present (${currentYear})` : year(endYear(d))) : " · End not recorded"} · Date context, not a geographic location</p></div>`;
+  else if (kind === "threats") visual.innerHTML = riskVisual(r);
+  else if (validLocation(r))
+    disposeMap = mountMap(visual, [r], () => {}, { passive: true });
+  else
+    visual.innerHTML =
+      '<div class="date-visual"><strong>' +
+      esc(d.location?.country || "Location not recorded") +
+      "</strong><p>Map coordinates unavailable.</p></div>";
+}
+function issueURL(title, body) {
+  const u = new URL(
+    "https://github.com/guillearria/global-observatory/issues/new",
+  );
+  u.searchParams.set("title", title);
+  u.searchParams.set("body", body);
+  return u.href;
+}
+function validIssueURL(value) {
   try {
-    const res = await fetch(`${url}?t=${Date.now()}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    writeCache(cacheKey, data);
-    render(data);
-  } catch (err) {
-    if (!cached) {
-      mount.replaceChildren(el("p", { class: "error", text: `Could not load ${noun}: ${err.message}` }));
+    const u = new URL(value);
+    return u.origin === "https://github.com" &&
+      /^\/guillearria\/global-observatory\/issues\/[1-9]\d*$/.test(
+        u.pathname,
+      ) &&
+      !u.search &&
+      !u.hash
+      ? u.href
+      : "";
+  } catch {
+    return "";
+  }
+}
+function about() {
+  main.innerHTML = `<article class="about"><h1>A place to observe the world.</h1><p>Explore emergencies, risks and history. Start with the map; follow the sources when you want to go deeper.</p><p>Automated research can be incomplete or wrong. This is a source-linked collection, not an alert service. Response pages lead to organizations’ own response pages; we don’t collect donations or rate charities.</p><section class="source-note"><h2>Sources & freshness</h2><p>Record edit dates are separate from source retrieval dates. Neither guarantees that every figure is current. Missing dates stay missing. Map locations are approximate; death figures and risk labels come from the saved collection.</p></section><h2>Send feedback</h2><p class="small">Suggestions, bugs or corrections. A GitHub account is required. Your issue will be public: don’t include personal or sensitive information.</p><form id="feedback"><label>Type<select id="feedback-type"><option>Suggestion</option><option>Bug</option><option>Data correction</option></select></label><label>Title<input id="feedback-title" required maxlength="100"></label><label>What should change?<textarea id="feedback-body" rows="5" required maxlength="1200"></textarea></label><button type="submit">Prepare GitHub issue</button></form><div id="feedback-result" role="status"></div><details><summary>Track an issue you submitted</summary><p class="small">After submitting on GitHub, copy the issue page URL here. This saves nothing and does not verify the issue.</p><label>Issue URL<input id="issue-url" type="url" placeholder="https://github.com/guillearria/global-observatory/issues/123"></label><button id="track">Show tracking link</button><p id="tracking" role="status"></p></details></article>`;
+  document.querySelector("#feedback").onsubmit = (e) => {
+    e.preventDefault();
+    const rawTitle = document.querySelector("#feedback-title").value.trim(),
+      body = document.querySelector("#feedback-body").value.trim();
+    if (!rawTitle || !body) {
+      document.querySelector("#feedback-result").textContent =
+        "Please enter a title and description.";
+      return;
     }
-  }
-}
-
-// The values present in the data, in canonical order, unknowns appended — so the
-// selects never offer a filter that matches nothing and need no schema knowledge.
-function orderedUnique(values, canonical) {
-  const present = new Set(values);
-  const out = canonical.filter((v) => present.has(v));
-  for (const v of present) if (!out.includes(v)) out.push(v);
-  return out;
-}
-
-function fillSelect(id, values, labels) {
-  const sel = document.getElementById(id);
-  if (!sel) return;
-  for (const v of values) {
-    sel.appendChild(el("option", { value: v, text: (labels || {})[v] || v }));
-  }
-}
-
-// Populate a pane's toolbar from its first data paint, then reveal it. Populating
-// once keeps the user's selection stable across the cached->fresh double paint;
-// a failed fetch simply leaves the toolbar hidden rather than showing dead UI.
-function populateToolbar(barId, data, fill) {
-  const bar = document.getElementById(barId);
-  if (!bar || bar.dataset.ready) return;
-  fill(data.published || []);
-  bar.dataset.ready = "true";
-  bar.hidden = false;
-}
-
-function setupToolbars() {
-  const bind = (id, tab, key) => {
-    const sel = document.getElementById(id);
-    if (!sel) return;
-    sel.addEventListener("change", () => {
-      viewState[tab][key] = sel.value;
-      if (paneRerender[tab]) paneRerender[tab]();
-    });
+    const title = `[${document.querySelector("#feedback-type").value}] ${rawTitle}`,
+      url = issueURL(title, body);
+    document.querySelector("#feedback-result").innerHTML =
+      `<p><strong>Draft prepared. Nothing has been submitted.</strong></p><p>${url.length <= 7000 ? ext(url, "Review and submit on GitHub") : "The draft is too long for a link. Copy the text below into " + ext("https://github.com/guillearria/global-observatory/issues/new", "a new GitHub issue") + "."}</p><p class="small">GitHub will show your tracking URL after you submit.</p><details><summary>Copyable draft</summary><pre>${esc(title + "\n\n" + body)}</pre></details>`;
   };
-  const bindSearch = (id, tab) => {
-    const input = document.getElementById(id);
-    if (!input) return;
-    input.addEventListener("input", () => {
-      viewState[tab].q = input.value.trim();
-      if (paneRerender[tab]) paneRerender[tab]();
-    });
+  document.querySelector("#track").onclick = () => {
+    const u = validIssueURL(document.querySelector("#issue-url").value);
+    document.querySelector("#tracking").innerHTML = u
+      ? ext(u, "Open your issue (user-supplied link, not verified)")
+      : "Enter a Global Observatory GitHub issue URL.";
   };
-  bind("pulse-category", "pulse", "category");
-  bind("history-sort", "history", "sort");
-  bind("history-category", "history", "category");
-  bind("threats-category", "threats", "category");
-  bind("threats-severity", "threats", "severity");
-  bindSearch("pulse-search", "pulse");
-  bindSearch("threats-search", "threats");
-  bindSearch("history-search", "history");
 }
-
-function main() {
-  showView(parseRoute());
-  window.addEventListener("hashchange", () => showView(parseRoute()));
-  setupToolbars();
-
-  // All three panes load eagerly: payloads are small, staleness banners stay live,
-  // and switching tabs is instant with no fetch on first visit.
-  loadPane({
-    url: "./data/events.json", mountId: "pulse", freshnessId: "pulse-freshness",
-    kind: "event", cacheKey: "globalobservatory.events", noun: "event", staleAfterDays: 2,
-    onData: (data) => {
-      if (window.GOMap) {
-        GOMap.setEvents(data.published || [], { describe: (rec) => datelineText(rec, "event") });
-      }
-      populateToolbar("pulse-toolbar", data, (recs) => {
-        fillSelect("pulse-category",
-          orderedUnique(recs.map((r) => r.category || "other"), Object.keys(EVENT_TYPE_LABELS)),
-          EVENT_TYPE_LABELS);
-      });
-    },
+let previousRoute = "";
+function route() {
+  const oldRoute = previousRoute;
+  previousRoute = location.hash;
+  disposeMap();
+  disposeMap = () => {};
+  let [kind = "events", raw] = location.hash.slice(1).split("/");
+  if (!kind) kind = "events";
+  kind = { pulse: "events", history: "historical" }[kind] || kind;
+  if (!Object.hasOwn(datasets, kind) && kind !== "about") kind = "events";
+  main.className =
+    !raw && kind === "historical"
+      ? "history-page"
+      : kind === "about"
+        ? "about-page"
+        : "";
+  document.querySelectorAll("nav a").forEach((a) => {
+    if (a.hash === "#" + kind) a.setAttribute("aria-current", "page");
+    else a.removeAttribute("aria-current");
   });
-  loadPane({
-    url: "./data/threats.json", mountId: "threats", freshnessId: "threats-freshness",
-    kind: "threat", cacheKey: "globalobservatory.threats", noun: "tracked threat", staleAfterDays: 10,
-    onData: (data) => populateToolbar("threats-toolbar", data, (recs) => {
-      fillSelect("threats-category", orderedUnique(recs.map((r) => r.category || "other"), CATEGORY_ORDER), CATEGORY_LABELS);
-      fillSelect("threats-severity",
-        orderedUnique(recs.map((r) => (r.assessment || {}).severity || "unknown"), SEVERITY_ORDER));
-    }),
-  });
-  loadPane({
-    url: "./data/historical.json", mountId: "history", freshnessId: "history-freshness",
-    kind: "historical", cacheKey: "globalobservatory.historical", noun: "historical record",
-    staleAfterDays: null,
-    onData: (data) => populateToolbar("history-toolbar", data, (recs) => {
-      fillSelect("history-category",
-        orderedUnique(recs.map((r) => r.category || "other"), Object.keys(HISTORICAL_TYPE_LABELS)),
-        HISTORICAL_TYPE_LABELS);
-    }),
-  });
+  try {
+    if (datasets[kind]?.error) {
+      main.innerHTML =
+        "<h1>Collection unavailable</h1><p>Please reload or try again later.</p>";
+    } else if (kind === "about") about();
+    else if (raw) record(kind, decodeURIComponent(raw));
+    else if (kind === "events") eventListing();
+    else if (kind === "historical") historyView();
+    else risks();
+  } catch (err) {
+    main.innerHTML =
+      '<h1>Unable to open this record</h1><a href="#events">Return to emergencies</a>';
+    console.error(err);
+  }
+  main.insertAdjacentHTML("afterbegin", freshness(kind));
+  const h = main.querySelector("h1");
+  h?.setAttribute("tabindex", "-1");
+  h?.focus({ preventScroll: true });
+  const [oldKind, oldId] = oldRoute.slice(1).split("/");
+  const backLink =
+    !raw && oldKind === kind && oldId
+      ? [...main.querySelectorAll("h3 a")].find((a) => a.hash === oldRoute)
+      : null;
+  if (backLink) {
+    backLink.focus();
+    backLink.scrollIntoView({ block: "center" });
+  } else window.scrollTo(0, 0);
+  document.title =
+    (h?.textContent || "Global Observatory") + " · Global Observatory";
 }
-
-main();
+// Browser startup
+document.querySelector(".skip").onclick = (e) => {
+  e.preventDefault();
+  main.tabIndex = -1;
+  main.focus();
+};
+loadDatasets().then(() => {
+  window.addEventListener("hashchange", route);
+  route();
+});

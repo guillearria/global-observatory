@@ -1,25 +1,20 @@
 # The one alarm that leaves GitHub.
 #
-# Every other check here signals by turning a CI run red, which only works if a human is
-# subscribed to that run. In July 2026 `staleness` failed on 11 consecutive days while the weekly
-# threats routine sat broken and two verified records were lost — the check fired exactly as
-# designed, into nobody's inbox. Auto-publish is what broke the default: GitHub notifies "the last
-# committer", and that is now the publisher bot. The louder the automation got, the quieter the
-# alarm became.
+# Native Actions email depends on the workflow actor and notification settings.
+# This optional Telegram listener is independent of those settings; the repository
+# cannot guarantee that either channel reaches a human.
 #
 # One listener for every automated workflow, rather than a notify step inside each: a new failure
 # mode in an existing workflow is covered without anyone remembering to wire it up. Adding a new
 # workflow does require adding its name below — that is the one gap, and it is visible here.
 #
-# Fail-soft on purpose. If the secrets are unset this exits 0 with a notice instead of turning
-# every failure into a second red run; and a failed send is never retried (see scripts/notify.py —
-# an ambiguous timeout retried is a double-post).
+# Missing notification configuration fails visibly in Actions; it must not report a
+# successful delivery. Native GitHub email delivery depends on the workflow actor's
+# Actions notification preferences; this workflow does not configure subscriptions.
+# A failed send is never retried because an ambiguous timeout can double-post.
 #
-# `workflow_dispatch` is the self-test: `gh workflow run notify.yml` sends a test message, and
-# unlike the real path it FAILS when the secrets are unset. A silent skip is right when there is a
-# genuine failure to report (better one lost alarm than a second unwatched red run) and useless
-# when a human is explicitly asking "is this armed?" — that question must never answer green
-# without a message having been sent.
+# workflow_dispatch sends an explicit self-test. Do not use it during a read-only
+# audit; it posts a real message. Missing secrets fail visibly in either path.
 name: notify
 on:
   workflow_run:
@@ -57,8 +52,9 @@ jobs:
               echo "::error::Not armed — set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID. Nothing was sent."
               exit 1
             fi
-            echo "::notice::Telegram secrets unset — set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID to arm this alarm."
-            exit 0
+            echo "::error::Telegram secrets unset — failure notification was not delivered."
+            echo "Notification unavailable: Telegram secrets are unset. Inspect the failed workflow directly." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
           fi
           # Values arrive via env above, never interpolated into this script, so a branch name or
           # commit subject cannot break out of the shell. (Do not write an expression delimiter in

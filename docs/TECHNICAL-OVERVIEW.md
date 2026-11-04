@@ -144,8 +144,9 @@ a dated occurrence needs a different shape than a standing risk:
   `impact` (`deaths`, `displaced`, `summary`) / `live_source_url` — the authoritative page that
   keeps updating; the frontend links it as "live at source". `description` and `impact.summary`
   are short current-state prose, rewritten in place on refresh (Python prose checks enforce
-  length caps and refuse process narration); the "Figures as of" date shown on the site derives
-  from the claims' `retrieved_date`, never from `last_updated`.
+  length caps and refuse process narration); the "Latest dated source retrieval" date shown
+  on the site derives from valid claims' `retrieved_date`, never from `last_updated`. It does
+  not establish the age of every displayed metric. Missing dates remain explicitly visible.
 - `updates[]` (optional) — the dated development log, newest first: one `{date, text}` entry per
   material development or correction, capped at 30 entries × 400 chars. The detail view renders
   it as the event's timeline.
@@ -172,3 +173,32 @@ shape than the news:
 
 See [`CONTRIBUTING.md`](../CONTRIBUTING.md) to add a record by hand, or propose a new
 authoritative source.
+
+
+## Missing retrieval provenance
+
+All three record schemas accept the same claim metadata:
+
+- `retrieved_date: "YYYY-MM-DD"`: a recorded source retrieval date; Python validates both
+  canonical spelling and calendar validity. A genuine new retrieval may update this value.
+- `retrieved_date: ""`: the existing documented sentinel for a source never retrieved.
+- `retrieved_date: null`: retrieval date unknown/not recorded. A nonblank `retrieval_note`
+  is required to explain the missing provenance. It does not assert whether retrieval occurred.
+
+The field remains required. Literal `undefined`, invalid calendar dates, timestamps, compact
+dates and guessed dates are rejected. The note may remain after a later real retrieval so the
+earlier limitation is not erased. Do not replace an unknown date with a commit date, publication
+date, record-edit timestamp or today's date without an actual source retrieval.
+
+The Harappan decline record's four legacy `undefined` values were migrated to null with a note
+identifying the seed commit. The factual claims, source URLs, verification verdict, sort keys,
+record-edit timestamp and historical pipeline provenance were preserved. No sources were
+re-fetched during that metadata correction. Git records the migration; the historical frontend
+aggregate must be rebuilt together with it. The JSON schema version string remains 1.0: this
+repository has no version-dispatch mechanism; consumers must adopt the expanded nullable field
+and optional note together with the validation/UI changes.
+
+This is a provenance repair, not new factual verification. The domain-based gate still does
+not establish source-content agreement; retrieval completeness is a separate UI indicator.
+The dataset's newest-record timestamp is still a pipeline freshness indicator, not a guarantee
+that all sources or metrics were recently checked.

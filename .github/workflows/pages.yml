@@ -34,8 +34,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -e .
-      - run: python scripts/build_frontend.py
+      - run: pip install -e ".[dev]"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate before deployment
+        run: |
+          ruff check .
+          pytest -q
+          node --test tests/test_retrieval_ui.cjs
+          python scripts/validate_data.py
+          python scripts/build_frontend.py
+          git diff --exit-code -- frontend/data
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

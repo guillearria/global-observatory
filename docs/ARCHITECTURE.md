@@ -194,8 +194,11 @@ touches the two-method `GOMap` API — `setEvents(records, { describe })`, whose
 supplies the tooltip's second line (the card dateline), and `invalidate()` — keeping a richer map
 library a drop-in swap.
 
-Freshness honesty: cached figures are labeled "as of <claims' retrieved_date>" on the detail view,
-with a "live at source" link (`event.live_source_url`) — its one home on the site; a **staleness banner**
+Retrieval provenance: the detail view labels the latest valid claim retrieval date as
+"Latest dated source retrieval", with no fallback to the record's edit timestamp. This is not
+the age of every metric. Unknown dates and never-retrieved sources are labeled separately in
+citations, and incomplete retrieval provenance is shown on verified cards and all detail views.
+The "live at source" link (`event.live_source_url`) remains on the detail view; a **staleness banner**
 appears on the list panes when `last_updated` exceeds 2 days (events) or 10 days (threats) — the
 Historical Archive is exempt (its `staleAfterDays` is null, and the banner guard requires a
 finite threshold).

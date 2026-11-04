@@ -185,3 +185,14 @@ events so cached figures don't go stale.)
    session's own `claude/…` branch (the platform never allows pushing `main` directly) — that is
    expected and sufficient: the `publish` workflow re-validates the branch, confirms it touches
    only curated data, merges it into `main`, and redeploys the site. Do not open a PR.
+
+## Frontend compatibility
+
+The redesigned frontend fetches the generated JSON aggregates directly. Continue changing only
+records and generated aggregates; do not modify HTML, JS or CSS during a refresh. Old #pulse and
+#history links remain supported. Source retrieval dates must reflect an actual successful source
+read, never the run date alone. A legacy null means the retrieval date was not recorded; preserve
+its retrieval_note until a real retrieval is performed. Empty string means never retrieved.
+Response links are curated separately in frontend/app.js: do not infer a donation destination
+from a country match or fabricate one to fill a gap. Report a newly researched candidate and its
+scope for review. The site deliberately shows a gap where no response link was reviewed.

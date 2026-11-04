@@ -2,18 +2,11 @@
 # the frontend banner, so a silently-dead refresh schedule is caught without
 # waiting for someone to load the page. Thresholds mirror frontend/app.js.
 #
-# This failing is NOT self-announcing. It once ran red for 11 consecutive days
-# (2026-07-22 → 08-01) while the weekly threats routine was broken, and nobody
-# noticed: GitHub notifies "the last committer", which under auto-publish is the
-# publisher bot. `notify.yml` is what carries this off GitHub — if that is ever
-# removed or its secrets go unset, this check is decorative again.
-#
-# Accepted limits:
-# - GitHub auto-disables schedules after ~60 days of repo inactivity; the daily
-#   refresh commits keep it alive, and if both die together the frontend banner
-#   still shows.
-# - Rare false positive if the world is quiet for >2 days AND no ongoing event
-#   needed a retrieved_date refresh (a normal refresh re-stamps last_updated).
+# This bridges an external Claude routine that stops publishing to a failing GitHub
+# check. Email requires the schedule actor's Actions notification preferences.
+# It checks every ongoing event as well as the aggregate, and compares live Pages
+# data with main. History is exempt; threat refreshes rotate weekly.
+# Schedules can be delayed or disabled by GitHub inactivity policies.
 name: staleness
 on:
   schedule:
@@ -26,22 +19,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fail if published data is stale
-        run: |
-          python3 - <<'EOF'
-          import json, sys
-          from datetime import datetime, timezone
-          # frontend/data/historical.json is deliberately absent: the Historical
-          # Archive is refreshed ad hoc and an archive cannot go "stale".
-          LIMITS = {"frontend/data/events.json": 2, "frontend/data/threats.json": 10}
-          now, errs = datetime.now(timezone.utc), []
-          for path, limit in LIMITS.items():
-              stamp = json.load(open(path)).get("last_updated", "")
-              if not stamp:
-                  errs.append(f"{path}: empty last_updated (no records?)"); continue
-              age = (now - datetime.fromisoformat(stamp.replace("Z", "+00:00"))).total_seconds() / 86400
-              if age > limit:
-                  errs.append(f"{path}: last refreshed {stamp} — {age:.1f} days ago (limit {limit})")
-          print("\n".join(errs) if errs else "fresh")
-          sys.exit(1 if errs else 0)
-          EOF
+      - name: Check committed and deployed freshness
+        run: python3 scripts/check_freshness.py --live

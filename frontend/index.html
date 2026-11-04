@@ -1,149 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Stop iOS Safari auto-linking number-like text (report IDs, tolls) in UA blue. -->
-  <meta name="format-detection" content="telephone=no" />
-  <title>Global Observatory — live world events, existential threats &amp; historical archive</title>
-  <meta name="description" content="A fact-based observatory of the world: a live pulse of confirmed major events on a world map, an ongoing tracker of existential threats, and a historical archive reaching back to the dawn of civilization. Every published figure is grounded in an authoritative source — an aggregation, not a forecast." />
-  <link rel="canonical" href="https://guillearria.github.io/global-observatory/" />
-  <!-- The mark, inline as a data URI: the site makes no external requests, and there is
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Stop iOS Safari auto-linking number-like text (report IDs, tolls) in UA blue. -->
+    <meta name="format-detection" content="telephone=no" />
+    <title>
+      Global Observatory — live world events, existential threats &amp;
+      historical archive
+    </title>
+    <meta
+      name="description"
+      content="A fact-based observatory of the world: a live pulse of confirmed major events on a world map, an ongoing tracker of existential threats, and a historical archive reaching back to the dawn of civilization. Every published figure is grounded in an authoritative source — an aggregation, not a forecast."
+    />
+    <link
+      rel="canonical"
+      href="https://guillearria.github.io/global-observatory/"
+    />
+    <!-- The mark, inline as a data URI: the site makes no external requests, and there is
        no separate icon file to fall out of step with the masthead. -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%230f1115%22/%3E%3Ccircle cx=%2216%22 cy=%2216%22 r=%2211%22 fill=%22none%22 stroke=%22%236ea8fe%22 stroke-width=%222%22/%3E%3Cellipse cx=%2216%22 cy=%2216%22 rx=%224.6%22 ry=%2211%22 fill=%22none%22 stroke=%22%236ea8fe%22 stroke-width=%221.2%22 opacity=%220.5%22/%3E%3Cpath d=%22M4 16h5.5l2.5-4.5 3 9.5 2.5-7 1.5 2H28%22 fill=%22none%22 stroke=%22%236ea8fe%22 stroke-width=%222.2%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3C/svg%3E" />
-  <!-- Display face: self-hosted, subsetted. A hosted-font <link> would break the
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%230f1115%22/%3E%3Ccircle cx=%2216%22 cy=%2216%22 r=%2211%22 fill=%22none%22 stroke=%22%236ea8fe%22 stroke-width=%222%22/%3E%3Cellipse cx=%2216%22 cy=%2216%22 rx=%224.6%22 ry=%2211%22 fill=%22none%22 stroke=%22%236ea8fe%22 stroke-width=%221.2%22 opacity=%220.5%22/%3E%3Cpath d=%22M4 16h5.5l2.5-4.5 3 9.5 2.5-7 1.5 2H28%22 fill=%22none%22 stroke=%22%236ea8fe%22 stroke-width=%222.2%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3C/svg%3E"
+    />
+    <!-- Display face: self-hosted, subsetted. A hosted-font <link> would break the
        zero-external-requests property (see styles.css @font-face). -->
-  <link rel="preload" href="./assets/fonts/newsreader-600-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Global Observatory" />
-  <meta property="og:title" content="Global Observatory — live world events, existential threats &amp; historical archive" />
-  <meta property="og:description" content="A fact-based observatory of the world: a live pulse of confirmed major events on a world map, an ongoing tracker of existential threats, and a historical archive reaching back to the dawn of civilization. Every published figure is grounded in an authoritative source — an aggregation, not a forecast." />
-  <meta property="og:url" content="https://guillearria.github.io/global-observatory/" />
-  <meta property="og:image" content="https://guillearria.github.io/global-observatory/assets/og-image.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Global Observatory — a globe with a pulse line; a fact-based observatory of the world" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
-  <header class="site-header masthead">
-    <div class="brand">
-      <h1 class="brand-name">
-        <!-- The mark: a globe with a pulse line through its equator. Decorative — the
-             wordmark carries the name; the favicon above is the same drawing. -->
-        <svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-          <circle cx="16" cy="16" r="12" fill="none" stroke="currentColor" stroke-width="2" />
-          <ellipse cx="16" cy="16" rx="5" ry="12" fill="none" stroke="currentColor" stroke-width="1.25" opacity="0.5" />
-          <path d="M3 16h6.5l2.5-4.5 3 9.5 2.5-7 1.5 2H29" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
-        <span class="wordmark">Global Observatory</span>
-      </h1>
+    <link
+      rel="preload"
+      href="./assets/fonts/newsreader-600-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Global Observatory" />
+    <meta
+      property="og:title"
+      content="Global Observatory — live world events, existential threats &amp; historical archive"
+    />
+    <meta
+      property="og:description"
+      content="A fact-based observatory of the world: a live pulse of confirmed major events on a world map, an ongoing tracker of existential threats, and a historical archive reaching back to the dawn of civilization. Every published figure is grounded in an authoritative source — an aggregation, not a forecast."
+    />
+    <meta
+      property="og:url"
+      content="https://guillearria.github.io/global-observatory/"
+    />
+    <meta
+      property="og:image"
+      content="https://guillearria.github.io/global-observatory/assets/og-image.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Global Observatory — a globe with a pulse line; a fact-based observatory of the world"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="shell">
+      <header class="masthead">
+        <a class="brand" href="#events"
+          ><svg viewBox="0 0 32 32" aria-hidden="true">
+            <circle
+              cx="16"
+              cy="16"
+              r="12"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <path
+              d="M4 16h7l2-5 4 11 3-7h8"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            /></svg
+          >Global Observatory</a
+        >
+        <nav aria-label="Sections">
+          <a href="#events">Emergencies</a><a href="#threats">Risks</a
+          ><a href="#historical">History</a><a href="#about">About</a>
+        </nav>
+      </header>
+      <main id="main"><p role="status">Loading collections…</p></main>
+      <noscript
+        >Enable JavaScript to explore the collections. Raw data is available in
+        the source repository.</noscript
+      >
+      <footer class="footer">
+        <span>Explore emergencies, risks and history.</span
+        ><a
+          href="https://github.com/guillearria/global-observatory"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Source code</a
+        >
+      </footer>
     </div>
-  </header>
-
-  <nav class="tabs" aria-label="Sections">
-    <a href="#pulse" data-tab="pulse">World Pulse</a>
-    <a href="#threats" data-tab="threats">Existential Threats</a>
-    <a href="#history" data-tab="history">Historical Archive</a>
-    <a href="#about" data-tab="about">About</a>
-  </nav>
-
-  <main>
-    <section class="pane" id="pulse-pane">
-      <div class="pane-head">
-        <h2 class="pane-title">World Pulse</h2>
-        <p class="pane-sub">Confirmed major events happening now — disasters, outbreaks, and crises; recent and severe first.</p>
-        <p class="freshness" id="pulse-freshness"></p>
-        <div class="toolbar" id="pulse-toolbar" hidden>
-          <label class="toolbar-field">Category
-            <select id="pulse-category"><option value="all" selected>All categories</option></select>
-          </label>
-          <label class="toolbar-field">Search
-            <input type="search" id="pulse-search" placeholder="country, place, keyword" autocomplete="off" />
-          </label>
-        </div>
-      </div>
-      <div class="map-wrap" id="map-section" hidden>
-        <div id="map" role="application" aria-label="World map of tracked events"></div>
-        <p class="map-attrib">Basemap: NASA Blue Marble · drag to pan, scroll or pinch to zoom — on touch, one finger scrolls the page, two fingers move the map · markers scale with impact; click one to jump to its card</p>
-      </div>
-      <div id="pulse"><p class="loading">Loading events…</p></div>
-    </section>
-
-    <section class="pane" id="threats-pane">
-      <div class="pane-head">
-        <h2 class="pane-title">Existential Threats</h2>
-        <p class="pane-sub">Standing risks to humanity, tracked by category.</p>
-        <p class="freshness" id="threats-freshness"></p>
-        <div class="toolbar" id="threats-toolbar" hidden>
-          <label class="toolbar-field">Category
-            <select id="threats-category"><option value="all" selected>All categories</option></select>
-          </label>
-          <label class="toolbar-field">Severity
-            <select id="threats-severity"><option value="all" selected>All severities</option></select>
-          </label>
-          <label class="toolbar-field">Search
-            <input type="search" id="threats-search" placeholder="keyword" autocomplete="off" />
-          </label>
-        </div>
-      </div>
-      <div id="threats"><p class="loading">Loading threats…</p></div>
-    </section>
-
-    <section class="pane" id="history-pane">
-      <div class="pane-head">
-        <h2 class="pane-title">Historical Archive</h2>
-        <p class="pane-sub">Major events from the dawn of civilization to the recent past — pandemics, wars, famines, disasters, and collapses on one timeline.</p>
-        <p class="freshness" id="history-freshness"></p>
-        <div class="toolbar" id="history-toolbar" hidden>
-          <label class="toolbar-field">Sort
-            <select id="history-sort">
-              <option value="oldest" selected>Oldest first</option>
-              <option value="newest">Newest first</option>
-            </select>
-          </label>
-          <label class="toolbar-field">Type
-            <select id="history-category"><option value="all" selected>All types</option></select>
-          </label>
-          <label class="toolbar-field">Search
-            <input type="search" id="history-search" placeholder="place, keyword" autocomplete="off" />
-          </label>
-        </div>
-      </div>
-      <div id="history"><p class="loading">Loading historical records…</p></div>
-    </section>
-
-    <!-- About: static; the only pane with no data and no detail routes. -->
-    <section class="pane about" id="about-pane">
-      <h2 class="pane-title">About</h2>
-      <article class="panel">
-        <h3 class="panel-title">What it is</h3>
-        <p>Global Observatory is a fact-based observatory of the world in three parts: <a href="#pulse">World Pulse</a>, a daily pulse of confirmed major events — disasters, outbreaks and crises — on a world map; <a href="#threats">Existential Threats</a>, a standing tracker of the risks to humanity, by category; and the <a href="#history">Historical Archive</a>, major events from the dawn of civilization to the recent past on one timeline. It is an aggregation of published figures, not a forecast.</p>
-      </article>
-      <article class="panel">
-        <h3 class="panel-title">Where the figures come from</h3>
-        <p>Every figure is drawn from an official or authoritative source — government agencies, UN bodies, scientific institutions, established reference works — and each record links every source it relies on, with the date it was retrieved. Whether a record is published at all is decided by a fixed rule, not by whoever wrote it: if its headline figures cannot be traced to such a source, it is held back or shown under <em>Under review</em>, and is never presented as confirmed. A record that cites an authoritative page that could not be re-opened is marked <em>partial</em> on its detail page, with the source still linked.</p>
-        <p>Event figures are a snapshot as of the date they were retrieved; each event's detail page links the live source, which keeps the running total.</p>
-      </article>
-      <article class="panel">
-        <h3 class="panel-title">Who makes it</h3>
-        <p>The dataset is researched and kept current by an automated curator — Claude, running on a daily schedule — that may extend the list of trusted institutions only with a written reason, and that never gets the final say on whether a figure is verified: the rule above does. The site, the rule and the data are open source, and the full history of every record is public.</p>
-      </article>
-    </section>
-
-    <!-- Detail view for #<tab>/<record-id> routes; list panes stay mounted
-         (hidden) behind it so toolbar state and map card targets survive. -->
-    <section class="pane" id="detail-pane" hidden>
-      <div id="detail"></div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>Project code on <a href="https://github.com/guillearria/global-observatory">GitHub</a> · Built by <a href="https://github.com/guillearria">Guillermo Arria-Devoe</a></p>
-  </footer>
-
-  <script src="./map.js"></script>
-  <script src="./app.js"></script>
-</body>
+    <script src="./app.js" defer></script>
+  </body>
 </html>

@@ -23,6 +23,11 @@ jobs:
         run: ruff check .
       - name: Tests
         run: pytest -q
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Retrieval provenance UI tests
+        run: node --test tests/test_retrieval_ui.cjs
       - name: Schema + trust validation (hard gate)
         run: python scripts/validate_data.py
       - name: Frontend build

@@ -17,3 +17,5 @@ A website that keeps track of major world events, long-term threats to humanity,
 - Questions or corrections: [open an issue](https://github.com/guillearria/global-observatory/issues), or see [CONTRIBUTING.md](CONTRIBUTING.md)
 
 Global Observatory is a personal project by [Guillermo Arria-Devoe](https://github.com/guillearria).
+
+See [design and refresh integration](docs/DESIGN-AND-OPERATIONS.md) for the current UI, daily data path and deployment checks.
