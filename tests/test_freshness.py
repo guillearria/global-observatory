@@ -1,6 +1,13 @@
+import importlib.util
 from datetime import UTC, datetime
+from pathlib import Path
 
-from scripts.check_freshness import check_data
+spec = importlib.util.spec_from_file_location(
+    "check_freshness", Path(__file__).parents[1] / "scripts/check_freshness.py"
+)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+check_data = module.check_data
 
 NOW = datetime(2026, 11, 4, 12, tzinfo=UTC)
 
