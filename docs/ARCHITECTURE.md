@@ -222,9 +222,11 @@ finite threshold).
   domain to the allowlist but never loosen the rules that check it. Anything else is left for a
   human merge. This enforces the refresh commands' write-scope rule mechanically, and is the reason
   no dataset needs a review queue.
-- **`staleness.yml`** — daily scheduled check that fails if the committed `frontend/data/*.json`
-  goes stale (>2 days events / >10 days threats; `historical.json` deliberately exempt) — the
-  server-side complement to the frontend banner, catching a silently-dead refresh schedule.
+- **`staleness.yml`** — checks daily and after successful Pages runs on `main`. It fails if
+  aggregate or ongoing-event data is stale (>2 days events / >10 days threats; history exempt)
+  or deployed data differs from the checked commit. Post-deploy runs check the Pages commit.
+  The publisher's separate `--report-only` preflight reports incomplete coverage without
+  blocking otherwise valid updates; it does not weaken this strict monitor.
 - **`notify.yml`** — the only alarm that leaves GitHub. A single `workflow_run` listener on
   `staleness`, `publish`, `validate` and `pages` that pushes any failure to Telegram via
   `scripts/notify.py`. It exists because a red CI run is not a signal unless somebody is

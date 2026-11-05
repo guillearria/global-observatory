@@ -113,6 +113,10 @@ events so cached figures don't go stale.)
    before drafting: if it already covers the event you were about to add, extend that branch
    instead of opening a new one.
 
+   Run `python scripts/check_freshness.py --report-only` before researching and prioritize
+   the named stale ongoing records. This is an advisory, not permission to restamp dates:
+   only a successful source read justifies a new `retrieved_date`.
+
 2. **Research** each target event with WebSearch, then WebFetch the authoritative page(s) to confirm
    exact figures (deaths, displaced, magnitude, declaration dates) and capture the real `source_url`
    and `live_source_url`.
@@ -172,6 +176,13 @@ events so cached figures don't go stale.)
    If `regenerate()` refuses with a shallow-clone error even after the unshallow, leave
    `CHANGELOG.md` alone, say so in your final summary, and carry on — a stale changelog is
    repaired by the next full-history run; one regenerated from truncated history is corrupt.
+
+   Separately run `python scripts/check_freshness.py --report-only` after the build.
+   Report each ongoing event as changed, checked/no-change (with actually accessed source
+   and claim IDs), blocked, or not attempted. Name remaining stale records explicitly and
+   do not claim a complete refresh when coverage is incomplete. A blocked record does not
+   prevent publishing other validated updates; post-deploy and daily monitoring still fail
+   on stale data. Never change a date solely to silence the monitor.
 
 6. **Commit and push — no PR.** Every dataset auto-publishes; the deterministic gate is the
    verification layer, not a reviewer. Commit `data/events/` (+ `data/quarantine-events/` if
