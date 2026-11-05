@@ -2,6 +2,14 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-05 — World Pulse daily refresh (2026-11-05): Ebola DRC toll rises to 10,532 cases/5,126 deaths; Sudan drone strikes halt hospital dialysis; NY measles emergency extended through Dec; re-verify remaining ongoing events (`0df21e9`)
+
+- **Updated:** ebola-bundibugyo-drc-2026, sudan-displacement-crisis, sudan-drone-strikes-kordofan-abyei-2026, usa-new-york-measles-outbreak-2026
+
+## 2026-11-04 — Integrate map-led Observatory design and guard daily publishing (`b2cca68`)
+
+- **Updated:** harappan-decline
+
 ## 2026-11-04 — World Pulse daily refresh (2026-11-04): NY measles outbreak records first death in 30 years; Yemen conflict - UN staffer death in Houthi custody, Taiz maternal-health collapse; re-verify remaining ongoing events across conflicts, outbreaks, earthquakes and volcanoes (`b881e1d`)
 
 - **Updated:** china-earthquake-nagqu-2026, colombia-earthquake-choco-2026, cyclone-murasu-india-2026, djibouti-migrant-shipwreck-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, el-obeid-siege-sudan-2026, haiti-gang-violence-displacement-2026, indonesia-volcano-krakatau-2026, iran-israel-us-war-2026, japan-volcano-tokachidake-2026, mindanao-earthquake-philippines-2026, panama-earthquake-azuero-2026, philippines-kanlaon-volcano-eruption-2026, somalia-baidoa-clashes-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, sudan-drone-strikes-kordofan-abyei-2026, usa-new-york-measles-outbreak-2026, west-bank-settler-violence-surge-2026, yemen-conflict-escalation-2026
