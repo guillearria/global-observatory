@@ -2,6 +2,11 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-05 — Refresh Indonesia haze with regional alert and local suppression evidence (`8f17234`)
+
+- **Updated:** indonesia-wildfires-haze-2026
+- **Newly allowlisted domains:** asmc.asean.org, kehutanan.go.id
+
 ## 2026-11-05 — World Pulse daily refresh (2026-11-05): Ebola DRC toll rises to 10,532 cases/5,126 deaths; Sudan drone strikes halt hospital dialysis; NY measles emergency extended through Dec; re-verify remaining ongoing events (`0df21e9`)
 
 - **Updated:** ebola-bundibugyo-drc-2026, sudan-displacement-crisis, sudan-drone-strikes-kordofan-abyei-2026, usa-new-york-measles-outbreak-2026
