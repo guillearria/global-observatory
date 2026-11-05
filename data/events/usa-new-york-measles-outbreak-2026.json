@@ -56,14 +56,30 @@
       "source_url": "https://www.governor.ny.gov/news/statement-governor-hochul-pediatric-measles-associated-death-lewis-county",
       "text": "Governor Kathy Hochul statement, 2 November 2026: \"I am heartbroken to learn that a child in Lewis County has died after contracting measles.\" The statement calls it New York State's first measles-related death in 30 years and urges vaccination as the best protection against the disease.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-8",
+      "retrieved_date": "2026-11-05",
+      "source_name": "State of New York",
+      "source_url": "https://governor.ny.gov/executive-order/no-651-declaring-disaster-emergency-state-new-york-due-ongoing-measles-outbreak",
+      "text": "Executive Order No. 65.1 (signed 4 November 2026) extends the State Disaster Emergency first declared in Executive Order No. 65, citing that \"the number of measles cases reported this year has markedly increased,\" and additionally authorizes licensed but unregistered retired physicians, nurses and nurse practitioners to join state or local measles immunization efforts. \"This executive order shall be in effect through December 4, 2026.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-9",
+      "retrieved_date": "2026-11-05",
+      "source_name": "CDC",
+      "source_url": "https://www.cdc.gov/measles/data-research/index.html",
+      "text": "CDC's measles data page, checked 5 November 2026, states 4,852 confirmed measles cases were reported in the United States in 2026 as of October 29, 2026 (unchanged from the prior check), but the cumulative \"Total Deaths\" figure for the same data cut has risen to 4, up from 3, a figure the page continues to flag as subject to change.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Governor Kathy Hochul declared a statewide disaster emergency on 5 October 2026 over a measles outbreak concentrated in under-immunized rural communities, an order that was set to run through 4 November 2026. On 2 November, Hochul announced that a child in Lewis County had died after contracting measles — New York State's first measles-related death in 30 years. As of 3 October, New York had recorded 108 confirmed cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July across 18 rural counties. The New York outbreak is part of a wider US measles resurgence: CDC's dashboard shows 4,852 confirmed cases nationwide as of 29 October 2026, with 3 cumulative deaths nationally, a figure CDC flags as subject to change and which does not yet reflect the Lewis County death.",
+  "description": "Governor Kathy Hochul declared a statewide disaster emergency on 5 October 2026 over a measles outbreak concentrated in under-immunized rural communities. On 2 November, Hochul announced that a child in Lewis County had died after contracting measles — New York State's first measles-related death in 30 years — and on 4 November she signed Executive Order No. 65.1 extending the disaster emergency through 4 December 2026, citing a continued rise in cases. As of 3 October, New York had recorded 108 confirmed cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July across 18 rural counties. The New York outbreak is part of a wider US measles resurgence: CDC's dashboard shows 4,852 confirmed cases nationwide as of 29 October 2026, with the cumulative national death toll for that data cut now revised up to 4, a figure CDC flags as subject to change.",
   "event": {
     "impact": {
       "deaths": 1,
       "displaced": null,
-      "summary": "Governor Hochul announced on 2 November 2026 that a child in Lewis County died after contracting measles, New York State's first measles-related death in 30 years. As of 3 October 2026, New York had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC's dashboard shows 4,852 confirmed US measles cases as of 29 October 2026, with the cumulative national death toll holding at 3, a figure CDC says is subject to change and which predates the Lewis County death. Governor Hochul's 5 October executive order declaring a state disaster emergency was set to run through 4 November 2026; as of that date New York's executive orders listing shows no order extending or superseding it."
+      "summary": "Governor Hochul announced on 2 November 2026 that a child in Lewis County died after contracting measles, New York State's first measles-related death in 30 years, and on 4 November she signed Executive Order No. 65.1 extending the state's measles disaster emergency through 4 December 2026. As of 3 October 2026, New York had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC's dashboard shows 4,852 confirmed US measles cases as of 29 October 2026, with the cumulative national death toll for that same data cut now revised to 4 (up from 3), a figure CDC says is subject to change."
     },
     "live_source_url": "https://www.cdc.gov/measles/data-research/index.html",
     "location": {
@@ -73,22 +89,22 @@
       "region": "New York State (statewide; concentrated in 18 rural counties)"
     },
     "occurrence_date": "2026-10-05",
-    "scale": "Statewide disaster emergency declaration (Executive Order No. 65)",
+    "scale": "Statewide disaster emergency, extended via EO No. 65.1 through 4 Dec 2026",
     "status": "ongoing"
   },
   "id": "usa-new-york-measles-outbreak-2026",
-  "last_updated": "2026-11-04T09:09:51Z",
+  "last_updated": "2026-11-05T09:09:56Z",
   "name": "Measles State Disaster Emergency — New York, USA",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-04T09:09:51Z",
+        "at": "2026-11-05T09:09:56Z",
         "layer": "verify",
-        "run_id": "2026-11-04T09-09-51Z-c6b8b4"
+        "run_id": "2026-11-05T09-09-56Z-f0caee"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-04T09-09-51Z-c6b8b4"
+    "last_run_id": "2026-11-05T09-09-56Z-f0caee"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -97,6 +113,10 @@
     "recency_rank": 739894
   },
   "updates": [
+    {
+      "date": "2026-11-04",
+      "text": "Governor Hochul signed Executive Order No. 65.1, extending New York's measles disaster emergency through 4 December 2026 and authorizing retired, unregistered physicians, nurses and nurse practitioners to join immunization efforts. CDC's dashboard revised its cumulative US death toll for the 29 October data cut up to 4 (from 3)."
+    },
     {
       "date": "2026-11-02",
       "text": "Governor Hochul announced that a child in Lewis County died after contracting measles — New York State's first measles-related death in 30 years. CDC's national dashboard still shows 4,852 cases and 3 deaths as of 29 October, not yet reflecting this death."
@@ -120,7 +140,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

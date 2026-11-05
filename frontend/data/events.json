@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T09:15:40Z",
+  "last_updated": "2026-11-05T09:10:43Z",
   "published": [
     {
       "category": "flood",
@@ -2485,6 +2485,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-nov4",
+          "retrieved_date": "2026-11-05",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 4 November 2026, 13:00) reports the Democratic Republic of the Congo has recorded a total of 10,532 confirmed cases, including 5,126 related deaths, as of 2 November 2026 (deaths from data up until 1 November), up from 10,274 cases and 4,992 deaths as of 29 October. The outbreak remains spread across the same eight provinces (Ituri, Nord-Kivu, Sud-Kivu, Tshopo, Haut-Uele, Bas-Uele, Sud Ubangi and Nord Ubangi). Kenya's linked case count remains nine confirmed cases, including two deaths, as of 26 October 2026, unchanged.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-ecdc-oct2",
           "retrieved_date": "2026-10-06",
           "source_name": "ECDC",
@@ -2725,12 +2733,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda (now closed), Kenya, France, Germany and, as of 20 October, Nigeria. ECDC's newest country overview (data through 28 October 2026) puts the DRC toll at 10,274 confirmed cases and 4,992 deaths across eight provinces, up from 10,193/4,960 the day before. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland on 26 October with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
+      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda (now closed), Kenya, France, Germany and Nigeria. ECDC's newest country overview (data through 1-2 November 2026) puts the DRC toll at 10,532 confirmed cases and 5,126 deaths across eight provinces, up from 10,274/4,992 six days earlier. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
       "event": {
         "impact": {
-          "deaths": 4992,
+          "deaths": 5126,
           "displaced": null,
-          "summary": "ECDC's newest country overview (page last updated 30 October 2026, 16:00) puts the DRC toll at 10,274 confirmed cases and 4,992 deaths as of 29 October 2026 (data through 28 October), up from 10,193 cases and 4,960 deaths the prior day. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Nigeria reported a single imported case on 20 October (travel history to Uganda), medically evacuated to Switzerland on 26 October with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest country overview (page last updated 4 November 2026, 13:00) puts the DRC toll at 10,532 confirmed cases and 5,126 deaths as of 2 November 2026 (deaths from data through 1 November), up from 10,274 cases and 4,992 deaths as of 29 October. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -2744,18 +2752,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-11-04T09:09:50Z",
+      "last_updated": "2026-11-05T09:10:32Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-04T09:09:50Z",
+            "at": "2026-11-05T09:10:32Z",
             "layer": "verify",
-            "run_id": "2026-11-04T09-09-50Z-52092c"
+            "run_id": "2026-11-05T09-10-32Z-d04e9f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-04T09-09-50Z-52092c"
+        "last_run_id": "2026-11-05T09-10-32Z-d04e9f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2764,6 +2772,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-11-04",
+          "text": "ECDC's country overview (updated 4 November) raised the DRC toll to 10,532 confirmed cases and 5,126 deaths (data through 1-2 November), up from 10,274/4,992 six days earlier; Kenya's linked case count held steady at nine confirmed cases and two deaths."
+        },
         {
           "date": "2026-11-03",
           "text": "Nigeria reported its first imported Bundibugyo Ebola case on 20 October (travel history to Uganda), becoming the outbreak's ninth affected country; the patient and a close contact were medically evacuated to Switzerland on 26 October, with 62 contacts under follow-up and no evidence of onward transmission (ECDC)."
@@ -2835,7 +2847,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 76 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 77 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -8526,7 +8538,7 @@
         },
         {
           "id": "claim-28",
-          "retrieved_date": "2026-11-04",
+          "retrieved_date": "2026-11-05",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/sdn",
           "text": "UNHCR's Operational Data Portal for Sudan (checked 18 October 2026): internally displaced persons within Sudan remain at 8,583,274, labeled 'last updated 30 Sep 2026' -- unchanged since 17 October 2026 (down from 8,622,801 as of the 31 August 2026 update); refugees and asylum-seekers in Sudan remain at 909,744, unchanged, also labeled 'last updated 30 Sep 2026'.",
@@ -8576,18 +8588,18 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-11-04T09:11:27Z",
+      "last_updated": "2026-11-05T09:10:43Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-04T09:11:27Z",
+            "at": "2026-11-05T09:10:43Z",
             "layer": "verify",
-            "run_id": "2026-11-04T09-11-27Z-1b27ba"
+            "run_id": "2026-11-05T09-10-43Z-85ddee"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-04T09-11-27Z-1b27ba"
+        "last_run_id": "2026-11-05T09-10-43Z-85ddee"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8713,14 +8725,22 @@
           "source_url": "https://news.un.org/en/story/2026/10/1168703",
           "text": "UN News (29 October 2026), citing UNICEF: at least five children were killed and two injured in a drone attack on a market in Nyala, South Darfur, on Monday 27 October 2026; the victims were three boys and two girls aged seven to 14. UNICEF said more than 400 children were killed or injured in Sudan from January to September 2026, with armed drone attacks causing a significant share. UNICEF's Etleva Kadilli said: 'The killing and injuring of children must end.'",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-11-05",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/11/1168731",
+          "text": "UN News (3 November 2026), citing UN Resident and Humanitarian Coordinator for Sudan Denise Brown: drone strikes on power stations and fuel depots have cut electricity to a hospital just outside Khartoum, halting dialysis for 25 patients; fuel queues in Khartoum now stretch for kilometres and hundreds of aid trucks are stranded for lack of fuel. Brown said the World Food Programme has had seven aid-convoy hits this year (and 20 over the past two years), and said: \"This is not about politics. This is about people,\" adding there is \"no defence for repeatedly hitting power stations and fuel stations.\"",
+          "verification_status": "verified"
         }
       ],
-      "description": "Drone strikes hit displacement shelters, a gold-mining site, a transport convoy and a market across West Kordofan, Blue Nile and Abyei, Sudan, in October 2026, killing hundreds of civilians. The UN Human Rights Office documented at least 306 people killed and hundreds more injured in the first three weeks of the month alone, across several distinct strikes: at least 25 killed in Ghubeish and El Nuhud (West Kordofan, 6-10 October), at least 31 in Abu Shendi (Blue Nile, 9 October, mostly women and children mining gold), at least 139 in a repeat 'double tap' strike on a transport truck in Dibab (West Kordofan, 18 October), and more than 80 in a strike on Amiet Market and Todach (Abyei, 19 October), where UN peacekeepers say the toll is expected to rise. The escalation continued after that three-week window: a market strike in Nyala, South Darfur, on 27 October killed five children and injured two, per UNICEF. UN High Commissioner for Human Rights Volker Türk condemned the escalation; this surge is geographically distinct from the separate, longer-running siege of El Obeid in North Kordofan.",
+      "description": "Drone strikes hit displacement shelters, a gold-mining site, a transport convoy and markets across West Kordofan, Blue Nile, Abyei and South Darfur, Sudan, since October 2026, killing hundreds of civilians. The UN Human Rights Office documented at least 306 killed and hundreds more injured in the first three weeks of October alone, across strikes in Ghubeish/El Nuhud (25 dead), Abu Shendi (31 dead), Dibab (139 dead) and Amiet Market/Todach (80+ dead); a further strike in Nyala on 27 October killed five children, per UNICEF. Strikes on power and fuel infrastructure are now also crippling hospitals and aid logistics: UN Resident and Humanitarian Coordinator Denise Brown said one hospital outside Khartoum halted dialysis for 25 patients after losing power, and WFP has had seven aid-convoy hits this year. This surge is distinct from the separate, longer-running siege of El Obeid in North Kordofan.",
       "event": {
         "impact": {
           "deaths": 306,
           "displaced": null,
-          "summary": "The UN Human Rights Office has documented at least 306 civilians killed and hundreds more injured by drone strikes across Sudan in the first three weeks of October 2026 alone, in strikes distinct from the separate El Obeid siege: 25 dead in Ghubeish/El Nuhud (West Kordofan), 31 dead in Abu Shendi (Blue Nile), 139 dead in Dibab (West Kordofan) and more than 80 dead at Amiet Market/Todach (Abyei), where UN peacekeepers treated over 27 injured and the Security Council has said the toll is expected to rise further. The escalation continued beyond that three-week window: UN spokesperson Stéphane Dujarric condemned a further wave of strikes on 19 October that injured at least 19 people in an Abyei market and killed at least one civilian near Khartoum airport, on top of at least 19 people (including 10 children) killed over the preceding weekend in West Darfur, South Darfur and North Kordofan; UNICEF reported a 27 October drone strike on a market in Nyala, South Darfur, killed five children and injured two more. No ceasefire or de-escalation has been confirmed."
+          "summary": "The UN Human Rights Office has documented at least 306 civilians killed and hundreds more injured by drone strikes across Sudan in the first three weeks of October 2026 alone: 25 dead in Ghubeish/El Nuhud (West Kordofan), 31 dead in Abu Shendi (Blue Nile), 139 dead in Dibab (West Kordofan) and more than 80 dead at Amiet Market/Todach (Abyei), where the Security Council said the toll is expected to rise further. UNICEF reported a 27 October drone strike on a market in Nyala, South Darfur, killed five children. Strikes on power and fuel infrastructure are now also crippling the humanitarian response: UN Resident and Humanitarian Coordinator Denise Brown said a hospital outside Khartoum halted dialysis for 25 patients after losing power, fuel queues in Khartoum stretch for kilometres, and WFP has had seven aid-convoy hits this year. No ceasefire or de-escalation has been confirmed."
         },
         "live_source_url": "https://reliefweb.int/country/sdn",
         "location": {
@@ -8734,18 +8754,18 @@
         "status": "ongoing"
       },
       "id": "sudan-drone-strikes-kordofan-abyei-2026",
-      "last_updated": "2026-11-04T09:15:40Z",
+      "last_updated": "2026-11-05T09:10:40Z",
       "name": "Drone-Strike Escalation — West Kordofan, Blue Nile & Abyei, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-04T09:15:40Z",
+            "at": "2026-11-05T09:10:40Z",
             "layer": "verify",
-            "run_id": "2026-11-04T09-15-40Z-993955"
+            "run_id": "2026-11-05T09-10-40Z-2acf67"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-04T09-15-40Z-993955"
+        "last_run_id": "2026-11-05T09-10-40Z-2acf67"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8754,6 +8774,10 @@
         "recency_rank": 739895
       },
       "updates": [
+        {
+          "date": "2026-11-03",
+          "text": "UN Resident and Humanitarian Coordinator Denise Brown said strikes on power and fuel infrastructure have halted dialysis for 25 patients at a hospital outside Khartoum and stranded hundreds of aid trucks for lack of fuel; WFP has had seven aid-convoy hits this year. Brown: \"This is not about politics. This is about people.\""
+        },
         {
           "date": "2026-10-27",
           "text": "UNICEF reported a drone strike on a market in Nyala, South Darfur, killed five children (three boys, two girls, aged 7-14) and injured two more; UNICEF said more than 400 children had been killed or injured by Sudan's conflict, drone attacks a significant share, between January and September 2026."
@@ -8765,7 +8789,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -10830,14 +10854,30 @@
           "source_url": "https://www.governor.ny.gov/news/statement-governor-hochul-pediatric-measles-associated-death-lewis-county",
           "text": "Governor Kathy Hochul statement, 2 November 2026: \"I am heartbroken to learn that a child in Lewis County has died after contracting measles.\" The statement calls it New York State's first measles-related death in 30 years and urges vaccination as the best protection against the disease.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-11-05",
+          "source_name": "State of New York",
+          "source_url": "https://governor.ny.gov/executive-order/no-651-declaring-disaster-emergency-state-new-york-due-ongoing-measles-outbreak",
+          "text": "Executive Order No. 65.1 (signed 4 November 2026) extends the State Disaster Emergency first declared in Executive Order No. 65, citing that \"the number of measles cases reported this year has markedly increased,\" and additionally authorizes licensed but unregistered retired physicians, nurses and nurse practitioners to join state or local measles immunization efforts. \"This executive order shall be in effect through December 4, 2026.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-9",
+          "retrieved_date": "2026-11-05",
+          "source_name": "CDC",
+          "source_url": "https://www.cdc.gov/measles/data-research/index.html",
+          "text": "CDC's measles data page, checked 5 November 2026, states 4,852 confirmed measles cases were reported in the United States in 2026 as of October 29, 2026 (unchanged from the prior check), but the cumulative \"Total Deaths\" figure for the same data cut has risen to 4, up from 3, a figure the page continues to flag as subject to change.",
+          "verification_status": "verified"
         }
       ],
-      "description": "Governor Kathy Hochul declared a statewide disaster emergency on 5 October 2026 over a measles outbreak concentrated in under-immunized rural communities, an order that was set to run through 4 November 2026. On 2 November, Hochul announced that a child in Lewis County had died after contracting measles — New York State's first measles-related death in 30 years. As of 3 October, New York had recorded 108 confirmed cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July across 18 rural counties. The New York outbreak is part of a wider US measles resurgence: CDC's dashboard shows 4,852 confirmed cases nationwide as of 29 October 2026, with 3 cumulative deaths nationally, a figure CDC flags as subject to change and which does not yet reflect the Lewis County death.",
+      "description": "Governor Kathy Hochul declared a statewide disaster emergency on 5 October 2026 over a measles outbreak concentrated in under-immunized rural communities. On 2 November, Hochul announced that a child in Lewis County had died after contracting measles — New York State's first measles-related death in 30 years — and on 4 November she signed Executive Order No. 65.1 extending the disaster emergency through 4 December 2026, citing a continued rise in cases. As of 3 October, New York had recorded 108 confirmed cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July across 18 rural counties. The New York outbreak is part of a wider US measles resurgence: CDC's dashboard shows 4,852 confirmed cases nationwide as of 29 October 2026, with the cumulative national death toll for that data cut now revised up to 4, a figure CDC flags as subject to change.",
       "event": {
         "impact": {
           "deaths": 1,
           "displaced": null,
-          "summary": "Governor Hochul announced on 2 November 2026 that a child in Lewis County died after contracting measles, New York State's first measles-related death in 30 years. As of 3 October 2026, New York had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC's dashboard shows 4,852 confirmed US measles cases as of 29 October 2026, with the cumulative national death toll holding at 3, a figure CDC says is subject to change and which predates the Lewis County death. Governor Hochul's 5 October executive order declaring a state disaster emergency was set to run through 4 November 2026; as of that date New York's executive orders listing shows no order extending or superseding it."
+          "summary": "Governor Hochul announced on 2 November 2026 that a child in Lewis County died after contracting measles, New York State's first measles-related death in 30 years, and on 4 November she signed Executive Order No. 65.1 extending the state's measles disaster emergency through 4 December 2026. As of 3 October 2026, New York had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC's dashboard shows 4,852 confirmed US measles cases as of 29 October 2026, with the cumulative national death toll for that same data cut now revised to 4 (up from 3), a figure CDC says is subject to change."
         },
         "live_source_url": "https://www.cdc.gov/measles/data-research/index.html",
         "location": {
@@ -10847,22 +10887,22 @@
           "region": "New York State (statewide; concentrated in 18 rural counties)"
         },
         "occurrence_date": "2026-10-05",
-        "scale": "Statewide disaster emergency declaration (Executive Order No. 65)",
+        "scale": "Statewide disaster emergency, extended via EO No. 65.1 through 4 Dec 2026",
         "status": "ongoing"
       },
       "id": "usa-new-york-measles-outbreak-2026",
-      "last_updated": "2026-11-04T09:09:51Z",
+      "last_updated": "2026-11-05T09:09:56Z",
       "name": "Measles State Disaster Emergency — New York, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-04T09:09:51Z",
+            "at": "2026-11-05T09:09:56Z",
             "layer": "verify",
-            "run_id": "2026-11-04T09-09-51Z-c6b8b4"
+            "run_id": "2026-11-05T09-09-56Z-f0caee"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-04T09-09-51Z-c6b8b4"
+        "last_run_id": "2026-11-05T09-09-56Z-f0caee"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -10871,6 +10911,10 @@
         "recency_rank": 739894
       },
       "updates": [
+        {
+          "date": "2026-11-04",
+          "text": "Governor Hochul signed Executive Order No. 65.1, extending New York's measles disaster emergency through 4 December 2026 and authorizing retired, unregistered physicians, nurses and nurse practitioners to join immunization efforts. CDC's dashboard revised its cumulative US death toll for the 29 October data cut up to 4 (from 3)."
+        },
         {
           "date": "2026-11-02",
           "text": "Governor Hochul announced that a child in Lewis County died after contracting measles — New York State's first measles-related death in 30 years. CDC's national dashboard still shows 4,852 cases and 3 deaths as of 29 October, not yet reflecting this death."
@@ -10894,7 +10938,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 9 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
