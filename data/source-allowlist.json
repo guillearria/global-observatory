@@ -486,6 +486,18 @@
       "domain": "gov.georgia.gov",
       "justification": "gov.georgia.gov is the State of Georgia's own official government domain, publishing the Governor's Executive Orders declaring a statewide state of emergency and GEMA/HS State Operations Center activation; it is the authoritative primary source for Georgia's own emergency declarations, the same institutional tier as the other US state-government emergency-management domains already allowlisted (governor.wa.gov, gov.nv.gov, governor.hawaii.gov, in.gov, governor.wv.gov, nj.gov, governor.ny.gov, flgov.com, governor.alabama.gov).",
       "label": "State of Georgia"
+    },
+    {
+      "category": "event",
+      "domain": "asmc.asean.org",
+      "label": "ASEAN Specialised Meteorological Centre (ASMC)",
+      "justification": "ASMC is the designated regional centre for ASEAN weather, climate and transboundary haze monitoring. Its own advisories establish regional haze alert levels and assessed transboundary risk; these are primary institutional evidence, distinct from local fire counts or containment."
+    },
+    {
+      "category": "event",
+      "domain": "kehutanan.go.id",
+      "label": "Ministry of Forestry (Indonesia)",
+      "justification": "Indonesia's Ministry of Forestry publishes the national SiPongi satellite hotspot monitoring and Manggala Agni field suppression reports. Its own releases are primary government evidence for Indonesian fire response and clearly distinguish satellite hotspots from verified fires and burned area."
     }
   ]
 }
