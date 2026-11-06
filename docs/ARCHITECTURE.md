@@ -225,19 +225,16 @@ finite threshold).
 - **`staleness.yml`** — daily scheduled check that fails if the committed `frontend/data/*.json`
   goes stale (>2 days events / >10 days threats; `historical.json` deliberately exempt) — the
   server-side complement to the frontend banner, catching a silently-dead refresh schedule.
-- **`notify.yml`** — the only alarm that leaves GitHub. A single `workflow_run` listener on
-  `staleness`, `publish`, `validate` and `pages` that pushes any failure to Telegram via
-  `scripts/notify.py`. It exists because a red CI run is not a signal unless somebody is
-  subscribed to it: `staleness` ran red for 11 straight days in July 2026 while two verified
-  threat records were being lost, because auto-publish made the "last committer" GitHub notifies a
-  bot. One listener rather than a step per workflow, so new failure modes in existing workflows
-  are covered by default; the cost is that a *new* workflow must be added to its `workflows:` list.
-  Needs the `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` repository secrets — without them it exits
-  0 with a notice rather than turning every failure into a second red run, so **an unarmed
-  notifier is silent by design**. Because that silence is indistinguishable from having nothing to
-  report, `workflow_dispatch` is a self-test (`gh workflow run notify.yml`) that sends a message
-  and *fails* when the secrets are unset. `scripts/notify.py` never retries: a timed-out send is
-  ambiguous, and retrying an ambiguous send double-posts.
+- **Failure notifications** — rely on GitHub's native Actions failure emails. Delivery depends
+  on the workflow actor and their notification settings; repository code does not configure or
+  guarantee email delivery. `staleness`, `publish`, `validate`, and `pages` still fail normally.
+- **`notify.yml`** — optional, **manual-only** Telegram self-test via `workflow_dispatch`
+  (`gh workflow run notify.yml`). The automatic `workflow_run` listener was removed on
+  2026-11-06 because unset Telegram secrets caused a second failed run for real workflow failures.
+  A manual dispatch posts a real test message using `scripts/notify.py` and requires both
+  `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`; missing secrets or failed delivery fail the test.
+  A successful test confirms only that message, not automatic alert coverage. The transport never
+  retries because a timed-out send is ambiguous and retrying can double-post.
 - **Refresh schedule** — two Claude Code scheduled cloud agents: daily → `/refresh-events`, weekly →
   `/refresh-threats`. `/refresh-history` runs ad hoc, unscheduled.
 

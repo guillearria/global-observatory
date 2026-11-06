@@ -50,9 +50,12 @@ The browser also warns about stale event/risk collection dates.
 A failing scheduled check is a GitHub-native bridge for an external routine that stops
 publishing. Email depends on the workflow actor and their Actions notification settings;
 this repository cannot guarantee delivery or configure those settings. GitHub schedules
-can be delayed or disabled. Existing optional Telegram notification configuration is
-unchanged; missing secrets now fail visibly rather than implying delivery succeeded.
-No notification test, credentials or subscriptions were created by this integration.
+can be delayed or disabled. Automatic Telegram notifications were removed on November 6,
+2026: unset Telegram secrets must not create a second failure for each genuine workflow
+failure. `notify.yml` retains only an explicit manual self-test, which posts a real message
+when configured and fails visibly if credentials or delivery are unavailable. A successful
+self-test does not enable automatic Telegram alerts. No notification test, credentials or
+subscriptions were created or changed by this update.
 
 ## Validation
 

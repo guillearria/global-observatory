@@ -5,6 +5,7 @@ loaded by path rather than imported.
 """
 
 import importlib.util
+import io
 import urllib.error
 from pathlib import Path
 
@@ -15,6 +16,14 @@ _SPEC = importlib.util.spec_from_file_location(
 )
 notify = importlib.util.module_from_spec(_SPEC)
 _SPEC.loader.exec_module(notify)
+
+
+@pytest.fixture(autouse=True)
+def no_real_transport(monkeypatch):
+    def forbidden_request(*args, **kwargs):
+        pytest.fail("Notification tests must not make network requests")
+
+    monkeypatch.setattr(notify.urllib.request, "urlopen", forbidden_request)
 
 
 @pytest.fixture
@@ -91,3 +100,15 @@ def test_rejected_message_is_not_retried(armed, monkeypatch):
     monkeypatch.setattr(notify, "_post", lambda p: calls.append(1) or False)
     assert notify.send("hello") is False
     assert len(calls) == 1
+
+
+@pytest.mark.parametrize("success,expected_exit", [(True, 0), (False, 1)])
+def test_manual_cli_uses_stdin_and_reports_transport_result(armed, monkeypatch, success, expected_exit):
+    calls = []
+    monkeypatch.setattr(notify, "_post", lambda payload: calls.append(payload) or success)
+    monkeypatch.setattr(notify.sys, "argv", ["scripts/notify.py", "-"])
+    monkeypatch.setattr(notify.sys, "stdin", io.StringIO(" manual self-test\n"))
+    with pytest.raises(SystemExit) as result:
+        notify.main()
+    assert result.value.code == expected_exit
+    assert calls == [{"chat_id": "test-chat", "text": "manual self-test"}]

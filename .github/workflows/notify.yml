@@ -1,80 +1,37 @@
-# The one alarm that leaves GitHub.
+# Optional Telegram self-test, invoked explicitly by a human.
+# Automatic failure alerts use GitHub's native Actions email, whose delivery
+# depends on the workflow actor and notification settings. No automatic Telegram
+# listener is enabled, so missing Telegram secrets cannot add a second failed run.
 #
-# Native Actions email depends on the workflow actor and notification settings.
-# This optional Telegram listener is independent of those settings; the repository
-# cannot guarantee that either channel reaches a human.
-#
-# One listener for every automated workflow, rather than a notify step inside each: a new failure
-# mode in an existing workflow is covered without anyone remembering to wire it up. Adding a new
-# workflow does require adding its name below — that is the one gap, and it is visible here.
-#
-# Missing notification configuration fails visibly in Actions; it must not report a
-# successful delivery. Native GitHub email delivery depends on the workflow actor's
-# Actions notification preferences; this workflow does not configure subscriptions.
-# A failed send is never retried because an ambiguous timeout can double-post.
-#
-# workflow_dispatch sends an explicit self-test. Do not use it during a read-only
-# audit; it posts a real message. Missing secrets fail visibly in either path.
+# workflow_dispatch posts a real message when configured. Do not dispatch it
+# during a read-only audit. Missing secrets fail visibly, and ambiguous sends
+# are never retried because a timeout can otherwise double-post.
 name: notify
 on:
-  workflow_run:
-    workflows: [staleness, publish, validate, pages]
-    types: [completed]
   workflow_dispatch: {}
 permissions:
   contents: read
 jobs:
   telegram:
-    # `publish` fails transiently when a refresh session commits records and aggregates in
-    # separate pushes — the aggregate-integrity check correctly rejects the intermediate push and
-    # the next one repairs it. That costs roughly one message on such a day. Left in deliberately:
-    # a publish failure that does NOT self-heal is precisely the silent-loss mode this exists for,
-    # and the two are indistinguishable at this point in time.
-    if: >-
-      github.event_name == 'workflow_dispatch' ||
-      github.event.workflow_run.conclusion == 'failure'
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Push the failure to Telegram
+      - name: Send explicit Telegram self-test
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          SELFTEST: ${{ github.event_name == 'workflow_dispatch' }}
-          WF: ${{ github.event.workflow_run.name }}
-          BRANCH: ${{ github.event.workflow_run.head_branch }}
-          URL: ${{ github.event.workflow_run.html_url }}
-          TITLE: ${{ github.event.workflow_run.display_title }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
-            if [ "$SELFTEST" = "true" ]; then
-              echo "::error::Not armed — set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID. Nothing was sent."
-              exit 1
-            fi
-            echo "::error::Telegram secrets unset — failure notification was not delivered."
-            echo "Notification unavailable: Telegram secrets are unset. Inspect the failed workflow directly." >> "$GITHUB_STEP_SUMMARY"
+            echo "::error::Self-test unavailable — set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID. Nothing was sent."
             exit 1
           fi
-          # Values arrive via env above, never interpolated into this script, so a branch name or
-          # commit subject cannot break out of the shell. (Do not write an expression delimiter in
-          # this file even inside a comment — it is evaluated before the shell sees it, and an
-          # empty one is a startup failure. That is what broke this workflow's first run.)
-          if [ "$SELFTEST" = "true" ]; then
-            python3 scripts/notify.py - <<EOF
-          ✅ global-observatory: notify self-test
+          python3 scripts/notify.py - <<EOF
+          ✅ global-observatory: manual Telegram self-test
 
-          If you are reading this, the alarm is armed and failures will reach you.
+          This confirms a manual test message only. Automatic Telegram failure alerts are disabled.
+          GitHub Actions failure emails depend on your notification settings.
 
           ${RUN_URL}
           EOF
-          else
-            python3 scripts/notify.py - <<EOF
-          🚨 global-observatory: ${WF} failed
-
-          branch: ${BRANCH}
-          commit: ${TITLE}
-
-          ${URL}
-          EOF
-          fi
