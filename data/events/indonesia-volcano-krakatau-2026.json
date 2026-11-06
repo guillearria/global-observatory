@@ -40,14 +40,22 @@
       "source_url": "https://news.detik.com/berita/d-8702424/gunung-anak-krakatau-level-siaga-warga-dilarang-mendekat-radius-5-km",
       "text": "Detik.com's report (published 11 October 2026, 18:53 WIB, observation window 12:00-18:00 WIB and attributed to PVMBG observer Muhammad Dika Nurzaman) states Gunung Anak Krakatau remains at Alert Level III (Siaga), with a mandatory exclusion zone of 5km from the eruption center plus 1km around new islands in the northwest and southeast sectors. Multiple other Indonesian outlets (Kompas, Warta Ekonomi, IDN Times, RRI) separately report Badan Geologi/PVMBG raised the volcano from Level II (Waspada) back to Level III effective 9 October 2026, 21:00 WIB, citing report number 1729.Lap/GL.03/BGL/2026 and a cluster of 13 eruptions recorded by 21:20 WIB that evening, following a run of eruptions on 5 and 8 October while the volcano was still at Level II; none of these figures have been independently confirmed via Badan Geologi's own geologi.esdm.go.id site, which did not return the relevant bulletin to direct requests during this check.",
       "verification_status": "unverified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-11-06",
+      "source_name": "Government of Lampung Province",
+      "source_url": "https://lampungprov.go.id/detail-post/pemprov-lampung-perkuat-kesiapsiagaan-hadapi-bencana-alam",
+      "text": "The Government of Lampung Province's notice published on 4 November 2026 reports a disaster-preparedness meeting involving BPBD, PVMBG and BMKG. BPBD head Aswarodi states that Anak Krakatau remains at Level III (Siaga) and advises residents, fishers and tourists to stay at least 5km from the crater. This provincial statement supports the status and safety advice as of 4 November; it does not establish the October escalation date, the additional island exclusion zone reported by the press, or continuous eruption through the retrieval date.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Indonesia's Krakatau volcano, in the Sunda Strait, began a high-level eruption on 4 September 2026 that GDACS rated a VEI 6 event under an Orange alert. Indonesia's Badan Geologi (PVMBG) downgraded the volcano from Alert Level III (Siaga) to Level II (Waspada) on 21 September, but widespread Indonesian press reporting says PVMBG raised it back to Level III on 9 October 2026 after a fresh cluster of eruptions, widening the exclusion zone to 5km around the crater plus 1km around new islands to the northwest and southeast; as of 11 October, press reports placed the volcano still at Level III under this expanded zone. This renewed upgrade has not yet been corroborated on Badan Geologi's own geologi.esdm.go.id site.",
+  "description": "Indonesia's Krakatau volcano, in the Sunda Strait, began an eruption on 4 September 2026 that GDACS classified under an Orange alert. PVMBG downgraded it to Level II on 21 September; Indonesian press subsequently reported a return to Level III on 9 October. Lampung's provincial government reported Level III (Siaga) and advised a 5km exclusion radius on 4 November. The precise October escalation date and additional restrictions around new islands remain supported only by unverified press reporting in this record.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "No casualty or displacement figures have been published by an authoritative source. Indonesian press (Kompas, Detik, Warta Ekonomi, IDN Times, RRI) widely report Badan Geologi (PVMBG) raised Gunung Anak Krakatau from Level II (Waspada) back to Level III (Siaga) effective 9 October 2026, 21:00 WIB, after a cluster of eruptions, and widened the exclusion zone from 2km to 5km around the crater plus 1km around new islands to the northwest and southeast, with the volcano still reported at Level III as of 11 October; this has not yet been directly corroborated on Badan Geologi's own geologi.esdm.go.id site."
+      "summary": "Casualty and displacement totals are not established in the cited evidence. Lampung's 4 November notice reports Level III (Siaga) and advises residents, fishers and tourists to remain at least 5km from the crater."
     },
     "live_source_url": "https://gdacs.org/report.aspx?eventid=1000148&eventtype=VO",
     "location": {
@@ -57,11 +65,11 @@
       "region": "Sunda Strait (Lampung / Banten provinces)"
     },
     "occurrence_date": "2026-09-04",
-    "scale": "VEI 6; GDACS Orange alert; press reports Level III since 9 Oct",
+    "scale": "GDACS Orange alert; Level III (Lampung, 4 Nov)",
     "status": "ongoing"
   },
   "id": "indonesia-volcano-krakatau-2026",
-  "last_updated": "2026-11-04T09:09:31Z",
+  "last_updated": "2026-11-06T17:26:14Z",
   "name": "Volcanic Eruption — Krakatau, Indonesia",
   "provenance": {
     "history": [
@@ -69,10 +77,15 @@
         "at": "2026-11-04T09:09:31Z",
         "layer": "verify",
         "run_id": "2026-11-04T09-09-31Z-158476"
+      },
+      {
+        "at": "2026-11-06T17:26:14Z",
+        "layer": "verify",
+        "run_id": "2026-11-06T17-26-14Z-13e339"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-04T09-09-31Z-158476"
+    "last_run_id": "2026-11-06T17-26-14Z-13e339"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -81,6 +94,10 @@
     "recency_rank": 739863
   },
   "updates": [
+    {
+      "date": "2026-11-04",
+      "text": "Lampung's provincial government reports Anak Krakatau at Level III (Siaga), with advice to stay at least 5km from the crater. The notice supports those conditions on 4 November, without establishing the date of the October escalation."
+    },
     {
       "date": "2026-10-17",
       "text": "Indonesian press widely report Badan Geologi (PVMBG) raised Gunung Anak Krakatau from Level II (Waspada) back to Level III (Siaga) effective 9 October 2026, 21:00 WIB, after a cluster of eruptions, widening the exclusion zone from 2km to 5km plus 1km around new islands; still reported at Level III as of 11 October, though not yet corroborated on PVMBG's own site."
@@ -100,7 +117,7 @@
   ],
   "verification": {
     "confidence": "medium",
-    "notes": "gate: 4 verified, 0 disputed, 1 unverified -> partial",
+    "notes": "gate: 5 verified, 0 disputed, 1 unverified -> partial",
     "status": "partial"
   }
 }
