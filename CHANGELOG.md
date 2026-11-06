@@ -2,6 +2,15 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-06 — Refresh Kanlaon and Krakatau with dated official notices (`efe6a3a`)
+
+- **Updated:** indonesia-volcano-krakatau-2026, philippines-kanlaon-volcano-eruption-2026
+- **Newly allowlisted domains:** lampungprov.go.id, wovodat.phivolcs.dost.gov.ph
+
+## 2026-11-06 — Refresh Tokachidake and correct Yemen hospital figures (#33) (`20c3b09`)
+
+- **Updated:** japan-volcano-tokachidake-2026, yemen-conflict-escalation-2026
+
 ## 2026-11-06 — Correct unsupported Chocó and Baidoa displacement totals (`acec7ad`)
 
 - **Updated:** colombia-earthquake-choco-2026, somalia-baidoa-clashes-displacement-2026
