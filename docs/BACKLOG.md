@@ -122,53 +122,29 @@ finding of the audit, and it is not a missing check:
   automation got, the quieter the alarm became.
 - So the gap to close is **notification, not detection**. Something has to leave GitHub.
 
-**Fixed 2026-08-05 — `notify.yml` + `scripts/notify.py`.** One `workflow_run` listener on
-`staleness`, `publish`, `validate` and `pages` pushes any failure to Telegram. See ARCHITECTURE §7
-for the design and its one gap (a newly added workflow must be listed in its `workflows:` array).
+**Current decision, 2026-11-06 — use GitHub Actions failure emails.** The owner confirmed
+receipt of GitHub failure emails and chose to remove the automatic Telegram listener. Unset
+Telegram secrets had been adding a second failed workflow without delivering an alert.
+`notify.yml` now supports only an explicitly dispatched self-test; it is not an automatic alarm,
+and a successful manual test does not re-enable automatic notifications. No secrets or email
+settings were changed. Native email delivery still depends on the workflow actor and their
+Actions notification preferences. All genuine failure checks remain in place.
 
-> **Arming it is a manual step and it is silent until done.** The alarm needs two repository
-> secrets, and until they are set it exits 0 with a notice — deliberately, so an unarmed notifier
-> does not turn every failure into a second unwatched red run. Reuse the same bot as the other
-> portfolio routines:
->
->     gh secret set TELEGRAM_BOT_TOKEN --repo guillearria/global-observatory
->     gh secret set TELEGRAM_CHAT_ID  --repo guillearria/global-observatory
->
-> Then verify — **do not assume it works because CI is green**, since a notifier that was never
-> armed looks exactly like one with nothing to report:
->
->     gh workflow run notify.yml --repo guillearria/global-observatory
->
-> The self-test sends a message and, uniquely, **fails when the secrets are unset**. A silent skip
-> is right when there is a real failure to report and wrong when a human is asking "is this armed?"
-> — that question must never answer green without a message having gone out. A green self-test run
-> plus a Telegram message is the only proof.
-
-**Still unarmed as of 2026-10-15.** `gh secret list` shows no `TELEGRAM_*` secrets here, so the
-2026-10-03 `publish` failure reached no one (harmless that time, since the day's refresh still
-landed). swing-lab already holds both secrets, so arming this repo means reusing the same two
-values. Steps went to the owner on 2026-10-15; replace this paragraph once the self-test is green.
-
-**Still unarmed as of 2026-11-02, and a second gap: bot-started deploys never reach `notify`.**
-The owner switched Pages off during a GitHub cleanup, so from 2026-11-01 09:22 UTC every `pages`
-run failed at `configure-pages` ("Get Pages site failed… Not Found") and the live site returned 404
-until it was re-enabled on 2026-11-02. Four of those failures created no `notify` run at all,
-because `publish.yml` starts `pages` and `validate` with `gh workflow run` on the built-in
-`github.token`, and GitHub does not fire `workflow_run` for runs caused by that token. Only the
-`pages` run started by a human push (the PR #29 merge, `9782fd0`) reached `notify`, which then
-found the secrets unset. So **arming the secrets is not enough**: the daily deploy, the one most
-likely to break, cannot alert. To fix it, add a failure step inside `pages.yml` / `validate.yml` that
-calls `scripts/notify.py`, or have `publish` wait for the runs it starts and fail with them. Also add
-a check of the **live site** to the daily `staleness` run: fetch the deployed `data/events.json` and
-fail if it isn't a 200 or its `last_updated` is well behind `main`'s. A green CI run says nothing about
-whether the site is up.
+**Historical Telegram work, superseded by that decision.** `notify.yml` and `scripts/notify.py`
+were added on 2026-08-05 as a `workflow_run` listener for `staleness`, `publish`, `validate`, and
+`pages`. The notifier was still unconfigured in the October 15 and November 2 audits. The
+November 2 audit also found Pages failures without matching notifier runs after bot-started
+deploys. The earlier proposals to arm Telegram or add inline Telegram send steps are no longer
+pending work. The daily staleness check now compares live data with the committed aggregates;
+a green manual Telegram test would only confirm delivery of that one test message.
 
 **Still open — alarm on orphaned `claude/*` branches.** The one unambiguous failure signature, and
 cheaper than inferring failure from data freshness: `publish` deletes the branch on success, so a
 lingering branch always means a run did not land. It would have caught all five July casualties on
 the day they happened, including the two that `staleness` could not see because other records kept
-the aggregate fresh. Now that `notify.yml` exists, this is just a scheduled check that fails when
-`git ls-remote --heads origin 'claude/*'` returns anything older than ~24h. (The last orphan,
+the aggregate fresh. A possible scheduled check would fail when
+`git ls-remote --heads origin 'claude/*'` returns anything older than ~24h, leaving notification
+to native GitHub Actions emails rather than Telegram. (The last orphan,
 `claude/trusting-wright-o9t9go` from 2026-10-21, sat unnoticed for 12 days before being deleted
 by hand on 2026-11-02.)
 

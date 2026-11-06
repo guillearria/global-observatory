@@ -78,8 +78,9 @@ The full design is in [`ARCHITECTURE.md`](ARCHITECTURE.md).
   (events: >2 days; threats: >10 days) — the mechanism-agnostic signal that the refresh schedule
   has stopped firing. A scheduled GitHub Actions workflow
   (`.github/workflows/staleness.yml`) runs the same check server-side daily and fails loudly, so
-  a dead schedule triggers a notification instead of waiting for someone to load the page. The
-  Historical Archive is exempt — an archive cannot go stale.
+  a dead schedule produces a failed run without waiting for someone to load the page. GitHub
+  Actions failure emails depend on the workflow actor and notification settings; automatic
+  Telegram alerts are disabled. The Historical Archive is exempt — an archive cannot go stale.
 
 ## The map
 
