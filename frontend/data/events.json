@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T19:41:27Z",
+  "last_updated": "2026-11-06T09:19:40Z",
   "published": [
     {
       "category": "flood",
@@ -1912,19 +1912,19 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-04",
+          "retrieved_date": "2026-11-06",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
           "text": "GDACS rates Tropical Cyclone MURASU-26 (event id 1001346, GLIDE TC-2026-000199-IND) an Overall Red alert (GDACS score 2.5, JTWC single-source maximum expected impact), with the event window running 1 November 2026 00:00 UTC to 3 November 2026 06:00 UTC. Maximum sustained winds are 157 km/h (Category 2, JTWC model; other models range 68-148 km/h), with about 1.5 million people exposed to Category 1 or higher winds in India and high vulnerability assessed for the country. GDACS's PAGER-style casualty section is empty; no deaths, injuries or damage have been reported.",
           "verification_status": "verified"
         }
       ],
-      "description": "A tropical cyclone tracking through the Bay of Bengal was placed under a GDACS Red alert as it approached India's eastern coast in early November 2026. GDACS assessed Tropical Cyclone Murasu at Category 2 strength, with maximum sustained winds of 157 km/h and about 1.5 million people exposed to Category 1 or higher winds, citing a potential high humanitarian impact. No casualty, injury or damage figure has yet been confirmed by an authoritative source, and the storm's precise landfall point has not been reported.",
+      "description": "A tropical cyclone tracking through the Bay of Bengal made landfall on India's eastern coast near Andhra Pradesh in early November 2026 before dissipating inland. GDACS assessed the storm at Category 2 strength, with maximum sustained winds of 157 km/h and about 1.5 million people exposed to Category 1 or higher winds, citing a potential high humanitarian impact. No casualty, injury or damage figure has yet been confirmed by an authoritative source.",
       "event": {
         "impact": {
           "deaths": null,
           "displaced": null,
-          "summary": "GDACS's tropical cyclone report for MURASU-26 (event id 1001346, episode 10) rates the storm an Overall Red alert — a potential high humanitarian impact — with maximum sustained winds of 157 km/h (Category 2, JTWC) and about 1.5 million people exposed to Category 1 or higher winds in India; the event window runs 1-3 November 2026. No death, injury or displacement figure has been confirmed by an authoritative source."
+          "summary": "GDACS's tropical cyclone report for MURASU-26 (event id 1001346, episode 10) rated the storm an Overall Red alert — a potential high humanitarian impact — with maximum sustained winds of 157 km/h (Category 2, JTWC) and about 1.5 million people exposed to Category 1 or higher winds in India; the event window ran 1-3 November 2026 and has since closed. No death, injury or displacement figure has been confirmed by an authoritative source."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
         "location": {
@@ -1935,21 +1935,21 @@
         },
         "occurrence_date": "2026-11-01",
         "scale": "Category 2 (157 km/h); GDACS Red alert",
-        "status": "ongoing"
+        "status": "resolved"
       },
       "id": "cyclone-murasu-india-2026",
-      "last_updated": "2026-11-04T09:09:50Z",
+      "last_updated": "2026-11-06T09:17:04Z",
       "name": "Tropical Cyclone Murasu — India",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-04T09:09:50Z",
+            "at": "2026-11-06T09:17:04Z",
             "layer": "verify",
-            "run_id": "2026-11-04T09-09-50Z-3650c3"
+            "run_id": "2026-11-06T09-17-04Z-d1ac34"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-04T09-09-50Z-3650c3"
+        "last_run_id": "2026-11-06T09-17-04Z-d1ac34"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2048,7 +2048,7 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-11-04",
+          "retrieved_date": "2026-11-06",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168499",
           "text": "The same UN News report (1 October 2026) states that \"a key transit centre for patients requiring treatment burned down\" at Bunia's Kigonze displacement camp, which \"now lies abandoned,\" setting back the regional Ebola response; UN official Julien Harneis said: \"It's been a huge struggle to create Ebola transit centres [and] Ebola treatment centres; it's required money, bringing in staff and it's been a struggle all across the east. So, when we lose a centre, that means we lose capacity, we lose investment and we have to start again.\"",
@@ -2074,18 +2074,18 @@
         "status": "ongoing"
       },
       "id": "drc-north-kivu-ituri-displacement-2026",
-      "last_updated": "2026-11-04T09:11:27Z",
+      "last_updated": "2026-11-06T09:19:40Z",
       "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-04T09:11:27Z",
+            "at": "2026-11-06T09:19:40Z",
             "layer": "verify",
-            "run_id": "2026-11-04T09-11-27Z-f2637c"
+            "run_id": "2026-11-06T09-19-40Z-410b53"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-04T09-11-27Z-f2637c"
+        "last_run_id": "2026-11-06T09-19-40Z-410b53"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2493,6 +2493,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-nov5",
+          "retrieved_date": "2026-11-06",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 5 November 2026, 16:00) reports the Democratic Republic of the Congo has recorded a total of 10,668 confirmed cases, including 5,198 related deaths, as of 4 November 2026 (deaths from data up until 3 November), up from 10,532 cases and 5,126 deaths as of 2 November. The outbreak remains spread across the same eight provinces (Ituri, Nord-Kivu, Sud-Kivu, Tshopo, Haut-Uele, Bas-Uele, Sud Ubangi and Nord Ubangi). Kenya's linked case count remains nine confirmed cases, including two deaths, as of 26 October 2026, unchanged.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-ecdc-oct2",
           "retrieved_date": "2026-10-06",
           "source_name": "ECDC",
@@ -2733,12 +2741,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda (now closed), Kenya, France, Germany and Nigeria. ECDC's newest country overview (data through 1-2 November 2026) puts the DRC toll at 10,532 confirmed cases and 5,126 deaths across eight provinces, up from 10,274/4,992 six days earlier. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
+      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda (now closed), Kenya, France, Germany and Nigeria. ECDC's newest country overview (data through 3-4 November 2026) puts the DRC toll at 10,668 confirmed cases and 5,198 deaths across eight provinces, up from 10,532/5,126 two days earlier. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
       "event": {
         "impact": {
-          "deaths": 5126,
+          "deaths": 5198,
           "displaced": null,
-          "summary": "ECDC's newest country overview (page last updated 4 November 2026, 13:00) puts the DRC toll at 10,532 confirmed cases and 5,126 deaths as of 2 November 2026 (deaths from data through 1 November), up from 10,274 cases and 4,992 deaths as of 29 October. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest country overview (page last updated 5 November 2026, 16:00) puts the DRC toll at 10,668 confirmed cases and 5,198 deaths as of 4 November 2026 (deaths from data through 3 November), up from 10,532 cases and 5,126 deaths as of 2 November. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -2752,18 +2760,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-11-05T09:10:32Z",
+      "last_updated": "2026-11-06T09:18:00Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-05T09:10:32Z",
+            "at": "2026-11-06T09:18:00Z",
             "layer": "verify",
-            "run_id": "2026-11-05T09-10-32Z-d04e9f"
+            "run_id": "2026-11-06T09-18-00Z-9ca7e6"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-05T09-10-32Z-d04e9f"
+        "last_run_id": "2026-11-06T09-18-00Z-9ca7e6"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2773,8 +2781,8 @@
       },
       "updates": [
         {
-          "date": "2026-11-04",
-          "text": "ECDC's country overview (updated 4 November) raised the DRC toll to 10,532 confirmed cases and 5,126 deaths (data through 1-2 November), up from 10,274/4,992 six days earlier; Kenya's linked case count held steady at nine confirmed cases and two deaths."
+          "date": "2026-11-06",
+          "text": "ECDC's country overview (updated 5 November) raised the DRC toll to 10,668 confirmed cases and 5,198 deaths (data through 3-4 November), up from 10,274/4,992 nine days earlier; Kenya's linked case count held steady at nine confirmed cases and two deaths."
         },
         {
           "date": "2026-11-03",
@@ -2847,7 +2855,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 77 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 78 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3882,7 +3890,7 @@
         },
         {
           "id": "claim-31",
-          "retrieved_date": "2026-11-04",
+          "retrieved_date": "2026-11-06",
           "source_name": "IOM Displacement Tracking Matrix (DTM)",
           "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-1121-updates-displacement-following-armed-violence-communes",
           "text": "IOM DTM 'Haiti -- Emergency Tracking Tool (ETT) 112.1' (updates on displacement following armed violence in the communes of Petite Riviere de l'Artibonite and Verrettes, Artibonite department, since 19 October 2026, covering through 26 October 2026, published 27 October 2026) revises the toll sharply upward to approximately 13,912 people (3,316 households) displaced, up from about 7,250 people (1,637 households) in ETT 112. 62% sheltered within Petite Riviere de l'Artibonite and 38% in Verrettes; 77% are staying with host families and 23% settled in 14 sites.",
@@ -3932,18 +3940,18 @@
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-11-04T09:11:27Z",
+      "last_updated": "2026-11-06T09:19:40Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-04T09:11:27Z",
+            "at": "2026-11-06T09:19:40Z",
             "layer": "verify",
-            "run_id": "2026-11-04T09-11-27Z-d57856"
+            "run_id": "2026-11-06T09-19-40Z-40ff0e"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-04T09-11-27Z-d57856"
+        "last_run_id": "2026-11-06T09-19-40Z-40ff0e"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4891,7 +4899,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-11-04",
+          "retrieved_date": "2026-11-06",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
           "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 633,500 Iranian nationals who have crossed into neighbouring countries (28 September 2026, up from 628,000), of whom 534,800 have since crossed back into Iran (28 September 2026, up from 530,000); Lebanese refugees in Syria and new IDPs within Lebanon are unchanged at 325,400 and 329,686 respectively (both Government data, 30 September 2026) -- a combined 1,288,586 people displaced or newly refugees across Iran and Lebanon; Afghan returnee movements (1,015,400, IOM/UNHCR, 3 October 2026) and Syrian returnee movements (1,081,500, Government of Syria/UNHCR, 30 September 2026) are also unchanged, a combined 2,096,900.",
@@ -4981,18 +4989,18 @@
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-11-04T09:15:11Z",
+      "last_updated": "2026-11-06T09:19:39Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-04T09:15:11Z",
+            "at": "2026-11-06T09:19:39Z",
             "layer": "verify",
-            "run_id": "2026-11-04T09-15-11Z-f4a599"
+            "run_id": "2026-11-06T09-19-39Z-c1a0d6"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-04T09-15-11Z-f4a599"
+        "last_run_id": "2026-11-06T09-19-39Z-c1a0d6"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -11911,7 +11919,7 @@
         },
         {
           "id": "claim-31",
-          "retrieved_date": "2026-11-04",
+          "retrieved_date": "2026-11-06",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-29-october-2026",
           "text": "OCHA oPt's Humanitarian Situation Report of 29 October 2026 (reporting period 20-26 October): 57 Palestinians were injured (23 by settlers, 34 by Israeli forces), including nine children; 62 settler attacks causing casualties or property damage were documented across 49 communities, 38 of them olive-harvest related. 94 people, including 40 children, were displaced by settler attacks and access restrictions, and a further 37 people, including 19 children, were displaced by demolitions. The report notes that two Palestinians who attacked an Israeli checkpoint in Hebron on 23 October were killed in an exchange of fire. For October overall, 397 settler-attack incidents were recorded between 1 and 26 October, the highest monthly figure since OCHA began documenting such incidents in 2006, with a weekly average of 53 incidents so far in 2026.",
@@ -11961,18 +11969,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-11-04T09:14:06Z",
+      "last_updated": "2026-11-06T09:19:39Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-04T09:14:06Z",
+            "at": "2026-11-06T09:19:39Z",
             "layer": "verify",
-            "run_id": "2026-11-04T09-14-06Z-8b3a4c"
+            "run_id": "2026-11-06T09-19-39Z-c0a8d6"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-04T09-14-06Z-8b3a4c"
+        "last_run_id": "2026-11-06T09-19-39Z-c0a8d6"
       },
       "schema_version": "1.0",
       "sort_keys": {
