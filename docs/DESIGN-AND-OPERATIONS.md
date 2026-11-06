@@ -40,12 +40,23 @@ integrity checks before upload, so a separate green validate job is not assumed.
 Do not hand-edit generated aggregates or include frontend code in a daily data branch.
 
 `staleness.yml` invokes `scripts/check_freshness.py --live` daily at its existing
-13:00 UTC schedule. It checks collection age (events 2 days, risks 10), every ongoing
+13:00 UTC schedule, and after a successful `pages` run on `main`. The post-deploy
+check uses the Pages run's commit, so a newer main tip cannot create a false mismatch.
+Failed Pages runs retain their own failure and do not launch another live freshness check.
+Only the `pages` completion triggers this listener, so `staleness`/`notify` cannot loop.
+It checks collection age (events 2 days, risks 10), every ongoing
 event's edit age (2 days), and equality of live Pages data with the checked-out main
 aggregates. Missing/invalid dates, stale ongoing records, failed fetches and deployment
 mismatches fail the job. The check does not infer factual currency from edit dates.
 A concurrent deployment can produce a transient mismatch; inspect the deploy and rerun.
 The browser also warns about stale event/risk collection dates.
+
+Before publication, the merged data tree gets a non-blocking `--report-only` freshness
+preflight. It prints stale records and writes an incomplete-coverage job summary without
+holding back valid updates to other records. The refresh command also asks for a per-event
+coverage report. This never changes data, extends freshness thresholds, or claims a source
+was read. The daily and post-deploy checks omit `--report-only`, so they still fail on
+stale data, invalid dates, failed live fetches and deployment mismatches.
 
 A failing scheduled check is a GitHub-native bridge for an external routine that stops
 publishing. Email depends on the workflow actor and their Actions notification settings;

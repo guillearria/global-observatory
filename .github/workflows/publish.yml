@@ -79,6 +79,9 @@ jobs:
           git diff --exit-code -- frontend/data
           pytest -q
           node --test tests/test_retrieval_ui.cjs
+          # Freshness is advisory here: one blocked source must not withhold other
+          # verified updates. The independent post-deploy/daily check stays strict.
+          python scripts/check_freshness.py --report-only || echo "::warning::Freshness preflight could not complete; inspect the independent staleness check."
           git push origin publish:main
           git push origin --delete "$GITHUB_REF_NAME"
       - name: Redeploy Pages and re-run validate (token pushes don't retrigger push workflows)

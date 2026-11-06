@@ -12,12 +12,25 @@ on:
   schedule:
     - cron: "0 13 * * *" # daily 13:00 UTC — hours after both refresh routines
   workflow_dispatch: {}
+  # A successful deployment can still contain an omitted ongoing event. Check it
+  # immediately instead of waiting for GitHub's sometimes-delayed daily schedule.
+  workflow_run:
+    workflows: [pages]
+    branches: [main]
+    types: [completed]
 permissions:
   contents: read
 jobs:
   check:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Compare Pages with the commit that was deployed, not a newer main tip.
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
       - name: Check committed and deployed freshness
         run: python3 scripts/check_freshness.py --live
