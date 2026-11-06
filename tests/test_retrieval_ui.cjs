@@ -48,6 +48,24 @@ test("death marker semantics distinguish unknown and zero; reject numeric string
   ])
     assert.equal(a.bucket(n), v);
 });
+test("affected people in prose are not rendered as recorded displacement", () => {
+  const r = {
+    event: {
+      impact: {
+        deaths: 335,
+        displaced: null,
+        summary: "486,917 people affected; displacement is unknown.",
+      },
+    },
+  };
+  assert.match(a.recordFacts(r), /Recorded deaths: 335/);
+  assert.doesNotMatch(a.recordFacts(r), /Recorded displaced|486,917/);
+  assert.match(r.event.impact.summary, /486,917 people affected/);
+  r.event.impact.displaced = 0;
+  assert.match(a.recordFacts(r), /Recorded displaced: 0/);
+  r.event.impact.displaced = 123;
+  assert.match(a.recordFacts(r), /Recorded displaced: 123/);
+});
 test("map rejects missing and out of range coordinates; accepts real zero", () => {
   assert.equal(
     !!a.validLocation({ event: { location: { lat: 0, lon: 0 } } }),
