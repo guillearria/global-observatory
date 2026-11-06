@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""One-way Telegram push — the only alarm in this repo that leaves GitHub.
+"""Optional one-way Telegram transport, retained for explicit manual use.
 
 Transport only: the caller composes the message, this sends it. Reads TELEGRAM_BOT_TOKEN and
 TELEGRAM_CHAT_ID from the environment (Actions secrets in CI); prints a status line and exits 0
 on a confirmed send, 1 otherwise.
 
-Why this exists: every other alarm here is a red CI run, and a red CI run only reaches a human
-who is subscribed to it. `staleness` failed on 11 consecutive days in July 2026 while the weekly
-threats routine sat broken, and nobody saw it — under auto-publish the "last committer" GitHub
-notifies is the publisher bot. See docs/BACKLOG.md.
+Automatic Telegram alerts are disabled. `notify.yml` uses this transport only for a manually
+dispatched self-test. Operational failure alerts rely on native GitHub Actions email and the
+recipient's notification settings. See docs/ARCHITECTURE.md and docs/BACKLOG.md.
 
     python3 scripts/notify.py "text"     # send
     echo "text" | python3 scripts/notify.py -
@@ -52,8 +51,8 @@ def send(text: str) -> bool:
         text = text[:MAX_LEN].rsplit("\n", 1)[0] + TRUNC_MARK
     payload = {"chat_id": os.environ["TELEGRAM_CHAT_ID"], "text": text}
     # Deliberately no retry. A timeout or connection error is AMBIGUOUS — the message may have
-    # been delivered and only the response lost, so retrying double-posts. One lost alarm beats
-    # two copies of every alarm; the daily staleness run re-sends tomorrow anyway.
+    # been delivered and only the response lost, so retrying can double-post. Leave any
+    # subsequent send to an explicit caller decision; there is no automatic alert retry.
     try:
         if _post(payload):
             return True
