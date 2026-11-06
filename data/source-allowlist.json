@@ -498,6 +498,18 @@
       "domain": "kehutanan.go.id",
       "label": "Ministry of Forestry (Indonesia)",
       "justification": "Indonesia's Ministry of Forestry publishes the national SiPongi satellite hotspot monitoring and Manggala Agni field suppression reports. Its own releases are primary government evidence for Indonesian fire response and clearly distinguish satellite hotspots from verified fires and burned area."
+    },
+    {
+      "category": "event",
+      "domain": "wovodat.phivolcs.dost.gov.ph",
+      "justification": "This PHIVOLCS-operated bulletin host publishes the Philippine Institute of Volcanology and Seismology's own daily volcano observations, official alert levels and hazard recommendations. PHIVOLCS is the Philippines' government authority for volcanic monitoring; trust is limited to this official bulletin hostname rather than the broader government domain.",
+      "label": "PHIVOLCS"
+    },
+    {
+      "category": "event",
+      "domain": "lampungprov.go.id",
+      "justification": "The Government of Lampung Province publishes its own disaster-management coordination notices, including BPBD statements on Anak Krakatau's alert status and exclusion advice based on PVMBG briefings. It is a provincial government's primary account of its safety guidance, not a news outlet; its dated notices do not substitute for PVMBG monitoring observations.",
+      "label": "Government of Lampung Province"
     }
   ]
 }

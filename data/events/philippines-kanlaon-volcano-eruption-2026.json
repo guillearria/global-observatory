@@ -24,14 +24,22 @@
       "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/13/some-24000-families-affected-by-central-philippine-volcano-eruption",
       "text": "News reports citing the Philippine Office of Civil Defense (OCD) said about 24,000 families (roughly 94,000 individuals) were affected by ashfall from the 10 October eruption, with 2,500 families (about 8,000 individuals) sheltering across 21 evacuation sites as of the 13 October briefing; PHIVOLCS reported continuing ash emissions on 11 and 12 October with the volcano held at Alert Level 2. These OCD-sourced figures have not been independently corroborated by an authoritative international source.",
       "verification_status": "unverified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-11-06",
+      "source_name": "PHIVOLCS",
+      "source_url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-kvo?bid=14751&lang=en",
+      "text": "PHIVOLCS's Kanlaon bulletin dated 6 November 2026 maintains Alert Level 2 (increased unrest). Its 24-hour observation window ending at midnight on 6 November records 20 volcanic earthquakes; sulfur dioxide flux was 1,217 tonnes/day measured on 5 November. The bulletin prohibits entry into the 4km-radius Permanent Danger Zone and warns against aircraft flying close to the volcano. These are dated unrest observations and safety recommendations, not evidence of continuous eruption since October.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Mount Kanlaon on Negros Island, Philippines, produced a moderately explosive eruption on 10 October 2026 that sent an ash plume several kilometres above its summit, the latest episode in a prolonged eruptive sequence. GDACS rated the event an Orange alert for medium humanitarian impact, with about 870,000 people living within 30km of the volcano and roughly 10.79 million within 100km. Philippine civil-defense authorities reported tens of thousands of residents affected by ashfall and thousands evacuated from the mandatory 4km danger zone around the crater in the days that followed, though those specific displacement figures have not yet been corroborated by an authoritative international source. PHIVOLCS kept the volcano at Alert Level 2 through mid-October as further ash emissions continued.",
+  "description": "Mount Kanlaon on Negros Island, Philippines, erupted on 10 October 2026, prompting a GDACS Orange alert for potential humanitarian impact. PHIVOLCS's 6 November bulletin maintains Alert Level 2 for increased unrest and the 4km Permanent Danger Zone. GDACS's October event report estimates about 870,000 people within 30km and 10.79 million within 100km; these are exposure estimates, not counts of people displaced. October civil-defense displacement figures remain unverified in this record.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "No casualty or displacement figures for the 10 October eruption have yet been published by an authoritative international source. GDACS rates the eruption an Orange alert for medium humanitarian impact, estimating about 870,000 people within 30km of the volcano and about 10.79 million within 100km. Local civil-defense authorities and Philippine press reported tens of thousands of residents affected by ashfall and thousands evacuated from the mandatory 4km permanent danger zone, and PHIVOLCS continued recording ash emissions through mid-October with the volcano held at Alert Level 2."
+      "summary": "GDACS's October event report estimates about 870,000 people within 30km and 10.79 million within 100km. Verified casualty and displacement totals for the October eruption are not established in the cited evidence. PHIVOLCS recorded 20 volcanic earthquakes in its 6 November bulletin and SO2 flux of 1,217 tonnes/day measured on 5 November."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
     "location": {
@@ -41,11 +49,11 @@
       "region": "Negros Island (Canlaon City and surrounding municipalities)"
     },
     "occurrence_date": "2026-10-10",
-    "scale": "GDACS Orange alert; PHIVOLCS Alert Level 2",
+    "scale": "GDACS Orange alert; PHIVOLCS Level 2 (6 Nov)",
     "status": "ongoing"
   },
   "id": "philippines-kanlaon-volcano-eruption-2026",
-  "last_updated": "2026-11-04T09:09:31Z",
+  "last_updated": "2026-11-06T17:26:14Z",
   "name": "Kanlaon Volcano Eruption, Negros Island, Philippines",
   "provenance": {
     "history": [
@@ -53,10 +61,15 @@
         "at": "2026-11-04T09:09:31Z",
         "layer": "verify",
         "run_id": "2026-11-04T09-09-31Z-f55533"
+      },
+      {
+        "at": "2026-11-06T17:26:14Z",
+        "layer": "verify",
+        "run_id": "2026-11-06T17-26-14Z-9e7e17"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-04T09-09-31Z-f55533"
+    "last_run_id": "2026-11-06T17-26-14Z-9e7e17"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -64,9 +77,15 @@
     "impact_rank": 1,
     "recency_rank": 739899
   },
+  "updates": [
+    {
+      "date": "2026-11-06",
+      "text": "PHIVOLCS's 6 November bulletin maintains Alert Level 2 and the 4km Permanent Danger Zone, with 20 volcanic earthquakes in the preceding 24-hour observation window. SO2 flux of 1,217 tonnes/day was measured on 5 November."
+    }
+  ],
   "verification": {
     "confidence": "medium",
-    "notes": "gate: 2 verified, 0 disputed, 1 unverified -> partial",
+    "notes": "gate: 3 verified, 0 disputed, 1 unverified -> partial",
     "status": "partial"
   }
 }
