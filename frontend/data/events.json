@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T09:19:40Z",
+  "last_updated": "2026-11-06T13:58:35Z",
   "published": [
     {
       "category": "flood",
@@ -1702,8 +1702,8 @@
       "event": {
         "impact": {
           "deaths": 335,
-          "displaced": 486917,
-          "summary": "OCHA Colombia's Flash Update 015 -- its final numbered update in the series, data as of 30 September 2026, 18:00 local time -- holds the toll at 335 deaths, 4,516 injured, 356 rescued, 259 bodies recovered and 105 people missing, with 486,917 people (303,934 households) affected across 500 municipalities in 16 departments, unchanged since Flash Update 013. Housing-damage figures diverge by source: the official Single Registry of Affected Persons (RUD) counts 104,038 homes uninhabitable (19,142 destroyed), concentrated in Valle del Cauca, Risaralda and Quindío, while broader situation reports outside the RUD put the toll at 206,931 homes damaged, 36,478 destroyed. GDACS rates the event a Red alert, estimating about 5.4 million people in zones of MMI VII or greater shaking, and USGS's PAGER alert remains Red. OCHA has stopped issuing weekly Flash Updates for this earthquake, with the response moving into a longer-term recovery phase; IDEAM assesses a 75% probability of a severe El Niño onset in Q4 2026, adding drought and wildfire risk to that recovery."
+          "displaced": null,
+          "summary": "OCHA Colombia's Flash Update 015 -- its final numbered update in the series, data as of 30 September 2026, 18:00 local time -- holds the toll at 335 deaths, 4,516 injured, 356 rescued, 259 bodies recovered and 105 people missing, with 486,917 people (303,934 households) affected across 500 municipalities in 16 departments, unchanged since Flash Update 013. The affected-population figure is not a displacement total; a separate displacement count is not recorded. Housing-damage figures diverge by source: the official Single Registry of Affected Persons (RUD) counts 104,038 homes uninhabitable (19,142 destroyed), concentrated in Valle del Cauca, Risaralda and Quindío, while broader situation reports outside the RUD put the toll at 206,931 homes damaged, 36,478 destroyed. GDACS rates the event a Red alert, estimating about 5.4 million people in zones of MMI VII or greater shaking, and USGS's PAGER alert remains Red. OCHA has stopped issuing weekly Flash Updates for this earthquake, with the response moving into a longer-term recovery phase; IDEAM assesses a 75% probability of a severe El Niño onset in Q4 2026, adding drought and wildfire risk to that recovery."
         },
         "live_source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
         "location": {
@@ -1717,7 +1717,7 @@
         "status": "ongoing"
       },
       "id": "colombia-earthquake-choco-2026",
-      "last_updated": "2026-11-04T09:09:47Z",
+      "last_updated": "2026-11-06T13:58:35Z",
       "name": "M7.4 Earthquake, Chocó, Colombia",
       "provenance": {
         "history": [
@@ -1725,10 +1725,15 @@
             "at": "2026-11-04T09:09:47Z",
             "layer": "verify",
             "run_id": "2026-11-04T09-09-47Z-c8f9a4"
+          },
+          {
+            "at": "2026-11-06T13:58:35Z",
+            "layer": "verify",
+            "run_id": "2026-11-06T13-58-35Z-85516c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-04T09-09-47Z-c8f9a4"
+        "last_run_id": "2026-11-06T13-58-35Z-85516c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1737,6 +1742,10 @@
         "recency_rank": 739838
       },
       "updates": [
+        {
+          "date": "2026-11-06",
+          "text": "Correction: 486,917 is the affected-population figure attributed to OCHA Flash Update 015, not a displaced-person count. The unsupported displacement total has been removed; displacement remains unknown. Existing source-retrieval dates are unchanged."
+        },
         {
           "date": "2026-10-06",
           "text": "OCHA Colombia published Flash Update No. 15 (data as of 30 September), explicitly concluding its weekly Flash Update series for this earthquake with figures unchanged from No. 14; the response has moved into a longer-term recovery phase."
@@ -7606,12 +7615,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Repeated rounds of fighting for control of Baidoa, the South West State capital, between forces aligned with the Southwest State administration and the Somali National Army have displaced tens of thousands of civilians since late September 2026. UNHCR recorded more than 14,000 people displaced by clashes between 3 and 5 September, and a further 5,600-plus displaced by renewed fighting from 28 September to 3 October, on top of a city that already hosts more than half a million people previously displaced by conflict, drought and hunger elsewhere in Somalia. The fighting remains unresolved, with humanitarian partners responding across protection, shelter, food security, water and sanitation, and child-protection sectors.",
+      "description": "Clashes displaced civilians in Baidoa, Somalia, during 3–5 September and 28 September–3 October 2026. UNHCR reported more than 14,000 people displaced during the first period and an estimated 5,604 people (934 households) during the second; the reports do not establish a deduplicated total across both periods. The October alert described a fragile security situation, disrupted essential services, and urgent shelter, water, sanitation and protection needs.",
       "event": {
         "impact": {
           "deaths": 11,
-          "displaced": 19600,
-          "summary": "UNHCR has recorded at least 19,600 people newly displaced by two rounds of clashes in Baidoa: more than 14,000 displaced between 3 and 5 September 2026, and 934 households (5,604 individuals) displaced by renewed fighting from 28 September to 3 October 2026. UNHCR's Flash Alert #24 specifies that the September-October round of fighting caused 11 deaths and 86 injuries recorded at Bay Regional Hospital and Bayhaw Hospital, including eight deaths from stray bullets near the RP Hotel, and damaged Southwest University, the RP Hotel, two mosques and three schools. Baidoa already hosts more than half a million people displaced by earlier conflict, drought and hunger, and the underlying dispute over control of the city remains unresolved."
+          "displaced": null,
+          "summary": "UNHCR reported more than 14,000 people displaced during 3–5 September 2026 and an estimated 5,604 people (934 households) during 28 September–3 October; these separate reporting periods cannot be treated as a confirmed count of unique people. For the latter period, Flash Alert #24 reported 11 deaths and 86 injuries recorded at Bay Regional Hospital and Bayhaw Hospital, including eight deaths reportedly caused by stray bullets near RP Hotel. Southwest University, RP Hotel, two mosques and three schools reportedly sustained significant damage."
         },
         "live_source_url": "https://reliefweb.int/country/som",
         "location": {
@@ -7620,12 +7629,12 @@
           "lon": 43.6471,
           "region": "Baidoa, South West State"
         },
-        "occurrence_date": "2026-09-28",
+        "occurrence_date": "2026-09-03",
         "scale": "Intermittent urban clashes for control of a regional capital",
         "status": "ongoing"
       },
       "id": "somalia-baidoa-clashes-displacement-2026",
-      "last_updated": "2026-11-04T09:11:27Z",
+      "last_updated": "2026-11-06T13:57:57Z",
       "name": "Baidoa Clashes & Displacement — South West State, Somalia",
       "provenance": {
         "history": [
@@ -7633,18 +7642,27 @@
             "at": "2026-11-04T09:11:27Z",
             "layer": "verify",
             "run_id": "2026-11-04T09-11-27Z-7a894e"
+          },
+          {
+            "at": "2026-11-06T13:57:57Z",
+            "layer": "verify",
+            "run_id": "2026-11-06T13-57-57Z-7d0581"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-04T09-11-27Z-7a894e"
+        "last_run_id": "2026-11-06T13-57-57Z-7d0581"
       },
       "schema_version": "1.0",
       "sort_keys": {
-        "composite": 7398872.0,
+        "composite": 7398622.0,
         "impact_rank": 2,
-        "recency_rank": 739887
+        "recency_rank": 739862
       },
       "updates": [
+        {
+          "date": "2026-11-06",
+          "text": "Correction: the record begins with the 3–5 September clashes. More than 14,000 people were reported displaced then and an estimated 5,604 during 28 September–3 October; the previous combined figure of 19,600 is withdrawn because the reports do not establish a deduplicated total."
+        },
         {
           "date": "2026-10-20",
           "text": "UNHCR's Flash Alert #24 document specifies that the 28 September-3 October round of clashes caused 11 deaths and 86 injuries (recorded at Bay Regional Hospital and Bayhaw Hospital), a casualty figure not previously quantified."
