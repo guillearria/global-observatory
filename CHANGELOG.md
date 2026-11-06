@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-06 — World Pulse daily refresh (2026-11-06): Ebola DRC toll rises to 10,668 cases/5,198 deaths; Cyclone Murasu resolved after landfall; re-verify Iran-Israel-US war, West Bank, Haiti, DRC North Kivu unchanged (`afd7766`)
+
+- **Updated:** cyclone-murasu-india-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, haiti-gang-violence-displacement-2026, iran-israel-us-war-2026, west-bank-settler-violence-surge-2026
+
 ## 2026-11-05 — Refresh Indonesia haze with regional alert and local suppression evidence (`8f17234`)
 
 - **Updated:** indonesia-wildfires-haze-2026
