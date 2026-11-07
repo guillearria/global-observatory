@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-07 — Refresh Sudan cholera, El Obeid siege, displacement and drone-strike events (`d712746`)
+
+- **Updated:** el-obeid-siege-sudan-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, sudan-drone-strikes-kordofan-abyei-2026
+
 ## 2026-11-07 — Refresh earthquake, migrant shipwreck and measles outbreak events (`63a06ea`)
 
 - **Updated:** china-earthquake-nagqu-2026, djibouti-migrant-shipwreck-2026, mindanao-earthquake-philippines-2026, panama-earthquake-azuero-2026, usa-new-york-measles-outbreak-2026
