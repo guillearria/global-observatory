@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-07 — Refresh earthquake, migrant shipwreck and measles outbreak events (`63a06ea`)
+
+- **Updated:** china-earthquake-nagqu-2026, djibouti-migrant-shipwreck-2026, mindanao-earthquake-philippines-2026, panama-earthquake-azuero-2026, usa-new-york-measles-outbreak-2026
+
 ## 2026-11-06 — Refresh Kanlaon and Krakatau with dated official notices (`efe6a3a`)
 
 - **Updated:** indonesia-volcano-krakatau-2026, philippines-kanlaon-volcano-eruption-2026
