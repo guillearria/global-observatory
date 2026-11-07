@@ -50,6 +50,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-15",
+      "retrieved_date": "2026-11-07",
+      "source_name": "PAHO",
+      "source_url": "https://www.paho.org/es/documentos/informe-situacion-4-terremoto-panama-28-octubre-2026",
+      "text": "PAHO's 'Informe de Situacion 4: Terremoto en Panama' (data as of 28 October 2026) reports the earthquake's death toll has risen to 2, with 27 people injured (unchanged), 52,874 people affected, and 4,501 people sheltering in 141 active shelters -- both figures up sharply from 3,827 people in 55 shelters two weeks earlier. More than 1,000 aftershocks have been recorded since the 9 October mainshock, and damage assessments of homes and health facilities remain ongoing.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-10-10",
       "source_name": "GDACS",
@@ -114,12 +122,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. A tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled, and an intense aftershock sequence has continued, with Panama's Instituto de Geociencias recording 917 aftershocks as of 19 October. Panama's civil protection agency (SINAPROC) now reports 2,318 homes with total damage, 5,546 with partial damage and 1,260 with minor damage, with more than 600 education and health facilities affected; 3,827 people remain in 55 active shelters. One death -- a person injured in the earthquake -- has been officially confirmed; UNHCR's 20 October update also relays media reports of a second death, a baby with pre-existing medical conditions who was in an informal shelter, which remains unconfirmed by Panamanian authorities. The national State of Emergency declared 10 October remains in force, and UNHCR and partner agencies continue distributing shelter and relief items across Azuero.",
+  "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. A tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled, and an intense aftershock sequence has continued, with more than 1,000 aftershocks recorded by 28 October. PAHO's Situation Report 4 records 2 confirmed deaths, 27 injured, 52,874 people affected and 4,501 people sheltering in 141 active shelters, both up sharply from two weeks earlier. Panama's national State of Emergency, declared 10 October, remains in force as recovery continues.",
   "event": {
     "impact": {
-      "deaths": 1,
-      "displaced": 3827,
-      "summary": "One death -- a person who had been injured in the 9 October earthquake -- remains the only officially confirmed fatality; UNHCR's 20 October update also relays media reports of a second death, a baby with pre-existing conditions who was in an informal shelter, a toll UNHCR attributes to media and does not itself confirm. 27 people remain injured. Panama's SINAPROC now reports 2,318 homes with total damage, 5,546 with partial damage and 1,260 with minor damage, and more than 600 education and health facilities affected; 3,827 people remain in 55 active shelters, little changed from mid-October. Panama's Instituto de Geociencias recorded 917 aftershocks as of 19 October, up from 600+ a week earlier. GDACS's exposure estimate holds at about 130,000 people in MMI VII+ zones (Score 1.4, Overall Orange); USGS's ground-failure product holds at about 49,000 exposed to liquefaction and about 200 to landslide hazard. UNHCR has distributed 300 family tents, 950 tarpaulins, 5,900 relief items, 1,664 kitchen kits and 4,500 mosquito nets, and installed a mobile warehouse in Las Minas, Herrera. Panama's national State of Emergency, declared 10 October, remains in force."
+      "deaths": 2,
+      "displaced": 4501,
+      "summary": "PAHO's Situation Report 4 (28 October 2026) raised the confirmed death toll to 2, with 27 injured, 52,874 people affected, and 4,501 people sheltering in 141 active shelters -- both figures up sharply from the 55 shelters and 3,827 sheltered recorded two weeks earlier. More than 1,000 aftershocks have been recorded since the 9 October mainshock. GDACS's exposure estimate holds at about 130,000 people in MMI VII+ zones (Score 1.4, Overall Orange); Panama's national State of Emergency, declared 10 October, remains in force."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
     "location": {
@@ -129,22 +137,22 @@
       "region": "Herrera Province, Azuero Peninsula; strong shaking also felt in Coclé, Los Santos, Panamá Oeste and Veraguas"
     },
     "occurrence_date": "2026-10-09",
-    "scale": "M7.7; 1 confirmed death; GDACS Orange (~130,000 people in MMI VII+ zones)",
+    "scale": "M7.7; 2 confirmed deaths; GDACS Orange (~130,000 people in MMI VII+ zones)",
     "status": "ongoing"
   },
   "id": "panama-earthquake-azuero-2026",
-  "last_updated": "2026-11-04T09:09:47Z",
+  "last_updated": "2026-11-07T09:17:56Z",
   "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-04T09:09:47Z",
+        "at": "2026-11-07T09:17:56Z",
         "layer": "verify",
-        "run_id": "2026-11-04T09-09-47Z-1ec6c6"
+        "run_id": "2026-11-07T09-17-56Z-e7864e"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-04T09-09-47Z-1ec6c6"
+    "last_run_id": "2026-11-07T09-17-56Z-e7864e"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -153,6 +161,10 @@
     "recency_rank": 739898
   },
   "updates": [
+    {
+      "date": "2026-10-28",
+      "text": "PAHO's Situation Report 4 raised the confirmed death toll to 2 and reported 52,874 people affected and 4,501 people sheltering in 141 active shelters, up sharply from 3,827 people in 55 shelters two weeks earlier; more than 1,000 aftershocks have now been recorded since the 9 October mainshock, while injuries (27) remain unchanged."
+    },
     {
       "date": "2026-10-25",
       "text": "PAHO's Situation Report 3 (data as of 18 October) confirmed the earthquake's first death -- a person who had been injured in the event -- and reported 26,018 people directly affected, 7,933 homes evaluated, and 3,827 people still sheltering in 55 active shelters; 219 health facilities have been reviewed, 142 fully operational."
@@ -184,7 +196,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
