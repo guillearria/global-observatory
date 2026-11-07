@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-07 — Refresh Yemen conflict escalation displacement figures (`3b8a733`)
+
+- **Updated:** yemen-conflict-escalation-2026
+
 ## 2026-11-07 — Refresh Sudan cholera, El Obeid siege, displacement and drone-strike events (`d712746`)
 
 - **Updated:** el-obeid-siege-sudan-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, sudan-drone-strikes-kordofan-abyei-2026
