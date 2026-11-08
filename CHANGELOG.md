@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-08 — Re-verify Indonesia wildfire haze figures ahead of freshness limit (`e89ff35`)
+
+- **Updated:** indonesia-wildfires-haze-2026
+
 ## 2026-11-07 — Refresh Yemen conflict escalation displacement figures (`3b8a733`)
 
 - **Updated:** yemen-conflict-escalation-2026
