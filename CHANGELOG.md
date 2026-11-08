@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-08 — Refresh DRC Ebola, Haiti, Iran-Israel war and West Bank events (`6198dbc`)
+
+- **Updated:** drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, haiti-gang-violence-displacement-2026, iran-israel-us-war-2026, west-bank-settler-violence-surge-2026
+
 ## 2026-11-08 — Re-verify Indonesia wildfire haze figures ahead of freshness limit (`e89ff35`)
 
 - **Updated:** indonesia-wildfires-haze-2026
