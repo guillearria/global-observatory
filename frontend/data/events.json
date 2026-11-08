@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T09:15:59Z",
+  "last_updated": "2026-11-08T09:22:59Z",
   "published": [
     {
       "category": "flood",
@@ -2057,14 +2057,14 @@
         },
         {
           "id": "claim-4",
-          "retrieved_date": "2026-11-06",
+          "retrieved_date": "2026-11-08",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/10/1168499",
           "text": "The same UN News report (1 October 2026) states that \"a key transit centre for patients requiring treatment burned down\" at Bunia's Kigonze displacement camp, which \"now lies abandoned,\" setting back the regional Ebola response; UN official Julien Harneis said: \"It's been a huge struggle to create Ebola transit centres [and] Ebola treatment centres; it's required money, bringing in staff and it's been a struggle all across the east. So, when we lose a centre, that means we lose capacity, we lose investment and we have to start again.\"",
           "verification_status": "verified"
         }
       ],
-      "description": "A fresh wave of armed clashes across North Kivu's Masisi territory and Ituri province in eastern DR Congo has displaced tens of thousands of people since mid-September 2026. The UN's OCHA says fighting in Masisi alone has displaced more than 24,000 people, while clashes between armed groups near Djugu in Ituri forced over 3,000 people to flee the Rhoe displacement camp on 27 September, killing at least four civilians, and separate incidents at Bunia's Kigonze camp — home to roughly 19,000 displaced people — have driven thousands more to leave after soldiers entered the site. The unrest has now disrupted the regional Ebola response directly: UN News reported on 1 October that a key Ebola transit centre at the Kigonze camp burned down and now lies abandoned.",
+      "description": "",
       "event": {
         "impact": {
           "deaths": 4,
@@ -2083,18 +2083,18 @@
         "status": "ongoing"
       },
       "id": "drc-north-kivu-ituri-displacement-2026",
-      "last_updated": "2026-11-06T09:19:40Z",
+      "last_updated": "2026-11-08T09:22:59Z",
       "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-06T09:19:40Z",
+            "at": "2026-11-08T09:22:59Z",
             "layer": "verify",
-            "run_id": "2026-11-06T09-19-40Z-410b53"
+            "run_id": "2026-11-08T09-22-59Z-2bfab7"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-06T09-19-40Z-410b53"
+        "last_run_id": "2026-11-08T09-22-59Z-2bfab7"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2510,6 +2510,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-nov6",
+          "retrieved_date": "2026-11-08",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 6 November 2026, 16:10) reports the Democratic Republic of the Congo has recorded a total of 10,741 confirmed cases, including 5,230 related deaths, as of 5 November 2026 (deaths from data up until 4 November), up from 10,668 cases and 5,198 deaths as of 4 November. The outbreak remains spread across the same eight provinces (Ituri, Nord-Kivu, Sud-Kivu, Tshopo, Haut-Uele, Bas-Uele, Sud Ubangi and Nord Ubangi). Kenya's linked case count remains nine confirmed cases, including two deaths, as of 26 October 2026, unchanged. Nigeria's single imported case, reported 20 October 2026, remains unchanged.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-ecdc-oct2",
           "retrieved_date": "2026-10-06",
           "source_name": "ECDC",
@@ -2750,12 +2758,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda (now closed), Kenya, France, Germany and Nigeria. ECDC's newest country overview (data through 3-4 November 2026) puts the DRC toll at 10,668 confirmed cases and 5,198 deaths across eight provinces, up from 10,532/5,126 two days earlier. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
+      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda (now closed), Kenya, France, Germany and Nigeria. ECDC's newest country overview (data through 4-5 November 2026) puts the DRC toll at 10,741 confirmed cases and 5,230 deaths across eight provinces, up from 10,668/5,198 the day before. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
       "event": {
         "impact": {
-          "deaths": 5198,
+          "deaths": 5230,
           "displaced": null,
-          "summary": "ECDC's newest country overview (page last updated 5 November 2026, 16:00) puts the DRC toll at 10,668 confirmed cases and 5,198 deaths as of 4 November 2026 (deaths from data through 3 November), up from 10,532 cases and 5,126 deaths as of 2 November. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest country overview (page last updated 6 November 2026, 16:10) puts the DRC toll at 10,741 confirmed cases and 5,230 deaths as of 5 November 2026 (deaths from data through 4 November), up from 10,668 cases and 5,198 deaths as of 4 November. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -2769,18 +2777,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-11-06T09:18:00Z",
+      "last_updated": "2026-11-08T09:20:12Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-06T09:18:00Z",
+            "at": "2026-11-08T09:20:12Z",
             "layer": "verify",
-            "run_id": "2026-11-06T09-18-00Z-9ca7e6"
+            "run_id": "2026-11-08T09-20-12Z-6d37b1"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-06T09-18-00Z-9ca7e6"
+        "last_run_id": "2026-11-08T09-20-12Z-6d37b1"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2790,8 +2798,8 @@
       },
       "updates": [
         {
-          "date": "2026-11-06",
-          "text": "ECDC's country overview (updated 5 November) raised the DRC toll to 10,668 confirmed cases and 5,198 deaths (data through 3-4 November), up from 10,274/4,992 nine days earlier; Kenya's linked case count held steady at nine confirmed cases and two deaths."
+          "date": "2026-11-08",
+          "text": "ECDC's country overview (updated 6 November) raised the DRC toll to 10,741 confirmed cases and 5,230 deaths (data through 4-5 November), up from 10,274/4,992 nine days earlier; Kenya's linked case count held steady at nine confirmed cases and two deaths."
         },
         {
           "date": "2026-11-03",
@@ -2864,7 +2872,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 78 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 79 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3911,6 +3919,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-32",
+          "retrieved_date": "2026-11-08",
+          "source_name": "IOM Displacement Tracking Matrix (DTM)",
+          "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-114-displacement-following-armed-violence-communes-arcahaie",
+          "text": "IOM's Emergency Tracking Tool 114 (published 6 November 2026) recorded approximately 5,901 people (1,124 households) displaced by armed violence beginning 30 October in the communes of Arcahaie (Thomas, 1st communal section of Boucassin) and Cabaret (Vignier and Bercy, 2nd communal section of Boucassin), West department. All displaced people took refuge within Arcahaie commune, about 70% with host families and about 30% across seven newly established spontaneous sites; closure of a separate site also forced 100 people who had sheltered there for over four months to move again.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-6",
           "retrieved_date": "2026-08-08",
           "source_name": "ReliefWeb",
@@ -3935,12 +3951,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement spreading beyond Port-au-Prince into previously safer areas. UN High Commissioner Volker Turk told the Human Rights Council on 2 October that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with 230+ kidnapped and 1,000+ women and girls raped -- likely an undercount. IOM's DTM Round 14 (through 12 August) put the national total near 1.49 million IDPs; several departments have seen further armed-violence displacement since, including a revised toll of about 13,912 people displaced from Petite Riviere de l'Artibonite and Verrettes (ETT 112.1, 27 October, up from 7,250), a new displacement of about 1,937 people from Croix-des-Bouquets (ETT 113, 27 October), and an 18 October attack on Arcahaie displacing about 2,884 people (ETT 111, 22 October). The Security Council renewed the Gang Suppression Force's mandate on 29 September, to 31 March 2027.",
+      "description": "Gang violence in Haiti has killed more than 3,000 people nationwide so far in 2026 and displaced about 1.49 million people, with displacement spreading beyond Port-au-Prince into previously safer areas. UN High Commissioner Volker Turk told the Human Rights Council on 2 October that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with 230+ kidnapped and 1,000+ women and girls raped -- likely an undercount. IOM's DTM Round 14 (through 12 August) put the national total near 1.49 million IDPs; several departments have seen further armed-violence displacement since, including a revised toll of about 13,912 people displaced from Petite Riviere de l'Artibonite and Verrettes (ETT 112.1, 27 October, up from 7,250), about 1,937 people displaced from Croix-des-Bouquets (ETT 113, 27 October), and about 5,901 people displaced from Arcahaie and Cabaret, West department, beginning 30 October (ETT 114, 6 November). The Security Council renewed the Gang Suppression Force's mandate on 29 September, to 31 March 2027.",
       "event": {
         "impact": {
           "deaths": 3000,
           "displaced": 1490000,
-          "summary": "IOM's DTM Round 14 report (covering 15 May-12 August 2026) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite recording the largest departmental increase (+16%) as insecurity there deteriorates further. UN High Commissioner for Human Rights Volker Turk told the Human Rights Council on 2 October 2026 that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with more than 230 kidnapped and at least 1,000 women and girls raped. Several further armed-violence displacements have followed in October: IOM's ETT 112.1 (27 October) revised the Petite Riviere de l'Artibonite/Verrettes toll sharply upward to about 13,912 people, up from 7,250; ETT 113 (27 October) recorded a new displacement of about 1,937 people from Croix-des-Bouquets; and an 18 October attack on Arcahaie, West department, displaced about 2,884 people (ETT 111, 22 October). Argentina's 28 August UN Security Council statement put nationwide deaths at 3,000+ so far in 2026; on 29 September the Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027."
+          "summary": "IOM's DTM Round 14 report (covering 15 May-12 August 2026) puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite recording the largest departmental increase (+16%) as insecurity there deteriorates further. UN High Commissioner for Human Rights Volker Turk told the Human Rights Council on 2 October 2026 that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with more than 230 kidnapped and at least 1,000 women and girls raped. Several further armed-violence displacements have followed since: IOM's ETT 112.1 (27 October) revised the Petite Riviere de l'Artibonite/Verrettes toll sharply upward to about 13,912 people, up from 7,250; ETT 113 (27 October) recorded about 1,937 people displaced from Croix-des-Bouquets; and ETT 114 (6 November) recorded about 5,901 people displaced from Arcahaie and Cabaret, West department, beginning 30 October. Argentina's 28 August UN Security Council statement put nationwide deaths at 3,000+ so far in 2026; on 29 September the Council renewed the Gang Suppression Force's mandate for six months, to 31 March 2027."
         },
         "live_source_url": "https://dtm.iom.int/haiti",
         "location": {
@@ -3954,18 +3970,18 @@
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-11-06T09:19:40Z",
+      "last_updated": "2026-11-08T09:22:15Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-06T09:19:40Z",
+            "at": "2026-11-08T09:22:15Z",
             "layer": "verify",
-            "run_id": "2026-11-06T09-19-40Z-40ff0e"
+            "run_id": "2026-11-08T09-22-15Z-f18fb4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-06T09-19-40Z-40ff0e"
+        "last_run_id": "2026-11-08T09-22-15Z-f18fb4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3974,6 +3990,10 @@
         "recency_rank": 739816
       },
       "updates": [
+        {
+          "date": "2026-11-08",
+          "text": "IOM's Emergency Tracking Tool 114 recorded approximately 5,901 people (1,124 households) displaced by armed violence beginning 30 October in the communes of Arcahaie and Cabaret, West department; all took refuge within Arcahaie, about 70% with host families and 30% across seven new spontaneous sites."
+        },
         {
           "date": "2026-10-27",
           "text": "IOM's Emergency Tracking Tool 113 recorded a new displacement: approximately 1,937 people (474 households) displaced by armed violence since 18 October in the commune of Croix-des-Bouquets, West department, mainly from the Santo, Marassa and Djaboul neighbourhoods."
@@ -4045,7 +4065,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 26 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 27 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -4930,7 +4950,7 @@
         },
         {
           "id": "claim-18",
-          "retrieved_date": "2026-11-06",
+          "retrieved_date": "2026-11-08",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
           "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 633,500 Iranian nationals who have crossed into neighbouring countries (28 September 2026, up from 628,000), of whom 534,800 have since crossed back into Iran (28 September 2026, up from 530,000); Lebanese refugees in Syria and new IDPs within Lebanon are unchanged at 325,400 and 329,686 respectively (both Government data, 30 September 2026) -- a combined 1,288,586 people displaced or newly refugees across Iran and Lebanon; Afghan returnee movements (1,015,400, IOM/UNHCR, 3 October 2026) and Syrian returnee movements (1,081,500, Government of Syria/UNHCR, 30 September 2026) are also unchanged, a combined 2,096,900.",
@@ -5001,7 +5021,7 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A war between the United States and Israel against Iran and allied forces has continued since 28 February 2026, when nearly 900 US-Israeli strikes in 12 hours killed Iran's Supreme Leader Ali Khamenei and dozens of officials, including a strike near Bandar Abbas that killed about 170 people at a girls' school. Iran retaliated across the Gulf states, Jordan and Oman, cutting Strait of Hormuz shipping over 90%, and hostilities persisted through September, including a US strike on Iran's Larak Island outpost. UNHCR records 633,500 Iranian nationals and 325,400 Lebanese refugees displaced across borders since the war began, plus almost 2.1 million Afghan and Syrian returnees. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, even as a third carrier and more troops remain deployed -- two days after families of US troops killed in the war's deadliest strike stayed away from a White House event, and a day after Houthi rebels claimed attacks on Saudi airports that killed three people. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar. The conflict remains unresolved.",
+      "description": "",
       "event": {
         "impact": {
           "deaths": null,
@@ -5020,18 +5040,18 @@
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-11-06T09:19:39Z",
+      "last_updated": "2026-11-08T09:22:50Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-06T09:19:39Z",
+            "at": "2026-11-08T09:22:50Z",
             "layer": "verify",
-            "run_id": "2026-11-06T09-19-39Z-c1a0d6"
+            "run_id": "2026-11-08T09-22-50Z-1c5cac"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-06T09-19-39Z-c1a0d6"
+        "last_run_id": "2026-11-08T09-22-50Z-1c5cac"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -12082,7 +12102,7 @@
         },
         {
           "id": "claim-31",
-          "retrieved_date": "2026-11-06",
+          "retrieved_date": "2026-11-08",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-29-october-2026",
           "text": "OCHA oPt's Humanitarian Situation Report of 29 October 2026 (reporting period 20-26 October): 57 Palestinians were injured (23 by settlers, 34 by Israeli forces), including nine children; 62 settler attacks causing casualties or property damage were documented across 49 communities, 38 of them olive-harvest related. 94 people, including 40 children, were displaced by settler attacks and access restrictions, and a further 37 people, including 19 children, were displaced by demolitions. The report notes that two Palestinians who attacked an Israeli checkpoint in Hebron on 23 October were killed in an exchange of fire. For October overall, 397 settler-attack incidents were recorded between 1 and 26 October, the highest monthly figure since OCHA began documenting such incidents in 2006, with a weekly average of 53 incidents so far in 2026.",
@@ -12113,7 +12133,7 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Israeli settler violence in the occupied West Bank has continued through late October 2026, culminating on 24 July 2026 when Israeli settlers carried out two attacks on Tal village near Nablus that left four Palestinians and two Israelis dead and triggered a wave of reprisal attacks. OCHA oPt's newest report (20-26 October, published 29 October) recorded 57 Palestinians injured and 62 further settler attacks across 49 communities, mostly tied to the olive harvest, plus 131 more people displaced by settler attacks and demolitions; October recorded 397 settler attacks between 1-26 October, the highest monthly total since OCHA began documenting them in 2006, averaging 53 incidents a week so far in 2026. The 2026 cumulative toll holds at least 89 Palestinians killed and 4 Israelis killed by Palestinians; cumulative 2026 West Bank displacement now stands at roughly 4,657.",
+      "description": "",
       "event": {
         "impact": {
           "deaths": 89,
@@ -12132,18 +12152,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-11-06T09:19:39Z",
+      "last_updated": "2026-11-08T09:22:29Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-06T09:19:39Z",
+            "at": "2026-11-08T09:22:29Z",
             "layer": "verify",
-            "run_id": "2026-11-06T09-19-39Z-c0a8d6"
+            "run_id": "2026-11-08T09-22-29Z-ddf1b4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-06T09-19-39Z-c0a8d6"
+        "last_run_id": "2026-11-08T09-22-29Z-ddf1b4"
       },
       "schema_version": "1.0",
       "sort_keys": {
