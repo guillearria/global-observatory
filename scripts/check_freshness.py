@@ -3,7 +3,7 @@
 import argparse
 import json
 import os
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -49,6 +49,43 @@ def collect_errors(live=False):
     return errors
 
 
+def review_queue(data, now, hours):
+    """Plan source reviews before the next run, without changing the strict freshness check."""
+    horizon = now + timedelta(hours=hours)
+    due = []
+    for record in data["published"]:
+        if record.get("event", {}).get("status") != "ongoing":
+            continue
+        name = record["id"]
+        try:
+            stamp = datetime.fromisoformat((record.get("last_updated") or "").replace("Z", "+00:00"))
+            if stamp.tzinfo is None or stamp > now + timedelta(days=1):
+                raise ValueError("invalid refresh date")
+            deadline = stamp + timedelta(days=LIMITS["events"])
+        except (ValueError, TypeError):
+            due.append((datetime.min.replace(tzinfo=UTC), name,
+                        f"{name}: invalid refresh date; inspect the record"))
+            continue
+        if deadline <= horizon:
+            stamp_text = deadline.astimezone(UTC).isoformat().replace("+00:00", "Z")
+            state = "overdue" if deadline < now else "due within review window"
+            due.append((deadline, name, f"{name}: review by {stamp_text} ({state})"))
+    return [message for _, _, message in sorted(due)]
+
+
+def report_review_queue(hours):
+    data = json.loads(Path("frontend/data/events.json").read_text())
+    rows = review_queue(data, datetime.now(UTC), hours)
+    heading = f"Source review queue: next {hours} hours"
+    body = "\n".join(rows) if rows else "No ongoing events are due in this review window."
+    note = "Read-only planning queue; successful source reads are required before changing dates."
+    print(f"\n{heading}\n{body}\n{note}")
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with Path(summary).open("a") as handle:
+            handle.write(f"\n## {heading}\n\n```text\n{body}\n```\n\n{note}\n")
+
+
 def report(errors, report_only=False):
     message = "\n".join(errors) if errors else "Collection and ongoing-event refresh checks passed"
     print(message)
@@ -72,8 +109,15 @@ def main(argv=None):
     parser.add_argument("--live", action="store_true", help="Compare deployed and committed data")
     parser.add_argument("--report-only", action="store_true",
                         help="Report incomplete freshness without blocking valid data publication")
+    parser.add_argument("--review-window-hours", type=int, metavar="HOURS",
+                        help="Also list ongoing events due for source review within HOURS")
     args = parser.parse_args(argv)
-    raise SystemExit(report(collect_errors(live=args.live), report_only=args.report_only))
+    if args.review_window_hours is not None and args.review_window_hours <= 0:
+        parser.error("--review-window-hours must be positive")
+    result = report(collect_errors(live=args.live), report_only=args.report_only)
+    if args.review_window_hours is not None:
+        report_review_queue(args.review_window_hours)
+    raise SystemExit(result)
 
 
 if __name__ == "__main__":

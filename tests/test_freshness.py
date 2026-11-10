@@ -1,7 +1,7 @@
 import importlib.util
 import io
 import json
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 import pytest
@@ -128,3 +128,72 @@ def test_live_fetch_failure_stays_a_failure(monkeypatch, tmp_path):
     assert len(errors) == 2
     assert all("cannot verify deployed data" in error for error in errors)
     assert module.report(errors) == 1
+
+
+def ongoing(name, stamp):
+    return {"id": name, "last_updated": stamp, "event": {"status": "ongoing"}}
+
+
+def test_review_queue_catches_daily_start_cutoff_gap_without_failing_fresh_data():
+    # At 09:00 these records pass, but become stale minutes after a daily run starts.
+    now = datetime(2026, 11, 10, 9, tzinfo=UTC)
+    data = {"last_updated": now.isoformat(), "published": [
+        ongoing("later", "2026-11-08T09:23:00Z"),
+        ongoing("earlier", "2026-11-08T09:16:00Z"),
+    ]}
+    assert check_data("events", data, now) == []
+    rows = module.review_queue(data, now, 24)
+    assert [row.split(":", 1)[0] for row in rows] == ["earlier", "later"]
+    assert "2026-11-10T09:16:00Z" in rows[0]
+    assert len(check_data("events", data, now + timedelta(minutes=25))) == 2
+
+
+def test_review_queue_orders_overdue_first_and_includes_exact_horizon():
+    data = {"published": [
+        ongoing("tomorrow", "2026-11-03T12:00:00Z"),
+        ongoing("later", "2026-11-03T12:00:01Z"),
+        ongoing("overdue", "2026-11-01T12:00:00Z"),
+        {"id": "resolved", "last_updated": "2020-01-01T00:00:00Z",
+         "event": {"status": "resolved"}},
+    ]}
+    rows = module.review_queue(data, NOW, 24)
+    assert [row.split(":", 1)[0] for row in rows] == ["overdue", "tomorrow"]
+    assert "(overdue)" in rows[0]
+    assert "due within review window" in rows[1]
+
+
+@pytest.mark.parametrize("stamp", [None, "undefined", "2026-11-04", "2027-01-01T00:00:00Z"])
+def test_review_queue_keeps_invalid_dates_visible(stamp):
+    rows = module.review_queue({"published": [ongoing("invalid", stamp)]}, NOW, 24)
+    assert rows == ["invalid: invalid refresh date; inspect the record"]
+
+
+def test_review_queue_is_read_only_and_does_not_fetch(monkeypatch, tmp_path, capsys):
+    write_collections(tmp_path)
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.delenv("GITHUB_STEP_SUMMARY", raising=False)
+    before = {p: p.read_bytes() for p in tmp_path.rglob("*.json")}
+    monkeypatch.setattr(module, "urlopen", lambda *a, **kw: pytest.fail("No network allowed"))
+    module.report_review_queue(24)
+    assert before == {p: p.read_bytes() for p in tmp_path.rglob("*.json")}
+    assert "successful source reads are required" in capsys.readouterr().out
+
+
+@pytest.mark.parametrize("report_only,expected", [(False, 1), (True, 0)])
+def test_review_window_does_not_change_strict_exit_status(report_only, expected, monkeypatch):
+    calls = []
+    monkeypatch.setattr(module, "collect_errors", lambda **kwargs: ["stale event"])
+    monkeypatch.setattr(module, "report_review_queue", calls.append)
+    monkeypatch.delenv("GITHUB_STEP_SUMMARY", raising=False)
+    argv = ["--review-window-hours", "24"] + (["--report-only"] if report_only else [])
+    with pytest.raises(SystemExit) as result:
+        module.main(argv)
+    assert result.value.code == expected
+    assert calls == [24]
+
+
+@pytest.mark.parametrize("hours", ["0", "-1", "invalid"])
+def test_review_window_rejects_invalid_duration(hours):
+    with pytest.raises(SystemExit) as result:
+        module.main(["--review-window-hours", hours])
+    assert result.value.code == 2

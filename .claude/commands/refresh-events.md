@@ -113,9 +113,17 @@ events so cached figures don't go stale.)
    before drafting: if it already covers the event you were about to add, extend that branch
    instead of opening a new one.
 
-   Run `python scripts/check_freshness.py --report-only` before researching and prioritize
-   the named stale ongoing records. This is an advisory, not permission to restamp dates:
-   only a successful source read justifies a new `retrieved_date`.
+   Run `python scripts/check_freshness.py --report-only --review-window-hours 24` before
+   researching. Work through its source review queue oldest first, before scanning for new
+   events. It includes records that will cross the two-day limit before the next daily run,
+   even if they are still fresh at this run's start. A 09:00 run must not skip a record whose
+   deadline is 09:20 that day. The queue is read-only and does not relax the freshness limit.
+   Only a successful source read justifies a new `retrieved_date`.
+
+   Account for every queued record as changed, checked/no-change, blocked, or not attempted.
+   Do not stop merely because one valid update was published. If a source is unavailable,
+   preserve its retrieval date, record the exact URL and failure, and continue the other
+   queued records. A blocked or unfinished review must remain visible in the final summary.
 
 2. **Research** each target event with WebSearch, then WebFetch the authoritative page(s) to confirm
    exact figures (deaths, displaced, magnitude, declaration dates) and capture the real `source_url`

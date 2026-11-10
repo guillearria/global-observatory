@@ -33,3 +33,11 @@ def test_publisher_checks_actual_merged_tree_without_blocking_valid_updates():
     assert '|| echo "::warning::Freshness preflight could not complete' in command
     assert "gh workflow run pages.yml --ref main" in workflow
     assert "gh workflow run validate.yml --ref main" in workflow
+
+
+def test_daily_refresh_plans_before_next_run_without_restamping_sources():
+    command = (ROOT / ".claude/commands/refresh-events.md").read_text()
+    assert "--report-only --review-window-hours 24" in command
+    assert "Account for every queued record" in command
+    assert "Only a successful source read" in command
+    assert "preserve its retrieval date" in command
