@@ -74,6 +74,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-19",
+      "retrieved_date": "2026-11-11",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
+      "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 636,400 Iranian nationals who have crossed into neighbouring countries (31 October 2026, up from 633,500), with 534,800 having crossed back into Iran (unchanged, 28 September 2026); 379,500 Lebanese refugees now in Syria (31 October 2026, up from 325,400) and 304,520 new IDPs within Lebanon (31 October 2026, down from 329,686) -- a combined 1,320,420 people displaced or newly refugees across Iran and Lebanon -- plus 1,107,600 Afghan returnee movements and 1,233,300 Syrian returnee movements (both 31 October 2026), a combined 2,340,900, up from about 2.1 million.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-08-31",
       "source_name": "Encyclopaedia Britannica",
@@ -138,12 +146,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "",
+  "description": "A war between Iran and a US-Israel coalition began with Operation Epic Fury strikes on 28 February 2026 and remains unresolved more than eight months later. Iran's Supreme Leader and dozens of officials were killed in the opening strikes, and fighting has spread into Lebanon, the Strait of Hormuz and the wider Gulf region. UNHCR's Middle East portal (updated 31 October 2026) records 636,400 Iranian nationals who have crossed into neighbouring countries, 379,500 Lebanese refugees now in Syria and 304,520 new IDPs within Lebanon -- a combined 1,320,420 people displaced or newly refugees across Iran and Lebanon -- plus about 2.34 million combined Afghan and Syrian returnee movements. No ceasefire or permanent settlement has been reached.",
   "event": {
     "impact": {
       "deaths": null,
-      "displaced": 1288586,
-      "summary": "The opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school; no single verified cumulative death toll for the war exists. UNHCR's Middle East portal (updated 28 September-3 October, unchanged on re-check) records, since the war began: 633,500 Iranian nationals who crossed into neighbouring countries (534,800 since returned), 325,400 Lebanese refugees now in Syria and 329,686 new IDPs in Lebanon -- a combined 1,288,586 displaced or newly refugees across those two countries -- plus almost 2.1 million Afghan and Syrian returnee movements. Shipping through the Strait of Hormuz fell more than 90%. Iran's currency hit a new record low on 29 September, above 2.5 million rials per dollar, as sanctions and a naval oil blockade erode the economy. On 8 October, Trump said the US would not resume strikes on Iran before the 3 November midterm elections, pausing the threatened escalation even as a third carrier and added troops remain in the region; this followed a 7 October Houthi-claimed attack on Saudi airports that killed three people."
+      "displaced": 1320420,
+      "summary": "UNHCR's Middle East portal (updated 31 October 2026) records 636,400 Iranian nationals who have crossed into neighbouring countries since the war began (534,800 returned to Iran as of 28 September), 379,500 Lebanese refugees now in Syria and 304,520 new IDPs within Lebanon -- a combined 1,320,420 people displaced or newly refugees across Iran and Lebanon -- plus about 2.34 million combined Afghan and Syrian returnee movements (1,107,600 Afghan, 1,233,300 Syrian). No single verified cumulative death toll exists for the war; the opening 28 February strikes killed Iran's Supreme Leader and dozens of officials, and a strike near Bandar Abbas killed about 170 people at a girls' school."
     },
     "live_source_url": "https://www.britannica.com/event/2026-Iran-war",
     "location": {
@@ -157,18 +165,18 @@
     "status": "ongoing"
   },
   "id": "iran-israel-us-war-2026",
-  "last_updated": "2026-11-08T09:22:50Z",
+  "last_updated": "2026-11-11T09:18:17Z",
   "name": "Iran-Israel-US War",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-08T09:22:50Z",
+        "at": "2026-11-11T09:18:17Z",
         "layer": "verify",
-        "run_id": "2026-11-08T09-22-50Z-1c5cac"
+        "run_id": "2026-11-11T09-18-17Z-6c3b8d"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-08T09-22-50Z-1c5cac"
+    "last_run_id": "2026-11-11T09-18-17Z-6c3b8d"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -177,6 +185,10 @@
     "recency_rank": 739845
   },
   "updates": [
+    {
+      "date": "2026-11-11",
+      "text": "UNHCR's Middle East portal now records 636,400 Iranian nationals who have crossed into neighbouring countries (31 Oct, up from 633,500), 379,500 Lebanese refugees in Syria (up from 325,400) and 304,520 new IDPs in Lebanon (down from 329,686), plus about 2.34 million combined Afghan/Syrian returnee movements (up from about 2.1 million). Tracked Iran/Lebanon displacement total: 1,320,420."
+    },
     {
       "date": "2026-10-15",
       "text": "UNHCR's Middle East portal now records 633,500 Iranian nationals who have crossed into neighbouring countries (28 Sep, up from 628,000), with 534,800 since returned to Iran (up from 530,000); Lebanon refugee/IDP and Afghan/Syrian returnee figures are unchanged. Tracked Iran/Lebanon displacement total: 1,288,586."
@@ -228,7 +240,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 17 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

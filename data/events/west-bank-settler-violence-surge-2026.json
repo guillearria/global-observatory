@@ -162,6 +162,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-32",
+      "retrieved_date": "2026-11-11",
+      "source_name": "OCHA oPt",
+      "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-5-november-2026",
+      "text": "OCHA's oPt Humanitarian Situation Report (5 November 2026, reporting period 27 October-2 November) records 58 Palestinians injured in the West Bank (43 by settlers, 15 by Israeli forces) and no Palestinian fatalities for the period; 64 settler attacks causing casualties or property damage were documented across 48 communities, with October's revised final total reaching 457 attacks by 31 October -- the highest monthly total since the UN began recording them in 2006. Demolitions displaced 71 people (including 38 children), among them seven families (33 people) at Khirbet Suruj on 29 October. A 10-day Israeli 'major counterterrorism operation' in Hebron (23 October-2 November), launched after a 23 October shooting killed two Israeli soldiers, reportedly displaced more than 3,000 Palestinians from Jildah and 'Ein Deir Bahah -- a figure OCHA says remains under verification -- left 11 schools serving about 4,450 students inaccessible on 1-2 November, and included punitive demolitions in 'Ein Deir Bahah on 30 October that displaced 15 people, including nine children.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-07-30",
       "source_name": "United Nations",
@@ -186,14 +194,14 @@
       "verification_status": "verified"
     }
   ],
-  "description": "",
+  "description": "A surge in Israeli settler violence and military operations has made 2026 the deadliest and most attack-intensive year on record for the West Bank. At least 89 Palestinians and 4 Israelis have been killed since the year began, alongside weekly settler attacks and demolitions that OCHA tracks across hundreds of communities. OCHA's 5 November report recorded 58 Palestinians injured and no new fatalities for 27 October-2 November, with October's revised 457 settler attacks the highest monthly total since 2006; separately, a 10-day Israeli operation in Hebron following the 23 October killing of two soldiers reportedly displaced more than 3,000 Palestinians -- a figure OCHA says is still under verification -- and left 11 schools inaccessible.",
   "event": {
     "impact": {
       "deaths": 89,
-      "displaced": 4657,
-      "summary": "OCHA oPt's newest Humanitarian Situation Report (20-26 October 2026, published 29 October) recorded 57 Palestinians injured (34 by Israeli forces, 23 by settlers, including 9 children) and 62 further settler attacks across 49 communities, 38 of them olive-harvest related; it gave no West Bank fatality count for the period beyond noting two Palestinians were killed in an exchange of fire after attacking an Israeli checkpoint in Hebron on 23 October. Demolitions and settler attacks/access restrictions displaced 131 more people over the week (94 by settler attacks and access restrictions, 37 by demolitions), pushing cumulative 2026 West Bank displacement to roughly 4,657. October recorded 397 settler attacks between 1-26 October -- the highest monthly total since OCHA began documenting them in 2006 -- averaging 53 incidents a week so far in 2026. The West Bank's 2026 cumulative toll otherwise holds at at least 89 Palestinians killed and 4 Israelis killed by Palestinians."
+      "displaced": 4728,
+      "summary": "OCHA's newest Humanitarian Situation Report (27 October-2 November, published 5 November) recorded 58 Palestinians injured (43 by settlers, 15 by Israeli forces) and no new West Bank fatalities, with October's revised settler-attack total reaching 457 -- the highest monthly tally since OCHA began recording them in 2006. Demolitions displaced 71 more people, pushing the tracked 2026 demolition/access-restriction displacement total to about 4,728; separately, a 10-day Israeli military operation in Hebron following the 23 October killing of two soldiers reportedly displaced more than 3,000 Palestinians, a figure OCHA says remains under verification, and closed 11 schools serving roughly 4,450 students. The West Bank's 2026 cumulative toll otherwise holds at at least 89 Palestinians killed and 4 Israelis killed by Palestinians."
     },
-    "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-29-october-2026",
+    "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-5-november-2026",
     "location": {
       "country": "Palestine",
       "lat": 32.2211,
@@ -201,22 +209,22 @@
       "region": "Tal village, near Nablus, West Bank (Occupied Palestinian Territory)"
     },
     "occurrence_date": "2026-07-24",
-    "scale": "Mass-casualty settler attack; Israeli 'major counterterrorism operation' declared; October 2026 recorded the highest monthly settler-attack total since OCHA began documenting them in 2006",
+    "scale": "Mass-casualty settler violence; 10-day Israeli 'major counterterrorism operation' in Hebron (23 Oct-2 Nov); October 2026's revised 457 attacks are the highest monthly total since OCHA began documenting them in 2006",
     "status": "ongoing"
   },
   "id": "west-bank-settler-violence-surge-2026",
-  "last_updated": "2026-11-08T09:22:29Z",
+  "last_updated": "2026-11-11T09:20:01Z",
   "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-08T09:22:29Z",
+        "at": "2026-11-11T09:20:01Z",
         "layer": "verify",
-        "run_id": "2026-11-08T09-22-29Z-ddf1b4"
+        "run_id": "2026-11-11T09-20-01Z-fd6d97"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-08T09-22-29Z-ddf1b4"
+    "last_run_id": "2026-11-11T09-20-01Z-fd6d97"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -225,6 +233,10 @@
     "recency_rank": 739821
   },
   "updates": [
+    {
+      "date": "2026-11-11",
+      "text": "OCHA's 5 November report (27 Oct-2 Nov) recorded 58 Palestinians injured, no new fatalities, and a finalized October total of 457 settler attacks, the highest monthly total since 2006. A 10-day Hebron operation after two soldiers were killed 23 Oct reportedly displaced over 3,000 (unverified) and closed 11 schools; demolitions displaced 71 more, pushing 2026 displacement to about 4,728."
+    },
     {
       "date": "2026-10-29",
       "text": "OCHA oPt's 29 October report (20-26 Oct) recorded 57 Palestinians injured and 62 further settler attacks across 49 communities, mostly olive-harvest related; 131 more were displaced, pushing 2026 displacement to roughly 4,657. October's 397 settler attacks (1-26 Oct) are the highest monthly total since OCHA began recording them in 2006."
@@ -296,7 +308,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 23 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 24 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

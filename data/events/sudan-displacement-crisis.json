@@ -138,6 +138,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-31",
+      "retrieved_date": "2026-11-11",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/country/sdn",
+      "text": "UNHCR's Operational Data Portal for Sudan (checked 11 November 2026): internally displaced persons within Sudan now stand at 8,585,611 (source: Humanitarian Needs Overview), up slightly from 8,583,274 as of the 30 September 2026 update; refugees and asylum-seekers in Sudan stand at 921,476 (sources: COR, IPP, UNHCR), up from 909,744 as of 30 September. Both figures are labeled 'last updated 31 Oct 2026'.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-08-28",
       "source_name": "UNHCR",
@@ -146,12 +154,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal records 8,583,274 internally displaced persons within Sudan and 909,744 refugees and asylum-seekers hosted in the country (both a 30 September 2026 update, unchanged on re-check), while its regional situation portal recorded 11,321,158 people forcibly displaced overall as of its 5 October update. IOM says more than 5.2 million people have returned to their areas of origin since the war began, though many still cannot go home because their houses were destroyed or looted, and three in four IDPs remain women and children (UNHCR). UNHCR and IOM warned on 6 November that funding shortages now let agencies reach only about one in ten people in need; IOM's warehouses are empty after distributing over 40,000 tonnes of relief this year, 15.4 million people nationally urgently require shelter, and only 47% of Sudan's $2.9 billion 2026 humanitarian plan has been funded.",
+  "description": "Fighting between Sudan's Armed Forces and the Rapid Support Forces, ongoing since April 2023, has driven what UNHCR calls the world's largest displacement, humanitarian and protection crisis. UNHCR's Sudan country portal records 8,585,611 internally displaced persons within Sudan and 921,476 refugees and asylum-seekers hosted in the country (both a 31 October 2026 update, up slightly from 30 September), while its regional situation portal recorded 11,321,158 people forcibly displaced overall as of its 5 October update. IOM says more than 5.2 million people have returned to their areas of origin since the war began, though many still cannot go home because their houses were destroyed or looted, and three in four IDPs remain women and children (UNHCR). UNHCR and IOM warned on 6 November that funding shortages now let agencies reach only about one in ten people in need; IOM's warehouses are empty after distributing over 40,000 tonnes of relief this year, 15.4 million people nationally urgently require shelter, and only 47% of Sudan's $2.9 billion 2026 humanitarian plan has been funded.",
   "event": {
     "impact": {
       "deaths": null,
-      "displaced": 9493018,
-      "summary": "UNHCR's Sudan country portal records 8,583,274 internally displaced persons within Sudan and 909,744 refugees and asylum-seekers hosted in the country, both unchanged from a 30 September 2026 update. UNHCR's regional situation portal recorded a total of 11,321,158 people forcibly displaced by the Sudan crisis as of its 5 October 2026 update. IOM's DTM Cross-Border Monitoring Report (6) separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since April 2023, and 1,110,605 crossing back into Sudan since January 2024 via its seven monitored border points. On 6 November, UNHCR and IOM said more than 5.2 million people have returned to their areas of origin but many cannot go home due to destroyed or looted housing, three in four IDPs are women and children, and funding shortages now let agencies reach only about one in ten people in need; IOM's relief warehouses are empty after distributing over 40,000 tonnes of aid this year, 15.4 million people nationally urgently require shelter, and only 47% of Sudan's $2.9 billion 2026 humanitarian plan has been funded."
+      "displaced": 9507087,
+      "summary": "UNHCR's Sudan country portal records 8,585,611 internally displaced persons within Sudan and 921,476 refugees and asylum-seekers hosted in the country, both a 31 October 2026 update, up slightly from the prior 30 September figures (8,583,274 and 909,744). UNHCR's regional situation portal recorded a total of 11,321,158 people forcibly displaced by the Sudan crisis as of its 5 October 2026 update. IOM's DTM Cross-Border Monitoring Report (6) separately recorded 4,681,314 people displaced from Sudan into neighbouring countries since April 2023, and 1,110,605 crossing back into Sudan since January 2024 via its seven monitored border points. On 6 November, UNHCR and IOM said more than 5.2 million people have returned to their areas of origin but many cannot go home due to destroyed or looted housing, three in four IDPs are women and children, and funding shortages now let agencies reach only about one in ten people in need; IOM's relief warehouses are empty after distributing over 40,000 tonnes of aid this year, 15.4 million people nationally urgently require shelter, and only 47% of Sudan's $2.9 billion 2026 humanitarian plan has been funded."
     },
     "live_source_url": "https://data.unhcr.org/en/situations/sudansituation",
     "location": {
@@ -165,18 +173,18 @@
     "status": "ongoing"
   },
   "id": "sudan-displacement-crisis",
-  "last_updated": "2026-11-09T09:24:15Z",
+  "last_updated": "2026-11-11T09:19:55Z",
   "name": "Sudan Displacement Crisis",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-09T09:24:15Z",
+        "at": "2026-11-11T09:19:55Z",
         "layer": "verify",
-        "run_id": "2026-11-09T09-24-15Z-cf42d5"
+        "run_id": "2026-11-11T09-19-55Z-9f82a2"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-09T09-24-15Z-cf42d5"
+    "last_run_id": "2026-11-11T09-19-55Z-9f82a2"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -185,6 +193,10 @@
     "recency_rank": 738625
   },
   "updates": [
+    {
+      "date": "2026-11-11",
+      "text": "UNHCR's Sudan country portal (31 October update) put internally displaced persons within Sudan at 8,585,611 and refugees/asylum-seekers in Sudan at 921,476, both up slightly from the 30 September figures (8,583,274 and 909,744)."
+    },
     {
       "date": "2026-11-06",
       "text": "UNHCR and IOM warned funding shortages now let agencies reach only about one in ten people in need; IOM's relief warehouses are empty after distributing 40,000+ tonnes of aid this year, and only 47% of Sudan's $2.9bn 2026 humanitarian plan is funded. IOM said 5.2M+ people have returned home since the war began, though many still can't."
@@ -244,7 +256,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 18 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 19 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
