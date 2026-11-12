@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-12 — Refresh climate risk with NOAA October 2026 report (`8a3d086`)
+
+- **Updated:** global-warming
+
 ## 2026-11-12 — World Pulse daily refresh (2026-11-12): Yemen displacement update from DTM Update #18 (`2681674`)
 
 - **Updated:** yemen-conflict-escalation-2026
