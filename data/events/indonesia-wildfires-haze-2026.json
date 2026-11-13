@@ -27,10 +27,10 @@
     },
     {
       "id": "claim-4",
-      "retrieved_date": "2026-11-11",
+      "retrieved_date": "2026-11-13",
       "source_name": "ASEAN Specialised Meteorological Centre (ASMC)",
       "source_url": "https://asmc.asean.org/asmc-alerts/",
-      "text": "On 5 November 2026, ASMC lowered the southern ASEAN regional haze alert from Level 2 to Level 1. Rain had improved conditions and transboundary haze risk was assessed as low, although isolated hotspots and local smoke could still occur in drier areas. This regional assessment does not establish that all local fires are extinguished.",
+      "text": "ASMC's alert page (asmc.asean.org/asmc-alerts/), checked 13 November 2026, shows the Southern ASEAN region haze alert further lowered to Level 0 (stand-down) on 12 November 2026, down from Level 1 on 5 November. The page attributes the decline to rain suppressing hotspot and haze activity, reporting hotspot counts falling to 13 on Sumatra (10 November) and 1 (11 November).",
       "verification_status": "verified"
     },
     {
@@ -42,12 +42,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Regional haze conditions improved by 5 November 2026, but local peat fires in Indonesia still required suppression. ASMC lowered the southern ASEAN alert from Level 2 to Level 1 and assessed transboundary haze risk as low, while allowing for local smoke in drier areas. Indonesia's Forestry Ministry reported continuing suppression in Talang Rimba and Pulau Geronggang, South Sumatra. The event remains ongoing; the regional alert downgrade does not mean all fires are extinguished.",
+  "description": "Regional haze conditions continued improving into mid-November 2026, though Indonesia's peat fires had required ongoing suppression as recently as early November. ASMC lowered the southern ASEAN alert from Level 1 to Level 0 (stand-down) on 12 November, citing rain that cut Sumatra hotspot counts to the single digits, after an earlier downgrade from Level 2 on 5 November. Indonesia's Forestry Ministry had reported continuing suppression in Talang Rimba and Pulau Geronggang, South Sumatra, as of early November. The event remains ongoing; a regional alert stand-down does not by itself confirm all local fires are extinguished.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "The Forestry Ministry reported 215 high-confidence satellite hotspots nationally as of 4 November 2026 at 21:00 WIB; these are not counts of fires or burned hectares. Field reports still recorded peat-fire suppression in two South Sumatra locations. Earlier area, school-closure and health figures remain dated historical evidence in the sources, not current totals. Deaths and displacement remain unrecorded in this collection."
+      "summary": "ASMC lowered the Southern ASEAN region haze alert to Level 0 (stand-down) on 12 November 2026, down from Level 1 a week earlier, attributing the decline to rain suppressing hotspot and haze activity; Sumatra hotspot counts fell to 13 (10 November) and 1 (11 November). The Forestry Ministry had reported 215 high-confidence satellite hotspots nationally as of 4 November 2026 at 21:00 WIB and continuing peat-fire suppression in two South Sumatra locations; no newer Forestry Ministry update has been confirmed. Deaths and displacement remain unrecorded in this collection."
     },
     "live_source_url": "https://asmc.asean.org/asmc-alerts/",
     "location": {
@@ -61,18 +61,18 @@
     "status": "ongoing"
   },
   "id": "indonesia-wildfires-haze-2026",
-  "last_updated": "2026-11-11T09:18:56Z",
+  "last_updated": "2026-11-13T09:22:01Z",
   "name": "Forest Fires and Regional Haze — Indonesia",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-11T09:18:56Z",
+        "at": "2026-11-13T09:22:01Z",
         "layer": "verify",
-        "run_id": "2026-11-11T09-18-56Z-e9cd1f"
+        "run_id": "2026-11-13T09-22-01Z-bd1b10"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-11T09-18-56Z-e9cd1f"
+    "last_run_id": "2026-11-13T09-22-01Z-bd1b10"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -81,6 +81,10 @@
     "recency_rank": 739852
   },
   "updates": [
+    {
+      "date": "2026-11-13",
+      "text": "ASMC further lowered the Southern ASEAN region haze alert to Level 0 (stand-down) on 12 November, down from Level 1 on 5 November, citing rain that cut Sumatra hotspot counts to 13 (10 November) and 1 (11 November). No Indonesian Forestry Ministry confirmation of local extinguishment at Talang Rimba or Pulau Geronggang has been found, so status remains ongoing."
+    },
     {
       "date": "2026-11-05",
       "text": "ASMC lowered the southern ASEAN haze alert to Level 1, assessing transboundary risk as low while allowing for local smoke. Indonesia's Forestry Ministry reported continuing peat-fire suppression in Talang Rimba and Pulau Geronggang. Regional improvement does not establish local fire extinction."
