@@ -210,6 +210,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-39",
+      "retrieved_date": "2026-11-14",
+      "source_name": "UNHCR",
+      "source_url": "https://data.unhcr.org/en/country/yem",
+      "text": "Re-checked 14 November 2026: emro.who.int (source of this record's WHO Conflict Escalation Situation Report series, through #9) returned HTTP 502 across multiple attempts, and reliefweb.int returned HTTP 403, both unreachable. News coverage citing an unnamed WHO 'latest situation report' put cumulative casualties at 1,771 deaths and 7,959 injured as of 30 October 2026, but this figure could not be confirmed against the primary WHO document and is not treated as verified here. As an alternate allowlisted check, UNHCR's Yemen operational data portal was fetched and still shows 320,849 people newly displaced since 1 August 2026 (page last updated 7 November 2026), unchanged from the prior read and consistent with IOM DTM Update #18's 10 November count already on file; no new confirmed casualty or displacement figure beyond what is already on file was found via any accessible allowlisted source.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-09-11",
       "source_name": "United Nations",
@@ -277,18 +285,18 @@
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-11-12T09:16:55Z",
+  "last_updated": "2026-11-14T09:26:03Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-12T09:16:55Z",
+        "at": "2026-11-14T09:26:03Z",
         "layer": "verify",
-        "run_id": "2026-11-12T09-16-55Z-69b507"
+        "run_id": "2026-11-14T09-26-03Z-7106ea"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-12T09-16-55Z-69b507"
+    "last_run_id": "2026-11-14T09-26-03Z-7106ea"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -388,7 +396,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 32 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 33 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

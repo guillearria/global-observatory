@@ -50,6 +50,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-21",
+      "retrieved_date": "2026-11-14",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/countries/sdn",
+      "text": "Re-checked 14 November 2026: reliefweb.int (source of this record's 24 September WHO press release) and ecdc.europa.eu both returned HTTP 403 Forbidden, and emro.who.int returned HTTP 502, all unreachable across multiple attempts today. As an alternate allowlisted check, WHO's main Sudan country page (who.int/countries/sdn) and WHO's global Disease Outbreak News listing were fetched and carry no Sudan cholera item newer than the 24 September 2026 press release already on file; the country page's only October entry is an unrelated 12 October 2026 food-insecurity/malnutrition alert. No new confirmed cholera case or death figure for Sudan was found via any accessible allowlisted source.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-07-25",
       "source_name": "ReliefWeb",
@@ -101,18 +109,18 @@
     "status": "ongoing"
   },
   "id": "sudan-cholera-outbreak-2026",
-  "last_updated": "2026-11-11T09:19:02Z",
+  "last_updated": "2026-11-14T09:19:46Z",
   "name": "Cholera Outbreak — Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-11T09:19:02Z",
+        "at": "2026-11-14T09:19:46Z",
         "layer": "verify",
-        "run_id": "2026-11-11T09-19-02Z-8db146"
+        "run_id": "2026-11-14T09-19-46Z-ac4991"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-11T09-19-02Z-8db146"
+    "last_run_id": "2026-11-14T09-19-46Z-ac4991"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -144,7 +152,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 10 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

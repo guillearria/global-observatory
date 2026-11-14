@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-11-11",
+      "retrieved_date": "2026-11-14",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
       "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km. Re-checked 4 November 2026: the report page is unchanged, still showing episode 1 as the latest with no updated exposure, casualty or displacement figures; dromic.dswd.gov.ph returned HTTP 503 and PHIVOLCS's own site (phivolcs.dost.gov.ph) carried no Kanlaon-specific bulletin, so no newer DSWD/PHIVOLCS report could be checked for this eruption.",
@@ -27,19 +27,19 @@
     },
     {
       "id": "claim-4",
-      "retrieved_date": "2026-11-11",
+      "retrieved_date": "2026-11-14",
       "source_name": "PHIVOLCS",
-      "source_url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-kvo?bid=14751&lang=en",
-      "text": "PHIVOLCS's Kanlaon bulletin dated 6 November 2026 maintains Alert Level 2 (increased unrest). Its 24-hour observation window ending at midnight on 6 November records 20 volcanic earthquakes; sulfur dioxide flux was 1,217 tonnes/day measured on 5 November. The bulletin prohibits entry into the 4km-radius Permanent Danger Zone and warns against aircraft flying close to the volcano. These are dated unrest observations and safety recommendations, not evidence of continuous eruption since October.",
+      "source_url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-kvo?bid=15141&lang=en",
+      "text": "PHIVOLCS's Kanlaon bulletin dated 14 November 2026 maintains Alert Level 2 (increased unrest). Its 24-hour observation window ending at midnight on 14 November records 1 volcanic earthquake (insufficient data to locate); sulfur dioxide flux was 2,432 tonnes/day measured on 13 November, up from 1,217 tonnes/day on 5 November. The bulletin prohibits entry into the 4km-radius Permanent Danger Zone, reports no change to that zone, and warns against aircraft flying close to the volcano. These are dated unrest observations and safety recommendations, not evidence of continuous eruption since October.",
       "verification_status": "verified"
     }
   ],
-  "description": "Mount Kanlaon on Negros Island, Philippines, erupted on 10 October 2026, prompting a GDACS Orange alert for potential humanitarian impact. PHIVOLCS's 6 November bulletin maintains Alert Level 2 for increased unrest and the 4km Permanent Danger Zone. GDACS's October event report estimates about 870,000 people within 30km and 10.79 million within 100km; these are exposure estimates, not counts of people displaced. October civil-defense displacement figures remain unverified in this record.",
+  "description": "Mount Kanlaon on Negros Island, Philippines, erupted on 10 October 2026, prompting a GDACS Orange alert for potential humanitarian impact. PHIVOLCS's 14 November bulletin maintains Alert Level 2 for increased unrest and the 4km Permanent Danger Zone. GDACS's October event report estimates about 870,000 people within 30km and 10.79 million within 100km; these are exposure estimates, not counts of people displaced. October civil-defense displacement figures remain unverified in this record.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's October event report estimates about 870,000 people within 30km and 10.79 million within 100km. Verified casualty and displacement totals for the October eruption are not established in the cited evidence. PHIVOLCS recorded 20 volcanic earthquakes in its 6 November bulletin and SO2 flux of 1,217 tonnes/day measured on 5 November."
+      "summary": "GDACS's October event report estimates about 870,000 people within 30km and 10.79 million within 100km. Verified casualty and displacement totals for the October eruption are not established in the cited evidence. PHIVOLCS's 14 November bulletin recorded 1 volcanic earthquake in the preceding 24 hours and SO2 flux of 2,432 tonnes/day measured on 13 November, up from 1,217 tonnes/day on 5 November, with no change to the 4km Permanent Danger Zone."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
     "location": {
@@ -49,22 +49,22 @@
       "region": "Negros Island (Canlaon City and surrounding municipalities)"
     },
     "occurrence_date": "2026-10-10",
-    "scale": "GDACS Orange alert; PHIVOLCS Level 2 (6 Nov)",
+    "scale": "GDACS Orange alert; PHIVOLCS Level 2 (14 Nov)",
     "status": "ongoing"
   },
   "id": "philippines-kanlaon-volcano-eruption-2026",
-  "last_updated": "2026-11-11T09:18:56Z",
+  "last_updated": "2026-11-14T09:16:22Z",
   "name": "Kanlaon Volcano Eruption, Negros Island, Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-11T09:18:56Z",
+        "at": "2026-11-14T09:16:22Z",
         "layer": "verify",
-        "run_id": "2026-11-11T09-18-56Z-794a02"
+        "run_id": "2026-11-14T09-16-22Z-667222"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-11T09-18-56Z-794a02"
+    "last_run_id": "2026-11-14T09-16-22Z-667222"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -73,6 +73,10 @@
     "recency_rank": 739899
   },
   "updates": [
+    {
+      "date": "2026-11-14",
+      "text": "PHIVOLCS's 14 November bulletin maintains Alert Level 2 and the 4km Permanent Danger Zone, with 1 volcanic earthquake in the preceding 24-hour observation window (down from 20 on 6 November). SO2 flux rose to 2,432 tonnes/day (measured 13 November), up from 1,217 tonnes/day on 5 November."
+    },
     {
       "date": "2026-11-06",
       "text": "PHIVOLCS's 6 November bulletin maintains Alert Level 2 and the 4km Permanent Danger Zone, with 20 volcanic earthquakes in the preceding 24-hour observation window. SO2 flux of 1,217 tonnes/day was measured on 5 November."

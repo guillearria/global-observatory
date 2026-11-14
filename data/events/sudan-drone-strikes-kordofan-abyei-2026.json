@@ -26,6 +26,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-12",
+      "retrieved_date": "2026-11-14",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/11/1168771",
+      "text": "UN News (10 November 2026), citing UNICEF spokesperson James Elder at a Geneva briefing: 'This year in Sudan, two in three child casualties were killed by armed drones,' and 'not a single day passed without a drone strike on a power station in Sudan' -- up to 15 power stations were hit in October 2026 alone. Elder said UNICEF's Sudan response is just one-third funded and described meeting a teenage drone-attack victim from El Obeid, where Human Rights Council investigators say civilians live in constant fear of drone attack; the article gives no new West Kordofan-, Blue Nile- or Abyei-specific casualty figures.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-10-26",
       "source_name": "United Nations",
@@ -90,12 +98,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Drone strikes have hit displacement shelters, a gold-mining site, a transport convoy, markets and power infrastructure across West Kordofan, Blue Nile, Abyei, South Darfur and Khartoum state, Sudan, since October 2026, killing hundreds of civilians. The UN Human Rights Office documented at least 306 killed and hundreds more injured in the first three weeks of October alone, including strikes in Ghubeish/El Nuhud (25 dead), Abu Shendi (31 dead) and Dibab (139 dead); UN peacekeeping chief Jean-Pierre Lacroix told the Security Council on 5 November that the 19 October Abyei strikes, the first of their kind there, killed at least 30 and injured about 59. Strikes on power and fuel infrastructure now also cripple hospitals and aid logistics, including a dialysis-halting outage near Khartoum and blackouts from strikes on Ed Damazine's grid and the Ar Rusayris Dam. Geneva peace talks on 21 October produced no ceasefire. This surge is distinct from the separate siege of El Obeid in North Kordofan.",
+  "description": "Drone strikes have hit displacement shelters, a gold-mining site, a transport convoy, markets and power infrastructure across West Kordofan, Blue Nile, Abyei, South Darfur and Khartoum state, Sudan, since October 2026, killing hundreds of civilians. The UN Human Rights Office documented at least 306 killed and hundreds more injured in the first three weeks of October alone, including strikes in Ghubeish/El Nuhud (25 dead), Abu Shendi (31 dead) and Dibab (139 dead); UN peacekeeping chief Jean-Pierre Lacroix told the Security Council on 5 November that the 19 October Abyei strikes, the first of their kind there, killed at least 30 and injured about 59. Strikes on power and fuel infrastructure now also cripple hospitals and aid logistics, including a dialysis-halting outage near Khartoum and blackouts from strikes on Ed Damazine's grid and the Ar Rusayris Dam; UNICEF said on 10 November that up to 15 power stations nationwide were hit in October alone and that two in three child casualties this year were caused by armed drones. Geneva peace talks on 21 October produced no ceasefire. This surge is distinct from the separate siege of El Obeid in North Kordofan.",
   "event": {
     "impact": {
       "deaths": 306,
       "displaced": null,
-      "summary": "The UN Human Rights Office documented at least 306 civilians killed and hundreds more injured by drone strikes across Sudan in the first three weeks of October 2026 alone, including 25 dead in Ghubeish/El Nuhud (West Kordofan), 31 dead in Abu Shendi (Blue Nile) and 139 dead in Dibab (West Kordofan). UN peacekeeping chief Jean-Pierre Lacroix told the Security Council on 5 November that the 19 October Abyei strikes -- which he called the first of their kind in Abyei -- killed at least 30 people and injured about 59, a toll peacekeepers are still checking against earlier, higher local estimates for the same incident. UNICEF reported a 27 October strike on a market in Nyala, South Darfur, killed five children. Strikes on power and fuel infrastructure continue to cripple the humanitarian response: a hospital outside Khartoum halted dialysis for 25 patients after losing power, a strike on Ed Damazine's electricity station and the Ar Rusayris Dam caused widespread blackouts, and an Um Bader airstrike killed two women and damaged two water stations. Nearly two dozen countries held Geneva peace talks on 21 October seeking a path to a ceasefire, but no agreement has followed."
+      "summary": "The UN Human Rights Office documented at least 306 civilians killed and hundreds more injured by drone strikes across Sudan in the first three weeks of October 2026 alone, including 25 dead in Ghubeish/El Nuhud (West Kordofan), 31 dead in Abu Shendi (Blue Nile) and 139 dead in Dibab (West Kordofan). UN peacekeeping chief Jean-Pierre Lacroix told the Security Council on 5 November that the 19 October Abyei strikes -- the first of their kind there -- killed at least 30 and injured about 59. UNICEF reported a 27 October strike on a market in Nyala, South Darfur, killed five children. Strikes on power and fuel infrastructure continue to cripple the response: a hospital outside Khartoum halted dialysis, a strike on Ed Damazine's electricity station and the Ar Rusayris Dam caused blackouts, and an Um Bader airstrike killed two women and damaged two water stations. UNICEF said on 10 November that up to 15 power stations nationwide were struck in October alone and two in three child casualties this year were caused by armed drones. Geneva peace talks on 21 October produced no ceasefire."
     },
     "live_source_url": "https://reliefweb.int/country/sdn",
     "location": {
@@ -109,18 +117,18 @@
     "status": "ongoing"
   },
   "id": "sudan-drone-strikes-kordofan-abyei-2026",
-  "last_updated": "2026-11-11T09:19:02Z",
+  "last_updated": "2026-11-14T09:22:19Z",
   "name": "Drone-Strike Escalation — West Kordofan, Blue Nile & Abyei, Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-11T09:19:02Z",
+        "at": "2026-11-14T09:22:19Z",
         "layer": "verify",
-        "run_id": "2026-11-11T09-19-02Z-077b7a"
+        "run_id": "2026-11-14T09-22-19Z-9c5846"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-11T09-19-02Z-077b7a"
+    "last_run_id": "2026-11-14T09-22-19Z-9c5846"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -129,6 +137,10 @@
     "recency_rank": 739895
   },
   "updates": [
+    {
+      "date": "2026-11-10",
+      "text": "UNICEF spokesperson James Elder said up to 15 power stations nationwide were struck by drones in October alone -- 'not a single day passed without a drone strike on a power station in Sudan' -- and that two in three child casualties in Sudan this year were caused by armed drones; UNICEF's Sudan response is only one-third funded."
+    },
     {
       "date": "2026-11-05",
       "text": "UN peacekeeping chief Lacroix told the Security Council the 19 October Abyei drone strikes, the first of their kind there, killed at least 30 and injured about 59; peacekeepers are checking if the toll is an underestimate. Strikes also hit Ed Damazine's power grid/dam and Um Bader (2 women killed). Separately, ~24 countries held Geneva peace talks on 21 October; no ceasefire resulted."
@@ -148,7 +160,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 11 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
