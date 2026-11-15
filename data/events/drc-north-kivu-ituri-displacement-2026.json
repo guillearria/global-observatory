@@ -32,14 +32,22 @@
       "source_url": "https://news.un.org/en/story/2026/10/1168499",
       "text": "The same UN News report (1 October 2026) states that \"a key transit centre for patients requiring treatment burned down\" at Bunia's Kigonze displacement camp, which \"now lies abandoned,\" setting back the regional Ebola response; UN official Julien Harneis said: \"It's been a huge struggle to create Ebola transit centres [and] Ebola treatment centres; it's required money, bringing in staff and it's been a struggle all across the east. So, when we lose a centre, that means we lose capacity, we lose investment and we have to start again.\"",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-11-15",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/11/1168797",
+      "text": "A UN News report (13 November 2026) states WHO condemned an attack in Cantine-Aloya, North Kivu, that killed 66 civilians including three health workers and saw three health facilities looted, and that a nurse was killed and another health worker badly injured two weeks earlier while responding to an Ebola alert in Tshopo province; WFP warned nearly 29 million people in the DRC face acute food insecurity, with UN-backed IPC assessments projecting 30.3 million people in crisis levels of acute food insecurity or worse (including 4.2 million at emergency levels) between January and June 2027, concentrated in the conflict-affected eastern provinces.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Armed-group fighting across North Kivu and Ituri provinces in eastern DR Congo has displaced tens of thousands of civilians since mid-September 2026, compounding the region's Ebola outbreak response. Fighting in Masisi territory, North Kivu, has displaced more than 24,000 people since mid-September, while clashes near Djugu in Ituri forced over 3,000 people to flee the Rhoe displacement camp on 27 September, killing at least four and injuring seven, with houses burned in Blukwa. A military search operation at Bunia's Kigonze camp, which sheltered roughly 19,000 displaced people, triggered further flight and the destruction of a key Ebola transit centre, setting back the regional outbreak response.",
+  "description": "Armed-group fighting across North Kivu and Ituri provinces, DR Congo, has displaced tens of thousands since mid-September 2026 and is undermining the region's Ebola response. Fighting in Masisi territory, North Kivu, has displaced more than 24,000 people since mid-September, while clashes near Djugu in Ituri forced over 3,000 people to flee the Rhoe displacement camp on 27 September, killing at least four and injuring seven, with houses burned in Blukwa. A military search operation at Bunia's Kigonze camp, which sheltered roughly 19,000 displaced people, triggered further flight and the destruction of a key Ebola transit centre. WHO has since condemned a mid-November attack on Cantine-Aloya, North Kivu, that killed 66 civilians including three health workers and saw three health facilities looted, following the killing of a nurse responding to an Ebola alert in Tshopo province two weeks earlier, as WFP warns nearly 29 million people in the DRC face acute food insecurity.",
   "event": {
     "impact": {
-      "deaths": 4,
+      "deaths": 70,
       "displaced": 27000,
-      "summary": "OCHA reports more than 24,000 people displaced by fighting in Masisi, North Kivu, since mid-September 2026, plus over 3,000 who fled Ituri's Rhoe displacement camp on 27 September after clashes left at least four people dead and seven injured and burned houses in Blukwa. Separately, thousands have fled Bunia's Kigonze camp (sheltering roughly 19,000 displaced people) following a military search operation, and UN News reported on 1 October that a key Ebola transit centre at the camp has since burned down and lies abandoned, further disrupting the regional Ebola response."
+      "summary": "More than 24,000 people have been displaced by fighting in Masisi, North Kivu, since mid-September, and over 3,000 fled Ituri's Rhoe camp on 27 September after clashes killed four and injured seven, with houses burned in Blukwa. A military search operation at Bunia's Kigonze camp (sheltering roughly 19,000 people) triggered further flight and destroyed a key Ebola transit centre. WHO says an attack on Cantine-Aloya, North Kivu, in mid-November killed 66 civilians including three health workers and saw three facilities looted, following the killing of a nurse responding to an Ebola alert in Tshopo province two weeks earlier. WFP warns nearly 29 million people in the DRC face acute food insecurity, projected to reach 30.3 million in crisis levels (4.2 million at emergency level) by mid-2027."
     },
     "live_source_url": "https://news.un.org/en/focus/democratic-republic-congo",
     "location": {
@@ -53,18 +61,18 @@
     "status": "ongoing"
   },
   "id": "drc-north-kivu-ituri-displacement-2026",
-  "last_updated": "2026-11-13T09:22:27Z",
+  "last_updated": "2026-11-15T09:24:00Z",
   "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-13T09:22:27Z",
+        "at": "2026-11-15T09:24:00Z",
         "layer": "verify",
-        "run_id": "2026-11-13T09-22-27Z-d6bf63"
+        "run_id": "2026-11-15T09-24-00Z-9417b2"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-13T09-22-27Z-d6bf63"
+    "last_run_id": "2026-11-15T09-24-00Z-9417b2"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -73,6 +81,10 @@
     "recency_rank": 739874
   },
   "updates": [
+    {
+      "date": "2026-11-13",
+      "text": "WHO condemned an attack on Cantine-Aloya, North Kivu, that killed 66 civilians including three health workers and saw three facilities looted, following the killing of a nurse responding to an Ebola alert in Tshopo two weeks earlier; WFP warned nearly 29 million DRC residents face acute food insecurity, projected to reach 30.3 million by mid-2027 (UN News)."
+    },
     {
       "date": "2026-10-03",
       "text": "UN News reported on 1 October that a key Ebola transit centre at Bunia's Kigonze displacement camp -- already destabilized by a security incursion in late September -- burned down and now lies abandoned, further disrupting the regional Ebola response alongside continuing displacement from fighting in Masisi and Ituri."
@@ -88,7 +100,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 4 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
