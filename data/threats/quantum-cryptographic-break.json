@@ -1,0 +1,81 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "medium",
+      "numeric_annual": null,
+      "window": "transition window 2026-2035"
+    },
+    "severity": "continental",
+    "summary": "The cryptography is standardised and the deadlines are set; the open question is deployment. A transition that historically takes a decade or two is being attempted in under ten years across an installed base nobody fully inventories, and the long-lived secrets exposed in the meantime cannot be re-protected retroactively. Severity is bounded by the fact that symmetric cryptography and hash functions survive the quantum threat largely intact, so the failure mode is mass compromise of confidentiality and of trust in digital signatures rather than a loss of all computing security.",
+    "timeframe": "Already consequential through harvest-now-decrypt-later collection; NIST deprecates quantum-vulnerable public-key cryptography after 2030 and disallows it after 2035, while US federal high value assets and high impact systems must migrate key establishment by 31 December 2030 and digital signatures by 31 December 2031."
+  },
+  "category": "technological",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-11-16",
+      "source_name": "NIST",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/ir/2026/NIST.IR.8547.pdf",
+      "text": "NIST IR 8547, Transition to Post-Quantum Cryptography Standards (final, October 2026), states: \"NIST will deprecate quantum-vulnerable public-key cryptography after 2030 and disallow its use under NIST standards and guidelines after 2035. The 2030-2035 deprecation window accommodates lower-risk systems and applications with legacy constraints while full migration concludes.\" Its transition tables list ECDSA, EdDSA and RSA signatures, and DH, MQV and RSA key establishment, as deprecated after 2030 and disallowed after 2035.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-11-16",
+      "source_name": "NIST",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/ir/2026/NIST.IR.8547.pdf",
+      "text": "NIST IR 8547 states that although the transition is starting before a cryptanalytically relevant quantum computer has been built, \"Encrypted data remains at risk because of the 'harvest now, decrypt later' threat in which adversaries collect encrypted data now with the goal of decrypting it once quantum technology matures,\" and notes that \"Historically, the journey from algorithm standardization to full integration into information systems can take 10 to 20 years.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-11-16",
+      "source_name": "NIST",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/ir/2026/NIST.IR.8547.pdf",
+      "text": "NIST IR 8547 states that National Security Memorandum 10 \"established 2035 as the target for completing the federal migration to post-quantum cryptography\" and that under Executive Order 14412 and OMB Memorandum M-26-15, US federal agencies must transition high value assets and high impact systems on an accelerated schedule: \"These systems must adopt post-quantum cryptography for key establishment by December 31, 2030, and for digital signatures by December 31, 2031.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-11-16",
+      "source_name": "NIST",
+      "source_url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+      "text": "NIST's announcement of the final report, released 27 October 2026, says that today's encrypted data is already at risk from the \"harvest now, decrypt later\" threat, and describes NIST IR 8547 as the technical document identifying quantum-vulnerable algorithms among NIST's existing cryptographic standards and the replacement post-quantum standards.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-11-16",
+      "source_name": "NIST",
+      "source_url": "https://csrc.nist.gov/projects/post-quantum-cryptography",
+      "text": "NIST's Post-Quantum Cryptography project page states that in August 2024 NIST released its principal post-quantum standards: FIPS 203, the Module-Lattice-Based Key-Encapsulation Mechanism Standard (ML-KEM); FIPS 204, the Module-Lattice-Based Digital Signature Standard (ML-DSA); and FIPS 205, the Stateless Hash-Based Digital Signature Standard (SLH-DSA). The HQC key encapsulation mechanism and the Falcon digital signature algorithm were selected for ongoing standardization.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "A sufficiently capable quantum computer would break the RSA and elliptic-curve cryptography that secures most internet traffic, financial settlement, software updates and government communications. No such machine is known to exist, but the damage does not wait for one: adversaries can record encrypted traffic today and decrypt it once the capability arrives, so data with a long confidentiality life is already exposed. NIST published its three post-quantum standards in August 2024 and, in the final version of NIST IR 8547 in October 2026, set the schedule for retiring the vulnerable algorithms: quantum-vulnerable public-key cryptography is deprecated after 2030 and disallowed under NIST standards after 2035. US federal policy moves faster still, requiring the most sensitive systems to adopt post-quantum key establishment by 31 December 2030 and post-quantum signatures by 31 December 2031. The risk lies in the gap between those deadlines and the 10 to 20 years NIST says previous cryptographic transitions have historically taken, across an installed base of embedded devices, certificates and protocols that no single authority controls.",
+  "id": "quantum-cryptographic-break",
+  "last_updated": "2026-11-16T10:19:01Z",
+  "name": "Quantum Break of Public-Key Cryptography",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-11-16T10:19:01Z",
+        "layer": "verify",
+        "run_id": "2026-11-16T10-19-01Z-44ad42"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-11-16T10-19-01Z-44ad42"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 23.0,
+    "probability_rank": 3,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

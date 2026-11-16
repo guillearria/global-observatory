@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T20:59:50Z",
+  "last_updated": "2026-11-16T10:19:01Z",
   "published": [
     {
       "assessment": {
@@ -1145,6 +1145,95 @@
     {
       "assessment": {
         "probability": {
+          "estimate": "very-high",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "continental",
+        "summary": "This is a threat multiplier rather than a standalone catastrophe: it does not kill directly, it degrades the collective capacity to respond to everything else on this list. The direction of travel is adverse on every measurable axis - reach of the information environment, cost of producing convincing falsehoods, safety of the journalists who verify claims, and concentration of distribution in a handful of engagement-optimised systems. Measurement is the weak point: the harms are real but global quantification is thin, which is itself part of the problem the UN principles identify under transparency and research. Rated continental because the damage is to institutions and social trust rather than to physical survival.",
+        "timeframe": "Ongoing and compounding, with generative AI lowering the cost of synthetic content faster than labelling, provenance and media-literacy measures are being deployed; the UN normative framework exists but is voluntary and unenforced."
+      },
+      "category": "societal",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-11-16",
+          "source_name": "ITU",
+          "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2026-11-03-Facts-and-Figures.aspx",
+          "text": "ITU's Facts and Figures 2026, released in Geneva on 3 November 2026, estimates that \"An estimated 6.3 billion people, or 76 per cent of the world's population, are using the Internet in 2026\" and that \"Despite the continued growth in connectivity, 2 billion people remain offline.\" It reports 86 per cent of people aged 15 to 24 using the internet globally, and internet use at 93 per cent in high-income countries compared with 32 per cent in low-income countries.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-11-16",
+          "source_name": "UNESCO",
+          "source_url": "https://www.unesco.org/en/communication-information/data-center",
+          "text": "UNESCO's communication and information data centre reports that \"85% of citizens are concerned about the impact of online disinformation\" and that 141 UN Member States have adopted constitutional, statutory and/or policy guarantees for public access to information, 26 of them having adopted access-to-information laws since the adoption of the 2030 Agenda in 2015.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-11-16",
+          "source_name": "UNESCO",
+          "source_url": "https://www.unesco.org/en/communication-information/data-center",
+          "text": "The same UNESCO data centre records more than 1,800 journalists killed since 1993 and an 85% impunity rate for cases of killed journalists. It also reports that 42% of surveyed women journalists said online attacks were linked to offline abuse, that 78% of surveyed judicial actors reported an increase in the use of strategic lawsuits against public participation over the past five years, and that 70% of environmental journalists reported experiencing attacks, threats or pressure linked to their reporting.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-11-16",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2024/06/1151376",
+          "text": "The United Nations launched its Global Principles for Information Integrity on 24 June 2024, covering building trust and resilience, ensuring an independent and pluralistic media, creating healthy incentives based on factual information, enhancing transparency and research, and empowering the public. Secretary-General Antonio Guterres said \"The spread of hatred and lies online is causing grave harm to our world\" and that \"No one should be at the mercy of an algorithm they don't control, which was not designed to safeguard their interests.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-11-16",
+          "source_name": "United Nations",
+          "source_url": "https://mexico.un.org/sites/default/files/2026-08/un-information-integrity-issue-brief-03.pdf",
+          "text": "The UN Department of Global Communications issue brief Children, Youth and Information Integrity (August 2026) states that \"more than 82 per cent of youth aged 15 to 24 worldwide\" are engaged online, and groups information risks into three categories: technology-enabled risks, including the malicious use of digital media and AI to manipulate, exploit or harm; access and distribution risks, including algorithmic biases, digital divides and the decline of independent journalism; and content-based risks, such as exposure to disinformation, hate speech and online harassment.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-11-16",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/06/1167700",
+          "text": "On 11 June 2026 the United Nations launched the Muscat Plan of Action, a global action plan on hate speech, at UN Headquarters in New York. Secretary-General Antonio Guterres said hate speech \"divides communities, dehumanizes entire groups, and sets the stage for bloodshed\" and is \"a core component in the playbook for virtually every genocide and atrocity crime,\" while stressing that freedom of expression must never be an excuse for harmful messages.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Information integrity is the reliability of the shared information environment societies use to make decisions, and it is degrading as disinformation, hate speech and synthetic media spread faster than the institutions meant to check them. The exposed population keeps growing: ITU estimates 6.3 billion people, or 76 per cent of the world, were using the internet in 2026, including 86 per cent of 15-to-24-year-olds. The verification layer is thinning at the same time. UNESCO records more than 1,800 journalists killed since 1993 against an 85 per cent impunity rate for those killings, and reports that 85 per cent of citizens are concerned about the impact of online disinformation. The United Nations launched Global Principles for Information Integrity in June 2024, built on societal trust and resilience, healthy incentives, public empowerment, independent and pluralistic media, and transparency and research; a Muscat Plan of Action on hate speech followed in June 2026. The threat is not any single falsehood but the cumulative loss of a common evidentiary basis, which degrades elections, public-health response, disaster response and conflict de-escalation at once.",
+      "id": "information-integrity-erosion",
+      "last_updated": "2026-11-16T10:19:01Z",
+      "name": "Erosion of Information Integrity",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-11-16T10:19:01Z",
+            "layer": "verify",
+            "run_id": "2026-11-16T10-19-01Z-3b75d7"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-11-16T10-19-01Z-3b75d7"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 25.0,
+        "probability_rank": 5,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
           "estimate": "high",
           "numeric_annual": null,
           "window": "ongoing"
@@ -1964,6 +2053,176 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "medium",
+          "numeric_annual": null,
+          "window": "transition window 2026-2035"
+        },
+        "severity": "continental",
+        "summary": "The cryptography is standardised and the deadlines are set; the open question is deployment. A transition that historically takes a decade or two is being attempted in under ten years across an installed base nobody fully inventories, and the long-lived secrets exposed in the meantime cannot be re-protected retroactively. Severity is bounded by the fact that symmetric cryptography and hash functions survive the quantum threat largely intact, so the failure mode is mass compromise of confidentiality and of trust in digital signatures rather than a loss of all computing security.",
+        "timeframe": "Already consequential through harvest-now-decrypt-later collection; NIST deprecates quantum-vulnerable public-key cryptography after 2030 and disallows it after 2035, while US federal high value assets and high impact systems must migrate key establishment by 31 December 2030 and digital signatures by 31 December 2031."
+      },
+      "category": "technological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-11-16",
+          "source_name": "NIST",
+          "source_url": "https://nvlpubs.nist.gov/nistpubs/ir/2026/NIST.IR.8547.pdf",
+          "text": "NIST IR 8547, Transition to Post-Quantum Cryptography Standards (final, October 2026), states: \"NIST will deprecate quantum-vulnerable public-key cryptography after 2030 and disallow its use under NIST standards and guidelines after 2035. The 2030-2035 deprecation window accommodates lower-risk systems and applications with legacy constraints while full migration concludes.\" Its transition tables list ECDSA, EdDSA and RSA signatures, and DH, MQV and RSA key establishment, as deprecated after 2030 and disallowed after 2035.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-11-16",
+          "source_name": "NIST",
+          "source_url": "https://nvlpubs.nist.gov/nistpubs/ir/2026/NIST.IR.8547.pdf",
+          "text": "NIST IR 8547 states that although the transition is starting before a cryptanalytically relevant quantum computer has been built, \"Encrypted data remains at risk because of the 'harvest now, decrypt later' threat in which adversaries collect encrypted data now with the goal of decrypting it once quantum technology matures,\" and notes that \"Historically, the journey from algorithm standardization to full integration into information systems can take 10 to 20 years.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-11-16",
+          "source_name": "NIST",
+          "source_url": "https://nvlpubs.nist.gov/nistpubs/ir/2026/NIST.IR.8547.pdf",
+          "text": "NIST IR 8547 states that National Security Memorandum 10 \"established 2035 as the target for completing the federal migration to post-quantum cryptography\" and that under Executive Order 14412 and OMB Memorandum M-26-15, US federal agencies must transition high value assets and high impact systems on an accelerated schedule: \"These systems must adopt post-quantum cryptography for key establishment by December 31, 2030, and for digital signatures by December 31, 2031.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-11-16",
+          "source_name": "NIST",
+          "source_url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+          "text": "NIST's announcement of the final report, released 27 October 2026, says that today's encrypted data is already at risk from the \"harvest now, decrypt later\" threat, and describes NIST IR 8547 as the technical document identifying quantum-vulnerable algorithms among NIST's existing cryptographic standards and the replacement post-quantum standards.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-11-16",
+          "source_name": "NIST",
+          "source_url": "https://csrc.nist.gov/projects/post-quantum-cryptography",
+          "text": "NIST's Post-Quantum Cryptography project page states that in August 2024 NIST released its principal post-quantum standards: FIPS 203, the Module-Lattice-Based Key-Encapsulation Mechanism Standard (ML-KEM); FIPS 204, the Module-Lattice-Based Digital Signature Standard (ML-DSA); and FIPS 205, the Stateless Hash-Based Digital Signature Standard (SLH-DSA). The HQC key encapsulation mechanism and the Falcon digital signature algorithm were selected for ongoing standardization.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "A sufficiently capable quantum computer would break the RSA and elliptic-curve cryptography that secures most internet traffic, financial settlement, software updates and government communications. No such machine is known to exist, but the damage does not wait for one: adversaries can record encrypted traffic today and decrypt it once the capability arrives, so data with a long confidentiality life is already exposed. NIST published its three post-quantum standards in August 2024 and, in the final version of NIST IR 8547 in October 2026, set the schedule for retiring the vulnerable algorithms: quantum-vulnerable public-key cryptography is deprecated after 2030 and disallowed under NIST standards after 2035. US federal policy moves faster still, requiring the most sensitive systems to adopt post-quantum key establishment by 31 December 2030 and post-quantum signatures by 31 December 2031. The risk lies in the gap between those deadlines and the 10 to 20 years NIST says previous cryptographic transitions have historically taken, across an installed base of embedded devices, certificates and protocols that no single authority controls.",
+      "id": "quantum-cryptographic-break",
+      "last_updated": "2026-11-16T10:19:01Z",
+      "name": "Quantum Break of Public-Key Cryptography",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-11-16T10:19:01Z",
+            "layer": "verify",
+            "run_id": "2026-11-16T10-19-01Z-44ad42"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-11-16T10-19-01Z-44ad42"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 23.0,
+        "probability_rank": 3,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "very-high",
+          "numeric_annual": null,
+          "window": "ongoing"
+        },
+        "severity": "continental",
+        "summary": "This is the most certain of the climate threats and the slowest to arrive: the measurement record is unambiguous, the physical commitment is locked in for centuries, and the damage lands disproportionately on small island developing States and low-lying deltas that did little to cause it. The near-term range is well constrained; the tail is not, because marine ice-sheet processes in West Antarctica remain the largest source of deep uncertainty in long-horizon projections. Rated continental rather than civilizational because the harm is concentrated on coasts and unfolds slowly enough for adaptation and relocation, at a cost that falls hardest on states least able to pay it.",
+        "timeframe": "Already underway and accelerating, with roughly 0.24 m of further global rise projected by 2050 relative to a 2000 baseline and continued rise for centuries thereafter regardless of near-term emissions."
+      },
+      "category": "climate",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-11-16",
+          "source_name": "NOAA",
+          "source_url": "https://www.ncei.noaa.gov/sites/default/files/2026-08/Executive-Summary-SoC2025.pdf",
+          "text": "NOAA's State of the Climate in 2025 summary reports: \"The average global mean sea level for 2025 set a new record, for the 14th year in a row, rising to 111.2 millimeters above the average for 1993, the year when satellite altimetry measurements began, and was 1.0 plus or minus 0.5 millimeters higher compared to 2024.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-11-16",
+          "source_name": "NOAA",
+          "source_url": "https://www.ncei.noaa.gov/sites/default/files/2026-08/Executive-Summary-SoC2025.pdf",
+          "text": "The same NOAA report states that globally averaged ocean heat content from the surface to 2000-meters depth reached a record high in 2025, surpassing the previous record set in 2024; that the Greenland Ice Sheet \"lost an estimated 129 plus or minus 50 Gigatons of ice overall in 2025\"; and that land-based glaciers around the world \"continued to lose ice for the 38th consecutive year,\" with about 41% of the ice lost by glaciers since 1976 occurring in just the last decade.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-11-16",
+          "source_name": "NASA",
+          "source_url": "https://sealevel.nasa.gov/understanding-sea-level/global-sea-level/overview",
+          "text": "NASA's sea level portal states that global mean sea level \"has risen 6 - 8 inches (15 - 20 centimeters) since 1920\" and illustrates the acceleration: \"It took 90 years (1902 - 1992) for the global sea level to rise around 10 cm,\" while \"In just the last 30 years (1993 - 2023), that same amount of rise, around 10 cm, happened again.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-11-16",
+          "source_name": "NOAA",
+          "source_url": "https://cdn.oceanservice.noaa.gov/oceanserviceprod/hazards/sealevelrise/2.0-Future-Mean-Sea-Level.pdf",
+          "text": "The NOAA-led interagency Sea Level Rise Technical Report states that the observation-based extrapolated value of global mean sea level increase in 2050 relative to a baseline of 2000 is 0.24 m, with a likely (17th-83rd percentile) range between 0.19 m and 0.29 m; an independent extrapolation from satellite altimeter data over 1993-2021 gives 0.23 m of rise from 2000 to 2050, and the equivalent figure for the contiguous US coastline is 0.38 m, with a likely range of 0.32 m to 0.45 m.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-11-16",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/09/1168430",
+          "text": "At the UN high-level meeting on sea-level rise on 24 September 2026, Secretary-General Antonio Guterres said global sea levels rose by almost six millimetres in 2024, the largest annual increase ever recorded; UN News reports that around 770 million people live less than five metres above the high-tide line, and that without drastic emissions cuts seas could rise by a metre by the end of the century.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-11-16",
+          "source_name": "United Nations",
+          "source_url": "https://news.un.org/en/story/2026/09/1168423",
+          "text": "On 24 September 2026 world leaders approved the UN Declaration on Sea Level Rise, which Member States had finalised the previous month. UN News reports that 770 million people live in coastal areas affected by sea level rise and that a half-metre rise could force between 150 million and 300 million people from their homes.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Global sea level is rising as the ocean warms and land ice melts, pushing coastlines inland and exposing hundreds of millions of people in low-lying areas. NOAA's State of the Climate in 2025 recorded a global mean sea level 111.2 mm above the 1993 satellite-altimetry baseline, a record for the fourteenth consecutive year and 1.0 plus or minus 0.5 mm above 2024. The drivers are both running: ocean heat content from the surface to 2000 m reached a record high in 2025, the Greenland Ice Sheet lost an estimated 129 plus or minus 50 gigatons of ice, and land glaciers lost mass for a thirty-eighth consecutive year. The pace is also changing: NASA notes that the roughly 10 cm of rise that took 90 years from 1902 to 1992 recurred in the 30 years from 1993 to 2023. NOAA's interagency scenarios project a further 0.24 m of global rise by 2050 relative to 2000. Around 770 million people live less than five metres above the high-tide line, and in September 2026 world leaders approved a UN Declaration on Sea Level Rise. Unlike surface temperature, the commitment is effectively irreversible on human timescales: the ocean keeps rising for centuries after emissions stop.",
+      "id": "sea-level-rise",
+      "last_updated": "2026-11-16T10:19:01Z",
+      "name": "Sea-Level Rise and Ice-Sheet Loss",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-11-16T10:19:01Z",
+            "layer": "verify",
+            "run_id": "2026-11-16T10-19-01Z-6519de"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-11-16T10-19-01Z-6519de"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 25.0,
+        "probability_rank": 5,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

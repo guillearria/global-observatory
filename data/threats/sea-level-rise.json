@@ -1,0 +1,89 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "very-high",
+      "numeric_annual": null,
+      "window": "ongoing"
+    },
+    "severity": "continental",
+    "summary": "This is the most certain of the climate threats and the slowest to arrive: the measurement record is unambiguous, the physical commitment is locked in for centuries, and the damage lands disproportionately on small island developing States and low-lying deltas that did little to cause it. The near-term range is well constrained; the tail is not, because marine ice-sheet processes in West Antarctica remain the largest source of deep uncertainty in long-horizon projections. Rated continental rather than civilizational because the harm is concentrated on coasts and unfolds slowly enough for adaptation and relocation, at a cost that falls hardest on states least able to pay it.",
+    "timeframe": "Already underway and accelerating, with roughly 0.24 m of further global rise projected by 2050 relative to a 2000 baseline and continued rise for centuries thereafter regardless of near-term emissions."
+  },
+  "category": "climate",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-11-16",
+      "source_name": "NOAA",
+      "source_url": "https://www.ncei.noaa.gov/sites/default/files/2026-08/Executive-Summary-SoC2025.pdf",
+      "text": "NOAA's State of the Climate in 2025 summary reports: \"The average global mean sea level for 2025 set a new record, for the 14th year in a row, rising to 111.2 millimeters above the average for 1993, the year when satellite altimetry measurements began, and was 1.0 plus or minus 0.5 millimeters higher compared to 2024.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-11-16",
+      "source_name": "NOAA",
+      "source_url": "https://www.ncei.noaa.gov/sites/default/files/2026-08/Executive-Summary-SoC2025.pdf",
+      "text": "The same NOAA report states that globally averaged ocean heat content from the surface to 2000-meters depth reached a record high in 2025, surpassing the previous record set in 2024; that the Greenland Ice Sheet \"lost an estimated 129 plus or minus 50 Gigatons of ice overall in 2025\"; and that land-based glaciers around the world \"continued to lose ice for the 38th consecutive year,\" with about 41% of the ice lost by glaciers since 1976 occurring in just the last decade.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-11-16",
+      "source_name": "NASA",
+      "source_url": "https://sealevel.nasa.gov/understanding-sea-level/global-sea-level/overview",
+      "text": "NASA's sea level portal states that global mean sea level \"has risen 6 - 8 inches (15 - 20 centimeters) since 1920\" and illustrates the acceleration: \"It took 90 years (1902 - 1992) for the global sea level to rise around 10 cm,\" while \"In just the last 30 years (1993 - 2023), that same amount of rise, around 10 cm, happened again.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-11-16",
+      "source_name": "NOAA",
+      "source_url": "https://cdn.oceanservice.noaa.gov/oceanserviceprod/hazards/sealevelrise/2.0-Future-Mean-Sea-Level.pdf",
+      "text": "The NOAA-led interagency Sea Level Rise Technical Report states that the observation-based extrapolated value of global mean sea level increase in 2050 relative to a baseline of 2000 is 0.24 m, with a likely (17th-83rd percentile) range between 0.19 m and 0.29 m; an independent extrapolation from satellite altimeter data over 1993-2021 gives 0.23 m of rise from 2000 to 2050, and the equivalent figure for the contiguous US coastline is 0.38 m, with a likely range of 0.32 m to 0.45 m.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-11-16",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168430",
+      "text": "At the UN high-level meeting on sea-level rise on 24 September 2026, Secretary-General Antonio Guterres said global sea levels rose by almost six millimetres in 2024, the largest annual increase ever recorded; UN News reports that around 770 million people live less than five metres above the high-tide line, and that without drastic emissions cuts seas could rise by a metre by the end of the century.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-11-16",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/09/1168423",
+      "text": "On 24 September 2026 world leaders approved the UN Declaration on Sea Level Rise, which Member States had finalised the previous month. UN News reports that 770 million people live in coastal areas affected by sea level rise and that a half-metre rise could force between 150 million and 300 million people from their homes.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Global sea level is rising as the ocean warms and land ice melts, pushing coastlines inland and exposing hundreds of millions of people in low-lying areas. NOAA's State of the Climate in 2025 recorded a global mean sea level 111.2 mm above the 1993 satellite-altimetry baseline, a record for the fourteenth consecutive year and 1.0 plus or minus 0.5 mm above 2024. The drivers are both running: ocean heat content from the surface to 2000 m reached a record high in 2025, the Greenland Ice Sheet lost an estimated 129 plus or minus 50 gigatons of ice, and land glaciers lost mass for a thirty-eighth consecutive year. The pace is also changing: NASA notes that the roughly 10 cm of rise that took 90 years from 1902 to 1992 recurred in the 30 years from 1993 to 2023. NOAA's interagency scenarios project a further 0.24 m of global rise by 2050 relative to 2000. Around 770 million people live less than five metres above the high-tide line, and in September 2026 world leaders approved a UN Declaration on Sea Level Rise. Unlike surface temperature, the commitment is effectively irreversible on human timescales: the ocean keeps rising for centuries after emissions stop.",
+  "id": "sea-level-rise",
+  "last_updated": "2026-11-16T10:19:01Z",
+  "name": "Sea-Level Rise and Ice-Sheet Loss",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-11-16T10:19:01Z",
+        "layer": "verify",
+        "run_id": "2026-11-16T10-19-01Z-6519de"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-11-16T10-19-01Z-6519de"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 25.0,
+    "probability_rank": 5,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

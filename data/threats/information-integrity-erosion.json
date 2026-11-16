@@ -1,0 +1,89 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "very-high",
+      "numeric_annual": null,
+      "window": "ongoing"
+    },
+    "severity": "continental",
+    "summary": "This is a threat multiplier rather than a standalone catastrophe: it does not kill directly, it degrades the collective capacity to respond to everything else on this list. The direction of travel is adverse on every measurable axis - reach of the information environment, cost of producing convincing falsehoods, safety of the journalists who verify claims, and concentration of distribution in a handful of engagement-optimised systems. Measurement is the weak point: the harms are real but global quantification is thin, which is itself part of the problem the UN principles identify under transparency and research. Rated continental because the damage is to institutions and social trust rather than to physical survival.",
+    "timeframe": "Ongoing and compounding, with generative AI lowering the cost of synthetic content faster than labelling, provenance and media-literacy measures are being deployed; the UN normative framework exists but is voluntary and unenforced."
+  },
+  "category": "societal",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-11-16",
+      "source_name": "ITU",
+      "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2026-11-03-Facts-and-Figures.aspx",
+      "text": "ITU's Facts and Figures 2026, released in Geneva on 3 November 2026, estimates that \"An estimated 6.3 billion people, or 76 per cent of the world's population, are using the Internet in 2026\" and that \"Despite the continued growth in connectivity, 2 billion people remain offline.\" It reports 86 per cent of people aged 15 to 24 using the internet globally, and internet use at 93 per cent in high-income countries compared with 32 per cent in low-income countries.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-11-16",
+      "source_name": "UNESCO",
+      "source_url": "https://www.unesco.org/en/communication-information/data-center",
+      "text": "UNESCO's communication and information data centre reports that \"85% of citizens are concerned about the impact of online disinformation\" and that 141 UN Member States have adopted constitutional, statutory and/or policy guarantees for public access to information, 26 of them having adopted access-to-information laws since the adoption of the 2030 Agenda in 2015.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-11-16",
+      "source_name": "UNESCO",
+      "source_url": "https://www.unesco.org/en/communication-information/data-center",
+      "text": "The same UNESCO data centre records more than 1,800 journalists killed since 1993 and an 85% impunity rate for cases of killed journalists. It also reports that 42% of surveyed women journalists said online attacks were linked to offline abuse, that 78% of surveyed judicial actors reported an increase in the use of strategic lawsuits against public participation over the past five years, and that 70% of environmental journalists reported experiencing attacks, threats or pressure linked to their reporting.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-11-16",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2024/06/1151376",
+      "text": "The United Nations launched its Global Principles for Information Integrity on 24 June 2024, covering building trust and resilience, ensuring an independent and pluralistic media, creating healthy incentives based on factual information, enhancing transparency and research, and empowering the public. Secretary-General Antonio Guterres said \"The spread of hatred and lies online is causing grave harm to our world\" and that \"No one should be at the mercy of an algorithm they don't control, which was not designed to safeguard their interests.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-11-16",
+      "source_name": "United Nations",
+      "source_url": "https://mexico.un.org/sites/default/files/2026-08/un-information-integrity-issue-brief-03.pdf",
+      "text": "The UN Department of Global Communications issue brief Children, Youth and Information Integrity (August 2026) states that \"more than 82 per cent of youth aged 15 to 24 worldwide\" are engaged online, and groups information risks into three categories: technology-enabled risks, including the malicious use of digital media and AI to manipulate, exploit or harm; access and distribution risks, including algorithmic biases, digital divides and the decline of independent journalism; and content-based risks, such as exposure to disinformation, hate speech and online harassment.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-11-16",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/06/1167700",
+      "text": "On 11 June 2026 the United Nations launched the Muscat Plan of Action, a global action plan on hate speech, at UN Headquarters in New York. Secretary-General Antonio Guterres said hate speech \"divides communities, dehumanizes entire groups, and sets the stage for bloodshed\" and is \"a core component in the playbook for virtually every genocide and atrocity crime,\" while stressing that freedom of expression must never be an excuse for harmful messages.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Information integrity is the reliability of the shared information environment societies use to make decisions, and it is degrading as disinformation, hate speech and synthetic media spread faster than the institutions meant to check them. The exposed population keeps growing: ITU estimates 6.3 billion people, or 76 per cent of the world, were using the internet in 2026, including 86 per cent of 15-to-24-year-olds. The verification layer is thinning at the same time. UNESCO records more than 1,800 journalists killed since 1993 against an 85 per cent impunity rate for those killings, and reports that 85 per cent of citizens are concerned about the impact of online disinformation. The United Nations launched Global Principles for Information Integrity in June 2024, built on societal trust and resilience, healthy incentives, public empowerment, independent and pluralistic media, and transparency and research; a Muscat Plan of Action on hate speech followed in June 2026. The threat is not any single falsehood but the cumulative loss of a common evidentiary basis, which degrades elections, public-health response, disaster response and conflict de-escalation at once.",
+  "id": "information-integrity-erosion",
+  "last_updated": "2026-11-16T10:19:01Z",
+  "name": "Erosion of Information Integrity",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-11-16T10:19:01Z",
+        "layer": "verify",
+        "run_id": "2026-11-16T10-19-01Z-3b75d7"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-11-16T10-19-01Z-3b75d7"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 25.0,
+    "probability_rank": 5,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
