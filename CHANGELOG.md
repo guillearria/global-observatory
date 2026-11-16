@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-16 — Add three source-verified threats: quantum cryptography, sea-level rise, information integrity (`887d7eb`)
+
+- **Added:** information-integrity-erosion, quantum-cryptographic-break, sea-level-rise
+
 ## 2026-11-15 — World Pulse daily refresh (2026-11-15): Ebola/measles figure updates, DRC Kivu/Ituri attack + Haiti spontaneous-sites milestones, 9 source re-checks, Krakatau blocked by site outage (`cabd99d`)
 
 - **Updated:** china-earthquake-nagqu-2026, colombia-earthquake-choco-2026, djibouti-migrant-shipwreck-2026, drc-north-kivu-ituri-displacement-2026, ebola-bundibugyo-drc-2026, haiti-gang-violence-displacement-2026, indonesia-wildfires-haze-2026, iran-israel-us-war-2026, japan-volcano-tokachidake-2026, panama-earthquake-azuero-2026, somalia-baidoa-clashes-displacement-2026, sudan-displacement-crisis, usa-new-york-measles-outbreak-2026
