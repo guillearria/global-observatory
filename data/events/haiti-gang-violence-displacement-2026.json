@@ -195,10 +195,18 @@
     },
     {
       "id": "claim-33",
-      "retrieved_date": "2026-11-15",
+      "retrieved_date": "2026-11-17",
       "source_name": "IOM Displacement Tracking Matrix (DTM)",
       "source_url": "https://dtm.iom.int/reports/haiti-update-displacement-situation-spontaneous-sites-september-2026",
       "text": "IOM DTM's 'Update on the Displacement Situation in Spontaneous Sites (September 2026)' (covering 29 August-18 September 2026, published 8 November 2026) reports the number of spontaneous displacement sites nationwide decreased from 236 to 222 between July and September 2026, while the IDP population sheltering in those sites rose 2%, from 220,248 to 224,050, over the same period.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-34",
+      "retrieved_date": "2026-11-17",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/11/1168789",
+      "text": "UN News (12 November 2026), 'Haiti: More than 1,000 killed between July and September, UN report reveals': BINUH's quarterly report for July-September 2026 documents at least 1,167 people killed and 459 injured, with gangs responsible for more than 45% of incidents and about 5% attributed to self-defence groups; more than half of killings/injuries occurred during security-force operations against gangs, sometimes involving a private military company's drones, and more than 16% of victims of those operations were not gang-associated. The report documents 44 cases of extrajudicial execution or attempted extrajudicial execution involving the Haitian National Police (up from 14 the prior quarter), at least 137 people kidnapped for ransom (up from 81 in April-June, 10% children), and 344 victims of gang sexual violence aged 8-75 (77% involving gang rape). Named incidents: a beheading of at least 19 people (12 elderly women) in Cite Soleil in early August; two Kenscoff attacks in July-August killing at least 105 (19 children); attacks reaching previously-spared Saint-Michel-de-l'Attalaye (Artibonite) and Marigot (South-East); drone attacks killing at least 4 (2 children); and at least 32 forcibly-recruited boys aged 14-16 killed in Gressier fighting with security forces. BINUH head Carlos Ruiz Massieu stressed the scale of the massacres documented during this period.",
       "verification_status": "verified"
     },
     {
@@ -245,18 +253,18 @@
     "status": "ongoing"
   },
   "id": "haiti-gang-violence-displacement-2026",
-  "last_updated": "2026-11-15T09:24:00Z",
+  "last_updated": "2026-11-17T09:23:16Z",
   "name": "Gang Violence Displacement Crisis — Haiti",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-15T09:24:00Z",
+        "at": "2026-11-17T09:23:16Z",
         "layer": "verify",
-        "run_id": "2026-11-15T09-24-00Z-662062"
+        "run_id": "2026-11-17T09-23-16Z-9d6f8c"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-15T09-24-00Z-662062"
+    "last_run_id": "2026-11-17T09-23-16Z-9d6f8c"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -265,6 +273,10 @@
     "recency_rank": 739816
   },
   "updates": [
+    {
+      "date": "2026-11-12",
+      "text": "BINUH's Q3 2026 report documented at least 1,167 killed and 459 injured nationwide; extrajudicial executions involving the Haitian National Police rose to 44 cases (from 14 the prior quarter) and kidnappings to 137 (from 81). Named incidents included a beheading of 19 people in Cite Soleil, two Kenscoff attacks killing 105, and 32 forcibly-recruited boys killed in Gressier."
+    },
     {
       "date": "2026-11-08",
       "text": "IOM's spontaneous-sites tracking report found the number of spontaneous displacement sites nationwide fell from 236 to 222 between July and September 2026, even as the population sheltering in them rose 2%, from 220,248 to 224,050, over the same period."
@@ -344,7 +356,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 28 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 29 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -3,7 +3,7 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-11-14",
+      "retrieved_date": "2026-11-17",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
       "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km. Re-checked 4 November 2026: the report page is unchanged, still showing episode 1 as the latest with no updated exposure, casualty or displacement figures; dromic.dswd.gov.ph returned HTTP 503 and PHIVOLCS's own site (phivolcs.dost.gov.ph) carried no Kanlaon-specific bulletin, so no newer DSWD/PHIVOLCS report could be checked for this eruption.",
@@ -27,19 +27,19 @@
     },
     {
       "id": "claim-4",
-      "retrieved_date": "2026-11-14",
+      "retrieved_date": "2026-11-17",
       "source_name": "PHIVOLCS",
       "source_url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/activity-kvo?bid=15141&lang=en",
-      "text": "PHIVOLCS's Kanlaon bulletin dated 14 November 2026 maintains Alert Level 2 (increased unrest). Its 24-hour observation window ending at midnight on 14 November records 1 volcanic earthquake (insufficient data to locate); sulfur dioxide flux was 2,432 tonnes/day measured on 13 November, up from 1,217 tonnes/day on 5 November. The bulletin prohibits entry into the 4km-radius Permanent Danger Zone, reports no change to that zone, and warns against aircraft flying close to the volcano. These are dated unrest observations and safety recommendations, not evidence of continuous eruption since October.",
+      "text": "PHIVOLCS's Kanlaon bulletin dated 14 November 2026 maintains Alert Level 2 (increased unrest). Its 24-hour observation window ending at midnight on 14 November records 1 volcanic earthquake (insufficient data to locate); sulfur dioxide flux was 2,432 tonnes/day measured on 13 November, up from 1,217 tonnes/day on 5 November. The bulletin prohibits entry into the 4km-radius Permanent Danger Zone, reports no change to that zone, and warns against aircraft flying close to the volcano. These are dated unrest observations and safety recommendations, not evidence of continuous eruption since October. Re-checked 17 November 2026 via the same PHIVOLCS wovodat bulletin page and GDACS's event report: both remain unchanged (no newer bulletin posted, still Alert Level 2, GDACS still Orange/episode 1); dromic.dswd.gov.ph again returned HTTP 503.",
       "verification_status": "verified"
     }
   ],
-  "description": "Mount Kanlaon on Negros Island, Philippines, erupted on 10 October 2026, prompting a GDACS Orange alert for potential humanitarian impact. PHIVOLCS's 14 November bulletin maintains Alert Level 2 for increased unrest and the 4km Permanent Danger Zone. GDACS's October event report estimates about 870,000 people within 30km and 10.79 million within 100km; these are exposure estimates, not counts of people displaced. October civil-defense displacement figures remain unverified in this record.",
+  "description": "Mount Kanlaon on Negros Island, Philippines, erupted on 10 October 2026, prompting a GDACS Orange alert for potential humanitarian impact. PHIVOLCS's 14 November bulletin, still the latest available as of 17 November, maintains Alert Level 2 for increased unrest and the 4km Permanent Danger Zone. GDACS's October event report estimates about 870,000 people within 30km and 10.79 million within 100km; these are exposure estimates, not counts of people displaced. October civil-defense displacement figures remain unverified in this record.",
   "event": {
     "impact": {
       "deaths": null,
       "displaced": null,
-      "summary": "GDACS's October event report estimates about 870,000 people within 30km and 10.79 million within 100km. Verified casualty and displacement totals for the October eruption are not established in the cited evidence. PHIVOLCS's 14 November bulletin recorded 1 volcanic earthquake in the preceding 24 hours and SO2 flux of 2,432 tonnes/day measured on 13 November, up from 1,217 tonnes/day on 5 November, with no change to the 4km Permanent Danger Zone."
+      "summary": "GDACS's October event report estimates about 870,000 people within 30km and 10.79 million within 100km. Verified casualty and displacement totals for the October eruption are not established in the cited evidence. PHIVOLCS's 14 November bulletin, still the latest available as of 17 November, recorded 1 volcanic earthquake in the preceding 24 hours and SO2 flux of 2,432 tonnes/day measured on 13 November, up from 1,217 tonnes/day on 5 November, with no change to the 4km Permanent Danger Zone."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
     "location": {
@@ -53,18 +53,18 @@
     "status": "ongoing"
   },
   "id": "philippines-kanlaon-volcano-eruption-2026",
-  "last_updated": "2026-11-14T09:16:22Z",
+  "last_updated": "2026-11-17T09:19:28Z",
   "name": "Kanlaon Volcano Eruption, Negros Island, Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-14T09:16:22Z",
+        "at": "2026-11-17T09:19:28Z",
         "layer": "verify",
-        "run_id": "2026-11-14T09-16-22Z-667222"
+        "run_id": "2026-11-17T09-19-28Z-6cccde"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-14T09-16-22Z-667222"
+    "last_run_id": "2026-11-17T09-19-28Z-6cccde"
   },
   "schema_version": "1.0",
   "sort_keys": {

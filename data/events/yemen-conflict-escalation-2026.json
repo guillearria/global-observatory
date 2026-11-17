@@ -211,7 +211,7 @@
     },
     {
       "id": "claim-39",
-      "retrieved_date": "2026-11-14",
+      "retrieved_date": "2026-11-17",
       "source_name": "UNHCR",
       "source_url": "https://data.unhcr.org/en/country/yem",
       "text": "Re-checked 14 November 2026: emro.who.int (source of this record's WHO Conflict Escalation Situation Report series, through #9) returned HTTP 502 across multiple attempts, and reliefweb.int returned HTTP 403, both unreachable. News coverage citing an unnamed WHO 'latest situation report' put cumulative casualties at 1,771 deaths and 7,959 injured as of 30 October 2026, but this figure could not be confirmed against the primary WHO document and is not treated as verified here. As an alternate allowlisted check, UNHCR's Yemen operational data portal was fetched and still shows 320,849 people newly displaced since 1 August 2026 (page last updated 7 November 2026), unchanged from the prior read and consistent with IOM DTM Update #18's 10 November count already on file; no new confirmed casualty or displacement figure beyond what is already on file was found via any accessible allowlisted source.",
@@ -223,6 +223,14 @@
       "source_name": "United Nations",
       "source_url": "https://press.un.org/en/2026/sc16449.doc.htm",
       "text": "UN Security Council meeting coverage, SC/16449, 10219th Meeting (10 September 2026): the Houthis 'have gained control of the port city of Mokha, which lies roughly 75 kilometres from the Bab el-Mandeb strait,' giving them a direct presence on the approaches to one of the world's most vital shipping straits; Special Envoy Hans Grundberg told the Council that the period of relative calm prevailing in the country over the last four years -- since the 2022 UN-mediated truce -- has ended. Latvia's representative told the Council that 'in just 72 hours since the escalation of hostilities on 3 September, approximately 18,500 people have reportedly been displaced along Yemen's west coast, with displacement continuing to rise by the hour.'",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-40",
+      "retrieved_date": "2026-11-17",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/datasets/yemen-displacement-caused-escalation-western-yemen-update-dataset-15-november-2026",
+      "text": "IOM's Displacement Tracking Matrix 'Yemen - Displacement Caused by Escalation in Western Yemen - Update Dataset (15 November 2026)' records that, as of 14 November 2026, IOM Yemen DTM recorded 14,196 additional individual IDPs compared with the flash update of 11 November, bringing displacement between 1 August and 14 November 2026 to about 347,321 individuals (57,880 households), and the cumulative total since the escalation began in June 2026 to 348,377 individuals (58,056 households). Ta'iz remains the largest governorate with 143,130 (41%), followed by Lahj (91,314, 26%) and Aden (70,404, 20%).",
       "verification_status": "verified"
     },
     {
@@ -266,12 +274,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Houthi (DFA) forces have encircled Taiz and expanded fighting into Marib and Shabwah governorates amid Yemen's conflict escalation that began in June 2026. WHO's Situation Report #9 (20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths), and IOM's DTM Update #18 (11 November) records 333,125 people displaced since 1 August, with Ta'izz the largest governorate (42%). The crisis has deepened for women and children in Taiz: UNFPA reports more than 13,000 pregnant women in the area, about 6,400 of them displaced, with roughly 1,500 obstetric emergencies expected, as fuel shortages have cut daily deliveries and functioning incubators at Taiz's main maternity hospital and left only five of 27 designated maternal and newborn hospitals even partially functioning. Separately, the UN human rights chief demanded an investigation after a UN staff member held in Houthi detention since 2024 died in custody, the second such death reported; 71 UN personnel remain detained by the Houthis. Taiz city's hospital system remains near breaking point, with its main supply road cut, and in Marib only 6 of 31 mobile medical teams remain operational amid funding cuts.",
+  "description": "Houthi (DFA) forces have encircled Taiz and expanded fighting into Marib and Shabwah governorates amid Yemen's conflict escalation that began in June 2026. WHO's Situation Report #9 (20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths), and IOM's DTM dataset (15 November) records about 347,321 people displaced since 1 August, with Ta'izz the largest governorate (41%). The crisis has deepened for women and children in Taiz: UNFPA reports more than 13,000 pregnant women in the area, about 6,400 of them displaced, with roughly 1,500 obstetric emergencies expected, as fuel shortages have cut daily deliveries and functioning incubators at Taiz's main maternity hospital and left only five of 27 designated maternal and newborn hospitals even partially functioning. Separately, the UN human rights chief demanded an investigation after a UN staff member held in Houthi detention since 2024 died in custody, the second such death reported; 71 UN personnel remain detained by the Houthis. Taiz city's hospital system remains near breaking point, with its main supply road cut, and in Marib only 6 of 31 mobile medical teams remain operational amid funding cuts.",
   "event": {
     "impact": {
       "deaths": 1677,
-      "displaced": 333125,
-      "summary": "WHO's Conflict Escalation Situation Report #9 (28 October 2026, period 20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths) as of 25 October; Marib is now the most lethal front, and the Shabwah Health Office revised the Al-Alam Camp missile-strike toll upward to 235 casualties (69 deaths). IOM's DTM Update #18 (11 November) puts cumulative displacement since 1 August 2026 at about 333,125 people, up from the 320,849 UNHCR recorded as of 7 November; Ta'izz remains the largest governorate (42%). UNFPA reports the crisis is falling hardest on women and children in Taiz: more than 13,000 pregnant women are in the area (about 6,400 displaced), roughly 1,500 obstetric emergencies are expected, and only 5 of 27 designated maternal/newborn hospitals in Taiz remain even partially functioning amid fuel shortages. The UN human rights chief separately demanded an investigation after a UN staff member held in Houthi detention since 2024 died in custody -- the second such death -- with 71 UN personnel still detained. Taiz's hospital system is near breaking point, while in Marib only 6 of 31 mobile medical teams remain operational."
+      "displaced": 347321,
+      "summary": "WHO's Conflict Escalation Situation Report #9 (28 October 2026, period 20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths) as of 25 October; WHO's emro.who.int sitrep series has been unreachable (HTTP 502) on every check since 14 November, so this figure remains the latest confirmed one. IOM's DTM dataset (15 November) puts cumulative displacement since 1 August 2026 at about 347,321 people, up from the 333,125 recorded as of 10 November; Ta'izz remains the largest governorate (41%). UNFPA reports the crisis is falling hardest on women and children in Taiz: more than 13,000 pregnant women are in the area (about 6,400 displaced), roughly 1,500 obstetric emergencies are expected, and only 5 of 27 designated maternal/newborn hospitals in Taiz remain even partially functioning amid fuel shortages. The UN human rights chief separately demanded an investigation after a UN staff member held in Houthi detention since 2024 died in custody -- the second such death -- with 71 UN personnel still detained. Taiz's hospital system is near breaking point, while in Marib only 6 of 31 mobile medical teams remain operational."
     },
     "live_source_url": "https://www.emro.who.int/yemen/information-resources/yemen-conflict-escalation-situation-report.html",
     "location": {
@@ -285,18 +293,18 @@
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-11-14T09:26:03Z",
+  "last_updated": "2026-11-17T09:22:51Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-14T09:26:03Z",
+        "at": "2026-11-17T09:22:51Z",
         "layer": "verify",
-        "run_id": "2026-11-14T09-26-03Z-7106ea"
+        "run_id": "2026-11-17T09-22-51Z-266fcd"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-14T09-26-03Z-7106ea"
+    "last_run_id": "2026-11-17T09-22-51Z-266fcd"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -306,8 +314,8 @@
   },
   "updates": [
     {
-      "date": "2026-11-12",
-      "text": "IOM's DTM Update #18 (11 November) recorded cumulative displacement since 1 August rising to about 333,125 people (55,514 households) as of 10 November, up from the 320,849 UNHCR's data portal had recorded as of 7 November; cumulative displacement since the escalation began in June rose to 334,181. Ta'izz remains the largest governorate (42%)."
+      "date": "2026-11-14",
+      "text": "IOM's DTM dataset (15 November) recorded displacement since 1 August rising to about 347,321 people (57,880 households) as of 14 November, up from 333,125 as of 10 November; cumulative displacement since the escalation began in June rose to 348,377. Ta'izz remains the largest governorate (41%)."
     },
     {
       "date": "2026-11-03",
@@ -396,7 +404,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 33 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 34 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

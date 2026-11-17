@@ -48,6 +48,14 @@
       "source_url": "https://www.data.jma.go.jp/vois/data/report/volinfo/VJ20261016100000_108.html",
       "text": "JMA's Tokachidake warning issued 16 October 2026 at 10:00 JST lowered the alert from Level 3 to Level 2 and named Biei, Kamifurano and Shintoku as the municipalities requiring crater-area precautions, including entry restrictions. It removed Furano and Minami-Furano from the municipalities requiring special precautions.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-7",
+      "retrieved_date": "2026-11-17",
+      "source_name": "Japan Meteorological Agency (JMA)",
+      "source_url": "https://www.data.jma.go.jp/vois/data/report/volinfo/VK20261113160000_108.html",
+      "text": "JMA's Tokachidake Explanatory Information Bulletin No. 36, issued 13 November 2026 at 16:00 JST (Sapporo Regional Meteorological Observatory), continues Alert Level 2 (crater-vicinity restriction); an eruption could still affect the area within approximately 1.5 km of crater 62-2. Entry restrictions remain in Biei, Kamifurano and Shintoku. Seismicity near crater 62-2 has occasionally intensified since April, sulfur dioxide emissions remain elevated since April, and inflation-related ground deformation has continued since March. Thermal activity remains high, with plume and fumarole heights increasing and the Furikozawa fumarole group growing hotter.",
+      "verification_status": "verified"
     }
   ],
   "description": "Volcanic unrest at Mount Tokachidake in Hokkaido prompted a Level 3 alert on 12 September 2026. JMA lowered the alert to Level 2 (crater-vicinity restriction) on 16 October and maintained it in its 6 November bulletin, warning that an eruption could affect roughly 1.5 km around crater 62-2. Crater-area precautions remain in Biei, Kamifurano and Shintoku. Elevated thermal activity, increased sulfur dioxide emissions and ground deformation continue.",
@@ -69,18 +77,18 @@
     "status": "ongoing"
   },
   "id": "japan-volcano-tokachidake-2026",
-  "last_updated": "2026-11-15T09:22:34Z",
+  "last_updated": "2026-11-17T09:21:56Z",
   "name": "Volcanic Unrest — Mount Tokachidake, Japan",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-15T09:22:34Z",
+        "at": "2026-11-17T09:21:56Z",
         "layer": "verify",
-        "run_id": "2026-11-15T09-22-34Z-56e708"
+        "run_id": "2026-11-17T09-21-56Z-4713dd"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-15T09-22-34Z-56e708"
+    "last_run_id": "2026-11-17T09-21-56Z-4713dd"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -108,7 +116,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

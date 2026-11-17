@@ -122,6 +122,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-27",
+      "retrieved_date": "2026-11-17",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/story/2026/11/1168771",
+      "text": "UN News (10 November 2026, photo feature credited UNFPA/Sufian Abdulmouty): El Obeid Maternity Hospital in North Kordofan State has come under increasing pressure as tens of thousands of people, many in dire need of healthcare, flee the violence engulfing neighbouring South Kordofan State. The hospital faces equipment shortages, with only 4 of 7 operating rooms functional, and limited anesthesia capacity, leading to maternal deaths. The article separately notes UN Human Rights Council investigators say civilians in El Obeid live in constant fear of drone attack.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-08-30",
       "source_name": "ReliefWeb",
@@ -181,18 +189,18 @@
     "status": "ongoing"
   },
   "id": "el-obeid-siege-sudan-2026",
-  "last_updated": "2026-11-14T09:17:59Z",
+  "last_updated": "2026-11-17T09:21:56Z",
   "name": "Siege of El Obeid — North Kordofan, Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-14T09:17:59Z",
+        "at": "2026-11-17T09:21:56Z",
         "layer": "verify",
-        "run_id": "2026-11-14T09-17-59Z-6bf796"
+        "run_id": "2026-11-17T09-21-56Z-f39ac9"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-14T09-17-59Z-6bf796"
+    "last_run_id": "2026-11-17T09-21-56Z-f39ac9"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -201,6 +209,10 @@
     "recency_rank": 739782
   },
   "updates": [
+    {
+      "date": "2026-11-10",
+      "text": "UN News reported El Obeid Maternity Hospital in North Kordofan has come under increasing pressure as tens of thousands flee violence in neighbouring South Kordofan; the hospital has only 4 of 7 operating rooms functional and limited anesthesia capacity, which has led to maternal deaths."
+    },
     {
       "date": "2026-10-28",
       "text": "The UN Fact-Finding Mission for Sudan said RSF drone strikes on El Obeid, still damaging homes, schools, displacement sites and water/power systems, may amount to war crimes, and only around 30% of hospitals remain operational. It also said SAF security cells are holding roughly 2,000 detainees in El Obeid Central Prison, built for about 450, amid reports of torture."
@@ -256,7 +268,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 20 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 21 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
