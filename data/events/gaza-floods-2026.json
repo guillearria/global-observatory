@@ -1,0 +1,74 @@
+{
+  "category": "flood",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-11-18",
+      "source_name": "OCHA oPt",
+      "source_url": "https://ochaopt.org/content/humanitarian-situation-report-heavy-rains-gaza-strip-8-november-2026",
+      "text": "OCHA oPt's Humanitarian Situation Report (8 November 2026) on heavy rain in the Gaza Strip: a sandy hill collapsed onto tents at Al Berka Reservoir, west of Deir Al Balah, killing five displaced people (three children and two women) and injuring one, per Civil Defense; an infant also reportedly drowned at a displacement site. The Site Management Cluster recorded over 26,000 households affected (as of midnight 7 November), including over 6,000 family shelters destroyed and 17,400 damaged, with floodwater reaching 1.5 metres in some locations.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-11-18",
+      "source_name": "OCHA oPt",
+      "source_url": "https://ochaopt.org/content/humanitarian-situation-report-13-november-2026",
+      "text": "OCHA oPt's Humanitarian Situation Report (13 November 2026): the Site Management Cluster's alerts (473 as of 9 November) indicate over 46,000 estimated households (226,000 people) may have been affected by the rain that began 6 November, with over 5,000 of those households sleeping outside a shelter; more than 40,000 shelters were damaged, including over 9,000 destroyed beyond repair, alongside 960 damaged latrines and nine damaged health facilities.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Heavy rain and flash flooding struck the Gaza Strip beginning 6 November 2026, flooding displacement camps, collapsing shelters and disrupting services already strained by the ongoing war. A sandy hill collapsed onto tents at Al Berka Reservoir near Deir al-Balah, killing five displaced people and injuring one, and an infant reportedly drowned at another displacement site. UN OCHA's Site Management Cluster recorded over 46,000 households (about 226,000 people) affected as of 9 November, with more than 40,000 shelters damaged -- including over 9,000 destroyed beyond repair -- alongside damaged latrines, health facilities and learning spaces. As of 13 November, humanitarian partners continue distributing shelter items and pumping floodwater, hampered by funding shortfalls and restrictions on importing heavy machinery and dewatering equipment.",
+  "event": {
+    "impact": {
+      "deaths": 6,
+      "displaced": null,
+      "summary": "OCHA oPt reports five deaths and one injury after a sandy hill collapsed onto tents at Al Berka Reservoir near Deir al-Balah, plus one infant who reportedly drowned at a displacement site. As of 9 November, the Site Management Cluster estimated over 46,000 households (about 226,000 people) affected, with more than 40,000 shelters damaged including over 9,000 destroyed, 960 latrines damaged and nine health facilities affected."
+    },
+    "live_source_url": "https://www.ochaopt.org/page/updates",
+    "location": {
+      "country": "Palestine",
+      "lat": 31.42,
+      "lon": 34.37,
+      "region": "Gaza Strip (Gaza City, North Gaza, Deir al-Balah)"
+    },
+    "occurrence_date": "2026-11-06",
+    "scale": "Winter storm flooding; ~226,000 people affected",
+    "status": "ongoing"
+  },
+  "id": "gaza-floods-2026",
+  "last_updated": "2026-11-18T09:18:02Z",
+  "name": "Heavy Rain & Flooding — Gaza Strip",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-11-18T09:18:02Z",
+        "layer": "verify",
+        "run_id": "2026-11-18T09-18-02Z-93d0c3"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-11-18T09-18-02Z-93d0c3"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7399261.0,
+    "impact_rank": 1,
+    "recency_rank": 739926
+  },
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "text": "OCHA's Site Management Cluster raised its estimate to over 46,000 households (about 226,000 people) affected and more than 40,000 shelters damaged, including over 9,000 destroyed beyond repair, up from roughly 26,000 households as of 7 November."
+    },
+    {
+      "date": "2026-11-07",
+      "text": "A sandy hill collapsed onto tents at Al Berka Reservoir near Deir al-Balah, killing five displaced people and injuring one; an infant was also reported to have drowned at a displacement site, per Gaza Civil Defense."
+    }
+  ],
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
