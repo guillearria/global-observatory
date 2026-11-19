@@ -59,7 +59,7 @@
     },
     {
       "id": "claim-22",
-      "retrieved_date": "2026-11-17",
+      "retrieved_date": "2026-11-19",
       "source_name": "WHO",
       "source_url": "https://www.who.int/countries/sdn",
       "text": "Re-checked 17 November 2026: emro.who.int (source of this record's WHO Sudan Health Spotlight series) returned HTTP 502 across multiple attempts (country index, publications listing, and the August/September/October Spotlight PDF URLs), reliefweb.int returned HTTP 403, and ecdc.europa.eu returned HTTP 403 -- all unreachable. As alternate allowlisted checks, WHO's main Sudan country page (who.int/countries/sdn) and WHO's global Disease Outbreak News listing were fetched successfully and carry no Sudan cholera item newer than the 24 September 2026 press release already on file. No new confirmed cholera case or death figure for Sudan was found via any accessible allowlisted source.",
@@ -117,18 +117,18 @@
     "status": "ongoing"
   },
   "id": "sudan-cholera-outbreak-2026",
-  "last_updated": "2026-11-17T09:21:56Z",
+  "last_updated": "2026-11-19T09:19:39Z",
   "name": "Cholera Outbreak — Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-17T09:21:56Z",
+        "at": "2026-11-19T09:19:39Z",
         "layer": "verify",
-        "run_id": "2026-11-17T09-21-56Z-5e0474"
+        "run_id": "2026-11-19T09-19-39Z-f1a5e7"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-17T09-21-56Z-5e0474"
+    "last_run_id": "2026-11-19T09-19-39Z-f1a5e7"
   },
   "schema_version": "1.0",
   "sort_keys": {

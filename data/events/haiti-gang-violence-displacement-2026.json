@@ -210,6 +210,22 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-35",
+      "retrieved_date": "2026-11-19",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-1131-displacement-following-armed-violence-commune-croix-des",
+      "text": "IOM DTM 'Haiti -- Emergency Tracking Tool 113.1 -- Displacement following armed violence in the commune of Croix-des-Bouquets - Department of West (18 October-13 November 2026)' (published 17 November 2026) revises the toll for that commune sharply upward: approximately 7,010 people (1,710 households) were displaced as a result of these incidents, up from about 1,937 people (474 households) recorded in ETT 113.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-36",
+      "retrieved_date": "2026-11-19",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-115-displacement-following-armed-violence-commune-saint-marc",
+      "text": "IOM DTM 'Haiti -- Emergency Tracking Tool 115 -- Displacement following armed violence in the commune of Saint-Marc - Department of Artibonite (9-16 November 2026)' (published 17 November 2026) recorded approximately 617 people (145 households) displaced, primarily affecting the locality of Pierre Payen in the 1st communal section of Deluge; all displaced people sheltered with host families in Bois Neuf, 2nd communal section of Saint-Marc.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-6",
       "retrieved_date": "2026-08-08",
       "source_name": "ReliefWeb",
@@ -239,7 +255,7 @@
     "impact": {
       "deaths": 3000,
       "displaced": 1490000,
-      "summary": "IOM's DTM Round 14 report puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite recording the largest departmental increase (+16%). UN High Commissioner Volker Turk told the Human Rights Council on 2 October 2026 that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with more than 230 kidnapped and at least 1,000 women and girls raped. Further armed-violence displacements have followed, most recently ETT 114 (6 November), recording about 5,901 people displaced from Arcahaie and Cabaret, West department, since 30 October; nationwide deaths are put at 3,000+ so far in 2026, and the Security Council renewed the Gang Suppression Force's mandate to 31 March 2027. Separately, IOM's spontaneous-sites tracking (published 8 November) found the number of such sites nationwide fell from 236 to 222 between July and September, even as the population sheltering in them rose 2% to about 224,050."
+      "summary": "IOM's DTM Round 14 report puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite recording the largest departmental increase (+16%). UN High Commissioner Volker Turk told the Human Rights Council on 2 October 2026 that at least 5,700 people have been killed or injured by gangs or counter-gang operations since 1 January, with more than 230 kidnapped and at least 1,000 women and girls raped. Further armed-violence displacements have followed, most recently a sharp upward revision to about 7,010 people in Croix-des-Bouquets (ETT 113.1, 17 November, up from 1,937) and a new displacement of about 617 people in Saint-Marc, Artibonite (ETT 115, 17 November); nationwide deaths are put at 3,000+ so far in 2026, and the Security Council renewed the Gang Suppression Force's mandate to 31 March 2027. Separately, IOM's spontaneous-sites tracking (published 8 November) found the number of such sites nationwide fell from 236 to 222 between July and September, even as the population sheltering in them rose 2% to about 224,050."
     },
     "live_source_url": "https://dtm.iom.int/haiti",
     "location": {
@@ -253,18 +269,18 @@
     "status": "ongoing"
   },
   "id": "haiti-gang-violence-displacement-2026",
-  "last_updated": "2026-11-17T09:23:16Z",
+  "last_updated": "2026-11-19T09:19:28Z",
   "name": "Gang Violence Displacement Crisis — Haiti",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-17T09:23:16Z",
+        "at": "2026-11-19T09:19:28Z",
         "layer": "verify",
-        "run_id": "2026-11-17T09-23-16Z-9d6f8c"
+        "run_id": "2026-11-19T09-19-28Z-ab3ff9"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-17T09-23-16Z-9d6f8c"
+    "last_run_id": "2026-11-19T09-19-28Z-ab3ff9"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -273,6 +289,10 @@
     "recency_rank": 739816
   },
   "updates": [
+    {
+      "date": "2026-11-17",
+      "text": "IOM's Emergency Tracking Tool 113.1 revised the Croix-des-Bouquets displacement toll sharply upward to approximately 7,010 people (1,710 households) for 18 October-13 November, up from 1,937 in ETT 113; separately, ETT 115 recorded about 617 people displaced in Saint-Marc, Artibonite (9-16 November), primarily from Pierre Payen."
+    },
     {
       "date": "2026-11-12",
       "text": "BINUH's Q3 2026 report documented at least 1,167 killed and 459 injured nationwide; extrajudicial executions involving the Haitian National Police rose to 44 cases (from 14 the prior quarter) and kidnappings to 137 (from 81). Named incidents included a beheading of 19 people in Cite Soleil, two Kenscoff attacks killing 105, and 32 forcibly-recruited boys killed in Gressier."
@@ -356,7 +376,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 29 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 31 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
