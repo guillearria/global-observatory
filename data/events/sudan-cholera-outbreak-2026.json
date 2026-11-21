@@ -66,6 +66,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-23",
+      "retrieved_date": "2026-11-21",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/countries/sdn",
+      "text": "Re-checked 21 November 2026: emro.who.int could not be resolved/reached again, reliefweb.int returned HTTP 403, and ecdc.europa.eu's cholera-monthly page returned HTTP 403 -- all unreachable. WHO's main Sudan country page (who.int/countries/sdn) was fetched successfully and still carries no Sudan cholera item newer than the 24 September 2026 press release already on file. No new confirmed cholera case or death figure for Sudan was found via any accessible allowlisted source.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-07-25",
       "source_name": "ReliefWeb",
@@ -117,18 +125,18 @@
     "status": "ongoing"
   },
   "id": "sudan-cholera-outbreak-2026",
-  "last_updated": "2026-11-19T09:19:39Z",
+  "last_updated": "2026-11-21T09:22:19Z",
   "name": "Cholera Outbreak — Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-19T09:19:39Z",
+        "at": "2026-11-21T09:22:19Z",
         "layer": "verify",
-        "run_id": "2026-11-19T09-19-39Z-f1a5e7"
+        "run_id": "2026-11-21T09-22-19Z-91f53a"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-19T09-19-39Z-f1a5e7"
+    "last_run_id": "2026-11-21T09-22-19Z-91f53a"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -160,7 +168,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -34,6 +34,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-13",
+      "retrieved_date": "2026-11-21",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/news/region/africa",
+      "text": "Re-checked 21 November 2026: UN News's Africa region listing carries no Sudan drone-strike story newer than the 10 November 2026 UNICEF briefing already on file (the intervening items -- 12 November on WFP funding cuts and earlier -- are not drone-strike-specific). Widely reported press coverage (not independently confirmed here against an allowlisted primary document) describes a 17 November 2026 UN Human Rights Office report putting verified civilian deaths in Sudan's war at 2,230 for the year, more than 1,630 of them from drone strikes; ohchr.org, the report's primary publisher, returned HTTP 403 Forbidden on both its homepage and the cited press-release URL across repeated attempts and could not be fetched, so that figure is not added as a claim here.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-10-26",
       "source_name": "United Nations",
@@ -117,18 +125,18 @@
     "status": "ongoing"
   },
   "id": "sudan-drone-strikes-kordofan-abyei-2026",
-  "last_updated": "2026-11-19T09:19:39Z",
+  "last_updated": "2026-11-21T09:22:20Z",
   "name": "Drone-Strike Escalation — West Kordofan, Blue Nile & Abyei, Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-19T09:19:39Z",
+        "at": "2026-11-21T09:22:20Z",
         "layer": "verify",
-        "run_id": "2026-11-19T09-19-39Z-ba3f8d"
+        "run_id": "2026-11-21T09-22-20Z-fff324"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-19T09-19-39Z-ba3f8d"
+    "last_run_id": "2026-11-21T09-22-20Z-fff324"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -160,7 +168,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
