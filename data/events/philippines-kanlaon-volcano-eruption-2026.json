@@ -3,10 +3,10 @@
   "claims": [
     {
       "id": "claim-1",
-      "retrieved_date": "2026-11-19",
+      "retrieved_date": "2026-11-21",
       "source_name": "GDACS",
       "source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
-      "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km. Re-checked 4 November 2026: the report page is unchanged, still showing episode 1 as the latest with no updated exposure, casualty or displacement figures; dromic.dswd.gov.ph returned HTTP 503 and PHIVOLCS's own site (phivolcs.dost.gov.ph) carried no Kanlaon-specific bulletin, so no newer DSWD/PHIVOLCS report could be checked for this eruption.",
+      "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km. Re-checked 21 November 2026: the report page is unchanged, still showing episode 1 as the latest with no updated exposure, casualty or displacement figures; both dromic.dswd.gov.ph and PHIVOLCS's wovodat.phivolcs.dost.gov.ph bulletin host again returned HTTP 503, so no newer DSWD/PHIVOLCS report could be checked for this eruption.",
       "verification_status": "verified"
     },
     {
@@ -53,18 +53,18 @@
     "status": "ongoing"
   },
   "id": "philippines-kanlaon-volcano-eruption-2026",
-  "last_updated": "2026-11-19T09:18:08Z",
+  "last_updated": "2026-11-21T09:19:25Z",
   "name": "Kanlaon Volcano Eruption, Negros Island, Philippines",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-19T09:18:08Z",
+        "at": "2026-11-21T09:19:25Z",
         "layer": "verify",
-        "run_id": "2026-11-19T09-18-08Z-4393ed"
+        "run_id": "2026-11-21T09-19-25Z-9c5cc2"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-19T09-18-08Z-4393ed"
+    "last_run_id": "2026-11-21T09-19-25Z-9c5cc2"
   },
   "schema_version": "1.0",
   "sort_keys": {

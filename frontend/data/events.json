@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T09:18:58Z",
+  "last_updated": "2026-11-21T09:20:04Z",
   "published": [
     {
       "category": "flood",
@@ -5138,7 +5138,7 @@
         },
         {
           "id": "claim-19",
-          "retrieved_date": "2026-11-19",
+          "retrieved_date": "2026-11-21",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
           "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 636,400 Iranian nationals who have crossed into neighbouring countries (31 October 2026, up from 633,500), with 534,800 having crossed back into Iran (unchanged, 28 September 2026); 379,500 Lebanese refugees now in Syria (31 October 2026, up from 325,400) and 304,520 new IDPs within Lebanon (31 October 2026, down from 329,686) -- a combined 1,320,420 people displaced or newly refugees across Iran and Lebanon -- plus 1,107,600 Afghan returnee movements and 1,233,300 Syrian returnee movements (both 31 October 2026), a combined 2,340,900, up from about 2.1 million.",
@@ -5228,23 +5228,18 @@
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-11-19T09:18:14Z",
+      "last_updated": "2026-11-21T09:19:46Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-17T09:20:07Z",
+            "at": "2026-11-21T09:19:46Z",
             "layer": "verify",
-            "run_id": "2026-11-17T09-20-07Z-6e6146"
-          },
-          {
-            "at": "2026-11-19T09:18:14Z",
-            "layer": "verify",
-            "run_id": "2026-11-19T09-18-14Z-e3b420"
+            "run_id": "2026-11-21T09-19-46Z-54334f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-18-14Z-e3b420"
+        "last_run_id": "2026-11-21T09-19-46Z-54334f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7676,10 +7671,10 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-19",
+          "retrieved_date": "2026-11-21",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
-          "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km. Re-checked 4 November 2026: the report page is unchanged, still showing episode 1 as the latest with no updated exposure, casualty or displacement figures; dromic.dswd.gov.ph returned HTTP 503 and PHIVOLCS's own site (phivolcs.dost.gov.ph) carried no Kanlaon-specific bulletin, so no newer DSWD/PHIVOLCS report could be checked for this eruption.",
+          "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km. Re-checked 21 November 2026: the report page is unchanged, still showing episode 1 as the latest with no updated exposure, casualty or displacement figures; both dromic.dswd.gov.ph and PHIVOLCS's wovodat.phivolcs.dost.gov.ph bulletin host again returned HTTP 503, so no newer DSWD/PHIVOLCS report could be checked for this eruption.",
           "verification_status": "verified"
         },
         {
@@ -7726,18 +7721,18 @@
         "status": "ongoing"
       },
       "id": "philippines-kanlaon-volcano-eruption-2026",
-      "last_updated": "2026-11-19T09:18:08Z",
+      "last_updated": "2026-11-21T09:19:25Z",
       "name": "Kanlaon Volcano Eruption, Negros Island, Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-19T09:18:08Z",
+            "at": "2026-11-21T09:19:25Z",
             "layer": "verify",
-            "run_id": "2026-11-19T09-18-08Z-4393ed"
+            "run_id": "2026-11-21T09-19-25Z-9c5cc2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-18-08Z-4393ed"
+        "last_run_id": "2026-11-21T09-19-25Z-9c5cc2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -12385,6 +12380,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-34",
+          "retrieved_date": "2026-11-21",
+          "source_name": "OCHA oPt",
+          "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-18-november-2026",
+          "text": "OCHA's oPt Humanitarian Situation Report of 18 November 2026 (reporting period 10-16 November) records one Palestinian fatality in the West Bank: a 72-year-old woman shot and killed by a settler in Ein ad Duyuk at Tahta, Jericho, on 16 November. It also records 62 Palestinians injured (38 by settlers, 24 by Israeli forces; 48 of the injuries, 77%, occurred in settler attacks), 40 settler attacks causing casualties or property damage across 30 communities (below the 2026 weekly average of 53), and displacement of 68 people (nine households) by settler attacks and access restrictions plus 16 people from seven demolished structures in three incidents. It states more than 5,150 Palestinians have been displaced since January 2026 across settler violence/access restrictions (56%), demolitions (42%) and evictions (2%), averaging over 16 people per day.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-07-30",
           "source_name": "United Nations",
@@ -12409,14 +12412,14 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A surge in Israeli settler violence and military operations has made 2026 the deadliest and most attack-intensive year on record for the West Bank. At least 90 Palestinians and 4 Israelis have been killed since the year began, alongside weekly settler attacks and demolitions that OCHA tracks across hundreds of communities. OCHA's 13 November report recorded a 14-year-old boy shot and killed near Burqa, Nablus on 9 November -- the first fatality since the Hebron operation began -- plus 37 injured and 52 further settler attacks; October's settler-attack total was revised up to 467, still the highest monthly total since 2006, and an assessment found no damage to the 11 schools affected by the Hebron operation.",
+      "description": "A surge in Israeli settler violence and military operations has made 2026 the deadliest and most attack-intensive year on record for the West Bank. At least 91 Palestinians and 4 Israelis have been killed since the year began, alongside weekly settler attacks and demolitions that OCHA tracks across hundreds of communities. OCHA's 18 November report recorded a 72-year-old woman shot and killed by a settler in Ein ad Duyuk at Tahta, Jericho, on 16 November, plus 62 injured and 40 further settler attacks across 30 communities -- below the 2026 weekly average of 53. Cumulative 2026 displacement across demolitions, settler attacks and evictions has passed 5,150 people, averaging more than 16 per day.",
       "event": {
         "impact": {
-          "deaths": 90,
-          "displaced": 4943,
-          "summary": "OCHA's newest Humanitarian Situation Report (3-9 November, published 13 November) recorded the West Bank's first new Palestinian fatality since the Hebron operation began -- a 14-year-old boy shot near Burqa, Nablus, on 9 November -- alongside 37 injured (19 by settlers, 18 by Israeli forces) and 52 further settler attacks across 38 communities. October's settler-attack total was revised up to 467 -- still the highest monthly tally since OCHA began recording them in 2006. Demolitions displaced 150 more people and settler attacks/access restrictions displaced a further 65, pushing the tracked 2026 displacement total to about 4,943. An OCHA assessment found no damage to the 11 schools affected by the recent Hebron operation. The West Bank's 2026 cumulative toll otherwise holds at at least 90 Palestinians and 4 Israelis killed."
+          "deaths": 91,
+          "displaced": 5150,
+          "summary": "OCHA's newest Humanitarian Situation Report (10-16 November, published 18 November) recorded one new Palestinian fatality -- a 72-year-old woman shot and killed by a settler in Ein ad Duyuk at Tahta, Jericho, on 16 November -- raising the 2026 West Bank toll to at least 91 Palestinians (plus 4 Israelis) killed. The week also saw 62 Palestinians injured (38 by settlers, 24 by Israeli forces) and 40 settler attacks across 30 communities, below the 2026 weekly average of 53. Demolitions and settler attacks/access restrictions displaced a further 84 people, pushing cumulative 2026 West Bank displacement past 5,150 -- 56% from settler violence/access restrictions, 42% from demolitions, 2% from evictions."
         },
-        "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-13-november-2026",
+        "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-18-november-2026",
         "location": {
           "country": "Palestine",
           "lat": 32.2211,
@@ -12428,23 +12431,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-11-19T09:18:14Z",
+      "last_updated": "2026-11-21T09:20:04Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-17T09:20:07Z",
+            "at": "2026-11-21T09:20:04Z",
             "layer": "verify",
-            "run_id": "2026-11-17T09-20-07Z-bafeb7"
-          },
-          {
-            "at": "2026-11-19T09:18:14Z",
-            "layer": "verify",
-            "run_id": "2026-11-19T09-18-14Z-3afec5"
+            "run_id": "2026-11-21T09-20-04Z-5d2c5c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-18-14Z-3afec5"
+        "last_run_id": "2026-11-21T09-20-04Z-5d2c5c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -12453,6 +12451,10 @@
         "recency_rank": 739821
       },
       "updates": [
+        {
+          "date": "2026-11-18",
+          "text": "OCHA's 18 November report (10-16 Nov) recorded a 72-year-old woman shot and killed by a settler in Ein ad Duyuk at Tahta, Jericho on 16 November, raising the 2026 toll to at least 91 Palestinians killed; 62 injured and 40 settler attacks across 30 communities followed. 2026 displacement passed 5,150, with settler violence/access restrictions now the largest share (56%)."
+        },
         {
           "date": "2026-11-14",
           "text": "OCHA's 13 November report (3-9 Nov) recorded a 14-year-old boy shot and killed near Burqa, Nablus on 9 November -- the first West Bank fatality since the Hebron operation began -- raising the 2026 toll to 90; 37 injured and 52 further settler attacks were documented, October's attack total was revised up to 467, and an assessment found no damage to the 11 schools affected by the Hebron operation."
@@ -12532,7 +12534,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 25 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 26 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -12773,7 +12775,7 @@
         },
         {
           "id": "claim-41",
-          "retrieved_date": "2026-11-19",
+          "retrieved_date": "2026-11-21",
           "source_name": "IOM Displacement Tracking Matrix (DTM)",
           "source_url": "https://dtm.iom.int/reports/yemen-displacement-caused-escalation-western-yemen-update-19-18-november-2026",
           "text": "IOM's Displacement Tracking Matrix 'Yemen - Displacement Caused by Escalation in Western Yemen - Update #19' (published 18 November 2026) records cumulative displacement since the escalation began in June 2026 at 357,658 individuals (59,602 households) as of 17 November 2026, up from 348,377 as of 14 November; displacement for 1 August-17 November totals approximately 356,602 individuals (59,426 households). Ta'iz remains the largest governorate with 145,344 (41%), followed by Lahj (95,580, 27%) and Aden (71,706, 20%).",
@@ -12781,7 +12783,7 @@
         },
         {
           "id": "claim-42",
-          "retrieved_date": "2026-11-19",
+          "retrieved_date": "2026-11-21",
           "source_name": "WHO",
           "source_url": "https://www.emro.who.int/yemen/information-resources/yemen-conflict-escalation-situation-report.html",
           "text": "Re-checked 19 November 2026: emro.who.int (source of this record's WHO Conflict Escalation Situation Report series, through #9) again returned HTTP 502 across multiple attempts (including direct PDF URL guesses for Situation Report #10), and no un.org or reliefweb.int primary document carrying a newer WHO casualty figure could be located; several news outlets cite unnamed WHO figures (around 1,771-2,098 deaths and 8,000-9,700 injured as of 8 November) but these could not be confirmed against a primary WHO document and are not treated as verified here. WHO's Situation Report #9 (9,072 cumulative casualties, 1,677 deaths, as of 25 October) remains the latest confirmed figure.",
@@ -12847,18 +12849,18 @@
         "status": "ongoing"
       },
       "id": "yemen-conflict-escalation-2026",
-      "last_updated": "2026-11-19T09:20:05Z",
+      "last_updated": "2026-11-21T09:19:46Z",
       "name": "Yemen Conflict Escalation",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-19T09:20:05Z",
+            "at": "2026-11-21T09:19:46Z",
             "layer": "verify",
-            "run_id": "2026-11-19T09-20-05Z-89d565"
+            "run_id": "2026-11-21T09-19-46Z-f43852"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-20-05Z-89d565"
+        "last_run_id": "2026-11-21T09-19-46Z-f43852"
       },
       "schema_version": "1.0",
       "sort_keys": {
