@@ -56,6 +56,14 @@
       "source_url": "https://www.data.jma.go.jp/vois/data/report/volinfo/VK20261113160000_108.html",
       "text": "JMA's Tokachidake Explanatory Information Bulletin No. 36, issued 13 November 2026 at 16:00 JST (Sapporo Regional Meteorological Observatory), continues Alert Level 2 (crater-vicinity restriction); an eruption could still affect the area within approximately 1.5 km of crater 62-2. Entry restrictions remain in Biei, Kamifurano and Shintoku. Seismicity near crater 62-2 has occasionally intensified since April, sulfur dioxide emissions remain elevated since April, and inflation-related ground deformation has continued since March. Thermal activity remains high, with plume and fumarole heights increasing and the Furikozawa fumarole group growing hotter.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-8",
+      "retrieved_date": "2026-11-21",
+      "source_name": "Japan Meteorological Agency (JMA)",
+      "source_url": "https://www.data.jma.go.jp/vois/data/report/volinfo/VK20261120160000_108.html",
+      "text": "JMA's Tokachidake Explanatory Information Bulletin No. 37, issued 20 November 2026 at 16:00 JST (Sapporo Regional Meteorological Observatory), continues Alert Level 2 (crater-vicinity restriction); an eruption could still affect the area within approximately 1.5 km of crater 62-2. Seismicity near crater 62-2 has occasionally intensified since April, sulfur dioxide emissions remain elevated since April, and inflation-related ground deformation near the edifice has continued since March. Thermal activity remains elevated, with increased plume/fumarole heights and continued heating at the Furikosawa fumarole group; the bulletin refers readers to local authorities for restriction details rather than naming municipalities directly.",
+      "verification_status": "verified"
     }
   ],
   "description": "Volcanic unrest at Mount Tokachidake in Hokkaido prompted a Level 3 alert on 12 September 2026. JMA lowered the alert to Level 2 (crater-vicinity restriction) on 16 October and maintained it in its 6 November bulletin, warning that an eruption could affect roughly 1.5 km around crater 62-2. Crater-area precautions remain in Biei, Kamifurano and Shintoku. Elevated thermal activity, increased sulfur dioxide emissions and ground deformation continue.",
@@ -77,18 +85,18 @@
     "status": "ongoing"
   },
   "id": "japan-volcano-tokachidake-2026",
-  "last_updated": "2026-11-19T09:18:08Z",
+  "last_updated": "2026-11-21T09:18:12Z",
   "name": "Volcanic Unrest — Mount Tokachidake, Japan",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-19T09:18:08Z",
+        "at": "2026-11-21T09:18:12Z",
         "layer": "verify",
-        "run_id": "2026-11-19T09-18-08Z-0fcdec"
+        "run_id": "2026-11-21T09-18-12Z-69eb49"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-19T09-18-08Z-0fcdec"
+    "last_run_id": "2026-11-21T09-18-12Z-69eb49"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -116,7 +124,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

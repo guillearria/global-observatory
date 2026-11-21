@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T09:15:03Z",
+  "last_updated": "2026-11-21T09:18:58Z",
   "published": [
     {
       "category": "flood",
@@ -1008,7 +1008,7 @@
         },
         {
           "id": "claim-5",
-          "retrieved_date": "2026-11-19",
+          "retrieved_date": "2026-11-21",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1573141, episode 1741837), re-checked 4 November 2026, remains Overall Orange with its automated GDACS score at 1.9 (up slightly from 1.6 three days earlier); the exposed-population estimate is unchanged at about 10,000 people in MMI VII or greater zones, and no updated casualty figures or newer episode have been published beyond the 26 October prefabricated-housing headline already on record.",
@@ -1034,18 +1034,18 @@
         "status": "ongoing"
       },
       "id": "china-earthquake-nagqu-2026",
-      "last_updated": "2026-11-19T09:18:08Z",
+      "last_updated": "2026-11-21T09:16:01Z",
       "name": "M7.0 Earthquake, Nagqu (Baqen County), Tibet, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-19T09:18:08Z",
+            "at": "2026-11-21T09:16:01Z",
             "layer": "verify",
-            "run_id": "2026-11-19T09-18-08Z-3b7246"
+            "run_id": "2026-11-21T09-16-01Z-ce17cb"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-18-08Z-3b7246"
+        "last_run_id": "2026-11-21T09-16-01Z-ce17cb"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1571,7 +1571,7 @@
         },
         {
           "id": "claim-12",
-          "retrieved_date": "2026-11-19",
+          "retrieved_date": "2026-11-21",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1557236, episode 1724218) remains an Overall Red alert with a GDACS score of 2.2, now estimating about 5.4 million people within zones of MMI VII or greater shaking, up from about 5.2 million previously recorded on the same page; the most recent listed activity is UNITAR-UNOSAT's 'Potentially Damaged Buildings' assessment, activated 21 August 2026 10:25 UTC.",
@@ -1717,18 +1717,18 @@
         "status": "ongoing"
       },
       "id": "colombia-earthquake-choco-2026",
-      "last_updated": "2026-11-19T09:18:15Z",
+      "last_updated": "2026-11-21T09:16:48Z",
       "name": "M7.4 Earthquake, Chocó, Colombia",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-19T09:18:15Z",
+            "at": "2026-11-21T09:16:48Z",
             "layer": "verify",
-            "run_id": "2026-11-19T09-18-15Z-3ed875"
+            "run_id": "2026-11-21T09-16-48Z-817220"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-18-15Z-3ed875"
+        "last_run_id": "2026-11-21T09-16-48Z-817220"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2530,6 +2530,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-nov19",
+          "retrieved_date": "2026-11-21",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2144",
+          "text": "ECDC's epidemic intelligence update (dated 19 November 2026) reports the Democratic Republic of the Congo has recorded 11,504 confirmed cases, including 5,630 related deaths, as of 17 November 2026 (data up until 16 November), up from 11,376 cases and 5,568 deaths as of 15 November. Kenya's linked cluster remains nine confirmed cases, including two deaths. Nigeria's single confirmed case remains medically evacuated to Switzerland.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-ecdc-nov4",
           "retrieved_date": "2026-11-05",
           "source_name": "ECDC",
@@ -2794,12 +2802,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda (now closed), Kenya, France, Germany and Nigeria. ECDC's newest country overview (data through 14-15 November 2026) puts the DRC toll at 11,376 confirmed cases and 5,568 deaths across eight provinces, up from 11,197/5,471 a week earlier. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
+      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda (now closed), Kenya, France, Germany and Nigeria. ECDC's newest update (data through 16-17 November 2026) puts the DRC toll at 11,504 confirmed cases and 5,630 deaths across eight provinces, up from 11,376/5,568 two days earlier. Kenya's cross-border chain, seeded by a case imported from DRC via Uganda on 6 October, holds at nine confirmed cases and two deaths, with all cases linked to the first patient and no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, remains medically evacuated to Switzerland with no evidence of onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026 after 42 days without a new case.",
       "event": {
         "impact": {
-          "deaths": 5568,
+          "deaths": 5630,
           "displaced": null,
-          "summary": "ECDC's newest country overview (page last updated 16 November 2026, 16:00) puts the DRC toll at 11,376 confirmed cases and 5,568 deaths as of 15 November 2026 (data through 14 November), up from 11,197 cases and 5,471 deaths a week earlier. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, was medically evacuated to Switzerland with 62 contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest epidemic intelligence update (19 November 2026) puts the DRC toll at 11,504 confirmed cases and 5,630 deaths as of 17 November 2026 (data through 16 November), up from 11,376 cases and 5,568 deaths two days earlier. The outbreak remains spread across the same eight provinces. Kenya's case count holds at nine confirmed cases and two deaths, unchanged; all cases remain linked to the first imported case with no evidence of community transmission. Nigeria's single imported case, linked to travel from Uganda, remains medically evacuated to Switzerland with contacts under follow-up and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -2813,18 +2821,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-11-19T09:18:33Z",
+      "last_updated": "2026-11-21T09:18:22Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-19T09:18:33Z",
+            "at": "2026-11-21T09:18:22Z",
             "layer": "verify",
-            "run_id": "2026-11-19T09-18-33Z-f2027b"
+            "run_id": "2026-11-21T09-18-22Z-de2414"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-18-33Z-f2027b"
+        "last_run_id": "2026-11-21T09-18-22Z-de2414"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2834,8 +2842,8 @@
       },
       "updates": [
         {
-          "date": "2026-11-19",
-          "text": "ECDC's country overview (updated 16 November) raised the DRC toll to 11,376 confirmed cases and 5,568 deaths (data through 14-15 November), up from 11,197/5,471 a week earlier; Kenya's linked case count held steady at nine confirmed cases and two deaths."
+          "date": "2026-11-21",
+          "text": "ECDC's 19 November epidemic intelligence update raised the DRC toll to 11,504 confirmed cases and 5,630 deaths (data through 16-17 November), up from 11,376/5,568 two days earlier; Kenya's linked case count held steady at nine confirmed cases and two deaths."
         },
         {
           "date": "2026-11-03",
@@ -2908,7 +2916,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 82 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 83 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -4826,7 +4834,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-19",
+          "retrieved_date": "2026-11-21",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1000148&episodeid=2&eventtype=VO",
           "text": "GDACS's report for this event (event ID VO 1000148) rates the Krakatau eruption an Orange alert, \"unlikely to require external humanitarian assistance based on the exposed population and coping capacity,\" with about 2,000 people within 30km and no people affected within 100km; it records a Volcanic Explosivity Index of 6 for the episode, running from 04 Sep 2026 21:00 UTC to 05 Sep 2026 14:30 UTC. Re-checked 1 November 2026: the report page is unchanged, still showing episode 2 as the latest and no updated exposure or casualty figures; geologi.esdm.go.id could not be reached to confirm the press-reported Level III status.",
@@ -4866,7 +4874,7 @@
         },
         {
           "id": "claim-6",
-          "retrieved_date": "2026-11-09",
+          "retrieved_date": "2026-11-21",
           "source_name": "Government of Lampung Province",
           "source_url": "https://lampungprov.go.id/detail-post/pemprov-lampung-perkuat-kesiapsiagaan-hadapi-bencana-alam",
           "text": "The Government of Lampung Province's notice published on 4 November 2026 reports a disaster-preparedness meeting involving BPBD, PVMBG and BMKG. BPBD head Aswarodi states that Anak Krakatau remains at Level III (Siaga) and advises residents, fishers and tourists to stay at least 5km from the crater. This provincial statement supports the status and safety advice as of 4 November; it does not establish the October escalation date, the additional island exclusion zone reported by the press, or continuous eruption through the retrieval date.",
@@ -4892,18 +4900,18 @@
         "status": "ongoing"
       },
       "id": "indonesia-volcano-krakatau-2026",
-      "last_updated": "2026-11-19T09:18:08Z",
+      "last_updated": "2026-11-21T09:17:12Z",
       "name": "Volcanic Eruption — Krakatau, Indonesia",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-19T09:18:08Z",
+            "at": "2026-11-21T09:17:12Z",
             "layer": "verify",
-            "run_id": "2026-11-19T09-18-08Z-bf34b5"
+            "run_id": "2026-11-21T09-17-12Z-11f6aa"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-18-08Z-bf34b5"
+        "last_run_id": "2026-11-21T09-17-12Z-11f6aa"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5868,6 +5876,14 @@
           "source_url": "https://www.data.jma.go.jp/vois/data/report/volinfo/VK20261113160000_108.html",
           "text": "JMA's Tokachidake Explanatory Information Bulletin No. 36, issued 13 November 2026 at 16:00 JST (Sapporo Regional Meteorological Observatory), continues Alert Level 2 (crater-vicinity restriction); an eruption could still affect the area within approximately 1.5 km of crater 62-2. Entry restrictions remain in Biei, Kamifurano and Shintoku. Seismicity near crater 62-2 has occasionally intensified since April, sulfur dioxide emissions remain elevated since April, and inflation-related ground deformation has continued since March. Thermal activity remains high, with plume and fumarole heights increasing and the Furikozawa fumarole group growing hotter.",
           "verification_status": "verified"
+        },
+        {
+          "id": "claim-8",
+          "retrieved_date": "2026-11-21",
+          "source_name": "Japan Meteorological Agency (JMA)",
+          "source_url": "https://www.data.jma.go.jp/vois/data/report/volinfo/VK20261120160000_108.html",
+          "text": "JMA's Tokachidake Explanatory Information Bulletin No. 37, issued 20 November 2026 at 16:00 JST (Sapporo Regional Meteorological Observatory), continues Alert Level 2 (crater-vicinity restriction); an eruption could still affect the area within approximately 1.5 km of crater 62-2. Seismicity near crater 62-2 has occasionally intensified since April, sulfur dioxide emissions remain elevated since April, and inflation-related ground deformation near the edifice has continued since March. Thermal activity remains elevated, with increased plume/fumarole heights and continued heating at the Furikosawa fumarole group; the bulletin refers readers to local authorities for restriction details rather than naming municipalities directly.",
+          "verification_status": "verified"
         }
       ],
       "description": "Volcanic unrest at Mount Tokachidake in Hokkaido prompted a Level 3 alert on 12 September 2026. JMA lowered the alert to Level 2 (crater-vicinity restriction) on 16 October and maintained it in its 6 November bulletin, warning that an eruption could affect roughly 1.5 km around crater 62-2. Crater-area precautions remain in Biei, Kamifurano and Shintoku. Elevated thermal activity, increased sulfur dioxide emissions and ground deformation continue.",
@@ -5889,18 +5905,18 @@
         "status": "ongoing"
       },
       "id": "japan-volcano-tokachidake-2026",
-      "last_updated": "2026-11-19T09:18:08Z",
+      "last_updated": "2026-11-21T09:18:12Z",
       "name": "Volcanic Unrest — Mount Tokachidake, Japan",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-19T09:18:08Z",
+            "at": "2026-11-21T09:18:12Z",
             "layer": "verify",
-            "run_id": "2026-11-19T09-18-08Z-0fcdec"
+            "run_id": "2026-11-21T09-18-12Z-69eb49"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-18-08Z-0fcdec"
+        "last_run_id": "2026-11-21T09-18-12Z-69eb49"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5928,7 +5944,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 7 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 8 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -6313,7 +6329,7 @@
         },
         {
           "id": "claim-27",
-          "retrieved_date": "2026-11-19",
+          "retrieved_date": "2026-11-21",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1544720&eventtype=EQ",
           "text": "Re-checked 4 November 2026: reliefweb.int (this record's live_source_url) again returned HTTP 403 Forbidden, and dromic.dswd.gov.ph returned HTTP 503, both unreachable. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Overall Orange alert, GDACS score 1.8, modeled population exposure of about 4.4 million people at MMI>=VII and an observed tsunami wave of about 0.83 m, unchanged from the prior read -- GDACS's own automated impact-model figures, distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
@@ -6395,18 +6411,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-11-19T09:18:15Z",
+      "last_updated": "2026-11-21T09:17:23Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-19T09:18:15Z",
+            "at": "2026-11-21T09:17:23Z",
             "layer": "verify",
-            "run_id": "2026-11-19T09-18-15Z-62f6ea"
+            "run_id": "2026-11-21T09-17-23Z-1acf71"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-18-15Z-62f6ea"
+        "last_run_id": "2026-11-21T09-17-23Z-1acf71"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7155,7 +7171,7 @@
         },
         {
           "id": "claim-11",
-          "retrieved_date": "2026-11-17",
+          "retrieved_date": "2026-11-21",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1570339, episode 1738684), checked 18 October 2026, now lists Exposed Population at '130 thousand (in MMI>=VII)' and a GDACS Score of 1.4 -- up from the roughly 50,000 recorded a day earlier -- while continuing to rate the event Overall Orange alert for medium humanitarian impact; the maximum observed tsunami wave height remains about 1.09 meters.",
@@ -7187,7 +7203,7 @@
         },
         {
           "id": "claim-15",
-          "retrieved_date": "2026-11-19",
+          "retrieved_date": "2026-11-21",
           "source_name": "PAHO",
           "source_url": "https://www.paho.org/es/documentos/informe-situacion-4-terremoto-panama-28-octubre-2026",
           "text": "PAHO's 'Informe de Situacion 4: Terremoto en Panama' (data as of 28 October 2026) reports the earthquake's death toll has risen to 2, with 27 people injured (unchanged), 52,874 people affected, and 4,501 people sheltering in 141 active shelters -- both figures up sharply from 3,827 people in 55 shelters two weeks earlier. More than 1,000 aftershocks have been recorded since the 9 October mainshock, and damage assessments of homes and health facilities remain ongoing.",
@@ -7277,18 +7293,18 @@
         "status": "ongoing"
       },
       "id": "panama-earthquake-azuero-2026",
-      "last_updated": "2026-11-19T09:18:15Z",
+      "last_updated": "2026-11-21T09:17:57Z",
       "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-19T09:18:15Z",
+            "at": "2026-11-21T09:17:57Z",
             "layer": "verify",
-            "run_id": "2026-11-19T09-18-15Z-02177c"
+            "run_id": "2026-11-21T09-17-57Z-4b3ffd"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-18-15Z-02177c"
+        "last_run_id": "2026-11-21T09-17-57Z-4b3ffd"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -11247,6 +11263,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-13",
+          "retrieved_date": "2026-11-21",
+          "source_name": "CDC",
+          "source_url": "https://www.cdc.gov/measles/data-research/index.html",
+          "text": "CDC's measles data page states: \"As of November 19, 2026, 5,838 confirmed measles cases were reported in the United States in 2026,\" up from 5,412 as of November 12; the cumulative 'Total Deaths' figure holds at 6, footnoted as subject to change.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-10-15",
           "source_name": "CDC",
@@ -11311,12 +11335,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Governor Kathy Hochul declared a statewide disaster emergency on 5 October 2026 over a measles outbreak concentrated in under-immunized rural communities. On 2 November, Hochul announced that a child in Lewis County had died after contracting measles — New York State's first measles-related death in 30 years — and on 4 November she signed Executive Order No. 65.1 extending the disaster emergency through 4 December 2026, citing a continued rise in cases. As of 3 October, New York had recorded 108 confirmed cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July across 18 rural counties. The New York outbreak is part of a wider US measles resurgence: CDC's dashboard shows 5,412 confirmed cases nationwide as of 12 November 2026, with the cumulative national death toll holding at 6, a figure CDC flags as subject to change.",
+      "description": "Governor Kathy Hochul declared a statewide disaster emergency on 5 October 2026 over a measles outbreak concentrated in under-immunized rural communities. On 2 November, Hochul announced that a child in Lewis County had died after contracting measles — New York State's first measles-related death in 30 years — and on 4 November she signed Executive Order No. 65.1 extending the disaster emergency through 4 December 2026, citing a continued rise in cases. As of 3 October, New York had recorded 108 confirmed cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July across 18 rural counties. The New York outbreak is part of a wider US measles resurgence: CDC's dashboard shows 5,838 confirmed cases nationwide as of 19 November 2026, with the cumulative national death toll holding at 6, a figure CDC flags as subject to change.",
       "event": {
         "impact": {
           "deaths": 1,
           "displaced": null,
-          "summary": "Governor Hochul announced on 2 November 2026 that a child in Lewis County died after contracting measles, New York State's first measles-related death in 30 years, and on 4 November she signed Executive Order No. 65.1 extending the state's measles disaster emergency through 4 December 2026. As of 3 October 2026, New York had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC's dashboard shows 5,412 confirmed US measles cases as of 12 November 2026, and the cumulative national death toll holds at 6, a figure CDC continues to flag as subject to change."
+          "summary": "Governor Hochul announced on 2 November 2026 that a child in Lewis County died after contracting measles, New York State's first measles-related death in 30 years, and on 4 November she signed Executive Order No. 65.1 extending the state's measles disaster emergency through 4 December 2026. As of 3 October 2026, New York had recorded 108 confirmed measles cases in 2026 (7 in New York City, 101 elsewhere), 92 of them since 15 July concentrated in under-immunized rural communities across 18 counties; local health departments have administered over 1,000 MMR doses in response. Nationally, CDC's dashboard shows 5,838 confirmed US measles cases as of 19 November 2026, and the cumulative national death toll holds at 6, a figure CDC continues to flag as subject to change."
         },
         "live_source_url": "https://www.cdc.gov/measles/data-research/index.html",
         "location": {
@@ -11330,18 +11354,18 @@
         "status": "ongoing"
       },
       "id": "usa-new-york-measles-outbreak-2026",
-      "last_updated": "2026-11-19T09:18:38Z",
+      "last_updated": "2026-11-21T09:18:58Z",
       "name": "Measles State Disaster Emergency — New York, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-19T09:18:38Z",
+            "at": "2026-11-21T09:18:58Z",
             "layer": "verify",
-            "run_id": "2026-11-19T09-18-38Z-a51665"
+            "run_id": "2026-11-21T09-18-58Z-6d4cdd"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-19T09-18-38Z-a51665"
+        "last_run_id": "2026-11-21T09-18-58Z-6d4cdd"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -11351,8 +11375,8 @@
       },
       "updates": [
         {
-          "date": "2026-11-15",
-          "text": "CDC's measles dashboard reports 5,412 confirmed US measles cases as of 12 November 2026, up from 5,182 a week earlier; the cumulative national death toll holds at 6, a figure CDC continues to flag as subject to change. New York's own case count, the Lewis County death, and the statewide disaster emergency are unchanged."
+          "date": "2026-11-21",
+          "text": "CDC's measles dashboard reports 5,838 confirmed US measles cases as of 19 November 2026, up from 5,412 a week earlier; the cumulative national death toll holds at 6, a figure CDC continues to flag as subject to change. New York's own case count, the Lewis County death, and the statewide disaster emergency are unchanged."
         },
         {
           "date": "2026-11-07",
@@ -11385,7 +11409,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 12 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
