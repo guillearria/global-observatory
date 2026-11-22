@@ -18,6 +18,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-10",
+      "retrieved_date": "2026-11-22",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/audio/2026/11/1168826",
+      "text": "UN News (17 November 2026), citing OHCHR's report on the human rights situation in Sudan: at least 2,230 civilians were confirmed killed nationally between January and the end of October 2026, with more than 80% of casualties in the first six months caused by drone strikes; Kordofan accounted for more than two-thirds of documented non-combatant casualties, Darfur most of the remainder, and at least 41 civilians were killed in White Nile state during the reporting period. OHCHR documented unlawful and indiscriminate killings, reprisals against suspected collaborators and sexual violence used as a weapon of war, and said the true toll is likely higher; High Commissioner Volker Turk said these violations may amount to war crimes.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-11",
       "retrieved_date": "2026-11-11",
       "source_name": "United Nations",
@@ -106,12 +114,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Drone strikes have hit displacement shelters, a gold-mining site, a transport convoy, markets and power infrastructure across West Kordofan, Blue Nile, Abyei, South Darfur and Khartoum state, Sudan, since October 2026, killing hundreds of civilians. The UN Human Rights Office documented at least 306 killed and hundreds more injured in the first three weeks of October alone, including strikes in Ghubeish/El Nuhud (25 dead), Abu Shendi (31 dead) and Dibab (139 dead); UN peacekeeping chief Jean-Pierre Lacroix told the Security Council on 5 November that the 19 October Abyei strikes, the first of their kind there, killed at least 30 and injured about 59. Strikes on power and fuel infrastructure now also cripple hospitals and aid logistics, including a dialysis-halting outage near Khartoum and blackouts from strikes on Ed Damazine's grid and the Ar Rusayris Dam; UNICEF said on 10 November that up to 15 power stations nationwide were hit in October alone and that two in three child casualties this year were caused by armed drones. Geneva peace talks on 21 October produced no ceasefire. This surge is distinct from the separate siege of El Obeid in North Kordofan.",
+  "description": "Drone strikes have hit displacement shelters, a gold-mining site, a transport convoy, markets and power infrastructure across West Kordofan, Blue Nile, Abyei, South Darfur, White Nile and Khartoum state, Sudan, since October 2026, killing hundreds of civilians. OHCHR's newest report (17 November) puts Sudan's confirmed civilian toll at at least 2,230 killed nationally from January through October, with drones causing over 80% of casualties in the first half of the year and Kordofan accounting for more than two-thirds of documented deaths. The UN documented at least 306 killed in the first three weeks of October alone, including strikes in Ghubeish/El Nuhud, Abu Shendi and Dibab; the 19 October Abyei strikes, the first of their kind there, killed at least 30. Strikes on power and fuel infrastructure also cripple hospitals and aid logistics, including blackouts from strikes on Ed Damazine's grid and the Ar Rusayris Dam; UNICEF said 15 power stations nationwide were hit in October alone and two in three child casualties this year were caused by drones. Geneva peace talks on 21 October produced no ceasefire. This surge is distinct from the separate siege of El Obeid in North Kordofan.",
   "event": {
     "impact": {
-      "deaths": 306,
+      "deaths": 2230,
       "displaced": null,
-      "summary": "The UN Human Rights Office documented at least 306 civilians killed and hundreds more injured by drone strikes across Sudan in the first three weeks of October 2026 alone, including 25 dead in Ghubeish/El Nuhud (West Kordofan), 31 dead in Abu Shendi (Blue Nile) and 139 dead in Dibab (West Kordofan). UN peacekeeping chief Jean-Pierre Lacroix told the Security Council on 5 November that the 19 October Abyei strikes -- the first of their kind there -- killed at least 30 and injured about 59. UNICEF reported a 27 October strike on a market in Nyala, South Darfur, killed five children. Strikes on power and fuel infrastructure continue to cripple the response: a hospital outside Khartoum halted dialysis, a strike on Ed Damazine's electricity station and the Ar Rusayris Dam caused blackouts, and an Um Bader airstrike killed two women and damaged two water stations. UNICEF said on 10 November that up to 15 power stations nationwide were struck in October alone and two in three child casualties this year were caused by armed drones. Geneva peace talks on 21 October produced no ceasefire."
+      "summary": "OHCHR's newest report (UN News, 17 November) puts Sudan's confirmed civilian death toll at at least 2,230 nationally between January and the end of October 2026, with drone strikes causing more than 80% of casualties in the first half of the year; Kordofan accounts for more than two-thirds of documented non-combatant deaths, Darfur most of the rest, and at least 41 civilians were killed in White Nile state. This supersedes the prior standing count of 306 killed in the first three weeks of October alone, which remains the most granular incident-level breakdown on file (25 dead in Ghubeish/El Nuhud, 31 in Abu Shendi, 139 in Dibab). UN peacekeeping chief Jean-Pierre Lacroix told the Security Council on 5 November that the 19 October Abyei strikes -- the first of their kind there -- killed at least 30 and injured about 59. UNICEF said on 10 November that up to 15 power stations nationwide were struck in October alone and two in three child casualties this year were caused by armed drones."
     },
     "live_source_url": "https://reliefweb.int/country/sdn",
     "location": {
@@ -121,30 +129,34 @@
       "region": "West Kordofan, Blue Nile, Abyei & South Darfur"
     },
     "occurrence_date": "2026-10-06",
-    "scale": "306+ killed, hundreds injured in 3 weeks (OHCHR); drone strikes continued into late October with a further 5 children killed in Nyala, South Darfur",
+    "scale": "OHCHR: at least 2,230 civilians killed nationally Jan-Oct 2026, >80% by drones in H1; 306+ killed in the first three weeks of October alone, hundreds injured",
     "status": "ongoing"
   },
   "id": "sudan-drone-strikes-kordofan-abyei-2026",
-  "last_updated": "2026-11-21T09:22:20Z",
+  "last_updated": "2026-11-22T09:39:42Z",
   "name": "Drone-Strike Escalation — West Kordofan, Blue Nile & Abyei, Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-21T09:22:20Z",
+        "at": "2026-11-22T09:39:42Z",
         "layer": "verify",
-        "run_id": "2026-11-21T09-22-20Z-fff324"
+        "run_id": "2026-11-22T09-39-42Z-577b51"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-21T09-22-20Z-fff324"
+    "last_run_id": "2026-11-22T09-39-42Z-577b51"
   },
   "schema_version": "1.0",
   "sort_keys": {
-    "composite": 7398953.0,
-    "impact_rank": 3,
+    "composite": 7398954.0,
+    "impact_rank": 4,
     "recency_rank": 739895
   },
   "updates": [
+    {
+      "date": "2026-11-17",
+      "text": "OHCHR's newest Sudan report puts the confirmed national civilian death toll at at least 2,230 from January through October, with drone strikes causing over 80% of casualties in the first half of the year; Kordofan accounts for more than two-thirds of documented deaths, and at least 41 civilians were killed in White Nile state. The true toll is likely higher, OHCHR said."
+    },
     {
       "date": "2026-11-10",
       "text": "UNICEF spokesperson James Elder said up to 15 power stations nationwide were struck by drones in October alone -- 'not a single day passed without a drone strike on a power station in Sudan' -- and that two in three child casualties in Sudan this year were caused by armed drones; UNICEF's Sudan response is only one-third funded."
@@ -168,7 +180,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 13 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

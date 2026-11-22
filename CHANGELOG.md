@@ -2,6 +2,10 @@
 
 _Generated from git history over `data/threats/`, `data/quarantine/`, `data/events/`, `data/quarantine-events/`, `data/historical/`, `data/quarantine-historical/`, and `data/source-allowlist.json` by `pipeline.changelog`. Do not edit by hand._
 
+## 2026-11-21 — World Pulse daily refresh (2026-11-21): Sudan/DRC/Somalia source reviews, changelog (`a8618c4`)
+
+- **Updated:** drc-north-kivu-ituri-displacement-2026, el-obeid-siege-sudan-2026, somalia-baidoa-clashes-displacement-2026, sudan-cholera-outbreak-2026, sudan-displacement-crisis, sudan-drone-strikes-kordofan-abyei-2026
+
 ## 2026-11-21 — World Pulse daily refresh (2026-11-21): Ebola, measles, Haiti figure updates (`638d03b`)
 
 - **Updated:** haiti-gang-violence-displacement-2026

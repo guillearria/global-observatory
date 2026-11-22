@@ -8,6 +8,18 @@
       "label": "USGS"
     },
     {
+      "category": "societal",
+      "domain": "icrc.org",
+      "justification": "The International Committee of the Red Cross has a unique mandate under the Geneva Conventions to monitor and report on armed-conflict humanitarian conditions, including displacement, casualties and detainee treatment, and its on-the-ground presence in active conflict zones (Somalia, Sudan, Yemen, etc.) often makes it the only organization able to confirm figures that UN agencies later cite; it is the same institutional tier as the already-allowlisted UNHCR and OHCHR for conflict-displacement and civilian-protection figures.",
+      "label": "ICRC"
+    },
+    {
+      "category": "societal",
+      "domain": "unicef.org",
+      "justification": "The UN Children's Fund is the UN specialized agency for child-protection and child-welfare data, and its country-office humanitarian situation reports and flash updates are a primary source for conflict/disaster casualty and displacement figures (via Health Cluster and IOM DTM data it co-publishes) in crises affecting children, at the same institutional tier as the already-allowlisted WHO, UNHCR and OCHA/ReliefWeb for their respective domains.",
+      "label": "UNICEF"
+    },
+    {
       "category": "geological",
       "domain": "sgc.gov.co",
       "justification": "The Servicio Geológico Colombiano (Colombian Geological Survey) is Colombia's national government geological-hazard authority, the same institutional tier as USGS for earthquake magnitude/depth/aftershock data within its own territory.",

@@ -16,14 +16,22 @@
       "source_url": "https://ochaopt.org/content/humanitarian-situation-report-13-november-2026",
       "text": "OCHA oPt's Humanitarian Situation Report (13 November 2026): the Site Management Cluster's alerts (473 as of 9 November) indicate over 46,000 estimated households (226,000 people) may have been affected by the rain that began 6 November, with over 5,000 of those households sleeping outside a shelter; more than 40,000 shelters were damaged, including over 9,000 destroyed beyond repair, alongside 960 damaged latrines and nine damaged health facilities.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-11-22",
+      "source_name": "OCHA oPt",
+      "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-18-november-2026",
+      "text": "OCHA oPt's Humanitarian Situation Report (18 November 2026, published 20 November): the Site Management Cluster recorded approximately 487 alerts, with damage reported to over 40,000 shelters (more than 9,000 beyond repair) and 960 latrines, and at least 12 health facilities and service delivery points affected; preliminary assessments of the 6-8 November rain still estimate about 46,000 households (226,000 people) affected, with more than 5,000 households reportedly sleeping without shelter. IOM's 17 November briefing said at least 60,000 of the more than 90,000 tents it had brought into Gaza over the preceding two and a half years required replacement, and more than 150,000 tents procured by humanitarian partners and Member States remained outside Gaza awaiting entry.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Heavy rain and flash flooding struck the Gaza Strip beginning 6 November 2026, flooding displacement camps, collapsing shelters and disrupting services already strained by the ongoing war. A sandy hill collapsed onto tents at Al Berka Reservoir near Deir al-Balah, killing five displaced people and injuring one, and an infant reportedly drowned at another displacement site. UN OCHA's Site Management Cluster recorded over 46,000 households (about 226,000 people) affected as of 9 November, with more than 40,000 shelters damaged -- including over 9,000 destroyed beyond repair -- alongside damaged latrines, health facilities and learning spaces. As of 13 November, humanitarian partners continue distributing shelter items and pumping floodwater, hampered by funding shortfalls and restrictions on importing heavy machinery and dewatering equipment.",
+  "description": "Heavy rain and flash flooding struck the Gaza Strip beginning 6 November 2026, flooding displacement camps, collapsing shelters and disrupting services already strained by the ongoing war. A sandy hill collapsed onto tents at Al Berka Reservoir near Deir al-Balah, killing five displaced people and injuring one, and an infant reportedly drowned at another displacement site. UN OCHA's Site Management Cluster recorded about 487 alerts by 18 November and holds the overall estimate at roughly 46,000 households (226,000 people) affected, with more than 40,000 shelters damaged -- including over 9,000 destroyed beyond repair -- 960 latrines and at least 12 health facilities and service delivery points affected. IOM said on 17 November that at least 60,000 of the more than 90,000 tents it has supplied to Gaza over the past two and a half years now need replacement, as winterization supplies remain constrained by entry restrictions.",
   "event": {
     "impact": {
       "deaths": 6,
       "displaced": null,
-      "summary": "OCHA oPt reports five deaths and one injury after a sandy hill collapsed onto tents at Al Berka Reservoir near Deir al-Balah, plus one infant who reportedly drowned at a displacement site. As of 9 November, the Site Management Cluster estimated over 46,000 households (about 226,000 people) affected, with more than 40,000 shelters damaged including over 9,000 destroyed, 960 latrines damaged and nine health facilities affected."
+      "summary": "OCHA oPt reports five deaths and one injury after a sandy hill collapsed onto tents at Al Berka Reservoir near Deir al-Balah, plus one infant who reportedly drowned at a displacement site. As of 18 November, the Site Management Cluster's roughly 487 alerts still point to about 46,000 households (226,000 people) affected, with more than 40,000 shelters damaged (over 9,000 destroyed), 960 latrines damaged and at least 12 health facilities and service delivery points affected. IOM reports at least 60,000 of its more than 90,000 supplied tents now need replacement."
     },
     "live_source_url": "https://www.ochaopt.org/page/updates",
     "location": {
@@ -37,18 +45,18 @@
     "status": "ongoing"
   },
   "id": "gaza-floods-2026",
-  "last_updated": "2026-11-20T09:15:03Z",
+  "last_updated": "2026-11-22T09:16:24Z",
   "name": "Heavy Rain & Flooding — Gaza Strip",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-20T09:15:03Z",
+        "at": "2026-11-22T09:16:24Z",
         "layer": "verify",
-        "run_id": "2026-11-20T09-15-03Z-97554f"
+        "run_id": "2026-11-22T09-16-24Z-58fcdf"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-20T09-15-03Z-97554f"
+    "last_run_id": "2026-11-22T09-16-24Z-58fcdf"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -57,6 +65,10 @@
     "recency_rank": 739926
   },
   "updates": [
+    {
+      "date": "2026-11-18",
+      "text": "OCHA's 18 November report raised the Site Management Cluster's alert count to about 487 (from 473) and now records at least 12 health facilities and service delivery points affected (up from nine); the 46,000-household (226,000-person) affected estimate is unchanged. IOM says at least 60,000 of its 90,000+ supplied tents now need replacement."
+    },
     {
       "date": "2026-11-13",
       "text": "OCHA's Site Management Cluster raised its estimate to over 46,000 households (about 226,000 people) affected and more than 40,000 shelters damaged, including over 9,000 destroyed beyond repair, up from roughly 26,000 households as of 7 November."
@@ -68,7 +80,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

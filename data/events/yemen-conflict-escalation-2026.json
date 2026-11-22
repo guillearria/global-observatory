@@ -250,6 +250,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-43",
+      "retrieved_date": "2026-11-22",
+      "source_name": "UNICEF",
+      "source_url": "https://www.unicef.org/yemen/media/12636/file/UNICEF%20YCO%20Flash%20Update_-_November%202026%20%281%29.pdf.pdf",
+      "text": "UNICEF's 'Humanitarian Situation Update #2: Escalation of Conflict in Yemen' (covering 18 October-9 November 2026): the Health Cluster reported 9,730 conflict-related casualties (1,771 killed, 7,959 injured) as of 3 November 2026, up from WHO Situation Report #9's 9,072 (1,677 deaths) as of 25 October. IOM's Displacement Tracking Matrix recorded over 55,000 households (330,000 people, including an estimated 174,000 children) displaced between 3 September and 10 November 2026, about 20,000 more households than its prior Situation Update. More than 800,000 people in Taiz were reportedly cut off from assistance as of 23 October, including about 600,000 particularly dependent on it; water production there has fallen by nearly half. On 2 November, an attack on the UNICEF-supported Al-Suqyah Health Centre in Lahj killed five people including three health workers, and on 20 October mortar fragments damaged Al Arous Hospital in Taiz while a separate attack destroyed an ambulance and killed its driver and a paramedic; WHO's Surveillance System for Attacks on Health Care recorded 17 attacks on health care since August 2026. At least 64 children have been killed and 64 injured since hostilities escalated on 3 September. UNICEF requires US$8.5 million to assist the 560,000 people affected and displaced by this escalation.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-5",
       "retrieved_date": "2026-09-14",
       "source_name": "United Nations",
@@ -290,12 +298,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Houthi (DFA) forces have encircled Taiz and expanded fighting into Marib and Shabwah governorates amid Yemen's conflict escalation that began in June 2026. WHO's Situation Report #9 (20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths); emro.who.int has returned HTTP 502 on every check since 14 November, so this remains the latest confirmed figure. IOM's DTM Update #19 (18 November) records about 356,602 people displaced since 1 August, with Ta'izz the largest governorate (41%). The crisis has deepened for women and children in Taiz: UNFPA reports more than 13,000 pregnant women in the area, about 6,400 displaced, with roughly 1,500 obstetric emergencies expected, as fuel shortages have cut deliveries and incubators at the main maternity hospital and left only five of 27 designated maternal/newborn hospitals even partially functioning. The UN human rights chief demanded an investigation after a UN staff member held in Houthi detention since 2024 died in custody; 71 UN personnel remain detained. In Marib only 6 of 31 mobile medical teams remain operational.",
+  "description": "Houthi (DFA) forces have encircled Taiz and expanded fighting into Marib and Shabwah governorates amid Yemen's conflict escalation that began in June 2026. UNICEF's newest situation update puts the Health Cluster's cumulative casualty count at 9,730 (1,771 deaths, 7,959 injured) as of 3 November, up from WHO's 1,677 deaths as of 25 October; emro.who.int remains unreachable. IOM's DTM Update #19 (18 November) records about 356,602 people displaced since 1 August, with Ta'izz the largest governorate (41%), while more than 800,000 people in Taiz were cut off from assistance as of 23 October. The crisis has deepened for women, children and health workers: a 2 November attack on a UNICEF-supported health centre in Lahj killed five people, and UNFPA reports more than 13,000 pregnant women in the Taiz area, about 6,400 displaced, with only five of 27 maternal/newborn hospitals even partially functioning. The UN human rights chief demanded an investigation after a UN staff member held in Houthi detention since 2024 died in custody; 71 UN personnel remain detained.",
   "event": {
     "impact": {
-      "deaths": 1677,
+      "deaths": 1771,
       "displaced": 356602,
-      "summary": "WHO's Conflict Escalation Situation Report #9 (28 October 2026, period 20-25 October) puts cumulative casualties at 9,072 (7,395 injured, 1,677 deaths) as of 25 October; emro.who.int has been unreachable (HTTP 502) on every check since 14 November, so this remains the latest confirmed figure, and unconfirmed news reports of higher WHO casualty figures could not be verified against a primary document. IOM's DTM Update #19 (18 November) puts cumulative displacement since 1 August 2026 at about 356,602 people, up from 347,321 a week earlier; Ta'izz remains the largest governorate (41%). UNFPA reports more than 13,000 pregnant women are in the Taiz area (about 6,400 displaced), with only 5 of 27 maternal/newborn hospitals even partially functioning amid fuel shortages."
+      "summary": "UNICEF's Humanitarian Situation Update #2 (covering 18 October-9 November 2026) puts the Health Cluster's cumulative casualty count at 9,730 (1,771 deaths, 7,959 injured) as of 3 November, up from WHO Situation Report #9's 1,677 deaths as of 25 October; emro.who.int has been unreachable (HTTP 502) since 14 November, so WHO's own series could not be checked further. IOM's DTM Update #19 puts cumulative displacement since 1 August 2026 at about 356,602 people, with Ta'izz the largest governorate (41%); UNICEF separately records over 330,000 people (174,000 children) displaced between 3 September and 10 November. More than 800,000 people in Taiz were cut off from assistance as of 23 October, and a 2 November attack on a UNICEF-supported health centre in Lahj killed five people. UNFPA reports more than 13,000 pregnant women are in the Taiz area (about 6,400 displaced), with only 5 of 27 maternal/newborn hospitals even partially functioning amid fuel shortages."
     },
     "live_source_url": "https://www.emro.who.int/yemen/information-resources/yemen-conflict-escalation-situation-report.html",
     "location": {
@@ -305,22 +313,22 @@
       "region": "Ta'izz Governorate (Mocha, Al-Mokha) and Yemen's West Coast; attacks also in the Bab el-Mandeb Strait and against Saudi Arabia"
     },
     "occurrence_date": "2026-08-07",
-    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have largely encircled Taiz, with Marib now the most lethal front; WHO records 9,072 cumulative casualties (1,677 deaths) as of 25 October and IOM 356,602 displaced since 1 August as of 17 November 2026",
+    "scale": "DFA (Houthi) forces control the entire west coast except Midi district and have largely encircled Taiz; Health Cluster records 9,730 cumulative casualties (1,771 deaths) as of 3 November and IOM 356,602 displaced since 1 August as of 17 November 2026",
     "status": "ongoing"
   },
   "id": "yemen-conflict-escalation-2026",
-  "last_updated": "2026-11-21T09:19:46Z",
+  "last_updated": "2026-11-22T09:29:05Z",
   "name": "Yemen Conflict Escalation",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-21T09:19:46Z",
+        "at": "2026-11-22T09:29:05Z",
         "layer": "verify",
-        "run_id": "2026-11-21T09-19-46Z-f43852"
+        "run_id": "2026-11-22T09-29-05Z-a39144"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-21T09-19-46Z-f43852"
+    "last_run_id": "2026-11-22T09-29-05Z-a39144"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -332,6 +340,10 @@
     {
       "date": "2026-11-19",
       "text": "IOM's DTM Update #19 (18 Nov) recorded displacement since 1 August rising to about 356,602 people as of 17 November, up from 347,321 a week earlier; cumulative displacement since June rose to 357,658. WHO's emro.who.int casualty sitrep remains unreachable (HTTP 502) since 14 November; unconfirmed higher casualty figures in news reports could not be verified."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "UNICEF's Situation Update #2 raised the casualty count to 9,730 (1,771 deaths, 7,959 injured) as of 3 November, up from WHO's 1,677 deaths (25 October); IOM/UNICEF recorded over 330,000 people (174,000 children) displaced since 3 September. Over 800,000 people in Taiz were cut off from aid as of 23 October; a 2 November attack on a Lahj health centre killed five, including three health workers."
     },
     {
       "date": "2026-11-03",
@@ -420,7 +432,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 36 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 37 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -16,14 +16,22 @@
       "source_url": "https://data.unhcr.org/en/documents/details/124371",
       "text": "UNHCR Flash Alert #24 (published Oct 2026) reports that renewed clashes in Baidoa, which began on 28 September 2026 and continued through 3 October 2026 between forces associated with the former Southwest State administration and the Somali National Army over control of the town, displaced 934 households (5,604 individuals) and caused 11 deaths and 86 injuries recorded at Bay Regional Hospital and Bayhaw Hospital, including eight deaths reportedly caused by stray bullets near RP Hotel; Southwest University, the RP Hotel, two mosques and three schools also reportedly sustained significant damage.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-11-22",
+      "source_name": "ICRC",
+      "source_url": "https://www.icrc.org/en/news-release/somalia-baidoa-communities-bear-cost-renewed-fighting-el-nino-looms",
+      "text": "ICRC news release (17 November 2026), citing UNHCR's Somalia Q3 2026 report: renewed fighting in and around Baidoa has displaced more than 18,000 people, accounting for nearly half of all conflict-related displacement recorded in Somalia during the July-September quarter; Bay region hosts more than half a million displaced people (UNHCR Operational Data Portal). Nearly 26,000 people in Baidoa could face severe food insecurity by late December per IPC experts, aid cuts have caused clinic closures, and the ICRC/Somali Red Crescent Society have transported 527 injured people to hospital since the fighting; the release describes Baidoa as having become 'a ghost town' after the September clashes. The ICRC also warns communities face heavy rainfall and flooding risk from an anticipated El Nino event, and has distributed 10,500 sandbags to Red Crescent clinics and flood-proofed 14 water points.",
+      "verification_status": "verified"
     }
   ],
-  "description": "Clashes displaced civilians in Baidoa, Somalia, during 3–5 September and 28 September–3 October 2026. UNHCR reported more than 14,000 people displaced during the first period and an estimated 5,604 people (934 households) during the second; the reports do not establish a deduplicated total across both periods. The October alert described a fragile security situation, disrupted essential services, and urgent shelter, water, sanitation and protection needs.",
+  "description": "Clashes displaced civilians in Baidoa, Somalia, during 3-5 September and 28 September-3 October 2026. UNHCR reported more than 14,000 people displaced during the first period and an estimated 5,604 people (934 households) during the second. The ICRC's 17 November release, citing UNHCR's Q3 2026 Somalia report, puts cumulative displacement from the renewed fighting at more than 18,000 people -- nearly half of all conflict-related displacement in Somalia that quarter -- and describes Baidoa as having become 'a ghost town' after the fighting, with 527 injured people transported to hospital, clinic closures from aid cuts, and nearly 26,000 people at risk of severe food insecurity by late December. An anticipated El Nino event adds flood risk for already-displaced communities.",
   "event": {
     "impact": {
       "deaths": 11,
-      "displaced": null,
-      "summary": "UNHCR reported more than 14,000 people displaced during 3–5 September 2026 and an estimated 5,604 people (934 households) during 28 September–3 October; these separate reporting periods cannot be treated as a confirmed count of unique people. For the latter period, Flash Alert #24 reported 11 deaths and 86 injuries recorded at Bay Regional Hospital and Bayhaw Hospital, including eight deaths reportedly caused by stray bullets near RP Hotel. Southwest University, RP Hotel, two mosques and three schools reportedly sustained significant damage."
+      "displaced": 18000,
+      "summary": "UNHCR reported more than 14,000 people displaced during 3-5 September 2026 and an estimated 5,604 people (934 households) during 28 September-3 October; the ICRC's 17 November release, citing UNHCR's Q3 2026 Somalia report, puts cumulative displacement from the renewed Baidoa fighting at more than 18,000 people, nearly half of all conflict-related displacement recorded in Somalia that quarter. Flash Alert #24 reported 11 deaths and 86 injuries for the late-September round; the ICRC separately reports 527 injured people transported to hospital since the fighting began, and warns nearly 26,000 people in Baidoa could face severe food insecurity by late December amid aid cuts and an anticipated El Nino flood risk."
     },
     "live_source_url": "https://data.unhcr.org/en/country/som",
     "location": {
@@ -37,18 +45,18 @@
     "status": "ongoing"
   },
   "id": "somalia-baidoa-clashes-displacement-2026",
-  "last_updated": "2026-11-21T09:22:19Z",
+  "last_updated": "2026-11-22T09:35:14Z",
   "name": "Baidoa Clashes & Displacement — South West State, Somalia",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-21T09:22:19Z",
+        "at": "2026-11-22T09:35:14Z",
         "layer": "verify",
-        "run_id": "2026-11-21T09-22-19Z-794ed3"
+        "run_id": "2026-11-22T09-35-14Z-ac9004"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-21T09-22-19Z-794ed3"
+    "last_run_id": "2026-11-22T09-35-14Z-ac9004"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -57,6 +65,10 @@
     "recency_rank": 739862
   },
   "updates": [
+    {
+      "date": "2026-11-17",
+      "text": "ICRC, citing UNHCR's Q3 2026 Somalia report, put cumulative displacement from the renewed Baidoa fighting at more than 18,000 -- nearly half of Somalia's conflict displacement that quarter -- and reported 527 injured transported to hospital, clinic closures from aid cuts, and up to 26,000 people in Baidoa at risk of severe food insecurity by late December amid El Nino flood risk."
+    },
     {
       "date": "2026-11-06",
       "text": "Correction: the record begins with the 3–5 September clashes. More than 14,000 people were reported displaced then and an estimated 5,604 during 28 September–3 October; the previous combined figure of 19,600 is withdrawn because the reports do not establish a deduplicated total."
@@ -68,7 +80,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 3 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

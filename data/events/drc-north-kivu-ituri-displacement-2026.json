@@ -40,6 +40,14 @@
       "source_url": "https://news.un.org/en/story/2026/11/1168797",
       "text": "A UN News report (13 November 2026) states WHO condemned an attack in Cantine-Aloya, North Kivu, that killed 66 civilians including three health workers and saw three health facilities looted, and that a nurse was killed and another health worker badly injured two weeks earlier while responding to an Ebola alert in Tshopo province; WFP warned nearly 29 million people in the DRC face acute food insecurity, with UN-backed IPC assessments projecting 30.3 million people in crisis levels of acute food insecurity or worse (including 4.2 million at emergency levels) between January and June 2027, concentrated in the conflict-affected eastern provinces.",
       "verification_status": "verified"
+    },
+    {
+      "id": "claim-9",
+      "retrieved_date": "2026-11-22",
+      "source_name": "United Nations",
+      "source_url": "https://news.un.org/en/focus/democratic-republic-congo",
+      "text": "Re-checked 22 November 2026: UN News's DR Congo topic page lists no item newer than 13 November 2026 (the Cantine-Aloya attack/WFP food-insecurity story already on file) covering Ituri, North Kivu or displacement; its only other November item is a 5 November Ebola-vaccine-trial story. UNHCR's and IOM's own press-release pages (unhcr.org, iom.int) returned HTTP 403 on this check, and reliefweb.int's search also returned HTTP 403, so a press-reported 8 November attack on the Plaine Savo displacement site in Ituri (local civil society figures of 3-5 killed, 15 wounded, among a camp of more than 76,000) and a mid-November ADF attack reported by news agencies at roughly 44 dead could not be confirmed against any accessible allowlisted source and are not treated as verified here.",
+      "verification_status": "verified"
     }
   ],
   "description": "Armed-group fighting across North Kivu and Ituri provinces, DR Congo, has displaced tens of thousands since mid-September 2026 and is undermining the region's Ebola response. Fighting in Masisi territory, North Kivu, has displaced more than 24,000 people since mid-September, while clashes near Djugu in Ituri forced over 3,000 people to flee the Rhoe displacement camp on 27 September, killing at least four and injuring seven, with houses burned in Blukwa. A military search operation at Bunia's Kigonze camp, which sheltered roughly 19,000 displaced people, triggered further flight and the destruction of a key Ebola transit centre. WHO has since condemned a mid-November attack on Cantine-Aloya, North Kivu, that killed 66 civilians including three health workers and saw three health facilities looted, following the killing of a nurse responding to an Ebola alert in Tshopo province two weeks earlier, as WFP warns nearly 29 million people in the DRC face acute food insecurity.",
@@ -61,18 +69,18 @@
     "status": "ongoing"
   },
   "id": "drc-north-kivu-ituri-displacement-2026",
-  "last_updated": "2026-11-21T09:22:19Z",
+  "last_updated": "2026-11-22T09:32:38Z",
   "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-21T09:22:19Z",
+        "at": "2026-11-22T09:32:38Z",
         "layer": "verify",
-        "run_id": "2026-11-21T09-22-19Z-f7b38c"
+        "run_id": "2026-11-22T09-32-38Z-6f5d13"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-21T09-22-19Z-f7b38c"
+    "last_run_id": "2026-11-22T09-32-38Z-6f5d13"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -100,7 +108,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
