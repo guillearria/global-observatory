@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-16T10:19:01Z",
+  "last_updated": "2026-11-23T10:17:40Z",
   "published": [
     {
       "assessment": {
@@ -1606,6 +1606,95 @@
     {
       "assessment": {
         "probability": {
+          "estimate": "very-high",
+          "numeric_annual": null,
+          "window": "present and measured"
+        },
+        "severity": "continental",
+        "summary": "This is a present, quantified depletion rather than a forecast, which is why probability is rated very-high — the only open question is the rate. Two findings cut against alarm: the catch-weighted figure is far better than the stock-count figure because large industrial stocks are managed more effectively, and the Mediterranean and Black Sea, the worst region in the world at 45.7 percent sustainable, also improved the most since 2021, by 11 percentage points, showing that management works where it is applied. The reasons for concern are that the headline share fell rather than rose, that wild capture has not grown in nearly four decades, and that the stocks in the worst condition are concentrated where small-scale fisheries directly employ 60 million people and support 490 million livelihoods, mostly in developing countries with the least capacity to absorb a shortfall. Severity is continental rather than civilizational: fisheries collapse is a food-security and livelihood catastrophe for coastal regions, not an extinction-level event, and stocks can recover when fishing pressure is cut.",
+        "timeframe": "Ongoing and measured annually; FAO projects exploitable fish biomass declining by over 10 percent by 2050 in several regions under high-emission scenarios."
+      },
+      "category": "resource",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-11-23",
+          "source_name": "FAO",
+          "source_url": "https://openknowledge.fao.org/server/api/core/bitstreams/09d03e2f-7097-4d59-bf94-db65e95f44fd/content/sofia-2026/the-status-fishery-resources.html",
+          "text": "FAO's State of World Fisheries and Aquaculture 2026 states: \"Around 62.4 percent of assessed stocks were classified as biologically sustainable in 2023, compared with 64.5 percent in 2021. The decline reflects both assessment revisions and the inclusion of new records. Among the biologically sustainable stocks in 2023, 46.9 percent were classified as maximally sustainably fished and 15.5 percent as underfished.\" The assessment is \"based on a total of 2 665 assessed stocks, covering 998 species\", up from fewer than 500 aggregated units in 2011.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-11-23",
+          "source_name": "FAO",
+          "source_url": "https://openknowledge.fao.org/server/api/core/bitstreams/09d03e2f-7097-4d59-bf94-db65e95f44fd/content/sofia-2026/the-status-fishery-resources.html",
+          "text": "The same report states: \"When weighted by volume, it is estimated that 72.6 percent of landings of assessed stocks monitored by FAO originated from sustainably fished stocks, a slight reduction from previous estimates, which can be attributed to two factors: sustainability declines of four Major Fishing Areas, and methodological adjustments in the weighting of landings.\" FAO classifies a stock as biologically sustainable \"when biomass is at or above a level that can produce maximum sustainable yield (MSY)\", counting stocks that are maximally sustainably fished (0.8-1.2 B_MSY) together with underfished stocks.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-11-23",
+          "source_name": "FAO",
+          "source_url": "https://openknowledge.fao.org/server/api/core/bitstreams/09d03e2f-7097-4d59-bf94-db65e95f44fd/content/sofia-2026/the-status-fishery-resources.html",
+          "text": "FAO reports wide regional variation in 2023 stock sustainability: 89.3 percent of stocks biologically sustainable in the Northeast Pacific (Area 67) and 86.8 percent in the Southwest Pacific (Area 81), against 55.1 percent in the Western Central Pacific (Area 71) and 52.0 percent in the Southeast Pacific (Area 87). In the Atlantic, the Eastern Central Atlantic (Area 34) showed 47.1 percent. \"While the Mediterranean and Black Sea (Area 37) had the lowest sustainability level (45.7 percent), it also reported the highest improvement in sustainability (11 percentage points since 2021) of all FAO Major Fishing Areas.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-11-23",
+          "source_name": "FAO",
+          "source_url": "https://openknowledge.fao.org/server/api/core/bitstreams/09d03e2f-7097-4d59-bf94-db65e95f44fd/content/sofia-2026/the-status-fishery-resources.html",
+          "text": "FAO states that small-scale fisheries, marine and inland, are \"directly employing 60 million people and supporting the livelihoods of 490 million, mostly in developing countries\" and \"supply at least 40 percent of global catches of aquatic animals, with 68 percent harvested from marine areas and 32 percent from inland waters\".",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-11-23",
+          "source_name": "FAO",
+          "source_url": "https://www.fao.org/newsroom/detail/sofia-2026--global-fisheries-and-aquaculture-production-reaches-new-highs/en",
+          "text": "FAO's announcement of the report, launched 16 June 2026 at the 11th Our Ocean Conference in Mombasa, Kenya, states that \"global fisheries and aquaculture production reached a record 235 million tonnes in 2024\", that \"in 2024 aquaculture production of aquatic animals surpassed 100 million tonnes for the first time\" (103 million tonnes), and that capture fisheries \"have remained within the 86-94 million tonnes range since the late 1980s\". It confirms that \"In 2023, 72.6 percent of all landings originated from biologically sustainable stocks\" and that the sector \"supports over 600 million livelihoods worldwide\", with per capita aquatic animal food availability of 21.1 kg in 2023 rising to an estimated 21.3 kg in 2024.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-11-23",
+          "source_name": "FAO",
+          "source_url": "https://www.fao.org/newsroom/detail/sofia-2026--global-fisheries-and-aquaculture-production-reaches-new-highs/en",
+          "text": "The same FAO announcement reports that under high-emission scenarios \"exploitable fish biomass is projected to decline by over 10 percent by 2050 in several regions\", and attributes the stabilization of wild capture fisheries to ecological limits together with effective management of some stocks.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Overfishing is drawing down the wild marine fish stocks that feed much of the world and support over 600 million livelihoods. FAO's 2026 assessment, the most detailed yet at 2 665 assessed stocks covering 998 species, finds 62.4 percent of them biologically sustainable in 2023, down from 64.5 percent in 2021 — so roughly 37.6 percent are overfished, and only 15.5 percent are underfished with any slack left. The picture is better weighted by catch, because the largest and best-managed stocks are the healthier ones: 72.6 percent of landings came from sustainably fished stocks, itself a slight reduction. Regional spread is wide, from 89.3 percent sustainable in the Northeast Pacific to 45.7 percent in the Mediterranean and Black Sea. Wild capture production has been flat within a 86-94 million tonne band since the late 1980s while aquaculture grew past 100 million tonnes, which is the clearest signal that the ceiling on wild stocks is ecological rather than economic.",
+      "id": "marine-fish-stock-overexploitation",
+      "last_updated": "2026-11-23T10:17:39Z",
+      "name": "Overfishing and Marine Fish Stock Depletion",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-11-23T10:17:39Z",
+            "layer": "verify",
+            "run_id": "2026-11-23T10-17-39Z-e5ba41"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-11-23T10-17-39Z-e5ba41"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 25.0,
+        "probability_rank": 5,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
           "estimate": "very-low",
           "numeric_annual": null,
           "window": "next-100-years"
@@ -2393,6 +2482,184 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 5 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "high",
+          "numeric_annual": null,
+          "window": "annual"
+        },
+        "severity": "continental",
+        "summary": "The failure rate is not the problem; the concentration and the repair queue are. Several hundred faults a year are absorbed invisibly where a country has many cables and a repair ship nearby, and become a national outage where it has neither. That asymmetry is what the ITU's advisory body was convened to address, and its findings point the wrong way: response times doubling over a decade, a repair fleet of 20-25 genuinely available vessels, and route concentration in chokepoints that no single operator can engineer around. Severity is rated continental rather than civilizational because the physical infrastructure is repairable and redundancy exists in the richest markets; the damage falls on small island developing states, least developed countries and single-cable markets, where the loss of banking, government and health services can last weeks. Deliberate multi-cable sabotage in a chokepoint is the tail risk, and it needs no new capability — a ship and an anchor already account for a quarter of all faults.",
+        "timeframe": "Already recurrent — faults occur somewhere in the world every few days and repair response times are lengthening — with the governance response still voluntary after the ITU-ICPC advisory body concluded its work in July 2026."
+      },
+      "category": "technological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-11-23",
+          "source_name": "ITU",
+          "source_url": "https://www.itu.int/digital-resilience/submarine-cables/wp-content/uploads/sites/2/2026/07/IAB-Publication-2026.pdf",
+          "text": "The final report of the ITU-ICPC International Advisory Body on Submarine Cable Resilience (Working Group 2, July 2026) states: \"Submarine telecommunications cables form the critical backbone of the global digital economy, carrying over 99 per cent of intercontinental data traffic. Despite their strategic importance, however, these networks remain vulnerable to a range of mainly physical risks, experiencing approximately 150-200 faults annually. Over 80 per cent of those incidents are attributable to human maritime activities - primarily commercial fishing and dragged ship anchors.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-11-23",
+          "source_name": "ITU",
+          "source_url": "https://www.itu.int/digital-resilience/submarine-cables/wp-content/uploads/sites/2/2026/07/IAB-Publication-2026.pdf",
+          "text": "The same report finds the global repair fleet inadequate: \"Given current demand, the global submarine cable repair fleet is insufficient. As of 2025, approximately 70 vessels worldwide possessed the technical capability to perform cable repairs. However, many of these vessels were either primarily for cable-laying and engaged in commercial installation projects, or older units no longer maintained for active service. Only around 20-25 vessels were either formally dedicated to repair operations under active maintenance agreements, or long-term chartered for these.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-11-23",
+          "source_name": "ITU",
+          "source_url": "https://www.itu.int/digital-resilience/submarine-cables/wp-content/uploads/sites/2/2026/07/IAB-Publication-2026.pdf",
+          "text": "On repair timelines the report states: \"In recent years, the number of repairs per year and the number of repair vessels available have both remained stable, according to the ICPC. However, between 2012 and 2024, the average repair response time more than doubled, from less than 20 days to more than 50 days.\" It illustrates the geographic gap: \"Due to limited resources, there is only one permanent and wholly dedicated cable repair vessel in the whole of Africa. As this is positioned at Cape Town, if a cable fault occurs in the northern part of the continent, the transit will take more than 10 days, regardless of whether the fault is on the east or west coast.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-11-23",
+          "source_name": "ITU",
+          "source_url": "https://www.itu.int/digital-resilience/submarine-cables/wp-content/uploads/sites/2/2026/07/IAB-Publication-2026.pdf",
+          "text": "On route concentration the report names chokepoints: \"The Bab el-Mandeb Strait at the southern gateway to the Red Sea: This is the most concentrated area in the world, with at least 17 cables - carrying an estimated 17-20 per cent of global Internet traffic - passing through waters less than 14 miles wide\" and \"The Suez Canal corridor: This funnels an estimated 90 per cent of Europe-Asia communications through waters where cables must traverse shallow depths for over 100 miles before entering the Mediterranean Sea.\" It attributes 40 per cent of global faults to fishing activity and 25 per cent to anchoring.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-11-23",
+          "source_name": "ITU",
+          "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2026-07-10-Submarine-cable-resilience-report.aspx",
+          "text": "ITU announced on 10 July 2026 (Geneva) that the International Advisory Body on Submarine Cable Resilience, established in 2024 by ITU and the International Cable Protection Committee, approved its final report of recommendations to strengthen submarine cable infrastructure, which \"carries more than 99 per cent of data traffic worldwide\". The report names the key challenges as \"high exposure to physical risks\", \"increased time needed for repair\", \"geographical concentration of infrastructure\" and \"high dependence of many countries on a small number of cable systems\", with the greatest impact on \"small island developing states (SIDS), Least Developed Countries (LDCs) and other underserved regions\".",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-11-23",
+          "source_name": "ITU",
+          "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2026-02-03-Porto-Submarine-Cable-Resilience-Summit.aspx",
+          "text": "ITU's Porto Submarine Cable Resilience Summit release (Porto, 3 February 2026) states: \"About 500 of the cables extending more than 1.7 million kilometres serve as the backbone of global connectivity\", that \"More than 99 per cent of international data traffic is carried by subsea cables\", and that \"Over 200 faults are reported globally each year\" - a slightly higher annual fault figure than the 150-200 range given in the advisory body's July 2026 final report.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Submarine telecommunications cables carry over 99 per cent of intercontinental data traffic, and 150-200 faults are reported on them every year. Individual faults are routine and usually invisible, because traffic reroutes; the risk is structural. More than 80 per cent of incidents come from commercial fishing gear and dragged ship anchors, repair capacity is thin — about 70 vessels worldwide can repair a cable but only 20-25 are dedicated to it, and Africa has one permanently dedicated repair ship, at Cape Town — and the average repair response time more than doubled between 2012 and 2024, from under 20 days to more than 50. Routes funnel through a few narrow chokepoints: at least 17 cables carrying an estimated 17-20 per cent of global internet traffic pass through the Bab el-Mandeb Strait in waters under 14 miles wide. Countries served by a single cable system lose connectivity outright when it breaks, and the ITU-ICPC advisory body on cable resilience closed in July 2026 with recommendations rather than binding obligations.",
+      "id": "submarine-cable-disruption",
+      "last_updated": "2026-11-23T10:17:39Z",
+      "name": "Submarine Communications Cable Disruption",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-11-23T10:17:39Z",
+            "layer": "verify",
+            "run_id": "2026-11-23T10-17-39Z-58fac4"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-11-23T10-17-39Z-58fac4"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 24.0,
+        "probability_rank": 4,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "assessment": {
+        "probability": {
+          "estimate": "high",
+          "numeric_annual": null,
+          "window": "present and measured"
+        },
+        "severity": "continental",
+        "summary": "The mechanism here is unusually well understood, which is why the probability is rated high rather than speculative: measles needs about 95 percent two-dose coverage to stop circulating, the world is at 77 percent, and the gap translates into outbreaks with an arithmetic reliability that few other threats on this list offer. What makes it a standing threat rather than a solved problem is that the deficit is not primarily technical — the vaccine is cheap, effective and decades old — but a compound of conflict, disrupted health systems and vaccine hesitancy, each of which erodes coverage faster than campaigns rebuild it. The Americas are the clearest warning, having lost and then regained elimination once already before losing it again in November 2025. Severity is continental: measles and its peers kill tens of thousands a year and can paralyse health systems regionally, but they do not threaten civilizational continuity, and the damage is reversible by the same tool that caused the decline when it went unused.",
+        "timeframe": "Under way now: coverage has hovered in the same narrow range since 2009, and elimination status has been withdrawn from four countries in the Americas within twelve months."
+      },
+      "category": "biological",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-11-23",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+          "text": "WHO's measles fact sheet (last updated 15 July 2026) states that \"An estimated 95 000 people died from measles in 2024\" and that \"Measles vaccination averted nearly 59 million deaths between 2000 and 2024.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-11-23",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news/item/15-07-2026-global-childhood-immunization-coverage-inches-forward-despite-conflict-and-hesitancy---unicef--who",
+          "text": "The WHO/UNICEF immunization coverage estimates released 15 July 2026 report 2025 measles coverage \"with 84% of children receiving the first measles dose (MCV1) and 77% receiving the second dose (MCV2)\", adding that \"Both figures fall far short of the 95% threshold required to prevent outbreaks of this highly contagious virus\" and that \"57 countries reported large or disruptive measles outbreaks in 2025.\"",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-3",
+          "retrieved_date": "2026-11-23",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/news/item/15-07-2026-global-childhood-immunization-coverage-inches-forward-despite-conflict-and-hesitancy---unicef--who",
+          "text": "The same WHO/UNICEF release states that \"an estimated 13.5 million 'zero-dose' children did not receive a single vaccine in their first year during 2025\", and that global coverage has been \"hovering within the same narrow range since 2009\".",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-4",
+          "retrieved_date": "2026-11-23",
+          "source_name": "PAHO",
+          "source_url": "https://www.paho.org/en/news/10-11-2025-paho-calls-regional-action-americas-lose-measles-elimination-status",
+          "text": "PAHO announced on 10 November 2025 that \"the Region of the Americas has lost its verification as free from endemic measles transmission\" after endemic transmission was re-established in Canada, where the virus had circulated for at least 12 months. As of 7 November 2025 the region had recorded 12 596 confirmed cases across ten countries - about 30 times the 2024 count - and 28 deaths, with second-dose MMR coverage averaging 79 percent in 2024, well below the 95 percent needed to prevent outbreaks.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-5",
+          "retrieved_date": "2026-11-23",
+          "source_name": "PAHO",
+          "source_url": "https://www.paho.org/en/news/17-11-2026-measles-americas-questions-and-answers-technical-reference-journalists-and-public",
+          "text": "PAHO's technical reference of 17 November 2026 states that following the sixth annual meeting of the Measles and Rubella Elimination Regional Monitoring and Re-Verification Commission (10-13 November 2026), the United States, Mexico and Bolivia were also found to have lost national measles elimination status, the virus having \"circulated continuously in each country for at least 12 months\". As of epidemiological week 44 (6 November 2026) \"58,213 measles cases have been reported by member countries and territories\", with 114 deaths, and regional routine coverage in 2025 \"reached only 88% for the first dose of measles vaccine and 85% for the second dose\".",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-6",
+          "retrieved_date": "2026-11-23",
+          "source_name": "PAHO",
+          "source_url": "https://www.paho.org/en/news/28-11-2025-measles-deaths-down-88-2000-cases-surge",
+          "text": "PAHO, reporting WHO estimates on 28 November 2025, states that measles caused \"an estimated 11 million infections in 2024\" and that \"an estimated 95 000 people, mostly children younger than 5 years of age, died due to measles in 2024\", a fall of 88 percent in deaths between 2000 and 2024, with 59 countries reporting large or disruptive measles outbreaks in 2024.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Diseases that vaccination had pushed to the margins are returning, because immunisation coverage has stalled well below the level needed to stop them spreading. Measles is the indicator, since it is the most contagious of them and the first to come back when coverage slips: WHO estimates 95 000 deaths and around 11 million infections in 2024, and global coverage in 2025 stood at 84 percent for the first measles dose and 77 percent for the second, far short of the 95 percent needed to prevent outbreaks. An estimated 13.5 million children received no vaccine at all in their first year of life in 2025, and 57 countries reported large or disruptive measles outbreaks. The loss of hard-won ground is already formal: the Americas lost their region-wide measles elimination verification in November 2025, and in November 2026 the regional commission found endemic transmission re-established in the United States, Mexico and Bolivia as well. Vaccination still averted nearly 59 million deaths between 2000 and 2024, which is what is being eroded.",
+      "id": "vaccine-preventable-disease-resurgence",
+      "last_updated": "2026-11-23T10:17:40Z",
+      "name": "Resurgence of Vaccine-Preventable Disease",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-11-23T10:17:40Z",
+            "layer": "verify",
+            "run_id": "2026-11-23T10-17-40Z-479171"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-11-23T10-17-40Z-479171"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 24.0,
+        "probability_rank": 4,
+        "severity_rank": 2
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },

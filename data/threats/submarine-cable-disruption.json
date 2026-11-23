@@ -1,0 +1,89 @@
+{
+  "assessment": {
+    "probability": {
+      "estimate": "high",
+      "numeric_annual": null,
+      "window": "annual"
+    },
+    "severity": "continental",
+    "summary": "The failure rate is not the problem; the concentration and the repair queue are. Several hundred faults a year are absorbed invisibly where a country has many cables and a repair ship nearby, and become a national outage where it has neither. That asymmetry is what the ITU's advisory body was convened to address, and its findings point the wrong way: response times doubling over a decade, a repair fleet of 20-25 genuinely available vessels, and route concentration in chokepoints that no single operator can engineer around. Severity is rated continental rather than civilizational because the physical infrastructure is repairable and redundancy exists in the richest markets; the damage falls on small island developing states, least developed countries and single-cable markets, where the loss of banking, government and health services can last weeks. Deliberate multi-cable sabotage in a chokepoint is the tail risk, and it needs no new capability — a ship and an anchor already account for a quarter of all faults.",
+    "timeframe": "Already recurrent — faults occur somewhere in the world every few days and repair response times are lengthening — with the governance response still voluntary after the ITU-ICPC advisory body concluded its work in July 2026."
+  },
+  "category": "technological",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-11-23",
+      "source_name": "ITU",
+      "source_url": "https://www.itu.int/digital-resilience/submarine-cables/wp-content/uploads/sites/2/2026/07/IAB-Publication-2026.pdf",
+      "text": "The final report of the ITU-ICPC International Advisory Body on Submarine Cable Resilience (Working Group 2, July 2026) states: \"Submarine telecommunications cables form the critical backbone of the global digital economy, carrying over 99 per cent of intercontinental data traffic. Despite their strategic importance, however, these networks remain vulnerable to a range of mainly physical risks, experiencing approximately 150-200 faults annually. Over 80 per cent of those incidents are attributable to human maritime activities - primarily commercial fishing and dragged ship anchors.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-11-23",
+      "source_name": "ITU",
+      "source_url": "https://www.itu.int/digital-resilience/submarine-cables/wp-content/uploads/sites/2/2026/07/IAB-Publication-2026.pdf",
+      "text": "The same report finds the global repair fleet inadequate: \"Given current demand, the global submarine cable repair fleet is insufficient. As of 2025, approximately 70 vessels worldwide possessed the technical capability to perform cable repairs. However, many of these vessels were either primarily for cable-laying and engaged in commercial installation projects, or older units no longer maintained for active service. Only around 20-25 vessels were either formally dedicated to repair operations under active maintenance agreements, or long-term chartered for these.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-3",
+      "retrieved_date": "2026-11-23",
+      "source_name": "ITU",
+      "source_url": "https://www.itu.int/digital-resilience/submarine-cables/wp-content/uploads/sites/2/2026/07/IAB-Publication-2026.pdf",
+      "text": "On repair timelines the report states: \"In recent years, the number of repairs per year and the number of repair vessels available have both remained stable, according to the ICPC. However, between 2012 and 2024, the average repair response time more than doubled, from less than 20 days to more than 50 days.\" It illustrates the geographic gap: \"Due to limited resources, there is only one permanent and wholly dedicated cable repair vessel in the whole of Africa. As this is positioned at Cape Town, if a cable fault occurs in the northern part of the continent, the transit will take more than 10 days, regardless of whether the fault is on the east or west coast.\"",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-4",
+      "retrieved_date": "2026-11-23",
+      "source_name": "ITU",
+      "source_url": "https://www.itu.int/digital-resilience/submarine-cables/wp-content/uploads/sites/2/2026/07/IAB-Publication-2026.pdf",
+      "text": "On route concentration the report names chokepoints: \"The Bab el-Mandeb Strait at the southern gateway to the Red Sea: This is the most concentrated area in the world, with at least 17 cables - carrying an estimated 17-20 per cent of global Internet traffic - passing through waters less than 14 miles wide\" and \"The Suez Canal corridor: This funnels an estimated 90 per cent of Europe-Asia communications through waters where cables must traverse shallow depths for over 100 miles before entering the Mediterranean Sea.\" It attributes 40 per cent of global faults to fishing activity and 25 per cent to anchoring.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-5",
+      "retrieved_date": "2026-11-23",
+      "source_name": "ITU",
+      "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2026-07-10-Submarine-cable-resilience-report.aspx",
+      "text": "ITU announced on 10 July 2026 (Geneva) that the International Advisory Body on Submarine Cable Resilience, established in 2024 by ITU and the International Cable Protection Committee, approved its final report of recommendations to strengthen submarine cable infrastructure, which \"carries more than 99 per cent of data traffic worldwide\". The report names the key challenges as \"high exposure to physical risks\", \"increased time needed for repair\", \"geographical concentration of infrastructure\" and \"high dependence of many countries on a small number of cable systems\", with the greatest impact on \"small island developing states (SIDS), Least Developed Countries (LDCs) and other underserved regions\".",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-6",
+      "retrieved_date": "2026-11-23",
+      "source_name": "ITU",
+      "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2026-02-03-Porto-Submarine-Cable-Resilience-Summit.aspx",
+      "text": "ITU's Porto Submarine Cable Resilience Summit release (Porto, 3 February 2026) states: \"About 500 of the cables extending more than 1.7 million kilometres serve as the backbone of global connectivity\", that \"More than 99 per cent of international data traffic is carried by subsea cables\", and that \"Over 200 faults are reported globally each year\" - a slightly higher annual fault figure than the 150-200 range given in the advisory body's July 2026 final report.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Submarine telecommunications cables carry over 99 per cent of intercontinental data traffic, and 150-200 faults are reported on them every year. Individual faults are routine and usually invisible, because traffic reroutes; the risk is structural. More than 80 per cent of incidents come from commercial fishing gear and dragged ship anchors, repair capacity is thin — about 70 vessels worldwide can repair a cable but only 20-25 are dedicated to it, and Africa has one permanently dedicated repair ship, at Cape Town — and the average repair response time more than doubled between 2012 and 2024, from under 20 days to more than 50. Routes funnel through a few narrow chokepoints: at least 17 cables carrying an estimated 17-20 per cent of global internet traffic pass through the Bab el-Mandeb Strait in waters under 14 miles wide. Countries served by a single cable system lose connectivity outright when it breaks, and the ITU-ICPC advisory body on cable resilience closed in July 2026 with recommendations rather than binding obligations.",
+  "id": "submarine-cable-disruption",
+  "last_updated": "2026-11-23T10:17:39Z",
+  "name": "Submarine Communications Cable Disruption",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-11-23T10:17:39Z",
+        "layer": "verify",
+        "run_id": "2026-11-23T10-17-39Z-58fac4"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-11-23T10-17-39Z-58fac4"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 24.0,
+    "probability_rank": 4,
+    "severity_rank": 2
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}
