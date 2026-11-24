@@ -82,6 +82,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-25",
+      "retrieved_date": "2026-11-24",
+      "source_name": "WHO",
+      "source_url": "https://www.who.int/countries/sdn",
+      "text": "Re-checked 24 November 2026: reliefweb.int returned HTTP 403, ecdc.europa.eu cholera-monthly returned HTTP 403, and emro.who.int returned HTTP 502, all unreachable. As an alternate allowlisted check, WHO main Sudan country page (who.int/countries/sdn) was fetched successfully and still carries no Sudan cholera item newer than the 24 September 2026 press release already on file (its only October item remains the unrelated 12 October 2026 food-insecurity/malnutrition alert). A separate WHO EMRO item found via search, \"Sudan declares an end to its cholera outbreak\" (8 March 2026), concerns a distinct, earlier 2024-2026 outbreak (first detected Kassala State, July 2024; declared over 3 March 2026) and is not a status change for the outbreak tracked in this record, which began 27 June 2026 in West Kordofan. No new confirmed cholera case or death figure for the June 2026 outbreak was found via any accessible allowlisted source.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-3",
       "retrieved_date": "2026-07-25",
       "source_name": "ReliefWeb",
@@ -133,18 +141,18 @@
     "status": "ongoing"
   },
   "id": "sudan-cholera-outbreak-2026",
-  "last_updated": "2026-11-22T09:36:52Z",
+  "last_updated": "2026-11-24T09:18:45Z",
   "name": "Cholera Outbreak — Sudan",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-22T09:36:52Z",
+        "at": "2026-11-24T09:18:45Z",
         "layer": "verify",
-        "run_id": "2026-11-22T09-36-52Z-c0e822"
+        "run_id": "2026-11-24T09-18-45Z-87ab03"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-22T09-36-52Z-c0e822"
+    "last_run_id": "2026-11-24T09-18-45Z-87ab03"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -176,7 +184,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 14 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
