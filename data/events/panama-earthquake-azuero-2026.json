@@ -58,6 +58,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-16",
+      "retrieved_date": "2026-11-28",
+      "source_name": "UNICEF",
+      "source_url": "https://www.unicef.org/media/186021/file/Panama-Humanitarian-Situation-Report-No.7(Earthquake),1-13-November-2026.pdf.pdf",
+      "text": "UNICEF's Panama Earthquake Situation Report No. 7 (reporting period 1-13 November 2026): per SINAPROC/EDAN estimates, 64,747 people are affected, 16,148 children and adolescents are affected, 20,466 houses have been assessed, 4,478 people remain in temporary shelters among 140 shelters authorized nationwide, 619 schools and 122 health facilities are reported affected. The report carries no death or injury figures.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-2",
       "retrieved_date": "2026-10-10",
       "source_name": "GDACS",
@@ -122,12 +130,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. A tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled, and an intense aftershock sequence has continued, with more than 1,000 aftershocks recorded by 28 October. PAHO's Situation Report 4 records 2 confirmed deaths, 27 injured, 52,874 people affected and 4,501 people sheltering in 141 active shelters, both up sharply from two weeks earlier. Panama's national State of Emergency, declared 10 October, remains in force as recovery continues.",
+  "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. A tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled, and an intense aftershock sequence followed. UNICEF's Situation Report No. 7 (1-13 November 2026) puts 64,747 people affected and 4,478 people in 140 authorized shelters nationwide; the confirmed death toll remains 2, per PAHO's last published count. Panama's national State of Emergency, declared 10 October, remains in force as recovery continues.",
   "event": {
     "impact": {
       "deaths": 2,
-      "displaced": 4501,
-      "summary": "PAHO's Situation Report 4 (28 October 2026) raised the confirmed death toll to 2, with 27 injured, 52,874 people affected, and 4,501 people sheltering in 141 active shelters -- both figures up sharply from the 55 shelters and 3,827 sheltered recorded two weeks earlier. More than 1,000 aftershocks have been recorded since the 9 October mainshock. GDACS's exposure estimate holds at about 130,000 people in MMI VII+ zones (Score 1.4, Overall Orange); Panama's national State of Emergency, declared 10 October, remains in force."
+      "displaced": 4478,
+      "summary": "UNICEF's Situation Report No. 7 (reporting period 1-13 November 2026) puts 64,747 people affected (EDAN estimates) and 16,148 children and adolescents affected, up sharply from the 52,874 people affected recorded in late October; 4,478 people remain in temporary shelters among 140 shelters authorized nationwide, roughly steady versus 4,501 people in 141 shelters two weeks earlier. 20,466 houses have been assessed, and 619 schools and 122 health facilities are reported affected. The confirmed death toll remains 2 (27 injured), per PAHO's Situation Report 4, as no newer casualty figure has been published. GDACS's exposure estimate holds at about 130,000 people in MMI VII+ zones (Score 1.4, Overall Orange); Panama's national State of Emergency, declared 10 October, remains in force."
     },
     "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
     "location": {
@@ -141,18 +149,18 @@
     "status": "ongoing"
   },
   "id": "panama-earthquake-azuero-2026",
-  "last_updated": "2026-11-26T09:09:29Z",
+  "last_updated": "2026-11-28T09:09:16Z",
   "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-26T09:09:29Z",
+        "at": "2026-11-28T09:09:16Z",
         "layer": "verify",
-        "run_id": "2026-11-26T09-09-29Z-7659a6"
+        "run_id": "2026-11-28T09-09-16Z-fdd8f3"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-26T09-09-29Z-7659a6"
+    "last_run_id": "2026-11-28T09-09-16Z-fdd8f3"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -161,6 +169,10 @@
     "recency_rank": 739898
   },
   "updates": [
+    {
+      "date": "2026-11-13",
+      "text": "UNICEF's Situation Report No. 7 (1-13 November) put people affected at 64,747 (EDAN estimates), up sharply from 52,874 in late October, with 16,148 children affected and 20,466 houses assessed; 4,478 people remain in 140 authorized shelters, roughly steady versus 4,501 in 141 shelters two weeks earlier. No newer casualty figure was reported; the toll remains 2 deaths, 27 injured."
+    },
     {
       "date": "2026-10-28",
       "text": "PAHO's Situation Report 4 raised the confirmed death toll to 2 and reported 52,874 people affected and 4,501 people sheltering in 141 active shelters, up sharply from 3,827 people in 55 shelters two weeks earlier; more than 1,000 aftershocks have now been recorded since the 9 October mainshock, while injuries (27) remain unchanged."
@@ -196,7 +208,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

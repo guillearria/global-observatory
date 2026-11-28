@@ -1,0 +1,64 @@
+{
+  "category": "drought",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-11-28",
+      "source_name": "Fijian Government",
+      "source_url": "https://www.fiji.gov.fj/fiji-declares-national-state-of-disaster-as-el-nino-drought-reaches-crisis-level/",
+      "text": "The Fijian Government's press release (18 November 2026) states Cabinet declared \"a National State of Disaster for the whole of Fiji\" under Section 91 of the National Disaster Risk Management Act 2024, on the advice of the National Disaster Risk Management Council, after updated assessments found the El Niño drought had reached crisis thresholds; the declaration remains in force for a period not exceeding 30 days, subject to the Act.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-11-28",
+      "source_name": "Fijian Government",
+      "source_url": "https://www.fiji.gov.fj/fiji-declares-national-state-of-disaster-as-el-nino-drought-reaches-crisis-level/",
+      "text": "The same Fijian Government press release reports the government reallocated FJ$20 million in existing ministerial funds toward emergency water supply, affected communities, and support for farmers and livestock owners; measures include more than two million litres of emergency water already delivered to maritime communities in the preceding month, intensified water carting and public-health/sanitation protection under the National El Niño Preparedness and Response Plan, six farmer-support initiatives from the Ministry of Agriculture, Waterways and Sugar Industry, and higher monthly eTransport top-ups for eligible older persons and persons with disabilities. No death, injury or displacement figure is reported.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Fiji's government declared a National State of Disaster for the whole country on 18 November 2026 after an intensifying El Niño drove rainfall well below normal across most of the archipelago. The declaration, made under the National Disaster Risk Management Act 2024, reallocated FJ$20 million toward emergency water supply and support for farmers and livestock owners. The Fiji Meteorological Service expects the dry conditions to persist into 2027, and the government has prioritised water deliveries to remote and maritime communities.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "Fiji's government press release reports no death, injury or displacement total; it describes a nationwide drought emergency met with FJ$20 million in reallocated funds for emergency water carting, farmer and livestock support, and public-health/sanitation measures. Over two million litres of emergency water had been delivered to maritime communities in the month before the declaration. The declaration runs up to 30 days at a time and can be extended by Cabinet."
+    },
+    "live_source_url": "https://www.fiji.gov.fj/Media-Centre/News",
+    "location": {
+      "country": "Fiji",
+      "lat": -17.7134,
+      "lon": 178.065,
+      "region": "Nationwide, with priority response for remote and maritime communities"
+    },
+    "occurrence_date": "2026-11-18",
+    "scale": "National State of Disaster (Act s.91); FJ$20M emergency allocation",
+    "status": "ongoing"
+  },
+  "id": "fiji-drought-el-nino-2026",
+  "last_updated": "2026-11-28T09:10:56Z",
+  "name": "National State of Disaster — El Niño Drought, Fiji",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-11-28T09:10:56Z",
+        "layer": "verify",
+        "run_id": "2026-11-28T09-10-56Z-c91847"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-11-28T09-10-56Z-c91847"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7399381.0,
+    "impact_rank": 1,
+    "recency_rank": 739938
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

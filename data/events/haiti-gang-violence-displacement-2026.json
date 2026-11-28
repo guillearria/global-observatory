@@ -234,6 +234,22 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-38",
+      "retrieved_date": "2026-11-28",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-116-displacement-following-armed-violence-commune-port-au",
+      "text": "IOM DTM 'Haiti -- Emergency Tracking Tool (ETT) 116' (armed violence beginning 16 November 2026, covering 16-25 November 2026, published 25 November 2026) recorded approximately 2,021 people (585 households) displaced in the commune of Port-au-Prince, West department, mainly affecting Bas Martissant, Cite de l'Eternel and Village de Dieu -- the first ETT in this series to track displacement within Port-au-Prince commune itself, rather than Artibonite or the capital's outlying communes.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-39",
+      "retrieved_date": "2026-11-28",
+      "source_name": "IOM Displacement Tracking Matrix (DTM)",
+      "source_url": "https://dtm.iom.int/reports/haiti-update-displacement-situation-spontaneous-sites-october-2026",
+      "text": "IOM DTM 'Haiti -- Update on the displacement situation in spontaneous sites (October 2026)' (covering 19 October-2 November 2026, published 25 November 2026) reports the number of spontaneous displacement sites nationwide rose from 222 to 230 (16 closed, 24 newly opened) between September and October 2026, while the IDP population sheltering in those sites fell about 8%, from 224,050 to 207,051, over the same period.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-6",
       "retrieved_date": "2026-08-08",
       "source_name": "ReliefWeb",
@@ -258,12 +274,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "Gang violence in Haiti has killed at least 4,595 people and injured 2,050 between 1 January and 31 October 2026, per OHCHR, and displaced about 1.49 million people, with displacement spreading beyond Port-au-Prince into previously safer areas. OHCHR reports at least 1,497 women and girls subjected to sexual violence between January and September, mainly gang rape. IOM's DTM Round 14 (through 12 August) put the national displacement total near 1.49 million IDPs; several departments have since seen further armed-violence displacement, most recently a sharp upward revision to about 7,010 people in Croix-des-Bouquets (ETT 113.1, 17 November) and a new displacement of about 617 people in Saint-Marc, Artibonite (ETT 115, 17 November). The Security Council renewed the Gang Suppression Force's mandate on 29 September, to 31 March 2027. Separately, IOM's spontaneous-sites tracking found the number of such sites nationwide fell from 236 to 222 between July and September 2026, even as the population sheltering in them rose 2% to about 224,050.",
+  "description": "Gang violence in Haiti has killed at least 4,595 people and injured 2,050 between 1 January and 31 October 2026, per OHCHR, and displaced about 1.49 million people, with displacement spreading beyond Port-au-Prince into previously safer areas. IOM's DTM Round 14 (through 12 August) put the national displacement total near 1.49 million IDPs; the most recent incident, ETT 116, recorded about 2,021 people displaced in Port-au-Prince commune itself (16-25 November) -- the first in this series to track displacement inside the capital rather than Artibonite or its outlying communes. IOM separately reported that the population in spontaneous displacement sites nationwide fell 8% in October, to about 207,051 people, even as the number of such sites rose from 222 to 230. The Security Council renewed the Gang Suppression Force's mandate on 29 September, to 31 March 2027.",
   "event": {
     "impact": {
       "deaths": 4595,
       "displaced": 1490000,
-      "summary": "OHCHR reported on 17 November 2026 that at least 4,595 people were killed and 2,050 injured by armed violence in Haiti between 1 January and 31 October 2026, including 1,167 killed and 459 injured in the third quarter alone; at least 1,497 people, mainly women and girls, were subjected to sexual violence between January and September. IOM's DTM Round 14 report puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite recording the largest departmental increase (+16%). Further armed-violence displacements have followed, most recently a sharp upward revision to about 7,010 people in Croix-des-Bouquets (ETT 113.1, 17 November, up from 1,937) and a new displacement of about 617 people in Saint-Marc, Artibonite (ETT 115, 17 November); the Security Council renewed the Gang Suppression Force's mandate to 31 March 2027. Separately, IOM's spontaneous-sites tracking (published 8 November) found the number of such sites nationwide fell from 236 to 222 between July and September, even as the population sheltering in them rose 2% to about 224,050."
+      "summary": "OHCHR reported on 17 November 2026 that at least 4,595 people were killed and 2,050 injured by armed violence in Haiti between 1 January and 31 October 2026, including 1,167 killed and 459 injured in the third quarter alone; at least 1,497 people, mainly women and girls, were subjected to sexual violence between January and September. IOM's DTM Round 14 report puts Haiti's national internal displacement total at nearly 1.49 million people. The most recent incident-level report, ETT 116, recorded about 2,021 people (585 households) displaced in Port-au-Prince commune itself (16-25 November), mainly from Bas Martissant, Cite de l'Eternel and Village de Dieu. Separately, IOM's spontaneous-sites tracking (published 25 November, data to 2 November) found the population sheltering in such sites nationwide fell 8%, from 224,050 to 207,051, even as the number of sites rose from 222 to 230; the Security Council renewed the Gang Suppression Force's mandate to 31 March 2027."
     },
     "live_source_url": "https://dtm.iom.int/haiti",
     "location": {
@@ -277,18 +293,18 @@
     "status": "ongoing"
   },
   "id": "haiti-gang-violence-displacement-2026",
-  "last_updated": "2026-11-26T09:09:57Z",
+  "last_updated": "2026-11-28T09:08:58Z",
   "name": "Gang Violence Displacement Crisis — Haiti",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-26T09:09:57Z",
+        "at": "2026-11-28T09:08:58Z",
         "layer": "verify",
-        "run_id": "2026-11-26T09-09-57Z-eb2587"
+        "run_id": "2026-11-28T09-08-58Z-705b04"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-26T09-09-57Z-eb2587"
+    "last_run_id": "2026-11-28T09-08-58Z-705b04"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -297,6 +313,10 @@
     "recency_rank": 739816
   },
   "updates": [
+    {
+      "date": "2026-11-25",
+      "text": "IOM's Emergency Tracking Tool 116 recorded about 2,021 people (585 households) displaced in Port-au-Prince commune itself (16-25 November) -- the first ETT in this series inside the capital proper. Separately, IOM found spontaneous-site population nationwide fell 8% in October, to about 207,051, even as site count rose from 222 to 230."
+    },
     {
       "date": "2026-11-17",
       "text": "OHCHR reported at least 4,595 people killed and 2,050 injured by armed violence in Haiti between 1 January and 31 October 2026 -- a more precise national aggregate than earlier partial tolls -- including 514 killed in Q3 security operations against gangs and 44 in police extrajudicial killings; at least 1,497 people were subjected to sexual violence January-September."
@@ -388,7 +408,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 32 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 34 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

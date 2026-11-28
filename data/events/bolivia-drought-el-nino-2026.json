@@ -1,0 +1,64 @@
+{
+  "category": "drought",
+  "claims": [
+    {
+      "id": "claim-1",
+      "retrieved_date": "2026-11-28",
+      "source_name": "PAHO",
+      "source_url": "https://www.paho.org/en/natural-hazards-monitoring/natural-hazards-monitoring-2-november-2026",
+      "text": "PAHO's Natural Hazards Monitoring report for 2 November 2026 states, citing media reports from 1 November 2026 as unofficial figures, that \"the Government declared a National State of Emergency due to drought and risks associated with El Niño,\" covering hazards associated with the 2026-2027 El Niño episode.",
+      "verification_status": "verified"
+    },
+    {
+      "id": "claim-2",
+      "retrieved_date": "2026-11-28",
+      "source_name": "PAHO",
+      "source_url": "https://www.paho.org/en/natural-hazards-monitoring/natural-hazards-monitoring-2-november-2026",
+      "text": "The same PAHO report gives, as unofficial figures from media reports covering 1 June-29 October 2026: \"114,048 families were affected across 63 municipalities in six departments,\" of which 78,217 were affected and 35,831 severely affected; 1,486 communities and 167,511 hectares of agricultural land were affected, with 60,106 hectares reported lost; and \"75,013 livestock deaths\" are reported.",
+      "verification_status": "verified"
+    }
+  ],
+  "description": "Bolivia's government declared a National State of Emergency over drought and other El Niño-linked hazards on 31 October 2026, covering risks through the 2026-2027 season. PAHO's regional hazard monitoring, citing Bolivian media reports, puts 114,048 families affected by the drought across 63 municipalities in six departments between 1 June and 29 October 2026, with tens of thousands of hectares of farmland and over 75,000 livestock lost. The declaration frees up government funds and invites international support as the El Niño episode is expected to peak through early 2027.",
+  "event": {
+    "impact": {
+      "deaths": null,
+      "displaced": null,
+      "summary": "PAHO's natural hazards monitoring (2 November 2026), citing Bolivian media reports as unofficial figures, records 114,048 families affected by drought across 63 municipalities in six departments between 1 June and 29 October 2026 — 78,217 affected and 35,831 severely affected — spanning 1,486 communities, with 167,511 hectares of agricultural land affected (60,106 hectares reported lost) and 75,013 livestock deaths. No human death toll has been confirmed by an authoritative source. President Rodrigo Paz's 31 October 2026 decree declares a national emergency over drought and El Niño-related risks for 2026-2027."
+    },
+    "live_source_url": "https://www.paho.org/en/natural-hazards-monitoring/natural-hazards-monitoring-2-november-2026",
+    "location": {
+      "country": "Bolivia",
+      "lat": -16.4897,
+      "lon": -68.1193,
+      "region": "La Paz, Oruro, Potosí, Cochabamba, Chuquisaca, Tarija and Santa Cruz departments"
+    },
+    "occurrence_date": "2026-10-31",
+    "scale": "National State of Emergency (Decreto Supremo); drought across 63 municipalities",
+    "status": "ongoing"
+  },
+  "id": "bolivia-drought-el-nino-2026",
+  "last_updated": "2026-11-28T09:11:00Z",
+  "name": "National Emergency — El Niño Drought, Bolivia",
+  "provenance": {
+    "history": [
+      {
+        "at": "2026-11-28T09:11:00Z",
+        "layer": "verify",
+        "run_id": "2026-11-28T09-11-00Z-2415e5"
+      }
+    ],
+    "last_layer": "verify",
+    "last_run_id": "2026-11-28T09-11-00Z-2415e5"
+  },
+  "schema_version": "1.0",
+  "sort_keys": {
+    "composite": 7399201.0,
+    "impact_rank": 1,
+    "recency_rank": 739920
+  },
+  "verification": {
+    "confidence": "high",
+    "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+    "status": "verified"
+  }
+}

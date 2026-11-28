@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T09:13:59Z",
+  "last_updated": "2026-11-28T09:11:00Z",
   "published": [
     {
       "category": "flood",
@@ -482,6 +482,70 @@
         "composite": 7398421.0,
         "impact_rank": 1,
         "recency_rank": 739842
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "drought",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-11-28",
+          "source_name": "PAHO",
+          "source_url": "https://www.paho.org/en/natural-hazards-monitoring/natural-hazards-monitoring-2-november-2026",
+          "text": "PAHO's Natural Hazards Monitoring report for 2 November 2026 states, citing media reports from 1 November 2026 as unofficial figures, that \"the Government declared a National State of Emergency due to drought and risks associated with El Niño,\" covering hazards associated with the 2026-2027 El Niño episode.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-11-28",
+          "source_name": "PAHO",
+          "source_url": "https://www.paho.org/en/natural-hazards-monitoring/natural-hazards-monitoring-2-november-2026",
+          "text": "The same PAHO report gives, as unofficial figures from media reports covering 1 June-29 October 2026: \"114,048 families were affected across 63 municipalities in six departments,\" of which 78,217 were affected and 35,831 severely affected; 1,486 communities and 167,511 hectares of agricultural land were affected, with 60,106 hectares reported lost; and \"75,013 livestock deaths\" are reported.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Bolivia's government declared a National State of Emergency over drought and other El Niño-linked hazards on 31 October 2026, covering risks through the 2026-2027 season. PAHO's regional hazard monitoring, citing Bolivian media reports, puts 114,048 families affected by the drought across 63 municipalities in six departments between 1 June and 29 October 2026, with tens of thousands of hectares of farmland and over 75,000 livestock lost. The declaration frees up government funds and invites international support as the El Niño episode is expected to peak through early 2027.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "PAHO's natural hazards monitoring (2 November 2026), citing Bolivian media reports as unofficial figures, records 114,048 families affected by drought across 63 municipalities in six departments between 1 June and 29 October 2026 — 78,217 affected and 35,831 severely affected — spanning 1,486 communities, with 167,511 hectares of agricultural land affected (60,106 hectares reported lost) and 75,013 livestock deaths. No human death toll has been confirmed by an authoritative source. President Rodrigo Paz's 31 October 2026 decree declares a national emergency over drought and El Niño-related risks for 2026-2027."
+        },
+        "live_source_url": "https://www.paho.org/en/natural-hazards-monitoring/natural-hazards-monitoring-2-november-2026",
+        "location": {
+          "country": "Bolivia",
+          "lat": -16.4897,
+          "lon": -68.1193,
+          "region": "La Paz, Oruro, Potosí, Cochabamba, Chuquisaca, Tarija and Santa Cruz departments"
+        },
+        "occurrence_date": "2026-10-31",
+        "scale": "National State of Emergency (Decreto Supremo); drought across 63 municipalities",
+        "status": "ongoing"
+      },
+      "id": "bolivia-drought-el-nino-2026",
+      "last_updated": "2026-11-28T09:11:00Z",
+      "name": "National Emergency — El Niño Drought, Bolivia",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-11-28T09:11:00Z",
+            "layer": "verify",
+            "run_id": "2026-11-28T09-11-00Z-2415e5"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-11-28T09-11-00Z-2415e5"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7399201.0,
+        "impact_rank": 1,
+        "recency_rank": 739920
       },
       "verification": {
         "confidence": "high",
@@ -1008,7 +1072,7 @@
         },
         {
           "id": "claim-5",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1573141, episode 1741837), re-checked 4 November 2026, remains Overall Orange with its automated GDACS score at 1.9 (up slightly from 1.6 three days earlier); the exposed-population estimate is unchanged at about 10,000 people in MMI VII or greater zones, and no updated casualty figures or newer episode have been published beyond the 26 October prefabricated-housing headline already on record.",
@@ -1034,18 +1098,18 @@
         "status": "ongoing"
       },
       "id": "china-earthquake-nagqu-2026",
-      "last_updated": "2026-11-26T09:09:29Z",
+      "last_updated": "2026-11-28T09:09:03Z",
       "name": "M7.0 Earthquake, Nagqu (Baqen County), Tibet, China",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:09:29Z",
+            "at": "2026-11-28T09:09:03Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-09-29Z-1f26f1"
+            "run_id": "2026-11-28T09-09-03Z-4206e8"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-09-29Z-1f26f1"
+        "last_run_id": "2026-11-28T09-09-03Z-4206e8"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -1571,7 +1635,7 @@
         },
         {
           "id": "claim-12",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ",
           "text": "GDACS's earthquake report for this event (event id 1557236, episode 1724218) remains an Overall Red alert with a GDACS score of 2.2, now estimating about 5.4 million people within zones of MMI VII or greater shaking, up from about 5.2 million previously recorded on the same page; the most recent listed activity is UNITAR-UNOSAT's 'Potentially Damaged Buildings' assessment, activated 21 August 2026 10:25 UTC.",
@@ -1717,18 +1781,18 @@
         "status": "ongoing"
       },
       "id": "colombia-earthquake-choco-2026",
-      "last_updated": "2026-11-26T09:09:29Z",
+      "last_updated": "2026-11-28T09:09:04Z",
       "name": "M7.4 Earthquake, Chocó, Colombia",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:09:29Z",
+            "at": "2026-11-28T09:09:04Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-09-29Z-713356"
+            "run_id": "2026-11-28T09-09-04Z-1a02c4"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-09-29Z-713356"
+        "last_run_id": "2026-11-28T09-09-04Z-1a02c4"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2044,7 +2108,7 @@
         },
         {
           "id": "claim-11",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/11/1168865",
           "text": "UN News (24 November 2026) reports WHO staff and Ebola responders remained sheltered in a hospital maternity ward in Ituri as of 24 November, with conflict and heavy rain preventing a safe evacuation. A UNICEF-backed real-time survey of violence against women and girls during the outbreak, conducted with SOFEPADI and Washington University across five Ituri health zones, interviewed 1,062 women and adolescent girls: nearly six in ten reported violence or abuse starting or increasing since the outbreak began, and among the seven in ten living in households that underwent isolation, quarantine or contact tracing, nearly two-thirds reported new or increased violence. Visits to SOFEPADI's eight safe spaces in Ituri nearly tripled, from 1,183 in January-March to 3,584 in July-September.",
@@ -2110,18 +2174,18 @@
         "status": "ongoing"
       },
       "id": "drc-north-kivu-ituri-displacement-2026",
-      "last_updated": "2026-11-26T09:11:13Z",
+      "last_updated": "2026-11-28T09:10:17Z",
       "name": "Conflict Displacement Surge — North Kivu & Ituri, DR Congo",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:11:13Z",
+            "at": "2026-11-28T09:10:17Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-11-13Z-c4f640"
+            "run_id": "2026-11-28T09-10-17Z-b5cbdf"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-11-13Z-c4f640"
+        "last_run_id": "2026-11-28T09-10-17Z-b5cbdf"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2569,6 +2633,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-new-ecdc-nov26",
+          "retrieved_date": "2026-11-28",
+          "source_name": "ECDC",
+          "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "text": "ECDC's country overview (page last updated 26 November 2026, 16:15) reports the Democratic Republic of the Congo has recorded 12,021 confirmed cases, including 5,904 related deaths, as of 25 November 2026 (data up until 24 November), up from 11,504 cases and 5,630 deaths as of 17 November. The outbreak remains spread across the same eight provinces. Kenya's linked cluster (nine cases, two deaths) and Nigeria's single imported case remain closed, both with secondary transmission limited to contacts of the original imported cases and no further onward spread reported.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-new-ecdc-nov4",
           "retrieved_date": "2026-11-05",
           "source_name": "ECDC",
@@ -2833,12 +2905,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda, Kenya and Nigeria (all now closed). ECDC's newest update (data through 16 November 2026) holds the DRC toll at 11,504 confirmed cases and 5,630 deaths across eight provinces, unchanged from two days earlier. Kenya's nine-case cross-border cluster, seeded by a case imported from DRC via Uganda on 6 October, closed out with two deaths and seven recoveries, all patients discharged and all contacts released from quarantine by 11-13 November. Nigeria's single imported case was discharged from hospital on 11 November with no onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026.",
+      "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda, Kenya and Nigeria (all now closed). ECDC's newest update (data through 24 November 2026) holds the DRC toll at 12,021 confirmed cases and 5,904 deaths across eight provinces, up from 11,504/5,630 a week earlier. Kenya's nine-case cross-border cluster, seeded by a case imported from DRC via Uganda on 6 October, closed out with two deaths and seven recoveries, all patients discharged and all contacts released from quarantine by 11-13 November. Nigeria's single imported case was discharged from hospital on 11 November with no onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026.",
       "event": {
         "impact": {
-          "deaths": 5630,
+          "deaths": 5904,
           "displaced": null,
-          "summary": "ECDC's newest epidemic intelligence update (19 November 2026) holds the DRC toll at 11,504 confirmed cases and 5,630 deaths as of 17 November 2026 (data through 16 November), unchanged from two days earlier. The outbreak remains spread across the same eight provinces. Kenya's nine-case cross-border cluster has closed out: two deaths, and the remaining seven cases recovered and were discharged by 11 November, with all 135 contacts clearing quarantine by the same date. Nigeria's single imported case was discharged from hospital on 11 November 2026, with all 62 contacts clearing quarantine by 13 November and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+          "summary": "ECDC's newest update (page last updated 26 November 2026) holds the DRC toll at 12,021 confirmed cases and 5,904 deaths as of 25 November 2026 (data through 24 November), up from 11,504 cases and 5,630 deaths as of 17 November. The outbreak remains spread across the same eight provinces. Kenya's nine-case cross-border cluster closed out with two deaths and seven recoveries, all patients discharged and all 135 contacts clearing quarantine by 11 November. Nigeria's single imported case was discharged from hospital on 11 November 2026, with all 62 contacts clearing quarantine by 13 November and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
         },
         "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
         "location": {
@@ -2852,18 +2924,18 @@
         "status": "ongoing"
       },
       "id": "ebola-bundibugyo-drc-2026",
-      "last_updated": "2026-11-26T09:08:30Z",
+      "last_updated": "2026-11-28T09:08:21Z",
       "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:08:30Z",
+            "at": "2026-11-28T09:08:21Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-08-30Z-568e37"
+            "run_id": "2026-11-28T09-08-21Z-991114"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-08-30Z-568e37"
+        "last_run_id": "2026-11-28T09-08-21Z-991114"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -2872,6 +2944,10 @@
         "recency_rank": 739751
       },
       "updates": [
+        {
+          "date": "2026-11-26",
+          "text": "ECDC's 26 November update raised the DRC toll to 12,021 confirmed cases and 5,904 deaths (data through 24 November), up from 11,504/5,630 on 17 November. Kenya's and Nigeria's linked clusters remain closed with no onward transmission."
+        },
         {
           "date": "2026-11-24",
           "text": "Kenya's nine-case cross-border cluster closed out (two deaths, seven recoveries, all patients discharged and all 135 contacts released from quarantine by 11 November) and Nigeria's single imported case was discharged from hospital on 11 November with all 62 contacts clearing quarantine by 13 November (ECDC). DRC's toll remains 11,504 cases/5,630 deaths, unchanged from the prior update."
@@ -2951,7 +3027,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 84 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 85 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3080,7 +3156,7 @@
         },
         {
           "id": "claim-27",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/story/2026/11/1168771",
           "text": "UN News (10 November 2026, photo feature credited UNFPA/Sufian Abdulmouty): El Obeid Maternity Hospital in North Kordofan State has come under increasing pressure as tens of thousands of people, many in dire need of healthcare, flee the violence engulfing neighbouring South Kordofan State. The hospital faces equipment shortages, with only 4 of 7 operating rooms functional, and limited anesthesia capacity, leading to maternal deaths. The article separately notes UN Human Rights Council investigators say civilians in El Obeid live in constant fear of drone attack.",
@@ -3146,18 +3222,18 @@
         "status": "ongoing"
       },
       "id": "el-obeid-siege-sudan-2026",
-      "last_updated": "2026-11-26T09:11:56Z",
+      "last_updated": "2026-11-28T09:10:17Z",
       "name": "Siege of El Obeid — North Kordofan, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:11:56Z",
+            "at": "2026-11-28T09:10:17Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-11-56Z-d981c1"
+            "run_id": "2026-11-28T09-10-17Z-faa5d0"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-11-56Z-d981c1"
+        "last_run_id": "2026-11-28T09-10-17Z-faa5d0"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -3332,6 +3408,70 @@
       "verification": {
         "confidence": "high",
         "notes": "gate: 6 verified, 0 disputed, 0 unverified -> verified",
+        "status": "verified"
+      }
+    },
+    {
+      "category": "drought",
+      "claims": [
+        {
+          "id": "claim-1",
+          "retrieved_date": "2026-11-28",
+          "source_name": "Fijian Government",
+          "source_url": "https://www.fiji.gov.fj/fiji-declares-national-state-of-disaster-as-el-nino-drought-reaches-crisis-level/",
+          "text": "The Fijian Government's press release (18 November 2026) states Cabinet declared \"a National State of Disaster for the whole of Fiji\" under Section 91 of the National Disaster Risk Management Act 2024, on the advice of the National Disaster Risk Management Council, after updated assessments found the El Niño drought had reached crisis thresholds; the declaration remains in force for a period not exceeding 30 days, subject to the Act.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-2",
+          "retrieved_date": "2026-11-28",
+          "source_name": "Fijian Government",
+          "source_url": "https://www.fiji.gov.fj/fiji-declares-national-state-of-disaster-as-el-nino-drought-reaches-crisis-level/",
+          "text": "The same Fijian Government press release reports the government reallocated FJ$20 million in existing ministerial funds toward emergency water supply, affected communities, and support for farmers and livestock owners; measures include more than two million litres of emergency water already delivered to maritime communities in the preceding month, intensified water carting and public-health/sanitation protection under the National El Niño Preparedness and Response Plan, six farmer-support initiatives from the Ministry of Agriculture, Waterways and Sugar Industry, and higher monthly eTransport top-ups for eligible older persons and persons with disabilities. No death, injury or displacement figure is reported.",
+          "verification_status": "verified"
+        }
+      ],
+      "description": "Fiji's government declared a National State of Disaster for the whole country on 18 November 2026 after an intensifying El Niño drove rainfall well below normal across most of the archipelago. The declaration, made under the National Disaster Risk Management Act 2024, reallocated FJ$20 million toward emergency water supply and support for farmers and livestock owners. The Fiji Meteorological Service expects the dry conditions to persist into 2027, and the government has prioritised water deliveries to remote and maritime communities.",
+      "event": {
+        "impact": {
+          "deaths": null,
+          "displaced": null,
+          "summary": "Fiji's government press release reports no death, injury or displacement total; it describes a nationwide drought emergency met with FJ$20 million in reallocated funds for emergency water carting, farmer and livestock support, and public-health/sanitation measures. Over two million litres of emergency water had been delivered to maritime communities in the month before the declaration. The declaration runs up to 30 days at a time and can be extended by Cabinet."
+        },
+        "live_source_url": "https://www.fiji.gov.fj/Media-Centre/News",
+        "location": {
+          "country": "Fiji",
+          "lat": -17.7134,
+          "lon": 178.065,
+          "region": "Nationwide, with priority response for remote and maritime communities"
+        },
+        "occurrence_date": "2026-11-18",
+        "scale": "National State of Disaster (Act s.91); FJ$20M emergency allocation",
+        "status": "ongoing"
+      },
+      "id": "fiji-drought-el-nino-2026",
+      "last_updated": "2026-11-28T09:10:56Z",
+      "name": "National State of Disaster — El Niño Drought, Fiji",
+      "provenance": {
+        "history": [
+          {
+            "at": "2026-11-28T09:10:56Z",
+            "layer": "verify",
+            "run_id": "2026-11-28T09-10-56Z-c91847"
+          }
+        ],
+        "last_layer": "verify",
+        "last_run_id": "2026-11-28T09-10-56Z-c91847"
+      },
+      "schema_version": "1.0",
+      "sort_keys": {
+        "composite": 7399381.0,
+        "impact_rank": 1,
+        "recency_rank": 739938
+      },
+      "verification": {
+        "confidence": "high",
+        "notes": "gate: 2 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -3644,7 +3784,7 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "OCHA oPt",
           "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-18-november-2026",
           "text": "OCHA oPt's Humanitarian Situation Report (18 November 2026, published 20 November): the Site Management Cluster recorded approximately 487 alerts, with damage reported to over 40,000 shelters (more than 9,000 beyond repair) and 960 latrines, and at least 12 health facilities and service delivery points affected; preliminary assessments of the 6-8 November rain still estimate about 46,000 households (226,000 people) affected, with more than 5,000 households reportedly sleeping without shelter. IOM's 17 November briefing said at least 60,000 of the more than 90,000 tents it had brought into Gaza over the preceding two and a half years required replacement, and more than 150,000 tents procured by humanitarian partners and Member States remained outside Gaza awaiting entry.",
@@ -3670,18 +3810,18 @@
         "status": "ongoing"
       },
       "id": "gaza-floods-2026",
-      "last_updated": "2026-11-26T09:08:51Z",
+      "last_updated": "2026-11-28T09:09:17Z",
       "name": "Heavy Rain & Flooding — Gaza Strip",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:08:51Z",
+            "at": "2026-11-28T09:09:17Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-08-51Z-caa88e"
+            "run_id": "2026-11-28T09-09-17Z-8c203d"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-08-51Z-caa88e"
+        "last_run_id": "2026-11-28T09-09-17Z-8c203d"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4139,6 +4279,22 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-38",
+          "retrieved_date": "2026-11-28",
+          "source_name": "IOM Displacement Tracking Matrix (DTM)",
+          "source_url": "https://dtm.iom.int/reports/haiti-emergency-tracking-tool-116-displacement-following-armed-violence-commune-port-au",
+          "text": "IOM DTM 'Haiti -- Emergency Tracking Tool (ETT) 116' (armed violence beginning 16 November 2026, covering 16-25 November 2026, published 25 November 2026) recorded approximately 2,021 people (585 households) displaced in the commune of Port-au-Prince, West department, mainly affecting Bas Martissant, Cite de l'Eternel and Village de Dieu -- the first ETT in this series to track displacement within Port-au-Prince commune itself, rather than Artibonite or the capital's outlying communes.",
+          "verification_status": "verified"
+        },
+        {
+          "id": "claim-39",
+          "retrieved_date": "2026-11-28",
+          "source_name": "IOM Displacement Tracking Matrix (DTM)",
+          "source_url": "https://dtm.iom.int/reports/haiti-update-displacement-situation-spontaneous-sites-october-2026",
+          "text": "IOM DTM 'Haiti -- Update on the displacement situation in spontaneous sites (October 2026)' (covering 19 October-2 November 2026, published 25 November 2026) reports the number of spontaneous displacement sites nationwide rose from 222 to 230 (16 closed, 24 newly opened) between September and October 2026, while the IDP population sheltering in those sites fell about 8%, from 224,050 to 207,051, over the same period.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-6",
           "retrieved_date": "2026-08-08",
           "source_name": "ReliefWeb",
@@ -4163,12 +4319,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "Gang violence in Haiti has killed at least 4,595 people and injured 2,050 between 1 January and 31 October 2026, per OHCHR, and displaced about 1.49 million people, with displacement spreading beyond Port-au-Prince into previously safer areas. OHCHR reports at least 1,497 women and girls subjected to sexual violence between January and September, mainly gang rape. IOM's DTM Round 14 (through 12 August) put the national displacement total near 1.49 million IDPs; several departments have since seen further armed-violence displacement, most recently a sharp upward revision to about 7,010 people in Croix-des-Bouquets (ETT 113.1, 17 November) and a new displacement of about 617 people in Saint-Marc, Artibonite (ETT 115, 17 November). The Security Council renewed the Gang Suppression Force's mandate on 29 September, to 31 March 2027. Separately, IOM's spontaneous-sites tracking found the number of such sites nationwide fell from 236 to 222 between July and September 2026, even as the population sheltering in them rose 2% to about 224,050.",
+      "description": "Gang violence in Haiti has killed at least 4,595 people and injured 2,050 between 1 January and 31 October 2026, per OHCHR, and displaced about 1.49 million people, with displacement spreading beyond Port-au-Prince into previously safer areas. IOM's DTM Round 14 (through 12 August) put the national displacement total near 1.49 million IDPs; the most recent incident, ETT 116, recorded about 2,021 people displaced in Port-au-Prince commune itself (16-25 November) -- the first in this series to track displacement inside the capital rather than Artibonite or its outlying communes. IOM separately reported that the population in spontaneous displacement sites nationwide fell 8% in October, to about 207,051 people, even as the number of such sites rose from 222 to 230. The Security Council renewed the Gang Suppression Force's mandate on 29 September, to 31 March 2027.",
       "event": {
         "impact": {
           "deaths": 4595,
           "displaced": 1490000,
-          "summary": "OHCHR reported on 17 November 2026 that at least 4,595 people were killed and 2,050 injured by armed violence in Haiti between 1 January and 31 October 2026, including 1,167 killed and 459 injured in the third quarter alone; at least 1,497 people, mainly women and girls, were subjected to sexual violence between January and September. IOM's DTM Round 14 report puts Haiti's national internal displacement total at nearly 1.49 million people, with Artibonite recording the largest departmental increase (+16%). Further armed-violence displacements have followed, most recently a sharp upward revision to about 7,010 people in Croix-des-Bouquets (ETT 113.1, 17 November, up from 1,937) and a new displacement of about 617 people in Saint-Marc, Artibonite (ETT 115, 17 November); the Security Council renewed the Gang Suppression Force's mandate to 31 March 2027. Separately, IOM's spontaneous-sites tracking (published 8 November) found the number of such sites nationwide fell from 236 to 222 between July and September, even as the population sheltering in them rose 2% to about 224,050."
+          "summary": "OHCHR reported on 17 November 2026 that at least 4,595 people were killed and 2,050 injured by armed violence in Haiti between 1 January and 31 October 2026, including 1,167 killed and 459 injured in the third quarter alone; at least 1,497 people, mainly women and girls, were subjected to sexual violence between January and September. IOM's DTM Round 14 report puts Haiti's national internal displacement total at nearly 1.49 million people. The most recent incident-level report, ETT 116, recorded about 2,021 people (585 households) displaced in Port-au-Prince commune itself (16-25 November), mainly from Bas Martissant, Cite de l'Eternel and Village de Dieu. Separately, IOM's spontaneous-sites tracking (published 25 November, data to 2 November) found the population sheltering in such sites nationwide fell 8%, from 224,050 to 207,051, even as the number of sites rose from 222 to 230; the Security Council renewed the Gang Suppression Force's mandate to 31 March 2027."
         },
         "live_source_url": "https://dtm.iom.int/haiti",
         "location": {
@@ -4182,18 +4338,18 @@
         "status": "ongoing"
       },
       "id": "haiti-gang-violence-displacement-2026",
-      "last_updated": "2026-11-26T09:09:57Z",
+      "last_updated": "2026-11-28T09:08:58Z",
       "name": "Gang Violence Displacement Crisis — Haiti",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:09:57Z",
+            "at": "2026-11-28T09:08:58Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-09-57Z-eb2587"
+            "run_id": "2026-11-28T09-08-58Z-705b04"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-09-57Z-eb2587"
+        "last_run_id": "2026-11-28T09-08-58Z-705b04"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -4202,6 +4358,10 @@
         "recency_rank": 739816
       },
       "updates": [
+        {
+          "date": "2026-11-25",
+          "text": "IOM's Emergency Tracking Tool 116 recorded about 2,021 people (585 households) displaced in Port-au-Prince commune itself (16-25 November) -- the first ETT in this series inside the capital proper. Separately, IOM found spontaneous-site population nationwide fell 8% in October, to about 207,051, even as site count rose from 222 to 230."
+        },
         {
           "date": "2026-11-17",
           "text": "OHCHR reported at least 4,595 people killed and 2,050 injured by armed violence in Haiti between 1 January and 31 October 2026 -- a more precise national aggregate than earlier partial tolls -- including 514 killed in Q3 security operations against gangs and 44 in police extrajudicial killings; at least 1,497 people were subjected to sexual violence January-September."
@@ -4293,7 +4453,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 32 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 34 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -4893,7 +5053,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1000148&episodeid=2&eventtype=VO",
           "text": "GDACS's report for this event (event ID VO 1000148) rates the Krakatau eruption an Orange alert, \"unlikely to require external humanitarian assistance based on the exposed population and coping capacity,\" with about 2,000 people within 30km and no people affected within 100km; it records a Volcanic Explosivity Index of 6 for the episode, running from 04 Sep 2026 21:00 UTC to 05 Sep 2026 14:30 UTC. Re-checked 1 November 2026: the report page is unchanged, still showing episode 2 as the latest and no updated exposure or casualty figures; geologi.esdm.go.id could not be reached to confirm the press-reported Level III status.",
@@ -4959,18 +5119,18 @@
         "status": "ongoing"
       },
       "id": "indonesia-volcano-krakatau-2026",
-      "last_updated": "2026-11-26T09:09:29Z",
+      "last_updated": "2026-11-28T09:09:04Z",
       "name": "Volcanic Eruption — Krakatau, Indonesia",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:09:29Z",
+            "at": "2026-11-28T09:09:04Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-09-29Z-560202"
+            "run_id": "2026-11-28T09-09-04Z-335b55"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-09-29Z-560202"
+        "last_run_id": "2026-11-28T09-09-04Z-335b55"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5197,7 +5357,7 @@
         },
         {
           "id": "claim-19",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/situations/middle_eastern",
           "text": "UNHCR's Operational Data Portal for the Middle East situation now records, for movements since 28 February 2026: 636,400 Iranian nationals who have crossed into neighbouring countries (31 October 2026, up from 633,500), with 534,800 having crossed back into Iran (unchanged, 28 September 2026); 379,500 Lebanese refugees now in Syria (31 October 2026, up from 325,400) and 304,520 new IDPs within Lebanon (31 October 2026, down from 329,686) -- a combined 1,320,420 people displaced or newly refugees across Iran and Lebanon -- plus 1,107,600 Afghan returnee movements and 1,233,300 Syrian returnee movements (both 31 October 2026), a combined 2,340,900, up from about 2.1 million.",
@@ -5295,18 +5455,18 @@
         "status": "ongoing"
       },
       "id": "iran-israel-us-war-2026",
-      "last_updated": "2026-11-26T09:11:26Z",
+      "last_updated": "2026-11-28T09:09:18Z",
       "name": "Iran-Israel-US War",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:11:26Z",
+            "at": "2026-11-28T09:09:18Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-11-26Z-739721"
+            "run_id": "2026-11-28T09-09-18Z-845c44"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-11-26Z-739721"
+        "last_run_id": "2026-11-28T09-09-18Z-845c44"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -5945,7 +6105,7 @@
         },
         {
           "id": "claim-8",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "Japan Meteorological Agency (JMA)",
           "source_url": "https://www.data.jma.go.jp/vois/data/report/volinfo/VK20261120160000_108.html",
           "text": "JMA's Tokachidake Explanatory Information Bulletin No. 37, issued 20 November 2026 at 16:00 JST (Sapporo Regional Meteorological Observatory), continues Alert Level 2 (crater-vicinity restriction); an eruption could still affect the area within approximately 1.5 km of crater 62-2. Seismicity near crater 62-2 has occasionally intensified since April, sulfur dioxide emissions remain elevated since April, and inflation-related ground deformation near the edifice has continued since March. Thermal activity remains elevated, with increased plume/fumarole heights and continued heating at the Furikosawa fumarole group; the bulletin refers readers to local authorities for restriction details rather than naming municipalities directly.",
@@ -5971,18 +6131,18 @@
         "status": "ongoing"
       },
       "id": "japan-volcano-tokachidake-2026",
-      "last_updated": "2026-11-26T09:09:30Z",
+      "last_updated": "2026-11-28T09:09:04Z",
       "name": "Volcanic Unrest — Mount Tokachidake, Japan",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:09:30Z",
+            "at": "2026-11-28T09:09:04Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-09-30Z-bc7427"
+            "run_id": "2026-11-28T09-09-04Z-f1b8b2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-09-30Z-bc7427"
+        "last_run_id": "2026-11-28T09-09-04Z-f1b8b2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -6395,7 +6555,7 @@
         },
         {
           "id": "claim-27",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "GDACS",
           "source_url": "https://gdacs.org/report.aspx?eventid=1544720&eventtype=EQ",
           "text": "Re-checked 4 November 2026: reliefweb.int (this record's live_source_url) again returned HTTP 403 Forbidden, and dromic.dswd.gov.ph returned HTTP 503, both unreachable. As an alternate allowlisted check, GDACS's report page for this event was fetched and remains active with an Overall Orange alert, GDACS score 1.8, modeled population exposure of about 4.4 million people at MMI>=VII and an observed tsunami wave of about 0.83 m, unchanged from the prior read -- GDACS's own automated impact-model figures, distinct from the ground-assessed OCHA casualty snapshot (94 deaths) and DSWD displacement/housing figures already on file; they do not supersede those confirmed figures. No new confirmed casualty or displacement figure was found via any accessible allowlisted source.",
@@ -6477,18 +6637,18 @@
         "status": "ongoing"
       },
       "id": "mindanao-earthquake-philippines-2026",
-      "last_updated": "2026-11-26T09:09:29Z",
+      "last_updated": "2026-11-28T09:09:04Z",
       "name": "Mindanao M7.8 Earthquake & Tsunami — Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:09:29Z",
+            "at": "2026-11-28T09:09:04Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-09-29Z-8f3826"
+            "run_id": "2026-11-28T09-09-04Z-6239cc"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-09-29Z-8f3826"
+        "last_run_id": "2026-11-28T09-09-04Z-6239cc"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7276,6 +7436,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-16",
+          "retrieved_date": "2026-11-28",
+          "source_name": "UNICEF",
+          "source_url": "https://www.unicef.org/media/186021/file/Panama-Humanitarian-Situation-Report-No.7(Earthquake),1-13-November-2026.pdf.pdf",
+          "text": "UNICEF's Panama Earthquake Situation Report No. 7 (reporting period 1-13 November 2026): per SINAPROC/EDAN estimates, 64,747 people are affected, 16,148 children and adolescents are affected, 20,466 houses have been assessed, 4,478 people remain in temporary shelters among 140 shelters authorized nationwide, 619 schools and 122 health facilities are reported affected. The report carries no death or injury figures.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-2",
           "retrieved_date": "2026-10-10",
           "source_name": "GDACS",
@@ -7340,12 +7508,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. A tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled, and an intense aftershock sequence has continued, with more than 1,000 aftershocks recorded by 28 October. PAHO's Situation Report 4 records 2 confirmed deaths, 27 injured, 52,874 people affected and 4,501 people sheltering in 141 active shelters, both up sharply from two weeks earlier. Panama's national State of Emergency, declared 10 October, remains in force as recovery continues.",
+      "description": "A magnitude 7.7 earthquake struck southern Panama on 9 October 2026, centered in Herrera Province on the Azuero Peninsula, about 200 km southwest of Panama City. A tsunami warning covering the Pacific coasts of Panama, Colombia, Ecuador, Nicaragua and Guatemala was issued and later cancelled, and an intense aftershock sequence followed. UNICEF's Situation Report No. 7 (1-13 November 2026) puts 64,747 people affected and 4,478 people in 140 authorized shelters nationwide; the confirmed death toll remains 2, per PAHO's last published count. Panama's national State of Emergency, declared 10 October, remains in force as recovery continues.",
       "event": {
         "impact": {
           "deaths": 2,
-          "displaced": 4501,
-          "summary": "PAHO's Situation Report 4 (28 October 2026) raised the confirmed death toll to 2, with 27 injured, 52,874 people affected, and 4,501 people sheltering in 141 active shelters -- both figures up sharply from the 55 shelters and 3,827 sheltered recorded two weeks earlier. More than 1,000 aftershocks have been recorded since the 9 October mainshock. GDACS's exposure estimate holds at about 130,000 people in MMI VII+ zones (Score 1.4, Overall Orange); Panama's national State of Emergency, declared 10 October, remains in force."
+          "displaced": 4478,
+          "summary": "UNICEF's Situation Report No. 7 (reporting period 1-13 November 2026) puts 64,747 people affected (EDAN estimates) and 16,148 children and adolescents affected, up sharply from the 52,874 people affected recorded in late October; 4,478 people remain in temporary shelters among 140 shelters authorized nationwide, roughly steady versus 4,501 people in 141 shelters two weeks earlier. 20,466 houses have been assessed, and 619 schools and 122 health facilities are reported affected. The confirmed death toll remains 2 (27 injured), per PAHO's Situation Report 4, as no newer casualty figure has been published. GDACS's exposure estimate holds at about 130,000 people in MMI VII+ zones (Score 1.4, Overall Orange); Panama's national State of Emergency, declared 10 October, remains in force."
         },
         "live_source_url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ",
         "location": {
@@ -7359,18 +7527,18 @@
         "status": "ongoing"
       },
       "id": "panama-earthquake-azuero-2026",
-      "last_updated": "2026-11-26T09:09:29Z",
+      "last_updated": "2026-11-28T09:09:16Z",
       "name": "M7.7 Earthquake, Azuero Peninsula, Panama",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:09:29Z",
+            "at": "2026-11-28T09:09:16Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-09-29Z-7659a6"
+            "run_id": "2026-11-28T09-09-16Z-fdd8f3"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-09-29Z-7659a6"
+        "last_run_id": "2026-11-28T09-09-16Z-fdd8f3"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7379,6 +7547,10 @@
         "recency_rank": 739898
       },
       "updates": [
+        {
+          "date": "2026-11-13",
+          "text": "UNICEF's Situation Report No. 7 (1-13 November) put people affected at 64,747 (EDAN estimates), up sharply from 52,874 in late October, with 16,148 children affected and 20,466 houses assessed; 4,478 people remain in 140 authorized shelters, roughly steady versus 4,501 in 141 shelters two weeks earlier. No newer casualty figure was reported; the toll remains 2 deaths, 27 injured."
+        },
         {
           "date": "2026-10-28",
           "text": "PAHO's Situation Report 4 raised the confirmed death toll to 2 and reported 52,874 people affected and 4,501 people sheltering in 141 active shelters, up sharply from 3,827 people in 55 shelters two weeks earlier; more than 1,000 aftershocks have now been recorded since the 9 October mainshock, while injuries (27) remain unchanged."
@@ -7414,7 +7586,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -7742,7 +7914,7 @@
       "claims": [
         {
           "id": "claim-1",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "GDACS",
           "source_url": "https://www.gdacs.org/report.aspx?eventid=1000152&eventtype=VO",
           "text": "GDACS's event report for Kanlaon Volcano (GDACS event ID VO 1000152, event date 10 Oct 2026) rates the eruption an Orange alert, \"likely to have a medium humanitarian impact based on the magnitude and the affected population's vulnerability,\" estimating about 870,000 people within 30km of the volcano and about 10,790,000 within 100km. Re-checked 21 November 2026: the report page is unchanged, still showing episode 1 as the latest with no updated exposure, casualty or displacement figures; both dromic.dswd.gov.ph and PHIVOLCS's wovodat.phivolcs.dost.gov.ph bulletin host again returned HTTP 503, so no newer DSWD/PHIVOLCS report could be checked for this eruption.",
@@ -7792,18 +7964,18 @@
         "status": "ongoing"
       },
       "id": "philippines-kanlaon-volcano-eruption-2026",
-      "last_updated": "2026-11-26T09:09:30Z",
+      "last_updated": "2026-11-28T09:09:04Z",
       "name": "Kanlaon Volcano Eruption, Negros Island, Philippines",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:09:30Z",
+            "at": "2026-11-28T09:09:04Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-09-30Z-5cff36"
+            "run_id": "2026-11-28T09-09-04Z-b94a4f"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-09-30Z-5cff36"
+        "last_run_id": "2026-11-28T09-09-04Z-b94a4f"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -7987,7 +8159,7 @@
         },
         {
           "id": "claim-3",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "ICRC",
           "source_url": "https://www.icrc.org/en/news-release/somalia-baidoa-communities-bear-cost-renewed-fighting-el-nino-looms",
           "text": "ICRC news release (17 November 2026), citing UNHCR's Somalia Q3 2026 report: renewed fighting in and around Baidoa has displaced more than 18,000 people, accounting for nearly half of all conflict-related displacement recorded in Somalia during the July-September quarter; Bay region hosts more than half a million displaced people (UNHCR Operational Data Portal). Nearly 26,000 people in Baidoa could face severe food insecurity by late December per IPC experts, aid cuts have caused clinic closures, and the ICRC/Somali Red Crescent Society have transported 527 injured people to hospital since the fighting; the release describes Baidoa as having become 'a ghost town' after the September clashes. The ICRC also warns communities face heavy rainfall and flooding risk from an anticipated El Nino event, and has distributed 10,500 sandbags to Red Crescent clinics and flood-proofed 14 water points.",
@@ -8013,18 +8185,18 @@
         "status": "ongoing"
       },
       "id": "somalia-baidoa-clashes-displacement-2026",
-      "last_updated": "2026-11-26T09:10:19Z",
+      "last_updated": "2026-11-28T09:09:04Z",
       "name": "Baidoa Clashes & Displacement — South West State, Somalia",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:10:19Z",
+            "at": "2026-11-28T09:09:04Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-10-19Z-3034b8"
+            "run_id": "2026-11-28T09-09-04Z-2491f6"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-10-19Z-3034b8"
+        "last_run_id": "2026-11-28T09-09-04Z-2491f6"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8795,6 +8967,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-26",
+          "retrieved_date": "2026-11-28",
+          "source_name": "WHO",
+          "source_url": "https://www.who.int/countries/sdn",
+          "text": "Re-checked 28 November 2026: WHO's main Sudan country page (who.int/countries/sdn) was fetched successfully and still carries no Sudan cholera item newer than the 24 September 2026 press release already on file. No new confirmed cholera case or death figure for the June 2026 outbreak was found via any accessible allowlisted source.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-3",
           "retrieved_date": "2026-07-25",
           "source_name": "ReliefWeb",
@@ -8846,18 +9026,18 @@
         "status": "ongoing"
       },
       "id": "sudan-cholera-outbreak-2026",
-      "last_updated": "2026-11-26T09:09:54Z",
+      "last_updated": "2026-11-28T09:08:29Z",
       "name": "Cholera Outbreak — Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:09:54Z",
+            "at": "2026-11-28T09:08:29Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-09-54Z-957e9e"
+            "run_id": "2026-11-28T09-08-29Z-fb6789"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-09-54Z-957e9e"
+        "last_run_id": "2026-11-28T09-08-29Z-fb6789"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -8889,7 +9069,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 15 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 16 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -9034,7 +9214,7 @@
         },
         {
           "id": "claim-31",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/sdn",
           "text": "UNHCR's Operational Data Portal for Sudan (checked 11 November 2026): internally displaced persons within Sudan now stand at 8,585,611 (source: Humanitarian Needs Overview), up slightly from 8,583,274 as of the 30 September 2026 update; refugees and asylum-seekers in Sudan stand at 921,476 (sources: COR, IPP, UNHCR), up from 909,744 as of 30 September. Both figures are labeled 'last updated 31 Oct 2026'.",
@@ -9068,18 +9248,18 @@
         "status": "ongoing"
       },
       "id": "sudan-displacement-crisis",
-      "last_updated": "2026-11-26T09:12:53Z",
+      "last_updated": "2026-11-28T09:10:17Z",
       "name": "Sudan Displacement Crisis",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:12:53Z",
+            "at": "2026-11-28T09:10:17Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-12-53Z-85d345"
+            "run_id": "2026-11-28T09-10-17Z-20ca5c"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-12-53Z-85d345"
+        "last_run_id": "2026-11-28T09-10-17Z-20ca5c"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -9200,7 +9380,7 @@
         },
         {
           "id": "claim-14",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "United Nations",
           "source_url": "https://news.un.org/en/audio/2026/11/1168826",
           "text": "UN News (17 November 2026), citing OHCHR's report on the human rights situation in Sudan: at least 2,230 civilians were confirmed killed nationally between January and the end of October 2026, with more than 80% of casualties in the first six months caused by drone strikes; Kordofan accounted for more than two-thirds of documented non-combatant casualties, Darfur most of the remainder, and at least 41 civilians were killed in White Nile state during the reporting period. OHCHR documented unlawful and indiscriminate killings, reprisals against suspected collaborators and sexual violence used as a weapon of war, and said the true toll is likely higher; High Commissioner Volker Turk said these violations may amount to war crimes.",
@@ -9290,18 +9470,18 @@
         "status": "ongoing"
       },
       "id": "sudan-drone-strikes-kordofan-abyei-2026",
-      "last_updated": "2026-11-26T09:13:38Z",
+      "last_updated": "2026-11-28T09:10:17Z",
       "name": "Drone-Strike Escalation — West Kordofan, Blue Nile & Abyei, Sudan",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:13:38Z",
+            "at": "2026-11-28T09:10:17Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-13-38Z-5dea9d"
+            "run_id": "2026-11-28T09-10-17Z-c6e4e2"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-13-38Z-5dea9d"
+        "last_run_id": "2026-11-28T09-10-17Z-c6e4e2"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -11389,7 +11569,7 @@
         },
         {
           "id": "claim-14",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "CDC",
           "source_url": "https://www.cdc.gov/measles/data-research/index.html",
           "text": "CDC's measles data page states: \"As of November 24, 2026, 6,039 confirmed measles cases were reported in the United States in 2026,\" up from 5,838 as of November 19; the cumulative 'Total Deaths' figure has risen to 9, up from 6, footnoted as subject to change.",
@@ -11479,18 +11659,18 @@
         "status": "ongoing"
       },
       "id": "usa-new-york-measles-outbreak-2026",
-      "last_updated": "2026-11-26T09:09:00Z",
+      "last_updated": "2026-11-28T09:09:17Z",
       "name": "Measles State Disaster Emergency — New York, USA",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:09:00Z",
+            "at": "2026-11-28T09:09:17Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-09-00Z-5494ab"
+            "run_id": "2026-11-28T09-09-17Z-f48edf"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-09-00Z-5494ab"
+        "last_run_id": "2026-11-28T09-09-17Z-f48edf"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -12518,6 +12698,14 @@
           "verification_status": "verified"
         },
         {
+          "id": "claim-35",
+          "retrieved_date": "2026-11-26",
+          "source_name": "OCHA oPt",
+          "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-26-november-2026",
+          "text": "OCHA's oPt Humanitarian Situation Report (26 November 2026, reporting period 17-23 November) records two Palestinians killed in the West Bank: an Israeli settlement guard shot and killed a Palestinian man near Dura al Qar' (Ramallah), and a settlement security coordinator opened fire on two Palestinian men approaching Beit El settlement, killing one. The report also records 47 Palestinians injured (six children; 39 by Israeli forces, 8 by settlers) and 55 settler attacks causing casualties or property damage across 46 communities, below the 2026 weekly average of 53. Demolitions displaced 67 Palestinians (29 children) from 79 structures, and Israeli forces operations displaced 11 more; cumulative 2026 West Bank displacement due to settler violence, related access restrictions and demolitions for lacking an Israeli-issued building permit reached 4,992, with the Jordan Valley accounting for 1,567 of that total.",
+          "verification_status": "verified"
+        },
+        {
           "id": "claim-4",
           "retrieved_date": "2026-07-30",
           "source_name": "United Nations",
@@ -12542,12 +12730,12 @@
           "verification_status": "verified"
         }
       ],
-      "description": "A surge in Israeli settler violence and military operations has made 2026 the deadliest and most attack-intensive year on record for the West Bank. At least 91 Palestinians and 4 Israelis have been killed since the year began, alongside weekly settler attacks and demolitions that OCHA tracks across hundreds of communities. OCHA's 18 November report recorded a 72-year-old woman shot and killed by a settler in Ein ad Duyuk at Tahta, Jericho, on 16 November, plus 62 injured and 40 further settler attacks across 30 communities -- below the 2026 weekly average of 53. Cumulative 2026 displacement across demolitions, settler attacks and evictions has passed 5,150 people, averaging more than 16 per day.",
+      "description": "A surge in Israeli settler violence and military operations has made 2026 the deadliest and most attack-intensive year on record for the West Bank. At least 93 Palestinians and 4 Israelis have been killed since the year began, alongside weekly settler attacks and demolitions that OCHA tracks across hundreds of communities. OCHA's 26 November report recorded two new deaths in the 17-23 November week -- one near Dura al Qar' (Ramallah) by an Israeli settlement guard, one at Beit El settlement by a settlement security coordinator -- plus 47 injured and 55 further settler attacks across 46 communities. OCHA's running total for 2026 displacement from settler violence, access restrictions and demolitions stands at 4,992.",
       "event": {
         "impact": {
-          "deaths": 91,
-          "displaced": 5150,
-          "summary": "OCHA's newest Humanitarian Situation Report (10-16 November, published 18 November) recorded one new Palestinian fatality -- a 72-year-old woman shot and killed by a settler in Ein ad Duyuk at Tahta, Jericho, on 16 November -- raising the 2026 West Bank toll to at least 91 Palestinians (plus 4 Israelis) killed. The week also saw 62 Palestinians injured (38 by settlers, 24 by Israeli forces) and 40 settler attacks across 30 communities, below the 2026 weekly average of 53. Demolitions and settler attacks/access restrictions displaced a further 84 people, pushing cumulative 2026 West Bank displacement past 5,150 -- 56% from settler violence/access restrictions, 42% from demolitions, 2% from evictions."
+          "deaths": 93,
+          "displaced": 4992,
+          "summary": "OCHA's 26 November report (17-23 November) recorded two new Palestinian deaths -- near Dura al Qar' (Ramallah) and at Beit El settlement, both at the hands of settler security personnel -- raising the 2026 West Bank toll to at least 93 Palestinians (plus 4 Israelis) killed. The week also saw 47 Palestinians injured and 55 settler attacks across 46 communities, below the 2026 weekly average of 53. OCHA's running tally of 2026 displacement from settler violence, access restrictions and demolitions for lacking a building permit stands at 4,992, with the Jordan Valley accounting for nearly a third (1,567)."
         },
         "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-18-november-2026",
         "location": {
@@ -12561,18 +12749,18 @@
         "status": "ongoing"
       },
       "id": "west-bank-settler-violence-surge-2026",
-      "last_updated": "2026-11-26T09:13:59Z",
+      "last_updated": "2026-11-28T09:09:21Z",
       "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:13:59Z",
+            "at": "2026-11-28T09:09:21Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-13-59Z-c318b3"
+            "run_id": "2026-11-28T09-09-21Z-9bebe0"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-13-59Z-c318b3"
+        "last_run_id": "2026-11-28T09-09-21Z-9bebe0"
       },
       "schema_version": "1.0",
       "sort_keys": {
@@ -12581,6 +12769,10 @@
         "recency_rank": 739821
       },
       "updates": [
+        {
+          "date": "2026-11-26",
+          "text": "OCHA's 26 November report (17-23 Nov) recorded two new deaths -- near Dura al Qar', Ramallah, and at Beit El settlement, both by settler security personnel -- raising the 2026 toll to at least 93. 47 injured and 55 settler attacks across 46 communities; 2026 displacement tally (settler violence/access restrictions plus demolitions) stands at 4,992, Jordan Valley nearly a third (1,567)."
+        },
         {
           "date": "2026-11-18",
           "text": "OCHA's 18 November report (10-16 Nov) recorded a 72-year-old woman shot and killed by a settler in Ein ad Duyuk at Tahta, Jericho on 16 November, raising the 2026 toll to at least 91 Palestinians killed; 62 injured and 40 settler attacks across 30 communities followed. 2026 displacement passed 5,150, with settler violence/access restrictions now the largest share (56%)."
@@ -12664,7 +12856,7 @@
       ],
       "verification": {
         "confidence": "high",
-        "notes": "gate: 26 verified, 0 disputed, 0 unverified -> verified",
+        "notes": "gate: 27 verified, 0 disputed, 0 unverified -> verified",
         "status": "verified"
       }
     },
@@ -12929,7 +13121,7 @@
         },
         {
           "id": "claim-44",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "UNHCR",
           "source_url": "https://data.unhcr.org/en/country/yem",
           "text": "UNHCR's Yemen operational data portal now records 360,622 people newly internally displaced since 1 August 2026 (source: DTM, IOM; page last updated 19 November 2026), up from 320,849 as of the 7 November update, consistent with IOM DTM Update #19's 356,602 figure (1 August-17 November) already on file.",
@@ -12945,7 +13137,7 @@
         },
         {
           "id": "claim-46",
-          "retrieved_date": "2026-11-26",
+          "retrieved_date": "2026-11-28",
           "source_name": "IOM Displacement Tracking Matrix (DTM)",
           "source_url": "https://dtm.iom.int/reports/yemen-displacement-caused-escalation-western-yemen-update-20-25-november-2026",
           "text": "IOM's Displacement Tracking Matrix 'Yemen - Displacement Caused by Escalation in Western Yemen - Update #20' (published 25 November 2026) records cumulative displacement since the escalation began in June 2026 at 376,078 individuals (62,666 households) as of 24 November 2026, up from 357,658 as of 17 November; displacement for 1 August-24 November totals approximately 375,022 individuals (62,490 households). Ta'iz remains the largest governorate with 146,616 (39%), followed by Lahj (102,132, 27%) and Aden (78,900, 21%).",
@@ -13011,18 +13203,18 @@
         "status": "ongoing"
       },
       "id": "yemen-conflict-escalation-2026",
-      "last_updated": "2026-11-26T09:13:23Z",
+      "last_updated": "2026-11-28T09:09:18Z",
       "name": "Yemen Conflict Escalation",
       "provenance": {
         "history": [
           {
-            "at": "2026-11-26T09:13:23Z",
+            "at": "2026-11-28T09:09:18Z",
             "layer": "verify",
-            "run_id": "2026-11-26T09-13-23Z-80a750"
+            "run_id": "2026-11-28T09-09-18Z-a736e9"
           }
         ],
         "last_layer": "verify",
-        "last_run_id": "2026-11-26T09-13-23Z-80a750"
+        "last_run_id": "2026-11-28T09-09-18Z-a736e9"
       },
       "schema_version": "1.0",
       "sort_keys": {

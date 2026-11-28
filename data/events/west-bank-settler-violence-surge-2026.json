@@ -186,6 +186,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-35",
+      "retrieved_date": "2026-11-26",
+      "source_name": "OCHA oPt",
+      "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-26-november-2026",
+      "text": "OCHA's oPt Humanitarian Situation Report (26 November 2026, reporting period 17-23 November) records two Palestinians killed in the West Bank: an Israeli settlement guard shot and killed a Palestinian man near Dura al Qar' (Ramallah), and a settlement security coordinator opened fire on two Palestinian men approaching Beit El settlement, killing one. The report also records 47 Palestinians injured (six children; 39 by Israeli forces, 8 by settlers) and 55 settler attacks causing casualties or property damage across 46 communities, below the 2026 weekly average of 53. Demolitions displaced 67 Palestinians (29 children) from 79 structures, and Israeli forces operations displaced 11 more; cumulative 2026 West Bank displacement due to settler violence, related access restrictions and demolitions for lacking an Israeli-issued building permit reached 4,992, with the Jordan Valley accounting for 1,567 of that total.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-4",
       "retrieved_date": "2026-07-30",
       "source_name": "United Nations",
@@ -210,12 +218,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A surge in Israeli settler violence and military operations has made 2026 the deadliest and most attack-intensive year on record for the West Bank. At least 91 Palestinians and 4 Israelis have been killed since the year began, alongside weekly settler attacks and demolitions that OCHA tracks across hundreds of communities. OCHA's 18 November report recorded a 72-year-old woman shot and killed by a settler in Ein ad Duyuk at Tahta, Jericho, on 16 November, plus 62 injured and 40 further settler attacks across 30 communities -- below the 2026 weekly average of 53. Cumulative 2026 displacement across demolitions, settler attacks and evictions has passed 5,150 people, averaging more than 16 per day.",
+  "description": "A surge in Israeli settler violence and military operations has made 2026 the deadliest and most attack-intensive year on record for the West Bank. At least 93 Palestinians and 4 Israelis have been killed since the year began, alongside weekly settler attacks and demolitions that OCHA tracks across hundreds of communities. OCHA's 26 November report recorded two new deaths in the 17-23 November week -- one near Dura al Qar' (Ramallah) by an Israeli settlement guard, one at Beit El settlement by a settlement security coordinator -- plus 47 injured and 55 further settler attacks across 46 communities. OCHA's running total for 2026 displacement from settler violence, access restrictions and demolitions stands at 4,992.",
   "event": {
     "impact": {
-      "deaths": 91,
-      "displaced": 5150,
-      "summary": "OCHA's newest Humanitarian Situation Report (10-16 November, published 18 November) recorded one new Palestinian fatality -- a 72-year-old woman shot and killed by a settler in Ein ad Duyuk at Tahta, Jericho, on 16 November -- raising the 2026 West Bank toll to at least 91 Palestinians (plus 4 Israelis) killed. The week also saw 62 Palestinians injured (38 by settlers, 24 by Israeli forces) and 40 settler attacks across 30 communities, below the 2026 weekly average of 53. Demolitions and settler attacks/access restrictions displaced a further 84 people, pushing cumulative 2026 West Bank displacement past 5,150 -- 56% from settler violence/access restrictions, 42% from demolitions, 2% from evictions."
+      "deaths": 93,
+      "displaced": 4992,
+      "summary": "OCHA's 26 November report (17-23 November) recorded two new Palestinian deaths -- near Dura al Qar' (Ramallah) and at Beit El settlement, both at the hands of settler security personnel -- raising the 2026 West Bank toll to at least 93 Palestinians (plus 4 Israelis) killed. The week also saw 47 Palestinians injured and 55 settler attacks across 46 communities, below the 2026 weekly average of 53. OCHA's running tally of 2026 displacement from settler violence, access restrictions and demolitions for lacking a building permit stands at 4,992, with the Jordan Valley accounting for nearly a third (1,567)."
     },
     "live_source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-18-november-2026",
     "location": {
@@ -229,18 +237,18 @@
     "status": "ongoing"
   },
   "id": "west-bank-settler-violence-surge-2026",
-  "last_updated": "2026-11-26T09:13:59Z",
+  "last_updated": "2026-11-28T09:09:21Z",
   "name": "West Bank Settler Violence Surge & Nablus-Area Attack — Occupied Palestinian Territory",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-26T09:13:59Z",
+        "at": "2026-11-28T09:09:21Z",
         "layer": "verify",
-        "run_id": "2026-11-26T09-13-59Z-c318b3"
+        "run_id": "2026-11-28T09-09-21Z-9bebe0"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-26T09-13-59Z-c318b3"
+    "last_run_id": "2026-11-28T09-09-21Z-9bebe0"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -249,6 +257,10 @@
     "recency_rank": 739821
   },
   "updates": [
+    {
+      "date": "2026-11-26",
+      "text": "OCHA's 26 November report (17-23 Nov) recorded two new deaths -- near Dura al Qar', Ramallah, and at Beit El settlement, both by settler security personnel -- raising the 2026 toll to at least 93. 47 injured and 55 settler attacks across 46 communities; 2026 displacement tally (settler violence/access restrictions plus demolitions) stands at 4,992, Jordan Valley nearly a third (1,567)."
+    },
     {
       "date": "2026-11-18",
       "text": "OCHA's 18 November report (10-16 Nov) recorded a 72-year-old woman shot and killed by a settler in Ein ad Duyuk at Tahta, Jericho on 16 November, raising the 2026 toll to at least 91 Palestinians killed; 62 injured and 40 settler attacks across 30 communities followed. 2026 displacement passed 5,150, with settler violence/access restrictions now the largest share (56%)."
@@ -332,7 +344,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 26 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 27 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }

@@ -410,6 +410,14 @@
       "verification_status": "verified"
     },
     {
+      "id": "claim-new-ecdc-nov26",
+      "retrieved_date": "2026-11-28",
+      "source_name": "ECDC",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "text": "ECDC's country overview (page last updated 26 November 2026, 16:15) reports the Democratic Republic of the Congo has recorded 12,021 confirmed cases, including 5,904 related deaths, as of 25 November 2026 (data up until 24 November), up from 11,504 cases and 5,630 deaths as of 17 November. The outbreak remains spread across the same eight provinces. Kenya's linked cluster (nine cases, two deaths) and Nigeria's single imported case remain closed, both with secondary transmission limited to contacts of the original imported cases and no further onward spread reported.",
+      "verification_status": "verified"
+    },
+    {
       "id": "claim-new-ecdc-nov4",
       "retrieved_date": "2026-11-05",
       "source_name": "ECDC",
@@ -674,12 +682,12 @@
       "verification_status": "verified"
     }
   ],
-  "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda, Kenya and Nigeria (all now closed). ECDC's newest update (data through 16 November 2026) holds the DRC toll at 11,504 confirmed cases and 5,630 deaths across eight provinces, unchanged from two days earlier. Kenya's nine-case cross-border cluster, seeded by a case imported from DRC via Uganda on 6 October, closed out with two deaths and seven recoveries, all patients discharged and all contacts released from quarantine by 11-13 November. Nigeria's single imported case was discharged from hospital on 11 November with no onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026.",
+  "description": "A Bundibugyo ebolavirus outbreak declared a Public Health Emergency of International Concern on 17 May 2026 has become the largest Ebola outbreak ever recorded in the Democratic Republic of the Congo, with cross-border and imported chains in Uganda, Kenya and Nigeria (all now closed). ECDC's newest update (data through 24 November 2026) holds the DRC toll at 12,021 confirmed cases and 5,904 deaths across eight provinces, up from 11,504/5,630 a week earlier. Kenya's nine-case cross-border cluster, seeded by a case imported from DRC via Uganda on 6 October, closed out with two deaths and seven recoveries, all patients discharged and all contacts released from quarantine by 11-13 November. Nigeria's single imported case was discharged from hospital on 11 November with no onward transmission. Uganda's linked outbreak was declared over by WHO on 26 August 2026.",
   "event": {
     "impact": {
-      "deaths": 5630,
+      "deaths": 5904,
       "displaced": null,
-      "summary": "ECDC's newest epidemic intelligence update (19 November 2026) holds the DRC toll at 11,504 confirmed cases and 5,630 deaths as of 17 November 2026 (data through 16 November), unchanged from two days earlier. The outbreak remains spread across the same eight provinces. Kenya's nine-case cross-border cluster has closed out: two deaths, and the remaining seven cases recovered and were discharged by 11 November, with all 135 contacts clearing quarantine by the same date. Nigeria's single imported case was discharged from hospital on 11 November 2026, with all 62 contacts clearing quarantine by 13 November and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
+      "summary": "ECDC's newest update (page last updated 26 November 2026) holds the DRC toll at 12,021 confirmed cases and 5,904 deaths as of 25 November 2026 (data through 24 November), up from 11,504 cases and 5,630 deaths as of 17 November. The outbreak remains spread across the same eight provinces. Kenya's nine-case cross-border cluster closed out with two deaths and seven recoveries, all patients discharged and all 135 contacts clearing quarantine by 11 November. Nigeria's single imported case was discharged from hospital on 11 November 2026, with all 62 contacts clearing quarantine by 13 November and no evidence of onward transmission. Uganda's linked outbreak remains closed at 20 confirmed cases and two deaths, declared over by WHO on 26 August 2026."
     },
     "live_source_url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
     "location": {
@@ -693,18 +701,18 @@
     "status": "ongoing"
   },
   "id": "ebola-bundibugyo-drc-2026",
-  "last_updated": "2026-11-26T09:08:30Z",
+  "last_updated": "2026-11-28T09:08:21Z",
   "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
   "provenance": {
     "history": [
       {
-        "at": "2026-11-26T09:08:30Z",
+        "at": "2026-11-28T09:08:21Z",
         "layer": "verify",
-        "run_id": "2026-11-26T09-08-30Z-568e37"
+        "run_id": "2026-11-28T09-08-21Z-991114"
       }
     ],
     "last_layer": "verify",
-    "last_run_id": "2026-11-26T09-08-30Z-568e37"
+    "last_run_id": "2026-11-28T09-08-21Z-991114"
   },
   "schema_version": "1.0",
   "sort_keys": {
@@ -713,6 +721,10 @@
     "recency_rank": 739751
   },
   "updates": [
+    {
+      "date": "2026-11-26",
+      "text": "ECDC's 26 November update raised the DRC toll to 12,021 confirmed cases and 5,904 deaths (data through 24 November), up from 11,504/5,630 on 17 November. Kenya's and Nigeria's linked clusters remain closed with no onward transmission."
+    },
     {
       "date": "2026-11-24",
       "text": "Kenya's nine-case cross-border cluster closed out (two deaths, seven recoveries, all patients discharged and all 135 contacts released from quarantine by 11 November) and Nigeria's single imported case was discharged from hospital on 11 November with all 62 contacts clearing quarantine by 13 November (ECDC). DRC's toll remains 11,504 cases/5,630 deaths, unchanged from the prior update."
@@ -792,7 +804,7 @@
   ],
   "verification": {
     "confidence": "high",
-    "notes": "gate: 84 verified, 0 disputed, 0 unverified -> verified",
+    "notes": "gate: 85 verified, 0 disputed, 0 unverified -> verified",
     "status": "verified"
   }
 }
